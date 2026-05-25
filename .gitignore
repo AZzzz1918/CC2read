@@ -17,8 +17,9 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Personal config
+# Personal config (Obsidian, Claude local settings)
 paper/.obsidian/
 paper/.claudian/
 paper/.claude/
 .claude/settings.local.json
+.claude/projects/
