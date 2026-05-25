@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_3cab8d74d2",
+    "span_index": 0,
+    "text": "GPS Solutions (2023) 27:119\nhttps://doi.org/10.1007/s10291-023-01457-x\nORIGINAL ARTICLE\nExploring characteristics of BDS‑3 PPP‑B2b augmentation messages\nby a three‑step analysis procedure\nChenhao Ouyang1 · Junbo Shi1 · Wenjie Peng1 · Xinying Dong1 · Jiming Guo1 · Yibin Yao1\nReceived: 5 August 2022 / Accepted: 10 April 2023 / Published online: 28 April 2023\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nThis study discovers three critical characteristics of PPP-B2b augmentation messages, potentially improving positioning\ncontinuit",
+    "char_length": 3202
+  },
+  {
+    "quote_id": "qb_3be0e0dc78",
+    "span_index": 1,
+    "text": "119 Page 2 of 16 GPS Solutions (2023) 27:119\nSOD Second of Day two services were designed for different users. The BDS-\nSSR State Space Representation BAS service aimed at users with pseudorange observations,\nWAAS Wide Area Augmentation System whereas the PPP service aimed at users with both pseudor-\nange and phase observations. Yang et al. (2022) reported\nthat positioning results of seven ground tracking stations\nIntroduction\nwithin China showed that the SF BDSBAS service could\nprovide 1.48/1.75 m horizontal/vertical accuracy during\nBDS-3 provides seven types of services, including three data",
+    "char_length": 4801
+  },
+  {
+    "quote_id": "qb_39cf96ce15",
+    "span_index": 2,
+    "text": "GPS Solutions (2023) 27:119 Page 3 of 16 119\nmodulation method and optimized Asymmetric Constant respectively. With the INS integration, an improvement of\nEnvelope Binary Offset Carrier (ACE-BOC) multiplexing 64.1/77.8/73.8% was achieved in E/N/U components.\nmethod were implemented to construct PPP-B2b signals. Previous literatures have demonstrated the basic posi-\nLiu et al. (2022a) compared Quadrature Phase Shift Key- tioning performance using satellite corrections encoded in\ning (QPSK) and BPSK modulation methods. The BPSK PPP-B2b augmentation messages. The discovery of critical\nmethod show",
+    "char_length": 5656
+  },
+  {
+    "quote_id": "qb_731e6ff81f",
+    "span_index": 3,
+    "text": "119 Page 4 of 16 GPS Solutions (2023) 27:119\nFig. 1 Flowchart of BDS-3 PPP-B2b augmentation message char- Data, Correction (IOD Corr) are included in SSR corrections. Issue\nacteristic analysis. Issue of Data, SSR (IOD SSR), Issue of Data, of Data, Clock (IODC) is included in BDS CNAV1 and GPS LNAV\nPRN mask (IODP), Issue of Data, Navigation (IODN) and Issue of ephemerides\nTable 2 Structure of a complete PPP-B2b augmentation message and depends on navigation signals supported by the BDS-3\nframe PPP service.\nContent Preamble PRN Reserved Encoded augmentation To extract real-time SSR corrections f",
+    "char_length": 2663
+  },
+  {
+    "quote_id": "qb_af5a87a1e8",
+    "span_index": 4,
+    "text": "GPS Solutions (2023) 27:119 Page 5 of 16 119\nFig. 2 Structures of MsgType 1 (satellite mask), 2 (orbit correction), 3 (DCB correction), 4 (clock correction) and 63 (null) (CSNO 2020c). The\nlength of each augmentation message is fixed to 486-bit including 6-bit message type ID, 456-bit SSR corrections and 24-bit CRC code\nTable 3 IODs designed in various BDS-3 PPP-B2b augmentation MsgType 1 and 4 are defined to ensure the consistency\nmessages between satellite PRNs and clock corrections. IODN, only\nMsgType ID IOD SSR IODP IODN IOD Corr included in MsgType 2, is defined to ensure the consist-\nenc",
+    "char_length": 1999
+  },
+  {
+    "quote_id": "qb_7b3b6c3b63",
+    "span_index": 5,
+    "text": "119 Page 6 of 16 GPS Solutions (2023) 27:119\nFig. 3 IOD matching strategy for PPP-B2b augmentation mes-\nsages and broadcast ephemerides. Four IOD matching processes\nare required, i.e., IOD SSR matching between MsgType 1 and\nMsgType 2/3/4, IODP matching between MsgType 1 and MsgType 4,\nIODN/IODC matching between MsgType 2 and broadcast ephemeris,\nand IOD Corr matching between MsgType 2 and MsgType 4\nOnce MsgType 4 was decoded, perform the first matching\nbetween IOD SSR and IOD SSR , followed by the second\n(4) (1)\nmatching between IODP and IODP . At last, a matching\n(4) (1)\nbetween IOD Corr and ",
+    "char_length": 3295
+  },
+  {
+    "quote_id": "qb_53fbb355bd",
+    "span_index": 6,
+    "text": "GPS Solutions (2023) 27:119 Page 7 of 16 119\nFigure 5 shows the decoded 6-bit MsgType ID (see messages are successfully decoded from C59 and C60,\nFig. 2) of augmentation messages for C59 on DOY 168, respectively.\n2022. The horizontal axis indicates the receiving time, and\nCharacteristics of BDS‑3 PPP‑B2b augmentation\nis limited to second of day (SOD) 0–500 s in BeiDou time\nmessages\n(BDT). Within the 500-s period, the decoded augmenta-\ntion message amount is 500 (11 + 43 + 41 + 250 + 155 for\nMsgType 1 + 2 + 3 + 4 + 63). From SOD 3.12 s to 483.12 s, With the collected dataset, this section analy",
+    "char_length": 3081
+  },
+  {
+    "quote_id": "qb_5dc3b33a5a",
+    "span_index": 7,
+    "text": "119 Page 8 of 16 GPS Solutions (2023) 27:119\nFig. 6 Latency of PPP-B2b\naugmentation messages for C59\nwithin DOY 168, 2022\nTable 5 Latency of three Message index Decoded Epoch Receiving time Latency (s) Decoded satellites\nconsecutive type 4 messages for\n(SOD in BDT) (SOD in BDT)\nC59 on DOY 168, 2022\n1 46.00 52.12 6.12 C26 C29 C30\nC35 C36 C38\nC39 C40 C42\n2 53.12 7.12 C45 G01 G07\nG08 G09 G10\nG13 G14 G16\n3 54.12 8.12 G21 G27 G30\ncorrespond to an identical Epoch of 46.00 s. However, the The boxplot shown in Fig. 7 illustrates the message\nreceiving times of these Type 4 messages are not identical, l",
+    "char_length": 3096
+  },
+  {
+    "quote_id": "qb_59ebaf7204",
+    "span_index": 8,
+    "text": "GPS Solutions (2023) 27:119 Page 9 of 16 119\nTable 6 Latencies of PPP-B2b augmentation messages for C59 within one cycle from 51.12 to 99.12 s on DOY 168, 2022\nMessage index Receiving time Msgtype Epoch Latency (s) Message index Receiving time MsgType Epoch Latency (s)\n(SOD in BDT) (SOD in (SOD in BDT) (SOD in\nBDT) BDT)\n1 51.12 1 46.00 5.12 25 75.12 63 – –\n2 52.12 4 46.00 6.12 26 76.12 4 70.00 6.12\n3 53.12 7.12 27 77.12 7.12\n4 54.12 8.12 28 78.12 8.12\n5 55.12 3 39.00 16.12 29 79.12 63 – –\n6 56.12 17.12 30 80.12\n7 57.12 18.12 31 81.12\n8 58.12 4 52.00 6.12 32 82.12 4 76.00 6.12\n9 59.12 7.12 33 8",
+    "char_length": 1558
+  },
+  {
+    "quote_id": "qb_5cb632406e",
+    "span_index": 9,
+    "text": "119 Page 10 of 16 GPS Solutions (2023) 27:119\nFig. 8 IOD SSR (top left) and IODP (top right), IODN/IODC (bottom left) and IOD Corr (bottom right) series for C39 during DOY 168, 2022.\nTwo mismatching issues are identified in the bottom plots\nIODC at 20:00:00. After 48 s, IODN at 21:01:08 starts to the IODN/IODC mismatching and the IOD Corr mismatch-\nmatch IODC at 21:00:00. If users start to use the PPP service ing result in failing precise orbit and clock offset recovery.\nwithin the shaded period between 21:00:00 and 21:00:20, More specifically, the failure rate of the precise orbit and\nan IODN",
+    "char_length": 2954
+  },
+  {
+    "quote_id": "qb_a110b81da2",
+    "span_index": 10,
+    "text": "GPS Solutions (2023) 27:119 Page 11 of 16 119\nFig. 9 Amount of successfully recovered BDS-3/GPS orbit (top) and clock offset (bottom), and the IOD mismatching rates during DOY 168–\n172, 2022\nTable 7 IODN/IODC and IOD Corr mismatching rate during DOY 168–172, 2022\nSystem Orbit corrections Clock corrections\nExpected Successful Failing rate due to Expected recovery # Successful recovery # Failing rate due to\nrecovery # recovery # IODN/IODC mismatch- IOD Corr mismatch-\ning ing\nBDS-3 93,184 93,174 0.01% 741,601 735,783 0.78%\nGPS 85,542 85,531 0.01% 679,918 674,212 0.84%\nOverall 178,726 178,705 0.01",
+    "char_length": 738
+  },
+  {
+    "quote_id": "qb_dc511dbd4d",
+    "span_index": 11,
+    "text": "119 Page 12 of 16 GPS Solutions (2023) 27:119\nThe limited distribution of ground tracking stations causes service. As shown in the figure, the PPP service is valid\nthe intermittent availability of satellite corrections. Since within latitude (45.17° S, 57.33° N) and longitude (16.06°\nmost ground tracking stations used for the correction genera- W, 98.64° W).\ntion are distributed within China, corrections become una- Figure 12 shows the number of BDS-3 and GPS satel-\nvailable once the satellite orbits beyond the tracking view. lites with PPP-B2b corrections observed at the location\nThis can exp",
+    "char_length": 1533
+  },
+  {
+    "quote_id": "qb_da51f9a6ba",
+    "span_index": 12,
+    "text": "GPS Solutions (2023) 27:119 Page 13 of 16 119\nsatellite clock corrections is slightly less than that of orbit Figure 13 shows the root mean square (RMS) for orbit\ncorrections, especially during epochs marked with red cir- errors of each satellite. For BDS-3 orbit based on PPP-B2b\ncles. This is caused by the loss of clock correction. Conse- augmentation messages, the accuracy in the R direction is\nquently, the unsuccessful augmentation message decoding slightly improved over that of BDS-3 CNAV1 ephemeri-\nrates of 0.01 and 0.02% were detected for C59 and C60 in des, but not in A and C directions",
+    "char_length": 2936
+  },
+  {
+    "quote_id": "qb_98c6dc8b89",
+    "span_index": 13,
+    "text": "119 Page 14 of 16 GPS Solutions (2023) 27:119\nB1I/B3I ionosphere-free combined signal (Nie et al. 2021). Table 9 Overall clock precisions of BDS-3 and GPS satellites during\nThus, DCB corrections should be considered in the BDS-3 DOY 168–172, 2022\nclock evaluation. For GPS, all clock offsets are referred to Clock type Clock precision (ns)\nthe L1/L2 ionosphere-free combined signal. Thus, no DCB\nBDS-3 MEO BDS-3 IGSO GPS\ncorrections are required.\nFigure 14 shows the five-day clock precision of BDS-3 Broadcast 0.58 0.92 0.27\nand GPS satellites. The clock precision is calculated as the PPP-B2b 0.15 ",
+    "char_length": 3604
+  },
+  {
+    "quote_id": "qb_02c17c788b",
+    "span_index": 14,
+    "text": "GPS Solutions (2023) 27:119 Page 15 of 16 119\nfar no DCB corrections are available for GPS in the signal PPP-B2b (Version 1.0). http://w ww.b eidou.g ov.c n/x t/\nPPP-B2b augmentation messages. gfxz/2 02008/P 02020 08033 62062 48294 0.p df\nFernandez-Hernandez I et al (2022) Galileo high accuracy service:\ninitial definition and performance. GPS Solutions 26:65. https://\nOnce the PPP-b2b augmentation messages are success- doi.o rg/1 0.1 007/s 10291-0 22-0 1247-x\nfully recovered, the BDS-3 MEO/IGSO clock precision and Guo F, Zhang X (2014) Real-time clock jump compensation for pre-\nGPS orbit accur",
+    "char_length": 6543
+  },
+  {
+    "quote_id": "qb_4d09df3bc6",
+    "span_index": 15,
+    "text": "119 Page 16 of 16 GPS Solutions (2023) 27:119\nYang Y, Ding Q, Gao W, Li J, Xu Y, Sun B (2022) Principle and per- Xinying Dong completed her\nformance of BDSBAS and PPP-B2b of BDS-3. Satell Navig 3:5. B.Sc. degree in 2021, and is cur-\nhttps://d oi.o rg/1 0.1 186/s 43020-0 22-0 0066-2 rently a master student in the\nZhang W, Lou Y, Song W, Sun W, Zou X, Gong X (2022) Initial assess- School of Geodesy and Geomat-\nment of BDS-3 precise point positioning service on GEO B2b ics at Wuhan University. Her\nsignal. Adv Space Res 69(1):690–700. https://d oi.o rg/1 0.1 016/j. research involves high-precision",
+    "char_length": 2462
+  }
+]

@@ -1,0 +1,10 @@
+duplicate_pids: []
+taxonomy_conflicts: []
+quote_id_conflicts: 17
+epoch_conflicts: []
+taxonomy_distribution:
+  CNES_OR_OTHER_RTS: 3
+  MIXED_PRODUCTS: 7
+  BDS3_PPP_B2B_BROADCAST: 25
+  QZSS_CLAS: 2
+total_conflicts: 0

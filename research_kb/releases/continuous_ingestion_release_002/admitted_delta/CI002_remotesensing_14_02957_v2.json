@@ -1,0 +1,38 @@
+{
+  "paper_id": "CI002_remotesensing_14_02957_v2",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-002",
+  "bibliographic_info": {
+    "title": "Performance Assessment of BDS-3 PPP-B2b/INS Loosely Coupled Integration"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Performance Assessment of BDS-3 PPP-B2b/INS Loosely Coupled Integration XiaofeiXu1 ,ZhixiNie1,* ,ZhenjieWang1 ,BoyangWang1andQinghuaiDu2 1 CollegeofOceanographyandSpaceInformatics,ChinaUniversityofPetroleum,Qingdao266580,China; b19010058@s.upc.edu.cn(X.X.);sdwzj@upc.edu.cn(Z.W.);b19010077@s.upc.edu.cn(B.W.) 2 ShengliBranch,SinopecGeophysicalCorporation,Dong",
+      "Decimeter-levelpositioningaccuracyisexpectedtobeachievedbasedonthePPP-B2bservice."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 225,
+    "has": 0,
+    "dcb": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "wave": 2,
+  "count": 10,
+  "candidates": [
+    {
+      "filename": "1-s2.0-S0273117725002881-main.pdf",
+      "title": "Precise real-time navigation of the LEO satellite enhanced by BDS-3 PPP-B2b service",
+      "category": "LEO_ORBIT",
+      "b2b": 46,
+      "bds_ppp": 23,
+      "boundary": 0,
+      "abstract": "For the real-time navigation of LEO satellites based on GNSS, the achievable real-time orbit accurac"
+    },
+    {
+      "filename": "applsci-15-07169-v2.pdf",
+      "title": "BDS-PPP-B2b-Based Smartphone Precise Positioning Model Enhanced by Mixed-Frequency Data and Hybrid Weight Function",
+      "category": "SMARTPHONE_LOWCOST",
+      "b2b": 12,
+      "bds_ppp": 8,
+      "boundary": 0,
+      "abstract": "Comparedtohigh-costhardware-basedGlobalNavigationSatelliteSystem(GNSS)posi-\ntioningtechniques,smartp"
+    },
+    {
+      "filename": "remotesensing-17-02351.pdf",
+      "title": "Differences in Time Comparison and Positioning of BDS-3 PPP-B2b Signal Broadcast Through GEO",
+      "category": "PPP_B2B_TIMING",
+      "b2b": 31,
+      "bds_ppp": 23,
+      "boundary": 0,
+      "abstract": "The BeiDou-3 Navigation Satellite System (BDS-3) precise point positioning (PPP) ser-\nvicethroughthe"
+    },
+    {
+      "filename": "1-s2.0-S0273117725011020-main.pdf",
+      "title": "Retrieval of precipitable water vapor by using BeiDou PPP-B2b signal with an ocean-based experiment",
+      "category": "PPP_B2B_ZTD_PWV",
+      "b2b": 38,
+      "bds_ppp": 19,
+      "boundary": 8,
+      "abstract": "Atmospheric precipitable water vapor (PWV) over the ocean is of great importance for monitoring and "
+    },
+    {
+      "filename": "s10291-021-01168-1.pdf",
+      "title": "Initial Assessment of the BDS-3 PPP-B2b RTS compared with the CNES RTS",
+      "category": "BOUNDARY_NON_B2B",
+      "b2b": 38,
+      "bds_ppp": 27,
+      "boundary": 24,
+      "abstract": "In 2020, the BeiDou navigation satellite system (BDS) initiated a real-time service (RTS) for precis"
+    },
+    {
+      "filename": "1-s2.0-S0263224126009619-main.pdf",
+      "title": "Precise LEO orbit determination using regional PPP-B2b augmentation services",
+      "category": "LEO_ORBIT",
+      "b2b": 37,
+      "bds_ppp": 14,
+      "boundary": 0,
+      "abstract": ""
+    },
+    {
+      "filename": "ggag169.pdf",
+      "title": "Real-time high-rate seismogeodesy using Galileo HAS and BDS PPP-B2b products: a shake table experiment and application to the 2024 Mw 7.0 Wushi earthquake",
+      "category": "LEO_ORBIT",
+      "b2b": 35,
+      "bds_ppp": 14,
+      "boundary": 12,
+      "abstract": ""
+    },
+    {
+      "filename": "Qin_2024_Phys._Scr._99_125026.pdf",
+      "title": "Analysis of the performance of the PPP-B2b satellite clock and its effects on time transfer",
+      "category": "LEO_ORBIT",
+      "b2b": 24,
+      "bds_ppp": 20,
+      "boundary": 0,
+      "abstract": "BDS-3iscapableofprovidingprecisepointpositioning(PPP)servicesviaB2bsignalsfortheAsia–\nPacificregion."
+    },
+    {
+      "filename": "1-s2.0-S0263224125021888-main.pdf",
+      "title": "Real-time PPP with the fusion of Galileo HAS and BDS-3 PPP-B2b",
+      "category": "LEO_ORBIT",
+      "b2b": 23,
+      "bds_ppp": 17,
+      "boundary": 11,
+      "abstract": ""
+    },
+    {
+      "filename": "1-s2.0-S0263224126008559-main.pdf",
+      "title": "Integration of GNSS Galileo High accuracy service, BDS-3 PPP-B2b and INS for precise positioning in challenging environments",
+      "category": "LEO_ORBIT",
+      "b2b": 22,
+      "bds_ppp": 24,
+      "boundary": 8,
+      "abstract": ""
+    }
+  ]
+}

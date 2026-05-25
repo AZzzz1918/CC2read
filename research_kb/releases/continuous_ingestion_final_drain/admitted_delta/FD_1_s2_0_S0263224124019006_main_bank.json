@@ -1,0 +1,68 @@
+[
+  {
+    "quote_id": "qb_6bdb95e1e1",
+    "span_index": 0,
+    "text": "Measurement 242 (2025) 116015\nContentslistsavailableatScienceDirect\nMeasurement\njournalhomepage:www.elsevier.com/locate/measurement\nEnhancing BDS-3 PPP-B2b real-time positioning performance by tightly\nintegrating MEMS IMU and LiDAR in GNSS-Degraded environment\nWenzhuo Guoa,b, Linyang Lia,c,d,*, Dongqing Zhaoa, Fengbo Zhua, Luguang Laia\naInstituteofSurveyingandMapping,InformationEngineeringUniversity,Zhengzhou450001,China\nb61365Troops,Tianjin300140,China\ncSchoolofGeodesyandGeomatics,WuhanUniversity,Wuhan430079,China\ndStateKeyLaboratoryofGeo-informationEngineering,Xi’an710054,China\nA R T I C L E",
+    "char_length": 4437
+  },
+  {
+    "quote_id": "qb_c4d9973a1b",
+    "span_index": 1,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nCurrently, the fusion method of GNSS, IMU, and LiDAR can be proposed. Within the sliding window, the planar features of the\ndividedintotheloosecouplingmodelandthetightcouplingmodel.In earliest LiDAR frame are projected onto other LiDAR frames for\ntermsoftheloosecouplingmodel,Gaoetal.[12]utilizedtheposition tracking.\nandvelocityobtainedfromGPSandLiDARtoprovidealternativepe- 3) Thepositioningperformanceisevaluatedbycollectingtwosetsof\nriodiccorrectionstotheIMU.Schützetal.[13]introducedtheLiDAR observationdataintheGNSS-degradedenvironment,andcompar-\nveloci",
+    "char_length": 7178
+  },
+  {
+    "quote_id": "qb_4b48cfdc3e",
+    "span_index": 2,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nFig.1. Converteddistanceimageofthepointcloud.Thedifferentcolorsrepresentdifferentintensities.\nFig.2. Therelationshipofthecoordinatesystemintheplanarfeaturetracking.\nTheblack,red,andgreensystemsrepresentthee-system,b-system,andLiDAR\nsystems,respectively.\n⎧\n⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨\nP ̃\nN\ns r , , C I\nr s\nF\n, , I s F y\n=\ns=\nα⋅ (\n(\nα\nP\n⋅\ns r , ,\nλ\n(\nC B\ns i\n1\ny\nI\nsN\n+\ns r , ,\nD\ns i ys\nC\n+\nBs B\nβ\n, 1 C\n⋅\nI(cid:0)\nλs j\nB\ny\n3\ns\nI\nN\n)\ns r , ,\n+\ns j ys\n) β⋅\n/\nP\nλ\ns r\ns I\n, ,\n)\nF y\nC B\ns\n3I\nFig.4. Onboardexperimentalhardwareplatform.\n⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩ N\nN\n̂\n̂\nN ̂\ns r\ns r\ns",
+    "char_length": 2399
+  },
+  {
+    "quote_id": "qb_f1d4bb9b64",
+    "span_index": 3,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nFig.5. Thetrajectoriesofthetwoexperiments.Thetopandbottompanelsare\nthetrajectoriesatthecampusandthepark,respectively.TheGNSS-degraded\nenvironmentconsistsofurbancanyons,unstructuredshelters,andthicktrees.\nephemerisreferstotheB3Isignal.Additionally,bs\nIF\nandbr,IF represent\nthesatelliteandreceiverphasedelaysintheformoftheIFcombination,\nrespectively,incycles.Additionally,εs r,IF andξs r,IF denotethemeasure-\nmentnoiseforthepseudorangeandphase,respectively.\nThe observation function of real-time BDS-3 PPP-B2b with the\nassistanceofGalileobroadcastephemeridescan",
+    "char_length": 1647
+  },
+  {
+    "quote_id": "qb_ccab78ade8",
+    "span_index": 4,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nFig.7. ThenumberofavailablesatellitesandthePDOPofthetwodatasets.\nThetopandbottompanelsrepresentthecampusandthepark,respectively.The\nthreegrayrectanglesrepresentthethreeperiodsinFig.5.Withfeweravailable\nsatellites, the three gray rectangles represent the GNSS-challenged\nenvironment.\n2.2. LiDARmeasurementmodelusingplanarfeaturesbasedonground\nsegmentation\nWith multi-line LiDAR, a large number of point clouds can be ob-\ntained, but this results in a significant computational burden during\nstorage,loading,andprocessing,anditisatime-consumingandlabo-\nrioustas",
+    "char_length": 2505
+  },
+  {
+    "quote_id": "qb_1e99eeec59",
+    "span_index": 5,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nTable2\nStatisticalpositioningaccuracyusingtwocollecteddatasets(m).\nScene BDS-3PPP-B2bwith/ BDS-3PPP-B2b/IMU BDS-3PPP-B2b/IMU/LiDAR\nwithoutGalileo\nE N U E N U E N U\nCampusAverage 14.42 20.90 28.16 3.56 5.12 4.80 0.30 0.33 0.83\n/15.39 /22.38 /32.47\nPeriod1 (cid:0) (cid:0) (cid:0) 4.60 3.38 6.89 0.41 0.40 0.27\nPeriod2 (cid:0) (cid:0) (cid:0) 3.79 2.80 4.64 0.43 0.52 1.28\nPeriod3 (cid:0) (cid:0) (cid:0) 3.40 7.17 3.58 0.30 0.24 0.65\nParkAverage 21.51 15.99 26.48 3.34 2.82 3.88 0.94 0.36 1.12\n/23.22 /16.97 /29.96\nPeriod1 (cid:0) (cid:0) (cid:0) 3.37 2.94 3.9",
+    "char_length": 5276
+  },
+  {
+    "quote_id": "qb_f62dc5b9fe",
+    "span_index": 6,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nFig.10. Alignedtrajectoriesofdifferentschemes.Thetopandbottompanels\nrepresentthetrajectoriesinthecampusandthepark,respectively.Thegreen\ndashedline,purpleline,blueline,yellowline,andredlinedenotethetrajec-\ntoriesofthereferencedgroundtruth,ALOAM,LEGO-LOAM,LIO-SAM,andour\nproposedscheme,respectively.\n[ ]\nvLiDAR = 0 ∂ ∂ v δ L p iD e AR ∂ ∂ v δ L θ iD e AR 0 ∂ ∂ v δ Li p D e AR ∂ ∂ v δ Li θ D e AR δxLiDAR +ε LiDAR\nlm lm ln ln\n(16)\nwith\n⎧ [ ]\nF\nm\ni\ni\ng\nd\n.\ndl\n9\ne\n.\n,a\nT\nn\nh\nd\ne\nb\np\no\no\ntt\ns\no\nit\nm\nion\np\ni\na\nn\nn\ng\nel\na\ns\nc\ns\nc\nh\nu\no\nr\nw\nac\nt\ny\nhe\no\np\nf\no\nd\ns\ni\n",
+    "char_length": 2482
+  },
+  {
+    "quote_id": "qb_c0f9c6e48f",
+    "span_index": 7,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nTable3\nThestatisticalresultfortheATEsusingtwocollecteddatasetswithdifferentschemes(m).\nScheme Campus Park\nMax Mean Min RMS Max Mean Min RMS\nALOAM 19.01 7.88 0.38 8.89 43.79 16.81 2.59 19.85\nLEGO-LOAM 7.53 3.78 0.62 4.27 8.99 5.44 0.98 5.76\nLIO-SAM 23.94 3.99 1.04 5.78 27.21 15.34 5.11 16.58\nPPP/IMU/LiDAR 2.73 0.93 0.07 0.97 3.69 1.93 0.16 2.23\n⎡ ⎤\n⎡ ⎤\n⎢ ⎥\n⎢ ⎢δp˙e⎥\n⎥ ⎢ δve ⎥\n⎢ b⎥ ⎢ [ ] b ⎥\n⎢ ⎢ ⎢ ⎢ ⎢ δ δ θ v ˙ ˙e b e b ⎥ ⎥ ⎥ ⎥ ⎥ = ⎢ ⎢ ⎢ ⎢ ⎢ Re b f i b b ×δθe b (cid:0) (cid:0) [ ω 2 e ie ω ] × e ie δθ × e b × (cid:0) δ R v e b e b δ + ωb i R b e b δf i b b",
+    "char_length": 2987
+  },
+  {
+    "quote_id": "qb_ef6e4f14bb",
+    "span_index": 8,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\nephemerisandGalileobroadcastephemeris.FortheIMU,mechaniza- artA-LOAM,LEGO-LOAM,andLIO-SAMopen-sourceframeworks.\ntions of the accelerometers and angular velocities are carried out.\nAdditionally, for LiDAR, planar feature tracking based on the ground 4.1. PositioningperformanceusingBDS-3PPP-B2b/MEMSIMU/LiDAR\nsegmentation is adopted, which consists of point cloud segmentation, tightintegration\nplanarfeatureextractionandfusion,anddatacorrelation.Finally,the\nestimated parameters represented by the position, velocity, attitude, Fig.8showsthepositioningaccurac",
+    "char_length": 6883
+  },
+  {
+    "quote_id": "qb_860e1b842f",
+    "span_index": 9,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\n3) Thecampusexperimentisconductedduringschoolhours,andnearly 2) Twoexperimentsareconductedatacampusandapark,withboth\nallthestudentsandteachersareinclass.Hence,therearenopeople environmentsbeingGNSS-degraded.ComparedwithBDS-3PPP-B2b\non the campus road. However, there are more pedestrians on the andBDS-3PPP-B2b/IMU,the3Dpositioningerrorisreducedfrom>\nnarrow road in the park experiment, which causes disturbance to 5 m to approximately 1.0 m with the enhancement of IMU and\nLiDAR. LiDAR,andthepositioningerrorseriesismorestableandsmoother.\nCompared to state-o",
+    "char_length": 7023
+  },
+  {
+    "quote_id": "qb_8923c91290",
+    "span_index": 10,
+    "text": "W.Guoetal. Measurement 242 (2025) 116015\n[13] A.Schütz,D.S´anchez-Morales,T.Pany,PrecisePositioningthroughaLoosely- [22] S.Li,X.Li,H.Wang,Y.Zhou,Z.Shen,Multi-GNSSPPP/INS/Vision/LiDARtightly\nCoupledSensorFusionofGNSS-RTK,INSandLiDARforAutonomousDriving integratedsystemforprecisenavigationinurbanenvironments,Information\n20–23(2020)219–225. Fusion.90(2022)218–232.\n[14] K.Chiang,G.Tsai,H.Chu,N.,EI-Sheimy,PerformanceenhancementofINS/GNSS/ [23] J.Liao,X.X.Li,S.Feng,GVIL:Tightly-CoupledGNSSPPP/Visual/INS/LiDAR\nrefreshed-SLAMintegrationforacceptablelane-levelnavigationaccuracy,IEEE SLAMbasedonGraphOpt",
+    "char_length": 3353
+  }
+]

@@ -1,0 +1,20 @@
+common_datasets:
+- IGS MGEX
+- iGMAS
+- GFZ products
+- CAS DCB
+- WHU products
+- ERA5
+- radiosonde
+- CNES RTS
+- IGS RTS
+common_metrics:
+- SISRE
+- positioning RMS
+- convergence time
+- orbit URE
+- clock STD
+- DCB RMS
+- PWV RMS
+- availability rate
+version: v0.3

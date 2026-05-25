@@ -1,0 +1,140 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nComprehensive Evaluation of Data-Related Factors on BDS-3\nB1I + B2b Real-Time PPP/INS Tightly Coupled Integration\nJunyaoKan1,2,ZhouzhengGao1,* ,QiaozhuangXu1,RuohuaLan1,JieLv1andChengYang1\n1 SchoolofLandScienceandTechnology,ChinaUniversityofGeosciencesBeijing,29XueyuanRoad,\nBeijing100083,China\n2 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China\n* Correspondence:zz.gao@cugb.edu.cn\nAbstract:Owingtothedevelopmentsofsatellite-basedandnetwork-basedreal-timesatelliteprecise\nproducts,thePrecisePointPositioning(PPP)techniquehasbeenappliedfarandwi",
+    "char_length": 4062
+  },
+  {
+    "quote_id": "qb_6140af5e6f",
+    "span_index": 1,
+    "text": "RemoteSens.2022,14,6395 2of23\nrequirementforreal-timehigh-precisionpositioningandapplications,IGSestablishedthe\nReal-TimePilotProject(RTPP),andtheReal-TimeService(RTS)wasofficiallyoperated\nin2013. BasedontheNTRIP(NetworkedTransportofRTCMviaInternetProtocol),the\nreal-time orbit and clock products in the form of State Space Representation (SSR) are\nsuppliedworldwidebywayoftheInternet[7,8]. Atpresent,thereareseveralACsthat\nprovidereal-timeproductstreams,forinstance,BKG(BundesamtfürKartographieund\nGeodäsie),DLR(DeutscheszentrumfürLuft-undRaumfahrt),theCNES(NationalCentre\nfor Space Studies), the ES",
+    "char_length": 4166
+  },
+  {
+    "quote_id": "qb_d355c074cf",
+    "span_index": 2,
+    "text": "RemoteSens.2022,14,6395 3of23\nmaintaincentimetergradeunderopenskyenvironments,andthepositioningaccuracycan\nmaintaindecimeterlevelwhenthereare10to60sofGNSSoutages. Theconsumer-level\nIMUsarecurrentlywidelyusedinmanypracticalapplications,suchasunmannedaerial\nvehicle(UAV)navigationandvehicle-bornenavigation[27–29]. Theworkin[29]presents\na real-time loose integration between single-frequency PPP and a low-cost consumer-\ngradeINS.Theoutcomesindicatethatthepositioningresultscouldmaintainlane-level\naccuracybythisreal-timePPP/INSsystemdespitepassingbridgesoroverpassesonthe\nroad. However, theimpactofrea",
+    "char_length": 3521
+  },
+  {
+    "quote_id": "qb_5f3a90da0c",
+    "span_index": 3,
+    "text": "RemoteSens.2022,14,6395 4of23\nattheIMUsensorcentercalculatedbyINS;t andts representtheclockresidualerrorof\nr\nreceiverandsatellite; Is andTs refertotheionosphericandthetroposphericdelayonthe\nr,j r\nsignalpath;b andbs indicateDifferentialCodeBiases(DCB)forreceiversandsatellites;\nr,j j\nN denotestheintegerambiguity;λ standsforthewavelengthofcarrierphase;crefersto\nj j\nthevelocityoflight;‘·’representsavariation;and∆δP,∆δL ,and∆δD refertothesumof\nj j j\nothererrormodifications,whichcanbeobtainedfromappropriateerrorcorrectionmodels\nforthesethreetypesofobservations. BecausetheGNSSreceiverobservingcenterd",
+    "char_length": 3049
+  },
+  {
+    "quote_id": "qb_c0c2d1cbe2",
+    "span_index": 4,
+    "text": "RemoteSens.2022,14,6395 5of23\n(cid:16) (cid:17) (cid:104) (cid:16) (cid:17) (cid:105)\nH v,Ψ = AD −1C 2 C n blb× −AC n e (ω e n n ×+ω i n n ×)H 1 +C b n lb×ω i b b × (14)\nwhereArepresentsthedirectioncosinematrixofthesatellite-receiver;C standsforthe\n1\ntransitionmatrixtotransformpositioncorrectionsbetweene-frameandn-frame;D−1refers\ntothetransitionmatrixtoconverttheleverarmfromthen-frametoe-frame; Edenotes\ntheidentitymatrix; M representsthemappedfunctionofthetroposphericwetdelay;\nwet\nα = f2/(f2− f2)andβ = f2/(f2− f2)arethecoefficientfortheionosphere-freecombi-\n1 1 2 2 1 2\nnation;andγ = f2/f2indic",
+    "char_length": 2699
+  },
+  {
+    "quote_id": "qb_e2971e8fa7",
+    "span_index": 5,
+    "text": "RemoteSens.2022,14,6395 6of23\nerrorsaredecidedbythefirst-orderGauss–Markovfunction[43],andthediscrete-time\nmodeisdescribedby\n(cid:20) δb k (cid:21) = (cid:20) exp(−∆t/T b )δb k−1 (cid:21) + (cid:20) ω b,k (cid:21) (21)\nδs k exp(−∆t/T s )δs k−1 ω s,k\nwhereT andT arethecorrelationtimeofIMUsensorerrors(biasandscalefactorerror);\nb s\n∆tisthetimeinternal;andω andω arethecorrespondingdrivingwhitenoise.\nb,k s,k\nFortheparametersrelatedtoBDS-3,themodelsestablishedbyBrownandHwangare\nappliedtodefinethedrivingnoiseofthereceiverclockoffsetsandtheclockdrift[44]:\n. (cid:16) (cid:17)\nδt r,k = δt r,k−1 +δt r,k−",
+    "char_length": 2412
+  },
+  {
+    "quote_id": "qb_831f9e535b",
+    "span_index": 6,
+    "text": "RemoteSens.2022,14,6395 7of23\nwhere R referstothemodifiedmeasurementcovariancematrix; α indicatestherobust\nk\nfactor,whichcanbeobtainedbytheIGG-IIImodelas[46]\n\n1,|v | ≤ k\n\n(cid:16) (cid:17)\n(cid:101)i 0\nα = k0 k1 −|v(cid:101)i | ,k ≤ |v | ≤ k (31)\ni\n\n|v(cid:101)i | k1 −\n0\nk0\n,|v | ≥\n0\nk\n(cid:101)i 1\n(cid:101)i 1\nwherek andk standfortheempiricalconstantswiththevaluesofk settingto1.0–1.5\n0 1 0\nandthatofk settingto2.5–8.0;thestandardizedresidualisadoptedas|v | = |v |/σ ;and\n1 (cid:101)i i vi\nσ isthevarianceofv. Theobservationresidualsvectorandcorrespondingvariancecan\nvi i\nbeobtainedby\nV = Z −",
+    "char_length": 2708
+  },
+  {
+    "quote_id": "qb_4cdd803e28",
+    "span_index": 7,
+    "text": "Remote Sens. 2022, 14, 6395 8 of 24\n3. Experiments and Data Processing Schemes\nTo investigate the performance of the BDS PPP/INS TCI, a set of vehicle-borne exper-\niments was arranged in Beijing on December 23, 2021. Figure 1 displays the detailed tra-\njectory of the experiments. The main purpose of this work is to make a comprehensive\nevaluation of data-related factors on PPP/INS tight integration. Hence, the test was con-\nducted on 1) the impact of real-time orbit and clock products from different ACs on the\nBDS TCI; 2) the impact of Doppler observation on the BDS TCI; 3) the impacts of the ",
+    "char_length": 5119
+  },
+  {
+    "quote_id": "qb_6a0dd1b87d",
+    "span_index": 8,
+    "text": "RemoteSens.2022,14,6395 9of23\nTable2.Specificdifferencesbetweendifferentschemes.\nReal-Time Without\nSchemes EKF RKF FinalProducts WithDoppler IMUDataRate\nProducts Doppler\n√\nPPP – – – – – –\n√ √ √\nTCI – – – 100Hz\n√ √ √\nTCI-RKF – – – 100Hz\n√ √\nRT-CAS – – CAS – 100Hz\n√ √\nRT-WHU – – WHU – 100Hz\n√ √\nRT-GFZ – – GFZ – 100Hz\n√ √\nRT-DLR – – DLR – 100Hz\n√ √ √\nTCI-dmode0 – – – 100Hz\n√ √ √\nTCI-dmode1 – – – 100Hz\n√ √ √\nTCI-100Hz – – – 100Hz\n√ √ √\nTCI-50Hz – – – 50Hz\n√ √ √\nTCI-10Hz – – – 10Hz\n4. Discussions\nTheimpactsofreal-timeSSRproducts,robustalgorithm,Dopplerobservation,and\nIMU data rate on real-time PPP/",
+    "char_length": 4030
+  },
+  {
+    "quote_id": "qb_7b720e1bad",
+    "span_index": 9,
+    "text": "RemoteSens.2022,14,6395 10of23\nTable3.PositionRMSofBDS-3PPPandPPP/INSTCIwithdifferentproducts.\nBDS-3\nPPP TCI\nMode\nFinal\nFinal Final RT-CAS RT-WHU RT-GFZ RT-DLR\n-Robust\nEast(m) 0.882 0.432 0.406 0.383 0.464 0.572 1.576\nNorth(m) 1.361 0.464 0.419 0.476 0.433 0.407 0.766\nUp(m) 1.311 0.838 0.782 0.790 0.861 0.908 1.414\nTable4.PositionRMSofGPSPPPandPPP/INSTCIwithdifferentproducts.\nGPS\nPPP TCI\nMode\nFinal\nFinal Final RT-CAS RT-WHU RT-GFZ RT-DLR\n-Robust\nEast(m) 0.586 0.316 0.305 0.385 0.334 0.408 0.320\nNorth(m) 0.539 0.396 0.372 0.450 0.443 0.477 0.646\nUp(m) 0.984 0.769 0.758 0.889 0.938 1.01 1.387\nRe",
+    "char_length": 3664
+  },
+  {
+    "quote_id": "qb_928ad4fc1c",
+    "span_index": 10,
+    "text": "Remote Sens. 2022, 14, 6395 11 of 24\nand up components. It can be observed that the position solution applied to the CAS real-\ntime products succeeds with the highest accuracy (0.383 m, 0.476 m, and 0.790 m) in com-\nparison with the results that adopt the other three real-time products. Visibly, the results\nof DLR product-based solutions have the worst position accuracy, which are 1.576 m,\n0.766 m, and 1.414 m in the three directions. This is because the DLR real-time products\ndo not provide the orbit and clock corrections of BDS-3 IGSO, which leads to the total\nnumber of available satellites ",
+    "char_length": 6078
+  },
+  {
+    "quote_id": "qb_b9b6a1a32f",
+    "span_index": 11,
+    "text": "RemoteSens.2022,14,6395 12of23\nitcanbeseenthattheimpactofDopplerobservationontheoverallpositioning,velocity,\nandattitudedeterminationisinvisible.\nTable5.RMSofposition,velocity,andattitudeofBDS-3/GPSTCIinmodesofdmode0anddmode1.\nPosition(m) Velocity(cm/s) Attitude(◦)\nMode\nEast North Up East North Up Roll Pitch Heading\nBDS-TCI-dmode01 0.406 0.419 0.782 1.88 2.04 3.16 0.276 1.319 0.502\nBDS-TCI-dmode12 0.408 0.419 0.788 1.90 2.17 3.16 0.276 1.321 0.503\nGPS-TCI-dmode01 0.305 0.372 0.758 1.69 2.04 3.06 0.275 1.314 0.506\nGPS-TCI-dmode12 0.301 0.387 0.759 1.72 2.46 3.06 0.276 1.318 0.505\n1TCI-dmode0ind",
+    "char_length": 2927
+  },
+  {
+    "quote_id": "qb_71c9fc8519",
+    "span_index": 12,
+    "text": "Remote Sens. 2022, 14, 6395 13 of 24\nthat Doppler observation has a significant effect on the position results, especially in the\neast component. The improvement from Doppler observations of BDS-3 and GPS are\n68.8% and 68.4% in the east direction.\nRemoteSens.2022,14,6395 13of23\nTable 6. Average errors of position, velocity, and attitude of BDS-3/GPS TCI with and without\nDopplerobservationininitial100s.\nPosition(m) Velocity(cm/s) Attitude(◦)\nMode\nEast North Up East North Up Roll Pitch Heading\nBDS-TCI-dmode01 0.286 0.650 0.966 4.15 6.11 1.09 0.364 1.869 6.626\nBDS-TCI-dmode12 0.744 0.777 0.904 18",
+    "char_length": 3228
+  },
+  {
+    "quote_id": "qb_bf98c9309e",
+    "span_index": 13,
+    "text": "Remote Sens. 2022, 14, 6395 14 of 24\nShown in Figure 9 are the velocity offsets sequences of BDS-3/GPS TCI-dmode0 and\nTCI-dmode1 in the east, north, and up components, and the velocity errors on average are\npresented in Table 6. The results show that the velocity offsets on the initial epochs have\nbeen significantly improved with the assistance of Doppler observations in both BDS-3\nTCI and GPS TCI. According to the statistic in Table 6, the average velocity errors are\nimproved from 18.01 cm/s, 11.04 cm/s, and 2.65 cm/s in BDS-3 TCI-dmode1 to 4.15 cm/s,\n6.11 cm/s, and 1.06 cm/s in BDS-3 TCI-dmo",
+    "char_length": 4214
+  },
+  {
+    "quote_id": "qb_7c3e7f1744",
+    "span_index": 14,
+    "text": "Remote Sens. 2022, 14, 6395 15 of 24\nFigure 10. The max velocity errors of the BDS-3/GPS TCI in modes of dmode0 (with Doppler) and\ndmode1 (without Doppler).\nFigure 11 presents the offsets of roll, pitch, and heading angles from BDS-3/GPS TCI\nin modes of dmode0 and dmode1, and the related average errors are exhibited in Table 6.\nIt is noteworthy that the attitude errors of roll and heading calculated by the dmode0\nmode show visible enhancements on the initial epochs compared to those of dmode1. Fol-\nlowing the statistics presented in Table 6, the average errors of roll and heading are 0.619°\nan",
+    "char_length": 4266
+  },
+  {
+    "quote_id": "qb_485f191c13",
+    "span_index": 15,
+    "text": "Remote Sens. 2022, 14, 6395 16 of 24\nFigure 12. The max attitude errors of the BDS-3/GPS TCI in modes of dmode0 (with Doppler) and\ndmode1 (without Doppler).\nThe initial convergence time of position, velocity, and attitude are further evaluated.\nFigure 13 displays the average and max convergence time of the BDS-3/GPS TCI in modes\nof dmode0 (with Doppler) and dmode1 (without Doppler). In this study, the velocity and\nattitude convergence time is defined as the time required to keep the error less than the\naverage errors of dmode0 in each component (as shown in Table 6). The convergence time\nof po",
+    "char_length": 5518
+  },
+  {
+    "quote_id": "qb_a0d58425ac",
+    "span_index": 16,
+    "text": "RemoteSens.2022,14,6395 17of23\n4.3. ImpactsofIMUDataIntervalonPPP/INSIntegration\nThepositiondifferencesofBDS-3/GPSPPP/INStightintegrationcalculatedbythree\ntypesofrates(100Hz,50Hz,and10Hz)ofIMUdataareshowninFigure15. Theposition\naccuraciesintermsofRMSvaluesarelistedinTables7and8. Significantly,theposition\nRMSsusing100HzIMUdataare0.406m, 0.419m, and0.782mintheeast, north, and\nvertical components. While using IMU measurements at 50 Hz, the position accuracy\nhasnosignificantdifferencesbycomparisonwiththesolutionsat100Hz. However,the\npositionRMSshavedegradationsof0.192m,0.062m,and0.052mwhenreducing",
+    "char_length": 3154
+  },
+  {
+    "quote_id": "qb_31bbd0cbb9",
+    "span_index": 17,
+    "text": "RemoteSens.2022,14,6395 18of23\nTable7.RMSofBDS-3PPPandTCIposition,velocity,andattitude.\nPosition(m) Velocity(cm/s) Attitude(◦)\nMode\nEast North Up East North Up Roll Pitch Heading\nPPP 0.882 1.361 1.311\nTCI-100HZ 0.406 0.419 0.782 1.88 2.04 3.16 0.276 1.319 0.502\nTCI-50HZ 0.438 0.415 0.791 2.17 2.28 3.29 0.275 1.324 0.504\nTCI-10HZ 0.598 0.481 0.834 3.38 3.38 4.27 0.278 1.443 0.528\nTable8.RMSofGPSPPPandTCIposition,velocity,andattitude.\nPosition(m) Velocity(cm/s) Attitude(◦)\nMode\nEast North Up East North Up Roll Pitch Heading\nPPP 0.586 0.539 0.984\nTCI-100HZ 0.305 0.372 0.758 1.69 2.04 3.06 0.275 1",
+    "char_length": 3658
+  },
+  {
+    "quote_id": "qb_4511c18b16",
+    "span_index": 18,
+    "text": "Remote Sens. 2022, 14, 6395 19 of 24\nIn addition, we also investigated the performance of velocity and attitude determi-\nnation using IMU data at different sampling rates. Figures 17 and 18 present the velocity\nand attitude errors in the time sequence, respectively. The related RMSs are shown in Ta-\nbles 7 and 8. Significantly, the accuracies of velocity are degraded by using IMU data at a\nlower rate (50 Hz and 10 Hz). According to the statistics, the velocity accuracies at 10 Hz\nare the lowest. The velocity RMSs of BDS-3 TCI are 3.38 cm/s, 3.38 cm/s, and 4.27 cm/s in\nthe east, north, and up c",
+    "char_length": 4512
+  },
+  {
+    "quote_id": "qb_fd633057fa",
+    "span_index": 19,
+    "text": "Remote Sens. 2022, 14, 6395 20 of 24\n(a) (b)\nRemoteSens.2022,14,6395 20of23\nFigure 19. Velocity error CDF of BDS-3 PPP/INS TCI (a) and GPS PPP/INS TCI (b) by using three\ntypes of IMU data (100 Hz, 50 Hz, and 10 Hz).\nRemote Sens. 2022, 14, 6395 21 of 24\n(a) (b)\nFcuigmuruel a2t0i.v Ae tetirtruodres e(wrrohri tCe DnFo iosfe BaDnSd- 3u PnPmPo/IdNeSle TdC eI r(rao)r asn) db yG PreSd PuPcPin/IgN ISN TSC mI (ebc) hbayn uizsaintigo nth ree\nFigure20.AttitudeerrorCDFofBDS-3PPP/INSTCI(a)andGPSPPP/INSTCI(b)byusingthree\ntfyrepqeus eonf cIMy Uw hdialtea d (1o0w0n Hsaz,m 5p0 lHinzg, athnde I1M0 HUz d).a ta r",
+    "char_length": 5730
+  },
+  {
+    "quote_id": "qb_62b5e85753",
+    "span_index": 20,
+    "text": "RemoteSens.2022,14,6395 21of23\nfirst-orderGauss–Markovprocess. WhenthereareGNSSsignals,thefirstpartcanbeoffset\nbyIMUerrorcompensation. Therestisthewhitenoise,whichcanbecomearandomwalk\nprocessafterintegration. Thestateuncertaintyoftherandomwalkprocessincreaseswith\ntime.Thus,withthedecreasingoftheIMUsamplingrate,theINSmechanizationfrequency\nisreduced,andsoarethecumulativeerrors. However,whenGNSSsignalsarecompletely\nRemote Sens. 2022, 14, 6395 22 of 24\nout,x k−1 ofthefirstpartmaintainsthepreviousvaluewithGNSSsignals. Theerrorofthe\nfirstpartissmalleratasmallertimeintervalwhentheIMUdatarateishigher",
+    "char_length": 5185
+  },
+  {
+    "quote_id": "qb_795666dd95",
+    "span_index": 21,
+    "text": "RemoteSens.2022,14,6395 22of23\nAuthorContributions:Conceptualization,J.K.andZ.G.;datacuration,J.K.,Q.X.andR.L.;funding\nacquisition,C.Y.andJ.L.;investigation,J.K.andZ.G.;software,Z.G.;visualization,C.Y.andJ.L.;\nwriting—originaldraftpreparation,J.K.;writing—reviewandediting,J.K.,Z.G.andJ.L.Allauthors\nhavereadandagreedtothepublishedversionofthemanuscript.\nFunding: This research was partly supported by the National Key Research and Development\nProgramofChina(GrantNo. 2021YFB3901301)andtheNationalNaturalScienceFoundationof\nChina(NSFC)(GrantNo.42274022).\nInstitutionalReviewBoardStatement:Notapplicab",
+    "char_length": 4330
+  },
+  {
+    "quote_id": "qb_8f4f9f6d79",
+    "span_index": 22,
+    "text": "RemoteSens.2022,14,6395 23of23\n20. Falco,G.;Pini,M.;Marucco,G.LooseandtightGNSS/INSintegrations: Comparisonofperformanceassessedinrealurban\nscenarios.Sensors2017,17,255.[CrossRef]\n21. Du,S.IntegrationofPrecisePointPositioningandLow-CostMEMSIMU.Ph.D.Dissertation,UniversityofCalgary,Calgary,AB,\nCanada,2010.\n22. AbdRabbou,M.;El-Rabbany,A.TightlyCoupledIntegrationofGPSPrecisePointPositioningandMEMS-BasedInertialSystems.\nGPSSolut.2015,19,601–609.[CrossRef]\n23. Gao,Z.;Zhang,H.;Ge,M.;Niu,X.;Shen,W.;Wickert,J.;Schuh,H.TightlyCoupledIntegrationofMulti-GNSSPPPandMEMS\nInertialMeasurementUnitData.GPSSolut",
+    "char_length": 4150
+  }
+]

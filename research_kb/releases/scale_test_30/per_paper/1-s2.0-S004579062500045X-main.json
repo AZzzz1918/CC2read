@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper directly evaluates the BDS-3 PPP-B2b service's orbit/clock correction accuracy and marine positioning performance using the broadcast signal.",
+  "boundary_risk": false,
+  "needs_full_audit": true,
+  "source_file": "1-s2.0-S004579062500045X-main.pdf",
+  "paper_id": "1-s2.0-S004579062500045X-main",
+  "extraction_mode": "batch_classify_1call"
+}

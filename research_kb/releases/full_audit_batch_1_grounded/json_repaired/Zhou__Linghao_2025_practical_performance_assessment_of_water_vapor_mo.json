@@ -1,0 +1,189 @@
+{
+  "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T17:00:00",
+  "product_source": {
+    "claimed": "BDS PPP-B2b",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_1ab53f1154",
+        "quote_text": "Practical Performance Assessment of\nWater Vapor Monitoring Using BDS\nPPP-B2b Service.",
+        "original_quote": "water vapor monitoring using the BDS PPP-B2b service",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      },
+      {
+        "quote_id": "qb_1ab53f1154",
+        "quote_text": "Practical Performance Assessment of\nWater Vapor Monitoring Using BDS\nPPP-B2b Service.",
+        "original_quote": "using ephemeris from the PPP-B2b service",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.8
+      }
+    ]
+  },
+  "experiment_epoch": {
+    "duration_days": 25,
+    "year": 2025,
+    "location": "Wuhan, China",
+    "description": "25-day continuously operated water vapor monitoring experiment in 2025, Wuhan",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_5c717a17a2",
+        "quote_text": "In this study, the practical ability of water\nvapor monitoring using the BDS PPP-B2b service is illustrated through a continuously\noperated water vapor monitoring system in Wuhan, China, with a 25-day experiment in\n2025.",
+        "original_quote": "a 25-day experiment in 2025",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      },
+      {
+        "quote_id": "qb_642ea63b86",
+        "quote_text": "Communication\nPractical Performance Assessment of Water Vapor Monitoring\nUsing BDS PPP-B2b Service\nLinghao Zhou 1,2\n, Enhong Zhang 3, Hong Liang 1\n, Zuquan Hu 1,4, Meifang Qu 1,5, Xinxin Li 1,6\nand Yunchang Cao 1,*\n1\nMeteorological Observation Centre, China Meteorological Administration, Beijing 100081, China\n2\nSchool of Electronic Information Engineering, Beihang University, Beijing 100191, China\n3\nGuangdong Meteorological Data Centre, Guangzhou 510080, China\n4\nLaiBin Meteorological Agency of Guangxi Zhuang Autonomous Region, Laibin 546100, China\n5\nGuangxi Meteorological Observatory, Nanning 530022, China\n6\nGuangxi Meteorological Technology Equipment Center, Nanning 530022, China\n*\nCorrespondence: caoyc@cma.gov.cn\nAbstract\nBeiDou navigation satellite system (BDS) precise point positioning (PPP)-B2b has signif-\nicant potential for application in meteorological fields, such as standalone water vapor\nmonitoring in depopulated area without Internet.",
+        "original_quote": "a continuously operated water vapor monitoring system in Wuhan, China",
+        "match_type": "keyword_overlap",
+        "confidence": "medium",
+        "score": 0.625
+      }
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "satellite_orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "code_bias_correction"
+    }
+  ],
+  "dcb_handling": {
+    "status": "MENTIONED_AS_CODE_BIAS",
+    "description": "Code bias corrections from BDS PPP-B2b service are used in the processing. Referred to as 'code bias corrections' rather than DCB explicitly.",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_642ea63b86",
+        "quote_text": "Communication\nPractical Performance Assessment of Water Vapor Monitoring\nUsing BDS PPP-B2b Service\nLinghao Zhou 1,2\n, Enhong Zhang 3, Hong Liang 1\n, Zuquan Hu 1,4, Meifang Qu 1,5, Xinxin Li 1,6\nand Yunchang Cao 1,*\n1\nMeteorological Observation Centre, China Meteorological Administration, Beijing 100081, China\n2\nSchool of Electronic Information Engineering, Beihang University, Beijing 100191, China\n3\nGuangdong Meteorological Data Centre, Guangzhou 510080, China\n4\nLaiBin Meteorological Agency of Guangxi Zhuang Autonomous Region, Laibin 546100, China\n5\nGuangxi Meteorological Observatory, Nanning 530022, China\n6\nGuangxi Meteorological Technology Equipment Center, Nanning 530022, China\n*\nCorrespondence: caoyc@cma.gov.cn\nAbstract\nBeiDou navigation satellite system (BDS) precise point positioning (PPP)-B2b has signif-\nicant potential for application in meteorological fields, such as standalone water vapor\nmonitoring in depopulated area without Internet.",
+        "original_quote": "satellite orbit, clock, and code bias corrections from the BDS PPP-B2b service",
+        "match_type": "keyword_overlap",
+        "confidence": "low",
+        "score": 0.5
+      }
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "Dual-frequency ionospheric-free PPP using code and phase observations from GPS and BDS",
+    "frequency_combinations": {
+      "gps": "L1/L2 ionosphere-free",
+      "bds": "B1I/B3I ionosphere-free"
+    },
+    "ztd_to_pwv": "Standard ZTD to PWV conversion using weighted mean temperature",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_0cdc789c99",
+        "quote_text": "GNSS Data Processing\nTo achieve the monitoring of water vapor based on GNSS observations, the PPP tech-\nnique is applied for processing the original code and phase observations from GPS and\nBDS.",
+        "original_quote": "Dual-frequency ionospheric-free PPP using code and phase observations from GPS and BDS",
+        "match_type": "keyword_overlap",
+        "confidence": "medium",
+        "score": 0.545
+      }
+    ]
+  },
+  "datasets": {
+    "observation_data": "GPS and BDS dual-frequency code and phase observations from Leica AR20 antenna and receiver",
+    "location": "Wuhan, China",
+    "correction_source": "BDS PPP-B2b real-time satellite orbit and clock corrections",
+    "reference_data": [
+      "Radiosonde observations",
+      "ERA5 reanalysis",
+      "CAS real-time ephemeris"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_93a4921b0e",
+        "quote_text": "Original observations from the Global Positioning System (GPS) and BDS are col-\nlected and processed in the near real-time (NRT) mode using ephemeris from the PPP-B2b\nservice.",
+        "original_quote": "Original observations from the Global Positioning System (GPS) and BDS are collected",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.875
+      },
+      {
+        "quote_id": "qb_50e1de2dd6",
+        "quote_text": "Precipitable water vapor PWV monitored with B2b ephemeris are evaluated with\nradiosonde and ERA5 reanalysis, respectively.",
+        "original_quote": "PWV monitored with B2b ephemeris are evaluated with radiosonde and ERA5 reanalysis",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.672
+      }
+    ]
+  },
+  "metrics": {
+    "pwv_accuracy": {
+      "vs_radiosonde_rms_mm": "3.71-4.66",
+      "vs_era5_rms_mm": "3.95-4.55",
+      "reference_note": "Similar to CAS real-time ephemeris results"
+    }
+  },
+  "main_results": {
+    "summary": "BDS PPP-B2b service can support operational water vapor monitoring with PWV accuracy of 3.7-4.7mm RMS vs radiosonde. First demonstration that PPP-B2b-based water vapor monitoring meets operational meteorology requirements.",
+    "key_findings": [
+      "PWV RMS: 3.71-4.66mm vs radiosonde",
+      "PWV RMS: 3.95-4.55mm vs ERA5 reanalysis",
+      "Accuracy comparable to CAS real-time ephemeris results",
+      "PPP-B2b enables standalone water vapor monitoring in areas without internet",
+      "Meets basic demand for operational meteorology"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_4dba20d38e",
+        "quote_text": "Taking PWV from radiosonde observations\nas the reference, RMS of PWV based on B2b ephemeris varies from 3.71 to 4.66 mm for\ndifferent satellite combinations.",
+        "original_quote": "RMS of PWV based on B2b ephemeris varies from 3.71 to 4.66 mm for different satellite combinations",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.624
+      },
+      {
+        "quote_id": "qb_066a90412a",
+        "quote_text": "In general, this study\ndemonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-\nB2b service can meet the basic demand for operational meteorology for the first time.",
+        "original_quote": "this study demonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-B2b service can meet the basic demand for operational meteorology for the first time",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      }
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "rationale": "First practical demonstration of BDS PPP-B2b for operational water vapor monitoring. Applies established PPP+PWV methodology to the new PPP-B2b correction source. Engineering transfer rather than algorithmic novelty.",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_066a90412a",
+        "quote_text": "In general, this study\ndemonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-\nB2b service can meet the basic demand for operational meteorology for the first time.",
+        "original_quote": "this study demonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-B2b service can meet the basic demand for operational meteorology for the first time",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      }
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 2,
+    "reproduction_blockers": [
+      "25-day GNSS observation dataset not publicly available",
+      "PPP-B2b correction stream for the experiment period not archived",
+      "PPP processing software configuration not disclosed in detail",
+      "Radiosonde data access not specified",
+      "No source code or processing workflow released"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "MENTIONED_AS_CODE_BIAS",
+    "reproduction_blockers_non_empty": true
+  }
+}

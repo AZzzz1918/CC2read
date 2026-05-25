@@ -1,0 +1,49 @@
+b2b: 184
+bibliographic_info:
+  title: Precise real-time navigation of the LEO satellite enhanced by BDS-3 PPP-B2b
+    service
+  year: 0
+category: LEO_ORBIT
+dcb_handling:
+  dcb_mentions: 4
+  grounding_quotes:
+  - Many detailedissuesregard- casted are five types, including satellite mask (Type
+    1), orbit ing the stochastic model of the pseudo-ambiguity parame- correction
+    parameters (Type 2), differential code bias correc- teranditsestimationhavebeendiscussedinauthors’some
+    tion (Type3),clockcorrectionparameters(Type4),anduser published articles (Wang
+    et al., 2015; Gong et al., 2019, rangeaccuracyindex(Type5)(
+  status: MENTIONED
+experiment_epoch:
+  grounding_quotes: []
+  start_date: NOT_MENTIONED
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+ionospheric_handling:
+  iono_mentions: 1
+paper_id: V04_W2_1_s2_0_S0273117725002881_main
+pdf_metadata:
+  b2b_mentions: 184
+  clas_mentions: 0
+  dcb_mentions: 4
+  has_mentions: 0
+  pages: 17
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Available online at www.sciencedirect.com ScienceDirect Advances
+    in Space Research 75(2025)7003–7019 www.elsevier.com/locate/asr Precise real-time
+    navigation of the LEO satellite enhanced by BDS-3 PPP-B2b service Xuewen Gonga,b,c,⁎
+    , Wanwei Zhangc , Aili Zhaoa,b,e , Shuaihe Gaoa,b, Fuhong Wangc , Jingkui Zhangd,
+    Song Xied, Guodong Fenga,b , Zaichun Yanga,b,e a National Time Servi'
+  - In this paper, the correction data released by the BDS-3 PPP-B2b service are introduced
+    to correct the broadcast ephemeris of GPS and BDS-3 satellites, aiming to enhance
+    the real-time orbit accuracy of LEO satellites.
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not publicly provided
+  - B2b correction archive not distributed
+  - Processing parameters not detailed
+wave: 2

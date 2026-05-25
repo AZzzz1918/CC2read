@@ -1,0 +1,158 @@
+[
+  {
+    "quote_id": "qb_7e5f369d82",
+    "span_index": 0,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Satellite Navigation\nhttps://doi.org/10.1186/s43020-024-00146-5\nhttps://satellite-navigation.springeropen.com/\nORIGINAL ARTICLE Open Access\nMulti-frequency smartphone positioning\nperformance evaluation: insights into A-GNSS\nPPP-B2b services and beyond\nJiale Wang1,3, Chuang Shi1,2,3, Fu Zheng2,3*, Cheng Yang4, Xu Liu3,5, Shuo Liu3,5, Ming Xia1,3, Guifei Jing2,3,\nTuan Li1,3, Wu Chen3,6, Qingcheng Li1,3, Yong Hu1,3, Yuan Tian1,3 and Yunfeng Shan1,3\nAbstract\nIn August 2023, Xiaomi unveiled the Redmi K60 Ultra, the first multi-frequency smartphone integr",
+    "char_length": 4033
+  },
+  {
+    "quote_id": "qb_0335379c32",
+    "span_index": 1,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 2 of 26\nIntroduction performance of PPP-B2b corrections. Their studies show\nOn May 31, 2018, Xiaomi launched the world’s first dual- that the orbit and clock accuracy of PPP-B2b corrections\nfrequency Global Navigation Satellite System (GNSS) are superior to broadcast ephemeris, with the root mean\nsmartphone—Xiaomi Mi8, heralding the era of high- square errors of radial, along-track, and cross-track com-\naccuracy smartphone measurement capabilities (Zan- ponents for Medium Earth Orbit (MEO) satellites being\ngenehnejad & Gao, 2021). The Xiaomi Mi",
+    "char_length": 5754
+  },
+  {
+    "quote_id": "qb_cbbe61c418",
+    "span_index": 2,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 3 of 26\nand future work” section summarizes the study and out- 2015). Ephemeris updates mean GNSS receivers must\nlines future work. regularly establish satellite connections to download\nand use the latest data. Since GNSS receivers are often\n3GPP LPP and OMA SUPL‑based high‑accuracy\nloss-of-lock due to obstacles and interference in urban\nA‑GNSS positioning service\nenvironments, this situation may cause more position-\nThis section comprehensively overviews the standard- ing time of standalone GNSS (Hussain et al., 2021). For\nsetting organizatio",
+    "char_length": 5468
+  },
+  {
+    "quote_id": "qb_d04a8fc432",
+    "span_index": 3,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 4 of 26\nmeasurement in LTE networks (Lin et al., 2017). LPP, a gradually phase out, it signifies the future obsolescence of\ncontrol-plane protocol, principally serves to exchange the Radio Resource Location Protocol (RRLP) and Radio\npositioning assistance data and location information Resource Control (RRC) protocol (van Diggelen, 2020).\nbetween the server and user equipment, thereby sup- LPP or LPP Extensions (LPPe) for supporting the SUPL\nporting location services for mobile devices (Ghosh et al., 3.0 protocol are becoming the predominant pos",
+    "char_length": 4758
+  },
+  {
+    "quote_id": "qb_ca95bfa156",
+    "span_index": 4,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 5 of 26\nFig. 2 The overall architecture of high-precision A-GNSS positioning service\ndata. Figure 3 illustrates the process of exchanging\nSUPL messages between the A-GNSS server and the\nuser equipment. Each exchange of SUPL messages\nnecessitates a unique Session ID to guarantee the sin-\ngularity of the content in the current session. The spe-\ncific process of each conversation from the beginning\nto the end of the SUPL message is as follows:\n• SUPL START: This is the initiation message for the\nSUPL session, initiated by the user equipment, to\nn",
+    "char_length": 1503
+  },
+  {
+    "quote_id": "qb_9e5b752bdc",
+    "span_index": 5,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 6 of 26\nment is situated, its positioning capabilities, and the tion, GNSS-RTK-MAC-CorrectionDifferences, and\ntypes of assistance data requested. GNSS-RTK-FKP-Gradients.\n• SUPL POS: After receiving the SUPL POS INIT • State Space Representation (SSR) correction data: It\nmessage, the A-GNSS server will issue correspond- provides satellite orbits, clock offsets, code biases,\ning assistance data according to the request of and other corrections to compensate for the errors in\nthe user equipment, including primary assistance broadcast ephemerides, ",
+    "char_length": 5235
+  },
+  {
+    "quote_id": "qb_f0497c2c7b",
+    "span_index": 6,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 7 of 26\nTable 1 Publicly available list of satellite-based high-accuracy GNSS correction services for PPP or PPP-RTK\nName Service Satellite System Signal Status Format\nQZSS MADOCA Regional PPP (Japan) GEO/IGSO GECRJ L6D (1278.75 MHz) Experimental (2017-) Compact SSR\nQZSS CLAS Regional PPP-RTK (Japan) GEO/IGSO GEJ L6E (1278.75 MHz) Operational (2018-) Compact SSR\nBDS-3 PPP-B2b Regional PPP (Asia–pacific GEO GCER B2b (1207.14 MHz) Operational (2020-) SSR (PPP-B2b ICD)\nregion)\nGalileo HAS Global PPP (Area restriction) MEO GE E6b (1278.75 MHz) Ope",
+    "char_length": 4789
+  },
+  {
+    "quote_id": "qb_95b467cfcb",
+    "span_index": 7,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 8 of 26\nmessage. Users can achieve real-time PPP processing 2022a, 2022b; Song et al., 2023). The reference datum for\nacross multiple systems and frequencies by implementing GPS clock offsets originates from the ionospheric-free\nthe corrections for satellite orbits, clock offsets, and code (IF) combination of P1/P2 codes, thereby incorporating\nbiases. the signal delay biases of the IF combination. For smart-\nphones utilizing GPS L1 and L5 signals, it is necessary\nMulti‑GNSS PPP model to consider the unification of references across different\nPP",
+    "char_length": 5228
+  },
+  {
+    "quote_id": "qb_db8ee48b38",
+    "span_index": 8,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 9 of 26\nunification for different frequencies of the GPS and BDS\nQ=diag σ2 ,...,σ2 ,...,σ2 ,...,σ2 ,\nsystems on smartphones can be achieved. (cid:31) P r K ,1 ,1 P r K ,1 ,m Pr K ,n ,1 Pr K ,n ,m\nTherefore, the linearized error equation can be (15)\nσ2 ,...,σ2 ,...,σ2 ,...,σ2\nexpressed as: φ r K ,1 ,1 φ r K ,1 ,m φr K ,n ,1 φr K ,n ,m (cid:30)\n�PK,s =uK,s�x +ctK +aK,s�T +γK,s�IK,s\nr,f r r r r w r,f r\nwhere\ndiag(·)\nrepresents the diagonal matrix;\nσ2\nrep-\n\n+cb\nr\nK\n,f\n+ε\nP\nK\nresents the noise variance of the code pseudorange\n �φ\nr\nK\n,f\n,s =u",
+    "char_length": 5463
+  },
+  {
+    "quote_id": "qb_9c1981b2f3",
+    "span_index": 9,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 10 of 26\nnot disproportionately affect the outcomes (Wang et al., 2022). Therefore, elevation at the edges of each building\n2024). can be calculated:\n3D‑mapping‑aided GNSS algorithm E =arctan ui\ni (17)\nSmartphones are equipped with small linearly polarized (cid:31) e2+n2(cid:29)\ni i\nmicrostrip antennas, which makes them more sensitive (cid:30)\nto multipath signals (Zhang et al., 2019; Groves & Adjrad, where arctan(·) represents the arctangent function and E i\n2019). Multipath errors may introduce discrepancies denotes the elevation of each buil",
+    "char_length": 3564
+  },
+  {
+    "quote_id": "qb_e7d9842980",
+    "span_index": 10,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 11 of 26\nEs <E i −θ edge , we assume it is more likely to be NLOS providing a coarse location for A-GNSS positioning\nsatellite and exclude this signal in the following filtering mode to enhance satellite signal acquisition. The most\nprocessing. NLOS reception generally occurs in scenes prevalent RAT-dependent positioning techniques in\nwith low signal strength and large residuals. Therefore, smartphones are Enhanced Cell Identity (E-CID) and\nfor the satellites located near the edge of the building OTDOA. OTDOA triangulates the position by measu",
+    "char_length": 4867
+  },
+  {
+    "quote_id": "qb_0749643df5",
+    "span_index": 11,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 12 of 26\nT i −t i = d c i +ε i (19) where σ i 2 represents the variance of the i-th observation;\nS i denotes the Signal to Interference plus Noise Ratio\nwhere x i ,y i is the plane coordinates of Base Station (BS) (SINR) of the i-th PRS received by the UE. SINR can\nB S(i) ,i (cid:31) =(0, (cid:30) 1,...,n) ; c is the speed of light in a vacuum; characterize the signal quality of each PRS, thus obtain-\nε in i te in r d fe i r c e a n te c s e ; m an e d a s d u i re = men ( t x i e − rro x r ) s 2 + cau y s i e − d y by 2 r n e o p i r s e e s e",
+    "char_length": 5236
+  },
+  {
+    "quote_id": "qb_6759172198",
+    "span_index": 12,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 13 of 26\nFig. 7 Experimental scenarios under different test conditions. a Experiment 1—observation noise analysis under zero baseline condition b\nExperiment 2—TTFF comparison in areas with good cellular signal quality c Experiment 3—static positioning test under open sky d Experiment\n4—kinematic positioning test under open sky e Experiment 5—kinematic positioning test in realistic environment f Experiment 6—3DMA GNSS\npositioning exploration in challenging urban area\nmulti-constellation and multi-frequency GNSS. Experi- potential of the 3DMA GN",
+    "char_length": 2941
+  },
+  {
+    "quote_id": "qb_def3d58d1b",
+    "span_index": 13,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 14 of 26\ndifferent error characteristics across various systems\nand frequencies compared to survey-grade receivers.\nInvestigating these differences is vital to gain an in-depth\nunderstanding of the measurement quality of GNSS\nchipsets, thereby facilitating the optimization of func-\ntional or stochastic models (Zhang et al., 2020). To objec-\ntively represent the noise level in multi-constellation\nand multi-frequency GNSS observations, we conducted\na zero-baseline experiment in laboratory conditions, as\nFig. 8 GNSS constellations and frequencies ",
+    "char_length": 3260
+  },
+  {
+    "quote_id": "qb_a440c69289",
+    "span_index": 14,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 15 of 26\ncomparison. High-quality and strong GNSS signals were phase, the Redmi K60 Ultra smartphone exhibits consist-\ndelivered to the smartphones using choke loop antennas, ent levels across various constellations and frequencies.\nsignal repeaters, and radio-frequency shielding boxes. We used Standard Deviation (STD) to measure the dou-\nDue to the effective suppression of multipath signals by ble-difference residual of zero-baseline code pseudorange\nthe choke ring antenna and radio-frequency shielding and carrier phase.\nbox, the GNSS observa",
+    "char_length": 2754
+  },
+  {
+    "quote_id": "qb_6b745614d3",
+    "span_index": 15,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 16 of 26\nFig. 11 STD statistics of code pseudorange and carrier phase noise. a Code noise STD b Carrier phase noise STD\nTable 4 Specific values of STD statistics for code pseudorange and carrier phase noise on different experimental devices\nExperimental device Observation GPS GLO BDS Galileo QZSS\nL1 L5 G1 B1I B1C B2a E1 E5a L1 L5\nGoogle Pixel6 Code (m) 1.67 0.45 3.80 1.24 – 0.37 0.45 0.38 1.26 0.28\nXiaomi Mi8 1.21 0.48 3.39 0.53 – – 0.65 0.40 1.09 0.42\nRedmi K60 Ultra 0.94 0.40 2.68 0.78 0.69 0.27 0.67 0.35 1.18 0.15\nHuawei P40 0.90 0.29 2.79 0",
+    "char_length": 3143
+  },
+  {
+    "quote_id": "qb_ec04690def",
+    "span_index": 16,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 17 of 26\nTable 5 Specific settings for standalone GNSS and A-GNSS was essential to maintain a cold start for each position-\npositioning modes ing process, necessitating the clearance of broadcast\nItems Standalone GNSS A‑GNSS ephemeris, almanac, historical location and frequency\nlogs after each positioning. In subsequent positioning\nCellular network No Yes\nattempts, the standalone GNSS mode must recapture\nTTFF statistics Yes Yes\nand track satellite signals to download new ephemeris\nStart mode Cold start Cold start\nfor positioning. In contrast, ",
+    "char_length": 4109
+  },
+  {
+    "quote_id": "qb_a7e301ef89",
+    "span_index": 17,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 18 of 26\nits capabilities using various methods, including OTDOA algorithm exhibits the most inferior position-\nOTDOA, A-GNSS PPP, Off line SPP, Off-line PPP, 3DMA ing accuracy, with errors ranging from 20 to 150 m. The\nSPP, and 3DMA PPP. Table 6 provides a detailed explana- inability of OTDOA to achieve meter-level precision is\ntion of these positioning methods. OTDOA is a cellular primarily due to the limited time synchronization accu-\nnetwork-based positioning method that provides coarse racy of the prevailing 4G/5G mobile communication net-",
+    "char_length": 5711
+  },
+  {
+    "quote_id": "qb_91ac70def9",
+    "span_index": 18,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 19 of 26\nFig. 13 Positioning results of the Redmi K60 Ultra smartphone under different environments. a Static positioning errors in the open-sky\nenvironment of Experiment 3 b Satellite overhead view of Experiment 3 c Kinematic positioning errors in the open-sky environment of Experiment\n4 d Satellite overhead view of Experiment 4 e Kinematic positioning errors in the realistic environment of Experiment 5 f Satellite overhead view\nof Experiment 5",
+    "char_length": 500
+  },
+  {
+    "quote_id": "qb_9dd9a11d64",
+    "span_index": 19,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 20 of 26\nurban area depicted in Fig. 7f. The test location is sur-\nrounded by numerous tall buildings with glass facades,\nwhich can severely obstruct the GNSS signals received\nby smartphones. Accurate 3D models of these buildings\nhave been determined and generated into an offline data-\nbase using a high-precision handheld scanner.\nFigure 14 presents the sky mask generated for an obser-\nvation epoch centered on the user equipment. Red dots\nin the sky mask indicate NLOS satellites, green dots\nindicate LOS satellites and gray areas indicate buildi",
+    "char_length": 3235
+  },
+  {
+    "quote_id": "qb_e833ef7a3c",
+    "span_index": 20,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 21 of 26\nA-GNSS service with 3DMA GNSS algorithms. Once the\n3GPP establishes standardized formats for 3D building\nmodels, the A-GNSS server can store extensive 3D city\nmodels in the database. In addition to transmitting sat-\nellite ephemeris, almanac, and OSR/SSR corrections, the\nprovision of 3D building models around the user equip-\nment can further enhance GNSS positioning perfor-\nmance in harsh urban areas.\nAnalysis and discussion of experimental results\nTo provide a more intuitive and straightforward rep-\nresentation of the distribution of",
+    "char_length": 4022
+  },
+  {
+    "quote_id": "qb_cb000485ad",
+    "span_index": 21,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 22 of 26\nFig. 18 2D positioning errors derived from various positioning methods in Experiments 3 to 6. a Box plot representations of the 2D positioning\nerrors b Key features of the box plot\nTable 7 Positioning error statistics of various positioning methods in Experiments 3 to 6\nMethod Result of experiment 3 (m) Result of experiment 4 (m) Result of experiment 5 (m) Result of experiment 6 (m)\nRMS Med Max RMS Med Max RMS Med Max RMS Med Max\nOTDOA 38.69 22.26 122.64 55.68 39.33 123.51 77.36 62.03 165.27 47.61 43.38 91.01\nA-GNSS PPP 1.34 1.28 4.01 ",
+    "char_length": 2995
+  },
+  {
+    "quote_id": "qb_cf51f7a85d",
+    "span_index": 22,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 23 of 26\nConclusion and future work to 6 m, and the positioning accuracy is improved by over\nAs the world’s first smartphone to utilize the PPP-B2b 30%, achieving 2.4 m.\nservice as an alternative to the conventional SPP func- The release of the Redmi K60 Ultra marks a significant\ntionality, the Redmi K60 Ultra is equipped with Mediatek milestone, signaling a potential shift in the mass market\nDimensity 9200 + chipset that supports multi-frequency towards adopting high-precision PPP technology over\nmeasurements. The PPP-B2b service, offered thr",
+    "char_length": 5311
+  },
+  {
+    "quote_id": "qb_e61503f23f",
+    "span_index": 23,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 24 of 26\nTTFF T ime to first fix Chen, G., Wei, N., Li, M., Zhao, Q., & Zhang, J. (2022b). BDS-3 and GPS/Galileo\nUE User equipment integrated PPP using broadcast ephemerides. GPS Solutions, 26(4), 129.\nUMTS U niversal Mobile Telecommunications System Chen, J., Zhang, Y., Yu, C., Wang, A., Song, Z., & Zhou, J. (2022a). Models and\nperformance of SBAS and PPP of BDS. Satellite Navigation, 3(1), 4.\nAcknowledgements Cheng, S., Wang, F., Li, G., & Geng, J. (2023). Single-frequency multi-GNSS\nThe authors would like to thank the editors and reviewers f",
+    "char_length": 8026
+  },
+  {
+    "quote_id": "qb_85d4b9ded6",
+    "span_index": 24,
+    "text": "W ang et al. Satellite Navigation (2024) 5:25 Page 25 of 26\nGu, S., Zheng, F., Gong, X., Lou, Y., & Shi, C. (2018). Fusing: A distributed software Miao, W., Li, B., & Gao, Y. (2023). The superiority of multi-GNSS L5/E5a/B2a fre-\nplatform for real-time high precision multi-GNSS service. IGS Workshop. quency signals in smartphones: Stochastic modeling, ambiguity resolu-\nHauschild, A., Montenbruck, O., Steigenberger, P., Martini, I., & Fernandez- tion, and RTK positioning. IEEE Internet of Things Journal, 10(8), 7315–7326.\nHernandez, I. (2022). Orbit determination of Sentinel-6A using the Galileo",
+    "char_length": 9336
+  },
+  {
+    "quote_id": "qb_dd7afe9705",
+    "span_index": 25,
+    "text": "Wang et al. Satellite Navigation (2024) 5:25 Page 26 of 26\nYang, Y., Ren, X., Jia, X., & Sun, B. (2023). Development trends of the national\nsecure PNT system based on BDS. Science China Earth Sciences, 66(5),\n929–938.\nZangenehnejad, F., & Gao, Y. (2021). GNSS smartphones positioning: Advances,\nchallenges, opportunities, and future perspectives. Satellite Navigation,\n2(1), 24.\nZhang, B., Hou, P., Liu, T., & Yuan, Y. (2020). A single-receiver geometry-free\napproach to stochastic modeling of multi-frequency GNSS observables.\nJournal of Geodesy, 94(4), 37.\nZhang, G., Wen, W., & Hsu, L.-T. (2019). ",
+    "char_length": 1971
+  }
+]

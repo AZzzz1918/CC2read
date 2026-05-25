@@ -1,0 +1,69 @@
+count: 2
+papers:
+- abstract_detected: false
+  abstract_snippet: ''
+  best_title_candidate: Combinatorial problems
+  extraction_quality: PASS
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0020019019300018-main.pdf
+  filename: 1-s2.0-S0020019019300018-main.pdf
+  garbled_text_ratio: 0.0
+  invalid_first_line_reason: valid_title_candidate
+  keyword_scores:
+    bds_ppp: 7
+    boundary: 0
+    core_b2b: 0
+    general: 0
+  matched_keywords:
+    bds_ppp:
+    - \bPPP\b
+    boundary: []
+    core_b2b: []
+    general: []
+  page_count: 5
+  parsed_doi: null
+  recommended_next_step: inventory_only
+  references_detected: false
+  relevance_class: LOW_GENERAL_GNSS_RELEVANCE
+  text_extractable: true
+  title_confidence: MEDIUM
+  title_source: before_introduction
+- abstract_detected: true
+  abstract_snippet: 'Galileo High Accuracy Service (HAS) corrections are broadcast
+    through the E6B signal using a high-parity vertical Reed-
+
+    Solomon encoding scheme, which reduces message recovery time and improves transmission
+    reliability. To recover HAS
+
+    corrections, it is thus necessary to invert the encoding process '
+  best_title_candidate: D. Borio1 · M. Susi1 · C. Gioia2
+  extraction_quality: PASS
+  file_path: E:\PPP\CC2read\paper\2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf
+  filename: 2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf
+  garbled_text_ratio: 0.0
+  invalid_first_line_reason: valid_title_candidate
+  keyword_scores:
+    bds_ppp: 3
+    boundary: 33
+    core_b2b: 0
+    general: 9
+  matched_keywords:
+    bds_ppp:
+    - \bPPP\b
+    - precise point positioning
+    boundary:
+    - Galileo HAS
+    - High Accuracy Service
+    - \bHAS\b
+    core_b2b: []
+    general:
+    - \bGNSS\b
+    - \bGPS\b
+    - Galileo(?!\s+HAS)
+  page_count: 8
+  parsed_doi: null
+  recommended_next_step: inventory_only
+  references_detected: false
+  relevance_class: LOW_GENERAL_GNSS_RELEVANCE
+  text_extractable: true
+  title_confidence: HIGH
+  title_source: before_abstract

@@ -1,0 +1,59 @@
+{
+  "paper_id": "test6_missing_dcb_uc",
+  "source_file": "paper/test6.pdf",
+  "file_hash": "pqr678",
+  "bibliographic_info": {
+    "title": "Uncombined PPP with BDS-3 Multi-Frequency Observations",
+    "authors": [{"name": "Chen Li"}, {"name": "Wei Zhang"}],
+    "year": 2023,
+    "journal_or_venue": "Journal of Navigation"
+  },
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": ["P_i = rho + c*dt_r - c*dt^s + T + I_i + b_r,i - b_i^s + epsilon"],
+    "conflict_flag": false
+  },
+  "mathematical_model": {
+    "processing_mode": "UNCOMBINED_PPP",
+    "observation_model": "Uncombined multi-frequency PPP",
+    "state_vector": ["position", "receiver clock", "troposphere", "ionosphere", "ambiguities"],
+    "stochastic_model": "Elevation-dependent weighting",
+    "estimator": "EKF",
+    "grounding_quotes": ["The ionospheric delay is estimated as unknown parameter"]
+  },
+  "ionospheric_handling": {
+    "strategy": "Ionospheric delay estimated as unknown parameter",
+    "dcb_source": "",
+    "dcb_missing_flag": false,
+    "dcb_missing_warning": "",
+    "grounding_quotes": ["No specific DCB product is mentioned for code bias handling"]
+  },
+  "correction_types": {
+    "orbit_correction": "PPP-B2b",
+    "clock_correction": "PPP-B2b",
+    "code_bias": "NOT_MENTIONED",
+    "phase_bias": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "research_problem": {"problem_statement": "Uncombined PPP with BDS-3 multi-frequency"},
+  "technical_route": {"overall_flow": "Uncombined PPP processing", "grounding_quotes": []},
+  "method": {"method_name": "Uncombined PPP"},
+  "formulas": [],
+  "experiments": [],
+  "experiment_epoch": {"start_date": "NOT_MENTIONED", "end_date": "NOT_MENTIONED", "grounding_quotes": []},
+  "datasets": {"grounding_quotes": []},
+  "metrics": {"grounding_quotes": []},
+  "main_results": {"grounding_quotes": []},
+  "novelty_audit": {"audit_grade": "B_INCREMENTAL", "grounding_quotes": []},
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED", "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED", "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED", "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED", "config_files": "NOT_MENTIONED",
+    "metric_definitions": "NOT_MENTIONED", "baseline_details": "NOT_MENTIONED",
+    "reproduction_blockers": ["No code", "No data"],
+    "reproducibility_score": 0,
+    "grounding_quotes": []
+  }
+}

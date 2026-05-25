@@ -1,0 +1,117 @@
+{
+  "paper_id": "RT_ZTD_PPP_B2b_HAS_MADOCA",
+  "extraction_mode": "full",
+  "batch": "Batch 2",
+  "selection_role": "boundary_mixed",
+  "extraction_timestamp": "2026-05-22T19:14:35.402586",
+  "bibliographic_info": {
+    "title": "Real-Time Precise Zenith Tropospheric Delay Estimation With BDS PPP-B2b, Galileo HAS, and QZSS MADOCA-PPP Services",
+    "authors": "NOT_MENTIONED",
+    "year": 2024,
+    "journal_or_venue": "NOT_MENTIONED",
+    "doi": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "MIXED_PRODUCTS",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": []
+  },
+  "experiment_epoch": {
+    "start_date": "2023-3-5",
+    "end_date": "2023-3-5",
+    "description": "Dates extracted from text: 2023-3-5",
+    "dates_found": [
+      "2023-3-5"
+    ],
+    "months_found": [
+      "May 2021"
+    ],
+    "doys_found": [],
+    "grounding_quotes": []
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    }
+  ],
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0,
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "status": "MENTIONED",
+    "iono_mentions": 5,
+    "grounding_quotes": []
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "stations_found": [
+      "CUSV",
+      "JFNG",
+      "ULAB",
+      "URUM"
+    ],
+    "grounding_quotes": []
+  },
+  "metrics": {},
+  "main_results": {
+    "summary": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "is_ppp_b2b_core_paper": false,
+  "pdf_metadata": {
+    "pages": 11,
+    "b2b_mentions": 71,
+    "has_mentions": 8,
+    "clas_mentions": 1,
+    "dcb_mentions": 0,
+    "iono_mentions": 5,
+    "dates_found": [
+      "2023-3-5"
+    ],
+    "months_found": [
+      "May 2021"
+    ],
+    "doys_found": [],
+    "periods": [
+      "from1999to2015"
+    ],
+    "stations_found": [
+      "CUSV",
+      "JFNG",
+      "ULAB",
+      "URUM"
+    ],
+    "sampling_rates": [],
+    "elevation_cutoff": []
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "MIXED_PRODUCTS",
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "NOT_MENTIONED",
+    "reproduction_blockers_non_empty": true
+  }
+}

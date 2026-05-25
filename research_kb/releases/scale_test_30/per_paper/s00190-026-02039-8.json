@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The study develops a refined PPP strategy with ambiguity reparameterization to mitigate PPP-B2b correction errors for real-time oceanic PWV sensing, directly using BeiDou PPP-B2b as its core.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s00190-026-02039-8.pdf",
+  "paper_id": "s00190-026-02039-8",
+  "extraction_mode": "batch_classify_1call"
+}

@@ -1,0 +1,66 @@
+{
+  "release": "continuous_ingestion_release_001",
+  "admitted": 7,
+  "quarantined": 0,
+  "base_admitted": 66,
+  "admitted_after": 73,
+  "wrong_support": 0,
+  "results": [
+    {
+      "pid": "CI001_s10291_024_01776_7",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 80,
+      "pages": 15,
+      "dcb": "MENTIONED",
+      "title": "Real-time estimation of multi-frequency phase observable-specific bias for the B"
+    },
+    {
+      "pid": "CI001_s12145_023_00939_3",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 94,
+      "pages": 14,
+      "dcb": "NOT_MENTIONED",
+      "title": "Assessment of precipitable water vapor retrieved from precise point positioning "
+    },
+    {
+      "pid": "CI001_1_s2_0_S0273117723005483_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 161,
+      "pages": 13,
+      "dcb": "MENTIONED",
+      "title": "cKeyLaboratoryofElectro-OpticalCountermeasuresTest&EvaluationTechnology,Luoyang4"
+    },
+    {
+      "pid": "CI001_s43020_024_00143_8",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 64,
+      "pages": 20,
+      "dcb": "MENTIONED",
+      "title": "High-precision services of BeiDou navigation satellite system (BDS): current sta"
+    },
+    {
+      "pid": "CI001_1_s2_0_S0273117725002066_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 100,
+      "pages": 14,
+      "dcb": "EXPLICITLY_DESCRIBED",
+      "title": "BDS-3/GPS uncombined real-time PPP with PPP-B2b precise products: Modeling and i"
+    },
+    {
+      "pid": "CI001_atmosphere_15_01048",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 193,
+      "pages": 31,
+      "dcb": "EXPLICITLY_DESCRIBED",
+      "title": "Assessment of BDS-3 PPP-B2b Service and Its Applications for the Determination o"
+    },
+    {
+      "pid": "CI001_s10291_025_01835_7",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 99,
+      "pages": 17,
+      "dcb": "BRIEFLY_MENTIONED",
+      "title": "Clock systematic jump estimation and URA refinement of BDS-3 B2b real-time preci"
+    }
+  ]
+}

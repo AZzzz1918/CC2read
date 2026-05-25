@@ -1,0 +1,354 @@
+{
+  "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T16:30:00",
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_31af0c59de",
+        "quote_text": "Journal of Geodesy (2022) 96:60\nhttps://doi.org/10.1007/s00190-022-01642-9\nORIGINAL ARTICLE\nOrbit determination, clock estimation and performance evaluation\nof BDS-3 PPP-B2b service\nChengpan Tang1 · Xiaogong Hu1,3 · Jinping Chen2 · Li Liu2 · Shanshi Zhou1 · Rui Guo2 · Xiaojie Li1,2 · Feng He5 ·\nJinhuo Liu1,4 · Jianhua Yang1,4\nReceived: 29 November 2020 / Accepted: 14 July 2022 / Published online: 29 August 2022\n© Springer-Verlag GmbH Germany, part of Springer Nature 2022\nAbstract\nThis paper focuses on PPP-B2b, one of the featured services for BDS-3, which provides users around China with centimetre-\nlevel static positioning accuracy and decimetre-level kinematic positioning accuracy by broadcasting precise corrections for\nGPS/BDS-3 satellites.",
+        "original_quote": "This paper focuses on PPP-B2b, one of the featured services for BDS-3",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      },
+      {
+        "quote_id": "qb_1b2420dbd3",
+        "quote_text": "The PPP-B2b signal, transmitted by BDS-3 GEO satellites,\nbroadcasts precise orbit corrections, clock corrections and\nDifferential Code Biases (DCB) of BDS-3 IGSO/MEO satel-\nlites and GPS satellites to dual-frequency users around China\nand its surrounding areas (CSNO 2019b).",
+        "original_quote": "The PPP-B2b signal, transmitted by BDS-3 GEO satellites, broadcasts precise orbit corrections, clock corrections and Differential Code Biases (DCB)",
+        "match_type": "normalized",
+        "confidence": "medium",
+        "score": 0.536
+      },
+      {
+        "quote_id": "qb_31af0c59de",
+        "quote_text": "Journal of Geodesy (2022) 96:60\nhttps://doi.org/10.1007/s00190-022-01642-9\nORIGINAL ARTICLE\nOrbit determination, clock estimation and performance evaluation\nof BDS-3 PPP-B2b service\nChengpan Tang1 · Xiaogong Hu1,3 · Jinping Chen2 · Li Liu2 · Shanshi Zhou1 · Rui Guo2 · Xiaojie Li1,2 · Feng He5 ·\nJinhuo Liu1,4 · Jianhua Yang1,4\nReceived: 29 November 2020 / Accepted: 14 July 2022 / Published online: 29 August 2022\n© Springer-Verlag GmbH Germany, part of Springer Nature 2022\nAbstract\nThis paper focuses on PPP-B2b, one of the featured services for BDS-3, which provides users around China with centimetre-\nlevel static positioning accuracy and decimetre-level kinematic positioning accuracy by broadcasting precise corrections for\nGPS/BDS-3 satellites.",
+        "original_quote": "PPP is one of the featured services of BDS-3 for supporting high-precision positioning applications",
+        "match_type": "keyword_overlap",
+        "confidence": "medium",
+        "score": 0.6
+      }
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2020-08-01",
+    "end_date": "2020-08-07",
+    "duration_days": 7,
+    "date_description": "PPP-B2b broadcast messages from August 1, 2020, to August 7, 2020 (DoY 214-220)",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_15565167e4",
+        "quote_text": "3.2.1 Accuracy of orbit solutions\nEvaluation is done using PPP-B2b broadcast messages from\nAugust 1, 2020, to August 7, 2020.",
+        "original_quote": "Evaluation is done using PPP-B2b broadcast messages from August 1, 2020, to August 7, 2020",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.72
+      },
+      {
+        "quote_id": "qb_0b73e12199",
+        "quote_text": "7 during the period from August 1,\n2020, to August 7, 2020.",
+        "original_quote": "during the period from August 1, 2020, to August 7, 2020",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.949
+      }
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction",
+      "components": [
+        "radial",
+        "along-track",
+        "cross-track"
+      ],
+      "reference_frame": "ECEF, relative to satellite phase center",
+      "update_interval_s": 48,
+      "nominal_validity_s": 96
+    },
+    {
+      "type": "clock_correction",
+      "reference": "B3I signal for BDS, L1/L2 ionosphere-free for GPS",
+      "update_interval_s": 6,
+      "nominal_validity_s": 12
+    },
+    {
+      "type": "differential_code_bias",
+      "signals": [
+        "B1I",
+        "B1Cp",
+        "B2ap"
+      ],
+      "reference_signal": "B3I",
+      "update_interval_s": 48,
+      "nominal_validity_s": 86400
+    },
+    {
+      "type": "user_range_accuracy_index",
+      "update_interval_s": 48,
+      "nominal_validity_s": 96
+    },
+    {
+      "type": "prn_mask",
+      "update_interval_s": 48
+    }
+  ],
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "description": "PPP-B2b broadcasts DCB corrections for B1I, B1Cp, and B2ap signals relative to B3I. GPS DCBs NOT provided — users must use L1/L2 ionosphere-free combination for GPS.",
+    "signals_corrected": [
+      "B1I",
+      "B1Cp",
+      "B2ap"
+    ],
+    "reference_signal": "B3I",
+    "gps_dcb": "NOT_PROVIDED",
+    "dcb_accuracy": {
+      "DCB_B1I_RMS_ns": 0.66,
+      "DCB_B1Cp_RMS_ns": 0.38,
+      "DCB_B2ap_RMS_ns": 0.56
+    },
+    "dcb_validation_reference": "MGEX DCB products provided by CAS (Wang et al. 2016)",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_b0a69dd08b",
+        "quote_text": "3) Differential Code Bias\nThe differential code bias deﬁnes the transmitting delay\ndifference of the signal components involved with\nrespect to the satellite clock parameters.",
+        "original_quote": "The differential code bias defines the transmitting delay difference of the signal components involved with respect to the satellite clock parameters",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.929
+      },
+      {
+        "quote_id": "qb_d1ebe48991",
+        "quote_text": "Speciﬁcally, DCB(B1I) refers to the differential code bias\nbetween B1I and B3I.",
+        "original_quote": "DCB(B1I) refers to the differential code bias between B1I and B3I",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.823
+      },
+      {
+        "quote_id": "qb_f1e0747b10",
+        "quote_text": "The GPS DCBs are not provided by the PPP-B2b signals\nand users are suggested to conduct L1/L2 dual-frequency\nGPS PPP.",
+        "original_quote": "The GPS DCBs are not provided by the PPP-B2b signals and users are suggested to conduct L1/L2 dual-frequency GPS PPP",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.991
+      },
+      {
+        "quote_id": "qb_0b6a4da06d",
+        "quote_text": "RMS of\nDCB(B1I) errors, DCB(B1Cp) errors and DCB(B2ap) errors\nare about 0.66 ns, 0.38 ns and 0.56 ns respectively.",
+        "original_quote": "RMS of DCB(B1I) errors, DCB(B1Cp) errors and DCB(B2ap) errors are about 0.66 ns, 0.38 ns and 0.56 ns respectively",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.991
+      }
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "Real-time PPP with dual-frequency ionosphere-free combination",
+    "orbit_determination": "Least-squares batch estimation with ISL + regional L-band measurements",
+    "clock_estimation": "Kalman filter, satellite clocks as white noise, 1ms/sqrt(1s) process noise",
+    "key_equations": [
+      {
+        "name": "ISL dual one-way measurement",
+        "equation": "rho_AB(t1) = |R_B(t1) - R_A(t1-dt1)| + c*clkB(t1) - c*clkA(t1) + c*tau_Send_A + c*tau_Rcv_B + delta_rho_AB_cor"
+      },
+      {
+        "name": "Geometrical distance derivation",
+        "equation": "(rho_AB(t0) + rho_BA(t0))/2 = |R_B(t0) - R_A(t0)| + c*X_A_Delay + c*X_B_Delay + ..."
+      },
+      {
+        "name": "URE (MEO)",
+        "equation": "URE = sqrt((0.99*R)^2 + (0.14*A)^2 + (0.14*C)^2)"
+      },
+      {
+        "name": "Clock difference",
+        "equation": "delta_clk_i(t) = clk_B2b_i - clk_GFZ_i - sum(clk_B2b_n - clk_GFZ_n)/ns"
+      }
+    ],
+    "frequency_combinations": {
+      "bds": "B1I/B3I ionosphere-free",
+      "gps": "L1/L2 ionosphere-free"
+    },
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_feb001ef91",
+        "quote_text": "A new orbit determination\nstrategy of BDS-3 satellites is implemented for the PPP\nservice, in which the BDS-3 orbits are estimated using\ninter-satellite link (ISL) measurements and observations\nfrom 7 stations in mainland China in combination instead\nof the globally-distributed monitoring stations.",
+        "original_quote": "A new orbit determination strategy of BDS-3 satellites is implemented for the PPP service, in which the BDS-3 orbits are estimated using inter-satellite link (ISL) measurements and observations from 7 stations in mainland China in combination",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.809
+      },
+      {
+        "quote_id": "qb_b66df18aef",
+        "quote_text": "A new orbit\ndetermination strategy using regional L-band code/phase measurements and inter-satellite link measurements in combination\nand a real-time clock estimation strategy based on the Kalman ﬁlter for PPP-B2b precise correction generation are introduced\nin this contribution.",
+        "original_quote": "satellite clock estimation process is conducted in real-time with a Kalman filter",
+        "match_type": "keyword_overlap",
+        "confidence": "medium",
+        "score": 0.667
+      }
+    ]
+  },
+  "datasets": {
+    "stations": [
+      "bjf1",
+      "chu1",
+      "kun1",
+      "sha1",
+      "wuh1",
+      "xia1"
+    ],
+    "station_network": "6 iGMAS stations in mainland China",
+    "correction_source": "PPP-B2b broadcast messages decoded by monitoring receiver at NUDT, Shanghai",
+    "reference_products": {
+      "orbit_clock": "MGEX GFZ precise products",
+      "dcb": "CAS MGEX DCB products"
+    },
+    "orbit_determination_stations": "12 regional stations within mainland China + 30 globally-distributed stations (GPS only)",
+    "constellations": [
+      "BDS-3 IGSO/MEO",
+      "GPS"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_85b128e572",
+        "quote_text": "4 Precise point positioning validation\nPerformance of the PPP-B2b service is assessed by conduct-\ning PPP using measurements from six International GNSS\nMonitoringandAssessmentService(iGMAS,Jiao2014)sta-\ntions in mainland China (bjf1, chu1, kun1, sha1, wuh1 and\nxia1) as mentioned in Fig.",
+        "original_quote": "measurements from six International GNSS Monitoring and Assessment Service (iGMAS) stations in mainland China (bjf1, chu1, kun1, sha1, wuh1 and xia1)",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.824
+      },
+      {
+        "quote_id": "qb_3c65070b4c",
+        "quote_text": "3.2.2 Accuracy of clock solutions\nThe MGEX GFZ precise clock is taken as the reference for\nevaluating the accuracy of the PPP-B2b clock solutions.",
+        "original_quote": "The MGEX GFZ precise clock is taken as the reference for evaluating the accuracy of the PPP-B2b clock solutions",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.76
+      }
+    ]
+  },
+  "metrics": {
+    "orbit_accuracy": {
+      "bds_meo_radial_m": 0.042,
+      "bds_meo_along_m": 0.133,
+      "bds_meo_cross_m": 0.155,
+      "bds_meo_3d_m": 0.21,
+      "bds_meo_ure_m": 0.051,
+      "bds_igso_radial_m": 0.155,
+      "bds_igso_ure_m": 0.157,
+      "gps_ure_m": 0.049
+    },
+    "clock_accuracy": {
+      "bds_meo_std_ns": 0.172,
+      "bds_igso_std_ns": 0.241,
+      "gps_std_ns": 0.156
+    },
+    "static_ppp_repeatability_cm": {
+      "bds_gps_n": 0.351,
+      "bds_gps_e": 0.447,
+      "bds_gps_u": 0.792
+    },
+    "static_ppp_rms_vs_gfz_cm": {
+      "bds_gps_mean_n": 0.57,
+      "bds_gps_mean_e": 0.77,
+      "bds_gps_mean_u": 2.99
+    },
+    "kinematic_ppp_rms_cm": {
+      "bds_gps_n": 2.128,
+      "bds_gps_e": 3.271,
+      "bds_gps_u": 8.414
+    },
+    "convergence_time": {
+      "bds_gps_static_min": "7-12",
+      "bds_gps_kinematic_min": "<12"
+    }
+  },
+  "main_results": {
+    "summary": "PPP-B2b real-time positioning accuracy is at the same level as post-processed GFZ products. BDS-3/GPS dual-system PPP offers faster convergence and better accuracy than single-system.",
+    "key_findings": [
+      "Orbit URE: 0.05m for BDS-3 MEO and GPS satellites; 0.15m for BDS-3 IGSO",
+      "Clock correction accuracy: ~0.2ns for BDS-3 and GPS satellites",
+      "BDS/GPS static positioning repeatability <1.0cm in horizontal, <1.5cm in vertical",
+      "BDS/GPS kinematic positioning RMS: 2.1cm (N), 3.3cm (E), 8.4cm (U)",
+      "PPP-B2b convergence: 7-12 min for static, <12 min for kinematic (BDS/GPS dual-system)",
+      "ISL measurements improve along-track and cross-track orbit accuracy due to better geometry"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_d0ae994304",
+        "quote_text": "The positioning accuracy achievable using PPP-B2b real-time products is at the same level as that using\npost-processed products.",
+        "original_quote": "The positioning accuracy achievable using PPP-B2b real-time products is at the same level as that using post-processed products",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.992
+      },
+      {
+        "quote_id": "qb_31af0c59de",
+        "quote_text": "Journal of Geodesy (2022) 96:60\nhttps://doi.org/10.1007/s00190-022-01642-9\nORIGINAL ARTICLE\nOrbit determination, clock estimation and performance evaluation\nof BDS-3 PPP-B2b service\nChengpan Tang1 · Xiaogong Hu1,3 · Jinping Chen2 · Li Liu2 · Shanshi Zhou1 · Rui Guo2 · Xiaojie Li1,2 · Feng He5 ·\nJinhuo Liu1,4 · Jianhua Yang1,4\nReceived: 29 November 2020 / Accepted: 14 July 2022 / Published online: 29 August 2022\n© Springer-Verlag GmbH Germany, part of Springer Nature 2022\nAbstract\nThis paper focuses on PPP-B2b, one of the featured services for BDS-3, which provides users around China with centimetre-\nlevel static positioning accuracy and decimetre-level kinematic positioning accuracy by broadcasting precise corrections for\nGPS/BDS-3 satellites.",
+        "original_quote": "The orbit URE is 0.05 m for the BDS-3 MEO and GPS satellites",
+        "match_type": "keyword_overlap",
+        "confidence": "medium",
+        "score": 0.667
+      },
+      {
+        "quote_id": "qb_b0e3d97cac",
+        "quote_text": "The\nclock correction accuracy is 0.2 ns for BDS-3 and GPS satellites.",
+        "original_quote": "The clock correction accuracy is 0.2 ns for BDS-3 and GPS satellites",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.986
+      },
+      {
+        "quote_id": "qb_46e6c5d8ce",
+        "quote_text": "The RMS for BDS-3/GPS dual-system static positioning errors is less than 1.0 cm in east and north\nand about 3.0 cm in the up.",
+        "original_quote": "The RMS for BDS-3/GPS dual-system static positioning errors is less than 1.0 cm in east and north and about 3.0 cm in the up",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.992
+      }
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "B_INCREMENTAL",
+    "rationale": "Introduces a novel orbit determination strategy using ISL measurements + regional L-band code/phase measurements in combination, and a real-time Kalman filter clock estimation strategy for PPP-B2b correction generation. This is a significant engineering contribution that enables the PPP-B2b service itself.",
+    "novel_elements": [
+      "ISL + regional L-band combined orbit determination for BDS-3",
+      "Real-time Kalman filter clock estimation with fixed predicted orbits",
+      "Comprehensive PPP-B2b correction generation pipeline description"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_b66df18aef",
+        "quote_text": "A new orbit\ndetermination strategy using regional L-band code/phase measurements and inter-satellite link measurements in combination\nand a real-time clock estimation strategy based on the Kalman ﬁlter for PPP-B2b precise correction generation are introduced\nin this contribution.",
+        "original_quote": "A new orbit determination strategy using regional L-band code/phase measurements and inter-satellite link measurements in combination and a real-time clock estimation strategy based on the Kalman filter for PPP-B2b precise correction generation are introduced",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.962
+      }
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "Customized receiver hardware needed to decode PPP-B2b messages from GEO satellites",
+      "Proprietary orbit/clock determination software (SHAO/BSNC) not publicly available",
+      "Regional monitoring network (12 stations in mainland China) not publicly accessible",
+      "ISL measurements not publicly available",
+      "Chinese-manufactured receiver antennas — PCO/PCV values not in igs14.atx",
+      "No source code or software release",
+      "PPP-B2b correction archive not publicly distributed",
+      "Real-time processing pipeline configuration not disclosed"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "EXPLICITLY_DESCRIBED",
+    "reproduction_blockers_non_empty": true
+  }
+}

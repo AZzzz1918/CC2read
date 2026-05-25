@@ -1,0 +1,128 @@
+[
+  {
+    "quote_id": "qb_add6552697",
+    "span_index": 0,
+    "text": "Article\nEnhancing PPP-B2b Performance with Regional\nAtmospheric Augmentation\nQingZhao1,2 ,ShuguoPan1,2,*,WangGao1,2,XianluTao1,2 ,HaoLiu1,2,ZeyuZhang1,2andQiangWang3\n1 StateKeyLaboratoryofComprehensivePNTNetworkandEquipmentTechnology,SchoolofInstrument\nScienceandEngineering,SoutheastUniversity,Nanjing210096,China;zhaoqing@seu.edu.cn(Q.Z.);\ngaow@seu.edu.cn(W.G.);xltao@seu.edu.cn(X.T.);liu-hao@seu.edu.cn(H.L.);zzy_seu@seu.edu.cn(Z.Z.)\n2 KeyLaboratoryofMicro-InertialInstrumentandAdvancedNavigationTechnology,MinistryofEducation,\nNanjing210096,China\n3 CollegeofAutomation,NanjingUniversityofPostsand",
+    "char_length": 3395
+  },
+  {
+    "quote_id": "qb_342064c70a",
+    "span_index": 1,
+    "text": "RemoteSens.2025,17,3522 2of21\nconvergencethresholdsaremetalmostatthefirstepoch. Withinoneminute,singleBDS-3\nand the dual-system combination achieve accuracies better than (0.15, 0.3) m and (0.1,\n0.2)mhorizontallyandvertically,respectively. Furthermore,evenunderhigh-elevation\ncutoffconditions,stableandrapidhigh-precisionpositioningremainsachievablethrough\natmosphericenhancement.\nKeywords: PPP-B2b; atmospheric enhancement; Clock Constant Bias (CCB); conver-\ngencetime\n1. Introduction\nTheGlobalNavigationSatelliteSystem(GNSS)iscriticalinfrastructurethatplaysa\nsignificantroleinestablishingandmaintai",
+    "char_length": 3386
+  },
+  {
+    "quote_id": "qb_7dc810a71f",
+    "span_index": 2,
+    "text": "RemoteSens.2025,17,3522 3of21\ntions,achievingcontinuouspositioning[11]. Yangetal. alsoretrievedprecipitablewater\nvapor(PWV)basedonPPP-B2bservices,attainingmillimeter-levelaccuracy[12]. Wang\netal. systematicallyevaluatedtheaccuracyofZenithTotalDelay(ZTD)estimationusing\nPPP-B2bacrossdifferentcoverageareas. TheresultsshowedthatPPP-B2bperformswell\ninZTDestimationoverChinaandneighboringregionsbutsignificantlydegradesinareas\nfarfromChina(e.g.,Australia). TheZTDerrorinChinawas10–20mm,whileinEuropeit\nwas15–30mm[13]. Furthermore,sub-nanosecondtimetransferaccuracycanbeachieved\nusingPPP-B2b,andleveraging",
+    "char_length": 3731
+  },
+  {
+    "quote_id": "qb_e8bd7ca9cd",
+    "span_index": 3,
+    "text": "RemoteSens.2025,17,3522 4of21\nparametersfortheBDS-3andotherGNSSs(asshowninTable1). Itprovidesopenandfree\nhigh-precisionservicestousers. ThePPP-B2bsignalisdesignedtobecompatiblewiththe\nfourmajorGNSSsandtheircombinations. Currently,itoffersenhancementservicesonly\nforGPSandBDS-3. ThePPP-B2binformationcanbeusedtocorrecttheLNAVnavigation\nmessagesofGPSandtheCNAV1navigationmessagesofBDS-3,respectively.\nTable1.DetailedinformationofPPP-B2bservice.\nContent MessageType UpdateInterval(s) NominalValidity(s)\nsatellitemask 1 48 -\nOrbitcorrection 2,6,7 48 96\nClockcorrection 4,6,7 6 12\nDCBcorrection 3 6 86,400",
+    "char_length": 2634
+  },
+  {
+    "quote_id": "qb_0336558689",
+    "span_index": 4,
+    "text": "RemoteSens.2025,17,3522 5of21\nTheclockbiascalculatedfromthebroadcastephemerisisthencorrectedusingthe\nclockcorrectionvalue[24]:\n∆ts\nts = ts − B2b (3)\npre brd c\nwherets representsthepreciseclockbiasaftercorrection;ts denotesthesatelliteclock\npre brd\nbiascalculatedfromthebroadcastephemeris;∆ts istheclockcorrectionvalueprovided\nB2b\nbyPPP-B2b;creferstothespeedoflightinvacuum.\nFurthermore,toenhancetheself-consistencyofmulti-frequencydataprocessing,when\nthepseudorangeobservationsusedareinconsistentwiththeclockbiasreference,theDCB\nbetweendifferentpseudorangeobservationsmustalsobeconsidered[24]:\nP(cid:",
+    "char_length": 3514
+  },
+  {
+    "quote_id": "qb_c5c6b9ead7",
+    "span_index": 5,
+    "text": "RemoteSens.2025,17,3522 6of21\ndelay for the first frequency; γ is the ionospheric scaling factor for the i-th frequency\ni\n(γ = f2/f2);λ and N s,Q arethewavelengthandfloatambiguityforthei-thfrequency,\ni 1 i i r,i\nQ s,Q\nwhichabsorbtime-stablehardwaredelays;ψ andψ arethereceiver-sideandsatellite-\nr,i i\nsideinter-frequencybias(IFB)parametersformulti-frequencypseudorangeobservations;\nes andεs representtheobservationnoiseforpseudorangeandcarrier-phase,respectively.\nr,i r,i\nFurthermore,errorsnotexplicitlylistedabove,suchasdrytroposphericdelay,tidal\neffects,andphasewind-up,canbeaccuratelycorrectedusin",
+    "char_length": 3486
+  },
+  {
+    "quote_id": "qb_6b6936db7b",
+    "span_index": 6,
+    "text": "RemoteSens.2025,17,3522 7of21\nwhere\n(cid:40)\n0 , Q=G\nDs,Q = (11)\nDs,C, Q=C\nTheparameterstobeestimatedinthemulti-frequencyuncombinedPPPmodelcon-\nsideringCCBinclude:\n(cid:104) (cid:105)\nXˆ = x,y,z,(cid:101)tQ\nr,IF\n,T\nr\n,(cid:101)I\nr\ns\n,\n,\n1\nQ ,ψ\nr\nQ\n,i\n,bs,Q,N\nr\ns,\n,\nQ\ni\n(12)\n3.1.2. CompensationandConstraintMethodsforCCB\nIt is evident that the introduction of satellite-dependent CCB parameters into the\nmodelresultsineffectsthatcannotbeabsorbedbycommonparameterssuchasreceiver\nclockbias,leadingtoarankdeficiencyissueinthemodel. Toaddressthis,itisnecessaryto\nincorporatepriorinformationonCCBtoconstra",
+    "char_length": 2755
+  },
+  {
+    "quote_id": "qb_5efa17ada5",
+    "span_index": 7,
+    "text": "RemoteSens.2025,17,3522 8of21\n3.2. RegionalAtmosphericExtractionandModelingMethods\nHigh-precisionatmosphericdelayextractionmethodsbasedonPPPtypicallyinvolve\ntwoapproaches: oneisimplementingundifferencedambiguityresolutiontoenhancethe\nestimationaccuracyofotherparametersthroughintegerconstraints,andanotheroneis\nrelyingonlong-termconvergenceoffloatPPPsolutionstoimproveparameterestimation\naccuracy. Thefirstmethodoffershigherreliabilitybutrequiressatellitephasebiasproducts.\nSincesuchproductsarecurrentlyunavailable,thisstudypreliminarilyextractsZWDand\nslantionosphericdelaysbasedonfloatsolutions.\nTo ",
+    "char_length": 2716
+  },
+  {
+    "quote_id": "qb_0ac95f6ff2",
+    "span_index": 8,
+    "text": "RemoteSens.2025,17,3522 9of21\ntodifferentusers,adistance-dependentweightingmethodbetweentheuserandreference\nstationsisadoptedforconstructingtheweightmatrix,enablingcustomizedmodelingfor\ndiverseusers[31]:\n1/d2\np = i (23)\ni n\n∑ 1/d2\nj\nj=1\nwhered representsthedistance(inkilometers)betweentheuserandthei-threferencestation.\ni\n3.3. ConstraintStrategiesforAtmosphericPseudo-Observations\nAfter obtaining the modeled ZWD and single-difference ionospheric values at the\nuser’slocation,constraintsareappliedtothecorrespondingparametersintheuncombined\nPPPmodeltoaccelerateparameterconvergence:\n(cid:40)\nTˆ = T ",
+    "char_length": 3062
+  },
+  {
+    "quote_id": "qb_1302e8309f",
+    "span_index": 9,
+    "text": "RemoteSens.2025,17,3522 10of21\nred markers represent reference stations and user stations, respectively. The wide-area\nreferencestationsintheleftfigureareprimarilyusedforextractinghigh-performanceCCB\nproducts,whilethereferencestationswithinthesmallerareaintherightfigurearemainly\nusedforhigh-precisionatmosphericextractionandmodeling. Thedatacollectiondate\nwas2025DOY202. Thedatasamplingrateforthestationsintherightfigureis5s,andall\nstationssupportreceivingmulti-frequencyobservationdataincludingGPSL1/L2/L5and\nBDS-3B1c/B2I/B2a/B6I.\nFigure1.StationdistributionforCCBextractionandatmospheric-enhancedP",
+    "char_length": 2405
+  },
+  {
+    "quote_id": "qb_c385e78b31",
+    "span_index": 10,
+    "text": "RemoteSens.2025,17,3522 11of21\nstable. In terms of magnitude, BDS-3 CCB is slightly smaller than that of GPS. BDS-3\nCCB generally does not exceed 10ns, while for some GPS satellites, it can approach 20\nns. Undoubtedly, thisisanon-negligibleerrorforachievingcentimeter-levelorhigher\nprecisionpositioning.\nFigure2.CCBforeachGPSsatelliteon2025DOY202.\nFigure3.CCBforeachBDS-3satelliteon2025DOY202.\nBy calculating the standard deviation (STD) of CCB across different arcs for each\nsatellite,thetemporalstabilityofCCBwasanalyzed,andtheresultsareshowninFigure4.\nItcanbeobservedthattheSTDofCCBacrossdifferent",
+    "char_length": 905
+  },
+  {
+    "quote_id": "qb_3983963f7b",
+    "span_index": 11,
+    "text": "RemoteSens.2025,17,3522 12of21\nFigure4.STDofCCBforallarcsofGPS(top)andBDS-3(bottom)satellites.\n4.2. AccuracyEvaluationofRegionalAtmosphericModeling\nAchieving high-precision regional atmospheric modeling is key to improving the\nperformanceofPPP-B2bservices. Tothisend,theaccuracyofZWDandslantionospheric\nmodelingwasevaluatedseparately. Figure5firstpresentsthemodelingresultsofZWDat\nuserstations. Theinterpolatedvaluesfromthemodelgenerallyalignwiththereference\ntruevalues,withmodelingerrorsmostlywithinthe±5cmrange. TheRMSvalueofZWD\nmodelingfortheentiredaywas2.1cm. Basedonthis,aconstraintvarianceof0.0",
+    "char_length": 1000
+  },
+  {
+    "quote_id": "qb_7ab082b397",
+    "span_index": 12,
+    "text": "RemoteSens.2025,17,3522 13of21\nsignificantfluctuations,evenexceeding40cm. Thisisprimarilyrelatedtothetemporal\nvariabilityandactivityoftheionosphere.\nFigure6.Modelingbiasesofslantsingle-differenceionosphericdelayforeachsatellite.\nFigure7visuallysummarizestheionosphericmodelingaccuracystatisticsfordifferent\ntimeperiods(in1hintervals). Itshowsthattheionosphericmodelingaccuracyformost\nperiodsisbetterthan6cm. However,duringthe15:00–19:00periodandthefinalperiod\n(orangebarsinthefigure),theionosphericmodelingaccuracynoticeablydeteriorates,even\nexceeding 10 cm. Accurately characterizing the precision o",
+    "char_length": 1538
+  },
+  {
+    "quote_id": "qb_9f1a7b026b",
+    "span_index": 13,
+    "text": "RemoteSens.2025,17,3522 14of21\ntwodifferentthresholdsettings. Itcanbevisuallyobservedthat, exceptforaveryfew\nsatellites,theconstructedstochasticmodeleffectivelyenvelopestheionosphericmodeling\nerrors. The percentages of modeling errors falling within the envelope reached 98.87%\nand 98.78%, respectively. Overall, the model successfully characterizes the uncertainty\nof ionospheric enhancement information, providing a reliable reference for integrating\nenhancementinformationattheuserend.\nFigure 8. Error envelope effect of the ionospheric prior stochastic model. The different colors\nrepresentdiffer",
+    "char_length": 2378
+  },
+  {
+    "quote_id": "qb_1e4fc8e4ae",
+    "span_index": 14,
+    "text": "RemoteSens.2025,17,3522 15of21\n0.8\n0.6\n0.4\n0.2\n0\n14:00 14:20 14:40 15:00\n]m[\nlatnoziroH\nBDS-only PPP BDS-only PPP with Atmospheric Constraints\nRMS=0.228m\nRMS=0.088m\nTime [hh:mm]\n3\n2.5\n2\n1.5\n1\n0.5\n0\n14:00 14:20 14:40 15:00\n]m[\nlacitreV\n0.8\n0.6\n0.4\n0.2\n0\n16:00 16:20 16:40 17:00\nRMS=0.249m\nRMS=0.091m\nTime [hh:mm]\n]m[\nlatnoziroH\nRMS=0.225m\nRMS=0.093m\nTime [hh:mm]\n3\n2.5\n2\n1.5\n1\n0.5\n0\n16:00 16:20 16:40 17:00\n]m[\nlacitreV\nRMS=0.864m\nRMS=0.282m\nTime [hh:mm]\nFigure9.BDS-3-onlykinematicPPPresultsbeforeandafterapplyingatmosphericconstraints(left:\n14:00–15:00;right:16:00–17:00).\n]m[\nlatnoziroH\n]m[\nlacitre",
+    "char_length": 883
+  },
+  {
+    "quote_id": "qb_67a89ce2a0",
+    "span_index": 15,
+    "text": "RemoteSens.2025,17,3522 16of21\nzontallyand0.3mverticallywastypicallyachievedwithin1min,withimprovementsof\napproximately50–70%inbothhorizontalandverticalaccuracy.\nTable2.PositioningaccuracyofsingleBDS-3kinematicPPPunderdifferentconvergencedurations\nbeforeandafterapplyingatmosphericconstraints.\nAccuracy[m]\nConvergence Improvement[%]\nWithoutConstraints WithConstraints\n[min]\nH V H V H V\n0.5 0.426 0.751 0.142 0.245 66.7 67.4\n1 0.409 0.781 0.141 0.258 65.5 67.0\n5 0.432 0.521 0.119 0.182 72.5 65.1\n10 0.365 0.424 0.101 0.150 72.3 64.6\n20 0.283 0.404 0.076 0.129 73.1 68.1\n30 0.255 0.328 0.079 0.143 69.",
+    "char_length": 1961
+  },
+  {
+    "quote_id": "qb_0e428c65d4",
+    "span_index": 16,
+    "text": "RemoteSens.2025,17,3522 17of21\n]m[\nlatnoziroH\n]m[\nlacitreV\nFigure12.Averagepositioningresultsofall24arcsforBDS-3/GPSkinematicPPPbeforeandafter\napplyingatmosphericconstraints.\nTable3providesdetailedpositioningaccuracystatistics. Underdifferentconvergence\ndurations, the accuracy in both horizontal and vertical directions improved to varying\ndegrees, with horizontal improvements ranging from approximately 50% to 70% and\nvertical improvements ranging from about 20% to 70%. Overall, with the assistance of\nhigh-precisionatmosphericconstraints,thedual-systemcombinationachievedpositioning\naccuracy bet",
+    "char_length": 1664
+  },
+  {
+    "quote_id": "qb_4a8fb439b5",
+    "span_index": 17,
+    "text": "RemoteSens.2025,17,3522 18of21\nThroughout the entire period, the average horizontal and vertical positioning accuracy\nimprovedfrom(0.249,0.462)mto(0.081,0.147)m,representingimprovementsof67.5%\nand68.2%,respectively.\n0.6\n0.4\n0.2\n0\n0 10 20 30 40 50 60\n]m[\nlatnoziroH\nBDS/GPS PPP\nBDS/GPS PPP with Atmospheric Constraints\nCutoff Elevation: 30deg\nRMS=0.249m\nRMS=0.081m\nTime [min]\n1.5\n1.2\n0.9\n0.6\n0.3\n0\n0 10 20 30 40 50 60\n]m[\nlacitreV\nCutoff Elevation: 30deg\nRMS=0.462m\nRMS=0.147m\nTime [min]\nFigure13.Averagepositioningresultsofall24arcsforBDS-3/GPSkinematicPPPundera30-degree\ncutoffelevation.\n5. Discussi",
+    "char_length": 2352
+  },
+  {
+    "quote_id": "qb_cd548d440a",
+    "span_index": 18,
+    "text": "RemoteSens.2025,17,3522 19of21\ningobservationscenarios—pavingthewayfornext-generationprecisepositioningservices\nbasedonsatellite-basedaugmentationsystems.\nItshouldbenotedthatthepost-processingstrategyemployedinthisstudytoeval-\nuate ionospheric modeling accuracy has limitations for real-time applications, and this\nindeedrepresentsacrucialdirectionforourfutureresearch. Accuratelycharacterizingthe\nprecisionofatmosphericenhancementinformationisbothfundamentalandchallenging\nfor PPP-RTK technology, especially in real-time operational scenarios. To address this\nchallenge,ourproposedapproachinvolvesin",
+    "char_length": 3663
+  },
+  {
+    "quote_id": "qb_91acb8f7e6",
+    "span_index": 19,
+    "text": "RemoteSens.2025,17,3522 20of21\nrespectively. Incontrast,withtheapplicationofatmosphericconstraints,theconvergence\nthresholdswereachievedimmediatelyatthefirstepoch. Withinoneminute,singleBDS-\n3 achieved an accuracy better than 0.15 m horizontally and 0.3 m vertically, while the\ndual-systemcombinationachievedanaccuracybetterthan0.1mhorizontallyand0.2m\nvertically. Additionally, under high-elevation cutoff scenarios, stable and rapid high-\nprecisionpositioningwasstillachievablewiththeassistanceofhigh-precisionatmospheric\ninformation,yieldinghorizontalandverticalaccuraciesof0.081mand0.147m,respecti",
+    "char_length": 4014
+  },
+  {
+    "quote_id": "qb_bbfe63ed7c",
+    "span_index": 20,
+    "text": "RemoteSens.2025,17,3522 21of21\n15. Ge,Y.;Cao,X.;Lyu,D.;He,Z.;Ye,F.;Xiao,G.;Shen,F.AninvestigationofPPPtimetransferviaBDS-3PPP-B2bservice.GPS\nSolut.2023,27,61.[CrossRef]\n16. Zhang,R.;Li,L.;Li,X.;Ma,H.;Xiao,G.;Zhang,J.Researchonquad-frequencyPPP-B2btimetransfer.IEEEInstrum.Meas.Mag.\n2024,27,57–62.[CrossRef]\n17. Yang,H.;Ren,X.;Liu,M.;Zhang,X.Dual-frequencytofive-frequencyreal-timeprecisepointpositioningusingnewBDS-3\nPPP-B2bservice.EarthPlanetsSpace2024,76,82.[CrossRef]\n18. Dai, W.; Qi, Q.; Pan, L.; Cai, C. Real-timeuncombined PPPusing BDS-3 PPP-B2bproductswith different multi-frequency\nintegratio",
+    "char_length": 4205
+  }
+]

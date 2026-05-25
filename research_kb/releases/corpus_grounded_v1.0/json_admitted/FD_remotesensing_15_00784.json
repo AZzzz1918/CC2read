@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_remotesensing_15_00784",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Real-Time Precise Point Positioning during Outages of the PPP-B2b Service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Real-Time Precise Point Positioning during Outages of the PPP-B2b Service YufeiChen1,2,XiaomingWang1,3,* ,KaiZhou1,JingleiZhang1,CongQiu1,2,HaoboLi4 andShijiXin1,2 1 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China 2 SchoolofElectronic,ElectricalandCommunicatingEngineering,UniversityofChineseAcademyofSciences, Beijing100049",
+      "ThepositioningperformancemaintainedwiththeextendedcorrectionsduringthePPP-B2bservice outagewasevaluatedbasedonfivestationsinandaroundChina.Ourexperimentsshowedthat,as longastheinterruptiontimedoesnotexceed10min,thereal-timepositioningwithextendedPPP-B2b Citation:Chen,Y.;Wang,X.;Zhou, correctionscanachieveacomparableaccuracywiththatobtainedfollowingPPP-B2bcorrection."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 3
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 18,
+    "b2b": 168,
+    "has": 0,
+    "dcb": 3,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

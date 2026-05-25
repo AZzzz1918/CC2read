@@ -1,0 +1,11 @@
+{
+  "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+  "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+  "expected_epoch_status": "NOT_MENTIONED",
+  "expected_dcb_status": "NOT_MENTIONED",
+  "expected_gate_status": "PASS",
+  "must_not_have_wrong_support": true,
+  "must_have_reproduction_blockers": true,
+  "correction_status": "none",
+  "admission_status": "PASS"
+}

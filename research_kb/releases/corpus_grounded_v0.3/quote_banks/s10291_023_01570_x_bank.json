@@ -1,0 +1,80 @@
+[
+  {
+    "quote_id": "qb_46f20e8897",
+    "span_index": 0,
+    "text": "GPS Solutions (2024) 28:26\nhttps://doi.org/10.1007/s10291-023-01570-x\nORIGINAL ARTICLE\nPerformance assessment of the BDS‑3 PPP‑B2b service for real‑time\nearthquake source description: a case study for the 2021 Mw 7.4\nMaduo earthquake\nJianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4\nReceived: 13 August 2023 / Accepted: 24 October 2023 / Published online: 11 November 2023\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nRetrieving the coseismic displacement in real time is essential when the high-ra",
+    "char_length": 4046
+  },
+  {
+    "quote_id": "qb_c4f4cf8149",
+    "span_index": 1,
+    "text": "26 Page 2 of 13 GPS Solutions (2024) 28:26\ndelay and is thus unsuitable for real-time earthquake moni- for short time periods and the PPP-B2b displacement was\ntoring and providing early warnings. Since 2013, the inter- applied for real-time earthquake source inversions, were\nnational GNSS service (IGS) has provided real-time service conducted. In the study of Fang et al. (2022), only one\n(RTS) and has broadcasted precise orbit and clock correc- station recorded the BDS-3 observations during the 2021\ntions to users through the internet in real time (Hadas and Mw 7.4 Maduo earthquake. In this st",
+    "char_length": 5619
+  },
+  {
+    "quote_id": "qb_196d9d6507",
+    "span_index": 2,
+    "text": "GPS Solutions (2024) 28:26 Page 3 of 13 26\n𝛿𝐎 radial to the receiver; t r and ts are the clock offsets of the receiver\n𝛿X = 𝐞 𝐞 𝐞 ⋅ 𝛿𝐎 and satellite, respectively; d and ds represent the code\n� radial along cross� ⎡ ⎢ 𝛿𝐎 a c l r o o n s g s ⎤ ⎥ (1) biases of the receiver and sate r l ,I l F ite, resp IF ectively; b r,IF and bs IF\n⎢ ⎥ are the phase biases of the receiver and satellite, respec-\n⎣ ⎦\n𝐫 tively;\nms\nr indicates the mapping function of the tropospheric\n𝐞 radial = 𝐫 (2) delay; T is the zenith tropospheric delay; 𝜆 IF and N r s ,IF are the\nwavelength and ambiguity of the IF combination,",
+    "char_length": 4194
+  },
+  {
+    "quote_id": "qb_8392204491",
+    "span_index": 3,
+    "text": "26 Page 4 of 13 GPS Solutions (2024) 28:26\nrelationship between the PGD and the earthquake mag- used, and the optimal regularization parameter is determined\nnitude can be expressed as follows (Crowell et al. 2013; by the L-curve method (Zang et al. 2022).\nZang et al. 2020):\nlog (PGD)=A+B⋅M +C⋅M ⋅log (R)\n10 W W 10 (12) Experiment and results analysis\nPGD=max √ N t 2+E t 2+U t 2 (13) The 2021 Mw 7.4 Maduo earthquake occurred in the east-\nern portion of the Tibetan Plateau at 18:04 UTC on May\nwhere M W denotes the earthquake magnitude; R represents 21 and was in the centre of the Baya Har block, ",
+    "char_length": 5193
+  },
+  {
+    "quote_id": "qb_64b873cfc9",
+    "span_index": 4,
+    "text": "GPS Solutions (2024) 28:26 Page 5 of 13 26\nFig. 1 Distribution of the\ncollected GNSS stations (blue\ntriangle). The red star repre-\nsents the epicentre of the 2021\nMw 7.4 Maduo earthquake.\nThe black line is the Kunlun\nPass-Jiangcuo fault. The black\nrectangle in the upper-left inset\nmap indicates the location of\nthe Tibetan Plateau, where the\nwhite lines represent secondary\nblock boundaries in and around\nthe Tibetan Plateau and the blue\nrectangle is the location of the\nstudy area\nTable 1 Statistical standard deviation (STD) values of the four-hour\ndisplacements for the different solutions at all",
+    "char_length": 2310
+  },
+  {
+    "quote_id": "qb_1bed2c8848",
+    "span_index": 5,
+    "text": "26 Page 6 of 13 GPS Solutions (2024) 28:26\nTable 2 Statistical standard\nSolutions North East Up\ndeviation (STD) values of\nthe short-period (5 min) PPP 0.4 0.3 0.8\ndisplacements for the different\nPPP-B2bGC 0.5 0.4 1.1\nsolutions at all GNSS stations\n(unit: cm) PPP-B2bC 0.6 0.6 1.4\nthe STD values between the different solutions, we found\nthat the STD values of the PPP-B2bGC are much closer\nto those of the PPP in Table 2, and the STD differences\nbetween them are 0.1 cm, 0.1 cm and 0.3 cm for the north,\neast and up components, respectively. These results are sig-\nnificantly better than the STD diff",
+    "char_length": 4263
+  },
+  {
+    "quote_id": "qb_3c8df1d490",
+    "span_index": 6,
+    "text": "GPS Solutions (2024) 28:26 Page 7 of 13 26\nFig. 4 Coseismic displacement\nerrors of the PPP-B2bG, PPP-\nB2bC and the PPP-B2bGC.\nFor clarity, the errors of the\nPPP-B2bC and the PPP-B2bGC\nare offset in the vertical axis,\nand the different stations are\ndistinguished by the different\ncolours\nTable 3 Statistical coseismic\nSolutions North East Up\ndisplacement RMSE values of\nthe PPP-B2bG, PPP-B2bC and PPP-B2bG 0.8 0.5 1.4\nPPP-B2bGC (unit: cm)\nPPP-B2bC 0.5 0.6 0.9\nPPP-B2bGC 0.4 0.3 0.4\narrives at the station with an imaginary velocity of 6 km/s.\nThis velocity was used because it approximately correspond",
+    "char_length": 1471
+  },
+  {
+    "quote_id": "qb_bbc4f2c08b",
+    "span_index": 7,
+    "text": "26 Page 8 of 13 GPS Solutions (2024) 28:26\nand Mw 7.38, respectively, which are all close to the final\nmagnitude of Mw 7.4.\nCentroid moment tensor inversion\nwith the real‑time static coseismic offsets derived\nfrom the coseismic displacements of the PPP‑B2b\nReal-time and robust estimation of the centroid moment\ntensor (CMT) is important for assessing the characteristics\nof an earthquake. Here, we inverted the CMT in a simu-\nlated real-time mode with the fastCMT method. The real-\ntime static coseismic offsets are retrieved by averaging the\ncoseismic displacements with a 30-s sliding window, and\n",
+    "char_length": 2294
+  },
+  {
+    "quote_id": "qb_134e5472de",
+    "span_index": 8,
+    "text": "GPS Solutions (2024) 28:26 Page 9 of 13 26\nDC components of all solutions show similar variations Table 4 Nodal planes derived from the focal mechanisms of the\nafter approximately 40 s, and all solutions tend to be sta- global centroid moment tensor project (GCMT), U.S. geological sur-\nvey (USGS) and this study\nble after approximately 80 s. The average percentages of\nthe DC components after 80 s for the PPP, PPP-B2bGC, Solutions Nodal Plane 1 Strike°/ Nodal Plane 2\nPPP-B2bG, and PPP-B2bC are 92%, 95%, 86% and 88%, Dip°/Rake° Strike°/Dip°/\nRake°\nrespectively. These high DC percentages are indic",
+    "char_length": 3211
+  },
+  {
+    "quote_id": "qb_cc572e5ef6",
+    "span_index": 9,
+    "text": "26 Page 10 of 13 GPS Solutions (2024) 28:26\nFig. 9 Fault slip distribu-\ntions inverted with the static\ncoseismic offsets of the PPP,\nPPP-B2bGC, PPP-B2bG, and\nPPP-B2bC at 100 s after the\nearthquake\n1 3",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_68bb815c22",
+    "span_index": 10,
+    "text": "GPS Solutions (2024) 28:26 Page 11 of 13 26\nafter approximately 40 s, and the fault slip distributions and real-time earthquake source descriptions. However, we\ninverted with the different static coseismic offsets are also need to note that we only validated the possibility of the\ncomparable. Taking the fault slips inverted with the different PPP-B2b being used for large earthquake source descriptions\nstatic coseismic offsets at 100 s as an example, we found that in this study. Whether the PPP-B2b has good performance\nthe fault slip distributions of the PPP-B2bGC, PPP-B2bG on real-time earthqu",
+    "char_length": 5887
+  },
+  {
+    "quote_id": "qb_b21a8c2be0",
+    "span_index": 11,
+    "text": "26 Page 12 of 13 GPS Solutions (2024) 28:26\nhigh-rate seismogeodesy: application to the 2021 Mw 7.4 Maduo Ren Z, Gong H, Peng J, Tang C, Huang X, Sun G (2021) Perfor-\nearthquake. Geophys J Int 231(3):2079–2090. https://d oi.o rg/1 0. mance assessment of real-time precise point positioning using\n1093/g ji/g gac31 1 BDS PPP-B2b service signal. Adv Space Res 68(8):3242–3254.\nGe Y, Cao X, Lyu D, He Z, Ye F, Xiao G, Shen F (2023) An investiga- https://d oi.o rg/1 0.1 016/j.a sr.2 021.0 6.0 06\ntion of PPP time transfer via BDS-3 PPP-B2b service. GPS Solut Ren J, Xu X, Zhang G, Wang Q, Zhang Z, Gai H",
+    "char_length": 7516
+  },
+  {
+    "quote_id": "qb_b9adfe9ed6",
+    "span_index": 12,
+    "text": "GPS Solutions (2024) 28:26 Page 13 of 13 26\nZhang Z, Xu L (2021) The centroid moment tensor solution of the Zhicai Li received his Ph.D. in\n2021 Mw7.5 Maduo, Qinghai, earthquake. Acta Seismol Sin Geodesy at Wuhan University\n43(3):387–391. https://d oi.o rg/1 0.1 1939/j ass.2 02100 79 and is currently a professor at\nZhang W, Lou Y, Song W, Sun W, Zou X, Gong X (2022) Initial assess- China University of Mining and\nment of BDS-3 precise point positioning service on GEO B2b Technology-Beijing. His\nsignal. Adv Space Res 69(1):690–700. https://d oi.o rg/1 0.1 016/j. research interests are in the\nasr",
+    "char_length": 2219
+  }
+]

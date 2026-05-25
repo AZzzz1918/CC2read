@@ -1,0 +1,47 @@
+# Ingestion Queue — Continuously Extensible Research KB
+# Version: 1.0
+# Status: ACTIVE
+
+# Priority definitions:
+#   P0_ROUTE_CHANGING: new technical route, method, or dataset not yet in admitted papers
+#   P1_CORE: core PPP-B2b positioning/timing/anomaly/system overview
+#   P2_APPLICATION: application-specific (LEO, UAV, smartphone, INS, PWV, seismogeodesy)
+#   P3_BOUNDARY: boundary papers (HAS+RTS+CLAS comparison, non-B2b augmentation)
+#   P4_LOW_PRIORITY: likely duplicates or low-confidence titles
+#   P5_MANUAL_REVIEW: needs human review before ingestion
+
+queue_summary:
+  total_candidates_identified: 80
+  already_ingested: 29
+  remaining_in_queue: 51
+  waves_completed: 3
+  next_wave: 4
+
+# Singleton routes needing confirmation
+singleton_routes:
+  - route: PPP-B2b-RTK
+    papers: 1
+    status: UNCONFIRMED_SINGLETON
+    target_papers_needed: 1
+  - route: BDSet_public_dataset
+    papers: 1
+    status: UNCONFIRMED_SINGLETON
+    target_papers_needed: 1
+  - route: Smartphone_PPP-B2b
+    papers: 1
+    status: UNCONFIRMED_SINGLETON
+    target_papers_needed: 1
+  - route: B2b_short_message_enhancement
+    papers: 2
+    status: NICHE_CONFIRMED
+    target_papers_needed: 0
+
+# Ingestion policy
+policy:
+  max_per_wave: 10
+  circuit_breaker:
+    wrong_support_threshold: 0
+    invalid_quote_rate_threshold: 5.0
+    blocked_rate_threshold: 20.0
+  singleton_priority_boost: true
+  duplicate_detection: filename_fuzzy_match + title_normalized_match

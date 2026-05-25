@@ -1,0 +1,12 @@
+{
+  "product_source": "GALILEO_HAS",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "classification_reason": "The paper presents a parser tool for Galileo HAS SSR corrections, relevant to PPP but not BDS B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf",
+  "paper_id": "2023--D. Borio--GHASP_a_Galileo_HAS_parser",
+  "extraction_mode": "batch_classify_1call"
+}

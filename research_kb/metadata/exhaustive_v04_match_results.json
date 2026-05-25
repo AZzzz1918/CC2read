@@ -1,0 +1,48 @@
+{
+  "total": 124,
+  "matched": 28,
+  "unmatched": [
+    "1-s2.0-S0020019019300018-main.pdf",
+    "1-s2.0-S004579062500045X-main.pdf",
+    "1-s2.0-S0263224122011071-main.pdf",
+    "1-s2.0-S0263224122013744-main.pdf",
+    "1-s2.0-S0263224124014428-main.pdf",
+    "1-s2.0-S0263224124019006-main.pdf",
+    "1-s2.0-S0263224125021888-main.pdf",
+    "1-s2.0-S0263224126008559-main.pdf",
+    "1-s2.0-S0263224126009619-main.pdf",
+    "1-s2.0-S026322412601448X-main (1).pdf",
+    "1-s2.0-S026322412601448X-main.pdf",
+    "1-s2.0-S0273117721004610-main.pdf",
+    "1-s2.0-S0273117721006980-main.pdf",
+    "1-s2.0-S0273117723005483-main.pdf",
+    "1-s2.0-S0273117724008755-main.pdf",
+    "1-s2.0-S0273117724011438-main.pdf",
+    "1-s2.0-S0273117724012961-main.pdf",
+    "1-s2.0-S0273117725002066-main.pdf",
+    "1-s2.0-S0273117725002881-main.pdf",
+    "1-s2.0-S0273117725009299-main.pdf"
+  ],
+  "matched_detail": {
+    "2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CLAS_PPP-.pdf": {
+      "v03_pid": "Euiho_Kim_2022_CLAS_PPP",
+      "score": 0.9
+    },
+    "2022--Tang Chenggan--Orbit determination, clock estimation and performance evaluation.pdf": {
+      "v03_pid": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+      "score": 0.9
+    },
+    "2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf": {
+      "v03_pid": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+      "score": 0.9
+    },
+    "2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf": {
+      "v03_pid": "Borio_2023_ghasp_galileo_has_parser",
+      "score": 0.9
+    },
+    "2023--Daniele Borio--HASCoordSept2023.pdf": {
+      "v03_pid": "Borio_2023_ghasp_galileo_has_parser",
+      "score": 0.9
+    }
+  }
+}

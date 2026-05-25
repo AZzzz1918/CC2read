@@ -1,0 +1,56 @@
+{
+  "paper_id": "V04_s10291_023_01409_5",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "bibliographic_info": {
+    "title": "Long-term performance analysis of BDS-3 precise point positioning (PPP-B2b) service",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2023) 27:69 https://doi.org/10.1007/s10291-023-01409-5 RESEARCH Long‑term performance analysis of BDS‑3 precise point positioning (PPP‑B2b) service Shuang Sun1 · Min Wang1 · Changjian Liu1 · Xin Meng1 · Rui Ji1 Received: 14 October 2022 / Accepted: 27 January 2023 / Published online: 15 February 2023 © The Author(s), under exclusive licence to Springer-Verlag GmbH ",
+      "After being fully operational for more than one year, this contribution comprehensively analyzes the performance of PPP-B2b in terms of correction availability, clock and orbit quality and positioning accuracy with PPP-B2b messages of nearly 48 weeks from 2021 to 2022."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "DOY 216",
+    "end_date": "DOY 78",
+    "grounding_quotes": [
+      "receiver from DOY 121 of 2021 to DOY 121 of 2022 are The average clock offsets of the n visible satellites in the used for analysis in this contribution."
+    ]
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 3,
+    "grounding_quotes": [
+      "In addition to the commercial services, some GNSS recently provide open satellite-based PPP services, such as At present, PPP-B2b messages contain four types of cor- Centimeter Level Augmentation Service (CLAS) of QZSS rection: the satellite mask, orbit correction, clock correc- and Hight Accuracy Service (HAS) of Galileo, which greatly tion, and differential code bias (DCB) correction."
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 2
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 18,
+    "b2b_mentions": 77,
+    "has_mentions": 0,
+    "clas_mentions": 1,
+    "dcb_mentions": 3
+  },
+  "gate_status": {
+    "wrong_support": false,
+    "epoch_valid": false
+  },
+  "category": "PPP_B2B_HAS_FUSION",
+  "priority": "P1_CORE",
+  "expected_impact": "taxonomy_change_or_new_route"
+}

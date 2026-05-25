@@ -1,0 +1,110 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nReal-Time Precise Point Positioning during Outages of the\nPPP-B2b Service\nYufeiChen1,2,XiaomingWang1,3,* ,KaiZhou1,JingleiZhang1,CongQiu1,2,HaoboLi4 andShijiXin1,2\n1 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China\n2 SchoolofElectronic,ElectricalandCommunicatingEngineering,UniversityofChineseAcademyofSciences,\nBeijing100049,China\n3 CollegeofResourcesandEnvironment,UniversityofChineseAcademyofSciences,Beijing100049,China\n4 SchoolofScience(GeospatialSciences),RoyalMelbourneInstituteofTechnology(RMIT)University,\nMelbourne,VIC3001,Australia\n",
+    "char_length": 3905
+  },
+  {
+    "quote_id": "qb_a374a33dae",
+    "span_index": 1,
+    "text": "RemoteSens.2023,15,784 2of18\nMaritimeServices(RTCM)andthenetworkedtransportoftheRTCMviatheinternetpro-\ntocol(NTRIP).Todate,morethanteninstitutions,includingtheGeoForschungsZentrum\n(GFZ),CenterNationald’EtudesSpatiales(CNES),andWuhanUniversity(WHU),have\nbeenprovidingSSRproducts,promotingtheapplicationofreal-timePPPinmanyfields,\nsuchashigh-precisionpositioningandatmosphericremotesensing. However,becausethe\nIGSreal-timeprecisionorbitandclockcorrectionproductsarebroadcastusingtheinternet,\npoor internet performance or its unavailability will lead to the loss of SSR corrections,\nresultinginaninterru",
+    "char_length": 6137
+  },
+  {
+    "quote_id": "qb_a93f0e3322",
+    "span_index": 2,
+    "text": "RemoteSens.2023,15,784 3of18\nThis study attempts to analyze the quality degradation of the PPP-B2b correction\novertimeanditsimpactonpositioningresultsduringoutagesofthePPP-B2bservice. In\nSection2,theprocessofPPP-B2bprecisionproductrecovery,theevaluationofPPP-B2b\nproductaccuracy,andtherepairofmissingPPP-B2bprecisionephemerisdataarebriefly\ndescribed. Section3analyzesthecontinuityofthePPP-B2bcorrections,andthequality\nof the extended corrections. The real-time positioning accuracy maintained using the\nextendedcorrectionsduringPPP-B2bsignalinterruptionsisalsoevaluated. Finally,there\nisadiscussionan",
+    "char_length": 3544
+  },
+  {
+    "quote_id": "qb_6b85e71991",
+    "span_index": 3,
+    "text": "RemoteSens.2023,15,784 4of18\ncorrectionisupdated. Theamountofmissingdataduetothismismatchisapproximately\n0.9%daily.\n3. ExperimentsandResults\n3.1. ContinuityofB2bCorrections\n3.1.1. JumpsinOrbitCorrections\nFigure 2 presents the time series of the orbit corrections on DOY 192 in 2022. For\ntheBDS-3satellites,thecorrectionvaluesintheradial,along-,andcross-trackdirections\nwere in the ranges of 0.05 m, 0.1 m, and 0.1 m, respectively; for the GPS satellites, the\ncorrectionvaluesintheradial,along-,andcross-trackdirectionswereintherangesof0.5m,\n2.0m,and1.0m,respectively,whicharemuchlargerthanthoseofBDS-",
+    "char_length": 3239
+  },
+  {
+    "quote_id": "qb_38033b1c0f",
+    "span_index": 4,
+    "text": "R RR eee mmm ooo tte tee S SS eee nnn sss . .. 2 22 000 222 223 , ,, 1 11 445 , ,, x x7 F 8F4 OORR P PEEEERR R REEVVIIEEWW 55 5 oof of f 221 008\nFFF iig igg uuu rrr eee 222 .. . TTT iim imm eee sss eee rrr iie iee sss ooo ff f tth thh eee ooo rrr bbb iit it t ccc ooo rrr rrr eee ccc ttt iio ioo nnn sss ooo fff ttt hhh eee BBB DDD SSS --- 333 aaa nnn ddd ttt hhh eee GGG PPP SSS sss aaa ttt eee lll lll iii ttt eee sss iii nnn ttt hhh eee rrr aaa ddd iii aaa lll ,, , aaa lll ooo nnn ggg ---,\n,,\na\naan nnd dd\nc\nccr r oroos sss ss- - t-t rtr araac cck kk\nd\nddi i rir ereec c tct iti oioon nns ss\no\noo",
+    "char_length": 1289
+  },
+  {
+    "quote_id": "qb_b84651a0c0",
+    "span_index": 5,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 6 of 20\nThe jump phenomenon of the orbit corrections during DOY 192–198 in 2022 was fur-\nther investigated. For the BDS-3 MEO satellites, the mean values of the jumps in the radial,\nalong-, and cross-track directions during this period were 0.018 m, 0.047 m, and 0.042 m,\nrespectively; for the BDS-3 IGSO satellites, the mean values of the jumps in the radial,\nalong-, and cross-track directions during this period were 0.019 m, 0.058 m, and 0.055 m,\nrespectively, which are slightly worse than those of the BDS-3 MEO satellites. For the orbit\ncorrections of ",
+    "char_length": 5789
+  },
+  {
+    "quote_id": "qb_a053cb4c08",
+    "span_index": 6,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 7 of 20\nFigure 4. Time series of the clock corrections of the BDS-3 and the GPS satellites on DOY 192 in 2022.\nFigure 5. Number of consecutive periods for clock arcs of the BDS-3 and the GPS satellites with\nRemoteSens.2023,15,784 different lengths of time on DOY 192 in 2022. Different colors represent different continuou7so fti1m8e\nperiods.\nIt should be noted that since the common jumps in the clock corrections do not affect\nIt should be noted that since the common jumps in the clock corrections do not\nthe coordinate solution, we fixed the common jumps ",
+    "char_length": 3657
+  },
+  {
+    "quote_id": "qb_4cdd803e28",
+    "span_index": 7,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 8 of 20\nfurther investigated. For the BDS-3 satellites, the mean value of the jumps was 0.84 ns; for\nthe GPS satellites, the mean value of the jumps was 1.05 ns. In addition, the clock correc-\ntions of the BDS-3 satellites usually contained approximately 11 jumps daily. In compari-\nson, the GPS satellite clock corrections contained approximately 33 jumps daily, and ap-\nproximately 65% of these arcs lasted for less than 10 min. These frequent jumps in the\nclock corrections make their prediction very difficult and unreliable.\n3.2. The Quality of the PPP-B",
+    "char_length": 4598
+  },
+  {
+    "quote_id": "qb_5afdf8e8e9",
+    "span_index": 8,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 9 of 20\nRemoteSens.2023,15,784 9of18\nFigure 8. RMSE of the BDS-3 and GPS satellite clock offset recovered with the PPP-B2b signals using\nthe GBM orbit products as a reference during DOY 168–198 in 2022.\nFigure 9. STD of the BDS-3 and GPS satellite clock offset recovered with the PPP-B2b signals using\nthe GBM orbit products as a reference during DOY 168–198 in 2022.\n3.2.2. Accuracy of the PPP-B2b Extension Corrections\nIn this study, the degradation of the PPP-B2b corrections within one hour was inves-\ntigated using the data on DOY 192 in 2022. In our exp",
+    "char_length": 3942
+  },
+  {
+    "quote_id": "qb_63216a8245",
+    "span_index": 9,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 10 of 20\ninterval of the corrections update. With these results, we then calculated the RMSE of the\nclock and orbit differences at each epoch for each satellite.\nAs depicted in Figures 10 and 11, when the last epochs of the orbit and clock correc-\ntions were used for the following hour, the RMSE of the extended orbit corrections\nshowed an obvious increase with time. For the BDS-3 satellites, because the accuracy of\nthe broadcast ephemeris is relatively high, the values of the orbit corrections were small\n(within the range of -10 to 10 cm), and the RMSE ",
+    "char_length": 3563
+  },
+  {
+    "quote_id": "qb_5d1d7a2a1a",
+    "span_index": 10,
+    "text": "RemoteSens.2023,15,784 11of18\nTable1.MeanRMSEofthePPP-B2borbitproductsrecoveredwithextensioncorrectionsusingthe\nGBMorbitproductsasareferenceduringDOY192–198in2022.\nBDS-3MEO BDS-3IGSO GPS\nExtensionTime/s\nR/m A/m C/m R/m A/m C/m R/m A/m C/m\n30 0.14 0.23 0.20 0.14 0.29 0.24 0.07 0.29 0.25\n60 0.14 0.23 0.21 0.15 0.29 0.24 0.07 0.32 0.26\n120 0.15 0.24 0.21 0.15 0.30 0.25 0.08 0.34 0.27\n180 0.15 0.24 0.21 0.15 0.30 0.25 0.08 0.35 0.28\n300 0.15 0.25 0.22 0.15 0.30 0.26 0.09 0.38 0.29\n600 0.16 0.26 0.23 0.16 0.31 0.27 0.11 0.45 0.33\n1200 0.17 0.29 0.25 0.18 0.34 0.29 0.13 0.58 0.40\n1800 0.18 0.31 0.27",
+    "char_length": 1746
+  },
+  {
+    "quote_id": "qb_16382b62c5",
+    "span_index": 11,
+    "text": "RemoteSens.2023,15,784 12of18\nTable4.ProcessingstrategiesforthesimulatedkinematicPPP-B2bexperiment.\nItem ProcessingStrategy\nSystem BDS-3+GPS\nFrequencies GPSL1/L2andBDS-3B1I/B3I\nObservationdata Real-timedatastream\nSatelliteorbitandclock B2bcorrections+Broadcastephemeris\nIonosphericdelay Ionosphere-freelinearcombinationwithdualfrequency\nEstimationzenithtotaldelayandhorizontalgradient\nTroposphericdelay\nparameters\nAntennaPCO/PCV Igs14.atx\nElevationcut-offangle 7◦\nTable5.LocationsofthefivestationsselectedinthesimulatedkinematicPPP-B2bexperiment.\nSite Latitude(◦) Longitude(◦) Height(km)\nRemote Sens.",
+    "char_length": 4409
+  },
+  {
+    "quote_id": "qb_9ab57fe4a8",
+    "span_index": 12,
+    "text": "RemoteSens.2023,15,784 13of18\n3.3.2. AccuracyoftheReal-TimePPP-B2bPositioningUsingExtendedCorrections\nToinvestigatethereal-timepositioningperformanceofusingextendedcorrections\nduring PPP-B2b signal interruptions, the PPP-B2b signal was artificially interrupted at\nGPST16:30onDOY297in2022. Inthissimulationexperiment,theinterruptiontimelength\nwasincreasedfrom10minto60minwithastepof10min. AsshowninFigure13,the\npositioningaccuracyduringaninterruptionof10minremainedcomparabletothatwithout\ntheinterruption. Foraninterruptionof20min,the3Dpositioningerrorreached20cm,\nandquicklydecreasedto12cmwhenreacqui",
+    "char_length": 2791
+  },
+  {
+    "quote_id": "qb_21a68d3769",
+    "span_index": 13,
+    "text": "RemoteSens.2023,15,784 14of18\nRemote Sens. 2022, 14, x FOR PEER REVwIEilWli ncreasesteadilyandbecomemuchlargerthanthatdeterminedwithreceiv1e5d oPf P2P0 -\nB2bcorrections. Theresultsalsoindicatethatthepositioningerrorsshowveryobvious\ndependenceonlocation.\nFigure14. Accuracyoftheremainingfourstationsinthenorth,east,andupdirections,and3D\nFigure 14. Accuracy of the remaining four stations in the north, east, and up directions, and 3D\ncoordinatesaftertheinterruptionat16:30:00andwithouttheinterruption.\ncoordinates after the interruption at 16:30:00 and without the interruption.\nTogiveamoregeneralstat",
+    "char_length": 1663
+  },
+  {
+    "quote_id": "qb_d80396d822",
+    "span_index": 14,
+    "text": "RemoteSens.2023,15,784 15of18\npositioningresultsincreasedslowlyfrombelow15cminthefirst10mintolargerthan30cm\nduringthe50–60minofinterruption.ForthetwostationslocatedinXinjiang,China(KSKT)\nandJapan(MSSA),theRMSEofthepositioningresultsincreasedfromapproximately30cm\ninthefirst10minoftheinterruptionperiodto60cmduring50–60minofinterruption. In\ngeneral,duringthefirst10minoftheinterruptionperiod,theaccuracyofthepositioning\nresultsobtainedwithextendedcorrectionswasalmostidenticaltothatobtainedwithtrue\nPPP-B2bcorrections.\nTable6.MeanRMSEof3DpositioningerrorofthesimulatedkinematicPPP-B2bsolutionsatdiffer",
+    "char_length": 3761
+  },
+  {
+    "quote_id": "qb_485f191c13",
+    "span_index": 15,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 17 of 20\nRemoteSens.2023,15,784 16of18\nFigure 15. Real-tFimigue rPeP15P.-BR2eabl -ptiomseitiPoPnPi-nBg2 bacpcousritaicoyn iinng kaicncuemracayticin mkiondeem, aitnicclmudodineg,i nPcPluPd-Bin2gb PsPePrv-Bic2eb service\ninterruptions. interruptions.\n4. Discussion\n4. Discussion\nTheintroductionofthePPP-B2bserviceoffersanewpossibilityforreal-timeposition-\nThe introduction of the PPP-B2b service offers a new possibility for real-time posi-\ning. Toachievereal-timeprecisepositioning,itisnecessarytohaveaccesstocontinuously\ntioning. To achaievvaiel arbelael,-rtei",
+    "char_length": 4567
+  },
+  {
+    "quote_id": "qb_89755e389f",
+    "span_index": 16,
+    "text": "RemoteSens.2023,15,784 17of18\nrespectively;intermsoftheextendedclock,themeanSTDvaluesoftheBDS-3MEO,BDS-3\nIGSO,andGPSsatellitesreached0.17ns, 0.20ns, and0.22nsafter10min, respectively.\nOverall, theaccuracyoftheextendedcorrectionsremainedwithinanacceptablerange,\nindicatingthatthequalityofthePPP-B2bcorrectionswillnotbesignificantlydegradedin\ntheshorttermandwillmaintaingoodaccuracy.\nTo further investigate the impact of extended corrections on PPP, the positioning\naccuracyofthesimulatedkinematicmodelusingextendedcorrectionswasevaluatedat\nfive stations in and around China. As shown in Table 6, the r",
+    "char_length": 3926
+  },
+  {
+    "quote_id": "qb_fecd288477",
+    "span_index": 17,
+    "text": "RemoteSens.2023,15,784 18of18\nDataAvailabilityStatement:Thedatasetsgeneratedand/oranalyzedduringthecurrentstudyare\navailablefromthecorrespondingauthoronreasonablerequest.\nAcknowledgments:TheauthorswouldliketothanktheGFZforprovidinghigh-accuracyorbitand\nclockproductsandtheIGSforprovidingtheGNSSobservations.\nConflictsofInterest:Theauthorsdeclarenoconflictofinterest.\nReferences\n1. Dow,J.M.;Neilan,R.;Gendt,G.TheInternationalGPSservice:Celebratingthe10thanniversaryandlookingtothenextdecade.\nAdv.SpaceRes.2005,36,320–326.[CrossRef]\n2. Kouba, J. A Guide to Using International GNSS Service (IGS) Produc",
+    "char_length": 4356
+  }
+]

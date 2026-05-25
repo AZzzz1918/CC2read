@@ -1,0 +1,107 @@
+{
+  "paper_id": "Single_Frequency_PPP_B2b_Time_Transfer",
+  "extraction_mode": "full_strict_quotes",
+  "batch": "Batch 3 Phase A",
+  "selection_role": "core_ppp_b2b",
+  "bibliographic_info": {
+    "title": "Research on Single-Frequency PPP-B2b Time Transfer",
+    "authors": "NOT_MENTIONED",
+    "year": 2024,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Research on Single-Frequency PPP-B2b Time Transfer Zaimin He, Lan Li, Runzhi Zhang, Juan Hou, Gongwei Xiao, Wei Guang, Jihai Zhang, and Xiangyi He Time transfer based on global navigation satellite sys- common-view (CV), all-in-view (AV), and GNSS carrier tem (GNSS) using precise point positioning (PPP) phase.",
+      "The GeoForschungZentrum (GFZ) system (BDS-3) has provided GNSS users with the PPP prod- analysis center product GBM, whose accuracy can reach uct using PPP-B2b signal through three geostationary earth 3 cm, can be obtained with a two-day delay.",
+      "The real-time PPP-B2b product broadcast by required by PPP for free via the networked transport of Ra- GEO satellites can be considered to solve the problem of inter- dio Technical Commission for Maritime Services (RTCM) via ruption caused by network fluctuation in the field of real-time internet protocol (NTRIP)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2022-3-3",
+    "end_date": "2022-3-3",
+    "dates_found": [
+      "2022-3-3"
+    ],
+    "months_found": [
+      "August 2020",
+      "September 2023"
+    ],
+    "doys_found": [
+      "DoY 86"
+    ],
+    "grounding_quotes": []
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 2,
+    "grounding_quotes": [
+      "  Ions =I r s ,j+ζion  Precise Satellite Orbit The rough satellite position which is calculated through the In (4), p r s iono j refers to pseudorange observation corrected us- _ , s broadcast ephemeris is corrected using the PPP-B2b product ing the differential code bias PPP-B2b product; µr denotes the and (1) to obtain the precise satellite position: receiver-to-satellite unit vector; c is t",
+      "Compared to the IGS Item Strategies product obtained from the global observation network, the System BDS, GPS Estimator Kalman filter Cutoff elevation 10° 60°N Raw observations GPS: L1C/A; BDS: B3I Sample interval 30 s 48°N Satellite hardware delay PPP-B2b differential code bias correction product NTSC 36°N USUD Dry delay: corrected with Saastamoinen model [10] 24°N TLM2 Tropospheric delay Wet del"
+    ]
+  },
+  "ionospheric_handling": {
+    "status": "IONOSPHERE_FREE_COMBINATION",
+    "iono_mentions": 14,
+    "grounding_quotes": [
+      "Also, further PPP solution of the PPP-B2b tained by the time-frequency system, and the high-precision product is independent of a network, so that the external in- time transfer is an indispensable part of the time-frequency put of ionosphere is isolated.",
+      "Two TAI timekeeping laboratories, includ- broadcast ionospheric products such as the Beidou global ing the National Time Service Center of the Chinese Academy broadcast ionospheric delay correction model (BDGIM) [8] to of Sciences (NTSC) and the Telecommunication Laboratories replace IGS ionospheric products [9], constraining the iono- (TL), external atomic clock IGS station (USUD) and an IGS sta-"
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 6,
+    "b2b_mentions": 82,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 2,
+    "iono_mentions": 14
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true
+  },
+  "corpus_version": "v1.0"
+}

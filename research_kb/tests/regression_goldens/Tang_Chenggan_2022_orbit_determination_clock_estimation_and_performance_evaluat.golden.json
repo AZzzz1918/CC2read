@@ -1,0 +1,9 @@
+{
+  "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+  "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+  "expected_epoch_status": "HAS_DATE",
+  "expected_dcb_status": "EXPLICITLY_DESCRIBED",
+  "expected_gate_status": "PASS",
+  "must_not_have_wrong_support": true,
+  "must_have_reproduction_blockers": true
+}

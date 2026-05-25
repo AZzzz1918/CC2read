@@ -1,0 +1,40 @@
+bibliographic_info:
+  title: bShanghaiAstronomicalObservatory,ChineseAcademyofScience,No.80NandanRoad,Shanghai200030,China
+category: INS
+component_stack: BDS3_PPP_B2B+LEO+INS
+confirms_singleton: false
+dcb_handling:
+  dcb_mentions: 26
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Available online atwww.sciencedirect.com ScienceDirect AdvancesinSpaceResearch68(2021)3242–3254
+    www.elsevier.com/locate/asr Performance assessment of real-time precise point
+    positioning using BDS PPP-B2b service signal Zhiling Rena, Hang Gonga,⇑ , Jing
+    Penga, Chengpan Tanga,b, Xinming Huanga, Guangfu Suna aCollegeofElectronicScienceandTechnology,NationalUniversityofDefenseTechnol'
+  status: EXPLICITLY_DESCRIBED
+experiment_epoch:
+  start_date: NOT_MENTIONED
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+is_new_route: true
+paper_id: V04_W3_1_s2_0_S0273117721004610_main
+pdf_metadata:
+  b2b: 68
+  dcb: 26
+  has: 0
+  pages: 13
+priority: P2_PRIORITY_GAP
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Available online atwww.sciencedirect.com ScienceDirect AdvancesinSpaceResearch68(2021)3242–3254
+    www.elsevier.com/locate/asr Performance assessment of real-time precise point
+    positioning using BDS PPP-B2b service signal Zhiling Rena, Hang Gonga,⇑ , Jing
+    Penga, Chengpan Tanga,b, Xinming Huanga, Guangfu Suna aCollegeofElectronicScienceandTechnology,NationalUniversityofDefenseTechnol'
+  - 'Keywords: BDS;PPP-B2b;GPS;Precisepointpositioning;Real-timePPP 1.'
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not provided
+  - B2b archive not distributed
+wave: 3

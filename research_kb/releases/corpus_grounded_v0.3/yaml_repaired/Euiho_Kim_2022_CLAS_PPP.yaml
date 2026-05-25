@@ -1,0 +1,74 @@
+paper_id: Euiho_Kim_2022_CLAS_PPP
+extraction_mode: full_strict_quotes
+batch: Batch 3 Phase A
+selection_role: non_b2b_qzss
+bibliographic_info:
+  title: Fault-Free Protection Level Equation for CLAS PPP
+  authors: NOT_MENTIONED
+  year: 2022
+  journal_or_venue: NOT_MENTIONED
+product_source:
+  claimed: NOT_MENTIONED
+  actual_product_source: QZSS_CLAS
+  evidence_strength: WEAK
+  grounding_quotes: []
+experiment_epoch:
+  start_date: NOT_MENTIONED
+  end_date: NOT_MENTIONED
+  dates_found: []
+  months_found:
+  - April 2021
+  doys_found: []
+  grounding_quotes:
+  - The GNSS dataset consisted of the andGalileoRINEXobservationandnavigationfilescollectedover7daysfrom00:00:00
+    GPS and Galileo RINEX observation and navigation files collected over 7 days from
+    on11April2021,to23:59:30on17April2021,with30sintervals.
+  - Thebasestationuses 00:00:00 on 11 April 2021, to 23:59:30 on 17 April 2021, with
+    30 s intervals.
+correction_types:
+- type: orbit_correction
+- type: clock_correction
+dcb_handling:
+  status: NOT_MENTIONED
+  dcb_mentions: 0
+  grounding_quotes: []
+ionospheric_handling:
+  status: MENTIONED
+  iono_mentions: 3
+  grounding_quotes:
+  - σ2 flt,i UIRE,i isthevarianceoftheuserionosphererangeerrorcorrection,andσ2 isthevarianceof
+    tropo,i thetroposphericerrorcorrection,andσ2 isthevarianceofthemultipatherrorexcluding
+    air,i multipath from ground.
+mathematical_model:
+  processing_mode: NOT_MENTIONED
+  grounding_quotes: []
+datasets:
+  grounding_quotes: []
+metrics:
+  grounding_quotes: []
+main_results:
+  grounding_quotes: []
+novelty_audit:
+  audit_grade: NOT_AUDITED
+  grounding_quotes: []
+reproducibility_audit:
+  reproducibility_score: 1
+  reproduction_blockers:
+  - No source code or software release
+  - Raw GNSS observation data not publicly provided
+  - PPP-B2b correction archive not distributed
+  - Specific processing parameters not fully detailed
+pdf_metadata:
+  pages: 13
+  b2b_mentions: 0
+  has_mentions: 0
+  clas_mentions: 54
+  dcb_mentions: 0
+  iono_mentions: 3
+gate_status:
+  product_source_correct: true
+  expected_product_source: QZSS_CLAS
+  wrong_support: false
+  epoch_valid: false
+  dcb_valid: true
+  blockers_non_empty: true

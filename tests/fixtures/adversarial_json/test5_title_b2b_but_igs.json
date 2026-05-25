@@ -1,0 +1,87 @@
+{
+  "paper_id": "test5_title_b2b_but_igs",
+  "source_file": "paper/test5.pdf",
+  "file_hash": "mno345",
+  "bibliographic_info": {
+    "title": "Performance Assessment of PPP-B2b Service Using Real-Time Kinematic Positioning",
+    "authors": [{"name": "Alice Wang"}, {"name": "Bob Li"}],
+    "year": 2022,
+    "journal_or_venue": "GPS Solutions"
+  },
+  "product_source": {
+    "claimed": "PPP-B2b service and IGS RTS",
+    "actual": "IGS_RTS_OR_CLK93",
+    "provider": "CDDIS NTRIP CLK93 stream",
+    "grounding_quotes": [
+      "The IGS RTS products were accessed via NTRIP from CDDIS"
+    ],
+    "conflict_flag": false,
+    "conflict_detail": ""
+  },
+  "mathematical_model": {
+    "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+    "observation_model": "Standard IF PPP",
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "strategy": "IF combination eliminates ionospheric delay",
+    "dcb_source": "NOT_MENTIONED",
+    "dcb_missing_flag": true
+  },
+  "correction_types": {
+    "orbit_correction": "IGS RTS CLK93",
+    "clock_correction": "IGS RTS CLK93",
+    "grounding_quotes": ["The CLK93 stream was used for orbit and clock corrections"]
+  },
+  "research_problem": {"problem_statement": "Assess PPP-B2b service performance"},
+  "technical_route": {"overall_flow": "Process IGS RTS and B2b offline data", "grounding_quotes": []},
+  "method": {"method_name": "Standard IF PPP"},
+  "formulas": [],
+  "experiments": [{"experiment_id": "exp1", "description": "Static test", "grounding_quotes": []}],
+  "experiment_epoch": {
+    "start_date": "2021-06-01",
+    "end_date": "2021-06-30",
+    "duration_days": 30,
+    "is_publication_year_mistake": false,
+    "grounding_quotes": ["The observation data span covers DOY 180 to DOY 210 in 2021"]
+  },
+  "datasets": {
+    "stations": ["10 MGEX stations"],
+    "satellite_systems": ["GPS", "BDS-3"],
+    "observation_types": ["L1", "L2", "B1I", "B3I"],
+    "sampling_rate": "30s",
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "convergence_time": "30 min",
+    "rms_3d": "5.2 cm",
+    "std_enu": "E: 2.1, N: 1.8, U: 4.5 cm",
+    "percentile_95": "8.3 cm",
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "summary": "IGS RTS products achieve cm-level accuracy",
+    "key_findings": ["PPP-B2b accuracy is similar to IGS RTS"],
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "claimed_novelty": "First comprehensive comparison of B2b and RTS",
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED",
+    "b2b_replay_capability": "B2b products downloaded as offline files and replayed",
+    "correction_archive": "NOT_MENTIONED",
+    "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED",
+    "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED",
+    "config_files": "NOT_MENTIONED",
+    "metric_definitions": "Convergence time defined as 3D error < 10 cm for 10 consecutive epochs",
+    "baseline_details": "Compared with IGS final products",
+    "reproduction_blockers": ["No code repository", "No public observation data"],
+    "reproducibility_score": 3,
+    "grounding_quotes": []
+  }
+}

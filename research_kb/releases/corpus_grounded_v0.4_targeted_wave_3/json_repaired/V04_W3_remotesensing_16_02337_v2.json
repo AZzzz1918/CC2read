@@ -1,0 +1,46 @@
+{
+  "paper_id": "V04_W3_remotesensing_16_02337_v2",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 3,
+  "bibliographic_info": {
+    "title": "Temporal Characteristics Based Outlier Detection and Prediction Methods for PPP-B2b Orbit and Clock Corrections"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Temporal Characteristics Based Outlier Detection and Prediction Methods for PPP-B2b Orbit and Clock Corrections ZhenhaoXu1,†,RuiShang1,†,ChengfaGao1,*,WangGao2,QiLiu1 ,FengyangLong1 andDaweiXu1 1 SchoolofTransportation,SoutheastUniversity,Nanjing211189,China;xuzhenhao@seu.edu.cn(Z.X.); shangr@seu.edu.cn(R.S.);lq_0328@seu.edu.cn(Q.L.);fylong1990@seu.edu.cn(F",
+      "Abstract:TheBeiDouGlobalNavigationSatelliteSystem(BDS-3)providesreal-timeprecisepoint positioning(PPP)serviceviaB2bsignals,offeringreal-timedecimeter-levelpositioningforusersin Chinaandsurroundingareas."
+    ]
+  },
+  "component_stack": "BDS3_PPP_B2B+LEO+INS",
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 8,
+    "grounding_quotes": [
+      "2024, 16, x FOR PEER REVIEW 3 of 19 PPP-B2b currently broadcasts parameters such as satellite mask, orbit corrections, clockcorrectionsforBDS-3andGPS,andDCBforBDS-3."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 19,
+    "b2b": 112,
+    "has": 0,
+    "dcb": 8
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "category": "ANOMALY_CLOCK",
+  "priority": "P2_PRIORITY_GAP",
+  "is_new_route": true,
+  "confirms_singleton": false
+}

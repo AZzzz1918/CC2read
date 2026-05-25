@@ -1,0 +1,55 @@
+{
+  "release": "001",
+  "count": 7,
+  "candidates": [
+    {
+      "fn": "s10291-024-01776-7.pdf",
+      "title": "Real-time estimation of multi-frequency phase observable-specific bias for the BDS3 PPP-B2b service",
+      "b2b": 32,
+      "has": 2,
+      "abstract": "Since 2020, the PPP-B2b service provided by BeiDou navigation satellite system ("
+    },
+    {
+      "fn": "s12145-023-00939-3.pdf",
+      "title": "Assessment of precipitable water vapor retrieved from precise point positioning with PPP-B2b service",
+      "b2b": 32,
+      "has": 11,
+      "abstract": "Real-time precise point positioning (RT-PPP) is an effective method to retrieve "
+    },
+    {
+      "fn": "1-s2.0-S0273117723005483-main.pdf",
+      "title": "cKeyLaboratoryofElectro-OpticalCountermeasuresTest&EvaluationTechnology,Luoyang471000,China",
+      "b2b": 30,
+      "has": 5,
+      "abstract": "Since 2020, the BeiDou-3 global navigation satellite system has provided real-ti"
+    },
+    {
+      "fn": "s43020-024-00143-8.pdf",
+      "title": "High-precision services of BeiDou navigation satellite system (BDS): current state, achievements, and future directions",
+      "b2b": 9,
+      "has": 7,
+      "abstract": "With the rapid development of technologies such as autonomous driving and roboti"
+    },
+    {
+      "fn": "1-s2.0-S0273117725002066-main.pdf",
+      "title": "BDS-3/GPS uncombined real-time PPP with PPP-B2b precise products: Modeling and its long-term performance evaluation",
+      "b2b": 21,
+      "has": 0,
+      "abstract": "Through PPP-B2b real-time precise products, BDS-3 can provide the real-time prec"
+    },
+    {
+      "fn": "atmosphere-15-01048.pdf",
+      "title": "Assessment of BDS-3 PPP-B2b Service and Its Applications for the Determination of Precipitable Water Vapour",
+      "b2b": 27,
+      "has": 2,
+      "abstract": ""
+    },
+    {
+      "fn": "s10291-025-01835-7.pdf",
+      "title": "Clock systematic jump estimation and URA refinement of BDS-3 B2b real-time precise point positioning service",
+      "b2b": 25,
+      "has": 5,
+      "abstract": "The real-time precise point positioning (RT-PPP) service of BDS-3 (PPP-B2b) was "
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper directly addresses convergence issues of BDS PPP-B2b by integrating LEO and wide-lane ambiguity resolution, using B2b corrections and evaluating enhancement performance.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s41598-025-34174-1.pdf",
+  "paper_id": "s41598-025-34174-1",
+  "extraction_mode": "batch_classify_1call"
+}

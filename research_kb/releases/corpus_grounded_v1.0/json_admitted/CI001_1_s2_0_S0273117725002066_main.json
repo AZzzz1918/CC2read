@@ -1,0 +1,42 @@
+{
+  "paper_id": "CI001_1_s2_0_S0273117725002066_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-001",
+  "bibliographic_info": {
+    "title": "BDS-3/GPS uncombined real-time PPP with PPP-B2b precise products: Modeling and its long-term performance evaluation"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Available online at www.sciencedirect.com ScienceDirect Advances in Space Research 75(2025)7212–7225 www.elsevier.com/locate/asr BDS-3/GPS uncombined real-time PPP with PPP-B2b precise products: Modeling and its long-term performance evaluation Wujiao Daia,⁎ , Ning Liua , Zhehao Zhanga, Chengpan Tangb, Zhixue Zhangc, Yufei Yangc, Lin Pana a School of Geosciences and Info-Physics,",
+      "In this study, the BDS-3/GPS uncombined real-time PPP model with PPP- B2b precise products is constructed."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 19,
+    "grounding_quotes": [
+      "(2022) reported that 3 Geostationary Orbit (GEO) satel lites, which broadcast the RT-PPP with PPP-B2b service could achieve the root precisesatelliteorbit,clockoffset,anddifferentialcodebias mean square (RMS) statistics of 3D positioning errors of (DCB) corrections to users in China and its surrounding 21.3 cmforBDS-onlycaseand18.2cmforGPS/BDSinte- areas(Yang et al.2022)."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 14,
+    "b2b": 100,
+    "has": 0,
+    "dcb": 19
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "corpus_version": "v1.0"
+}

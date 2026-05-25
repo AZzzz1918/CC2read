@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_22b758054c",
+    "span_index": 0,
+    "text": "Hindawi\nMathematical Problems in Engineering\nVolume 2022, Article ID 4054179, 16 pages\nhttps://doi.org/10.1155/2022/4054179\nResearch Article\nModelling and Assessment of BDS-3 Real-time Precise Point\nPositioning Time Transfer Based on PPP-B2b Service\nJian Tang ,1 Daqian Lyu,1 Fangling Zeng,1 Yulong Ge,2 and Runzhi Zhang 3\n1CollegeofElectronicEngineering, NationalUniversityofDefense Technology,Hefei230037,China\n2SchoolofMarine ScienceandEngineering,Nanjing NormalUniversity,Nanjing 210023,China\n3NationalTimeServiceCenter,ChineseAcademyof Sciences,Xi’an710600,China\nCorrespondenceshouldbeaddressedt",
+    "char_length": 4021
+  },
+  {
+    "quote_id": "qb_c50ba06534",
+    "span_index": 1,
+    "text": "2 MathematicalProblemsinEngineering\naddition,aclockmodelisusedbyGeetal.[17]toinvestigate quality of the PPP-B2b products is assessed using the\nthe PPP time transfer performance using multi-GNSS ob- GeoForschungZentrum (GFZ) multi-GNSS final product\nservations,andtheyconcludedthatthemulti-GNSSsolution (GBM)asabenchmarkinSection4.(eB1I/B3IandB1C/\nperforms better than the single-system solution. B2a B2b-RTPPP time transfer performance is also inves-\nHowever, PPP is mainly applied in post-processing tigated using observation data from three Multi-GNSS\nscenarios because of the long latency of the i",
+    "char_length": 6087
+  },
+  {
+    "quote_id": "qb_291459daad",
+    "span_index": 2,
+    "text": "MathematicalProblemsinEngineering 3\nX �X −δX, (3) coordinate datum is the same for both products, both are\nprec brdc\ninternational terrestrial reference frames. (at is\nwhere X is the recovered precise satellite position; and\nprec X �X +A·dX , (6)\nX denotes the satellite position obtained from the CoM APC PCO\nbrdc\nbroadcast ephemeris. where X represents the satellite’s CoM; X is the\nCoM APC\nsatellite’s APC; A denotes the transformation matrix; and\ndX is the satellite phase center offset (PCO) position.\n2.1.2. Recovery of Precise Clock Offset. (e precise clock PCO\nInthetermsofthesatelliteclockof",
+    "char_length": 4189
+  },
+  {
+    "quote_id": "qb_43ed975d8f",
+    "span_index": 3,
+    "text": "4 MathematicalProblemsinEngineering\nthe frequency amplification factor; d and ds stand for the respectively. In this paper, 1, 3, 4, and 5 denote B1I, B3I,\nr\nuncalibrated code hardware delays at receiver and satellite B1C, and B2a signals, respectively.\nends (m/s), respectively;λ denotes the carrier wavelength For PPP-B2b, since the B3I signal is used as the fre-\nIF\nof IF combination signal; b andbs are the uncalibrated quencyreference,thePPP-B2bclockoffsetabsorbstheB3I\nr\ncarrier phase hardware delay at receiver and satellite ends signal’s pseudorange hardware delay. (at is c d􏽢ts �\nbrd\n(cycle",
+    "char_length": 3659
+  },
+  {
+    "quote_id": "qb_a17bcc7036",
+    "span_index": 4,
+    "text": "MathematicalProblemsinEngineering 5\nGEO\nStation A Station B\nBDS-3/GPS observations and PPP-B2b BDS-3/GPS observations and\nbroadcast ephemeris messages broadcast ephemeris\nBDS-3/GPS real-time precise\norbit,clock and DCB messages\nPPP processing PPP processing\nBDT-ref BDT-ref\n1 2\nBDT-BDT\n1 2\nFigure1:Principle ofB2b-RTPPP timetransfer.\n60°N Table 1: Informationofselectedstations.\nDistance from Station Receiver Antenna\n48°N USUD (km)\nGUA1\nUSUD SEPT POLARX5 AOAD/M_T --\nSHA1 UR4B0 NOV750.R4 1683.9\n36°N SEPT\nTLM2 HEMA45 2060.2 USUD POLARX5TR\nSHA1 GUA1 BD070 RINT-8CHCETD 4382.6\n24°N JAVAD TRE_3\nTLM2 CU",
+    "char_length": 2491
+  },
+  {
+    "quote_id": "qb_d569e4996b",
+    "span_index": 5,
+    "text": "1.0\n0.5\n0.0\n−0.5\n−1.0\nsuggests that the PPP-B2b real-time orbits appear to be (erootmeansquareerrors(RMSEs)oftheorbiterrors\nmore consistent with the GBM final precise orbits, are analyzed over the test period, as shown in Figure 4, to\nresulting in faster filter convergence. Note that the C31, furtherassessthequalityofthePPP-B2borbitproducts,and\nC38, C39, and C40 satellites are excluded because the theaverageRMSEsofthePPP-B2bandCNAV1orbitsinthe\ninformationofC31isnotprovidedbyPPP-B2b,andIGSO RAC directions are summarized in Table 3.\nsatellites have worse orbit and clock offset accuracy than (e R",
+    "char_length": 2065
+  },
+  {
+    "quote_id": "qb_12c40c39c5",
+    "span_index": 6,
+    "text": "Table3: Average RMSEofthe PPP-B2band CNAV1(unit: m). discontinuity in the sequence of the CNAV1 clock offset\nerror. Excitingly, the continuity and smoothness of the\nRadial Along-track Cross-track\nbroadcastephemerisclockoffsetaresignificantlyimprovedby\nPPP-B2b 0.081 0.165 0.107\nthe PPP-B2b clock products, demonstrating a greater accu-\nCNAV1 0.086 0.173 0.115\nracyforthePPP-B2breal-timeclockoffset.However,thereis\na clear stratification of PPP-B2b clock offset errors, with\nsatellite-specificclockoffseterrorsreachingapproximately5\nPPP-B2b\n10 ns.(esystematicbias,whichcanbeabsorbedbythephase\nambiguit",
+    "char_length": 4947
+  },
+  {
+    "quote_id": "qb_3559c55d96",
+    "span_index": 7,
+    "text": "reference also adopts B1I/B3I IF combination, which has\nbetter consistency with the B1I/B3I real-time solution of\nPPP-B2b.(ediscontinuitybetweentwoconsecutivedaysis\ncaused by the day-boundary of the GBM clock products\naccording to the conclusions in Section 4.2.1.\nTofurtherinvestigatethestaticB2b-RTPPPtimetransfer\nperformance,theSTDandaverageSTDvaluesoftheclock\nerrors are calculated to indicate the type A uncertainty of\ntime transfer, as listedin Table 4.(e B1I/B3Isolution has\nsmaller STD values than B1C/B2a solution for each time\nlink,suggestingthattheB1I/B3IIFcombinationhasabetter\ntime trans",
+    "char_length": 4261
+  },
+  {
+    "quote_id": "qb_c3114708cf",
+    "span_index": 8,
+    "text": "SHA1-USUD\n1.0\nBDS B1I/B3I 0.5\n0.0\n-0.5\n-1.0\nTable 4: STDs for each time link (unit: ns). (e improvement systematic bias between B1I/B3I and B1C/B2a solutions.\nindicates the static B2b-RTPPP time transfer performance using Notethattheday-boundarydoesnotexistinkinematicPPP\nB1I/B3I combination compare with that of using the B1C/B2a solutionsduetothegreaternoisevarianceofkinematicPPP.\ncombinationin STDvalues. Table5representstheSTDandaverageSTDvaluesofthe\nclockerror.(emeanSTDvaluesoftheB1I/B3IandB1C/B2a\nTimelink B1I/B3I B1C/B2a Improvement (%)\nPPP solutions are 0.305 ns and 0.329 ns, respectively.",
+    "char_length": 2818
+  },
+  {
+    "quote_id": "qb_d73c241977",
+    "span_index": 9,
+    "text": "10−12\n10−13\n10−14\n10−15\n10−16\n(5.3×10-13 at 120 s), while it (9.9×10-15 at 30720 s) is worse different average times, further supporting our previous\nthantheB1I/B3IIFcombination(6.5×10-15at30720s)inthe findings.\nlong term. Overall, for DF B2b-RTPPP time transfer, the To further confirm our conclusions, the pseudorange\nB1I/B3I IF combinations are recommended. residualsoftheB1I/B3IandB1C/B2aIFcombinationsat\nToverifyourpreviousconjecturethattheimpactofDCB the USUD station are depicted in Figure 14, where dif-\non long-term frequency stability is greater than that on ferentcolorsrepresentdifferents",
+    "char_length": 4205
+  },
+  {
+    "quote_id": "qb_c39d8c3dee",
+    "span_index": 10,
+    "text": "SHA1-USUD\n3\n2 BDS B1I/B3I\n1\n0\n-1\n-2\n-3\n)sn(\nrorre\nkcolC\n0 12 24 36 48\nTime (h)\nTLM2-USUD\n3\n2 BDS B1I/B3I\n1\n0\n-1\n-2\n-3\n)sn(\nrorre\nkcolC\n0 12 24 36 48\nTime (h)\nCUSV-USUD\n3\n2 BDS B1I/B3I\n1\n0\n-1\n-2\n-3\n)sn(\nrorre\nkcolC\nTLM2-USUD\n4\n3 BDS B1C/B2a\n2\n1\n0\n-1\n-2\n0 12 24 36 48\nTime (h)\n)sn(\nrorre\nkcolC\n0 12 24 36 48\nTime (h)\nCUSV-USUD\n-59\n-60 BDS B1C/B2a\n-61\n-62\n-63\n-64\n-65\n)sn(\nrorre\nkcolC\nGUA1-USUD\n-50\n-51 BDS B1C/B2a\n-52\n-53\n-54\n-55\n-56\n0 12 24 36 48\nTime (h)\n0 12 24 36 48\nTime (h)\n)sn(\nrorre\nkcolC\nSHA1-USUD\n-33\n-34 BDS B1C/B2a\n-35\n-36\n-37\n-38\n-39\n)sn(\nrorre\nkcolC\n0 12 24 36 48\nTime (h)\nGUA1-USUD\n3\n2 B",
+    "char_length": 1119
+  },
+  {
+    "quote_id": "qb_1f5e30b725",
+    "span_index": 11,
+    "text": "Table5:STDsforeachtimelink(unit:ns).(eimprovementindicatesthekinematicB2b-RTPPPtimetransferperformanceusingB1I/B3I\ncombinationcomparewiththatofusing the B1C/B2acombinationin STD values.\nTimelink B1I/B3I B1C/B2a Improvement(%)\nSHA1-USUD 0.285 0.301 5.316\nTLM2-USUD 0.295 0.322 8.385\nGUA1-USUD 0.286 0.324 11.728\nCUSV-USUD 0.354 0.369 4.065\nAverage value 0.305 0.329 7.374\n10−11\n10−12\n10−13\n10−14\n10−15\n10−16\nVEDM\n100 1000 10000\nAverage time (s)\nB1I/B3I\nB1C/B2a\nGBM\nFigure11: MDEVofkinematicPPPsolutions forthe TLM2-USUD timelink.\nTLM2-USUD TLM2-USUD\n2\nBDS B1I/B3I BDS B1C/B2a\n1\n0\n−1\n−2\n)sn(\nrorre\nkcol",
+    "char_length": 1166
+  },
+  {
+    "quote_id": "qb_15e09d4438",
+    "span_index": 12,
+    "text": "10−12\n10−13\n10−14\nVEDM\n100 1000 10000\nAverage time (s)\nB1I/B3I\nB1C/B2a\nFigure13: MDEVofstaticB2b-RTPPPsolutions withoutDCBcorrectionforthe TLM2-USUDtimelink.\n20\nB1I/B3I DCB-corr B1C/B2a DCB-corr\n10\n0\n-10\n-20\n60\nB1I/B3I non-corr B1C/B2a non-corr\n40\n20\n0\n-20\n-40\n-60\n)m(\nlaudiser\negnaroduesP\nMathematicalProblemsinEngineering 13\n20\n10\n0\n-10\n-20\n0 6 12 18 24 0 6 12 18 24\nTime (h) Time (h)\n60\n40\n20\n0\n-20\n-40\n-60\n0 6 12 18 24 0 6 12 18 24\nTime (h) Time (h)\nFigure14:PseudorangeresidualofB1I/B3IandB1C/B2aIFcombinationwith/withoutDCBatUSUDstationonDOY86,2022(unit:(m)).\n2629,\n2022,\n1,\nDownloaded\nfrom\nhtt",
+    "char_length": 903
+  },
+  {
+    "quote_id": "qb_0fecc7732f",
+    "span_index": 13,
+    "text": "CUSV GUA1\n15\n12\n9\n6\n3\n0\n5.Conclusions mode.(eB1I/B3Isolutionhashigheraccuracythan\nB1C/B2a solution in static and kinematic modes.\nInthiscontribution,theobservationdatafromtheselected\n(3) Intermsoffrequencystability,theMDEVofthestatic\ntwo iGMAS stations and three MGEX stations were col-\nB2b-RTPPP solution is comparable to the post-pro-\nlected,coveringaperiodoftwodaysofMarch27andMarch\ncessingsolution.(eB1C/B2acombinationhasbetter\n28, 2022. (e quality of the PPP-B2b products is first\nshort-termfrequencystabilitythanB1I/B3I,whilethe\nassessedwiththeGBMfinalproductasareference.(en,the\nlong-termfrequ",
+    "char_length": 2520
+  },
+  {
+    "quote_id": "qb_85fe68dacd",
+    "span_index": 14,
+    "text": "MathematicalProblemsinEngineering 15\n(erefore, improving the accuracy of the PPP-B2b [11] J.F.Zumberge,M.B.Heflin,D.C.Jefferson,M.M.Watkins,\nDCB product should be a focus in the future. and F. H. Webb, “Precise point positioning for the efficient\nandrobustanalysisofGPSdatafromlargenetworks,”Journal\nOverall, the PPP-B2b service can provide sub-nano-\nof Geophysical Research: Solid Earth, vol. 102, no. B3,\nsecond time transfer service to users in and around China, pp. 5005–5017, 1997.\nwhich can meet the demand for high accuracy and short [12] J.KoubaandP.He´roux,“PrecisepointpositioningusingIGS\nl",
+    "char_length": 6186
+  },
+  {
+    "quote_id": "qb_d9aa1e2c2a",
+    "span_index": 15,
+    "text": "16 MathematicalProblemsinEngineering\ncoseismic displacement retrieval,” Remote Sensing, vol. 13,\nno.24,p. 5011,2021.\n[28] O. Montenbruck, P. Steigenberger, and A. Hauschild,\n“Broadcast versus precise ephemerides: a multi-GNSS per-\nspective,”GPSSolutions, vol.19, no.2, pp. 321–333,2015.\n[29] J. Tao, J. Liu, Z. Hu, Q. Zhao, G. Chen, and B. Ju, “Initial\nassessment of the BDS-3 PPP-B2b RTS compared with the\nCNESRTS,”GPSSolutions,vol. 25, no.4,p.131, 2021.\n[30] N. Naciri and S. Bisnath, “An uncombined triple-frequency\nuserimplementationofthedecoupledclockmodelforPPP-\nAR,” JournalofGeodesy,vol. 95, ",
+    "char_length": 3177
+  }
+]

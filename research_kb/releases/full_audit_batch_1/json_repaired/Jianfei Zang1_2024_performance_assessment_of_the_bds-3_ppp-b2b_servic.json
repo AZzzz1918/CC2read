@@ -1,0 +1,29 @@
+{
+  "paper_id": "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic",
+  "expected_category": "core_ppp_b2b",
+  "extraction_mode": "batch_b_lite_4calls",
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "high",
+  "mathematical_model": "PPP-B2b orbit correction recovery: precise orbit = broadcast orbit + correction vector in ECEF computed from radial, along-track, and cross-track components; earthquake magnitude scaling law: log₀(PGD) = A + B·M_W + C·log₀(R), where PGD is derived from real-time PPP-B2b displacement series.",
+  "experiment_epoch": "2021 Mw 7.4 Maduo earthquake (May 22, 2021)",
+  "correction_types": "orbit corrections (radial, along-track, cross-track) and clock corrections",
+  "ionospheric_handling": "dual-frequency ionosphere-free combination",
+  "reason": "The paper evaluates PPP-B2b service for real-time earthquake monitoring, a specific downstream application of BDS-3 corrections.",
+  "novelty_audit": "The paper presents a first assessment of the BDS-3 PPP-B2b satellite-based real-time service for earthquake source description, offering a globally available, internet-free alternative to terrestrial real-time precise positioning systems.",
+  "metrics": [
+    "Accuracy of PPP-B2b derived coseismic displacement time series (RMS in north, east, up components)",
+    "Earthquake magnitude estimated via peak ground displacement (PGD) scaling law and difference from catalog magnitude",
+    "Focal mechanism parameters (strike, dip, rake) compared to reference solutions (USGS, CENC)",
+    "Latency of displacement retrieval"
+  ],
+  "main_results": "PPP-B2b service can provide near-real-time coseismic displacement waveforms with sufficient accuracy; the PGD-based magnitude estimate for the 2021 Mw 7.4 Maduo earthquake closely matches published values; preliminary focal mechanism inversion results are consistent with reference mechanisms.",
+  "datasets": "1-Hz GNSS observations (GPS+BDS) from regional continuous stations around the Maduo earthquake epicenter; BDS-3 PPP-B2b real-time orbit and clock corrections broadcast via GEO satellite; reference earthquake catalogs (USGS, CENC).",
+  "Reproduction_blockers": 2,
+  "_meta": {
+    "calls_ok": 4,
+    "calls_total": 4,
+    "elapsed_s": 210.4
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s41598_025_34174_1",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "OPEN Synergistic augmentation of"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  www.nature.com/scientificreports OPEN Synergistic augmentation of BDS PPP-B2b: integrating LEO constellations and wide- lane ambiguity resolution for instantaneous convergence Qing Zhao1,2, Shuguo Pan1,2, Wang Gao1,2, Xianlu Tao1,2, Hong Huang1,2, Moye Zhang1,2 & Qiang Wang3 To address the slow convergence issue of PPP-B2b, this paper proposes a positioning method that integrate",
+      "The results demonstrate that both WAR and LEO enhancement can improve the accuracy and convergence performance of PPP-B2b, with temporal complementarity during the convergence stage."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 22
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 20,
+    "b2b": 94,
+    "has": 0,
+    "dcb": 22,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

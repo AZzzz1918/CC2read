@@ -1,0 +1,110 @@
+[
+  {
+    "quote_id": "qb_807c9c81b6",
+    "span_index": 0,
+    "text": "GPS Solutions (2026) 30:30\nhttps://doi.org/10.1007/s10291-025-01998-3\nRESEARCH\nAsynchronous RTK positioning enhanced by satellite-based PPP\ncorrections: a case study with PPP-B2b\nHong Huang1,2 · Wang Gao1,2 · Shuguo Pan1,2 · Longlei Qiao1,2 · Qing Zhao1,2\nReceived: 17 June 2025 / Accepted: 12 November 2025 / Published online: 22 November 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nAbstract\nGNSS network RTK is widely used in autonomous driving and precision mapping due to its high accuracy and coverage.\nHowever, NRTK relies on stab",
+    "char_length": 4131
+  },
+  {
+    "quote_id": "qb_2e99c484ef",
+    "span_index": 1,
+    "text": "30 Page 2 of 18 GPS Solutions (2026) 30:30\nsystem collects multi-station observations in real time and et al. (2023) integrated high-frequency GNSS observations\napplies regional modeling algorithms to estimate and inter- with accelerometer data and applied RTS smoothing filter-\npolate spatially correlated errors such as ionospheric and ing. Their study demonstrated that by reducing the reference\ntropospheric delays. These interpolated differential correc- station sampling interval to 2 s, the system could recover\ntions are then transmitted to users, enabling a wider service millimeter-level di",
+    "char_length": 5985
+  },
+  {
+    "quote_id": "qb_13bd9a5974",
+    "span_index": 2,
+    "text": "GPS Solutions (2026) 30:30 Page 3 of 18 30\nPs (t )=ρs(t ,ts)+δρs (ts)\nby PPP-B2b corrections is established and its feasibility r,f r r r r orb r\nis systematically evaluated through accuracy analysis and +c · [δt r (t r ) − δts(ts r ) − δts clk (ts r )]\nexperimental validation. +γ Is (t ,ts)+T s(t ,ts) (1)\nf r,1 r r r r r\nWithin this framework, the method addresses the resid- +dcode(t ) ds,code(ts)+εs (t )\nual errors inherent in the ARTK model by systematically r,f r − f r r,f r\nmitigating four major error sources: satellite orbit errors,\nsatellite clock errors, ionospheric delays, and troposp",
+    "char_length": 4979
+  },
+  {
+    "quote_id": "qb_dfeadeeb02",
+    "span_index": 3,
+    "text": "30 Page 4 of 18 GPS Solutions (2026) 30:30\nbiases can still be largely eliminated by inter-station differ-\nencing, exerting only a minor influence on ARTK position-\ning accuracy (Guo et al. 2015; Zeng et al. 2023).\nTo mitigate the degradation caused by such residual\nerrors, this study develops a high-precision ARTK frame-\nwork enhanced by satellite-based PPP corrections, with\nBDS-3 PPP-B2b selected as a representative implementa-\ntion (hereafter referred to as B2b-ARTK). The method sys-\ntematically models and compensates for four primary error\nsources: orbit errors, clock bias errors, ionosphe",
+    "char_length": 2286
+  },
+  {
+    "quote_id": "qb_80b79aa609",
+    "span_index": 4,
+    "text": "GPS Solutions (2026) 30:30 Page 5 of 18 30\nHere, δp (ts) represents the orbit error of satellite p at As a result, residual clock bias errors are introduced. Their\norb b\nepoch ts. Equation (5) shows that orbital residuals in ARTK magnitude is determined primarily by the short-term stabil-\nb\noriginate from two types of asynchrony: ity of onboard atomic clocks and the variation rate of satel-\n(a) Directional asynchrony: Since the satellite positions lite clock biases (Griggs et al. 2014, 2015).\nat epochs ts and ts differ, the unit line-of-sight vectors Taking current mainstream GNSS systems as e",
+    "char_length": 4799
+  },
+  {
+    "quote_id": "qb_b24f2f096f",
+    "span_index": 5,
+    "text": "30 Page 6 of 18 GPS Solutions (2026) 30:30\n∆I r p b p′(t r ,t b ,ts r ,ts b )=I r p′(t r ,ts r ) − I b p(t b ,ts b ) with millimeter-level accuracy (Liu et al. 2017). Although\n= Ip′(t ,ts) Ip(t ,ts) the wet delay remains more variable, its magnitude is com-\nr b b − b b b paratively minor (typically ~ 5% of the total delay), making\n(cid:31) (cid:30)\n(a)direction-inducedterm (8) GPT2w an effective solution for suppressing tropospheric\nresiduals under asynchronous conditions without adding\n+(cid:29) Ip′(t ,t(cid:28)s(cid:27)) Ip′(t ,(cid:26)ts)\nr r r − r b b computational burden. Nevertheless, it",
+    "char_length": 4760
+  },
+  {
+    "quote_id": "qb_dcb3dd9f10",
+    "span_index": 6,
+    "text": "GPS Solutions (2026) 30:30 Page 7 of 18 30\n[δR δA δC]T =R 2· [(XB+R 1· VPCOSYS ) − X CODE ] (10) When evaluating broadcast and PPP-B2b clocks against\nCODE precise products, two alignment issues must be\nHere, X represents the satellite position calculated addressed:\nCODE\nfrom the CODE precise orbit, and X represents the satel-\nB\nlite position from the broadcast ephemeris or corrected by (1) Frequency reference alignment. PPP-B2b clocks fol-\nPPP-B2b. R denotes the satellite attitude matrix. R is the low the broadcast reference, which may differ from the\n1 2\ntransformation matrix from the Earth-C",
+    "char_length": 4158
+  },
+  {
+    "quote_id": "qb_93ed4c1663",
+    "span_index": 7,
+    "text": "30 Page 8 of 18 GPS Solutions (2026) 30:30\nExperiment and analysis Table 2 Processing strategies of the three positioning models\nItem Brdc-ARTK B2b-ARTK B2b-PPP\nObservations Rover and Rover and Base Rover Only\nThe experimental section of this study consists of four parts\nBase Station Station\nto comprehensively validate the performance and appli-\nSignal selection GPS (L1, L2) GPS (L1, L2) GPS (L1, L2)\ncability of the proposed models. First, three positioning BDS (B1, B3) BDS (B1, B3) BDS (B1, B3)\nstrategies are defined: the broadcast-based ARTK model Orbit and clock Broadcast Broad- Broad-\n(Brd",
+    "char_length": 4039
+  },
+  {
+    "quote_id": "qb_a386ac0472",
+    "span_index": 8,
+    "text": "GPS Solutions (2026) 30:30 Page 9 of 18 30\nAs shown in Fig. 4, the number of available satellites in the\nstatic dataset remained relatively stable, with an average of\n14.4 satellites visible and the position dilution of precision\n(PDOP) consistently below 2.0. In contrast, the dynamic\ndataset is more affected by environmental variations, with\ncorrespondingly higher PDOP values, and the average num-\nber of visible satellites was 12.5.\nBroadcast versus PPP-B2b orbit and clock accuracy\nassessment\nTo assess the impact of PPP-B2b products on enhanc-\ning orbit and clock accuracy for ARTK positioning",
+    "char_length": 2853
+  },
+  {
+    "quote_id": "qb_39b0e9dd0d",
+    "span_index": 9,
+    "text": "30 Page 10 of 18 GPS Solutions (2026) 30:30\nFig. 6 Comparison of clock bias errors between broadcast and PPP-B2b ephemeris for GPS (left) and BDS-3 (right)\nPPP-B2b corrections, the standard deviation of GPS clock\nbias errors is reduced from 0.055 to 0.042 m, while that of\nBDS-3 is significantly reduced from 0.164 to 0.033 m.\nTo further highlight the short-term behavior of PPP-B2b\ncorrections, a local time series of orbit and clock errors for a\nrepresentative BDS-3 satellite (C30) is shown in Fig. 7. The\nresults clearly reveal small periodic jumps: orbit correc-\ntions exhibit discontinuities co",
+    "char_length": 3049
+  },
+  {
+    "quote_id": "qb_46d90ed00d",
+    "span_index": 10,
+    "text": "GPS Solutions (2026) 30:30 Page 11 of 18 30\nF ig. 8 RMS of asynchronous\nresiduals in radial orbit (top)\nand clock bias errors (bottom) of\nbroadcast and PPP-B2b ephemeris\nat different data ages\nB2b-ARTK performance under constant data age To further investigate short-term performance, Fig. 10\nconditions presents the positioning errors under a 3-s constant data age.\nThe results show that when the base and rover use the same\nBased on the analysis of asynchronous orbit and clock correction set, B2b-ARTK achieves almost identical perfor-\nerrors at different data ages in Section B, this section eval",
+    "char_length": 2201
+  },
+  {
+    "quote_id": "qb_ff5e188cd4",
+    "span_index": 11,
+    "text": "30 Page 12 of 18 GPS Solutions (2026) 30:30\nFig. 9 Positioning performance of Brdc-ARTK and B2b-ARTK models under different constant data age conditions\nalso reflected in the comparison of post-fit residuals: the\nimprovement for the BDS-3 system is modest (reduced from\n0.019 to 0.013 m), whereas the GPS system shows a more\npronounced residual reduction (from 0.030 to 0.012 m).\nOverall, the experimental results validate that the\nimprovement of broadcast ephemeris orbit and clock accu-\nracy via PPP-B2b effectively reduces residual errors in\nARTK and significantly enhances positioning performance",
+    "char_length": 1066
+  },
+  {
+    "quote_id": "qb_46e8301772",
+    "span_index": 12,
+    "text": "GPS Solutions (2026) 30:30 Page 13 of 18 30\nFig. 11 Comparison of post-fit carrier-phase residuals between B2b-ARTK and Brdc-ARTK models at 60-s data age\nwith data age increasing continuously over time, while\nthe B2b-PPP model continues continuous positioning. As\nshown in Fig. 12, after the network outage, the positioning\nerror divergence rate of B2b-ARTK is significantly lower\nthan that of Brdc-ARTK, demonstrating its stronger capabil-\nity to resist error accumulation.\nTable 4 summarizes the positioning accuracy statistics of\nthe three models during the asynchronous phase, as well as\nthe dura",
+    "char_length": 2587
+  },
+  {
+    "quote_id": "qb_160cc585e2",
+    "span_index": 13,
+    "text": "30 Page 14 of 18 GPS Solutions (2026) 30:30\nTable 5 Positioning accuracy statistics of three models during the\nasynchronous phase in the dynamic experiment\nModels E/m N/m U/m Max 3D Fixed\nerrors/m solution\nduration/s\nB2b-PPP 0.0257 0.0271 0.0974 0.1725 –\nBrdc-ARTK 0.0283 0.0350 0.0758 0.1777 382\nB2b-ARTK 0.0182 0.0233 0.0353 0.0847 650\nsuppresses error accumulation over the entire asynchronous\nperiod, demonstrating superior dynamic stability.\nTable 5 summarizes the positioning accuracy and duration\nof fixed solution maintenance for the three models during the\nasynchronous phase. The B2b-ARTK m",
+    "char_length": 3249
+  },
+  {
+    "quote_id": "qb_48ae61e460",
+    "span_index": 14,
+    "text": "GPS Solutions (2026) 30:30 Page 15 of 18 30\nFig. 15 Positioning errors under 60-s constant-age conditions for the HKWS–HKSS baseline in the Asia–Pacific region: (left) PPP-B2b corrections\nversus GPS + BDS broadcast ephemerides; (right) Galileo HAS corrections versus GPS + Galileo broadcast ephemerides\nFig. 16 Positioning errors under 60-s constant-age conditions for the GOPE–GOP6 baseline in Europe: (left) PPP-B2b corrections versus\nGPS + BDS broadcast ephemerides; (right) Galileo HAS corrections versus GPS + Galileo broadcast ephemerides\nEuropean comparison. Europe, and both can be seamlessly",
+    "char_length": 1741
+  },
+  {
+    "quote_id": "qb_4327579b9a",
+    "span_index": 15,
+    "text": "30 Page 16 of 18 GPS Solutions (2026) 30:30\nTable 6 Summary of positioning performance in Asia–Pacific (HKWS–HKSS) and Europe (GOPE–GOP6) under different correction strategies,\nincluding positioning accuracy, ambiguity-fixing rate, and number of available satellites (AVS)\nBaseline Model Positioning errors/m Fix Rate AVS\nE N U\nHKWS-HKSS Brdc-ARTK(GC) 0.016 0.023 0.033 97.45% 13.7\n(5.6 km) B2b-ARTK 0.009 0.008 0.016 98.94%\nBrdc-ARTK(GE) 0.014 0.016 0.063 87.46% 14.5\nHAS-ARTK 0.010 0.016 0.047 91.02%\nGOPE-GOP6 Brdc-ARTK(GC) 0.023 0.065 0.056 52.94% 7.7\n(< 10 m) B2b-ARTK 0.010 0.038 0.049 89.92%\nB",
+    "char_length": 4606
+  },
+  {
+    "quote_id": "qb_77a63e584e",
+    "span_index": 16,
+    "text": "GPS Solutions (2026) 30:30 Page 17 of 18 30\nCSNO (2020) BeiDou Navigation satellite system signal in space Montenbruck O, Steigenberger P, Hauschild A (2018) Multi-GNSS\ninterface control document precise point positioning service sig- signal-in-space range error assessment—methodology and\nnal PPP-B2b, China satellite navigation office. h t t p : / / w w w . b e i d o u results. Adv Space Res 61(12):3020–3038. h t t p s : / / d o i . o r g / 1 0 . 1 0\n. g o v . c n / x t / g f x z / 2 0 2 0 0 8 / P 0 2 0 2 3 0 5 1 6 5 7 4 0 7 1 3 4 0 7 2 8 . p d f 1 6 / j . a s r . 2 0 1 8 . 0 3 . 0 4 1\nDong Y,",
+    "char_length": 8364
+  },
+  {
+    "quote_id": "qb_d84c53b270",
+    "span_index": 17,
+    "text": "30 Page 18 of 18 GPS Solutions (2026) 30:30\nSpringer Nature or its licensor (e.g. a society or other partner) holds Longlei Qiao is currently a Ph.D.\nexclusive rights to this article under a publishing agreement with the student at the School of Instru-\nauthor(s) or other rightsholder(s); author self-archiving of the accepted ment Science and Engineering,\nmanuscript version of this article is solely governed by the terms of Southeast University, Nanjing,\nsuch publishing agreement and applicable law. China. He obtained his M.S.\ndegree from Southeast University\nin 2017. His current research\nHong",
+    "char_length": 1824
+  }
+]

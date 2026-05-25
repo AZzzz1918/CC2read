@@ -1,0 +1,87 @@
+{
+  "wave": 2,
+  "processed": 10,
+  "ps_errors": 0,
+  "results": [
+    {
+      "pid": "V04_W2_1_s2_0_S0273117725002881_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 184,
+      "pages": 17,
+      "cat": "LEO_ORBIT",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_W2_applsci_15_07169_v2",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 66,
+      "pages": 19,
+      "cat": "SMARTPHONE_LOWCOST",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_W2_remotesensing_17_02351",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 244,
+      "pages": 21,
+      "cat": "PPP_B2B_TIMING",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_W2_1_s2_0_S0273117725011020_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 111,
+      "pages": 13,
+      "cat": "PPP_B2B_ZTD_PWV",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_W2_s10291_021_01168_1",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 137,
+      "pages": 16,
+      "cat": "BOUNDARY_NON_B2B",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_W2_1_s2_0_S0263224126009619_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 175,
+      "pages": 12,
+      "cat": "LEO_ORBIT",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_W2_ggag169",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 180,
+      "pages": 16,
+      "cat": "LEO_ORBIT",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_W2_Qin_2024_Phys__Scr__99_125026",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 107,
+      "pages": 15,
+      "cat": "LEO_ORBIT",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_W2_1_s2_0_S0263224125021888_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 139,
+      "pages": 16,
+      "cat": "LEO_ORBIT",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_W2_1_s2_0_S0263224126008559_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 186,
+      "pages": 15,
+      "cat": "LEO_ORBIT",
+      "quotes": 4
+    }
+  ]
+}

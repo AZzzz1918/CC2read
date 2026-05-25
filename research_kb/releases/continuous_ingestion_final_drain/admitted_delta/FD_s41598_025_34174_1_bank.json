@@ -1,0 +1,122 @@
+[
+  {
+    "quote_id": "qb_9d1a17e9cb",
+    "span_index": 0,
+    "text": "www.nature.com/scientificreports\nOPEN Synergistic augmentation of\nBDS PPP-B2b: integrating\nLEO constellations and wide-\nlane ambiguity resolution for\ninstantaneous convergence\nQing Zhao1,2, Shuguo Pan1,2, Wang Gao1,2, Xianlu Tao1,2, Hong Huang1,2, Moye Zhang1,2 &\nQiang Wang3\nTo address the slow convergence issue of PPP-B2b, this paper proposes a positioning method that\nintegrates wide-lane ambiguity resolution (WAR) with low earth orbit (LEO) synergistic enhancement.\nFirst, based on an uncombined precise point positioning (PPP) model that accounts for the clock\nconstant bias (CCB), the extra-",
+    "char_length": 3899
+  },
+  {
+    "quote_id": "qb_6378ba8cea",
+    "span_index": 1,
+    "text": "www.nature.com/scientificreports/\nCurrently, the PPP-B2b service primarily covers China and its neighboring areas, with availability exceeding\n80%6,7. Applying PPP-B2b corrections to broadcast ephemerides significantly mitigates orbit discontinuity\nduring ephemeris updates, improving radial accuracy to several centimeters, while clock accuracy reaches the\nsub-nanosecond level, meeting the requirements for real-time PPP7. Further enhancement of PPP-B2b product\nperformance can be achieved by parameterizing residual orbit and clock errors through functional or stochastic\nmodels8–11. Typically, th",
+    "char_length": 7431
+  },
+  {
+    "quote_id": "qb_8b7938d2a5",
+    "span_index": 2,
+    "text": "www.nature.com/scientificreports/\nwith a novel focus on dissecting their complementary roles and quantifying the resulting synergy in accelerating\nconvergence.\nThe structure of this paper is as follows: Section \"Models and methodology\" systematically elaborates the\nresearch methodology, including the multi-frequency uncombined PPP model considering the PPP-B2b clock\nconstant bias (CCB), the wide-lane ambiguity solution (WAR) enhancement strategy, and the LEO constellation\naugmentation scheme. Section \"Experimental results and analysis\" presents the experimental analysis,\nsequentially evaluatin",
+    "char_length": 3902
+  },
+  {
+    "quote_id": "qb_1291000f6d",
+    "span_index": 3,
+    "text": "www.nature.com/scientificreports/\nP\nr\ns\n,\n,\n1\nQ =ρs\nr\n,Q+c\n·\nt˜Q\nr,IF−\nc\n·\nts\nB\n,\n2\nQ\nb\n+M\nr\ns,Q\n·\nT r+γ\n1·\nI˜\nr\ns\n,\n,\n1\nQ+bs,Q\n−\nDs,Q+es\nr,\n,\n1\nQ\nP\nr\ns\n,\n,\n2\nQ =ρs\nr\n,Q+c\n·\nt˜Q\nr,IF−\nc\n·\nts\nB\n,\n2\nQ\nb\n+M\nr\ns,Q\n·\nT r+γ\n2·\nI˜\nr\ns\n,\n,\n1\nQ+bs,Q\n−\nDs,Q+es\nr,\n,\n2\nQ\n\n.\n.\n.\nP\nL\nL\nr\ns r\ns r\ns ,\n,\n,\n,\n,\n, i\n1\n2\nQ\nQ\nQ\n=\n=\n=\nρ\nρ\nρ\ns r\ns r\ns r\n,\n,\n,\nQ\nQ\nQ\n+\n+\n+\nc\nc\nc\n·\n·\n·\nt\nt\n˜\n˜\nt˜\nQ r\nQ r\nQ r\n,\n,\n,\nI\nI\nI\nF\nF\nF\n−\n−\n−\nc\nc\nc\n·\n·\n·\nt\nt\nt\ns B\ns B\ns B\n,\n,\n,\n2\n2\nQ\nQ\n2 Q\nb\nb\nb\n+\n+\n+\nM\nM\nM\nr\nr\n.\n.\n.\nr\ns\ns\ns\n,\n,\n,\nQ\nQ\nQ\n·\n·\n·\nT\nT\nT\nr\nr\nr+\n−\n−\nγ\nγ\nγ\ni\n1\n2\n·\n·\n·\nI˜ r\nI\nI\ns\n˜\n˜\n, ,\nr\nr\ns\ns\n1 Q\n",
+    "char_length": 4762
+  },
+  {
+    "quote_id": "qb_e42112971c",
+    "span_index": 4,
+    "text": "www.nature.com/scientificreports/\nPPP-B2b enhanced by wide-lane ambiguity resolution (WAR)\nThe reliability of PPP positioning can be improved through the integer constraints imposed by ambiguity\nresolution. Given the limited accuracy of PPP-B2b orbit and clock corrections, reliably fixing narrow-lane\nambiguities directly remains challenging. Therefore, this paper primarily focuses on fixing Extra-Wide-Lane\n(EWL) and Wide-Lane (WL) ambiguities. Importantly, a wide-lane fixed solution is considered successfully\nachieved only when both the EWL and WL ambiguities are fixed simultaneously.\nEWL/WL F",
+    "char_length": 4784
+  },
+  {
+    "quote_id": "qb_bb517b56c9",
+    "span_index": 5,
+    "text": "www.nature.com/scientificreports/\nperformance. Therefore, a common strategy in practical data processing is to perform a linear transformation\nof the raw ambiguities to form combined ambiguities with long-wavelength characteristics, such as EWL and\nWL combinations, before estimating the FCBs. Based on existing research, Table 2 lists the EWL and WL\ncombinations adopted in this paper31.\nSequential EWL/WL resolution with PAR strategy\nBased on the PPP-B2b float solution (X,Q XX), the satellite with the highest elevation angle is selected as the\nreference satellite. Between-satellite single-differ",
+    "char_length": 4678
+  },
+  {
+    "quote_id": "qb_236dd69fa6",
+    "span_index": 6,
+    "text": "www.nature.com/scientificreports/\nParameter Scheme 1 Scheme 2\nNumber of Satellites 96 144\nOrbital Altitude 1000 km 1000 km\nOrbit Type Hybrid Orbit (Polar + Dual Inclined) Hybrid Orbit (Polar + Triple Inclined)\nPolar Orbit (90°): 6 planes × 12 satellites/plane\nPolar Orbit (90°): 4 planes × 12 satellites/plane\nInclined Orbit (35°): 2 planes × 12 satellites/plane\nConstellation Composition Inclined Orbit (40°): 2 planes × 12 satellites/plane\nInclined Orbit (50°): 2 planes × 12 satellites/plane\nInclined Orbit (55°): 2 planes × 12 satellites/plane\nInclined Orbit (65°): 2 planes × 12 satellites/plane",
+    "char_length": 1963
+  },
+  {
+    "quote_id": "qb_d881d0b128",
+    "span_index": 7,
+    "text": "www.nature.com/scientificreports/\nis the slant ionospheric delay for the LEO satellite at the first frequency; and\nNs,L\nis the corresponding integer\nr,i\nambiguity.\nThis paper simulates L1/L2/L5/L6 four-frequency LEO observation data. Considering the relatively short\norbital period of LEO satellites, the sampling rate is set to 1 s. The simulation strategies for the main error terms\ninvolved in Eq. (11) are listed in Table 4. Notably, for the tropospheric delay, to ensure the consistency of the\ncommon ZWD parameter during the subsequent combined processing of the simulated LEO data and the real",
+    "char_length": 5025
+  },
+  {
+    "quote_id": "qb_5a4b7fa3a3",
+    "span_index": 8,
+    "text": "www.nature.com/scientificreports/\nExperimental results and analysis\nGiven that the PPP-B2b signal is broadcast by three BDS-3 GEO satellites and its current effective service area\nprimarily covers China and its surrounding regions, the experimental data selected for this study consists of\nreference station network data covering the Asia–Pacific region on July 21, 2025. The distribution of these\nstations is shown in Fig. 3. The reference stations marked in blue are used to extract FCB products for GPS\nand BDS-3 satellites, providing prior information for subsequent EWL/WL ambiguity resolution. ",
+    "char_length": 4010
+  },
+  {
+    "quote_id": "qb_e151940f00",
+    "span_index": 9,
+    "text": "www.nature.com/scientificreports/\nthe enhancement effect achievable through the synergy of both augmentation methods. Denoted as “PPP-\nB2b + AR + LEO96” or “PPP-B2b + AR + LEO144”.\nStability analysis of EWL/WL FCB\nHigh-quality FCB estimates are a prerequisite for successful ambiguity resolution. Figures 4 and 5 present the\nEWL/WL FCB results for each GPS and BDS-3 satellites, respectively. Limited by the regional distribution of the\nreference network and the availability of PPP-B2b corrections, the daily FCB series for some satellites contain\ngaps. However, within continuous arcs, the FCBs gen",
+    "char_length": 3921
+  },
+  {
+    "quote_id": "qb_843c4df3c6",
+    "span_index": 10,
+    "text": "www.nature.com/scientificreports/\nFig. 5. EWL/WL FCBs for each BDS-3 satellites.\nFig. 6. Standard deviations of EWL/WL FCBs for each GPS/BDS-3 satellites.\nScientific Reports | (2026) 16:3991 | https://doi.org/10.1038/s41598-025-34174-1 11",
+    "char_length": 238
+  },
+  {
+    "quote_id": "qb_379a060b0b",
+    "span_index": 11,
+    "text": "www.nature.com/scientificreports/\nFig. 7. Distribution of ambiguity posterior residuals from GPS EWL/WL FCB estimation (left: L2-L5 extra-\nwide-lane, right: L1-L2 wide-lane).\nFig. 8. Distribution of ambiguity posterior residuals from BDS-3 EWL/WL FCB estimation (left: B1c-B2I\nextra-wide-lane, middle: B6I-B2a extra-wide-lane, right: B2I-B6I wide-lane).\nDue to the substantial wavelengths of the chosen EWL/WL combinations (e.g., 20.93 m for B1c-B2I), reliable\nsingle-epoch ambiguity resolution is inherently achievable. Consequently, the Time-To-First-Fix (TTFF)\nis consistently 1 epoch, and the fix",
+    "char_length": 3014
+  },
+  {
+    "quote_id": "qb_c8bde32292",
+    "span_index": 12,
+    "text": "www.nature.com/scientificreports/\nFig. 9. Positioning error at station GAMG before and after WAR.\nconvergence. Figure 11 first presents the sky plots of GNSS satellites (GPS/BDS-3) and LEO constellations of\ndifferent scales over a 1-h period at station GAMG. The GNSS satellite tracks change slowly in the sky, with\na relatively fixed distribution over short periods, resulting in sparse and slowly varying sky plots. This implies\nthat in GNSS-only mode, the PPP solution must rely on extended observation periods to accumulate sufficient\ngeometric diversity for adequate parameter decorrelation, con",
+    "char_length": 2884
+  },
+  {
+    "quote_id": "qb_51e90118b9",
+    "span_index": 13,
+    "text": "www.nature.com/scientificreports/\nFig. 10. Average positioning error over 1-h intervals before and after WAR.\nFig. 11. Comparison of LEO/GNSS sky plots at station GAMG during 05:00–06:00.\nFig. 12. Comparison of available satellite numbers under LEO96 and LEO144 constellations.\nScientific Reports | (2026) 16:3991 | https://doi.org/10.1038/s41598-025-34174-1 14",
+    "char_length": 361
+  },
+  {
+    "quote_id": "qb_3d18b168cc",
+    "span_index": 14,
+    "text": "www.nature.com/scientificreports/\nFig. 13. Comparison of positioning results at station GAMG enhanced by LEO96 and LEO144 constellations,\nrespectively.\n(87.9%, 83.5%) and (93.5%, 88.3%). Evidently, with the enhancement from the rapid geometric changes of LEO\nconstellations, the PPP-B2b convergence time can be reduced from about 20 min to 1–2 min.\nComparative analysis of enhancement strategies and synergistic effects\nThe preceding analyses have separately verified the effectiveness of both WAR and LEO constellation augmentation\nin improving PPP-B2b performance. This section provides a systemati",
+    "char_length": 2569
+  },
+  {
+    "quote_id": "qb_e03dd081f3",
+    "span_index": 15,
+    "text": "www.nature.com/scientificreports/\nFig. 14. Average positioning error over 1-h intervals enhanced by LEO96 and LEO144 constellations,\nrespectively.\nFig. 15. Comparison of positioning errors during the initial 2 min under WAR, LEO96/LEO144, and\ncombined WAR & LEO96/LEO144 augmentation schemes.\nScientific Reports | (2026) 16:3991 | https://doi.org/10.1038/s41598-025-34174-1 16",
+    "char_length": 376
+  },
+  {
+    "quote_id": "qb_906ffca0de",
+    "span_index": 16,
+    "text": "www.nature.com/scientificreports/\nFig. 16. Comparison of positioning accuracy under WAR, LEO96/LEO144, and combined WAR & LEO96/\nLEO144 augmentation schemes.\nFig. 17. Comparison of convergence time under WAR, LEO96/LEO144, and combined WAR & LEO96/\nLEO144 augmentation schemes.\nTo quantitatively evaluate the performance of the different enhancement strategies, Figs. 16 and 17 present\nstatistics on the average positioning accuracy over 1-h arcs and the average time required for each scheme to\nreach predefined convergence thresholds (e.g., 15 cm horizontally and 30 cm vertically). The results sho",
+    "char_length": 2899
+  },
+  {
+    "quote_id": "qb_3f04840692",
+    "span_index": 17,
+    "text": "www.nature.com/scientificreports/\nFig. 18. Comparison of Ratio values for PPP-B2b EWL/WL ambiguity resolution with LEO144 augmentation.\nFirst, the LEO observations were simulated without accounting for satellite-specific antenna phase center offsets\nand variations (PCO/PCV), which, in a real system, would introduce unmodeled ranging errors and could affect\nambiguity resolution reliability. Second, the LEO satellite clock errors were simulated by recycling high-quality\nGPS precise clock products. In reality, the stability and the precision of real-time orbit and clock determination\nfor LEO sate",
+    "char_length": 5009
+  },
+  {
+    "quote_id": "qb_22e3aa5c8d",
+    "span_index": 18,
+    "text": "www.nature.com/scientificreports/\nData availability\nThe high-rate data from the Asia–Pacific regional reference station network utilized in this study are available\nfrom the CDDIS public repository at the following URL: https://cddis.nasa.gov/archive/gnss/data/highrate/ ( a c\nc e s s e d on 30 October 2025).\nReceived: 2 November 2025; Accepted: 24 December 2025\nReferences\n1. Yang, Y., Gao, W., Guo, S., Mao, Y. & Yang, Y. Introduction to BeiDou-3 navigation satellite system [J]. Navigation 66(1), 7–18\n(2019).\n2. Mahato, S., Dutta, D., Santra, A., Kundu, S., Bose, A. BeiDou position solution fro",
+    "char_length": 6889
+  },
+  {
+    "quote_id": "qb_3c49d93a28",
+    "span_index": 19,
+    "text": "www.nature.com/scientificreports/\n40. Xu, S. et al. Multi-GNSS precise point positioning enhanced by the real navigation signals from CENTISPACETM LEO mission.\nAdv. Space Res. 73(8), 4175–4186 (2024).\n41. CSNO BeiDou Navigation Satellite System Signal in Space Interface Control Document Precise Point Positioning Service Signal\nPPP-B2b. Version 1.0. Available online: h t t p :/ / w w w . b e id o u . g o v .c n / x t / g f x z / 2 0 2 0 0 8/ P 0 2 0 2 0 0 8 0 3 3 6 2 0 6 2 4 82 9 4 0 . p d f (accessed on 30\nOctober 2025).\n42. Guo, F., Zhang, X., Wang, J. & Ren, X. Modeling and assessment of tri",
+    "char_length": 4592
+  }
+]

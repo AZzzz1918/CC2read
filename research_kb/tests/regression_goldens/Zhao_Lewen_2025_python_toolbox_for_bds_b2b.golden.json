@@ -1,0 +1,9 @@
+{
+  "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+  "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+  "expected_epoch_status": "NOT_MENTIONED",
+  "expected_dcb_status": "NOT_MENTIONED",
+  "expected_gate_status": "PASS",
+  "must_not_have_wrong_support": true,
+  "must_have_reproduction_blockers": true
+}

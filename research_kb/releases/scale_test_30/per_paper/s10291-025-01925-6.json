@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The text directly evaluates the quality of BDS-3 PPP-B2b precise corrections and positioning performance, making it a core service performance paper.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-025-01925-6.pdf",
+  "paper_id": "s10291-025-01925-6",
+  "extraction_mode": "batch_classify_1call"
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "quote_id": "qb_0c8cf0673c",
+    "span_index": 0,
+    "text": "Article\nDifferences in Time Comparison and Positioning of BDS-3\nPPP-B2b Signal Broadcast Through GEO\nHongjiaoMa1,2,JinmingYang1,3,XiaolongGuan1,3,JianfengWu1,2andHuabingWu1,2,*\n1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China;mahj@ntsc.ac.cn(H.M.);\nyangjinming@ntsc.ac.cn(J.Y.);guanxl@ntsc.ac.cn(X.G.);wujianf@ntsc.ac.cn(J.W.)\n2 KeyLaboratoryofTimeReferenceandApplications,ChineseAcademyofSciences,Xi’an710600,China\n3 UniversityofChineseAcademyofSciences,Beijing100049,China\n* Correspondence:whb@ntsc.ac.cn\nAbstract\nThe BeiDou-3 Navigation Satellite System (BDS-3) precise point",
+    "char_length": 3506
+  },
+  {
+    "quote_id": "qb_311201b1da",
+    "span_index": 1,
+    "text": "RemoteSens.2025,17,2351 2of21\n97.5%and91.5%ofBDS-3andGPS,respectively,intheAsia–Pacificregion[17]. Sunetal.\nanalyzed the performance of BDS-3 in terms of correction availability, clock and orbit\nqualityandpositioningaccuracywithPPP-B2bmessages[18].InRenetal.,real-timeprecise\nephemeridesarecomparedagainstMulti-GNSSExperiment(MGEX)finalproductsandthe\npositioningperformanceofreal-timePPPisevaluatedwithMGEX/iGMASstations[19].\nZhang et al. proposed a stable PPP-B2b information matching strategy with broadcast\nephemeris [20]. Nie et al. used IGS stations in the Asia–Pacific region to verify the\ncent",
+    "char_length": 3198
+  },
+  {
+    "quote_id": "qb_cfe57b60cd",
+    "span_index": 2,
+    "text": "RemoteSens.2025,17,2351 3of21\n2.2.2. SatelliteOrbitAccuracyAnalysis\nUsing the GBM precision orbit as a reference, five BDS-3 satellites and five GPS\nsatellites were employed to evaluate the orbit accuracy of PPP-B2b recovery satellites.\nFigures1–3illustratetheradial, tangential, andnormalerrorsoftheCNAV1broadcast\nephemerissatelliteorbitandthePPP-B2bcorrectedsatelliteorbitafterC59/C61broadcast,\nrespectively. Figures4–6depicttheuncorrectedLNAVbroadcastephemerisandtheresults\naftertwotypesofcorrections.\nFigure1.OrbiterrorsofCNAV1.\nFigure2.OrbiterrorsofBDS-3afterC59_PPP-B2bcorrection.",
+    "char_length": 586
+  },
+  {
+    "quote_id": "qb_6945ec6ec2",
+    "span_index": 3,
+    "text": "RemoteSens.2025,17,2351 4of21\nFigure3.OrbiterrorsofBDS-3afterC61_PPP-B2bcorrection.\nFigure4.OrbiterrorsofLNAV.\nFigures1and4depicttheorbiterrorswithoutPPP-B2bcorrection. Itisevidentfrom\nthefiguresthattheorbiterrorsequenceexperiencesdiscontinuitieseveryhour,whichis\nattributedtothehourlyupdateofthebroadcastephemeris. Figures1,2,4and5exhibit\nthe orbit error curves after PPP-B2b correction, which are smoother compared to the\nuncorrectederrorcurves. ThissuggeststhatbothPPP-B2bbroadcastedbyC59andC61\nhavecorrectedthehourlydiscontinuityoftheorbitintheCNAV1broadcastephemeris.",
+    "char_length": 572
+  },
+  {
+    "quote_id": "qb_64997333da",
+    "span_index": 4,
+    "text": "RemoteSens.2025,17,2351 5of21\nFigure5.OrbiterrorsofGPSafterC59_PPP-B2bcorrection.\nFigure6.OrbiterrorsofGPSafterC61_PPP-B2bcorrection.\nThe variation amplitudes of the orbit error sequence of BDS-3 satellites in radial,\ntangential,andnormalcomponentsarewithin0.3,0.4,and0.4m,respectively. Theorbital\nerrorsequenceofGPSsatellitesvarieswithin0.4, 0.6, and0.8minthethreedirections,\nrespectively. Regardingthemagnitudeofchangesbeforeandaftercorrection,thePPP-B2b\nbroadcastbythetwoGEOsatellitesdidnotsignificantlycorrecttheorbitalerrors,indicating\nthatPPP-B2bprimarilycorrectsthehourlydiscontinuityofsatelli",
+    "char_length": 773
+  },
+  {
+    "quote_id": "qb_7a4eb85d56",
+    "span_index": 5,
+    "text": "RemoteSens.2025,17,2351 6of21\nphenomenondoesnotoccuratthesamepositioninFigure2. Hence,thecorrectioneffect\nofC59ismarginallysuperiortothatofC61.\nForGPSsatellites,bothtypesofcorrectioninformationaddressthehourlydisconti-\nnuityintheirorbits. However,asevidentfromthefigure,C59’scorrectionprovestobe\nmarginallysuperiortoC61’s. WhileC61’scorrectionstillleavesaslightorbitdiscontinuity\nintheerror,C59’scorrectioneffectivelyeliminatesthisissue. Nevertheless,whencompared\ntoBDS-3satellites,theerrorvariationafterPPP-B2bcorrectionisnotablysmaller,thereby\nenhancingtheaccuracyofGPSsatelliteorbits.\nTofurtherass",
+    "char_length": 2562
+  },
+  {
+    "quote_id": "qb_5ce43bfbe4",
+    "span_index": 6,
+    "text": "RemoteSens.2025,17,2351 7of21\n2.3.2. AnalysisofSatelliteClockErrorAccuracy\nUsingGBMprecisionclockbiasasareference,weevaluatedtheaccuracyofPPP-B2b\nrecovered satellite clock bias for five BDS-3 satellites and five GPS satellites. Figure 7\ndepictstheclockerrorcurveoftheBDS-3satellitebeforeandaftercorrectionon22March\n2024. FortheBDS-3satellite,theclockbiaserrorcorrectedbyPPP-B2bbroadcastedbyC59\nandC61fluctuateswithin1ns,whereasthevariationrangeofsatelliteclockbiasinthe\nCNAV1broadcastephemerisiswithin3ns. Simultaneously,thehourlydiscontinuityin\nthebroadcastephemerisisalsoeliminatedbyPPP-B2b. Fromth",
+    "char_length": 1889
+  },
+  {
+    "quote_id": "qb_033ef13dd9",
+    "span_index": 7,
+    "text": "RemoteSens.2025,17,2351 8of21\nFigure8.CorrectedGPSclockbiaserrorsforLNAV(Topper)andC59_PPP-B2b(Middle)C61_PPP-\nB2b(Lower).\nTo visually illustrate the difference in satellite clock bias before and after PPP-B2b\ncorrection,Table2presentstheclockbiasSTDobtainedfrombroadcastmessagesandPPP-\nB2bforbothBDS-3andGPSsystemsoveraspanof7daysfrom22Marchto28March2024.\nThetablerevealsthattheaccuracyofsatelliteclockbiasforBeidou-3satelliteshasnotably\nimprovedafterPPP-B2bcorrection,withtheC59satelliteexhibitingasuperiorcorrection\neffect. However,PPP-B2bdidnotenhancetheclockbiasaccuracyofGPSsatellites,and\ntheco",
+    "char_length": 1364
+  },
+  {
+    "quote_id": "qb_93c878eb3d",
+    "span_index": 8,
+    "text": "RemoteSens.2025,17,2351 9of21\nC19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C29 C30 C32 C33 C34 C35 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45 C46\n30\n20\n10\n0\n-10\n-20\n-30\n-40\n-50\n)sn(BCD\nCAS B3I-B1C(P)\nPPP-B2b B3I-B1C(P)\nSatellite ID\nFigure9.CodebiasbetweenB1C(P)andB3I.\nC19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C29 C30 C32 C33 C34 C35 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45 C46\n30\n20\n10\n0\n-10\n-20\n-30\n-40\n-50\n)sn(BCD\nCAS B3I-B1I\nPPP-B2b B3I-B1I\nSatellite ID\nFigure10.CodebiasbetweenB1IandB3I.\nFrom the two figures, it is evident that the code deviations of PPP-B2b and CAS\nexhibitconsistency,withminimalsystem",
+    "char_length": 1693
+  },
+  {
+    "quote_id": "qb_23110e08cf",
+    "span_index": 9,
+    "text": "RemoteSens.2025,17,2351 10of21\nNTSClaboratory. BothXIA6andSE22areconnectedtothelocalUTC(NTSC),whileJLJIis\nexternallyconnectedtoalocalhydrogenclock.\nTable3.StationinformationofPPP-B2btimetransfer.\nStationName StationCategory ReceiverModel AntennaModel ExternalClock\nXIA6 NTSC SeptPolarx5TR SEPCHOKE_B3E6 UTC(NTSC)\nSE22 NTSC SeptPolarx5TR SEPCHOKE_B3E6 UTC(NTSC)\nJLJI NTSC TRIMBLEALLOY SEPCHOKE_B3E6 H-Maser\nThe experimental design initially employs the BDS-3 + GPS dual system for zero-\nbaselinetimecomparison,aimingtovalidatetheaccuracyofthePPP-B2btimecomparison\nmethodintroducedintheprecedingtext. S",
+    "char_length": 2810
+  },
+  {
+    "quote_id": "qb_0f8d1862cb",
+    "span_index": 10,
+    "text": "RemoteSens.2025,17,2351 11of21\nthePPP-B2bdual-frequencyionosphere-freecombinedzero-baselineclocktimecompari-\nsonresultsbetweenthetworeceivers. Furthermore,Figure11revealsthatC61_PPP-B2b\nexhibitspooreravailabilitycomparedtoC59_PPP-B2bduringthefinaltimeperiod,which\nsubsequentlyresultsinslightlyinferiorperformanceinitszero-baselinetimetransferSTD.\n-23\n-24\n-25\n-26\n-27\n-28\n-29\n82 83 84 85 86 87 88 89\n)sn(ecnereffiD\nkcolC\nC59_PPP-B2b\nC61_PPP-B2b\nDoy\nFigure11.BDS-3+GPSPPP-B2bzero-baselinetimetransfer.\nFigure12illustratesthecorrectedAllanvariancesforC59_PPP-B2bandC61_PPP-B2b\nduringzero-baselinetimetra",
+    "char_length": 1487
+  },
+  {
+    "quote_id": "qb_cee8abbe0a",
+    "span_index": 11,
+    "text": "RemoteSens.2025,17,2351 12of21\nEvidentlyfromFigure13,thereisminimalsystematicdeviationbetweenthePPP-B2bdual-\nsystemdual-frequencyionosphere-freecombinationandtheGBMdual-systemionosphere-\nfreecombination. SubtractingtheseresultsallowsforaclearerobservationofthePPP-B2b\ntimecomparisonresiduals. Figure14presentstheobtainedtimedifferencecurve,where\nthetimedifferencefluctuationsremainbelow2ns,andtheSTDofthetimecomparison\nandreferencevaluedifferencestandsat0.544ns.\n494,850\n494,800\n494,750\n494,700\n494,650\n82 83 84 85 86 87 88 89\n)sn(ecnereffiD\nkcolC\nBDS-3+GPS GBM\nBDS-3+GPS C59_PPP-B2b\nDoy\nFigure13.BDS",
+    "char_length": 2197
+  },
+  {
+    "quote_id": "qb_e746bdf2b7",
+    "span_index": 12,
+    "text": "RemoteSens.2025,17,2351 13of21\nFigure15.BDS-3+GPScombinationperformsXIA6-JLJItimetransferMDEV(C59_PPP-B2b).\n494,850\n494,800\n494,750\n494,700\n494,650\n82 83 84 85 86 87 88 89\n)sn(ecnereffiD\nkcolC\nBDS-3+GPS GBM\nBDS-3+GPS C61_PPP-B2b\nDoy\nFigure16.BDS-3+GPScombinationperformsXIA6-JLJItimetransfersequence(C61_PPP-B2b).\n8\n4\n0\n-4\n-8\n82 83 84 85 86 87 88 89\n)sn(ecnereffiD\nkcolC\nC61_PPP-B2b and GBM time transfer results difference\nDoy\nFigure17.BDS-3+GPScombinationperformsXIA6-JLJItimetransferresidualsequence(C61_PPP-B2b).\nThe two curves in Figure 18 depict the corrected Allan variance of the receiver\nclo",
+    "char_length": 902
+  },
+  {
+    "quote_id": "qb_64cf20d8f1",
+    "span_index": 13,
+    "text": "RemoteSens.2025,17,2351 14of21\ndemonstratesahigherstabilityratethanGBM.At10,000s,thestabilitydifferencebetween\nthetwocurvesismerely0.2×10−15. Specifically,thestabilityofC61_PPP-B2binXIA6\nandJLJIreached1.99×10−15ata10,000stimeratio,surpassingthestabilityachievedby\nC59_PPP-B2atthesameduration.\nFigure18.BDS-3+GPScombinationperformsXIA6-JLJItimetransferMDEV(C61_PPP-B2b).\n3.2.3. ComparisonofTimeTransferLinks\nTheBDS-3+GPScombinationwasutilizedtoinvestigatetheaccuracyoftimecompar-\nisonbetweenC59_PPP-B2bandC61_PPP-B2b. Table5outlinestwoperformanceindicators,\nSTD and modified Allan variance, pertaining",
+    "char_length": 1781
+  },
+  {
+    "quote_id": "qb_fb04f2f4f6",
+    "span_index": 14,
+    "text": "RemoteSens.2025,17,2351 15of21\nextended Kalman filtering and least squares estimation are utilized for parameter esti-\nmation. This recursive filtering algorithm estimates the system state, updates it based\nonmeasurementdata,andcorrectserrors. StaticPPP-B2bpositioningcalculationswere\nconductedonadailybasisusingexperimentaldata. Sinceprecisesingle-pointpositioning\nmethods require a certain convergence time, the solution results corresponding to this\nconvergencetimewereexcludedfromthedailydatausedforpositioning.\nTable6.StationinformationforPPP-B2bpositioningresearch.\nStationName StationCategory ",
+    "char_length": 1801
+  },
+  {
+    "quote_id": "qb_9728e79a5d",
+    "span_index": 15,
+    "text": "RemoteSens.2025,17,2351 16of21\n4.2.1. BDS-3PPP-B2bStaticPositioning\nTakingtheGAMGstationon22March2024asanexample,Figures20and21demon-\nstrate the static positioning results in the east/north/up (E/N/U) direction over time.\nStation coordinates for GAMG were computed utilizing IGS weekly solution products.\nFrom top to bottom, the E/N/U direction error sequences represent the positioning of\nPPP-B2bbroadcastedbytheC59satelliteandtheC59satellite,respectively. Toprovidea\nmoreintuitiveviewoftheconvergedpositioningeffect,thehalf-hourconvergenceprocess\nhasbeenomittedfromtheimages. ThecalculatedRMSerrors",
+    "char_length": 1006
+  },
+  {
+    "quote_id": "qb_3a42be6cea",
+    "span_index": 16,
+    "text": "RemoteSens.2025,17,2351 17of21\nFigure22illustratesthetime-varyingchangesinthenumberofvisiblesatellitesand\nthepositioningdilutionofprecision(PDOP)duringBDS-3PPP-B2bpositioningconducted\nbytheGAMGstationon22March2024. Theaveragenumberofvisiblesatellitesforprecise\nsingle-pointpositioningcalculationsstandsatapproximately8. ThePDOPservesasan\nindicatorofthegeometricdistributionofsatellitesinvolvedinthesecalculations. Typically,\nalowerPDOPsignifieshigherpositioningaccuracy. Notably,therearefourtimepoints\nthroughoutthedaywherePDOPexperiencessignificantfluctuations,accompaniedbya\ndecreaseinthenumberofvi",
+    "char_length": 1891
+  },
+  {
+    "quote_id": "qb_a1b59e64a7",
+    "span_index": 17,
+    "text": "RemoteSens.2025,17,2351 18of21\nThe average RMS values of the static positioning errors in the E/N/U directions\nfortheBeidou-3systemC59_PPP-B2bare2.49/1.84/5.02cm,respectively. Similarly,the\naverage RMS values for C59_PPP-B2b in the E/N/U directions are 2.54/1.96/5.12 cm,\nrespectively.BothC59_PPP-B2bandC61_PPP-B2barecapableofachievingcentimeter-level\nstaticpositioningaccuracy. Basedonthepositioningresultsoverthese7days,C59_PPP-\nB2b demonstrates slightly superior positioning accuracy in all directions compared to\nC61_PPP-B2b.\n4.2.2. BDS-3PPP-B2bKinematicPositioning\nPPP-B2bkinematicpositioningisa",
+    "char_length": 2186
+  },
+  {
+    "quote_id": "qb_e0e2044bbc",
+    "span_index": 18,
+    "text": "RemoteSens.2025,17,2351 19of21\nFigure24.GAMGstationC61_PPP-B2bkinematicpositioningresults.\nTable9presentstheaverageRMSerrorvaluesforthedynamicsingleBeiDouPPP-\nB2b E/N/U directions across five IGS stations over a span of 7 days from 22 March to\n28March2024. InTable9,theRMSerrorsofkinematicpositioningforC59_PPP-B2band\nC61_PPP-B2bintheEandNdirectionsprimarilyfallbetween5cmand15cm. Conversely,\ntheRMSerrorsintheUdirectionarepredominantlybetween15cmand25cm,indicating\naslightinferioritycomparedtothepositioningerrorsintheEandNdirections.\nTable9.BDS-3KinematicpositioningerrorRMS.\nC59_PPP-B2b C61_PPP-B2",
+    "char_length": 1806
+  },
+  {
+    "quote_id": "qb_d67665f910",
+    "span_index": 19,
+    "text": "RemoteSens.2025,17,2351 20of21\ncorrectionefficacyofC59broadcastPPP-B2bonsatelliteorbitsandclockerrorssurpasses\nthatofC61.\nIn terms of PPP-B2b time comparison, the zero-baseline time comparison results\nfluctuatewithinarangeof0.5ns,withSTDbetterthan0.1ns,andafrequencystability\nof 100,000 s exceeding 4 × 10−16. In long-baseline time comparisons, using the time\ncomparisonresultsofGBMproductsasareference,theresidualsforC59_PPP-B2btime\ncomparisons fluctuate within 2 ns, achieving a frequency stability of 3.87 × 10−15 over\n100,000s. Similarly,theresidualsforC61_PPP-B2btimecomparisonsalsofluctuatewith",
+    "char_length": 3653
+  },
+  {
+    "quote_id": "qb_5799fff738",
+    "span_index": 20,
+    "text": "RemoteSens.2025,17,2351 21of21\n7. CSNO.BeiDouNavigationSatelliteSystemSignalInSpaceInterfaceControlDocumentPrecisePointPositioningServiceSignal\nPPP-B2b(Version1.0),ChinaSatelliteNavigationOffice:Beijing,China,July2020.Availableonline:http://www.beidou.gov.cn/\nxt/gfxz/202008/P020230516574071340728.pdf(accessedon6July2025).\n8. Tu,R.;Zhang,P.;Zhang,R.;Liu,J.;Lu,X.ModelingandperformanceanalysisofprecisetimetransferbasedonBDStriple-\nfrequencyun-combinedobservations.J.Geod.2019,93,837–847.[CrossRef]\n9. Yang,H.;Ren,X.;Liu,M.;Zhang,X.Dual-frequencytofive-frequencyreal-timeprecisepointpositioningusingn",
+    "char_length": 4616
+  }
+]

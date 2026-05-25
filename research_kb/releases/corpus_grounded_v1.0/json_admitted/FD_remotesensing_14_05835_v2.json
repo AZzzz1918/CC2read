@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_remotesensing_14_05835_v2",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Evaluation of BDS-3 B1C/B2b Single/Dual-Frequency PPP Using PPP-B2b and RTS SSR Products in Both Static and Dynamic Applications"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Evaluation of BDS-3 B1C/B2b Single/Dual-Frequency PPP Using PPP-B2b and RTS SSR Products in Both Static and Dynamic Applications RuohuaLan,ChengYang* ,YanliZheng,QiaozhuangXu,JieLvandZhouzhengGao SchoolofLandScienceandTechnology,ChinaUniversityofGeosciencesBeijing,Beijing100083,China * Correspondence:c.yang@connect.polyu.hk;Tel.:+86-157-1284-7511 Abstract: ",
+      "Furthermore,theaccuraciesofbroadcastephemerisandIGSultra-rapidproductsarestudied,aswell astheirimpactonPPPaccuracies.ResultsillustratethattheorbitsaccuraciesofPPP-B2borbitsare 9.42cm,21.26cm,and28.65cmintheradial,along-track,andcross-trackcomponents,whichare slightlylowerthanthoseofreal-timeorbitsprovidedbythefourIGScenters.However,theaccuracy ofPPP-B2bclockbiasesis0.18ns,whichishigherthanthosepro"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 29
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 23,
+    "b2b": 180,
+    "has": 0,
+    "dcb": 29,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

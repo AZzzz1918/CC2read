@@ -1,0 +1,35 @@
+version: v0.2
+timeline:
+- year: 2020
+  milestone: BDS-3 PPP-B2b service initiated
+  papers: []
+- year: 2021
+  milestone: Initial PPP-B2b assessments
+  papers:
+  - Nie_2021_initial_assessment_bds_ppp_b2b_service
+  - Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+- year: 2022
+  milestone: Comprehensive PPP-B2b evaluation & system principle
+  papers:
+  - Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+  - Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+  - Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b
+- year: 2023
+  milestone: Multi-frequency, kinematic & Galileo HAS studies
+  papers:
+  - Zhou_2023_multifrequency_bds3_rt_ppp_b2b
+  - Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf
+  - Borio_2023_ghasp_galileo_has_parser
+  - Taro_Suzuki_2023_qzss_clas_l6_evaluation
+- year: 2024
+  milestone: 'Downstream applications: earthquake, ZTD, time transfer, mixed products'
+  papers:
+  - Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+  - Wang_2024_ppp_b2b_coverage_ztd_positioning
+  - Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+  - Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+- year: 2025
+  milestone: Operational tools & practical applications
+  papers:
+  - Zhao_Lewen_2025_python_toolbox_for_bds_b2b
+  - Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo

@@ -1,0 +1,32 @@
+# Duplicate Groups — Papers with multiple file representations
+
+duplicate_groups:
+  - group_id: DUP-001
+    primary: "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf"
+    duplicates:
+      - "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf (special char variant)"
+    resolution: "admitted in v0.3"
+
+  - group_id: DUP-002
+    primary: "1-s2.0-S026322412601448X-main.pdf"
+    duplicates:
+      - "1-s2.0-S026322412601448X-main (1).pdf"
+    resolution: "processed in v0.4 Wave 3, (1) copy excluded"
+
+  - group_id: DUP-003
+    primary: "s10291-023-01532-3.pdf"
+    duplicates:
+      - "2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf"
+    resolution: "admitted in v0.3 as Peida_Wu_2023"
+
+  - group_id: DUP-004
+    primary: "s43020-022-00066-2.pdf"
+    duplicates:
+      - "2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf"
+    resolution: "admitted in v0.3 as Yangyuanxi_2022"
+
+  - group_id: DUP-005
+    primary: "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.pdf"
+    duplicates:
+      - "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.caj"
+    resolution: "PDF admitted in v0.3, CAJ excluded (format not supported)"

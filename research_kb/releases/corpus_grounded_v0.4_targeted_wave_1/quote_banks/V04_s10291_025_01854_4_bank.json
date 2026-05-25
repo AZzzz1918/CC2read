@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_dca156ee1f",
+    "span_index": 0,
+    "text": "GPS Solutions (2025) 29:124\nhttps://doi.org/10.1007/s10291-025-01854-4\nRESEARCH\nPPP‑B2b‑RTK: a PPP‑B2b augmentation method by using the SSR\ncorrections from a single reference station\nLeitong Yuan1 · Bofeng Li1 · Weikai Miao1 · Haibo Ge1 · Zhilu Wu1\nReceived: 11 July 2024 / Accepted: 31 March 2025 / Published online: 2 June 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nAbstract\nThe PPP-B2b service provided by the BeiDou global navigation satellite system (BDS-3) is regarded as a convenient approach\nfor real-time precise point positi",
+    "char_length": 4287
+  },
+  {
+    "quote_id": "qb_3fb8a4bbf0",
+    "span_index": 1,
+    "text": "124 Page 2 of 16 GPS Solutions (2025) 29:124\nthat of RTS provided by the Centre National d’Etudes Spa- this model, different S-basis is applied and the satellite clock\ntiales (CNES), and the PPP-B2b service is capable of offer- is aligned with the IGS convention. This raises the question\ning the effective positioning assistance only to users in the of whether the PPP-B2b service is compatible with the sin-\nAsian-Pacific region (Tao et al. 2021). When using the PPP- gle-station PPP-RTK scheme. Taking the significant differ-\nB2b service, critical factors should be carefully handled, ences betwee",
+    "char_length": 5782
+  },
+  {
+    "quote_id": "qb_0a228cba47",
+    "span_index": 2,
+    "text": "GPS Solutions (2025) 29:124 Page 3 of 16 124\nUDUC PPP model with PPP‑B2b products P =P− e ⊗𝚲⊗I ds +ds\nI 2 n ref (3)\n( )\nT\nThe raw GNSS code and phase observation equations read where P= Ps 1 T ,C ,Ps 1 T ,G ,Ps 2 T ,C ,Ps 2 T ,G and P I denote the dual-\n[ ]\nPs j,r =𝜌s r +T r s+𝜇 j 𝜄s j +dt r −dts+D j,r −d j s+𝜀 Ps j,r (1a) frequency code observation vectors befor T e and after correct-\ning, respectively. Ps j,k = P1 j,k ,…,Pn j,k represents code\nΦs j,r =𝜌s r +T r s−𝜇 j 𝜄s j +dt r −dts+B j,r −bs j −𝜆 j as j,r +𝜀 Φs j,r observations on freq [ T uency j ] and system k .\n(1b) ds = ds 1 T ,C ,ds 1 ",
+    "char_length": 4639
+  },
+  {
+    "quote_id": "qb_0c6300a4d6",
+    "span_index": 3,
+    "text": "124 Page 4 of 16 GPS Solutions (2025) 29:124\nwhere d̃t r = d̃t r,C ,d̃t r,G T is the estimated receiver clock. Table 1 PPP-B2b information\n𝛼 0 [ 𝛽 0 ] Message content Message type Update interval Nominal validity\nM = [ 0 C 𝛼 G 0 C 𝛽 G ] captures the coefficient matrix for Satellite mask 1 48 s –\nsystem-specific receiver code biases. 𝛼 k =𝜆2 k,2 ∕ 𝜆2 k,2 −𝜆2 k,1 Orbit corrections 2,6,7 48 s 96 s\n( )\nDCB corrections 3 48 s 86,400 s\nand 𝛽 k =−𝜆2 k,1 ∕ 𝜆2 k,2 −𝜆2 k,1 are the factors for the dual- Clock corrections 4,6,7 6 s 12 s\n( )\nfrequency of different systems that are distinguished by sub- Use",
+    "char_length": 4039
+  },
+  {
+    "quote_id": "qb_8c528f906c",
+    "span_index": 4,
+    "text": "GPS Solutions (2025) 29:124 Page 5 of 16 124\nFig. 1 The time series of PPP-\nB2b orbit corrections for BDS-3\n(left) and GPS (right) satellites\non August 1st, 2020\nFig. 2 The time series of\nPPP-B2b clock corrections for\nBDS-3 (left) and GPS (right)\nsatellites on August 1st, 2020\nmanifested that corrections in radial are much smaller than The PPP-B2b clock corrections in meters along with\nthose in along-track and cross-track directions. Moreover, IODP and IOD Cor information are broadcast in message\nthe seemingly irregular jumps existing in orbit corrections type 4. As shown in Fig. 2, the clock ",
+    "char_length": 1376
+  },
+  {
+    "quote_id": "qb_6da48f119a",
+    "span_index": 5,
+    "text": "124 Page 6 of 16 GPS Solutions (2025) 29:124\nFig. 3 PPP-B2b service avail-\nability for BDS-3 (left) and GPS\n(right) during DOY 214–218,\n2020\n(4) DCB correction\nThe DCB in message type 3 defines the code biases of\ncode observations between the ranging signal and the refer-\nence signal. From decoded PPP-B2b messages, DCB correc-\ntions for only BDS-3 satellites are provided whereas others\nare not. Since the B3I signal is taken as the reference signal,\nseveral DCBs including B1I-B3I, B1C-B3I, B2a-B3I, and\nB2b-B3I are available to users. Furthermore, it is noted that\nthe DCB corrections of a signal",
+    "char_length": 2714
+  },
+  {
+    "quote_id": "qb_18a0f4ebe5",
+    "span_index": 6,
+    "text": "GPS Solutions (2025) 29:124 Page 7 of 16 124\nTable 2 SSR corrections generated at a reference station corrections. The interpretations of other parameters are the\nsame as (7). For the sake of fast ambiguity resolution, atmos-\nCorrection Notation and interpretation\npheric corrections are utilized to form virtual observations.\nIonospheric delay ̃𝜄 B =𝜄 B +𝛽 D 1 −D 2 However, in the single-station case, the geospatial corre-\nTropospheric delay 𝜏 B ( ) lation of ionospheric and tropospheric delays can decline\nPhase bias N pb =ã−Round(ã) dramatically as the baseline length increases. To mitigate\n",
+    "char_length": 4092
+  },
+  {
+    "quote_id": "qb_64dc59ec41",
+    "span_index": 7,
+    "text": "124 Page 8 of 16 GPS Solutions (2025) 29:124\nFig. 5 Flowchart of single-\nstation PPP-B2b-RTK\nto recover the ambiguity integer property. The most qualified phase bias products are derived from a simple rounding\nsatellite of each system is chosen as the reference satellite. operation, the AR performance is ensured due to the use of\nThus, the integer ambiguity is given as self-consistent corrections. Specifically, it is the high cor-\nrelation that makes the individual corrections efficient in\nasv =asv −asv +Round ãsv\nj,UB j,U j,B j,B (16) achieving excellent user performance. The overall flowcha",
+    "char_length": 1452
+  },
+  {
+    "quote_id": "qb_4c0312286b",
+    "span_index": 8,
+    "text": "GPS Solutions (2025) 29:124 Page 9 of 16 124\nTable 3 Processing strategies with PPP-B2b service\nItems Strategies\nSystems BDS-3 and GPS\nObservations BDS-3: B1I and B3I raw observations\nGPS: L1 and L2 raw observations\n◦\nCut-off elevation 10\nSatellite orbit and clock Derived from CNAV1 and LNAV and corrected by PPP-B2b products during DOY 214–244, 2020\nObservation weighting Elevation-dependent (Li 2016)\nPCO/PCV Corrected with igs14.atx\nSolid tide IERS Conventions 2010 (Petit and Luzum 2010)\nOcean loading IERS Conventions 2010 (Petit and Luzum 2010)\nPole tide IERS Conventions 2010 (Petit and Luzum",
+    "char_length": 3374
+  },
+  {
+    "quote_id": "qb_1b1e18360f",
+    "span_index": 9,
+    "text": "124 Page 10 of 16 GPS Solutions (2025) 29:124\nFig. 7 The PPP-B2b position-\ning errors in east, north, and\nup directions and PDOP values\nof BJF1, SHA1, and CUSV on\nDOY 214, 2020\nin most instances. Nevertheless, the positioning performance\nwill be severely affected by the absence of observations and\nunavailable PPP-B2b products. Thus for POL2 and GUA1\nstations, the BDS-only solutions are worse but explicable.\nFor BDS and GPS dual-systems users, positioning accuracy\nof better than 4.8, 3.2, and 8.9 cm in E, N, and U direc-\ntions is obtained with abundant observations and favorable\ngeometry.\nIn te",
+    "char_length": 1586
+  },
+  {
+    "quote_id": "qb_026da32796",
+    "span_index": 10,
+    "text": "GPS Solutions (2025) 29:124 Page 11 of 16 124\nFig. 9 Averaged convergence\n(conv.) time of 8 stations with\n31-day G, C, and GC solutions.\nThe convergence thresholds\nvary from 0.1 to 0.5 m for\nhorizontal, while it is double for\nvertical\ncorrections, such as phase bias, ionospheric delays, and\nresidual zenith tropospheric delay, are generated for aug-\nmentation in the meantime. Actually, the corrections can be\nused even before PPP convergence (Lyu and Gao 2022), but\na two-hour operation is conducted at the reference station in\nadvance to ensure the accuracy and stability of SSR correc-\ntions. The",
+    "char_length": 3131
+  },
+  {
+    "quote_id": "qb_87146a8452",
+    "span_index": 11,
+    "text": "124 Page 12 of 16 GPS Solutions (2025) 29:124\nFig. 11 The results of PPP and\nsingle-station PPP-B2b-RTK in\nkinematic mode on 16 August\n2020 at TJJD station. Solutions\nof the first hour are depicted on\nthe right. Used satellite count\nand fixed satellite count in\nsingle-station PPP-B2b-RTK\nare shown at the bottom\nFig. 12 The results of PPP\nand single-station PPP-B2b-\nRTK in kinematic mode on\n14 November 2023 at TJLG\nstation. Solutions of the first\nhour are depicted on the right.\nUsed satellite count and fixed\nsatellite count in single-station\nPPP-B2b-RTK are shown at the\nbottom",
+    "char_length": 582
+  },
+  {
+    "quote_id": "qb_745cc52e8c",
+    "span_index": 12,
+    "text": "GPS Solutions (2025) 29:124 Page 13 of 16 124\nTable 4 Mean RMSE of PPP\nRover Mean RMSE of PPP (cm) Mean RMSE of single-station PPP-\nand single-station PPP-B2b-\nB2b-RTK (cm)\nRTK at station TJJD and TJLG\nEast North Up East North Up\nTJJD 1.8 1.7 5.3 1.0 0.9 3.1\nTJLG 2.6 1.5 5.0 1.1 1.1 3.6\nFig. 14 Positioning errors of single-station PPP-B2b-RTK with reini-\ntializing every hour at rover station JFNG\nTable 6 Mean convergence time and Mean RMSE of single-station\nPPP-B2b-RTK at station JFNG\nRover Mean conv. time (s) Mean RMSE of single-sta-\ntion PPP-B2b-RTK (cm)\nEast North Up\nFig. 13 Positioning err",
+    "char_length": 2879
+  },
+  {
+    "quote_id": "qb_4dea0a829b",
+    "span_index": 13,
+    "text": "124 Page 14 of 16 GPS Solutions (2025) 29:124\nFor a simple demonstration, a set of 12-h data is continu- atmosphere. Additionally, the positioning performance\nously resolved with reinitializing the positioning engine is influenced by the latency of corrections, atmospheric\nevery hour. The positioning error in time series and statisti- correlations between different stations, length of base-\ncal results of station JFNG are shown in Fig. 14 and Table 6. line, etc., and further investigation is clearly warranted.\nThe RMSE of fixed solutions are 0.9, 1.0, and 4.7 cm in east,\nnorth, and up directio",
+    "char_length": 5753
+  },
+  {
+    "quote_id": "qb_bd2070fabc",
+    "span_index": 14,
+    "text": "GPS Solutions (2025) 29:124 Page 15 of 16 124\nGe Y, Cao X, Lyu D, He Z, Ye F, Xiao G, Shen F (2023) An investiga- Tao J, Liu J, Hu Z, Zhao Q, Chen G, Ju B (2021) Initial Assessment\ntion of PPP time transfer via BDS-3 PPP-B2b service. GPS Solut of the BDS-3 PPP-B2b RTS compared with the CNES RTS. GPS\n27:61. https://d oi.o rg/1 0.1 007/s 10291-0 23-0 1402-y Solut 25:131. https://d oi.o rg/1 0.1 007/s 10291-0 21-0 1168-1\nGeng J, Meng X, Dodson A, Teferle F (2010) Integer ambiguity Teunissen PJG (1985) Generalized inverses, adjustment, the datum\nresolution in precise point positioning: method comp",
+    "char_length": 6466
+  },
+  {
+    "quote_id": "qb_832400fecc",
+    "span_index": 15,
+    "text": "124 Page 16 of 16 GPS Solutions (2025) 29:124\nBofeng Li obtained his B.Sc. and Haibo Ge received his B.Sc. and\nPh.D. both from Tongji Univer- Ph.D. from Tongji University,\nsity, Shanghai, China. He is now Shanghai, China. He is now an\na professor in Geodesy at Tongji associate professor at Tongji\nUniversity. His research interests University. His research interest\ninclude GNSS ambiguity resolu- is precise orbit determination\ntion and precise positioning, pre- and positioning for LEO-\ncise orbit determination, and enhanced GNS.\nmulti-sensor integrated seamless\npositioning.\nWeikai Miao received ",
+    "char_length": 1230
+  }
+]

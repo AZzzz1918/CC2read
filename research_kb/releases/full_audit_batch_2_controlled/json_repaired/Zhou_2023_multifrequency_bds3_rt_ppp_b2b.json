@@ -1,0 +1,116 @@
+{
+  "paper_id": "Zhou_2023_multifrequency_bds3_rt_ppp_b2b",
+  "extraction_mode": "full",
+  "batch": "Batch 2",
+  "selection_role": "core_ppp_b2b",
+  "extraction_timestamp": "2026-05-22T19:14:35.288264",
+  "bibliographic_info": {
+    "title": "Multi-Frequency BDS-3 Real-Time Positioning Performance Assessment Using New PPP-B2b Augmentation Service",
+    "authors": "Haitao Zhou, Wenju Fu, Lei Wang, Tao Li, Yuan Wu, Ruizhi Chen, Juanjuan Li",
+    "year": 2023,
+    "journal_or_venue": "IEEE Sensors Journal",
+    "doi": "10.1109/JSEN.2022.3231696"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": []
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "description": "Months mentioned: December 2022, January 2023",
+    "dates_found": [],
+    "months_found": [
+      "December 2022",
+      "January 2023"
+    ],
+    "doys_found": [],
+    "grounding_quotes": []
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 34,
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "status": "MENTIONED",
+    "iono_mentions": 2,
+    "grounding_quotes": []
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "stations_found": [
+      "JFNG",
+      "PTGG",
+      "ULAB",
+      "URUM"
+    ],
+    "grounding_quotes": []
+  },
+  "metrics": {},
+  "main_results": {
+    "summary": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "is_ppp_b2b_core_paper": true,
+  "pdf_metadata": {
+    "pages": 9,
+    "b2b_mentions": 78,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 34,
+    "iono_mentions": 2,
+    "dates_found": [],
+    "months_found": [
+      "December 2022",
+      "January 2023"
+    ],
+    "doys_found": [],
+    "periods": [],
+    "stations_found": [
+      "JFNG",
+      "PTGG",
+      "ULAB",
+      "URUM"
+    ],
+    "sampling_rates": [],
+    "elevation_cutoff": []
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "EXPLICITLY_DESCRIBED",
+    "reproduction_blockers_non_empty": true
+  }
+}

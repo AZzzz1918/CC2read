@@ -1,0 +1,58 @@
+{
+  "version": "v0.1",
+  "frozen_at": "2026-05-21T18:20:55.904954",
+  "papers": [
+    {
+      "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+      "source_file": "paper/Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service.pdf",
+      "file_hash": "",
+      "product_source_actual": "BDS3_PPP_B2B_BROADCAST",
+      "novelty_grade": "C_ENGINEERING_TRANSFER",
+      "reproducibility_score": 1,
+      "status": "PASS_WITH_CORRECTION"
+    },
+    {
+      "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+      "source_file": "paper/Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser.pdf",
+      "file_hash": "2db2d7ecd9ae",
+      "product_source_actual": "QZSS_CLAS",
+      "novelty_grade": "U_INSUFFICIENT_EVIDENCE",
+      "reproducibility_score": 0,
+      "status": "PASS_WITH_WEAK_EVIDENCE"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "source_file": "paper/Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp.pdf",
+      "file_hash": "",
+      "product_source_actual": "MIXED_PRODUCTS",
+      "novelty_grade": "U_INSUFFICIENT_EVIDENCE",
+      "reproducibility_score": 0,
+      "status": "PASS_WITH_WEAK_EVIDENCE"
+    }
+  ],
+  "corpus_files": [
+    "citation_graph.json",
+    "dataset_metric_index.yaml",
+    "method_lineage.yaml",
+    "problem_evolution.yaml",
+    "reproduction_index.yaml",
+    "technical_routes.yaml"
+  ],
+  "reports": [
+    "evidence_support_audit.md",
+    "pilot_audit_report.md",
+    "quote_repair_report.md",
+    "semantic_correction_report.md",
+    "three_paper_pilot_report.md",
+    "unresolved_evidence_review.md"
+  ],
+  "checksums": {},
+  "quality_gates": {
+    "invalid_quote_id_rate_max": "0.7% (all 3 papers)",
+    "wrong_support": 0,
+    "semantic_fields_modified": 2,
+    "papers_with_correction": 1,
+    "keyword_overlap_ratio": "60.3% (exceeds 50% threshold)",
+    "manual_review_items": 13
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_dca156ee1f",
+    "span_index": 0,
+    "text": "GPS Solutions (2025) 29:73\nhttps://doi.org/10.1007/s10291-025-01835-7\nRESEARCH\nClock systematic jump estimation and URA refinement of BDS‑3 B2b\nreal‑time precise point positioning service\nJunping Chen1,2 · Ziyuan Song1,3 · Yize Zhang1,2 · Junsheng Ding4 · Xin Jiang3 · Sainan Yang3 · Yangfei Hou3\nReceived: 5 November 2024 / Accepted: 17 February 2025 / Published online: 4 March 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nAbstract\nThe real-time precise point positioning (RT-PPP) service of BDS-3 (PPP-B2b) was launched in July 2021 t",
+    "char_length": 4227
+  },
+  {
+    "quote_id": "qb_0237f7020c",
+    "span_index": 1,
+    "text": "73 Page 2 of 17 GPS Solutions (2025) 29:73\nbegun providing enhanced positioning services since the study. Additionally, the user range accuracy index (URAI) is\ncompletion of the BDS-2 regional service, offering decime- broadcasted along with the orbit correction in the PPP-B2b\nter-level accuracy for users in China and surrounding areas service, yet it has not garnered attention from scholars. Given\n(Zhang et al. 2019; Wang et al. 2020; Chen et al. 2022a). the effectiveness of URAI in observation weighting (Wang,\nHowever, the positioning augmentation message of BDS 2019), evaluating the broadca",
+    "char_length": 4896
+  },
+  {
+    "quote_id": "qb_0a228cba47",
+    "span_index": 2,
+    "text": "GPS Solutions (2025) 29:73 Page 3 of 17 73\nThe B2b orbit corrections are broadcasted in satellite the satellite clock error\ndts\nhas been corrected using the\nIF\ncoordinate system. The conversion formula from the satellite B2b orbit and clock corrections. d trop,r and M r s represent the\ncoordinate system to the earth-centered earth-fixed (ECEF) zenith tropospheric delay and its mapping function, respec-\nframe for B2b orbit corrections is as follows: tively; B IF,r and Bs IF denote the code bias for the receiver\n𝛿Xs = e r ,e a ,e c ⋅𝛿s (2) a p n h d as s e a b te ia ll s i t f e o , r r t e h s ",
+    "char_length": 4149
+  },
+  {
+    "quote_id": "qb_8b71ce6ecd",
+    "span_index": 3,
+    "text": "73 Page 4 of 17 GPS Solutions (2025) 29:73\n“IOD Corr” parameters during the period. Conversely, the\n0.5\n𝜎s =𝜎 ∗𝜑=𝜎 ∗ 0.5+\nnoise Obs Obs ( sin A Ele ) (10) c “I lo O c D k C co o r r r r e ” c s ti w o i n tc s h f e o s r . B It D co S n -3 fi r r m em s a th in e p c r o e n s s e i n s c te e n o t f u s n y t s i t l e t m he -\n𝜎s ( ) 𝜎 atic jump bias exclusively in the B2b GPS clock.\nwhere noise represents the weight of satellite s. Obs denotes\nTo delve deeper into the systematic jump, we analyze\nthe observation noise, usually set as 0.3 m for origin psue-\nB2b clock corrections sequence of",
+    "char_length": 2898
+  },
+  {
+    "quote_id": "qb_8c528f906c",
+    "span_index": 4,
+    "text": "GPS Solutions (2025) 29:73 Page 5 of 17 73\nFig. 2 B2b GPS clock jump 1.5\nbias statistics in three consecu-\ntive days\n1\n0.5\n0\n-0.5\n-1\n-1.5\n0 1 2 3\nTime(Day)\nStrategies to address the GPS clock bias appears significantly smoother compared to the original\none, with the maximum difference reduced to 1.5 m.\nSince the jump bias occurs simultaneously for all GPS sat- Since the jump bias affects all GPS satellites consist-\nellites, it can be detected and corrected to ensure consist- ently, theoretically, it can be absorbed by the ISB param-\nency. For GPS B2b products, there is always one satellite ete",
+    "char_length": 2351
+  },
+  {
+    "quote_id": "qb_a6e1d3edb9",
+    "span_index": 5,
+    "text": "73 Page 6 of 17 GPS Solutions (2025) 29:73\nStart\nSetjumpbiasas0\nLoopsforeach ObtaineachGPS\nSavecurrentepochĎs\nepoch satelliteĎsB2bclock\nclockmessages\ncorrectionsand IODCorr\nFinish Last Thefirstorlast Firstepoch RecordthePRNof\nepoch epoch? referencesatellite\nN\nAddthejumpbiastoeach\nReferencesatellite\nN GPSsatelliteĎsclock\nchanged?\ncorrection\nY\nSkipthis IftheIODCorr\nY Addnewbiastothejump\nsatellite updated?\nbias\nN\nCalculatetheclock jump\nCalculatetheaverage\nbiasbetweencurrent\nLoopsforeach jumpbiasofeachsatellite\nepochandthelastone\nsatellite\nFig. 4 B2b GPS clock bias jump detecting and splicing stra",
+    "char_length": 1556
+  },
+  {
+    "quote_id": "qb_18a0f4ebe5",
+    "span_index": 6,
+    "text": "GPS Solutions (2025) 29:73 Page 7 of 17 73\nFig. 5 GPS satellite (PRN: 342.29\nG19) clock series comparison\nbefore (blue) and after (red)\nbias detection and splicing (top 342.25\npanel). The bottom panel dis-\nplay the difference of two clock\ntime series\n342.21\n342.17\nperformance is significantly weakened compared to the non-\nURA strategy in both kinematic and static modes.\nTo understand the reason for the weakened performance\nwhen using B2b broadcasted URA, further analysis is con-\nducted. As shown in Fig. 6, a large proportion of URA\nvalues are larger than 0.1 m, whereas the pseudorange and\ncarr",
+    "char_length": 2625
+  },
+  {
+    "quote_id": "qb_08f07b850a",
+    "span_index": 7,
+    "text": "73 Page 8 of 17 GPS Solutions (2025) 29:73\nFig. 7 B2b BDS-3 + GPS\npositioning error time series 2\nwith URA weighting strategy\n(left) and non-URA weighting 1.5\nstrategy (right). Station: WUH2,\nday of year (DOY): 318, 2023 1\n0.5\n0\n-0.5\n-1\n-1.5\n-2\n0 6 12 18 24\nTime(h)\nn V s2\nURAs =� i=1 j,r (15)\nj � n\n�∑\n�\ns\nwhere V represents the post residual of satellite s with\nj,r\nphase observation for receiver r in epoch j . n denotes the\ntotal station number in the sight of satellite s.\nFigure 9 illustrates the process of real-time BDS-3 phase\nURA re-estimating based on monitor stations. First, the\nprecise ",
+    "char_length": 2585
+  },
+  {
+    "quote_id": "qb_4c0312286b",
+    "span_index": 8,
+    "text": "GPS Solutions (2025) 29:73 Page 9 of 17 73\nFig. 9 Real-time B2b phase\nURA refinement flowchart\nStart Finish\nLoopsforeach Receivereal-timeB2b\nepoch CorrectionsandGNSS\nCeaseoperations\nmonitorstationsĎ\nobservations\nNextEpoch\nComputethepost-fit\nURAbroadcastedto\nphaseresidualsforeach\nLoopsfor user\nstation\neachsatellite\nN\nFilterURA\nAccumulate20epochs\nandestablishasliding Morethan3Monitor Mark\nwindow stationstriggeredan Y unava-\nalert ilable\nFilterpost-fit\nN\nresiduals\nSatelliteazimuthangle\nN IsURAexceedthe\ngreaterthan15°?\nY\nlimit?\nAbandonthis\nY\nsatellite\nIssatelliteexcluded\nY bypost-fitgross N Comput",
+    "char_length": 2043
+  },
+  {
+    "quote_id": "qb_c1111cf242",
+    "span_index": 9,
+    "text": "73 Page 10 of 17 GPS Solutions (2025) 29:73\nFig. 10 7 IGS stations (red)\nand 58 CMSR stations (blue)\ndistribution\nTable 3 Four strategies to perform PPP-B2b Figure 11 presents the RMSE and convergence time\nwith four different strategies in both kinematic and static\nStrategy no If use spliced ISB estimation Processing\nclock method noise for ISB modes. For the white noise estimation strategy, the statis-\ntics with clock spliced and non-spliced clocks remain the\n1 Yes WN –\nsame, confirming that the jump bias of the GPS clock is\n2 No WN –\nsystematic and can be fully absorbed by the white noise\n3 Y",
+    "char_length": 3420
+  },
+  {
+    "quote_id": "qb_026da32796",
+    "span_index": 10,
+    "text": "GPS Solutions (2025) 29:73 Page 11 of 17 73\n45\n40\n35\n30\n25\n20\n15\nAccording to the experiment results, we present three is precisely calibrated using 3 days’ PPP static solutions.\neffective strategies for conducting dual system PPP-B2b Then the stations’ coordinates are fixed to estimate the phase\noverall: post-residual and statistic the phase URA with the interval\nof 30 s. Beyond that, to evaluate the refined phase URA,\n(1) Setting the ISB parameter as white noise. In this case, observation data from 7 IGS stations from DOY 003 to 010\nthe ISB parameter can fully absorb the GPS clock jump in 20",
+    "char_length": 2996
+  },
+  {
+    "quote_id": "qb_63f8a4a43b",
+    "span_index": 11,
+    "text": "73 Page 12 of 17 GPS Solutions (2025) 29:73\nFig. 12 Time series of refined\nphase URA for BDS-3 (top left)\nand GPS (top right), compared\nwith the origin B2b URA time\nseries calculated by the broad-\ncasted URAI for BDS-3 (bottom\nleft) and GPS (bottom right)\n(DOY: 001, Year: 2024). Note\nthat different colors are used to\ndistinguish different satellites of\nthe same system\nFig. 13 Distribution of one BDS-3\nweek’s refined phase URA for 0.2\nBDS-3 (left) and GPS (right)\n0.15\n0.1\n0.05\n0\n0 0.01 0.02 0.03\nfor GPS, with 99.7% of BDS-3 satellites distributed within information through its unusable mark. Fi",
+    "char_length": 2246
+  },
+  {
+    "quote_id": "qb_745cc52e8c",
+    "span_index": 12,
+    "text": "GPS Solutions (2025) 29:73 Page 13 of 17 73\nFig. 14 Comparison plot of\nsingle-day precise positioning 2\nerrors with refined phase URA\n(left) and without URA message 1.5\n(right). Station: WUH2, DOY:\n004, 2024 1\n0.5\n0\n-0.5\n-1\n-1.5\n-2\n0 6 12 18 24\nTime (h)\nvalidate how varying the number of stations affects the accu- Table 4 shows the statistical results for all stations\nracy of B2b phase URA calculations. We select 10, 20, and without URA and with Refined URA computed with\n40 stations for refined phase URA estimation and use them different station numbers. The use of refined URA sig-\nto conduct ",
+    "char_length": 1645
+  },
+  {
+    "quote_id": "qb_bd67cc1bb7",
+    "span_index": 13,
+    "text": "73 Page 14 of 17 GPS Solutions (2025) 29:73\nTable 4 Statistical table of\nMode Kinematic Static\nPPP-B2b performance with and\nwithout refined URA RMSE (m) Convergence RMSE (m) Convergence\ntime (min) time (min)\nNon-URA B2b-PPP 0.129 18.41 0.047 13.59\n10 station based Refined-URA B2b-PPP 0.128 17.48 0.043 10.91\n20 station based Refined-URA B2b-PPP 0.127 16.03 0.044 10.85\n40 station based Refined-URA B2b-PPP 0.124 15.89 0.043 10.68\n58 station based Refined-URA B2b-PPP 0.122 15.99 0.039 9.89\nFig. 16 The improvement of B2b-\nPPP performance using refined\nphase URA estimated with different\nstation numb",
+    "char_length": 3041
+  },
+  {
+    "quote_id": "qb_bd2070fabc",
+    "span_index": 14,
+    "text": "GPS Solutions (2025) 29:73 Page 15 of 17 73\nTherefore, we propose a refined phase URA estimation Chen J, Li H, Wu B, Zhang Y, Wang J, Hu C (2013) Performance\nstrategy along with a matched stochastic model for PPP- of real-time precise point positioning. Mar Geod 36(1):98–108.\nhttps://d oi.o rg/1 0.1 080/0 14904 19.2 012.6 99503\nB2b. Experiments demonstrate that the refined phase\nChen J, Wang A, Zhang Y, Zhou J, Yu C (2020) BDS satellite-based\nURA significantly improves positioning performance, augmentation service correction parameters and performance\nwith 13.2% and 27.2% improvement in conver",
+    "char_length": 6474
+  },
+  {
+    "quote_id": "qb_5659910fb1",
+    "span_index": 15,
+    "text": "73 Page 16 of 17 GPS Solutions (2025) 29:73\nShi J, Yuan X, Cai Y, Wang G (2017) GPS real-time precise point analysis of GPS data from large networks. J Geophys Res Solid\npositioning for aerial triangulation. GPS Solut 21:405–414. Earth 102(B3):5005–5017. https://d oi.o rg/1 0.1 029/9 6JB03 860\nhttps://d oi.o rg/1 0.1 007/s 10291-0 16-0 532-2\nSong Z, Chen J, Zhang Y, Yu C, Ding J (2023) Real-time multi- Publisher's Note Springer Nature remains neutral with regard to\nGNSS precise point positioning with ambiguity resolution based jurisdictional claims in published maps and institutional affiliati",
+    "char_length": 5221
+  },
+  {
+    "quote_id": "qb_285d58c8f0",
+    "span_index": 16,
+    "text": "GPS Solutions (2025) 29:73 Page 17 of 17 73\nJunsheng Ding is currently a Sainan Yang Ph.D., currently\npostdoctoral fellow at the serves as an Algorithm Engineer\nDepartment of Land Surveying in the Spatiotemporal Informa-\nand Geo-Informatics, the Hong tion Products Department at\nKong Polytechnic University China Mobile (Shanghai) Infor-\n(PolyU). He obtained his bache- mation and Communication\nlor’s degree in 2018 from Technology Co., Ltd. Her main\nChang’an University, China, and research focuses on precision\nhis Ph.D. degree in 2023 from positioning using 5G and GNSS\nthe Shanghai Astronomical t",
+    "char_length": 1399
+  }
+]

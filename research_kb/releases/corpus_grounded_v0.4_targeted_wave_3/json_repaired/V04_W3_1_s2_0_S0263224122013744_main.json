@@ -1,0 +1,46 @@
+{
+  "paper_id": "V04_W3_1_s2_0_S0263224122013744_main",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 3,
+  "bibliographic_info": {
+    "title": "Real-time single-frequency precise point positioning using BDS-3 PPP-B2b corrections"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement205(2022)112178 Contents lists available at ScienceDirect Measurement journal homepage: www.elsevier.com/locate/measurement Real-time single-frequency precise point positioning using BDS-3 PPP-B2b corrections Haitao Zhoua,b, Lei Wanga,b,c,*, Wenju Fua, Yi Hana, Tao Lia, Wei Lia, Ruizhi Chena,c aState Key Laboratory of Information Engineering in Surveying, Mapping and R",
+      "The performance of the BDS-3 PPP-B2b services for dual- Single-frequency frequency precise point positioning (PPP) has been investigated, while how the PPP-B2b service benefits the Precise point positioning single-frequency (SF) users has not been investigated yet."
+    ]
+  },
+  "component_stack": "BDS3_PPP_B2B+LEO+INS",
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4,
+    "grounding_quotes": [
+      "e is a N ×3 matrix contains BDS-3 PPP-B2b service provides GPS/BDS-3 real-time precise orbit the unit vector from the receiver to each satellite; I is a N ×S matrix with and precise clock offset correction, differential code bias (DCB) and user all entries set as 1."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 9,
+    "b2b": 117,
+    "has": 0,
+    "dcb": 4
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "category": "CORE_POSITIONING",
+  "priority": "P3_GENERAL",
+  "is_new_route": false,
+  "confirms_singleton": false
+}

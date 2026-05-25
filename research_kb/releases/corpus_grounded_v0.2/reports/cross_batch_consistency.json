@@ -1,0 +1,73 @@
+{
+  "papers_loaded": 17,
+  "total_issues": 9,
+  "quote_id_conflicts": 0,
+  "product_source_distribution": {
+    "CNES_OR_OTHER_RTS": 1,
+    "MIXED_PRODUCTS": 3,
+    "BDS3_PPP_B2B_BROADCAST": 12,
+    "QZSS_CLAS": 1
+  },
+  "product_source_issues": [],
+  "classification_issues": [
+    {
+      "paper_id": "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic",
+      "issue": "bds3_b2b_low_b2b_count",
+      "b2b": 0
+    },
+    {
+      "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+      "issue": "bds3_b2b_low_b2b_count",
+      "b2b": 0
+    },
+    {
+      "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+      "issue": "bds3_b2b_low_b2b_count",
+      "b2b": 0
+    },
+    {
+      "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+      "issue": "bds3_b2b_low_b2b_count",
+      "b2b": 0
+    },
+    {
+      "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+      "issue": "bds3_b2b_low_b2b_count",
+      "b2b": 0
+    },
+    {
+      "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+      "issue": "bds3_b2b_low_b2b_count",
+      "b2b": 0
+    },
+    {
+      "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+      "issue": "bds3_b2b_low_b2b_count",
+      "b2b": 0
+    }
+  ],
+  "epoch_issues": [],
+  "dcb_status_distribution": {
+    "NOT_MENTIONED": 9,
+    "MENTIONED": 2,
+    "BRIEFLY_MENTIONED": 1,
+    "EXPLICITLY_DESCRIBED": 3,
+    "INSUFFICIENT_EVIDENCE": 1,
+    "MENTIONED_AS_CODE_BIAS": 1
+  },
+  "dcb_issues": [
+    {
+      "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+      "issue": "dcb_explicit_but_low_mentions",
+      "mentions": 0
+    },
+    {
+      "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+      "issue": "dcb_explicit_but_low_mentions",
+      "mentions": 0
+    }
+  ],
+  "blocker_issues": [],
+  "quote_id_conflict_list": {},
+  "passed": false
+}

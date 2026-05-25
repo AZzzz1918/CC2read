@@ -1,0 +1,40 @@
+{
+  "paper_id": "CI004_s41598_025_02477_y",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-004",
+  "bibliographic_info": {
+    "title": "BeiDou-3 PPP-B2b real time pre-"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  www.nature.com/scientificreports OPEN Performance assessment of BeiDou-3 PPP-B2b real time pre- cise point positioning Yu Lin, Laiyong Song, Jiaqi Shen & Zelin Mu To assess the performance of the PPP-B2b service, most existing studies typically store real-time PPP- B2b messages and leverage them to acquire precise satellite orbits and clock offsets.",
+      "Consequently, these studies fail to fully capture the real-time positioning capabilities of PPP-B2b."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "grounding_quotes": [
+      "These parameters include satellite mask (defining visible satellites), orbit corrections, clock corrections, differential code bias (DCB, which accounts for hardware delays in satellite signal generation), and user range accuracy index (an indicator of correction quality)."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b": 78,
+    "has": 0,
+    "dcb": 3
+  },
+  "gate_status": {
+    "wrong_support": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper directly assesses the accuracy of BeiDou-3 PPP-B2b correction parameters and their performance in positioning and ZTD estimation, fitting the core PPP-B2b service performance evaluation category.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "sensors-25-06700.pdf",
+  "paper_id": "sensors-25-06700",
+  "extraction_mode": "batch_classify_1call"
+}

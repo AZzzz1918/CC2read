@@ -1,0 +1,21 @@
+Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service:
+  processing_mode: DUAL_FREQUENCY_IF_COMBINATION
+  method_name: PPP time transfer using BDS-3 PPP-B2b
+  novelty_grade: C_ENGINEERING_TRANSFER
+  is_mere_migration: true
+  is_ppp_b2b_core_paper: true
+  domain_relevance: core_ppp_b2b
+Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser:
+  processing_mode: DUAL_FREQUENCY_IF_COMBINATION
+  method_name: Post static PPP evaluation using CLAS corrections
+  novelty_grade: U_INSUFFICIENT_EVIDENCE
+  is_mere_migration: false
+  is_ppp_b2b_core_paper: false
+  domain_relevance: related_gnss_augmentation
+Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp:
+  processing_mode: RT_PPP
+  method_name: Performance evaluation via PPP processing
+  novelty_grade: C_ENGINEERING_TRANSFER
+  is_mere_migration: true
+  is_ppp_b2b_core_paper: true
+  domain_relevance: core_ppp_b2b

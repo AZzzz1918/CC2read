@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_remotesensing_14_04569_v2",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "The Bias in PPP-B2b Real-Time Clock Offset and the Strategy to Reduce It"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing TechnicalNote The Bias in PPP-B2b Real-Time Clock Offset and the Strategy to Reduce It JinhuoLiu1,2 ,ChengpanTang1,*,ShanshiZhou1,XiaogongHu1,YufeiYang3,JianhuaYang1,2 andYuchenLiu1,2 1 ShanghaiAstronomicalObservatory,ChineseAcademyofSciences,Shanghai200030,China 2 UniversityofChineseAcademyofSciences,Beijing100049,China 3 BeijingSatelliteNavigationCenter,Beijing10",
+      "Bycomparingwiththepost-processingclockoffset,thispaperverifiesthatthebroadcast clockoffsethassmallerandmorestablebiasesinthelongtermandproposesaregionalclockoffset estimationstrategyusingbroadcastclockoffsetforaprioriconstraint.Theresultsshowthatthenew algorithmcaneffectivelyreducethebiasinPPP-B2bclockoffset.Thenewclockoffsetproductcould improveconvergencespeedby25%and10%inthehorizontalandvertical"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 3
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 12,
+    "b2b": 94,
+    "has": 0,
+    "dcb": 3,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

@@ -1,0 +1,4100 @@
+{
+  "total_processed": 90,
+  "high_b2b": 85,
+  "medium_boundary": 3,
+  "low_general": 2,
+  "out_of_scope": 0,
+  "needs_manual_review": 0,
+  "entries": [
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0020019019300018-main.pdf",
+      "filename": "1-s2.0-S0020019019300018-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Combinatorial problems",
+      "title_source": "before_introduction",
+      "title_confidence": "MEDIUM",
+      "page_count": 5,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "LOW_GENERAL_GNSS_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 0,
+        "bds_ppp": 7,
+        "boundary": 0,
+        "general": 0
+      },
+      "matched_keywords": {
+        "core_b2b": [],
+        "bds_ppp": [
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": []
+      },
+      "recommended_next_step": "inventory_only"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224122011071-main.pdf",
+      "filename": "1-s2.0-S0263224122011071-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time ocean precise point positioning with BDS-3 service signal PPP-B2b",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 9,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 27,
+        "bds_ppp": 39,
+        "boundary": 2,
+        "general": 8
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224122013744-main.pdf",
+      "filename": "1-s2.0-S0263224122013744-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time single-frequency precise point positioning using BDS-3 PPP-B2b corrections",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 9,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 58,
+        "bds_ppp": 45,
+        "boundary": 4,
+        "general": 6
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224124014428-main.pdf",
+      "filename": "1-s2.0-S0263224124014428-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "A new PPP one-way timing approach via BDS-3 PPP-B2b and short-message communication service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 13,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 14,
+        "bds_ppp": 31,
+        "boundary": 3,
+        "general": 9
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "time transfer",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224124019006-main.pdf",
+      "filename": "1-s2.0-S0263224124019006-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Enhancing BDS-3 PPP-B2b real-time positioning performance by tightly integrating MEMS IMU and LiDAR in GNSS-Degraded environment",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 11,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 16,
+        "bds_ppp": 8,
+        "boundary": 1,
+        "general": 6
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224125021888-main.pdf",
+      "filename": "1-s2.0-S0263224125021888-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time PPP with the fusion of Galileo HAS and BDS-3 PPP-B2b",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 23,
+        "bds_ppp": 17,
+        "boundary": 11,
+        "general": 6
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "real-time PPP"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "multi-GNSS",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224126008559-main.pdf",
+      "filename": "1-s2.0-S0263224126008559-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Integration of GNSS Galileo High accuracy service, BDS-3 PPP-B2b and INS for precise positioning in challenging environments",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 22,
+        "bds_ppp": 24,
+        "boundary": 8,
+        "general": 9
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "\\bSSR\\b"
+        ],
+        "boundary": [
+          "High Accuracy Service",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224126009619-main.pdf",
+      "filename": "1-s2.0-S0263224126009619-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Precise LEO orbit determination using regional PPP-B2b augmentation services",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 12,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 37,
+        "bds_ppp": 14,
+        "boundary": 0,
+        "general": 3
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S026322412601448X-main (1).pdf",
+      "filename": "1-s2.0-S026322412601448X-main (1).pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 13,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 29,
+        "bds_ppp": 31,
+        "boundary": 16,
+        "general": 19
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "\\bMADOCA\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "multi-GNSS",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S026322412601448X-main.pdf",
+      "filename": "1-s2.0-S026322412601448X-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 13,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 29,
+        "bds_ppp": 31,
+        "boundary": 16,
+        "general": 19
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "\\bMADOCA\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "multi-GNSS",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117721004610-main.pdf",
+      "filename": "1-s2.0-S0273117721004610-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "bShanghaiAstronomicalObservatory,ChineseAcademyofScience,No.80NandanRoad,Shanghai200030,China",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 13,
+      "abstract_detected": true,
+      "abstract_snippet": "China’sBeiDouNavigationSatelliteSystem(BDS)canprovidereal-timeprecisepointpositioning(PPP)serviceforusersinChinaand\nsurroundingareaswithPPP-B2bsignal.Inthispaper,real-timePPPisassessedandstudiedbasedon8daysofPPP-B2bandBDS/GPS\nbroadcastmessages.Real-timepreciseephemeridesarecomparedagainstMulti-GNSSE",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 7,
+        "bds_ppp": 16,
+        "boundary": 3,
+        "general": 10
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "\\bSSR\\b",
+          "state space representation",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "multi-GNSS"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117721006980-main.pdf",
+      "filename": "1-s2.0-S0273117721006980-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "GNSSResearchCenter,WuhanUniversity,Wuhan430079,China",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 11,
+      "abstract_detected": true,
+      "abstract_snippet": "TheChinaBeiDouglobalnavigationsatellitesystem(BDS-3)hasstartedtoprovidefreeandopenprecisepositioningservicestousers\ninChinaandsurroundingareassinceJul2020ontheGEOB2bsignal.TheinitialassessmentofBDS-3PPP-B2bproductsandthePPP\nperformanceoveraperiodofnearfivemonthsfromJul26,2020toDec19,2020wascarriedou",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 3,
+        "bds_ppp": 13,
+        "boundary": 1,
+        "general": 4
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "BDS-3 precise point positioning service",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "SBAS"
+        ],
+        "general": [
+          "\\bGPS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117723005483-main.pdf",
+      "filename": "1-s2.0-S0273117723005483-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "cKeyLaboratoryofElectro-OpticalCountermeasuresTest&EvaluationTechnology,Luoyang471000,China",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 13,
+      "abstract_detected": true,
+      "abstract_snippet": "Since 2020, the BeiDou-3 global navigation satellite system has provided real-time precision single-point positioning enhancement\nservices (PPP-B2b). The real-time correction provideded by this service can make real-time precision single-point positioning achieve\ndecimeter-level. However, a dense ur",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 30,
+        "bds_ppp": 15,
+        "boundary": 5,
+        "general": 7
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b",
+          "real-time service",
+          "SBAS"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bGLONASS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117724008755-main.pdf",
+      "filename": "1-s2.0-S0273117724008755-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time uncombined PPP using BDS-3 PPP-B2b products with different multi-frequency integrations and refined stochastic model",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 11,
+      "abstract_detected": true,
+      "abstract_snippet": "BDS-3geostationaryorbit(GEO)satellitesbroadcastPPP-B2breal-timepreciseproductstosupportreal-timeprecisepointposition-\ning(RT-PPP)withoutdependenceonthegroundnetworkcommunication.SinceallBDS-3satellitescanprovidemulti-frequencysignals,\nwe investigate the effect of different multi-frequency integratio",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 24,
+        "bds_ppp": 18,
+        "boundary": 1,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117724011438-main.pdf",
+      "filename": "1-s2.0-S0273117724011438-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Evaluation of the Galileo high-accuracy service SSR product quality and PPP performance",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "The Galileo navigation satellite system (Galileo) High-Accuracy Service (HAS) is a global navigation satellite system (GNSS) aug-\nmentation service proposed by the European Union that providing free of charge orbit, clock and pseudo-range biases corrections to\nusers around the world through E6 signa",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 5,
+        "bds_ppp": 17,
+        "boundary": 15,
+        "general": 16
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "\\bSSR\\b",
+          "state space representation"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "\\bHAS\\b",
+          "\\bCNES\\b",
+          "satellite.based augmentation"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117724012961-main.pdf",
+      "filename": "1-s2.0-S0273117724012961-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time BDS-3 satellite clock estimation and precise point positioning using broadcast orbits",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 12,
+      "abstract_detected": true,
+      "abstract_snippet": "Real-time precise point positioning (PPP) relying on high-precision real-time products can reach centimeter to decimeter level posi-\ntioning accuracy. Recent enhancements in the BDS-3 constellation have significantly improved the performance of broadcast ephemer-\nides with radial orbit accuracy bett",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 6,
+        "bds_ppp": 25,
+        "boundary": 3,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bCNES\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117725002066-main.pdf",
+      "filename": "1-s2.0-S0273117725002066-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "BDS-3/GPS uncombined real-time PPP with PPP-B2b precise products: Modeling and its long-term performance evaluation",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "Through PPP-B2b real-time precise products, BDS-3 can provide the real-time precise point positioning (PPP) service without relying\non the Internet for users in China and its surrounding regions. In this study, the BDS-3/GPS uncombined real-time PPP model with PPP-\nB2b precise products is constructe",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 21,
+        "bds_ppp": 40,
+        "boundary": 0,
+        "general": 8
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117725002881-main.pdf",
+      "filename": "1-s2.0-S0273117725002881-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Precise real-time navigation of the LEO satellite enhanced by BDS-3 PPP-B2b service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "For the real-time navigation of LEO satellites based on GNSS, the achievable real-time orbit accuracy is generally limited by the qual-\nity of GNSS broadcast ephemeris. In this paper, the correction data released by the BDS-3 PPP-B2b service are introduced to correct the\nbroadcast ephemeris of GPS a",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 46,
+        "bds_ppp": 23,
+        "boundary": 0,
+        "general": 13
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117725009299-main.pdf",
+      "filename": "1-s2.0-S0273117725009299-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "A real-time high accurate positioning method for vehicles in long-mileage transportation",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 23,
+      "abstract_detected": true,
+      "abstract_snippet": "The Precise Point Positioning (PPP) technique offers a promising solution for achieving lane-level vehicle positioning in long-mileage\ntransportation. However, PPP faces significant challenges in kinematic applications, particularly due to its sensitivity to measurement\nquality and the time delays a",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 3,
+        "bds_ppp": 11,
+        "boundary": 0,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "multi-GNSS"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117725010865-main.pdf",
+      "filename": "1-s2.0-S0273117725010865-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Analysis of real-time kinematic positioning of UAV based on BDS-3 PPP-B2b service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "High-precision positioning of unmanned aerial vehicles (UAVs) is generally achieved through real-time kinematic (RTK) technology,\nwhich rely on ground base stations. This poses challenges for real-time high-precision positioning in areas lacking base stations. BeiDou\nnavigation satellite system (BDS",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 19,
+        "bds_ppp": 20,
+        "boundary": 1,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "orbit correction",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bCNES\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bRTK\\b",
+          "multi-GNSS"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117725011020-main.pdf",
+      "filename": "1-s2.0-S0273117725011020-main.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Retrieval of precipitable water vapor by using BeiDou PPP-B2b signal with an ocean-based experiment",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 13,
+      "abstract_detected": true,
+      "abstract_snippet": "Atmospheric precipitable water vapor (PWV) over the ocean is of great importance for monitoring and predicting marine meteorological\ndisasters. With the emergence of real-time service (RTS), real-time Global Navigation Satellite System (GNSS) PWV monitoring has become\ninteresting. However, RTS is un",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "publisher_boilerplate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 38,
+        "bds_ppp": 19,
+        "boundary": 8,
+        "general": 18
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "BeiDou PPP-B2b",
+          "PPP-B2b service",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bZTD\\b",
+          "\\bPWV\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf",
+      "filename": "2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "D. Borio1 · M. Susi1 · C. Gioia2",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 8,
+      "abstract_detected": true,
+      "abstract_snippet": "Galileo High Accuracy Service (HAS) corrections are broadcast through the E6B signal using a high-parity vertical Reed-\nSolomon encoding scheme, which reduces message recovery time and improves transmission reliability. To recover HAS\ncorrections, it is thus necessary to invert the encoding process ",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "LOW_GENERAL_GNSS_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 0,
+        "bds_ppp": 3,
+        "boundary": 33,
+        "general": 9
+      },
+      "matched_keywords": {
+        "core_b2b": [],
+        "bds_ppp": [
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "inventory_only"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf",
+      "filename": "2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Nacer Naciri1 · Ding Yi1 · Sunil Bisnath1 · F. Javier de Blas2 · Roberto Capua3",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": true,
+      "abstract_snippet": "The Galileo High Accuracy Service (HAS) is a GNSS augmentation that provides precise satellite corrections to users\nworldwide for free directly through Galileo’s E6 signal. The HAS service provides free PPP corrections from the Galileo\nconstellation and the Internet, with targeted real-time 95% posi",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "MEDIUM_BOUNDARY_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 0,
+        "bds_ppp": 5,
+        "boundary": 20,
+        "general": 26
+      },
+      "matched_keywords": {
+        "core_b2b": [],
+        "bds_ppp": [
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bRTK\\b",
+          "\\bPPP-AR\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "targeted_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+      "filename": "2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Zhenyi Zhang1 · Xu Zou1",
+      "title_source": "before_abstract",
+      "title_confidence": "MEDIUM",
+      "page_count": 15,
+      "abstract_detected": true,
+      "abstract_snippet": "The BeiDou global navigation satellite system (GNSS) of China (BDS-3) had full operation capacity on July 31, 2020, and\nstarted providing free precise point positioning (PPP) service on B2b signals. Although GNSS community has conducted\nmany evaluations on the PPP-B2b products and its user performan",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 36,
+        "bds_ppp": 39,
+        "boundary": 6,
+        "general": 8
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service",
+          "B2b signal",
+          "B2b product",
+          "B2b correction",
+          "PPP-B2b corrections",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+      "filename": "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Jianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "Retrieving the coseismic displacement in real time is essential when the high-rate Global Navigation Satellite System (GNSS)\nis used for the real-time earthquake source description. In 2020, the third generation of the BeiDou Global Navigation Satel-\nlite System (BDS-3) initiated a real-time precise",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 39,
+        "bds_ppp": 31,
+        "boundary": 1,
+        "general": 7
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf",
+      "filename": "2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Practical Performance Assessment of Water Vapor Monitoring Using BDS PPP-B2b Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": true,
+      "abstract_snippet": "BeiDounavigationsatellitesystem(BDS)precisepointpositioning(PPP)-B2bhassignif-\nicant potential for application in meteorological fields, such as standalone water vapor\nmonitoringindepopulatedareawithoutInternet.Inthisstudy,thepracticalabilityofwater\nvapor monitoring using the BDS PPP-B2b service is ",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 17,
+        "bds_ppp": 11,
+        "boundary": 0,
+        "general": 4
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGPS\\b",
+          "\\bZTD\\b",
+          "\\bPWV\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\875.full.pdf",
+      "filename": "875.full.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Design and implementation of a BDS precise point positioning service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "andTelecommunicationTechnology, Precise point positioning (PPP) service is of great significance for BDS. The\nBeijing,China.\ndesignandimplementationoftheservicearepresented.ThePPP-B2bsignalof\nEmail:liucheng@beidou.gov.cn\ntheserviceisconstructed,whichisefficientmultiplexedwithothersignalcom-\nFundingi",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 1,
+        "bds_ppp": 14,
+        "boundary": 2,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "\\bSSR\\b"
+        ],
+        "boundary": [
+          "\\bCLAS\\b",
+          "SBAS"
+        ],
+        "general": [
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availability_and_Time_Transfer_Performance_in_PPP-B2b_HAS_and_MADOCA-PPP.pdf",
+      "filename": "A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availability_and_Time_Transfer_Performance_in_PPP-B2b_HAS_and_MADOCA-PPP.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Availability, and Time Transfer",
+      "title_source": "first_page_block",
+      "title_confidence": "HIGH",
+      "page_count": 9,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 6,
+        "bds_ppp": 21,
+        "boundary": 9,
+        "general": 20
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bMADOCA\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "multi-GNSS",
+          "time transfer",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\applsci-15-07169-v2.pdf",
+      "filename": "applsci-15-07169-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "BDS-PPP-B2b-Based Smartphone Precise Positioning Model Enhanced by Mixed-Frequency Data and Hybrid Weight Function",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 19,
+      "abstract_detected": true,
+      "abstract_snippet": "Comparedtohigh-costhardware-basedGlobalNavigationSatelliteSystem(GNSS)posi-\ntioningtechniques,smartphone-basedprecisepositioningtechnologyplaysanimportant\nroleinapplicationssuchastheInternetofThings(IoT).SinceGooglereleasedtheNougat\nversionofAndroidin2016,thishasprovidedanewmethodforachievinghigh-ac",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 12,
+        "bds_ppp": 8,
+        "boundary": 0,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\atmosphere-15-01048.pdf",
+      "filename": "atmosphere-15-01048.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Assessment of BDS-3 PPP-B2b Service and Its Applications for the Determination of Precipitable Water Vapour",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 31,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 27,
+        "bds_ppp": 13,
+        "boundary": 2,
+        "general": 8
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bCNES\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bZTD\\b",
+          "\\bPWV\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\ggac311.pdf",
+      "filename": "ggac311.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "millimetre-level(Bocketal.2011;Wangetal.2012).Therelative",
+      "title_source": "before_introduction",
+      "title_confidence": "HIGH",
+      "page_count": 12,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 7,
+        "bds_ppp": 7,
+        "boundary": 2,
+        "general": 4
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "B2b signal",
+          "B2b product"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\ggag169.pdf",
+      "filename": "ggag169.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time high-rate seismogeodesy using Galileo HAS and BDS PPP-B2b products: a shake table experiment and application to the 2024 Mw 7.0 Wushi earthquake",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 35,
+        "bds_ppp": 14,
+        "boundary": 12,
+        "general": 11
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "BeiDou PPP-B2b",
+          "PPP-B2b service",
+          "B2b signal",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "multi-GNSS",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Hu_2026_Meas._Sci._Technol._37_086303.pdf",
+      "filename": "Hu_2026_Meas._Sci._Technol._37_086303.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time PPP-based monitoring of Galileo–BDS time offset using PPP-B2b and HAS",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 27,
+      "abstract_detected": true,
+      "abstract_snippet": "Inmulti-GNSSpositioning,navigationandtiming,theinter-systemtimeoffsetmustbehandled\nexplicitly.ForGalileo–BDSTimeOffset(GBTO),PPP-BCEislimitedbysignal-in-spaceerrors,\nandfixingGBTOasapriorisfragileduetosub-nanoseconddatumandinter-systembiasdrifts\nbetweenHAS(GTRF)andPPP-B2b(BDCS).WeassessHASandPPP-B2b",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 11,
+        "bds_ppp": 17,
+        "boundary": 5,
+        "general": 12
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bPPP\\b",
+          "real-time PPP",
+          "\\bSSR\\b"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bPPP-AR\\b",
+          "multi-GNSS",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\IET Radar Sonar   Navi - 2025 - Yu - Design and Reception Method of Code Shift Keying Signals With Power‐of‐Two Phase.pdf",
+      "filename": "IET Radar Sonar   Navi - 2025 - Yu - Design and Reception Method of Code Shift Keying Signals With Power‐of‐Two Phase.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Design and Reception Method of Code Shift Keying Signals With Power‐of‐Two Phase Intervals",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 10,
+      "abstract_detected": true,
+      "abstract_snippet": "Precisepointpositioning(PPP)technologyhasgarneredextensiveattentionforitsabilitytodeliverreal‐timecentimetre‐level\naccuracyservices.WhenprovidingPPPservicesviasatellitenavigationsignals,itisnecessarytoincreasethedataratetoover\n1000 bps. Code shift keying (CSK) technology has emerged as a key candida",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "MEDIUM_BOUNDARY_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 0,
+        "bds_ppp": 7,
+        "boundary": 3,
+        "general": 4
+      },
+      "matched_keywords": {
+        "core_b2b": [],
+        "bds_ppp": [
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "targeted_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Mathematical Problems in Engineering - 2022 - Chen - Signal‐in‐Space and Positioning Performance of BDS Open Augmentation.pdf",
+      "filename": "Mathematical Problems in Engineering - 2022 - Chen - Signal‐in‐Space and Positioning Performance of BDS Open Augmentation.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Signal‐in‐Space and Positioning Performance of BDS Open Augmentation Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 11,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 1,
+        "bds_ppp": 6,
+        "boundary": 1,
+        "general": 7
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bCLAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bRTK\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Mathematical Problems in Engineering - 2022 - Tang - Modelling and Assessment of BDS‐3 Real‐time Precise Point Positioning.pdf",
+      "filename": "Mathematical Problems in Engineering - 2022 - Tang - Modelling and Assessment of BDS‐3 Real‐time Precise Point Positioning.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Modelling and Assessment of BDS‐3 Real‐time Precise Point Positioning Time Transfer Based on PPP‐B2b Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 18,
+        "bds_ppp": 15,
+        "boundary": 1,
+        "general": 6
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "time transfer"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\P020250821587994414729.pdf",
+      "filename": "P020250821587994414729.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "中文题目（小2号黑体）",
+      "title_source": "pdf_metadata",
+      "title_confidence": "MEDIUM",
+      "page_count": 12,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 34,
+        "bds_ppp": 38,
+        "boundary": 1,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "北斗三号\\s*PPP-B2b",
+          "B2b signal",
+          "B2b correction"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "北斗",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Qin_2024_Phys._Scr._99_125026.pdf",
+      "filename": "Qin_2024_Phys._Scr._99_125026.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Analysis of the performance of the PPP-B2b satellite clock and its effects on time transfer",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": true,
+      "abstract_snippet": "BDS-3iscapableofprovidingprecisepointpositioning(PPP)servicesviaB2bsignalsfortheAsia–\nPacificregion.Theperformanceofthesatelliteclockplaysadominantroleinthetransmissioninterval\nofB2bclockcorrectionandPPPtimetransfer.Inthiswork,first,thecoverageofB2bsignalsis\nanalysed,andtheperformanceofthesatellitec",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 24,
+        "bds_ppp": 20,
+        "boundary": 0,
+        "general": 3
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "\\bSSR\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "time transfer"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS devices.pdf",
+      "filename": "Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS devices.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Hongxing Zhang1,2 ·Yunbin Yuan1·Luohong Li1,2·Wei Li1·Wenjian Huang1,2·Yanju Chai1·Dong Ren3",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "Real-timesensingofprecipitablewatervapor(PWV)usingGNSSiscriticalforatmosphericmonitoring.Conventionalreal-\ntime precise point positioning (PPP) reliant on the IGS real-time service (RTS) remains limited in oceanic regions due to\nterrestrialinternetdependencies.BeiDou’ssatellite-basedPPP-B2bserviceov",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 7,
+        "bds_ppp": 14,
+        "boundary": 4,
+        "general": 7
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bPWV\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Real-Time_Kinematic_Orbit_Determination_for_LEO_by_Integrating_Broadcast_Ephemerides_Galileo_HAS_and_BDS-3_PPP-B2b.pdf",
+      "filename": "Real-Time_Kinematic_Orbit_Determination_for_LEO_by_Integrating_Broadcast_Ephemerides_Galileo_HAS_and_BDS-3_PPP-B2b.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-Time Kinematic Orbit Determination for LEO by Integrating Broadcast Ephemerides, Galileo HAS, and BDS-3 PPP-B2b",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 19,
+        "bds_ppp": 11,
+        "boundary": 8,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Real-Time_Precise_Zenith_Tropospheric_Delay_Estimation_With_BDS_PPP-B2b_Galileo_HAS_and_QZSS_MADOCA-PPP_Services.pdf",
+      "filename": "Real-Time_Precise_Zenith_Tropospheric_Delay_Estimation_With_BDS_PPP-B2b_Galileo_HAS_and_QZSS_MADOCA-PPP_Services.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-Time Precise Zenith Tropospheric Delay Estimation With BDS PPP-B2b, Galileo HAS, and QZSS MADOCA-PPP Services",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 11,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "journal_header",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 13,
+        "bds_ppp": 34,
+        "boundary": 12,
+        "general": 10
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "\\bMADOCA\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "multi-GNSS",
+          "\\bZTD\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-13-05011.pdf",
+      "filename": "remotesensing-13-05011.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Assessment of the Feasibility of PPP-B2b Service for Real-Time Coseismic Displacement Retrieval",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 16,
+        "bds_ppp": 6,
+        "boundary": 2,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bRTS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-14-00643-v2.pdf",
+      "filename": "remotesensing-14-00643-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Comprehensive Analyses of PPP-B2b Performance in China and Surrounding Areas",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 28,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 14,
+        "bds_ppp": 10,
+        "boundary": 0,
+        "general": 0
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": []
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-14-02957-v2.pdf",
+      "filename": "remotesensing-14-02957-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Performance Assessment of BDS-3 PPP-B2b/INS Loosely Coupled Integration",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 24,
+        "bds_ppp": 14,
+        "boundary": 0,
+        "general": 3
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-14-04569-v2.pdf",
+      "filename": "remotesensing-14-04569-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "The Bias in PPP-B2b Real-Time Clock Offset and the Strategy to Reduce It",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 12,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 9,
+        "bds_ppp": 12,
+        "boundary": 0,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGLONASS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-14-05366.pdf",
+      "filename": "remotesensing-14-05366.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Comprehensive Analysis of PPP-B2b Service and Its Impact on BDS-3/GPS Real-Time PPP Time Transfer",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 22,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 18,
+        "bds_ppp": 15,
+        "boundary": 0,
+        "general": 6
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "real-time PPP"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGPS\\b",
+          "time transfer"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-14-05835-v2.pdf",
+      "filename": "remotesensing-14-05835-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Evaluation of BDS-3 B1C/B2b Single/Dual-Frequency PPP Using PPP-B2b and RTS SSR Products in Both Static and Dynamic Applications",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 23,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 10,
+        "bds_ppp": 19,
+        "boundary": 3,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "\\bSSR\\b"
+        ],
+        "boundary": [
+          "\\bRTS\\b"
+        ],
+        "general": [
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-14-06395-v2.pdf",
+      "filename": "remotesensing-14-06395-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Comprehensive Evaluation of Data-Related Factors on BDS-3 B1I + B2b Real-Time PPP/INS Tightly Coupled Integration",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 23,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 2,
+        "bds_ppp": 14,
+        "boundary": 1,
+        "general": 0
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "real-time PPP"
+        ],
+        "boundary": [
+          "SBAS"
+        ],
+        "general": []
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-15-00784.pdf",
+      "filename": "remotesensing-15-00784.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-Time Precise Point Positioning during Outages of the PPP-B2b Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 18,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 13,
+        "bds_ppp": 16,
+        "boundary": 0,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-15-01358.pdf",
+      "filename": "remotesensing-15-01358.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Long-Term Performance Evaluation of BeiDou PPP-B2b Products and Its Application in Time Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 14,
+        "bds_ppp": 17,
+        "boundary": 0,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "BeiDou PPP-B2b",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "\\bSSR\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-15-05144.pdf",
+      "filename": "remotesensing-15-05144.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "A Comparative Study of Factor Graph Optimization-Based and Extended Kalman Filter-Based PPP-B2b/INS Integrated Navigation",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 23,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 11,
+        "bds_ppp": 3,
+        "boundary": 1,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "SBAS"
+        ],
+        "general": [
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-16-00043.pdf",
+      "filename": "remotesensing-16-00043.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Sub-Nanosecond UTC Dissemination Based on BDS-3 PPP-B2b Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 22,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 17,
+        "bds_ppp": 10,
+        "boundary": 0,
+        "general": 0
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": []
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-16-01349-v2.pdf",
+      "filename": "remotesensing-16-01349-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Performance Evaluation and Application Field Analysis of Precise Point Positioning Based on Different Real-Time Augmentation Information",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 18,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 8,
+        "bds_ppp": 7,
+        "boundary": 6,
+        "general": 0
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bCNES\\b",
+          "\\bRTS\\b",
+          "SBAS"
+        ],
+        "general": []
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-16-02337-v2.pdf",
+      "filename": "remotesensing-16-02337-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Temporal Characteristics Based Outlier Detection and Prediction Methods for PPP-B2b Orbit and Clock Corrections",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 19,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 9,
+        "bds_ppp": 8,
+        "boundary": 2,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "\\bSSR\\b"
+        ],
+        "boundary": [
+          "\\bRTS\\b",
+          "SBAS"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-16-02902.pdf",
+      "filename": "remotesensing-16-02902.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Performance of Ground-Based Global Navigation Satellite System Precipitable Water Vapor Retrieval in Beijing with the BeiDou B2b Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 10,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 2,
+        "bds_ppp": 13,
+        "boundary": 1,
+        "general": 4
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGPS\\b",
+          "\\bPWV\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-17-00011-v2.pdf",
+      "filename": "remotesensing-17-00011-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "The Investigation of Global Real-Time ZTD Estimation from GPS/Galileo PPP Based on Galileo High Accuracy Service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 19,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "MEDIUM_BOUNDARY_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 0,
+        "bds_ppp": 9,
+        "boundary": 8,
+        "general": 28
+      },
+      "matched_keywords": {
+        "core_b2b": [],
+        "bds_ppp": [
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "SBAS"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bZTD\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "targeted_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-17-00618-v2.pdf",
+      "filename": "remotesensing-17-00618-v2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "A Continuous B2b-PPP Model Considering Interruptions in BDS-3 B2b Orbits and Clock Corrections as Well as Signal-in-Space Range Error Residuals",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 21,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 8,
+        "bds_ppp": 15,
+        "boundary": 0,
+        "general": 0
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": []
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-17-02183.pdf",
+      "filename": "remotesensing-17-02183.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "LEO-Enhanced BDS-3 PPP Performance Based on B2b Signal",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": true,
+      "abstract_snippet": "Since2020,theBDS-3hasbeenprovidingreal-timecorrectionsviatheB2bsignal,enabling\nusersinChinaanditsneighboringregionstoachievekinematicpositioningaccuracyatthe\ndecimeterlevel. TherapidgeometricchangesofLow-Earth-Orbit(LEO)satellitesfacili-\ntatetherapidresolutionofphaseambiguitiesandacceleratetheconver",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 8,
+        "bds_ppp": 13,
+        "boundary": 0,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-17-02351.pdf",
+      "filename": "remotesensing-17-02351.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Differences in Time Comparison and Positioning of BDS-3 PPP-B2b Signal Broadcast Through GEO",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 21,
+      "abstract_detected": true,
+      "abstract_snippet": "The BeiDou-3 Navigation Satellite System (BDS-3) precise point positioning (PPP) ser-\nvicethroughtheB2bsignal(PPP-B2b)leveragesprecisecorrectiondatadisseminatedby\nsatellitestoeliminateormitigatekeyerrorsources,includingsatelliteorbiterrors,clock\nbiases,andionosphericdelays,therebyenablinghigh-precis",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 31,
+        "bds_ppp": 23,
+        "boundary": 0,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "B2b signal",
+          "B2b correction"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [],
+        "general": [
+          "multi-GNSS"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\remotesensing-17-03522.pdf",
+      "filename": "remotesensing-17-03522.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Enhancing PPP-B2b Performance with Regional Atmospheric Augmentation",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 21,
+      "abstract_detected": true,
+      "abstract_snippet": "Received:21September2025 Currently, thePPP-B2bservicefaceschallengessuchaslongconvergencetimesandre-\nRevised:16October2025\nconvergenceissuesaftersignalinterruptionsduetothelackofhigh-precisionatmospheric\nAccepted:22October2025\nenhancement. Toaddressthis,thisstudydevelopsamulti-frequencyuncombinedPre",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 20,
+        "bds_ppp": 10,
+        "boundary": 0,
+        "general": 0
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": []
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\Research_on_Single-Frequency_PPP-B2b_Time_Transfer.pdf",
+      "filename": "Research_on_Single-Frequency_PPP-B2b_Time_Transfer.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Research on Single-Frequency PPP-B2b Time Transfer",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 6,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 43,
+        "bds_ppp": 33,
+        "boundary": 3,
+        "general": 19
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "B2b signal",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "time transfer"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s00190-022-01642-9.pdf",
+      "filename": "s00190-022-01642-9.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Orbit determination, clock estimation and performance evaluation of BDS-3 PPP-B2b service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "ThispaperfocusesonPPP-B2b,oneofthefeaturedservicesforBDS-3,whichprovidesusersaroundChinawithcentimetre-\nlevelstaticpositioningaccuracyanddecimetre-levelkinematicpositioningaccuracybybroadcastingprecisecorrectionsfor\nGPS/BDS-3satellites.TheGEOPPP-B2bsignalbroadcastedinformationtypes,includingthePRNma",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 21,
+        "bds_ppp": 16,
+        "boundary": 0,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s00190-025-01965-3.pdf",
+      "filename": "s00190-025-01965-3.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Single-station-augmented PPP-B2b considering the satellite-specific clock bias via short-message communication",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "BeiDouGlobalNavigationSatelliteSystem(BDS-3)PPP-B2bservicegreatlypromotesthereal-timeprecisepointpositioning\napplications.However,previousresearchworkshaverevealedthatanonnegligiblesatellite-specificclockbias(SCB)exists\nin the PPP-B2b clock offset, causing the degradation of PPP-B2b positioning perf",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 33,
+        "bds_ppp": 23,
+        "boundary": 4,
+        "general": 3
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s00190-026-02039-8.pdf",
+      "filename": "s00190-026-02039-8.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS devices",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "Real-timesensingofprecipitablewatervapor(PWV)usingGNSSiscriticalforatmosphericmonitoring.Conventionalreal-\ntime precise point positioning (PPP) reliant on the IGS real-time service (RTS) remains limited in oceanic regions due to\nterrestrialinternetdependencies.BeiDou’ssatellite-basedPPP-B2bserviceov",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 10,
+        "bds_ppp": 16,
+        "boundary": 4,
+        "general": 9
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bPWV\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-021-01168-1.pdf",
+      "filename": "s10291-021-01168-1.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Initial Assessment of the BDS-3 PPP-B2b RTS compared with the CNES RTS",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": true,
+      "abstract_snippet": "In 2020, the BeiDou navigation satellite system (BDS) initiated a real-time service (RTS) for precise point positioning (PPP)\nusing the B2b signal for users in China and its surrounding areas. A decimeter-level accuracy is expected to be achieved\nusing a single receiver. In this study, the PPP-B2b s",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 38,
+        "bds_ppp": 27,
+        "boundary": 24,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service",
+          "B2b signal",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bCNES\\b",
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-021-01175-2.pdf",
+      "filename": "s10291-021-01175-2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Performance evaluation of BDS-3 PPP-B2b precise point positioning service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "A new precise point positioning (PPP) service has been provided by BeiDou global navigation satellite system (BDS-3). The\ncorrection parameters, including precision orbit correction, clock offset correction and differential code bias, are transmit-\nted by PPP-B2b signal from BDS-3 geosynchronous orb",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 52,
+        "bds_ppp": 46,
+        "boundary": 3,
+        "general": 1
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "B2b signal",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "orbit correction"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-023-01409-5.pdf",
+      "filename": "s10291-023-01409-5.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Long-term performance analysis of BDS-3 precise point positioning (PPP-B2b) service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 18,
+      "abstract_detected": true,
+      "abstract_snippet": "Since 2020, the BeiDou Navigation Satellite System (BDS) has launched new precise point positioning service which\nprovides precise correction of GPS and BDS-3 satellites to help users realize real-time precise point positioning, known\nas PPP-B2b service. After being fully operational for more than o",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 41,
+        "bds_ppp": 43,
+        "boundary": 2,
+        "general": 8
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-023-01457-x.pdf",
+      "filename": "s10291-023-01457-x.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Exploring characteristics of BDS-3 PPP-B2b augmentation messages by a three-step analysis procedure",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": true,
+      "abstract_snippet": "This study discovers three critical characteristics of PPP-B2b augmentation messages, potentially improving positioning\ncontinuity and accuracy for time-critical applications. Three new message characteristics are obtained by analyzing 863,895\nPPP-B2b augmentation messages collected in June 2022 fol",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 24,
+        "bds_ppp": 19,
+        "boundary": 7,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "orbit correction",
+          "\\bSSR\\b"
+        ],
+        "boundary": [
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "\\bCLAS\\b",
+          "SBAS",
+          "satellite.based augmentation"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-023-01532-3.pdf",
+      "filename": "s10291-023-01532-3.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Evaluation of real-time kinematic positioning performance of the BDS‑3 PPP service on B2b signal",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "The BeiDou global navigation satellite system (GNSS) of China (BDS-3) had full operation capacity on July 31, 2020, and\nstarted providing free precise point positioning (PPP) service on B2b signals. Although GNSS community has conducted\nmany evaluations on the PPP-B2b products and its user performan",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 38,
+        "bds_ppp": 40,
+        "boundary": 6,
+        "general": 8
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service",
+          "B2b signal",
+          "B2b product",
+          "B2b correction",
+          "PPP-B2b corrections",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-024-01776-7.pdf",
+      "filename": "s10291-024-01776-7.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time estimation of multi-frequency phase observable-specific bias for the BDS3 PPP-B2b service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": true,
+      "abstract_snippet": "Since 2020, the PPP-B2b service provided by BeiDou navigation satellite system (BDS) has achieved dynamic decimeter-\nlevel and static centimeter-level positioning accuracy in China and nearby regions, drawing significant attention from the\nGNSS community. However, despite these advancements, the ser",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 32,
+        "bds_ppp": 22,
+        "boundary": 2,
+        "general": 7
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-024-01789-2.pdf",
+      "filename": "s10291-024-01789-2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Combining Galileo HAS and Beidou PPP-B2b with Helmert coordinate transformation method",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "The European Galileo High Accuracy Service (HAS) started to provide freely and openly accessible real-time precise\nsatellite orbit, clock and code bias products to global users on January 24, 2023. Combined with the already running Bei-\nDou PPP-B2b service, the launch of a variety of satellite-based",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 40,
+        "bds_ppp": 23,
+        "boundary": 16,
+        "general": 14
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "BeiDou PPP-B2b",
+          "PPP-B2b service",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "multi-GNSS",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-025-01835-7.pdf",
+      "filename": "s10291-025-01835-7.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Clock systematic jump estimation and URA refinement of BDS-3 B2b real-time precise point positioning service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "The real-time precise point positioning (RT-PPP) service of BDS-3 (PPP-B2b) was launched in July 2021 to deliver a\ndecimeter-level positioning service for users in China and its surrounding areas. During the use of PPP-B2b, we identified\ntwo issues adversely affecting positioning performance: system",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 25,
+        "bds_ppp": 33,
+        "boundary": 5,
+        "general": 7
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-025-01850-8.pdf",
+      "filename": "s10291-025-01850-8.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Real-time detection and identification of BDS-3 PPP-B2b signal-in-space anomalies in the user-side",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "The BeiDou global navigation satellite system (BDS-3) provides precise point positioning (PPP) service through the PPP-B2b\nsignal. Users in China and its surrounding areas can perform real-time PPP to achieve high-precision positioning solutions\nthrough this service. Obviously, the quality of PPP-B2",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 72,
+        "bds_ppp": 45,
+        "boundary": 0,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "B2b signal",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "orbit correction"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-025-01854-4.pdf",
+      "filename": "s10291-025-01854-4.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "PPP-B2b-RTK: a PPP-B2b augmentation method by using the SSR corrections from a single reference station",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 16,
+      "abstract_detected": true,
+      "abstract_snippet": "The PPP-B2b service provided by the BeiDou global navigation satellite system (BDS-3) is regarded as a convenient approach\nfor real-time precise point positioning (PPP). However, float PPP solutions with decimeter-level accuracy are typically\nachieved only after tens of minutes, which is unacceptabl",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 60,
+        "bds_ppp": 47,
+        "boundary": 2,
+        "general": 8
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service",
+          "B2b product",
+          "PPP-B2b product"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "\\bSSR\\b",
+          "state space representation",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bRTS\\b",
+          "real-time service"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-025-01925-6.pdf",
+      "filename": "s10291-025-01925-6.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Lin Pan1 · Chen Yang1",
+      "title_source": "before_abstract",
+      "title_confidence": "MEDIUM",
+      "page_count": 11,
+      "abstract_detected": true,
+      "abstract_snippet": "The BDS-3 PPP-B2b of China can offer BDS-3/GPS real-time precise point positioning (PPP) service in the Asia-Pacific\nregion, while the Galileo High Accuracy Service (HAS) of the European Union can offer Galileo/GPS real-time PPP\nservice worldwide. Their service areas have a geographical overlap in t",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 46,
+        "bds_ppp": 57,
+        "boundary": 25,
+        "general": 17
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "Galileo HAS",
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "\\bRTS\\b"
+        ],
+        "general": [
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-025-01998-3.pdf",
+      "filename": "s10291-025-01998-3.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Hong Huang1,2 · Wang Gao1,2 · Shuguo Pan1,2 · Longlei Qiao1,2 · Qing Zhao1,2",
+      "title_source": "before_abstract",
+      "title_confidence": "HIGH",
+      "page_count": 18,
+      "abstract_detected": true,
+      "abstract_snippet": "GNSS network RTK is widely used in autonomous driving and precision mapping due to its high accuracy and coverage.\nHowever, NRTK relies on stable communication links. In complex environments such as mountainous or offshore areas,\ncommunication interruptions or limited bandwidth can delay the transmi",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 22,
+        "bds_ppp": 10,
+        "boundary": 3,
+        "general": 17
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s12145-023-00939-3.pdf",
+      "filename": "s12145-023-00939-3.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Assessment of precipitable water vapor retrieved from precise point positioning with PPP-B2b service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 14,
+      "abstract_detected": true,
+      "abstract_snippet": "Real-time precise point positioning (RT-PPP) is an effective method to retrieve precipitable water vapor (PWV), which has\nbetter timeliness compared with the European Center for Medium-Range Weather Forecasts Reanalysis (ERA5). The real-\ntime service (RTS) required for RT-PPP broadcasted by network ",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 32,
+        "bds_ppp": 28,
+        "boundary": 11,
+        "general": 22
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bCNES\\b",
+          "\\bRTS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bZTD\\b",
+          "\\bPWV\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s40623-024-02031-6.pdf",
+      "filename": "s40623-024-02031-6.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Dual-frequency to five-frequency real-time precise point positioning using new BDS-3 PPP-B2b service",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": true,
+      "abstract_snippet": "BeiDou global navigation satellite system (BDS-3), a developed GNSS by China, has the ability to support five different\nsignals, including B1I, B3I, B1C, B2a, and B2b. Meanwhile, BDS-3 has officially provided the satellite-based precise point\npositioning (PPP) service through the B2b signal (PPP-B2b",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 43,
+        "bds_ppp": 37,
+        "boundary": 5,
+        "general": 3
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service",
+          "B2b signal",
+          "B2b correction",
+          "PPP-B2b corrections"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s41597-026-07032-6.pdf",
+      "filename": "s41597-026-07032-6.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "BDSet: A First-ever BDS Satellite-based PPP Augmentation Dataset Since 2023",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "online_notice",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 28,
+        "bds_ppp": 27,
+        "boundary": 4,
+        "general": 3
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "\\bBDS3\\b",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "\\bSSR\\b",
+          "state space representation"
+        ],
+        "boundary": [
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "\\bCLAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s41598-025-02477-y.pdf",
+      "filename": "s41598-025-02477-y.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "BeiDou-3 PPP-B2b real time pre-",
+      "title_source": "first_page_block",
+      "title_confidence": "HIGH",
+      "page_count": 15,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "online_notice",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 23,
+        "bds_ppp": 25,
+        "boundary": 3,
+        "general": 9
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bGLONASS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s41598-025-08834-1.pdf",
+      "filename": "s41598-025-08834-1.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "OPEN Single-base station positioning",
+      "title_source": "first_page_block",
+      "title_confidence": "HIGH",
+      "page_count": 13,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "online_notice",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 9,
+        "bds_ppp": 6,
+        "boundary": 0,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s41598-025-34174-1.pdf",
+      "filename": "s41598-025-34174-1.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "OPEN Synergistic augmentation of",
+      "title_source": "first_page_block",
+      "title_confidence": "HIGH",
+      "page_count": 20,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "online_notice",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 20,
+        "bds_ppp": 12,
+        "boundary": 1,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bHAS\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s43020-022-00066-2.pdf",
+      "filename": "s43020-022-00066-2.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Principle and performance of BDSBAS and PPP-B2b of BDS-3",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 9,
+      "abstract_detected": true,
+      "abstract_snippet": "Within the framework of differential augmentation, this paper introduces the basic technical framework and per-\nformance of the BeiDou Global Navigation Satellite System (BDS-3) Satellite-Based Augmentation System (BDSBAS),\nincluding orbit products, satellite clock offset products, ionosphere and it",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 26,
+        "bds_ppp": 32,
+        "boundary": 13,
+        "general": 3
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "B2b signal"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "SBAS",
+          "satellite.based augmentation"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s43020-024-00143-8.pdf",
+      "filename": "s43020-024-00143-8.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "High-precision services of BeiDou navigation satellite system (BDS): current state, achievements, and future directions",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 20,
+      "abstract_detected": true,
+      "abstract_snippet": "With the rapid development of technologies such as autonomous driving and robotic navigation, the demand\nfor accurate and reliable positioning results with BDS has increased. The current status and future development\nof BDS high precision services are reviewed. The operational PPP-B2b of BDS-3 achie",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 9,
+        "bds_ppp": 23,
+        "boundary": 7,
+        "general": 15
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "\\bCLAS\\b"
+        ],
+        "general": [
+          "\\bRTK\\b",
+          "\\bPPP-AR\\b",
+          "\\bPPP-RTK\\b",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s43020-025-00169-6.pdf",
+      "filename": "s43020-025-00169-6.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Performance of PPP and PPP-RTK with new-generation GNSS constellations and signals",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 23,
+      "abstract_detected": true,
+      "abstract_snippet": "The expansion of Global Navigation Satellite Systems (GNSS) and Regional Navigation Satellite Systems (RNSS),\nalong with broadcasting of additional signals, offers more options for Precise Point Positioning (PPP). Utilizing\na number of constellations and frequencies provides more precise and reliabl",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 9,
+        "bds_ppp": 29,
+        "boundary": 7,
+        "general": 32
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "\\bPPP\\b",
+          "precise point positioning"
+        ],
+        "boundary": [
+          "High Accuracy Service",
+          "\\bHAS\\b",
+          "satellite.based augmentation"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bGPS\\b",
+          "\\bRTK\\b",
+          "\\bPPP-AR\\b",
+          "\\bPPP-RTK\\b",
+          "multi-GNSS",
+          "Galileo(?!\\s+HAS)"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\s43020-025-00172-x.pdf",
+      "filename": "s43020-025-00172-x.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Integrated real-time precise point positioning system with B2b/B2a/B1C services",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "Real-Time Precise Point Positioning (RTPPP) technology is one of the most important means of positioning and navi-\ngation, whereas this type of service requires Internet access. As an alternative, satellite-based RTPPP can be utilized,\nespecially for the PPP-B2b service of the BeiDou Navigation Sate",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "valid_title_candidate",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 25,
+        "bds_ppp": 28,
+        "boundary": 3,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time PPP",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bHAS\\b",
+          "SBAS"
+        ],
+        "general": [
+          "\\bGNSS\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\sensors-23-02652.pdf",
+      "filename": "sensors-23-02652.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "PPP/INS Tight Integration with BDS-3 PPP-B2b Service in the Urban Environment",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": false,
+      "abstract_snippet": "",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 12,
+        "bds_ppp": 13,
+        "boundary": 0,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "\\bBDS-3 PPP-B2b\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\sensors-25-06700.pdf",
+      "filename": "sensors-25-06700.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Assessing BeiDou-3 PPP-B2b with Signal-in-Space Ranging Error (SISRE) and Its Performances in Positioning and ZTD Estimation",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 19,
+      "abstract_detected": true,
+      "abstract_snippet": "The PPP-B2b service of BeiDou-3 enables real-time precise point positioning (RT-PPP)\nthroughcorrectioninformationcontainedinB2bsignals,circumventingtherelianceon\nground-basednetworkinfrastructures. Thisstudycomprehensivelyevaluatestheaccuracy\nofPPP-B2bcorrectionparametersandtheirimpactonpositioninga",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 20,
+        "bds_ppp": 26,
+        "boundary": 3,
+        "general": 5
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b",
+          "PPP-B2b service"
+        ],
+        "bds_ppp": [
+          "\\bBDS-3\\b",
+          "BeiDou",
+          "\\bPPP\\b",
+          "precise point positioning",
+          "real-time precise",
+          "real.time precise"
+        ],
+        "boundary": [
+          "\\bCNES\\b"
+        ],
+        "general": [
+          "\\bZTD\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\sensors-26-01795.pdf",
+      "filename": "sensors-26-01795.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Evaluation of the Ionospheric Corrections Generated by Smartphones with Different Real-Time Products",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 17,
+      "abstract_detected": true,
+      "abstract_snippet": "Ionosphericdelayisadominanterrorsourceinglobalnavigationsatellitesystems(GNSSs).\nConventionalionosphericestimationreliesondensenetworksofexpensivegeodeticre-\nceivers, limiting accessibility and coverage. With the widespread availability of multi-\nfrequency,multi-constellationsmartphonescapableofcarr",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 6,
+        "bds_ppp": 9,
+        "boundary": 2,
+        "general": 11
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b",
+          "\\bPPP-B2b\\b",
+          "\\bPPP-B2B\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [
+          "\\bCNES\\b"
+        ],
+        "general": [
+          "\\bGNSS\\b",
+          "\\bRTK\\b",
+          "\\bPPP-RTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    },
+    {
+      "file_path": "E:\\PPP\\CC2read\\paper\\sustainability-18-02400.pdf",
+      "filename": "sustainability-18-02400.pdf",
+      "parsed_doi": null,
+      "best_title_candidate": "Design and Preliminary Evaluation of an Integrated Communication and Navigation Security Assurance Platform Based on BeiDou-3: A Case Study in Qinghai Province",
+      "title_source": "pdf_metadata",
+      "title_confidence": "HIGH",
+      "page_count": 31,
+      "abstract_detected": true,
+      "abstract_snippet": "Reliable communications, accurate localization, and efficient safety monitoring remain\ncritical bottlenecks for sustainable development in remote high‑altitude regions. On the\nQinghai–Tibet Plateau, harsh topography and sparse infrastructure create a persistent\n“digital divide” that threatens human ",
+      "references_detected": false,
+      "text_extractable": true,
+      "garbled_text_ratio": 0.0,
+      "extraction_quality": "PASS",
+      "invalid_first_line_reason": "unknown",
+      "relevance_class": "HIGH_B2B_RELEVANCE",
+      "keyword_scores": {
+        "core_b2b": 2,
+        "bds_ppp": 7,
+        "boundary": 0,
+        "general": 2
+      },
+      "matched_keywords": {
+        "core_b2b": [
+          "\\bB2b\\b"
+        ],
+        "bds_ppp": [
+          "BeiDou",
+          "\\bPPP\\b"
+        ],
+        "boundary": [],
+        "general": [
+          "\\bRTK\\b"
+        ]
+      },
+      "recommended_next_step": "full_extraction"
+    }
+  ]
+}

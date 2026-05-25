@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nLong-Term Performance Evaluation of BeiDou PPP-B2b\nProducts and Its Application in Time Service\nQianqianHe1,LiangChen2,*,LeiLiu1,DaiyanZhao1,XiaopengGong3 ,YidongLou3 andQiGuan1\n1 ChinaElectronicsTechnologyGroupCorporationNo.15thResearchInstitute,No.211BeisihuanMiddleRoad,\nBeijing100083,China\n2 BeijingInstituteofTrackingandTelecommunicationsTechnology(BITTT),26BeiqingRoad,\nBeijing100094,China\n3 GNSSResearchCenter,WuhanUniversity,LuoyuRoad129,Wuhan430079,China\n* Correspondence:chenliang@beidou.gov.cn\nAbstract: Precise Point Positioning (PPP) is an official service of the ",
+    "char_length": 3879
+  },
+  {
+    "quote_id": "qb_9b9004e93f",
+    "span_index": 1,
+    "text": "RemoteSens.2023,15,1358 2of16\nits surrounding areas based on satellite orbits, clocks, and differential code bias (DCB)\ncorrectionsthroughtheBDS-3PPP-B2bsignal[8–10].\nMuchresearchhasfocusedontheevaluationoftheaccuracyandavailabilityofBDS-\n3 PPP-B2b products. It was found that PPP-B2b corrections could greatly improve the\ndiscontinuousorbitandclockerrorsofbroadcastephemerisupdating. Inaddition,the\naccuracyofthePPP-B2borbitwasslightlybetterthanthatofbroadcastephemeris,while\ntheaccuracyofthePPP-B2bclockimprovedbyabout85%comparedtothatofbroadcast\nephemeris[11]. However,therearenonnegligibleconstan",
+    "char_length": 3432
+  },
+  {
+    "quote_id": "qb_21a482f743",
+    "span_index": 2,
+    "text": "RemoteSens.2023,15,1358 3of16\nv ,andv arethevectorsusedfororbitconversion. Then,precisesatelliteorbitandclock\nC A\ncanberecovered:\n\nX\n \nX\n ∆ \nY\nB\nB\n2\n2\nb\nb\n = Y b\nb\nr\nr\nd\nd\nc\nc\n− ∆\nX\nY\nZ Z ∆ (3)\n B2b\nts = ts\nbrdc\n−\n∆\nClk\nZ\nB2b brdc c\nwhere (X , Y , Z ) and ts are the precise satellite orbit coordinate vector and\nB2b B2b B2b B2b\nclock offset recovered from PPP-B2b corrections; (X , Y , Z ) and ts are the\nbrdc brdc brdc brdc\nsatelliteorbitcoordinatevectorandclockofbroadcasterephemeris;∆ representsPPP-\nClk\nB2bsatelliteclockcorrections;cdenotesthespeedofradiowavesinvacuum.\nInthis",
+    "char_length": 2851
+  },
+  {
+    "quote_id": "qb_d2f56b127e",
+    "span_index": 3,
+    "text": "RemoteSens.2023,15,1358 4of16\nThe clock time datum should be eliminated if we want to evaluate the RMSE and\nstandarddeviation(STD)ofthesatelliteclock. Wecangetthedouble-differencedsatellite\nclockbyeliminatingthetimedatum.\n∆∇ts = ∆ts −∆T = δs − 1 ∑s=m εs (10)\nDif Dif Dif B2b m s=1 B2b\nwhere∆∇ts isadouble-differencedsatelliteclockerror. Thus,theRMSEandSTDofthe\nDif\nsatelliteclockcanbecalculatedbasedonmulti-epoch∆∇ts .\nDif\n2.2. PPPTimeService\nIn GNSS time synchronization, ionospheric-free (IF) combination PPP is widely\nadopted since it eliminates the first order ionospheric delay. For simplicity, ",
+    "char_length": 2919
+  },
+  {
+    "quote_id": "qb_9727138044",
+    "span_index": 4,
+    "text": "RemoteSens.2023,15,1358 5of16\nreceiverclockestimatedbyusingpost-processedsatelliteorbitandclockproductsisused\nasthereferencevalue.\n∆∇t = ∆t −∆t´ = ∆σ −∆ε (16)\nr,sys r,sys r,sys tr tr\nwhere ∆∇t is the double-differenced receiver clock; ∆t´ is the single-differenced\nr,sys r,sys\nreceiverclockestimatedbyusingpost-processedsatelliteorbitandclockproducts;∆ε is\ntr\nthesingle-differencedreceiverclockerrorestimatedbyusingpost-processedsatelliteorbit\nandclockproductsandcangenerallybeignored.\n3. EvaluationofPPP-B2bProducts\nIn this section, the GPS and BDS-3 satellite orbit and clock accuracy of PPP-B2b\npr",
+    "char_length": 3246
+  },
+  {
+    "quote_id": "qb_ebac236854",
+    "span_index": 5,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 6 of 18\nRReemmoottee SSeennss.. 22002233,, 1155,, x1 3F5O8R PEER REVIEW 6 6oof f1186\nFigure 1. Single-differenced satellite clock series between different products in MJDN 59100 (8 Sep-\ntember 2020); B2bF,i ggubrme, 1a.ndS winugmle -rdeipffreerseennct epdrosdautecltlsi toef cPlPoPck-Bs2ebr,i eGsFZbe, tawndee WnHdiUff.e rent products in MJDN 59100\nFigure 1. Single-differenced satellite clock series between different products in MJDN 59100 (8 Sep-\n(8September2020);B2b,gbm,andwumrepresentproductsofPPP-B2b,GFZ,andWHU.\ntember 2020); B2b, gbm, and wum represe",
+    "char_length": 1431
+  },
+  {
+    "quote_id": "qb_1d8ad6d540",
+    "span_index": 6,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 7 of 18\nThe overlapping Allan deviation (ADEV) can be used to evaluate the stability of the\nRemoteSens.2023,15,1358 satellite clock time datum [27]. Figure 3 gives the GPS and BDS-3 ADEV according t7oo tfh16e\ntime datum series of B2b-gbm. According to the results, the average ADEVs are about 8 ×\n10−12 and 8 × 10−13 at 30 s for GPS and BDS−3, respectively. When the average time is 104 s,\nttihme eavdeartaugme sAeDriEesVos faBre2 ba-bgobumt .1 A× c1c0o−r13d ainngd t2o ×th 1e0−r1e4 sfuolrt sG, PthSe aanvde rBaDgeS-A3,D rEesVpsecatrievealbyo. uInt\n8ad×di1ti0",
+    "char_length": 4364
+  },
+  {
+    "quote_id": "qb_858de92c1d",
+    "span_index": 7,
+    "text": "RemoteSens.2023,15,1358 8of16\nRemote Sens. 2023, 15, x FOR PEER REVIEW 8 of 18\nRemote Sens. 2023, 15, x FOR PEER RE F VFi IiE ggW uu rree 44. S.ateSllaittee ollribteit aonrdb citlocakn edrrocrlo ticmke eserrrioers otfi mPPeP-sBe2rbi epsroodfucPtsP inP -MBJ2DbNp 5r9o1d00u 9(c9 t o sSf e1pi 8 nt emMbJeDr N 59100\n(892S0e20p)t.e mber82020).\nFigure 5 presents the satellite orbit time series of PPP-B2b products. According to\nFigure 5, the accuracy of the satellite orbit is quite stable for PPP-B2b products, except for\nsome outliers of GPS satellites, especially in along and cross directions. As for ",
+    "char_length": 2826
+  },
+  {
+    "quote_id": "qb_7356742cab",
+    "span_index": 8,
+    "text": "RemoteSens.2023,15,1358 9of16\nFigure 6 presents the time series of the satellite clock RMSE, STD. In addition, we\nalso give the STD of SISRE since the satellite orbit and clock are coupled. The average\nsatelliteclockRMSEis1.97nsand2.45nsforBDS-3andGPS,respectively. Overall,the\nsatelliteclockaccuracyoftheBDS-3satelliteisbetterthanthatoftheGPSsatelliteforboth\nRMSEandSTD.AlthoughthelargeRMSEofthesatelliteclockwillnotgreatlyaffectthe\naccuracyofPPPafterconvergence,itwillslowdowntheconvergencespeedofPPP.Asfor\nthesatelliteclockandSISRESTD,theaccuracyofBDS-3isalsobetterthanthatoftheGPS.\nAmongthem,thea",
+    "char_length": 2851
+  },
+  {
+    "quote_id": "qb_6635971868",
+    "span_index": 9,
+    "text": "RemoteSens.2023,15,1358 10of16\nRemote Sens. 2023, 15, x FOR PEER RvEaVliIEdWat ion,10baselinesareformedbasedonthese8stationsfrom13kmto4494km11, aonf d18\nthedetailedinformationisgiveninTable1.\nFFigiguurere7 .7.S Statatitoionnd disitsrtirbibuutitoionnu usesdedi nint hthisisp papapere.r.\nTable 1. Baseline information.\nTable1.Baselineinformation.\nNumber Station Name Length (km)\nNumber StationName Length(km)\nBLBL0101 jfnjfgn—g—wwuuhh22 1313\nBLBL0202 bibki0k—0—ppooll22 2323\nBL03 pol2—urum 1053\nBL03 pol2—urum 1053\nBL04 gamg—jfng 1370\nBLBL0405 galmckg4——pjfonl2g 18133370\nBL06 gamg—ulab 2184\nBL05 lck4—",
+    "char_length": 2630
+  },
+  {
+    "quote_id": "qb_eaaa6df12d",
+    "span_index": 10,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 12 of 18\nRemoteSens.2023,15,1358 11of16\n4.2. PPP One-Way Timing\nIn this section, lck4 is selected for PPP timing evaluation since it is equipped with a\n4.2. PPPOne-WayTiming\nhigh-performance atomic clock. Only one-week results are given limited to data. Figure 8\ngivesI nththe irsesceecivtieorn c,llocckk4 aisndse ilnecteterd-syfostrePmP Pbitaism (iInSgB)e svearliueas toiof nstsaitniocen iltciks4e iqnu aip wpeedekw (fitrhoma\nhMigJhD-Npe 5r9fo1r1m9 aton c5e91a2to6)m. Aiccccloorcdki.nOg ntoly thoen ere-wsueletsk, rtehseu GltPsSa rreecgeiivveenr lcilmocitke ",
+    "char_length": 4107
+  },
+  {
+    "quote_id": "qb_605e3b07de",
+    "span_index": 11,
+    "text": "R Re R meemo m toe ot et S eSe S neens n .s s.2 .20 202 023 23, 3,1 ,15 15, 5,x ,1 F x3O 5F8R O R P E P E E R E R R E R V E I V E I W EW 13 1 13 o2 foo ff 1 811 68\nFigure 9. Allan deviation of lck4 receiver clock series from PPP one-way timing from MJDN 59119\nFFiigguurree9 9.. AAlllalannd deevviaiatitoionno offl clkck44r erceecievievrerc lcolcokckse sreierisefsr ofrmomPP PPPoPn oen-we-awyatyim tiimnginfgro fmroMmJ MDNJD5N91 51991t1o9\nto 59126, with products of PPP-B2b.\n5t9o1 52961,2w6i,t whipthro pdruocdtsucotfsP oPf PP-PBP2b-B.2b.\n44. 4 3..3. 3 .P . PP PPP PP P T Ti T miimm e eS eS y Syn ync ",
+    "char_length": 3537
+  },
+  {
+    "quote_id": "qb_49356d9a78",
+    "span_index": 12,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 14 of 18\nRemoteSens.2023,15,1358 13of16\nFigure 11 shows the GPS and BDS-3 time synchronization series of 10 baselines from\n13 km to 4494 km. In these experiments, the receiver clock needs several hours to converge\nat thFe iignuitrieal1 1phshasoew. sAtmheonGgP tShaen 1d0 BbDasSe-l3inteims, ealstyhnocuhgrho nthizea tbiaosnelsienreie osfo bfi1k00-bpaosle2l iins eosnflryo m23\n13kmto4494km. Intheseexperiments,thereceiverclockneedsseveralhourstoconverge\nkm, the BDS-3 time synchronization series still show about a 1 ns systematic bias. As for\nat the initial ph",
+    "char_length": 3272
+  },
+  {
+    "quote_id": "qb_183b677565",
+    "span_index": 13,
+    "text": "RReemmoottee SSeennss.. 22002233,, 1155,, x1 3F5O8R PEER REVIEW 151 4oof f1186\nFFiigguurree 1122.. RRMMSSEE aanndd SSTTDD sseerriieess ooff ttiimmee ssyynncchhrroonniizzaattiioonn ffrroomm 1100 bbaasseelliinneess;; tthhee 11sstt aanndd 22nndd ppaanneellss\nrreepprreesseenntt RRMMSSEE ooff ttiimmee ssyynncchhrroonniizzaattiioonn ffoorr GGPPSS aanndd BBDDSS--33,, rreessppeeccttiivveellyy;; tthhee 33rrdd aanndd 44tthh ppaanneellss\nrreepprreesseenntt SSTTDD ooff ttiimmee ssyynncchhrroonniizzaattiioonn ffoorr GGPPSS aanndd BBDDSS--33,, rreessppeeccttiivveellyy..\nBBaasseedd oonn tthhee rreessuullttss",
+    "char_length": 2427
+  },
+  {
+    "quote_id": "qb_7dac32ab20",
+    "span_index": 14,
+    "text": "RemoteSens.2023,15,1358 15of16\n5. ConclusionsandOutlook\nPPPtechnologyiswidelyusedfortimeservice,whichneedshigh-precisionsatellite\norbitandclockproducts. TheBDS-3PPP-B2bsignalcanprovidereal-timehigh-precision\nsatelliteorbitandclockproducts,whichcanmeetthedemandsofPPPservicesforChina\nanditssurroundingareas. Inthispaper,wefocusontheevaluationofPPP-B2bproducts.\nPPP-B2b products from MJDN 59079 (18 August 2020) to 59740 (11 June 2022), which\nare collected by our own receivers, are adopted for time datum stability and accuracy\nevaluation. The PPP-B2b corrections are converted to precise satellite or",
+    "char_length": 3830
+  },
+  {
+    "quote_id": "qb_638fdbc8a6",
+    "span_index": 15,
+    "text": "RemoteSens.2023,15,1358 16of16\n4. Geng,J.;Guo,J.;Meng,X.;Gao,K.SpeedingupPPPambiguityresolutionusingtriple-frequencyGPS/BeiDou/Galileo/QZSS\ndata.J.Geodesy2020,94,6.[CrossRef]\n5. Zhang,P.;Tu,R.;Han,J.;Gao,Y.;Zhang,R.;Lu,X.CharacterizationofbiasesbetweenBDS-3andBDS-2,GPS,Galileoand\nGLONASSobservationsandtheireffectonprecisetimeandfrequencytransfer.Meas.Sci.Technol.2021,32,035006.[CrossRef]\n6. Cai,H.;Meng,Y.;Geng,C.;Gao,W.;Zhang,T.;Li,G.;Shao,B.;Xin,J.;Lu,J.;Mao,Y.;etal.BDS-3performanceassessment:PNT,\nSBAS,PPP,SMCandSAR.ActaGeod.Cartogr.Sin.2021,50,427–435.\n7. Yang,Y.;Gao,W.;Guo,S.;Mao,Y.;Yang,Y.",
+    "char_length": 4761
+  }
+]

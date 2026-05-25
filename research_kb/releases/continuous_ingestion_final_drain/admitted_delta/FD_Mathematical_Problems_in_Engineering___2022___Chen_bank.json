@@ -1,0 +1,68 @@
+[
+  {
+    "quote_id": "qb_22b758054c",
+    "span_index": 0,
+    "text": "Hindawi\nMathematical Problems in Engineering\nVolume 2022, Article ID 1112646, 11 pages\nhttps://doi.org/10.1155/2022/1112646\nResearch Article\nSignal-in-Space and Positioning Performance of BDS Open\nAugmentation Service\nLiang Chen ,1 Guangyu Zhou ,1 Guo Chen ,2 Weibin Sun ,2 and Luotian Pan 3,4\n1SchoolofElectronicand InformationEngineering,BeihangUniversity,Beijing100191,China\n2GNSSResearch Center,WuhanUniversity,Wuhan430079,China\n3SchoolofLand ScienceandTechnology,ChinaUniversityof GeosciencesBeijing,Beijing 100083,China\n4BeijingKeyLaboratoryofUrbanSpatial InformationEngineering,Beijing100038, ",
+    "char_length": 3940
+  },
+  {
+    "quote_id": "qb_c50ba06534",
+    "span_index": 1,
+    "text": "2 MathematicalProblemsinEngineering\nbiasescorrections,etc.[7].QZSSCLAS,basedonSSR,isan ofBDS-3andGPSarebroadcastedforusersinandaround\nopennation-widePPP-RTKserviceforJapanandhasbeen China currently [17]. BDS PPP-B2b SSR messages can\noperational since November 2018 [8], which can augment correcttheCNAV1NAVephemerisofBDSB1Csignaland\nQZSS, GPS, and Galileo signals currently and will provide the LNAV NAV ephemeris of GPS L1C/A signal [13]. Re-\naugmentation service for GLONASS in the future [9]. (e ceiver can recover those SSR corrections to real-time PPP-\nsatellite system developed by Australia an",
+    "char_length": 5420
+  },
+  {
+    "quote_id": "qb_291459daad",
+    "span_index": 2,
+    "text": "MathematicalProblemsinEngineering 3\nRanging Signal Broadcasting Augmentation Data Broadcasting\nAugmentation Satellites\nGNSS (GPS, GLONASS, Galileo,\n(GEO, IGSO, MEO/LEO)\nBDS, QZSS, IRNSS)\nAugmentation\nData Augmentation Data\n(Satellite clock error,\nSatellite orbit error,\nlonospheric delay,\nOthers)\nRanging Signal\nNavigation Data\nAugmentation\nAugmentation\nSatellites\nData Uplink\nControl Stations\nUser Terminals\nRanging Ground Postionaing\nSignal Reference Augmentation Centers\nReceiving Points Calculation of Position\nAugmentation Data\nGeneration\nObservables\nFigure1: ISO18197typical augmentationsatelli",
+    "char_length": 3146
+  },
+  {
+    "quote_id": "qb_43ed975d8f",
+    "span_index": 3,
+    "text": "4 MathematicalProblemsinEngineering\nX �X +δX. (3) 3.1.Coverage. FromTable1,theBDS-3canprovidethePPP\nprec brdc\nserviceforAsia-PacificusersviaPPP-B2bsignalbroadcasted\nby three GEO satellites. (ere are many conditions con-\nstraining PPP-B2b service coverage like the coverage of\n2.2.2. Clock Recovery. Like orbit corrections, clock correc- BDS-3 three GEOs, the number, availability, and space\ntionsinPPP-B2bSSRarerelativetoclockoffsetcalculatedby geometry of visible satellites matched with SSR messages\nbroadcast ephemeris. (e corrected satellite clock can be successfully. From (1), the estimated par",
+    "char_length": 5613
+  },
+  {
+    "quote_id": "qb_8dbb724c71",
+    "span_index": 4,
+    "text": "Antenna\nRF Signal\nRF Front End\nDigital Signal\nInformation Processing\nPPP-B2b SSR Orbit,\nObservations\nClock, Bias et al. Signal Brocadcast Ephemeris PPP-B2b SSR Recovery\nProcessing\nPPP-B2b SSR Coordinate, Clock,\nTroposphere et al.\nData Preprocessing\nFigure2: FrameofBDSPPP-B2bdecoding processatthe terminal.\n(en STD can be obtained by\nBDS PPP Coverage based on PPP-B2b SSR 􏽳�������������������������\n6 8 0 0 STD� 􏽐n i�1 􏼐Δ∇dtS i −AVE􏼐Δ∇dtS􏼑􏼑 2 , (8)\n40 n−1\n20 where Δ∇dtS is the quadratic difference in i-th epoch.\n0 i\n‒20 AVE(Δ∇dtS), the average of these quadratic clock differ-\n‒40 ences,includesnot",
+    "char_length": 3263
+  },
+  {
+    "quote_id": "qb_ea7ac350de",
+    "span_index": 5,
+    "text": "offset accuracy is about 0.30ns. It is obvious that the im-\nprovement rate of PPP-B2b SSR on BDS clock offset can\nreach 77%, which far exceeds about 40% improvement on\nBDS orbit. While it is opposite for GPS, the improvement\n–0.5\nrate on orbit can reach about 80% exceeding 61% on clock\n–1.0\noffset. We can also find from Table 2, due to the use of\nintersatellite links, the accuracy of BDS-3 broadcast\nephemeris is better than GPS.\n3.3. Signal-in-Space Accuracy. From (1), we can find that\nuserspaymoreattentiononprojectionerrorintheline-of-\nsight direction from the satellite to receiver, which eff",
+    "char_length": 3954
+  },
+  {
+    "quote_id": "qb_18e5bd4bfd",
+    "span_index": 6,
+    "text": "Table 2: Accuracystatistics ofBDS-3andGPS broadcastephemerisandPPP-B2b SSRmessage.\nOrbitRMS(cm)\nType ClockbiasSTD(ns)\nAlong Cross Radial\nBRDC 33.30 31.55 15.43 0.90\nBDS-3\nPPP-B2b SSR 22.60 16.31 8.31 0.21\nImprovementrate 32% 48% 46% 77%\nBRDC 110.02 44.23 38.31 0.77\nGPS\nPPP-B2b SSR 19.34 11.79 6.10 0.30\nImprovementrate 82% 73% 84% 61%\nTable 3:SISRE coefficientsofBDSandGPS.\nSatellite Orbit Altitude (km) α β\nGEO/IGSO 35786 0.99 127\nBDS\nMEO 21528 0.98 54\nGPS 20200 0.98 49\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\n0.0\n346 347 348 349 350 351 352 353 354\nthere is no need to correct the satellite-dependent PCO in (3) ",
+    "char_length": 2441
+  },
+  {
+    "quote_id": "qb_8964195fb4",
+    "span_index": 7,
+    "text": "0.00\n91C 02C 12C 22C 32C 42C 52C 62C 72C 82C 92C 03C 23C 33C 43C 53C 63C 73C 83C 93C 04C 14C\nSatellite Number\n24C 34C 44C 54C 64C 10G 20G 30G 50G 60G 70G 80G 90G 01G 21G 31G 51G 61G 71G 91G 02G 12G 22G 32G 42G 52G 62G 72G 82G 92G 03G 13G 23G\n0.08\n0.06\n0.04\n0.02\n)m(\nERSIS\n8 MathematicalProblemsinEngineering\n0.16\n0.14\n0.12\n0.10\nBDS\nGPS\nFigure8: Averageof BDS-3andGPS SISREofPPP-B2b SSRmessage.\n60°N 60°E\n90°E 120°E\n150°E 60°N\n30°N 30°N\n0° 0°\n60°E 150°E\n90°E 120°E\nFigure9:Distribution oftracking station.\nTable 4:Estimationstrategy ofprecisepositioningreceiverbased onBDSPPP-B2b.\nParameters Model\nUDI",
+    "char_length": 1489
+  },
+  {
+    "quote_id": "qb_7eae45be6e",
+    "span_index": 8,
+    "text": "1.4\n1.2\n1.0\n0.8\n0.6\n0.4\n0.2\n0.0\n0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0\nHour\nPPP, respectively. Table 5 shows the convergence compar- minutesand2.5minutes,separately.BDS+GPSPPPbased\nisonofBDSPPPandBDS+GPScombinedwithPPPbased on PPP-B2b SSR can converge to 20cm in horizontal di-\nonBDSPPP-B2bSSRmessagesunderthosetwoconditions. rectionand40cminverticaldirectionafteranaverageof10\nFromFigures 10and 11 andTable 5,wecan findthatBDS minutes and 3.5 minutes, separately. 68% statistic results\nPPPbasedPPP-B2bSSRcanconvergeto30cminhorizontal show it takes 8.5 minutes in horizontal and 3.5 minutes in\ndirection",
+    "char_length": 1501
+  },
+  {
+    "quote_id": "qb_8e06e41a02",
+    "span_index": 9,
+    "text": "10 MathematicalProblemsinEngineering\nTable 5:Convergencestatistic ofBDSPPPandBDS+GPSPPPbased onBDSPPP-B2b SSR.\nConvergence(min) Improvement rate\nMode Condition\nMean 68% 95% Mean 68% 95%\nH(20cm) 11.5 20.5 118\nV(40cm) 4.5 6.5 54.5\nBDS —\nH(30cm) 5 8.5 58\nV(60cm) 2.5 3.5 23.5\nH(20cm) 10 15.5 66.5 13.04% 24.39% 43.64%\nV(40cm) 3.5 7 37 22.22% −7.69% 32.11%\nBDS+GPS\nH(30cm) 6 8 31 −20.00% 5.88% 46.55%\nV(60cm) 2 4 15.5 20.00% −14.29% 34.04%\nAverage — 39.09%\nTable 6: Accuracystatistic ofBDSPPPandBDS+GPS PPPbasedonBDSPPP-B2b SSR.\nAccuracy (cm) Improvement rate\nMode\nMean 68% 95% Mean 68% 95%\nH 7.93 10.83 ",
+    "char_length": 3880
+  },
+  {
+    "quote_id": "qb_e6bf7692c2",
+    "span_index": 10,
+    "text": "MathematicalProblemsinEngineering 11\nAcknowledgments [15] K. Asari, S. Matsuoka, and H. Amitani, “QZSS RTK-PPP\napplication to autonomous cars,” in Proceedings of the ION\n(is research was funded by Beijing Key Laboratory of GNSS+2016,pp.2136–2142,InstituteofNavigation,Portland,\nUrban Spatial Information Engineering (No. 20210223), Oregon,2016.\nYoung Elite Scientists Sponsorship Program by CAST [16] Iso 18197:2015(E), Space Systems–Space Based Services Re-\nquirements for Centimeter Class Positioning, International\n(2020-2023),ProjectfundedbyChina PostdoctoralScience\nOrganization forStandardizati",
+    "char_length": 6431
+  }
+]

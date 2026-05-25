@@ -1,0 +1,113 @@
+{
+  "processed_at": "2026-05-21T18:20:55.943068",
+  "total": 13,
+  "closed_as_weak_evidence": 0,
+  "kept_for_manual_review": 13,
+  "closed_items": [],
+  "kept_items": [
+    {
+      "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+      "field": "mathematical_model",
+      "quote_id": "qb_174ea5b80e",
+      "original_reason": "keyword_overlap_low_confidence",
+      "decision": "kept",
+      "close_reason": "low confidence keyword overlap, must be manually verified"
+    },
+    {
+      "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+      "field": "mathematical_model",
+      "quote_id": "qb_174ea5b80e",
+      "original_reason": "keyword_overlap_low_confidence",
+      "decision": "kept",
+      "close_reason": "low confidence keyword overlap, must be manually verified"
+    },
+    {
+      "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+      "field": "correction_types",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    },
+    {
+      "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+      "field": "novelty_audit",
+      "quote_id": "qb_bfc1f13671",
+      "original_reason": "keyword_overlap_low_confidence",
+      "decision": "kept",
+      "close_reason": "low confidence keyword overlap, must be manually verified"
+    },
+    {
+      "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+      "field": "correction_types",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    },
+    {
+      "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+      "field": "novelty_audit",
+      "quote_id": "qb_d59800496e",
+      "original_reason": "keyword_overlap_low_confidence",
+      "decision": "kept",
+      "close_reason": "low confidence keyword overlap, must be manually verified"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "field": "mathematical_model",
+      "quote_id": "qb_6641c0085b",
+      "original_reason": "keyword_overlap_low_confidence",
+      "decision": "kept",
+      "close_reason": "low confidence keyword overlap, must be manually verified"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "field": "ionospheric_handling",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "field": "datasets",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "field": "metrics",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "field": "metrics",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "field": "metrics",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    },
+    {
+      "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "field": "metrics",
+      "quote_id": null,
+      "original_reason": "unresolved_evidence",
+      "decision": "kept",
+      "close_reason": "unresolved evidence on critical field, requires human review"
+    }
+  ]
+}

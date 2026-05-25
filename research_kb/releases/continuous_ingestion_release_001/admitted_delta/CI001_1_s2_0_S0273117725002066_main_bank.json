@@ -1,0 +1,86 @@
+[
+  {
+    "quote_id": "qb_01f10bc2f0",
+    "span_index": 0,
+    "text": "Available online at www.sciencedirect.com\nScienceDirect\nAdvances in Space Research 75(2025)7212–7225\nwww.elsevier.com/locate/asr\nBDS-3/GPS uncombined real-time PPP with PPP-B2b precise\nproducts: Modeling and its long-term performance evaluation\nWujiao Daia,⁎ , Ning Liua , Zhehao Zhanga, Chengpan Tangb, Zhixue Zhangc,\nYufei Yangc, Lin Pana\na School of Geosciences and Info-Physics, Central SouthUniversity,Changsha410083,China\nb Shanghai Astronomical Observatory, Chinese Academy ofSciences,Shanghai200030,China\ncBeijingSatelliteNavigationCenter,Beijing100094,China\nReceived 9 December 2024; receive",
+    "char_length": 3583
+  },
+  {
+    "quote_id": "qb_2cd96f3090",
+    "span_index": 1,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nAs one of the services provided by BDS-3, the precise gence, respectively, and the B1C/B2a ionospheric-free (IF)\npositioning service (i.e., PPP-B2b) is a kind of open and combination showed better positioning accuracy than the\nfree high-precision service provided for users by the BDS- B1I/B3I IF combination. Geng et al. (2022) reported that\n3 Geostationary Orbit (GEO) satel lites, which broadcast the RT-PPP with PPP-B2b service could achieve the root\nprecisesatelliteorbit,clockoffset,anddifferentialcodebias mean square (RMS) statistics of 3D ",
+    "char_length": 6143
+  },
+  {
+    "quote_id": "qb_97b5347658",
+    "span_index": 2,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nTable 1\nPPP-B2b informa tiontypes.\nType Type name Updating interval(s) Validate time(s) BDS-3 GPS\n1 Satellite mask 48 –\n2 Orbit correction and userrangeaccuracyindex 48 96\n3 DCB 48 86,400 –\n4 Satellite clockcorrection 6 12\nsages of GPS L1/L2 signals, respectively. BDS-3 CNAV-1 observations. To be consistent, the reference of satellite\nuses an 18-parameter model for orbit calculation, while positions is firstly transferred to the CoM, and then when\nGPS L-NAV uses a 16-parameter model. It is worth noting using the observations of a certain freq",
+    "char_length": 4512
+  },
+  {
+    "quote_id": "qb_e342ba2d98",
+    "span_index": 3,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\n2.3. DCB correction Because the recovered GPS and BDS-3 satellite clocks\nwith PPP-B2b message refer to the L1/L2 IF combination\nIn view that the satellite code hardware delay included and B3I signal, respectively, they wi llinevitablyabsorbthe\nin the single-frequency code observations is inconsistent corresponding code hardware delay at the satellite. The\nwith the assimilated code hardware delay in the PPP-B2b formula can be expressed as:\nprecise satellite clock offsets, it is necessary to apply DCB\ncorrectionstothecodeobservationstouniformth",
+    "char_length": 5174
+  },
+  {
+    "quote_id": "qb_48817551ad",
+    "span_index": 4,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nequations. Therefore, after linearizing the raw observa-\nI represents the ionosphere delay that absorbs the code\n1\ntions, the widely used observation equations can be\nhardware delay at the receiver for BDS-3 andatbothsatel-\nexpressed as:\nlite and receiver for GPS, N denotes the phase ambiguity\nps G ls G x cdt G ms G Z lG I s G Os G that absorbs the phase and code hardware delay at both\nr j r r r r j r 1 a\nsatellite an d receiver. Other error items, such as PCO,\nls r G j ls r G x cdt G r ms r G Z r lG j I s r G 1 N s r G j Os a G PCV, troposph",
+    "char_length": 4259
+  },
+  {
+    "quote_id": "qb_7c9bc45ff2",
+    "span_index": 5,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nTable 2\nProcessing strategies ofRT-PPP.\nItems Processing strategies\nFrequency BDS-3: B1I, B3I; GPS: L1,L2\nElevation cut-offangle 10°\nSampling interval 30 s\nSampling Elevation-dependent weights\nEstimator Kalman filter\nSatellite orbit PPP-B2b products\nSatellite clockoffset PPP-B2b products\nDCB PPP-B2b products\nIonospheric delay Estimated as random-wal kprocess\nTropospheric delay ZWD is estimated as random-walk process, and Global Mapping Function\n(GMF)isusedaswetmappingfunction\nReceiver clockoffset Estimated as white noiseprocess\nPhase ambiguit",
+    "char_length": 1611
+  },
+  {
+    "quote_id": "qb_ed0bfb9292",
+    "span_index": 6,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nFig. 4. RT-PPP positioning errors at POL2 station for ‘‘Two Clk with Fig. 5. RT-PPP positioning errors at ULAB station for ‘‘Two Clk with\nbias”and‘‘TwoClkwithoutbias”models. bias”and‘‘TwoClkwithoutbias”models.\nbias, a compensation parameter needs to be set for the code where r denotes the compensation parameter of initial sys-\nobservation equation of each satellite. The initial system-\ntematic bias, which is modeled as random-walk process,\natic bias is a constant within a continuous arc, but will\nchange significantly when the satellite is tra",
+    "char_length": 2242
+  },
+  {
+    "quote_id": "qb_4e484f2320",
+    "span_index": 7,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nFig. 6. RT-PPP positioning errors at CUSV stationbased on IGSRTS\nFig. 7. IF RT-PPP positioning errors at POL2 station for ‘‘Clk + ISB\nandPPP-B2bservice.\nwithout bias”,‘‘TwoClkwithoutbias”,and‘‘TwoClkwithbias”models.\nmessages and track sufficient BDS-3 and GPS satellites.\nAnd the PPP-B2b products are decoded through the recei- 55.4, and 66.5 cm, and 24.5, 17.1, 46.5, and 55.2 cm, respec-\nver developed by Changsha Jinwei Integrated Circuit Co., tively. Under the ‘‘Two Clk” model, the corresponding\nLtd. The self-developed software is used in thi",
+    "char_length": 2637
+  },
+  {
+    "quote_id": "qb_642ebb8900",
+    "span_index": 8,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nFig. 8. Daily convergence time in 196 days atsixstationsinthestaticmode.\nthe RT-PPP positioning performance. This is compared to the positioning errors based on IGS RTS and PPP-B2b ser-\nthe traditional model without the compensation parameter vice at CUSV station in the first two hours on DOY 251 of\nfor the initial syst ematicbias(hereinafterreferredtoasthe 2023. The kinematic mode is employed. As shown in the\n‘‘Two Clk without bias” model). figure, the positioning performance based on IGS RTS is\nIn this study, the position solution is consid",
+    "char_length": 2859
+  },
+  {
+    "quote_id": "qb_3f251a0892",
+    "span_index": 9,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nFig. 9. Daily convergence time in 196 daysatsixstationsinthekinematicmode.\nTable 3\nAverage and STD statistics of BDS-3/GPS UDUC RT-PPP positioning accuracy in theeast/north/up/3Ddirectionsinthestaticandkinematicmodes.\nStation Static (cm) Kinematic (cm)\nAverage STD Average STD\nCUSV 4.7/0.7/1.8/5.3 2.3/0.6/1.4/2.2 8.1/3.4/11.4/14.7 3.4/1.6/3.4/4.2\nPOL2 5.5/1.6/2.5/6.6 1.2/1.1/2.2/1.7 7.7/4.5/10.2/13.8 2.3/1.8/4.0/4.1\nULAB 4.0/0.6/2.9/5.2 1.0/0.4/1.3/0.9 4.4/2.7/8.9/10.4 1.6/0.9/1.9/2.1\nURUM 5.8/1.0/2.6/6.7 1.2/0.7/1.8/1.3 7.4/3.4/8.9/12.2 2.1/1",
+    "char_length": 1868
+  },
+  {
+    "quote_id": "qb_cdfeee6a70",
+    "span_index": 10,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nFig. 10. Daily positioning accuracy in 196 days atsixstationsinthestaticmode.\nvided in each panel. According to the average results over GPS UDUC RT-PPP positioning accuracy in the east/\nsix stations, the average convergence time is 7.5 and north/up/3D directions for each station in the static and\n10.2 min in the static and kinematic modes, respectively, kinematic modes. According to the average results over\nwhich is shortened by 41.3 % and 61.4 % over the tradi- six stations, the average positioning accuracy is 4.6, 0.9,\ntional model with th",
+    "char_length": 2796
+  },
+  {
+    "quote_id": "qb_ff6603e86b",
+    "span_index": 11,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nFig. 11. Daily positioning accuracy in 196 daysatsixstationsinthekinematicmode.\npositioning errors of the BDS-3/GPS UDUC RT-PPP becomes more stable and reliable. Additionally, by setting\nmodel constructed in this study can remain at a relatively a compensation parameter for each satellite to mit igatethe\nlow level after a rapid decline during the converging period, effects of initial systematic bias, this model accelerates the\nindicating that the constructed RT-PPP model can signifi- convergence speed.\ncantly reduce the occurrence of position",
+    "char_length": 2652
+  },
+  {
+    "quote_id": "qb_dd99613e86",
+    "span_index": 12,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nCSNO. 2021. BeiDou Navigation Satellite System Open Service\nPerformance Standard. China Satellite Navigation Office, Beijing,\nVersion 3.0, May 2021. http://www.beidou.gov.cn/xt/gfxz/202105/\nP020210526216231136238.pdf.\nCSNO. 2020. BeiDou Navigation Satellite System Signal In Space Interface\nControl Document: Precise Point PositioningServiceSignalPPP-B2b.\nChinaSatelliteNavigationOffice,Beijing,Version1.0,July2020.http://\nwww.beidou.gov.cn/xt/gfxz/202008/P020230516574071340728.pdf.\nDach, R., Bockmann, E. (Eds.), 2024. International GNSS Service\n",
+    "char_length": 5038
+  },
+  {
+    "quote_id": "qb_c316c835ed",
+    "span_index": 13,
+    "text": "W.Daietal. AdvancesinSpaceResearch75(2025)7212–7225\nXu, Y., Yang, Y., Li, J., 2021. Performance evaluation of BDS-3 PPP-B2b Zhang, W., Lou, Y., Song, W., Sun, W., Zou, X., Gong, X., 2022. Initial\nprecise point positioning service. GPS Solut. 25 (4), 142. https://doi. assessment of BDS-3 precise point positioning service on GEO B2b\norg/10.1007/s10291-021-01175-2. signal. Adv. Space Res. 69 (1), 690–700. https://doi.org/10.1016/j.\nYang, Y., Ding, Q., Gao, W., Li, J., Xu, Y., Sun, B., 2022. Principle and asr.2021.09.006.\nperformanceofBDSBASandPPP-B2bofBDS-3.Satell.Navig.3(1), Zhang, X., Li, X., G",
+    "char_length": 1784
+  }
+]

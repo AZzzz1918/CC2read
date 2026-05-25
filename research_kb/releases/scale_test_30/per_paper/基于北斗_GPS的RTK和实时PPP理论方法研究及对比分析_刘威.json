@@ -1,0 +1,12 @@
+{
+  "product_source": "NOT_MENTIONED",
+  "paper_type": "general_gnss",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_gnss_augmentation",
+  "classification_reason": "The paper studies RTK and real-time PPP methods and comparison using BDS/GPS, without any mention of the PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.pdf",
+  "paper_id": "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威",
+  "extraction_mode": "batch_classify_1call"
+}

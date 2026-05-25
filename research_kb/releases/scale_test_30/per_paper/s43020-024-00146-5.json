@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper evaluates multi-frequency smartphone positioning performance using BeiDou-3 PPP-B2b services via an A-GNSS platform, making it directly relevant to PPP-B2b service performance assessment.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s43020-024-00146-5.pdf",
+  "paper_id": "s43020-024-00146-5",
+  "extraction_mode": "batch_classify_1call"
+}

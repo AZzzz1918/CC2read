@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_s41598_025_08834_1",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "OPEN Single-base station positioning"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  www.nature.com/scientificreports OPEN Single-base station positioning for photovoltaic power plant inspection UAVs based on PPP-B2b signal Lin Zhou, WeiCheng Xie, Lin Hu & ShuWen Zheng Aiming at the situation where photovoltaic power stations in remote areas suffer from poor communication networks, which makes reliable acquisition of satellite precise orbit data and clock offset",
+      "Keywords PPP-B2b, Multipath error, Photovoltaic power plant, UAV, Precise point positioning In the field of power inspection, inspection drones are increasingly widely applied."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 13,
+    "b2b": 44,
+    "has": 0,
+    "dcb": 0,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

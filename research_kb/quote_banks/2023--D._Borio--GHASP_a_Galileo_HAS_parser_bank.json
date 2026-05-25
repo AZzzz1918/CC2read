@@ -1,0 +1,1166 @@
+[
+  {
+    "quote_id": "qb_a1f3838dc6",
+    "span_index": 0,
+    "text": "GPS Solutions (2023) 27:197\nhttps://doi.org/10.1007/s10291-023-01529-y\nGPS TOOLBOX\nGHASP: a Galileo HAS parser\nD.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_6a0e2e4c4e",
+    "span_index": 1,
+    "text": "Gioia2\nReceived: 2 February 2023 / Accepted: 3 August 2023 / Published online: 5 September 2023\n© The Author(s) 2023\nAbstract\nGalileo High Accuracy Service (HAS) corrections are broadcast through the E6B signal using a high-parity vertical Reed-\nSolomon encoding scheme, which reduces message recovery time and improves transmission reliability.",
+    "char_length": 345
+  },
+  {
+    "quote_id": "qb_e11ee15b53",
+    "span_index": 2,
+    "text": "To recover HAS\ncorrections, it is thus necessary to invert the encoding process and interpret the decoded bits.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_ec71e8f7c3",
+    "span_index": 3,
+    "text": "In order to foster HAS adop-\ntion and facilitate experimentation with HAS corrections, a Galileo HAS Parser (GHASP) has been developed.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_e45ded6326",
+    "span_index": 4,
+    "text": "GHASP is\navailable open-source and supports different input data types from different receiver manufacturers.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_a6a79cd1a8",
+    "span_index": 5,
+    "text": "Decoded corrections\nare provided in Comma-Separated Values files, which can be directly loaded using common data-science languages.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_3644c99cb4",
+    "span_index": 6,
+    "text": "In this\nway, corrections are readily available and can be used not only for Precise Point Positioning (PPP) applications but also for\nscientific analysis such as clock characterization using the Allan Deviation.",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_1c704286a0",
+    "span_index": 7,
+    "text": "Keywords Galileo · Decoder · High accuracy service · HAS · Corrections\nIntroduction\nReed-Solomon encoding matrix.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_9fbf3d3ef4",
+    "span_index": 8,
+    "text": "In this way, a new redun-\ndant set of pages is obtained.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_e00229bd62",
+    "span_index": 9,
+    "text": "Each Galileo satellite broad-\nThe Galileo High Accuracy Service (HAS) is providing Pre- casts a subset of such pages.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_e4618dcb4f",
+    "span_index": 10,
+    "text": "The properties of Reed-Solo-\ncise Point Positioning (PPP) corrections enabling decimeter- mon codes guarantee that any subset of K different pages can\nlevel accuracy (EUSPA 2023).",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_ca0ac6365a",
+    "span_index": 11,
+    "text": "The corrections, which are be used to reconstruct the original HAS message.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_7b8aac7b48",
+    "span_index": 12,
+    "text": "Here, K is\nmainly disseminated through the E6B Signal-in-Space (SIS), the size in pages of the original HAS message.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_a9912894e6",
+    "span_index": 13,
+    "text": "The encod-\nare also available for registered users through a dedicated ing and dissemination scheme adopted by the HAS reduces\nInternet channel (EUSPA 2023b), making HAS accessible to the Time-to-Retrieve Data (TTRD) (Borio et al.",
+    "char_length": 230
+  },
+  {
+    "quote_id": "qb_021ec54c27",
+    "span_index": 14,
+    "text": "2020) and\na wider range of receivers without requiring the processing improves the reception performance, owing to the redun-\nof the E6B signal.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_be512add79",
+    "span_index": 15,
+    "text": "dancy introduced by the Reed-Solomon encoding scheme.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_9edced2c81",
+    "span_index": 16,
+    "text": "The HAS corrections distributed through the E6B signal The recovery of the HAS corrections requires invert-\nare encoded using a high-parity vertical Reed-Solomon (RS) ing the encoding scheme and interpreting the decoded bits.",
+    "char_length": 225
+  },
+  {
+    "quote_id": "qb_c0d339a22b",
+    "span_index": 17,
+    "text": "code (Fernández-Hernández et al.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_848476ad62",
+    "span_index": 18,
+    "text": "The original HAS Details on the HAS encoding scheme and correction format\nmessage pages are vertically stacked and multiplied by the can be found in the HAS Interface Control Document (ICD)\n(European Union, 2022) published by the European Space\nProgramme Agency (EUSPA).",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_767abba708",
+    "span_index": 19,
+    "text": "The GPS Toolbox is a topical collection dedicated to highlighting\nalgorithms and source code utilized by GNSS engineers and To facilitate the adoption of HAS corrections, HAS cor-\nscientists.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_f0687f128d",
+    "span_index": 20,
+    "text": "If you have a program or software package you would rection decoders have been developed (Gioia et al.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_6fe243855a",
+    "span_index": 21,
+    "text": "2022 and\nlike to share with our readers, please submit a paper to the GPS\nHorst et al.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_bb91c4c61b",
+    "span_index": 22,
+    "text": "Both decoders provide a Python imple-\nToolbox collection or email https://g eodes y.n oaa.g ov/g ps-t oolbo x/\nmentation of the processes needed to recover the HAS cor-\nfor more information.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_e5ef0cdc71",
+    "span_index": 23,
+    "text": "To download source code from this or any\nGPS Toolbox paper visit our website at http://g eodes y.n oaa.g ov/ rections from the raw E6B symbol stream obtained using, for\ngps-t oolbo x.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_0042a71eda",
+    "span_index": 24,
+    "text": "instance, a high-end receiver such as the Septentrio PolaRx\n5.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_5896e21cc4",
+    "span_index": 25,
+    "text": "Borio\nHorst et.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_c0e08fae4c",
+    "span_index": 26,
+    "text": "(2022) developed the HASlib, which sup-\ndaniele.borio@ec.europa.eu\nports only the processing of Septentrio Binary Files (SBF).",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_090e57e235",
+    "span_index": 27,
+    "text": "1 European Commission, Joint Research Centre, 21027 Ispra, HASlib code is available open source in GitHub (https://\nVA, Italy github.c om/n lsfi/H ASlib) and can convert HAS corrections\n2 Piksel, Milano, Italy\nVol.:(0112 33456789)\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 287
+  },
+  {
+    "quote_id": "qb_d71d8c2cf7",
+    "span_index": 28,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_17d4634ce9",
+    "span_index": 29,
+    "text": "197 Page 2 of 7 GPS Solutions (2023) 27:197\nFig.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_5675ceedee",
+    "span_index": 30,
+    "text": "1 Overall architecture of GHASP.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_a3a4fc14c2",
+    "span_index": 31,
+    "text": "Grey boxes represent core elements, whereas blue boxes indicate GUI elements\ninto the RTCM 3 or the International GNSS Service (IGS) Differently from HASlib, corrections are saved into four\nState-Space Representation (SSR) formats (Hirokawa et al.",
+    "char_length": 247
+  },
+  {
+    "quote_id": "qb_658686d699",
+    "span_index": 32,
+    "text": "Comma-Separated Values (CSV) files containing the four\n2021, IGS 2020), which are directly supported by some different correction types: orbit corrections, clock correc-\nopen-source PPP software.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_cdad004a60",
+    "span_index": 33,
+    "text": "tions, phase and code biases.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_add87940c4",
+    "span_index": 34,
+    "text": "This choice has been adopted in\nIn parallel, the authors developed a Python HAS decoder order to simplify the access to the corrections, which can be\nthat was used for several analyses (Gioia et al.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_4419cb027a",
+    "span_index": 35,
+    "text": "2022), includ- directly loaded, without any additional parsing operations,\ning the assessment of the HAS demodulation performance using any data-science language, such as Matlab, Python\nat high-latitudes (Susi et al.",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_8215149c88",
+    "span_index": 36,
+    "text": "While the basic func- or R.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_a5d0e9cbe0",
+    "span_index": 37,
+    "text": "In this way, HAS corrections can be directly plotted,\ntioning and architecture of the decoder were described in analysed and included in customized navigation software.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_1315320007",
+    "span_index": 38,
+    "text": "2022), the related code was never published For instance, HAS clock corrections can be directly used\nopen source.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_b034ec0183",
+    "span_index": 39,
+    "text": "In this paper, we describe the latest version of for estimating the ADEV of the corresponding satellite.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_352b12a889",
+    "span_index": 40,
+    "text": "This\nthe HAS decoder introduced in (Gioia et al.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_5384b980cc",
+    "span_index": 41,
+    "text": "2022) that is possible application is briefly discussed in the following.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_3c135b37e1",
+    "span_index": 42,
+    "text": "now provided open source and available under the GPSTool- The remainder of this article is organized as follows: the\nbox repository and in GitHub (https://g ithub.c om/b oriod a/ architecture of the code is first described.",
+    "char_length": 223
+  },
+  {
+    "quote_id": "qb_5ff4aff30c",
+    "span_index": 43,
+    "text": "The user interface,\nHAS-d ecodi ng).",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_61e3fb01f4",
+    "span_index": 44,
+    "text": "With respect to the version used in Gioia input and output data are then introduced.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_3121488116",
+    "span_index": 45,
+    "text": "Some use cases\net al.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_a91651613a",
+    "span_index": 46,
+    "text": "(2022), the software has been enriched by several func- are briefly discussed before the conclusions.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_b724b069a5",
+    "span_index": 47,
+    "text": "tionalities including the support to several receiver formats,\na Graphical User Interface (GUI), plotting capabilities and\nArchitecture of the code\nthe possibility to evaluate the Allan Deviation (ADEV) from\nthe clock corrections.",
+    "char_length": 230
+  },
+  {
+    "quote_id": "qb_9e94db50fd",
+    "span_index": 48,
+    "text": "The decoder developed in this context is denoted as The overall architecture of GHASP is presented in Fig.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_1e45f1c1b5",
+    "span_index": 49,
+    "text": "1:\nGHASP, a Galileo HAS Parser.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_fff452d5f6",
+    "span_index": 50,
+    "text": "With respect to the version core elements are represented by grey boxes, whereas GUI\ndescribed in (Gioia et al.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_3d29659364",
+    "span_index": 51,
+    "text": "2022) and to HASlib, additional modules are depicted as blue boxes.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_c9f5eb1b12",
+    "span_index": 52,
+    "text": "input data formats are supported including Septentrio SBF, The main processing loop is implemented in the “pro-\nJavad and NovAtel raw data.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_9b32ad78bf",
+    "span_index": 53,
+    "text": "cess_cnav.py” module, which contains the parse_data()\nThe decoder features a simplified GUI provided as a function and a main routine that can be modified, for exam-\nPython Jupyter notebook (https://j upyte r.o rg/).",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_d150b3b39a",
+    "span_index": 54,
+    "text": "Exploiting ple, to implement batch processing, i.e.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_232841c5fb",
+    "span_index": 55,
+    "text": "the processing of\nthe GUI, the decoder can be operated in a easier and more several input files.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_05d4426b8d",
+    "span_index": 56,
+    "text": "The parse_data() function is also called\nintuitive way.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_0cec21d601",
+    "span_index": 57,
+    "text": "by the “has_widgets.py” module, which implements the\n1 3\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_cdb6a1f337",
+    "span_index": 58,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_38a29f0c37",
+    "span_index": 59,
+    "text": "GPS Solutions (2023) 27:197 Page 3 of 7 197\ndifferent graphical elements used by the Jupyter notebook the different options can be selected through the GUI.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_129ae4feb5",
+    "span_index": 60,
+    "text": "After\nGUI, whose use is briefly described in the next section.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_dbd525d0cb",
+    "span_index": 61,
+    "text": "setting the input file and format, data parsing and decoding\nThe parse_data() function loads the different input files can start.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_916be4117e",
+    "span_index": 62,
+    "text": "This action is triggered by the “Parse” button vis-\nusing the functions available in the “data_loading” module ible at the bottom of Fig.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_9242a1ed65",
+    "span_index": 63,
+    "text": "and instantiates a “has_decoder” object, which is responsible In addition to the Jupyter notebook, it is possible to parse\nfor the different decoding operations.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_c1e43aea5a",
+    "span_index": 64,
+    "text": "The decoder has a list data by directly modifying the “process_cnav.py” script.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_ba27b2c541",
+    "span_index": 65,
+    "text": "As\nof HAS messages that are progressively decoded.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_80a62f8fe9",
+    "span_index": 66,
+    "text": "Reed-Sol- discussed above, this Python script calls the main function\nomon decoding is performed in the “has_message” module.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_509cdbfb90",
+    "span_index": 67,
+    "text": "of the GHASP library and performs the same operations\nMessages are converted into corrections: four correction available through the Jupyter notebook.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_c51748f932",
+    "span_index": 68,
+    "text": "types are currently supported and correspond to the four As already mentioned, the output of the parser is a set of\nHAS correction types currently described into the HAS four CSV files, one for each type of correction.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_b29983f7ef",
+    "span_index": 69,
+    "text": "The different\nICD (European Union, 2022).",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_17b208a465",
+    "span_index": 70,
+    "text": "Each correction type has been columns of the CSV files are described in the related header\nimplemented as a separate class.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_014647b1fa",
+    "span_index": 71,
+    "text": "In this respect, the code and include the Time of Week (ToW), the Week Number\nfeatures a flexible object-oriented structure and can be easily (WN) and the Time of Hour (ToH).",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_101cfab111",
+    "span_index": 72,
+    "text": "Each field corresponds\nextended to support additional correction types.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_46bd41518f",
+    "span_index": 73,
+    "text": "A descrip- to the different elements described in the HAS ICD (Euro-\ntion of the base correction class and its four derived classes pean Union, 2022).",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_7d5ab52d64",
+    "span_index": 74,
+    "text": "can be found in (Gioia et al.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_844d1e605a",
+    "span_index": 75,
+    "text": "Detailed information of the structure of the output CSV\nIn addition to the four correction classes, a “mask” class files can be found in the GHASP user manual (Borio et al.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_bbbd846158",
+    "span_index": 76,
+    "text": "has also been implemented.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_5097f0b0de",
+    "span_index": 77,
+    "text": "It is used to process and store 2023).",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_092463e175",
+    "span_index": 78,
+    "text": "the information broadcast into the mask field of the HAS\nmessage.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_ff0bf551b3",
+    "span_index": 79,
+    "text": "Data processing: examples\nUsing the different objects described, GHASP can parse\ndifferent input data files and extract the corresponding HAS\ncorrections.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_4122162d09",
+    "span_index": 80,
+    "text": "In addition to the core library, the GHASP library is pro-\nvided with simple plotting routines that can be used to dis-\nplay and analyse the different corrections.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_26d2062447",
+    "span_index": 81,
+    "text": "In the following,\nUser interface, supported data and output\ndata extracted from a Septentrio SBF file are displayed.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_5f376bf0e9",
+    "span_index": 82,
+    "text": "The\nformat\ndataset is from October 20th, 2022.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_09925ffb53",
+    "span_index": 83,
+    "text": "While only results for\nGalileo satellites are presented, the same kind of plot can be\nAs indicated above, a simple GUI, implemented as a Jupyter produced for the GPS case as well.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_f02da2d941",
+    "span_index": 84,
+    "text": "Additional sample plots\nnotebook, was developed to facilitate the use of GHASP.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_5011c9d94d",
+    "span_index": 85,
+    "text": "A can be found in the GHASP user manual (Borio et al.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_a0b039a974",
+    "span_index": 86,
+    "text": "screenshot of the GUI is shown in Fig.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_4cabf3093e",
+    "span_index": 87,
+    "text": "2: parsing HAS cor- Figure 3 shows the corrections broadcast by the HAS\nrections from receiver raw data can be performed in a few service for the different Galileo satellites on October 20th,\nsimple steps.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_0aaeeba9c2",
+    "span_index": 88,
+    "text": "First, the required Python libraries are loaded, 2022.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_708ee84161",
+    "span_index": 89,
+    "text": "The HAS orbit corrections are expressed with respect\nthen the user is asked to choose the input file containing the to the radial, tangential (along track) and normal (cross-\nraw E6B bits.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_f6c99e78d7",
+    "span_index": 90,
+    "text": "This is done through the Python FileChooser() track) components of the Satellite Coordinate System (SCS)\nwidget that opens a pop-up window allowing the selection of centred into the satellite’s ionosphere-free antenna phase\nthe input file.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_88936c0332",
+    "span_index": 91,
+    "text": "Several data formats are supported including: centres (European Union, 2022) that are the E1-E5b and\nL1- L2C phase centres for Galileo and GPS, respectively.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_a6eb000642",
+    "span_index": 92,
+    "text": "• Septentrio binary and parsed data The time series displayed in three different subplots are\n• Javad raw data zero mean and assume amplitudes lower than one metre.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_c6df7896a7",
+    "span_index": 93,
+    "text": "As\n• NovAtel raw data.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_0d32c6639a",
+    "span_index": 94,
+    "text": "detailed in (European Union, 2022), the orbit corrections,\nafter a conversion into the broadcast Earth Centred Earth\nFigure 2 shows the widgets allowing the user to specify Fixed (ECEF) frame, have to be added to the satellite posi-\nthe input format.",
+    "char_length": 250
+  },
+  {
+    "quote_id": "qb_b32fde5636",
+    "span_index": 95,
+    "text": "A dropdown menu allows one to select tion computed from the broadcast data.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_215a3a42e4",
+    "span_index": 96,
+    "text": "the receiver type, in the example Septentrio.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_9739e64b95",
+    "span_index": 97,
+    "text": "Following the The time series of the corresponding Galileo clock cor-\nreceiver selection, additional options are prompted.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_5a740e3d02",
+    "span_index": 98,
+    "text": "For the rections are shown in Fig.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_ee08286903",
+    "span_index": 99,
+    "text": "Also in this case, the time series\nSeptentrio case, different options are available including have a nominal behaviour with a zero-mean value.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_4ce364408d",
+    "span_index": 100,
+    "text": "The HAS\nbinary SBF files or converted data.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_edde5d4346",
+    "span_index": 101,
+    "text": "Septentrio receivers are clock corrections are provided in metres, and after conver-\nshipped with conversion tools that allow one to convert SBF sion in seconds, must be added as delta offset to the broad-\nfiles into text files.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_0417220c19",
+    "span_index": 102,
+    "text": "Depending on the version of the Septen- cast ionosphere-free clock offset (European Union, 2022).",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_88f185cf11",
+    "span_index": 103,
+    "text": "trio conversion tool, E6B data can be parsed into decimal The clock corrections can be used to compute the ADEV,\nor hexadecimal formats.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_9d1f1b3c45",
+    "span_index": 104,
+    "text": "GHASP supports both formats and which quantifies the stability of the clock corrections.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_e5e8b980db",
+    "span_index": 105,
+    "text": "1 3\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_4c23251450",
+    "span_index": 106,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_e105d5b953",
+    "span_index": 107,
+    "text": "197 Page 4 of 7 GPS Solutions (2023) 27:197\nFig.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_eb96466173",
+    "span_index": 108,
+    "text": "2 Screenshot of the Jupyter notebook developed to simplify the user interaction with the HAS decoder\nA sample plot showing the overlapping ADEVs for the Routines for plotting code and carrier phase biases are\ndifferent Galileo satellites is provided in Fig.",
+    "char_length": 257
+  },
+  {
+    "quote_id": "qb_fa1450ecd7",
+    "span_index": 109,
+    "text": "also provided as part of GHASP.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_2f9a5a2b81",
+    "span_index": 110,
+    "text": "Sample plots for the code\n1 3\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_c68bb6b746",
+    "span_index": 111,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_b5fd53fef6",
+    "span_index": 112,
+    "text": "GPS Solutions (2023) 27:197 Page 5 of 7 197\nFig.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_3c9c7403f3",
+    "span_index": 113,
+    "text": "3 The three components of the orbit corrections broadcast by the HAS service for the different Galileo satellites.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_0f3156910c",
+    "span_index": 114,
+    "text": "Corrections for the whole\nday of October 20th, 2022\nFig.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_ce48c4919b",
+    "span_index": 115,
+    "text": "4 Clock corrections broadcast by the HAS service for the different Galileo satellites.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_971ca09127",
+    "span_index": 116,
+    "text": "Corrections for the whole day of October 20th, 2022\n1 3\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_afd1f69b2b",
+    "span_index": 117,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_67a769e657",
+    "span_index": 118,
+    "text": "197 Page 6 of 7 GPS Solutions (2023) 27:197\nFig.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_78f0bb0c60",
+    "span_index": 119,
+    "text": "5 Overlapping ADEV computed using the clock corrections broadcast by the HAS service for the different Galileo satellites.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_a264371af3",
+    "span_index": 120,
+    "text": "Corrections\nfor the whole day of October 20th, 2022\nand carrier phase biases can be found in the GHASP user Data availability Data can be found at https://g ithub.c om/b oriod a/\nmanual (Borio et al.",
+    "char_length": 199
+  },
+  {
+    "quote_id": "qb_43c776fc4d",
+    "span_index": 121,
+    "text": "HAS-d ecodi ng\nDeclarations\nConclusions\nCompeting interests The authors declare no competing interests.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_9111eb4bc9",
+    "span_index": 122,
+    "text": "A library for parsing Galileo HAS corrections from differ- Open Access This article is licensed under a Creative Commons Attri-\nent receiver files containing the E6B navigation message in bution 4.0 International License, which permits use, sharing, adapta-\nbinary format has been developed.",
+    "char_length": 291
+  },
+  {
+    "quote_id": "qb_bdbb7f7676",
+    "span_index": 123,
+    "text": "The parser allows one to tion, distribution and reproduction in any medium or format, as long\nas you give appropriate credit to the original author(s) and the source,\nexperiment with the Galileo HAS corrections.",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_cc36516d6a",
+    "span_index": 124,
+    "text": "A simple GUI\nprovide a link to the Creative Commons licence, and indicate if changes\nfacilitates the usage of the parser and the configuration of the were made.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_1509a1e184",
+    "span_index": 125,
+    "text": "The images or other third party material in this article are\ndifferent options.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_dec1e4e99d",
+    "span_index": 126,
+    "text": "The parser is shipped with routines for plot- included in the article's Creative Commons licence, unless indicated\nting the parsed corrections and demonstrating operations such otherwise in a credit line to the material.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_d23803782f",
+    "span_index": 127,
+    "text": "If material is not included in\nthe article's Creative Commons licence and your intended use is not\nas the computation of the ADEV for the different corrected\npermitted by statutory regulation or exceeds the permitted use, you will\nsatellites.",
+    "char_length": 242
+  },
+  {
+    "quote_id": "qb_6da78917b2",
+    "span_index": 128,
+    "text": "need to obtain permission directly from the copyright holder.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_fb1c08dfe6",
+    "span_index": 129,
+    "text": "To view a\ncopy of this licence, visit http://c reati vecom mons.o rg/l icens es/b y/4.0 /.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_d4c9782261",
+    "span_index": 130,
+    "text": "Author contributions Daniele Borio developed the core elements of the\ndecoder.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_b64a351c10",
+    "span_index": 131,
+    "text": "Melania Susi and Ciro Gioia contributed to the data collection References\nand analysis.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_c2ed4e62f6",
+    "span_index": 132,
+    "text": "All the authors contributed to the testing and debug-\nging activities, including the development of the different plotting and\nanalysis routines.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_96e07bf3b3",
+    "span_index": 133,
+    "text": "Daniele Borio wrote the main manuscript, which was Borio D, Senni T, Fernández-Hernández I (2020) Experimental analy-\ncomplemented and reviewed by the other authors.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_f703fdcf82",
+    "span_index": 134,
+    "text": "sis of a candidate Galileo E6-B data dissemination scheme.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_eb5a4a8b5d",
+    "span_index": 135,
+    "text": "In:\nProceedings of the international technical meeting (ITM) of the\n1 3\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_41438eab4e",
+    "span_index": 136,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_151d866ba3",
+    "span_index": 137,
+    "text": "GPS Solutions (2023) 27:197 Page 7 of 7 197\ninstitute of navigation, San Diego, California, Jan.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_8243f4a954",
+    "span_index": 138,
+    "text": "2020, pp 509– International GNSS Service (IGS) (2020) IGS state space represen-\n520.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_191c1f813e",
+    "span_index": 139,
+    "text": "https://d oi.o rg/1 0.3 3012/2 020.1 7159 tation (SSR) format version 1.00.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_caeeb77dc4",
+    "span_index": 140,
+    "text": "https://fi les.i gs.o rg/p ub/d ata/\nBorio D, Gioia C, Susi M (2023) GHASP: a Galileo high accuracy format/i gs_s sr_v 1.p df\nservice parser, user manual.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_36509b5a17",
+    "span_index": 141,
+    "text": "https://g ithub.c om/b oriod a/H AS- Susi M, Borio D, Gioia C, Brunes MT, Dähnn M, Grinde G, Rost C\ndecodi ng (2021) assessment of galileo E6B data demodulation performance\nEuropean Union (2022) Galileo high accuracy service signal-in-space at high latitudes: a norwegian vessel case study.",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_7988efbde1",
+    "span_index": 142,
+    "text": "Remote Sens\ninterface control document (HAS SIS ICD), Issue 1.0, May 2022.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_6cb2dc0471",
+    "span_index": 143,
+    "text": "https://d oi.o rg/1 0.3 390/r s1322 4669\nhttps://w ww.g sc-e uropa.e u/s ites/d efaul t/fi les/s ites/a ll/fi les/G alil\neo_H AS_S IS_I CD_v 1.0.p df Publisher's Note Springer Nature remains neutral with regard to\nEuropean Union Agency for Space Programme, EUSPA (2023b) Gali- jurisdictional claims in published maps and institutional affiliations.",
+    "char_length": 348
+  },
+  {
+    "quote_id": "qb_3a6d15f06f",
+    "span_index": 144,
+    "text": "leo HAS internet data distribution.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_b0068e1068",
+    "span_index": 145,
+    "text": "https://w ww.g sc-e uropa.e u/\ngalile o/s ervic es/g alile o-h igh-a ccura cy-s ervic e-h as/i ntern et-d ata-\ndistri butio n\nEuropean Union Agency for Space Programme, EUSPA (2023) Galileo D.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_4cbef4001d",
+    "span_index": 146,
+    "text": "Borio received the M.S.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_8306042fdb",
+    "span_index": 147,
+    "text": "degree in communications engineering\nhigh accuracy service (HAS).",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_954b0ded83",
+    "span_index": 148,
+    "text": "https://w ww.e uspa.e uropa.e u/e urop from Politecnico di Torino, Italy, and the M.S.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_2adf826cad",
+    "span_index": 149,
+    "text": "degree in electronics\nean-s pace/g alile o/s ervic es/g alile o-h igh-a ccura cy-s ervic e-h as engineering from ENSERG/INPG de Grenoble, France, in 2004.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_10ecb264c7",
+    "span_index": 150,
+    "text": "He\nFernández-Hernández I, Senni T, Borio D, Vecchione G (2020) High- received the doctoral degree in electrical engineering from Politecnico\nparity vertical reed-Solomon codes for long GNSS high-accuracy di Torino in April 2008.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_b9b0254f46",
+    "span_index": 151,
+    "text": "From January 2008 to September 2010, he\nmessages.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_bb6ae268e8",
+    "span_index": 152,
+    "text": "Navigation 67(2):365–378 was a senior research associate in the PLAN group of the University of\nFernandez-Hernandez I, Chamorro-Moreno A, Cancela-Diaz S, Calle- Calgary, Canada.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_a9a18b419b",
+    "span_index": 153,
+    "text": "He is currently a scientific policy officer at the Euro-\nCalle JD, Zoccarato P, Blonski D, Mozo A (2022) Galileo high pean Commission (EC) Joint Research Centre in the fields of digital\naccuracy service: initial definition and performance.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_8fbf6b9e8b",
+    "span_index": 154,
+    "text": "Gps Sol and wireless communications, location and navigation.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_59db8674ec",
+    "span_index": 155,
+    "text": "26(3):65\nGioia C, Borio D, Susi M, Fernández-Hernández I (2022) The Galileo M.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_2a70524a8d",
+    "span_index": 156,
+    "text": "Susi received her B.E.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_69f6b55d7a",
+    "span_index": 157,
+    "text": "in Mathematical Engineering from the\nhigh accuracy service (HAS): Decoding and processing live cor- Università TorVergata di Roma,Italy, and M.Sc.s in Communication\nrections for code-based positioning.",
+    "char_length": 201
+  },
+  {
+    "quote_id": "qb_6eb0b54943",
+    "span_index": 158,
+    "text": "In: Proceeding of the 2022 Engineering and in Geomatic Engineering, respectively, from the Uni-\ninternational technical meeting of the institute of navigation, Long versità di L’Aquila, Italy, and from the University of Calgary, Canada.",
+    "char_length": 236
+  },
+  {
+    "quote_id": "qb_78307e9ba2",
+    "span_index": 159,
+    "text": "Beach, California, pp 1065–1074.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_3091400e0b",
+    "span_index": 160,
+    "text": "https://d oi.o rg/1 0.3 3012/2 022.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_cf24162ea4",
+    "span_index": 161,
+    "text": "She holds a Ph.D.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_9a2daf2f0c",
+    "span_index": 162,
+    "text": "from the University of Nottingham where she was\n18204 a Marie Curie fellow.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_64e3e83f70",
+    "span_index": 163,
+    "text": "After being a scientific technical officer at the\nHirokawa R, Fernández-Hernández I, Reynolds S (2021) PPP/PPP- Joint Research Centre of the European Commission she is now a GNSS\nRTK open formats: overview, comparison, and proposal for an senior researcher at Topcon in Concordia, Italy.",
+    "char_length": 287
+  },
+  {
+    "quote_id": "qb_bd364cd05d",
+    "span_index": 164,
+    "text": "interoperable message.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_2108f1ca10",
+    "span_index": 165,
+    "text": "Navigation 68(4):759–778.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_ebe0f0ad36",
+    "span_index": 166,
+    "text": "https://d oi.o rg/\n10.1 002/n avi.4 52 C.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_e2702f8b55",
+    "span_index": 167,
+    "text": "Gioia received the MSc.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_22b1f7cb86",
+    "span_index": 168,
+    "text": "in Nautical Sciences and the PhD from\nHorst O, Kirkko-Jaakkola M, Malkamäki T, Kaasalainen S, Fernán- Parthenope University in 2009 and 2014, respectively.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_dfe5d13f97",
+    "span_index": 169,
+    "text": "From May 2014\ndez-Hernández I, Chamorro-Moreno A, Cancela-Díaz S (2022) to June 2016, he worked as a consultant for the European Commission\nHASlib: An open-source decoder for the galileo high accuracy Joint Research Centre (JRC).",
+    "char_length": 229
+  },
+  {
+    "quote_id": "qb_1b7af9e133",
+    "span_index": 170,
+    "text": "From July 2016 to July 2022, he was a\nservice, Proceeding of the 35th international technical meeting of scientific project officer at the JRC focusing on location and navigation\nthe satellite division of the institute of navigation (ION GNSS+ with special emphasis on geomatics aspects.",
+    "char_length": 287
+  },
+  {
+    "quote_id": "qb_75d999e77b",
+    "span_index": 171,
+    "text": "Since September 2022, he\n2022), Denver, Colorado, September 2022, pp 2625–2633.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_862397dc20",
+    "span_index": 172,
+    "text": "https:// is a consultant for the JRC.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_c68d0b7e94",
+    "span_index": 173,
+    "text": "doi.o rg/1 0.3 3012/2 022.1 8508\n1 3\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_9906148d86",
+    "span_index": 174,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_d5b49ceadc",
+    "span_index": 175,
+    "text": "Terms and Conditions\nS pringer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH (“Springer Nature”).",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_e0b142a521",
+    "span_index": 176,
+    "text": "Springer Nature supports a reasonable amount of sharing of research papers by authors, subscribers and authorised users (“Users”), for small-\nscale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained.",
+    "char_length": 275
+  },
+  {
+    "quote_id": "qb_4f57767c9e",
+    "span_index": 177,
+    "text": "By\naccessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use (“Terms”).",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_73d655f030",
+    "span_index": 178,
+    "text": "For these\np urposes, Springer Nature considers academic use (by researchers and students) to be non-commercial.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_7cbbaba1a9",
+    "span_index": 179,
+    "text": "These Terms are supplementary and will apply in addition to any applicable website terms and conditions, a relevant site licence or a personal\nsubscription.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_36b317ffee",
+    "span_index": 180,
+    "text": "These Terms will prevail over any conflict or ambiguity with regards to the relevant terms, a site licence or a personal subscription\n(to the extent of the conflict or ambiguity only).",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_ab7bfcd8a0",
+    "span_index": 181,
+    "text": "For Creative Commons-licensed articles, the terms of the Creative Commons license used will\na pply.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_8752c1a14b",
+    "span_index": 182,
+    "text": "We collect and use personal data to provide access to the Springer Nature journal content.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_02f9719f9d",
+    "span_index": 183,
+    "text": "We may also use these personal data internally within\nResearchGate and Springer Nature and as agreed share it, in an anonymised way, for purposes of tracking, analysis and reporting.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_9610051763",
+    "span_index": 184,
+    "text": "We will not\notherwise disclose your personal data outside the ResearchGate or the Springer Nature group of companies unless we have your permission as\nd etailed in the Privacy Policy.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_2cb7dd175f",
+    "span_index": 185,
+    "text": "While Users may use the Springer Nature journal content for small scale, personal non-commercial use, it is important to note that Users may\nn ot:\n1.use such content for the purpose of providing other users with access on a regular or large scale basis or as a means to circumvent access\ncontrol;\n2.use such content where to do so would be considered a criminal or statutory offence in any jurisdiction, or gives rise to civil liability, or is\notherwise unlawful;\n3.falsely or misleadingly imply or suggest endorsement, approval , sponsorship, or association unless explicitly agreed to by Springer Nature in\nwriting;\n4.use bots or other automated methods to access the content or redirect messages\n5.override any security feature or exclusionary protocol; or\n6.share the content in order to create substitute for Springer Nature products or services or a systematic database of Springer Nature journal\ncontent.",
+    "char_length": 911
+  },
+  {
+    "quote_id": "qb_e1607c633f",
+    "span_index": 186,
+    "text": "In line with the restriction against commercial use, Springer Nature does not permit the creation of a product or service that creates revenue,\nroyalties, rent or income from our content or its inclusion as part of a paid for service or for other commercial gain.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_6bdabafc90",
+    "span_index": 187,
+    "text": "Springer Nature journal\ncontent cannot be used for inter-library loans and librarians may not upload Springer Nature journal content on a large scale into their, or any\no ther, institutional repository.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_6c4fc0c7d2",
+    "span_index": 188,
+    "text": "These terms of use are reviewed regularly and may be amended at any time.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_04c7376e80",
+    "span_index": 189,
+    "text": "Springer Nature is not obligated to publish any information or\ncontent on this website and may remove it or features or functionality at our sole discretion, at any time with or without notice.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_6a3817eb3c",
+    "span_index": 190,
+    "text": "Springer Nature\nm ay revoke this licence to you at any time and remove access to any copies of the Springer Nature journal content which have been saved.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_adcf448c14",
+    "span_index": 191,
+    "text": "To the fullest extent permitted by law, Springer Nature makes no warranties, representations or guarantees to Users, either express or implied\nwith respect to the Springer nature journal content and all parties disclaim and waive any implied warranties or warranties imposed by law,\ni ncluding merchantability or fitness for any particular purpose.",
+    "char_length": 348
+  },
+  {
+    "quote_id": "qb_63f0e452c7",
+    "span_index": 192,
+    "text": "Please note that these rights do not automatically extend to content, data or other material published by Springer Nature that may be licensed\nf rom third parties.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_9f6436f15e",
+    "span_index": 193,
+    "text": "If you would like to use or distribute our Springer Nature journal content to a wider audience or on a regular basis or in any other manner not\ne xpressly permitted by these Terms, please contact Springer Nature at\nonlineservice@springernature.com",
+    "char_length": 247
+  }
+]

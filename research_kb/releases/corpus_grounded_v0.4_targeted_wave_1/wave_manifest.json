@@ -1,0 +1,96 @@
+{
+  "wave": 1,
+  "processed": 10,
+  "results": [
+    {
+      "pid": "V04_s10291_025_01854_4",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 155,
+      "pages": 16,
+      "cat": "PPP_B2B_RTK_OR_AR",
+      "priority": "P0_ROUTE_CHANGING",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_s00190_025_01965_3",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 77,
+      "pages": 17,
+      "cat": "PPP_B2B_SHORT_MESSAGE",
+      "priority": "P0_ROUTE_CHANGING",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_s41597_026_07032_6",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 204,
+      "pages": 15,
+      "cat": "PPP_B2B_DATASET",
+      "priority": "P0_ROUTE_CHANGING",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_1_s2_0_S0273117725010865_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 138,
+      "pages": 14,
+      "cat": "PPP_B2B_RTK_OR_AR",
+      "priority": "P0_ROUTE_CHANGING",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_1_s2_0_S0263224124014428_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 34,
+      "pages": 13,
+      "cat": "PPP_B2B_SHORT_MESSAGE",
+      "priority": "P0_ROUTE_CHANGING",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_s10291_025_01850_8",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 260,
+      "pages": 14,
+      "cat": "PPP_B2B_ANOMALY_DETECTION",
+      "priority": "P1_CORE",
+      "quotes": 2
+    },
+    {
+      "pid": "V04_s10291_021_01175_2",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 109,
+      "pages": 14,
+      "cat": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "quotes": 3
+    },
+    {
+      "pid": "V04_s40623_024_02031_6",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 128,
+      "pages": 15,
+      "cat": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_s10291_023_01409_5",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 77,
+      "pages": 18,
+      "cat": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "quotes": 4
+    },
+    {
+      "pid": "V04_2023__Peida_Wu__Evaluation_of_real_time_kinematic_positionin",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 64,
+      "pages": 15,
+      "cat": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "quotes": 4
+    }
+  ]
+}

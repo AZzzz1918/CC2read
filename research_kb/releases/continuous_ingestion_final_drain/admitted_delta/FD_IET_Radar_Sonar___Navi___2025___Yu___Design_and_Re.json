@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_IET_Radar_Sonar___Navi___2025___Yu___Design_and_Re",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Design and Reception Method of Code Shift Keying Signals With Power‐of‐Two Phase Intervals"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "Analyses demonstrate that this method is capable of significantly reducing the demodulation complexity while mitigatingtheintersymbolinterference.TheCSK(6,2)modulationwithaphaseintervalmappingof128chipsisemployedfor theBDSPPP‐B2bsignal.ThesignalisdemodulatedusingtheFFTwithaphaseintervaloutputof128points.Thecomputation can be reduced by approximately 85%, compared to the continuous phase mapping CS",
+      "The CSK (6, 2) mod- canbeexpressedasfollows: ulationwithaphaseintervalmappingof128chipsisemployed fortheBDSPPP‐B2b_Qsignal.Thesignalisdemodulatedusing N−1 FFTwithaphaseintervaloutputof128chips.Thecomputation s (t)= ∑c (t−nT ) (3) x x PRN can be reduced by approximately 85% compared to the n=0 2of 10 IETRadar,Sonar&Navigation,2025 17518792, 2025, 1, Downloaded from https://ietresearch.onlinelibrary"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 10,
+    "b2b": 21,
+    "has": 0,
+    "dcb": 0,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

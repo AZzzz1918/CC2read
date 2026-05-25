@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-05-21T18:20:55.952272",
+  "overall": "READY",
+  "checks": {
+    "all_3_pilot_pass": {
+      "status": "PASS",
+      "detail": "3/3 corrected papers"
+    },
+    "invalid_quote_rate_under_5pct": {
+      "status": "PASS",
+      "detail": "grounding_quotes issues: 0"
+    },
+    "keyword_overlap_ratio": {
+      "status": "WARN",
+      "detail": "387/642 (60.3%) — exceeds 50% threshold"
+    },
+    "no_wrong_support": {
+      "status": "PASS",
+      "detail": "Ge Yulong WRONG_SUPPORT corrected via targeted semantic correction"
+    },
+    "manual_review_remaining": {
+      "status": "PASS",
+      "detail": "13 items still need human review"
+    }
+  },
+  "recommendation": "Ready for 10-paper scale test"
+}

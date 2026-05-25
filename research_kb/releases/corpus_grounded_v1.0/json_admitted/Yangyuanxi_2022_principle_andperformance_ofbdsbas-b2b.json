@@ -1,0 +1,145 @@
+{
+  "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T17:00:00",
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b + BDSBAS",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "note": "Dual-service paper: covers both BDSBAS (SBAS) and PPP-B2b. Core=True is justified because substantial PPP-B2b technical content included.",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_d3c629506a",
+        "quote_text": "Since both the BDSBAS and PPP-B2b utilize a ground monitoring station network \nto determine the satellite orbits and clock offset corrections, and broadcast differential corrections through the three \nGeostationary Orbit (GEO) satellites of BDS-3, the feasibility of the co-construction of BDSBAS and PPP-B2b is analyzed, \nstrategies for the infrastructure sharing and correction broadcasting are presented, and the influences of BDSBAS \ncorrection broadcasting strategy adjustment are evaluated.",
+        "original_quote": "PPP through B2b signals of Geostationary Orbit (GEO) satellites (PPP-B2b)",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.857
+      },
+      {
+        "quote_id": "qb_a9416ac172",
+        "quote_text": "Satellite Navigation             (2022) 3:5  \nhttps://doi.org/10.1186/s43020-022-00066-2\nORIGINAL ARTICLE\nPrinciple and performance of BDSBAS \nand PPP‑B2b of BDS‑3\nYuanxi Yang1,2*  , Qun Ding3, Weiguang Gao4, Jinlong Li5, Yangyin Xu1,2 and Bijiao Sun1,2 \nAbstract \nWithin the framework of differential augmentation, this paper introduces the basic technical framework and per-\nformance of the BeiDou Global Navigation Satellite System (BDS-3) Satellite-Based Augmentation System (BDSBAS), \nincluding orbit products, satellite clock offset products, ionosphere and its integrity performance.",
+        "original_quote": "The basic principle of BDS-3 Precise Point Positioning (PPP-B2b) is expounded",
+        "match_type": "keyword_overlap",
+        "confidence": "medium",
+        "score": 0.556
+      }
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "note": "This is a system overview/principle paper by BDS chief designer Yuanxi Yang. No specific experiment epoch — describes system design and initial performance."
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction",
+      "source": "ground monitoring station network"
+    },
+    {
+      "type": "satellite_clock_offset_correction"
+    },
+    {
+      "type": "ionospheric_correction",
+      "note": "via BDSBAS component"
+    },
+    {
+      "type": "integrity_information"
+    }
+  ],
+  "dcb_handling": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "note": "Overview paper describes PPP-B2b at system level. DCB is part of PPP-B2b service but not specifically discussed in the text."
+  },
+  "mathematical_model": {
+    "processing_mode": "Differential augmentation framework",
+    "key_concepts": [
+      "Differential augmentation principle for PPP",
+      "Ionospheric-free combination PPP model",
+      "Co-construction feasibility of BDSBAS and PPP-B2b",
+      "LEO satellite augmentation potential"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_a9416ac172",
+        "quote_text": "Satellite Navigation             (2022) 3:5  \nhttps://doi.org/10.1186/s43020-022-00066-2\nORIGINAL ARTICLE\nPrinciple and performance of BDSBAS \nand PPP‑B2b of BDS‑3\nYuanxi Yang1,2*  , Qun Ding3, Weiguang Gao4, Jinlong Li5, Yangyin Xu1,2 and Bijiao Sun1,2 \nAbstract \nWithin the framework of differential augmentation, this paper introduces the basic technical framework and per-\nformance of the BeiDou Global Navigation Satellite System (BDS-3) Satellite-Based Augmentation System (BDSBAS), \nincluding orbit products, satellite clock offset products, ionosphere and its integrity performance.",
+        "original_quote": "Within the framework of differential augmentation, this paper introduces the basic technical framework and performance",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      }
+    ]
+  },
+  "datasets": {
+    "status": "NOT_MENTIONED",
+    "note": "System overview paper — does not describe specific experimental datasets"
+  },
+  "metrics": {
+    "status": "QUALITATIVE_ONLY",
+    "description": "Paper describes performance qualitatively: orbit and clock offset accuracy, ionosphere integrity, positioning accuracy, convergence time. Specific quantitative values limited in the accessible text.",
+    "sources": [
+      "BDS-3 ground monitoring network",
+      "GEO satellite broadcast corrections"
+    ]
+  },
+  "main_results": {
+    "summary": "BDSBAS provides integrity-assured corrections for aviation; PPP-B2b enables real-time PPP with high accuracy (cm-level) after convergence. Co-construction of BDSBAS and PPP-B2b is feasible with infrastructure sharing.",
+    "key_findings": [
+      "BDSBAS and PPP-B2b share ground monitoring station network and GEO broadcast satellites",
+      "Co-construction of BDSBAS and PPP-B2b is feasible",
+      "PPP-B2b provides cm-level static and dm-level kinematic positioning",
+      "LEO satellites present augmentation opportunities",
+      "IGSO satellites could also broadcast differential corrections"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_d3c629506a",
+        "quote_text": "Since both the BDSBAS and PPP-B2b utilize a ground monitoring station network \nto determine the satellite orbits and clock offset corrections, and broadcast differential corrections through the three \nGeostationary Orbit (GEO) satellites of BDS-3, the feasibility of the co-construction of BDSBAS and PPP-B2b is analyzed, \nstrategies for the infrastructure sharing and correction broadcasting are presented, and the influences of BDSBAS \ncorrection broadcasting strategy adjustment are evaluated.",
+        "original_quote": "the feasibility of the co-construction of BDSBAS and PPP-B2b is analyzed, strategies for the infrastructure sharing and correction broadcasting are presented",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      }
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "rationale": "Authored by BDS chief designer Yuanxi Yang. Authoritative system-level overview of BDSBAS and PPP-B2b design principles. Explains the engineering framework rather than introducing novel algorithms. High reference value for understanding BDS-3 augmentation architecture.",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_35df8d5cb2",
+        "quote_text": "The basic principle \nof BDS-3 Precise Point Positioning (PPP-B2b) is expounded, the similarities and differences between the PPP service \nprovided by BDS-3 and International Global Navigation Satellite System (GNSS) Service (IGS) are discussed, and the \nlimitations of PPP-B2b are analyzed.",
+        "original_quote": "the basic principle of BDS-3 Precise Point Positioning (PPP-B2b) is expounded, the similarities and differences between the PPP service provided by BDS-3 and IGS are discussed",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      }
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 0,
+    "reproduction_blockers": [
+      "System-level overview paper — no experiment to reproduce",
+      "BDSBAS/PPP-B2b ground infrastructure not publicly accessible",
+      "GEO satellite broadcast correction stream not publicly archived",
+      "No source code or algorithms described in reproducible detail"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "INSUFFICIENT_EVIDENCE",
+    "reproduction_blockers_non_empty": true,
+    "expected_product_source": "BDS3_PPP_B2B_BROADCAST"
+  },
+  "corpus_version": "v1.0",
+  "bibliographic_info": {
+    "title": "Principle and performance of BDSBAS and PPP-B2b of BDS-3",
+    "authors": "Yuanxi Yang, Qun Ding, Weiguang Gao, Jinlong Li, Yangyin Xu, Bijiao Sun",
+    "year": 2022,
+    "journal_or_venue": "Satellite Navigation",
+    "doi": "10.1186/s43020-022-00066-2"
+  },
+  "admission_status": "GROUNDED_ADMITTED"
+}

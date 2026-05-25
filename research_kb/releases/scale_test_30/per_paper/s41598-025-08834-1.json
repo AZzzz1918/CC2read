@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "classification_reason": "The paper uses PPP-B2b corrections to enable single-base station positioning for UAVs in communication-limited areas, with core contribution on multipath error mitigation, representing a downstream application of PPP-B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s41598-025-08834-1.pdf",
+  "paper_id": "s41598-025-08834-1",
+  "extraction_mode": "batch_classify_1call"
+}

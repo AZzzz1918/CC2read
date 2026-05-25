@@ -1,0 +1,122 @@
+[
+  {
+    "quote_id": "qb_13e4f98936",
+    "span_index": 0,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Satellite Navigation\nhttps://doi.org/10.1186/s43020-024-00143-8\nhttps://satellite-navigation.springeropen.com/\nORIGINAL ARTICLE Open Access\nHigh-precision services of BeiDou\nnavigation satellite system (BDS): current state,\nachievements, and future directions\nWeiguang GAO1, Wei Zhou1, Chengpan Tang2*, Xingxing Li3*, Yongqiang Yuan3 and Xiaogong Hu3\nAbstract\nWith the rapid development of technologies such as autonomous driving and robotic navigation, the demand\nfor accurate and reliable positioning results with BDS has increased. The current status an",
+    "char_length": 4341
+  },
+  {
+    "quote_id": "qb_c8bb580df7",
+    "span_index": 1,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 2 of 20\n2020, 2022). As evaluated by Montenbruck et al. (2020), aviation users at CAT-1 phase with meter-level position-\nthe Signal-in-Space Error (SISRE) of BDS, Galileo and ing accuracy.\nGPS broadcast messages all are less than 1 m. Recently, another development is that GNSS constel-\nThe development of economic activities derives fast lations directly broadcast centimeter accuracy SSR cor-\nand high-precision positioning services for mass-market rections for PPP services free of charge (Liu et al., 2020).\napplications (European GNSS Agency, 201",
+    "char_length": 5786
+  },
+  {
+    "quote_id": "qb_9901d379f2",
+    "span_index": 2,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 3 of 20\nThe PPP-B2b signal broadcasts the I-component and the advancements in BDS” section presents the recent tech-\nQ-component with a center frequency of 1207.14 MHz nical advancements which can be realized in the BDS-3\nand a bandwidth of 20.46 MHz, and the data modulation frame for improving the high precision performance. In\nof the signal is Binary Phase Shift Keying (BPSK) and the “Future directions of BDS high-precision services” sec-\nmessage data rate is 500 bit/s. The basic frame structure tion gives various enhancement proposals for th",
+    "char_length": 5144
+  },
+  {
+    "quote_id": "qb_cfd9e3c992",
+    "span_index": 3,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 4 of 20\nThe PPP-B2b broadcast orbit and clock solutions are (at 95%) is better than 10 cm and the vertical positioning\ncompared with IGS GFZ precise products for accuracy error (at 95%) is better than 20 cm.\nassessment. The orbit accuracy and clock accuracy are\nassessed separately. URE in Table 2 refers to the orbit- Comparison of BDS B2b, Galileo HAS, and QZSS\nonly URE. From Table 2, it can be concluded that GPS Besides PPP-B2b of BDS-3, Galileo and QZSS also pro-\nand BDS-3 orbit with centimeter level accuracy URE and vide precise positioning s",
+    "char_length": 3492
+  },
+  {
+    "quote_id": "qb_118dbe2b71",
+    "span_index": 4,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 5 of 20\n1200\n1000\n800\n600\n400\n200\n0\n1 2 3 45\nStation ldentify (ID)\n)s(\nemit\necnegrevnoC\nResults of BDS/GPS Results of BDS-3\nFig. 1 Convergence Time of PPP-B2b Positioning Performance. Convergence is defined when the horizontal positioning error is smaller than 30 cm\nand vertical positioning error is smaller than 60 cm for at least 5 min. The average convergent time is about 14 min for BDS-3 only positioning,\nwhile it drops to less 10 min when GPS is added\n25\n20\n15\n10\n5\n0\nResults of BDS only Results of BDS/GPS\n)mc\n:tinu\n,lavretni\necnedifnoc\n%59(",
+    "char_length": 1071
+  },
+  {
+    "quote_id": "qb_c62908367d",
+    "span_index": 5,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 6 of 20\nTable 4 Kinematic PPP strategy\nService BDS PPP-B2b QZSS Galileo HAS\nCLAS Fast-PPP Ex Service level 1 Service level 2\nConverge China and surrounding Japan only Asia and Pacific Region Global European Coverage Area\nareas\nStarting service July 31st, 2020 November, 2018 Will be available January 2023, Initial Service Declaration. Full\non 2024 Service Operational Capability will be declared\non 2024\nBroadcasting channel PPP-B2b of GEO satel- Inclined Geosynchro- QZSS satellites 1–7 L6E, Galileo E6B\nlites nous Orbit satellites QZSS satellites 5",
+    "char_length": 4284
+  },
+  {
+    "quote_id": "qb_ca21e4c98a",
+    "span_index": 6,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 7 of 20\nBDS-GEO GNSS\nSSR OBS+NAV\nc\nAnnotation station\nUser OBS+NAV\nBroadcasting system\nGround network\nSSR products\nData center\nOBS+NAV\nFig. 3 BDS PPP-AR/PPP-RTK service system. The BDS PPP-B2b PPP-RTK service system consists of three main components: the ground reference\nstation network, the data center, and the broadcasting system. The ground reference station network is responsible for receiving GNSS observation\ndata and transmitting it in real-time to the data center, which utilizes these observations to generate various SSR products and sen",
+    "char_length": 2781
+  },
+  {
+    "quote_id": "qb_74f44bfdb5",
+    "span_index": 7,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 8 of 20\nshould be controlled between 150 and 300 km in the The strategy of precise orbit determination of BDS-3\nareas of mid to high latitudes with stable atmospheric satellites by combining code and phase measurements at\nchanges, and less than 150 km in the areas of low lati- 7 ground stations distributed in Chinese mainland and\ntudes with severe atmospheric activities. Based on the inter-satellite link (ISL) measurements is given in Table 7\nproduct accuracy, Table 6 provides the performance met- (Tang et al., 2018; Yang et al., 2019).\nrics con",
+    "char_length": 5187
+  },
+  {
+    "quote_id": "qb_4b43e55bd4",
+    "span_index": 8,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 9 of 20\n0.25\n0.20\n0.15\n0.10\n0.05\n0.00\nthe ranging errors of the dual-one-way time compari-\nsons. By using the approaches in “Orbit and clock accu-\nracy improvement with inter-satellite links” section,\nthe orbit and clock accuracy reach centimeter level. If\nthe approaches in “Orbit and clock accuracy improve-\nment with inter-satellite links” section are implemented\nin generating the hourly-updated broadcast orbit and\nclock offsets, the signal-in-space errors are expected to\ndrop from more than 0.3 m to centimeter level. Global\nand dominate the s",
+    "char_length": 2556
+  },
+  {
+    "quote_id": "qb_21b5b48214",
+    "span_index": 9,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 10 of 20\nTable 9 The STD of detrended clock offsets(ns) thousands of satellites (Magan, 2015; McDowell, 2020;\nMeng et al., 2018). The rapid development of the LEO\nPRN CODE products ISLs Differences between\nmeasurements the two approaches constellation brings innovation for precise positioning.\nCompared to GNSS satellites in medium Earth orbits,\nC39 0.17 0.15 0.11\nLEO satellites offer advantages of rapid convergence.\nC40 0.26 0.18 0.17\nCombining LEO navigation satellites which broadcast\nC25 0.24 0.19 0.10\nnavigation signals to the ground receiver",
+    "char_length": 4651
+  },
+  {
+    "quote_id": "qb_64f9aa63e2",
+    "span_index": 10,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 11 of 20\nC26-C38\n0.2\n0\n−0.2\nISLs\n−0.4 CODE\n0.5 C28-C38\n0\nISLs\n−0.5\nCODE\nMar−02 03:00 06:00 09:00 12:00 15:00 18:00 21:00 Mar−03\nTime 2022−Mar−03\nand LEO satellites to estimate precise BDS-3 orbit and monitoring stations are Beijing, Shanghai, Harbin, Wulu-\nclock solutions, precise LEO orbit and clock solutions muqi, Shantou, Chengdu, and Xian. A combined orbit\nsimultaneously using a real-time Kalman filter. Then the and clock offsets determination of BDS and LEO satellites\nprecise BDS-3 orbit and clock corrections are generated is done with the",
+    "char_length": 3731
+  },
+  {
+    "quote_id": "qb_597447ed3d",
+    "span_index": 11,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 12 of 20\nBDS-3 constellation\nDownlink navigation signal\nLEO constellation\nDownlink navigation signal\nInter-satellite link\nDownlink navigation Telemetry\nsignal Uplink\nRegional ground network Operation center\nOrbit and clock\noffset determination\nMeasurements\nBroadcasted\ninformation\nMonitoring stations Uplink station\nFig. 6 Operation of large LEO constellation augmented precise point positioning service. The frame includes LEO constellation, regional\nmonitoring network, and the ground operation center. The regional monitoring network includes the m",
+    "char_length": 3241
+  },
+  {
+    "quote_id": "qb_fefe624422",
+    "span_index": 12,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 13 of 20\nTable 10 The strategy of combined orbit and clock offsets determination of BDS and LEO satellites\nObservation Ionosphere-free combinations from ground stations and LEO onboard receivers\nElevation cutoff angle 7°\nData arc 72 h\nSampling rate 60 s\nWeight 1: 10,000 for code and phase measurements\nSatellite PCO/PCV igs14.atx\nReceiver PCO Values from manufacturers\nReceiver PCV Not applied\nStation coordinates Fixed as known values\nTroposphere delay The residual ZTD is estimated every 2 h\nClock offsets Estimated epoch-wise\nOrbit model Two-body",
+    "char_length": 4273
+  },
+  {
+    "quote_id": "qb_6e551373ca",
+    "span_index": 13,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 14 of 20\nservice level. The further BDS multi-layer High-Precision This kind of service overcomes the drawback of\nService Frame is described in Fig. 12. regional coverage but still suffers from long conver-\ngence time, since it is standard PPP. Due to its low\n• The most fundamental layer is the global high- cost and compatibility with old user terminal, this\nprecision service with improved orbit and clock kind of service is used as the most fundamental ser-\naccuracy enhanced by inter-satellite links. Imple- vice.\nmentation of this service does n",
+    "char_length": 2307
+  },
+  {
+    "quote_id": "qb_9df8605ebf",
+    "span_index": 14,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 15 of 20\nis taken as the second layer of high-precision ser- • LEO augmented PPP-RTK realizes instantaneous\nvice. PPP-RTK is usually implemented locally due precise positioning solutions. By adding the stations\nto its dependency on a tense network. The mes- of a tense network, users can realize instantane-\nsages of PPP-RTK are usually not transmitted ous precise positioning solution. It is usually imple-\nthrough satellites due to the large amount of data to mented locally.\nbe transferred.\n• In the third layer, the LEO enhanced global PPP Conclu",
+    "char_length": 2938
+  },
+  {
+    "quote_id": "qb_4b36d6f766",
+    "span_index": 15,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 16 of 20\nthe BDS PPP-B2b service needs to be improved in terms signals. The second one is to utilize the inter-satellite\nof accuracy and convergence time. Furthermore, many links of BDS. The results demonstrate that by combining\nnew developments, such as autonomous driving, the the measurements at regional monitoring stations and\nInternet of Things (IoT), and smart cities, require high- inter-satellite link measurements, the orbit and clock off-\nprecision positioning. Therefore the BeiDou high-preci- sets of BDS-3 satellites with centimeter accu",
+    "char_length": 3245
+  },
+  {
+    "quote_id": "qb_0e90d2bb8d",
+    "span_index": 16,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 17 of 20\nLEO/GNSS observation Precise orbit and clock\nData pre-processing Data pre-processing\nLEO/GNSS PPP LEO/GNSS UPD LEO/GNSS LEO/GNSS PPP\nprocessing estimation UPD products processing\nAtmospheric Atmospheric AR with atmospheric\nAmbiguity resolution delay retrieval products constraint\nUser-side\nServer-side\nFig. 10 System structure of LEO/GNSS integrated PPP-RTK system. On the server side, GNSS and LEO observations from the ground reference\nnetwork are processed to generate precision satellite orbits, clocks, UPDs, and atmospheric augmentatio",
+    "char_length": 2215
+  },
+  {
+    "quote_id": "qb_1c7efc648f",
+    "span_index": 17,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 18 of 20\nLayer 1: global high-precision\nservice with improved orbit and\nGEO clock accuracy (enhanced by\ninter-satellite link)\n• Global coverage\n• Long convergence time\n• No addition/updating of ground\nMEO or on-board facilities\nLayer 2: regional PPP-AR and\nPPP-RTK\n• Regional coverage\n• Improved convergence time\nLEO • Modification of ICDs and user\nterminals\nLayer 3: LEO enhanced global\nservice\n• Global coverage\nGround\n• Fast/instantaneous convergence\n• Large construction cost\n• Increasing operating burden\nFig. 12 The multi-layer High-Precision Se",
+    "char_length": 4239
+  },
+  {
+    "quote_id": "qb_d4b9e2dd4a",
+    "span_index": 18,
+    "text": "G AO et al. Satellite Navigation (2024) 5:20 Page 19 of 20\nConsidering the ground station distribution require-\nments of the above solutions, a multi-layered high-\nReceived: 14 September 2023 Accepted: 22 May 2024\nprecision navigation services architecture is proposed.\nFirstly, taking inter-satellite link enhanced BDS-3 precise\nnavigation as the fundamental solution for global high-\nprecision services. Then taking densely distributed sta-\nReferences\ntions augmented PPP-RTK as regional augmentations. Cabinet Office. (2018). Quasi-Zenith satellite system interface specification cen-\nFinally, tak",
+    "char_length": 6990
+  },
+  {
+    "quote_id": "qb_41f1a52421",
+    "span_index": 19,
+    "text": "GAO et al. Satellite Navigation (2024) 5:20 Page 20 of 20\nLi, X., Wang, Q., Wu, J., Yuan, Y., Xiong, Y., Gong, X., & Wu, Z. (2022b). Multi-GNSS Yang, Y., Ren, X., Jia, X., & Sun, B. (2023). Development trends of the national\nproducts and services at iGMAS Wuhan innovation application center: secure PNT system based on BDS. Science China Earth Sciences, 66(5),\nStrategy and evaluation. Satellite Navigation, 3, 20. https:// doi. org/ 10. 929–938. https:// doi. org/ 10. 1007/ s11430- 022- 1069-7\n1186/ s43020- 022- 00081-3 Yang, Y. X., & Ming, F. (2023). Current status and future development of spa",
+    "char_length": 5781
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "total_remaining": 20,
+  "candidates": [
+    {
+      "stem": "2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C",
+      "filename": "2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C.pdf",
+      "selection_priority": {
+        "score": 10,
+        "reason": "core_ppp_b2b_keywords"
+      }
+    },
+    {
+      "stem": "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic",
+      "filename": "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+      "selection_priority": {
+        "score": 10,
+        "reason": "core_ppp_b2b_keywords"
+      }
+    },
+    {
+      "stem": "2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CLAS_PPP-",
+      "filename": "2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CLAS_PPP-.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2023--D. Borio--GHASP_a_Galileo_HAS_parser",
+      "filename": "2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2023--Daniele Borio--HASCoordSept2023",
+      "filename": "2023--Daniele Borio--HASCoordSept2023.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te",
+      "filename": "2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2023--Pedro Pintor--Testing_Galileo_High-Accuracy_Service_HAS_in_Marin",
+      "filename": "2023--Pedro Pintor--Testing_Galileo_High-Accuracy_Service_HAS_in_Marin.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf",
+      "filename": "2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha",
+      "filename": "2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2024--Wei Haopeng--Combining Galileo HAS and Beidou PPP‑B2b with Helmert coordinate ",
+      "filename": "2024--Wei Haopeng--Combining Galileo HAS and Beidou PPP‑B2b with Helmert coordinate .pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2025--Pan Lin--BDS B2b and HAS",
+      "filename": "2025--Pan Lin--BDS B2b and HAS.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威",
+      "filename": "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.pdf",
+      "selection_priority": {
+        "score": 7,
+        "reason": "related_ppp_ssr_or_augmentation"
+      }
+    },
+    {
+      "stem": "2022--Yangyuanxi--Principle and performance of BDSBAS-B2b",
+      "filename": "2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf",
+      "selection_priority": {
+        "score": 5,
+        "reason": "gnss_related"
+      }
+    },
+    {
+      "stem": "2024--Ge yulong--An investigation of PPP time transfer via BDS‑3 PPP‑B2b service",
+      "filename": "2024--Ge yulong--An investigation of PPP time transfer via BDS‑3 PPP‑B2b service.pdf",
+      "selection_priority": {
+        "score": 5,
+        "reason": "gnss_related"
+      }
+    },
+    {
+      "stem": "2024--Zhou Peiyuan--Initial_performance_assessment_of_Galileo_High_Acc",
+      "filename": "2024--Zhou Peiyuan--Initial_performance_assessment_of_Galileo_High_Acc.pdf",
+      "selection_priority": {
+        "score": 5,
+        "reason": "gnss_related"
+      }
+    },
+    {
+      "stem": "2025--Zhao Lewen--Python toolbox for BDS  B2b",
+      "filename": "2025--Zhao Lewen--Python toolbox for BDS  B2b.pdf",
+      "selection_priority": {
+        "score": 5,
+        "reason": "gnss_related"
+      }
+    },
+    {
+      "stem": "2022--Tang Chenggan--Orbit determination, clock estimation and performance evaluation",
+      "filename": "2022--Tang Chenggan--Orbit determination, clock estimation and performance evaluation.pdf",
+      "selection_priority": {
+        "score": 3,
+        "reason": "other"
+      }
+    },
+    {
+      "stem": "2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo",
+      "filename": "2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf",
+      "selection_priority": {
+        "score": 3,
+        "reason": "other"
+      }
+    },
+    {
+      "stem": "P020250821587994414729",
+      "filename": "P020250821587994414729.pdf",
+      "selection_priority": {
+        "score": 3,
+        "reason": "other"
+      }
+    },
+    {
+      "stem": "s00190-026-02039-8",
+      "filename": "s00190-026-02039-8.pdf",
+      "selection_priority": {
+        "score": 3,
+        "reason": "other"
+      }
+    }
+  ]
+}

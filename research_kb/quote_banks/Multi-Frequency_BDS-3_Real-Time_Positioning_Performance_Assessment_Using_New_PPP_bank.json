@@ -1,0 +1,1910 @@
+[
+  {
+    "quote_id": "qb_6189d5b1f9",
+    "span_index": 0,
+    "text": "4994 IEEESENSORSJOURNAL,VOL.23,NO.5,1MARCH2023\nMulti-Frequency BDS-3 Real-Time Positioning\nPerformance Assessment Using New PPP-B2b\nAugmentation Service\nHaitao Zhou , Wenju Fu, Lei Wang , Tao Li, Yuan Wu , Ruizhi Chen , and Juanjuan Li\nAbstract—Anewprecisepointpositioning(PPP)-B2baug-\nmentationservicebroadcastbytheBeiDouNavigationSatel-\nliteSystem(BDS-3)geosynchronousEarthorbit(GEO)satel-\nlite can provide real-time and high-precision orbit and clock\noffset corrections for global navigation satellite system\n(GNSS) users in China and its surrounding areas.",
+    "char_length": 560
+  },
+  {
+    "quote_id": "qb_bd2a3eb157",
+    "span_index": 1,
+    "text": "It has\ngreatsignificanceandresearchvalueforreal-timeandhigh-\nprecision positioning applications.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_24d8356084",
+    "span_index": 2,
+    "text": "First, orbit, clock offset,\nand differential code bias (DCB) of PPP-B2b products are\nevaluated.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_dbcebcd894",
+    "span_index": 3,
+    "text": "Second, the influence of PPP-B2b service on\nthe enhanced positioning of single-frequency (SF), dual-\nfrequency (DF), and Multi-Frequency (MF) real-time PPP\nusing 30 days of BDS-3 observations is verified.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_370ed12e86",
+    "span_index": 4,
+    "text": "The result\nshows that the standard deviation (STD) of clock offset and\nthe root mean square (rms) of orbit in the 3-D direction for\nmediumEarthorbit(MEO)satellitesare0.118nsand0.286m,\nrespectively, which is 75.9% and 18.3% higher than that of\nbroadcast ephemeris.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_232137a779",
+    "span_index": 5,
+    "text": "The statistical results show that the\nmedian positioning accuracy of static SF PPP, DF PPP, and\nMFPPPisbetterthan0.20/0.09/0.08m,andtheconvergence\ntimeisbetterthan51/10/8min.Themedianpositioningaccu-\nracyofkinematicSFPPP,DFPPP,andMFPPPisbetterthan\n0.40/0.12/0.12 m, and the convergence time is better than 145/16/12 min.",
+    "char_length": 320
+  },
+  {
+    "quote_id": "qb_576bd99769",
+    "span_index": 6,
+    "text": "Using the PPP-B2b products, the positioning\naccuracy of DF PPP and MF PPP is comparable and close to that of DF PPP using the precise products, while the\nconvergencetimeofMFPPPisimprovedby24.8%and27.7%overDFPPPinstaticandkinematicsolutions,respectively.",
+    "char_length": 253
+  },
+  {
+    "quote_id": "qb_8b9a20f5b5",
+    "span_index": 7,
+    "text": "Index Terms—BeiDou Navigation Satellite System (BDS-3), multi-frequency (MF), PPP-B2b service, precise point\npositioning(PPP),realtime.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_321a3e3323",
+    "span_index": 8,
+    "text": "INTRODUCTION BDS-3constellationwascompleted,indicatingthatBDS-3can\nTHE BeiDou Navigation Satellite System (BDS-3) is one provide navigation, positioning, and timing (PNT) services to\nof the four major navigation and positioning systems in global users [2].",
+    "char_length": 256
+  },
+  {
+    "quote_id": "qb_b9c2686123",
+    "span_index": 9,
+    "text": "The BDS-3 includes 24 medium Earth orbit\nthe world, which is independently designed, developed, and (MEO) satellites, three inclined geosynchronous satellite orbit\noperated by China.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_c2c5744a98",
+    "span_index": 10,
+    "text": "On June 23, 2020, the deployment of (IGSO)satellitesandthreegeosynchronousEarthorbit(GEO)\nsatellites[3],[4].BDS-3GEOsatellite-basedregionalfeatured\nManuscript received 13 December 2022; accepted 6 January 2023.",
+    "char_length": 210
+  },
+  {
+    "quote_id": "qb_5332bb358d",
+    "span_index": 11,
+    "text": "services consist of the radio determination satellite service\nDateofpublication23January2023;dateofcurrentversion28Febru-\nary 2023.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_5444fffdfb",
+    "span_index": 12,
+    "text": "This work was supported in part by the Program of the (RDSS), the BDS satellite-based augmented service (BDS-\nNational Natural Science Foundation of China under Grant 41904038 BAS), the regional short message communication (RSMC)\nand Grant 42074036, and in part by the China Postdoctoral Science\nservices,andthesatellite-basedprecisepointpositioning(PPP)\nFoundation under Grant 2019M662713.",
+    "char_length": 390
+  },
+  {
+    "quote_id": "qb_28bcf75a5f",
+    "span_index": 13,
+    "text": "The associate editor coordi-\nnating the review of this article and approving it for publication was service via B2b signal (PPP-B2b) [2], [5], [6].",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_976d0fe12a",
+    "span_index": 14,
+    "text": "Dr.HassenFourati.(Correspondingauthor:WenjuFu.) ThePPPtechnologyusesasingleglobalnavigationsatellite\nHaitaoZhou,WenjuFu,LeiWang,TaoLi,YuanWu,andRuizhiChen\nsystem (GNSS) receiver to achieve high-precision positioning\nare with the State Key Laboratory of Information Engineering in Sur-\nveying,MappingandRemoteSensing(LIESMARS),WuhanUniversity, by receiving pseudorange and phase observations and using\nWuhan430072,China(e-mail:wenjufu@whu.edu.cn).",
+    "char_length": 446
+  },
+  {
+    "quote_id": "qb_aed8e37b67",
+    "span_index": 15,
+    "text": "high-precision satellite orbit and clock offset products.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_e776003eba",
+    "span_index": 16,
+    "text": "It has\nJuanjuan Li is with the 54th Research Institute of China Electronics\nimportant applications in low-orbit satellite orbit determina-\nTechnologyGroupCorporation,Shijiazhuang050081,China.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_1eaba0d74e",
+    "span_index": 17,
+    "text": "DigitalObjectIdentifier10.1109/JSEN.2023.3235901 tion [7], [8], water vapor inversion [9], seismic monitoring,\n1558-1748©2023IEEE.Personaluseispermitted,butrepublication/redistributionrequiresIEEEpermission.",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_5e60b47288",
+    "span_index": 18,
+    "text": "Seehttps://www.ieee.org/publications/rights/index.htmlformoreinformation.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_74ed64108f",
+    "span_index": 19,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_a38b67c6f9",
+    "span_index": 20,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_e4ce518bc1",
+    "span_index": 21,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_c38fde43a2",
+    "span_index": 22,
+    "text": "ZHOUetal.:MFBDS-3REAL-TIMEPOSITIONINGPERFORMANCEASSESSMENT 4995\nionospheric monitoring [10], [11], and other fields.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_5a466977d6",
+    "span_index": 23,
+    "text": "Since PPP correspondinguserrangeaccuracyindex(URI).Type3broad-\nwas put forward in 1997, it has gone through the develop- casts differential code bias (DCB).",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_87f55d237e",
+    "span_index": 24,
+    "text": "Type 4 broadcasts IOD\nment process from ambiguity float solution to fixed solu- Corr and clock offset corrections.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_915cb7f92b",
+    "span_index": 25,
+    "text": "The update time is 6 s for\ntion [12], [13], [14] and from postprocessing to real-time pro- Type4and48sfortherestofthetypes.ThePPP-B2bcorrec-\ncessing [15].",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_2d7d635ce7",
+    "span_index": 26,
+    "text": "The research of PPP mainly focuses on the PPP tions can be combined with the broadcast ephemeris (BRDC)\npositioningmodel,datapreprocessing,errormodelrefinement, to recover the real-time orbit and clock offset with high\nambiguity fixing, and fast initialization [16].",
+    "char_length": 266
+  },
+  {
+    "quote_id": "qb_6cc707de6c",
+    "span_index": 27,
+    "text": "The emergence accuracy.Thissectionbrieflyintroducestheevaluationmethod\noftheMulti-Frequency(MF)GNSStechnology[17],[18]can of PPP-B2b corrections and three MF BDS-3 PPP models.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_572961e543",
+    "span_index": 28,
+    "text": "providemoreredundantobservationsforPPPsolutionandcan\nalso construct more optimal combinations [19] to meet the A.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_a413223b66",
+    "span_index": 29,
+    "text": "PPP-B2bCorrections\npurpose of cycle slip detection [20] or ambiguity resolution, The orbit and clock offset of PPP-B2b corrections must\nand finally improve the positioning accuracy and speed up be matched to be used.",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_437bea6432",
+    "span_index": 30,
+    "text": "If IOD Corr in Type 2 matches that\nconvergence.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_ed9ab6c513",
+    "span_index": 31,
+    "text": "in Type 4, the IODN in Type 2 must also match the issue\nWith the rapid development of GNSS technology, real-time of data, clock (IODC) in the broadcast ephemeris.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_fcc87d9b56",
+    "span_index": 32,
+    "text": "Then, the\nPPP [21], [22] has become a research hotspot in the GNSS PPP-B2bcorrectionscancorrecttheorbitinradial,along,and\ncommunity, which has significant application prospects in the cross (RAC) directions and the clock offset of the broadcast\nfield of unmanned driving, smart agriculture, and earthquake ephemeris.",
+    "char_length": 316
+  },
+  {
+    "quote_id": "qb_b49ee06cb4",
+    "span_index": 33,
+    "text": "The reference points of orbit and clock offset\nwarning.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_98f941879a",
+    "span_index": 34,
+    "text": "However, the main constraint to real-time PPP is of broadcast ephemeris and PPP-B2b products are the B3I\nthe availability of the GNSS orbit and clock offset products frequency center of BDS-3 satellites.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_da7234e175",
+    "span_index": 35,
+    "text": "For final precise multi-\nwith high accuracy in real time [23], [24], [25].",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_613b63d73d",
+    "span_index": 36,
+    "text": "In 2013, IGS GNSS products from Geo Forschungs Zentrum (GFZ) prod-\norganizations began to broadcast real-time precise orbit and ucts,theorbitreferencepointofBDS-3satellitesisthesatellite\nclockoffsetdatastreamstoglobalusersvianetworkaccording center-of-mass (CoM), while the clock offset reference point\nto the standard of Radio Technical Commission for Maritime is the B3I frequency center.",
+    "char_length": 390
+  },
+  {
+    "quote_id": "qb_c55b37efe1",
+    "span_index": 37,
+    "text": "When evaluating the accuracy of\nService(RTCM).CentreNationalD’EtudesSpatiales(CNES) orbitandclockoffsetofPPP-B2bproducts,thecorresponding\nandotherorganizationsalsobroadcastreal-timecorrectionsof conversion should be carried out for comparison [6], [28].",
+    "char_length": 253
+  },
+  {
+    "quote_id": "qb_b8a4dcff19",
+    "span_index": 38,
+    "text": "the multi-GNSS systems to global users [26].",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_f0c6043479",
+    "span_index": 39,
+    "text": "The positioning The evaluation of clock offset accuracy is relatively com-\naccuracy of static centimeter level and kinematic decimeter plicated.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_a91b11ebd4",
+    "span_index": 40,
+    "text": "Clock offset provided by different analysis centers\nlevel can be achieved.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_4d63454019",
+    "span_index": 41,
+    "text": "However, PPP may be reinitialized cannot be compared directly due to the differences in the\nwhen the network is interrupted.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_420b0f6a7b",
+    "span_index": 42,
+    "text": "In addition, the PPP-B2b underlying GNSS-specific system time scales [34].",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_6640f353a6",
+    "span_index": 43,
+    "text": "There is a\nservice broadcast by BDS-3 GEO satellite via the B2b signal systematicbiasafterthesingle-difference(SD)valueisformed\nhas also started to broadcast the BDS-3/GPS precise orbit between the PPP-B2b products and the GFZ products.",
+    "char_length": 236
+  },
+  {
+    "quote_id": "qb_09e5fdfe5e",
+    "span_index": 44,
+    "text": "In this\nand clock offset corrections to China and its surrounding case, the systematic bias of the satellite can be eliminated\nareas since 2020 [27].",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_67898cc9e8",
+    "span_index": 45,
+    "text": "At present, some studies have been by subtracting the SD value of the reference satellite with a\nconducted to enhance dual-frequency (DF) PPP based on longerobservationarcorcorrectinganaverageensembleclock\nPPP-B2bcorrections[28],[29],[30],[31]andapplyittotime- difference computed at each epoch from the SD values of\nfrequencytransmissionandearthquakewarning[32],[33],but satellites in a constellation [6].",
+    "char_length": 406
+  },
+  {
+    "quote_id": "qb_9285521a40",
+    "span_index": 46,
+    "text": "This article adopts the second\nthe positioning performance of single-frequency (SF) and MF waytoeliminatethesystematicbias,andthedouble-difference\nPPP has not been studied.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_10800edc9c",
+    "span_index": 47,
+    "text": "(DD) values can be written as follows:\nThe main contribution of this article is to comprehensively\nDDclks(i) = clks (i)−clks (i)\nassess the quality of PPP-B2b products and to analyze the B2b GFZ\nns\nenhanced positioning effect of PPP-B2b products on SF, DF, − 1 X(cid:0) clkn (i)−clkn (i)(cid:1) (1)\nandMFPPPfromtheperspectiveofpositioningaccuracyand ns B2b GFZ\nn=1\nconvergence time, which can provide more options for PPP\nwhere B2b and GFZ represent the PPP-B2b products and the\nusers.",
+    "char_length": 485
+  },
+  {
+    "quote_id": "qb_3e08ef2f31",
+    "span_index": 48,
+    "text": "This article is organized as follows.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_f700f299c5",
+    "span_index": 49,
+    "text": "First, this article\nfinalGFZproducts,respectively;s representsthesatellitePRN\nintroduces the assessment methods of PPP-B2b products and\nof BDS-3.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_6b9d2eed3f",
+    "span_index": 50,
+    "text": "clk stands for satellite clock offset; i indicates\nbriefly gives the SF, DF, and MF PPP models.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_4f7efce3cc",
+    "span_index": 51,
+    "text": "Then, the\nthe current epoch.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_5d4ba1bfe9",
+    "span_index": 52,
+    "text": "ns indicates the total number of available\naccuracyofPPP-B2bproductsisevaluated,andthepositioning\nsatellites in the current epoch.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_f758144c18",
+    "span_index": 53,
+    "text": "performanceofPPP-B2bservice-enhancedBDS-3SF,DF,and\nThe signal-in space range error (SISRE) is usually used to\nMF PPP is evaluated.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_77517bc253",
+    "span_index": 54,
+    "text": "Finally, some conclusions and findings\ncomprehensively reflect the impact of orbit and clock offset\nare summarized.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_af92e55268",
+    "span_index": 55,
+    "text": "on final positioning.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_06f7df2c14",
+    "span_index": 56,
+    "text": "The SISRE is calculated as follows [34]:\nII.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_15fcb363a8",
+    "span_index": 57,
+    "text": "MF PPP MODEL WITH PPP-B2B CORRECTIONS\nSISRE\ncor\nC\nre\nu\nc\nr\nt\nr\ni\ne\no\nn\nn\nt\ns\nly,\nth\nB\nr\nD\nou\nS\ng\n-\nh\n3 b\nG\nr\nE\noa\nO\ndca\nsa\nst\nt\ns\nell\no\nit\nn\ne\nl\ns\ny\n(\nf\nC\nou\n5\nr\n9,\nty\nC\npe\n6\ns\n0,\nof\nan\nP\nd\nPP\nC\n-B\n61\n2\n)\nb\n.",
+    "char_length": 208
+  },
+  {
+    "quote_id": "qb_2dd0a5baf3",
+    "span_index": 58,
+    "text": "  q (0.98· R)2+(cid:0) A2+C2 (cid:1)/54,\n= (2)\nType 1 broadcasts the pseudo-random noise (PRN) mask of  q (0.99· R)2+(cid:0) A2+C2 (cid:1)/126,BDS−3(IGSO)\nBDS-3satellites,andthePRNmaskofthesatelliteswithPPP-\nB2bcorrectionsis1;otherwise,itis0.Type2broadcastsissue where R, A,andC denotetherootmeansquare(rms)oforbit\nof data, navigation (IODN), IOD Corr, orbit corrections, and errors in RAC directions, respectively.",
+    "char_length": 420
+  },
+  {
+    "quote_id": "qb_2ecd4056f5",
+    "span_index": 59,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_7fa2ba983f",
+    "span_index": 60,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_5a0232bb1d",
+    "span_index": 61,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_1dd428ecbd",
+    "span_index": 62,
+    "text": "4996 IEEESENSORSJOURNAL,VOL.23,NO.5,1MARCH2023\nB.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_e11c17f874",
+    "span_index": 63,
+    "text": "PPPModelWithDifferentFrequencies satellites clock offset for broadcast ephemeris and final GFZ\nThe PPP model uses the pseudorange and phase observa- products, respectively.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_559cf23c49",
+    "span_index": 64,
+    "text": "DCB B1I-B3I is the DCB obtained from\ntion to construct the observation equations.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_5d63d449f7",
+    "span_index": 65,
+    "text": "The observation PPP-B2b products.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_f6129164eb",
+    "span_index": 66,
+    "text": "equations can be expressed as follows: 2) DF PPP Model: The DF PPP model adopts an\n ionosphere-free (IF) combination, and the DF observation\nP r s =ρ r s+dt r −dts +Mw r s ·ZWD r +I r s +ε r s ,P equations can be expressed as follows:\n (cid:16) (cid:17)\nL r s =ρ r s+dt r −dts +Mw r s ·ZWD r −I r s +λ i sN i s +ε r s ,\n(\nL\n3)\n OMC\n(cid:16)\nP r s ,IFjk\n(cid:17)\n=x r s +dt r +Mw r s ·ZWD r +ε r s ,P,IFjk\nwhere s and r represent the satellite PRN and the receiver,\n OMC L r s ,IFjk =x r s +dt r\n+\n+\nλs\nMw r s\nN\n·\ns\nZWD\n+\nr\nεs\n(8)\nrespectively; P and L denotethecodeandphaseobservations, i,IFjk i,IFjk r,L,IFjk\nrespectively; ρ is the geometric range between the satellite where j and k represent the B1I and B3I signal frequencies;\nand receiver antennas; dt and dts denote the receiver and Ps and Ls representtheIFcombinationofpseudorange\nr r,IFjk r,IFjk\nsatellite clock offsets, respectively; I is slant ionospheric and phase; λs and Ns represent the wavelength and\ndelay; Mw r s and ZWD r are the mapping function of zenith ambiguity of I i F ,IF c jk ombinatio i, n IF f jk or special satellite; ε r s ,P,IFjk and\ntropospheric wet delay and corresponding zenith troposphere εs are the measurement noises of pseudorange and phase\nwet delay, respectively; λ i and N i s are the wavelength of IF r,L c ,I o F m jk binations.",
+    "char_length": 1335
+  },
+  {
+    "quote_id": "qb_cad759b138",
+    "span_index": 67,
+    "text": "Other parameters are the same as above.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_0f30f2719d",
+    "span_index": 68,
+    "text": "differentfrequenciesandtheambiguityofthespecificsatellite B1I and B3I observations of BDS-3 satellites are adopted to\nincycles,respectively;ε r s ,P andε r s ,L arethenoiseofcodeand constructtheDFPPPmodelinthisstudy.TheDCBshouldbe\nphase observations.",
+    "char_length": 250
+  },
+  {
+    "quote_id": "qb_4f7eb86f1a",
+    "span_index": 69,
+    "text": "Unless otherwise stated, the units used in considered for B1I/B3I IF combination [36], and the formula\nthis article are in meters.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_a538b09db4",
+    "span_index": 70,
+    "text": "is as follows [28]:\n1) Single-FrequencyPPPModel: The ionosphere effect is a\nkey issue for SF PPP.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_cebc3449c5",
+    "span_index": 71,
+    "text": "In contrast to the conventional SF PPP ds −ds = f j 2 (cid:16) ds −ds (cid:17) − f k 2 (cid:0) ds −ds (cid:1)\nto eliminate the ionosphere by employing code-minus-phase IFij B3I f2− f2 j B3I f2− f2 k B3I\nj k j k\ncombination,weestimatetheionospheredelayasparameterin f2 f2\nthis study [1].",
+    "char_length": 286
+  },
+  {
+    "quote_id": "qb_373f0f3947",
+    "span_index": 72,
+    "text": "Ignoring second-order ionospheric delay [35], = j DCBs − k DCBs (9)\nf2− f2 j f2− f2 k\nthe observation equation of the SF PPP model is shown as j k j k\nfollows:\nwhere f is the frequency; d represents the satellite code\n OMC (cid:0) P\nr\ns(cid:1)= x\nr\ns +dt\nr\n+Mw\nr\ns ·ZWD\nr\n+I\nr\ns +ε\nr\ns\n,P\nhardwaredelay;DCBcanbeobtainedfromPPP-B2bproducts.",
+    "char_length": 341
+  },
+  {
+    "quote_id": "qb_10266210e8",
+    "span_index": 73,
+    "text": "3) MF PPP Model: Based on the B1I/B3I observations,\nOMC (cid:0) Ls(cid:1)= xs +dt +Mws ·ZWD −Is +λsNs+εs BDS-3 also broadcasts B1C/B2a signals at the same time,\nr r r r r r i i r,L\n(4) which provides more observations for MF PPP.",
+    "char_length": 230
+  },
+  {
+    "quote_id": "qb_7d8dcf09c5",
+    "span_index": 74,
+    "text": "To verify\nthe enhancement effect of PPP-B2b products on MF PPP,\nwhere OMC represents the observed value minus the calcu- B1C/B2a IF combination is added based on the B1I/B3I IF\nlated value.",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_d8ac11f697",
+    "span_index": 75,
+    "text": "Pseudorange or phase observations subtract the combination.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_48a57a6147",
+    "span_index": 76,
+    "text": "The pseudorange and phase observation equa-\nerrors calculated by the error models.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_c99c2c2b4c",
+    "span_index": 77,
+    "text": "The relevant error mod- tions of MF PPP are as follows:\nelsincludetroposphericdrydelay,phasewindup,phasecenter  (cid:16) (cid:17)\nd\nr\ni\no\na\no\ne\nn e\nf\nc\nn\nf\nd d\ns\ne\no\nu\ne\ni\ns\nv\ns c\nt\np\no t\ne\n(\ni\nh\nP\nr\nn\ne\no\nC\ng\np\nr\nn\ni\no\nO\nc\nt .",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_fbda396e0a",
+    "span_index": 78,
+    "text": "s\nh\n)\ni\ne x\nt\nd\nc\ni\nr s\ne\no\nr\no\ne\nl\nn\nr\na\ni l\nr\n,\ns a\ny\ne\nr\n,\nt\nc\ne\ne\nt\nt\nh\na\nd\nc\ni\nn\ne\no\ne\ne\ni\nd\nn\nv\nr c\n,\nr\ne\no\na\no\nr\nr\ne\no\nm\nr\nc\nl\ns r\na\nb\n, d\nlo\nt\ni\ni t\ni\ng\nn\nc\nh\nv\nk\nu\na e\nis\nt\ni\no\nt\ne p\nt\ni\ny\nf\na\nc\n.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_a1523898d0",
+    "span_index": 79,
+    "text": "f\np r\ns\nc\na a\nW\ne\no\nm r\nt\nr\na\n,\nh\nr\ne m\nt\ne\ne\nt\nr\ne\nc\nn\no\ne r\nt\nt\np\ni\ns e\no\nt\no\nh\nr o\nn\n.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_2868c2b2b7",
+    "span_index": 80,
+    "text": "s\ne\nf\np\n,\nr\nT\nh\nt\nS\ne\ni\nh\ne\nd\nF e\nr\na\na\ni\nr\nr\nP\nl\nc\ne\ne\nP\nc\nf\nw\no\no P\nn\nr\ne\nr\nr\ne i\nt\ne\nv\nn ,\nd\nc\ni\nc\ns\ne\na\nt\nl\ni\ni\nu\nl\nf\no\nb\na\nt d e\nn\nl\ny\ne\ne r\n,\n,\n\nO\nO\nM\nM\nC\nC\n(cid:16) L\nP r\nr s\ns ,\n,\nI\nI\nF\nF\nj\nj\nk\nk (cid:17) =\n=\nx\nx\nr\nr\ns\ns\n+\n+\nd\nd\nt\nt\nr\nr\n+\n+\n+\nλ\ni\ns\nM\nM\n,IF\nw\nw\njk\nr\nr\ns\ns\nN\n·\n·\ni\ns\n,\nZ\nZ\nIF\nW\nW\njk\nD\nD\n+\nr\nr\nε\n+\nr\ns\n,L\nε\n,\nr s\nI\n,\nF\nP\nj\n,\nk\nIFjk\ns\nfo\na\nl\nt\nI\ne\nl\nn\no\nll\nw\na\nit\nd\ns\ne\n:\nd\ns,\niti\nt\no\nh\nn\nX\ne\n,B\n=\np\n1\na\nI\nr\n(cid:2)\na\no\nx\nm\nb\n3×\ne\nse\nt\n1\ne\nr\nr\nv\nd\ns\na\nt r\nti\no\no\nZ\nf\nn\nW\ns\nS\na\nF\nD\nre\nP\nI\nu\nn\nP\ns\n×\nP\ne\n1\nd\nN\nc\nfo\na\nn\nn\nr\n×\nt\n1\nh\nb\n(cid:3)\ne\ne\n.",
+    "char_length": 582
+  },
+  {
+    "quote_id": "qb_6c99fe0a69",
+    "span_index": 81,
+    "text": "S\ne\nF\nx\nP\npr\nP\ne\nP\nss\nm\ned\nod\n(5\na\ne\ns\n)\nl\n O\nO\nM\nM\nC\nC\n(cid:0)\n(cid:0) L\nP r\nr s\ns ,\n,\nI\nI\nF\nF\na\na\nc\nc\n(cid:1)\n(cid:1)\n=\n=\nx\nx\nr\nr\ns\ns+\n+\nd\nd\nt r\nt r\n+\n+\n+\n+\nε\nλ\nM r\ns\ns\nI\n,\nF\nP w ,\nB\nIF r s\nN\n+\na · c\ns\nZ\nM\nW\nw\nD\n+\nr s\nr\n·\nε\nZ\ns\nWD r (10)\nin this study, and the frequency reference of orbit and clock\ni,IFac i,IFac r,L,IFac\nwhere a and c represent the B2a/B1C signal frequency; IFB\noffset needs to be converted to B1I signal.",
+    "char_length": 443
+  },
+  {
+    "quote_id": "qb_40d0fa0e98",
+    "span_index": 82,
+    "text": "The orbit can be\nis the interfrequency bias of receiver, and the random walk\ncorrected by PCO, and the clock offset can be corrected by\nDCB.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_08a8addd06",
+    "span_index": 83,
+    "text": "The clock offset correction formula is as follows: modelisusedtoestimatethisparameter.Otherparametersare\nthe same as above.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_d13fda3c17",
+    "span_index": 84,
+    "text": "The B1C/B2a IF ambiguity should also be\nT ¯ b B ro 1 a I dcast_C = T ˆ broadcast_C +DCB B1I-B3I (6) added to parameter estimation.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_bb834d322b",
+    "span_index": 85,
+    "text": "The parameters for MF PPP\n1 are as follows:\nT ¯B1I = T − DCB (7)\nprecise_C precise_C β−1 B1I-B3I\nX\n=(cid:2)\nx 3×1 dt r IFB ZWD N jk,n×1 N ac,n×1\n(cid:3).",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_4c020c4e2a",
+    "span_index": 86,
+    "text": "(11)\nwhere β = f B 2 1I /f B 2 3I ; T ¯ b B ro 1 a I dcast_C and T ¯ p B re 1 c I ise_C are the clock Similarly,DCBshouldalsobeconsideredfortheB1C/B2aIF\nˆ\noffset considering DCB; T and T are BDS-3 combination, and the correction method should refer to (9).",
+    "char_length": 256
+  },
+  {
+    "quote_id": "qb_ac022b7994",
+    "span_index": 87,
+    "text": "broadcast_C precise_C\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_a11d402650",
+    "span_index": 88,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_165c129609",
+    "span_index": 89,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_af49cf4438",
+    "span_index": 90,
+    "text": "ZHOUetal.:MFBDS-3REAL-TIMEPOSITIONINGPERFORMANCEASSESSMENT 4997\nFig.1.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_a65f193b2a",
+    "span_index": 91,
+    "text": "MeanSTDofclockoffsetforBDS-3withBRDCandPPP-B2b\nproducts.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_40b2588295",
+    "span_index": 92,
+    "text": "TABLEI\nBDS-3MEOSATELLITESOFDIFFERENTMANUFACTURERS Fig.2.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_927747f270",
+    "span_index": 93,
+    "text": "Meanrmsoforbiterrorsin(a)radial,(b)alongtrack,(c)cross\ntrack,and(d)SISREforBDS-3withBRDCandPPP-B2bproducts.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_7f28d383ea",
+    "span_index": 94,
+    "text": "TABLEII\nMEANRMSOFORBITANDSTDOFCLOCKOFFSETFORBDS-3\nIII.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_ab119f0ae0",
+    "span_index": 95,
+    "text": "ACCURACY ASSESSMENT OF PPP-B2B\nCORRECTIONS\nThis section mainly evaluates the accuracy of PPP-B2b\nproducts, including orbit, clock offset, and DCBs.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_3d8de2af13",
+    "span_index": 96,
+    "text": "The dataset\ndecoded by Septentrio R5 receiver was obtained from June\n1 to 30, 2022.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_e34081843d",
+    "span_index": 97,
+    "text": "In addition, the orbit and clock offset results of\nbroadcast ephemeris are taken as a reference for comparison.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_f95ff86492",
+    "span_index": 98,
+    "text": "AccuracyofOrbit\nA.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_ffb4df1f9d",
+    "span_index": 99,
+    "text": "AccuracyofClockOffset The orbit accuracy of PPP-B2b products in RAC directions\nTo evaluate the accuracy of PPP-B2b clock offset, the can be evaluated when the phase center of satellites for\ndifferences of GNSS-specific system time scales were elim- PPP-B2b products and final GFZ products is converted to\ninated by the DD method [6], [34], and the mean standard B1I/B3I IF combination phase center of the satellite.",
+    "char_length": 415
+  },
+  {
+    "quote_id": "qb_6de30b8519",
+    "span_index": 100,
+    "text": "The rms\ndeviation (STD) of clock offset for each BDS-3 satellites of orbit errors obtained for each satellite using 30 days of\nwith 30 days of data is shown in Fig.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_f26c4068db",
+    "span_index": 101,
+    "text": "As shown in the data is shown in Fig.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_923731111c",
+    "span_index": 102,
+    "text": "The orbit accuracy of the broadcast\nfigure,exceptfortheC40satellite,theclockoffsetSTDofthe ephemeris is also given for comparison.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_aebac01b84",
+    "span_index": 103,
+    "text": "The rms in the radial\nbroadcast ephemeris for the other BDS-3 satellites fluctuates direction is the smallest in RAC directions and is better than\nwithin 0.4–0.6 ns.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_b80a15ceb5",
+    "span_index": 104,
+    "text": "Except for the IGSO satellites (C38, C39, 0.2 m.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_646ac96edd",
+    "span_index": 105,
+    "text": "The rms in along-track and cross-track directions is\nand C40), the clock offset STD of PPP-B2b products for better than 0.4 m.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_ef1a945222",
+    "span_index": 106,
+    "text": "In general, due to the application of inter-\nall MEO satellites is less than 0.2 ns.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_8ec58e80cb",
+    "span_index": 107,
+    "text": "Compared with MEO satellite link (ISL) measurements to broadcast ephemeris, the\nsatellites, the clock offset STD of BDS-3 IGSO satellites is orbitaccuracyofbroadcastephemerisforBDS-3satelliteshas\ngenerallypoor.Theclockoffsetofallsatellitesfluctuatesmore been greatly improved [38].",
+    "char_length": 281
+  },
+  {
+    "quote_id": "qb_04b062e631",
+    "span_index": 108,
+    "text": "Even with PPP-B2b corrections,\nsmoothly with PPP-B2b corrections, which also facilitates the accuracy improvement is not obvious.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_82e4e4de91",
+    "span_index": 109,
+    "text": "At the same time,\nshort-term clock offset forecast in the event of the PPP-B2b it can be seen that the orbit accuracy of C26–C30 satellites in\nservice outage.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_2a6df3c412",
+    "span_index": 110,
+    "text": "the radial direction is very good, which may be due to more\nIt should be noted that the BDS-3 MEO satellites are available ISL measurements of these satellites [6] during the\nmanufacturedbytheChinaAerospaceScienceandTechnology generation of broadcast ephemeris.",
+    "char_length": 261
+  },
+  {
+    "quote_id": "qb_0ce5be2499",
+    "span_index": 111,
+    "text": "Corporation (CASC) and the Shanghai Engineering Center The statistical results of the orbit errors of all BDS-3\nfor Microsatellites (SECM) [37], and the details are shown satellites are shown in Fig.",
+    "char_length": 199
+  },
+  {
+    "quote_id": "qb_5a675d8ec1",
+    "span_index": 112,
+    "text": "2 and Table II.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_d9fb01cabd",
+    "span_index": 113,
+    "text": "The orbit accuracy\nin Table I.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_ae70b5a334",
+    "span_index": 114,
+    "text": "After the statistics, it was found that the clock ofthePPP-B2bproductsiscomparabletothatofthebroadcast\noffsetSTDofthetwotypesofMEOsatelliteswas0.1167and ephemeris, and the improvement is not significant over the\n0.12 ns, respectively, with a difference of 0.003 ns, indicating clock offset.",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_b4014795c5",
+    "span_index": 115,
+    "text": "The rms of the PPP-B2b products of MEO and\nthat the clock offset accuracy of the MEO satellites made by IGSO satellites in the 3-D direction is 0.286 and 0.447 m,\nCASC and SECM is approximately equivalent.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_13265c5925",
+    "span_index": 116,
+    "text": "respectively, which are 18.3% and 12.9% higher than that of\nThe statistical results of all BDS-3 satellites are shown in the broadcast ephemeris.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_6262aa8fbd",
+    "span_index": 117,
+    "text": "The SISRE of PPP-B2b products of\nTable II.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_148327259e",
+    "span_index": 118,
+    "text": "The mean STD of MEO and IGSO satellites clock MEO and IGSO satellites is 0.087 and 0.21 m, respectively,\noffset is 0.118 and 0.237 ns, respectively, which is 75.9% and which are 6% and 2% higher than that of the broadcast\n61.8% higher than that of broadcast ephemeris.",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_ca24e63d4e",
+    "span_index": 119,
+    "text": "The accuracy ephemeris.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_3d2aa26ead",
+    "span_index": 120,
+    "text": "PPP-B2b products cannot be greatly improved in\nofbroadcastephemerisclockoffsethasbeengreatlyimproved the radial direction due to ISL measurements, but there is a\nwith PPP-B2b corrections.",
+    "char_length": 187
+  },
+  {
+    "quote_id": "qb_493d9c3f7d",
+    "span_index": 121,
+    "text": "largeroomforimprovementinthealong-trackandcross-track\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_a2f7941830",
+    "span_index": 122,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_fe5434f495",
+    "span_index": 123,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_abc29d671b",
+    "span_index": 124,
+    "text": "4998 IEEESENSORSJOURNAL,VOL.23,NO.5,1MARCH2023\nTABLEIII\nRECEIVERINFORMATIONOFTHEMGEXSTATIONS\nTABLEIV\nFig.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_9ab36ebdca",
+    "span_index": 125,
+    "text": "Mean DCB difference of PPP-B2b products versus CAS\nproducts(top)andPPP-B2bproductsversusTGD(bottom).",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_8909d13f15",
+    "span_index": 126,
+    "text": "PPPSTRATEGY\ndirections.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_8257bab0a8",
+    "span_index": 127,
+    "text": "In addition, the reason why the SISRE of IGSO\nsatellites is inferior to that of the MEO satellites may be due\nto the fact that this kind of regional satellites cannot be well\ntracked globally [2], and also due to the fact that there are\nfewer available ISL measurements for IGSO satellites [6].",
+    "char_length": 294
+  },
+  {
+    "quote_id": "qb_bf5e2d7919",
+    "span_index": 128,
+    "text": "Meanwhile, we also conducted a statistical analysis of the\norbital accuracy of the BDS-3 MEO satellites manufactured\nby CASC and SECM.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_fe252c67b3",
+    "span_index": 129,
+    "text": "The orbit rms in the 3-D direction of\nthe two types of the MEO satellites is 0.2838 and 0.3132 m,\nand the SISRE is 0.0926 and 0.0772 m, respectively.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_c773e2df09",
+    "span_index": 130,
+    "text": "Both the\norbitrmsdifferenceandtheSISREdifferenceareabout2cm,\nindicating that the orbit accuracies of BDS-3 MEO satellites\nmanufactured by CASC and SECM are approximately com-\nparable.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_9b18bae6ed",
+    "span_index": 131,
+    "text": "AccuracyofDCBs\nDCBatdifferentsignalfrequenciesofBDS-3satellitesrep-\nresentsthesatelliteDCBbetweenthecorrespondingsignalfre-\nquencyandtheB3Isignalfrequency.Atpresent,thePPP-B2b\nproductsonlyprovidetheDCBsofBDS-3satellites,including\nDCB (B1I), DCB (B1Cp), and DCB (B2ap).",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_a5fb77ce37",
+    "span_index": 132,
+    "text": "To evaluate the\nDCBs accuracy of the PPP-B2b products, compare them with\nthe multi-GNSS experiment (MGEX) DCB products provided\nFig.4.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_aea533981e",
+    "span_index": 133,
+    "text": "DistributionofMGEXstations.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_4b959f8675",
+    "span_index": 134,
+    "text": "by the Chinese Academy of Sciences (CAS) [39] and the\ntime group delay (TGD) provided by broadcast ephemeris,\nrespectively.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_a0b5dc8f9c",
+    "span_index": 135,
+    "text": "The average DCB difference of the 30 days of\npositioning experiments were conducted using the BDS-3\neach BDS-3 satellite is shown in Fig.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_4c2b060b6d",
+    "span_index": 136,
+    "text": "As can be seen\nobservations from six MGEX stations in and around China.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_d4654ff006",
+    "span_index": 137,
+    "text": "from the figure, the DCB difference between the PPP-B2b\nThe dataset is from June 1 to 30, 2022.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_03efec74ba",
+    "span_index": 138,
+    "text": "The distribution\nproductsandtheCASproductsisrelativelylarge,andtheDCB\nand details of these MGEX stations are shown in Fig.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_e23474db76",
+    "span_index": 139,
+    "text": "4\ndifference of B1I/B1Cp of all satellites fluctuates between\nand Table III.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_10e7f51912",
+    "span_index": 140,
+    "text": "The experiment is divided into four schemes,\n0 and 2 ns.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_ef907d1542",
+    "span_index": 141,
+    "text": "The DCB difference of B2ap is better than 1 ns,\nnamely,SFPPP,DFPPP,MFPPP,andreferenceexperiments,\nwhich was slightly better than that of B1I/B1Cp.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_ff25a89c4e",
+    "span_index": 142,
+    "text": "The DCB\nand each scheme is tested by both static and simulated\naccuracyofthePPP-B2bproductsandtheTGDiscomparable,\nkinematic solutions.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_e663ba6402",
+    "span_index": 143,
+    "text": "The reference experiments are the DF IF\nand the difference of B1I/B1Cp/B2ap for all BDS-3 satellites\nPPP using final GFZ products.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_92246b8205",
+    "span_index": 144,
+    "text": "The detailed PPP strategy is\nisbetterthan0.1ns.ThismaybethereasonthatbothPPP-B2b\nshown in Table IV.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_e5725d5e8f",
+    "span_index": 145,
+    "text": "products and TGD are provided by the China Analysis Center\nConsidering the difference of the geometry of satellites\nbased on a small number of ground-based tracked stations,\nand the number of available satellites in different observation\nwhile CAS products are provided by solutions using global\nperiods, the PPP solutions were restarted every 4 h, and six\ntracked stations.",
+    "char_length": 374
+  },
+  {
+    "quote_id": "qb_a9bbd9ea91",
+    "span_index": 146,
+    "text": "positioning results can be obtained per day for each station.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_9bd6a1a985",
+    "span_index": 147,
+    "text": "Then, each station can get 180 PPP results in 30 days.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_5af41215b6",
+    "span_index": 148,
+    "text": "POSITIONING PERFORMANCE WITH PPP-B2B\nreference coordinates of MGEX stations are the IGS weekly\nCORRECTIONS\nsolution.Thepositioningerrorsofthese180segmentsforeach\nA.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_41b5318e10",
+    "span_index": 149,
+    "text": "DatasetandPPPStrategy station were fused according to each epoch, and the median,\nTo verify the enhanced effect of PPP-B2b corrections on 68.26% (1σ) value, and 95.44% (2σ) value of statistical\nreal-time positioning with SF, DF, and MF PPP models, results were given to evaluate the positioning accuracy and\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 371
+  },
+  {
+    "quote_id": "qb_ec6f2dbbe4",
+    "span_index": 150,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_1e1d2e8c4c",
+    "span_index": 151,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_e37c5893a6",
+    "span_index": 152,
+    "text": "ZHOUetal.:MFBDS-3REAL-TIMEPOSITIONINGPERFORMANCEASSESSMENT 4999\nTABLEV\nMEANOFSTATISTICALRESULTSOFPOSITIONINGERRORSWITH\nFOURPPPMODELS\nFig.5.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_8f60951c7b",
+    "span_index": 153,
+    "text": "MedianpositioningerrortimeserieswithfourPPPmodelsin\nstaticsolutionsforPTGGstation.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_3237db6fdc",
+    "span_index": 154,
+    "text": "TABLEVI\nMEANOFSTATISTICALRESULTSOFCONVERGENCETIMEWITHFOUR\nPPPMODELS\nFig.6.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_f2f22c9432",
+    "span_index": 155,
+    "text": "MedianpositioningerrorsofsixstationswithfourPPPmodels\ninstaticsolution.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_668893d47d",
+    "span_index": 156,
+    "text": "convergence time.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_12a6d95056",
+    "span_index": 157,
+    "text": "The convergence time was defined as the\nhorizontal accuracy and vertical accuracy of 20 and 40 cm,\nrespectively, and lasted for more than 5 min [6].",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_8eab9c6e3f",
+    "span_index": 158,
+    "text": "StaticTest\nIn this study, we use the positioning results from PTGG\nstation as an example, and the median positioning error time\nFig.7.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_5a1c96a0c2",
+    "span_index": 159,
+    "text": "MedianconvergencetimeofsixstationswithfourPPPmodels\nseries in the ENU directions for static model are shown in instaticsolution.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_22532b5271",
+    "span_index": 160,
+    "text": "We interrupt the PPP filter every 4 h and compute\nthe median position error time series using 30 days’ data\nto explore the convergence characteristics of different PPP improvement effect of DF PPP and MF PPP with PPP-B2b\nmodels.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_5e24ae4a58",
+    "span_index": 161,
+    "text": "The black line, red line, yellow line, and gray line productsonthe E and N directionsisthemostobvious,which\nrepresentthemedianpositioningerrorsoftheSFPPP,DFPPP, is basically consistent with the reference results.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_b02cd9fda4",
+    "span_index": 162,
+    "text": "Compared\nMF PPP, and reference solutions, respectively.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_94f12c25c3",
+    "span_index": 163,
+    "text": "The figure with DF PPP, the accuracy of MF PPP is improved by 6.1%,\nshows that the SF PPP converges slowly, and it takes about 9.5%,and7.3%intheENUdirections,respectively.Ascanbe\n30 min to converge to 0.2 m in the ENU directions.",
+    "char_length": 229
+  },
+  {
+    "quote_id": "qb_d0e81030a9",
+    "span_index": 164,
+    "text": "The seen from Fig.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_beade28db5",
+    "span_index": 165,
+    "text": "7, the convergence time of SF PPP is longer,\naccuracy of DF PPP and MF PPP is comparable, and it takes greater than 40 min, and far more than the 10 min of DF PPP\nabout 10 min to converge to 0.2 m in the ENU directions, but and MF PPP.",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_f229c55d22",
+    "span_index": 166,
+    "text": "The convergence time of MF PPP is even better\nthe convergence speed of MF PPP in the initial stage is better than that of reference results at some stations.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_9ca6a5fa4c",
+    "span_index": 167,
+    "text": "Compared with\nthanthatofDFPPP.Comparedwiththereferenceresults,there DF PPP, the convergence time of MF PPP is improved by\nisstillroomforimprovementinthepositioningaccuracyafter 24.8%.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_88c409c03b",
+    "span_index": 168,
+    "text": "It shows that although more frequencies are used, the\nconvergence.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_0f9f96ff61",
+    "span_index": 169,
+    "text": "positioning accuracy is not significantly improved after con-\nThe median of positioning errors and convergence time of vergence, but in the initial state, MF PPP can converge faster.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_06f9723438",
+    "span_index": 170,
+    "text": "thesixstationsisshowninFigs.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_bcb5dcd487",
+    "span_index": 171,
+    "text": "6and7.TheSFPPPposition- We compared the performance of the four different PPP\ning results are relatively poor, except for the N direction, the models in static solution with the following three measures:\naccuraciesofthe E andU directionsareallgreaterthan0.1m.",
+    "char_length": 259
+  },
+  {
+    "quote_id": "qb_be219bc5e7",
+    "span_index": 172,
+    "text": "median, 1σvalue, and 2σ value of positioning errors and\nTheDFPPPandMFPPPresultsofallstationsarebetterthan convergence time.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_4d6f8852ea",
+    "span_index": 173,
+    "text": "Tables V and VI show the mean values of\n0.1mintheENUdirectionsexcepttheGAMGstation.Among these performance measures computed from the six stations.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_5c17af9988",
+    "span_index": 174,
+    "text": "them, the positioning accuracy in the E and N directions is With the increase in the statistical range, the positioning\nbetter, which are 4 and 2 cm, respectively.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_02eca1c45b",
+    "span_index": 175,
+    "text": "It shows that the accuracydeteriorates,andtheconvergencetimealsoincreases\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_c360167d55",
+    "span_index": 176,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_d1f364b352",
+    "span_index": 177,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_8dd90ef1a2",
+    "span_index": 178,
+    "text": "5000 IEEESENSORSJOURNAL,VOL.23,NO.5,1MARCH2023\nFig.10.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_4a4e8a8a48",
+    "span_index": 179,
+    "text": "MedianconvergencetimeofsixstationswithfourPPPmodels\ninkinematicsolution.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_aa853a75a3",
+    "span_index": 180,
+    "text": "PPP, the positioning accuracy in the ENU directions is close\nFig.8.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_c6d16eca36",
+    "span_index": 181,
+    "text": "MedianpositioningerrortimeserieswithfourPPPmodelsin\nto the reference results, and both are better than 0.2 m,\nkinematicsolutionsforPTGGstation.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_849b8b7271",
+    "span_index": 182,
+    "text": "especially the N direction is better than 0.04 m.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_e83481afcd",
+    "span_index": 183,
+    "text": "Compared\nwith DF PPP, MF PPP has an increase of 4.2%, 7.4%, and\n8.2% in the ENU directions, respectively.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_c6992c9128",
+    "span_index": 184,
+    "text": "From the median\nconvergence time in Fig.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_a43c07e411",
+    "span_index": 185,
+    "text": "10, it can be seen that SF PPP is\nmore than 90 min, while DF PPP and MF PPP are better than\n25 min.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_fa6e305330",
+    "span_index": 186,
+    "text": "Compared with DF PPP, the convergence time of MF\nPPP is improved by 27.7%.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_99bc8cbf1d",
+    "span_index": 187,
+    "text": "For JFNG, URUM, and ULAB\nstations, the convergence time of MF PPP is better than that\nofreferenceresults,whichindicatesthattheincreasednumber\nof observations contributes to fast convergence.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_6e8e21e6cb",
+    "span_index": 188,
+    "text": "For the statistical results of six stations with four PPP\nmodels in kinematic solution, we also give the median, 1σ\nFig.9.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_bdc16e6268",
+    "span_index": 189,
+    "text": "MedianpositioningerrorsofsixstationswithfourPPPmodels value, and 2σ value of positioning errors and convergence\ninkinematicsolution.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_ee5f5f9f0e",
+    "span_index": 190,
+    "text": "time, and Tables V and VI show the mean values of these\nperformance measures.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_a05e791438",
+    "span_index": 191,
+    "text": "The 1σ statistical results of position\ngradually.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_884767227d",
+    "span_index": 192,
+    "text": "The 1σ statistical results of DF PPP and MF PPP errors show that the SF PPP is better than 0.4 m in the E\nare better than 0.1 m in the E and N directions and 0.2 m in and N directions and 0.6 m in the U direction.",
+    "char_length": 213
+  },
+  {
+    "quote_id": "qb_b330574a1e",
+    "span_index": 193,
+    "text": "DF PPP and\nthe U direction, respectively.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_fde7c7fb21",
+    "span_index": 194,
+    "text": "The 2σ statistical results of DF MF PPP are better than 0.08 m in the E and N directions\nPPPandMFPPParebetterthan0.5mintheENUdirections.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_9f8c776ae7",
+    "span_index": 195,
+    "text": "and 0.16 m in theU direction.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_48c2eabe9b",
+    "span_index": 196,
+    "text": "The 2σ statistical results show\nFrom the perspective of convergence time, the 1σ statistical that the accuracy of SF PPP in the ENU directions is at the\nresults of DF PPP and MF PPP are better than 15 min, and meterlevel,andtheaccuracyofDFPPPandMFPPPisatthe\nthe results of MF PPP and reference experiments are more decimeterlevel.Atthesametime,thepositioningaccuracyof\nconsistent.",
+    "char_length": 380
+  },
+  {
+    "quote_id": "qb_75af9d93f4",
+    "span_index": 197,
+    "text": "The mean of matched satellites number for these DFPPPandMFPPPisclosetothatofreferenceresultsinthe\nstations is 8.09–8.61.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_a3643ae5e8",
+    "span_index": 198,
+    "text": "The available satellites decrease rapidly E and N directions,butthereisstillroomforimprovementin\nas the stations get farther away from the PPP-B2b service theU direction.Intermsofconvergencetime,themedian,1σ,\narea.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_231e4e7045",
+    "span_index": 199,
+    "text": "Fewer satellites lead to poorer PPP performance and and 2σ statistical results show that MF PPP is improved by\nlonger convergence time.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_970c91d3d1",
+    "span_index": 200,
+    "text": "Therefore, to ensure the positioning 27.7%,19.9%,and8.4%comparedwithDFPPP,respectively,\nperformanceofPPP-B2bservicetoenhancereal-timePPP,the and the results are more consistent with reference results.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_9efa918967",
+    "span_index": 201,
+    "text": "service should be applied close to its service area.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_08b4e235b3",
+    "span_index": 202,
+    "text": "KinematicTest The new PPP-B2b-enhanced service broadcast by the\nWe also use positioning results from PTGG station as an BDS-3 GEO satellite is freely available to GNSS users in\nexample, and the median positioning error time series in China and its surrounding areas, enabling real-time static\nthe ENU directions are shown in Fig.",
+    "char_length": 329
+  },
+  {
+    "quote_id": "qb_afaf0816f5",
+    "span_index": 203,
+    "text": "The experimental centimeter-level and kinematic decimeter-level positioning\ncalculation procedure is similar to the static solution.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_bf6d3cb2dc",
+    "span_index": 204,
+    "text": "SF PPP accuracy.Theaccuracyoforbit,clockoffset,andDCBsofthe\ntakes about 2 h to converge to 0.2 m in the ENU directions.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_b0fc76f460",
+    "span_index": 205,
+    "text": "PPP-B2b products is first evaluated, and then, the augmenta-\nThe positioning error time series of DF PPP, MF PPP, and tion effect of PPP-B2b service on positioning accuracy and\nreference experiments are very consistent, and the positioning convergence time of real-time BDS-3 SF, DF, and MF PPP is\naccuracy after convergence is similar, which is about 15 min analyzed.",
+    "char_length": 368
+  },
+  {
+    "quote_id": "qb_02e2dfae56",
+    "span_index": 206,
+    "text": "The PPP-B2b products and the BDS-3 observations\nto converge to 0.2 m.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_152d35a89c",
+    "span_index": 207,
+    "text": "ofsixMGEXstationswereusedfromJune1to30,2022.The\nIn the kinematic model, the median of positioning errors relevant conclusions are as follows.",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_dc4cf56c9a",
+    "span_index": 208,
+    "text": "and convergence time of the six stations are shown in 1) The clock offset STD of MEO and IGSO satellites is\nFigs.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_d72b2e5cb5",
+    "span_index": 209,
+    "text": "The accuracy of SF PPP is relatively poor, 0.118 and 0.237 ns, respectively, which is 75.9% and 61.8%\nabout 0.2 m in the E and N directions and about 0.4 m higher than that of broadcast ephemeris.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_e14a41fc20",
+    "span_index": 210,
+    "text": "The orbit rms of\nin the U direction.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_565c5a62b7",
+    "span_index": 211,
+    "text": "After convergence of DF PPP and MF MEO and IGSO satellites in the 3-D direction is 0.286 and\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_06dde75f51",
+    "span_index": 212,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_879914d2ac",
+    "span_index": 213,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_a4ad7ad699",
+    "span_index": 214,
+    "text": "ZHOUetal.:MFBDS-3REAL-TIMEPOSITIONINGPERFORMANCEASSESSMENT 5001\n0.447 m, respectively, which are 18.3% and 12.9% higher [12] X.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_49302d45b9",
+    "span_index": 215,
+    "text": "Li et al., “Multi-constellation GNSS PPP instantaneous ambiguity\nthan that of the broadcast ephemeris.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_20524cf779",
+    "span_index": 216,
+    "text": "The DCB difference of resolution with precise atmospheric corrections augmentation,” GPS\nSolutions,vol.25,no.3,p.107,2021.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_693c3474e9",
+    "span_index": 217,
+    "text": "B1I/B1Cp/B2ap between the PPP-B2b products and the CAS\n[13] M.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_9f8ef3b92a",
+    "span_index": 218,
+    "text": "Weber, “PPP with integer ambiguity resolution for\nproductsiswithin2ns,andtheDCBofthePPP-B2bproducts GPSandGalileousingsatelliteproductsfromdifferentanalysiscenters,”\nand the TGD has the same accuracy.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_7c3ce7771a",
+    "span_index": 219,
+    "text": "GPSSolutions,vol.25,no.3,p.102,Jul.2021.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_3468d1ab82",
+    "span_index": 220,
+    "text": "2) In static solutions, the statistical results show that the [14] L.WangandS.Verhagen,“Anewambiguityacceptancetestthreshold\ndeterminationmethodwithcontrollablefailurerate,”J.Geodesy,vol.89,\nmedian positioning accuracy of SF PPP, DF PPP, and MF\nno.4,pp.361–375,Apr.2015.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_c8b3ab231d",
+    "span_index": 221,
+    "text": "PPP is better than 0.2, 0.09, and 0.08 m, respectively, and the [15] J.Geng,J.Guo,C.Wang,andQ.Zhang,“Satelliteantennaphasecenter\nconvergencetimeisbetterthan51,10,and8min,respectively.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_5d2ba12ad2",
+    "span_index": 222,
+    "text": "errors: Magnified threat to multi-frequency PPP ambiguity resolution,”\nJ.Geodesy,vol.95,no.6,p.72,Jun.2021.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_8ab35d8bb8",
+    "span_index": 223,
+    "text": "Compared with DF PPP, the positioning accuracy of MF PPP\n[16] J.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_8b4aacd012",
+    "span_index": 224,
+    "text": "Wang, “Impact of the third frequency GNSS\nis increased by 6.1%, 9.5%, and 7.3% in the ENU directions,\npseudorangeandcarrierphaseobservationsonrapidPPPconvergences,”\nand the convergence time is increased by 24.8%.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_807a82bb9b",
+    "span_index": 225,
+    "text": "GPSSolutions,vol.25,no.2,p.30,Apr.2021.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_45fcf3829c",
+    "span_index": 226,
+    "text": "3) In kinematic solutions, the statistical results show that [17] X.Lietal.,“GalileoPPPrapidambiguityresolutionwithfive-frequency\nobservations,”GPSSolutions,vol.24,no.1,p.24,2019.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_766a99af5b",
+    "span_index": 227,
+    "text": "the median positioning accuracy of SF PPP, DF PPP, and\n[18] J.Li,Y.Yang,H.He,andH.Guo,“Ananalyticalstudyonthecarrier-\nMF PPP is better than 0.4, 0.12, and 0.12 m, respectively, phase linear combinations for triple-frequency GNSS,” J.",
+    "char_length": 233
+  },
+  {
+    "quote_id": "qb_c3c666a9f4",
+    "span_index": 228,
+    "text": "Geodesy,\nand the convergence time is better than 145, 16, and 12 min, vol.91,pp.151–166,Feb.2017.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_962640afcf",
+    "span_index": 229,
+    "text": "respectively.ComparedwithDFPPP,thepositioningaccuracy [19] V.Duong,K.Harima,S.Choy,D.Laurichesse,andC.Rizos,“Anopti-\nmal linear combination model to accelerate PPP convergence using\nof MFPPPis increasedby 4.2%, 7.4%,and 8.2%in theENU\nmulti-frequency multi-GNSS measurements,” GPS Solutions, vol.",
+    "char_length": 295
+  },
+  {
+    "quote_id": "qb_214f4e632f",
+    "span_index": 230,
+    "text": "23,\ndirections, and the convergence time is increased by 27.7%.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_33a16240f8",
+    "span_index": 231,
+    "text": "no.2,p.49,Apr.2019.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_bc3626c60e",
+    "span_index": 232,
+    "text": "4) In general, the positioning accuracy of DF PPP and MF [20] X.ZhangandP.Li,“Benefitsofthethirdfrequencysignaloncycleslip\ncorrection,”GPSSolutions,vol.20,pp.451–460,Jul.2015.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_2767364081",
+    "span_index": 233,
+    "text": "PPP with the PPP-B2b products is relatively consistent, close\n[21] S.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_1c8b15fdf6",
+    "span_index": 234,
+    "text": "Ye et al., “A cycle slip fixing method with GPS + GLONASS\ntothatofDFPPPusingthefinalpreciseproducts.Intermsof\nobservationsinreal-timekinematicPPP,”GPSSolutions,vol.20,no.1,\nconvergence time, the results of MF PPP are better than that pp.101–110,Jan.2016.",
+    "char_length": 254
+  },
+  {
+    "quote_id": "qb_925d09633d",
+    "span_index": 235,
+    "text": "of DF PPP, which is consistent with DF PPP using the final [22] Z.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_d2353d7839",
+    "span_index": 236,
+    "text": "Xiaohong and L.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_f14533999c",
+    "span_index": 237,
+    "text": "Xingxing, “Instantaneous re-initialization in real-\ntimekinematicPPPwithcycleslipfixing,”GPSSolutions,vol.16,no.3,\npreciseproducts,indicatingthattheincreasedobservationscan\npp.315–327,Jul.2012.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_a7a4854a19",
+    "span_index": 238,
+    "text": "effectively accelerate convergence.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_52df521425",
+    "span_index": 239,
+    "text": "Gong, “Initial\nassessment of BDS-3 precise point positioning service on GEO B2b\nACKNOWLEDGMENT signal,”Adv.SpaceRes.,vol.69,no.1,pp.690–700,Jan.2022.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_ba0424c2f6",
+    "span_index": 240,
+    "text": "Huang, “Real-time estimation of\nThe authors thank the IGS for providing the data and\nBDS/GPShigh-ratesatelliteclockoffsetsusingsequentialleastsquares,”\nproducts for this study.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_e82b03fff6",
+    "span_index": 241,
+    "text": "Adv.SpaceRes.,vol.62,no.2,pp.477–487,Jul.2018.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_f22b4726e7",
+    "span_index": 242,
+    "text": "[25] W.Fu,G.Huang,Q.Zhang,S.Gu,M.Ge,andH.Schuh,“Multi-GNSS\nREFERENCES real-time clock estimation using sequential least square adjustment\nwith online quality control,” J.",
+    "char_length": 170
+  },
+  {
+    "quote_id": "qb_e5485079e0",
+    "span_index": 243,
+    "text": "7, pp.963–976,\n[1] C.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_2c6f665084",
+    "span_index": 244,
+    "text": "Zhang, “SUPREME: An open-source\nJul.2019.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_42468ec6ee",
+    "span_index": 245,
+    "text": "single-frequency uncombined precise point positioning software,” GPS\n[26] P.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_da7f634d66",
+    "span_index": 246,
+    "text": "Gao, “Estimation of GPS\nSolutions,vol.25,no.3,pp.1–9,Jul.2021.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_e9d7f379f9",
+    "span_index": 247,
+    "text": "LNAVbasedonIGSproductsforreal-timePPP,”GPSSolutions,vol.23,\n[2] Y.Yangetal.,“FeaturedservicesandperformanceofBDS-3,”Sci.Bull.,\nno.1,p.27,Jan.2019.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_78043301c3",
+    "span_index": 248,
+    "text": "vol.66,no.20,pp.2135–2143,Oct.2021.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_e16d54129c",
+    "span_index": 249,
+    "text": "[27] X.Lu,L.Chen,N.Shen,L.Wang,Z.Jiao,andR.Chen,“DecodingPPP\n[3] Z.Zhang,B.Li,L.Nie,C.Wei,S.Jia,andS.Jiang,“Initialassessment\ncorrections from BDS B2b signals using a software-defined receiver:\nofBeiDou-3globalnavigationsatellitesystem:Signalquality,RTKand\nAn initial performance evaluation,” IEEE Sensors J., vol.",
+    "char_length": 314
+  },
+  {
+    "quote_id": "qb_ac80e6d4cc",
+    "span_index": 250,
+    "text": "6,\nPPP,”GPSSolutions,vol.23,no.4,Oct.2019.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_35bea343f2",
+    "span_index": 251,
+    "text": "pp.7871–7883,Mar.2021.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_5e6df38450",
+    "span_index": 252,
+    "text": "Schuh, “Improving BeiDou\n[28] Y.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_e6cbda6e6b",
+    "span_index": 253,
+    "text": "Li, “Performance evaluation of BDS-3 PPP-\npreciseorbitdeterminationusingobservationsofonboardMEOsatellite\nB2b precise point positioning service,” GPS Solutions, vol.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_d15e257979",
+    "span_index": 254,
+    "text": "4,\nreceivers,”J.Geodesy,vol.91,no.12,pp.1447–1460,Dec.2017.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_342b993dcc",
+    "span_index": 255,
+    "text": "pp.1–14,Oct.2021.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_5733450524",
+    "span_index": 256,
+    "text": "Sun, “Principle and\nperformance of BDSBAS and PPP-B2b of BDS-3,” Satell.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_03b00388e6",
+    "span_index": 257,
+    "text": "Navigat., [29] J.Tao,J.Liu,Z.Hu,Q.Zhao,G.Chen,andB.Ju,“Initialassessment\nof the BDS-3 PPP-B2b RTS compared with the CNES RTS,” GPS\nvol.3,no.1,p.5,Dec.2022.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_9584da06a0",
+    "span_index": 258,
+    "text": "Solutions,vol.25,no.4,pp.1–16,Oct.2021.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_ebb6fb625a",
+    "span_index": 259,
+    "text": "[6] C.Tangetal.,“Orbitdetermination,clockestimationandperformance\nevaluationofBDS-3PPP-B2bservice,”J.Geodesy,vol.96,no.9,p.60, [30] Z.Ren,H.Gong,J.Peng,C.Tang,X.Huang,andG.Sun,“Performance\n2022.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_bcb3156c0d",
+    "span_index": 260,
+    "text": "assessment of real-time precise point positioning using BDS PPP-\n[7] M.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_b7ec186ca4",
+    "span_index": 261,
+    "text": "Jiang, “LEO-constellation- B2b service signal,” Adv.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_bfc1c7cc73",
+    "span_index": 262,
+    "text": "Space Res., vol.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_7ffc7a9241",
+    "span_index": 263,
+    "text": "8, pp.3242–3254,\naugmentedmulti-GNSSreal-timePPPforrapidre-convergenceinharsh Oct.2021.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_f22111efc7",
+    "span_index": 264,
+    "text": "environments,”GPSSolutions,vol.26,no.1,pp.1–12,Jan.2022.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_3306427bc6",
+    "span_index": 265,
+    "text": "[31] Z.Nie,X.Xu,Z.Wang,andJ.Du,“InitialassessmentofBDSPPP-B2b\n[8] A.Allahvirdi-Zadeh,K.Wang,andA.El-Mowafy,“PODofsmallLEO service:Precisionoforbitandclockcorrections,andPPPperformance,”\nsatellites based on precise real-time MADOCA and SBAS-aided PPP RemoteSens.,vol.13,no.11,p.2050,May2021.",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_47fe6c2262",
+    "span_index": 266,
+    "text": "corrections,”GPSSolutions,vol.25,no.2,p.31,Apr.2021.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_72a6824aec",
+    "span_index": 267,
+    "text": "[32] Y.Liu,C.Yang,andM.Zhang,“ComprehensiveanalysesofPPP-B2b\n[9] E.TunalıandM.T.Özlüdemir,“GNSSPPPwithdifferenttroposphere performance in China and surrounding areas,” Remote Sens., vol.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_c97a47148c",
+    "span_index": 268,
+    "text": "14,\nmodelsduringsevereweatherconditions,”GPSSolutions,vol.23,no.3, no.3,p.643,Jan.2022.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_c32df064a5",
+    "span_index": 269,
+    "text": "[33] H.Yang,S.Ji,D.Weng,Z.Wang,K.He,andW.Chen,“Assessmentof\n[10] T.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_09f85c4a15",
+    "span_index": 270,
+    "text": "Zhang, “On the application of thefeasibilityofPPP-B2bserviceforreal-timecoseismicdisplacement\nthe raw-observation-based PPP to global ionosphere VTEC modeling: retrieval,”RemoteSens.,vol.13,no.24,p.5011,Dec.2021.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_feb7bf8f40",
+    "span_index": 271,
+    "text": "An advantage demonstration in the multi-frequency and multi-GNSS [34] O.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_10b906a948",
+    "span_index": 272,
+    "text": "Montenbruck, P.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_d9f7a5ad53",
+    "span_index": 273,
+    "text": "Steigenberger, and A.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_8dd5c1f5f6",
+    "span_index": 274,
+    "text": "Hauschild, “Broadcast ver-\ncontext,”J.Geodesy,vol.94,no.1,p.1,Jan.2020.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_372450e675",
+    "span_index": 275,
+    "text": "sus precise ephemerides: A multi-GNSS perspective,” GPS Solutions,\n[11] Z.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_ce0bee30a3",
+    "span_index": 276,
+    "text": "Zhang, “Regional vol.19,no.2,pp.321–333,2015.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_cf9c6ddfc3",
+    "span_index": 277,
+    "text": "ionospheric TEC modeling based on a two-layer spherical harmonic [35] H.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_b7360a0217",
+    "span_index": 278,
+    "text": "Zhou et al., “Impact of higher-order ionospheric delay on the\napproximationforreal-timesingle-frequencyPPP,”J.Geodesy,vol.93, reliabilityofRTKambiguityestimation,”Adv.SpaceRes.,vol.69,no.1,\nno.9,pp.1659–1671,Sep.2019.",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_451a1b37b9",
+    "span_index": 279,
+    "text": "pp.727–736,Jan.2022.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_61eec40d8d",
+    "span_index": 280,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_db886cd199",
+    "span_index": 281,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_0f6c1eb975",
+    "span_index": 282,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_d7ffd798fd",
+    "span_index": 283,
+    "text": "5002 IEEESENSORSJOURNAL,VOL.23,NO.5,1MARCH2023\n[36] F.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_757f4b6910",
+    "span_index": 284,
+    "text": "Wang, “Timing group delay and differential Tao Li received the B.Sc.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_ae40468faf",
+    "span_index": 285,
+    "text": "degree in surveying\ncodebiascorrectionsforBeiDoupositioning,”J.Geodesy,vol.89,no.5, and mapping engineering from the China Uni-\npp.427–445,May2015.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_5300ee831c",
+    "span_index": 286,
+    "text": "versityofMiningandTechnology,Beijing,China,\n[37] X.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_0358e256bf",
+    "span_index": 287,
+    "text": "Tao, “Satellite in 2018.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_d5e2e191df",
+    "span_index": 288,
+    "text": "He is pursuing the Ph.D.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_f0c6854674",
+    "span_index": 289,
+    "text": "degree with\ngeometry and attitude mode of BDS-3 MEO satellites developed by WuhanUniversity,Wuhan,China.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_63610a9ad4",
+    "span_index": 290,
+    "text": "SECM,”inProc.31stInt.Tech.MeetingSatell.DivisionInst.Navigat., His research interests include atmosphere\n2018,pp.1268–1289.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_9feb86a931",
+    "span_index": 291,
+    "text": "delay modeling and low Earth orbit (LEO) nav-\n[38] Y.Yangetal.,“BeiDou-3broadcastclockestimationbyintegrationof igationaugmentationtechnology.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_bca3e1bfa8",
+    "span_index": 292,
+    "text": "observationsofregionaltrackingstationsandinter-satellitelinks,”GPS\nSolutions,vol.25,no.2,p.57,Apr.2021.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_0475bbf8bd",
+    "span_index": 293,
+    "text": "[39] N.Wang,Y.Yuan,Z.Li,O.Montenbruck,andB.Tan,“Determination\nofdifferentialcodebiaseswithmulti-GNSSobservations,”J.Geodesy,\nvol.90,no.3,pp.209–228,2016.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_c8592e773b",
+    "span_index": 294,
+    "text": "YuanWureceivedtheB.S.degreeincomputer\nscienceandtechnologyfromSouthwestUniver-\nsity, Chongqing, China, in 2016, and the M.S.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_dd0146919f",
+    "span_index": 295,
+    "text": "degreeincomputerapplicationtechnologyfrom\nHaitao Zhou received the M.S.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_19dfcd2d4a",
+    "span_index": 296,
+    "text": "degree in\ntheInstituteofAutomation,ChineseAcademyof\ngeodesy and surveying engineering from\nSciences, China, in 2019.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_2c38e0e3ff",
+    "span_index": 297,
+    "text": "He is currently pur-\nInformationEngineeringUniversity,Zhengzhou,\nsuing the Ph.D.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_7ed2594f68",
+    "span_index": 298,
+    "text": "degree in geodesy and survey\nChina,in2016.HeispursuingthePh.D.degree\nengineering with the State Key Laboratory of\nin geodesy and surveying engineering with\nInformationEngineeringinSurveying,Mapping,\nWuhanUniversity,Wuhan,Hubei,China.",
+    "char_length": 233
+  },
+  {
+    "quote_id": "qb_30fd201605",
+    "span_index": 299,
+    "text": "andRemoteSensing,WuhanUniversity,China.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_b266ebb0c2",
+    "span_index": 300,
+    "text": "His research interests include surveying\nHisresearchinterestsincludeindoorposition-\ndata processing and global navigation satellite\ning and navigation, information fusion, data-driven navigation, and\nsystem(GNSS)precisepositioning.",
+    "char_length": 231
+  },
+  {
+    "quote_id": "qb_bdabde9b12",
+    "span_index": 301,
+    "text": "location-basedservices.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_3b9c90b792",
+    "span_index": 302,
+    "text": "Wenju Fu received the Ph.D.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_991f9dad3c",
+    "span_index": 303,
+    "text": "degree from Ruizhi Chen is a Professor and the Direc-\nChang’anUniversity,Xi’an,China,in2018.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_e4658962b9",
+    "span_index": 304,
+    "text": "tor of the State Key Laboratory of Information\nHe is currently a Postdoctoral Researcher EngineeringinSurveying,MappingandRemote\nwith the State Key Laboratory of Informa- Sensing,WuhanUniversity,Wuhan,China,and\ntion Engineering in Surveying, Mapping and anAcademicianoftheFinnishAcademyofSci-\nRemote Sensing (LIESMARS), Wuhan Uni- enceandLetters,SuomalainenTiedeakatemia-\nversity, Wuhan, China.",
+    "char_length": 394
+  },
+  {
+    "quote_id": "qb_641df52635",
+    "span_index": 305,
+    "text": "His research inter- Academia Scientiarum Fennica, Finland.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_b272312f96",
+    "span_index": 306,
+    "text": "He is\nests include global navigation satellite system an international scholar working in the field\n(GNSS)precisepointpositioning,precisesatel- of navigation and positioning.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_ca8bd45640",
+    "span_index": 307,
+    "text": "He is committed\nliteclock,andlowEarthorbit(LEO)applications.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_8037d8b21b",
+    "span_index": 308,
+    "text": "to the theoretical research and core technol-\nogy development for seamless indoor/outdoor\npositioningusingsmartphones.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_b0aec9d922",
+    "span_index": 309,
+    "text": "Lei Wang received the Ph.D.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_9d4d65932c",
+    "span_index": 310,
+    "text": "degree in elec-\ntronicalengineerandcomputerscience(EECS)\nJuanjuan Li received the master’s degree in\nfrom the Queensland University of Technology,\ngeodesyandsurveyingengineeringfromWuhan\nBrisbane,QLD,Australia,in2015.",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_d95b8d105a",
+    "span_index": 311,
+    "text": "University,Wuhan,China,in2009.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_cc93b7e921",
+    "span_index": 312,
+    "text": "HeiscurrentlyanAssociateResearchFellow\nShe is a Senior Engineer with the 54th\nwith the State Key Laboratory of Information\nResearchInstituteofChinaElectronicsTechnol-\nEngineeringinSurveying,MappingandRemote\nogy Group Corporation (CETC), Shijiazhuang,\nSensing,WuhanUniversity,Wuhan,China.",
+    "char_length": 287
+  },
+  {
+    "quote_id": "qb_4f662effda",
+    "span_index": 313,
+    "text": "Her research interests include global\nresearch interests include precise global navi-\nnavigationsatellitesystem(GNSS)receiversig-\ngationsatellitesystem(GNSS)positioning,low\nnalprocessingandpositioning.",
+    "char_length": 201
+  },
+  {
+    "quote_id": "qb_58d4b36ad5",
+    "span_index": 314,
+    "text": "Earth orbit (LEO) orbit determination and navi-\ngationaugmentation,andindoorpositioning.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_1e8c447b84",
+    "span_index": 315,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_7030fb26d0",
+    "span_index": 316,
+    "text": "Downloaded on May 22,2026 at 07:00:00 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_9f5e330ce5",
+    "span_index": 317,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  }
+]

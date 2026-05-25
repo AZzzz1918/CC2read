@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper assesses the performance of the BDS-3 PPP-B2b service for real-time coseismic displacement retrieval and earthquake source description, applying it to a specific case study.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-023-01570-x.pdf",
+  "paper_id": "s10291-023-01570-x",
+  "extraction_mode": "batch_classify_1call"
+}

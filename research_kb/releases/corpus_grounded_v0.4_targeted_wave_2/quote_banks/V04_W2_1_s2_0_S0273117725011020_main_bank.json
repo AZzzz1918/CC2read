@@ -1,0 +1,80 @@
+[
+  {
+    "quote_id": "qb_01f10bc2f0",
+    "span_index": 0,
+    "text": "Available online at www.sciencedirect.com\nScienceDirect\nAdvances in Space Research 77(2026)297–309\nwww.elsevier.com/locate/asr\nRetrieval of precipitable water vapor by using BeiDou PPP-B2b\nsignal with an ocean-based experiment\nHaibo Gea,⁎ , Xiaoxue Kea , Zhilu Wua, Peijun Qiaob, Qunhui Yangb,c ,\nMiaomiao Wangd, Bofeng Lia\na College of Surveying and Geo-Informatics, TongjiUniversity,Shanghai200092,China\nb State Key Laboratory of Marine Geology, TongjiUniversity,Shanghai200092,China\nc Project Management Office of China National Scientific SeafloorObservatory,TongjiUniversity,Shanghai200092,China",
+    "char_length": 3842
+  },
+  {
+    "quote_id": "qb_a355c529a8",
+    "span_index": 1,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nmeteorological disasters may lead to maritime traffic acci- and climate research over the ocean (National\ndents and trade disruptions, as well as pose a significant Meteorological Service of the United Kingdom, 2010).\nrisk to the safety of human life and property in coastal However, most of the GNSS PWV studies on the ocean\nareas (Verschuur et al., 2023). Atmospheric precipitable platform are based on post-processed Precise Point Position-\nwater vapor (PWV) is crucial for monitoring and predict- ing (PPP) results, while real-time GNSS PWV retrie",
+    "char_length": 6245
+  },
+  {
+    "quote_id": "qb_e30bdc8363",
+    "span_index": 2,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nbuilt by Tongji University, to achieve comprehensive, long-\nterm, high-resolution, and three-dimensional monitoring of\ntheatmosphere,hydrosphere,andlithosphere.Asshownin\nFig. 2, MOTECS is situated at 123°-123.1°N latitude and\n29.5°-30°E longitude, approximately 89 km from the\nZhoushan Islands in the East China Sea, with an elevation\nof 103 m above sea level and a projected service life of\n30 years. Up to now, MOTECS has been equipped with\nmore than 66 types and 195 sets of observation equipment,\nand has become the most advanced observation platf",
+    "char_length": 3228
+  },
+  {
+    "quote_id": "qb_d16142a3a6",
+    "span_index": 3,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nFig. 4. The average number of visible GPS/BDS-3 satellites with an elevation cutoff of 7° over GNSS1/GNSS2/GNSS3 from DOY 337 to DOY 365 in\n2023. Red and blue represent GPS/BDS-3 satellites respectively, and each bar indicatesthe averagenumber of satellites visiblein one day,while the\nnumberatthetopofeachsubplotindicatestheaveragenumberofsatellitesvisibleover28days.\nFig. 5. The average number of visible GPS/BDS-3 satellites with an elevation cutoff of 7° over GNSS1/GNSS2/GNSS3 from DOY 155 to DOY 185 in\n2024. DatafromDOY173to176withGNSS1/GNSS2/G",
+    "char_length": 677
+  },
+  {
+    "quote_id": "qb_84a30af41e",
+    "span_index": 4,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nIn this experiment, we use the TCWV products from respectively. With the following correction equations, the\nERA5 to validate the accuracy of PPP-B2b PWV estimates. precise satelli te position can be obtained:\nIt should be noted that TCWV products collect water X X d X 3\norbit broadcast\nvapor from the entire atmosphere, while the GNSS receiver\nis 45.1 m above the mean sea level. To make a reasonable where X orbit represents the corrected satellite position.\ncomparison, it is necessary to interpolate the TCWV pro- X br oadcast represents the sate",
+    "char_length": 4917
+  },
+  {
+    "quote_id": "qb_382c9600ab",
+    "span_index": 5,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nTable 1\nParameter processing strategy.\nItems PPP-B2b Post-processed PPP\nEstimator Kalman filter\nCombination IF\nObservation type GPS L1/L2 GPS L1/L2\nBDS-3 B1I/B3I BDS B1I/B3I\nGALE1/E5a\nSampling interval 30 s\nElevation mask 7\nSatellite orbit andclock PPP-B2b products GFZ products\nSatellite DCB PPP-B2b products MGEX\nTroposphere delay UNB3 model + random walk estimation\n(1 mm h)(Collins and Langley.1997)\nMapping function GMF (Bo¨hm et al.,2006)\nRelativistic effect Corrected\nSat./Rec. PCO/PCV igs20.atx (Schmid etal.,2007)\nPhase-wind-up Corrected (Wu ",
+    "char_length": 2053
+  },
+  {
+    "quote_id": "qb_cb72cc260c",
+    "span_index": 6,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nFig. 8. Post-processed PPP ZTD time series (orange) and PPP-B2b ZTD\nFig. 7. Post-processed PPP ZTD time series (orange) and PPP-B2b ZTD time series(blue)fromDOY155toDOY184in2024.\ntime series(blue)fromDOY337toDOY365in2023.\n3.3. GNSS PWV retr ieval algorithm\nZenith wet delay (ZWD) and global weighted tempera-\nture (Tm) are the prerequisites for estimating PWV. In\nour article, ZHDs calculated from ERA5 data are sub-\ntracted from ZTDs estimated from PPP or PPP-B2b solu-\ntions to obtain ZWD and the Tm can be calculated from\nthe Global Pressure and Te",
+    "char_length": 2138
+  },
+  {
+    "quote_id": "qb_266e9be124",
+    "span_index": 7,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nFig. 8 shows that the summer ZTD rises to 2.4–2.8 m\nwith larger fluctuations. The two ZTD series are generally\nsynchronized, while there are some minor deviations,\nwhich correspond to the RMSE of 10.0 mm in summer\n(Table 2). This is mainly driven by intense changes in water\nvapor. The results for the accuracy of PPP-B2b ZTD are\nconsistent with existing studies (Yang et al., 2023; Wang\net al., 2024), which also noted the seasonal variability of\nZTDs.\n4.2. Comparison of PPP-B2b PWV estimates with post-\nprocessed PPP PWV\nThen, the ZTD of PPP-B2b an",
+    "char_length": 1825
+  },
+  {
+    "quote_id": "qb_9b62f6687b",
+    "span_index": 8,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nFig. 13. Correlation analysis between PPP-B2b PWV and PPP PWV at GNSS1/GNSS2/GNSS3 receivers in winter. Each scatter represents the PWV\ncalculated from PPP-B2b/PPP at the same epoch, and the red line is the trend line of the least-squares fitted scatterplot. The correlation coefficients\nbetweenPPP-B2bPWVandPPPPWVarealsocalculatedandshownatthetopofeachsubplot.\nFig. 14. Correlation analysis between PPP-B2b PWV and PPP PWVatGNSS1/GNSS2/GNSS3receiversinsummer.\nless, >95 % of residuals fall within ±2 mm in winter and\n±5 mm in summer.\nFig. 13 and Fig.",
+    "char_length": 2150
+  },
+  {
+    "quote_id": "qb_e9f140fffe",
+    "span_index": 9,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nRMSE value ranges from 1.4 mm to 1.8 mm. GNSS1 has\nthe biggest RMSE (2 mm), higher than that of GNSS2\n(1.6 mm) and GNSS3(1.7mm).Onaverage,themeanbias\nis 0.2 mm, and the RMSE is 1.8 mm (summarized in\nTable 4). As Fig. 18 shows, the mean bias of summer\nPWV is 0.7 mm, and the RMSE is 3.3mm,showingaclear\ndifferenceinsummerandwinter.Fig. 19 and Fig. 20 shows\nthe correlation between PPP-B2b PWV and ERA5 TCWV\nproducts, the correlation coefficients in winter reach 0.99,\nwhereas in summer they are 0.97. The PWV difference\nbetween PPP-B2b and ERA5 in wint",
+    "char_length": 1809
+  },
+  {
+    "quote_id": "qb_3e2d805075",
+    "span_index": 10,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nTable 4\nComparison between PPP-B2b PWV estimates andERA5TCWVproducts.\nMean Bias(mm) STD (mm) RMSE (mm)\nWinter 0.2 1.8 1.8\nSummer 0.7 3.2 3.3\nFig. 19. Correlation analysis between the PWV of PPP-B2b and ERA5 at GNSS1/GNSS2/GNSS3 receivers from DOY 337 to DOY 365 in 2023. Each\nscatter represents the PWV calculated from PPP-B2b/ERA5 at the same epoch, and theredlineisthetrendlineoftheleast-squaresfittedscatterplot.The\ncorrelationcoefficientsbetweenPPP-B2bPWVandERA5PWVarealsocalculatedandshownatthetopofeachsubplot.\nFig. 20. Correlation analysis betw",
+    "char_length": 2342
+  },
+  {
+    "quote_id": "qb_a1f6866aae",
+    "span_index": 11,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nB2b PWV is highly consistent with PPP PWV and ERA5 Hadas, T., Hobiger, T., 2021. Benefits of using Galileo for real-time GNSS\nTCWV products, which meets the accuracy requirements meteorology. IEEE Geosci. Remote Sens. Lett. 18 (10), 1756–1760.\nhttps://doi.org/10.1109/LGRS.2020.3007138.\nfor oceanic meteorological forecasting, offer a reliable,\nHersbach, H. et al., 2020. The ERA5 global reanalysis. Q. J. R. Meteorolo g.\nreal-time tool for atmospheric water vapor monitoring in\nSoc.146(730),1999–2049.https://doi.org/10.1002/qj.3803.\nnetwork-scarce r",
+    "char_length": 6867
+  },
+  {
+    "quote_id": "qb_00a5dcd945",
+    "span_index": 12,
+    "text": "H.Geetal. AdvancesinSpaceResearch77(2026)297–309\nRad. Sonar Navig. 14 (11), 1726–1734. https://doi.org/10.1049/iet- service. Earth Sci. Informat.16(1),315–328.https://doi.org/10.1007/\nrsn.2020.0204. s12145-023-00939-3.\nWang, J., Zhang, L., Dai, A., et al., 2007. A near-global, 2-hourly data set Zang, N, Li, B, Shen, Y., 2017. PPP Augmentation with Current Galileo\nof atmospheric precipitable water from ground-based GPS measure- and BeiDou Constellations. Forum on Cooperative Positioning and\nments. J. Geophys. Res. 112 (11), 36. https://doi.org/10.1029/ Service (CPGPS), pp. 213–218. https://doi.",
+    "char_length": 3480
+  }
+]

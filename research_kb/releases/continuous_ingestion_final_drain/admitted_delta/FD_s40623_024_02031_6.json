@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s40623_024_02031_6",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Dual-frequency to five-frequency real-time precise point positioning using new BDS-3 PPP-B2b service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "Earth, Planets and Space (2024) 76:82 Earth, Planets and Space https://doi.org/10.1186/s40623-024-02031-6 FULL PAPER Open Access Dual-frequency to five-frequency real-time precise point positioning using new BDS-3 PPP-B2b service Haochen Yang1, Xiaodong Ren1,2* , Mingxiu Liu1 and Xiaohong Zhang1,2,3 Abstract BeiDou global navigation satellite system (BDS-3), a developed GNSS by China, has the abil",
+      "Meanwhile, BDS-3 has officially provided the satellite-based precise point positioning (PPP) service through the B2b signal (PPP-B2b) since 2021."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 33
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b": 128,
+    "has": 0,
+    "dcb": 33,
+    "clas": 5
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

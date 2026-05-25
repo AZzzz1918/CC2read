@@ -1,0 +1,471 @@
+{
+  "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic": {
+    "field_support": {
+      "product_source": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "experiment_epoch": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "dcb_handling": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "mathematical_model": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "datasets": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "metrics": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "main_results": {
+        "quote_count": 3,
+        "unresolved": 0,
+        "high_confidence": 3,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "novelty_audit": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "reproducibility_audit": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      }
+    },
+    "total_quotes": 9,
+    "unresolved": 0,
+    "strong_fields": 4,
+    "weak_fields": 3,
+    "epoch_pub_conflict": false,
+    "dcb_valid": true,
+    "blockers_ok": true,
+    "blockers_count": 4,
+    "wrong_support": false
+  },
+  "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf": {
+    "field_support": {
+      "product_source": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "experiment_epoch": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "dcb_handling": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "mathematical_model": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "datasets": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "metrics": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "main_results": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "novelty_audit": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "reproducibility_audit": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      }
+    },
+    "total_quotes": 7,
+    "unresolved": 0,
+    "strong_fields": 3,
+    "weak_fields": 4,
+    "epoch_pub_conflict": false,
+    "dcb_valid": true,
+    "blockers_ok": true,
+    "blockers_count": 5,
+    "wrong_support": false
+  },
+  "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat": {
+    "field_support": {
+      "product_source": {
+        "quote_count": 3,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "experiment_epoch": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "dcb_handling": {
+        "quote_count": 4,
+        "unresolved": 0,
+        "high_confidence": 4,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "mathematical_model": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "datasets": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "metrics": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "main_results": {
+        "quote_count": 4,
+        "unresolved": 0,
+        "high_confidence": 3,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "novelty_audit": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "reproducibility_audit": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      }
+    },
+    "total_quotes": 18,
+    "unresolved": 0,
+    "strong_fields": 6,
+    "weak_fields": 2,
+    "epoch_pub_conflict": false,
+    "dcb_valid": true,
+    "blockers_ok": true,
+    "blockers_count": 8,
+    "wrong_support": false
+  },
+  "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c": {
+    "field_support": {
+      "product_source": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "experiment_epoch": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "dcb_handling": {
+        "quote_count": 3,
+        "unresolved": 0,
+        "high_confidence": 3,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "mathematical_model": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "datasets": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "metrics": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "main_results": {
+        "quote_count": 3,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "novelty_audit": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "reproducibility_audit": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      }
+    },
+    "total_quotes": 14,
+    "unresolved": 0,
+    "strong_fields": 7,
+    "weak_fields": 2,
+    "epoch_pub_conflict": false,
+    "dcb_valid": true,
+    "blockers_ok": true,
+    "blockers_count": 5,
+    "wrong_support": false
+  },
+  "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b": {
+    "field_support": {
+      "product_source": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "experiment_epoch": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "dcb_handling": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "mathematical_model": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "datasets": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "metrics": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "main_results": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "novelty_audit": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "reproducibility_audit": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      }
+    },
+    "total_quotes": 5,
+    "unresolved": 0,
+    "strong_fields": 4,
+    "weak_fields": 5,
+    "epoch_pub_conflict": false,
+    "dcb_valid": true,
+    "blockers_ok": true,
+    "blockers_count": 4,
+    "wrong_support": false
+  },
+  "Zhao_Lewen_2025_python_toolbox_for_bds_b2b": {
+    "field_support": {
+      "product_source": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "experiment_epoch": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "dcb_handling": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "mathematical_model": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "datasets": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "metrics": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "main_results": {
+        "quote_count": 3,
+        "unresolved": 0,
+        "high_confidence": 3,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "novelty_audit": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "reproducibility_audit": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      }
+    },
+    "total_quotes": 8,
+    "unresolved": 0,
+    "strong_fields": 4,
+    "weak_fields": 4,
+    "epoch_pub_conflict": false,
+    "dcb_valid": true,
+    "blockers_ok": true,
+    "blockers_count": 4,
+    "wrong_support": false
+  },
+  "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo": {
+    "field_support": {
+      "product_source": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "experiment_epoch": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "dcb_handling": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "mathematical_model": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "PARTIAL_SUPPORT"
+      },
+      "datasets": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "metrics": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      },
+      "main_results": {
+        "quote_count": 2,
+        "unresolved": 0,
+        "high_confidence": 2,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "novelty_audit": {
+        "quote_count": 1,
+        "unresolved": 0,
+        "high_confidence": 1,
+        "support_status": "STRONG_SUPPORT"
+      },
+      "reproducibility_audit": {
+        "quote_count": 0,
+        "unresolved": 0,
+        "high_confidence": 0,
+        "support_status": "NO_EVIDENCE"
+      }
+    },
+    "total_quotes": 11,
+    "unresolved": 0,
+    "strong_fields": 5,
+    "weak_fields": 2,
+    "epoch_pub_conflict": false,
+    "dcb_valid": true,
+    "blockers_ok": true,
+    "blockers_count": 5,
+    "wrong_support": false
+  }
+}

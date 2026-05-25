@@ -1,0 +1,58 @@
+# KB Warning Backlog — from Integrity Pass 0
+# All NON_BLOCKING. None block ingestion.
+
+warnings:
+  - warning_id: W001
+    warning_type: missing_title_warning
+    affected_item: "16 admitted papers (Batch 2 programmatic + DOI-only filenames)"
+    severity: non_blocking
+    recommended_fix: "Backfill titles from markdown when paper is accessed in future releases"
+    planned_release: continuous_ingestion_release_002+
+    blocks_ingestion: false
+
+  - warning_id: W002
+    warning_type: missing_grounding_quotes_warning
+    affected_item: "10 admitted papers (Batch 2 programmatic extraction mode)"
+    severity: non_blocking
+    recommended_fix: "Add grounding quotes when papers are re-touched in future releases"
+    planned_release: continuous_ingestion_release_003+
+    blocks_ingestion: false
+
+  - warning_id: W003
+    warning_type: admission_status_migration_warning
+    affected_item: "66 admitted papers (admission_status field not set)"
+    severity: non_blocking
+    recommended_fix: "Set admission_status=GROUNDED_ADMITTED for all 66 legacy papers. New papers use new field."
+    planned_release: continuous_ingestion_release_001
+    blocks_ingestion: false
+
+  - warning_id: W004
+    warning_type: paper_id_filename_mapping_warning
+    affected_item: "9 papers (paper_id/bank filename mismatch across releases)"
+    severity: non_blocking
+    recommended_fix: "Build canonical paper_id → bank_filename mapping table"
+    planned_release: continuous_ingestion_release_002
+    blocks_ingestion: false
+
+  - warning_id: W005
+    warning_type: query_view_missing_warning
+    affected_item: "query_views/ directory empty"
+    severity: non_blocking
+    recommended_fix: "Generate query views from entities + admitted papers in Release 001 preflight"
+    planned_release: continuous_ingestion_release_001
+    blocks_ingestion: false
+    note: "Must be resolved before Release 001 can proceed to active query views"
+
+  - warning_id: W006
+    warning_type: entity_paper_id_reference_warning
+    affected_item: "8 entity entries with supporting_paper_ids not matching full admitted paper_ids"
+    severity: non_blocking
+    recommended_fix: "Normalize paper_id references in entities to match canonical paper_ids"
+    planned_release: continuous_ingestion_release_002
+
+summary:
+  total_warnings: 35
+  categorized: 6 groups
+  blocking_ingestion: 0
+  resolved_in_release_001: 2 (W003, W005)
+  remaining_after_001: 4 groups (~29 warnings)

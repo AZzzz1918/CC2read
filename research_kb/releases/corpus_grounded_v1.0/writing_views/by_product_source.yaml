@@ -1,0 +1,49 @@
+total: 106
+views:
+  BDS3_PPP_B2B_BROADCAST:
+    count: 95
+    papers:
+    - paper_id: applsci_15_08033_v2
+      title: NOT_MENTIONED
+    - paper_id: Factor_Graph_PPP_B2b_INS
+      title: Factor Graph-Based Tightly Coupled PPP-B2b/INS for Real-Time Precise
+        Positioning
+    - paper_id: GKit_SSRDecoder_PPP_B2b_HAS
+      title: 'GKit-SSRDecoder: An Open-Source C/C++-Based PPP-B2b and HAS Decoding
+        Software'
+    - paper_id: Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+      title: ''
+    - paper_id: Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+      title: 'Decoding PPP Corrections From BDS B2b Signals Using a Software-Defined
+        Receiver: An Initial Performa'
+  CNES_OR_OTHER_RTS:
+    count: 2
+    papers:
+    - paper_id: Borio_2023_ghasp_galileo_has_parser
+      title: 'GHASP: a Galileo HAS parser'
+    - paper_id: Zhou_Peiyuan_2024_Galileo_HAS_Initial
+      title: Initial performance assessment of Galileo High Accuracy Service
+  MIXED_PRODUCTS:
+    count: 7
+    papers:
+    - paper_id: Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA
+      title: A Comparative Investigation of Broadcast Frameworks, Service Availability,
+        and Time Transfer Perform
+    - paper_id: Pan_Lin_2025_BDS_B2b_HAS
+      title: BDS B2b and HAS
+    - paper_id: RT_Kinematic_Orbit_LEO_B2b_HAS
+      title: Real-Time Kinematic Orbit Determination for LEO by Integrating Broadcast
+        Ephemerides, Galileo HAS, a
+    - paper_id: RT_ZTD_PPP_B2b_HAS_MADOCA
+      title: Real-Time Precise Zenith Tropospheric Delay Estimation With BDS PPP-B2b,
+        Galileo HAS, and QZSS MADOC
+    - paper_id: Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+      title: Combining Galileo HAS and BeiDou PPP-B2b with Helmert coordinate transformation
+  QZSS_CLAS:
+    count: 2
+    papers:
+    - paper_id: Euiho_Kim_2022_CLAS_PPP
+      title: Fault-Free Protection Level Equation for CLAS PPP
+    - paper_id: Taro_Suzuki_2023_qzss_clas_l6_evaluation
+      title: Evaluation of L6 augmentation signal reception characteristics and PPP-RTK
+        positioning performance u

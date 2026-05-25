@@ -1,0 +1,84 @@
+'2020':
+- paper_id: Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser
+  problem: Evaluate the PPP augmentation performance of QZSS CLAS L6 signal and compare
+    it with QZSS final orbit and clock products.
+  questions:
+  - What is the orbit and clock accuracy achieved using CLAS L6 augmentation?
+  - What is the achieved static PPP positioning accuracy compared to that using final
+    products?
+  - What causes the performance gap between CLAS-based PPP and final-product-based
+    PPP?
+  - QZSS CLAS L6D 信号的轨道与钟差 SIS URE 是多少？
+  - 使用 CLAS 增强后的双频 PPP 定位精度如何？
+  - L6增强轨道在径向(R)、沿迹(A)、法向(C)的误差RMS是多少？
+  - L6增强钟差误差RMS是多少？
+  - SISURE（用户测距误差）的RMS值是多少？
+  - What is the RMS/orbital error of CLAS augmented GPS corrections?
+  - NOT_MENTIONED
+  - What is the positioning accuracy of CLAS augmented PPP in ENU components?
+  - How does the convergence time of CLAS augmented PPP compare to that using QZSS
+    final precise products?
+  - What is the accuracy of QZSS L6D satellite orbit and clock corrections?
+  - What is the static PPP positioning accuracy using QZSS L6D augmentation information
+    compared to QZSS final precise products?
+'2022':
+- paper_id: Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp
+  problem: Evaluate the accuracy of BDS-3 PPP-B2b real-time orbit/clock products and
+    their impact on single- and dual-frequency PPP positioning performance, compared
+    to IGS RTS products.
+  questions:
+  - How do PPP-B2b orbit and clock accuracies compare with those from IGS RTS?
+  - What is the static and dynamic PPP performance using PPP-B2b corrections for B1C
+    single-frequency and B1I+B3I dual-frequency?
+  - How do broadcast ephemeris and IGS ultra-rapid products perform in PPP?
+  - How accurate are real-time orbit/clock products from PPP-B2b and other providers?
+  - What is the kinematic dual-/single-frequency RT-PPP accuracy using B1C+B2b observations?
+  - How does PPP-B2b orbit/clock accuracy compare to IGS RTS products?
+  - What is the positioning accuracy of PPP-B2b in dual-frequency and single-frequency
+    static/dynamic scenarios?
+  - How does BDS-3 B1C/B2b single-frequency PPP performance compare to dual-frequency
+    IF PPP?
+  - How does BDS-3 PPP compare to GPS PPP using MGEX stations?
+  - What is the accuracy of BDS-3 PPP-B2b orbits and clocks compared to IGS real-time
+    products and broadcast ephemeris?
+  - What is the positioning accuracy and convergence of BDS-3 dual-frequency PPP using
+    PPP-B2b products?
+  - NOT_MENTIONED
+  - What is the accuracy of PPP-B2b SSR orbits and clocks compared to IGS RTS?
+  - How do PPP-B2b and IGS RTS products affect dual-frequency RT-PPP positioning accuracy
+    and convergence?
+  - How do PPP-B2b products perform for single-frequency RT-PPP (B1C, B2b) specifically?
+  - Can BDS-3 PPP-B2b service meet real-time high-accuracy positioning demands?
+'2023':
+- paper_id: Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service
+  problem: Investigate feasibility and performance of BDS-3 PPP-B2b for precise time
+    transfer compared to CNES real-time products.
+  questions:
+  - Is GPS PPP with PPP-B2b acceptable for time transfer?
+  - Is BDS-3 PPP using PPP-B2b feasible for time transfer, and what precision can
+    be achieved?
+  - Does the reliability of PPP-B2b time transfer outperform that of CNES real-time
+    products?
+  - Does adding GPS to BDS-3 PPP improve time transfer precision?
+  - Evaluate BDS-3, GPS and combined PPP time transfer accuracy with real-time PPP-B2b
+    corrections.
+  - Can BDS-3 PPP-B2b satellite orbit/clock products achieve reliable time transfer?
+  - How does PPP-B2b-based time transfer compare with final products (WUM) and real-time
+    products?
+  - Performance of real-time PPP time transfer with PPP-B2b compared with CNES real-time
+    products
+  - How does PPP-B2b-based PPP time transfer perform compared to CNES real-time, WUU
+    ultra-rapid, and WUM products?
+  - Evaluate noise level of time transfer solutions via STD.
+  - Assess frequency stability using MDEV.
+  - How does B2b-based time transfer compare to internet-based CNES real-time products
+    in terms of availability and reliability?
+  - What is the precision (STD, mean bias) of B2b time transfer relative to other
+    precise products?
+  - Can BDS-3 PPP using B2b products achieve feasible time transfer?
+  - How does B2b-based time transfer compare to using WUM, CNES, WUU products in terms
+    of stability and accuracy?
+  - BDS-3 PPP-B2b 在 GPS/BDS-3 时间传递中的收敛时间和频率稳定度如何？
+  - Is BDS-3 PPP time transfer with PPP-B2b feasible and of good quality?
+  - How does it compare with CNES, WUM, and other products?
+  - Are there systematic biases or reliability issues?

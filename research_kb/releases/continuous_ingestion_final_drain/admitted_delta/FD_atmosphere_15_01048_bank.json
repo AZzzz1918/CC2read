@@ -1,0 +1,188 @@
+[
+  {
+    "quote_id": "qb_eed639dbc1",
+    "span_index": 0,
+    "text": "atmosphere\nArticle\nAssessment of BDS-3 PPP-B2b Service and Its Applications for\nthe Determination of Precipitable Water Vapour\nXiaomingWang1,2,* ,YufeiChen1,2,JingleiZhang1,CongQiu1,2,KaiZhou1,HaoboLi3 andQiuyingHuang1,2\n1 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China;\nchenyufei20@mails.ucas.ac.cn(Y.C.);zhangjinglei@aircas.ac.cn(J.Z.);qiucong@aircas.ac.cn(C.Q.);\nzhoukai@aircas.ac.cn(K.Z.);huangqiuying22@mails.ucas.ac.cn(Q.H.)\n2 UniversityofChineseAcademyofSciences,Beijing100049,China\n3 SchoolofScience,RoyalMelbourneInstituteofTechnology(RMIT)University,\nMel",
+    "char_length": 3989
+  },
+  {
+    "quote_id": "qb_a02248a5ee",
+    "span_index": 1,
+    "text": "Atmosphere 2024, 15, x FOR PEER REVIEW 2 of 32\nAtm osphere2024,15,1048 2of31\ncorrections for remote sensing techniques, e.g., interferometric synthetic aperture radar\nGNSSService(IGS)formallylaunchedtheIGSreal-timeservice(RTS)toprovideGNSS\n[21]. In 2013, the International GNSS Service (IGS) formally launched the IGS real-time\norbitandclockcorrectionproductstosubscribedusersviatheinternet. Withtheprovided\nservice (RTS) to provide GNSS orbit and clock correction products to subscribed users via\nreal-time satellite orbit and clock corrections [22–24], ZTD or PWV can be estimated in\nthe internet. ",
+    "char_length": 5104
+  },
+  {
+    "quote_id": "qb_aad0a8df8b",
+    "span_index": 2,
+    "text": "Atmosphere2024,15,1048 3of31\nthe orbits from PPP-B2b were approximately 6 cm and 21 cm in the radial and cross-\ntrackdirections,respectively,forbothGPSandBDS-3. Inthealong-trackdirection,the\nRMSEswereapproximately24cmand34cmforBDS-3andGPS,respectively. Interms\noftheclockproducts,thestandarddeviations(STDs)ofthePPP-B2bclockswere0.11ns\nand0.13nsforBDS-3andGPS,respectively. Recentstudies[36,37]alsoindicatethatthe\naveragepositioningaccuracyofstaticPPPwithPPP-B2bcorrectionsisbetterthan3cm\nin the north, east, and upwards directions. This good positioning performance means\nthattroposphericinformation",
+    "char_length": 4007
+  },
+  {
+    "quote_id": "qb_2df4d581f9",
+    "span_index": 3,
+    "text": "Atmosphere2024,15,1048 4of31\n2. DataandMethodologies\n2.1. PPP-B2bMessageandGNSSObservations\nUsingourcustom-developedGNSSreceiverandself-developeddecodingsoftware,\nthePPP-B2bcorrectionswerereceivedanddecodedinrealtimeatstationBJ01(40.07◦ N,\n116.27◦ E) in Beijing, China. These corrections were then stored for further study. The\nreceiverisequippedwithaK803GNSSOEMmoduleprovidedbyGomNavTechnology\nLtd. (ShangHai,China),designedtosupportthePPP-B2bsignalwithacentrefrequency\nof 1207.14 MHz and a bandwidth of 20.46 MHz. The PPP-B2b data are acquired and\ntransmittedtoanAdvancedRISCMachine(ARM)processorvi",
+    "char_length": 3210
+  },
+  {
+    "quote_id": "qb_e941ffdf29",
+    "span_index": 4,
+    "text": "Atmosphere2024,15,1048 5of31\n(cid:40) g ≈9.80620· (cid:0) 1−0.0026442·cos(2φ)+5.8·10−6·cos2(2φ) (cid:1)\ns\n(cid:16) (cid:17) (3)\nR =6378.137/ 1.006803−0.006706·sin2(φ)\ns\nThePWV(inmeters)canbecalculatedusing:\n1 (cid:90) Pant q\nPWV= dP (4)\nρ w 0 g(z)\nwhereρ =1000kgm−3isthedensityofwatervapour,Pisthepressure(inPa),andqis\nw\nthespecifichumidity.\nFor GNSS stations located above or below the lowest pressure level of ERA5, an\ninterpolationorextrapolationproceduremustbeperformedtodeterminethepressure,\nhumidity,andtemperatureattheGNSSstationaltitude. Moredetailsontheextrapolation\norinterpolationprocedure",
+    "char_length": 2773
+  },
+  {
+    "quote_id": "qb_25b1ba474e",
+    "span_index": 5,
+    "text": "AtAmtomsopshpehreer2e 022042,41, 51,51, 0x4 F8OR PEER REVIEW 6 of6 3o2f 31\nFFiigguurree 22.. DDiissttrriibbuuttiioonn ooff tthhee 3322 GGNNSSSS sstatatitoionns;s ;1111 stsattaitoinons swwithit hcoc-olo-lcoactaetde drardaidosioosnodneds easrea rmeamrkaerdk ed\nwwiitthh rreedd ttrriiaanngglleess,, wwhhiillee tthhee llooccaattiioonn ooff BBJJ0011 iiss mmaarrkkeedd wwitihth aa ggrereenen ppenentatgargarmam. .\n22..44.. ZZTTDD aanndd PPWWVV EEssttiimmaattiioonn wwitithh PPPPPP\nTThhee PPPPPP tteecchhnniiqquuee iiss uusseedd inin ththisis stsutuddyy fofor resetsitmimataintign gthteh ZeTZDT Dwiwthi tPhP",
+    "char_length": 4538
+  },
+  {
+    "quote_id": "qb_917b2f88da",
+    "span_index": 6,
+    "text": "Atmosphere2024,15,1048 7of31\nThusfar,manystudieshavebeenconductedwiththeaimofimprovingtheaccuracy\nofZTDorPWVusinganimprovedempiricalZHDmodel[50,56],watervapour-weighted\nmeantemperaturecalculationmethods[49,57–61]advancedZTDestimationstrategies[62–66],\nandnewlydevelopedmappingfunctionandgradientmodels[61,67–71]. Withsuggestions\nfrom previous studies [64,72,73], a detailed description of the ZTD estimation strategy\nadoptedinthisstudyispresentedinTable1. Zhangetal.[73]suggestedthattheadoption\nofasmallcut-offelevationcansignificantlyimprovetheaccuracyoftheZTD;thus,the\nelevationcut-offanglewassetto",
+    "char_length": 2672
+  },
+  {
+    "quote_id": "qb_c4281a1641",
+    "span_index": 7,
+    "text": "Atmosphere2024,15,1048 8of31\nephemeris. Thepreciseclockoffsetcanbecalculatedusingtheclockcorrectionparameter\ninthePPP-B2bmessageandthebroadcastephemeris. Inthisstudy,theorbit,clock,and\nDCBperformancesrecoveredfromPPP-B2bmessageswereevaluatedwithproductsfrom\ntheMGEXpilotproject[77]. BeforethecomparisonbetweenPPP-B2bandGBMproducts,\nseveralinconsistenciesbetweenthesetwosetsofproductsneededtobefixed. Formore\ndetailsonPPP-B2bdecodingandthemethodsusedtoevaluatetheorbit,clock,andDCB,\nseeAppendicesA–C.\nBecauseittakestimetoobtainthecorrectioninformationgeneratedandtransmitted\nfromthemastercontrolstatio",
+    "char_length": 3463
+  },
+  {
+    "quote_id": "qb_82443cc93c",
+    "span_index": 8,
+    "text": "Atmosphere2024,15,1048 9of31\norbiterrorscanbecompensatedbyprecisesatelliteclockcorrectionsandtheestimated\nambiguityparameterinthePPPapproach.\nTheDCBsthatrefertotheB3Isignalatfrequenciesof f , f ,and f forBDS-3\nB1I B1C B2a\nwerecomparedtothosefromDLRandCASprovidedbytheMGEXpilotproject,andthe\nmeanvaluesofthedifferencesforthestudyperiodareshowninTable3. Thesystematic\nbias between each DCB product caused by the zero-assumption adopted in the DCB\nestimation must be removed before the comparison is conducted. This systematic bias\nbetweendifferentDCBproductsisabsorbedbythereceiverclockparameterand, th",
+    "char_length": 3489
+  },
+  {
+    "quote_id": "qb_3d9082c17d",
+    "span_index": 9,
+    "text": "Atmosphere 2024, 15, x FOR PEER REVIEW 10 of 32\nAtmosphere2024,15,1048 10of31\nTable 4. Statistical results for the SISREs (unit: m).\n𝑺𝑰𝑺𝑹𝑬 𝑺𝑰𝑺𝑹𝑬 𝑺𝑰𝑺𝑹𝑬\n𝒐𝒓𝒃 𝒄𝒍𝒌(cid:2878)𝒐𝒓𝒃 𝒄𝒍𝒌(cid:2878)𝒐𝒓𝒃\nSystem Satelthlieteu sTeyofpient ersatellitelasermeasurementsforthegenerationoftheBDS-3satellitesinthe\n[RMSE] [RMSE] [STD]\nPPP-B2bproduct.\nIIR 0.11 1.94 0.07\nTable4.StatisticalresultsfortheSISREs(unit:m).\nIIR-M 0.10 0.94 0.06\nGPS IIF 0.11 SISRE0.96 SISRE 0.06S ISRE\nSystem SatelliteType orb clk+orb clk+orb\n[RMSE] [RMSE] [STD]\nIII 0.12 0.63 0.04\nIIR 0.11 1.94 0.07\nMean 0.11 1.12 0.06\nIIR-M 0.10 0.94 0.06\nMEO G",
+    "char_length": 4068
+  },
+  {
+    "quote_id": "qb_d262d52279",
+    "span_index": 10,
+    "text": "Atmosphere 2024, 15, x FOR PEER REVIEW 11 of 32\nfrom GPS observations have the smallest bias but the largest RMSE compared to those of\nthe other solutions. The ZTDs derived from the BDS-3 observations have an RMSE of 13.9\nmm, which is slightly larger than that of the ZTDs derived from the combination of BDS-\n3 and GPS observations but smaller than that of the GPS-only solution. As shown in Table\n5 and Figure 5, 91% of the errors for the GPS-only solution were in the range of −30 mm\nto 30 mm, while the percentage for the other solutions reached approximately 98%. For\nthe coordinate accuracy, th",
+    "char_length": 3647
+  },
+  {
+    "quote_id": "qb_d7ec7ee0bb",
+    "span_index": 11,
+    "text": "Atmosphere 2024, 15, x FOR PEER REVIEW 12 of 32\nAtmosphere2024,15,1048 12of31\nFFiigguurree 55.. ZZTTDDe errrorrodr idstirsitbruibtiuontisofnosr fPoPrP P-BP2Pb-sBo2lubt sioonlus.tTiohnese. rTrohres wererroercsa wlcuelraet ecdalucsuinlagtethde uGsBinMg the GBM\nssoolluuttiioonn aassa ar erfeefreernecnec.eT.h Tehrees rueltssuslhtso wshtohwat tthheate rtrhoer searrreormso asrtley mwoitshtilny − w3i0thtoin3 0−3m0m to. 30 mm.\n4.2. ComparisonbetweenZTDDerivedwithPPP-B2b/CNESandthePost-ProcessedResults\n4.2. Comparison between ZTD Derived with PPP‐B2b/CNES and the Post‐Processed Results\nAsshowninFigure2",
+    "char_length": 4055
+  },
+  {
+    "quote_id": "qb_9ba00924d5",
+    "span_index": 12,
+    "text": "Atmosphere2024,15,1048 13of31\nTable6.Cont.\nGNSS Co-LocatedRadiosonde\nHorizontal Height\nStation Latitude Longitude Height Observation Station\nName (◦) (◦) (m) System Name Distance Difference\n(km) (m)\nCUSV 13.7 100.5 76.1 G+C N/A N/A N/A\nGUAM 13.6 144.9 201.9 G+C GQM00091212 14.86 70.3\nIISC 13.0 77.6 843.7 G+C N/A N/A N/A\nSGOC 6.9 79.9 −78.5 G+C N/A N/A N/A\nSEYG −4.7 55.5 −37.6 G+C SEM00063985 1.62 −1.0\nCIBG −6.5 106.8 169.1 G+C N/A N/A N/A\nDGAR −7.3 72.4 −64.9 G+C N/A N/A N/A\nCOCO −12.2 96.8 −35.3 G+C CKM00096996 0.10 −0.2\nKAT1 −14.4 132.2 184.3 G+C N/A N/A N/A\nPTVL −17.7 168.3 86.4 G+C N/A N/A",
+    "char_length": 3254
+  },
+  {
+    "quote_id": "qb_a01d99cdc2",
+    "span_index": 13,
+    "text": "Atmosphere 2024, 15, x FOR PEER REVIEW 14 of 32\nThe results in Figures 6 and 7 also indicate that the accuracy of the ZTDs derived\nwith PPP-B2b is strongly dependent on the location of the stations. For nine stations (i.e.,\nULAB, URUM, BIK0, CHAN, TASH, BJ01, BJFS, GAMG, and JFNG) between 30° N and\n48° N, the RMSEs of the ZTD range from 11.1 mm to 22.8 mm, with a mean value of 15.7\nmm. Among these nine stations, three (CHAN, BIK0, and BJFS) have only GPS observa-\ntions, and their ZTD results are worse than those of the other stations when a combination\nof GPS and BDS-3 observations is used. Th",
+    "char_length": 4677
+  },
+  {
+    "quote_id": "qb_4630aa160e",
+    "span_index": 14,
+    "text": "Atmosphere2024,15,1048 15of31\nTable7.ComparisonbetweentheZTDderivedwithPPP-B2b/CNEScorrectionsandtheGBM/IGS\nfinalorbit/clockproducts(unit:mm).\nLatitude IGSResultsasReference GBMResultsasReference\nSolutions\nRange RMSE Bias RMSE Bias\n30~48◦N 10.0 −1.3 8.0 −0.4\n0~30◦N 11.2 0.1 8.0 −0.4\nCNES 0~38◦S 10.3 −0.9 7.9 0.3\nMean 10.4 −0.8 8.0 −0.1\n30~48◦N 16.2 1.5 15.7 2.7\n0~30◦N 25.7 2.5 23.9 2.6\nPPP-B2b 0~38◦S 24.8 −1.0 25.0 1.1\nMean 22.2 0.7 21.7 2.1\n4.3. ComparisonoftheGNSS-DerivedZTD/PWVwithThatDerivedfromERA5\nInthisstudy,GNSS-derivedZTD/PWVvaluesarecomparedwiththoseobtainedwith\nERA5fromDOY069,2022to",
+    "char_length": 2540
+  },
+  {
+    "quote_id": "qb_4aa2daa6d0",
+    "span_index": 15,
+    "text": "Atmosphere2024,15,1048 16of31\nTable8.Cont.\nLatitude ZTD PWV\nSolutions\nRange RMSE Bias RMSE Bias\n30~48◦N 20.9 −0.7 3.2 −0.2\n0~30◦N 31.2 1.3 5.0 0.1\nPPP-B2b 0~38◦S 29.9 0.9 4.8 0.0\nAtmosphere 2024, 15, x FOR PEER REVIEW 16 of 32\nMean 27.8 0.7 4.4 0.0\nFFiigguurree 88. R.MRMSES (Ea–(da)– adn)d abniads (bei–ahs) (oef– thhe) ZoTfDth deerZivTeDd wdietrhi vIGeSd, GwBiMth, ICGNSE,SG, aBnMd P,PCPN-BE2Sb,, uasnindgP PP-B2b,using\nthe ZTD calculated from ERA5 as a reference.\ntheZTDcalculatedfromERA5asareference.\nFigure 9 illustrates the spatial variation in the RMSEs and biases in the GNSS-derived\nFigure9i",
+    "char_length": 2323
+  },
+  {
+    "quote_id": "qb_d2572a1508",
+    "span_index": 16,
+    "text": "Atmosphere2024,15,1048 17of31\nAtmosphere 2024, 15, x FOR PEER REVPIEWW VscomparedtotheERA5-derivedPWVsatthese32stationsarem17 oosf t3l2y within±1mm\nfortheIGS,GBM,andCNESsolutionsand±2mmforthePPP-B2bsolution.\nFFigiguurer e9. 9R.MRSME (SaE–d()a a–ndd) baiansd (eb–hia) sof( eth–eh P)WofVt dheeriPveWd Vwidthe IrGivS,e GdBwMi,t ChNIGESS, ,aGndB PMPP,-CBN2bE uSsi,nagn dPPP-B2busing\nthe PWV from ERA5 as a reference.\nthePWVfromERA5asareference.\nTo further investigate the temporal characteristics of the differences between the\nTofurtherinvestigatethetemporalcharacteristicsofthedifferencesbetweentheGNSS",
+    "char_length": 2314
+  },
+  {
+    "quote_id": "qb_30c16aeb4c",
+    "span_index": 17,
+    "text": "Atmosphere 2024, 15, x FOR PEER REVIEW 18 of 32\nTable 8. Comparison between ZTD/PWV derived from GNSS and ERA5 (unit: mm).\nZTD PWV\nSolutions Latitude Range\nRMSE Bias RMSE Bias\n30~48° N 18.3 −3.0 2.9 −0.5\n0~30° N 22.4 0.8 3.6 0.1\nIGS\n0~38° S 16.4 −0.6 2.7 −0.1\nMean 19.0 −0.9 3.1 −0.1\n30~48° N 15.7 −3.5 2.5 −0.6\n0~30° N 21.2 −0.9 3.4 −0.3\nGBM\n0~38° S 16.8 −1.0 2.7 −0.3\nMean 18.4 −1.7 3.0 −0.4\n30~48° N 17.8 −4.1 2.8 −0.7\n0~30° N 22.3 −1.4 3.6 −0.4\nCNES\n0~38° S 17.3 −0.7 2.8 −0.2\nMean 19.6 −2.0 3.2 −0.4\n30~48° N 20.9 −0.7 3.2 −0.2\n0~30° N 31.2 1.3 5.0 0.1\nPPP-B2b\n0~38° S 29.9 0.9 4.8 0.0\nAtmospher",
+    "char_length": 3616
+  },
+  {
+    "quote_id": "qb_550bf6e4b8",
+    "span_index": 18,
+    "text": "Atmosphere2024,15,1048 19of31\nThemeanbiasesare0.2mm,−3.2mm,−3.8mm,and2.9mmfortheIGS,GBM,CNES,\nand PPP-B2b solutions, respectively. As depicted in Figure 12, the RMSEs for the IGS,\nGBM,andCNESsolutionsaregenerallylessthan15mmatmoststations. However,forthe\nPPP-B2bsolution,theRMSEoftheZTDexhibitssignificantvariationwithlatitude. Only\nthreestations,namely,ULAB(47.9◦ N,107.1◦ E),URUM(43.8◦ N,87.6◦ E),andCHAN\nAtmosphere 2024, 15, x FOR PEER RE(V4IE3W.8 ◦ N,125.4◦ E),hadRMSEssmallerthan20mm. Thelargestvalu20e owf 3a2s observedat\nstationSEYG(4.7◦ S,55.5◦ E),withavalueof31.6mm.\nFFiigguurree 1122. R.MRM",
+    "char_length": 2337
+  },
+  {
+    "quote_id": "qb_cf084d1b2b",
+    "span_index": 19,
+    "text": "Atmosphere2024,15,1048 20of31\nTable9.ComparisonbetweentheZTD/PWVderivedfromGNSSandradiosonde(unit:mm).\nLatitude ZTD PWV\nSolutions\nRange RMS Bias RMS Bias\n30~48◦N 12.7 2.3 2.1 −0.1\n0~30◦N 15.3 −1.4 2.5 −0.5\nIGS 0~38◦S 11.6 −0.9 2.2 −0.8\nMean 13.1 0.2 2.3 −0.4\n30~48◦N 10.2 −1.7 1.9 −0.8\n0~30◦N 12.2 −3.4 2.2 −1.0\nGBM 0~38◦S 13.1 −5.2 2.4 −1.4\nMean 11.7 −3.2 2.1 −1.0\n30~48◦N 13.5 −1.9 2.4 −0.9\n0~30◦N 12.9 −3.9 2.4 −1.1\nCNES 0~38◦S 13.9 −6.4 2.6 −1.7\nMean 13.4 −3.8 2.4 −1.2\n30~48◦N 17.0 −0.4 2.8 −0.9\n0~30◦N 25.1 4.6 4.1 −1.3\nPPP-B2b 0~38◦S 26.1 5.0 4.4 −0.1\nAtmosphere 2024, 15, x FOR PEER REVIEW 21",
+    "char_length": 1203
+  },
+  {
+    "quote_id": "qb_696d43f6ce",
+    "span_index": 20,
+    "text": "Atmosphere2024,15,1048 21of31\nFigure 14 shows the variations in the radiosonde-derived PWV (red dots) and the\nAtmosphere 2024, 15, x FOR PEER REVIEWm onthlyRMSEsoftheGNSS-derivedPWV.TheresultsalsoshowthattheRMSEofthe 22 of 32\nGNSS-derivedPWVusuallyincreaseswiththePWVvalueswhenthePWVhasalarge\nseasonalvariation,whichisveryevidentatstationsCHAN,BJFS,andLHAZ.\nFiguFrieg u1r4e. 1P4W.PVW vVavraiaritaiotinons saanndd tthhee mmoonnththlylyR MRMSsSosf tohfe tdhieff edreiffnceersenbectews ebeentGwNeeSnS- dGeNrivSeSd-dPeWriVved PWV\nand arnaddiroasdoionsdoned-de-edreivrievded PPWWVV aatt 1111 sstatatitoino",
+    "char_length": 4873
+  },
+  {
+    "quote_id": "qb_9dadc08889",
+    "span_index": 21,
+    "text": "Atmosphere2024,15,1048 22of31\nthresholdandbreakthroughaccuracyrequirementsforIWVinnowcastingandreal-time\nmonitoringare5mmand2mm,respectively. WhileIWVaccuracyderivedfromCNES\napproachesthe“breakthrough”levelwithameanRMSof2.4mm,thePPP-B2bservice\ncurrentlymeetsonlythe“threshold”inChinaanditssurroundingareas. Thisunderscores\ntheneedforfurtherrefinementofthePPP-B2bservicetoachieve“breakthrough”accuracy,\nwhichiscrucialforitsoperationaluseinhigh-accuracyIWVproducts. Achieving“break-\nthrough”accuracyisessentialbecauseitrepresentsalevelofprecisionthatsignificantly\nenhances the reliability and utility o",
+    "char_length": 3921
+  },
+  {
+    "quote_id": "qb_c1e8fe7597",
+    "span_index": 22,
+    "text": "Atmosphere2024,15,1048 23of31\nthan70%oftheepochs. ThislimitationarisesbecausethePPP-B2bcorrectioninformation\nisderivedfromtrackingstationsdeployedinChinaandisintendedsolelyforChinaand\nitssurroundingareas. Consequently,theperformanceofPPP-B2binregionsdistantfrom\nChinamaydegradeduetoareductioninavailablesatellitesandadeteriorationinsatellite\ngeometry. CNESperformedmuchbetterthanPPP-B2binZTDestimation,withamean\nRMSEof8.0mmfor32stationsusingGBM-derivedZTDasareference. TheGNSS-derived\nZTD/PWV were also compared with those derived from ERA5 and radiosonde. The\ncomparisonresultsrevealthattheRMSEsofth",
+    "char_length": 3612
+  },
+  {
+    "quote_id": "qb_a2e947b3a9",
+    "span_index": 23,
+    "text": "Atmosphere2024,15,1048 24of31\nAtmosphere 2024, 15, x FOR PEER REVIEW thedatawerebroadcastatarateof1000symbolspersecond,thebroadcastt2i5m eofo f32e ach\ndataframewas1s.\nAlthough7messagetypeshadbeendesigned,currentlyonlymessagetypes1–4canbe\ndecodedbyusers;thesetypesincludesatellitemasks(Type1),satelliteorbitcorrectionsand\nwas no informationu saevrarailnagbelaec.c uArasc syhinodwicnes i(nTy Fpeig2u),rDeC ABs1( T[y8p2e],3 )t,haen dbsraotealdlitceacslto ctkimcoerr eocft ioan cso(Tmyp-e4).\nMessagetype63wasanullmessageusedtofillintheblankperiodwhentherewasno\nplete PPP-B2b message was 48 s. The broadca",
+    "char_length": 3378
+  },
+  {
+    "quote_id": "qb_aab16dece2",
+    "span_index": 24,
+    "text": "Atmosphere2024,15,1048 25of31\nTableA2.MessagetypeandIODtype.\nMessageTypes InformationContent IODType\n1 Satellitemask IODSSR,IODP\n2 Orbitcorrectionanduserrangeaccuracyindex IODSSR,IODN,IODC\n3 Differentialcodebias IODSSR\n4 Satelliteclockcorrection IODSSR,IODP,IODC\n5 Userrangeaccuracyindex -\n6 Clockcorrectionandorbitcorrection—combination1 -\n7 Clockcorrectionandorbitcorrection—combination2 -\n8–62 Reserved\n63 Nullmessage\nAppendixB.RecoveringPreciseOrbitCorrections,ClockOffsets,andDCB\nTheorbitandclockcorrectionsinthePPP-B2bmessagewereusedtocorrectCNAV1\nand LNAV for BDS-3 and GPS, respectively. With",
+    "char_length": 2436
+  },
+  {
+    "quote_id": "qb_412c5c4e9c",
+    "span_index": 25,
+    "text": "Atmosphere2024,15,1048 26of31\nTherefore,whentheIFLCofpseudorangeobservationsP andP areadoptedindata\n1 2\nprocessing,thesatellitehardwarecodebiascanbeignoredbecauseitisabsorbedinthe\nsatelliteoffsetcorrectionsprovidedbythePPP-B2bmessage.\nFor BDS-3, the satellite clock corrections given in PPP-B2b refer to the B3I signal,\nC\nwhichmeansthattherecoveredsatelliteclockoffsetcorrection,dt inEquation(A5),\nB2b,B3I\ncontainstheactualsatelliteclockoffsetandthesatellitehardwarecodebiasatthereference\nfrequency f .\nB3I\ndt C = dtC−BC (A5)\nB2b,B3I s,B3I\nInEquation(A5),dtC istheactualsatelliteoffset,andBC isthesat",
+    "char_length": 3402
+  },
+  {
+    "quote_id": "qb_6990ee7709",
+    "span_index": 26,
+    "text": "Atmosphere2024,15,1048 27of31\nthisdifferencewasessentialforclockoffsetevaluation. AsshowninEquation(A5),the\nPPP-B2bclockoffsetscontainaspecificsatellitehardwarecodebiasofsignalB3I.Asshown\ninEquation(A7),theGBMfinalclockoffsetscontainasatellitehardwarecodebiasforthe\nIFLCofthemeasurementsatthefrequenciesof f and f :\nB1I B3I\n(cid:104) (cid:105)\ndt C = dtC− φBC +(1−φ)BC (A7)\nGBM,13 s,B1I s,B3I\n(cid:17)\nwhere φ = f2 /(f2 − f2 ,BC ,andBC arethesatellitehardwarecodebiasesat\nB1I B1I B3I s,B1I s,B3I\nthefrequenciesof f and f ,respectively.\nB1I B3I\nTherefore, prior to comparing the PPP-B2b clock offsets ",
+    "char_length": 2735
+  },
+  {
+    "quote_id": "qb_37da88dcfc",
+    "span_index": 27,
+    "text": "Atmosphere2024,15,1048 28of31\novercomethisproblem,Equations(A12)and(A13),proposedbyTaoet.al.[33],wereused\ninthisstudytore-edittheDDseriesforallsatellites:\n∇∆C i j = ∇∆C i j−∆DD i,i−1 (A12)\n (cid:16) (cid:17)\n 1 ∑N ∆∇∆C j , abs 1 ∑N ∆∇∆C j ≥0.1ns\n∆DD i,i−1 =  N 0 j=1 i,i−1 , abs (cid:16) N 1 ∑ j= N 1 ∆∇∆ i C ,i− j 1 (cid:17) <0.1ns (A13)\nN j=1 i,i−1\nwhere∆∇∆C j = ∇∆C j−∇∆C j isthetimedifferenceoftheDDclockseries.\ni,i−1 i i−1\nReferences\n1. And,I.M.H.;Soden,B.J.Watervaporfeedbackandglobalwarming.Annu.Rev.EnergyEnviron.2000,25,441–475.\n2. Dessler,A.E.;Zhang,Z.;Yang,P.Water-vaporclimatefeedbacki",
+    "char_length": 4517
+  },
+  {
+    "quote_id": "qb_79b18e1ec0",
+    "span_index": 28,
+    "text": "Atmosphere2024,15,1048 29of31\n22. Caissy, M.; Agrotis, L.; Weber, G.; Hernandez-Pajares, M.; Hugentobler, U. Coming Soon: The International GNSS Real-\nTimeService. GPSWorld. 2012. Availableonline: https://gge.ext.unb.ca/Resources/gpsworld.june12.pdf(accessedon24\nAugust2024).\n23. Dousa,J.PrecisenearReal-TimeGnssAnalysesatGeodeticObservatoryPecny—PreciseOrbitDeterminationandWaterVapour\nMonitoring.ActaGeodyn.Geomater.2010,7,7–17.\n24. Dow,J.M.;Neilan,R.E.;Rizos,C.TheInternationalGNSSServiceinachanginglandscapeofGlobalNavigationSatelliteSystems.\nJ.Geod.2009,83,191–198.[CrossRef]\n25. Zumberge,J.;Hef",
+    "char_length": 5028
+  },
+  {
+    "quote_id": "qb_f4be78885a",
+    "span_index": 29,
+    "text": "Atmosphere2024,15,1048 30of31\n51. Pham,C.C.;Nguyen,X.A.DeterminationofradiowavepropagationconditionsintheatmosphereofHanoiusingtheradiosonde\ndataofballoons.ICTExpress2022,8,611–617.[CrossRef]\n52. Johnston,G.;Riddell,A.;Hausler,G.TheInternationalGNSSService.InSpringerHandbookofGlobalNavigationSatelliteSystems;\nTeunissen,P.J.G.,Montenbruck,O.,Eds.;SpringerInternationalPublishing:Cham,Switzerland,2017;pp.967–982.\n53. Junbo,S.;Chaoqian,X.;Jiming,G.;Yang,G.Real-TimeGPSPrecisePointPositioning-BasedPrecipitableWaterVaporEstimation\nforRainfallMonitoringandForecasting.Geosci.RemoteSens.IEEETrans.2015,5",
+    "char_length": 5042
+  },
+  {
+    "quote_id": "qb_1958f95aa2",
+    "span_index": 30,
+    "text": "Atmosphere2024,15,1048 31of31\n79. Montenbruck,O.;Steigenberger,P.;Hauschild,A.Broadcastversuspreciseephemerides:Amulti-GNSSperspective.GPSSolut.\n2015,19,321–333.[CrossRef]\n80. Vey,S.;Calais,E.;Llubes,M.;Florsch,N.;Woppelmann,G.;Hinderer,J.;Amalvict,M.;Lalancette,M.;Simon,B.;Duquenne,F.\nGPSmeasurementsofoceanloadinganditsimpactonzenithtroposphericdelayestimates: AcasestudyinBrittany,France.\nJ.Geod.2002,76,419–427.[CrossRef]\n81. Byram,S.;Hackman,C.;Tracey,J.Computationofahigh-precisionGPS-basedtroposphereproductbytheUSNO.InProceedings\nofthe24thInternationalTechnicalMeetingoftheSatelliteDivisiono",
+    "char_length": 3152
+  }
+]

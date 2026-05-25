@@ -1,0 +1,46 @@
+{
+  "paper_id": "V04_W3_1_s2_0_S026322412601448X_main__1_",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 3,
+  "bibliographic_info": {
+    "title": "Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement 279 (2026) 121739 Contents lists available at ScienceDirect Measurement journal homepage: www.elsevier.com/locate/measurement Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning Guo Chena, Qiang Zhanga,* , Tianfeng Shenb, Zhigang Hua, Qile Zhaoa,c aGNSS Research Cent",
+      "129 Luoyu Road, Wuhan 430079, China A R T I C L E I N F O A B S T R A C T Keywords: The limited geographical coverage of regional PPP-B2b, MADOCA-PPP and Galileo initial High Accuracy Service PPP-B2b (HAS), precludes their use for global real-time high-precision positioning."
+    ]
+  },
+  "component_stack": "BDS3_PPP_B2B+LEO+INS",
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 1,
+    "grounding_quotes": [
+      "must be corrected to the B1I/B3I IF combination using the Differential PPP-B2b offers its peak availability of approximately 17 satellites Code Bias (DCB) products provided by the service [32]."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 13,
+    "b2b": 109,
+    "has": 5,
+    "dcb": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "category": "B2B_HAS_FUSION",
+  "priority": "P2_PRIORITY_GAP",
+  "is_new_route": false,
+  "confirms_singleton": false
+}

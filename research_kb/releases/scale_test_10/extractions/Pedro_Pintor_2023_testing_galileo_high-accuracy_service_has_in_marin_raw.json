@@ -1,0 +1,45 @@
+{
+  "paper_id": "Pedro_Pintor_2023_testing_galileo_high-accuracy_service_has_in_marin",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "authors": [],
+    "year": 2023
+  },
+  "product_source": {
+    "claimed": "Galileo HAS",
+    "actual_product_source": "CNES_OR_OTHER_RTS",
+    "grounding_quote_ids": [
+      "qb_2d2f37fd5",
+      "qb_73c467e55"
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "Extended Kalman filter (EKF)",
+    "grounding_quote_ids": [
+      "qb_09c846850",
+      "qb_a433af349"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quote_ids": []
+  },
+  "novelty_audit": {
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "grounding_quote_ids": [
+      "qb_6d1a429c9",
+      "qb_ddc1a7547"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "Proprietary Galileo HAS User Terminal hardware",
+      "No public code or data"
+    ],
+    "reproducibility_score": 0,
+    "grounding_quote_ids": [
+      "qb_2d2f37fd5"
+    ]
+  }
+}

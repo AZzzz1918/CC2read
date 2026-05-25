@@ -1,0 +1,12 @@
+{
+  "product_source": "QZSS_CLAS",
+  "paper_type": "clas_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "classification_reason": "The paper evaluates QZSS CLAS augmentation performance for PPP, which is a PPP-SSR service, not BDS PPP-B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2020--Maosen Hao--PPPPerformanceEvaluationofQZSSCentimeterLevelAugmentationService.pdf",
+  "paper_id": "2020--Maosen Hao--PPPPerformanceEvaluationofQZSSCentimeterLevelAugment",
+  "extraction_mode": "batch_classify_1call"
+}

@@ -1,0 +1,45 @@
+timeline:
+- papers:
+  - Liu_Wei_BDS_GPS_RTK_PPP
+  year: 2020
+- papers:
+  - Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+  - Nie_2021_initial_assessment_bds_ppp_b2b_service
+  year: 2021
+- papers:
+  - Euiho_Kim_2022_CLAS_PPP
+  - Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+  - remotesensing_14_02769
+  year: 2022
+- papers:
+  - Borio_2023_ghasp_galileo_has_parser
+  - Taro_Suzuki_2023_qzss_clas_l6_evaluation
+  - Zhou_2023_multifrequency_bds3_rt_ppp_b2b
+  - remotesensing_15_00199
+  - s10291_023_01455_z
+  - s10291_023_01570_x
+  - s43020_023_00097_3
+  year: 2023
+- papers:
+  - Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA
+  - Factor_Graph_PPP_B2b_INS
+  - GKit_SSRDecoder_PPP_B2b_HAS
+  - Oceanic_PWV_PPP_B2b_LowCost
+  - RT_Kinematic_Orbit_LEO_B2b_HAS
+  - RT_ZTD_PPP_B2b_HAS_MADOCA
+  - Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+  - Single_Frequency_PPP_B2b_Time_Transfer
+  - Wang_2024_ppp_b2b_coverage_ztd_positioning
+  - Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+  - Zhou_Peiyuan_2024_Galileo_HAS_Initial
+  - applsci_15_08033_v2
+  - remotesensing_16_00833_v2
+  - s10291_024_01730_7
+  - s43020_024_00146_5
+  year: 2024
+- papers:
+  - Pan_Lin_2025_BDS_B2b_HAS
+  - s10291_025_01845_5
+  - s10291_025_01882_0
+  year: 2025
+version: v0.3

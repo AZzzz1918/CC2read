@@ -1,0 +1,32 @@
+{
+  "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+  "expected_category": "core_ppp_b2b_tool",
+  "extraction_mode": "batch_b_lite_4calls",
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": true,
+  "reason": "The paper evaluates the quality of PPP-B2b corrections for GPS and BDS using SISRE.",
+  "mathematical_model": "NOT_MENTIONED",
+  "experiment_epoch": "NOT_MENTIONED",
+  "correction_types": [
+    "orbit",
+    "clock"
+  ],
+  "ionospheric_handling": "NOT_MENTIONED",
+  "missing_dcb": true,
+  "reproduction_blockers": [
+    "No source code or processing software provided",
+    "No raw observation or correction data archive shared",
+    "Configuration details (e.g., decoding utilities, processing setup) not specified",
+    "Kalman filter or estimation parameters not described",
+    "Correction archive (PPP-B2b messages) not accessible",
+    "Model parameters (e.g., satellite antenna, orbit integration) not disclosed"
+  ],
+  "score": 1,
+  "_meta": {
+    "calls_ok": 4,
+    "calls_total": 4,
+    "elapsed_s": 134.8
+  }
+}

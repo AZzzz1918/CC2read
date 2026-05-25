@@ -1,0 +1,152 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nReal-Time Precise Orbit Determination of Low Earth Orbit\nSatellites Based on GPS and BDS-3 PPP B2b Service\nYaliShi1,TianheXu1 ,MinLi1,* ,KaiWei2,ShuaiWang3andDixingWang1\n1 InstituteofSpaceSciences,ShandongUniversity,Weihai264209,China;202121029@mail.sdu.edu.cn(Y.S.);\nthxu@sdu.edu.cn(T.X.);202221163@mail.sdu.edu.cn(D.W.)\n2 QiluAerospaceInformationResearchInstitute,ChineseAcademyofSciences,Jinan250100,China;\nweikai@aircas.ac.cn\n3 SchoolofSystemsScienceandEngineering,SunYat-SenUniversity,Guangzhou510275,China;\nwangsh523@mail2.sysu.edu.cn\n* Correspondence:limin0614@sdu.edu.c",
+    "char_length": 3901
+  },
+  {
+    "quote_id": "qb_fd56fe82bf",
+    "span_index": 1,
+    "text": "RemoteSens.2024,16,833 2of25\nTheglobalnetworkingoftheBeidouGlobalNavigationSatelliteSystem(BDS)was\ncompletedin2020. PPP-B2bisoneoftheservicesprovidedbytheBDS-3navigationsystem\nandisusedtoenhanceprecisepointpositioning(PPP).ThePPP-B2bsignalisusedasthe\nbroadcastchannel,andBDS-3geosynchronousorbit(GEO)satellitesbroadcastcorrection\ninformationtousers. ThissignalprovidesuserswithRTPPPservices[7]. Thewidespread\napplicationofPPP-B2bhascoincidedwiththestudyofPPP-B2bbymanyscholars[7–13].\nYangetal. reportedthephysicalpropertiesofPPP-B2bincludingtheareacoveredbyits\nsignalanditsaccuracyforPPP[14]. Liuetal",
+    "char_length": 3771
+  },
+  {
+    "quote_id": "qb_a41c47cf64",
+    "span_index": 2,
+    "text": "RemoteSens.2024,16,833 3of25\n2.1. MatchingAlgorithmsofPPP-B2bMessages\nTherearesevenmessagetypesinPPP-B2b. Thesesevenmessagetypesrefertofive\ntypes of data, namely the satellite mask, differential code bias (DCB), orbit corrections,\nclockcorrections,andtheuserrangingaccuracyindex,asgiveninTable1. ThesePPP-B2b\ncorrectionsshouldbematchedbeforebeingmade. ThealgorithmsforPPP-B2bmatching\nandcorrectingLANVandCNAVephemeridesduringthereal-timepreciseorbitdetermi-\nnation(RTPOD)ofLEOsatellitesareidenticaltothoseusedinotherscenarios,suchas\ntraditionalPPP,withnodistinction. Firstly,theIssueofDataStateSpaceR",
+    "char_length": 3031
+  },
+  {
+    "quote_id": "qb_b842388721",
+    "span_index": 3,
+    "text": "RemoteSens.2024,16,833 4of25\nwhere l denotes the code measurements corresponding to the ranging signals,\nbroadcast\n(cid:101)l denotes the corrected code measurements corresponding to the ranging signals, and\nDCB denotes the DCB correction message of the corresponding ranging signal. The\nB2b\ndual-frequencyionosphere-freecombinationcodemeasurementsobtainedaftertheDCB\ncorrectionare\n(cid:101)l =\nγ(cid:101)l\n1\n−(cid:101)l\n2 =\nγl\n1\n−l\n2 −\nγDCB\n1\n−DCB\n2 (4)\nγ−1 γ−1 γ−1\nf2\nγ = 1 (5)\nf2\n2\nwhere f isthecenterfrequencyofcarrierphasel and f isthecenterfrequencyofthe\n1 1 2\ncarrierphaseandDCB andDCB arethec",
+    "char_length": 3234
+  },
+  {
+    "quote_id": "qb_00639c0889",
+    "span_index": 4,
+    "text": "RemoteSens.2024,16,833 5of25\n(cid:104)\nxleo,yleo,zleo\n(cid:105)T\nisthe3DpositionvectoroftheLEOsatellite.\n(cid:104)\nx\n.leo\n,y\n.leo\n,z\n.leo (cid:105)T\nisthe3Dve-\n0 0 0 0 0 0\nlocityvectoroftheLEOsatellite. [pleo,pleo,···pleo] T aredynamicparametersincludingthe\n1 2 n\ncoefficientofsolarpressureC ,atmosphericdragcoefficientC ,andempiricalacceleration\nR D\nvectorsa = [a ,a ,a ]inthethreeaxialdirectionsofthecentroidorbitcoordinatesystem.\nR a c\ncisaconstantrepresentingthespeedoflight. δtisthespacebornereceiverclockoffset.\nISBG/C istheinter-systembias(ISB)parameterbetweentheGPSreceiverclockoffsetand\nBDSr",
+    "char_length": 3001
+  },
+  {
+    "quote_id": "qb_5832e89206",
+    "span_index": 5,
+    "text": "RemoteSens.2024,16,833 6of25\nwhereR isthemeasurementnoisecovariancematrix. Thenon-negativityofthecovariance\ni\nmatrixisguaranteedbyEquation(18). Thedesignmatrixis H. L denotestheobserved-\ni\nminus-calculatedcodeandphasemeasurements.\nTo solve the divergence problem caused by traditional linear Kalman filtering, ex-\ntended Kalman filtering is adopted for the RT POD of the LEO satellite in this study.\nref\nHere,thereferencestatevectorX iscomputedthroughtheorbitalintegrationofsatellite\ni\ndynamicsas\nX(cid:101) = X\ni\nref +x\ni\n(19)\nwherex = (HTPH) −1 HTPL andP = R −1istheweightoftheobservations.Inthisst",
+    "char_length": 2517
+  },
+  {
+    "quote_id": "qb_8c55818a16",
+    "span_index": 6,
+    "text": "RemoteSens.2024,16,833 7of25\nTable4.Settingofparametersrelatingtoprocessingnoise.\nTheValueofInitial TheValueof\nParameter CorrelationTime\nVariance Steady-StateVariance\nLEOsatelliteposition[m] 1.0 - -\nLEOsatellitevelocity[m/s] 1.0 - -\nGPSreceiverclock\n500.0 50.0 1s\noffset[m]\nISB(G-C)[m] 1.2 1 1s\nEmpiricalforceaccelerationinradialdirection[nm/s2] 100.0 200.0 1s\nEmpiricalforceaccelerationinalongdirection[nm/s2] 400.0 800.0 1s\nEmpiricalforceaccelerationincrossdirection[nm/s2] 200.0 400.0 1s\nRemote Sens. 2024, 16, x FOR PEER REVIEW 8 of 26\nAmbiguityparameter 0 0 1s\nFFiigguurree 11. .PProrocecsessins",
+    "char_length": 942
+  },
+  {
+    "quote_id": "qb_296c3c589b",
+    "span_index": 7,
+    "text": "RemoteSens.2024,16,833 8of25\nRemote Sens. 2024, 16, x FOR PEER REVIEW 9 of 26\n4. AnalysisandEvaluationofthePPP-B2bandBroadcastEphemerisPerformance\n4.1. AnalyBseifso roef athpep lCyihnagrathcetePrPisPti-cBs2 bofs itghnea PlsPinP-tBhe2bR TCPoOrrDecotifoLnE TOimsaete Slleitreise,st hestatistical\ncharacteristicsofthePPP-B2bcorrectionsareanalyzedandtheRTorbitandclockoffset\nTaking a three-day dataset as an example, the PPP-B2b orbit and clock correction time\naccuracyofthePPP-B2bandbroadcastephemerisisevaluated.\nseries for the GPS (top) and BDS-3 (bottom) are shown in Figure 2. The GPS broadcast\n4.1.",
+    "char_length": 3561
+  },
+  {
+    "quote_id": "qb_ba902ccaa7",
+    "span_index": 8,
+    "text": "RemoteSens.2024,16,833 9of25\n4.2. EvaluationofthePPP-B2bandBroadcastOrbitAccuracy\nThe final precision German Research Centre for Geosciences (GFZ) products are a\nreferenceforevaluatingtheaccuracyofRTorbitdetermination[26]. Thebroadcastorbit\nreferencepointistheantennaphasecenterofthenavigationsatelliteasforthePPP-B2b\norbitwhereastheGFZpreciseorbitreferencepointisthecentroidofthenavigationsatellite.\nRemote Sens. 2024, 16, x FOR PEER REVIEW 10 of 26\nTherefore,theIGSsatelliteantennaphasecenteroffsetcorrectionfileisusedforeliminating\nthereferencedifferenceamongthebroadcast,PPP-B2b,andpreciseorbit. ",
+    "char_length": 2625
+  },
+  {
+    "quote_id": "qb_50811437b5",
+    "span_index": 9,
+    "text": "RemoteSens.2024,16,833 10of25\nRemote Sens. 2024, 16, x FOR PEER REVIEW 11 of 26\nTherefore, the BDS-3 PPP-B2b orbit corrections not only slightly reduce the broadcast\nephemerisorbiterrorsbutalsoaffecttheirdiscontinuityduetodataupdates.\nFigureF ig4u. rOer4b.iOt rebrirtoerr rosrersieersie soof fBBDDSS--33 MMEEOOs astealtleitlelsitaefste arfPtPePr -PB2PbPc-oBr2rebc tcioonrr(elecftti)oann d(lwefitth) tahned with the\noriginoarli gbirnoalabdrcoaasdtc aespthepehmemereirsi s((rriigghhtt))..\nFigure5showstheBDS-3IGSOsatellitebroadcastephemerisorbiterrorserieswith\nFigure 5 shows the BDS-3 IGSO satellite b",
+    "char_length": 2631
+  },
+  {
+    "quote_id": "qb_4312bde19a",
+    "span_index": 10,
+    "text": "RemoteSens.2024,16,833 11of25\nasinter-satellitelinkobservationsareinvolvedinthegenerationoftheBDS-3MEOsatellite\nRemote Sens. 2024, 16, x FOR PEER REVIEWb roadcastorbit[12]. IthasbeenreportedthatthenumericalprecisionoftheBDS-3satellite 12 of 26\nbroadcastephemerisorbitiscurrentlymuchhigherthanthatof1yearago,astheorbit\naccuracyisimprovingevery6months.\nFigureF i5g.u Orer5b.iOt rebrirtoerrr soerrsieersie osfo fBBDDSS--33 IIGGSSOOP PPPP-PB2-Bb2(lbe f(tl)eafntd) tahnedB DthSe-3 BIGDSSO-3b rIoGaSdOca sbtreopahedmcaersits ephemeris\n(right()r.i ght).\nTable5.StatisticalaccuracyofGPSandBDS-3satelliteorbit",
+    "char_length": 1985
+  },
+  {
+    "quote_id": "qb_a5aced807f",
+    "span_index": 11,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 13 of 26\nRemoteSens.2024,16,833 12of25\nFigure6.RMSerrorsinGPSsatelliteorbits(top)andBDS-3satelliteorbits(bottom).\nFigure 6. RMS errors in GPS satellite orbits (top) and BDS-3 satellite orbits (bottom).\n4.3. EvaluationoftheRTClockOffsetAccuracy\nTable 5. Statistical accuracy of GPS and BDS-3 satellite orbits.\nTheRTclockoffsetperformanceisassessedusingtheGFZpreciseclockoffsetproduct\nasareference. Beforecomparison,itisnecessarytoeliminatethereferencetimedifferences\nMEO Orbit (RMS/m) IGSO Orbit (RMS/m)\nEphemeris Type among the broadcast clock offset, PPP-B2b",
+    "char_length": 2567
+  },
+  {
+    "quote_id": "qb_7216471e89",
+    "span_index": 12,
+    "text": "RemoteSens.2024,16,833 13of25\nbroadcastephemeris,whicheffectivelyreducestheerrorsduetodataupdating. Owing\ntothesystemicbias, thesystematicSTDisusedintheevaluationofthenine-dayclock\noffsetdatasets. AlltheevaluationresultsareshowninFigure8. Aftercorrection,theSTD\nobtainedfortheGPSPPP-B2bclockoffsetis0.03m,whichis50%lessthanthatoftheGPS\nbroadcastclockoffset. Similarly,theSTDoftheBDS-3PPP-B2bclockoffsetis6.8cm,which\nis70%lessthanthatoftheBDS-3broadcastclockoffset. Figure7showsthattheerrorsin\ntheGPSPPP-B2bclockoffsetscontainsystematicbiasesandaremuchlargerthanthosein\ntheBDS-3clockoffsets. Aimingatr",
+    "char_length": 3551
+  },
+  {
+    "quote_id": "qb_ff3cca8028",
+    "span_index": 13,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 15 of 26\ntaken to obtain the STD of the entire satellite system at last. The resulting STDs of the GPS\nRemoteSens.2024,16,833 14of25\nPPP-B2b offset errors are smaller than those of the BDS-3 PPP-B2b offset errors.\nFigure 8. STDs of GPFSig aunred8 B.DSTSD-3s osfaGtePllSitaen dcloBDckS -o3ffsasteetl leitreroclrosc kwoiftfhse atnerdr owrsitwhiothuat nPdPwPi tBh2obu tcPoPrrPeBc2tibocno.r rection.\n4.4. ComparisionoftheGloballyAveragedSignalinSpaceRangeErrorofPPP-B2bandBroadcast\n4.4. Comparision of Ethmep Gehleorbisally Averaged Signal in Space Range Error of",
+    "char_length": 2916
+  },
+  {
+    "quote_id": "qb_37772d1484",
+    "span_index": 14,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 16 of 26\ncross directions, respectively. The weight factors used for calculating the SISRE are shown\nin Table 6.\nTable 6. The weight factors used for SISRE computation.\nRemoteSens.2024,16,833 15of25\nType\nW W2\nEphemeris R A,C\nTable6.TheweightfactorsusedforSISREcomputation.\nGPS 0.98 1/49\nType\nW W2\nEpheBmDerSi-s3 MEO 0.98 R A,C 1/54\nBDS-3 IGSO GPS 0.98 0.98 1/491/126\nBDS-3MEO 0.98 1/54\nBDS-3IGSO 0.98 1/126\nΔ\nThe GPS and BDS-3 PPP-B2b and broadcast ephemeris RT time series are shown\nin Figure\nT h\n9\ne\n.\nG\nT\nP\nh\nS\ne\na\nR\nn\nT\nd B\ns\nD\ner\nS\ni\n-\ne\n3\ns\nP\nv\nP\na\nP\nl\n",
+    "char_length": 2823
+  },
+  {
+    "quote_id": "qb_7e327b014a",
+    "span_index": 15,
+    "text": "RemoteSens.2024,16,833 16of25\nTable7.TheSISRE(ORB)andSISREofthebroadcastephemerisandPPP-B2b.\nType\nSISRE(ORB)/m SISRE/m\nEphemeris\nGPSbroadcast\n1.29 0.54\nEphemeris\nGPSPPP-B2b 0.81 0.22\nBDS-3broadcastephemeris 1.77 0.14\nBDS-3PPP-B2b 1.24 0.12\n5. RTPODProcessingandAnalysis\nFirstly, theavailabilityoftheonboardGNSSobservationsoftheTJU-01satelliteis\nanalyzed. ThevisibilityoftheGPSandBDS-3PPP-B2bsignalsisplottedandanalyzed.\nThePPP-B2bimprovementintheRTPODoftheTJU-01satelliteisverified.\n5.1. AvailabilityAnalysisofOnboardGNSSData\nHigh-qualityGNSSonboardobservationsarerequiredfortheaccurateRTPODof\nLEOsat",
+    "char_length": 2878
+  },
+  {
+    "quote_id": "qb_2ca6be09a1",
+    "span_index": 16,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 17 of 26\nTable 7. The SISRE (ORB) and SISRE of the broadcast ephemeris and PPP-B2b.\nType\nSISRE (ORB)/m SISRE/m\nEphemeris\nGPS broadcast\n1.29 0.54\nEphemeris\nGPS PPP-B2b 0.81 0.22\nBDS-3 broadcast ephemeris 1.77 0.14\nBDS-3 PPP-B2b 1.24 0.12\n5. RT POD Processing and Analysis\nFirstly, the availability of the onboard GNSS observations of the TJU-01 satellite is\nanalyzed. The visibility of the GPS and BDS-3 PPP-B2b signals is plotted and analyzed.\nThe PPP-B2b improvement in the RT POD of the TJU-01 satellite is verified.\n5.1. Availability Analysis of Onboard GN",
+    "char_length": 2749
+  },
+  {
+    "quote_id": "qb_027d0a88f0",
+    "span_index": 17,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 18 of 26\nFigure 10. Data availability rate of the GPS (top) and BDS (bottom) observations onboard the TJU-\n01 satellite.\n5.2. Availability of PPP-B2b in the RT POD of the TJU-01 Satellite\nThis study assumes that the TJU-01 satellite can receive PPP-B2b signals. The sam-\npling interval for the TJU-01 satellite observations used in the visibility analysis is 30 s.\nThe TJU-01 satellite observation onboard GNSS receiver can track 8 GPS satellites and 12\nBDS satellites, including BDS-2 and BDS-3. Owing to the restricted distribution of moni-\ntoring stations,",
+    "char_length": 2943
+  },
+  {
+    "quote_id": "qb_0f1ee60e78",
+    "span_index": 18,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 19 of 26\nFigure 12 shows the percentages of the GPS and BDS-3 satellites receiving corrections\nrelative to the number of satellites observed by the TJU-01 satellite at each epoch on a\nsingle day. It is seen that compared with the signals observed by ground stations, the PPP-\nB2b signals observed by BDS-3 and the GPS have a wider geographical range. The geo-\ngraphical range in which PPP-B2b is received by the GPS and BDS-3 navigation systems\nis much larger than the geographical range of ground stations, mainly because the TJU-01\nsatellite is much higher ",
+    "char_length": 3577
+  },
+  {
+    "quote_id": "qb_7ae803c97c",
+    "span_index": 19,
+    "text": "RemoteSens.2024,16,833 20of25\ntheBDS-3observationdata,resultinginfeweravailableGPSPPP-B2bcorrectionsanda\nsmallergeographicalrangeofreceptionfortheGPSPPP-B2b. Thesedifferencesmayresult\nRemote Sens. 2024, 16, x FOR PEER REVIEW 21 of 26\ninthedifferentaccuracyoftheRTPODoftheTJU-01satellite.\n5.3. ResultsandAnalysisoftheRTPODoftheTJU-01Satellite\nInthisstudy,theRTPODoftheTJU-01satelliteisperformedinasimulatedmode\nwith a precise orbit and clock offset from GFZ are used for reference to assess our RT POD\nbasedonrealonboardobservationsconsideringPPP-B2bsignals. Thepost-PODsolutions\nperformance. The post",
+    "char_length": 3198
+  },
+  {
+    "quote_id": "qb_a977cc27b6",
+    "span_index": 20,
+    "text": "RemoteSens.2024,16,833 21of25\nPODoftheTJU-01satellite,the9-dayresultsarecomparedandaveragedinFigure14and\nTable10. Figure14showsthattheTJU-01satelliteRTPODerrorsdecreasethemostinthe\nRemote Sens. 2024, 16, x FOR PEER REVIEW 22 of 26\nalongdirectionamongthethreedirections,asPPP-B2bhasthegreatestcorrectioninthe\nalongdirectionforthenavigationsatelliteorbiterrors.\nFigure 14. Comparison of the RMS of the orbit errors in radial, along, and cross directions for the\nFigure14.ComparisonoftheRMSoftheorbiterrorsinradial,along,andcrossdirectionsfortheRT\nRT PPOODD ooff tthheeT TJUJ-U01-0s1at eslalitteel.lite.",
+    "char_length": 2498
+  },
+  {
+    "quote_id": "qb_7443d33aaf",
+    "span_index": 21,
+    "text": "RemoteSens.2024,16,833 22of25\nasfollows.(1)Owingtotheinter-satellitelinks,theBDS-3broadcastorbitaccuracyishigher\nRemote Sens. 2024, 16, x FOR PEER REVIEW 23 of 26\nthantheGPSbroadcastorbitaccuracy. (2)MoreBDS-3satellitesthanGPSsatellitesreceive\nPPP-B2b. (3)TheintegrityofGPSobservationsisworsethanthatofBDS-3observations.\nFurthermore,themostaccurateschemeisusingGPSandBDS-3PPP-B2bfortheRTPODof\ntheTTJUh-e0 1cosrarteellalittieo,na sbtehtwereeeanr eRmNo rgeiovnenbo bayrd Eoqbusaetrivoant i(o2n3)G aNndSS δda gtaivaennd bmyo Erequnaatviiogna t(i2o4n)\nr\ns\nis\na t\nn\ne\ne\nll\nx\nit\nt\ne\na\ns\nn\nr\na\ne\nl\nc\ny\ne\nz\ni",
+    "char_length": 3655
+  },
+  {
+    "quote_id": "qb_70fdd8640b",
+    "span_index": 22,
+    "text": "RemoteSens.2024,16,833 23of25\nFigure15showsthat RN andδarepositivelycorrelated. AstheproportionofPPP-\nr\nB2b corrections received increases, the improvement in the accuracy of the RT POD of\ntheTJU-01satelliteusingPPP-B2bincreases. However,thecorrelationbetweentheGPS\nPPP-B2breceptionratioandaccuracyimprovementratioisslightlydifferentfromthatfor\ntheBDS-3. ThisismainlyduetothedifferentmissingobservationepochsbetweentheGPS\nandBDS-3intheTJU-01satelliteobservationsandtheinterpolationof RN and δ inthe\nr\ndifferentmissing,thuscausingcorrelationdifferences. Inaddition,forthesamereception\nratio,differentn",
+    "char_length": 3674
+  },
+  {
+    "quote_id": "qb_892eaa6f30",
+    "span_index": 23,
+    "text": "RemoteSens.2024,16,833 24of25\n10. AstheproportionofPPP-B2bcorrectionreceptionincreases,theaccuracyimprove-\nmentofPPP-B2bintheRTPODoftheTJU-01satelliteincreases.\nAuthorContributions:Conceptualization,M.L.andT.X.;methodology,Y.S.;software,Y.S.andK.W.;\nvalidation,Y.S.andS.W.;formalanalysis,Y.S.;investigation,M.L.andT.X.;resources,M.L.andT.X.;\ndatacuration,Y.S.;writing—originaldraftpreparation,Y.S.;writing—reviewandediting,M.L.and\nT.X.;visualization,S.W.andD.W.;supervision,M.L.andT.X.;projectadministration,M.L.andT.X.;\nfundingacquisition,M.L.andT.X.Allauthorshavereadandagreedtothepublishedversiono",
+    "char_length": 4128
+  },
+  {
+    "quote_id": "qb_d07289de01",
+    "span_index": 24,
+    "text": "RemoteSens.2024,16,833 25of25\n15. Chen,J.;Zhang,Y.;Yu,C.;Wang,A.;Song,Z.;Zhou,J.Modelsandperformanceofsbasandpppofbds.Satell.Navig.2022,3,4.\n[CrossRef]\n16. Wermuth,M.;Hauschild,A.;Montenbruck,O.;Kahle,R.Terrasar-xpreciseorbitdeterminationwithreal-timegpsephemerides.\nAdv.SpaceRes.2012,50,549–559.[CrossRef]\n17. Xiao,G.;Liu,G.;Ou,J.;Zhou,C.;He,Z.;Chen,R.;Guo,A.;Yang,Z.Real-timecarrierobservationqualitycontrolalgorithmfor\nprecisionorbitdeterminationofleosatellites.GPSSolut.2022,26,102.[CrossRef]\n18. Li,D.;Zhou,X.;Li,K.Centimeter-levelorbitdeterminationofgrace-cusingigs-rtsdata.RemoteSens.2023,15,1",
+    "char_length": 2836
+  }
+]

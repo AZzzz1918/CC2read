@@ -1,0 +1,2486 @@
+[
+  {
+    "quote_id": "qb_31af0c59de",
+    "span_index": 0,
+    "text": "Journal of Geodesy (2022) 96:60\nhttps://doi.org/10.1007/s00190-022-01642-9\nORIGINAL ARTICLE\nOrbit determination, clock estimation and performance evaluation\nof BDS-3 PPP-B2b service\nChengpan Tang1 · Xiaogong Hu1,3 · Jinping Chen2 · Li Liu2 · Shanshi Zhou1 · Rui Guo2 · Xiaojie Li1,2 · Feng He5 ·\nJinhuo Liu1,4 · Jianhua Yang1,4\nReceived: 29 November 2020 / Accepted: 14 July 2022 / Published online: 29 August 2022\n© Springer-Verlag GmbH Germany, part of Springer Nature 2022\nAbstract\nThis paper focuses on PPP-B2b, one of the featured services for BDS-3, which provides users around China with centimetre-\nlevel static positioning accuracy and decimetre-level kinematic positioning accuracy by broadcasting precise corrections for\nGPS/BDS-3 satellites.",
+    "char_length": 753
+  },
+  {
+    "quote_id": "qb_762bb99ed1",
+    "span_index": 1,
+    "text": "The GEO PPP-B2b signal broadcasted information types, including the PRN mask, orbit corrections,\ndifferential code bias corrections and clock corrections, are introduced, as well as a brief description of their usage.",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_b66df18aef",
+    "span_index": 2,
+    "text": "A new orbit\ndetermination strategy using regional L-band code/phase measurements and inter-satellite link measurements in combination\nand a real-time clock estimation strategy based on the Kalman ﬁlter for PPP-B2b precise correction generation are introduced\nin this contribution.",
+    "char_length": 280
+  },
+  {
+    "quote_id": "qb_4c80f9785f",
+    "span_index": 3,
+    "text": "Then, the accuracy of the orbit and clock corrections is assessed.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_c959b3fd90",
+    "span_index": 4,
+    "text": "The orbit user ranging error (URE)\nis 0.05 m for the BDS-3 MEO and GPS satellites.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_3fa3f0cbee",
+    "span_index": 5,
+    "text": "The orbit URE for BDS-3 IGSO satellites is worse, i.e., 0.15 m.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_b0e3d97cac",
+    "span_index": 6,
+    "text": "The\nclock correction accuracy is 0.2 ns for BDS-3 and GPS satellites.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_b8dbfe9a92",
+    "span_index": 7,
+    "text": "Finally, the PPP-B2b performance is validated by both\nthe static PPP process and simulated kinematic PPP process.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_e31960a548",
+    "span_index": 8,
+    "text": "BDS-3/GPS dual-system PPP offers faster convergence and\nbetter accuracy.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_d0ae994304",
+    "span_index": 9,
+    "text": "The positioning accuracy achievable using PPP-B2b real-time products is at the same level as that using\npost-processed products.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_46e6c5d8ce",
+    "span_index": 10,
+    "text": "The RMS for BDS-3/GPS dual-system static positioning errors is less than 1.0 cm in east and north\nand about 3.0 cm in the up.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_f3ac1b5b76",
+    "span_index": 11,
+    "text": "The simulated kinematic positioning accuracy is better than 2.5 cm in the north, 3.5 cm in the\neast and 8.5 cm in the up directions after convergence.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_72fbefbc48",
+    "span_index": 12,
+    "text": "Highlights\n– A new determination strategy using regional L-band code/phase measurements and inter-satellite link measurements in\ncombination and a real-time clock estimation strategy based on the Kalman ﬁlter for PPP-B2b precise correction generation\nare introduced.",
+    "char_length": 266
+  },
+  {
+    "quote_id": "qb_51593583fe",
+    "span_index": 13,
+    "text": "– User ranging error (URE) is 0.05 m for the BDS-3 MEO and GPS satellites.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_a8278adc8f",
+    "span_index": 14,
+    "text": "– The clock correction accuracy is 0.2 ns for BDS-3 and GPS satellites.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_38b0ba5c35",
+    "span_index": 15,
+    "text": "– The positioning accuracy achievable using PPP-B2b real-time products is at the same level as that using post-processed\nproducts.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_21759281ff",
+    "span_index": 16,
+    "text": "Keywords BeiDou navigation satellite system · Satellite orbits · Real-time clock estimation · Precise point positioning ·\nGlobal positioning system\nB Xiaogong Hu\nhxg@shao.ac.cn\n1\nShanghai Astronomical Observatory, Chinese Academy of\nSciences, Shanghai 200030, China\n2\nBeijing Satellite Navigation Center, Beijing 100094, China\n3\nShanghai Key Laboratory for Space Positioning and\nNavigation, Shanghai 200030, China\n4\nUniversity of Chinese Academy of Sciences, Beijing 100049,\nChina\n5\nNational Defense University, No.",
+    "char_length": 515
+  },
+  {
+    "quote_id": "qb_6d5c98a22f",
+    "span_index": 17,
+    "text": "3 Hongsankoujia Road,\nBeijing 100091, China\n123",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_710c13291a",
+    "span_index": 18,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_6b73af1763",
+    "span_index": 19,
+    "text": "60\nPage 2 of 17\nC.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_fbd089f1aa",
+    "span_index": 20,
+    "text": "1 Introduction\nThe BeiDou Navigation Satellite System (BDS), indepen-\ndently developed and operated by China, is regarded as\na temporal-spatial infrastructure of national signiﬁcance,\nproviding all-time, all-weather and high-accuracy position-\ning, navigation and timing services to global users (CSNO\n2019a).",
+    "char_length": 309
+  },
+  {
+    "quote_id": "qb_351df13c99",
+    "span_index": 21,
+    "text": "The BDS is listed as one of the four satellite navi-\ngation providers, along with the GPS of the US, GLONASS\nof Russia, and Galileo of Europe.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_1c1a2a2164",
+    "span_index": 22,
+    "text": "The development of the\nBDS has followed a three-step strategy.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_c0ed091431",
+    "span_index": 23,
+    "text": "The establishment\nof BDS-1, also named the experimental BeiDou navigation\nsystem, was ﬁnished in 2003, marking the end of the ﬁrst\nstep of BDS construction.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_f23142129e",
+    "span_index": 24,
+    "text": "Different from mainstream sys-\ntems such as GPS and GLONASS, BDS-1 consists of only\nGEO satellites and provides a bidirectional interactive radio\ndetermination satellite service (RDSS).",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_9d60b3a649",
+    "span_index": 25,
+    "text": "The second step of\nBDS construction, BDS-2, was ﬁnished by the end of 2012.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_020c8850cc",
+    "span_index": 26,
+    "text": "BDS-2 consists of GEO, IGSO and MEO satellites and pro-\nvides positioning, navigation and timing (PNT) services to\nusers around the Asia–Paciﬁc area (Zhou et al.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_1d90c9d4ac",
+    "span_index": 27,
+    "text": "2012 and\nZhou et al.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_dcc3f1ed18",
+    "span_index": 28,
+    "text": "The third step is to construct BDS-3, expanding the cover-\nage from the Asia–Paciﬁc region to the globe (CSNO 2019a).",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_7dd83906a6",
+    "span_index": 29,
+    "text": "The development of BDS-3 started in 2009.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_3edf2a1760",
+    "span_index": 30,
+    "text": "On November\n5, 2017, the ﬁrst two BDS-3 satellites were deployed, mark-\ning the ﬁrst step of BDS-3 construction.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_f3fda08b64",
+    "span_index": 31,
+    "text": "By December 27,\n2018, 18 MEO satellites and 1 GEO satellite had been put\ninto the sky.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_d91e75f3d7",
+    "span_index": 32,
+    "text": "The completion of the BDS-3 basic system and\nthe opening up of global PNT services were announced by\nthe China Satellite Navigation Ofﬁce on that day.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_47ed073997",
+    "span_index": 33,
+    "text": "On June 23, 2020, the last BDS-3 GEO satellite was suc-\ncessfully launched, indicating that the deployment of the\nBDS-3 constellation was ﬁnished.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_c60b92ceec",
+    "span_index": 34,
+    "text": "The BDS-3 constellation\nincludes 24 MEO satellites, 3 IGSO satellites and 3 GEO\nsatellites.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_ff3c75fb67",
+    "span_index": 35,
+    "text": "On July 31, 2020, the Chinese government ofﬁ-\ncially announced the commissioning of BDS-3.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_1645152c1d",
+    "span_index": 36,
+    "text": "Compared\nto BDS-2, the broadcast orbit and clock accuracy of BDS-3\nsatelliteswereconsiderablyimproved(Tangetal.2016;Chen\net al.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_699a32ed27",
+    "span_index": 37,
+    "text": "As reported by Chen et al.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_a69d430a5f",
+    "span_index": 38,
+    "text": "(2020), the signal-in-\nspace accuracy of BDS-3 is better than 0.5 m, the positioning\naccuracy is better than 10 m, and the timing accuracy is\nbetter than 20 ns.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_b72ab69f7d",
+    "span_index": 39,
+    "text": "BDS-3 provides three kinds of services\nto users world-wide and four kinds of services to users\naround China.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_f64a3df7d3",
+    "span_index": 40,
+    "text": "The world-wide services include global PNT\nservices, global short message communication (GSMC) ser-\nvice and international search and rescue (SAR) service.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_2cdd84e093",
+    "span_index": 41,
+    "text": "The\nregional services include satellite-based augmentation sys-\ntem (SBAS), ground-based augmentation system (GBAS),\nprecise point positioning (PPP) and regional short message\ncommunication (RSMC) services (CSNO 2019a).",
+    "char_length": 219
+  },
+  {
+    "quote_id": "qb_eca1d8b553",
+    "span_index": 42,
+    "text": "PPP enables a single receiver to achieve centimetre-level\nto decimetre-level positioning accuracy in either static mode\nor kinematic mode and is regarded as a popular and widely\nused technology in high-precision positioning applications\nof GNSS.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_5848b2b22c",
+    "span_index": 43,
+    "text": "Due to its high accuracy, PPP is widely used in\ncrustal deformation monitoring, near real-time GPS meteo-\nrology, orbit determination of low Earth orbiting satellites\nfor gravity recovery missions and the precise positioning of\nmobile objects (Calais et al.",
+    "char_length": 257
+  },
+  {
+    "quote_id": "qb_d79cab8cb4",
+    "span_index": 44,
+    "text": "2006; Rocken et al.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_6f66e8258f",
+    "span_index": 45,
+    "text": "2005; Zhu\net al.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_19f1f95242",
+    "span_index": 46,
+    "text": "2004 and Zhang and Andersen 2006).",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_4384efa229",
+    "span_index": 47,
+    "text": "Precise orbit and\nclock products with centimetre-level accuracy are the pre-\nrequisites of PPP services (Zumberge et al.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_5f245d3f81",
+    "span_index": 48,
+    "text": "1997 and Kouba\nand Héroux 2001).",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_fc97ead879",
+    "span_index": 49,
+    "text": "PPP is one of the featured services of BDS-3 for support-\ning high-precision positioning applications (Liu et al.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_1b2420dbd3",
+    "span_index": 50,
+    "text": "The PPP-B2b signal, transmitted by BDS-3 GEO satellites,\nbroadcasts precise orbit corrections, clock corrections and\nDifferential Code Biases (DCB) of BDS-3 IGSO/MEO satel-\nlites and GPS satellites to dual-frequency users around China\nand its surrounding areas (CSNO 2019b).",
+    "char_length": 274
+  },
+  {
+    "quote_id": "qb_5d8e601ee6",
+    "span_index": 51,
+    "text": "Currently, the\nsupported GNSS constellations include BDS-3 IGSO/MEO\nsatellites and GPS satellites.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_952a0a7c83",
+    "span_index": 52,
+    "text": "The precise corrections enable\nGPS/BDS dual-frequency PPP.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_5ea60dc091",
+    "span_index": 53,
+    "text": "In this contribution, the gen-\neration strategy of precise corrections for PPP-B2b service\nis brieﬂy introduced as well as accuracy evaluation.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_645fb6864e",
+    "span_index": 54,
+    "text": "The paper is organized as follows.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_c9b533978d",
+    "span_index": 55,
+    "text": "The PPP-B2b broad-\ncast messages and information types are brieﬂy introduced in\nSect.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_c11c138b6f",
+    "span_index": 56,
+    "text": "The orbit determination and clock estimation strategy\nwith accuracy assessment are given in Sect.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_e101122e71",
+    "span_index": 57,
+    "text": "The position-\ning accuracy for a PPP-B2b broadcast message is evaluated\nin Sect.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_59156d687a",
+    "span_index": 58,
+    "text": "Finally, the conclusions and discussion are given\nin Sect.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_51e22fe34e",
+    "span_index": 59,
+    "text": "2 PPP-B2b broadcast message\nand information type\nThe Interface Control Document (ICD) of PPP-B2b was\nreleased by the China Satellite Navigation Ofﬁce at the end\nof 2019.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_d95dd9ebcf",
+    "span_index": 60,
+    "text": "According to the ICD, the PPP-B2b signal broad-\ncasts the I-component and the Q-component.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_272a54f61a",
+    "span_index": 61,
+    "text": "Currently, the\nﬁrst three GEO satellites of BDS-3 broadcast only the I-\ncomponent.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_0e15f6933f",
+    "span_index": 62,
+    "text": "The broadcast PPP-B2b messages are contained\nin the I-component.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_1baee0208d",
+    "span_index": 63,
+    "text": "The Q-component will be discussed in\nthe future (CSNO 2019b).",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_7126b20b4a",
+    "span_index": 64,
+    "text": "The PPP-B2b ICD deﬁnes seven\ninformation types transmitted in the PPP-B2b I-component.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_5783e79dad",
+    "span_index": 65,
+    "text": "Currently, the PPP-B2b signal broadcasts four of the seven\ninformation types.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_f4d9b6db64",
+    "span_index": 66,
+    "text": "Same as the four information types, the\nother three information types are also used to broadcast the\norbit corrections, clock corrections and integrity informa-\ntion with less communication bandwidth.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_7680bae596",
+    "span_index": 67,
+    "text": "By using the four\ninformation types, the GPS or BDS-3 users are able to get a\nPPP solution.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_866959f417",
+    "span_index": 68,
+    "text": "The current regularly broadcasted information\ntypes are given in Table 1.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_83b869550f",
+    "span_index": 69,
+    "text": "Orbit determination, clock estimation and performance …\nPage 3 of 17\n60\nTable 1 Regularly broadcasted PPP-B2b information types\nType No.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_c576d7daa4",
+    "span_index": 70,
+    "text": "Type name\nUpdate interval (s)\nNominal\nvalidity (s)\nType 1\nPRN mask\n48\n–\nType 2\nOrbit correction\nand user\nrange\naccuracy\nindex\n48\n96\nType 3\nDifferential\ncode bias\n48\n86,400\nType 4\nClock\ncorrection\n6\n12\nThe PPP-B2b broadcasted information types include\nseveral slow variables and a fast variable.",
+    "char_length": 294
+  },
+  {
+    "quote_id": "qb_9a007a25f6",
+    "span_index": 71,
+    "text": "The slow vari-\nables include the satellite mask, orbit correction and user\nrange accuracy index, and differential code bias, which are\nbroadcasted every 48 s.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_350e535b21",
+    "span_index": 72,
+    "text": "The fast variable is clock correction,\nwhich is broadcasted every 6 s.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_9b7cc1e2d9",
+    "span_index": 73,
+    "text": "Note that \" Nominal validity\"\nin Table 1 gives the time interval of validity of the message.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_44613dc826",
+    "span_index": 74,
+    "text": "For message outside this interval the data quality cannot be\nensured.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_b2b2bfe666",
+    "span_index": 75,
+    "text": "With the information types mentioned in Table 1 and\nthe navigation messages broadcasted by BDS-3 IGSO/MEO\nsatellites and GPS satellites, precise orbits and clock offsets\ncan be recovered.",
+    "char_length": 187
+  },
+  {
+    "quote_id": "qb_aa52d23490",
+    "span_index": 76,
+    "text": "1) PRN mask\nThe PRN mask is to deﬁne which satellites are used for\nPPP services so that each message type can share a com-\nmon set of satellites deﬁned in advance, thereby saving\nthe message bits.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_15a0a4dfdc",
+    "span_index": 77,
+    "text": "The PRN mask deﬁnes whether the pre-\ncise corrections of a speciﬁc satellite are broadcasted.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_fff98fa750",
+    "span_index": 78,
+    "text": "If the precise corrections of a speciﬁc satellite will be\nbroadcasted, the corresponding bit in the mask will be\nassigned “1”.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_2cafff7aac",
+    "span_index": 79,
+    "text": "Satellite orbit correction, clock correction\nand differential code bias are used matching the PRN\nmask.PRNmaskistheindextablewhichisusedtoassign\ncorrections to the satellites.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_cfffe538f1",
+    "span_index": 80,
+    "text": "Satellite masks are usually\nkept ﬁxed; otherwise, a new satellite joins the PPP ser-\nvice or a retired satellite is taken away.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_c397bc76c4",
+    "span_index": 81,
+    "text": "The IODP (Issue\nOf Data, PRN mask) deﬁnes the versions of the satellite\nmask.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_541753d91d",
+    "span_index": 82,
+    "text": "IODP is usually kept ﬁxed unless the bits in PRN\nmask are changed.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_2f1a5aa95d",
+    "span_index": 83,
+    "text": "IODP also exists in the orbit correc-\ntions (Type 2) and differential code biases (Type 3).",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_5717b4e598",
+    "span_index": 84,
+    "text": "PRN\nmask, orbit corrections and differential code biases with\ndifferent IODP values should not be used together.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_2d98ce3d2e",
+    "span_index": 85,
+    "text": "2) Orbit correction parameters and user range accuracy\nindex\nOrbit corrections are expressed in terms of radial, along-\ntrack and cross-track corrections through Type 2 (Orbit\nCorrection Parameters and User Range Accuracy Index).",
+    "char_length": 229
+  },
+  {
+    "quote_id": "qb_0c1636d4a0",
+    "span_index": 86,
+    "text": "Note that the orbit corrections of BDS satellites refer to\nthe CNAV-1 message broadcasted by B1C (CSNO 2017)\nand that the orbit corrections of GPS satellites refer to the\nL-NAV of GPS L1 and L2 (GPS Directorate 2019).",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_2ebd2f6000",
+    "span_index": 87,
+    "text": "Using\nthe orbit corrections and the broadcasted navigation mes-\nsage, users can obtain the satellite orbits relative to the\nsatellite phase centre.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_15ae72f7e5",
+    "span_index": 88,
+    "text": "Therefore, no satellite phase centre\noffsets corrections should be applied by the users.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_ad890f6900",
+    "span_index": 89,
+    "text": "The\nterm IODN (Issue Of Data, Navigation) is used to match\nType 2 and the broadcasted navigation message.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_f621865ae6",
+    "span_index": 90,
+    "text": "IODN\nof Type 2 is expected to be equal to IODC (Issue Of Data,\nClock) in a CNAV-1 message or in an L-NAV message.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_8936a8db94",
+    "span_index": 91,
+    "text": "The orbit correction parameters and user range accuracy\nindex are used only if IODPs in the type and those in the\nPRN mask are equal.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_b0a69dd08b",
+    "span_index": 92,
+    "text": "3) Differential Code Bias\nThe differential code bias deﬁnes the transmitting delay\ndifference of the signal components involved with\nrespect to the satellite clock parameters.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_a7442efbbc",
+    "span_index": 93,
+    "text": "Currently,\nthe B1C, B2a, B2b, B1I and B3I differential code\nbias parameters are broadcasted.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_65b49b2454",
+    "span_index": 94,
+    "text": "The differential code\nbias corrections enable multiple ionosphere-free linear\ncombinations to be available to users.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_85b3fa3c9c",
+    "span_index": 95,
+    "text": "The differential\ncode bias should be used in matching the PRN mask by\nthe IODP.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_febac4050f",
+    "span_index": 96,
+    "text": "4) Clock correction parameters\nClock correction parameters also refer to CNAV-1 mes-\nsages broadcasted by B1C and L-NAV of GPS L1 and L2.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_2b068a2285",
+    "span_index": 97,
+    "text": "The clock correction parameters should be used matching the\norbit corrections with the same IOD Cor.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_39a7a20260",
+    "span_index": 98,
+    "text": "A clock correction\nis invalid if it equals -26.2128 m.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_556b01f584",
+    "span_index": 99,
+    "text": "If a clock correction equals\n-26.2128 m, users should not use this satellite for PPP.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_88f580ae90",
+    "span_index": 100,
+    "text": "Estimation of clock corrections is aligned with BDT.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_126627ca1b",
+    "span_index": 101,
+    "text": "However, the PPP-B2b ICD deﬁnes that the absolute value\nof clock corrections should be no larger than 26.2128 m,\nwhich is not large enough to contain the difference between\nGPST and BDT.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_c793cb9939",
+    "span_index": 102,
+    "text": "Furthermore, no accurate GPST/BDT dif-\nference parameters are broadcasted by PPP-B2b.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_b8da137aae",
+    "span_index": 103,
+    "text": "Therefore,\nfor BDS/GPS dual-system users, two different receiver clock\noffsets should be set and estimated epoch by epoch.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_cc8c121c56",
+    "span_index": 104,
+    "text": "If the\ndual-system users estimate one receiver clock offset epoch\nby epoch and one constant inter-system bias parameter, the\npositioning accuracy may get worse.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_d61889412b",
+    "span_index": 105,
+    "text": "3 Orbit and clock correction generation\nand accuracy assessment\nThis section concentrates on the orbit and clock correction\naccuracy of PPP-B2b broadcast message.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_fe3cbdc609",
+    "span_index": 106,
+    "text": "A brief description\nof the satellite orbit and clock correction generation process\n123",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_5843c96e98",
+    "span_index": 107,
+    "text": "60\nPage 4 of 17\nC.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_a927b81e57",
+    "span_index": 108,
+    "text": "1 Main ﬂow chart of satellite orbit and clock correction generation\nis presented, followed by the accuracy assessment of the orbit\nand clock corrections of GPS and BDS-3 satellites.",
+    "char_length": 181
+  },
+  {
+    "quote_id": "qb_0307418dd4",
+    "span_index": 109,
+    "text": "3.1 Satellite orbit and clock correction generation\nPrecise satellite orbit and clock correction generation for\nPPP-B2b is conducted using the orbit and clock deter-\nmination software developed by Shanghai Astronomical\nObservatory, Chinese Academy of Science and Beijing Satel-\nlite Navigation Centre.",
+    "char_length": 301
+  },
+  {
+    "quote_id": "qb_0f61fb6f6e",
+    "span_index": 110,
+    "text": "The software is operated at the control\nsegment.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_f6369a0387",
+    "span_index": 111,
+    "text": "Satellite orbit and clock correction determination\nis divided into four different processes, as shown in Fig.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_8f6d071902",
+    "span_index": 112,
+    "text": "Thesatelliteorbitdeterminationprocessisconductedperi-\nodically in batch mode and estimates precise BDS and GPS\norbit solutions using code/phase measurements from ground\nmonitoring receivers and inter-satellite link measurements in\ncombination.",
+    "char_length": 243
+  },
+  {
+    "quote_id": "qb_731baaaaed",
+    "span_index": 113,
+    "text": "Orbit corrections are generated by differencing\nprecise orbit solutions with broadcast orbits in the orbit cor-\nrection generation process.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_db3b2b888e",
+    "span_index": 114,
+    "text": "In consideration of the irregular behaviour and random\nvariations of the on-board atomic clock, the real-time clock\nestimation process takes code and phase measurements as\ninput and estimates satellite clock offsets using code and\nphase measurements in real-time with a Kalman ﬁlter.",
+    "char_length": 283
+  },
+  {
+    "quote_id": "qb_0916d2fec0",
+    "span_index": 115,
+    "text": "To\nreduce the computation burden and time loss, the satellite\norbits are no longer estimated but ﬁxed to solutions gen-\nerated by the satellite orbit determination process.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_da58b35d00",
+    "span_index": 116,
+    "text": "Finally,\nclock corrections are generated by differencing precise clock\noffset solutions with broadcast clock parameters in the clock\ncorrection generation process.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_2a552ac2e4",
+    "span_index": 117,
+    "text": "3.1.1 Satellite orbit determination strategy\nThe satellite orbit determination process follows the sta-\ntistical orbit determination form using the least-squares\nestimation (Weiss et al.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_41340ce166",
+    "span_index": 118,
+    "text": "Precise orbits are usually\ngenerated by the orbit determination process using code\nand phase measurements from monitoring stations within\na global tracking network.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_feb001ef91",
+    "span_index": 119,
+    "text": "A new orbit determination\nstrategy of BDS-3 satellites is implemented for the PPP\nservice, in which the BDS-3 orbits are estimated using\ninter-satellite link (ISL) measurements and observations\nfrom 7 stations in mainland China in combination instead\nof the globally-distributed monitoring stations.",
+    "char_length": 299
+  },
+  {
+    "quote_id": "qb_aa6f92da5f",
+    "span_index": 120,
+    "text": "By doing\nso, maintenance cost of the globally-distributed stations is\nsaved.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_de498fdf5d",
+    "span_index": 121,
+    "text": "As indicated from Yang et al.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_092a95e2a1",
+    "span_index": 122,
+    "text": "(2019a), inter-satellite\nlink measurements of BDS-3 follow a time division multiple\naccess (TDMA) structure.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_04c5374b66",
+    "span_index": 123,
+    "text": "According to Tang et al.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_37eb86a9d0",
+    "span_index": 124,
+    "text": "(2018),\na pair of satellite A and B in view receives pseudorange\nmeasurements from each other at different times.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_163c3eb64a",
+    "span_index": 125,
+    "text": "The\nobservation equations are,\nρAB(t1) \u0002\n\u0002\u0002\u0002 ⃗RB(t1) −⃗RA(t1 −\u0003t1)\n\u0002\u0002\u0002 + c ∗clkB(t1)\n−c ∗clkA(t1) + c ∗τ Send\nA\n+ c ∗τ Rcv\nB\n+ \u0003ρ AB\ncor\nρB A(t2) \u0002\n\u0002\u0002\u0002 ⃗RA(t2) −⃗RB(t2 −\u0003t2)\n\u0002\u0002\u0002\n+ c ∗clkA(t2) −c ∗clkB(t2) + c ∗τ Send\nB\n+ c ∗τ Rcv\nA\n+ \u0003ρ B A\ncor\n(1)\nwhere ⃗RA and ⃗RB arethevectorsrepresentingCartesiancoor-\ndinates of satellite A and satellite B, clkA and clkB are the\nclock offsets,\u0003t1 and \u0003t2 are the signal travel times.τ Send\nA\nand τ Rcv\nA\nare the sending hardware delay and receiving hard-\nware delay for satellite A respectively, τ Send\nB\nand τ Rcv\nB\nare\nthe sending hardware delay and receiving hardware delay\nfor satellite B respectively.",
+    "char_length": 646
+  },
+  {
+    "quote_id": "qb_0709cda370",
+    "span_index": 126,
+    "text": "\u0003ρ AB\ncor and \u0003ρ B A\ncor are the easily-\nmodelled errors, such as phase centre offset corrections,\ngravitational time delay and relativistic effect due to orbital\neccentricity.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_b49faf8af2",
+    "span_index": 127,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_f5297cb96b",
+    "span_index": 128,
+    "text": "Orbit determination, clock estimation and performance …\nPage 5 of 17\n60\nUsing predicted satellite orbit and clock parameters, the\ngeometrical distances can be derived with accuracy loss of\nless than 1 cm:\n(2)\nρAB(t0) + ρB A(t0)\n2\n\u0002\n\u0002\u0002\u0002 ⃗RB(t0) −⃗RA(t0)\n\u0002\u0002\u0002 + c ∗X A\nDelay\n+ c ∗X B\nDelay + \u0003ρ AB\ncor + \u0003ρ B A\ncor\n2\nwhere, X A\nDelay \u0002 τ Send\nA\n+τ Rcv\nA\n2\n, X B\nDelay \u0002 τ Send\nB\n+τ Rcv\nB\n2\n, t0 is the\ntarget time which is usually chosen as t1 or t2.",
+    "char_length": 447
+  },
+  {
+    "quote_id": "qb_1546eed3a9",
+    "span_index": 129,
+    "text": "The derived geometrical distances between the two satel-\nlites are regarded as inputs in the orbit determination together\nwith observations from the regional network.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_d14e461f98",
+    "span_index": 130,
+    "text": "The ISL mea-\nsurements have advantages for orbit determination because\nof the geometrical distances that are free of clock offsets\nand wider coverage.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_621df2e2f3",
+    "span_index": 131,
+    "text": "Furthermore, while the ground stations\ntrack the satellites nearly parallel with the radial direction,\nthe ISL measurements are more sensitive to along-track and\ncross-track directions.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_7339e62e21",
+    "span_index": 132,
+    "text": "By geometrical distances and regional\nobservations in combination, the orbit solutions are accurate\nand comparable to those from 30 globally-distributed moni-\ntoring receivers (Yang et al.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_578422937c",
+    "span_index": 133,
+    "text": "However, the precise orbit determination strategy of GPS\nsatellites is different from that of BDS-3 satellites.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_4bb9b822be",
+    "span_index": 134,
+    "text": "GPS orbit\ndetermination and BDS-3 orbit determination are conducted\nseparately in two processe.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_18bbe64d27",
+    "span_index": 135,
+    "text": "For GPS satellites, un-differenced\nL1/L2 ionosphere-free code and phase combinations from 30\nglobally-distributed stations are used in orbit determination.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_5f4db7237d",
+    "span_index": 136,
+    "text": "The satellite orbit determination process is conducted\nevery 1 h with a 3-day arc with sampling interval of 60 s.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_ae8839f946",
+    "span_index": 137,
+    "text": "Then\none-hour predicted orbit is generated using the estimated\ndynamical variables.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_7b756ff301",
+    "span_index": 138,
+    "text": "The orbit corrections are generated\nusing the predicted orbit.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_ecc6dd1719",
+    "span_index": 139,
+    "text": "The detailed orbit determination strategy is summarized\nin Table 2.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_a6c6b5d882",
+    "span_index": 140,
+    "text": "In the orbit determination process, ﬂoat ambi-\nguities are used.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_4d416b706b",
+    "span_index": 141,
+    "text": "The ECOM solar radiation model is used\nwithout prior model and ﬁve acceleration parameters are\nestimated including constant accelerations in D, B and Y\ndirections, cosine and sine accelerations in the B direction\nduring a 3-day arc (Springer et al.",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_d2ede4eb92",
+    "span_index": 142,
+    "text": "During eclipses,\nthe eclipsing factor is modelled in the solar radiation model\nand the attitude angles are modelled following Kouba (2009)\nand Montenbruck et al.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_4fb8389282",
+    "span_index": 143,
+    "text": "(2015) for GPS satellites and laws\nprovided by the manufacturers for BDS-3 satellites (CSNO\n2019c).",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_b2afd4fd60",
+    "span_index": 144,
+    "text": "(2), the unknown hardware delays are present\nin the geometrical distances derived from ISL dual one-way\nmeasurements.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_593c517b76",
+    "span_index": 145,
+    "text": "Therefore, one hardware delay parameter\nper satellite is set and estimated.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_80f5ba4e69",
+    "span_index": 146,
+    "text": "The estimated parameters\ninclude 6 initial satellite elements and 5 solar pressure model\nparameters per satellite, one station-speciﬁc ZTD parameter\nevery 2 h, ﬂoat ambiguities, satellite-speciﬁc ISL hardware\ndelays and epoch-wise clock offsets.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_43eb69328e",
+    "span_index": 147,
+    "text": "The receiver and satel-\nlite clock offsets are treated as epoch-wise white noise in\norbit determination.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_49f7736c33",
+    "span_index": 148,
+    "text": "For BDS-3 orbit determination with 3-\nday arc and 60 s sampling, 34 clock offsets per epoch are\nestimated including 27 BDS-3 satellites and 7 receivers.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_5884c7a335",
+    "span_index": 149,
+    "text": "The\ntotal number of clock offsets reaches more than 70,000.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_79cc4ed57e",
+    "span_index": 150,
+    "text": "If\nother global variables are estimated together with the epoch-\nwise clock offsets, the computation burden will become too\nbig.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_d40cce28cb",
+    "span_index": 151,
+    "text": "Therefore, the clock offsets elimination method by Zhou\net al.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_e67e468c18",
+    "span_index": 152,
+    "text": "(2011) and Tang et al.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_ad790554e6",
+    "span_index": 153,
+    "text": "(2016) is applied.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_2244eb4d09",
+    "span_index": 154,
+    "text": "3.1.2 Real-time satellite clock estimation strategy\nThe satellite clock estimation process is conducted in real-\ntime with a Kalman ﬁlter using un-differenced ionosphere-\nfree code and phase combinations from the regional network\nwithin mainland China by ﬁxing predicted orbits from the\nsatellite orbit determination process.",
+    "char_length": 325
+  },
+  {
+    "quote_id": "qb_fd3eec3325",
+    "span_index": 155,
+    "text": "The clock offsets of\nsatellites and receivers are modelled as white noises and are\nestimated epoch-wise.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_fac9641376",
+    "span_index": 156,
+    "text": "To avoid rank deﬁciency, the offset\nof one speciﬁc clock should be regarded as the clock datum\nand kept ﬁxed on known values.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_f71e163d57",
+    "span_index": 157,
+    "text": "In the proposed strategy,\nclock offsets of the receiver located at the master station and\naligned to BDT are kept as the clock datum to estimate off-\nsets of the satellites and other ground receivers.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_d4f76cac69",
+    "span_index": 158,
+    "text": "By doing so,\nthe estimated precise satellite clock offsets refer to BDT.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_c1680fd6f8",
+    "span_index": 159,
+    "text": "Due\nto the possible irregular behaviour of the clocks, the clock\noffsets of satellites and receivers are estimated as white noise\nand the process noise is 1 ms/\n√\n1s.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_7b40f477c8",
+    "span_index": 160,
+    "text": "The tropospheric delay is corrected with the Saastamoinen\nmodel and GMF (Boehm et al.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_608068abec",
+    "span_index": 161,
+    "text": "2006; Saastamoinen 1972).",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_eb09a062dc",
+    "span_index": 162,
+    "text": "The residual tropospheric delay is modelled and estimated as\na random-walk process.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_3843ddc6de",
+    "span_index": 163,
+    "text": "The process noise is 1 cm/\n√\n1hour.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_4a899cafc3",
+    "span_index": 164,
+    "text": "The ﬂoat ambiguities are also estimated.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_d3e70cde85",
+    "span_index": 165,
+    "text": "A detailed real-time\nsatellite clock estimation strategy is summarized in Table 3.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_9b1512f2e8",
+    "span_index": 166,
+    "text": "3.2 Accuracy of orbit and clock corrections\nof PPP-B2b broadcast message\nThe accuracy of the PPP-B2b broadcast message is eval-\nuated by comparing the orbit and clock corrections with\nthe MGEX (multi-GNSS) precise products generated by\nthe GeoForschungsZentrum Potsdam (GFZ) analysis centre\n(Montenbruck et al.",
+    "char_length": 310
+  },
+  {
+    "quote_id": "qb_d70c569c84",
+    "span_index": 167,
+    "text": "2013, 2017; Steigenberger and Mon-\ntenbruck 2020).",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_15565167e4",
+    "span_index": 168,
+    "text": "3.2.1 Accuracy of orbit solutions\nEvaluation is done using PPP-B2b broadcast messages from\nAugust 1, 2020, to August 7, 2020.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_075c775687",
+    "span_index": 169,
+    "text": "The 3D orbit accuracy of\nthe MGEX GFZ products is 5 cm for GPS by orbit compar-\nisons (Steigenberger and Montenbruck 2020 and Kazmierski\n123",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_586dfe140e",
+    "span_index": 170,
+    "text": "60\nPage 6 of 17\nC.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_2702fb07de",
+    "span_index": 171,
+    "text": "Table 2 Strategy of the orbit determination process\nOrbit determination process strategy\nObservations\nFor BDS-3 satellites, un-differenced B1I/B3I ionosphere-free code and phase combinations from a regional\nnetwork containing 12 stations within mainland China and the geometrical distances between two satellites\nderived from ISL measurements are used in combination\nFor GPS satellites, un-differenced L1/L2 ionosphere-free code and phase combinations from 30\nglobally-distributed stations\nElevation angle cut-off\n7°\nArc length\n3 days\nSampling\n60 s\nSatellite PCO\nValues from manufacturers for BDS-3, igs14.atx for GPS (Rebischung et al.",
+    "char_length": 636
+  },
+  {
+    "quote_id": "qb_96a85789c3",
+    "span_index": 172,
+    "text": "2016)\nReceiver antenna PCO\nValues from manufacturers.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_70fee8ff24",
+    "span_index": 173,
+    "text": "The receiver antennas used are made by Chinese manufacturers, whose PCO values\nare not provided by igs14.atx\nSatellite PCV\nNot applied for BDS-3, igs14.atx for GPS (Rebischung et al.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_eca3287e97",
+    "span_index": 174,
+    "text": "2016)\nReceiver antenna PCV\nNot corrected.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_33f8599b66",
+    "span_index": 175,
+    "text": "The receiver antennas used are made by Chinese manufacturers, whose PCV values are provided\nby neither igs14.atx nor manufacturers\nStation coordinates\nThe station coordinates are ﬁxed in the BDCS frame with is aligned to ITRF2014, which are kept as known\nvalues in orbit determination\nTroposphere delay\nSaastamoinen model (Saastamoinen 1972) for wet and dry hydrostatic delay with the GMF (Boehm et al.2006)\nwithout the gradient model\nIonosphere delay\nThe ﬁrst-order ionosphere delay is eliminated by the dual-frequency combinations\nOrbit models\nTwo-body motion and non-spherical Earth; the attracting forces of the sun and the moon; tidal potential and\nsolar radiation pressure\nSolar radiation model\nConstant accelerations in the D direction, B direction and Y direction; cosine and sine accelerations in the B\ndirection (Springer et al.1999).",
+    "char_length": 844
+  },
+  {
+    "quote_id": "qb_3f31c1fdb3",
+    "span_index": 176,
+    "text": "D is the direction Satellite-Sun.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_bd8f930aff",
+    "span_index": 177,
+    "text": "Y points along the satellite’s solar panels axes,\nand B completes the orthogonal system\nEstimated parameters\nThe initial satellite positions and velocities, 5 solar pressure model parameters, satellite and receiver clock\noffsets, one zenith tropospheric delay parameter (ZTD) per hour and carrier phase ambiguities,\nsatellite-speciﬁc ISL hardware delays\nEstimation\nLeast-squares estimation\net al.",
+    "char_length": 396
+  },
+  {
+    "quote_id": "qb_7ded8651ee",
+    "span_index": 178,
+    "text": "Currently, the accuracy of BDS-3 orbits has not\nyet been estimated.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_f0906a3957",
+    "span_index": 179,
+    "text": "The 3D accuracy is 18 cm for BDS-\n2 MEO satellites and 36 cm for BDS-2 IGSO satellites\n(Steigenberger and Montenbruck 2020 and Kazmierski et al.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_e6c9907246",
+    "span_index": 180,
+    "text": "Note that the PPP-B2b orbits and MGEX GFZ orbits refer\nto different points.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_b3b126d795",
+    "span_index": 181,
+    "text": "The PPP-B2b BDS-3 orbits are relative to\nthe satellite B3 phase centre, the PPP-B2b GPS orbits are rel-\native to the L1/L2 ionosphere-free combination phase centre\nof the satellite, and the MGEX GFZ orbits are relative to the\nsatellite centre-of-mass.",
+    "char_length": 251
+  },
+  {
+    "quote_id": "qb_cc49d45884",
+    "span_index": 182,
+    "text": "The satellite phase centre offsets are\ncorrected in the comparisons.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_d237b4ca99",
+    "span_index": 183,
+    "text": "The orbit differences are used\nas follows:\n−→\ne \u0002 −→\nB −Tr ∗−→\nP −−→\nR\n(3)\nIn the above equation, −→\ne refers to the orbit difference,\n−→\nB means the broadcasted orbits of the navigation message,\n−→\nP refers to the satellite phase centre offsets in the satellite-\nﬁxed system, Tr means the transformation matrix from the\nsatellite-ﬁxed system to the Earth-ﬁxed system, which can be\ncalculated by the attitude models reported by Kouba (2009)\nand Montenbruck et al.",
+    "char_length": 463
+  },
+  {
+    "quote_id": "qb_e830cb9e26",
+    "span_index": 184,
+    "text": "(2015) for GPS satellites and pro-\nvided by the manufacturers for BDS-3 satellites (CSNO\n2019c).",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_b8b5b044de",
+    "span_index": 185,
+    "text": "−→\nR refers to the precise orbits of the MGEX GFZ.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_557468bd95",
+    "span_index": 186,
+    "text": "The phase centre offset values from the IGS-ANTEX ﬁle are\nused for the GPS and BDS-3 orbit comparisons.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_d4c7e64aea",
+    "span_index": 187,
+    "text": "The root mean square (RMS) values of the orbit differ-\nences are given in Fig.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_e98481488e",
+    "span_index": 188,
+    "text": "2 for the BDS and in Fig.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_f252fa9042",
+    "span_index": 189,
+    "text": "The mean RMS values by satellite type are summarized\nin Table 4.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_2a36a63277",
+    "span_index": 190,
+    "text": "The user ranging error (URE) is also calculated\nand given in the ﬁgures and table.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_f4af641299",
+    "span_index": 191,
+    "text": "The URE is calculated as\nfollows (Zhou et al.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_55ec71e6a5",
+    "span_index": 192,
+    "text": "2011):\nFor IGSO, U RE \u0002\n\u0003\nR2 + (0.09 ∗A)2 + (0.09 ∗C)2\n(4)\nFor MEO, U RE \u0002\n\u0004\n(0.99 ∗R)2 + (0.14 ∗A)2 + (0.14 ∗C)2\n(5)\nwhere R, A and C refer to the orbit error in the radial, along-\ntrack and cross-track directions, respectively.",
+    "char_length": 229
+  },
+  {
+    "quote_id": "qb_acf313a313",
+    "span_index": 193,
+    "text": "Orbit determination, clock estimation and performance …\nPage 7 of 17\n60\nTable 3 Strategy of the real-time satellite clock estimation process\nReal-time satellite clock estimation strategy\nObservations\nUn-differenced ionosphere-free code and phase combination from a regional network containing 12 stations within\nMainland China\nFrequency band\nL1/L2 ionosphere-free code and phase combinations for GPS; B1I/B3I ionosphere-free code and phase\ncombinations for BDS-3\nSampling\n6 s\nElevation angle cut-off\n7°\nSatellite orbits\nPhase centre orbits are obtained by adding phase centre offsets to centre-of-mass predicted orbits; phase centre orbits\nare ﬁxed\nObservation weight\nCode: phase \u0002 1:10,000\nReceiver antenna PCO\nValues from manufacturers.",
+    "char_length": 738
+  },
+  {
+    "quote_id": "qb_11a922a705",
+    "span_index": 194,
+    "text": "The receiver antennas used are made by Chinese manufacturers, whose PCO values are\nnot provided by igs14.atx\nSatellite PCV\nNot applied for BDS-3; igs14.atx for GPS (Rebischung et al.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_b59e8e9122",
+    "span_index": 195,
+    "text": "2016)\nReceiver antenna PCV\nNot corrected.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_68c118c27c",
+    "span_index": 196,
+    "text": "The receiver antennas used are made by Chinese manufacturers, whose PCV values are provided by\nneither igs14.atx nor manufacturers\nStation displacement\nSolid Earth tide, pole tide, ocean tide loading corrected (Petit and Luzum 2010)\nRelativity\nCorrected (Kouba 2004)\nTroposphere delay\nSaastamoinen model (Saastamoinen 1972) for wet and dry hydrostatic delay with the GMF (Boehm et al.",
+    "char_length": 384
+  },
+  {
+    "quote_id": "qb_d13d7aab44",
+    "span_index": 197,
+    "text": "2006)\nwithout the gradient model; residual tropospheric delay as a random-walk process.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_3fda73b5e1",
+    "span_index": 198,
+    "text": "The process noise of the\nresidual tropospheric delay is 1 cm/\n√\n1hour\nIonosphere delay\nThe ﬁrst-order ionosphere delay is eliminated by the dual-frequency combinations\nReceiver clock\nEstimated as white noise, the initial value is given as 0 and prior covariance is given as 9*1012m2.",
+    "char_length": 283
+  },
+  {
+    "quote_id": "qb_c0d510e6d0",
+    "span_index": 199,
+    "text": "Clock offsets of\nthe receiver located at the master station and aligned to BDT are kept as the clock datum to estimate offsets of the\nsatellites and other ground receivers\nSatellite clock\nEstimated as white noise, the initial value is given as 0 and prior covariance is given as 9*1012m2\nPhase ambiguities\nEstimated as constant parameters\nInter-System Biases\nEstimated as random-walk variables\nEstimation\nKalman ﬁlter\nThe orbit differences of BDS-3 IGSO satellites (C38, C39\nand C40 in Fig.",
+    "char_length": 490
+  },
+  {
+    "quote_id": "qb_cd47c7e343",
+    "span_index": 200,
+    "text": "2) are larger than those of BDS-3 MEO\nsatellites and GPS satellites.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_c0b8e6ad1e",
+    "span_index": 201,
+    "text": "The mean radial orbit error is\napproximately 0.155 m, the 3D orbit error is approximately\n0.328 m, and the URE is approximately 0.157 m for the BDS-\n3 IGSO satellites.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_be3192464b",
+    "span_index": 202,
+    "text": "The orbit differences of the BDS-3 MEO\nsatellites are at the same level as those of the GPS satellites.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_132d5009ee",
+    "span_index": 203,
+    "text": "The radial orbit differences are approximately 0.05 m, the\n3D orbit differences are approximately 0.20 m, and the orbit\nURE is better than 0.06 m.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_835e0c6150",
+    "span_index": 204,
+    "text": "2, it can be clearly seen that the radial errors\nof C19-C22 and C41-C46 seem to be larger than those\nof other MEO satellites.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_1cd8f4d00b",
+    "span_index": 205,
+    "text": "The available ISL measurements\nmay account for the phenomenon.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_249ef326d0",
+    "span_index": 206,
+    "text": "The available ISL mea-\nsurements for the four satellites are fewer than other MEO\nsatellites by 15% during that period.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_45eca87256",
+    "span_index": 207,
+    "text": "The ISL measurements are insensitive to the orbital ori-\nentation parameters including inclination angle and right\nascension of ascending intersection.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_442c7c9b33",
+    "span_index": 208,
+    "text": "In the ISL enhanced\nBDS-3 orbit determination, the reduction of orbit error in\nthe cross-track is smaller than in the radial and along-track\ndirections, resulting in larger orbit errors in the cross-track\ndirection.",
+    "char_length": 215
+  },
+  {
+    "quote_id": "qb_3c65070b4c",
+    "span_index": 209,
+    "text": "3.2.2 Accuracy of clock solutions\nThe MGEX GFZ precise clock is taken as the reference for\nevaluating the accuracy of the PPP-B2b clock solutions.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_8151c23fdf",
+    "span_index": 210,
+    "text": "The\nPPP-B2b broadcast message with the same period as that of\nthe orbit evaluation is used for the clock accuracy evaluation.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_95197cd63c",
+    "span_index": 211,
+    "text": "Both the broadcasted PPP-B2b GPS clock corrections and\nMGEX GFZ precise GPS clock offsets refer to the L1P/L2P\nionosphere-free combinations.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_74742090c7",
+    "span_index": 212,
+    "text": "However, the GFZ precise\nBDS-3 clock offsets refer to the B1I/B3I ionosphere-free\ncombinations, while the broadcasted PPP-B2b BDS clock\ncorrections refer to B3I.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_914ab0e7f7",
+    "span_index": 213,
+    "text": "Therefore, the MGEX DCB param-\neters provided by the Chinese Academy of Sciences (CAS)\nareusedtocorrectthePPP-B2bBDSclockcorrectionsbefore\ncomparison (Wang et al.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_890d3e44f6",
+    "span_index": 214,
+    "text": "Following Yao et al.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_44d716cb1e",
+    "span_index": 215,
+    "text": "(2017), the accuracy assessment of\nthe clock solutions follows a two-step process.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_98e6289fc2",
+    "span_index": 216,
+    "text": "Firstly, the\nPPP-B2b satellite clock offsets are differenced with the GFZ\n123",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_8a00094fa3",
+    "span_index": 217,
+    "text": "60\nPage 8 of 17\nC.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_d57f27ab49",
+    "span_index": 218,
+    "text": "2 BDS satellite orbit\naccuracy of PPP-B2b\n0\n0.05\n0.1\n0.15\n0.2\n0.25\nC19\nC20\nC21\nC22\nC23\nC24\nC25\nC26\nC27\nC28\nC29\nC30\nC32\nC33\nC34\nC35\nC36\nC37\nC38\nC39\nC40\nC41\nC42\nC43\nC44\nC45\nC46\nunit:m\nSatellite PRN\nBDS Satellite Orbit Accuracy of PPP-B2b\nRadial\nAlong-track\nCross-track\nURE\nFig.",
+    "char_length": 275
+  },
+  {
+    "quote_id": "qb_a94c7071fd",
+    "span_index": 219,
+    "text": "3 GPS satellite orbit\naccuracy of PPP-B2b\n0\n0.05\n0.1\n0.15\n0.2\n0.25\nG01 G03 G05 G07 G09 G11 G13 G16 G18 G20 G24 G26 G28 G30 G32\nunit:m\nSatellite PRN\nGPS Satellite Orbit Accuracy of PPP-B2b\nRadial\nAlong-track\nCross-track\nURE\n123",
+    "char_length": 226
+  },
+  {
+    "quote_id": "qb_739714d130",
+    "span_index": 220,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_c7add2ed5b",
+    "span_index": 221,
+    "text": "Orbit determination, clock estimation and performance …\nPage 9 of 17\n60\nTable 4 RMS of orbit and clock\ndifferences by satellite type\nSatellite type\nOrbit (m)\nSTD of clock difference (ns)\nR\nT\nN\n3D\nURE\nBDS-3 IGSO\n0.155\n0.188\n0.220\n0.328\n0.157\n0.241\nBDS-3 MEO\n0.042\n0.133\n0.155\n0.210\n0.051\n0.172\nGPS block IIR\n0.050\n0.153\n0.120\n0.202\n0.057\n0.156\nGPS block IIR-M\n0.046\n0.148\n0.115\n0.193\n0.053\n0.162\nGPS block IIF\n0.047\n0.164\n0.119\n0.209\n0.055\n0.177\nGPS block IIIA\n0.043\n0.120\n0.125\n0.181\n0.049\n0.153\n0\n0.05\n0.1\n0.15\n0.2\n0.25\n0.3\n0.35\nC19 C21 C23 C25 C27 C29 C32 C34 C36 C38 C40 C42 C44 C46\nns\nSatellite PRN\nSTD of BDS Clock Diﬀerence\nFig.",
+    "char_length": 634
+  },
+  {
+    "quote_id": "qb_c58ba5067a",
+    "span_index": 222,
+    "text": "4 STD of BDS-3 Satellite Clock Differences\nprecise clock offsets, Secondly, the mean clock differences\nfor all available satellites are subtracted from the above clock\ndifferences toremovedifferences of timereference.",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_b544b06768",
+    "span_index": 223,
+    "text": "For satel-\nlite i, the clock differences can be written as:\n\u0003clki(t) \u0002 clk B2b\ni\n−clkGF Z\ni\n−\nns\n\u0005\nn\u00021\nclk B2b\nn\n−clkGF Z\nn\nns\n(6)\nclk B2b\ni\nand clkGF Z\ni\nare the PPP-B2b satellite clock offsets\nand GFZ precise clocks for satellite i respectively, ns is the\nnumber of available satellites.",
+    "char_length": 289
+  },
+  {
+    "quote_id": "qb_083d623e65",
+    "span_index": 224,
+    "text": "Standard Deviations (STDs) of the BDS-3 clock differ-\nences and GPS clock differences are given in Figs.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_00cb7bf6cb",
+    "span_index": 225,
+    "text": "4 and 5,\nrespectively.Thestatisticsoftheclockdifferencesbysatellite\ntype are also given in Table 4.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_81a7fb6fe0",
+    "span_index": 226,
+    "text": "As shown in Table 4 and Fig.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_6897ba13d4",
+    "span_index": 227,
+    "text": "5,\nthe STDs of most GPS satellite clock differences are less than\n0.3 ns.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_6d7c1494e7",
+    "span_index": 228,
+    "text": "The STD of clock differences is not satellite-type\ndependent for GPS.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_921ace4eb1",
+    "span_index": 229,
+    "text": "The average STD of clock differences is\napproximately 0.2 ns.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_a4d915fe22",
+    "span_index": 230,
+    "text": "The STD of the clock differences of\nmost BDS-3 satellites are at the same level as those of GPS\nand smaller than 0.3 ns.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_3837355838",
+    "span_index": 231,
+    "text": "3.2.3 Accuracy of DCB parameters\nDCB parameters of BDS-3 satellites are provided by the\nPPP-B2b messages, including DCB(B1I), DCB(B1Cp) and\nDCB(B2ap).",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_039425dea4",
+    "span_index": 232,
+    "text": "Both the BDS-3 broadcast clock parameters\nand the PPP-B2b precise clock offsets refer to the B3I\nsignal.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_0100f511db",
+    "span_index": 233,
+    "text": "DCBs mentioned above refer to differential code\nbiases between the corresponding signal and the B3I signal.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_d1ebe48991",
+    "span_index": 234,
+    "text": "Speciﬁcally, DCB(B1I) refers to the differential code bias\nbetween B1I and B3I.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_e2366faee2",
+    "span_index": 235,
+    "text": "DCB(B1Cp) refers to the differen-\ntial code bias between B1Cp and B3I.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_a952711296",
+    "span_index": 236,
+    "text": "DCB(B2ap) refers\nto the differential code bias between B2ap and B3I.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_8d44f74e3f",
+    "span_index": 237,
+    "text": "5 STD of GPS Satellite\nClock Differences\n0\n0.05\n0.1\n0.15\n0.2\n0.25\nG02\nG11\nG13\nG16\nG19\nG20\nG22\nG28\nG05\nG07\nG12\nG15\nG17\nG29\nG31\nG01\nG03\nG06\nG08\nG09\nG10\nG24\nG25\nG26\nG27\nG30\nG32\nG04\nG18\nIIR\nIIR-M\nIIF\nIIIA\nns\nSatellite PRN\nSTD of GPS Clock Diﬀerence\n123",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_c4b2e2c20a",
+    "span_index": 238,
+    "text": "60\nPage 10 of 17\nC.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_4a3ac6d7ec",
+    "span_index": 239,
+    "text": "6 Comparisons of the\nPPP-B2b DCB parameters with\nMGEX DCB products\n-2.5\n-2\n-1.5\n-1\n-0.5\n0\n0.5\n1\n1.5\n2\nC19\nC20\nC21\nC22\nC23\nC24\nC25\nC26\nC27\nC28\nC29\nC30\nC32\nC33\nC34\nC35\nC36\nC37\nC38\nC39\nC40\nC41\nC42\nC43\nC44\nC45\nC46\nns\nSatellite PRN\nDCB Diﬀerence\nDCB_B1I(B2b-MGEX)\nDCB_B1Cp(B2b-MGEX)\nDCB_B2ap(B2b-MGEX)\nterms DCB(B1I), DCB(B1Cp) and DCB(B2ap) are com-\npared with MGEX DCB products provided by CAS (Wang\net al.",
+    "char_length": 403
+  },
+  {
+    "quote_id": "qb_f5b9ead933",
+    "span_index": 240,
+    "text": "DCB(B1I) parameters of all the BDS-3 satel-\nlites, DCB(B1Cp) parameters of C19 to C37 and DCB(B2ap)\nparameters of C19 to C37 are provided by CAS.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_8c74afcb33",
+    "span_index": 241,
+    "text": "The com-\nparison is given in Fig.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_3303d69946",
+    "span_index": 242,
+    "text": "It can be concluded that the\nDCB(B1I) errors are smaller than 2.0 ns and DCB(B1Cp)\nand DCB(B2ap) parameters are smaller than 1.0 ns.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_0b6a4da06d",
+    "span_index": 243,
+    "text": "RMS of\nDCB(B1I) errors, DCB(B1Cp) errors and DCB(B2ap) errors\nare about 0.66 ns, 0.38 ns and 0.56 ns respectively.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_f1e0747b10",
+    "span_index": 244,
+    "text": "The GPS DCBs are not provided by the PPP-B2b signals\nand users are suggested to conduct L1/L2 dual-frequency\nGPS PPP.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_85b128e572",
+    "span_index": 245,
+    "text": "4 Precise point positioning validation\nPerformance of the PPP-B2b service is assessed by conduct-\ning PPP using measurements from six International GNSS\nMonitoringandAssessmentService(iGMAS,Jiao2014)sta-\ntions in mainland China (bjf1, chu1, kun1, sha1, wuh1 and\nxia1) as mentioned in Fig.",
+    "char_length": 288
+  },
+  {
+    "quote_id": "qb_0b73e12199",
+    "span_index": 246,
+    "text": "7 during the period from August 1,\n2020, to August 7, 2020.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_a9a0758d29",
+    "span_index": 247,
+    "text": "Both the static positioning process\nand simulated kinematic positioning process are conducted\nfor validation.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_59ebeda5c6",
+    "span_index": 248,
+    "text": "Three processing modes concerning the sys-\ntems used are also applied, including BDS-3 only, GPS only\nand the GPS/BDS-3 dual system.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_8913e1dd9f",
+    "span_index": 249,
+    "text": "PPP with GFZ MGEX\nproducts is also conducted for comparison purposes.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_3e80167fb0",
+    "span_index": 250,
+    "text": "PPP-B2b corrections used in the validation experiments\nare decoded by a monitoring receiver provided by College\nof Electronic Science and Engineering, National University\nof Defence Technology, located in Shanghai.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_7fff8c3e63",
+    "span_index": 251,
+    "text": "The receiver\ndecodes the PPP-B2b messages from the three GEO satel-\nlites.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_1e5fa502e6",
+    "span_index": 252,
+    "text": "The receiver outputs precise corrections only if PPP-\nB2b messages from two of the three GEO satellites pass the\nconsistency check.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_7ebc2f0c15",
+    "span_index": 253,
+    "text": "The PPP strategy is summarized as fol-\nlows.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_fd3ea2d4db",
+    "span_index": 254,
+    "text": "4.1 Static PPP validation\nIn this section static precise point positioning is conducted\nusing PPP-B2b precise corrections.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_10505cedfd",
+    "span_index": 255,
+    "text": "Static PPP accuracy is\nassessed in terms of convergence time, positioning repeata-\nbility and differences with IGS position solutions.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_4cbc94fd33",
+    "span_index": 256,
+    "text": "Static\nprecise point positioning results with GFZ MGEX products\nare also conducted for comparison purpose.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_ca0ab4c7fb",
+    "span_index": 257,
+    "text": "4.1.1 Convergence\nThe PPP-B2b message decoded by the receivers was miss-\ning during 23:00-01:00 every day due to a data transmission\nsoftware problem.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_e1e056db18",
+    "span_index": 258,
+    "text": "Therefore, the PPP is reinitialized at 1:00\nevery day and ends at 23:00.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_497e6777fd",
+    "span_index": 259,
+    "text": "The convergence time of static\n123",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_2a0bfdc994",
+    "span_index": 260,
+    "text": "Orbit determination, clock estimation and performance …\nPage 11 of 17\n60\nFig.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_daef9fda04",
+    "span_index": 261,
+    "text": "7 iGMAS Stations for PPP\nvalidation\nTable 5 PPP strategy\nPPP strategy\nObservations\nUndifferenced ionosphere-free code and phase combination from iGMAS stations including bjf1, chu1, kun1,\nsha1, wuh1 and xia1\nFrequency band\nL1/L2 ionosphere-free code and phase combinations for GPS; B1I/B3I ionosphere-free code and phase\ncombinations for BDS-3\nElevation angle cut-off\n7°\nSampling\n60 s\nSatellite orbits\nFor PPP-B2b, satellite orbits relative to the phase centre are obtained by adding orbit corrections to the broadcast\norbits; for the GFZ products, centre-of-mass orbits are obtained, with phase centre offsets from igs14.atx added\nto the centre-of-mass orbits\nObservation weight\nCode: phase \u0002 1:10,000\nReceiver antenna PCO\nValues from manufacturers.",
+    "char_length": 750
+  },
+  {
+    "quote_id": "qb_9f0649c56e",
+    "span_index": 262,
+    "text": "The receiver antennas used are made by Chinese manufacturers, whose PCO values\nare not provided by igs14.atx\nSatellite PCV\nNot applied for BDS-3; igs14.atx for GPS (Rebischung et al.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_38d4b958e2",
+    "span_index": 263,
+    "text": "2016)\nReceiver antenna PCV\nNot corrected.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_ab4bb1785b",
+    "span_index": 264,
+    "text": "The receiver antennas used are made by Chinese manufacturers, whose PCV values are provided\nby neither igs14.atx nor manufacturers\nStation displacement\nSolid Earth tide, pole tide, ocean tide loading corrected (Petit and Luzum 2010)\nRelativistic\nCorrected (Kouba 2004)\nTroposphere delay\nSaastamoinen model (Saastamoinen 1972) for wet and dry hydrostatic delay with the GMF (Boehm et al.",
+    "char_length": 386
+  },
+  {
+    "quote_id": "qb_60ea5f9527",
+    "span_index": 265,
+    "text": "2006)\nwithout the gradient model; residual tropospheric delay as a random-walk process\nIonosphere delay\nThe ﬁrst-order ionosphere delay is eliminated by the dual-frequency combinations\nReceiver clock\nFor BDS-only or GPS-only PPP, one receiver clock offset is set and estimated as white noise; for BDS/GPS\ndual-mode PPP, two different receiver clocks are set and estimated as white noise.",
+    "char_length": 387
+  },
+  {
+    "quote_id": "qb_598ee5eb73",
+    "span_index": 266,
+    "text": "The initial value is given as 0\nand prior covariance is given as 9*1012m2\nReceiver position\nEstimated as white noise for kinematic PPP and as constant values for static PPP\nSatellite clock\nFixed at known values from the PPP-B2b message and GFZ products\nPhase ambiguities\nEstimated as constant parameters\nEstimation\nForward Kalman ﬁlter\n123",
+    "char_length": 339
+  },
+  {
+    "quote_id": "qb_0877bef2f9",
+    "span_index": 267,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_8bac8fae34",
+    "span_index": 268,
+    "text": "60\nPage 12 of 17\nC.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_ed5466b9e7",
+    "span_index": 269,
+    "text": "8 Convergence time of static PPP\nPPP is ﬁrst evaluated.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_35b2b83548",
+    "span_index": 270,
+    "text": "The convergence condition requires\nthat the horizontal absolute positioning error remains below\n20 cm and the vertical remains below 40 cm for at least 5 min\nfor the corresponding direction.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_2fab471490",
+    "span_index": 271,
+    "text": "The average convergence times for the six iGMAS stations\nare given in Fig.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_e532ed8279",
+    "span_index": 272,
+    "text": "Compared to the BDS-3-only or GPS-only\nPPP, the convergence time of the BDS-3/GPS dual-system\nPPP is much shorter due to the larger number of satellites and\nbetter geometry conditions at most times, except for station\nchu1, the convergence time of which is a few minutes longer\nfor the BDS-3/GPS dual-system PPP than for the GPS only\nPPP.",
+    "char_length": 338
+  },
+  {
+    "quote_id": "qb_825e2a5546",
+    "span_index": 273,
+    "text": "Taking xia1 as an example, it requires approximately\n20 min to converge for BDS-3-only or GPS-only PPP but\nconverges in less than 10 min for BDS-3/GPS dual-system\nPPP.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_a5b21417f3",
+    "span_index": 274,
+    "text": "For BDS/GPS dual-system static positioning, 7 min to\n12 min are required to obtain a convergent positioning result.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_86298caf58",
+    "span_index": 275,
+    "text": "4.1.2 Positioning repeatability\nThe daily repeatability of the static positioning results with\nthe PPP-B2b products is calculated for positioning precision\nassessment.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_303ae7343d",
+    "span_index": 276,
+    "text": "The daily repeatability with the GFZ products\nis also calculated for precision comparison purposes.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_6cf056f8d8",
+    "span_index": 277,
+    "text": "The\nstation-speciﬁc repeatability is given in Fig.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_ac447adc80",
+    "span_index": 278,
+    "text": "The aver-\nage repeatability is summarized in Table 6.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_e8309a08f3",
+    "span_index": 279,
+    "text": "9, the\nrepeatability of the positioning results with the GFZ products\nis slightly better than that with PPP-B2b products in both\nGPS-only and BDS/GPS dual-system situations.",
+    "char_length": 173
+  },
+  {
+    "quote_id": "qb_7746493c47",
+    "span_index": 280,
+    "text": "In BDS-\nonly situation, the horizontal positioning repeatability with\nPPP-B2b is slightly better than that with GFZ products and\nthe vertical positioning repeatability with PPP-B2b is slightly\nlargerthanthatwithGFZproducts.TheBDS/GPSstaticposi-\ntioning repeatability is smaller than 1.0 cm in the north and\neast directions and smaller than 1.5 cm in the up direction.",
+    "char_length": 367
+  },
+  {
+    "quote_id": "qb_427ef99244",
+    "span_index": 281,
+    "text": "From Table 6, the north direction has the smallest repeata-\nbility, followed by the east direction.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_e4b33db538",
+    "span_index": 282,
+    "text": "The up direction has\nthe largest repeatability.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_14ee88c223",
+    "span_index": 283,
+    "text": "The average BDS/GPS dual-system\npositioning repeatability is smaller than 1.0 cm in all direc-\ntions.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_4321016c8b",
+    "span_index": 284,
+    "text": "The BDS/GPS dual-system positioning repeatability is\nsmaller than that of the BDS-only or GPS-only positioning\nresults in the east and up directions.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_17eceabc66",
+    "span_index": 285,
+    "text": "The differences in the\nBDS/GPS dual-system positioning repeatability are within\n0.5 cm between the PPP-B2b solutions and GFZ solutions.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_1915c5ba2e",
+    "span_index": 286,
+    "text": "4.1.3 Differences with IGS position solutions\nThe average BDS/GPS dual-system daily static position-\ning results for the above-mentioned period with the GFZ\nproducts is taken as the ground truth of the iGMAS station\ncoordinates.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_b58c109152",
+    "span_index": 287,
+    "text": "Station-speciﬁc RMS of the daily positioning\nerrors with PPP-B2b products by taking the GFZ solutions\nas the ground truth station coordinates as well as the mean\nRMS are given in Table 7.",
+    "char_length": 187
+  },
+  {
+    "quote_id": "qb_102fc66512",
+    "span_index": 288,
+    "text": "Table 7 reveals that the maximum position differences in\nthe north and east directions are 1.47 cm and that the average\ndifferences are less than 1.0 cm.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_46c36a1acd",
+    "span_index": 289,
+    "text": "However, the position differ-\nences in the up direction are much larger.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_1cf6512aa5",
+    "span_index": 290,
+    "text": "The average RMS\nof difference in the up direction is approximately 3.0 cm, and\nthe largest differences reach 4.1 cm for wuh1.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_66230a39c9",
+    "span_index": 291,
+    "text": "Larger position\ndifferencesintheupdirectionmaybeattributedtotheslightly\nlarger errors of PPP-B2b orbit and clock corrections.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_a72768760e",
+    "span_index": 292,
+    "text": "From\nTable 4, orbit errors of PPP-B2b corrections are at decimetre\nlevel in the along-track and cross-track directions, which are\nlarger than the MGEX post-processed solutions.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_eb03becef6",
+    "span_index": 293,
+    "text": "4.2 Simulated Kinematic PPP validation\nIn this section simulated kinematic precise point positioning\nis conducted using PPP-B2b precise corrections for iGMAS\nstations.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_984e004036",
+    "span_index": 294,
+    "text": "Although the iGMAS stations are static, the sta-\ntion coordinates are treated as white noise and estimated\nepoch-wise to assess performance of PPP-B2b service.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_73c5f08b88",
+    "span_index": 295,
+    "text": "The\naccuracy is assessed in terms of convergence time and posi-\ntioning accuracy after convergence.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_895995fbd8",
+    "span_index": 296,
+    "text": "4.2.1 Convergence\nSimulated kinematic PPP is conducted with the same obser-\nvations as static PPP.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_9380cdf5e9",
+    "span_index": 297,
+    "text": "The convergence condition requires that\nthe horizontal absolute positioning error remain below 20 cm\nand the vertical remain below 40 cm for at least 5 min for\nthe corresponding direction.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_61e97f96eb",
+    "span_index": 298,
+    "text": "The average convergence times\nfor the iGMAS stations are given in Fig.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_06805a7885",
+    "span_index": 299,
+    "text": "10,\nthe convergence time of BDS/GPS dual-system positioning\nis much shorter than that of the BDS-only or GPS-only posi-\ntioning solutions.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_dd60a2780d",
+    "span_index": 300,
+    "text": "To obtain converged positioning results,\n20 min to 51 min are required for BDS-only kinematic PPP,\n123",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_7024cad33a",
+    "span_index": 301,
+    "text": "Orbit determination, clock estimation and performance …\nPage 13 of 17\n60\nFig.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_99e62700e6",
+    "span_index": 302,
+    "text": "9 Daily repeatability of static PPP\nTable 6 Average repeatability of static PPP (unit: cm)\nProducts\nN\nE\nU\nBDS-only\nGPS-only\nBDS/GPS\nBDS-only\nGPS-only\nBDS/GPS\nBDS-only\nGPS-only\nBDS/GPS\nPPP-B2b\n0.309\n0.495\n0.351\n0.465\n0.758\n0.447\n1.122\n1.382\n0.792\nGFZ\n0.379\n0.324\n0.344\n0.518\n0.449\n0.410\n0.814\n1.302\n0.520\nTable 7 RMS of difference between PPP-B2b position solutions and GFZ position solutions (unit: cm)\nStation\nN\nE\nU\nBDS-only\nGPS- only\nBDS/GPS\nBDS- only\nGPS- only\nBDS/GPS\nBDS- only\nGPS- only\nBDS/GPS\nBjf1\n0.58\n0.39\n0.52\n1.09\n0.53\n0.77\n2.20\n1.92\n2.22\nChu1\n0.85\n0.70\n0.79\n1.41\n1.22\n1.14\n2.19\n1.63\n1.22\nKun1\n0.88\n1.12\n0.81\n0.95\n0.95\n0.63\n3.41\n2.68\n3.50\nSha1\n0.34\n0.62\n0.29\n0.66\n1.26\n0.47\n3.75\n3.85\n3.81\nWuh1\n0.42\n0.60\n0.40\n1.05\n1.47\n0.85\n3.43\n4.10\n3.81\nXia1\n0.68\n0.73\n0.60\n0.99\n0.96\n0.76\n3.20\n3.63\n3.39\nMean\n0.62\n0.69\n0.57\n1.02\n1.07\n0.77\n3.03\n2.97\n2.99\n123",
+    "char_length": 853
+  },
+  {
+    "quote_id": "qb_bc6910ded0",
+    "span_index": 303,
+    "text": "60\nPage 14 of 17\nC.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_22f822fef9",
+    "span_index": 304,
+    "text": "10 Convergence time of simulated Kinematic PPP\n16 min to 63 min are required for GPS-only kinematic PPP,\nand less than 12 min are required for GPS/BDS dual-system\nkinematic PPP.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_9647815a39",
+    "span_index": 305,
+    "text": "4.2.2 Positioning accuracy\nAverage BDS/GPS dual-system daily static positioning\nresults for the above-mentioned period with the GFZ prod-\nucts is taken as the ground truth of the iGMAS station\ncoordinates for simulated kinematic positioning accuracy\nassessment.",
+    "char_length": 261
+  },
+  {
+    "quote_id": "qb_056da0f870",
+    "span_index": 306,
+    "text": "The ﬁrst-hour positioning results after PPP\ninitialization are ignored to avoid the inﬂuence of the ini-\ntialization time on the positioning accuracy evaluation.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_704138b03e",
+    "span_index": 307,
+    "text": "The\nsimulated kinematic positioning results of the iGMAS sta-\ntion bjf1 are given in Fig.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_48b98dbc55",
+    "span_index": 308,
+    "text": "The ﬁgure reveals that the\nGPS/BDS dual-system positioning results are much more\nstationary and ﬂuctuate less than the GPS-only or BDS-only\npositioning results.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_6b03884786",
+    "span_index": 309,
+    "text": "The RMS of the station-speciﬁc simulated kinematic\npositioning error is given in Fig.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_fe8f6881ad",
+    "span_index": 310,
+    "text": "As shown, the sim-\nulated kinematic positioning error in the north direction is\nthe smallest, followed by that in the east direction, and\nthe up positioning error is the largest.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_943593584a",
+    "span_index": 311,
+    "text": "The BDS/GPS dual-\nsystem simulated kinematic positioning accuracy is better\nthan the GPS-only or BDS-only simulated kinematic posi-\ntioning accuracy.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_d736227573",
+    "span_index": 312,
+    "text": "The average RMS values of the simulated kinematic posi-\ntioning accuracy are listed in Table 8, which shows that the\nRMS of the BDS-only kinematic positioning errors is 3.2 cm\nin the north, 5.1 cm in the east and 10.8 cm in the up direc-\ntions, while it drops to less than 2.2 cm in the north, less than\n3.3 cm in the east and less than 8.5 cm in the up directions for\nBDS/GPS dual-system positioning.",
+    "char_length": 401
+  },
+  {
+    "quote_id": "qb_6c963c3fa7",
+    "span_index": 313,
+    "text": "The results indicate that\nthe simulated kinematic positioning accuracy obtained using\nthe PPP-B2b real-time precise corrections is at the same level\nFig.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_02805df8b8",
+    "span_index": 314,
+    "text": "11 Simulated Kinematic Positioning Results of bjf1 after Conver-\ngence (unit: m) (red or ‘C’ stands for the BDS-only results, green or\n‘G’ stands for the GPS-only results, and blue or ‘GC’ stands for the\nBDS/GPS dual-system results)\nas that obtained using the IGS real-time products or QZSS\nproducts (Zhang et al.",
+    "char_length": 313
+  },
+  {
+    "quote_id": "qb_c579f74610",
+    "span_index": 315,
+    "text": "2018, Wang et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_4bc92a28c1",
+    "span_index": 316,
+    "text": "2018 and Zhang\net al.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_8195f4f72f",
+    "span_index": 317,
+    "text": "From Table 8, the positioning errors with the PPP-B2b\nproducts are from 0.5 cm to 4.0 cm larger than those with the\nGFZ products for either single-system PPP or dual-system\nPPP.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_f5ab03d513",
+    "span_index": 318,
+    "text": "Remember that the PPP-B2b products are generated in\nreal-time, while the GFZ products are post-processing prod-\nucts (Montenbruck et al.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_e1ab8eb090",
+    "span_index": 319,
+    "text": "Optimal estimations\ncan be obtained in post-processing.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_5df75bbe5e",
+    "span_index": 320,
+    "text": "However, real-time pro-\ncessing often suffers from quality control and convergence\nproblems, resulting in larger orbits, clock errors and posi-\ntioning errors (Fu et al.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_ee7fb80165",
+    "span_index": 321,
+    "text": "5 Conclusions and discussion\nPPP is one of the featured services of BDS-3, which provides\ncentimetre-level static positioning accuracy and decimetre-\nlevel kinematic positioning accuracy to users around China.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_9263bb874a",
+    "span_index": 322,
+    "text": "The PPP performance is assessed by applying static PPP and\nkinematic PPP processes to domestic iGMAS stations.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_ca66fe16fb",
+    "span_index": 323,
+    "text": "Cen-\ntimetre level static and decimetre level kinematic positioning\naccuracy can be expected.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_c49e1fcc91",
+    "span_index": 324,
+    "text": "PPP-B2b service can be used in\nnumerous geodetic ﬁelds, such as real-time natural hazards\nmonitoring, water vapour monitoring and precise orbit deter-\nmination of geodetic LEO satellites.",
+    "char_length": 187
+  },
+  {
+    "quote_id": "qb_72b6de44b1",
+    "span_index": 325,
+    "text": "However, note that the positioning results with the PPP-\nB2b products are slightly worse than those with the GFZ\n123",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_f9a1309603",
+    "span_index": 326,
+    "text": "Orbit determination, clock estimation and performance …\nPage 15 of 17\n60\nFig.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_3bd081d21f",
+    "span_index": 327,
+    "text": "12 RMS of positioning accuracy of simulated Kinematic PPP after one-hour initialization\nTable 8 RMS of positioning accuracy of simulated Kinematic PPP after one-hour initialization (unit: cm)\nProducts\nN\nE\nU\nBDS-only\nGPS-only\nBDS/GPS\nBDS-only\nGPS-only\nBDS/GPS\nBDS-only\nGPS-only\nBDS/GPS\nPPP-B2b\n3.157\n5.166\n2.128\n5.118\n7.293\n3.271\n10.778\n12.764\n8.414\nGFZ\n3.330\n3.341\n1.669\n5.646\n4.499\n2.769\n11.810\n8.672\n7.376\npost-processed products.",
+    "char_length": 432
+  },
+  {
+    "quote_id": "qb_9211814489",
+    "span_index": 328,
+    "text": "The larger orbit error, quality con-\ntrol problems and convergence problems that the real-time\nprocess faces may account for the larger positioning errors.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_027d8f13f6",
+    "span_index": 329,
+    "text": "The real-time process will be improved for better position-\ning accuracy in the future, such as addition of more stations,\nmore robust estimation and more accurate phase centre cor-\nrections.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_4505bf29d8",
+    "span_index": 330,
+    "text": "Currently, PPP-B2b users require tens of minutes to\nobtain a converged positioning result.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_93bc022d17",
+    "span_index": 331,
+    "text": "Therefore, further\nwork will concentrate on faster convergence approaches,\nsuch as PPP-AR and PPP-RTK.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_9d48309b86",
+    "span_index": 332,
+    "text": "In addition, the PPP integrity\nconcept, parameterization and monitoring algorithms related\nto signal-in-space error monitoring and risk alarms will be\nstudied to extend the applicability of PPP-B2b service.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_2adf8fdbee",
+    "span_index": 333,
+    "text": "Acknowledgements This research is funded by National Key Research\nand Development Program of China (2016YFB0501405) and National\nNatural Science Foundation of China (Grant No.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_7bd36c98bf",
+    "span_index": 334,
+    "text": "41804030, 41874039,\n41874043, 41574029 and 41674041).",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_f5c3cb118f",
+    "span_index": 335,
+    "text": "Author contributions XH and JC provided the initial idea for this study.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_be51a5964b",
+    "span_index": 336,
+    "text": "CT and XH wrote the article.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_1c4ec5bf5a",
+    "span_index": 337,
+    "text": "CT and LL developed the real-time clock\nestimation software and conducted the experiments.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_304204a280",
+    "span_index": 338,
+    "text": "SZ and RG con-\nducted the inter-satellite link enhanced orbit determination experiments.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_a08915a92c",
+    "span_index": 339,
+    "text": "60\nPage 16 of 17\nC.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_f46b941689",
+    "span_index": 340,
+    "text": "XL and Feng He analysed the information type of PPP-B2b message.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_011a68a3d0",
+    "span_index": 341,
+    "text": "Jianhua Yang evaluated orbit and clock accuracy.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_afc3a2c70b",
+    "span_index": 342,
+    "text": "JL conducted the pre-\ncise point positioning experiments.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_80b5dbf0d8",
+    "span_index": 343,
+    "text": "Declarations\nConﬂict of interest The authors declare that they have no conﬂict of\ninterest.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_3a2632c162",
+    "span_index": 344,
+    "text": "Data availability The PPP-B2b broadcast message can be obtained with\na customized receiver following the public PPP-B2b ICD of BDS-3.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_7768553291",
+    "span_index": 345,
+    "text": "Measurements of iGMAS stations for evaluation can be obtained via\napplication.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_7b83b38810",
+    "span_index": 346,
+    "text": "The GFZ products can be download from the IGS website.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_ff2d727ce1",
+    "span_index": 347,
+    "text": "References\nBoehm J, Niell A, Tregoning P, Schuh H (2006) Global mapping func-\ntion (GMF): a new empirical mapping function based on numerical\nweather data.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_d67e0ce876",
+    "span_index": 348,
+    "text": "Geophys Res Lett 33:L07304.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_09316d932f",
+    "span_index": 349,
+    "text": "https://doi.org/10.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_5dfbe49721",
+    "span_index": 350,
+    "text": "1029/2005GL025546\nCalais E, Han JY, DeMets C, Nocquet JM (2006) Deformation of\nthe North American plate interior from a decade of continuous\nGPS measurements.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_5f0847a9e7",
+    "span_index": 351,
+    "text": "J Geophys Res 111:B06402.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_2bc3c340af",
+    "span_index": 352,
+    "text": "https://doi.org/\n10.1029/2005JB004253\nChen JP, Hu XG, Tang CP, Zhou SS, Yang YF, Pan JY, Ren H, Ma YX,\nTian QN, Wu B, Yu Y (2020) SIS accuracy and service perfor-\nmance of the BDS-3 basic system.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_c9e428e922",
+    "span_index": 353,
+    "text": "Sci China Phys Mech Astron\n63(6)\nCSNO (2017) BeiDou navigation satellite system signal in space\ninterface control document-B1C (Version 1.0).",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_ab31e06c7c",
+    "span_index": 354,
+    "text": "China Satellite\nNavigation Ofﬁce, 2017\nCSNO (2019a) China satellite navigation ofﬁce, development of the\nBeiDou navigation satellite system 4.0, China Satellite Navigation\nOfﬁce, 2019a\nCSNO (2019b) BeiDou navigation satellite system signal in space inter-\nface control document-precise point positioning service signal\nPPP-B2b, China Satellite Navigation Ofﬁce, 2019b\nCSNO (2019c) Deﬁnitions and descriptions of BDS/GNSS satellite\nparameters for high precision application, China Satellite Navi-\ngation Ofﬁce, 2019c\nFu W, Huang G, Zhang Q et al (2019) Multi-GNSS real-time clock\nestimation using sequential least square adjustment with online\nqualitycontrol.JGeodesy93(7):963–976.https://doi.org/10.1007/\ns00190-018-1218-z\nGPS Directorate (2019) Navstar GPS space segment/navigation user\nsegment interfaces.",
+    "char_length": 807
+  },
+  {
+    "quote_id": "qb_66a4bb5e18",
+    "span_index": 355,
+    "text": "Interface speciﬁcation IS-GPS-200, revision\nK, 5 June 2019, Global Positioning Systems Directorate\nJiao W (2014) International GNSS monitoring and assessment system\n(iGMAS) and latest progress.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_04ec68d92c",
+    "span_index": 356,
+    "text": "In: Presented at China satellite nav-\nigation conference (CSNC) 2014, Nanjing, 20 May 2014\nKazmierski K, So´snica K, Hadas T (2018) Quality assessment of multi-\nGNSS orbits and clocks for real-time precise point positioning.",
+    "char_length": 224
+  },
+  {
+    "quote_id": "qb_f63eec578a",
+    "span_index": 357,
+    "text": "GPS Solutions, 2018, 22(1).",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_0c3058c6bd",
+    "span_index": 358,
+    "text": "https://doi.org/10.1007/s10291-017-\n0678-6\nKouba J, Héroux P (2001) Precise point positioning using IGS orbit\nand clock products.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_1a9e109cf3",
+    "span_index": 359,
+    "text": "GPS Solut 2001, 5(2):12–28.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_b97a3a310e",
+    "span_index": 360,
+    "text": "https://doi.org/\n10.1007/PL00012883\nKoubaJ(2004)ImprovedrelativistictransformationsinGPS.GPSSolut\n8(3):170–180.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_1bc81c31ef",
+    "span_index": 361,
+    "text": "https://doi.org/10.1007/s10291-004-0102-x\nKouba J (2009) A simpliﬁed yaw-attitude model for eclipsing GPS\nsatellites.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_6ec4f9aa62",
+    "span_index": 362,
+    "text": "GPS Solut 13(1):1–12.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_2a7ccd70fc",
+    "span_index": 363,
+    "text": "https://doi.org/10.1007/s10291-\n008-0092-1\nLiu C, Gao W, Liu T, Wang D, Yao Z, Gao Y, Nie X, Wang W, Li D,\nZhang W, Wang D, Rao Y (2020) Design and implementation of a\nBDS precise point positioning service.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_3dd579d36e",
+    "span_index": 364,
+    "text": "Navigation 67(4):875–891.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_42402b8877",
+    "span_index": 365,
+    "text": "https://doi.org/10.1002/navi.392\nMontenbruck O, Steigenberger P, Khachikyan R, Weber G, Langley\nR, Mervart L, Hugentobler U, Langley K (2013) IGS-MGEX:\npreparing the ground for multi-constellation GNSS science.",
+    "char_length": 210
+  },
+  {
+    "quote_id": "qb_c5d7157c66",
+    "span_index": 366,
+    "text": "In: 4th\ninternational colloquium on scientiﬁc and fundamental aspects of\nthe Galileo system, 4–6 December 2013, Prague, CZ\nMontenbruck O, Schmid R, Mercier F, Steigenberger P, Noll C, Fatkulin\nR, Kogure S, Ganeshan A (2015) GNSS satellite geometry and\nattitude models.",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_ce24ee6424",
+    "span_index": 367,
+    "text": "Adv Space Res 56(6):1015–1029.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_64f551a216",
+    "span_index": 368,
+    "text": "https://doi.org/\n10.1016/j.asr.2015.06.019\nMontenbruck O, Steigenberger P, Prange L, Deng Z, Zhao Q, Perosanz\nF, Romero I, Noll C, Sturze A, Weber G, Schmid R, Macleod\nK, Schaer S (2017) The multi-GNSS experiment (MGEX) of the\ninternational GNSS service (IGS)—achievements, prospects and\nchallenges.",
+    "char_length": 299
+  },
+  {
+    "quote_id": "qb_aceaf518fa",
+    "span_index": 369,
+    "text": "Adv Space Res 59(2017)7:1671–1697.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_1cc9993e1b",
+    "span_index": 370,
+    "text": "https://doi.org/\n10.1016/j.asr.2017.01.011.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_5f1bc5a5af",
+    "span_index": 371,
+    "text": "Petit G, Luzum B: IERS Conventions (2010) IERS technical note No.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_1b5902706d",
+    "span_index": 372,
+    "text": "36, Verlag des Bundesamts für Kartographie und Geodäsie, Frank-\nfurt 2010\nRebischung P, Schmid R (2016) IGS14/igs14.atx: a new framework for\nthe IGS products, AGU Fall Meeting, San Francisco, 2016, USA\nRocken C, Johnson J, Van Hove T, Iwabuchi T (2005) Atmo-\nspheric water vapor and geoid measurements in the open ocean\nwith GPS.",
+    "char_length": 329
+  },
+  {
+    "quote_id": "qb_ed837b7587",
+    "span_index": 373,
+    "text": "Geophys Res Lett 32:L12813.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_59944daa1b",
+    "span_index": 374,
+    "text": "https://doi.org/10.1029/\n2005GL022573\nSaastamoinen J (1972) Contributions to the theory of atmospheric\nrefraction.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_5511dad6e7",
+    "span_index": 375,
+    "text": "B Géodes 105(1):279–298\nSpringer TA, Beutler G, Rothacher M (1999) A new solar radiation\npressure model for GPS satellites.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_3b7dc3fc33",
+    "span_index": 376,
+    "text": "GPS Solut 1999, 2(3):50–62.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_828d799cc6",
+    "span_index": 377,
+    "text": "https://doi.org/10.1007/PL00012757\nSteigenberger P, Montenbruck O (2020) (2020) Consistency of MGEX\norbit and clock products.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_a6de521111",
+    "span_index": 378,
+    "text": "Engineering 6:898–903.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_388c6d83c7",
+    "span_index": 379,
+    "text": "https://doi.org/\n10.1016/j.eng.2019.12.005\nTang CP, Hu XG, Zhou SS et al (2016) Improvement of orbit determina-\ntion accuracy for BeiDou navigation satellite system with two-way\nsatellite time frequency transfer.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_f3840c7d45",
+    "span_index": 380,
+    "text": "Adv Space Res 58(7):1390–1400.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_dcd0eefd53",
+    "span_index": 381,
+    "text": "https://doi.org/10.1016/j.asr.2016.06.007\nTang C, Hu X, Zhou S, et al (2018) Initial results of centralized\nautonomous orbit determination of the new-generation BDS satel-\nlites with inter-satellite link measurements.",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_35eb9e3d8f",
+    "span_index": 382,
+    "text": "J Geodesy 2018,\n92(10):1–15.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_f4ac70c396",
+    "span_index": 383,
+    "text": "https://doi.org/10.1007/s00190-018-1113-7\nWang L, Li ZS, Ge MR, Neitzel F, Wang Z, Yuan H (2018) Validation\nand assessment of multi-GNSS real-time precise point positioning\nin simulated kinematic mode using igs real-time service.",
+    "char_length": 229
+  },
+  {
+    "quote_id": "qb_41a375c9a7",
+    "span_index": 384,
+    "text": "Remote\nSens 2018, 10(2):337.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_ff3297418e",
+    "span_index": 385,
+    "text": "https://doi.org/10.3390/rs10020337\nWang N, Yuan Y, Li Z et al (2016) Determination of differential code\nbiases with multi-GNSS observations.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_38c59b67d9",
+    "span_index": 386,
+    "text": "J Geod 90(3):209–228.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_70061dfd94",
+    "span_index": 387,
+    "text": "https://doi.org/10.1007/s00190-015-0867-4\nWeiss JP, Steigenberger P, Springer T (2017) Orbit and clock product\ngeneration.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_2994633efc",
+    "span_index": 388,
+    "text": "In: Teunissen PJ, Montenbruck O (eds) Springer hand-\nbook of global navigation satellite systems.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_7ab2c2cd44",
+    "span_index": 389,
+    "text": "Springer handbooks.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_91201a7139",
+    "span_index": 390,
+    "text": "Springer, Cham.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_7896f508d1",
+    "span_index": 391,
+    "text": "https://doi.org/10.1007/978-3-319-42928-1_34\nYang Y, Gao W, Guo S, et al (2019a) Introduction to Bei-Dou-3 navi-\ngation satellite system.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_39f1192546",
+    "span_index": 392,
+    "text": "Navigation 66(1):7–18.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_2969fbce1a",
+    "span_index": 393,
+    "text": "https://doi.org/10.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_cdf1236fa1",
+    "span_index": 394,
+    "text": "1002/navi.291\nYang Y, Yang Y, Hu X et al (2019b) Inter-satellite link enhanced orbit\ndetermination for BeiDou-3.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_2006bbaa88",
+    "span_index": 395,
+    "text": "J Navig 2019:1–16.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_9720085dfe",
+    "span_index": 396,
+    "text": "https://doi.org/\n10.1017/S0373463319000523\nYao Y, He Y, Yi W, Song W, Cao C, Chen M (2017) Method for eval-\nuating real-time GNSS satellite clock ofset products.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_b371104e74",
+    "span_index": 397,
+    "text": "GPS Solut\n21:1417–1425.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_3a15b1d28a",
+    "span_index": 398,
+    "text": "https://doi.org/10.1007/s10291-017-0619-4\nZhang L, Yang H, Gao Y, et al.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_4992c7d153",
+    "span_index": 399,
+    "text": "Evaluation and analysis of real-\ntime precise orbits and clocks products from different IGS analysis\n123",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_041c312a7c",
+    "span_index": 400,
+    "text": "Orbit determination, clock estimation and performance …\nPage 17 of 17\n60\ncenters.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_fd030b771a",
+    "span_index": 401,
+    "text": "Advances in Space Research, 2018, 61(12): 2942–2954.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_6c6a3a1a0e",
+    "span_index": 402,
+    "text": "https://doi.org/10.1016/j.asr.2018.03.029\nZhang S, Du S, Li W, et al (2019) Evaluation of the GPS precise orbit\nand clock corrections from MADOCA real-time products.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_7837667ab9",
+    "span_index": 403,
+    "text": "Sensors\n2019, 19(11):2580:1–13.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_9ee9486f6e",
+    "span_index": 404,
+    "text": "https://doi.org/10.3390/s19112580\nZhang XH, Andersen OB (2006) Surface ice ﬂow velocity and tide\nretrieval of the amery ice shelf using precise point positioning.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_36ba878f27",
+    "span_index": 405,
+    "text": "J\nGeod 80(4):171–176.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_4743f75014",
+    "span_index": 406,
+    "text": "https://doi.org/10.1007/s00190-006-0062-8\nZhou SS, Cao YL, Zhou JH et al (2012) Positioning accuracy assess-\nment for the 4GEO/5IGSO/2MEO constellation of COMPASS.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_6710772831",
+    "span_index": 407,
+    "text": "Sci China Phys Mech Astron 55:2290–2299\nZhou SS, Hu XG, Zhou JH et al (2013) Accuracy analyses of\nprecise orbit determination and timing for COMPASS/Beidou-\n2 4GEO/5IGSO/4MEO constellation.",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_fceeb68360",
+    "span_index": 408,
+    "text": "Lecture Notes Electr Eng\n245:89–102\nZhou SS, Hu XG, Wu B et al (2011) Orbit determination and time\nsynchronization for a GEO/IGSO satellite navigation constella-\ntion with regional tracking network.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_b5a58f1915",
+    "span_index": 409,
+    "text": "Sci China Phys Mech Astron\n54:1089–1097\nZhu S, Reigber CH, König R (2004) Integrated adjustment of CHAMP\nGRACE and GPS data.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_7ae19984d4",
+    "span_index": 410,
+    "text": "J Geod 78(1–2):103–108.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_ede59959ee",
+    "span_index": 411,
+    "text": "https://doi.org/\n10.1007/s00190-004-0379-0\nZumberge JF, Heﬂin MB, Jefferson DC, Watkins MM, Webb FH (1997)\nPrecise point positioning for the efﬁcient and robust analysis\nof GPS data from large networks.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_319b583bb9",
+    "span_index": 412,
+    "text": "J Geophys Res Solid Earth\n1997(102):5005–5017.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_393407ce2d",
+    "span_index": 413,
+    "text": "https://doi.org/10.1029/96JB03860\nSpringer Nature or its licensor holds exclusive rights to this article\nundera publishingagreement withthe author(s)orotherrightsholder(s);\nauthor self-archiving of the accepted manuscript version of this article\nis solely governed by the terms of such publishing agreement and appli-\ncable law.",
+    "char_length": 328
+  }
+]

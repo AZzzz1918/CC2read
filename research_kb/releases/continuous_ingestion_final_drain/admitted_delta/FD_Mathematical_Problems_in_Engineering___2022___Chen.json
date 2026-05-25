@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_Mathematical_Problems_in_Engineering___2022___Chen",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Signal‐in‐Space and Positioning Performance of BDS Open Augmentation Service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "Asatypicalaugmentationsatellitesystemforcentimeter-levelpositioning,PPP(PrecisePointPositioning)servicebasedonPPP- B2bsignalofChina’snewgenerationBeiDousystem(BDS-3)wasreleasedforAsia-PacificareaonJuly,2020.(ispaperfirst introducestherecoverytheoryofPPP-B2bSSR(StateSpaceRepresentation)messagesandthenimplementsareal-timePPP-B2b precisepositioningterminaltodecodeandobtainthePPP-B2bSSRorbit,clock,and",
+      "BDS PPP-B2b SSR messages can operational since November 2018 [8], which can augment correcttheCNAV1NAVephemerisofBDSB1Csignaland QZSS, GPS, and Galileo signals currently and will provide the LNAV NAV ephemeris of GPS L1C/A signal [13]."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 19
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 11,
+    "b2b": 113,
+    "has": 1,
+    "dcb": 19,
+    "clas": 3
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

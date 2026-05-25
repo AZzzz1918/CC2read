@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper investigates the feasibility of using real-time PPP-B2b corrections for LEO satellite precise orbit determination, focusing on the application of the B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "remotesensing-16-00833-v2.pdf",
+  "paper_id": "remotesensing-16-00833-v2",
+  "extraction_mode": "batch_classify_1call"
+}

@@ -1,0 +1,98 @@
+{
+  "wave": 1,
+  "processed": 10,
+  "core": 7,
+  "wrong_ps": 0,
+  "results": [
+    {
+      "pid": "2024--Jianfei_Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servi",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 223,
+      "role": "core_ppp_b2b",
+      "pages": 14,
+      "quotes": 3,
+      "scope": "CORE_RELEVANT"
+    },
+    {
+      "pid": "A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availabili",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 42,
+      "role": "core_ppp_b2b",
+      "pages": 9,
+      "quotes": 2,
+      "scope": "CORE_RELEVANT"
+    },
+    {
+      "pid": "Real-Time_Kinematic_Orbit_Determination_for_LEO_by_Integrating_Broadca",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 172,
+      "role": "core_ppp_b2b",
+      "pages": 16,
+      "quotes": 2,
+      "scope": "CORE_RELEVANT"
+    },
+    {
+      "pid": "Real-Time_Precise_Zenith_Tropospheric_Delay_Estimation_With_BDS_PPP-B2",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 71,
+      "role": "core_ppp_b2b",
+      "pages": 11,
+      "quotes": 2,
+      "scope": "CORE_RELEVANT"
+    },
+    {
+      "pid": "Real-time_oceanic_PWV_sensing_using_BeiDou-3_PPP-B2b_and_low-cost_GNSS",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 66,
+      "role": "core_ppp_b2b",
+      "pages": 17,
+      "quotes": 2,
+      "scope": "CORE_RELEVANT"
+    },
+    {
+      "pid": "Research_on_Single-Frequency_PPP-B2b_Time_Transfer",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 82,
+      "role": "core_ppp_b2b",
+      "pages": 6,
+      "quotes": 3,
+      "scope": "CORE_RELEVANT"
+    },
+    {
+      "pid": "2023--D._Borio--GHASP_a_Galileo_HAS_parser",
+      "ps": "CNES_OR_OTHER_RTS",
+      "b2b": 0,
+      "role": "non_b2b_galileo",
+      "pages": 8,
+      "quotes": 0,
+      "scope": "BACKGROUND_ONLY"
+    },
+    {
+      "pid": "2023--Nacer_Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te",
+      "ps": "CNES_OR_OTHER_RTS",
+      "b2b": 11,
+      "role": "non_b2b_galileo",
+      "pages": 15,
+      "quotes": 3,
+      "scope": "BOUNDARY_RELEVANT"
+    },
+    {
+      "pid": "Mathematical_Problems_in_Engineering_-_2022_-_Tang_-_Modelling_and_Ass",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 163,
+      "role": "core_ppp_b2b",
+      "pages": 16,
+      "quotes": 3,
+      "scope": "CORE_RELEVANT"
+    },
+    {
+      "pid": "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威",
+      "ps": "CNES_OR_OTHER_RTS",
+      "b2b": 0,
+      "role": "general_ppp",
+      "pages": 72,
+      "quotes": 1,
+      "scope": "BACKGROUND_ONLY"
+    }
+  ]
+}

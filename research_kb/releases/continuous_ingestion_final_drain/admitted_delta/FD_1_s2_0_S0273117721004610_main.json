@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S0273117721004610_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "bShanghaiAstronomicalObservatory,ChineseAcademyofScience,No.80NandanRoad,Shanghai200030,China"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Available online atwww.sciencedirect.com ScienceDirect AdvancesinSpaceResearch68(2021)3242–3254 www.elsevier.com/locate/asr Performance assessment of real-time precise point positioning using BDS PPP-B2b service signal Zhiling Rena, Hang Gonga,⇑ , Jing Penga, Chengpan Tanga,b, Xinming Huanga, Guangfu Suna aCollegeofElectronicScienceandTechnology,NationalUniversityofDefenseTechnol",
+      "Keywords: BDS;PPP-B2b;GPS;Precisepointpositioning;Real-timePPP 1."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 26
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 13,
+    "b2b": 68,
+    "has": 0,
+    "dcb": 26,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

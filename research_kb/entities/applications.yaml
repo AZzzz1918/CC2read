@@ -1,0 +1,42 @@
+# Application Routes — Continuously Extensible Research KB
+
+applications:
+  - name: Static PPP Surveying
+    maturity: MATURE
+    paper_count: 15
+
+  - name: Kinematic PPP (Vehicle/Vessel/Aircraft)
+    maturity: ESTABLISHED
+    paper_count: 6
+
+  - name: Time Transfer / UTC Dissemination
+    maturity: ESTABLISHED
+    paper_count: 6
+
+  - name: ZTD / PWV Meteorological Monitoring
+    maturity: ESTABLISHED
+    paper_count: 6
+
+  - name: Earthquake / Seismogeodesy
+    maturity: GROWING
+    paper_count: 3
+
+  - name: LEO Satellite Orbit Determination
+    maturity: GROWING
+    paper_count: 3
+
+  - name: UAV Positioning
+    maturity: EMERGING
+    paper_count: 1
+
+  - name: Smartphone / Low-Cost Positioning
+    maturity: EMERGING
+    paper_count: 1
+
+  - name: INS / Multi-Sensor Integration
+    maturity: GROWING
+    paper_count: 5
+
+  - name: Ocean PWV Sensing
+    maturity: EMERGING
+    paper_count: 1

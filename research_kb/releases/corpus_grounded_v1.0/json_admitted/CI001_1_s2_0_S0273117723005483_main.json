@@ -1,0 +1,42 @@
+{
+  "paper_id": "CI001_1_s2_0_S0273117723005483_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-001",
+  "bibliographic_info": {
+    "title": "cKeyLaboratoryofElectro-OpticalCountermeasuresTest&EvaluationTechnology,Luoyang471000,China"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Available online atwww.sciencedirect.com ScienceDirect AdvancesinSpaceResearch72(2023)4008–4020 www.elsevier.com/locate/asr Positioning performance analysis of real-time BDS-3 PPP-B2b/INS tightly coupled integration in urban environments Peng Xiaoa, Fuping Suna,⇑ , Kai Wangb, Kai Xiaoa, Xiangyong Shanga,c, Jing Liua aInstituteofGeospatialInformation,PLAStrategicSupportForceInform",
+      "However, a dense urban environment may cause frequent interruption of GNSS signals, and PPP-B2b alone cannot achievecontinuousprecisionpositioning.ThisstudydocumentsastudythatattemptstocombinePPP-B2bwithaninertialnavigation system(INS).Areal-timetightlycoupledintegrationmodelofPPP-B2b/INSbasedonPPP-B2bserviceswasconstructed,andaperfor- mance analysis of the tightly coupled integration positioning "
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 8,
+    "grounding_quotes": [
+      "IF i j r s i;j IF PS IF : (cid:3) (cid:3) Differentialcodebias correctionisusedto eliminatethe L ¼a(cid:5)L þð1(cid:3)aÞ(cid:5)L ¼qþc(cid:5)dt (cid:3)c(cid:5)dt þdTrop þk (cid:5)N þe IF i j r s i;j IF IF LS IF intersymbol deviation of each frequency, which can be ð10Þ written as follows: (cid:4) (cid:5) a¼f2= f2(cid:3)f2 ð11Þ e l ¼l (cid:3)DCB ð7Þ i i j sig sig sig (cid:3) InEq.(7), e l sig iscorr"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 13,
+    "b2b": 161,
+    "has": 0,
+    "dcb": 8
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "corpus_version": "v1.0"
+}

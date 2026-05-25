@@ -1,0 +1,1 @@
+v0.3 merges 3 releases with different extraction formats. 3 targeted corrections from Phase B preserved in correction layer. Batch 2 papers have 0 grounding quotes (programmatic extraction). Chinese thesis (Liu Wei) has 0 B2b mentions — correctly classified as general PPP.

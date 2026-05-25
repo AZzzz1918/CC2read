@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_sustainability_18_02400",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Design and Preliminary Evaluation of an Integrated Communication and Navigation Security Assurance Platform Based on BeiDou-3: A Case Study in Qinghai Province"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "The specific research objectives are (i) to develop a hybrid high‑precision positioning model integrating PPP‑B2b, RTK, and MEMS inertial constraints; (ii) to implement an adaptive multi‑link communication strategy combining BeiDou‑3 short message communication (SMC), 4G LTE, and VHF; (iii)todesignalightweightSM1/SM2security‑and‑compressionframeworkoptimizedfor bandwidth‑constrained satellite mess",
+      "AcademicEditor:CongzhengHan Received:11December2025 Keywords: BeiDou‑3; short message communication (SMC); hybrid positioning; PPP‑B2b; Revised:21January2026 RTK;Qinghai–TibetPlateau;digitaldivide;disasterresilience;sustainabledevelopmentgoals Accepted:23January2026 Published:2March2026 Copyright:©2026bytheauthors."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 31,
+    "b2b": 35,
+    "has": 0,
+    "dcb": 0,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

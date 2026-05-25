@@ -1,0 +1,54 @@
+{
+  "paper_id": "Research_on_Single-Frequency_PPP-B2b_Time_Transfer",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "selection_role": "core_ppp_b2b",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Research on Single-Frequency PPP-B2b Time Transfer Zaimin He, Lan Li, Runzhi Zhang, Juan Hou, Gongwei Xiao, Wei Guang, Jihai Zhang, and Xiangyi He Time transfer based on global navigation satellite sys- common-view (CV), all-in-view (AV), and GNSS carrier tem (GNSS) using precise point positioning (PPP) phase.",
+      "The GeoForschungZentrum (GFZ) system (BDS-3) has provided GNSS users with the PPP prod- analysis center product GBM, whose accuracy can reach uct using PPP-B2b signal through three geostationary earth 3 cm, can be obtained with a two-day delay."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2022-3-3",
+    "end_date": "2022-3-3",
+    "grounding_quotes": []
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 2,
+    "grounding_quotes": [
+      "  Ions =I r s ,j+ζion  Precise Satellite Orbit The rough satellite position which is calculated through the In (4), p r s iono j refers to pseudorange observation corrected us- _ , s broadcast ephemeris is corrected using the PPP-B2b product ing the differential code bias PPP-B2b product; µr denotes the and (1) to obtain the precise satellite position: receiver-to-satellite unit vector; c is t"
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 14
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code/software release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 6,
+    "b2b_mentions": 82,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 2
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "expected_ps": "BDS3_PPP_B2B_BROADCAST"
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

@@ -1,0 +1,2722 @@
+{
+  "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser": {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "paper\\2020--Maosen Hao--PPPPerformanceEvaluationofQZSSCentimeterLevelAugmentationService.pdf",
+    "file_hash": "8726667e66f6f27bc08cf0b7c789fdec383c0aeaba43e06111f37fe15777afdf",
+    "pdf_metadata": {
+      "title": null,
+      "author": "Protherough",
+      "subject": null,
+      "creator": "WPS 文字",
+      "producer": null
+    },
+    "page_count": 13,
+    "pages_extractable": 13,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T14:00:14.314404",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 543,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 2032,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 3163,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 2193,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 1363,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 2231,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 2948,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 283,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 2041,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 1903,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 1785,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 2333,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 2262,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Euiho_Kim_2022_fault-free_protection_level_equation_for_clas_ppp-": {
+    "paper_id": "Euiho_Kim_2022_fault-free_protection_level_equation_for_clas_ppp-",
+    "source_file": "paper\\2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CLAS_PPP-.pdf",
+    "file_hash": "0f6b9daee638e49d9bc2ddd051aeab45812d3e4692d5d8320203c0d7576a947e",
+    "pdf_metadata": {
+      "title": "Fault-Free Protection Level Equation for CLAS PPP-RTK and Experimental Evaluations",
+      "author": "Euiho Kim, Jaeyoung Song, Yujin Shin, Saekyul Kim, Pyo-Woong Son, Sulgee Park and Sanghyun Park",
+      "subject": "Centimeter level augmentation system (CLAS) of the quasi-zenith satellite system (QZSS) is the first precise point positioning-real time kinematic (PPP-RTK) augmentation system of the global navigation satellite system (GNSS), which is currently providing services for Japan. CLAS broadcasts the state-space representation of correction messages along with integrity messages regarding satellite faults and the quality index of each correction. In other GNSS augmentation systems, such as the space-based augmentation system (SBAS) of GNSS, the quality indices of correction messages are used to generate fault-free protection levels that represent a position bound containing a true user position with a probability of missed detections. Although the protection level equations are well defined for the SBAS, a protection level equation for the CLAS PPP-RTK service has not been rigorously discussed in the literature. This paper proposes a fault-free protection level equation for the PPP-RTK methods that considers the probability of correct integer ambiguity fixes in the GNSS carrier phase measurements as well as the CLAS correction quality messages. The computed protection levels with position errors were experimentally compared by processing the GNSS measurements from the GNSS Earth Observation Network (GEONET) stations in Japan and the L6 messages from the CLAS broadcast using the virtual reference station-real time kinematic (VRS-RTK) techniques. Our results, based on the GEONET dataset spanning 7 days, showed that the computed protection levels using the proposed equations were larger than the position errors for all epochs. In the dataset, the RMS errors of the CLAS VRS-RTK position were 4.6 and 14 cm in the horizontal and vertical directions, respectively, whereas the horizontal protection levels ranged from 25 cm to 2.3 m and the vertical protection levels ranged from 50 cm to 5.2 m based on fault-free integrity risk of 10- 7 .",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.21"
+    },
+    "page_count": 13,
+    "pages_extractable": 13,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:47:41.417256",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4053,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 4131,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 2868,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 2645,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 2284,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2834,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 5619,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 2517,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 1636,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 3641,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 4100,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 4028,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 4430,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp": {
+    "paper_id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+    "source_file": "paper\\2022--Ruohua Lan--Evaluation_of_BDS-3_B1CB2b_SingleDual-Frequency_PP.pdf",
+    "file_hash": "6b64e9c13489f075189a863473ef21d625146a66371d8d10ca2053c3d647829b",
+    "pdf_metadata": {
+      "title": "Type of the Paper (Article",
+      "author": "ruohu",
+      "subject": null,
+      "creator": "Microsoft® Word for Microsoft 365",
+      "producer": "Microsoft® Word for Microsoft 365"
+    },
+    "page_count": 25,
+    "pages_extractable": 25,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T14:00:10.978114",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4408,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 4114,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 4114,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 3435,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 2572,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 2700,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 2487,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 2281,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 1938,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 2598,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 136,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 152,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 3467,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 1262,
+        "not_extractable": false
+      },
+      {
+        "page": 15,
+        "chars": 2978,
+        "not_extractable": false
+      },
+      {
+        "page": 16,
+        "chars": 1115,
+        "not_extractable": false
+      },
+      {
+        "page": 17,
+        "chars": 2519,
+        "not_extractable": false
+      },
+      {
+        "page": 18,
+        "chars": 1463,
+        "not_extractable": false
+      },
+      {
+        "page": 19,
+        "chars": 1559,
+        "not_extractable": false
+      },
+      {
+        "page": 20,
+        "chars": 190,
+        "not_extractable": false
+      },
+      {
+        "page": 21,
+        "chars": 3720,
+        "not_extractable": false
+      },
+      {
+        "page": 22,
+        "chars": 745,
+        "not_extractable": false
+      },
+      {
+        "page": 23,
+        "chars": 4130,
+        "not_extractable": false
+      },
+      {
+        "page": 24,
+        "chars": 5752,
+        "not_extractable": false
+      },
+      {
+        "page": 25,
+        "chars": 1423,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat": {
+    "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+    "source_file": "paper\\2022--Tang Chenggan--Orbit determination, clock estimation and performance evaluation.pdf",
+    "file_hash": "86bba41274f88faa14d9e35a1fa7e2df7ee352cf6d3a8d33b5536245edcd573b",
+    "pdf_metadata": {
+      "title": "Orbit determination, clock estimation and performance evaluation of BDS-3 PPP-B2b service",
+      "author": "Chengpan Tang ",
+      "subject": "Journal of Geodesy, https://doi.org/10.1007/s00190-022-01642-9",
+      "creator": "Springer",
+      "producer": "Acrobat Distiller 10.1.8 (Windows)"
+    },
+    "page_count": 17,
+    "pages_extractable": 17,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:47:53.150002",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 2971,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5183,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 4396,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 3556,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 5134,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 3682,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 3913,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 525,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 2404,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 2691,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 1912,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 4138,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 895,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 3231,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 1628,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 16,
+        "chars": 6186,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 17,
+        "chars": 1680,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c": {
+    "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+    "source_file": "paper\\2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C.pdf",
+    "file_hash": "a86ad7a6142eef2ed8bd4745196d7da745e4762a867de062f53f5435973e7c93",
+    "pdf_metadata": {
+      "title": "Comprehensive Analyses of PPP-B2b Performance in China and Surrounding Areas",
+      "author": "Yan Liu, Cheng Yang and Mengni Zhang",
+      "subject": "BeiDou Global Navigation Satellite System (BDS-3) provides a regional Precise Point Positioning (PPP) service, called PPP-B2b, for users in China and surrounding areas through B2b signal transmitted from its three geostationary earth orbit (GEO) satellites. The information broadcasted by the B2b signal include satellite orbit corrections, satellite clock offset corrections, and differential code bias (DCB) corrections of BDS-3 satellites. In this study, the accuracies of PPP-B2b corrections along with real-time PPP performance are comprehensively evaluated referenced to precise orbit and clock products from GFZ and the precise DCB products from CAS. The result indicates that the accuracy of the BDS-3 broadcast orbit is similar to that of the PPP-B2b real-time orbit. The PPP-B2b clock offset correction improved the satellite clock offset precision of the BDS-3 broadcast ephemeris. The Signal-in-Space Range Error (SISRE) of broadcast ephemeris and PPP-B2b are calculated, which are 0.536 and 1.24 m, respectively. The large SISRE value of PPP-B2b is caused by the satellite-specified systematic bias to IGS final products. The positioning performance evaluation of real-time PPP with B2b service is carried out and compared with the real-time product provided by Wuhan University (WHU) based on the eight IGS MGEX stations in China and surrounding countries. The positioning accuracy of static positioning mode with PPP-B2b service achieved centimeter-level accuracy in the selected station, and that of kinematic positioning mode achieved decimeter-level accuracy. The availability rate of PPP-B2b corrections in the surrounding area of China, however, degrades from 88.76% to 60.91% in the selected stations. The accuracy of the PPP solution using PPP-B2b correction is better than that of using WHU real-time product within China. The positioning performance of stations located at the boundary of the PPP-B2b service area, however, is affected by the number of PPP-B2b available satellites. The positioning accuracy in kinematic positioning mode is worse than that of using WHU real-time precise product.",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.21"
+    },
+    "page_count": 28,
+    "pages_extractable": 28,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:48:35.415216",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4168,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 3930,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 3385,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 3143,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 3032,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2702,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 3357,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 3592,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 255,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 3087,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 2861,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 1903,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 2179,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 6069,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 2921,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 16,
+        "chars": 736,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 17,
+        "chars": 3788,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 18,
+        "chars": 1340,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 19,
+        "chars": 2509,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 20,
+        "chars": 1189,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 21,
+        "chars": 3995,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 22,
+        "chars": 4970,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 23,
+        "chars": 3131,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 24,
+        "chars": 3511,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 25,
+        "chars": 2625,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 26,
+        "chars": 3591,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 27,
+        "chars": 4671,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 28,
+        "chars": 2576,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b": {
+    "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+    "source_file": "paper\\2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf",
+    "file_hash": "b2e30e52ae9ab1a0a76ef9ec1f24541ebbdd454b125274f5beca306936b8e896",
+    "pdf_metadata": {
+      "title": "Principle and performance of BDSBAS and PPP-B2b of BDS-3",
+      "author": "Yuanxi Yang ",
+      "subject": "Satellite Navigation, https://doi.org/10.1186/s43020-022-00066-2",
+      "creator": "Springer",
+      "producer": "Acrobat Distiller 10.1.8 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 10,
+    "pages_extractable": 10,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:48:37.583748",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 1269,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 4601,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 5588,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 5578,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 4519,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 3795,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 5017,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 3385,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 7635,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 679,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "D. Borio_2023_ghasp_a_galileo_has_parser": {
+    "paper_id": "D. Borio_2023_ghasp_a_galileo_has_parser",
+    "source_file": "paper\\2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf",
+    "file_hash": "b6c679b5d1e412331b06b2a67f66e0e22f868f4c9c9a29ff8e8f31f45a1bd5fd",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 8,
+    "pages_extractable": 8,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:48:38.453304",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4097,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 3244,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 5416,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 445,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 437,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2528,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 4466,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 4128,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Daniele_Borio_2023_hascoordsept2023": {
+    "paper_id": "Daniele_Borio_2023_hascoordsept2023",
+    "source_file": "paper\\2023--Daniele Borio--HASCoordSept2023.pdf",
+    "file_hash": "390bc1021c6323a40aae4caaa5e50baa472f37c5e5057fbf87ac6011fa9217cf",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": "pdftk-java 3.3.1",
+      "producer": "itext-paulo-155 (itextpdf.sf.net - lowagie.com)"
+    },
+    "page_count": 9,
+    "pages_extractable": 9,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:48:39.298101",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 1367,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 704,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 3100,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 3177,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 3261,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 3129,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 4036,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 2825,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 4792,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Nacer Naciri_2023_assessment_of_galileo_high_accuracy_service_has_te": {
+    "paper_id": "Nacer Naciri_2023_assessment_of_galileo_high_accuracy_service_has_te",
+    "source_file": "paper\\2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf",
+    "file_hash": "51778dcf7aba7cf5a301056ef782f00e20679097cc78c24e864cc0e0d243f207",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version) (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 15,
+    "pages_extractable": 15,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:48:52.346163",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4092,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5987,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 5664,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 3351,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 3771,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2327,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 2981,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 4828,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 3044,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 3138,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 4234,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 4155,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 7201,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 3495,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 4128,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Pedro_Pintor_2023_testing_galileo_high-accuracy_service_has_in_marin": {
+    "paper_id": "Pedro_Pintor_2023_testing_galileo_high-accuracy_service_has_in_marin",
+    "source_file": "paper\\2023--Pedro Pintor--Testing_Galileo_High-Accuracy_Service_HAS_in_Marin.pdf",
+    "file_hash": "9026c60a8304bb08812cd0bee51dcde54c4b112e07e141f16449a27ea25a1d0d",
+    "pdf_metadata": {
+      "title": "Testing Galileo High-Accuracy Service (HAS) in Marine Operations",
+      "author": "Pedro Pintor, Manuel Lopez-Martinez, Emilio Gonzalez, Jan Safar and Ronan Boyle",
+      "subject": "Global Navigation Satellite System (GNSS) technology supports all phases of maritime navigation and serves as an integral component of the Automatic Identification System (AIS) and, by extension, Vessel Traffic Service (VTS) systems. However, the accuracy of standalone GNSS is often insufficient for specific operations. To address this limitation, various regional and local-area solutions have been developed, such as Differential GNSS (DGNSS), Satellite Based Augmentation Service (SBAS) and Real Time Kinematic (RTK) techniques. A notable development in this field is the recent introduction of the Galileo High-Accuracy Service (HAS), which saw its initial service declared operational by the European Commission (EC) on 24 January 2023. Galileo HAS provides high-accuracy Precise Point Positioning (PPP) corrections (orbits, clocks and signal biases) for Galileo and GPS, enhancing real-time positioning performance at no additional cost to users. This article presents the results of the first Galileo HAS testing campaign conducted at sea using a buoy-laying vessel temporarily equipped with a Galileo HAS User Terminal. The results presented in this Article include accuracy and position availability performance achieved using the Galileo HAS User Terminal. The article also highlights challenges posed by high-power radio-frequency interference, which likely originated from the Long-Range Identification and Tracking (LRIT) system antenna on board the vessel. Furthermore, the article provides additional assessments for different phases of navigation, demonstrating better performance in slow-motion scenarios, particularly relevant to mooring and pilotage applications. In these scenarios, values for horizontal accuracy reached 0.22 m 95% and 0.13 m 68% after removing interference periods. These results are in line with the expectations outlined in the Galileo HAS Service Definition Document (SDD).",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.25"
+    },
+    "page_count": 13,
+    "pages_extractable": 13,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:48:54.193984",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3924,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 2985,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 2645,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 3707,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 3605,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2592,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 2485,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 1916,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 2701,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 4554,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 3598,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 4886,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 674,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf": {
+    "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+    "source_file": "paper\\2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+    "file_hash": "32a3063a699d56e5d3214bf45f9f22817a3b0098b9b4d3e31f018ec78d6896df",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 15,
+    "pages_extractable": 15,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:49:07.611676",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4084,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5389,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 5195,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 3577,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 4667,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 4930,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 1871,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 2618,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 3421,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 1042,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 4370,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 6774,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 4898,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 1184,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 4128,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Taro_Suzuki_2023_evaluation_of_l6_augmentation_signal_reception_cha": {
+    "paper_id": "Taro_Suzuki_2023_evaluation_of_l6_augmentation_signal_reception_cha",
+    "source_file": "paper\\2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha.pdf",
+    "file_hash": "b2fd4a8bcdea8d3662c87a58f4a97e3c908af1987a92c3d095cc953f0e0880f0",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 14,
+    "pages_extractable": 14,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:49:18.091498",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4101,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 6567,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 4487,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 5558,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 2550,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 1558,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 3284,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 1751,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 1487,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 3985,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 1462,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 5532,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 3489,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 4128,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service": {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "paper\\2024--Ge yulong--An investigation of PPP time transfer via BDS‑3 PPP‑B2b service.pdf",
+    "file_hash": "ce205b8a3494bf3ef978c9d6b91fa7d821f0e4995776f68bee15c05921eed80b",
+    "pdf_metadata": {
+      "title": "An investigation of PPP time transfer via BDS-3 PPP-B2b service",
+      "author": "Yulong Ge ",
+      "subject": "GPS Solutions, https://doi.org/10.1007/s10291-023-01402-y",
+      "creator": "Springer",
+      "producer": "Acrobat Distiller 10.1.8 (Windows)"
+    },
+    "page_count": 17,
+    "pages_extractable": 17,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T14:00:13.579367",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4079,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 4328,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 3110,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 2970,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 1917,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 2662,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 1872,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 2423,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 1713,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 2282,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 3151,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 2106,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 1939,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 1687,
+        "not_extractable": false
+      },
+      {
+        "page": 15,
+        "chars": 6949,
+        "not_extractable": false
+      },
+      {
+        "page": 16,
+        "chars": 3952,
+        "not_extractable": false
+      },
+      {
+        "page": 17,
+        "chars": 1000,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic": {
+    "paper_id": "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic",
+    "source_file": "paper\\2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+    "file_hash": "1cc4ddb47cd58364190b5e0c5d9c0193f9db72f58bedaff446bf032e18b4506e",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 14,
+    "pages_extractable": 14,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:49:21.776217",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4083,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5693,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 4268,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 5267,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 2384,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 4337,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 1545,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 2368,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 3285,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 274,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 5961,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 7590,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 2293,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 4128,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Wei_Haopeng_2024_combining_galileo_hasandbeidou_pppb2b_withhelmert_coordinate": {
+    "paper_id": "Wei_Haopeng_2024_combining_galileo_hasandbeidou_pppb2b_withhelmert_coordinate",
+    "source_file": "paper\\2024--Wei Haopeng--Combining Galileo HAS and Beidou PPP‑B2b with Helmert coordinate .pdf",
+    "file_hash": "65a2e1a71629bee2997c41c065db01e82d865527899d193915491c0c897a5ec9",
+    "pdf_metadata": {
+      "title": "Combining Galileo HAS and Beidou PPP-B2b with Helmert coordinate transformation method",
+      "author": "Haopeng Wei ",
+      "subject": "GPS Solutions, https://doi.org/10.1007/s10291-024-01789-2",
+      "creator": "Springer",
+      "producer": "Acrobat Distiller 10.1.8 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 14,
+    "pages_extractable": 14,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T17:40:12.634265",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3418,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5487,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 4795,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 3532,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 4647,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 1720,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 4288,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 2777,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 1510,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 3364,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 2249,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 1994,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 6401,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 3874,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Zhou_Peiyuan_2024_initial_performance_assessment_of_galileo_high_acc": {
+    "paper_id": "Zhou_Peiyuan_2024_initial_performance_assessment_of_galileo_high_acc",
+    "source_file": "paper\\2024--Zhou Peiyuan--Initial_performance_assessment_of_Galileo_High_Acc.pdf",
+    "file_hash": "56b5c5567ea664bee226c3dcdeda417b9e7d446cc48fdf4f38b144fd71f0d5bb",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 15,
+    "pages_extractable": 15,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:51:40.139030",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4183,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5309,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 4169,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 2900,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 2394,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2791,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 771,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 2934,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 1857,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 3628,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 1377,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 3215,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 4411,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 6264,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 4128,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Pan_Lin_2025_bds_b2b_and_has": {
+    "paper_id": "Pan_Lin_2025_bds_b2b_and_has",
+    "source_file": "paper\\2025--Pan Lin--BDS B2b and HAS.pdf",
+    "file_hash": "8d217cc9822ce4ac33b60d51bb3f88afff2612158b2a173bf114438e9a80e29b",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": "Adobe InDesign 18.3 (Windows)",
+      "producer": "Adobe PDF Library 17.0; modified using iText® 5.5.13.4 ©2000-2024 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 11,
+    "pages_extractable": 11,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:51:42.127688",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3997,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5508,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 4880,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 6121,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 4679,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2778,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 3073,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 2310,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 2717,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 5585,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 6193,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Zhao_Lewen_2025_python_toolbox_for_bds_b2b": {
+    "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+    "source_file": "paper\\2025--Zhao Lewen--Python toolbox for BDS  B2b.pdf",
+    "file_hash": "02fb7a313b6d4c6510f0de5b969052efffe45b3c16daf7d29746deb268d44147",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": "Adobe InDesign 18.3 (Windows)",
+      "producer": "Adobe PDF Library 17.0; modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 10,
+    "pages_extractable": 10,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:51:46.493803",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 5580,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 7046,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 3378,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 246,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 2661,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 1070,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 2082,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 374,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 6001,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 1071,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo": {
+    "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+    "source_file": "paper\\2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf",
+    "file_hash": "4dea22b1be6956c1e082dba59fc1557f9a3222e94d100cc80c712535e7bac8bd",
+    "pdf_metadata": {
+      "title": "Practical Performance Assessment of Water Vapor Monitoring Using BDS PPP-B2b Service",
+      "author": "Linghao Zhou, Enhong Zhang, Hong Liang, Zuquan Hu, Meifang Qu, Xinxin Li and Yunchang Cao",
+      "subject": "BeiDou navigation satellite system (BDS) precise point positioning (PPP)-B2b has significant potential for application in meteorological fields, such as standalone water vapor monitoring in depopulated area without Internet. In this study, the practical ability of water vapor monitoring using the BDS PPP-B2b service is illustrated through a continuously operated water vapor monitoring system in Wuhan, China, with a 25-day experiment in 2025. Original observations from the Global Positioning System (GPS) and BDS are collected and processed in the near real-time (NRT) mode using ephemeris from the PPP-B2b service. Precipitable water vapor PWV monitored with B2b ephemeris are evaluated with radiosonde and ERA5 reanalysis, respectively. Taking PWV from radiosonde observations as the reference, RMS of PWV based on B2b ephemeris varies from 3.71 to 4.66 mm for different satellite combinations. While those values are with a range from 3.95 to 4.55 mm when compared with ERA5 reanalysis. These values are similar to those processed with the real-time ephemeris from the China Academy of Science (CAS). In general, this study demonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-B2b service can meet the basic demand for operational meteorology for the first time. This will provide a scientific reference for its wide promotion to meteorological applications in the near future.",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.25; modified using OpenPDF 1.4.2"
+    },
+    "page_count": 15,
+    "pages_extractable": 15,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:51:47.634794",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3277,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 3856,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 2401,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 1191,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 1833,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 3305,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 1788,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 1683,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 2603,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 1325,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 1481,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 3193,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 2254,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 5000,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 3901,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "new_2": {
+    "paper_id": "new_2",
+    "source_file": "paper\\P020250821587994414729.pdf",
+    "file_hash": "4837bd9d53ebebc64461443b4d052d2200e3a7b5500965d0866cae2c15f48a14",
+    "pdf_metadata": {
+      "title": "中文题目（小2号黑体）",
+      "author": "new",
+      "subject": null,
+      "creator": "WPS 文字",
+      "producer": null
+    },
+    "page_count": 12,
+    "pages_extractable": 12,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:51:49.821444",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 1830,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 2598,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 1834,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 1248,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 1047,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 1917,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 1494,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 1252,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 1365,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 910,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 2072,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 3162,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "hongxing_zhang_real-time_oceanic_pwv_sensing_using_beidou-3_": {
+    "paper_id": "hongxing_zhang_real-time_oceanic_pwv_sensing_using_beidou-3_",
+    "source_file": "paper\\s00190-026-02039-8.pdf",
+    "file_hash": "427f745dd0e65f7cbc37882b4e009076e53ee4c9b30b9a23d2b46b1af1eba957",
+    "pdf_metadata": {
+      "title": "Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS devices",
+      "author": "Hongxing Zhang ",
+      "subject": "Journal of Geodesy, https://doi.org/10.1007/s00190-026-02039-8",
+      "creator": "Springer",
+      "producer": "Acrobat Distiller 10.1.8 (Windows); modified using iText® 5.5.13.4 ©2000-2024 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 17,
+    "pages_extractable": 17,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:52:02.691956",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3638,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 5254,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 4664,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 4346,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 1137,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 4169,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 2358,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 3114,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 2378,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 425,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 2701,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 1205,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 2618,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 2130,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 2060,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 16,
+        "chars": 6291,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 17,
+        "chars": 965,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "unknown_970b1f74d3e8": {
+    "paper_id": "unknown_970b1f74d3e8",
+    "source_file": "paper\\基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.pdf",
+    "file_hash": "058841005cf817ba42c651570097688df8e57b4cbc58788be678a661250b43da",
+    "pdf_metadata": {
+      "title": null,
+      "author": "CNKI",
+      "subject": null,
+      "creator": "ReaderEx_DIS 2.5.0 Build 4088",
+      "producer": "TTKN"
+    },
+    "page_count": 72,
+    "pages_extractable": 72,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "pdfplumber + pypdf (danielmiessler-pdf skill pipeline)",
+    "extraction_timestamp": "2026-05-20T15:52:16.099118",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 186,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 2,
+        "chars": 220,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 3,
+        "chars": 1024,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 4,
+        "chars": 906,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 5,
+        "chars": 2367,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 6,
+        "chars": 2367,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 7,
+        "chars": 2934,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 8,
+        "chars": 1940,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 9,
+        "chars": 1075,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 10,
+        "chars": 1094,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 11,
+        "chars": 1333,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 12,
+        "chars": 1129,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 13,
+        "chars": 465,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 14,
+        "chars": 878,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 15,
+        "chars": 1259,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 16,
+        "chars": 1309,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 17,
+        "chars": 1025,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 18,
+        "chars": 1106,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 19,
+        "chars": 853,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 20,
+        "chars": 1252,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 21,
+        "chars": 1269,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 22,
+        "chars": 1173,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 23,
+        "chars": 889,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 24,
+        "chars": 973,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 25,
+        "chars": 191,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 26,
+        "chars": 724,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 27,
+        "chars": 944,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 28,
+        "chars": 1108,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 29,
+        "chars": 1050,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 30,
+        "chars": 876,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 31,
+        "chars": 961,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 32,
+        "chars": 924,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 33,
+        "chars": 1139,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 34,
+        "chars": 846,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 35,
+        "chars": 973,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 36,
+        "chars": 966,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 37,
+        "chars": 999,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 38,
+        "chars": 823,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 39,
+        "chars": 845,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 40,
+        "chars": 1116,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 41,
+        "chars": 1017,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 42,
+        "chars": 987,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 43,
+        "chars": 979,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 44,
+        "chars": 1111,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 45,
+        "chars": 1581,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 46,
+        "chars": 1861,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 47,
+        "chars": 2871,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 48,
+        "chars": 3508,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 49,
+        "chars": 1185,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 50,
+        "chars": 3518,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 51,
+        "chars": 761,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 52,
+        "chars": 360,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 53,
+        "chars": 1839,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 54,
+        "chars": 1490,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 55,
+        "chars": 2264,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 56,
+        "chars": 2203,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 57,
+        "chars": 575,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 58,
+        "chars": 2494,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 59,
+        "chars": 722,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 60,
+        "chars": 2416,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 61,
+        "chars": 1655,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 62,
+        "chars": 1085,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 63,
+        "chars": 1818,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 64,
+        "chars": 1317,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 65,
+        "chars": 1479,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 66,
+        "chars": 1603,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 67,
+        "chars": 507,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 68,
+        "chars": 1083,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 69,
+        "chars": 784,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 70,
+        "chars": 1936,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 71,
+        "chars": 1988,
+        "not_extractable": false,
+        "ocr_derived": false
+      },
+      {
+        "page": 72,
+        "chars": 2167,
+        "not_extractable": false,
+        "ocr_derived": false
+      }
+    ],
+    "warnings": []
+  },
+  "Nacer_Naciri_2023_assessment_of_galileo_high_accuracy_service_has_te": {
+    "source_pdf": "2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf",
+    "total_pages": 15,
+    "extractable_pages": 15,
+    "ocr_needed_pages": [],
+    "converted_at": "2026-05-20T23:29:31.008114"
+  }
+}

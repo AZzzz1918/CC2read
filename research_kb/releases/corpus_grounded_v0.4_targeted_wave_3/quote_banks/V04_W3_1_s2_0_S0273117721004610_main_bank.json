@@ -1,0 +1,80 @@
+[
+  {
+    "quote_id": "qb_7aae734b9d",
+    "span_index": 0,
+    "text": "Available online atwww.sciencedirect.com\nScienceDirect\nAdvancesinSpaceResearch68(2021)3242–3254\nwww.elsevier.com/locate/asr\nPerformance assessment of real-time precise point positioning\nusing BDS PPP-B2b service signal\nZhiling Rena, Hang Gonga,⇑ , Jing Penga, Chengpan Tanga,b, Xinming Huanga,\nGuangfu Suna\naCollegeofElectronicScienceandTechnology,NationalUniversityofDefenseTechnology,Changsha410000,China\nbShanghaiAstronomicalObservatory,ChineseAcademyofScience,No.80NandanRoad,Shanghai200030,China\nReceived13December2020;receivedinrevisedform28May2021;accepted3June2021\nAvailableonline11June2021\nA",
+    "char_length": 3402
+  },
+  {
+    "quote_id": "qb_4f5fdf7af4",
+    "span_index": 1,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\norbit and clock using SSR and then can achieve real-time IOD Corr (correction) and the corrections of radial (R),\nPPP (Wang et al., 2019; Kamil et al., 2017). Up to now, along (A), and cross (C) directions. The clock correction\nmany agencies have provided SSR products and real-time parameters of each satellite include IOD Corr and clock\nPPP has become a hot topic for research (Abdi et al., offset correction. IOD Corr is used to judge whether the\n2017;Wangetal.,2018;Krzan,2016).Itisworthmention- clock correction parameters match with the orbit",
+    "char_length": 5426
+  },
+  {
+    "quote_id": "qb_de2d1c3760",
+    "span_index": 2,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nphase hardware delays for receiver and satellite; ns;C and the reference to assess accuracies of real-time precise satel-\nIF\nfs;C\nrepresent noises inthe code and carrier phaseobserva-\nlite orbits and clocks. In the comparison of real-time and\nIF\nGBM precise ephemeris data, the inconsistencies between\ntions, respectively.\nthe systems, such as in the spatial reference frames, time-\nForPPP-B2bservice,theequipmentgroupdelayofB3I\nscales and the center of orbit coordinate, should be taken\nis regarded as the reference equipment group delay for\ninto ",
+    "char_length": 5141
+  },
+  {
+    "quote_id": "qb_54ea54c6fd",
+    "span_index": 3,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nTable1\nPPPprocessingstrategy.\nItems Models\nConstellations BDS,GPS\nStationcoordinate Estimated: constantsforthestaticmode\nwhitenoiseforthekinematicmode;\nReceiverclock Estimated: whitenoise\nObservations dualfrequencycodeandphaseobservations(BDS:B1IandB3I;GPS:L1andL2)\nWeightingscheme Elevationdependentweight;3mmand3mforrawphaseandcode,respectively\nElevationcutoff 8(cid:5)\nTroposphericdelay Drycomponent:correctedwithGPTmodel(Lagleretal.,2013);\nWetcomponent:estimatedasrandom-walkprocess;\nMappingfunction:GMF(Boehmetal.,2006)\nRelativisticEffect Appl",
+    "char_length": 3005
+  },
+  {
+    "quote_id": "qb_4bd382c2d7",
+    "span_index": 4,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nFig.2. BDS-3satelliteorbiterrorsofreal-timePPP-B2bandCNAV1broadcastephemerisrelativetotheGBMfinalproduct.\nTable2 satellite orbits. The results show that the accuracies of\nMeanorbiterrorsofBDS-3satellites. GPSreal-timeprecisesatelliteorbitshaveagreatimprove-\nBDS orbits(m) ment with respect to the GPS LNAV broadcast ephemeris\nR A C orbits.\nPPP-B2b 0.0725 0.2479 0.2587\nCNAV1 0.0808 0.2582 0.2443 3.2. Analysis of the real-time precise clock offsets\nFig. 4 shows the BDS-3 satellite clock errors between\nresults of LNAV broadcast satellite orbits ar",
+    "char_length": 1864
+  },
+  {
+    "quote_id": "qb_b969712c43",
+    "span_index": 5,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nFig.3. GPSsatelliteorbiterrorsofreal-timePPP-B2bandCNAV1broadcastephemerisrelativetotheGBMproduct.\nvariations, and we can infer that the reference timescale\nTable3\noftheGPSsatellitesmaybedifferentfromtheBDS-3satel-\nMeanorbiterrorsofGPSsatellites.\nlites. Considering the differences of reference timescales,\nGPS orbits(m)\ntwo clock receiver clock parameters should be estimated\nR A C\nin BDS/GPS integrated real-time PPP with PPP-B2b ser-\nPPP-B2b 0.0729 0.3098 0.2193 vice. It should also be noted that there are jumps in the\nLNAV 0.5876 1.0368 0.610",
+    "char_length": 1992
+  },
+  {
+    "quote_id": "qb_9e838b81b1",
+    "span_index": 6,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nFig.4. BDS-3satelliteclockoffseterrors.\nFig.5. GPSsatelliteclockoffseterrors.\nStatistics in the figures show about 0.05–0.18 ns and 0.05– 4. Experimental results of real-time PPP\n0.15 ns for BDS-3 and GPS satellite clock offset errors,\nrespectively. And compared to clock offset errors of To test the positioning performance of PPP with PPP-\nCNAV1/LNAV, the accuracies of PPP-B2b have been B2b service, ten MGEX/iGMAS stations are selected to\ngreatly improved. do the PPP experiments. The accuracy and convergence\ntimeofpositioningareassessedforthe",
+    "char_length": 1763
+  },
+  {
+    "quote_id": "qb_5c0d95809a",
+    "span_index": 7,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nFig.6. STDofclockoffseterrorsforBDSandGPSsatellites.\nFig.7. ThePPP-B2bDCB,MGEXDCBandTGDcomparisonresultsofB1IandB3I,B1CpandB3I.\n3249",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_a451a64b67",
+    "span_index": 8,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nTable4 are slightly worse. And static real-time PPP solutions in\nReceiversandantennasinstalledontheselectedstations. GPS mode need more time to reach the given accuracy of\nStation Agency Receivers Antenna 20 cm. However, for the BDS-only mode, the convergence\nWUH MGEX JAVADTRE_3 JAVRINGANT_G5T performance of PPP-B2b is a little better than the post-\nXIA iGMAS UNINAV-GNSS300A UNINAV-GCLS301A processing PPP.\nBJF iGMAS CETC-54-GMR-4016 LEIAR25.R4+LEIT Note that for both real-time and post-processing PPP,\nKUN iGMAS UNICOREUB4B0I NOV750.R4\nthe acc",
+    "char_length": 4549
+  },
+  {
+    "quote_id": "qb_7d70f7a07b",
+    "span_index": 9,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nFig.9. StaticPPPresultsonAugust2ndofWUHstationswithPPP-B2bandGBMorbitsandclocks.\nTable5\nMeanRMSvaluesforPPP-B2bserviceinstaticsolutions.\nstation BDS GPS BDS+GPS\nN(m) E(m) U(m) N(m) E(m) U(m) N(m) E(m) U(m)\nWUH 0.0100 0.0108 0.0199 0.0070 0.0193 0.0421 0.0077 0.0111 0.0287\nXIA 0.0076 0.0251 0.0245 0.0083 0.0405 0.0178 0.0044 0.0280 0.0096\nBJF 0.0096 0.0433 0.0069 0.0138 0.0320 0.0126 0.0100 0.0400 0.0100\nKUN 0.0116 0.0311 0.0274 0.0055 0.0321 0.0313 0.0100 0.0323 0.0224\nSHA 0.0043 0.0302 0.0201 0.0136 0.0296 0.0229 0.0047 0.0319 0.0140\nCHU 0.0",
+    "char_length": 2420
+  },
+  {
+    "quote_id": "qb_1409d7dcfe",
+    "span_index": 10,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nFig.10. MeanconvergencetimesofstaticPPPsolutionsfortheselectedstations.\nFig.11. SimulatedkinematicPPPresultsonAugust2ndofWUHstationswithPPP-B2bandGBMorbitsandclocks.\nTable7\nMeanRMSvaluesforPPP-B2bserviceinkinematicsolutions.\nstation BDS GPS BDS+GPS\nN(m) E(m) U(m) N(m) E(m) U(m) N(m) E(m) U(m)\nWUH 0.0444 0.0659 0.1021 0.0963 0.1610 0.2447 0.0304 0.0549 0.0934\nXIA 0.0403 0.0656 0.0990 0.0710 0.1023 0.1627 0.0298 0.0432 0.0794\nBJF 0.0641 0.0879 0.1455 0.1482 0.1587 0.2364 0.0406 0.0472 0.0912\nKUN 0.0395 0.0827 0.1133 0.1278 0.1520 0.2922 0.0334 ",
+    "char_length": 1494
+  },
+  {
+    "quote_id": "qb_00bd243c9a",
+    "span_index": 11,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nTable8\nMeanRMSvaluesforGBMproductinkinematicsolutions.\nstation BDS GPS BDS+GPS\nN(m) E(m) U(m) N(m) E(m) U(m) N(m) E(m) U(m)\nWUH 0.0284 0.0509 0.0814 0.0310 0.0448 0.0814 0.0168 0.0425 0.0686\nXIA 0.0261 0.0449 0.0641 0.0386 0.0334 0.0977 0.0209 0.0272 0.0657\nBJF 0.0336 0.0474 0.0785 0.0501 0.0455 0.0978 0.0246 0.0284 0.0629\nKUN 0.0210 0.0458 0.0661 0.0300 0.0544 0.0753 0.0215 0.0358 0.0521\nSHA 0.0308 0.0420 0.0684 0.0383 0.0522 0.1271 0.0182 0.0343 0.0644\nCHU 0.0213 0.0347 0.0498 0.0357 0.0487 0.1038 0.0283 0.0403 0.0790\nLHA 0.0194 0.0423 0.07",
+    "char_length": 3345
+  },
+  {
+    "quote_id": "qb_2c50a8f844",
+    "span_index": 12,
+    "text": "Z.Renetal. AdvancesinSpaceResearch68(2021)3242–3254\nNie,Z.,Gao,Y.,Wang,Z.,Ji,S.,Yang,H.,2018.AnapproachtoGPS Xiao, G., Liu, G., Ou, J., Liu, G., Guo, A., 2020. MG-APP: an open-\nclockpredictionforreal-timePPPduringoutagesofRTSstream.Gps sourcesoftwareformulti-GNSSprecisepointpositioningand appli-\nSolut.22(1),14. cationanalysis.GPSSolut.24(3).\nWang, L., Li, Z., Ge, M., Neitzel, F., Wang, X., Yuan, H., 2019. Yang,Y.,Gao,W., Guo, S.,Mao, Y.,Yang,Y.,2019.Introduction to\nInvestigationoftheperformanceofreal-timeBDS-onlyprecisepoint BeiDou3navigationsatellitesystem.Navigation66.\npositioningusingtheIGS",
+    "char_length": 998
+  }
+]

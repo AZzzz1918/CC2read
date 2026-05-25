@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper proposes to combine HAS and PPP-B2b products via Helmert transformation and evaluates their combined positioning performance, directly relating to B2b service application.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2024--Wei Haopeng--Combining Galileo HAS and Beidou PPP‑B2b with Helmert coordinate .pdf",
+  "paper_id": "2024--Wei Haopeng--Combining Galileo HAS and Beidou PPP‑B2b with Helme",
+  "extraction_mode": "batch_classify_1call"
+}

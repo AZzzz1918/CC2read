@@ -1,0 +1,12 @@
+{
+  "product_source": "QZSS_CLAS",
+  "paper_type": "clas_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_gnss_augmentation",
+  "classification_reason": "The paper focuses on protection level equations for QZSS CLAS PPP-RTK, not PPP-B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CLAS_PPP-.pdf",
+  "paper_id": "2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CL",
+  "extraction_mode": "batch_classify_1call"
+}

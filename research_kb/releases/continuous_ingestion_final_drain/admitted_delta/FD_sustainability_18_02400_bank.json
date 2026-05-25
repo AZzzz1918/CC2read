@@ -1,0 +1,188 @@
+[
+  {
+    "quote_id": "qb_10e840408d",
+    "span_index": 0,
+    "text": "Article\nDesign and Preliminary Evaluation of an Integrated\nCommunication and Navigation Security Assurance Platform\nBased on BeiDou‑3: A Case Study in Qinghai Province\nShengpengZhang1,2,3 ,LijiangZhao2,3,*andYongyingZhang2,3,4\n1 CollegeofGeographicalSciences,QinghaiNormalUniversity,Xining810008,China;\nzhangshengpeng@qhbsmi.cn\n2 GeomaticsTechnologyandApplicationKeyLaboratoryofQinghaiProvince,Xining810008,China;\nhhzyy@cug.edu.cn\n3 QinghaiBasicSurveyingandMappingInstitute,Xining810001,China\n4 SchoolofGeophysicsandGeomatics,ChinaUniversityofGeosciences(Wuhan),Wuhan430074,China\n* Correspondence:zha",
+    "char_length": 3267
+  },
+  {
+    "quote_id": "qb_523cda0265",
+    "span_index": 1,
+    "text": "Sustainability2026,18,2400 2of31\nlated regions [1–3]. High‑altitude plateau and mountain environments present persis‑\ntent barriers to infrastructure development worldwide. The IPCC SROCC character‑\nizes high mountain areas by rugged terrain, steep slopes, and spatial remoteness, and\nidentifies representative regions including High Mountain Asia, the European Alps,\nthe Andes (Altiplano–Puna), the Rocky Mountains, Scandinavia, and the East African\nHighlands[4–6].Acrosstheseregions,terrainconstraintsandsparsesettlementoftenlead\ntocommunicationgaps,limitedemergencyresponsecapacity,andelevatedmult",
+    "char_length": 4110
+  },
+  {
+    "quote_id": "qb_ea07ee639e",
+    "span_index": 2,
+    "text": "Sustainability2026,18,2400 3of31\nhavebeendemonstratedinisolation,system‑levelintegrationandvalidationunderrealis‑\nticplateauconditionsremainscarce. Moreover,evidencefromsustainedfielduseislim‑\nited [34], particularly on how technical gains translate into user‑level benefits and what\nfactorsenablelong‑term,sustainableadoption.confirmed.\nIn this context, we design and validate a prototype integrated communication and\nnavigation security assurance platform based on the BeiDou‑3 SMC service for remote\nhigh‑altitudeareasinQinghaiProvince. Thiscombinesthreecomponentstoprovide(i)a\nhybridpositioningmo",
+    "char_length": 3805
+  },
+  {
+    "quote_id": "qb_8b2e350ff1",
+    "span_index": 3,
+    "text": "Sustainability2026,18,2400 4of31\nhusbandrywidelypracticed;in2023,2.12millioncattleand71.01millionsheepweremar‑\nketed[37,40]. GDPpercapitareached63,903CNYin2023, whilesparsesettlementsand\nharshconditionshaveraisedinfrastructurecosts[37]. Although4Gandfibrebroadband\ncover all administrative villages and 5G is available in county‑level urban cores, remote\nroads,pastoralhinterlands,anduninhabitedzonesstillexperiencefrequentnot‑spotsdue\nto terrain shielding and limited base‑station density [41]. These constraints are intensi‑\nfied by high mobility, with 1.10 million rural labour‑transfer employment",
+    "char_length": 2928
+  },
+  {
+    "quote_id": "qb_bb65d7ab80",
+    "span_index": 4,
+    "text": "Sustainability2026,18,2400 5of31\nsurveysupportandcryospherichazardapplicationssuchasglaciallakeoutburstfloodrisk\nappraisal[43,47,48].\nHydroelectricdammonitoringisparticularlyrelevantgiventheconcentrationofhy‑\ndropowerinstallationsinriverheadwatersthroughouttheplateau. Thesesitesarevulnera‑\nbletooutburstspromptedbythedynamicsofglaciallakesandearthquakes. Theplatform\nallowsforthetrackingofmillimetre‑leveldeformationsthroughautomatedanalysisand\nreal‑time sharing [18,49], which is fed into dam safety networks and disaster alleviation\nsystemsacrosstheregion. Policeandresourceschedulingapplicationss",
+    "char_length": 3978
+  },
+  {
+    "quote_id": "qb_db12b23ae3",
+    "span_index": 5,
+    "text": "Sustainability2026,18,2400 6of31\ntrast, daily inspection applications will require location accuracy, lightweight relatively\nlowbandwidthconnectivitysuitableforbatterypoweredfielddevices,andorchestration\nwithothertechnologiessuchasIoTsensors,UAVs,andAI‑basedanalysis[13,27].\nTo further clarify the logic mapping from scenario to requirements and then from re‑\nquirementstocorrespondingplatformcapabilities,Figure2presentsascenario–requirement–\ncapability framework of the proposed system in Qinghai Province. The platform design\nthusimplementsmodularfunctionalitytomeetthisspectrumofoperationalrequir",
+    "char_length": 2586
+  },
+  {
+    "quote_id": "qb_d09da98664",
+    "span_index": 6,
+    "text": "Sustainability2026,18,2400 7of31\nhouses and protected areas), improved tech connectivity will allow for social resilience\nand operational sustainability, inside an arena jointly populated by a dialectic of institu‑\ntionalcapacityanduserpracticethatshapesriskoutcomes.\n2.2.2. ResearchHypotheses\nDrawingontheconceptualoutlinesoftheproblemsaboveandthetechnicaldescrip‑\ntionoftheplatformarchitecture,wederivethreedifferenthypotheses. Thesewillassess\nthesystemnotonlyasatechnologicalsolutionbutalsoapossibleenablerofresilientand\nsustainableoperationatplateausites.\nHypothesis One (H1) (Technical Resilienc",
+    "char_length": 3424
+  },
+  {
+    "quote_id": "qb_ec9182a005",
+    "span_index": 7,
+    "text": "Sustainability2026,18,2400 8of31\nFigure3.Theconceptualandevaluationframeworkofthestudy.Thediagrammapsthelogicalflow\nfromregionalchallenges(left)tothetechnicalsolutionandresearchhypotheses(centre),culminat‑\ning in sustainability‑oriented evaluation outcomes (right). Key symbols represent the correspon‑\ndencebetweentechnicalmetrics(H1,H2)andsocialutility(H3)inachievingSDG9andSDG11.\nSocialanduserutilityemphasisesthehumanaspectsofthelong‑termuptakeofthe\nsystem,testingH3. Perceivedsafetyprovidesmeasuresofusersurveys(1–5Likertscale)\nforeffectsizeoftheplatforminamelioratingpsychologicalburdenduetothe",
+    "char_length": 2617
+  },
+  {
+    "quote_id": "qb_4037c79ca9",
+    "span_index": 8,
+    "text": "Sustainability2026,18,2400 9of31\nAttheplatformlayer,thecoreintelligenceofthesolutionresides,wherecloudservices\nmanagedeviceregistration,identityandkeymanagement,multi‑linkmessagerouting,tra‑\njectorystorage,alertprocessing,androle‑basedaccesscontrol. Webandmobileinterfaces\nenablereal‑timemonitoring,trackplayback,groupadministration,andenablingscenario‑\nconfigurablereportingrules.\nAtypicalplateauusecaseforthe“applicationlogic”oftheplatform(oftenasmuch\nused for emergency response as day‑to‑day protected area governance and control), is\nshown,below,inFigure4.\nFigure4.BeiDou‑3short‑messageterminala",
+    "char_length": 2245
+  },
+  {
+    "quote_id": "qb_bdeac39c65",
+    "span_index": 9,
+    "text": "Sustainability2026,18,2400 10of31\nIMU integration is employed to bridge short GNSS outages caused by terrain shielding,\ntunnels,orsevereweather.\nFigure5.Overallhardwaredesigndiagramofthesatellite‑basedintegratedterminal.\nTostrictlydefinethepositioninglogic,thesystememploysanextendedKalmanfilter\n(EKF).ThesystemstatevectorXkatepochkisdefinedtooptimallyestimatetheterminal’s\nkinematics,asfollows:\nX = [r ,v ,a ,b ,b ]T (1)\nk k k k G,k A,k\nwhere r , v and a represent the position, velocity, and attitude vectors, respectively,\nk k k\nwhileb ,b denotethedynamicbiasesfortheMEMSgyroscopeandaccelerometer.",
+    "char_length": 1500
+  },
+  {
+    "quote_id": "qb_7303cb972e",
+    "span_index": 10,
+    "text": "Sustainability2026,18,2400 11of31\n•\nFallback logic (SMC activation): When cellular signal quality drops below defined\n−\nthresholds(e.g., RSRP< 110dBm)oracknowledgementfailuresoccur, thesystem\nautomaticallytransitionstoBeiDou‑3SMC.\n•\nEmergency override (SOS mode): For SOS alerts, the system bypasses the economy\nlogicandbroadcastsoverallavailablechannelssimultaneouslytomaximisetheprob‑\nabilityofdelivery.\nThisdesigngivesasomewhatpragmaticengineeringbasisforreducingtheeffective\ncommunicationlatencywhileenhancingservicecontinuityinterrestrialblindspots.\n2.3.5. MobileandCloudImplementation\nComplemen",
+    "char_length": 2063
+  },
+  {
+    "quote_id": "qb_b0de6d60dd",
+    "span_index": 11,
+    "text": "Sustainability2026,18,2400 12of31\ncessratesunderstandardconditions[48,51]. Inpractice, terminal/cardprofiles, protocol\noverhead,andduty‑cyclelimitsoftenconstraintheeffectivepayloadtotensofbytes; for\nexample,short‑message‑enabledPPPdeploymentsreportamaximumusablepayloadof\n78bytes[52]. Accordingly,webudget~80bytesforperiodicsafetyreportstoensurereli‑\nableoperationacrosslow‑powerterminals.\nFigure8.Overallarchitecturediagramofthemobileapplication.\n•\nEncryption. We authenticate terminals via SM2 elliptic‑curve public‑key cryptogra‑\nphywithsessionestablishmenttoenforcesourceauthenticationandblockuna",
+    "char_length": 2389
+  },
+  {
+    "quote_id": "qb_37fe119580",
+    "span_index": 12,
+    "text": "Sustainability2026,18,2400 13of31\nFigure9.Hardwareencryptionalgorithmworkflow.\n2.4.1. TechnicalPerformanceEvaluationSetup\nFieldexperimentswereorientedtowardscapturingperformancevariationsacrossthe\ndiverseconditionsofthetopographicandconnectivityconditionsinherentinthedifferent\nregionsoftheQinghai–TibetPlateau. Twocomplementaryprotocolswereimplemented:\ncontrolledpositioningexperimentsanddistributedcommunicationtests.\nControlledpositioningexperiments. Tosystematicallyquantifytheaccuracyandcon‑\ntinuityofpositioningperformanceinrepresentativeenvironmentsoftheplateau(support‑\ningH1),threetestsitesw",
+    "char_length": 1935
+  },
+  {
+    "quote_id": "qb_206a82bf00",
+    "span_index": 13,
+    "text": "Sustainability2026,18,2400 14of31\nTable1. Testscenariosanddatacollectionsettingsforpositioningexperiments(ModeA:PPP‑B2b\nonly;ModeB:RTKonly;ModeC:integratedPPP‑B2b+RTK+MEMS).\nScenarioID EnvironmentDescription Elevation(m) Duration(h) Sampling(s) Modes\nS1 Opensteppe,clearsky 4350 4.0 1 A,B,C\nMountainvalley,partial\nS2 3680 3.5 1 A,C\nobstruction\nS3 Near‑urbanreferencesite 2850 2.0 1 A,B,C\nAtleast3representativescenarioscoveringopen‑sky,partiallyobstructed,andreferenceconditionswereselected.\nDatacollectionfollowedstandardizedprotocolswithcontinuousGNSSlogging.\nDistributed communication tests. An ad",
+    "char_length": 2654
+  },
+  {
+    "quote_id": "qb_fb72580f6c",
+    "span_index": 14,
+    "text": "Sustainability2026,18,2400 15of31\nandfieldoperations. Together,theindicatorscomplementthetechnicaltrialsandseekto\ncreate an empirical link between measurable software performance and relative sustain‑\nabilitypositioningofthesystem.\nThedatafortheseindicatorswereobtainedfromtwosources:\n1. Platform‑generatedrecords: Actualoperationalvalues—suchasthetimeofdispatch\nandmessagegeneration,SOStriggeringandresponsetimes,compliancewithproac‑\ntive reporting and monitoring routine intervals, and coverage of routes/activities—\nwere recorded from platform generated logs and across fields observations within\n",
+    "char_length": 2956
+  },
+  {
+    "quote_id": "qb_bb97796646",
+    "span_index": 15,
+    "text": "Sustainability2026,18,2400 16of31\n3. Results\n3.1. PositioningAccuracyandReliability\nPositioning performance was evaluated at the representative test scenarios (S1–S3)\ndefined in Section 2.4.1. To comprehensively assess the proposed hybrid PPP‑B2b/RTK\n+ MEMS strategy (Mode C), we benchmarked it against standalone PPP‑B2b (Mode A),\nRTK‑only(ModeB),andthecommercialTrimbleCenterPointRTXservice(ModeD;Trim‑\nble Inc., Westminster, CO, USA) [57]. Network RTK (CORS/NTRIP‑dependent) was not\nincludedinthefieldtestsbecausetheremotetestarealackstheterrestrialcellularnetwork\ncoveragerequiredforNTRIPcorrecti",
+    "char_length": 3537
+  },
+  {
+    "quote_id": "qb_19316e7b84",
+    "span_index": 16,
+    "text": "Sustainability2026,18,2400 17of31\nFigure10.Summaryofpositioningperformanceunderdifferentmodesandscenarios.(a)Horizon‑\ntalandverticalRMSpositioningerrors(H‑RMSandV‑RMS)forscenariosS1–S3. (b)PPPconver‑\ngencetimeforModeA(PPP‑B2b),ModeD(TrimbleRTX)andModeC(integrated);ModeB(RTK)\ndoes not require PPP convergence. (c) Cm‑level solution availability for RTK/RTX/integrated so‑\nlutionsacrossscenarios;thecm‑levelmetricisnotapplicabletoModeA(decimeter‑levelPPP‑B2b\nonly).(d)Summarytablefortheobstructedmountain‑valleyscenarioS2,includingaccuracy,conver‑\ngence,availabilityandapplicationsuitability. N/Tdenot",
+    "char_length": 2233
+  },
+  {
+    "quote_id": "qb_6368277492",
+    "span_index": 17,
+    "text": "Sustainability2026,18,2400 18of31\nFigure11.Communicationperformancecomparisonacrosschannelsandenvironmentalconditions.\nLessformally,latencyanalysisoffersanotherconfirmationofthelogicusedforselect‑\ningwhichelementtoconnectoveratanytime. Inareasofstablecoverage,weprioritised\npurelytakingcellulartraffic(sub‑secondlatency(mean0.8s)). Inblindzonesandswitch‑\ningtoBeiDou3SMC,meanend‑to‑endlatencyvariesfrom11.2s(opensky)to15.8s(ob‑\nstructed). Overall latency remains within comfortable limits for SOS alerting and basic\ncommand‑and‑responsemessaginginthecasesoftheplateautestsconducted.\nFor further indic",
+    "char_length": 1432
+  },
+  {
+    "quote_id": "qb_d786ba22d4",
+    "span_index": 18,
+    "text": "Sustainability2026,18,2400 19of31\nAndroid11OS.TheterminalhasbeencertifiedbytheBeiDouSatelliteNavigationProd‑\nuct2201QualityTestingCenterandtheGuangdongTestingInstituteofProductQuality\nSupervision, confirming compliance with BeiDou‑3 regional SMC terminal network ac‑\n◦\ncess regulations. Tests were performed under controlled conditions (24–25 C, 57–58%\nRH), with N = 100 independent trials per message type. Error bars in Panel B represent\n±\n1standarddeviation.\nData sources: The compression routine employed a domain‑specific dictionary op‑\ntimized for positioning and status messaging. Cryptographi",
+    "char_length": 3613
+  },
+  {
+    "quote_id": "qb_dfc941fd0d",
+    "span_index": 19,
+    "text": "Sustainability2026,18,2400 20of31\nFigure12.Compressionandencryptionperformancefordifferentmessagetypes.\nPerceptionsvarybyusertypeinwaysthatilluminateplatformstrengthsandlimitations:\n•\nScientificresearchers(n=31)andsurveyingpersonnel(n=28): Thesegroupsempha‑\nsisedimprovedcoordinationcapabilitiesandthereassuranceofcontinuousconnectiv‑\nityduringremotefieldcampaigns. Qualitativeinterviewsrevealedthatprofessional\nusersparticularlyvaluedtheintegrationofpositioningandcommunicationfunctions,\nreducingtheneedtocarrymultipledevices.\nhttps://doi.org/10.3390/su18052400",
+    "char_length": 562
+  },
+  {
+    "quote_id": "qb_8d7d86ed77",
+    "span_index": 20,
+    "text": "Sustainability2026,18,2400 21of31\n•\nPastoralcommunitymembers(n=27)andtransportdrivers(n=26): Althoughgener‑\nallylessfamiliarwithdigitaltechnologies,thesegroupshighlyvaluedtheone‑touch\nSOS function. However, as shown in Figure 13b, they reported significantly lower\nusabilityscores(M=3.56,SD=0.74andM=3.72,SD=0.69,respectively). Interview\ndatahighlightedspecificpainpointsincludingsmallbuttonsize,limitedTibetanlan‑\nguage support, and difficulty interpreting status indicators. Despite the challenges\nin usability found in both groups they still valued the safety and security benefits\nthat they perce",
+    "char_length": 2246
+  },
+  {
+    "quote_id": "qb_60c2f4e0a8",
+    "span_index": 21,
+    "text": "Sustainability2026,18,2400 22of31\nTable 4. Sustainability‑oriented performance indicators: illustrative comparison between recon‑\nstructedbaselineconditionsandplatformdeployment.\nWith\nDimension Indicator Baseline Change\nPlatform\n−\nSafety Maxcommunicationblackout(hours) >24 <0.5 98%\n−\nSafety Emergencynotificationtime(min) >180 <2 99%\nConnectivity Routecoveragewithcomm. link(%) 15 95 +533%\nConnectivity Dailycommunicationevents 0.2 8.4 +4100%\n−\nEfficiency Redundantsearchtrips/month 3.5 0.5 86%\nResearchSupport Fieldcampaignduration(days) 14 21 +50%\nBaselinevaluesareretrospectiveestimatesderivedfro",
+    "char_length": 3575
+  },
+  {
+    "quote_id": "qb_e65bfe30df",
+    "span_index": 22,
+    "text": "Sustainability2026,18,2400 23of31\nsupportsICT4Devidencethatsustainableinclusionrequiresuser‑centreddesignandlocal\ncapacitybuildinginadditiontotechnologyprovision[76].\nHowever,theusabilitygapweobserved—pastoralcommunitiesreportinglowerus‑\nabilityscoresthanscientificresearchers(3.56<4.23)—showsthataccessdoesnotguaran‑\ntee equity in meaningful use. Durable digital inclusion in our plateau communities will\nrequireinterfacedesignsthatsupportlocallanguages(e.g., Tibetan)anddiverseliteracy\nlevels, a challenge that ICT4D acknowledges to be ubiquitous [13,50]. In this sense, the\ntechnical success of ou",
+    "char_length": 3715
+  },
+  {
+    "quote_id": "qb_fe79c365f0",
+    "span_index": 23,
+    "text": "Sustainability2026,18,2400 24of31\nThe reduction in redundant search trips (3.5 to 0.5 per month) suggests “avoided\ntravel”benefitsenabledbyimprovedinformation. RecentGreenHEMSstudiesshowthat\nhelicopteremergencyoperationshavesubstantialcarbonfootprints,withtypicalmissions\nemittingontheorderofhundredsofkilogramsofCO [80,81]. Whilemodestatpilotscale,\n2\nthis mechanism can support more sustainable plateau governance by reducing unneces‑\nsarydeployments.\nForresearchandsurveying/engineeringteams,beingabletocoordinateandguaran‑\nteetrajectoriesinnear‑real‑timecanreducewastedtripsandincreaseefficiencies",
+    "char_length": 3031
+  },
+  {
+    "quote_id": "qb_8b88de3761",
+    "span_index": 24,
+    "text": "Sustainability2026,18,2400 25of31\ncuracyextendsapplicabilitybeyondconsumer‑gradetracking(typicallymetre‑level)and\nsupportsprofessionalusecasessuchasfundamentalsurveyingandotherhigh‑precision\nplateau operations, including safety‑critical monitoring tasks previously highlighted in\nrelated GNSS studies [18,43]. From a platform perspective, these technical attributes po‑\nsition the system not as a direct consumer substitute for global products, but as a more\nspecialized, governance‑ready solutconfirmed.ion designed for China’s plateau‑specific\noperationalrequirements.\n4.5. LimitationsandUncertaint",
+    "char_length": 3749
+  },
+  {
+    "quote_id": "qb_52bd398f7a",
+    "span_index": 25,
+    "text": "Sustainability2026,18,2400 26of31\nprovincial government budgets. This public‑service model eliminates adoption barriers\nforcost‑sensitiveusergroups.\n4.6.1. DeploymentModelandCostStructure\nThe pilot deployment distributed 100 terminal units across the study region. Each\nunitservesaworkinggrouporteamratherthananindividual,extendingactualcoverage\ntoseveralhundredfieldpersonnelincludingsurveyteams,pastoralcooperatives,andlo‑\ngisticscrews. TerminalhardwarecostsapproximatelyUSD420(CNY3000)perpersonnel\nunitandUSD695(CNY5000)pervehicleunit. Annualoperatingexpensesareminimalas\ntheBeiDouSMCserviceisprov",
+    "char_length": 3226
+  },
+  {
+    "quote_id": "qb_4c56644e6c",
+    "span_index": 26,
+    "text": "Sustainability2026,18,2400 27of31\nframework’sfundamental“lifeline”stateensuredthatevenwhencellularnetworks\nwere disabled, the median of the BeiDou‑3 SMC success rates would be 87.5–94.7%.\nAccordingly,theplatformcompressedthe95th‑percentilenotificationtimefromthe\n180 min + baseline to <2 min (Table 5). This reduction in latency corresponds to a\nreductioninunnecessarytrips(from3.5to0.5permonth),validatingthehypothesis\nthatend‑to‑endintegrationofworkflowsfacilitatesoperationalcoordination.\n•\nValidation of H3: Social Sustainability and User Assurance. H3 is confirmed with\nregardstouserperceptionof",
+    "char_length": 3339
+  },
+  {
+    "quote_id": "qb_9c00bfa986",
+    "span_index": 27,
+    "text": "Sustainability2026,18,2400 28of31\ntion,S.Z.;supervision,L.Z.;projectadministration,L.Z.;fundingacquisition,L.Z.Allauthorshave\nreadandagreedtothepublishedversionofthemanuscript.\nFunding: TheresearchworkwassupportedbytheSurveyingandMappingDatumandSurveying\nandMappingSystemOperationandMaintenanceProject(2024),grantnumber701013002.TheAPC\nwasfundedby701013002andtheQinghaiProvince“KunlunYingcaiHigh‑EndInnovationandEn‑\ntrepreneurshipTalent”Program.\nInstitutionalReviewBoardStatement:AccordingtotheinternalpolicyofQinghaiBasicSurveying\nandMappingInstituteandtheapplicablelocalpractice,anonymousquestionna",
+    "char_length": 4183
+  },
+  {
+    "quote_id": "qb_df0521c630",
+    "span_index": 28,
+    "text": "Sustainability2026,18,2400 29of31\n13. Filho,W.L.;Pinho,P.;Brazil,L.C.;Stringer,D.;Afionis,S.;Anderson,L.O.;Ayal,D.Y.;Connor,E.;Cavanagh,C.J.;Ensor,J.;etal.\nPoverty,LivelihoodsandSustainableDevelopment. InClimateChange2022—Impacts,AdaptationandVulnerability;Cambridge\nUniversityPress:Cambridge,UK,2023;pp.1171–1284.\n14. Sachs,J.D.;Schmidt‑Traub,G.;Mazzucato,M.;Messner,D.;Nakicenovic,N.;Rockström,J.SixTransformationstoAchievethe\nSustainableDevelopmentGoals.Nat.Sustain.2019,2,805–814.[CrossRef]\n15. Hák, T.; Janoušková, S.; Moldan, B. Sustainable Development Goals: A Need for Relevant Indicators. Ec",
+    "char_length": 4835
+  },
+  {
+    "quote_id": "qb_02624e05a9",
+    "span_index": 29,
+    "text": "Sustainability2026,18,2400 30of31\n36. EncyclopaediaBritannica.Qinghai|Province,China&TibetanPlateau.Availableonline:https://www.britannica.com/place/Qinghai\n(accessedon21January2026).\n37. QinghaiProvincialBureauofStatistics. StatisticalCommuniquéofQinghaiProvinceonthe2023NationalEconomicandSocialDevel‑\nopment;NationalBureauofStatisticsofChina:Beijing,China,2024.\n38. QinghaiProvincialEthnicandReligiousAffairsCommission. 民宗概况[OverviewofEthnicandReligiousAffairs]. Available\nonline:https://mzw.qinghai.gov.cn/index.php/mzgk.html(accessedon21January2026).\n39. QinghaiProvincialBureauofStatistics. 关于第",
+    "char_length": 4853
+  },
+  {
+    "quote_id": "qb_b5ff9fb829",
+    "span_index": 30,
+    "text": "Sustainability2026,18,2400 31of31\n60. Lin,Y.;Bian,S.;Jiang,Y.;Wang,L.;Liu,Y.PerformanceAssessmentofBeiDou‑3PPP‑B2bPrecisePointPositioningService.Sci.\nRep.2024,14,12456.\n61. Zhao,L.;Zhai,W.AssessmentofPPPUsingBDSPPP‑B2bProductswithShort‑Time‑SpanObservationsandBackwardSmooth‑\ningMethod.RemoteSens.2024,17,25.[CrossRef]\n62. Odolinski, R.; Teunissen, P.J.G. Single‑Frequency, Dual‑GNSS versus Dual‑Frequency, Single‑GNSS: A Low‑Cost and High‑\nGradeReceiversGPS‑BDSRTKAnalysis.J.Geod.2016,90,1255–1278.[CrossRef]\n63. İlçi,V.;Peker,A.U.TheKinematicPerformanceofReal‑TimePPPServicesinChallengingEnvironmen",
+    "char_length": 3838
+  }
+]

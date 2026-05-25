@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_be979ba167",
+    "span_index": 0,
+    "text": "Physica Scripta\nPAPER You may also like\nAnalysis of the performance of the PPP-B2b -A combination method for correcting\nsatellite-based precise point positioning\nservices on the user side\nsatellite clock and its effects on time transfer\nRui Ji, Min Wang, Changjian Liu et al.\n-Comparative analysis of real-time PPP\ntime transfer performance of BDS-3 based\nTo cite this article: Weijin Qin et al 2024 Phys. Scr. 99 125026 on SSR/PPP-B2b corrections\nShi Chen, Ya Liu, Xiaohui Li et al.\n-Real-time marine PPP-B2b/SINS\nintegrated navigation based on BDS-3\nMing Li and Hongzhou Chai\nView the article onlin",
+    "char_length": 711
+  },
+  {
+    "quote_id": "qb_a07dc512d7",
+    "span_index": 1,
+    "text": "Phys.Scr.99(2024)125026 https://doi.org/10.1088/1402-4896/ad9093\nPAPER\nAnalysisoftheperformanceofthePPP-B2bsatelliteclockandits\nRECEIVED effectsontimetransfer\n3August2024\nREVISED\n5November2024\nWeijinQin1,2,3 ,ZheZhang1,2,PeiWei1,2,HangSu1,2 andXuhaiYang1,2\nACCEPTEDFORPUBLICATION\n8November2024 1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,People’sRepublicofChina\nPUBLISHED 2 UniversityofChineseAcademyofSciences,Beijing100049,People’sRepublicofChina\n20November2024 3 KeyLaboratoryofTimeReferenceandApplications,ChineseAcademyofSciences,People’sRepublicofChina\nE-mail:qwj@ntsc.ac.c",
+    "char_length": 3570
+  },
+  {
+    "quote_id": "qb_e08a152712",
+    "span_index": 2,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nTable1.PPP-B2bsatelliteinformation.\nPRN SVN Satellitetype Launchdate Satellitestatus Servicesignal Position\n59 GEO-01 BDS-3 2018.11.01 operational B2b 140°E\n60 GEO-02 BDS-3 2020.03.09 operational B2b 80°E\n61 GEO-03 BDS-3 2018.11.01 operational B2b 110.5°E\n62 GEO-04 BDS-3 2020.03.09 testing B2b 160°E\nmode[9].GeverifiedthatBDS-3real-timePPPtimetransfercanreach0.02nswithrespecttothesmoothed\nresiduals[10].\nSSR,astheessentialityofRTPPPprocessing,hasbeentransmittedthroughtheinternet;unfortunately,its\napplicationhasbeenrestrictedbyinternetfacilities,suchasnetworkoutag",
+    "char_length": 4035
+  },
+  {
+    "quote_id": "qb_aff41c2520",
+    "span_index": 3,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure1.GroundcoverageofC59andC60onDOYs351and2023.\nFigure2.PPP-B2bvisiblepercentageonDOY351,2023.\nmaximumpercentageandtheminimumpercentageare82.56%and66.79%,respectively.Wecandrawtwo\nconclusions:(1)itiscontinuousinsomeareas;(2)asweexpected,morethanhalfoftheusersinChinaand\nsurroundingareascanobtainPPP-B2bservices;and(3)thepercentagepresentsaperiodicvariation,andthe\ncycleisapproximately24900s,whichisattributedtotheeffectontheperiodvariationoftheGEOorbit.\n3.RecoveryofthePPP-B2borbitandclockoffset\nTherecoveryofthePPP-B2borbitandclockoffsetisnecessarypriortooffering",
+    "char_length": 770
+  },
+  {
+    "quote_id": "qb_a7b29196ae",
+    "span_index": 4,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\n⎧e\nr\n= r\n∣r∣\n⎪\n⎪e\nc\n=\n∣\nr\nr\n´\n´\nr\nr\n\n∣\n(3)\n⎨e\na\n= e\nc\n´ e\nr\n⎪DC = [dC , dC , dC ]\nr a c\n⎪\norb = orb + (e , e , e ) ⋅ DC\n⎩ pre brd r a c\nwhereorb andorb denotethepreciseephemerisandthebroadcastephemeris,respectively;e,e ,ande\npre brd r a c\nindicatethetransformationmatrixintheRACdirection;ΔCisthePPP-B2bcorrectionintheRACdirection,\nwhichreferstotheAPC(antennaphasecentre)andrrarethedirectionunitvectorofthesatellitevelocityand\nthedirectionunitvectorofthesatelliteposition,respectively,intheECEF(Earth-centred,Earth-fixed).The\nintervaloforbitcorrectionis48s.\nThePPP-",
+    "char_length": 3275
+  },
+  {
+    "quote_id": "qb_7cdcea8030",
+    "span_index": 5,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure3.OrbiterrorsofthePPP-B2bGPSproducts(top)andBDS-3products(bottom)intheRACdirectionatDOY355andDOY\n351.\nTable2.MeanRMSvaluesofthePPP-B2borbiterrors.\nRMS:m DOY\nMEAN\nSystem 351 352 353 354 355 356 357\nBDS-3 R 0.08 0.08 0.06 0.08 0.08 0.20 0.07 0.09\nA 0.36 0.67 0.61 0.67 0.68 0.68 0.69 0.62\nC 0.24 0.55 0.61 0.55 0.62 0.70 0.79 0.57\nGPS R 0.14 0.14 0.14 0.14 0.16 0.15 0.14 0.14\nA 0.42 0.86 0.74 0.86 0.77 0.79 0.75 0.74\nC 0.29 0.61 0.56 0.61 0.62 0.62 0.69 0.57\nBDS-3.Inaddition,theAsia-Pacificregionalnetworkratherthantheglobalwide-areanetworkhasbeen\nappliedforth",
+    "char_length": 1928
+  },
+  {
+    "quote_id": "qb_fb35f431ee",
+    "span_index": 6,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure4.AllandeviationsofthePPP-B2bBDS-3clockfromDOY351-3572023aregroupedbytheSECMMEOPHM,CASCMEO\nPHM,CASCIGSOPHMandCASCMEORb.\nTable3.BDS-3andGPSsatelliteinformation.\nSystem Satellitetype Clocktype PRN\nBDS-3 SECM,MEO PHM C25,C26,C27,C28,C29,C30,C34,C35,C43,C44\nCASC,IGSO PHM C38,C39,C40\nCASC,MEO PHM C45,C46\nCASC,MEO Rb C19,C20,C21,C22,C23,C24,C32,C33,C36,C37,C41,C42\nGPS BlockIIR Rb G13,G20,G22,G16,G21,G19,G02\nBlockIIR-M Rb G17,G31,G12,G15,G29,G07,G05\nBlockIIF Rb G25,G27,G30,G06,G09,G03,G26,G10,G32\nBlockIIF Cs G08,G24\nBlockIII Rb G4,G18,G23,G14,G11,G28\nFigure4pres",
+    "char_length": 1369
+  },
+  {
+    "quote_id": "qb_57f6e0c1bc",
+    "span_index": 7,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure5.AllandeviationsoftheGPSclockduringDOY351-3572023aregroupedbyBlockIIRRb,BlockIIR-MRb,BlockIIFRb,\nBlockIIIRbandBlockIIFCs.\n(2) Withrespecttothefoursubplots,before10000s,thestabilitiesofthespecificsatelliteclocksagreewell.\nAfter10000s,thestabilityslightlydiffers.\n(3) FortheCASCIGSOPHMAllandeviation,abumpappearsinthreeIGSOsatelliteswhentheaveragingtime\nincreases.ThestabilityoftheIGSOclockshassharplydeteriorated.Concentratingontheperformanceof\ntheCASCMEORb,thestabilityofC23(colouringreen)islessstablethanthatoftheothersatellites.\nNow,weturntofigure5,theAlland",
+    "char_length": 1872
+  },
+  {
+    "quote_id": "qb_1fbaf25e7b",
+    "span_index": 8,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure6.AverageAllandeviationofthesameclocktypeintermsofPPP-B2bandGBM.\n(1) ForthePPP-B2bproducts,thestabilityoftheGPSclockisobviouslypoorerthanthatoftheBDS-3clock.\nSimilarly,thesameconclusionwasdrawnwiththeGBMproducts.Insummary,PPP-B2bproductsarean\neffectiveandreasonablewaytoevaluatethequalityofsatelliteclocks.\n(2) ForboththeBDS-3andtheGPSproducts,theperformanceoftheGBMproductissuperiortothatofthe\nB2bproduct.TheGBMproductisestimatedviathestrictpostprocessingstrategyandtheleastsquare\nmethod,whereasthePPP-B2bproductisestimatedviathereal-timestrategyandKalmanfilte",
+    "char_length": 2455
+  },
+  {
+    "quote_id": "qb_a3f723b0c0",
+    "span_index": 9,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure7.PredictionaccuracyoftheBDS-3clockoffset.\nFigure8.PredictionaccuracyoftheGPSclockoffset.\n9",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_7f73c12c05",
+    "span_index": 10,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nTable4.Predictionerrorsforallkindsofsatelliteclockoffsets.\nPredictionerror(ns)\nSatellitetype\nPredictiontime:30s Predictiontime:60s Predictiontime:120s\nmean max mean max mean max\nBlockIII(Rb) 0.167 0.178 0.234 0.252 0.343 0.371\nBlockIIF(Cs) 0.355 0.360 0.490 0.499 0.753 0.780\nBlockIIF(Rb) 0.266 0.378 0.367 0.515 0.550 0.752\nBlockIIR(Rb) 0.319 0.392 0.441 0.529 0.676 0.835\nBlockIIR-M(Rb) 0.286 0.358 0.400 0.491 0.605 0.771\nCACS,IGSO(PHM) 0.013 0.014 0.017 0.019 0.026 0.030\nCACS,MEO(PHM) 0.015 0.015 0.019 0.019 0.030 0.031\nCACS,MEO(Rb) 0.016 0.027 0.022 0.035 0.03",
+    "char_length": 3111
+  },
+  {
+    "quote_id": "qb_4e2bd6f739",
+    "span_index": 11,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure9.STDofthedoubledifferenceinthesatelliteclocksfortheGBMandPPP-B2bproducts.\nFigure10.VariationintheelevationofC59andC60onUSUDandXIA6.\ntransfer.Thedifferencedt betweenthelocaltimeandBDTcanbedescribedas\nr,IFij\ndt = T - BDT (9)\nr,IFij local\nwhereT representsthelocaltimeoftheusers.ThedifferenceinthetimetransferΔTisexpressedas:\nlocal\nDT = dt - dt = T - BDT - (T - BDT) = T - T (10)\nr1,IFij r2,IFij local,1 local,2 local,1 local,2\nwhereT andT arethelocaltimesofdifferentusers.\nlocal,1 local,2\nStationscapableofconnectingtheatomicclockandreceivingPPP-B2bsignalsaresca",
+    "char_length": 1191
+  },
+  {
+    "quote_id": "qb_c936437929",
+    "span_index": 12,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nFigure11.XIA6-USUDclockoffsetobtainedfromGPS/BDSPPPviaGBMandB2bproducts.\nFigure12.XIA6-USUDADEVoftimetransferusingGBMandB2bproducts.\nTable5.BDS-3PPPprocessingstrategy.\nEstimator Kalmanfilter\nSignals BDS-3:B1I/B3I\nGPS:L1/L2\nPCVandPCO igs14.atx\nPreciseproducts PPP-B2bcorrection\nGBMfinalproduct\nPhaseambiguities Estimatedasaconstantateacharc\nTro Estimatedasarandomwalkprocess\nReceiverclockoffset Estimatedwithawhitenoisemodel\nFigure11presentsXIA6-USUDclockoffsetsobtainedfromGPS/BDSPPPviadifferentproducts.Theclock\noffsetofBDSPPP-B2bagreeswellwiththeclockoffsetofBDSPPP",
+    "char_length": 1199
+  },
+  {
+    "quote_id": "qb_1aa8e88bc2",
+    "span_index": 13,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\ntheXIA6-USUDtimelinkADEVforthreetypesofproducts.ThestabilityofBDSPPP-B2btimetransferis\nalmostthesameasthatofBDSPPP-GBMateachaveragingtime.Forshorteraveragingtimes,thestabilityof\nBDSPPP-B2bislessstablethanthatofGPSPPPbefore960sandisequivalenttothatofGPSPPPatlonger\naveragingtimes.Thefrequencystabilitiesofseveralimportantaveragingtimesarelistedhere:thefrequency\nstabilitiesofBDSPPP-B2b,BDSPPP-GBMandGPSPPP-GBMareapproximately9.25E-14,9.05E-14,and\n7.64E-14,respectively,at100s;approximately2.42E-14,2.30E-14,and2.49E-14,respectively,at1000s;and\napproximately9.34E-15,9.",
+    "char_length": 3320
+  },
+  {
+    "quote_id": "qb_01f3489a65",
+    "span_index": 14,
+    "text": "Phys.Scr.99(2024)125026 WQinetal\nReferences\n[1] DefraigneP,AertsWandPottiauxE2014MonitoringofUTC(k)’susingPPPandIGSreal-timeproductsGPSSolutions19165–72\n[2] PetitGandJiangZ2008PrecisepointpositioningforTAIcomputationInternationalJournalofNavigationandObservation20081–8\n[3] WangZetal2018AssessmentofmultipleGNSSreal-timeSSRproductsfromdifferentanalysiscentersISPRSInternationalJournalof\nGeo-Information785\n[4] ShiJetal2019AsimplifiedBDSbroadcastephemerisandstatespacerepresentative(SSR)matchingmethodforBDS-onlyreal-time\nprecisepointpositioning(PPP)IEEEAccess7125205–13\n[5] ShiJetal2017Impactsofsatel",
+    "char_length": 2497
+  }
+]

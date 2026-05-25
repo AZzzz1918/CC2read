@@ -1,0 +1,100 @@
+# Evidence Claim Register
+# Every strong review claim must be bound to paper_id + evidence reference.
+# Claims without evidence → tentative or needs_manual_interpretation.
+# Grounded on: corpus_grounded_v0.3 (37 papers)
+
+claims:
+  - claim_id: C001
+    statement: "BDS-3 PPP-B2b provides cm-level static and dm-level kinematic positioning in China and surrounding areas."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+        evidence_ref: "Static 3D RMSE 3.9–8.3cm across 8 IGS MGEX stations; kinematic 3D RMSE mean 21.0cm"
+      - paper_id: Peida_Wu_2023_evaluation_of_real-time_kinematic_positioning_perf
+        evidence_ref: "95% errors <20cm H, <35cm V across car/vessel/aircraft"
+
+  - claim_id: C002
+    statement: "PPP-B2b correction availability degrades from ~89% at service center to ~61% at boundary."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+        evidence_ref: "JFNG 88.76%, SGOC 60.91% availability rate"
+
+  - claim_id: C003
+    statement: "PPP-B2b orbit URE is ~0.05m for BDS-3 MEO and GPS satellites."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+        evidence_ref: "Orbit URE 0.051m BDS-3 MEO, 0.049–0.057m GPS"
+      - paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+        evidence_ref: "Orbit RMSE: PPP-B2b radial 8.5cm"
+
+  - claim_id: C004
+    statement: "PPP-B2b clock correction accuracy is ~0.2ns STD for BDS-3 and GPS."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+        evidence_ref: "Clock STD 0.172ns BDS-3 MEO, 0.156ns GPS"
+      - paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+        evidence_ref: "PPP-B2b clock STD 0.124ns"
+
+  - claim_id: C005
+    statement: "BDS-3/GPS dual-system PPP-B2b offers faster convergence than single-system."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+        evidence_ref: "7–12 min BDS/GPS static convergence"
+      - paper_id: Peida_Wu_2023_evaluation_of_real-time_kinematic_positioning_perf
+        evidence_ref: "12.9 min BDS+GPS vs 28.5 min BDS-only"
+
+  - claim_id: C006
+    statement: "PPP-B2b water vapor monitoring meets operational meteorology requirements."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo
+        evidence_ref: "PWV RMS 3.71–4.66mm vs radiosonde, 25-day experiment"
+
+  - claim_id: C007
+    statement: "PPP-B2b enables real-time earthquake source description without internet."
+    evidence_type: PARTIAL
+    supporting_papers:
+      - paper_id: Jianfei_Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+        evidence_ref: "2021 Mw 7.4 Maduo earthquake case study; 0.3–0.4cm combined GPS/BDS accuracy"
+    caveat: "Single-event case study. Generalization not demonstrated."
+
+  - claim_id: C008
+    statement: "Galileo HAS and QZSS CLAS provide comparable satellite-based PPP capabilities."
+    evidence_type: PARTIAL
+    supporting_papers:
+      - paper_id: Pan_Lin_2025_BDS_B2b_HAS
+        evidence_ref: "B2b vs HAS comparison"
+    caveat: "Limited independent validation within v0.3 corpus. More HAS/CLAS papers needed for strong claim."
+
+  - claim_id: C009
+    statement: "PPP-B2b literature has critically low reproducibility."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: corpus_grounded_v0.3
+        evidence_ref: "27/37 papers score 0–1/10; only 3/37 provide open-source code"
+    caveat: "Within the v0.3 corpus. Assessment based on extraction of reproduction_blockers from each paper."
+
+  - claim_id: C010
+    statement: "DCB handling is under-reported in PPP-B2b literature."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: corpus_grounded_v0.3
+        evidence_ref: "16/37 papers mark DCB as NOT_MENTIONED; only 6/37 have EXPLICITLY_DESCRIBED"
+    caveat: "Within the v0.3 corpus. Some papers may handle DCB implicitly via ionosphere-free combination."
+
+  - claim_id: C011
+    statement: "No PPP-AR or PPP-RTK with B2b paper exists in the v0.3 corpus."
+    evidence_type: STRONG
+    supporting_papers: []
+    caveat: "Absence of evidence within the corpus. The literature may contain such papers outside the 37-paper sample."
+
+  - claim_id: C012
+    statement: "PPP-B2b SISRE is dominated by satellite-specific clock systematic bias, not orbit error."
+    evidence_type: STRONG
+    supporting_papers:
+      - paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+        evidence_ref: "PPP-B2b SISRE RMS 1.242m vs STD 0.097m; large RMS caused by clock systematic bias"

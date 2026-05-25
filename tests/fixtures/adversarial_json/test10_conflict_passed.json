@@ -1,0 +1,73 @@
+{
+  "paper_id": "test10_conflict_passed",
+  "source_file": "paper/test10.pdf",
+  "file_hash": "bcd890",
+  "bibliographic_info": {
+    "title": "Dual-Frequency PPP Performance with Mixed Products",
+    "authors": [{"name": "Conflict Author"}],
+    "year": 2023,
+    "journal_or_venue": "Measurement"
+  },
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual": "MIXED_PRODUCTS",
+    "provider": "PPP-B2b for BDS, IGS RTS for GPS",
+    "grounding_quotes": ["BDS satellites used PPP-B2b while GPS used IGS RTS"],
+    "conflict_flag": false
+  },
+  "mathematical_model": {
+    "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+    "observation_model": "IF combination for both BDS and GPS",
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "strategy": "IF combination",
+    "dcb_source": "CAS DCB products",
+    "grounding_quotes": ["DCB corrections were applied using CAS products"]
+  },
+  "correction_types": {"grounding_quotes": []},
+  "research_problem": {},
+  "technical_route": {"grounding_quotes": []},
+  "method": {},
+  "formulas": [],
+  "experiments": [{"experiment_id": "exp1", "description": "Static test"}],
+  "experiment_epoch": {
+    "start_date": "2022-03-01",
+    "end_date": "2022-03-15",
+    "duration_days": 15,
+    "grounding_quotes": ["data collected from March 1 to March 15, 2022"]
+  },
+  "datasets": {"stations": ["JFNG", "WUH2", "CUSV"], "grounding_quotes": []},
+  "metrics": {
+    "rms_3d": "Chunk A: 4.2 cm, Chunk B: 5.8 cm",
+    "grounding_quotes": []
+  },
+  "main_results": {"grounding_quotes": []},
+  "novelty_audit": {
+    "audit_grade": "B_INCREMENTAL",
+    "grounding_quotes": ["novel strategy for combining B2b and RTS corrections is proposed"]
+  },
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED",
+    "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED",
+    "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED",
+    "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED",
+    "config_files": "NOT_MENTIONED",
+    "metric_definitions": "NOT_MENTIONED",
+    "baseline_details": "NOT_MENTIONED",
+    "reproduction_blockers": ["No code", "No data", "No config"],
+    "reproducibility_score": 0,
+    "grounding_quotes": []
+  },
+  "conflicting_evidence": [
+    {
+      "field": "product_source/actual",
+      "claim_1": "BDS3_PPP_B2B_BROADCAST",
+      "claim_2": "MIXED_PRODUCTS",
+      "resolution": "CONFLICTING_EVIDENCE"
+    }
+  ]
+}

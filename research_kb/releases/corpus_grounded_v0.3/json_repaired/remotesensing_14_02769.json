@@ -1,0 +1,109 @@
+{
+  "paper_id": "remotesensing_14_02769",
+  "extraction_mode": "full_strict_quotes",
+  "phase": "batch_3_phase_b",
+  "selection_role": "core_ppp_b2b",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "authors": "NOT_MENTIONED",
+    "year": 2022,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Analysis of BDS-3 PPP-B2b Positioning and Time Transfer Service RunzhiZhang1,2,3 ,ZaiminHe4,*,LangmingMa1,3,GongweiXiao4,5,WeiGuang4,YulongGe6, XiangboZhang1,2,3 ,JihaiZhang1,2,3,JianTang7andXueqingLi1,3 1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China; zhangrunzhi@ntsc.ac.cn(R.Z.);malm@ntsc.ac.cn(L.M.);zxiangb@ntsc.ac.cn(X.Z.);zhangnt",
+      "https://doi.org/10.3390/ rs14122769 employedtoconductzero-baselinecommonclockdifference(CCD)timecomparisonexperiments andlong-baselinetimecomparisonexperimentsusingthePPP-B2bproductandtheGBMproduct.",
+      "AcademicEditor:AliKhenchaf TheresultsindicatethatthePPP-B2bpositionaccuracyinstaticmodebyonlyBDSis1.5/2.7/3.9cm, Received:26April2022 andbyGPS+BDSiswithin1.5/2.5/3.5cminNorth,East,andUpdirections,respectively.Regarding Accepted:6June2022 simulatedkinematicPPP-B2b,theaveragerootmeansquare(RMS)valuesofthepositionerrorsin Published:9June2022 theNorth,East,andUpdirectionsforthecombinationofBDSB1I/B3I+"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2022-3-3",
+    "end_date": "DoY 72",
+    "dates_found": [
+      "2022-3-3"
+    ],
+    "doys_found": [
+      "DoY85",
+      "DoY67",
+      "DoY72"
+    ],
+    "months_found": [
+      "March 2022"
+    ],
+    "grounding_quotes": [
+      "InMay2003,thethirdgeostationaryearthorbitsatellite waslaunched,andtheBeiDoudemonstrationnavigationsystem(BDS-1)wasestablished, providingChinawithpositioning,timing,andshortmessagecommunicationservices[2].",
+      "Bytheendof2012,withthelaunchof14networkedsatellitesincluding5geostationary earthorbitsatellites,5inclinedgeosynchronousorbit(IGSO)satellites,and4mediumearth orbit (MEO) satellites, the BeiDou regional navigation system (BDS-2) was established anditsservicescopewasextendedtotheAsia–Pacificregion."
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 16,
+    "grounding_quotes": [
+      "Differential Code Bias Correction The pseudorange observations generated using different tracking methods contain hardware delay deviations [27].",
+      "The PPP-B2b product provides a differential code bias, which can be used to correct the satellite hardware delay of pseudorange observations."
+    ]
+  },
+  "ionospheric_handling": {
+    "status": "MENTIONED",
+    "iono_mentions": 5,
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Analysis of BDS-3 PPP-B2b Positioning and Time Transfer Service RunzhiZhang1,2,3 ,ZaiminHe4,*,LangmingMa1,3,GongweiXiao4,5,WeiGuang4,YulongGe6, XiangboZhang1,2,3 ,JihaiZhang1,2,3,JianTang7andXueqingLi1,3 1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China; zhangrunzhi@ntsc.ac.cn(R.Z.);malm@ntsc.ac.cn(L.M.);zxiangb@ntsc.ac.cn(X.Z.);zhangnt"
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 21,
+    "b2b_mentions": 199,
+    "has_mentions": 0,
+    "clas_mentions": 2,
+    "dcb_mentions": 16,
+    "iono_mentions": 5
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true
+  }
+}

@@ -1,0 +1,50 @@
+b2b: 107
+bibliographic_info:
+  title: Analysis of the performance of the PPP-B2b satellite clock and its effects
+    on time transfer
+  year: 0
+category: LEO_ORBIT
+dcb_handling:
+  dcb_mentions: 4
+  grounding_quotes:
+  - TheperformanceofPPP-B2btimetransferhasbeenanalysedbyseveralresearchers.Zhangconducteda
+    BDS-3B1I/B3IPPP-B2btimetransferexperimentwithazerobaselineandlongbaseline.GecomparedBDS-3
+    B1I/B3IPPP-B2btimetransferresultswithdifferentkindsofproducts[16].Tangverifiedthattheaccuracyof
+    BDS-3PPP-B2btimetransferwithDCBcorrectionisimprovedbyapproximately64%comparedwiththat
+    withoutDCBcorrection[17].Zhangclaimedthat
+  status: MENTIONED
+experiment_epoch:
+  grounding_quotes:
+  - 'ORCIDiDs WeijinQin https://orcid.org/0000-0003-2883-9281 HangSu https://orcid.org/0000-0003-3975-9658
+    13  <!-- PAGE: 15 -->  Phys.Scr.99(2024)125026 WQinetal References [1] DefraigneP,AertsWandPottiauxE2014MonitoringofUTC(k)’susingPPPandIGSreal-timeproductsGPSSolutions19165–72
+    [2] PetitGandJiangZ2008PrecisepointpositioningforTAIcomputationInternationalJournalofNavigationandObservation20081–8
+    [3] W'
+  start_date: DOY355
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+ionospheric_handling:
+  iono_mentions: 0
+paper_id: V04_W2_Qin_2024_Phys__Scr__99_125026
+pdf_metadata:
+  b2b_mentions: 107
+  clas_mentions: 2
+  dcb_mentions: 4
+  has_mentions: 0
+  pages: 15
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Physica Scripta PAPER You may also like Analysis of the performance
+    of the PPP-B2b -A combination method for correcting satellite-based precise point
+    positioning services on the user side satellite clock and its effects on time
+    transfer Rui Ji, Min Wang, Changjian Liu et al.'
+  - 99 125026 on SSR/PPP-B2b corrections Shi Chen, Ya Liu, Xiaohui Li et al.
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not publicly provided
+  - B2b correction archive not distributed
+  - Processing parameters not detailed
+wave: 2

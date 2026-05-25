@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nAssessment of the Feasibility of PPP-B2b Service for Real-Time\nCoseismic Displacement Retrieval\nHaoYang1,ShengyueJi1,*,DuojieWeng2,ZhenjieWang1 ,KaifeiHe1 andWuChen3\n1 CollegeofOceanographyandSpaceInformatics,ChinaUniversityofPetroleum(EastChina),\nQingdao266580,China;upcyanghao@163.com(H.Y.);sdwzj@upc.edu.cn(Z.W.);kfhe@upc.edu.cn(K.H.)\n2 ShenzhenResearchInstitute,TheHongKongPolytechnicUniversity,Shenzhen518057,China;\nceweng@polyu.edu.hk\n3 DepartmentofLandSurveyingandGeo-Informatics,HongKongPolytechnicUniversity,HungHom,\nHongKong999077,China;wu.chen@polyu.edu.hk\n* Corresp",
+    "char_length": 4179
+  },
+  {
+    "quote_id": "qb_0aa5964a9a",
+    "span_index": 1,
+    "text": "RemoteSens.2021,13,5011 2of17\ndifference phase observations, which can overcome the problem of long convergence\ntime[22]. However,withanincreaseinthemonitoringperiod,thetrendoferroraccumu-\nlationismoreobvious. Then, thelineartrendremovalmethodwasusedtoreducethe\nerrordrifttowithinafewminutes,butitdoesnotapplytoscenarioswheretheseismic\ndurationismorethanafewminutes[23]. Lietal. proposedatemporalpointposition-\ning (TPP) method, which overcame the shortcoming of error drift in a 15 min seismic\nsimulationtest[24]. Then,theTPPmethodwasusedforretrievingthecoseismicdisplace-\nmentsoftheIllapelMw8.3eart",
+    "char_length": 3644
+  },
+  {
+    "quote_id": "qb_423cb19b86",
+    "span_index": 2,
+    "text": "RemoteSens.2021,13,5011 3of17\nwhere[e e e ]T denotestheunitvectorofsatelliteorbitsinthealong-track,cross-track,\na c r\nandradialdirections;S andS representthesatelliteorbitvectorandclockoffsetvector\np v\ncomputedbythebroadcastephemeris. Thesecorrectionmessagesshouldbetransformed\ntotheECEFcoordinatesystem,andtheformulacanbeexpressedas[39]\n \ndR\n(cid:2) (cid:3)\ndX = e r e a e c  dA  (2)\ndC\nwhere[dRdAdC]T\nistheorbitcorrectionvectorintheradial,along-track,andcross-track\ndirections;dXdenotestheorbitcorrectionvectorintheECEFcoordinatesystem. Withthe\nbroadcastsatellitepositionX ,theprecisereal-times",
+    "char_length": 2944
+  },
+  {
+    "quote_id": "qb_c15166550d",
+    "span_index": 3,
+    "text": "RemoteSens.2021,13,5011 4of17\naccuracy, so the double-difference (DD) method is used to reduce the influence of this\nbias[40]. Theformulacanbeobtainedby\n∇∆Ts = (Ts−Ts)− 1 ∑ M(cid:16) Ti −Ti (cid:17) (7)\na,b a b M a b\ni=1\nwhere∇∆istheDDoperator;∇∆Ts denotestheDDvalueoftheclockoffsets;Ts andTs\na,b a b\ndenotetheclockoffsetsofproductsaandb,respectively,forsatellites;Mrepresentsthe\nnumberofsatellitesineachepoch,and 1 ∑ M(cid:0) Ti −Ti(cid:1) representstheaveragevalueofall\nM a b\ni=1\nclockoffsetSDvaluesbetweentwoproducts. Inthisstudy,∇∆Ts isusedtoevaluatethe\na,b\naccuracyofthesatelliteclockoffsets.\n2.",
+    "char_length": 2318
+  },
+  {
+    "quote_id": "qb_a9b7c322da",
+    "span_index": 4,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 5 of 18\nRemoteSens.2021,13,5011 5of17\nGNSS observations PPP-B2b/RTS/GBM Initial coordinates\nPrecise orbits/clock\noffsets\nPPP based on the\ncoordinate constraint\nPrecise positioning\nFigure1.Flowchartofprocessing.\nFigure 1. Flowchart of processing.\n3.1. EvaluationofOrbitandClockOffsets\n3.1. EvalTuhaetiocno rorfe Octriboint amnde sCslaogceks Oofffstehtse PPP-B2bservicewerecollectedoverfivedaysfrom\nday of the year (DOY) 187 to 191 in 2021. For the CNAV1 navigation messages of the\nThe correction messages of the PPP-B2b service were collected over five days fr",
+    "char_length": 4228
+  },
+  {
+    "quote_id": "qb_946f74b236",
+    "span_index": 5,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 6 of 18\nRemote Sens. 2021, 13, x FOR PEER REVIEW 6 of 18\nRemoteSens.2021,13,5011 6of17\nFigure 2. RMS values of GPS orbit errors for the CNES products.\nFigure 2. RMS values of GPS orbit errors for the CNES products.\nFigure 3. RMS values of BDS-3 orbit errors for the CNES products.\nFiguFrieg 3u.r ReM3.SR vMaSluveas loufe BsDofSB-3D oSr-b3ito rebrritoersr rfoorrs tfhoer CthNeECSN pErSodpuroctdsu. cts.\nRemote Sens. 2021, 13, x FOR PEER REVIEW 7 of 18\nFigureF i4g.u RrMe4S. vRaMluSesv aolfu GesPSo foGrbPiSt eorrrboirtse froror rtshefo PrPthPe-BP2PbP p-Bro2dbu",
+    "char_length": 1881
+  },
+  {
+    "quote_id": "qb_5f0a584174",
+    "span_index": 6,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 7 of 18\nFigure 5. RMS values of BDS-3 orbit errors for the PPP-B2b products.\nRemoteSens.2021,13,5011 The evaluation strategy of clock errors is different from that of orbit e7rorfo1r7s. Since the\naverage SD values of the satellite clock offsets were used as references, this means that\nchanges in the number of satellites in each epoch will change the reference values and\naffect the accuracy of the assessment. Hence, the reference of clock offsets was smoothed\naffecttheaccuracyoftheassessment. Hence,thereferenceofclockoffsetswassmoothedto\nto reduce the im",
+    "char_length": 3644
+  },
+  {
+    "quote_id": "qb_3af84c6e86",
+    "span_index": 7,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 8 of 18\nFigure 7. BDS-3 clock offset errors for the PPP-B2b products.\nFigures 8–11 show the detailed accuracy of the PPP-B2b and CNES clock offset\nproducts. As the PPP-B2b service is broadcast by GEO satellites, it includes the correction\nmessages of orbits and clock offsets, so the precise clock offsets can be calculated by\ncombining the clock offsets of the broadcast ephemeris and the corrections of PPP-B2b.\nMeanwhile, there are fluctuations in the accuracy of the PPP-B2b data at different times,\nso the choice of data can have an impact on the evaluat",
+    "char_length": 2372
+  },
+  {
+    "quote_id": "qb_bd35b2ccd1",
+    "span_index": 8,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 9 of 18\nFigure 9. STD values of GPS clock errors for the PPP-B2b and CNES products.\nRemoteSens.2021,13,5011 9of17\nFigure 10. RMS values of BDS-3 clock errors for the PPP-B2b and CNES products.\nFigure F1i1g. uRrMe1S1 v.aRluMeSs vofa lGuPesS ocfloGcPk Sercrloorcsk feorrr othrse fPoPrPth-Be2PbP aPn-dB 2CbNaEndS pCrNodEuScptsr.o ducts.\nThe avTehraegaev SeTraDg eanSdT DRManSd oRf MthSe CofNthEeS CanNdE PSPaPn-dB2PbP Por-Bb2itb aonrdb citloacnkd ocflfoscektso afrfsee gtsivaerne given\nin Tabline 1T.a Ablceco1.rdAinccgo trod itnhge stotatthisetisctsa,t tihsteic",
+    "char_length": 2151
+  },
+  {
+    "quote_id": "qb_e0a7be8c5d",
+    "span_index": 9,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 10 of 18\ncomponent cannot be more than 0.1 m, which is slightly worse than that of the CNES\nproducts. For the clock offset errors, the STD value of the PPP-B2b products of the BDS-3\nclock offset is 0.025 m, which is better than that of the CNES products.\nTable 1. The average STD and RMS of BDS-3/GPS PPP-B2b orbits and clock errors (unit: m).\nService System Radial Along Cross Clock\nBDS-3 0.077 0.314 0.422 0.025\nPPP-B2b\nGPS 0.090 0.399 0.319 0.032\nBDS-3 0.036 0.063 0.049 0.052\nCNES\nGPS 0.026 0.035 0.025 0.029\n3.2. Positioning Test\nTo assess the positionin",
+    "char_length": 4890
+  },
+  {
+    "quote_id": "qb_c0e23d8bc8",
+    "span_index": 10,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 11 of 18\nwere set to initial coordinates, while the displacements between the initial coordinates\nand station coordinates of subsequent epochs were calculated to evaluate the positioning\nperformance. The detailed processing strategies are shown in Table 2.\nTable 2. Processing strategies.\nItem Processing Strategies\nObservation type GPS L1/L2, BDS B1/B3\nElevation mask 10°\nTroposphere Saastamoinen model\nSolid tide IERS Conventions 2010 [43]\nOcean loading IERS Conventions 2010 [43]\nRelativistic effect Empirical model\nAmbiguity Float\nPCO/Phase center variati",
+    "char_length": 2257
+  },
+  {
+    "quote_id": "qb_aa56a3576f",
+    "span_index": 11,
+    "text": "RemoteSens.2021,13,5011 12of17\nFigure14showstheSTDandRMSvaluesofthepositioningerrorsoftheJFNGstation\nintheeast(E),north(N),andUdirections. TheRMSvaluesarenomorethan6cminthe\nthreedirections,whereastheSTDvaluesarewithin4cm.IntheUdirection,thepositioning\nRemoRteem Soetnes S. 2en0s2.1 2, 01231, ,x 1 F3O, xR F POERE RPE REERV RIEEaWVcI cEuWra cyofthePPP-B2bproductsvariesgreatly,whilethepositioningaccura1c3ie os1f3 o1 fo8 tf h1e8\nCNESandGBMproductsaresimilar.\nFiguFFriiegg uu14rree. T11h44..e T TShhTeeD SS aTTnDDd a aRnnMdd SRR MMvaSSlu vveaasll uuoeef ssp oooffs ipptiooossniittiiinoognn iainncggcu a",
+    "char_length": 2735
+  },
+  {
+    "quote_id": "qb_651c77a068",
+    "span_index": 12,
+    "text": "RemoteSens.2021,13,5011 13of17\nRemote Sens. 2021, 13, x FOR PEER REVIEW 14 of 18\nFigure 15. Positioning errors in nine sets of experiments at WHU2 station.\nFigure15.PositioningerrorsinninesetsofexperimentsatWHU2station.\nFFiigguurree 1166 sshhoowwss tthhee SSTTDD aanndd RRMMSS vvaalluueess ooff tthhee ppoossiittiioonniinngg ssoolluuttiioonn ffoorr tthhee WWHHUU22\nssttaattiioonn iinn tthhee EE//NN//UU ddirireecctitoionnss. .TThhe eRRMMS Svvaaluluese saarere nnoo mmoorree tthhaann 66 ccmm iinn tthhee tthhrreeee\nddiirreeccttiioonnss,, wwhhiillee tthhee SSTTDD vvaalluueess aarree wwiitthhiinn 44 cc",
+    "char_length": 953
+  },
+  {
+    "quote_id": "qb_07ab212730",
+    "span_index": 13,
+    "text": "RemoteSens.2021,13,5011 14of17\nRemote Sens. 2021, 13, x FOR PEER REVIEW 15 of 18\nFiguFrieg 1u6r.e T1h6e. TSThDeS aTnDd aRnMdSR vMalSuveas loufe psoosfiptioosniitniogn ainccguarcaccuyr faocry WfoHrWU2H sUta2tisotna.t ion.\nTo Tdoemdeomnsotnrasttrea ttehteh eddeetatailieledd ppoossiittiioonniinngg ppeerrfoforrmmaanncceeo fotfh ethJFe NJGFNaGnd aWndU HW2UstHat2io ns,\nstatitohnesa, vtherea gaveeSrTaDgea SnTdDR ManSdv RaMlueSs voafluthees poof stihtieo npionsgiteiorrnoinrsga ererrcoarlsc ualraet ecdalwcuiltahtendin weisteht sof\nninee xseptesr oimf eexnptserfoimreeancths fsotar teioanch. Tsatabtlieo3",
+    "char_length": 4982
+  },
+  {
+    "quote_id": "qb_a7f212fd8a",
+    "span_index": 14,
+    "text": "Remote Sens. 2021, 13, x FOR PEER REVIEW 16 of 18\naccumulate over time. The purpose of this experiment was to test whether errors in the\nRemoteSens.2021,13,5011 15of17\nconstrained coordinates have a significant effect on positioning accuracy within a certain\nrange. If the bias of the initial coordinates is no more than 0.4 m, the effect on the\npositioning accuracy is not obvious. When the bias reaches more than 0.6 m, the\nbpioassitoifonthinegin eitriraolrcso oinrd tihnea teXs iasnndo Zm odrieretchtaionn0s. 4remm,athine esftfaebclteo, nbutht etphoe spitoiosnitiinogniancgc uerrarcoyr\niisnncroeta",
+    "char_length": 4595
+  },
+  {
+    "quote_id": "qb_b5234fd197",
+    "span_index": 15,
+    "text": "RemoteSens.2021,13,5011 16of17\nresultswithstaticdata. Itsprecisepositioningperformancecanbeusedtorealizeseismic\nmonitoringandotherapplicationsinChinaandthesurroundingareas.\nAuthorContributions:Conceptualization,H.Y.andS.J.;methodology,H.Y.andD.W.;software,H.Y.\nandZ.W.;validation,S.J.andK.H.;formalanalysis,S.J.andW.C.;writing—originaldraftpreparation,\nH.Y.andS.J.;writing—reviewandediting,H.Y.andS.J.;visualization,D.W.andZ.W.;supervision,\nK.H.;projectadministration,W.C.;fundingacquisition,S.J.,D.W.,K.H.,andW.C.Allauthorshave\nreadandagreedtothepublishedversionofthemanuscript.\nFunding:Theresearchw",
+    "char_length": 4249
+  },
+  {
+    "quote_id": "qb_59aa9e2893",
+    "span_index": 16,
+    "text": "RemoteSens.2021,13,5011 17of17\n18. Jin,S.;Su,K.Co-seismicdisplacementandwaveformsofthe2018Alaskaearthquakefromhigh-rateGPSPPPvelocityestimation.\nJ.Geod.2019,93,1559–1569.[CrossRef]\n19. Pan, L.; Gao, X.; Hu, J.; Ma, F.; Zhang, Z.; Wu, W. Performance assessment of real-time multi-GNSS integrated PPP with\nuncombinedandionospheric-freecombinedobservables.Adv.SpaceRes.2021,67,234–252.[CrossRef]\n20. Li,X.;Li,X.;Yuan,Y.;Zhang,K.;Zhang,X.;Wickert,J.Multi-GNSSphasedelayestimationandPPPambiguityresolution:GPS,\nBDS,GLONASS,Galileo.J.Geod.2018,92,579–608.[CrossRef]\n21. Banville, S.; Geng, J.; Loyer, S.; S",
+    "char_length": 4380
+  }
+]

@@ -1,0 +1,63 @@
+# Innovations Registry — Continuously Extensible Research KB
+# Each entry records a novel method, approach, or contribution
+# route_status: emerging_singleton | partially_confirmed | confirmed_minor_route | established_route
+
+innovations:
+  - name: PPP-B2b-RTK
+    description: "PPP-B2b augmentation using SSR corrections from a single reference station"
+    route_status: emerging_singleton
+    supporting_paper_count: 1
+    supporting_paper_ids: [s10291-025-01854-4]
+    contradicting_paper_ids: []
+    first_observed_release: v0.4_wave_1
+    needs_followup_evidence: true
+
+  - name: BDSet Public B2b Dataset
+    description: "First-ever publicly archived BDS satellite-based PPP augmentation dataset since 2023"
+    route_status: emerging_singleton
+    supporting_paper_count: 1
+    supporting_paper_ids: [s41597-026-07032-6]
+    contradicting_paper_ids: []
+    first_observed_release: v0.4_wave_1
+    needs_followup_evidence: true
+
+  - name: B2b Short-Message Enhancement
+    description: "Using BDS short-message communication service to enhance PPP-B2b correction delivery"
+    route_status: partially_confirmed
+    supporting_paper_count: 2
+    supporting_paper_ids: [s00190-025-01965-3, 1-s2.0-S0263224124014428]
+    contradicting_paper_ids: []
+    first_observed_release: v0.4_wave_1
+    needs_followup_evidence: false
+
+  - name: Smartphone PPP-B2b
+    description: "BDS PPP-B2b-based smartphone precise positioning with mixed-frequency data"
+    route_status: emerging_singleton
+    supporting_paper_count: 1
+    supporting_paper_ids: [applsci-15-07169-v2]
+    first_observed_release: v0.4_wave_2
+    needs_followup_evidence: true
+
+  - name: B2b Seismogeodesy (Shake Table)
+    description: "Real-time high-rate seismogeodesy using Galileo HAS and BDS PPP-B2b with shake table validation"
+    route_status: partially_confirmed
+    supporting_paper_count: 2
+    supporting_paper_ids: [ggag169, Jianfei_Zang_2024]
+    first_observed_release: v0.4_wave_2
+    needs_followup_evidence: false
+
+  - name: B2b+HAS+MADOCA Triple Combination
+    description: "Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end"
+    route_status: emerging_singleton
+    supporting_paper_count: 1
+    supporting_paper_ids: [1-s2.0-S026322412601448X]
+    first_observed_release: v0.4_wave_3
+    needs_followup_evidence: true
+
+  - name: B2b Orbit/Clock Outlier Detection
+    description: "Temporal characteristics-based outlier detection and prediction for PPP-B2b orbit and clock corrections"
+    route_status: emerging_singleton
+    supporting_paper_count: 1
+    supporting_paper_ids: [remotesensing-16-02337-v2]
+    first_observed_release: v0.4_wave_3
+    needs_followup_evidence: true

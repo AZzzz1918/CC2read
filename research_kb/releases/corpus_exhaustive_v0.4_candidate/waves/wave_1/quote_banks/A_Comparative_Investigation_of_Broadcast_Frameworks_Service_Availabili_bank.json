@@ -1,0 +1,56 @@
+[
+  {
+    "quote_id": "qb_7df0d702bc",
+    "span_index": 0,
+    "text": "A Comparative Investigation of\nBroadcast Frameworks, Service\nAvailability, and Time Transfer\nPerformance in PPP-B2b, HAS,\nand MADOCA-PPP\nRunzhi Zhang, Rui Tu, Jihai Zhang, and Xiaochun Lu\nThe precise point positioning (PPP) technique has approximately 99% for both GPS and Galileo users. Further-\nbeen used in the calculations of international atomic more, the MADOCA-PPP service achieves an impressive PPP\ntime (TAI) links for decades. PPP depends on ex- availability of 99.99% for GPS users. In the time transfer re-\nternal precise satellite orbit, clock offset, and bias products sults, where the ",
+    "char_length": 4996
+  },
+  {
+    "quote_id": "qb_c5dab456aa",
+    "span_index": 1,
+    "text": "service (CLAS) [7], the BeiDou global navigation satel- PPP Model\nlite system (BDS) PPP-B2b [8], the European Galileo high The PPP technique enables high-precision absolute position-\naccuracy service (HAS) [9], and the QZSS Multi-GNSS ing by utilizing a single GNSS receiver to receive satellite\nadvanced orbit and clock augmentation-PPP (MAD- signals, while employing models, empirical formulas, and\nOCA-PPP) [10]. In particular, the Galileo HAS launched parameter estimation methods to handle delay errors in the\nits initial global services in January 2023, while the QZSS propagation paths between",
+    "char_length": 6164
+  },
+  {
+    "quote_id": "qb_ab30bf4b1e",
+    "span_index": 2,
+    "text": "Currently, while code bias products are available across all delay was estimated as a random walk process. The receiver\nthree services, the PPP-B2b and HAS services do not provide clock offset dt was estimated as white noise.\nr,ij\naccessible phase bias products. The resulting differences in\nmodeling will be highlighted in this section. Users primarily PPP Time Transfer\nfocus on recovering precise products, correcting various er- The receiver clock offset dt estimated by PPP is the devia-\nr,ij\nrors, and estimating unknown parameters. tion of the local time t from the product reference time t .\n",
+    "char_length": 5923
+  },
+  {
+    "quote_id": "qb_bc58017e08",
+    "span_index": 3,
+    "text": "decoded into four message types, with compatibility main-\nHAS Message tained through the issue of data (IOD). In contrast, the HAS\nproducts encode message types (MT) 1 to 3 as MT1-slow,\nClock Orbit Code Bias\nwhile clock offset corrections are encoded separately as MT1-\nEncoded page C (cid:258) Encoded page C fast in Section 7.6 of its interface control document (ICD) [9]. 1 k\nMT1 Header Mask Orbit block Bias block The MADOCA-PPP service encodes orbit, clock offset, and\nbias products into six message types for broadcasting via L6E,\nMT1 Header Clock block while ionospheric corrections are transm",
+    "char_length": 3448
+  },
+  {
+    "quote_id": "qb_bf8277f9fd",
+    "span_index": 4,
+    "text": "service since product estimates primarily rely on China’s was set to support PPP solutions. The proportion of epochs\ntracking stations. Moreover, the binary data stream for the with sufficient corrections relative to the total number of ep-\nPPP-B2b service broadcasted by the GEO satellites remains ochs was considered as an indicator of service availability.\nconsistent. The MADOCA-PPP estimates its products using a The interpolation results for the average number of satellites\nglobal observation network [12] and broadcasts them through with corrections and PPP availability for the PPP-B2b, HAS,",
+    "char_length": 4036
+  },
+  {
+    "quote_id": "qb_34f6f41529",
+    "span_index": 5,
+    "text": "and 8.44 Galileo satellites with corrections contributing to MADOCA-PPP provides services for the Asia-Pacific region\nPPP calculations at each epoch on the user side. This results in through QZSS satellites, with an average of 10.06 corrected GPS\nPPP availability rates of 98.84% and 99.17%, respectively. The satellites and an availability rate of 99.99%. However, the num-\nber of corrected GLONASS\nsatellites is relatively low,\nwhile the corrected Galileo\nsatellites and their avail-\nability are comparable to\nthose of HAS. In summary,\nthe real-time products of all\nthree services exhibit good\ncont",
+    "char_length": 2818
+  },
+  {
+    "quote_id": "qb_5be5246c45",
+    "span_index": 6,
+    "text": "on the GPS and Galileo systems. To compare the time transfer\naccuracy of the three services, three user stations were selected\nwithin the overlapping coverage area of the high-availability\nservices provided by all three. The National Time Service Cen-\nter (NTSC), a TAI time-keeping laboratory, serves as the central\nnode, linking IGS stations (ULAB and USUD) to form time\nlinks for time comparison accuracy analysis. The geographic\ndistribution of the stations and the baseline lengths of the two\ntime links are shown in Fig. 9.\nWith reference to GeoForschungZentrum (GFZ) post-pro-\ncessed precise p",
+    "char_length": 4085
+  },
+  {
+    "quote_id": "qb_0e5d0fbbe2",
+    "span_index": 7,
+    "text": "due to bandwidth limitations, satellite broadcasting requires via NTRIP,” in Proc. ION GNSS 20th Int. Technical Mtg. Satellite\nprecise products to be segmented and encoded for transmis- Division, 2007, pp. 1992–1998.\nsion, necessitating users to recover the complete product on [4] Y. L. Ge, S. X. Chen, T. Wu, C. M. Fan, W. J. Qin et al., “An\ntheir end. This study conducts a comprehensive comparison analysis of BDS-3 real-time PPP: Time transfer, positioning, and\nof the broadcast encoding, service coverage, availability, and tropospheric delay retrieval,” Measurement, vol. 172, 108871,\ntime tra",
+    "char_length": 6257
+  },
+  {
+    "quote_id": "qb_45634a0b78",
+    "span_index": 8,
+    "text": "(PPP) with daily observations,” J. Geodesy, vol. 82, no. 7, China. His primary research focuses on real-time GNSS time\nJul. 2008. transfer and high-precision positioning.\n[18] J. Saastamoinen, “Atmospheric correction for the troposphere and\nthe stratosphere in radio ranging Satellites,” The Use of Artificial Rui Tu (turui-2004@126.com) is a Professor at the College of\nSatellites for Geodesy, vol. 15, pp. 247–251, Jan. 1972. Geodesy and Geomatics, Shandong University of Science and\n[19] J. Boehm, A. Niell, P. Tregoning, and H. Schuh, “Global mapping Technology, Qingdao, Shandong, China. He rece",
+    "char_length": 2723
+  }
+]

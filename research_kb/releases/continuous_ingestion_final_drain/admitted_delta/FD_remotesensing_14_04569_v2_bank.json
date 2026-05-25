@@ -1,0 +1,74 @@
+[
+  {
+    "quote_id": "qb_15925ad9a9",
+    "span_index": 0,
+    "text": "remote sensing\nTechnicalNote\nThe Bias in PPP-B2b Real-Time Clock Offset and the Strategy to\nReduce It\nJinhuoLiu1,2 ,ChengpanTang1,*,ShanshiZhou1,XiaogongHu1,YufeiYang3,JianhuaYang1,2\nandYuchenLiu1,2\n1 ShanghaiAstronomicalObservatory,ChineseAcademyofSciences,Shanghai200030,China\n2 UniversityofChineseAcademyofSciences,Beijing100049,China\n3 BeijingSatelliteNavigationCenter,Beijing100094,China\n* Correspondence:cptang@shao.ac.cn\nAbstract: Precise point positioning can provide accurate coordinates to users without reference\nstations,andthehigh-precisionreal-timeclockoffsetproductisnecessaryforreal-t",
+    "char_length": 4154
+  },
+  {
+    "quote_id": "qb_99026a8ea4",
+    "span_index": 1,
+    "text": "RemoteSens.2022,14,4569 2of12\nbiasinclockoffsetmayberelatedtothereceivertype[12],algorithm,andthecalibration\nofequipmentdelay.\nThesatelliteclockoffsetparametersinthebroadcastmessageofBDS-3Positioning,\nNavigationandTimingService(PNTS)isestimateddifferentlyfromPPP-B2b. Thereare\ntwotimesynchronizationmethodsusedinthecalculation. TheL-bandtwo-waysatellite\ntimeandfrequencytransfer(TWSTFT)establishesthesatellitegroundconnection,andthe\ntimedivisionmultipleaccessinter-satellitelink(ISL)clockoffsetestimationestablishes\nthe inter-satellite connection [13,14]. The former has been successfully applied in ",
+    "char_length": 2990
+  },
+  {
+    "quote_id": "qb_811b22687e",
+    "span_index": 2,
+    "text": "RemoteSens.2022,14,4569 3of12\n(cid:40)\nls = PCs−ρs−Ts−(bs +b )−(cid:101)\nPC,r r r r IF r,IF PC (1)\nls = LCs−ρs−Ts−(φs +φ )−λNs −(cid:101)\nLC,r r r r IF r,IF IF,r LC\nThe r and s denote the specific receiver and satellite. The ρ, T, and N represent\nthe geometric distance, tropospheric delay, and ambiguity, respectively. The l and\nPC\nl is the OC (including satellite and receiver clock offsets) calculated in this module.\nLC\nThe real-time OC stream is injected into the clock offset estimation module. The clock\noffset estimation module includes two sub-modules: hourly estimation and real-time\nestima",
+    "char_length": 3490
+  },
+  {
+    "quote_id": "qb_4e69c3dac2",
+    "span_index": 3,
+    "text": "RemoteSens.2022,14,4569 4of12\nInFigure2,theX-axisisthenumberofdaysfrom1August2020,thebluedotisthe\nbiasofallsatellites,andtheredlineisthe3σconfidenceintervalcountedbyday. Thebias\nstillexistedafterothereffectswereremoved,whichindicatedthattheestimationalgorithm\nor receiver characteristic is a significant source of this bias. The bias can be considered\nintwoparts. Thebiasesofallsatelliteshavethesamelong-termvariationtrend,which\nrangesbetween±3m. Afterremovingthelong-termtrend,thebiasesofsatellitesarenot\nconsistent,withthestandarddeviation(STD)σ of0.315m(1.05ns).\nBia\n4\n3\n2\n1\n0\n-1\n-2\n-3\n-4\n50 100 1",
+    "char_length": 2419
+  },
+  {
+    "quote_id": "qb_ca32ea7440",
+    "span_index": 4,
+    "text": "RemoteSens.2022,14,4569 5of12\nthe difference between BRCO and PPCO. After removing the long-term trend, its STD\nis around 0.32 m (1.06 ns), slightly larger than B2bCO. It should be noted that this is a\nstatistical result that aims to illustrate that BRCO has a more negligible bias. Actually,\nB2bCOismuchmoreprecisethanBRCOandhasmuchbetterpositioningperformance.\nBecauseofitssmallerbias,theBRCOcouldbeusedasaprioriconstraintfortheestimation\nfilterofB2bCOandusingmoreappropriateconstraintsonsatelliteclockcoefficient,soas\ntoreducethebiasinB2bCO.\n2\n1.5\n1\n0.5\n0\n-0.5\n-1\n-1.5\n-2\n50 100 150 200 250 300\nDa",
+    "char_length": 2084
+  },
+  {
+    "quote_id": "qb_e8701618d3",
+    "span_index": 5,
+    "text": "RemoteSens.2022,14,4569 6of12\nis used to constrain the coefficients. When the clock offset sequence is longer than 30\nmin, the historical clock offset sequence is used to predict the clock offset on the cur-\nrent epoch and constrain the coefficients. Different priori noise is needed in different\nconstraintmethods.\n3.2. PrioriNoiseofBRCOConstraintMethod\nThe BDS-3 navigation broadcast is updated hourly. In order to restrict the clock\ncoefficientappropriately,theRMSof∆Ci (inFormula (5))iscountedaccordingtothe\nBRCO\ntimetoTOC(TimeofClock). AsillustratedinFigure5,theX-axisisthetimetoTOC,while\ntheY-a",
+    "char_length": 1634
+  },
+  {
+    "quote_id": "qb_986d5179ca",
+    "span_index": 6,
+    "text": "RemoteSens.2022,14,4569 7of12\naveragevalueoftheinitialerror(P ). Wetakethe3σupperlimitofP andP toestimate\n0 0 1\ntheBRCOerror:\nδ =0.583+0.0019dt; (6)\nBRCO\ndtisthetimetoTOC.δ istheestimatederrorofBRCOatthistime,whichcanbe\nBRCO\nusedasapriorinoiseofclockcoefficientsinthefilter.\n3.3. PrioriNoiseofPredictClockOffsetConstraintMethod\nWhentheclockoffsetsequenceofasatelliteislongerthan30min,thecurrentclock\noffsetvaluecanbepredictedwithhistoricalinformation,andthepredictedclockoffsetcan\nbeusedasaprioriconstraintofthefilter. Weassumethattheerroroftheclockoffsetis\ncomposedoftheclockspeederrorandfrequencywh",
+    "char_length": 2828
+  },
+  {
+    "quote_id": "qb_0b93e74ea2",
+    "span_index": 7,
+    "text": "RemoteSens.2022,14,4569 8of12\nTable2.Otherscoefficientsandstrategiesofthefilter.\nType Strategy/Coefficient\nObservation 9receiversinChina\nDate 22Marchto5April2022\nSystem BDS-3\nFrequencyCombine B1I/B3IPC+LC\nElevationLimit >3◦\nInterval 30s\nOrbitProduct PPP-B2bOrbitProduct\nObservationNoise PC:1m;LC:0.01m\nMeteorologicalModel GPT2.1W+SAAS+VMF1\nTrop. Esti. Model RandomWalk,ProcessNoise1cm/h\nRcv. ClockEsti. Model WN,PrioriNoise2m\nAmb. PrioriNoise 1.5m\nEsti. Method KalmanFilter\nTrop.:Troposphere;Esti.:Estimation;Sat.:Satellite;Rcv.:Receiver;WN:WhiteNoise;Amb.:Ambiguity.\n3.5. AnalysisofBCFCO\nWith the PP",
+    "char_length": 1781
+  },
+  {
+    "quote_id": "qb_42cef6719b",
+    "span_index": 8,
+    "text": "RemoteSens.2022,14,4569 9of12\nTable3.Theprecision(STD)ofclockoffset.\nPRN BCFCO(m) B2bCO(m) PRN BCFCO(m) B2bCO(m)\n19 0.026 0.027 34 0.016 0.014\n20 0.034 0.033 35 0.017 0.015\n21 0.019 0.018 36 0.019 0.023\n22 0.013 0.014 37 0.022 0.022\n23 0.015 0.017 38 0.017 0.017\n24 0.034 0.034 39 0.017 0.021\n25 0.015 0.016 40 0.017 0.017\n26 0.037 0.038 41 0.014 0.014\n27 0.014 0.019 42 0.016 0.013\n28 0.016 0.013 43 0.017 0.017\n29 0.017 0.015 44 0.016 0.015\n30 0.014 0.017 45 0.025 0.023\n32 0.014 0.015 46 0.017 0.017\n33 0.015 0.017 mean 0.020 0.021\n4. TimingandPositioningPerformance\nInPPP,theerroronclockoffsetwil",
+    "char_length": 1956
+  },
+  {
+    "quote_id": "qb_6170f5dc90",
+    "span_index": 9,
+    "text": "RemoteSens.2022,14,4569 10of12\n4.2. AccuracyofKinematicPositioning\nObservationdatafrom1:00to23:00(BDT)isusedinBDS-3singlesystemkinematic\npositioning,and95%positioningerroriscountedfrom3:00to23:00eachday. Considering\nthatPPP-B2bisaregionenhancementsystem,thepositioningperformanceofreceiversis\ndiscussedaccordingtotheirregion: Northeast,Northwest,andSouthofChina. Inaddition,\ndifferent types of receivers are deployed in some locations to compare the positioning\nimprovementofdifferenttypesofreceivers. ThestatisticalresultsareshowninTable4.\nTable4.The95%kinematicpositioningaccuracyafterconvergence.\n",
+    "char_length": 2744
+  },
+  {
+    "quote_id": "qb_ec76f3838f",
+    "span_index": 10,
+    "text": "RemoteSens.2022,14,4569 11of12\nimprovementonthepositioningaccuracyofBCFCOis22%and17%inhorizontaland\nverticaldirections,respectively.\n4.3. TimingPerformance\nWithtwocalibratedtimingreceiversTM1AandTM1B,thetimingperformanceof\nBCFCOandB2bCOcanbeevaluatedbythestaticPPP.Observationdatafrom1:00to23:00\n(BDT)isusedandtheerrorofclockoffsetandclockrateiscountedfrom3:00to23:00in\neachday.\nThetimingperformanceoftworeceiversusingdifferentproductsisgiveninTable5.\nUsingBCFCOproduct,theclockoffseterrorofreceiversisabout0.9ns(0.25m),whileit\nis2.3ns(0.69m)and3.7ns(1.17m)usingB2bCOproduct,whichisconsistentwiththe\n",
+    "char_length": 3177
+  },
+  {
+    "quote_id": "qb_548de25bdc",
+    "span_index": 11,
+    "text": "RemoteSens.2022,14,4569 12of12\nDataAvailabilityStatement:Notapplicable\nConflictsofInterest:Theauthorsdeclarenoconflictofinterest.\nReferences\n1. Kouba,J.;Héroux,P. PrecisePointPositioningUsingIGSOrbitandClockProducts. GPSSolut.2001,5,12–28.[CrossRef]\n2. Liu,R.;Guo,B.;Zhang,A.;Yimwadsana,B. ResearchonGPSprecisepointpositioningalgorithmwithaSeaSurfaceHeight\nConstraint. OceanEng.2020,197,106826.[CrossRef]\n3. Geng,J.;Bock,Y.;Melgar,D.;Crowell,B.W.;Haase,J.S. AnewseismogeodeticapproachappliedtoGPSandaccelerometer\nobservationsofthe2012Brawleyseismicswarm:Implicationsforearthquakeearlywarning. Geochem",
+    "char_length": 4051
+  }
+]

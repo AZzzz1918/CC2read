@@ -1,0 +1,116 @@
+[
+  {
+    "quote_id": "qb_a96ebe0758",
+    "span_index": 0,
+    "text": "Article\nAssessing BeiDou-3 PPP-B2b with Signal-in-Space Ranging Error\n(SISRE) and Its Performances in Positioning and ZTD Estimation\nGuangxingWang1,2,FenLi2,*,WenhaiZhou2,GuoChen3,* ,ZhiyongZhu1,4,5,XiaominJia1,6andQingAn7\n1 KeyLaboratoryofSmartEarth,Beijing100094,China;wanggx@cug.edu.cn(G.W.);\nzhuzhiyong02@nudt.edu.cn(Z.Z.);echos5@163.com(X.J.)\n2 SchoolofGeographyandInformationEngineering,ChinaUniversityofGeosciences,Wuhan430078,China;\nzhouwh_cug@163.com\n3 GNSSResearchCenter,WuhanUniversity,Wuhan430079,China\n4 BeijingInstituteofTrackingandTelecommunicationsTechnology,Beijing100095,China\n5 Col",
+    "char_length": 3574
+  },
+  {
+    "quote_id": "qb_a4d91b437c",
+    "span_index": 1,
+    "text": "Sensors2025,25,6700 2of19\nnavigation,afreeprecisepointpositioning(PPP)serviceamongothercharacteristiccapaci-\ntieshasbecomeavailableforusersinChinaanditsneighboringregions[2–4]. TheBDS-3\nsystemprovidesacomprehensivesuiteofservices,includingRadioNavigationSatellite\nService(RNSS),internationalsearchandrescue,andglobalshortmessagecommunication,\nensuringworldwidecoverage. WithinChinaandadjacentregions,BDS-3furtherdelivers\nadvancedservicessuchasPPP,satellite-basedaugmentation,ground-basedaugmentation,\nandregionalshortmessagecommunication,therebyenhancingpositioningaccuracyand\nservicereliability. The",
+    "char_length": 3921
+  },
+  {
+    "quote_id": "qb_eaea2d134d",
+    "span_index": 2,
+    "text": "Sensors2025,25,6700 3of19\nevaluationofPPP-B2bcorrectionproducts,withasystematicanalysisoftheimpactsoforbit\nandclockerrorsonSISRE,enablingamorecomprehensiveperformancecharacterization[1].\nMeanwhile,anionosphere-freePPPmodelisadoptedtosystematicallycomparePPP-B2b\nproductswiththefinalproductfromtheCenterforOrbitDeterminationinEurope(CODE)\nandthereal-timeproductfromtheCentreNationald’ÉtudesSpatiales(CNES),andvali-\ndationisperformedusingdatafromtheInternationalGNSSMonitoringandAssessment\nSystem(iGMAS)stationstoimprovetheengineeringapplicabilityoftheevaluationresults.\nFurthermore,unlikemostexistings",
+    "char_length": 3038
+  },
+  {
+    "quote_id": "qb_61067be73b",
+    "span_index": 3,
+    "text": "Sensors2025,25,6700 4of19\ntrack,andcross-trackcomponents. ItisnecessarytoconvertthemtotheECEFcoordinate\nsystembeforecalculatingtheprecisesatelliteorbitswithPPP-B2bcorrection. Thismethod\ncanbeexpressedas\n(cid:104) (cid:105)\nX = X − e e e ·δO (3)\nB2b brdc R A C B2b\nwhereX isthesatellitepositioncorrectedbythePPP-B2bsignal, X isthesatellite\nB2b brdc\npositionobtainedfromthebroadcastephemeris,ande ,e ,ande aretheunitvectorsin\nR A C\ntheradial,tangential,andnormaldirectionsofthesatelliteorbitintheECEFcoordinate\nsystem,respectively.\n2.3. PreciseCLOCKRECovery\nTheclockcorrectionscontainedinthePPP-B2bsign",
+    "char_length": 3020
+  },
+  {
+    "quote_id": "qb_41e9c25120",
+    "span_index": 4,
+    "text": "Sensors2025,25,6700 5of19\nwithclockaccuracyofapproximately0.1ns[29,30]. Furthermore,tobetterevaluatethe\nperformanceofPPP-B2brelativetootherwidelyusedproducts,acomparativeanalysis\nisconductedusingthefinalproductsfromCODEandthereal-timeproductsprovided\nbyCNES.\n3.1. CodeBiasAccuracy\nBasedontheDCBproductsbyCASon22August2023,weevaluatedtheaccuracies\nof DCBs provided through the PPP-B2b signal. The C1P-C6I and C2I-C6I DCBs of 27\nBDS-3satellites(specificallyC19–C46,excludingC31,whichisstillunderin-orbittesting)\nareshownintheupperandthelowerpanelsofFigure1,andforeachsatellitetheDCB\nproductsofPPP-B2ban",
+    "char_length": 1670
+  },
+  {
+    "quote_id": "qb_e7c6f5897f",
+    "span_index": 5,
+    "text": "Sensors2025,25,6700 6of19\nAsisshowninTable1andFigures3–5,thePPP-B2borbitcorrectionproductsdemon-\nstrategoodperformanceintheradialdirection,withRMSerrorsof0.063mand0.068mfor\ntheGPSandBDS-3systems,respectively. Thestandarddeviationsintheradialdirection\naresmallerthanthoseinthealong-trackandcross-trackdirections,andtheradialaccuracy\niscomparabletothatofthepreciseorbitproductsprovidedbyCNESandCODE.Notably,\nfor the BDS-3 system, the PPP-B2b slightly outperforms the CNES solution in terms of\nradialaccuracy. Inthealong-trackandcross-trackdirections,theorbiterrorsofPPP-B2b\narestillsignificantlylargert",
+    "char_length": 2063
+  },
+  {
+    "quote_id": "qb_1915b12792",
+    "span_index": 6,
+    "text": "Sensors2025,25,6700 7of19\nFigure4.Orbitaccuraciesinradial,along-track,andcross-trackdirections(CODE).\nFigure5.Orbitaccuraciesinradial,along-track,andcross-trackdirections(CNES).\n3.3. ClockError\nThe second-order differencing method is used to evaluate the accuracy of precise\nclock products [2]. For each epoch, the satellite clock differences relative to the WHU\nfinalproductsarecomputedforeachsatellitetoobtainfirst-orderdifferences. Themean\nfirst-orderdifferenceacrossallsatellitesatthesameepochisthensubtractedtoderivethe\nsecond-orderdifferences.\nFigures6and7illustratethesecond-orderclockdifferen",
+    "char_length": 1092
+  },
+  {
+    "quote_id": "qb_a5523f9294",
+    "span_index": 7,
+    "text": "Sensors2025,25,6700 8of19\nFigure6.TimeseriesofPPP-B2bGPSsatellitesclockerrorsonDOY234,2023.\nFigure7.TimeseriesofPPP-B2bBDS-3satellitesclockerrorsonDOY234,2023.\nFigures8and9presenttheweeklyaverageRMSandstandarddeviation(STD)values\nofthesecond-orderclockdifferencesforGPSandBDS-3satellitesacrossdifferentprod-\nucts. DetailednumericalvaluesareprovidedinTable2. Consistentwiththesingle-day\nobservations,theRMSofthesecond-orderdifferencesforBDS-3inthePPP-B2bproduct\nis generally smaller than that for GPS, with a weekly mean RMS of 1.800 ns for BDS-3\nand 3.005 ns for GPS. This reflects the limitation of ",
+    "char_length": 1734
+  },
+  {
+    "quote_id": "qb_2994cbb795",
+    "span_index": 8,
+    "text": "Sensors2025,25,6700 9of19\nFigure8.ClockaccuraciesofGPSsatellitesforPPP-B2b,CODE,andCNESproducts.\nFigure9.ClockaccuraciesofBDS-3satellitesforPPP-B2b,CODE,andCNESproducts.\nTable2.Statisticalcomparisonofthesecond-orderclockdifferencesforeachproduct.\nGPS BDS-3\nPPP-B2b CODE CNES PPP-B2b CODE CNES\nRMS/ns 3.005 0.505 0.556 1.800 0.594 0.821\nSTD/ns 0.200 0.139 0.171 0.171 0.213 0.620\nFigures8and9illustratethattheclocksequencesforBDS-3satellitesinthePPP-B2b\npreciseproductsaremorestableandcontinuous. Thesignificantdifferenceinclockbias\naccuracybetweenGPSandBDS-3inPPP-B2bmaybeduetotheincompletenessofthe\n",
+    "char_length": 1466
+  },
+  {
+    "quote_id": "qb_194fa5cf48",
+    "span_index": 9,
+    "text": "Sensors2025,25,6700 10of19\nclockoffseterrorsinPPP-B2bisusedtoevaluatetheaccuracyofthePPP-B2bclockoffset\ncorrections. Insummary,thePPP-B2bproductdemonstratescompetitive,andforBDS-3,\nsuperiorclockaccuracycomparedtotheotherproducts.\n3.4. SISREAssessment\nThissectioncalculatestheglobal-averageSISREforthePPP-B2b,CODEfinalproducts,\nandCNESRTSproducts. Tobetterunderstandthecontributionsoforbitandclockerrorsto\nglobal-averageSISRE,thisstudyalsocomputesorbit-onlySISRE,withthestatisticalresults\nshowninTable3.\nFigure10presentsacomparativeanalysisofglobal-averageSISRE,orbit-onlySISRE,\nandclockerrorsforeachp",
+    "char_length": 1674
+  },
+  {
+    "quote_id": "qb_f8d58374f8",
+    "span_index": 10,
+    "text": "Sensors2025,25,6700 11of19\n4. PracticalApplication\nExperimentsofPPPwereconductedwithobservablescollectedatstationsjfng,chu1,\ngua1,lha1,sha1,andxia1from20–26August2023,withasamplingintervalof30s,and\nthedistributionofthestationsisshowninFigure11. Performanceofpositioningaswell\nasZTDestimationusingPPP-B2bcorrectionsareinvestigatedwithGPS-only,BDS-3-only,\nandGPS+BDS-3observables,respectively,andresultsusingthefinalproductWHUare\ntakenascontrol.\nFigure11.Distributionofthesixstations.\nFollowing the release of ITRF2020 in April 2022, a new IGS Reference Framework\n(IGS20) and a revised IGS antenna cali",
+    "char_length": 2001
+  },
+  {
+    "quote_id": "qb_b4ee63a56f",
+    "span_index": 11,
+    "text": "Sensors2025,25,6700 12of19\n(a) (b)\nFigure12.Weeklyaverageresultsforkinematic(a)andstatic(b)PPPsolutionsutilizingIGS20.atx\nandIGS14.atx.\nTable4.Processingstrategies.\nContent Strategy\nObservationtype IF:B1/B3,L1/L2\nInterval 30s\nCut-offelevation 5◦\nSatelliteorbitandclock PPP-B2b/CODE/CNES\nPCOandPCV IGS20.atx\nSolidtide,oceantide IERSConventions2010\nZTDparameters Saastamoinenmodelandrandomwalk\nNoiselevelsofcodeandphase 0.3m/0.01cycle\nAmbiguity Float\n4.1. PPPEvaluation\nFigures 13–15 illustrate the kinematic PPP solution sequences for station JFNG on\n22August2023,usingthreetypesofcorrectionproducts: ",
+    "char_length": 1949
+  },
+  {
+    "quote_id": "qb_1f927200e2",
+    "span_index": 12,
+    "text": "Sensors2025,25,6700 13of19\nFigure13.KinematicPPPsolutionapplyingPPP-B2bproducts.\nFigure14.KinematicPPPsolutionapplyingCODEproducts.\nFigure15.KinematicPPPsolutionapplyingCNESproducts.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_91b59b7f9f",
+    "span_index": 13,
+    "text": "Sensors2025,25,6700 14of19\nFigure16.ThenumberofavailablesatellitesandPDOPapplyingPPP-B2bproductsontheright.\nFigures17and18displaythestatisticalresultsofpositioningaccuracyforkinematic\nPPPandstaticPPPatsixstationsoversevenconsecutivedays,respectively,reflectingthe\naverageRMSvaluesintheE,N,andUdirectionsandthenumberofavailablesatellitesun-\nderthreeobservationschemes: GPS-only,BDS-only,andGPS+BDS-3. Fromthekinematic\nPPPresults,thePPP-B2bproductsusingGPS+BDS-3observationsachievecentimeter-level\naccuracyinbothhorizontal(4.3cm)andvertical(2.8cm)positioningacrossallstations.\nWhenusingonlyBDS-3satelli",
+    "char_length": 1171
+  },
+  {
+    "quote_id": "qb_595a057258",
+    "span_index": 14,
+    "text": "Sensors2025,25,6700 15of19\nFigure18.WeeklyaverageresultsforstaticPPPsolutions.\nOverall,thepositioningperformanceofthePPP-B2bproductsusingtheGPS+BDS-3\nsystem is comparable to that of the CNES RTS products. When using only the BDS-3\nsystem,PPP-B2bslightlyoutperformsCNESRTS,butwhenusingonlytheGPSsystem,\nthepositioningperformanceofPPP-B2bstillneedsimprovement.\n4.2. ZTDEvaluation\nThissectionaimstoevaluatetheperformanceofthePPP-B2bproductinestimatingthe\nZTD.TheZTDestimatesobtainedfromthreepositioningstrategies—GPS-only,BDS-3-only,\nandGPS+BDS-3—arecomparedagainstreferencevaluesprovidedbyiGMAS,whosefi",
+    "char_length": 2185
+  },
+  {
+    "quote_id": "qb_1d2c698afc",
+    "span_index": 15,
+    "text": "Sensors2025,25,6700 16of19\nstilllagsinZTDestimationaccuracy—particularlyundertheGPS-onlymode—suggesting\nthatfurtherimprovementsareneededintermsofcorrectionqualityandproductstability.\nFigure19.WeeklyaccuraciesofZTDswithGPS,BDS-3,andboth.\nTable5.MaximumRMSofestimatedZTDerrorsusingeachproduct.\nMaximumRMSofZTD(cm)\nEstimationMethod\nPPP-B2b CODE CNES\nGPS 3.0 1.3 1.6\nKinematicsolution BDS-3 2.3 1.4 1.6\nGPS+BDS-3 1.8 1.0 1.2\nGPS 1.9 0.7 1.0\nStaticsolution BDS-3 1.5 0.9 1.2\nGPS+BDS-3 1.5 0.7 0.8\n5. Conclusions\nAsaspace-basedreal-timecorrectionservice,BeiDou-3PPP-B2beffectivelyaddresses\nthe network-depe",
+    "char_length": 1702
+  },
+  {
+    "quote_id": "qb_e2debcf984",
+    "span_index": 16,
+    "text": "Sensors2025,25,6700 17of19\nclock accuracy for GPS satellites, PPP-B2b was slightly inferior to CNES (0.171 ns) and\nlowerthanCODE(0.139ns). ForBDS-3satellites,theaverageclockaccuracyofPPP-B2b\n(0.171 ns) outperformed both CNES RTS (0.620 ns) and CODE (0.213 ns), which can be\nattributedtothelimitedcoverageofregionalGNSSmonitoringnetworksandtheadditional\nobservationsfromtheISLterminalsonboardBDS-3satellites. Analysisoforbitandclock\nerrorsindicatesthattheSISREofPPP-B2bisprimarilydeterminedbyclockerrors,withthe\nBDS-3satelliteSISRESTD(0.062m)slightlybetterthanthatofCNES(0.074m).\nTofurtherassessitsper",
+    "char_length": 3407
+  },
+  {
+    "quote_id": "qb_6e67dcfb2d",
+    "span_index": 17,
+    "text": "Sensors2025,25,6700 18of19\nReferences\n1. Wang,G.; Cui,Y.; Hu,Z.; Su,X.; Wu,B.Performanceassessmentofthesignal-in-spacerangingerrorsofBDS-3: Statistical\ncharacterizationandintegritystandard.GPSSolut.2023,27,189.[CrossRef]\n2. Tao,J.;Liu,J.;Hu,Z.;Zhao,Q.;Chen,G.;Ju,B.InitialAssessmentoftheBDS-3PPP-B2bRTScomparedwiththeCNESRTS.GPS\nSolut.2021,25,131.[CrossRef]\n3. Tang,C.;Hu,X.;Zhou,S.;Liu,L.;Pan,J.;Chen,L.;Guo,R.;Zhu,L.;Hu,G.;Li,X.;etal.Initialresultsofcentralizedautonomous\norbitdeterminationofthenew-generationBDSsatelliteswithinter-satellitelinkmeasurements. J.Geod. 2018,92,1155–1169.\n[CrossRef]\n4",
+    "char_length": 4308
+  },
+  {
+    "quote_id": "qb_90bff4ed77",
+    "span_index": 18,
+    "text": "Sensors2025,25,6700 19of19\n27. Guo,F.;Zhou,C.;Wu,Z.PerformanceevaluationofBDS-3PPP-B2bsignalaccuracyandprecisepointpositioning.Measurement\n2026,257,118829.[CrossRef]\n28. Gu,C.;Li,J.;Li,L.;Li,Z.;Pan,L.EstimationandanalysisofBDSreal-timeclockoffsetsusingtwopredictedorbits.J.Geomat.Sci.\nTechnol.2021,38,228–234.\n29. Guo,J.;Xu,X.;Zhao,Q.;Liu,J.Preciseorbitdeterminationforquad-constellationsatellitesatWuhanUniversity:Strategy,result\nvalidation,andcomparison.J.Geod.2015,90,143–159.[CrossRef]\n30. Shi,C.;Zhao,Q.;Li,M.;Tang,W.;Hu,Z.;Lou,Y.;Zhang,H.;Niu,X.;Liu,J.PreciseorbitdeterminationofBeidouSatellite",
+    "char_length": 1557
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "quote_id": "qb_dca156ee1f",
+    "span_index": 0,
+    "text": "GPS Solutions (2025) 29:98\nhttps://doi.org/10.1007/s10291-025-01845-5\nRESEARCH\nA data‑driven PPP‑B2b satellite clock offset prediction method\nconsidering the cross‑arc statistical similarity\nJunbo Shi1 · Chenhao Ouyang1 · Cheng Hou1 · Wenjie Peng1 · Jiming Guo1 · Yibin Yao1\nReceived: 18 June 2024 / Accepted: 16 March 2025 / Published online: 22 April 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nAbstract\nThe traditional satellite clock offset prediction methods require continuous training data. However, due to limited distribu-\ntion",
+    "char_length": 4406
+  },
+  {
+    "quote_id": "qb_c9ee97c38a",
+    "span_index": 1,
+    "text": "98 Page 2 of 19 GPS Solutions (2025) 29:98\n(Li et al. 2022). To ensure the continuity of positioning dur- and sinusoidal terms for IGU clock offset prediction. This\ning these short-term interruptions, it is necessary to establish approach achieved an accuracy of 0.54 ns for a six-hour\na satellite clock offset prediction model for PPP users. prediction, representing a 15.6% improvement compared to\nBased on the distribution of ground GNSS tracking sta- the predicted part of IGU. Furthermore, El-Mowafy et al.\ntions, satellite clock offsets can be determined by two man- (2017) predicted the IGS RT",
+    "char_length": 4478
+  },
+  {
+    "quote_id": "qb_0a228cba47",
+    "span_index": 2,
+    "text": "GPS Solutions (2025) 29:98 Page 3 of 19 98\nneural network based on IGS Final clock offsets, achieving includes n epochs of PPP-B2b satellite clock offsets\n62.5% 12-h prediction accuracy improvement compared to\ndts(t\n1\n),dts(t\n2\n),...,dts(t\ni\n),...,dts(t\nn\n) ,i∈[1,n]\n, the single-\ntraditional LSTM network. differenced satellite clock offset series is obtained by dif-\n{ }\nAlthough neural network modeling demonstrates superior ferencing clock offsets at two consecutive epochs t i−1 and t i:\nprediction accuracy for continuous satellite clock offsets, Δdts(t)=dts(t)−dts(t )\ni i i−1 (1)\nthe PPP-B2b ",
+    "char_length": 4351
+  },
+  {
+    "quote_id": "qb_f4ffd5a88d",
+    "span_index": 3,
+    "text": "98 Page 4 of 19 GPS Solutions (2025) 29:98\nFig. 2 Procedure of the proposed PPP-B2b satellite clock offset prediction method",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_8c528f906c",
+    "span_index": 4,
+    "text": "GPS Solutions (2025) 29:98 Page 5 of 19 98\nSample#1 Δ t 2 Δ t 3 ⋯ Δ t𝛼 Δ t𝛼+1\n⎧ ⎪ ⎪ Arc#1⇒ ⎧ ⎪ ⎪ Samp ⋮ le#2 ⎡ � � Δ � t 3� Δ ⋱ t 4 � ⋯ ⋱ � Δ t ⋯ 𝛼+1 ⋱ ⎤,⎡ � � Δ t𝛼+2 ⋱ ⎤\n⎪ ⎪ ⎢ � � � � � � ⎥ ⎢ � � ⎥\n⎪ ⎪ ⎪ ⎨ Sample# n 1 −𝛼 ⏟ ⎢ ⎢ ⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞ Δ ⏞⏞⏞⏞⏞ t ⏞⏞ n ⏞ 1 ⏞⏞ − ⏞⏞⏟ 𝛼+1 ⏞⏞⏞⏞ Δ ⏞⏞⏞⏞⏞⏞ t ⏞ n ⏞⏞ 1 ⏞⏞ − ⏞⏞ 𝛼 ⏞⏞ + ⏞⏞ 2 ⏞⏞⏞⏞⏞⏞⏞ ⋯ ⏞⏞⏞⏞⏞⏞ Δ ⏞⏞⏞⏞⏞⏞ t ⏞ n ⏞⏞ 1 ⏞⏞ − ⏞⏞ 1 ⏞⏞⏞⏞⏟ ⎥ ⎥ ⎢ ⎢ ⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞⏟⏞⏞⏞⏞⏞⏞⏞⏞⏞⏞ Δ ⏞⏞⏞⏞⏞⏞ t ⏞ n ⏞⏞ 1 ⏞⏞⏞⏞⏟ ⎥ ⎥\n⎪ ⎪ � � ⎢ � � � � � �⎥ ⎢ � �⎥\n⎪ ⎪ ⎢ Input ⎥ ⎢ Output ⎥\n⎪ ⎪ ⎣ ⎦ ⎣ ⎦\n⎪ ⎪\n⎪ ⎩ Sample#1 Δ t 2 Δ t 3 ⋯ Δ t𝛼 Δ t𝛼+1\n⎪ ⎧\n⎪ ⎪Arc#2⇒ ⎪ ⎪ ",
+    "char_length": 2796
+  },
+  {
+    "quote_id": "qb_ffe1696cd5",
+    "span_index": 5,
+    "text": "98 Page 6 of 19 GPS Solutions (2025) 29:98\nFig. 4 Single-differenced PPP-B2b clock offsets over eight days\nStep 4: Predicting PPP-B2b satellite clock offset. clock offsets of the previous (α-2) epochs to form a new model\nFirst, use Eq. (1) to convert the historical raw clock off- input, performing rolling predictions for the single-differenced\n̂\nsets into single-differenced clock offsets. Next, input his- satellite clock offset Δdts t k+1 at the epoch t k+1:\ntorical (α-1) epochs into the model obtained in Step 3 to\npredict the single-difference satellite clock offset Δ ̂ dts(t k ) Δ ̂ dts(t k+",
+    "char_length": 1239
+  },
+  {
+    "quote_id": "qb_18a0f4ebe5",
+    "span_index": 6,
+    "text": "GPS Solutions (2025) 29:98 Page 7 of 19 98\nFig. 5 Amounts of arc segments (top) and epochs (bottom) of PPP-B2b satellite clock offsets over eight days\nFig. 6 Single-differenced clock\noffsets histogram distribution\nfor one arc segment of C45\n(left) and G21 (right)\nFig. 7 Single-differenced clock\noffsets histogram distribution\nfor 12 arc segments of C45\n(left) and 17 arc segments of\nG21 (right)\nIf predicting a single epoch, perform single-step prediction Data description\nand recovery using Eqs. (6) and (8). If predicting multiple\nepochs, use Eqs. (7) and (9), hereinafter multi-step prediction To",
+    "char_length": 984
+  },
+  {
+    "quote_id": "qb_9f72998a56",
+    "span_index": 7,
+    "text": "98 Page 8 of 19 GPS Solutions (2025) 29:98\nFig. 8 Statistical characteristics of single-differenced PPP-B2b clock offsets for 27 BDS and 29 GPS satellites\nFigure 3 depicts the single-differenced clock offset for each satellite are within 0.2 ns amplitude and concentrated\none arc segment of C45 and G21 on Feb 1, obtained using around various constants. 2) single-differenced GPS clock\nEqs. (1)-(3). Considering both the correctness of outlier offsets distribute in the range of [-0.3 ns, 0.3 ns], but the\ndetection and preprocessing efficiency, the window length overall variation range is noticeabl",
+    "char_length": 1867
+  },
+  {
+    "quote_id": "qb_4c0312286b",
+    "span_index": 8,
+    "text": "GPS Solutions (2025) 29:98 Page 9 of 19 98\nand 94.04%/94.66% in the 2σ interval. A comparison with\nFig. 6 reveals a consistent probability distribution between\nsingle-arc and multi-arc segments, demonstrating a high sta-\ntistical similarity in PPP-B2b satellite clock offsets across\nmultiple arc segments. Figure 8 presents statistics for all\n27 BDS and 29 GPS satellites. The single-arc and multi-\narc single-difference clock biases for all satellites exhibit a\nhigh degree of consistency across the four indicators: mean\nbias, STD, 1σ, and 2σ distribution probability. This further\nvalidates the ob",
+    "char_length": 4462
+  },
+  {
+    "quote_id": "qb_2043194bff",
+    "span_index": 9,
+    "text": "98 Page 10 of 19 GPS Solutions (2025) 29:98\nFig. 10 Procedure of optimal input dimension determination\nTable 2 Single-step prediction\nInput C45 G21\nBias and RMSE for testing\nDimension\ndataset of C45 and G21 with Bias (× 10–3 ns) RMSE (× 10–3 ns) Bias (× 10–3 ns) RMSE (× 10–3 ns)\nvarious input dimensions\n10 −0.367 10.155 −0.980 34.190\n20 0.504 10.247 0.172 34.131\n30 0.190 10.205 −0.687 34.159\n40 −0.384 10.242 −1.420 34.221\n50 −0.750 10.361 0.005 34.169\n2) Determination of optimal input dimension. After optimal input dimension is selected based on the minimum\nobtaining five trained models, the o",
+    "char_length": 703
+  },
+  {
+    "quote_id": "qb_026da32796",
+    "span_index": 10,
+    "text": "GPS Solutions (2025) 29:98 Page 11 of 19 98\nFig. 11 Single-step prediction\nRMSE of the testing dataset for\nvarious input dimensions\n(𝛼−1)=argmin RMSE (𝛼−1) , Figure 14 presents the training results for all 56 satellites.\nTesting i\n(𝛼−1) ∈{10,20,30,40,50} (10) It can be observed that: 1) the single-step prediction RMSE\ni[ ]\nof each BDS satellite is consistent, with average training/\nwhere RMSE Testing means the Root Mean Square Error validation/testing RMSEs of 9.538/9.367/9.911 × 1 0–3 ns for\n(RMSE) of the testing dataset. MEO satellites and 7.872/8.040/7.476 × 10–3 ns for IGSO\nTaking C45 and ",
+    "char_length": 3754
+  },
+  {
+    "quote_id": "qb_4dbd2d1d1e",
+    "span_index": 11,
+    "text": "98 Page 12 of 19 GPS Solutions (2025) 29:98\nFig. 12 Training results of the proposed PPP-B2b clock offset prediction model for C45 and G21\nPPP calculation and will no longer require the prediction 12:10:00, clock corrections for 11 BDS satellites (C21/2\nmodel. According to Eq. (7) and (9), continuous rolling 2/23/24/25/34/42/43/44/38/40) and seven GPS satellites\npredictions of the clock offset for ten minutes (100 epochs) (G01/03/11/12/14/19/24) are provided. However, there\nare made. From 00:15:00 to 00:25:00, clock corrections are only 4/3/3 historical epochs for C42/G11/G12 within\nfor ten BD",
+    "char_length": 926
+  },
+  {
+    "quote_id": "qb_745cc52e8c",
+    "span_index": 12,
+    "text": "GPS Solutions (2025) 29:98 Page 13 of 19 98\nFig. 13 Training duration of the proposed PPP-B2b clock offset prediction model for 27 BDS and 29 GPS satellite\nFig. 14 Single-step prediction RMSEs of PPP-B2b clock offset prediction models for 56 satellites (27 BDS and 29 GPS)\nFig. 15 Comparison of the\ntraining data used by the tradi-\ntional and the proposed method\nconsuming time for PPP-B2b satellite clock offsets during that model training involves massive data and computation\nthese two periods. The prediction time for 100 continuous (Steps 1–3 in the Methodology), which then is expected to\nepoch",
+    "char_length": 1571
+  },
+  {
+    "quote_id": "qb_381ff9d294",
+    "span_index": 13,
+    "text": "98 Page 14 of 19 GPS Solutions (2025) 29:98\nFig. 16 Prediction consuming time for 100 continuous epochs of PPP-B2b satellite clock offsets during two ten-minute periods\nFig. 17 Predicted PPP-B2b\nclock offset series within two\nten-minute periods",
+    "char_length": 244
+  },
+  {
+    "quote_id": "qb_bd2070fabc",
+    "span_index": 14,
+    "text": "GPS Solutions (2025) 29:98 Page 15 of 19 98\nFig. 18 PPP-B2b clock offset\nprediction error series within\ntwo ten-minute periods\nthe proposed method yields clock offsets that are generally\ncloser to the real clock offsets.\nFigure 18 illustrates the prediction errors of two meth-\nods. For the period from 00:15:00 to 00:25:00, the cross-\narc prediction method proposed in this paper achieves an\nRMSE of 0.01/0.02 ns for C46/C38 and 0.12/0.13 ns for\nG10/G21, while the traditional single-arc prediction method\nachieves RMSEs of 0.05/0.11 ns and 0.30/0.42 ns, respec-\ntively. For the period from 12:00:00",
+    "char_length": 1534
+  },
+  {
+    "quote_id": "qb_bb818c68ee",
+    "span_index": 15,
+    "text": "98 Page 16 of 19 GPS Solutions (2025) 29:98\nFig. 20 PPP error series on Feb 8, 2023\nTable 3 PPP RMSEs during\nPeriod (HH:MM) RMSE based on real PPP- RMSE based on predicted RMSE difference (cm)\nPPP-B2b clock offset correction\nB2b clock offset (cm) PPP-B2b clock offset (cm)\ninterruption periods\nE N U E N U △E △N △U\n00:15–00:25 33.3 4.7 8.4 39.7 3.9 34.5 6.4 −0.8 26.1\n04:00–04:10 5.2 1.6 8.3 2.6 2.3 7.4 −2.6 0.7 −0.9\n08:00–08:10 3.8 1.5 8.7 5.5 1.9 12.3 1.7 0.4 3.6\n12:00–12:10 6.4 9.4 9.3 5.8 7.7 5.6 −0.6 −1.7 −3.7\n16:00–16:10 9.4 1.7 11.9 8.2 1.3 16.8 −1.2 −0.4 4.9\n20:00–20:10 12.2 9.3 15.8 10.8",
+    "char_length": 624
+  },
+  {
+    "quote_id": "qb_285d58c8f0",
+    "span_index": 16,
+    "text": "GPS Solutions (2025) 29:98 Page 17 of 19 98\nyields average RMSE of 0.04/0.12 ns (00:15:00–00:25:00) Conclusions and future work\nand 0.03/0.20 ns (12:00:00–12:10:00) for BDS/GPS,\nrespectively. Compared to the traditional single-arc This paper introduces a novel approach to enhance the\nprediction method, the proposed method represents an prediction accuracy of PPP-B2b satellite clock offsets by\nimprovement of 20.0/33.3% and 25.0/23.1%, respectively. considering the cross-arc statistical similarity. The pro-\nThese results indicate that the proposed method consider- posed method streamlines the pr",
+    "char_length": 5232
+  },
+  {
+    "quote_id": "qb_8dfa6fbdfd",
+    "span_index": 17,
+    "text": "98 Page 18 of 19 GPS Solutions (2025) 29:98\nAlthough the method proposed in this paper has improved Huang G, Zhang Q, Xu G (2014) Real-time clock offset prediction with\nthe prediction accuracy of PPP-B2b satellite clock offsets, an improved model. GPS Solutions 18:95–104\nHuang B, Ji Z, Zhai R, Xiao C, Yang F, Yang B, Wang Y (2021)\nfurther research can still be conducted in the areas of model\nClock bias prediction algorithm for navigation satellites based on\noptimization and rapid model deployment. For model opti- a supervised learning long short-term memory neural network.\nmization, refining t",
+    "char_length": 6063
+  },
+  {
+    "quote_id": "qb_4cbbb4d736",
+    "span_index": 18,
+    "text": "GPS Solutions (2025) 29:98 Page 19 of 19 98\nWang X, Chai H, Wang C (2020) A high-precision short-term predic- Cheng Hou completed his B.Sc.\ntion method with stable performance for satellite clock bias. GPS degree in 2022 , and is currently\nSolutions 24(4):105 a Ph.D. student in the School of\nYan C, Wang Q, Zhang Y, Ke F, Gao W, Yang Y (2020) Analysis of Geodesy and Geomatics at Wuhan\nGNSS clock prediction performance with different interrupt inter- University, China. His research\nvals and application to real-time kinematic precise point position- involves high precision GNSS\ning. Adv Space Res",
+    "char_length": 2614
+  }
+]

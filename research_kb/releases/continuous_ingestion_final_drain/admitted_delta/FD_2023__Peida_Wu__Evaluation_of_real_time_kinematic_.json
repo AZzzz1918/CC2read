@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_2023__Peida_Wu__Evaluation_of_real_time_kinematic_",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Zhenyi Zhang1 · Xu Zou1"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2023) 27:192 https://doi.org/10.1007/s10291-023-01532-3 ORIGINAL ARTICLE Evaluation of real‑time kinematic positioning performance of the BDS‑3 PPP service on B2b signal Peida Wu1 · Yidong Lou1 · Weixing Zhang1 · Jan Dousa2 · Huizhong He4,5 · Junbing Chai3 · Yongzhong Ouyang4,5 · Zhenyi Zhang1 · Xu Zou1 Received: 6 March 2023 / Accepted: 10 August 2023 / Published ",
+      "Although GNSS community has conducted many evaluations on the PPP-B2b products and its user performance, comprehensive evaluations of real-time PPP solutions using the BDS-3 PPP service at kinematic and highly kinematic platforms are still absent."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 20
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b": 64,
+    "has": 0,
+    "dcb": 20,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

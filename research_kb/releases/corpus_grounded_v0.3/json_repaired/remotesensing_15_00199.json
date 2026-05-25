@@ -1,0 +1,104 @@
+{
+  "paper_id": "remotesensing_15_00199",
+  "extraction_mode": "full_strict_quotes",
+  "phase": "batch_3_phase_b",
+  "selection_role": "core_ppp_b2b",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "authors": "NOT_MENTIONED",
+    "year": 2023,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Low-Cost IMU and Odometer Tightly Augmented PPP-B2b-Based Inter-Satellite Differenced PPP in Urban Environments YuMin1,2 ,ZhouzhengGao1,* ,JieLv1,RuohuaLan1,QiaozhuangXu1andChengYang1 1 SchoolofLandScienceandTechnology,ChinaUniversityofGeosciencesBeijing,Beijing100083,China 2 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China",
+      "Afterward,real-timePrecisePointPositioning (PPP)serviceisavailableinChina’ssurroundingareasviaBDS-3PPP-B2bsignal.",
+      "PPP-B2b-BasedInter-Satellite DifferencedPPPinUrban Keywords:real-timePrecisePointPositioning(RT-PPP);InertialNavigationPystem(INS);odometer; Environments.RemoteSens.2023,15, PPP-B2bservice;tightlycoupledintegration 199."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "dates_found": [],
+    "doys_found": [],
+    "months_found": [
+      "June 2020",
+      "December 2021"
+    ],
+    "grounding_quotes": [
+      "2023, 15, x FOR PEER aRnEVdIEaWre slightly affected by GNSS positioning accuracy while GNSS observation1s7 aorfe 22 available[28]."
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 2,
+    "grounding_quotes": [
+      "In order to assess the accu- prodPurcetcsipsreo ovirdbeidt abnydW cHloUcakr eoaffdsoeptt pedroadsruecfetrse rnecceos.vFeigreudre sb4y atnhde 5coderpreicctttihoenRs MfrSoomf the PPP-B2b r s a e cGr y vP o iSc f ea rn e ada re lB- Dt u iSm ti-l3e izc oleor dcbk t it oo/f c pflso reotck caen p sds ro o trd hbe uit c set arsrt oe orl bsl.i t t aTe ih’ n se e oadvr bebri yat/g c teh looe cr bP ki Pte P",
+      "Gao,Z.;Ge,M.;Shen,W.;Zhang,H.;Niu,X.IonosphericandReceiverDCB-ConstrainedMulti-GNSSSingle-FrequencyPPP IntegratedwithMEMSInertialMeasurements.J.Geod.2017,91,1351–1366.[CrossRef] 22."
+    ]
+  },
+  "ionospheric_handling": {
+    "status": "MENTIONED",
+    "iono_mentions": 3,
+    "grounding_quotes": [
+      "Single-Differencebetween-SatellitesObservationalModel The linearized undifferenced Ionosphere-Free (IF) model of the satellite (k) can be writtenas Pk −ρk−∆ρk = e δx +e δy +e δz +ct +m δd +ε (5) IF P,IF 1 r 2 r 3 r r wet wet P,IF Lk −ρk−∆ρk = e δx +e δy +e δz +ct +m δd −λ Nk +ε (6) IF L,IF 1 r 2 r 3 r r wet wet IF IF L,IF where Pk = αP −βP and Lk = αL −βL are IF pseudorange and carrier-phase, IF 1",
+      "Gao,Z.;Zhang,H.;Ge,M.;Niu,X.;Shen,W.;Wickert,J.;Schuh,H.TightlyCoupledIntegrationofIonosphere-Constrained PrecisePointPositioningandInertialNavigationSystems.Sensors2015,15,5783–5802.[CrossRef] 21."
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 20,
+    "b2b_mentions": 55,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 2,
+    "iono_mentions": 3
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true
+  }
+}

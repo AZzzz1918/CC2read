@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_sensors_23_02652",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "PPP/INS Tight Integration with BDS-3 PPP-B2b Service in the Urban Environment"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  sensors Article − − PPP/INS Tight Integration with BDS 3 PPP B2b Service in the Urban Environment LuguangLai1 ,XinMeng1 ,DongqingZhao1 ,XinLi2 ,WenzhuoGuo1andLinyangLi1,3,* 1 InstituteofSurveyingandMapping,InformationEngineeringUniversity,Zhengzhou450001,China 2 CollegeofComputerandInformation,HohaiUniversity,Nanjing211100,China 3 SchoolofGeodesyandGeomatics,WuhanUniversity,Wuhan",
+      "Inadditiontothis,usingthecomplementarycharacteristicsoftheinertialnaviga‑ tionsystem(INS)andtheglobalnavigationsatellitesystem(GNSS),aPPP−B2b/INStightintegration modelisestablished.Withobservationdatacollectedinanurbanenvironment,theresultsshowthat PPP−B2b/INStightintegrationcanensureadecimeter−levelpositioningaccuracy;thepositioning accuraciesoftheE,N,andUcomponentsare0.292,0.115,and0.155m,respec"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 5
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b": 147,
+    "has": 0,
+    "dcb": 5,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

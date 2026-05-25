@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_875_full",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Design and implementation of a BDS precise point positioning service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "designandimplementationoftheservicearepresented.ThePPP-B2bsignalof Email:liucheng@beidou.gov.cn theserviceisconstructed,whichisefficientmultiplexedwithothersignalcom- Fundinginformation ponents,andachievescompatibilitybetweentwoservicephases.Acustomized NationalNaturalScienceFoundationof messageformatthatcanaugmentallvisiblesatellitesoffourcoreconstellations China,Grant/AwardNumbers:41974041, 6160",
+      "KEYWORDS ACE-BOC,B2b,BeiDou,LDPC,PPP,SSR 1 INTRODUCTION satellitenavigationsystemsinrecentyears,ithasbecome atrendtoprovideembeddedPPPservicesbasedonbasic Precise point positioning (PPP) is an important technol- navigationconstellations."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 5
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b": 81,
+    "has": 0,
+    "dcb": 5,
+    "clas": 4
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

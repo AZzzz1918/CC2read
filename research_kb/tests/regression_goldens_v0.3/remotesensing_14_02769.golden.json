@@ -1,0 +1,11 @@
+{
+  "paper_id": "remotesensing_14_02769",
+  "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+  "expected_epoch_status": "HAS_DATE",
+  "expected_dcb_status": "EXPLICITLY_DESCRIBED",
+  "expected_gate_status": "PASS",
+  "must_not_have_wrong_support": true,
+  "must_have_reproduction_blockers": true,
+  "correction_status": "none",
+  "admission_status": "PASS"
+}

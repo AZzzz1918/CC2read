@@ -1,0 +1,44 @@
+bibliographic_info:
+  title: 'Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end:
+    with emphasis on the improvement of global real-time precise point positioning'
+category: B2B_HAS_FUSION
+component_stack: BDS3_PPP_B2B+LEO+INS
+confirms_singleton: false
+dcb_handling:
+  dcb_mentions: 1
+  grounding_quotes:
+  - must be corrected to the B1I/B3I IF combination using the Differential PPP-B2b
+    offers its peak availability of approximately 17 satellites Code Bias (DCB) products
+    provided by the service [32].
+  status: BRIEFLY_MENTIONED
+experiment_epoch:
+  start_date: NOT_MENTIONED
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+is_new_route: false
+paper_id: V04_W3_1_s2_0_S026322412601448X_main__1_
+pdf_metadata:
+  b2b: 109
+  dcb: 1
+  has: 5
+  pages: 13
+priority: P2_PRIORITY_GAP
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Measurement 279 (2026) 121739 Contents lists available at ScienceDirect
+    Measurement journal homepage: www.elsevier.com/locate/measurement Orbit and clock
+    combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the
+    improvement of global real-time precise point positioning Guo Chena, Qiang Zhanga,*
+    , Tianfeng Shenb, Zhigang Hua, Qile Zhaoa,c aGNSS Research Cent'
+  - '129 Luoyu Road, Wuhan 430079, China A R T I C L E I N F O A B S T R A C T Keywords:
+    The limited geographical coverage of regional PPP-B2b, MADOCA-PPP and Galileo
+    initial High Accuracy Service PPP-B2b (HAS), precludes their use for global real-time
+    high-precision positioning.'
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not provided
+  - B2b archive not distributed
+wave: 3

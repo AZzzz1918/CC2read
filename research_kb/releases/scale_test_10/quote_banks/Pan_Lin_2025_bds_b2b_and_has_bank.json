@@ -1,0 +1,1568 @@
+[
+  {
+    "quote_id": "qb_f5d7eaa123",
+    "span_index": 0,
+    "text": "RESEARCH\nGPS Solutions          (2025) 29:162 \nhttps://doi.org/10.1007/s10291-025-01925-6\n(Nie et al.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_c0e80d40fa",
+    "span_index": 1,
+    "text": "2018; Elsobeiey and Al-Harbi 2016).",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_514d2be643",
+    "span_index": 2,
+    "text": "However, \nthe implementation of RTS relies on a stable network com­\nmunication environment, which restricts the application of \nreal-time PPP technology in areas with insufficient network \ncoverage, such as deserts and oceans.",
+    "char_length": 226
+  },
+  {
+    "quote_id": "qb_a4823f2ce2",
+    "span_index": 3,
+    "text": "In recent years, the \nBDS-3 PPP-B2b of China and the Galileo High Accuracy \nService (HAS) of the European Union (EU) have been \ntransmitting real-time precise correction products via satel­\nlite-based broadcasting.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_01e518660b",
+    "span_index": 4,
+    "text": "PPP-B2b and HAS can realize the \nreal-time precise positioning independent of network com­\nmunication, which presents a new solution for wide-area \nreal-time high-precision positioning.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_bfdc4bc29b",
+    "span_index": 5,
+    "text": "Many scholars have evaluated the quality of precise cor­\nrections and the positioning performance of BDS-3 PPP-\nB2b service since its launch in 2020.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_9be8a1cc94",
+    "span_index": 6,
+    "text": "The results indicated \nthat the accuracy of satellite orbits and clock offsets was at \nthe centimeter level and within 0.2 ns, respectively, and the \nsatellite clock offsets presented a systematic bias.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_127966a500",
+    "span_index": 7,
+    "text": "Moreover, \nthe availability of PPP-B2b precise corrections was more \nIntroduction\nPrecise point positioning (PPP) technology enables users \nto achieve high-precision positioning with a single receiver \nthrough the joint use of code and carrier phase observations \nas well as precise satellite orbit and clock products.",
+    "char_length": 318
+  },
+  {
+    "quote_id": "qb_e7857cefd3",
+    "span_index": 8,
+    "text": "With \nthe ongoing advancement of PPP technology and the rapidly \nincreasing demand for real-time precise positioning, real-\ntime PPP has become a research hotspot.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_2486b28742",
+    "span_index": 9,
+    "text": "The international \nGlobal Navigation Satellite System (GNSS) service (IGS) \nhas been delivering real-time precise correction products via \nInternet, providing users with real-time service (RTS) that \ncan achieve decimeter-to-centimeter positioning accuracy \n\t\n Lin Pan\nlinpan@csu.edu.cn\n1\t\nSchool of Geosciences and Info-Physics, Central South \nUniversity, Changsha 410083, China\nAbstract\nThe BDS-3 PPP-B2b of China can offer BDS-3/GPS real-time precise point positioning (PPP) service in the Asia-Pacific \nregion, while the Galileo High Accuracy Service (HAS) of the European Union can offer Galileo/GPS real-time PPP \nservice worldwide.",
+    "char_length": 638
+  },
+  {
+    "quote_id": "qb_efb1cf91d8",
+    "span_index": 10,
+    "text": "Their service areas have a geographical overlap in the Asia-Pacific region and there is potential for \ntheir interoperability in terms of supported satellite systems.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_0aa33ed183",
+    "span_index": 11,
+    "text": "In this study, a tightly integrated real-time PPP model by \nincorporating observations from complementary constellations of PPP-B2b and HAS (rather than combining their PPP \nresults) based on respective stand-alone service for the Asia-Pacific region is constructed.",
+    "char_length": 266
+  },
+  {
+    "quote_id": "qb_3525730ada",
+    "span_index": 12,
+    "text": "For comparison, we employ the \nstrategy with BDS-3/GPS from PPP-B2b (B2b C/G), the strategy with Galileo/GPS from HAS (HAS E/G), the strategy \nwith BDS-3/GPS from PPP-B2b and Galileo from HAS (B2b C/G + HAS E), and the strategy with Galileo/GPS from \nHAS and BDS-3 from PPP-B2b (HAS E/G + B2b C).",
+    "char_length": 296
+  },
+  {
+    "quote_id": "qb_0741d17fcf",
+    "span_index": 13,
+    "text": "The datasets from 18 stations over a week are employed.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_094df34ea0",
+    "span_index": 14,
+    "text": "The B2b \nC/G + HAS E strategy has the best performance, followed by B2b C/G and HAS E/G + B2b C strategies, while the per­\nformance of HAS E/G strategy is the worst.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_8dbd68cbfd",
+    "span_index": 15,
+    "text": "The B2b C/G + HAS E strategy can provide a convergence time (processed \nevery two hours) of 9.4 min with a threshold of 20/40 cm in horizontal/vertical directions, and a positioning accuracy \n(processed every 24  h) of 4.2/3.2/9.1  cm in east/north/up directions.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_c093f45c2a",
+    "span_index": 16,
+    "text": "Therefore, benefiting from the increased satellite \nnumber and improved satellite geometry, the integration of PPP-B2b and HAS can significantly improve the real-time \nPPP performance compared with respective stand-alone service.",
+    "char_length": 229
+  },
+  {
+    "quote_id": "qb_d295218824",
+    "span_index": 17,
+    "text": "Keywords  BDS-3 PPP-B2b · Galileo HAS · Real-time precise point positioning · Tight integration · Satellite \ncommunication\nReceived: 9 October 2024 / Accepted: 28 June 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nBDS-3 PPP-B2b and Galileo HAS tightly integrated real-time PPP\nLin Pan1 · Chen Yang1\n1 3",
+    "char_length": 364
+  },
+  {
+    "quote_id": "qb_f4029956d6",
+    "span_index": 18,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_bef75647f6",
+    "span_index": 19,
+    "text": "GPS Solutions          (2025) 29:162 \nthan 90% in China, and the kinematic positioning accuracy \nof real-time PPP could reach centimeter level after conver­\ngence (Xu et al.",
+    "char_length": 173
+  },
+  {
+    "quote_id": "qb_c726325d5a",
+    "span_index": 20,
+    "text": "2021; Tao et al.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_8ab6a76e3d",
+    "span_index": 21,
+    "text": "(2022) \nprovided a detailed description of the generation strategies \nfor various PPP-B2b correction products, and conducted a \ncomprehensive evaluation of the quality of PPP-B2b precise \ncorrections.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_c64c9c07e7",
+    "span_index": 22,
+    "text": "In addition, several researchers also focused \non these aspects and derived comparable results (Wu et al.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_fe21aa93d1",
+    "span_index": 23,
+    "text": "2023; Ouyang et al.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_d0b06b30bf",
+    "span_index": 24,
+    "text": "With regard to the systematic bias \nin PPP-B2b satellite clock offsets, Sun et al.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_c86f422d09",
+    "span_index": 25,
+    "text": "(2023) derived \nits estimate by taking the post-processed precise ephemeri­\ndes as a reference, and then the corrected PPP-B2b satellite \nclock offsets by the estimate were applied to the real-time \nPPP processing.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_60c419738f",
+    "span_index": 26,
+    "text": "Alternatively, Xu et al.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_9a84fd7ff4",
+    "span_index": 27,
+    "text": "(2023) introduced \nan additional parameter to compensate for the systematic \nbias in the real-time PPP processing.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_c3e2e2feea",
+    "span_index": 28,
+    "text": "Both approaches sig­\nnificantly improved the convergence speed of real-time PPP.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_489a29909c",
+    "span_index": 29,
+    "text": "The Galileo HAS Signal-In-Space (SIS) testing activities \nwere conducted in the 2020–2022 timeframe.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_1d3e2d2687",
+    "span_index": 30,
+    "text": "Fernandez-\nHernandez et al.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_6601c66941",
+    "span_index": 31,
+    "text": "(2022) provided a detailed explanation of \nthe message structure for Galileo HAS, including the orga­\nnization and transmission mode of correction data, as well \nas how HAS uses Galileo monitoring stations and uplinks to \nprovide services.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_10380b9ac7",
+    "span_index": 32,
+    "text": "HAS delivers precise correction products \nthrough the E6-B signal of Galileo satellites, and provides \nhigh-precision real-time PPP service to global users.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_317a984825",
+    "span_index": 33,
+    "text": "The \nEU Agency for the Space Programme (EUSPA) officially \nannounced that Galileo provided the initial HAS service on \nJanuary 24, 2023.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_e29e52d448",
+    "span_index": 34,
+    "text": "Since then, a number of scholars have \nconducted research on the availability, the quality of satel­\nlite orbit and clock corrections, and the positioning perfor­\nmance of Galileo HAS.",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_4fc0a5162c",
+    "span_index": 35,
+    "text": "(2024b) evaluated the \nnumber of visible satellites and the service rate of HAS on \na global scale, and the results showed that the globally aver­\nage number of GPS and Galileo satellites with valid HAS \ncorrections was 9.44 and 7.95, respectively, with the aver­\nage service rate being 99.9% and 99.6% for GPS-only and \nGalileo-only PPP, respectively.",
+    "char_length": 352
+  },
+  {
+    "quote_id": "qb_fd04df43c7",
+    "span_index": 36,
+    "text": "(2024) assessed \nthe accuracy of HAS orbit and clock correction products, \nand analyzed the HAS-based positioning accuracy.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_8dc9527c51",
+    "span_index": 37,
+    "text": "The \nresults indicated that the accuracy of orbit and clock correc­\ntions of Galileo was slightly higher than that of GPS, and \nboth static and kinematic positioning of HAS could reach \ncentimeter level.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_6142e719d4",
+    "span_index": 38,
+    "text": "Similar results about the accuracy of HAS \ncorrection products and the HAS-based positioning perfor­\nmance were also derived by some other scholars (Naciri et \nal.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_0e8a20729c",
+    "span_index": 39,
+    "text": "2023; Kan et al.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_b3526c1ee6",
+    "span_index": 40,
+    "text": "In addition, receivers that sup­\nport the E6 signal can directly receive the HAS correction \nmessage broadcast by Galileo satellites, but this is restricted \nby the baud rate of E6-B signal and the particularity of \nHAS encoding scheme (Fernandez-Hernandez et al.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_63f3b99036",
+    "span_index": 41,
+    "text": "Therefore, some scholars developed open-source libraries \nor software such as HASlib, GHASP, and HASPPP to facili­\ntate the decoding and integration of HAS corrections (Borio \net al.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_822108c63f",
+    "span_index": 42,
+    "text": "2023; Zhang et al.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_b91ec753ce",
+    "span_index": 43,
+    "text": "2024a; Prol et al.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_318c200a58",
+    "span_index": 44,
+    "text": "BDS-3 PPP-B2b can provide real-time PPP service in \nthe Asia-Pacific region, while Galileo HAS is able to pro­\nvide real-time PPP service for global users.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_5266a38692",
+    "span_index": 45,
+    "text": "Thus, the ser­\nvice areas of PPP-B2b and HAS overlap in the Asia-Pacific \nregion.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_2abf7efb4a",
+    "span_index": 46,
+    "text": "Moreover, PPP-B2b service supports BDS-3 and \nGPS constellations, while HAS service supports Gali­\nleo and GPS constellations.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_7a04cb19d0",
+    "span_index": 47,
+    "text": "Therefore, there is potential \nfor interoperability between PPP-B2b and HAS services \nregarding the supported satellite constellations.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_5c6e41f702",
+    "span_index": 48,
+    "text": "This study \nconstructs a tightly integrated real-time PPP model with the \njoint use of PPP-B2b and HAS precise corrections in the \nAsia-Pacific region.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_c94b5e308d",
+    "span_index": 49,
+    "text": "For completeness, four real-time PPP \nstrategies are analyzed and compared, including the stand-\nalone PPP-B2b strategy, stand-alone HAS strategy, and two \nPPP-B2b and HAS integration strategies.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_dea70567a8",
+    "span_index": 50,
+    "text": "We first introduce \nthe recovery of precise correction products and uniformity \nof datum.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_267a23f985",
+    "span_index": 51,
+    "text": "Next, the PPP-B2b and HAS tightly integrated \nreal-time PPP model is constructed.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_1adee11425",
+    "span_index": 52,
+    "text": "Then, the results are \npresented and discussed.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_325e9f4002",
+    "span_index": 53,
+    "text": "Finally, the main conclusions are \nsummarized.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_c84e0a3661",
+    "span_index": 54,
+    "text": "Recovery of precise correction products and \nuniformity of datum\nThe orbit and clock corrections of PPP-B2b refer to the \nlegacy navigation message (LNAV) of GPS and the civil \nnavigation message on B1C frequency (CNAV1) of BDS-3, \nwhile HAS provides orbit and clock corrections for LNAV \nof GPS and integrity navigation message (I/NAV) of Gali­\nleo.",
+    "char_length": 350
+  },
+  {
+    "quote_id": "qb_5308e831ff",
+    "span_index": 55,
+    "text": "The decoded corrections are matched with the corre­\nsponding broadcast ephemerides to recover the real-time \nprecise satellite orbits and clock offsets, that is:\n{ ˜OB2b = OB2b −Rrac2xyzδOB2b\n˜OHAS = OHAS −Rntw2xyz(δOHAS + δ ˙OHAS∆t)\b\n(1)\n{\nc˜dts\nB2b = cdts\nB2b −δCB2b/c\nc˜dts\nHAS = cdts\nHAS + δCHAS/c\b\n(2)\nwhere the subscripts B2b and HAS represent PPP-B2b and \nHAS corrections, respectively, ˜O and c˜dts are the recovered \nprecise satellite positions and clock offsets, respectively, \nO and cdts are the satellite positions and clock offsets cal­\nculated by broadcast ephemerides, respectively, Rrac2xyz\nand Rntw2xyz represent the transformation matrix from the \nradial, along-track and cross-track (RAC) coordinate sys­\ntem to the Earth-Centered Earth-Fixed (ECEF) coordinate \n1 3\n  162 \n \nPage 2 of 11",
+    "char_length": 806
+  },
+  {
+    "quote_id": "qb_845920a659",
+    "span_index": 56,
+    "text": "GPS Solutions          (2025) 29:162 \nsystem, both of which are calculated by the satellite position \nand velocity vectors derived from broadcast ephemerides, \nδO represents the corrections of satellite orbits, δ ˙O denotes \nthe changing rates of orbit corrections, δC represents the \ncorrections of satellite clock offsets, ∆t is the time interval \nfrom the reference time of state-space representation (SSR) \nmessages containing orbit corrections to the current time, \nand c is the speed of light in a vacuum.",
+    "char_length": 511
+  },
+  {
+    "quote_id": "qb_860c6adb7a",
+    "span_index": 57,
+    "text": "Table 1 lists the datums of recovered real-time precise \nsatellite orbits and clock offsets of PPP-B2b and HAS.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_204a8fe79a",
+    "span_index": 58,
+    "text": "The \nreference of GNSS code and carrier phase observations is \nthe instantaneous antenna phase center (APC) of the satel­\nlite and the receiver.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_d948b94bde",
+    "span_index": 59,
+    "text": "However, the orbit corrections pro­\nvided by PPP-B2b refer to the L1/L2 ionospheric-free (IF) \ncombined APC for GPS and the B3 APC for BDS-3, respec­\ntively, and the corresponding reference of orbit corrections \nprovided by HAS is the L1 APC and E1 APC for GPS and \nGalileo, respectively.",
+    "char_length": 288
+  },
+  {
+    "quote_id": "qb_4abf4ef75e",
+    "span_index": 60,
+    "text": "To ensure the consistency, the datums \nof recovered real-time precise satellite orbits of each satel­\nlite must be converted to the center of mass (CoM) by using \nthe phase center offset (PCO) corrections in the ANTenna \nExchange format (ANTEX) file provided by IGS, that is:\n˜OCOM = ˜Oi,AP C −Tr · PCOi\b\n(3)\nwhere i denotes L1/L2 IF APC, B3 APC, L1 APC, or E1 \nAPC, ˜OAP C and ˜OCOM represent the satellite orbits refer­\nring to the APC and CoM, respectively, Tr is a conversion \nmatrix from the satellite body-fixed coordinate system to the \nECEF coordinate system, and PCO denotes the PCO cor­\nrections.",
+    "char_length": 606
+  },
+  {
+    "quote_id": "qb_4491811b4e",
+    "span_index": 61,
+    "text": "The reference of observations is transferred to the \nCoM by applying PCO and phase center variation (PCV) \ncorrections for the consistency of PPP processing.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_a7ff066647",
+    "span_index": 62,
+    "text": "As shown in Table  1, the clock offset datum of GPS \nand BDS-3 in PPP-B2b products is L1P/L2P IF combina­\ntion and B3I, respectively, while that of GPS and Galileo in \nHAS products is the IF combination with L1 C/A and L2P, \nand E1 and E5B, respectively.",
+    "char_length": 254
+  },
+  {
+    "quote_id": "qb_bb23a9c233",
+    "span_index": 63,
+    "text": "For real-time PPP process­\ning with multiple frequencies, the PPP-B2b and HAS also \nprovide the code observable-specific signal bias (OSB) cor­\nrection products.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_67cbd9f1c0",
+    "span_index": 64,
+    "text": "Hence, we just need to directly apply the \nOSB corrections to the code observations on the required \nfrequency, so as to be consistent with the reference of the \nrecovered real-time precise satellite clock offsets.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_417d1a384a",
+    "span_index": 65,
+    "text": "It should \nbe noted that the sign of the PPP-B2b and HAS correction \nformulas is opposite when using the augmentation services \nfor OSB corrections (EUSPA 2022).",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_a3c4c7cc6d",
+    "span_index": 66,
+    "text": "For convenience, the \nsingle-frequency reference is denoted by m, and the dual-\nfrequency reference is denoted by m and n.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_876ec90124",
+    "span_index": 67,
+    "text": "Thus, the spe­\ncific components of the recovered real-time precise satellite \nclock offsets can be expressed as:\n{\nc˜dts\nm = cdts −ds\nm\nc˜dts\nIF,mn = cdts −ds\nIF,mn \b\n(4)\nds\nIF,mn = amn,m · ds\nm + amn,n · ds\nn\b\n(5)\nwith amn,m = f 2\nm/(f 2\nm −f 2\nn) and amn,n = −f 2\nn/(f 2\nm −f 2\nn) \nwhere amn,mand amn,n are the dual-frequency IF combina­\ntion coefficients, f is the carrier frequency, ds is the satel­\nlite code hardware delay, c˜dts\nm denotes the precise satellite \nclock offset with a single-frequency datum, and c˜dts\nIF,mn \ndenotes the precise satellite clock offset with a dual-fre­\nquency IF combined datum.",
+    "char_length": 615
+  },
+  {
+    "quote_id": "qb_597d1dd93e",
+    "span_index": 68,
+    "text": "The raw code observations contain the satellite code \nhardware delay on a single frequency, which needs to be \ncorrected by OSB to make them consistent with the satellite \ncode hardware delay included in the precise satellite clock \noffsets.",
+    "char_length": 241
+  },
+  {
+    "quote_id": "qb_18ba1aa06f",
+    "span_index": 69,
+    "text": "The BDS-3 code observations can be corrected by \nOSB from PPP-B2b according to the following formula:\n¯Pj = P ′\nj + ds\nj −OSBm,j = P ′\nj + ds\nm\b\n(6)\nwhere j represents the frequency, OSB represents the code \nOSB corrections, P represents the code observations cor­\nrected by OSB, and P ′ represents the code observations \nwithout the satellite code hardware delay.",
+    "char_length": 364
+  },
+  {
+    "quote_id": "qb_8e6483d52e",
+    "span_index": 70,
+    "text": "It should be noted \nthat the PPP-B2b product does not contain the OSB cor­\nrections of GPS.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_83c330ec45",
+    "span_index": 71,
+    "text": "Since the GPS satellite clock offsets from \nPPP-B2b product take a L1/L2 dual-frequency IF combined \ndatum, the inconsistency of satellite code hardware delay \nbetween code observations and satellite clock offsets will be \nabsorbed by the ionospheric delay parameter when employ­\ning a L1/L2 dual-frequency uncombined observation model.",
+    "char_length": 336
+  },
+  {
+    "quote_id": "qb_a8af8da2df",
+    "span_index": 72,
+    "text": "The Galileo and GPS code observations can be corrected \nby OSB from HAS according to the following formula:\n¯Pj = P ′\nj + ds\nj + OSBIF,mn,j = P ′\nj + ds\nIF,mn\b\n(7)\nTable 1  Datums of recovered real-time precise satellite orbits and \nclock offsets of PPP-B2b and HAS\nItems\nSystems\nDatums\nPPP-B2b\nHAS\nSatellite orbits\nGPS\nL1 and L2 IF APC\nL1 APC\nBDS-3\nB3 APC\n–\nGalileo\n–\nE1 APC\nClock offsets\nGPS\nL1P and L2P IF\nL1 C/A and L2P IF\nBDS-3\nB3I\n–\nGalileo\n–\nE1 and E5B IF\n1 3\nPage 3 of 11 \n  162",
+    "char_length": 486
+  },
+  {
+    "quote_id": "qb_06b01cc98b",
+    "span_index": 73,
+    "text": "GPS Solutions          (2025) 29:162 \nprecise satellite orbits and clock offsets as well as the OSB \ncorrections, the PPP-B2b and HAS tightly integrated real-\ntime PPP dual-frequency uncombined observation model \ncan be expressed as:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nps,sys\nr,1\n= µs,sys\nr\n· Xr + c¯dtsys\nr\n+ γsys\n1\n· ¯Is,sys\nr\n+αs,sys\nr\n· Zr + θsys · Ds,sys\nps,sys\nr,2\n= µs,sys\nr\n· Xr + c¯dtsys\nr\n+ γsys\n2\n· ¯Is,sys\nr\n+αs,sys\nr\n· Zr + θsys · Ds,sys\nls,sys\nr,1\n= µs,sys\nr\n· Xr + c¯dtsys\nr\n−γsys\n1\n· ¯Is,sys\nr\n+αs,sys\nr\n· Zr + ¯N s,sys\nr,1\nls,sys\nr,2\n= µs,sys\nr\n· Xr + c¯dtsys\nr\n−γsys\n2\n· ¯Is,sys\nr\n+αs,sys\nr\n· Zr + ¯N s,sys\nr,2\n\b\n(9)\nθsys=\n{0, sys = GPS HAS or Galileo\n1, sys = GPS B2b or BDS-3 \b\n(10)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nc¯dtsys\nr\n= cdtsys\nr\n+asys\n12,1 · dsys\nr,1 + asys\n12,2 · dsys\nr,2\n¯Is,sys\nr\n= Is,sys\nr\n+ asys\n12,2 · (dsys\nr,1 −dsys\nr,2 ) + ηsys · ds,sys\nion\n¯N s,sys\nr,1\n= N s,sys\nr,1\n+ bsys\nr,1 + bs,sys\n1\n−(asys\n12,1 −γsys\n1\n· asys\n12,2) · dsys\nr,1\n−asys\n12,2 · (1 + γsys\n1\n) · dsys\nr,2 −ds,sys\npre\n+ ηsys · γsys\n1\n· ds,sys\nion\n¯N s,sys\nr,2\n= N s,sys\nr,2\n+ bsys\nr,2 + bs,sys\n2\n−(asys\n12,1 −γsys\n2\n· asys\n12,2) · dsys\nr,1\n−asys\n12,2 · (1 + γsys\n2\n) · dsys\nr,2 −ds,sys\npre\n+ ηsys · γsys\n2\n· ds,sys\nion\n\b\n(11)\nds,sys\npre\n=\n{\nds,sys\nm\n,\nsys = BDS-3\nasys\nmn,m · ds,sys\nm\n+ asys\nmn,n · ds,sys\nn\n, sys = others \b\n(12)\nηsys =\n{\n1, sys = GPS B2b\n0, sys = others\n\b\n(13)\nds,sys\nion\n= asys\nmn,n · (ds,sys\nm\n−ds,sys\nn\n)\b\n(14)\nwith \nasys\n12,1 = (f sys\n1\n)2/((f sys\n1\n)2 −(f sys\n2\n)2) \nand \nasys\n12,2 = −(f sys\n2\n)2/((f sys\n1\n)2 −(f sys\n2\n)2) where p and l \ndenote the observed-minus-computed (OMC) code and \nphase observables, respectively, µ denotes the unit vector \nin the line of sight direction from the receiver to the sat­\nellite, X denotes the three-dimensional (3D) coordinates \nof the receiver, c¯dtr denotes the receiver clock offset esti­\nmate that absorbs the receiver code hardware delay in the \nform of the dual-frequency IF combination, ¯I denotes the \nionospheric delay estimate that absorbs the code hardware \ndelay at the receiver as well as the code hardware delay at \nthe satellite (only for GPS B2b), Z denotes the tropospheric \nzenith wet delay (ZWD), α denotes the wet mapping func­\ntion, ¯N denotes the phase ambiguity estimate that absorbs \nthe code and phase hardware delay at the satellite and \nreceiver, and D denotes the compensating parameter for the \ninitial systematic bias of PPP-B2b satellite clock offsets.",
+    "char_length": 2458
+  },
+  {
+    "quote_id": "qb_2504bea5f1",
+    "span_index": 74,
+    "text": "(11), ds,sys\npre  denotes the satellite code hardware delay \nabsorbed by the phase ambiguity parameter, which is intro­\nduced when applying the PPP-B2b or HAS precise satel­\nlite clock offsets, and is consistent with their reference (see \nPPP-B2b and HAS tightly integrated real-\ntime PPP model\nSince both PPP-B2b and HAS products support GPS, for \nease of expression, the GPS constellation taking PPP-B2b \ncorrections is represented as GPS B2b, and the GPS con­\nstellation taking HAS corrections is represented as GPS \nHAS.",
+    "char_length": 524
+  },
+  {
+    "quote_id": "qb_a78630f214",
+    "span_index": 75,
+    "text": "The code and phase observations can be expressed \nas follows:\n\n\n\n\n\n\n\nP s,sys\nr,j\n= ρs,sys\nr\n+ cdtsys\nr\n−cdts,sys\n+γsys\nj\n· Is,sys\nr\n+ T s,sys\nr\n+ dsys\nr,j + ds,sys\nj\n+ es,sys\nr,j\nLs,sys\nr,j\n= ρs,sys\nr\n+ cdtsys\nr\n−cdts,sys −γsys\nj\n· Is,sys\nr\n+T s,sys\nr\n+ N s,sys\nr,j\n+ bsys\nr,j + bs,sys\nj\n+ εs,sys\nr,j\n\b\n(8)\nwhere sys represents GPS B2b, GPS HAS, BDS-3 or Gali­\nleo, r and s represent the receiver and satellite, respectively, \nj is the frequency, P represents code observations, L repre­\nsents carrier phase observations, ρ is the geometric distance \nbetween satellite and receiver, cdtr and cdts represent the \nreceiver and satellite clock offsets, respectively, I represents \nthe slant ionospheric delay on the first frequency, γ is the \nionospheric delay factor (γsys\nj\n= (f sys\n1\n/f sys\nj\n)2), f is the car­\nrier frequency, T represents the slant tropospheric delay, dr \nand ds denote the receiver and satellite code hardware delay, \nrespectively, N is the phase ambiguity, br and bs denote the \nreceiver and satellite phase hardware delay, respectively, \nand e and ε represent the measurement noises of code and \ncarrier phase observations (including unmodeled errors \nsuch as multipath effects), respectively.",
+    "char_length": 1222
+  },
+  {
+    "quote_id": "qb_0b2337cc81",
+    "span_index": 76,
+    "text": "The datums of satellite clock offsets of GPS B2b are fre­\nquently switched because the PPP-B2b products are derived \nfrom the regional network solutions.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_f1567a20c0",
+    "span_index": 77,
+    "text": "Therefore, a separate \nreceiver clock offset parameter should be estimated for each \nsatellite system.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_081ab41ad3",
+    "span_index": 78,
+    "text": "Alternatively, the inter-system bias (ISB) \nparameter should be estimated as white noise process to \nabsorb the influence of switched datums.",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_75234cbce8",
+    "span_index": 79,
+    "text": "The former method \nis adopted in this study.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_ae12842f0b",
+    "span_index": 80,
+    "text": "It should be noted that there is an \ninitial systematic bias in the recovered PPP-B2b precise sat­\nellite clock offsets for each satellite, which can be absorbed \nby the phase ambiguity parameter and does not affect the \ncarrier phase observations.",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_2becb0c51b",
+    "span_index": 81,
+    "text": "However, the initial systematic \nbias will impact the accuracy of code observations.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_af34273149",
+    "span_index": 82,
+    "text": "There­\nfore, a compensating parameter is introduced into the code \nobservation equation for each satellite to mitigate the effects \nof the initial systematic bias included in satellite clock off­\nsets for GPS B2b and BDS-3 constellations.",
+    "char_length": 238
+  },
+  {
+    "quote_id": "qb_9470cdd058",
+    "span_index": 83,
+    "text": "Taking the final \nsatellite clock product as the reference, the errors of PPP-\nB2b satellite clock offsets exhibit relatively stable charac­\nteristics within each continuous arc.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_330782603a",
+    "span_index": 84,
+    "text": "Thus, the compensating \nparameter for the initial systematic bias is estimated as ran­\ndom-walk process.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_ad80e649ed",
+    "span_index": 85,
+    "text": "After applying the recovered real-time \n1 3\n  162 \n \nPage 4 of 11",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_34d7349dec",
+    "span_index": 86,
+    "text": "GPS Solutions          (2025) 29:162 \nparameter is estimated as random-walk process, the intro­\nduction of a compensating parameter into the code obser­\nvation equation for each satellite of GPS B2b and BDS-3 \nconstellations will not reduce the redundancy of the real-\ntime PPP model.",
+    "char_length": 284
+  },
+  {
+    "quote_id": "qb_a1ebaaa423",
+    "span_index": 87,
+    "text": "Actually, the redundancy of the model \napproximates the difference between the number of obser­\nvations and the number of parameters without strong con­\nstraints, such as receiver clock offset parameters.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_c78b3f016a",
+    "span_index": 88,
+    "text": "Results and discussion\nThe datasets and processing strategies are first introduced.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_1ce8ac2ebd",
+    "span_index": 89,
+    "text": "Next, the availability is analyzed.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_854afe3d1e",
+    "span_index": 90,
+    "text": "Finally, the position solu­\ntions are provided.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_a49f0dffa6",
+    "span_index": 91,
+    "text": "Datasets and processing strategies\nIn this study, the datasets on day of year (DOY) 180–186 of \n2024 from 18 Multi-GNSS Experimental (MGEX) stations \nlocated in the Asia-Pacific region are employed to evalu­\nate the performance of PPP-B2b and HAS tightly integrated \nreal-time PPP.",
+    "char_length": 281
+  },
+  {
+    "quote_id": "qb_18cd44f2d0",
+    "span_index": 92,
+    "text": "Due to the absence of observations at cer­\ntain stations on specific days (i.e., JDPR, LCK4 and IITK \nstations on DOY 185 of 2024 and SGOC station on DOY \n180 of 2024), the analysis ultimately involves a total of 122 \nsets of daily observations.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_f9882f6975",
+    "span_index": 93,
+    "text": "The geographical distribution \nof the selected stations is shown in Fig.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_9e39648ad1",
+    "span_index": 94,
+    "text": "The stations are \nchosen according to three principles: (1) coverage within \nthe PPP-B2b service area (75°E–135°E, 10°N–55°N) with \nminor boundary extensions of several degrees, (2) support \nfor simultaneous tracking of BDS-3, GPS, and Galileo sig­\nnals, and (3) quasi-uniform spatial distribution.",
+    "char_length": 298
+  },
+  {
+    "quote_id": "qb_42aff5e45e",
+    "span_index": 95,
+    "text": "As for the \nanalysis period, while it is arbitrarily chosen, we adopt a \ncontinuous 7-day period after considering the orbital repeat \nperiod and the computational burden.",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_e70afe8f9b",
+    "span_index": 96,
+    "text": "For comparison, four real-time PPP strategies are ana­\nlyzed, including the strategy with BDS-3/GPS from PPP-\nB2b (B2b C/G), the strategy with Galileo/GPS from HAS \n(HAS E/G), the strategy with BDS-3/GPS from PPP-B2b \nand Galileo from HAS (B2b C/G + HAS E), and the strat­\negy with Galileo/GPS from HAS and BDS-3 from PPP-B2b \n(HAS E/G + B2b C).",
+    "char_length": 345
+  },
+  {
+    "quote_id": "qb_7457fed891",
+    "span_index": 97,
+    "text": "The real-time PPP processing is carried \nout with the strategies summarized in Table 2.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_08ae4bab1b",
+    "span_index": 98,
+    "text": "Availability\nThe availability analysis presented in this study is concen­\ntrated on the Asia-Pacific region with specific geographical \nranges from latitude 0° to 60°N and longitude 60°E to 180°.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_4d1dc3d32f",
+    "span_index": 99,
+    "text": "The service rates, the number of visible satellites, and the \nposition dilution of precision (PDOP) for four real-time PPP \nEq.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_70651ad32a",
+    "span_index": 100,
+    "text": "(11), ds,sys\nion  denotes satellite code hardware \ndelay absorbed by the ionospheric delay parameter and then \npropagated to the phase ambiguity parameter (only for GPS \nB2b), which is introduced by the inconsistency of satellite \ncode hardware delay between code observations and satel­\nlite clock offsets.",
+    "char_length": 307
+  },
+  {
+    "quote_id": "qb_0099aafb0b",
+    "span_index": 101,
+    "text": "To remove the rank deficiency caused by \nthe introduction of compensating parameter for the initial \nsystematic bias for each satellite within a constellation in \nEq.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_275675da40",
+    "span_index": 102,
+    "text": "(9), a separate pseudo-observation equation of the com­\npensating parameter with a pseudo-observable of zero for a \nselected satellite for each of GPS B2b and BDS-3 constella­\ntions can be introduced into the observation model.",
+    "char_length": 227
+  },
+  {
+    "quote_id": "qb_dfbbc92695",
+    "span_index": 103,
+    "text": "In view that the pseudo-observable is introduced as \na datum to eliminate the rank deficiency, a much smaller \nmagnitude should be assigned to its noise.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_f71fc84967",
+    "span_index": 104,
+    "text": "In this study, \nthe variance of the pseudo-observable is set to 1 × 10–6 m2.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_150ffba340",
+    "span_index": 105,
+    "text": "There is a strong correlation between the receiver clock off­\nset parameter and numerous compensating parameters.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_e3576560fd",
+    "span_index": 106,
+    "text": "By \nassigning a numerical value of zero to the compensating \nparameter of the selected satellite, the receiver clock offset \nestimates actually absorb the initial systematic bias of the \nselected satellite, while the estimated compensating param­\neter for other satellites is essentially the difference of ini­\ntial systematic bias between these satellites and the selected \nsatellite.",
+    "char_length": 385
+  },
+  {
+    "quote_id": "qb_8290886618",
+    "span_index": 107,
+    "text": "Considering the regional service nature of BDS-3 \nPPP-B2b, even when the selected satellite exits the service \ncoverage, the introduced datum will propagate backward to \nsubsequent epochs because the compensating parameter is \nmodeled as random-walk process.",
+    "char_length": 258
+  },
+  {
+    "quote_id": "qb_d6e7e5c335",
+    "span_index": 108,
+    "text": "During satellite ingress \nevents, compensating parameters for the newly visible sat­\nellites require initialization, whereas compensating param­\neters for all satellites must undergo re-initialization upon \nre-entry of the selected satellite into the service area.",
+    "char_length": 264
+  },
+  {
+    "quote_id": "qb_876fa150a9",
+    "span_index": 109,
+    "text": "Since the estimator adopts the Kalman filter, there is \npredicted information for the parameters with a strongly \nconstrained dynamic model.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_92239d5f98",
+    "span_index": 110,
+    "text": "Thus, as the compensating \nFig.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_006e3a70b5",
+    "span_index": 111,
+    "text": "1  Geographical distribution of 18 MGEX stations located in the \nAsia-Pacific region\n \n1 3\nPage 5 of 11 \n  162",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_50ac6aced1",
+    "span_index": 112,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_b3b2a0c440",
+    "span_index": 113,
+    "text": "GPS Solutions          (2025) 29:162 \nstrategies (namely B2b C/G, B2b C/G + HAS E, HAS E/G, \nand HAS E/G + B2b C) are analyzed.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_45d86ed815",
+    "span_index": 114,
+    "text": "To ensure the consis­\ntency with the positioning strategies, the sampling interval \nis set to 30 s, and the cut-off elevation angle is set to 10°.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_0b1c57f389",
+    "span_index": 115,
+    "text": "The \nresearch area is divided into 60 × 60 grids with an interval of \n2° in longitude and 1° in latitude, and it is assumed that a \nvirtual receiver at an altitude of 25 m is placed in the center \nof each grid (Yang et al.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_afcefe39a3",
+    "span_index": 116,
+    "text": "Subsequently, the relative \ngeometries between each satellite and the virtual receiver \nare analyzed to evaluate the availability of four real-time \nPPP strategies by combining the known receiver positions \nand the calculated satellite positions.",
+    "char_length": 246
+  },
+  {
+    "quote_id": "qb_b68bce1f6b",
+    "span_index": 117,
+    "text": "When there are at least four visible satellites and the \nPDOP values are less than 30 at a certain epoch, the posi­\ntion determination at this epoch is considered to be feasible.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_1987562107",
+    "span_index": 118,
+    "text": "In this study, the service rate is defined as the percentage of \nthe number of epochs with feasible position solutions over \nthe total number of epochs.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_82ec349a32",
+    "span_index": 119,
+    "text": "The service rate for each grid is \ncalculated.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_8b3db8335b",
+    "span_index": 120,
+    "text": "The results indicate that all four real-time PPP \nstrategies can achieve a service rate of 100% in the Asia-\nPacific region, which means that even the stand-alone PPP-\nB2b service and the stand-alone HAS service can provide \ncontinuous positioning services for users in the Asia-Pacific \nregion.",
+    "char_length": 295
+  },
+  {
+    "quote_id": "qb_51ba2b1aa8",
+    "span_index": 121,
+    "text": "Figure 2 illustrates the geographical distribution of the \naverage number of visible satellites over seven days from \nDOY 180 to 186 of 2024 for four real-time PPP strategies.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_453e2daefc",
+    "span_index": 122,
+    "text": "Table 2  Processing strategies for real-time PPP\nItems\nStrategies\nFrequencies\nBDS-3: B1/B3\nGPS: L1/L2\nGalileo: E1/E5A\nPositioning mode\nKinematic\nWeighting method\nElevation-dependent weights\nSampling rate\n30 s\nElevation cut-off angle\n10°\nPCO/PCV\nPPP-B2b: IGS20 atx file\nHAS: IGS14 atx file\nPhase wind-up effect\nCorrected\nRelativistic effect\nCorrected\nStation displacement\nCorrected with IERS Convention 2010\nSatellite orbit/clock/\ncode bias\nBroadcast ephemerides with correspond­\ning augmentation products\nReceiver clock\nA separate receiver clock offset parameter \nis estimated for each satellite system, and \nmodeled as white noise process (104 m2)\nIonospheric delay\nEstimated as random-walk process (10–4 \nm2/s)\nTropospheric delay\nDry component: Saastamoinen model\nWet component: mapping slant delays to \nzenith delays with global mapping func­\ntion (GMF) and estimated as random-\nwalk process (10–8 m2/s)\nPhase ambiguity\nEstimated as float constants\nCompensating param­\neter for initial system­\natic bias\nEstimated as random-walk process (10–10 \nm2/s) over each continuous arc\nFig.",
+    "char_length": 1083
+  },
+  {
+    "quote_id": "qb_4edafc0564",
+    "span_index": 123,
+    "text": "2  Geographical distribution of the average number of visible satellites for four real-time PPP strategies\n \n1 3\n  162 \n \nPage 6 of 11",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_4973e17ce6",
+    "span_index": 124,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_5c86c31e48",
+    "span_index": 125,
+    "text": "GPS Solutions          (2025) 29:162 \nFigure 3 displays the geographical distribution of aver­\nage PDOP values over the entire analysis period for four \nreal-time PPP strategies.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_62ed1f785c",
+    "span_index": 126,
+    "text": "The B2b C/G + HAS E strategy \nintegrating HAS Galileo presents lower PODP values in \ncontrast to the B2b C/G strategy that only employs PPP-B2b \nproducts.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_07118a23a6",
+    "span_index": 127,
+    "text": "Similarly, the HAS E/G + B2b C strategy that inte­\ngrates PPP-B2b BDS-3 also exhibits lower PODP values \ncompared with the HAS E/G strategy.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_53d57eff38",
+    "span_index": 128,
+    "text": "The PDOP values of \nthe B2b C/G and B2b C/G + HAS E strategies are relatively \nsmaller within the range of 80°E to 140°E, particularly in \nthe mainland of China, with the minimum values of 1.28 and \n1.06, respectively.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_9f87909853",
+    "span_index": 129,
+    "text": "In the areas of 60°E to 80°E and 140°E \nto 180°, the PDOP values of B2b C/G and B2b C/G + HAS \nE strategies gradually increase towards both sides, ranging \nfrom 1.39 to 3.01 and 1.11 to 1.41, respectively.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_077bc7c4d8",
+    "span_index": 130,
+    "text": "For the \nother two strategies, the distribution of PDOP values is rela­\ntively even, ranging from 1.35 to 1.62 for HAS E/G strategy \nand from 1.07 to 1.25 for HAS E/G + B2b C strategy.",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_dddc636577",
+    "span_index": 131,
+    "text": "After \nan integration with PPP-B2b BDS-3, the HAS E/G + B2b C \nPDOP values within the latitude range from 12°N to 40°N \nare still slightly higher than those in other regions, espe­\ncially in the longitude range from 150°E to 180°.",
+    "char_length": 230
+  },
+  {
+    "quote_id": "qb_1bf04d7e3b",
+    "span_index": 132,
+    "text": "Position solutions\nFigures 4 and 5 depict the epoch-wise positioning errors for \nfour real-time PPP strategies (i.e., B2b C/G, B2b C/G + HAS \nThe number of visible satellites under the B2b C/G strategy \nis relatively larger in the mainland of China and its coastal \nregions, especially within the range of 12°N to 48°N and \n90°E to 130°E, with the corresponding satellite numbers \nranging from 14.9 to 16.5.",
+    "char_length": 407
+  },
+  {
+    "quote_id": "qb_199ff2966e",
+    "span_index": 133,
+    "text": "In addition, the visible satellite \nnumbers present a decreasing trend towards surrounding \nareas in a circular pattern, with the lowest number in the \nPacific region being 9.3.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_05d8fc1fe3",
+    "span_index": 134,
+    "text": "After integrating with HAS Gali­\nleo, the number of visible satellites increases significantly, \nranging from 16.6 to 22.9, and the distribution character­\nistics of satellite numbers are consistent with those of the \nB2b C/G strategy (i.e., more visible satellites in the central \nregions and less visible satellites in the peripheral regions).",
+    "char_length": 345
+  },
+  {
+    "quote_id": "qb_d4c32d4d65",
+    "span_index": 135,
+    "text": "The number of visible satellites under the HAS E/G strat­\negy is mainly concentrated in the areas spanning 0° to 12°N \nand 50°N to 60°N, with the corresponding satellite num­\nbers ranging from 13.2 to 16.2.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_38037366d4",
+    "span_index": 136,
+    "text": "However, in the mainland \nof China and its coastal regions, the number of visible satel­\nlites under the HAS E/G strategy is relatively smaller, with \na varying range of 12.9 to 14.8.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_9cd10dd77e",
+    "span_index": 137,
+    "text": "After integrating with PPP-\nB2b BDS-3, the distribution characteristics of the satellite \nnumbers are consistent with those of the HAS E/G strat­\negy, and there are less visible satellites (ranging from 18.7 \nto 21.2) in the regions spanning 12°N to 50°N (especially \nin the regions of 160°E to 180°), while the corresponding \nnumbers increase to 23.3 in other regions.",
+    "char_length": 369
+  },
+  {
+    "quote_id": "qb_a42d5212db",
+    "span_index": 138,
+    "text": "3  Geographical distribution of average PDOP values for four real-time PPP strategies\n \n1 3\nPage 7 of 11 \n  162",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_7e7a9c4e8c",
+    "span_index": 139,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_6bb3767694",
+    "span_index": 140,
+    "text": "GPS Solutions          (2025) 29:162 \nE, HAS E/G, and HAS E/G + B2b C) at stations JDPR and \nPOL2 on DOY 186 of 2024, respectively.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_8414cc671c",
+    "span_index": 141,
+    "text": "As can be seen \nfrom the two figures, the position solutions of all the four \nreal-time PPP strategies can quickly converge to the target \naccuracy of PPP-B2b and HAS services (i.e., 20 cm in hori­\nzontal direction and 40 cm in vertical direction).",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_c1672c8b8c",
+    "span_index": 142,
+    "text": "The posi­\ntioning accuracy in the east and north directions is usually \nbetter than 10 cm after convergence, while the correspond­\ning accuracy in the up direction is usually better than 20 cm.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_aa2feb7111",
+    "span_index": 143,
+    "text": "It should be noted that the stability of position solutions of \nHAS E/G strategy is inferior to that of the other three strate­\ngies after the position filter converges.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_d03a4dfd98",
+    "span_index": 144,
+    "text": "To evaluate the convergence time of four real-time PPP \nstrategies, the observations from 18 stations in the Asia-\nPacific region on seven consecutive days are employed.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_989c42d9f2",
+    "span_index": 145,
+    "text": "In \nPPP processing, the estimator is reset every two hours to \nobtain the position solutions, and thus a total of 1464 sets \nof 2-hour position solutions are counted.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_0970900943",
+    "span_index": 146,
+    "text": "When the horizon­\ntal positioning errors are less than 20 cm and the vertical \npositioning errors are less than 40 cm within 10 consecu­\ntive epochs (i.e., 5 min) (CSNO 2021; EUSPA 2023), the \nposition solutions are considered to have converged.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_b26ee6f4f4",
+    "span_index": 147,
+    "text": "The \ndistribution of convergence time is plotted in Fig.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_97353d0667",
+    "span_index": 148,
+    "text": "The \nproportion of real-time PPP solutions with a convergence \ntime longer than 90 min is represented as a 90-minute sta­\ntistic in Fig.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_9f1e8ccfc3",
+    "span_index": 149,
+    "text": "6, and the average convergence time of each \nstrategy is also provided in each panel.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_3b7d56af62",
+    "span_index": 150,
+    "text": "It can be seen that \nthe B2b C/G + HAS E strategy achieves the shortest con­\nvergence time of 9.4 min on average, followed by B2b C/G \nand HAS E/G + B2b C strategies with an average conver­\ngence time of 12.3 and 12.2 min, respectively.",
+    "char_length": 236
+  },
+  {
+    "quote_id": "qb_98a33b9b5d",
+    "span_index": 151,
+    "text": "In contrast, \nthe HAS E/G strategy exhibits the slowest convergence per­\nformance with an average convergence time of 21.7 min.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_11dfbb4d4a",
+    "span_index": 152,
+    "text": "The real-time PPP solutions with a convergence time less \nFig.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_acb083649f",
+    "span_index": 153,
+    "text": "6  Distribution of convergence time for four real-time PPP \nstrategies\n \nFig.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_3b99b533a5",
+    "span_index": 154,
+    "text": "5  Epoch-wise positioning errors for four real-time PPP strategies \nat station POL2 on DOY 186 of 2024\n \nFig.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_f498ed0c52",
+    "span_index": 155,
+    "text": "4  Epoch-wise positioning errors for four real-time PPP strategies \nat station JDPR on DOY 186 of 2024\n \n1 3\n  162 \n \nPage 8 of 11",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_9124b53e68",
+    "span_index": 156,
+    "text": "> [3 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_6c62b22f94",
+    "span_index": 157,
+    "text": "GPS Solutions          (2025) 29:162 \nstatistics of positioning errors over all available epochs for \neach real-time PPP strategy are calculated and shown in \neach panel.",
+    "char_length": 170
+  },
+  {
+    "quote_id": "qb_52d0da5ba8",
+    "span_index": 158,
+    "text": "The results indicate that the B2b C/G + HAS E \nstrategy can achieve the highest positioning accuracy, fol­\nlowed by B2b C/G and HAS E/G + B2b C strategies, while \nthe HAS E/G strategy has the lowest positioning accuracy.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_8dd5089fd4",
+    "span_index": 159,
+    "text": "The real-time PPP solutions with a positioning accuracy \nbetter than 10/10/20  cm in the east/north/up directions \naccount for 96.2%/98.4%/95.2%, 97.5%/99.3%/96.7%, \n80.3%/88.3%/84.1%, and 95.3%/97.7%/93.5% for the B2b \nC/G, B2b C/G + HAS E, HAS E/G, and HAS E/G + B2b C \nstrategies, respectively.",
+    "char_length": 297
+  },
+  {
+    "quote_id": "qb_df5f180f2a",
+    "span_index": 160,
+    "text": "Compared with the B2b C/G strat­\negy, the positioning accuracy of B2b C/G + HAS E strategy \nis improved by 9%/6%/7% in the east/north/up directions, \nrespectively, with the RMS statistics being 4.2/3.2/9.1 cm \nand 4.6/3.4/9.8  cm for the two strategies, respectively.",
+    "char_length": 267
+  },
+  {
+    "quote_id": "qb_399c23a85c",
+    "span_index": 161,
+    "text": "Similarly, compared with the HAS E/G strategy, the HAS \nE/G + B2b C strategy improves the positioning accuracy \nby 36%/35%/24% in the three directions, respectively, and \nthe corresponding RMS statistics are 4.8/4.1/10.6 cm and \n7.5/6.3/13.9 cm for the two strategies, respectively.",
+    "char_length": 282
+  },
+  {
+    "quote_id": "qb_ff107c4bcb",
+    "span_index": 162,
+    "text": "By comparing the convergence time and positioning \naccuracy among the four real-time PPP strategies, it can \nthan 10/20 min account for 59.6%/87.4%, 72.4%/92.6%, \n35.1%/64.3%, and 58.6%/86.9% for the B2b C/G, B2b \nC/G + HAS E, HAS E/G, and HAS E/G + B2b C strate­\ngies, respectively.",
+    "char_length": 283
+  },
+  {
+    "quote_id": "qb_80fb49f9f0",
+    "span_index": 163,
+    "text": "The average convergence time of B2b \nC/G + HAS E strategy is shortened by 2.9  min compared \nwith the B2b C/G strategy, with an improvement of 24%, \nwhich can be reflected in the increase of the proportion of \nposition solutions with a convergence time shorter than \n15 min.",
+    "char_length": 274
+  },
+  {
+    "quote_id": "qb_02bf651df4",
+    "span_index": 164,
+    "text": "Compared with the HAS E/G strategy, the average \nconvergence time of HAS E/G + B2b C strategy is short­\nened by 9.5 min and the improvement rate is 44%, which \nis reflected not only in the increased proportion of position \nsolutions with a convergence time less than 15 min, but also \nin the significantly reduced proportion of real-time PPP \nsolutions with a convergence time over 90 min.",
+    "char_length": 389
+  },
+  {
+    "quote_id": "qb_59fdc62836",
+    "span_index": 165,
+    "text": "To evaluate the kinematic positioning accuracy of four \nreal-time PPP strategies, the observations from 18 sta­\ntions in the Asia-Pacific region on seven consecutive days \nare processed every 24 h.",
+    "char_length": 197
+  },
+  {
+    "quote_id": "qb_c1ce17641b",
+    "span_index": 166,
+    "text": "To avoid the influence of posi­\ntion solutions in the converging stage, the results within the \nfirst two hours of each day are removed.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_311791f1b5",
+    "span_index": 167,
+    "text": "Figure 7 shows the \ndistribution of the absolute value of epoch-wise positioning \nerrors for all available epochs.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_5d5230b771",
+    "span_index": 168,
+    "text": "The root mean square (RMS) \nFig.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_c270bd3603",
+    "span_index": 169,
+    "text": "7  Distribution of positioning accuracy for four real-time PPP strategies\n \n1 3\nPage 9 of 11 \n  162",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_d115466d0c",
+    "span_index": 170,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_90448019c5",
+    "span_index": 171,
+    "text": "GPS Solutions          (2025) 29:162 \n12.2 min, respectively.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_277f350d64",
+    "span_index": 172,
+    "text": "By contrast, the HAS E/G strategy \nhas the longest convergence time at 21.7 min.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_97510a141d",
+    "span_index": 173,
+    "text": "Compared \nwith the B2b C/G strategy, the convergence time of the B2b \nC/G + HAS E strategy is shortened by 24%, while the con­\nvergence time of the HAS E/G + B2b C strategy is shortened \nby 44% over the HAS E/G strategy.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_33a9cb7527",
+    "span_index": 174,
+    "text": "As for the positioning \naccuracy, the comparative results are similar to those of con­\nvergence time.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_0c096597e1",
+    "span_index": 175,
+    "text": "The B2b C/G + HAS E strategy performs the \nbest, followed by B2b C/G and HAS E/G + B2b C strategies, \nwhile the HAS E/G strategy ranks the lowest in the posi­\ntioning accuracy.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_e6aa6ee559",
+    "span_index": 176,
+    "text": "The positioning accuracy of the B2b C/G \nstrategy can reach 4.6, 3.4 and 9.8 cm in the east, north and \nup directions, respectively, whereas the positioning accu­\nracy of the B2b C/G + HAS E strategy can be improved by \n9%, 6% and 7% to 4.2, 3.2 and 9.1 cm over the B2b C/G \nstrategy in the three directions, respectively.",
+    "char_length": 322
+  },
+  {
+    "quote_id": "qb_fdea98e177",
+    "span_index": 177,
+    "text": "The position­\ning accuracy of the HAS E/G strategy can reach 7.5, 6.3 and \n13.9 cm in the three directions, respectively, while the posi­\ntioning accuracy of the HAS E/G + B2b C strategy can be \nimproved by 36%, 35% and 24% compared with the HAS \nE/G strategy in the three directions, reaching 4.8, 4.1 and \n10.6 cm, respectively.",
+    "char_length": 330
+  },
+  {
+    "quote_id": "qb_7f4ac74b20",
+    "span_index": 178,
+    "text": "In summary, the tightly integrated real-time PPP with \nPPP-B2b and HAS in the Asia-Pacific region can signifi­\ncantly shorten the convergence time and improve the posi­\ntioning accuracy compared with a stand-alone augmentation \nservice, which verifies the effectiveness of the proposed \nmodel.",
+    "char_length": 293
+  },
+  {
+    "quote_id": "qb_c50f2f4d9d",
+    "span_index": 179,
+    "text": "However, the precise correction products of HAS \nservice are generated by few monitoring stations in the \nAsia-Pacific region, and the HAS service does not commit \nto guaranteeing the positioning performance in the Asia-\nPacific region.",
+    "char_length": 236
+  },
+  {
+    "quote_id": "qb_24946edbf9",
+    "span_index": 180,
+    "text": "Therefore, the two HAS-based strategies, \nnamely using the stand-alone HAS service and integrating \nthe PPP-B2b BDS-3 observations into the HAS service, may \nnot be as effective as expected in this region.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_55b0482d68",
+    "span_index": 181,
+    "text": "It is expected \nthat the positioning performance of tightly integrated real-\ntime PPP with the two augmentation services will be further \nimproved as their service levels develop in the future.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_a1698314a2",
+    "span_index": 182,
+    "text": "Acknowledgements  The contribution of data from MGEX is appreci­\nated.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_21c5fdc130",
+    "span_index": 183,
+    "text": "Author contributions  All authors contributed to the study and design.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_918ccaa231",
+    "span_index": 184,
+    "text": "CY performed material preparation, data collection, and analysis.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_f397f6dcbe",
+    "span_index": 185,
+    "text": "LP \nand CY wrote the first draft of the manuscript, and all authors com­\nmented on previous versions of the manuscript.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_528b49f418",
+    "span_index": 186,
+    "text": "All authors read and \napproved the final manuscript.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_f37bb9ad77",
+    "span_index": 187,
+    "text": "Funding  This research was funded by the National Natural Science \nFoundation of China (Grant No.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_2e19a3763f",
+    "span_index": 188,
+    "text": "42388102), and the Department of \nNatural Resources of Hunan Province (Grant No.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_15ccffd3be",
+    "span_index": 189,
+    "text": "HNGTCH-2023-05).",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_1c78bc82d7",
+    "span_index": 190,
+    "text": "Data availability  The datasets at selected MGEX stations can be \nobtained from http://igs.gnsswhu.cn.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_8a2fb43205",
+    "span_index": 191,
+    "text": "be found that the positioning performance of the HAS E/G \nstrategy is significantly worse than that of the B2b C/G \nstrategy.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_54c7639312",
+    "span_index": 192,
+    "text": "Even after the introduction of BDS-3 observations \nwith PPP-B2b service, the positioning performance of the \nHAS E/G + B2b C strategy still remains inferior to that of \nthe B2b C/G strategy.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_3d41116506",
+    "span_index": 193,
+    "text": "It is indicated that the positioning per­\nformance of HAS service is worse than that of PPP-B2b \nservice in the Asia-Pacific region.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_dcfa140c00",
+    "span_index": 194,
+    "text": "This is because there are \nfew monitoring stations used to generate the precise cor­\nrection products of HAS service in the Asia-Pacific region, \nand in fact, the HAS service does not commit to guarantee­\ning the positioning performance in the Asia-Pacific region \n(EUSPA 2023).",
+    "char_length": 278
+  },
+  {
+    "quote_id": "qb_c9b2ebe294",
+    "span_index": 195,
+    "text": "Despite this, both the convergence time and \npositioning accuracy can be significantly improved by inte­\ngrating the HAS-based Galileo observations into the PPP-\nB2b service.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_b4a3e93926",
+    "span_index": 196,
+    "text": "Conclusions\nConsidering that the service areas of BDS-3 PPP-B2b and \nGalileo HAS overlap in the Asia-Pacific region, and there \nis potential for interoperability between the two services \nin terms of supported satellite constellations, a tightly inte­\ngrated real-time PPP model with PPP-B2b and HAS for the \nAsia-Pacific region is constructed in this study.",
+    "char_length": 358
+  },
+  {
+    "quote_id": "qb_099230300e",
+    "span_index": 197,
+    "text": "Four real-\ntime PPP strategies, including B2b C/G, B2b C/G + HAS E, \nHAS E/G, and HAS E/G + B2b C, are used for compara­\ntive analysis in terms of availability, convergence time, and \npositioning accuracy.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_ee805f50bc",
+    "span_index": 198,
+    "text": "Regarding the availability in the Asia-Pacific region, \namong the four real-time PPP strategies, the number of \nvisible satellites of B2b C/G + HAS E and HAS E/G + B2b \nC strategies is at a similar level, ranging from about 16 to \n24, and the distribution characteristics of PDOP values are \nclosely related to the number of visible satellites, with the \ncorresponding statistics being 1.06 to 1.41 and 1.07 to 1.25 \nfor the two strategies, respectively.",
+    "char_length": 454
+  },
+  {
+    "quote_id": "qb_d2a892c92a",
+    "span_index": 199,
+    "text": "The B2b C/G strategy \nhas the smallest number of visible satellites in the Pacific \nregion, with the minimum value being 9.3, and the PDOP \nvalue can reach as high as 3.01.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_d8eb8815a0",
+    "span_index": 200,
+    "text": "By contrast, in the mainland \nof China and its coastal regions, the number of visible satel­\nlites is increased to 14.9–16.5, and the corresponding PDOP \nvalue is relatively smaller, with a minimum value of 1.28.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_dc5df8c8d8",
+    "span_index": 201,
+    "text": "For the HAS E/G strategy, the number of visible satellites \nvaries within a range of 12.9 to 16.2, and the PDOP values \nfluctuate between 1.35 and 1.62.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_d73649c75f",
+    "span_index": 202,
+    "text": "In the Asia-Pacific region, \nall four real-time PPP strategies can achieve a service rate \nof 100%.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_738a1c2928",
+    "span_index": 203,
+    "text": "The convergence time of B2b C/G + HAS E strategy is the \nshortest at 9.4 min, while the B2b C/G and HAS E/G + B2b \nC strategies have a similar convergence time of 12.3 and \n1 3\n  162 \n \nPage 10 of 11",
+    "char_length": 199
+  },
+  {
+    "quote_id": "qb_8ac14eb183",
+    "span_index": 204,
+    "text": "GPS Solutions          (2025) 29:162 \nXu Y, Yang Y, Li J (2021) Performance evaluation of BDS-3 PPP-B2b \nprecise point positioning service.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_ea569c972f",
+    "span_index": 205,
+    "text": "GPS Solut 25(4):142.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_0c08faf41b",
+    "span_index": 206,
+    "text": "​h​t​t​p​s​:​/​/​d​o​\ni​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​1​-​0​1​1​7​5​-​2\nXu X, Nie Z, Wang Z et al (2023) An improved BDS-3 PPP-B2b posi­\ntioning approach by estimating signal in space range errors.",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_0293b81d50",
+    "span_index": 207,
+    "text": "GPS \nSolut 27(3):110.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_2104e210f8",
+    "span_index": 208,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​3​-​0​1​4​5​5​-​z\nYang Y, Li J, Xu J et al (2011) Contribution of the compass satel­\nlite navigation system to global PNT users.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_bb37179d11",
+    "span_index": 209,
+    "text": "Chin Sci Bull \n56(26):2813–2819.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_bb45d92252",
+    "span_index": 210,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​1​4​3​4​-​0​1​1​-​4​6​2​7​-​4\nZhang R, Tu R, Lu X (2024a) HASPPP: an open-source Galileo HAS \nembeddable RTKLIB decoding package.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_a1f01b06fd",
+    "span_index": 211,
+    "text": "GPS Solut 28(4):169.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_bc7088e323",
+    "span_index": 212,
+    "text": "​h​\nt​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​4​-​0​1​7​0​6​-​7\nZhang R, Tu R, Lu X et al (2024b) Initial and comprehensive analysis \nof PPP time transfer based on Galileo high accuracy service.",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_58cfbec8bb",
+    "span_index": 213,
+    "text": "GPS \nSolut 28(2):94.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_8f0833e2e4",
+    "span_index": 214,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​4​-​0​1​6​3​3​-​7\nZhou P, Xiao G, Du L (2024) Initial performance assessment of Gali­\nleo high accuracy service with software-defined receiver.",
+    "char_length": 210
+  },
+  {
+    "quote_id": "qb_5a468b066e",
+    "span_index": 215,
+    "text": "GPS \nSolut 28(1):2.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_a0e4c609a2",
+    "span_index": 216,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​3​-​0​1​5​4​0​-​3\nPublisher’s note  Springer Nature remains neutral with regard to juris­\ndictional claims in published maps and institutional affiliations.",
+    "char_length": 223
+  },
+  {
+    "quote_id": "qb_c630e0e824",
+    "span_index": 217,
+    "text": "Springer Nature or its licensor (e.g.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_efd6dec2d7",
+    "span_index": 218,
+    "text": "a society or other partner) holds \nexclusive rights to this article under a publishing agreement with the \nauthor(s) or other rightsholder(s); author self-archiving of the accepted \nmanuscript version of this article is solely governed by the terms of \nsuch publishing agreement and applicable law.",
+    "char_length": 298
+  },
+  {
+    "quote_id": "qb_1ea9e2073c",
+    "span_index": 219,
+    "text": "Lin Pan   is currently an associate professor at \nCentral South University.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_ee2e83c4a2",
+    "span_index": 220,
+    "text": "He received a Ph.D.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_d42feb7b94",
+    "span_index": 221,
+    "text": "degree in Geodesy and Engineering Survey­\ning from Wuhan University in 2018.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_2d7d9fe4de",
+    "span_index": 222,
+    "text": "His cur­\nrent research mainly focuses on GNSS precise \npositioning and its application.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_cb1b490cd6",
+    "span_index": 223,
+    "text": "Chen Yang   is currently a master’s candidate \nat Central South University.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_63e979725c",
+    "span_index": 224,
+    "text": "He received his \nB.Sc.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_8b78caaa09",
+    "span_index": 225,
+    "text": "degree in Surveying Engineering from \nNanjing Tech University in 2023.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_fc90910da9",
+    "span_index": 226,
+    "text": "His current \nresearch \nfocuses \non \nGNSS \nprecise \npositioning.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_739c62b607",
+    "span_index": 227,
+    "text": "Declarations\nEthics approval and consent to participate  Not applicable.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_874b551c1a",
+    "span_index": 228,
+    "text": "Competing interests  The authors declare no competing interests.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_7468446461",
+    "span_index": 229,
+    "text": "References\nBorio D, Susi M, Gioia C (2023) GHASP: a Galileo HAS parser.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_342e97f47d",
+    "span_index": 230,
+    "text": "GPS \nSolut 27(4):197.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_68aa699b8d",
+    "span_index": 231,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​3​-​0​1​5​2​9​-​y\nCSNO (2021) BeiDou Navigation Satellite System Open Service Per­\nformance Standard.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_f9fed1f36a",
+    "span_index": 232,
+    "text": "China Satellite Navigation Office, Beijing, \nVersion 3.0, May 2021.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_90d06ce9cd",
+    "span_index": 233,
+    "text": "​h​t​t​p​:​/​/​w​w​w​.​b​e​i​d​o​u​.​g​o​v​.​c​n​/​x​t​/​g​f​x​z​/​2​0​2​1​0​\n5​/​P​0​2​0​2​1​0​5​2​6​2​1​6​2​3​1​1​3​6​2​3​8​.​p​d​f\nElsobeiey M, Al-Harbi S (2016) Performance of real-time precise point \npositioning using IGS real-time service.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_7edfd145da",
+    "span_index": 234,
+    "text": "GPS Solut 20(3):565–\n571.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_43a40ed175",
+    "span_index": 235,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​1​5​-​0​4​6​7​-​z\nEUSPA (2023) Galileo High Accuracy Service: Service Definition \nDocument (HAS SDD).",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_3e7021ffb1",
+    "span_index": 236,
+    "text": "European Union Agency for the Space \nProgramme, Prague, Version 1.0, January 2023.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_c7e398a3d8",
+    "span_index": 237,
+    "text": "​h​t​t​p​s​:​/​/​w​w​w​.​g​s​\nc​-​e​u​r​o​p​a​.​e​u​/​s​i​t​e​s​/​d​e​f​a​u​l​t​/​f​​i​l​e​s​/​s​i​t​e​s​/​a​l​l​/​f​​i​l​e​s​/​G​a​l​i​l​e​o​-​H​A​S​-​S​D​D​_​v​\n1​.​0​.​p​d​f\nEUSPA (2022) Galileo High Accuracy Service: Signal-In-Space Inter­\nface Control Document (HAS SIS ICD).",
+    "char_length": 280
+  },
+  {
+    "quote_id": "qb_61f7c61bc3",
+    "span_index": 238,
+    "text": "European Union Agency \nfor the Space Programme, Prague, Version 1.0, May 2022.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_9d419e9fdc",
+    "span_index": 239,
+    "text": "​h​t​t​p​s​:​\n/​/​w​w​w​.​g​s​c​-​e​u​r​o​p​a​.​e​u​/​s​i​t​e​s​/​d​e​f​a​u​l​t​/​f​​i​l​e​s​/​s​i​t​e​s​/​a​l​l​/​f​​i​l​e​s​/​G​a​l​i​l​e​o​_​H​A​\nS​_​S​I​S​_​I​C​D​_​v​1​.​0​.​p​d​f\nFernandez-Hernandez I, Chamorro-Moreno A, Cancela-Diaz S et al \n(2022) Galileo high accuracy service: initial definition and per­\nformance.",
+    "char_length": 324
+  },
+  {
+    "quote_id": "qb_9fb764b634",
+    "span_index": 240,
+    "text": "GPS Solut 26(3):65.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_8cc73681c3",
+    "span_index": 241,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​\n2​2​-​0​1​2​4​7​-​x\nKan H, Hu Z, Chen G et al (2024) Performance comparison of orbit \nand clock augmentation corrections from PPP-B2b, HAS and \nCLAS.",
+    "char_length": 215
+  },
+  {
+    "quote_id": "qb_3331d409a8",
+    "span_index": 242,
+    "text": "Adv Space Res 74(2):668–681.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_670a4c9078",
+    "span_index": 243,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​\n.​a​s​r​.​2​0​2​4​.​0​4​.​0​2​9\nNaciri N, Yi D, Bisnath S et al (2023) Assessment of Galileo high \naccuracy service (HAS) test signals and preliminary positioning \nperformance.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_0096a50119",
+    "span_index": 244,
+    "text": "GPS Solut 27(2):73.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_c63be4c507",
+    "span_index": 245,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​\n1​-​0​2​3​-​0​1​4​1​0​-​y\nNie Z, Gao Y, Wang Z et al (2018) An approach to GPS clock predic­\ntion for real-time PPP during outages of RTS stream.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_48abc04331",
+    "span_index": 246,
+    "text": "GPS Solut \n22(1):14.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_15c47798c6",
+    "span_index": 247,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​1​7​-​0​6​8​1​-​y\nOuyang C, Shi J, Peng W et al (2023) Exploring characteristics of \nBDS-3 PPP-B2b augmentation messages by a three-step analysis \nprocedure.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_fa48e7ba85",
+    "span_index": 248,
+    "text": "GPS Solut 27(3):119.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_2bcecae72a",
+    "span_index": 249,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​\n1​-​0​2​3​-​0​1​4​5​7​-​x\nProl FS, Kirkko-Jaakkola M, Horst O et al (2024) Enabling the Galileo \nhigh accuracy service with open-source software: integration of \nHASlib and RTKLIB.",
+    "char_length": 240
+  },
+  {
+    "quote_id": "qb_8c7c27988c",
+    "span_index": 250,
+    "text": "GPS Solut 28(2):71.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_c8dd6780a9",
+    "span_index": 251,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​\n7​/​s​1​0​2​9​1​-​0​2​4​-​0​1​6​1​7​-​7\nSun S, Wang M, Liu C et al (2023) Long-term performance analysis of \nBDS-3 precise point positioning (PPP-B2b) service.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_e5fd75dace",
+    "span_index": 252,
+    "text": "GPS Solut \n27(2):69.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_cfc638dc23",
+    "span_index": 253,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​3​-​0​1​4​0​9​-​5\nTang C, Hu X, Chen J et al (2022) Orbit determination, clock Estima­\ntion and performance evaluation of BDS-3 PPP-B2b service.",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_095671cb9e",
+    "span_index": 254,
+    "text": "J \nGeodesy 96(9):60.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_9ef531f08b",
+    "span_index": 255,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​0​0​1​9​0​-​0​2​2​-​0​1​6​4​2​-​9\nTao J, Liu J, Hu Z et al (2021) Initial assessment of the BDS-3 PPP-\nB2b RTS compared with the CNES RTS.",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_a23583187b",
+    "span_index": 256,
+    "text": "GPS Solut 25(4):131.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_95edee7dda",
+    "span_index": 257,
+    "text": "​h​\nt​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​1​-​0​1​1​6​8​-​1\nWu P, Lou Y, Zhang W et al (2023) Evaluation of real-time kinematic \npositioning performance of the BDS–3 PPP service on B2b sig­\nnal.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_0038f90fdd",
+    "span_index": 258,
+    "text": "GPS Solut 27(4):192.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_0ab590640b",
+    "span_index": 259,
+    "text": "​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​2​9​1​-​0​2​3​-​0​\n1​5​3​2​-​3\n1 3\nPage 11 of 11 \n  162",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_c24e39669e",
+    "span_index": 260,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "release_name": "CI-004",
+  "release_type": "continuous_ingestion",
+  "base_admitted_count": 88,
+  "selected_candidate_count": 5,
+  "newly_admitted_count": 5,
+  "quarantined_count": 0,
+  "excluded_count": 0,
+  "admitted_after_count": 93,
+  "wrong_support_count": 0,
+  "invalid_quote_id_rate": 0.0,
+  "product_source_error_count": 0,
+  "epoch_error_count": 0,
+  "dcb_error_count": 0,
+  "query_views_regenerated": true,
+  "query_view_count": 5,
+  "warning_groups_resolved": 0,
+  "regression_17_status": "PASS",
+  "admitted_integrity_status": "PASS",
+  "allowed_to_continue_next_release": true
+}

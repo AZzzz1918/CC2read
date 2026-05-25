@@ -1,0 +1,56 @@
+{
+  "paper_id": "V04_2023__Peida_Wu__Evaluation_of_real_time_kinematic_positionin",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "bibliographic_info": {
+    "title": "Zhenyi Zhang1 · Xu Zou1",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2023) 27:192 https://doi.org/10.1007/s10291-023-01532-3 ORIGINAL ARTICLE Evaluation of real‑time kinematic positioning performance of the BDS‑3 PPP service on B2b signal Peida Wu1 · Yidong Lou1 · Weixing Zhang1 · Jan Dousa2 · Huizhong He4,5 · Junbing Chai3 · Yongzhong Ouyang4,5 · Zhenyi Zhang1 · Xu Zou1 Received: 6 March 2023 / Accepted: 10 August 2023 / Published ",
+      "Although GNSS community has conducted many evaluations on the PPP-B2b products and its user performance, comprehensive evaluations of real-time PPP solutions using the BDS-3 PPP service at kinematic and highly kinematic platforms are still absent."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quotes": [
+      "In addition to the experiments described above, we also Figure 9 displays a brief trajectory of the aircraft in the carried out an aircraft experiment on July 24, 2022, with a experiment."
+    ]
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 20,
+    "grounding_quotes": [
+      "(2021) found that the differential code bias (DCB) of PPP-B2b This section first introduces the user algorithms of apply- shows a comparable performance with the DCB product ing PPP-B2b corrections, including the precise ephemeris provided by the University of the Chinese Academy of Sci- recovery procedure and the datum of PPP-B2b orbit and ences (CAS)."
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 2
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b_mentions": 64,
+    "has_mentions": 0,
+    "clas_mentions": 1,
+    "dcb_mentions": 20
+  },
+  "gate_status": {
+    "wrong_support": false,
+    "epoch_valid": true
+  },
+  "category": "PPP_B2B_HAS_FUSION",
+  "priority": "P1_CORE",
+  "expected_impact": "taxonomy_change_or_new_route"
+}

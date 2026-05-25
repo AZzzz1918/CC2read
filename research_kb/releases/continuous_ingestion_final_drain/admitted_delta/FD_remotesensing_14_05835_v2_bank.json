@@ -1,0 +1,140 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nEvaluation of BDS-3 B1C/B2b Single/Dual-Frequency PPP\nUsing PPP-B2b and RTS SSR Products in Both Static and\nDynamic Applications\nRuohuaLan,ChengYang* ,YanliZheng,QiaozhuangXu,JieLvandZhouzhengGao\nSchoolofLandScienceandTechnology,ChinaUniversityofGeosciencesBeijing,Beijing100083,China\n* Correspondence:c.yang@connect.polyu.hk;Tel.:+86-157-1284-7511\nAbstract: TheBeiDouGlobalNavigationSatelliteSystem(BDS-3)canprovidePPP-B2bsatellite-\nbasedPrecisePointPositioning(PPP)real-timeservicetotheAsia–PacificregionviaPPP-B2bsignal\ntransmittedfromthethreeGeostationaryEarthOrbit(GEO)sat",
+    "char_length": 4004
+  },
+  {
+    "quote_id": "qb_76f498e6c7",
+    "span_index": 1,
+    "text": "RemoteSens.2022,14,5835 2of23\ngenerated with a two-week delay, and the IGS fast orbit and clock products are seven-\nteenhoursdelayed. TofulfilltheRT-PPPapplications,IGSstartedprovidingultra-rapid\nproductson3November2000, withcentimetertodecimeter-levelaccuracy[8–12]. The\nIGSultra-rapidfilesinvolve24hofproperlyarrangedorbitandclockephemerides. The\nfirst24hofeachIGSultra-rapidorbitandclockinformationisestimatedfromthelatest\nobservationsfromtheIGShourlytrackingnetwork. Thesecond24hofdataarethepre-\ndicted orbits and clocks, which are extrapolated from the formerly observed orbits. To\nsatisfythegro",
+    "char_length": 3826
+  },
+  {
+    "quote_id": "qb_8e3a217c62",
+    "span_index": 2,
+    "text": "RemoteSens.2022,14,5835 3of23\nshowedthatsatelliteorbitaccuracieswereabout6cminradialandcross-trackcomponents\nbutmorethan10cminthealong-trackcomponent,andtheaccuracyoftheclockwas0.46ns.\nThe BDS-3 real-time product availability from CENS is over 80%. The PPP positioning\nerrorsinstaticwerewithin3cmatEast(E),North(N),andUp(U)components,whichwas\ncomparabletothatofGPSRT-PPP.\nDifferentfromtheinternet-basedRT-PPPserviceprovidedbytheIGS,BDS-3broad-\ncaststhecorrectionofsatelliteorbitandclockforbothBDS-3andGPSviathePPP-B2b\nsignal. Simultaneously,theBDS-3DifferentialCodeBias(DCB)isbroadcasttofacilitate\ndu",
+    "char_length": 3608
+  },
+  {
+    "quote_id": "qb_efe36796e3",
+    "span_index": 3,
+    "text": "RemoteSens.2022,14,5835 4of23\n(B1C and B2b). Therefore, this contribution will present a comprehensive performance\nevaluation on the real-time orbit and clock products provided by broadcast ephemeris,\nBDS-3PPP-B2b,CAS,DLR,GFZ,andWHU,aswellastheultra-rapidproductsfromWHU.\nThe performance of the kinematic dual-and single-frequency RT-PPP is analyzed with\nB1C+B2bobservationdatacollectedinBeijing,China. Thepaperisarrangedasfollows.\nTherecoverymethodofreal-timeorbitandclockoffsetandthemathematicalmodelsof\ndual-/single-frequencyPPParedescribedinthenextsection. Then,theaccuracyofthe\norbitandclockoffs",
+    "char_length": 3031
+  },
+  {
+    "quote_id": "qb_efabac21ac",
+    "span_index": 4,
+    "text": "RemoteSens.2022,14,5835 5of23\n2.2. PPP-B2bClockRecovery\nTheclockcorrectionsbroadcastbyPPP-B2bcanberecoveredtoformthepreciseclock\nby[26],\nts = ts −C /c (4)\nbrdc 0\nwherets,ts ,C ,andcrepresentsatellitepreciseclock,satelliteclockcalculatedfromthe\nbrdc 0\nbroadcastephemeris,PPP-B2bclockcorrections,andthespeedoflightinavacuum,re-\nspectively.\nItshouldbeindicatedthattheBDS-3precisionclockprovidedbyPPP-B2bisbasedon\ntheB3Ifrequency,andallRTSclocksarebasedontheIFcombination[26]. Therefore,allof\ntheseclocksforaGNSSsystemshouldbeprojectedtoonefrequency. Accordingto[26],\nthefollowingmethodcanbeadoptedtoreal",
+    "char_length": 2657
+  },
+  {
+    "quote_id": "qb_18bf79f6b5",
+    "span_index": 5,
+    "text": "RemoteSens.2022,14,5835 6of23\nWith\n (cid:12) (cid:12)\nM 1 ∑ M ∆∇∆ti\nt,t−1\n, (cid:12) (cid:12)\n(cid:12)M\n1 ∑ M ∆∇∆ti\nt,t−1\n(cid:12) (cid:12)\n(cid:12)\n≥0.1ns\n∆D t,t−1 =  i=0 0, (cid:12) (cid:12) (cid:12)\n(cid:12)M\n1 ∑ M ∆∇∆ i= t 0 i\nt,t−1\n(cid:12) (cid:12) (cid:12)\n(cid:12)\n<0.1ns (9)\ni=0\nwhere ∆D t,t−1 isthecompensationtermtocompensatethediscontinuityinthedouble-\ndifference clock; ∆∇∆ti is the inter-epoch difference clock based on double differ-\nt,t−1\nenceclock.\n2.4. MathematicalModelofReal-TimeSingle-/Dual-FrequencyPPP\nThemeasurementsusedforRT-PPParepseudo-range(P)andcarrier-phase(L),wh",
+    "char_length": 2756
+  },
+  {
+    "quote_id": "qb_03268cb44b",
+    "span_index": 6,
+    "text": "RemoteSens.2022,14,5835 7of23\n2.4.2. Single-FrequencyModel\nFor single-frequency PPP, Equations (10) and (11) form the observation equations.\nHere,theB1CandB2bmeasurementswillbeusedinthispaper. Thus,thesatelliteDCB\ncorrectionsshouldbeconsidered,\n(cid:26) ts = ts−bs\nB1C B1C (16)\nts = ts−bs\nB2b B2b\nComparedwiththeIFmodel,theionosphericdelayofeachsatelliteandthereceiver\nDCB cannot be eliminated. Therefore, they are estimated as parameters [33–35]. The\ncorrespondingstatevectorcanbeexpressedas,\n(cid:2) (cid:3)T\nx= δx r δy r δz r ct r d wet N j b r I r (17)\nwhereb andI arethereceiverDCBandtheionosphe",
+    "char_length": 2189
+  },
+  {
+    "quote_id": "qb_5fd21f2b2f",
+    "span_index": 7,
+    "text": "RemoteSens.2022,14,5835 8of23\n3.1. StaticDataCollection\nThereal-timeorbitandclockSSRproductsofPPP-B2b,CAS,DLR,GFZ,andWHU,\ntheultra-rapidproductsfromWHU,andthebroadcastephemerisduringtheDaysofYear\n(DOY) 354–357 in 2021 were collected. The distribution of the stations is illustrated in\nFigure1. TheIGSreal-timeSSRcorrectionswerecollectedfromtheinternetviatheopen-\nRemote Sens. 2022, 14, x FOR PEER RsEoVuIErWce softwareBNCVer2.12.17[36]. ThestaticdatafromfourMGEXstations(UR9 UofM 25,\nULAB,WHU2,andJFNG)duringDOYsof354–357of2021werecollected.\nFFiigguurree1 1.. TThhee llooccaattiioonno off4 4s seellee",
+    "char_length": 3608
+  },
+  {
+    "quote_id": "qb_9e2dab79da",
+    "span_index": 8,
+    "text": "RemoteSens.2022,14,5835 9of23\nandGPSarepresentedinFigure2. ThenumberofavailableBDS-3satellitesonaverageare\n8.4,8.1,7.8,and8.1,withthecorrespondingPDOPof2.1,2.2,2.9,and2.3forJFNG,ULAB,\nURUM,andWUH2stations. ForGPS,theaveragenumberofavailablesatellitesare6.8,7.1,\nRemote Sens. 2022, 14, x FOR PEER REVIEW 10 of 25\n6.8,and6.6,withthecorrespondingPDOPof2.5,2.6,2.9,and2.7forJFNG,ULAB,URUM,\nandWUH2stations.\nFFigiguurer e2.2 N.Nuummbebre rofo fvvisiisbiblel esastaetlelliltietse sanandd PPDDOOPP vvalauluese soof fththe efofouur rMMEEGGXX stsatatitoionns.s .\n3.2. AssessmentsofBDS-3Real-TimeOrbitsandClock",
+    "char_length": 5353
+  },
+  {
+    "quote_id": "qb_14af287043",
+    "span_index": 9,
+    "text": "RemoteSens.2022,14,5835 10of23\ntrackandcross-trackcomponents. TheRMSEoftheBDS-3PPP-B2borbitsintheradial,\nalong-track,andcross-trackcomponentsare9.42cm,21.26cm,and28.65cm,respectively.\nTheaccuracyofBDS-3PPP-B2borbitsintermsofRMSEislowerthanthatofIGScenters\nproductsduetothedistributionandnumberofthemonitoringstations. Comparedtothe\nbroadcast orbit, the IGS real-time products provide about 30.62~54.95% improvements\nintheradialcomponent,andtheimprovementprovidedbyBDSPPP-B2bis2.89%. The\nSTDofPPP-B2bclocksis0.18ns,whichhasthehighestaccuracyamongthesereal-time\nproductsofBDS-3. TheimprovementsoftheBDS",
+    "char_length": 1184
+  },
+  {
+    "quote_id": "qb_928ad4fc1c",
+    "span_index": 10,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 12 of 25\nR\nR\ne\ne\nm\nm\no\no\nt\nt\ne\ne\nS\nS\ne\ne\nn\nn\ns\ns\n.\n.\n2\n2\n0\n0\n2\n2\n2\n2\n,\n,\n1\n1\n4\n4\n,\n,\nx\n5 8\nF\n3\nO\n5\nR PEER REVIEW 12\n1 1\no\no\nf\nf\n2\n2\n5\n3\nFFiigguurree 44.. RRMMSS ooff rreeaall--ttiimmee oorrbbiitt eerrrroorrss..\nFigure 4. RMS of real-time orbit errors.\nFigure5.STDofreal-timeorbitclockerrors.\nFigure 5. STD of real-time orbit clock errors.\nFigure 5. STD of real-time orbit clock errors.",
+    "char_length": 426
+  },
+  {
+    "quote_id": "qb_4315649ebe",
+    "span_index": 11,
+    "text": "RemoteSens.2022,14,5835 12of23\nTable4.Theaverageaccuraciesofreal-timeorbitandclockproducts.\nOrbit(cm)\nProducts Clock(ns)\nRadial Along-Track Cross-Track\nCAS 6.73 8.82 5.79 0.31\nDLR 4.37 11.95 7.08 0.27\nGFZ 5.41 12.40 7.63 0.31\nWHU 5.38 8.57 6.41 0.22\nWHU_U 5.39 7.25 5.54 0.35\nBRDC 9.70 22.21 25.74 0.87\nB2bBDS 9.42 21.26 28.65 0.18\nB2bGPS 13.73 23.83 17.96 0.25\n3.3. AccuracyandConvergenceofRT-PPPinMGEXStations\n3.3.1. Dual-FrequencyPPP\nThe time series of the position differences between the B1I+B3I PPP solutions of\nthe four MEGX stations and the SINEX solutions on the E, N, and U components are\np",
+    "char_length": 3099
+  },
+  {
+    "quote_id": "qb_fb5577546a",
+    "span_index": 12,
+    "text": "RRemeRmoetmoet oeSteSen eSsne.s n2.s02.2 02220,2 21,241,, 4 1x,4 5F, 8xO3 F5RO PRE EPRE ERRE VREIEVWIE W 14 11o34f oo2ff52 325\nFiFgiFugiugreur e6re.6 E.6rE. rErorrror orsers resireeirsei seosfo tfohft eht hefoefu ofuor-urd-rda-yday aIyFIF IsFtsa tstatitcai tcPicPP PPPPP sPos olsuloutlituoiotnin.o .n.\nFiFgi Fug i u greu r e7re.7 T. 7hT . Teh h eaeva ev arv ear ega reg a g eaeca cc auc c urcau rca ryc a y coyfo tf ohf t eh t h efoe fu o f u or-u rd- r da-yd ay aIyFIF IsFtsa t sta titca i t cPic PP P PPP P sPos olsul o utlit uoio tni n.o . n.\nThTeh set asttiasttiisctsi casc cauccraucrya ciyn itne",
+    "char_length": 2919
+  },
+  {
+    "quote_id": "qb_bf98c9309e",
+    "span_index": 13,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 15 of 25\nsolutions based on DLR real-time products present the worst accuracy with 3.5 cm and\n3.9 cm in horizontal and 3D components, respectively. Additionally, the horizontal and\n3D positioning accuracies using WHU ultra-rapid products are 10.5 cm and 12.1 cm, re-\nspectively, while those based on broadcast ephemeris are 23.9 cm and 27.7 cm. Generally,\nthe B1I+B3I BDS-3 PPP based on PPP-B2b SSR corrections can provide users with centi-\nmeter-level static positioning solutions, which is close to these based on IGS RTS SSR cor-\nrections, especially in ho",
+    "char_length": 6054
+  },
+  {
+    "quote_id": "qb_7df1c88d2e",
+    "span_index": 14,
+    "text": "RemoteSens.2022,14,5835 15of23\nRemote Sens. 2022, 14, x FOR PEER REVIEW 16 of 25\nRe mote Sens. 2022, 14, x FOR PEER REVIEW 16 of 25\nbasedonthefourIGSreal-timeproducts,theconvergetimeswithCAS’sproductsarethe\nsmhoarxteimstuammo pngosoitthioernpinrgod eurcrtos,r wfoitrh barnoaavdecraasgte etipmheeomfe6r5ism-bina.sTedhe sDoLluRtiporno deuxcctese-bdass e3d9.5 cm in\nmaximum positioning error for broadcast ephemeris-based solution exceeds 39.5 cm in\nstohlue ttihonresec ocnovmerpgoentehnetssl.o w estwithanaveragetimeof95min.\nthe three components.\nFigure 9. Time series of position errors of the four-da",
+    "char_length": 2547
+  },
+  {
+    "quote_id": "qb_485f191c13",
+    "span_index": 15,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 17 of 25\nhorizontal/3D positioning accuracies using WHU ultra-rapid products and broadcast\nephemeris were about 7.6/13.1 cm and 18.3/43.5 cm, respectively, much lower than those\nof PPP-B2b PPP. As a comparison, the positioning accuracies of GPS L1 PPP based on PPP\nB2b SSR products are 5.4 cm and 7.8 cm, similar to those of BDS-3 B1C PPP.\nTable 6. The average positioning accuracy at the four stations (unit: cm).\nDirection CAS DLR GFZ WHU WHU_U BRDC B2b BDS B2b GPS\nE 3.0 5.2 3.7 2.9 5.8 15.5 4.6 4.6\nN 2.0 1.8 1.6 2.0 4.9 9.7 2.8 2.9\nU 9.1 13.2 5.7 7.0 10.",
+    "char_length": 5174
+  },
+  {
+    "quote_id": "qb_d7053188a3",
+    "span_index": 16,
+    "text": "RemoteSens.2022,14,5835 17of23\nDCBvalueofC7D(B2b). Therefore,theDCBvalueofC7ZfromCAS’wasusedtoweaken\ntheinfluenceofsatelliteDCBonB2bfrequencywithignoringtheintra-frequencyerror.\nThenumberofvisiblesatellitesandcorrespondingPDOPvaluesarepresentedinFigure13.\nTheaveragenumberofvisibleBDS-3andGPSsatellitesduringthe4-hdynamictestin\nBeijingare8.9and2.0,respectively,andtheaveragecorrespondingPDOPvalueofBDS-3\nandGPSare6.3and2.4,respectively. Thesharpchangesinthenumberofvisiblesatellites\nareaffectedbytheequippedGNSSjammerandfurtheraffectthePDOPvalues.\nTable7.PPPprocessingstrategiesofdynamictest.\nItem Pr",
+    "char_length": 3815
+  },
+  {
+    "quote_id": "qb_77ced23143",
+    "span_index": 17,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 20 of 25\nRemoteSens.2022,14,5835 18of23\nFigure 14. Time series of position errors of the dual-(a)/single (b)-frequency vehicle-borne RT-PPP\nFigure14.Timeseriesofpositionerrorsofthedual-(a)/single(b)-frequencyvehicle-borneRT-PPP\nusing different SSR products.\nusingdifferentSSRproducts.",
+    "char_length": 325
+  },
+  {
+    "quote_id": "qb_9ec6ac9ceb",
+    "span_index": 18,
+    "text": "RemoteSens.2022,14,5835 19of23\nThe accuracies in terms of RMSE of vehicle-borne dual-frequency PPP and single-\nfrequency PPP based on different SSR products are shown in Tables 8 and 9. For the\ndual-frequencyPPP,thepositioningaccuracyoftheBDS-3B1I+B2bPPPusingPPP-B2b\nSSRproductsis35.8cm,55.0cm,and121.3cmintheE,N,andUcomponents,respectively.\nIncontrast,theB1I+B2bPPPpositioningaccuracyusingCASproductsisthehighestin\nhorizontal with 58.9 cm, and WHU products are the highest in 3D with 129.7 cm. The\nsolutions based on broadcast ephemeris (67.5 cm and 182.4 cm in horizontal and 3D\ncomponents)havethew",
+    "char_length": 3241
+  },
+  {
+    "quote_id": "qb_fd633057fa",
+    "span_index": 19,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 22 of 25\nRemoteSens.2022,14,5835 20of23\nFiFgiugrue r1e51. T5.hTe haevearvaegrea agcecuacrcaucyr aocfy poofsiptioosniitniogn ainngd arenadl-triemale- tpimroedupcrtosd. ucts.\nIt Iatlsaols coanca bne bfoeufnodu nfrdomfro FmiguFrige u1r5e t1h5att hthaet athcceuarcaccuiersa ocfie tsheo frethale-trimeael -WtimHeUW orHbiUts orbits\nanadn dclocclokc pkrpodroudctusc atsrea sriemsiilmari ltaor ottoheort hAeCrsA, bCust, tbhuet pthoseitpioonsiintigo noifn sginogfles ifnregqleuefrnecqyu PePnPc yPPP\nwwithit hWWHUH Upropdroudctusc itss lioswloerw tehranth tahnatt hofa ",
+    "char_length": 3240
+  },
+  {
+    "quote_id": "qb_2e33a5a33e",
+    "span_index": 20,
+    "text": "RemoteSens.2022,14,5835 21of23\n4. Conclusions\nReal-timeorbitsandclocksarecrucialfactorsforRT-PPPapplications. Toevaluatethe\nimpactsofexistingreal-timeorbitandclockproducts(BDS-3PPP-BbandIGSRTS),this\nstudyprovidescomprehensiveassessmentsoftheaccuracyofthesereal-timeproductsand\ntheirinfluencesonthepositioningaccuracyandconvergencetimeofRT-PPPinbothstatic\nanddynamictests. Afterthedescriptionsoftheevaluationmethodsforreal-timeorbits\nandclocksaswellasthereal-timesingle-/dual-frequencyPPPmodels,BDS-3newsignals\nobservationsofB1CandB2bfromthefourMEGXstationsandasetofthevehicle-borne\ntest were used to ",
+    "char_length": 3601
+  },
+  {
+    "quote_id": "qb_7bbba846a7",
+    "span_index": 21,
+    "text": "RemoteSens.2022,14,5835 22of23\n4. Zumberge,J.;Heflin,M.;Jefferson,D.;Watkins,M.;Webb,F.PrecisepointpositioningfortheefficientandrobustanalysisofGPS\ndatafromlargenetworks.J.Geophys.Res.SolidEarth1997,102,5005–5017.[CrossRef]\n5. Kouba,J.;Héroux,P.PrecisepointpositioningusingIGSorbitandclockproducts.GPSSolut.2001,5,12–28.[CrossRef]\n6. Gao,Y.;Shen,X.ANewMethodforCarrier-Phase-BasedPrecisePointPositioning.Navigation2002,49,109–116.[CrossRef]\n7. Abdel-Salam,M.A.-T.PrecisePointPositioningusingUn-DifferencedCodeandCarrierPhaseObservations;UniversityofCalgary:\nCalgary,AB,Canada,2005;Volume69. Available",
+    "char_length": 5002
+  },
+  {
+    "quote_id": "qb_45121a642b",
+    "span_index": 22,
+    "text": "RemoteSens.2022,14,5835 23of23\n32. Guo,F.;Zhang,X.;Wang,J.TiminggroupdelayanddifferentialcodebiascorrectionsforBeiDoupositioning.J.Geod.2015,89,\n427–445.[CrossRef]\n33. Gao,Z.;Ge,M.;Shen,W.;Zhang,H.;Niu,X.IonosphericandreceiverDCB-constrainedmulti-GNSSsingle-frequencyPPP\nintegratedwithMEMSinertialmeasurements.J.Geod.2017,91,1351–1366.[CrossRef]\n34. Jin,S.;Su,K.PPPmodelsandperformancesfromsingle-toquad-frequencyBDSobservations.Satell.Navig.2020,1,16.[CrossRef]\n35. Zhang,B.;Zhao,C.;Odolinski,R.;Liu,T.Functionalmodelmodificationofprecisepointpositioningconsideringthetime-varying\ncodebiasesofarecei",
+    "char_length": 1378
+  }
+]

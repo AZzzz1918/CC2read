@@ -1,0 +1,134 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nComprehensive Analysis of PPP-B2b Service and Its Impact on\nBDS-3/GPS Real-Time PPP Time Transfer\nJianTang1 ,DaqianLyu1,*,FanglingZeng1,YulongGe2andRunzhiZhang3\n1 CollegeofElectronicEngineering,NationalUniversityofDefenseTechnology,Hefei230037,China\n2 SchoolofMarineScienceandEngineering,NanjingNormalUniversity,Nanjing210023,China\n3 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China\n* Correspondence:daqian_lv@nudt.edu.cn\nAbstract: 2020sawtheofficialcompletionoftheBDS-3andthestartofthePPP-B2bsignal-based\nreal-timeprecisepointpositioning(PPP)servicetousers",
+    "char_length": 3982
+  },
+  {
+    "quote_id": "qb_76f498e6c7",
+    "span_index": 1,
+    "text": "RemoteSens.2022,14,5366 2of22\nsuperiorityoverIGSultra-rapidproducts[12]. Themathematicalmodelsofreal-timePPP\nwereintroducedbyLiuetal.[10],andthepositioningperformancewasassessedusing\nrawobservations. Anovelmethodofreal-timeprecisetimingwasimprovedbyGeetal.\nemployingIGSproducts[13],anditwasshownthattheaccuracyofthetimingsolutionscan\nachieve0.2ns. However,real-timePPPusingIGSRTSreliesontheIGSreal-timestreams\nthroughtheInternet,whichmaybedisruptedbyequipmentfailureornetworkoutage. In\nthiscase,anobviousdeclineinPPPperformanceispossible. Tosolvethisproblem,some\nnavigationsystemsprovidedifferentialc",
+    "char_length": 4159
+  },
+  {
+    "quote_id": "qb_8e3a217c62",
+    "span_index": 2,
+    "text": "RemoteSens.2022,14,5366 3of22\nofB2b-RTPPPtimetransferisalsoanalyzed. Finally,theconclusionsandprospectsofthis\npaperaregiveninSection5.\nTable1.InformationofPPP-B2bmessages.\nInformationContent MessageType IODs NominalValidity(s)\nClockcorrection 4,6,7 IODSSR,IODP,IODCorr 12\nDCBcorrection 3 IODSSR 86,400\nOrbitcorrection 2,6,7 IODSSR,IODN,IODCorr 96\nURAI 2,5,6,7 - 96\nSatellitemask 1 IODSSR,IODP -\n2. Methods\nIn this section, the correction strategies of the precise real-time PPP-B2b orbit and\nclockoffsetarepresented,alongwiththemethodsforevaluatingtheaccuracyofPPP-B2b\norbits,clockoffsets,andDCBcorre",
+    "char_length": 2798
+  },
+  {
+    "quote_id": "qb_efe36796e3",
+    "span_index": 3,
+    "text": "RemoteSens.2022,14,5366 4of22\nInaddition,theDCBcausedbythehardwaredelaydifferenceofthesatellitesbetween\ndifferentfrequenciescouldaffectthePPPperformance. ThePPP-B2bprovidestheDCB\nproductstoeliminatethehardwaredelayandenablesynchronousprocessingofdifferent\nsignalsbyusingtheEquation(4)[22].\nP(cid:101)sig = P\nsig\n−DCB\nsig\n(4)\nwhere P is the initial observations; DCB denotes the differential code bias of the\nsig sig\ncorrespondingsignal;andP(cid:101)sig denotesthecorrectedobservations.\nSince there are more than 120 global monitoring stations to calculate the\nGeoForschungZentrum (GFZ) multi-GNSS fin",
+    "char_length": 3240
+  },
+  {
+    "quote_id": "qb_efabac21ac",
+    "span_index": 4,
+    "text": "RemoteSens.2022,14,5366 5of22\nwhereαandβarefrequencyfactors.\nIn this work, the B1I/B3I and L1/L2 combination observations were employed to\nrealizetheBDS-3andGPSB2b-RTPPPtimetransfer,respectively. Asmentionedabove,the\nsystematicbiasofGPSsatellitesinPPP-B2bclockoffsetisthehardwaredelayoftheL1/L2\nIFcombination,whilethatofBDS-3satellitesistheB3I.Thatis\n(cid:26) dts = dts+ds\nIF45 IF45 (8)\ndts = dts+ds\nbrd 3\nByapplyingthePPP-B2bproducts,Equations(5)and(6)canberewrittenas[29]\n(cid:26) P = ρ+c(dt +d −dts )−cDCBs +T+I +ε\ni r r,i brd i3 i 1 ,i =1,3 (9)\nL = ρ+c(dt +d −dts )+T−I +λ (b −bs+N)+ζ\ni r r,i brd",
+    "char_length": 2205
+  },
+  {
+    "quote_id": "qb_b84651a0c0",
+    "span_index": 5,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 6 of 22\n2.3. Time Transfer Model\nInter-station time transfer is the term used to describe time transfer. First, a receiver\nclock offset between the atomic clock’s time and the reference time is obtained by the PPP\nengine. Second, the difference between the reference station clock offset and the other sta-\ntion clock offsets is calculated [30], which can be expressed as\ndt =δt −δt\n1 2\n=(BDT −t )−(BDT −t ) (17)\n1 ref 2 ref\n=BDT −BDT\n1 2\nwhere δt indicates receiver clock of the local time of atomic clock (BDT) with respect to\nRemoteSens.2022,14,5366 refere",
+    "char_length": 4243
+  },
+  {
+    "quote_id": "qb_03268cb44b",
+    "span_index": 6,
+    "text": "RemoteSens.2022,14,5366 7of22\nThestationswereselectedbasedonthefollowingcriteria: (1)theycansimultaneously\ntrackB1I,B3I,L1,andL2signals;(2)theyarelocatedinChinaanditssurroundingareas;\nand (3) the receivers, if possible, are connected to high-performance on-board clocks.\nTable2providesinformationonthefivestations. TheB2b-RTPPPprocessingstrategiesare\npresentedinTable3.\nTable2.Informationofselectedstations.\nDistancefrom\nSite Receiver Antenna Clock\nUSUD(km)\nUSUD SEPTPOLARX5 AOAD/M_T H-MASER –\nMIZU SEPTPOLARX5 SEPCHOKE_B3E6 CESIUM 413.3\nTLM2 SEPTPOLARX5TR HEMA45 H-MASER 2060.2\nJFNG TRIMBLEALLOY TRM",
+    "char_length": 2705
+  },
+  {
+    "quote_id": "qb_4cdd803e28",
+    "span_index": 7,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 8 of 22\nwere assessed. In addition, the quality of PPP-B2b DCB was compared with that of the\nCAS DCB products. At present, both PPP-B2b and CNES RTS can provide real-time cor-\nrection messages for BDS-3 (except C31) and GPS. The B2b-RTPPP time transfer perfor-\nmance is investigated employing the G, C, and GC observations. Note that due to space\nlimitations, we only evaluated the PPP-B2b corrections for a specific time period. How-\never, this will not have a limiting significance for the assessment of PPP-B2b product qual-\nity. Many works in the literatu",
+    "char_length": 5015
+  },
+  {
+    "quote_id": "qb_5afdf8e8e9",
+    "span_index": 8,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 9 of 22\nRemote Sens. 2022, 14, x FOR PEER REVIEW 9 of 22\nRemoteSens.2022,14,5366 9of22\nFigure 4. RMSEs of the CNES orbits for BDS-3 satellites.\nFigure 4. RMSEs of the CNES orbits for BDS-3 satellites.\nFF Fii igg guu urer r e e5 .5 5R. . MR R M MSES SsE Eos sf to ohf fe t tPh hPe eP P P-BP P2P Pb- -oB Br2 2bb bit so ofr rob bri iGt t s sP f fSo osr ra G GtePlPliS Ste s ssa.a t t e e l l l l i i t t e e s s . .\nFFiigguurere6 .6R. MRMSESsEosf tohfe tChNe ECSNorEbSit sofrobritGsP fSors aGtePllSit essa.tellites.\nFigure 6. RMSEs of the CNES orbits for GPS sat",
+    "char_length": 2890
+  },
+  {
+    "quote_id": "qb_63216a8245",
+    "span_index": 9,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 10 of 22\nTable 4. Average RMSEs of BDS-3 and GPS orbits in the RAC directions (in meters).\nConstellation Service R A C\nPPP-B2b 0.082 0.288 0.262\nBDS-3\nCNES 0.073 0.166 0.138\nPPP-B2b 0.093 0.386 0.278\nGPS\nCNES 0.034 0.052 0.034\n3.2.2. PPP-B2b Clock Offset Corrections\nThe GBM final clock product was used as a benchmark to assess the quality of PPP-\nB2b and CNES clock offsets. It is worth noting that the clock offset of the broadcast ephem-\neris and GBM final products could not be directly compared. Typically, a double-differ-\nRemoteSens.2022,14,5366 10of2",
+    "char_length": 4126
+  },
+  {
+    "quote_id": "qb_928ad4fc1c",
+    "span_index": 10,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 11 of 22\nRemoteSens.2022,14,5366 11of22\ndifference,withanaveragevalueof10.31ns.However,thedifferencesofB1I-andB1Cp-B3I\nDCBarealmostthesame, withaveragevaluesof0.91nsand1.36ns, respectively. The\nRemote Sens. 2022, 14, x FOR PEER RESVTIDEWso fbiasesare0.68ns,0.54ns,and0.48nsforB1I-,B1Cp-,andB2ap-B3I,respectively. 11 of 22\nObviously,B1I-B3IDCBhastheloweststability. Therefore,theaccuracyofthePPP-B2b\nDCBshouldbeincreasedsoon.\nFigure 8. STDs of the PPP-B2b and CNES for GPS satellite clock.\n3.2.3. PPP-B2b DCB Corrections\nSince three common DCB products were in",
+    "char_length": 2909
+  },
+  {
+    "quote_id": "qb_f5983bde4d",
+    "span_index": 11,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 12 of 22\nRemoteSens.2022,14,5366 12of22\nFFiigguurere1 01.0T. hTehDeC DBCbBia sbeisaosfetsh oefP tPhPe- BP2PbPw-Bith2bre wspiethct rtoesCpAeSc.t to CAS.\n3.3. B2b-RTPPPTimeTransferwithBDS-3/GPSObservations\n3.3. B2b-RTPPP Time Transfer with BDS-3/GPS Observations\nWiththeobservationsoftheB1I/B3IIFcombination,theresultsofB2b-RTPPPtime\ntransfeWruitshin tghteh eopbosestr-vparotcioesnssin ogfP tPhPe sBol1uIt/iBo3nIw IiFth cGomBMbifinnaatliopnro, dtuhcet r(GesBuMlt-sP PoPf )Bw2ebr-eRTPPP time\nttarkaennsfaesra uresfienrgen tchee. Aposswt-epcroonccelusdsiendgi nPS",
+    "char_length": 5668
+  },
+  {
+    "quote_id": "qb_71c9fc8519",
+    "span_index": 12,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 13 of 22\nRTPPP, the reductions of STD ranged from 49.3% to 73.6%, with a mean reduction of 64%.\nThe reductions of GC B2b-RTPPP were almost the same as that of GC B2b-RTPPP. There-\nfore, the DCB had a great impact on the time transfer, which validated our previous find-\nings. In addition, compared with G B2b-RTPPP, the reductions of the C and GC B2b-\nRTPPP solutions with DCB ranged from 69.0–80.1% and 70.6–81.3%, with a mean reduc-\ntion of 76.7% and 77.7%, respectively. For the B2b-RTPPP without DCB, STDs were re-\nduced by at least 14.5%, and by a maximu",
+    "char_length": 4695
+  },
+  {
+    "quote_id": "qb_bf98c9309e",
+    "span_index": 13,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 14 of 22\nThe enhancements of GPS satellites to BDS-3 PPP are limited the PPP-B2b corrections. As\nour previous evaluation of the PPP-B2b product concluded, the quality of the GPS satel-\nlites is inferior to that of the BDS-3 satellites. In addition, the frequency stability improved\nas the averaging time increased. It should be noted that compared with the MDEV without\nDCB correction, the MDEV with DCB correction was similar in the short-term, while the\nB2b-RTPPP solutions with DCB demonstrated better long-term MDEV. The main reason\nfor the frequency stab",
+    "char_length": 1088
+  },
+  {
+    "quote_id": "qb_7df1c88d2e",
+    "span_index": 14,
+    "text": "RemoteSens.2022,14,5366 15of22\nFigure13showsthemodifiedAllandeviation(MDEV)oftheTLM2-USUDtimelink.\nForthefiveschemes,theG,C,andGCB2b-RTPPPsolutionsdemonstratedarelativelyhigh\nRemote Sens. 2022, 14, x FOR PEER REVIEW 15 of 22\nsimilarityatthesameaveragingtime,whiletheGB2b-RTPPPsolutionhadthepoorest\nfrequency stability in the long term. The MDEV of GC B2b-RTPPP solution with DCB\nperformedbetterthantheothersolutionsformostoftheaveragingtime. Intermsofshort-\ntFeirgmurfree q12u.e nPcsyeusdtaobrialintyg,et hreesMidDuEalV ooff Bth2eb-GRTwPitPhPo uwtiDthCoBu,tC (lwefitt)h aDnCdB w,Cithw i(trhigohutt)D ",
+    "char_length": 3586
+  },
+  {
+    "quote_id": "qb_2f2bc9314f",
+    "span_index": 15,
+    "text": "RemoteSens.2022,14,5366 16of22\nR Reemmoottee SSeennss.. 22002222,, 1144,, xx FFOORR PPEEEERR RREE NVV oIIEE tWe W t hatasystematicbiaswasobservedbetweentheGandCB2b-RTPPPsolutions,116w 6 oh off i c22 h22\nwas attributed to the different hardware delays absorbed by different IF combinations\nclockoffset.\nFFFiiiggguuurrreee 111444... NNNuuummmbbbeeerrro ofofvf vivsiiisbsiilbbellese a sstaeatlteleiltlleliitstee(ssN ((SNNASSTAA)TfTo)) r ffToorLr MTTL2LMM(t2o2 p (()ttooapnp)d) aaUnnSddU UUDSS(UUbDoDt t (o(bbmoot)tttsootmamt)i) o ssnttasatatiiotonanssm aaatts aka\nmamnaagsslkek aoanfng1gl0lee◦ o.off 110",
+    "char_length": 1436
+  },
+  {
+    "quote_id": "qb_d7053188a3",
+    "span_index": 16,
+    "text": "RemoteSens.2022,14,5366 17of22\nRemote Sens. 2022, 14, x FOR PEER REVIEW 17 of 22\n3.4. B2b-RTPPPTimeTransferunderConstrainedSky-View\nAsweknow,thereceivermaybeblockedartificiallyornaturally,whichmeansless\ndelay error and multipath error become larger as the angle decreases, the possibility of\nsky-view. Inthiscase,fewersatellitescanbeobservedbythereceiver. Additionally,the\nuncontrollable factors appearing on the signal propagation path is also higher, so a large\ncut-off elevation angle is an important preset parameter of PPP. Since the atmospheric\ncut-off elevation angle can weaken the influence ",
+    "char_length": 4147
+  },
+  {
+    "quote_id": "qb_9a2e7bc2e5",
+    "span_index": 17,
+    "text": "RemoteSens.2022,14,5366 18of22\nTable6showstheimprovementoftheB2b-RTPPPsolutionwiththemaskanglesof10◦,\n20◦,and30◦ comparedwiththeB2b-RTPPPsolutionwiththeangleof40◦ attheSTDsfor\nthe clock difference. Compared with the B2b-RTPPP solution at the mask angle of 40◦,\ntheB2b-RTPPPsolutionsatthemaskanglesof10◦,20◦,and30◦ improvedby71.9–80.6%,\nRemote Sens. 2022, 14, x FOR PEER RE6V4I.E1W–7 8.1%,and58.3–74.5%,withameanreductionof76.1%,70.8%,and67.8%,respectively. 18 of 22\nOverall,theSTDsoftheB2b-RTPPPsolutionforalltimelinksvariedwithinanacceptable\nrangefortheB2b-RTPPPtimetransfer.\nFigure17.PDOPvaluesofth",
+    "char_length": 2981
+  },
+  {
+    "quote_id": "qb_4511c18b16",
+    "span_index": 18,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 19 of 22\nRemote Sens. 2022, 14, x FOR PEER REVIEW 19 of 22\nfrequency stability of the TLM2-USUD time link outperformed those of other time links\nat the same averaging time. A possible explanation for this may be that the TLM2 and\nUSUD stations are connected to atomic clocks with higher precision, which have lower\nfnroeiqseu leenvecly. stability of the TLM2-USUD time link outperformed those of other time links\nat the same averaging time. A possible explanation for this may be that the TLM2 and\nTable 6. The improvement of the B2b-RTPPP solution with mask ",
+    "char_length": 2337
+  },
+  {
+    "quote_id": "qb_48dcc0b7a2",
+    "span_index": 19,
+    "text": "RemoteSens.2022,14,5366 20of22\n4. Discussion\nAccordingtotheresults,thePPP-B2borbitandclockoffsetareingoodagreement\nwiththeGBMproduct. ComparedwiththeCNESorbit,thePPP-B2borbitalaccuracyis\npoor,whichmaybecausedbytheregionalmonitoringstationsofPPP-B2b. ForPPP-B2b,\ntheapplicationofISLmakestheorbitandclockaccuracyofBDS-3higherthanGPS.In\naddition,accordingtotheresults,PPP-B2bDCBandCASDCBalsohavegoodconsistency,\nwhileB1I-B3IDCBhasarelativelylargedeviation. Thus,theaccuracyofPPP-B2bDCB\nneedstobefurtherimproved.\nThe B2b-RTPPP time transfer accuracy has a strong correlation with the baseline\nlength. The",
+    "char_length": 3683
+  },
+  {
+    "quote_id": "qb_2e33a5a33e",
+    "span_index": 20,
+    "text": "RemoteSens.2022,14,5366 21of22\nFinally,theB1C/B2aIFcombinationhasthesmallestnoiseamplificationfactoramong\nalldual-frequencycombinations,whichenablesbetterPPPperformance. Ourfurtherwork\nwillbeconductedtoinvestigatetheB2b-RTPPPtimetransferperformanceusingobserva-\ntionsofB1C/B2aIFcombination. ConsideringthequalityofthePPP-B2bDCB,analyzing\ntheeffectoftheDCBonB2b-RTPPPtimetransferwillalsobeafocusinfuturework.\nAuthorContributions:J.T.:methodology,software,investigation,writing—originaldraftprepara-\ntion.D.L.:conceptualization,methodology,validation,datacuration,writing—reviewandediting.\nF.Z.:validat",
+    "char_length": 4445
+  },
+  {
+    "quote_id": "qb_7bbba846a7",
+    "span_index": 21,
+    "text": "RemoteSens.2022,14,5366 22of22\n21. Yang,Y.;Mao,Y.;Sun,B.BasicPerformanceandFutureDevelopmentsofBeiDouGlobalNavigationSatelliteSystem. Satell.\nNavig.2020,1,1.[CrossRef]\n22. CSNOBeiDouNavigationSatelliteSystemSignalinSpaceInterfaceControlDocumentPrecisePointPositioningServiceSignal\nPPP-B2b,Version1.0.Availableonline:http://www.Beidou.Gov.Cn/Xt/Gfxz/202008/P020200803362062482940.Pdf(accessed\non4March2022).\n23. Lu,X.;Chen,L.;Shen,N.;Wang,L.;Jiao,Z.;Chen,R.DecodingPPPCorrectionsfromBDSB2bSignalsUsingaSoftware-Defined\nReceiver:AnInitialPerformanceEvaluation.IEEESens.J.2021,21,7871–7883.[CrossRef]\n24",
+    "char_length": 4171
+  }
+]

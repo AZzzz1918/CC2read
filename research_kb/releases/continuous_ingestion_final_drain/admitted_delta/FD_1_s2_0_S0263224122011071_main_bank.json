@@ -1,0 +1,56 @@
+[
+  {
+    "quote_id": "qb_bfa56a0361",
+    "span_index": 0,
+    "text": "Measurement203(2022)111911\nContents lists available at ScienceDirect\nMeasurement\njournal homepage: www.elsevier.com/locate/measurement\nReal-time ocean precise point positioning with BDS-3 service signal\nPPP-B2b\nTao Genga,*, Zhiqiang Lia, Xin Xiea,*, Wenjian Liub, Yixuan Lia, Qile Zhaoa\naGNSS Research Center, Wuhan University, Wuhan 430079, China\nbSurveying and Mapping Institute, Lands and Resource Department of Guangdong Province, Guangzhou 510500, China\nA R T I C L E I N F O A B S T R A C T\nKeywords: For ocean high-precision positioning, the Real-Time Kinematic (RTK) technique exists disadvan",
+    "char_length": 4762
+  },
+  {
+    "quote_id": "qb_9a0e52fbc7",
+    "span_index": 1,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\nother corrections. The RTS corrections are formatted into state space 2. Methodology\nrepresentation (SSR) messages according to the Radio Technical Com-\nmission for Maritime Services (RTCM) standard [14], and broadcasted In this section, we first briefly analyze the characteristic of BDS-3\nthrough internet based on Networked Transport of RTCM via Internet PPP-B2b navigation messages, and introduce the recovery procedure\nProtocol (NTRIP) [15]. Benefiting from this free service, the users where for precise satellite orbits and clocks. Thereafte",
+    "char_length": 7469
+  },
+  {
+    "quote_id": "qb_5a9eb73ccd",
+    "span_index": 2,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\ncarrier phase observations are removed. The observation equations can delay and IF ambiguities. The estimated values are obtained in ambi-\nbe written as [7,31]: guity float solutions since the relevant phase biases are not provided in\n{ PPP-B2b signal. Fig. 1 shows the complete procedure for real-time PPP\nPs r,IF =ρs r +dt r,IF (cid:0) dt I s F +M r s⋅Trop+d r,IF (cid:0) d I s F +εs r,IF with PPP‑B2b corrections.\nL r s ,IF =ρs r +dt r,IF (cid:0) dt I s F +M r s⋅Trop+b r,IF (cid:0) bs IF +λ IF N r s ,IF +ξs r,IF (4)\n3. B2b products assessment\n",
+    "char_length": 4698
+  },
+  {
+    "quote_id": "qb_5cd48803e9",
+    "span_index": 3,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\nFig. 2, and the corresponding statistics are recorded in Table 2. In order\nto show the improvement of the corrections over the broadcast\nephemeris, the accuracies of BDS-3 CNAV1 and GPS LNAV broadcast\norbit and clock offset are also summarized in Table 2 for comparison.\nIt can be seen clearly from Fig. 2 that the radial component exhibits\nthe optimal accuracy compared with the along-track and cross-track\ndirections whether for BDS-3 or GPS. The orbit errors RMS for PPP-\nB2b BDS-3 products in radial component is 0.074 m, while the errors\nin al",
+    "char_length": 6600
+  },
+  {
+    "quote_id": "qb_2f8e0ade63",
+    "span_index": 4,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\nFig. 4. Distribution of selected 7 IGS stations for land simulated experiment.\nGPS to BDS-3 was assumed to be 1:1. Regarding the results comparison,\nthe reference coordinates with an accuracy of millimeter-level, which\nobtained from 10 consecutive daily PPP solutions in static mode, were\nemployed for evaluating positioning performance.\nFig. 6. Number of satellites used for positioning (top panel) and PDOP values\n4.1.1. Case exhibition\n(bottom panel) for kinematic mode at URUM station on DOY 324 in 2021.\nTaking the URUM station on DOY 324 in 2",
+    "char_length": 3746
+  },
+  {
+    "quote_id": "qb_e05ab87450",
+    "span_index": 5,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\nTable 4 conducting positioning experiments. For comparative testing, a land\nRMS of E/N/U and 3D positioning errors for simulated real-time kinematic PPP dataset (Fig. 9(b)) with the same receiver and antenna as ocean exper-\n(unit: m). iment used is utilized. The location of the land dataset with open envi-\nSchemes East North Up 3D ronments was at the Luojia Square, Wuhan University, China.\nFig. 11 depicts the variation of averaged C/N0 values with elevation\nGPS-only 0.112 0.112 0.233 0.282\nBDS-3-only 0.064 0.033 0.091 0.116 in marine and land",
+    "char_length": 7007
+  },
+  {
+    "quote_id": "qb_9919d61dd2",
+    "span_index": 6,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\nFig. 9. Antennas and environments for ocean real-time positioning experiment (left panel), and land dataset for contrast experiment of data quality analysis\n(right panel).\n5. Conclusions\nBDS-3 service signal PPP-B2b provides a promising opportunity for\nrealizing real-time PPP by broadcasting precise corrections for GNSS\nusers in China and surrounding areas, and the advantages of this\nfeatured service show more significant in case of internet-based\ncommunication is unavailable. In this paper, a real-time ocean PPP\nwas proposed based on BDS-3 P",
+    "char_length": 1771
+  },
+  {
+    "quote_id": "qb_762b633600",
+    "span_index": 7,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\nFig. 12. RMS of pseudo-range multipath errors as a function of elevation angles for B1I and B3I signals of BDS-3 (left panel) and L1 and L2 signals of GPS (right\npanel) in the ocean and land environments.\n0.158 and 0.233 m in the two directions for GPS-only. The optimal\npositioning accuracy is observed in GPS +BDS-3 with horizontal and\nvertical accuracies are 0.046 and 0.069 m, respectively. GPS-only can\nconverge to better than 0.15 m in E and N components and 0.3 m in U\ncomponents after 56.4 min, while BDS-3-only needs 29.4 min. The\noptimal ",
+    "char_length": 2659
+  },
+  {
+    "quote_id": "qb_268ef92a0e",
+    "span_index": 8,
+    "text": "T. Geng et al. M e a s u r e m e n t203(2022)111911\nReferences Galileo and BeiDou, in: Proceedings of the ION GNSS+2015, Institute of\nNavigation. Tampa, Florida, US, September 14-18, 2015, pp. 1089-1095.\n[20] L. Dai, Y. Chen, A. Lie, M. Zeitzew, Y. Zhang, StarFire SF3: worldwide centimeter-\n[1] B B . e i L D i, o u Z . s Z h h o a rt n - g m , e N ss . a Z g a e n c g o , m S. m W un an ic g a , t i H o i n g , h J - . p r G e e c o is d i . o n 9 3 G ( N 2 S ) S ( 2 o 0 c 1 ea 9 n ) 1 p 2 o 5 si – t 1 io 3 n 9 i , n h g t w tp i s t : h / / accurate real time GNSS positioning, in: Proceedings",
+    "char_length": 8250
+  }
+]

@@ -1,0 +1,115 @@
+# Corpus Exhaustive v0.4 — Paper/ Inventory
+
+**Scan date:** 2026-05-24
+
+## Summary
+| Metric | Count |
+|--------|-------|
+| Total files in paper/ | 124 |
+| PDF files | 124 |
+| Already in v0.3 (37-paper baseline) | 30 |
+| Remaining candidates | 94 |
+
+## Scope Distribution
+| Scope | Count |
+|-------|-------|
+| UNKNOWN | 97 |
+| BDS3_PPP_B2B_RELEVANT | 19 |
+| NON_B2B_AUGMENTATION | 5 |
+| GENERAL_PPP_OR_RTK | 3 |
+
+## Remaining Candidates by Scope
+- `1-s2.0-S0020019019300018-main.pdf` [UNKNOWN] 
+- `1-s2.0-S004579062500045X-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0263224122011071-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0263224122013744-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0263224124014428-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0263224124019006-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0263224125021888-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0263224126008559-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0263224126009619-main.pdf` [UNKNOWN] 
+- `1-s2.0-S026322412601448X-main (1).pdf` [UNKNOWN] 
+- `1-s2.0-S026322412601448X-main.pdf` [UNKNOWN] DUPLICATE
+- `1-s2.0-S0273117721004610-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117721006980-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117723005483-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117724008755-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117724011438-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117724012961-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117725002066-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117725002881-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117725009299-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117725010865-main.pdf` [UNKNOWN] 
+- `1-s2.0-S0273117725011020-main.pdf` [UNKNOWN] 
+- `2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf` [NON_B2B_AUGMENTATION] 
+- `2023--Daniele Borio--HASCoordSept2023.pdf` [UNKNOWN] 
+- `2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te` [NON_B2B_AUGMENTATION] 
+- `2023--Pedro Pintor--Testing_Galileo_High-Accuracy_Service_HAS_in_Marin` [NON_B2B_AUGMENTATION] 
+- `2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf` [UNKNOWN] 
+- `2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servi` [BDS3_PPP_B2B_RELEVANT] 
+- `2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_` [UNKNOWN] 
+- `875.full.pdf` [UNKNOWN] 
+- `A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availabili` [BDS3_PPP_B2B_RELEVANT] 
+- `An investigation of PPP-B2b coverage and its performance in ZTD estima` [BDS3_PPP_B2B_RELEVANT] 
+- `applsci-15-07169-v2.pdf` [UNKNOWN] 
+- `atmosphere-15-01048.pdf` [UNKNOWN] 
+- `ggac311.pdf` [UNKNOWN] 
+- `ggag169.pdf` [UNKNOWN] 
+- `Hu_2026_Meas._Sci._Technol._37_086303.pdf` [UNKNOWN] 
+- `IET Radar Sonar   Navi - 2025 - Yu - Design and Reception Method of Co` [UNKNOWN] 
+- `Mathematical Problems in Engineering - 2022 - Chen - Signal‐in‐Space a` [GENERAL_PPP_OR_RTK] 
+- `Mathematical Problems in Engineering - 2022 - Tang - Modelling and Ass` [GENERAL_PPP_OR_RTK] 
+- `P020250821587994414729.pdf` [UNKNOWN] 
+- `Qin_2024_Phys._Scr._99_125026.pdf` [UNKNOWN] 
+- `Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS` [BDS3_PPP_B2B_RELEVANT] 
+- `Real-Time_Kinematic_Orbit_Determination_for_LEO_by_Integrating_Broadca` [BDS3_PPP_B2B_RELEVANT] 
+- `Real-Time_Precise_Zenith_Tropospheric_Delay_Estimation_With_BDS_PPP-B2` [BDS3_PPP_B2B_RELEVANT] 
+- `remotesensing-13-05011.pdf` [UNKNOWN] 
+- `remotesensing-14-00643-v2.pdf` [UNKNOWN] 
+- `remotesensing-14-02957-v2.pdf` [UNKNOWN] 
+- `remotesensing-14-04569-v2.pdf` [UNKNOWN] 
+- `remotesensing-14-05366.pdf` [UNKNOWN] 
+- `remotesensing-14-05835-v2.pdf` [UNKNOWN] 
+- `remotesensing-14-06395-v2.pdf` [UNKNOWN] 
+- `remotesensing-15-00784.pdf` [UNKNOWN] 
+- `remotesensing-15-01358.pdf` [UNKNOWN] 
+- `remotesensing-15-05144.pdf` [UNKNOWN] 
+- `remotesensing-16-00043.pdf` [UNKNOWN] 
+- `remotesensing-16-01349-v2.pdf` [UNKNOWN] 
+- `remotesensing-16-02337-v2.pdf` [UNKNOWN] 
+- `remotesensing-16-02902.pdf` [UNKNOWN] 
+- `remotesensing-17-00011-v2.pdf` [UNKNOWN] 
+- `remotesensing-17-00618-v2.pdf` [UNKNOWN] 
+- `remotesensing-17-02183.pdf` [UNKNOWN] 
+- `remotesensing-17-02351.pdf` [UNKNOWN] 
+- `remotesensing-17-03522.pdf` [UNKNOWN] 
+- `Research_on_Single-Frequency_PPP-B2b_Time_Transfer.pdf` [BDS3_PPP_B2B_RELEVANT] 
+- `s00190-022-01642-9.pdf` [UNKNOWN] 
+- `s00190-025-01965-3.pdf` [UNKNOWN] 
+- `s00190-026-02039-8.pdf` [UNKNOWN] 
+- `s10291-021-01168-1.pdf` [UNKNOWN] 
+- `s10291-021-01175-2.pdf` [UNKNOWN] 
+- `s10291-023-01409-5.pdf` [UNKNOWN] 
+- `s10291-023-01457-x.pdf` [UNKNOWN] 
+- `s10291-023-01532-3.pdf` [UNKNOWN] 
+- `s10291-024-01776-7.pdf` [UNKNOWN] 
+- `s10291-024-01789-2.pdf` [UNKNOWN] 
+- `s10291-025-01835-7.pdf` [UNKNOWN] 
+- `s10291-025-01850-8.pdf` [UNKNOWN] 
+- `s10291-025-01854-4.pdf` [UNKNOWN] 
+- `s10291-025-01925-6.pdf` [UNKNOWN] 
+- `s10291-025-01998-3.pdf` [UNKNOWN] 
+- `s12145-023-00939-3.pdf` [UNKNOWN] 
+- `s40623-024-02031-6.pdf` [UNKNOWN] 
+- `s41597-026-07032-6.pdf` [UNKNOWN] 
+- `s41598-025-02477-y.pdf` [UNKNOWN] 
+- `s41598-025-08834-1.pdf` [UNKNOWN] 
+- `s41598-025-34174-1.pdf` [UNKNOWN] 
+- `s43020-022-00066-2.pdf` [UNKNOWN] 
+- `s43020-024-00143-8.pdf` [UNKNOWN] 
+- `s43020-025-00169-6.pdf` [UNKNOWN] 
+- `s43020-025-00172-x.pdf` [UNKNOWN] 
+- `sensors-23-02652.pdf` [UNKNOWN] 
+- `sensors-25-06700.pdf` [UNKNOWN] 
+- `sensors-26-01795.pdf` [UNKNOWN] 
+- `sustainability-18-02400.pdf` [UNKNOWN] 

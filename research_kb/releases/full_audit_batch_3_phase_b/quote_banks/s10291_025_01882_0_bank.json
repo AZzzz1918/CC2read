@@ -1,0 +1,110 @@
+[
+  {
+    "quote_id": "qb_dca156ee1f",
+    "span_index": 0,
+    "text": "GPS Solutions (2025) 29:150\nhttps://doi.org/10.1007/s10291-025-01882-0\nRESEARCH\nPrecise autonomous navigation of LEO constellations based\non PPP‑B2b signals and inter‑satellite ranging measurements\nYali Shi1 · Min Li1,2 · Tianhe Xu1 · Bei He1 · Xuan Yang2 · Dixing Wang1\nReceived: 15 September 2024 / Accepted: 12 May 2025 / Published online: 27 June 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nAbstract\nOwing to their superior Earth observation capability and robust signal landing power, low Earth orbit (LEO) satellite\nconstellations",
+    "char_length": 4225
+  },
+  {
+    "quote_id": "qb_51c03a6266",
+    "span_index": 1,
+    "text": "150 Page 2 of 18 GPS Solutions (2025) 29:150\nsystem (Jäggi et al. 2019). For an effective LEO satellite products to obtain RT LEO satellite orbits based on batch\ncommunication constellation, thousands of satellites with least squares adjustment and short-term prediction, and their\nan active inter-satellite communication function must be results showed that a total RT orbit error budget of 3–5 cm\ndeployed. Similarly, for a comprehensive LEO navigation can be expected.\naugmentation system, it has been calculated that at least 200 Wang et al. (2022) found that introducing SSR cor-\nsatellites depl",
+    "char_length": 6105
+  },
+  {
+    "quote_id": "qb_0a228cba47",
+    "span_index": 2,
+    "text": "GPS Solutions (2025) 29:150 Page 3 of 18 150\nsuch circumstances, autonomous orbital determination of Matching and correction algorithms\nlarge LEO satellite constellations remains inseparable from for PPP‑B2b signals\nthe support of inter-satellite links. Moreover, many existing\ncommunication and remote sensing LEO satellite constella- Matching algorithm for PPP‑B2b signals\ntions have the function of inter-satellite links, and full use of\ninter-satellite ranging data could effectively reduce the burden All PPP-B2b types of messages, including the mask, orbit\non ground-based systems and help guar",
+    "char_length": 4992
+  },
+  {
+    "quote_id": "qb_e7f2f7501e",
+    "span_index": 3,
+    "text": "150 Page 4 of 18 GPS Solutions (2025) 29:150\nFig. 1 Flow chart of the PPP-B2b matching process. Here, “match” sentation data, “IODN” is the issue number of the navigation data,\nmeans that two parameters are matched when their values are equal, and “IOD CORR” is the issue number of the orbit correction and the\nand “Mask code” refers to the satellite mask in the correction infor- clock correction\nmation. “IOD SSR” is the issue number of the State Space Repre-\ñl=l −DCB observation mode is used, in which the frequency fluctua-\nbroadcast B2b (3)\ntions caused by oscillator instability in the two sa",
+    "char_length": 1842
+  },
+  {
+    "quote_id": "qb_8c528f906c",
+    "span_index": 4,
+    "text": "GPS Solutions (2025) 29:150 Page 5 of 18 150\na and band b, respectively; Δ ant is the antenna phase center observation; u is the unit vector from the GPS receiver\ncorrection; Δ c is the light-time correction; and B k repre- onboard the LEO satellite to the navigation satellite; Φ is\nsents the ambiguity. Here, the KBR1B data provided by the transformation matrix between epochs i−1 and i ; Φ (t\ns\n,t0)\nGeoForschungsZentrum (GFZ) are used for calculating the denotes the unknown initial receiver state; x 0 leoc,yl 0 eoc,zl 0 eoc\ninter-satellite range. Each term in Eqs. (4) and (5) except that is th",
+    "char_length": 4846
+  },
+  {
+    "quote_id": "qb_dfa8437d50",
+    "span_index": 5,
+    "text": "150 Page 6 of 18 GPS Solutions (2025) 29:150\nin vector B c at the current epoch, there will be 12 + n param- The state transition matrix is derived based on\neters to be determined overall. The following is the transition Runge–Kutta integration and Richardson extrapolation\nmatrix Φ in the Kalman filtering model for a single satellite: interpolation. Therefore, when performing joint orbit\ndetermination of the two satellites, the partial derivatives\nΦ Φ Φ 0\nx C ,C a\nR D of the parameters between GRACE-C and GRACE-D, i.e.,\n0 I 0 0\nΦ= ⎡ 0 0 1 M 0 ⎤ (15) Φ cd and Φ dc in Eq. (20), are zeros. On the",
+    "char_length": 4395
+  },
+  {
+    "quote_id": "qb_18a0f4ebe5",
+    "span_index": 6,
+    "text": "GPS Solutions (2025) 29:150 Page 7 of 18 150\n−1 T\nK k =P k H k T H k P k H k T +R k (25) V CD = V C dS V D 4n+1 (32)\n( ) [ ]\nwhere L k is the observation vector, and R k is the covari- Finally, the parameter covariance matrix is updated as\nEqs. (33) and (34):\nance matrix of the observation noise. In single satellite orbit\ndetermination, the design matrix for the single GRACE-C x̂ =x +K L −H x\nk k k k k k (33)\nsatellite is as shown below as H C , and H D has the same ( )\nf S o i r m m il a a t r l a y s , t R h k a t i s o t f h H e C m . e T a h su e r c e o m m e b n i t n n e o d i s d e e s",
+    "char_length": 4293
+  },
+  {
+    "quote_id": "qb_8aaad78fd7",
+    "span_index": 7,
+    "text": "150 Page 8 of 18 GPS Solutions (2025) 29:150\nFig. 2 Flow chart of RT POD for two satellites based on the SRIF combining inter-satellite ranging with GPS PPP-B2b corrections\nfor our experiment. The undifferenced IF combination model that 6–11 GPS satellites were tracked at each epoch, and that\napplied in this study requires integral dual-frequency phase the average number of tracked satellites was 9.4 and 9.2 for\nand code measurements at one epoch. Therefore, in accord- GRACE-C and GRACE-D, respectively. A sufficient number\nance with this requirement, the data availability of onboard of tracked",
+    "char_length": 1288
+  },
+  {
+    "quote_id": "qb_4c0312286b",
+    "span_index": 8,
+    "text": "GPS Solutions (2025) 29:150 Page 9 of 18 150\nFig. 3 Numbers of visible GPS satellites tracked by the GRACE-C and GRACE-D satellites\nPPP-B2b signals are broadcast by BDS geostationary orbit PPP-B2b correction is defined as the ratio of the number of\nsatellites, their availability is limited to the Asia–Pacific GPS PPP-B2b corrections received by a GRACE satellite\nregion. The altitude on an LEO satellite is approximately to the total number of GPS satellites observed at a given\n490 km above the ground, which means that the PPP-B2b epoch.\nsignal receiving area is broader in comparison with that o",
+    "char_length": 3274
+  },
+  {
+    "quote_id": "qb_3ea267fdbd",
+    "span_index": 9,
+    "text": "150 Page 10 of 18 GPS Solutions (2025) 29:150\nFig. 4 Sub-satellite point trajec-\ntory of the (upper) GRACE-C\nand (lower) GRACE-D satellites\nwith visible GPS PPP-B2b cor-\nrections\nCalculation and calibration of the KBR inter‑satellite Comparison and analysis of RT POD solutions\nrange\nGPS satellites with PPP-B2b corrections can have better\nOn the basis of the above analysis, the inter-satellite ranges POD accuracy for the GRACE-C/D satellites than those\nmeasured by KBR between GRACE-C and GRACE-D on without, and therefore different weights should be given\nJanuary 31, 2022 were calculated, as sho",
+    "char_length": 2242
+  },
+  {
+    "quote_id": "qb_026da32796",
+    "span_index": 10,
+    "text": "GPS Solutions (2025) 29:150 Page 11 of 18 150\nFig. 5 Distribution of propor-\ntion of GPS PPP-B2b signal\nvisibility from the (upper)\nGRACE-C and (lower)\nGRACE-D satellites\nFig. 6 Computed inter-satellite\nrange on January 31, 2022",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_f4b0ab6707",
+    "span_index": 11,
+    "text": "150 Page 12 of 18 GPS Solutions (2025) 29:150\nFig. 7 Post-fit KBR residuals of\nGRACE satellites on January\n31, 2022\nTable 1 Dynamic models for\nType of force Model adopted\nRT POD of the GRACE-C and\nGRACE-D satellites Earth gravity model EIGEN-6C (Foerste et al. 2013)\nN-body disturbance JPL DE405\nSolid tide and pole tide IERS 2010 (Petit and Luzum 2013)\nOcean tide FES 2014b (Spiridonov and Vinogradova 2020)\nRelativistic effect IERS 2010\nSolar radiation pressure Macro Model (Montenbruck et al. 2018)\nC\nAtmosphere drag Harris–Priester density model, estimating the drag parameter d every 120 min\nEar",
+    "char_length": 1485
+  },
+  {
+    "quote_id": "qb_745cc52e8c",
+    "span_index": 12,
+    "text": "GPS Solutions (2025) 29:150 Page 13 of 18 150\ncalculation. The minimum norm quadratic unbiased estima- PPP-B2b corrections (as shown in Fig. 5). It is evident\ntion (MINQUE) can be applied to overcome such a fusion that the accuracy improvement is broadly consistent with\nproblem. The MINQUE might not always converge but it the proportion of satellites with PPP-B2b corrections and\ncan generate unbiased estimates with a minimum root mean with the weight ratio. In regions where the reception ratio\nsquare error. The MINQUE is commonly used in situations of PPP-B2b corrections is higher, a larger we",
+    "char_length": 3154
+  },
+  {
+    "quote_id": "qb_a9c3fab746",
+    "span_index": 13,
+    "text": "150 Page 14 of 18 GPS Solutions (2025) 29:150\ninterruption experiment was conducted considering that not only over the Asia–Pacific region, the orbital accuracy in\nall satellites in an LEO satellite constellation experience data the Asia–Pacific region is improved markedly by the single\ninterruption simultaneously. Therefore, only the GRACE-D epoch recursive RT filtering algorithm, whereas improve-\nGNSS data were interrupted several times, with each inter- ment is not evident in other regions and the accuracy\nruption lasting for a manually specified period. The GFZ remains close to that of the",
+    "char_length": 3442
+  },
+  {
+    "quote_id": "qb_bd2070fabc",
+    "span_index": 14,
+    "text": "GPS Solutions (2025) 29:150 Page 15 of 18 150\nFig. 10 Comparison of error series of RT POD solutions for the (right column) 30 min at 05:00, 13:00, and 18:00 (UTC). “ISR”\nGRACE-D satellite in the case of data interruptions. Results obtained means inter-satellite range\nwhen GNSS observations are missing for (left column) 60 min and\nFig. 11 Comparison of the RMS values of orbital error in the radial, GRACE-C and GRACE-D satellites, and (right column) RMS statis-\nalong, and cross directions for RT POD of the GRACE-C and tical results for the GRACE-D satellite with data interruption of 60\nGRACE-D ",
+    "char_length": 668
+  },
+  {
+    "quote_id": "qb_271b33dc8e",
+    "span_index": 15,
+    "text": "150 Page 16 of 18 GPS Solutions (2025) 29:150\nsignals also cannot be received. On the basis of this pre- Conclusions\nsumption, we randomly interrupted the GNSS observa-\ntions at three times on January 31, 2022 for the GRACE- In this study, the performance of RT POD of the GRACE-\nD satellite only, and the duration of the interruption to C and GRACE-D formation-flying satellites was evaluated\nthe observations was set separately to 60 and 30 min. The and compared with different observational information\nGRACE-D RT POD results are shown in Fig. 10. The left such as the broadcast ephemeris, PPP-B2b",
+    "char_length": 6012
+  },
+  {
+    "quote_id": "qb_285d58c8f0",
+    "span_index": 16,
+    "text": "GPS Solutions (2025) 29:150 Page 17 of 18 150\nData availability The GRACE-C/D onboard GNSS data are accessed at Li M, Xu T, Guan M et al (2022a) LEO-constellation-augmented\nftp://i sdcft p.g fz-p otsda m.d e/, accessed on January 16, 2024, the multi- multi-GNSS real-time PPP for rapid re-convergence in harsh\nGNSS precise orbit and clock products are accessed at ftp://i gs.i gn.f r/ environments. GPS Solut 26:29. https://d oi.o rg/1 0.1 007/\npub/i gs/p roduc ts/m gex/, accessed on January 16, 2024, the GPS LANV s10291-0 21-0 1217-9\nbroadcast ephemeris are achieved at ftp://i gs.g nsswh u.c n/p ",
+    "char_length": 6957
+  },
+  {
+    "quote_id": "qb_f917df7460",
+    "span_index": 17,
+    "text": "150 Page 18 of 18 GPS Solutions (2025) 29:150\nBDS-3 PPP B2b service. Remote Sens 16(5):833. https://d oi.o rg/ Publisher's Note Springer Nature remains neutral with regard to\n10.3 390/r s1605 0833 jurisdictional claims in published maps and institutional affiliations.\nSpiridonov EA, Vinogradova OYu (2020) Oceanic tide model\nFES2014b: comparison with gravity measurements. Izv Atmos Springer Nature or its licensor (e.g. a society or other partner) holds\nOcean 56(11):1432–1446. https://d oi.o rg/1 0.1 134/S 00014 3382 exclusive rights to this article under a publishing agreement with the\n011009 2",
+    "char_length": 4885
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper proposes a PPP-B2b augmentation method using single-station SSR corrections for fast ambiguity resolution, directly centered on PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-025-01854-4.pdf",
+  "paper_id": "s10291-025-01854-4",
+  "extraction_mode": "batch_classify_1call"
+}

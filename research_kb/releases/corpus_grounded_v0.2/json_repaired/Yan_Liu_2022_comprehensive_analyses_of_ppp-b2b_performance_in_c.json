@@ -1,0 +1,350 @@
+{
+  "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+  "extraction_mode": "full",
+  "batch": "Batch 1 addendum",
+  "addendum_reason": "path_exclusion_recovered",
+  "bibliographic_info": {
+    "title": "Comprehensive Analyses of PPP-B2b Performance in China and Surrounding Areas",
+    "authors": [
+      {
+        "name": "Yan Liu",
+        "affiliation": "School of Land Science and Geomatics, China University of Geosciences, Beijing 100083, China",
+        "is_corresponding": false
+      },
+      {
+        "name": "Cheng Yang",
+        "affiliation": "School of Land Science and Geomatics, China University of Geosciences, Beijing 100083, China",
+        "is_corresponding": true
+      },
+      {
+        "name": "Mengni Zhang",
+        "affiliation": "School of Land Science and Geomatics, China University of Geosciences, Beijing 100083, China",
+        "is_corresponding": false
+      }
+    ],
+    "year": 2022,
+    "journal_or_venue": "Remote Sensing",
+    "doi": "10.3390/rs14030643",
+    "volume": "14",
+    "issue": "643",
+    "publication_date": "2022-01-28",
+    "received": "2021-12-08",
+    "accepted": "2022-01-26"
+  },
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_579b15e857",
+        "quote_text": "remote sensing \nArticle\nComprehensive Analyses of PPP-B2b Performance in China and\nSurrounding Areas\nYan Liu, Cheng Yang *\nand Mengni Zhang\nSchool of Land Science and Geomatics, China University of Geosciences, Beijing 100083, China;\n2012190026@cugb.edu.cn (Y.L.); 2112210060@email.cugb.edu.cn (M.Z.)\n* Correspondence: c.yang@connect.polyu.hk\nAbstract: BeiDou Global Navigation Satellite System (BDS-3) provides a regional Precise Point Posi-\ntioning (PPP) service, called PPP-B2b, for users in China and surrounding areas through B2b signal\ntransmitted from its three geostationary earth orbit (GEO) satellites.",
+        "original_quote": "BeiDou Global Navigation Satellite System (BDS-3) provides a regional Precise Point Positioning (PPP) service, called PPP-B2b, for users in China and surrounding areas through B2b signal transmitted from its three geostationary earth orbit (GEO) satellites",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.963
+      },
+      {
+        "quote_id": "qb_ac695227b4",
+        "quote_text": "The information broadcasted by\nthe B2b signal include satellite orbit corrections, satellite clock offset corrections, and differential code\nbias (DCB) corrections of BDS-3 satellites.",
+        "original_quote": "The information broadcasted by the B2b signal include satellite orbit corrections, satellite clock offset corrections, and differential code bias (DCB) corrections of BDS-3 satellites",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.995
+      }
+    ]
+  },
+  "experiment_epoch": {
+    "orbit_clock_evaluation": {
+      "start_date": "2020-08-06",
+      "end_date": "2020-08-12",
+      "duration_days": 7,
+      "description": "7-day dataset for orbit/clock accuracy evaluation"
+    },
+    "detailed_analysis_date": "2021-08-09",
+    "positioning_evaluation": "DoY 221 (2021-08-09), 8 IGS MGEX stations",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_a935a36594",
+        "quote_text": "To further evaluate the accuracy of satellite orbits of PPP-B2b products, the Root\nMean Square Error (RMSE) of PPP-B2b real-time orbits, broadcast orbits, and real-time\norbits from WHU based on a 7-day dataset (6–12 August 2020) are presented in Figure 5.",
+        "original_quote": "a 7-day dataset (6–12 August 2020)",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      },
+      {
+        "quote_id": "qb_300516effc",
+        "quote_text": "PPP-B2b Orbit Accuracy Assessment\nThe PPP-B2b orbit correction sequences of the MEO satellites of BDS-3 decoded from\nthe PPP-B2b message on 9 August 2021 (DoY 221) are shown in Figure 2.",
+        "original_quote": "The PPP-B2b orbit correction sequences of the MEO satellites of BDS-3 decoded from the PPP-B2b message on 9 August 2021 (DoY 221)",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.694
+      }
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction",
+      "components": [
+        "radial",
+        "along-track",
+        "cross-track"
+      ],
+      "update_interval_s": 48,
+      "nominal_validity_s": 96
+    },
+    {
+      "type": "clock_offset_correction",
+      "update_interval_s": 6,
+      "nominal_validity_s": 12
+    },
+    {
+      "type": "differential_code_bias",
+      "signals": [
+        "B1I",
+        "B1Cp",
+        "B2ap"
+      ],
+      "reference_signal": "B3I",
+      "nominal_validity_s": 86400
+    },
+    {
+      "type": "user_range_accuracy_index"
+    },
+    {
+      "type": "satellite_mask"
+    }
+  ],
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "description": "DCB corrections compared with CAS final DCB products. B1I, B1Cp, B2ap signals evaluated. PPP-B2b DCB corrections are broadcast with 86400s nominal validity.",
+    "signals_evaluated": [
+      "B1I",
+      "B1Cp",
+      "B2ap"
+    ],
+    "dcb_accuracy_std_ns": {
+      "B1I": 0.46,
+      "B1Cp": 0.54,
+      "B2ap": 0.47
+    },
+    "dcb_biases": {
+      "B1Cp_ns": 2,
+      "B2ap_ns": 10
+    },
+    "reference": "CAS final DCB products",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_2b6cbe3334",
+        "quote_text": "DCB is caused by code-based hardware delay difference between different frequencies,\nand affects the performance of PPP [20].",
+        "original_quote": "DCB is caused by code-based hardware delay difference between different frequencies, and affects the performance of PPP",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.952
+      },
+      {
+        "quote_id": "qb_d06bd8563a",
+        "quote_text": "The subscripts C2I and C6I denote B1I and\nB3I signals, respectively; C1P denotes B1Cp signal; C5P denotes B2ap signal.",
+        "original_quote": "The STD values of the B1I signal, B1Cp signal, and the B2ap signal are 0.46, 0.54, and 0.47 ns, respectively",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.714
+      },
+      {
+        "quote_id": "qb_942de2e9c2",
+        "quote_text": "The biases on B1Cp and\nB2ap signals are 2 and 10 ns, respectively.",
+        "original_quote": "The biases on B1Cp and B2ap signals are 2 and 10 ns, respectively",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.985
+      }
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "Dual-frequency ionosphere-free PPP (B1I/B3I)",
+    "key_methods": [
+      "PPP-B2b orbit correction: radial/along-track/cross-track to ECEF transformation",
+      "Clock correction: direct subtraction from broadcast clock offset",
+      "DCB correction: pseudorange correction per frequency",
+      "PCO correction for GFZ orbit comparison",
+      "Clock offset re-editing for systematic error removal",
+      "SISRE computation with BDS-3 constellation-specific weight factors",
+      "Ionosphere-free PPP observation model with estimated ZWD"
+    ],
+    "key_equations_refs": [
+      "Eq.1-2: orbit correction",
+      "Eq.3: clock correction",
+      "Eq.4: DCB correction",
+      "Eq.5-6: orbit error",
+      "Eq.7-10: clock re-editing",
+      "Eq.11-12: SISRE",
+      "Eq.13: DCB reference conversion",
+      "Eq.14-16: IF-PPP model"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_430227fe5b",
+        "quote_text": "PPP-B2b Correction Message Evaluation Methods\nThe satellite orbit correction message of the PPP-B2b contains the orbit correction\nvector δO =\n\u0002\nδOr, δOa, δOc\n\u0003T in radial, along-track, and cross-track components, respec-\ntively.",
+        "original_quote": "The satellite orbit correction message of the PPP-B2b contains the orbit correction vector in radial, along-track, and cross-track components",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      }
+    ]
+  },
+  "datasets": {
+    "stations": [
+      "JFNG",
+      "GAMG",
+      "MIZU",
+      "PTGG",
+      "ULAB",
+      "URUM",
+      "LCK4",
+      "SGOC"
+    ],
+    "station_count": 8,
+    "station_network": "IGS MGEX stations in China and surrounding countries",
+    "correction_source": "BDS-3 PPP-B2b signals from GEO satellites",
+    "reference_products": {
+      "orbit_clock": "GFZ final precise products",
+      "dcb": "CAS final DCB products",
+      "real_time_comparison": "WHU real-time products"
+    },
+    "broadcast_ephemeris": "CNAV1 from CSNO (csno-tarc.cn/datacenter/ephemeris)",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_a5e341fd6b",
+        "quote_text": "The positioning performance evaluation of real-time PPP with\nB2b service is carried out and compared with the real-time product provided by Wuhan University\n(WHU) based on the eight IGS MGEX stations in China and surrounding countries.",
+        "original_quote": "eight IGS MGEX stations in China and surrounding countries",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      },
+      {
+        "quote_id": "qb_17230c650f",
+        "quote_text": "To evaluate the performance of satellite orbit, clock offset and DCB recovered from the\nPPP-B2b messages, the ﬁnal products from GFZ and the Chinese Academy of Sciences (CAS)\nare used as a reference.",
+        "original_quote": "the final products from GFZ and the Chinese Academy of Sciences (CAS) are used as a reference",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.889
+      }
+    ]
+  },
+  "metrics": {
+    "orbit_accuracy": {
+      "ppp_b2b_radial_cm": 8.5,
+      "ppp_b2b_along_cm": 19.3,
+      "ppp_b2b_cross_cm": 14.0,
+      "broadcast_radial_cm": 8.8,
+      "broadcast_along_cm": 20.7,
+      "broadcast_cross_cm": 15.4,
+      "whu_radial_cm": 4.6,
+      "whu_along_cm": 8.1,
+      "whu_cross_cm": 6.1
+    },
+    "clock_accuracy": {
+      "ppp_b2b_std_ns": 0.124,
+      "broadcast_std_ns": 0.672,
+      "whu_std_ns": 0.36
+    },
+    "sisre": {
+      "ppp_b2b_rms_m": 1.242,
+      "ppp_b2b_std_m": 0.097,
+      "broadcast_rms_m": 0.536,
+      "broadcast_std_m": 0.261,
+      "whu_rms_m": 0.137,
+      "whu_std_m": 0.102
+    },
+    "static_ppp_3d_rmse_cm": {
+      "b2b_mean": 6.5,
+      "whu_mean": 11.7
+    },
+    "kinematic_ppp_3d_rmse_cm": {
+      "b2b_mean": 21.0,
+      "whu_mean": 28.2
+    },
+    "availability_rate_pct": {
+      "jfng": 88.76,
+      "sgoc": 60.91,
+      "mean": ">60"
+    },
+    "convergence_time_min": {
+      "static_b2b": "16.33-40.58",
+      "kinematic_b2b": "11.08-45.66"
+    }
+  },
+  "main_results": {
+    "summary": "PPP-B2b service achieves cm-level static and dm-level kinematic positioning in China and surrounding areas. Overall positioning performance slightly better than WHU real-time products within the service area.",
+    "key_findings": [
+      "BDS-3 broadcast orbit accuracy similar to PPP-B2b real-time orbit (cm-level difference due to ISL support)",
+      "PPP-B2b clock correction significantly improves broadcast clock offset precision (STD: 0.124ns vs 0.672ns)",
+      "Large SISRE of PPP-B2b (1.24m) caused by satellite-specified systematic clock bias, not orbit error",
+      "PPP-B2b SISRE STD (0.097m) similar to WHU real-time products (0.102m)",
+      "DCB corrections: STD 0.46-0.54ns, with constant biases on B1Cp (2ns) and B2ap (10ns)",
+      "Static PPP: cm-level accuracy in all 8 stations (3D RMSE: 3.9-8.3cm for B2b PPP)",
+      "Kinematic PPP: dm-level accuracy (JFNG: 7.3/3.5/9.1cm in E/N/U)",
+      "Availability degrades from 88.76% (center) to 60.91% (boundary)"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_7fb59db017",
+        "quote_text": "The positioning\naccuracy of static positioning mode with PPP-B2b service achieved centimeter-level accuracy in the\nselected station, and that of kinematic positioning mode achieved decimeter-level accuracy.",
+        "original_quote": "The positioning accuracy of static positioning mode with PPP-B2b service achieved centimeter-level accuracy",
+        "match_type": "normalized",
+        "confidence": "medium",
+        "score": 0.519
+      },
+      {
+        "quote_id": "qb_7fb59db017",
+        "quote_text": "The positioning\naccuracy of static positioning mode with PPP-B2b service achieved centimeter-level accuracy in the\nselected station, and that of kinematic positioning mode achieved decimeter-level accuracy.",
+        "original_quote": "that of kinematic positioning mode achieved decimeter-level accuracy",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      },
+      {
+        "quote_id": "qb_bfbeca13a6",
+        "quote_text": "The\noverall positioning performance of PPP-B2b service within the test area is slightly better\nthan that of WHU real-time products.",
+        "original_quote": "The overall positioning performance of PPP-B2b service within the test area is slightly better than that of WHU real-time products",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.992
+      }
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "B_INCREMENTAL",
+    "rationale": "Most comprehensive PPP-B2b evaluation at time of publication. Extends prior studies by evaluating stations beyond China territory (Korea, Japan, Mongolia), presenting detailed matching strategy, full DCB evaluation, and systematic comparison with WHU real-time products. Highly cited (influential reference for subsequent PPP-B2b studies).",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_acc4ac3037",
+        "quote_text": "In this paper, the BDS-3 real-time PPP-B2b performance, in terms of\navailability and accuracy, is assessed by the stations located in China and the surround-\ning countries, such as Korea, Japan, and Mongolia.",
+        "original_quote": "In this paper, the BDS-3 real-time PPP-B2b performance, in terms of availability and accuracy, is assessed by the stations located in China and the surrounding countries, such as Korea, Japan, and Mongolia",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.947
+      }
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 3,
+    "reproduction_blockers": [
+      "PPP-B2b correction data not publicly archived for the evaluation period",
+      "GNSS observation data managed by university — available on request only",
+      "PPP processing software not released",
+      "Specific Kalman filter/PF processing parameters not fully detailed",
+      "Station-specific configuration details not provided"
+    ]
+  },
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "b2b_mentions_estimated": 150,
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "EXPLICITLY_DESCRIBED",
+    "reproduction_blockers_non_empty": true
+  }
+}

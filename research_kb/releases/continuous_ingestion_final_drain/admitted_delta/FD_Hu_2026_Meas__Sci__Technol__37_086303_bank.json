@@ -1,0 +1,164 @@
+[
+  {
+    "quote_id": "qb_9d034677c1",
+    "span_index": 0,
+    "text": "Measurement Science\nand Technology\nPAPER • OPEN ACCESS You may also like\nReal-time PPP-based monitoring of Galileo–BDS -A Kalman filter-based framework for real-\ntime UPD estimation and quality control\nwith multi-GNSS PPP-AR validation\ntime offset using PPP-B2b and HAS\nSirui Zhang, Bobin Cui, Shi Du et al.\n-Refined real-time PPP-based timing via\ndata fusion of meteorological models and\nTo cite this article: Yao Hu et al 2026 Meas. Sci. Technol. 37 086303 Galileo HAS\nXin Chen, Xuhai Yang, Runzhi Zhang et\nal.\n-Modeling and assessment of Galileo PPP\none-way timing with RT-product\nView the article",
+    "char_length": 760
+  },
+  {
+    "quote_id": "qb_f7b2a971a9",
+    "span_index": 1,
+    "text": "Meas.Sci.Technol.37(2026)086303 https://doi.org/10.1088/1361-6501/ae476c\nPAPER\nReal-time PPP-based monitoring of Galileo–BDS time offset using\nOPENACCESS\nPPP-B2b and HAS\nRECEIVED\n30October2025 YaoHu1,DaqianLyu2,∗,PeiyuanZhou3,YulongGe1,ZhoujiWang2,JunpengShi2,\nREVISED WeijinQin4,5,ShibiaoBai1andRangangZhu2\n9February2026\n1 NanjingNormalUniversity,Nanjing210023,People’sRepublicofChina\nACCEPTEDFORPUBLICATION\n18February2026 2 CollegeofElectronicEngineering,NationalUniversityofDefenseTechnology,Hefei230037,People’sRepublicofChina\n3 InformationEngineeringUniversity,Zhengzhou450001,People’sRep",
+    "char_length": 4006
+  },
+  {
+    "quote_id": "qb_6cfe24b2c6",
+    "span_index": 2,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nambiguity-fix success rates and more reliable cycle-slip recovery. Multi-GNSS also improves averaging\nof stochastic clock noise and provides diversity across independent control segments and payload clocks,\nenhancing overall system resilience. These combined benefits make multi-constellation fusion the prac-\ntical route to stable nanosecond-level timing in operational environments.\nEffective multi-GNSS fusion requires explicit handling of GNSS-to-GNSS time offsets (XYTOs) [8].\nEach constellation maintains its own system time scale, and XYTOs vary due to ",
+    "char_length": 5434
+  },
+  {
+    "quote_id": "qb_bfd219d702",
+    "span_index": 3,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure1.HierarchicalrelationshipbetweenUTC,UTC(k),systemtimes(BDTandGST),andreceivertime.\n2.1.PPP-BCEbaseline\nPPP-BCE is a high-precision positioning and timing technique that does not rely on external precise\norbit and clock products [16]. Instead, it operates entirely on satellite-broadcast ephemeris and clock\ncorrections. In this study, we adopt PPP-BCE as the baseline reference for performance evaluation. The\nmethod employs the dual-frequency ionosphere-free (IF) combination to construct the observation\nmodel, formulated as follows:\n{\nP =ρs+c·δ˜t −c·",
+    "char_length": 2472
+  },
+  {
+    "quote_id": "qb_c5774ef6be",
+    "span_index": 4,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure2.IntegrationflowchartofHASandB2bproductsformulti-GNSSPPPinaunifiedreferenceframe.\nThe stochastic model of the filter is defined as follows. The observation noise covariance matrix R is a\nk\ndiagonal matrix, with its elements determined by an elevation angle weighting model:\nσ2=σ2/sin2(E) (5)\n0\nwhere E is the satellite elevation angle, and σ is the zenith-referenced standard deviation, set empirically\n0\nto 0.3 m for pseudorange and 0.003 m for carrier phase observations.\nThe stochastic model of the filter, especially the process noise matrix Q, was ",
+    "char_length": 2315
+  },
+  {
+    "quote_id": "qb_0c40c32070",
+    "span_index": 5,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nTable1.DailyHelmertsevenparametersbetweenHAS(GTRF)andPPP-B2b(BDCS)fromDOY346–359,2023.\nDOY T T T R R R M\nx y z x y z\n346 0.000997 −0.03646 −0.06535 0.390408 2.001247 −1.66546 3.374274\n347 −0.02052 −0.03912 −0.01603 −0.47891 2.3387 −0.79312 2.246855\n348 −0.02253 −0.00241 −0.02253 −0.23271 3.705517 −1.15493 1.812232\n349 0.026545 −0.0281 −0.03169 1.605492 2.359957 −0.46471 2.957461\n350 0.035847 −0.0113 −0.03152 1.810082 2.034143 −0.85161 2.879224\n351 0.012856 −0.05537 −0.00599 2.083935 2.844065 −1.33367 2.631061\n352 −0.03762 −0.0101 −0.06714 3.420803 5.4468",
+    "char_length": 1501
+  },
+  {
+    "quote_id": "qb_4c4b120010",
+    "span_index": 6,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\n \nx −x\nHAS B2b\nl=  y −y  . (10)\nHAS B2b\nz −z\nHAS B2b\nThe seven transformation parameters in x are then estimated using the weighted least-squares (WLS)\nmethod, which minimizes the objective function vTPv:\n( )\nxˆ= BTPB\n−1\nBTPl (11)\nwhere P is the weight matrix, typically taken as an identity matrix under the assumption of equal quality\nfor all common satellite coordinates.\nFinally, the transformation parameters are applied to the PPP-B2b product. They change the state-\nspace representation (SSR) of all BDS satellites from BDCS into GTRF. This creates ",
+    "char_length": 3659
+  },
+  {
+    "quote_id": "qb_eda2cd5531",
+    "span_index": 7,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure4.FlowchartofGBTOcalculationprocess.\nWhen the dual-system joint solution is based on the BDS time clock difference, the actual estimated tim-\ning clock offset parameter:\nt =t =clk+∆time . (16)\nu BDT BDS\nAs shown in figure 4, the estimated GBTO time series is obtained as follows:\nGBTO=t −t\nGST BDT\n=clk+∆time −(clk+∆time )\nGalileo BDS\n=∆time −∆time (17)\nGalileo BDS\nBecause the geometric range term makes (12) and (13) nonlinear, the estimation is implemented using\nan EKF with epoch-wise linearization. Denoting the state vector at epoch k as:\n[ ]\nx = r",
+    "char_length": 1035
+  },
+  {
+    "quote_id": "qb_05f0325e08",
+    "span_index": 8,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nSo that the corresponding covariance entry is:\nQ =q ∆t. (23)\nGBTO GBTO\n2.4.Hardwaredelaycalibrationandvalidation\nAt the same time, in order to avoid the impact of hardware delay P1C1 errors between systems on the\nGBTO parameter estimation, it is also necessary to correct the user-side differential code bias of different\nsystem observations beforehand. This is done using the monthly P1C1 DCB product from CODE for\nGPS L1, and the multi-GNSS DCB/OSB products to align the raw observations of Galileo and BDS. This\nensures the baseline consistency and alignmen",
+    "char_length": 4496
+  },
+  {
+    "quote_id": "qb_cb70ea8a63",
+    "span_index": 9,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure5.GeographiclocationsofthetwomonitoringstationsusedforGBTOanalysis.\nTable2.ComparisonofGalileoHASandBDSB2breal-timeproducts.\nItem GalileoHAS BDSB2b\nProvider EuropeanUnion/ESA ChinaSatelliteNavigation\n(Galileo) Office(BDS-3)\nDissemination E6-B B2b\nConstellationscovered Galileo,GPS BDS-3,GPS\nTimesystem/TRF GST/GTRF BDT/BDCS\nOrbit/clockreference APC APC\nClockupdateinterval 10s 6s\nOrbitupdateinterval 5min 48s\nAdditionalcorrections Code/phasebiases(satellite Codebiases,quality\nDCB/phasebiases),quality indicators;servicestatus\nflags\nCoverage Global Asia-",
+    "char_length": 2227
+  },
+  {
+    "quote_id": "qb_048e80ed3b",
+    "span_index": 10,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nTable3.PPPsolutionapproach.\nDeviation Approach\nOrbit/clock Precisereal-timesatelliteorbit\nandclockproducts\nFrequency BDS:B1/B3I;Galileo:E1/E5b\nFiltertype ForwardKalmanfilter\nElevationcutoffangle 7◦\nObservationweight Elevationangleweighting\nEarthrotation Modeladjustment[34]\ncorrection\nRelativisticeffects Modeladjustment[34]\nAntennaphasecenter CorrectionbyATXfiles\ncorrection (IGS20.atx)\nTroposphericdelay Saastamoinen\nmodel+random-walkprocess\nReceiverclock Estimatedaswhitenoisefor\neachepoch\nAmbiguity Floatambiguities;\nEstimatedasaconstantwithin\ncontinuousar",
+    "char_length": 3233
+  },
+  {
+    "quote_id": "qb_06de522483",
+    "span_index": 11,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nTable5.DatasourcesforGBTOanalysis.\nSource/file Quantity Definition Appearance Notes/intendeduse\nIGSmergedbroadcast BDUT, BDUT=UTC−BDT; Daily GBTO(UTC-\n(BRDM/BRDC, GAUT bridge)=BDUT\nRINEX3,daily) GAUT=UTC−GST. −GAUT.\nDLR/CONGOBRD4 BDGA BroadcastGBTO Hourly BroadcastGBTO\n(BRD400DLR,hourly (useA0atepoch)\nmergedbroadcast) forsub-daily\nvariability.\nBDUT, BDUT=UTC−BDT; Hourly GBTO(UTC-\nGAUT bridge)=BDUT\nGAUT=UTC−GST −GAUT.\nBIPMUTCproducts UTC− UTC−UTC(GNSS); Daily/5-day Absolutetieto\n(CircularT/Rapid) UTC(k) UTC−UTC(k) UTC;validation/\nconsistencychecks.\ncouple",
+    "char_length": 2968
+  },
+  {
+    "quote_id": "qb_b2930f50b5",
+    "span_index": 12,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure6.AvailabilityoftherecoveredHASproducts.\nAccording to our definition, the GBTO from this source is simply its negative: GBTO (t)=\nBRD4\n−BDGA(t). The second form is an hourly UTC bridge, similar in style to the daily BRDC files. One\ndetail is important here: the sign convention. The bridge value BDUT–GAUT is calculated as\n(UTC–BDT)—(UTC–GST), which equals—GBTO. This hourly reference is especially useful for ana-\nlyzing sub-daily variations in the estimated GBTO.\n3.3.2.Laboratory-gradereferencefromBIPMcircularT\nThe BRDC-derived reference shows the re",
+    "char_length": 3197
+  },
+  {
+    "quote_id": "qb_5eab422c16",
+    "span_index": 13,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure7.AvailabilityoftherecoveredPPP-B2bproducts.\nFigure8.TheRACorbitRMSresultsofthePPP-B2bandHASproducts.\nFigure9.The3DorbitRMSerrorsofthePPP-B2bandHASproducts.\nThe daily pattern suggests it is more sensitive to correction timeliness and to errors in satellite dynam-\nics. HAS shows a different behavior. Its radial accuracy is slightly worse, about 0.07–0.12 m. The along-\ntrack and cross-track errors, however, change less over time. As a result, the 3D RMS stays below 0.2 m\n13",
+    "char_length": 522
+  },
+  {
+    "quote_id": "qb_6d474588f2",
+    "span_index": 14,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure10.TheclockerrorvariationsofthePPP-B2bandHASproducts.\nthroughout the day, with only small spikes. In short, PPP-B2b provides sharper radial precision. HAS,\non the other hand, offers a more stable and reliable 3D orbit. This makes HAS the safer choice for con-\ntinuous applications during the day.\nAlthough figures 8 and 9 present DOY 346 as an illustrative example, we checked the same RAC\n(and clock) comparisons throughout the 14 day window (DOY 346–359, 2023), and similar qualitative\npatterns as well as the relative behavior between PPP-B2b and HAS ",
+    "char_length": 3261
+  },
+  {
+    "quote_id": "qb_3d1143af08",
+    "span_index": 15,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure11.ThereceiverclockoffsetsandtimeseriesofGBTOestimatedusingPPP-BCEfrom12–25December2023:(a)NT05\nstationand(b)USUDstation.\nGST and BDT contain strong high-frequency noise. As a result, the GBTO time series is unstable. At\nNT05, the GBTO varies between 0 ns and 6.5 ns. At USUD, the range is wider, from −2 ns to 8 ns.\nThese short-term fluctuations come directly from the limited accuracy and stability of broadcast orbit\nand clock products. PPP-BCE is fully autonomous and works in real time. However, the noise level\nrestricts it to applications that nee",
+    "char_length": 2164
+  },
+  {
+    "quote_id": "qb_ab62d8277e",
+    "span_index": 16,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure12.ThereceiverclockoffsetsandtimeseriesofGBTOestimatedusingPPP-B2b/PPP-HASfrom12–25December2023:\n(a)NT05stationand(b)USUDstation.\nshows the GBTO time series at NT05 and USUD. The results reach the highest precision and consist-\nency. The unified model keeps the smooth changes seen in the differenced method. It also cuts down\nresidual noise and improves long-term stability. Daily and sub-daily periodic patterns in GBTO are more\nclearly visible. This shows a more accurate picture of the time link between systems. By merging the\ntwo correction streams",
+    "char_length": 2114
+  },
+  {
+    "quote_id": "qb_12ad2bd5f4",
+    "span_index": 17,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure13.TimeseriesofGBTOestimatedusingPPP-B2BHASfrom12–25December2023:(a)NT05stationand(b)USUD\nstation.\nFigure14.ComparisonofGBTOestimatesfromthreePPPstrategiesagainstthebroadcastreference.\nsmoothest trajectory, tracks the reference most closely, and filters out much of the noise seen in the\nother methods.\nFigure 15 adds context by including the direct broadcast BDT–GST offset, known as BDGA. A key\nresult appears: there is a large, time-varying bias of about −20 ns. This bias exists between BDGA,\nthe PPP-derived solutions, and the BDUT–GAUT reference. T",
+    "char_length": 2034
+  },
+  {
+    "quote_id": "qb_b0bb16fa65",
+    "span_index": 18,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure15.TimeseriesofGBTO(12–25December2023)fromthreeprocessingschemesattwostations,comparedwithBRD4\nreferences.\nFigure16.ResidualdistributionsofuserGBTOrelativetoBRD4–BDGA(12–25December2023;30sepochs).Residualsarewith\nrespecttoanoisybroadcastreference(BDGA/BDUT–GAUT);intrinsicstabilityisevaluatedbyMDEV.\nnoise in the reference, which can inflate the standard deviation. This shows that residual analysis against\nbroadcast data alone is not enough for ranking performance. A deeper look at intrinsic stability is\nneeded, which is addressed in the next section",
+    "char_length": 2353
+  },
+  {
+    "quote_id": "qb_698879615f",
+    "span_index": 19,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure17.Rollingstandarddeviation(STD)ofGBTOresidualswithrespecttoBRD4-BDGAforthethreeschemesattwosta-\ntions(NT05andUSUD)fromDecember12–252023.Awindowsizeof∼120samples(∼1h)wasappliedtohighlightthe\nshort-termstabilityofeachsolutionintrackingthebroadcastGBTO.Residualsarewithrespecttoanoisybroadcastreference\n(BDGA/BDUT–GAUT);intrinsicstabilityisevaluatedbyMDEV.\nFigure18.ModifiedAllandeviation(MDEV)ofGBTOestimatesobtainedfromdifferentPPPstrategies.\nTable6.ModifiedAllandeviationofGBTO.\nStation Scheme Short-termstability(960s) Long-termstability(245760s)\nNT05 ",
+    "char_length": 1894
+  },
+  {
+    "quote_id": "qb_3bc73b29b3",
+    "span_index": 20,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure19.Residualsofuser-estimatedGBTOwithrespecttotwobroadcastreferences(December12–252023).Top:BDGA,\ni.e.thebroadcastBDS–GalileooffsetBDT−GSTfromBRD4.Bottom:theUTCbridgeBDUT−GAUT=(UTC−BDT)\n−(UTC−GST)fromBRD4.\nIn summary, the MDEV analysis does not rely on any external reference. It shows clear evidence that\nthe integrated PPP-B2bHAS strategy provides the most stable intrinsic performance. The method keeps\nstable results across all tested time scales, from seconds to days. This level of stability is important for\nreaching the highest absolute accuracy. ",
+    "char_length": 3771
+  },
+  {
+    "quote_id": "qb_022261c4f2",
+    "span_index": 21,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure20.BIPM-derivedreferencesforGalileoandBDS:(top)UTC–GSTfromfivelaboratories(PTB,SP,OP,IT,ROA)with\ntheirmean,(middle)UTC–BDTfromNTSC,and(bottom)theresultingGBTObridge(UTC−BDT)−(UTC−GST)with±1σ\nspreadacrosslaboratories.\nFigure21.DailyresidualsvsBIPM(12–25December2023).\nband in figure 20. This level is smaller than the common 2–4 ns bias and comparable to or smaller than\nthe daily residual spreads in figure 21. Figure 20 shows how the BIPM reference is built. It comes from\ncombined measurements of several leading timing laboratories worldwide. Each lab",
+    "char_length": 818
+  },
+  {
+    "quote_id": "qb_349207c025",
+    "span_index": 22,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure 21 presents the final results of this validation, showing the boxplot distributions of the daily\nresiduals for each PPP strategy. These residuals represent the difference between the daily average of our\nestimated GBTO and the daily BIPM reference value for the 14 day period.\nFirst, all solutions show a common systematic bias of about +2 to +4 ns. This means that while\nprocessing strategies improve stability, they do not remove the reference datum offset in the real-time\nSSR services.\nSecond, the day-to-day stability of the solutions depends stron",
+    "char_length": 4982
+  },
+  {
+    "quote_id": "qb_b9b81f9c6e",
+    "span_index": 23,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nFigure22.TimeseriesofGBTOestimatesoveratwo-monthperiod(10March–10May2024)atthreespatiallydistributedsta-\ntions:MIZU(Japan),HKSL(HongKong),andJFNG(China).\nIn some figures, residuals to a broadcast reference time scale are slightly smaller for the differenced\nmethod. This is reference-noise-dominated, not an algorithmic advantage: the broadcast reference carries\nnon-negligible high-frequency noise. Thus, a tighter solution can yield larger residuals to a noisy refer-\nence yet still exhibit better intrinsic stability (lower MDEV/lower rolling standard devia",
+    "char_length": 1584
+  },
+  {
+    "quote_id": "qb_7066976e58",
+    "span_index": 24,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nconfirmed the long-term stability and wide applicability of this method. The consistent tracking of\nthe GBTO trend at these different locations indicates that this tightly coupled framework can sup-\nport autonomous integrity monitoring and provide high-resolution time data that is not affected by\nthe availability or delay of official broadcast parameters. Sensitivity remains to DCB calibration, tropo-\nspheric mapping, GTRF–BDCS frame alignment, and SSR outage handling. We did not include IAR or\nadvanced clock-process models (e.g. second-order states or f",
+    "char_length": 4063
+  },
+  {
+    "quote_id": "qb_51e1329eb9",
+    "span_index": 25,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\nYulong Ge  0009-0003-2420-4569\nConceptualization (equal), Investigation (equal), Methodology (equal), Resources (equal),\nValidation (equal), Visualization (equal), Writing – review & editing (equal)\nZhouji Wang  0000-0002-6471-637X\nSupervision (equal), Writing – review & editing (equal)\nJunpeng Shi\nProject administration (equal), Resources (equal)\nWeijin Qin  0000-0003-2883-9281\nData curation (equal), Funding acquisition (equal), Resources (equal), Software (equal)\nShibiao Bai  0000-0002-1699-0825\nSupervision (equal), Validation (equal), Writing – re",
+    "char_length": 4469
+  },
+  {
+    "quote_id": "qb_c852566478",
+    "span_index": 26,
+    "text": "Meas.Sci.Technol.37(2026)086303 YHuetal\n[27] ZhaoLandZhaiW2024AssessmentofPPPusingBDSPPP-B2bproductswithshort-time-spanobservationsandbackward\nsmoothingmethodRemoteSens.1725\n[28] GeY,WangQ,WangY,LyuD,CaoX,ShenFandMengX2023AnewreceiverclockmodeltoenhanceBDS-3real-timePPPtime\ntransferwiththePPP-B2bserviceSatell.Navig.48\n[29] NieZ,XuX,WangZandDuJ2021InitialassessmentofBDSPPP-B2bservice:precisionoforbitandclockcorrections,andPPP\nperformanceRemoteSens.132050\n[30] WangC-WandJanS-S2025AdvancingprecisepointpositioningwithallsourceCSSRmessageaugmentationIEEESens.J.25\n19709–23\n[31] TuR,GeM,ZhangHandHuan",
+    "char_length": 1053
+  }
+]

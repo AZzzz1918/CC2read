@@ -1,0 +1,35 @@
+{
+  "paper_id": "test9_citation_bad_ref",
+  "source_file": "paper/test9.pdf",
+  "file_hash": "yza567",
+  "bibliographic_info": {
+    "title": "Comprehensive Review of GNSS Augmentation Services",
+    "authors": [{"name": "Review Author"}],
+    "year": 2025,
+    "journal_or_venue": "Surveys in Geophysics"
+  },
+  "product_source": {"actual": "NOT_MENTIONED", "grounding_quotes": []},
+  "mathematical_model": {"processing_mode": "NOT_MENTIONED", "grounding_quotes": []},
+  "ionospheric_handling": {"dcb_source": "NOT_MENTIONED", "dcb_missing_flag": true},
+  "correction_types": {"grounding_quotes": []},
+  "research_problem": {},
+  "technical_route": {"grounding_quotes": []},
+  "method": {},
+  "formulas": [],
+  "experiments": [],
+  "experiment_epoch": {"start_date": "NOT_MENTIONED", "end_date": "NOT_MENTIONED", "grounding_quotes": []},
+  "datasets": {"grounding_quotes": []},
+  "metrics": {"grounding_quotes": []},
+  "main_results": {"grounding_quotes": []},
+  "novelty_audit": {"audit_grade": "U_INSUFFICIENT_EVIDENCE", "grounding_quotes": []},
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED", "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED", "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED", "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED", "config_files": "NOT_MENTIONED",
+    "metric_definitions": "NOT_MENTIONED", "baseline_details": "NOT_MENTIONED",
+    "reproduction_blockers": ["Review paper - no original experiments"],
+    "reproducibility_score": 0,
+    "grounding_quotes": []
+  }
+}

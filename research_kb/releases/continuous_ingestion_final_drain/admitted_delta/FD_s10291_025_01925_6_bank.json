@@ -1,0 +1,68 @@
+[
+  {
+    "quote_id": "qb_dca156ee1f",
+    "span_index": 0,
+    "text": "GPS Solutions (2025) 29:162\nhttps://doi.org/10.1007/s10291-025-01925-6\nRESEARCH\nBDS-3 PPP-B2b and Galileo HAS tightly integrated real-time PPP\nLin Pan1 · Chen Yang1\nReceived: 9 October 2024 / Accepted: 28 June 2025 / Published online: 7 July 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nAbstract\nThe BDS-3 PPP-B2b of China can offer BDS-3/GPS real-time precise point positioning (PPP) service in the Asia-Pacific\nregion, while the Galileo High Accuracy Service (HAS) of the European Union can offer Galileo/GPS real-time PPP\nservice worl",
+    "char_length": 4029
+  },
+  {
+    "quote_id": "qb_6b1ef8699a",
+    "span_index": 1,
+    "text": "162 Page 2 of 11 GPS Solutions (2025) 29:162\nthan 90% in China, and the kinematic positioning accuracy or software such as HASlib, GHASP, and HASPPP to facili-\nof real-time PPP could reach centimeter level after conver- tate the decoding and integration of HAS corrections (Borio\ngence (Xu et al. 2021; Tao et al. 2021). Tang et al. (2022) et al. 2023; Zhang et al. 2024a; Prol et al. 2024).\nprovided a detailed description of the generation strategies BDS-3 PPP-B2b can provide real-time PPP service in\nfor various PPP-B2b correction products, and conducted a the Asia-Pacific region, while Galileo ",
+    "char_length": 5508
+  },
+  {
+    "quote_id": "qb_0a228cba47",
+    "span_index": 2,
+    "text": "GPS Solutions (2025) 29:162 Page 3 of 11 162\nsystem, both of which are calculated by the satellite position frequency, so as to be consistent with the reference of the\nand velocity vectors derived from broadcast ephemerides, recovered real-time precise satellite clock offsets. It should\nδO represents the corrections of satellite orbits, δO˙ denotes be noted that the sign of the PPP-B2b and HAS correction\nthe changing rates of orbit corrections, δC represents the formulas is opposite when using the augmentation services\ncorrections of satellite clock offsets, ∆t is the time interval for OSB cor",
+    "char_length": 4880
+  },
+  {
+    "quote_id": "qb_8c5962368c",
+    "span_index": 3,
+    "text": "162 Page 4 of 11 GPS Solutions (2025) 29:162\nPPP-B2b and HAS tightly integrated real- precise satellite orbits and clock offsets as well as the OSB\ntime PPP model corrections, the PPP-B2b and HAS tightly integrated real-\ntime PPP dual-frequency uncombined observation model\nSince both PPP-B2b and HAS products support GPS, for can be expressed as:\nease of expression, the GPS constellation taking PPP-B2b\ncorrections is represented as GPS B2b, and the GPS con- ps r, , 1 sys = + µ α s r , s s , y sy s s· X Z r + + c θ d¯ s t y s r s ys D + s γ ,s 1 s y y s s · I¯ r s,sys\nstellation taking HAS corre",
+    "char_length": 6121
+  },
+  {
+    "quote_id": "qb_8c528f906c",
+    "span_index": 4,
+    "text": "GPS Solutions (2025) 29:162 Page 5 of 11 162\nEq. (4)). In Eq. (11),\nds,sys\ndenotes satellite code hardware\nion parameter is estimated as random-walk process, the intro-\ndelay absorbed by the ionospheric delay parameter and then\nduction of a compensating parameter into the code obser-\npropagated to the phase ambiguity parameter (only for GPS\nvation equation for each satellite of GPS B2b and BDS-3\nB2b), which is introduced by the inconsistency of satellite\nconstellations will not reduce the redundancy of the real-\ncode hardware delay between code observations and satel-\ntime PPP model. Actually,",
+    "char_length": 4679
+  },
+  {
+    "quote_id": "qb_395feb2fb7",
+    "span_index": 5,
+    "text": "162 Page 6 of 11 GPS Solutions (2025) 29:162\nTable 2 Processing strategies for real-time PPP strategies (namely B2b C/G, B2b C/G + HAS E, HAS E/G,\nItems Strategies\nand HAS E/G + B2b C) are analyzed. To ensure the consis-\nFrequencies BDS-3: B1/B3\ntency with the positioning strategies, the sampling interval\nGPS: L1/L2\nis set to 30 s, and the cut-off elevation angle is set to 10°. The\nGalileo: E1/E5A\nPositioning mode Kinematic research area is divided into 60 × 60 grids with an interval of\nWeighting method Elevation-dependent weights 2° in longitude and 1° in latitude, and it is assumed that a\nSa",
+    "char_length": 2778
+  },
+  {
+    "quote_id": "qb_18a0f4ebe5",
+    "span_index": 6,
+    "text": "GPS Solutions (2025) 29:162 Page 7 of 11 162\nThe number of visible satellites under the B2b C/G strategy Figure 3 displays the geographical distribution of aver-\nis relatively larger in the mainland of China and its coastal age PDOP values over the entire analysis period for four\nregions, especially within the range of 12°N to 48°N and real-time PPP strategies. The B2b C/G + HAS E strategy\n90°E to 130°E, with the corresponding satellite numbers integrating HAS Galileo presents lower PODP values in\nranging from 14.9 to 16.5. In addition, the visible satellite contrast to the B2b C/G strategy th",
+    "char_length": 3073
+  },
+  {
+    "quote_id": "qb_1d6dd33c8f",
+    "span_index": 7,
+    "text": "162 Page 8 of 11 GPS Solutions (2025) 29:162\nFig. 6 Distribution of convergence time for four real-time PPP\nstrategies\nE, HAS E/G, and HAS E/G + B2b C) at stations JDPR and\nPOL2 on DOY 186 of 2024, respectively. As can be seen\nfrom the two figures, the position solutions of all the four\nreal-time PPP strategies can quickly converge to the target\naccuracy of PPP-B2b and HAS services (i.e., 20 cm in hori-\nFig. 4 Epoch-wise positioning errors for four real-time PPP strategies zontal direction and 40 cm in vertical direction). The posi-\nat station JDPR on DOY 186 of 2024 tioning accuracy in the ea",
+    "char_length": 2310
+  },
+  {
+    "quote_id": "qb_4c0312286b",
+    "span_index": 8,
+    "text": "GPS Solutions (2025) 29:162 Page 9 of 11 162\nFig. 7 Distribution of positioning accuracy for four real-time PPP strategies\nthan 10/20 min account for 59.6%/87.4%, 72.4%/92.6%, statistics of positioning errors over all available epochs for\n35.1%/64.3%, and 58.6%/86.9% for the B2b C/G, B2b each real-time PPP strategy are calculated and shown in\nC/G + HAS E, HAS E/G, and HAS E/G + B2b C strate- each panel. The results indicate that the B2b C/G + HAS E\ngies, respectively. The average convergence time of B2b strategy can achieve the highest positioning accuracy, fol-\nC/G + HAS E strategy is shorten",
+    "char_length": 2717
+  },
+  {
+    "quote_id": "qb_c308aa8d51",
+    "span_index": 9,
+    "text": "162 Page 10 of 11 GPS Solutions (2025) 29:162\nbe found that the positioning performance of the HAS E/G 12.2 min, respectively. By contrast, the HAS E/G strategy\nstrategy is significantly worse than that of the B2b C/G has the longest convergence time at 21.7 min. Compared\nstrategy. Even after the introduction of BDS-3 observations with the B2b C/G strategy, the convergence time of the B2b\nwith PPP-B2b service, the positioning performance of the C/G + HAS E strategy is shortened by 24%, while the con-\nHAS E/G + B2b C strategy still remains inferior to that of vergence time of the HAS E/G + B2b ",
+    "char_length": 5585
+  },
+  {
+    "quote_id": "qb_026da32796",
+    "span_index": 10,
+    "text": "GPS Solutions (2025) 29:162 Page 11 of 11 162\nDeclarations Xu Y, Yang Y, Li J (2021) Performance evaluation of BDS-3 PPP-B2b\nprecise point positioning service. GPS Solut 25(4):142. h t t p s : / / d o\ni . o r g / 1 0 . 1 0 0 7 / s 1 0 2 9 1 - 0 2 1 - 0 1 1 7 5 - 2\nEthics approval and consent to participate Not applicable.\nXu X, Nie Z, Wang Z et al (2023) An improved BDS-3 PPP-B2b posi-\ntioning approach by estimating signal in space range errors. GPS\nCompeting interests The authors declare no competing interests.\nSolut 27(3):110. h t t p s : / / d o i . o r g / 1 0 . 1 0 0 7 / s 1 0 2 9 1 - 0 2",
+    "char_length": 6193
+  }
+]

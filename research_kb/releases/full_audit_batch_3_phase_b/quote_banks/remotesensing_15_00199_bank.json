@@ -1,0 +1,122 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nLow-Cost IMU and Odometer Tightly Augmented\nPPP-B2b-Based Inter-Satellite Differenced PPP in\nUrban Environments\nYuMin1,2 ,ZhouzhengGao1,* ,JieLv1,RuohuaLan1,QiaozhuangXu1andChengYang1\n1 SchoolofLandScienceandTechnology,ChinaUniversityofGeosciencesBeijing,Beijing100083,China\n2 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China\n* Correspondence:zz.gao@cugb.edu.cn;Tel.:+86-186-2791-5172\nAbstract: Since 23 June 2020, BDS-3 has been entirely operated and obtained the ability of global\nPNT(Positioning,Navigation,andTiming)services. Afterward,rea",
+    "char_length": 3989
+  },
+  {
+    "quote_id": "qb_9b9004e93f",
+    "span_index": 1,
+    "text": "RemoteSens.2023,15,199 2of20\nintheworks[8–10]. PPPcanprovideanaccuratepositioningsolutionusingonlyasingle\nGNSSreceiverbyutilizingprecisesatelliteproductswithabouttwoweeksdelay[11–13].\nConsequently,PPPismainlyforapplicationsinpost-processingcurrently[14,15].Tosatisfythe\ndemandsofreal-timePPP,BDS-3transmitstheorbit/clockcorrectionsofbroadcastephemeris\nby B2b signal [16–19]. Multi-GNSS Experiment (MGEX)/iGMAS stations were adopted\nin[17]toverifythereal-timePPPpositioningperformanceusingPPP-B2bserviceinstaticand\nsimulated-kinematicmodesbycomparingwiththesolutionsbasedonGeodeticBenchmark\n(GBM)final",
+    "char_length": 4203
+  },
+  {
+    "quote_id": "qb_21a482f743",
+    "span_index": 2,
+    "text": "RemoteSens.2023,15,199 3of20\ncircumstances. Accordingtotheresults,thepositionaccuracywasfurtherlyameliorated\nbytheodometer.\nInthispaper,weimpliedPPP/INS/odometertightlycoupledintegrationmodel. In\ncomparison with previous works, the contribution of this paper is that such a tightly\ncoupledintegrationisbasedontheBSSDmodelandtheBDS-3PPP-B2borbit/clockcor-\nrections. Inordertoassesstheperformanceofthisalgorithm,vehicle-bornedataacquired\ninurbanenvironmentsareprocessedandanalyzed. Theenhancementsofalow-costINS,\nBSSDBDS-3PPPmodel,andanodometeronpositioningandattitudedeterminationare\ndiscussedindetail",
+    "char_length": 2644
+  },
+  {
+    "quote_id": "qb_d2f56b127e",
+    "span_index": 3,
+    "text": "RemoteSens.2023,15,199 4of20\n2.2. Single-Differencebetween-SatellitesObservationalModel\nThe linearized undifferenced Ionosphere-Free (IF) model of the satellite (k) can be\nwrittenas\nPk −ρk−∆ρk = e δx +e δy +e δz +ct +m δd +ε (5)\nIF P,IF 1 r 2 r 3 r r wet wet P,IF\nLk −ρk−∆ρk = e δx +e δy +e δz +ct +m δd −λ Nk +ε (6)\nIF L,IF 1 r 2 r 3 r r wet wet IF IF L,IF\nwhere Pk = αP −βP and Lk = αL −βL are IF pseudorange and carrier-phase,\nIF 1 2 IF 1 2\nwhereinα = f2/(f2− f2)andβ = f2/(f2− f2)areIFcombinationcoefficientsbasedon\n1 1 2 2 1 2\nfrequencies f and f ;randkrepresentreceiverandsatellite;ρk isthegeom",
+    "char_length": 3098
+  },
+  {
+    "quote_id": "qb_9727138044",
+    "span_index": 4,
+    "text": "RemoteSens.2023,15,199 5of20\nwhere φ TCI,k,k−1 is the system transform matrix from epoch k−1 to epoch k; µ TCI,k−1\nrepresent the state noise with the covariance of Q ; Z , Z , and Z represent\nTCI,k PIF LIF DIF\ntheinnovationvectorofpseudorange, carrier-phase, anddoppler, respectively; P ,\nINS,IF\nL , and D are the INS-predicted values; P , L , D are the\nINS,IF INS,IF GNSS,IF GNSS,IF GNSS,IF\nGNSSmeasurement;η representsobservationnoisewiththepriorcovarianceofR .\nTCI,k TCI\nInordertoobtaintheINS-predictedvaluescorrespondingtoGNSSmeasurements,the\npositionandvelocityofthereceiverupdatedbyINSmechaniza",
+    "char_length": 2625
+  },
+  {
+    "quote_id": "qb_90b605edb0",
+    "span_index": 5,
+    "text": "RemoteSens.2023,15,199 6of20\nInaddition,thereisInter-SystemBias(ISB)betweenGPSandBDS[35,36].Tosolvethis\nproblem,weconsiderthereceiverclockoffsetofdifferentGNSSasindependentparameters\nandestimatethemseparately. Thismethodispresentedindetailintheworksof[37,38].\nAnyway,therearetwoothermethodstoprocessISB[6,36,39]. Itisworthmentioningthat\nthereceiverclockoffset,anddriftcanberemovedintheBSSDPPP/INSTCImodel,with\nthestatevectorof\nX = (cid:2) δpn δvn δψ δB δB δS δS δd δNkm(cid:3) (21)\nBSSD,TCI,k INS INS a g a g wet IF\nwhere δpn , δvn , and δψ represent the corrections of position, velocity, and attitu",
+    "char_length": 2643
+  },
+  {
+    "quote_id": "qb_1566f4f384",
+    "span_index": 6,
+    "text": "RemoteSens.2023,15,199 7of20\nRemote Sens. 2023, 15, x FOR PEER REVIEW 8 of 22\nThealgorithmstructureofPPP/INS/ODOTCIisshowninFigure1.\nFigure 1. Algorithm of BSSD PPP/INS/ODO TCI structure.\nFigure1.AlgorithmofBSSDPPP/INS/ODOTCIstructure.\n33..T Teesststs,,R Reessuultlsts,,a annddD Disisccuussssioionn\nIInno orrddeerrt tooe evvaaluluaatteet thheep peerrffoorrmmaanncceeo offt thheep prrooppoosseeddm mooddeel,l,a as seetto offl alanndd--bboorrnneed daattaa\nwwaassp prroocceesssseedda anndda annaalylyzzeedd.. TThhiiss fifrirsstts suubbsseeccttiioonn ddeemmoonnssttrraatteess tthhee eexxppeerriimmeenntt ",
+    "char_length": 3934
+  },
+  {
+    "quote_id": "qb_41720b9863",
+    "span_index": 7,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 9 of 22\nRemote Sens. 2023, 15, x FOR PEER REVIEW 9 of 22\nRemoteSens.2023,15,199 8of20\nFigure 2. The available satellites number of different GNSS al ong with the test trajectory.\nFigure2.TheavailablesatellitesnumberofdifferentGNSSalongwiththetesttrajectory.\nFigure 2. The available satellites number of different GNSS along with the test trajectory.\nFigure3.PDOPofdifferentGNSSalongwiththetesttrajectory.\nFigure 3. PDOP of different GNSS along with the test trajecto ry.\n3.2. AccuracyofPPP-B2bCorrectionsandBSSDPPP\nFigure 3. PDOP of different GNSS along with ",
+    "char_length": 4382
+  },
+  {
+    "quote_id": "qb_c0b6873311",
+    "span_index": 8,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 10 of 22\nRemote Sens. 2023, 15, x FOR PEER REVIEW 10 of 22\nRemoteSens.2023,15,199 9of20\nFigure 4. RMS of GPS clock offset, and orbit errors of real-time products recovered by P PP-B2b\nservice.\nFigFuigreu r4e.4 R.RMMSS ooff GGPPSScl occlkocokff soetf,fasnedt, oarbnidte rorrobrsito ferreraol-rtsim oef prreoadlu-cttismreec opvreoreddubcytsP PrePc-Bo2vbesreerdvi cbey. PPP-B2b\nservice.\nFigFuirgeu r5e. 5R.RMMSS ooff BBDDSS-3-3cl occlkocokff soetffasnedt oarnbidte orrrobrsito efrreraolr-tsim oef prreoadlu-tcitmsreec opvreordedubcytsP rPePc-Bo2vbesreerdv icbey.",
+    "char_length": 2816
+  },
+  {
+    "quote_id": "qb_95a3be02b0",
+    "span_index": 9,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 11 of 22\nRemote Sens. 2023, 15, x FOR PEER REVIEW 11 of 22\ndistribution, which is also verified in works [43–46]. Moreover, compared with undiffer-\ndistribution, which is also verified in works [43–46]. Moreover, compared with undiffer-\nenced PPP, the average position RMS improved by 13.17%, 2.64%, and 11.21% in three\nenced PPP, the average position RMS improved by 13.17%, 2.64%, and 11.21% in three\ncomponents, which due to the receiver-related errors, can be eliminated by the BSSD\nRemoteSens.2023,15,199 components, which due to the receiver-related err",
+    "char_length": 3931
+  },
+  {
+    "quote_id": "qb_eaaa6df12d",
+    "span_index": 10,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 12 of 22\nRem ote Sens. 2023, 15, x FOR PEER REVIEW 12 of 22\nFigure 8 shows the position differences between BSSD PPP and BSSD PPP/INS TCI.\nFigure 8 shows the position differences between BSSD PPP and BSSD PPP/INS TCI.\nSignificantly, the accuracy of PPP is similar to that of PPP/INS TCI when there are suffi-\nSignificantly, the accuracy of PPP is similar to that of PPP/INS TCI when there are suffi-\ncient satellites. That is because the absolute position accuracy mainly depends on PPP.\ncient satellites. That is because the absolute position accuracy mainly",
+    "char_length": 6227
+  },
+  {
+    "quote_id": "qb_6d5055f996",
+    "span_index": 11,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 13 of 22\nTable 4. The number of available satellites and the GNSS outages time.\nOutages Scenes 1 2 3 4 5 6 7 8 9 10\nGPS 16 4 2 9 14 3 32 26 8 1\nOutages\nBDS-3 19 1 2 7 11 2 28 22 3 1\ntime(s)\nGPS/BDS-3 17 1 2 6 11 2 26 22 2 1\nGPS 0.6 2.3 0.5 1.4 0.9 1 0.4 0.3 1.3 3\nSatellite\nBDS-3 0.3 2 1.5 1.3 0.9 0.5 0.2 2.4 1.7 1\nnumber\nRemoteSens.2023,15,1G9P9S/BDS-3 0.5 4 2 2.5 1.2 0.5 0.5 2.5 1.5 124o f20\nFFigiguurere1 100..P Poosistiitoionniningge errrororsrso offB BSSSSDDP PPPPP( l(elfetf)t)a nadndB SBSSDSDP PPPP/PI/INNSST TCCII( r(rigighht)t)b beetwtweeeennt hthe",
+    "char_length": 5030
+  },
+  {
+    "quote_id": "qb_49356d9a78",
+    "span_index": 12,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 14 of 22\nRemote Sens. 2023, 15, x FOR PEER REVIEW 14 of 22\nFigure 11. Positioning errors of BSSD PPP/INS/ODO TCI with different GNSS by using PPP-B2b\nRemoteSens.2023,15,199 13of20\nFicgourrree c1t1io. nPso. sitioning errors of BSSD PPP/INS/ODO TCI with different GNSS by using PPP-B2b\ncorrections.\nTable 5. Position RMS of BSSD PPP/INS/ODO TCI with different GNSS.\nTable5.PositionRMSofBSSDPPP/INS/ODOTCIwithdifferentGNSS.\nTable 5. Position RMS of BSSD PPP/INS/ODO TCI with different GNSS.\nBSSD PPP/INS/ODO TCI Undifferenced PPP/INS/ODO\nBSSD P PP/INSN/OoDBrtOSh",
+    "char_length": 4249
+  },
+  {
+    "quote_id": "qb_fd74500658",
+    "span_index": 13,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 15 of 22\nFigure 14. Average maximum position drifts of different GNSS for BSSD PPP/INS TCI (left) and\nPPP/INS/ODO TCI (right) on different GNSS outage scenes.\nIn addition, to analyze the impact of the BSSD model on PPP/INS integration, the\ntime series of position errors of undifferenced PPP/INS/ODO TCI is shown in Figure 15.\nRemoteSens.2023,15,199 In contrast, the BSSD model provided about 7.71%, 3.09%, and 0.27% in the three direc-14of20\ntions on average, according to RMSs listed in Table 5. It can be seen that the position ac-\ncuracy of the BSSD model",
+    "char_length": 6721
+  },
+  {
+    "quote_id": "qb_7dac32ab20",
+    "span_index": 14,
+    "text": "RemoteSens.2023,15,199 15of20\n3.5. BSSDPPP/INS/ODOTCIAttitudeDetermination\nTheattitudeerrorsofBSSDPPP/INSTCIwithandwithoutodometeraidareshownin\nFigure18. Theresultsoftheroll,pitch,andheadinganglesinthefirst500saresignificantly\ndifferentfromtheresultsinotherperiods. Thatisbecausethevehiclekeptstaticinthe\nfirst500s,whichprovidednoobservabilitiesforgyroscopes. Then,theaccuracyofattitude\ndetermination during these times mainly depended on the accuracy of initial attitudes.\nWhilethevehiclemovedahead,themotionsincreasedtheobservabilitiesofgyroscopes\nandupgradedtheaccuracyofattitudes. Accordingtothes",
+    "char_length": 4661
+  },
+  {
+    "quote_id": "qb_c6bf7496c1",
+    "span_index": 15,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 17 of 22\nFigure 18. Attitude errors of BSSD PPP/INS TCI (left) and BSSD PPP/INS/ODO TCI (right) with\ndifferent GNSS.\nTable 6. Attitude RMS of BSSD PPP/INS TCI with and without odometer aid.\nBSSD PPP/INS TCI BSSD PPP/INS/ODO TCI\n° ° ° ° ° °\nRoll ( ) Pitch ( ) Heading ( ) Roll ( ) Pitch ( ) Heading ( )\nGPS 0.025 0.050 0.178 0.025 0.049 0.137\nBDS-3 0.027 0.049 0.194 0.028 0.048 0.140\nGPS/BDS-3 0.024 0.048 0.181 0.025 0.048 0.138\nAccording to the RMSs of BSSD PPP/INS/ODO TCI listed in Table 6, the average\n° ° °\nRMSs of roll, pitch, and heading angles are 0.",
+    "char_length": 5674
+  },
+  {
+    "quote_id": "qb_1b23d185d8",
+    "span_index": 16,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 18 of 22\nFigure 20. Attitude errors of BSSD PPP/INS TCI (left) and BSSD PPP/INS/ODO TCI (right) with\nfrequent GNSS outages in the periods between the 1500 s and 2500 s.\nFigure 21. Average of Maximum attitude drifts of different GNSS for BSSD PPP/INS TCI (left) and\nPPP/INS/ODO TCI (right) on different GNSS outage scenes.\nSimilarly, the differences between the attitudes calculated by the undifferenced PPP-\nbased integration (Figure 22) and the BSSD PPP-based integration are plotted in Figure\n° ° °\n23. The attitudes RMSs based on undifferenced PPP are 0.03",
+    "char_length": 7023
+  },
+  {
+    "quote_id": "qb_52d5d375f7",
+    "span_index": 17,
+    "text": "RemoteSens.2023,15,199 18of20\nTable7.Statisticofpositionandattitudeerrors.\nMeanRMS(cm) MeanMaximumDrifts(cm)\nPositioning North East Down North East Down\nBSSDPPP 64.33 53.47 154.11 107.96 59.90 78.22\nBSSDPPP/INSTCI 44.54 41.29 121.66 88.52 54.54 62.00\nBSSDPPP/INS/ODOTCI 44.01 40.79 118.83 66.29 45.84 49.17\nUndifferencedPPP/INS/ODOTCI 47.69 42.09 119.15 82.38 50.66 52.30\nMeanRMS(◦) MeanMaximumDrifts(◦)\nAttitude Roll Pitch Heading Roll Pitch Heading\nBSSDPPP/INSTCI 0.025 0.049 0.184 0.047 0.077 0.313\nBSSDPPP/INS/ODOTCI 0.026 0.048 0.138 0.049 0.076 0.174\nUndifferencedPPP/INS/ODOTCI 0.031 0.048 0.1",
+    "char_length": 3250
+  },
+  {
+    "quote_id": "qb_ec6a885259",
+    "span_index": 18,
+    "text": "RemoteSens.2023,15,199 19of20\nReferences\n1. Yang,Y.;Xu,Y.;Li,J.;Yang,C.ProgressandPerformanceEvaluationofBeiDouGlobalNavigationSatelliteSystem:DataAnalysis\nBasedonBDS-3DemonstrationSystem.Sci.ChinaEarthSci.2018,61,614–624.[CrossRef]\n2. Yang,Y.;Li,J.;Wang,A.;Xu,J.;He,H.;Guo,H.;Shen,J.;Dai,X.Preliminaryassessmentofthenavigationandpositioning\nperformanceofBeiDouregionalnavigationsatellitesystem.Sci.ChinaEarthSci.2014,57,144–152.[CrossRef]\n3. Yang, Y.; Tang, J.; Montenbruck, O. Chinese navigation satellite systems. In Handbook of Global Navigation Satellite Systems;\nTeunissen,M.,Ed.;Springer:Cham,",
+    "char_length": 5020
+  },
+  {
+    "quote_id": "qb_f0d6675f9f",
+    "span_index": 19,
+    "text": "RemoteSens.2023,15,199 20of20\n31. Sun, W.; Yang, Y. BDS PPP/INS Tight Coupling Method Based on Non-Holonomic Constraint and Zero Velocity Update.\nIEEEAccess2020,8,128866–128876.[CrossRef]\n32. Gao,Z.;Ge,M.;Li,Y.;Chen,Q.;Zhang,Q.;Niu,X.;Zhang,H.;Shen,W.;Schuh,H.Odometer,Low-CostInertialSensors,and\nFour-GNSSDatatoEnhancePPPandAttitudeDetermination.GPSSolut.2018,22,57.[CrossRef]\n33. Witchayangkoon,B.ElementsofGPSPrecisePointPositioning. Ph.D.Thesis,SpatialInformationScienceandEngineering,\nUniversityofMaine,Orono,ME,USA,2000.\n34. Pintor,P.;González,E.;Senado,A.;Bohlig,P.;Sperl,A.;Henkel,P.;Simón,J.",
+    "char_length": 3162
+  }
+]

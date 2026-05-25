@@ -1,0 +1,53 @@
+version: v0.2
+papers:
+- paper_id: Borio_2023_ghasp_galileo_has_parser
+  score: 1
+  blockers: 4
+- paper_id: Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA
+  score: 1
+  blockers: 4
+- paper_id: Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+  score: 2
+  blockers: 4
+- paper_id: Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+  score: 1
+  blockers: 4
+- paper_id: Nie_2021_initial_assessment_bds_ppp_b2b_service
+  score: 1
+  blockers: 4
+- paper_id: Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf
+  score: 2
+  blockers: 5
+- paper_id: RT_ZTD_PPP_B2b_HAS_MADOCA
+  score: 1
+  blockers: 4
+- paper_id: Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+  score: 1
+  blockers: 4
+- paper_id: Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+  score: 1
+  blockers: 8
+- paper_id: Taro_Suzuki_2023_qzss_clas_l6_evaluation
+  score: 1
+  blockers: 4
+- paper_id: Wang_2024_ppp_b2b_coverage_ztd_positioning
+  score: 1
+  blockers: 4
+- paper_id: Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+  score: 1
+  blockers: 4
+- paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+  score: 3
+  blockers: 5
+- paper_id: Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b
+  score: 0
+  blockers: 4
+- paper_id: Zhao_Lewen_2025_python_toolbox_for_bds_b2b
+  score: 5
+  blockers: 4
+- paper_id: Zhou_2023_multifrequency_bds3_rt_ppp_b2b
+  score: 1
+  blockers: 4
+- paper_id: Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo
+  score: 2
+  blockers: 5

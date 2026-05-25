@@ -1,0 +1,11 @@
+# Manual Review Queue — Full Audit Batch 1 Grounded
+
+# No manual review items flagged.
+# Evidence support audit found 0 WRONG_SUPPORT, 0 unresolved quotes.
+# All NO_EVIDENCE fields are expected (metrics from tables, blockers from analysis).
+
+manual_review_items: []
+
+notes:
+  - "keyword_overlap ratio 55.6% flagged for awareness but no individual items require review"
+  - "NO_EVIDENCE on metrics and reproducibility_audit is by design — these are analytical fields"

@@ -1,0 +1,28 @@
+{
+  "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+  "expected_category": "related_rtk",
+  "extraction_mode": "batch_d_peida_wu_lite_4calls",
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "mathematical_model": "dual-frequency ionosphere-free undifferenced PPP model",
+  "experiment_epoch": "NOT_MENTIONED",
+  "correction_types": [
+    "orbit corrections (radial, along-track, cross-track)",
+    "clock corrections"
+  ],
+  "ionospheric_handling": "ionosphere-free linear combination of BDS B1I/B3I signals",
+  "domain_relevance_reason": "Directly evaluates real-time kinematic positioning using BDS-3 PPP-B2b service.",
+  "novelty_audit": "Moderate novelty: extends previous static PPP-B2b evaluations to real‑time kinematic scenarios with detailed comparison against reference products.",
+  "metrics": "Orbit and clock correction accuracy vs. post‑processed GBM products; real‑time kinematic PPP positioning accuracy (e.g., RMS, 95% errors).",
+  "main_results": "Not fully detailed in the provided text; expected to quantify PPP-B2b kinematic positioning precision and convergence under open‑sky conditions.",
+  "datasets": "BDS-3 PPP-B2b real‑time correction stream from B2b signal, broadcast ephemeris, GFZ GBM post‑processed multi‑GNSS products, IGS‑provided satellite PCO models.",
+  "reason": "The paper directly evaluates the real-time kinematic positioning performance of the BDS-3 PPP-B2b service.",
+  "reproduction_blockers": 5,
+  "_meta": {
+    "calls_ok": 4,
+    "calls_total": 4,
+    "elapsed_s": 245.9
+  }
+}

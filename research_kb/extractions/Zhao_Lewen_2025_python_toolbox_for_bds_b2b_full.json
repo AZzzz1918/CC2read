@@ -1,0 +1,90 @@
+{
+  "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T17:00:00",
+  "product_source": {
+    "claimed": "BDS PPP-B2b + Galileo HAS",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "note": "Paper covers both PPP-B2b and Galileo HAS but provides separate evaluations for each. Core=True justified by substantial PPP-B2b content and the NavDecoder toolbox.",
+    "grounding_quotes": [
+      "The PPP-B2b service provided by BDS",
+      "BDS PPP-B2b offers superior positioning accuracy compared to Galileo HAS"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "note": "Validation period not explicitly stated in accessible text. Toolbox paper — evaluation period likely described in later sections."
+  },
+  "correction_types": [
+    {"type": "orbit_correction"},
+    {"type": "clock_correction"}
+  ],
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "note": "Toolbox/decoding paper — DCB handling may be part of NavDecoder functionality but not explicitly described in the accessible text sections"
+  },
+  "mathematical_model": {
+    "processing_mode": "Forward Kalman filter (static PPP), combined forward+backward filter (kinematic PPP)",
+    "key_tools": ["NavDecoder Python toolbox for PPP-B2b and HAS decoding"],
+    "grounding_quotes": [
+      "A forward Kalman filter was employed for static PPP, while a combined forward and backward filter was used for kinematic PPP"
+    ]
+  },
+  "datasets": {
+    "correction_sources": ["BDS PPP-B2b", "Galileo HAS"],
+    "reference_product": "Wuhan University final products",
+    "software": "NavDecoder — open-source Python toolbox",
+    "grounding_quotes": [
+      "using the root mean square (RMS) of signal-in-space range error as a metric, with final products from Wuhan University serving as a benchmark"
+    ]
+  },
+  "metrics": {
+    "sisre_rms_m": {
+      "gps_ppp_b2b": 1.0,
+      "bds_ppp_b2b": 0.67,
+      "gps_galileo_has": 0.62,
+      "galileo_has": 0.18
+    },
+    "positioning_accuracy": "0.1m with hourly PPP; 4-hour observation yields most significant improvements"
+  },
+  "main_results": {
+    "summary": "BDS PPP-B2b offers superior positioning accuracy compared to Galileo HAS. NavDecoder toolbox successfully decodes both PPP-B2b and HAS products. SISRE for BDS PPP-B2b: 0.67m, GPS PPP-B2b: 1.0m.",
+    "key_findings": [
+      "BDS PPP-B2b SISRE RMS: 0.67m (BDS), 1.0m (GPS)",
+      "Galileo HAS SISRE RMS: 0.18m (Galileo), 0.62m (GPS)",
+      "Both products achieve 0.1m accuracy with hourly PPP",
+      "4-hour observation periods yield most significant accuracy improvements",
+      "NavDecoder provides first open-source tool for PPP-B2b and HAS decoding"
+    ],
+    "grounding_quotes": [
+      "The average RMS was found to be 1.0 m for GPS in PPP-B2b and 0.62 m for GPS in Galileo HAS",
+      "For BDS in PPP-B2b, the average RMS was 0.67 m, while for Galileo in HAS, it was 0.18 m",
+      "BDS PPP-B2b offers superior positioning accuracy compared to Galileo HAS"
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "B_INCREMENTAL",
+    "rationale": "First open-source Python toolbox (NavDecoder) for decoding both BDS PPP-B2b and Galileo HAS corrections. Addresses critical gap in PPP-B2b tooling. Provides archived data in ASCII format for evaluation.",
+    "grounding_quotes": [
+      "we present a comprehensive Python toolbox called NavDecoder, which can decode both PPP-B2b and Galileo HAS products"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 5,
+    "reproduction_blockers": [
+      "NavDecoder toolbox is open-source (Python) — this paper has better reproducibility than most",
+      "Raw GNSS observation data not provided",
+      "PPP-B2b correction archive not distributed with paper",
+      "Validation dataset configuration details not specified"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "NOT_MENTIONED",
+    "reproduction_blockers_non_empty": true
+  }
+}

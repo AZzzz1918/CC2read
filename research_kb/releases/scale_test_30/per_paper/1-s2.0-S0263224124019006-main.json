@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper uses BDS-3 PPP-B2b real-time corrections as the primary positioning source, tightly integrated with MEMS IMU and LiDAR for enhanced accuracy in degraded GNSS environments.",
+  "boundary_risk": false,
+  "needs_full_audit": true,
+  "source_file": "1-s2.0-S0263224124019006-main.pdf",
+  "paper_id": "1-s2.0-S0263224124019006-main",
+  "extraction_mode": "batch_classify_1call"
+}

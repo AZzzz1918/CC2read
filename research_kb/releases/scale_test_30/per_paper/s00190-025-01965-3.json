@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper proposes a single-station-augmented PPP-B2b method to mitigate satellite-specific clock bias, directly improving BDS-3 PPP-B2b positioning using short-message communication.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s00190-025-01965-3.pdf",
+  "paper_id": "s00190-025-01965-3",
+  "extraction_mode": "batch_classify_1call"
+}

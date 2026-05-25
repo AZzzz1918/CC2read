@@ -1,0 +1,68 @@
+[
+  {
+    "quote_id": "qb_6996dde8af",
+    "span_index": 0,
+    "text": "IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024 5802011\nReal-Time Precise Zenith Tropospheric Delay\nEstimation With BDS PPP-B2b, Galileo HAS,\nand QZSS MADOCA-PPP Services\nPeiyuan Zhou , Zhongkai Zhang, Zejun Liu, Daqian Lyu , Guorui Xiao , Kai Xiao , and Lan Du\nAbstract—Real-time precise point positioning (PPP) is an I. INTRODUCTION\ninnovativeandusefulatmosphereremotesensingtooltoestimate\nzenith tropospheric delays (ZTDs) to support various emerging THE estimation of zenith tropospheric delays (ZTDs)\nmeteorologicalapplicationssuchasweatherandclimateresearch. is significant to support ",
+    "char_length": 6195
+  },
+  {
+    "quote_id": "qb_60a40a9184",
+    "span_index": 1,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\n(10◦N∼55◦N and 75◦W∼135◦W) [19], and the quasi-zenith (ERA5). Finally, the conclusions are summarized in\nsatellite system (QZSS) Multi-GNSS ADvanced Orbit and Section IV.\nClock Augmentation-PPP (MADOCA-PPP) service starts to\nprovide trial service in 2022 to users in the Asia–Pacific II. METHODOLOGY\narea (60◦S∼60◦N and 70◦E∼200◦E) [20], followed by the\nA. Computation of Real-Time Precise Satellite Orbit and\nEuropean Galileo to declare initial service of its high accu-\nClock\nracy service (HAS) via E6B signals in 2023 to global\nuser",
+    "char_length": 5755
+  },
+  {
+    "quote_id": "qb_2200988fe3",
+    "span_index": 2,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nSimilarly, real-time GPS, GLONASS, and Galileo satellite\norbits can be computed with MADOCA-PPP disseminated\nsatelliteorbitcorrectionsδOs ,whichcanbewrittenas[20]\nMAD\nδXs = R δOs (9)\nMAD MAD MAD\nwhere δXs is the obtained satellite orbit corrections in the\nMAD\nECEF frame and R is the transformation matrix and can\nMAD\nbe obtained as\n(cid:20) x˙s xs ×x˙s x˙s xs ×x˙s (cid:21)\nR MAD = (cid:12) (cid:12)x˙s (cid:12) (cid:12) × (cid:12) (cid:12)xs ×x˙s (cid:12) (cid:12) (cid:12) (cid:12)x˙s (cid:12) (cid:12) (cid:12) (cid:12)xs ×x˙s (",
+    "char_length": 5140
+  },
+  {
+    "quote_id": "qb_418e3c0135",
+    "span_index": 3,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\nTABLEI TABLEII\nREAL-TIMEPPPOBSERVATIONCONFIGURATIONS REAL-TIMEPPPPROCESSINGSTRATEGIES\nthe IGS MGEX Analysis Center (WUM), are also used for\nZTDestimationwithquad-constellationPPP(i.e.,GPSL1/L2,\nGLONASS G1/G2, Galileo E1/E5a, and BDS B1/B3). Note\nthat the ZTD estimation is conducted in a simulated real-time\nmanner based on data availability. Furthermore, to minimize\nthe impacts of different reference frames (Table I) on ZTD\nestimation, the receiver coordinates are fixed to respective\nPPP static solutions to ensure self-consistency",
+    "char_length": 2698
+  },
+  {
+    "quote_id": "qb_753b90f32a",
+    "span_index": 4,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nFig. 4. Differences of ZTD-B2B/ZTD-HAS/ZTD-MAD with respect to\nZTD-WUM at CUSV station. Offsets of 0.15 and −0.15 m are applied to\nZTD-B2BandZTD-MADforbettervisibility.\nTABLEIII\nSTATISTICSOFREAL-TIMEZTDSOLUTIONSCOMPAREDTO\nZTD-WUMSOLUTIONS(UNITS:mm)\nFig.3. AvailabilitypercentageoftheestimatedZTDs.\nThe time series of ZTD differences at CUSV are shown IGSWUMproductsaremoreconcentratedtowardzero,which\nin Fig. 4 as an example. It can be seen that the ZTD- are significantly better than those derived with PPP-B2b and\nB2B solutions ha",
+    "char_length": 3489
+  },
+  {
+    "quote_id": "qb_4edcd5f9f9",
+    "span_index": 5,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\nTABLEIV\nSTATISTICSOFREAL-TIMEZTDSOLUTIONSCOMPARED\nTOIGSFINALPRODUCTS(UNITS:mm)\nFig. 5. Differences of real-time ZTDs estimated with (top left) PPP-B2b,\n(top right) HAS, (bottom left) MADOCA-PPP, and (bottom right) WUM at\nCUSVusingIGSfinalZTDproductsasthereferences.\nof 17.8 mm. The quality of ZTD-B2B, with a mean RMSE of\n21.5mm,isthepoorest,whichcouldbeattributedtothelarge\nbiases and variations. The results indicates that the quality of\nZTDs obtained with real-time MADOCA-PPP corrections is\ncomparable to those derived with postpro",
+    "char_length": 1865
+  },
+  {
+    "quote_id": "qb_063283b82e",
+    "span_index": 6,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nFig.7. Timeseriesofreal-timePPPestimatedZWDsatJFNGaswellasZWDsderivedfromnearbyradiosondedata.\nday, while the PPP derived ZWDs are computed with much TABLEV\nhighertemporalresolution,specificallyevery30sinthisstudy. STATISTICSOFREAL-TIMEZWDSOLUTIONS\nTherefore, the comparison is only conducted when both PPP\nCOMPAREDTORADIOSONDE(UNITS:mm)\nderived ZWDs and radiosonde-derived ZWDs are available,\nandthestatisticsoftheobtaineddifferencesarethencalculated\naccordingly.\nThe time series of the PPP estimated ZWDs at JFNG and\nradiosonde-de",
+    "char_length": 2996
+  },
+  {
+    "quote_id": "qb_e185f2e6f1",
+    "span_index": 7,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\nFig.9. Real-timePPPestimatedZWDsagainstZWDsderivedfromERA5atJFNG.\nZWDs[37].Similarly,thedifferencesofPPPestimatedZWDs TABLEVI\nand ERA5-derived ZWDs are calculated when both datasets STATISTICSOFREAL-TIMEZWDSOLUTIONS\nare available, which are then used for the computation of\nCOMPAREDTOERA5(UNITS:mm)\nvarious statistics, including mean, STD, and RMSE.\nThe real-time PPP estimated ZWDs at JFNG and the cor-\nresponding ERA5-derived ZWDs are plotted in Fig. 9. The\nresults show that the real-time PPP estimated ZWDs and the\nERA5-derived ZWD",
+    "char_length": 1911
+  },
+  {
+    "quote_id": "qb_f167f3d390",
+    "span_index": 8,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nFig.10. STDsofreal-timePPPestimatedZWDscomparedtoERA5derivedZWDs.\nIV. CONCLUSION The real-time PPP estimated ZWDs are compared with\nZWDs derived from IGRA radiosonde and ECMWF\nThe freely and openly accessible GNSS satellite-based PPP\nERA5 datasets. It is found that the mean STDs are\naugmentationserviceshavebeenconsideredasacost-effective\nsmaller than 30 mm for all the three real-time ZTD\nalternative to obtain real-time precise ZTD estimates at\nsolutions, which highlights its consistency with com-\nreducedcoststosupportvariousem",
+    "char_length": 4397
+  },
+  {
+    "quote_id": "qb_1ee5bd49f1",
+    "span_index": 9,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\n[2] Q. Zhao, K. Liu, T. Sun, Y. Yao, and Z. Li, “A novel regional [22] H. Kan, Z. Hu, G. Chen, X. Liu, C. Liu, and Q. Zhao, “Performance\ndrought monitoring method using GNSS-derived ZTD and precipita- comparison of orbit and clock augmentation corrections from PPP-\ntion,”RemoteSens.Environ.,vol.297,Nov.2023,Art.no.113778,doi: b2b, HAS and CLAS,” Adv. Space Res., vol. 74, no. 2, pp.668–681,\n10.1016/j.rse.2023.113778. Jul.2024,doi:10.1016/j.asr.2024.04.029.\n[3] Z. Wu et al., “Real-time GNSS tropospheric delay estimation with a [23]",
+    "char_length": 8155
+  },
+  {
+    "quote_id": "qb_9c6e1cc527",
+    "span_index": 10,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nZhongkai Zhang received the Ph.D. degree in Guorui Xiao received the B.Sc. degree from the\nspace geodesy from the University of Bonn, Bonn, SchoolofGeodesyandGeomatics,WuhanUniver-\nGermany. sity, Wuhan, China, and the Ph.D. degree from the\nHe is currently an Associate Professor at Infor- Geodetic Institute, Karlsruhe Institute of Technol-\nmation Engineering University, Zhengzhou, China. ogy,Karlsruhe,Germany.\nHisresearchinterestsincludesatellitenavigationand HeiscurrentlyanAssociateProfessoratInforma-\nastrodynamics. tionEngine",
+    "char_length": 1971
+  }
+]

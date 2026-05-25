@@ -1,0 +1,104 @@
+{
+  "paper_id": "s10291_025_01882_0",
+  "extraction_mode": "full_strict_quotes",
+  "phase": "batch_3_phase_b",
+  "selection_role": "core_ppp_b2b_reclassified",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "authors": "NOT_MENTIONED",
+    "year": 2025,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2025) 29:150 https://doi.org/10.1007/s10291-025-01882-0 RESEARCH Precise autonomous navigation of LEO constellations based on PPP‑B2b signals and inter‑satellite ranging measurements Yali Shi1 · Min Li1,2 · Tianhe Xu1 · Bei He1 · Xuan Yang2 · Dixing Wang1 Received: 15 September 2024 / Accepted: 12 May 2025 / Published online: 27 June 2025 © The Author(s), under exc",
+      "Fortunately, precise point positioning (PPP)-B2b corrections broadcast by geostationary orbit satellites represent a valuable reference for achieving high-accuracy RT precise orbit determination (POD).",
+      "A 10-day experiment revealed that incorporating PPP-B2b corrections notably enhanced the along direction accuracy, and resulted in an average orbital determination accuracy of 0.11, 0.18, and 0.08 m in the radial, along, and cross directions, respectively."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "dates_found": [],
+    "doys_found": [],
+    "months_found": [
+      "June 2025",
+      "May 2025",
+      "September 2024"
+    ],
+    "grounding_quotes": [
+      "(2022) utilized RT GNSS orbit and clock times the spaceborne observations will be interrupted.",
+      "https://d oi.o rg/1 0.1 007/s 10291-0 18-0 746-6 Foerste C, Bruinsma S, Flechtner F, Abrykosov O, Dahle C, Marty Montenbruck O, Kunzi F, Hauschild A (2022) Performance assess- J, Lemoine J, Biancale R, Barthelmes F, Neumayer K, König R ment of GNSS-based real-time navigation for the Sentinel-6 (2013) EIGEN-6C3—the latest combined global gravity field spacecraft."
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 6,
+    "grounding_quotes": [
+      "Moreover, many existing communication and remote sensing LEO satellite constella- Matching algorithm for PPP‑B2b signals tions have the function of inter-satellite links, and full use of inter-satellite ranging data could effectively reduce the burden All PPP-B2b types of messages, including the mask, orbit on ground-based systems and help guarantee stable, continu- corrections, clock corrections,",
+      "(2022a, and DCB corrections must be the same as the IODP of the b) proposed a kinematic orbital determination approach for mask code before the correction is performed."
+    ]
+  },
+  "ionospheric_handling": {
+    "status": "MENTIONED",
+    "iono_mentions": 2,
+    "grounding_quotes": []
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 18,
+    "b2b_mentions": 105,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 6,
+    "iono_mentions": 2
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true,
+    "reclassification_note": "core_ppp_b2b (reclassified from non_b2b based on 105 B2b mentions)"
+  }
+}

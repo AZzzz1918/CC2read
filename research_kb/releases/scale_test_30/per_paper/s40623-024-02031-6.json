@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper evaluates real-time multi-frequency PPP performance using BDS-3 PPP-B2b corrections, directly assessing convergence and accuracy improvements with a new UDUC model.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s40623-024-02031-6.pdf",
+  "paper_id": "s40623-024-02031-6",
+  "extraction_mode": "batch_classify_1call"
+}

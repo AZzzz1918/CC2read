@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper develops a new receiver clock model to improve BDS-3 real-time PPP time transfer using the PPP-B2b correction service, making it a downstream application of the PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s43020-023-00097-3.pdf",
+  "paper_id": "s43020-023-00097-3",
+  "extraction_mode": "batch_classify_1call"
+}

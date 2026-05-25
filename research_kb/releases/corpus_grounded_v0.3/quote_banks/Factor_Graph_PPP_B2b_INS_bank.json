@@ -1,0 +1,32 @@
+[
+  {
+    "quote_id": "qb_c8d4491997",
+    "span_index": 0,
+    "text": "1886 IEEESIGNALPROCESSINGLETTERS,VOL.33,2026\nFactor Graph–Based Tightly Coupled PPP-B2b/INS\nfor Real-Time Precise Positioning\nRuiteYi ,XiangweiZhu ,MingjunOuyang,ChengchaoBai ,andGuangtengFan\nAbstract—Real-time precise point positioning (PPP) based on provides users with real-time high-precision orbit and clock\nBDS-3PPP-B2bcorrectionsoftensuffersfromlimitedrobustness corrections,whichhasgreatlypromotedglobalreal-timeprecise\nincomplexenvironments.Toaddressthesechallenges,thisletter\npointpositioning(PPP)applications[1],[2],[3].\nproposes a factor-graph-based tightly coupled PPP-B2b/inertial\nBDS-3",
+    "char_length": 5960
+  },
+  {
+    "quote_id": "qb_085697c82c",
+    "span_index": 1,
+    "text": "YIetal.:FACTORGRAPH–BASEDTIGHTLYCOUPLEDPPP-B2B/INSFORREAL-TIMEPRECISEPOSITIONING 1887\nthatthevarianceinflationinthefactorgraphaccuratelyreflects\ntherapiddegradationofclockestimatesovertime,whichisthe\ndominanterrorsourceinreal-timeprocessing.\nToensurethereproducibilityoftheexperiment,thestochastic\nmodel explicitly accounts for the noise amplification of the IF\ncombination and the time-varying quality of PPP-B2b correc-\ntions.Thevarianceσ2 fortheIFmeasurementofasatelliteat\nIF\nelevationθismodeledas\n(cid:2) (cid:3)\nσ 2 =R2 · a 2 +\nb2\nσ +(e˙ ·Δt )2 , (6)\nIF type σ sin2 θ clk age\nwherea andb areempi",
+    "char_length": 4666
+  },
+  {
+    "quote_id": "qb_5bdf24c1b4",
+    "span_index": 2,
+    "text": "1888 IEEESIGNALPROCESSINGLETTERS,VOL.33,2026\nthecontinuousINSmodelabove.Thissignificantlyreducesthe\nnumberofvariablesandallowsustohandlehigh-rateIMU(e.g.,\nhundredsofHz)togetherwithlower-ratePPP-B2bobservations\ninaunifiedoptimizationframework.\nC. FactorGraphOptimization\nLetX ={x0,x1,...,xK}denotethesetofstateswithinthe\nFig.2. Typicalscenarioofthedataset.\ncurrenttimewindowandZthecollectionofallIMUandPPP-\nB2b measurements in this window. Under standard Gaussian\nassumptions,theposteriordensityfactorsas\n(cid:9) (cid:9)\np(X|Z)∝f0 (x0 ) f\nIMU\n(x k−1,x\nk\n) f\nG\ns\nNSS\n(x\nk\n), (11)\nk k,s\nwhere f0 (·) is ",
+    "char_length": 4156
+  },
+  {
+    "quote_id": "qb_11275de2ea",
+    "span_index": 3,
+    "text": "YIetal.:FACTORGRAPH–BASEDTIGHTLYCOUPLEDPPP-B2B/INSFORREAL-TIMEPRECISEPOSITIONING 1889\nTABLEI TABLEII\nRMSPOSITIONINGERRORSOFTHEPROPOSEDFACTOR-GRAPH-BASED COMPUTATIONALEFFICIENCYCOMPARISON(PEREPOCH)\nPPP-B2B/INSSOLUTION\nand FGO against the ground truth. At the global scale, both\nof 45.6 ms per epoch. This increased computational load is\ntightly coupled solutions follow the overall driving path and\nexpectedandstemsfromtheFGOframework’sspecificdesign:\nreproducethemainturnsandstraightsegments,indicatingthat\n1) Multiple relinearizations: unlike the single linearization in\nthePPP-B2bcorrectionsandtheI",
+    "char_length": 4947
+  },
+  {
+    "quote_id": "qb_2641fb8ed8",
+    "span_index": 4,
+    "text": "1890 IEEESIGNALPROCESSINGLETTERS,VOL.33,2026\nREFERENCES [14] D. Kiliszek, “GPS and Galileo precise point positioning performance\nwithtroposphericestimationusingdifferentproducts:BRDM,RTS,HAS,\n[1] J.Tao,J.Liu,Z.Hu,Q.Zhao,G.Chen,andB.Ju,“Initialassessmentof and MGEX,” Remote Sens., vol. 17, no. 12, Jun. 2025, Art. no. 2080,\ntheBDS-3PPP-B2bRTScomparedwiththeCNESRTS,”GPSSolutions, doi:10.3390/rs17122080.\nvol.25,no.4,Oct.2021,Art.no.131,doi:10.1007/s10291-021-01168-1. [15] W.Li,C.Pan,J.Gao,Z.Li,andZ.Tao,“Comprehensiveevaluationof\n[2] Y.Xu,Y.Yang,andJ.Li,“PerformanceevaluationofBDS-3PPP-B2b real-tim",
+    "char_length": 5553
+  }
+]

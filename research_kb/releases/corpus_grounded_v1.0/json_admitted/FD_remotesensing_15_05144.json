@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_remotesensing_15_05144",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "A Comparative Study of Factor Graph Optimization-Based and Extended Kalman Filter-Based PPP-B2b/INS Integrated Navigation"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article A Comparative Study of Factor Graph Optimization-Based and Extended Kalman Filter-Based PPP-B2b/INS Integrated Navigation ShijiXin1,2,XiaomingWang1,3,* ,JingleiZhang1,KaiZhou1andYufeiChen1 1 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China; xinshiji21@mails.ucas.ac.cn(S.X.);zhangjinglei@aircas.ac.cn(J.Z.);zhoukai@aircas.ac.",
+      "However,thepotentialofahigh-precisionpositioningsystembasedontheFGOalgorithm,combining INSandPPP-B2bandthatdoesnotrelyonreferencestationsandnetworkconnections,hasnotbeen fullyexplored.Inthisstudy,wedevelopedalooselycoupledPPP-B2b/INSmodelbasedontheEKF andFGOalgorithms.Experimentsindifferenturbanroadandoverpassscenarioswereconductedto investigatethepositioningperformanceofthetwodifferentintegration"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 6
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 23,
+    "b2b": 150,
+    "has": 0,
+    "dcb": 6,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

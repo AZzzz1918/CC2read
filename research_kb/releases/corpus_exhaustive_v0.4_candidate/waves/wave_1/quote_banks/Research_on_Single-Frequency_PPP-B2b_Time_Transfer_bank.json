@@ -1,0 +1,38 @@
+[
+  {
+    "quote_id": "qb_ebf05da232",
+    "span_index": 0,
+    "text": "Research on Single-Frequency\nPPP-B2b Time Transfer\nZaimin He, Lan Li, Runzhi Zhang, Juan Hou, Gongwei Xiao, Wei Guang,\nJihai Zhang, and Xiangyi He\nTime transfer based on global navigation satellite sys- common-view (CV), all-in-view (AV), and GNSS carrier\ntem (GNSS) using precise point positioning (PPP) phase. Compared with CV and AV based on low-precision\nis a critical technique in universal time coordinated pseudorange observations, GNSS carrier phase time transfer\n(UTC) calculation. PPP relies on precise satellite orbit and has higher time transfer accuracy. It is realized by means of\nsatel",
+    "char_length": 4867
+  },
+  {
+    "quote_id": "qb_a6abf39780",
+    "span_index": 1,
+    "text": "In this study, a new single-frequency PPP-B2b time transfer delays is called GRAPHIC [7]. Meanwhile, combining with\nwas investigated. Two TAI timekeeping laboratories, includ- broadcast ionospheric products such as the Beidou global\ning the National Time Service Center of the Chinese Academy broadcast ionospheric delay correction model (BDGIM) [8] to\nof Sciences (NTSC) and the Telecommunication Laboratories replace IGS ionospheric products [9], constraining the iono-\n(TL), external atomic clock IGS station (USUD) and an IGS sta- spheric delay in the pseudorange observation equation with\ntion (",
+    "char_length": 5534
+  },
+  {
+    "quote_id": "qb_7c47c62d4c",
+    "span_index": 2,
+    "text": "observations from two\nGNSS receivers, named\nBDS-3/GPS carrier phase and\nPPP-B2b data stream Navigation ephemeris NTTS and NT07, with com-\npseudorange observations\nmon antenna and external\nclock. The observations\nPrecise satellites participating zero-baseline\norbit and clock CCD were used for 11 d\nfrom day of year (DoY) 86\nGross error detection to 96 in 2022. The PPP-B2b\nData preprocessing Cycle slip detection\nclock slip detection product binary files were\nsaved by the SINO K803 kit,\nwhich was equipped with\nPPP model and\nerror correction PPP-B2b raw binary receiv-\ning module. Moreover, three\nti",
+    "char_length": 2632
+  },
+  {
+    "quote_id": "qb_c57f063fcb",
+    "span_index": 3,
+    "text": "Table 2 – Detailed information of time links receivers\nStation/ID Organization Receiver Clock\nSEPT\nNTTS NTSC External\nPOLARX5\nSEPT\nNT07 NTSC External\nPOLARX5\nSEPT\nTLM2 TL External\nPOLARX5\nSEPT External\nUSUD IGS\nPOLARX5 H-Maser\nJAVAD TRE_3\nCUSV IGS Internal\nDELTA\n–12\n–14\n–16\n–18\n–20\n–22\n086 088 090 092\nDoY\nPPP-B2b tracking stations are only in the territory of China. As\na result, it is apparent that the time comparison of BDS-3 and\nBDS-3 + GPS PPP-B2b is better than that of a single GPS sys-\ntem. The content of this study is mainly based on BDS-3 and\nBDS-3 + GPS.\nThe zero-baseline CCD result is",
+    "char_length": 2971
+  },
+  {
+    "quote_id": "qb_262a31fd7f",
+    "span_index": 4,
+    "text": "as a reference to measure\n–4.6 the accuracy of the time\n–4.8 comparison using the PPP-\n–5.0 B2b product. Compared\n–5.2 with GBM time compar-\n–5.4\nison, the reference time\n–5.6\ncontained in the receiver\n–5.8\nclock offset using the PPP-\n–6.0\nB2b product is continuous.\n–6.2\n086 088 090 092 The receiver clock offset\nDoY (300 s interval) through GPS time transfer\nusing the PPP-B2b product\nis intermittent. Only GPS\nSF PPP-B2b time compar-\nison is not recommended,\nwhich is similar to DF\nPPP-B2b time transfer.\nThe CCD result sequence\nof SF PPP-B2b fluctuates\nwithin 0.2 ns. Taking the\nGBM product as a ",
+    "char_length": 3008
+  },
+  {
+    "quote_id": "qb_d2f2c593a6",
+    "span_index": 5,
+    "text": "2022. [Online]. Available: http://www.beidou.gov.cn/xt/ Runzhi Zhang (zhangrunzhi@ntsc.ac.cn) is currently working\ngfxz/202008/P020200803362062482940.pdf. toward an M.S. degree in communication and information sys-\n[5] J. Tao, J. N. Liu, Z. G. Hu, Q. L. Zhao, G. Chen and B. X. Ju, “Initial tem with National Time Service Center, Chinese Academy of\nsssessment of the BDS-3 PPP-B2b RTS compared with the CNES Sciences, Xi'an, China. His main research fields are time trans-\nRTS,” GPS Solutions, vol. 25, article 131, Jul. 2021. fer and high precision positioning. He received a B.E. degree in\n[6] R. Z",
+    "char_length": 5122
+  }
+]

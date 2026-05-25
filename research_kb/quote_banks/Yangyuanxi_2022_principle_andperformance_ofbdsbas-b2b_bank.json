@@ -1,0 +1,1760 @@
+[
+  {
+    "quote_id": "qb_1116d97b07",
+    "span_index": 0,
+    "text": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/359227326\nPrinciple and performance of BDSBAS and PPP-B2b of BDS-3\nArticle  in  Satellite Navigation · December 2022\nDOI: 10.1186/s43020-022-00066-2\nCITATIONS\n52\nREADS\n478\n6 authors, including:\nYuanxi Yang\nState Key Laboratory of Geo-Information Engineering, Xi’an 710054, China\n241 PUBLICATIONS   7,216 CITATIONS   \nSEE PROFILE\nYangyin Xu\n10 PUBLICATIONS   352 CITATIONS   \nSEE PROFILE\nAll content following this page was uploaded by Yuanxi Yang on 17 March 2022.",
+    "char_length": 574
+  },
+  {
+    "quote_id": "qb_948efe67f5",
+    "span_index": 1,
+    "text": "The user has requested enhancement of the downloaded file.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_346628b143",
+    "span_index": 2,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_a9416ac172",
+    "span_index": 3,
+    "text": "Satellite Navigation             (2022) 3:5  \nhttps://doi.org/10.1186/s43020-022-00066-2\nORIGINAL ARTICLE\nPrinciple and performance of BDSBAS \nand PPP‑B2b of BDS‑3\nYuanxi Yang1,2*  , Qun Ding3, Weiguang Gao4, Jinlong Li5, Yangyin Xu1,2 and Bijiao Sun1,2 \nAbstract \nWithin the framework of differential augmentation, this paper introduces the basic technical framework and per-\nformance of the BeiDou Global Navigation Satellite System (BDS-3) Satellite-Based Augmentation System (BDSBAS), \nincluding orbit products, satellite clock offset products, ionosphere and its integrity performance.",
+    "char_length": 590
+  },
+  {
+    "quote_id": "qb_35df8d5cb2",
+    "span_index": 4,
+    "text": "The basic principle \nof BDS-3 Precise Point Positioning (PPP-B2b) is expounded, the similarities and differences between the PPP service \nprovided by BDS-3 and International Global Navigation Satellite System (GNSS) Service (IGS) are discussed, and the \nlimitations of PPP-B2b are analyzed.",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_d3c629506a",
+    "span_index": 5,
+    "text": "Since both the BDSBAS and PPP-B2b utilize a ground monitoring station network \nto determine the satellite orbits and clock offset corrections, and broadcast differential corrections through the three \nGeostationary Orbit (GEO) satellites of BDS-3, the feasibility of the co-construction of BDSBAS and PPP-B2b is analyzed, \nstrategies for the infrastructure sharing and correction broadcasting are presented, and the influences of BDSBAS \ncorrection broadcasting strategy adjustment are evaluated.",
+    "char_length": 496
+  },
+  {
+    "quote_id": "qb_8b3ef4021d",
+    "span_index": 6,
+    "text": "In addition, it assesses the possibility of broadcasting \ndifferential corrections through the Inclined Geosynchronous Orbit (IGSO) satellites of BDS-3, and the feasibility of \naugmenting satellite navigation with Low Earth Orbit (LEO) satellites.",
+    "char_length": 247
+  },
+  {
+    "quote_id": "qb_d0994b2dc4",
+    "span_index": 7,
+    "text": "Keywords:  Satellite-based augmentation, Precise point positioning, Precise orbit, Precise clock offset, Ionospheric \nmodel\n© The Author(s) 2022.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_88d1112670",
+    "span_index": 8,
+    "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which \npermits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the \noriginal author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made.",
+    "char_length": 361
+  },
+  {
+    "quote_id": "qb_7f011687cd",
+    "span_index": 9,
+    "text": "The images or \nother third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line \nto the material.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_106fe74dbf",
+    "span_index": 10,
+    "text": "If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory \nregulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_5d7f9cb0f7",
+    "span_index": 11,
+    "text": "To view a copy of this \nlicence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_d6e356164d",
+    "span_index": 12,
+    "text": "Introduction\nThe BeiDou Global Navigation Satellite System (BDS-\n3) provides four types of positioning services, i.e.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_2f97365f1a",
+    "span_index": 13,
+    "text": "Radio \nDetermination Satellite Service (RDSS, an active posi-\ntioning based on radio measurement), Standard Point \nPositioning (SPP), positioning based on BDS-3 Satellite-\nBased Augmentation System (BDSBAS) and Precise \nPoint Positioning (PPP) through B2b signals of Geosta-\ntionary Orbit (GEO) satellites (PPP-B2b) (Yang et  al., \n2018, 2019, 2020, 2021).",
+    "char_length": 356
+  },
+  {
+    "quote_id": "qb_4210f473d9",
+    "span_index": 14,
+    "text": "The SPP of BDS-3 applies the \nsame principle as other Global Navigation Satellite Sys-\ntems (GNSSs), and its positioning accuracy is slightly bet-\nter than that of Global Positioning System (GPS) because \nthe Signal-in-Space Range Errors (SISRE) of BDS-3 is \nsmaller (Montenbruck et al., 2020).",
+    "char_length": 294
+  },
+  {
+    "quote_id": "qb_9a98d58f9e",
+    "span_index": 15,
+    "text": "BDSBAS applies the \nsame principle and standards as other Satellite-Based \nAugmentation Systems (SBAS), and is embedded into \nBeiDou Navigation Satellite System (BDS) as a compo-\nnent.",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_b168a7d243",
+    "span_index": 16,
+    "text": "The principle of BDS PPP is consistent with that \nof the International GNSS Service (IGS), but the service \ncoverage area and service mode are different.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_4eb66bf0fe",
+    "span_index": 17,
+    "text": "PPP is also \nembedded into the BDS, and become one of the featured \nservices.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_f87a10014d",
+    "span_index": 18,
+    "text": "Differential positioning is a key to GNSS position-\ning augmentation.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_3f4d7db2c1",
+    "span_index": 19,
+    "text": "Ground reference stations with high-\naccuracy known coordinates can be used to calculate \nvarious correction information, such as the satellite orbit \nerrors, satellite clock offsets and atmospheric propaga-\ntion errors, and then the calculated corrections are usu-\nally transmitted to user terminals.",
+    "char_length": 301
+  },
+  {
+    "quote_id": "qb_1fb2d529ae",
+    "span_index": 20,
+    "text": "GNSS augmentation \ncan be divided into the pseudo range and carrier phase \ndifferential augmentation.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_30b76711aa",
+    "span_index": 21,
+    "text": "The former possesses good \nreal-time characteristic, but relatively lower accuracy; \nOpen Access\nSatellite Navigation\nhttps://satellite-navigation.springeropen.com/\n*Correspondence:  yuanxi_yang@163.com\n1 State Key Laboratory of Geo-Information Engineering, Xi’an 710054, \nChina\nFull list of author information is available at the end of the article",
+    "char_length": 349
+  },
+  {
+    "quote_id": "qb_5029e96f77",
+    "span_index": 22,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_556ee41359",
+    "span_index": 23,
+    "text": "Page 2 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_f8633e1ba3",
+    "span_index": 24,
+    "text": "Satellite Navigation             (2022) 3:5 \nthe latter can achieve higher accuracy, but relatively poor \ntimeliness for it takes a longer time for the results to \nconverge.",
+    "char_length": 173
+  },
+  {
+    "quote_id": "qb_5f7b4cf50c",
+    "span_index": 25,
+    "text": "The GNSS augmentation system can be divided into \nGround-Based Augmentation System (GBAS) and SBAS \naccording to the broadcasting mode of augmented infor-\nmation.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_365410fc5d",
+    "span_index": 26,
+    "text": "GBAS generally broadcasts various differential \ncorrections to users through terrestrial radio or inter-\nnet, such as the Real-Time Kinematic (RTK) positioning \nand Local Area Augmentation System (LAAS).",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_2a0b1a70c3",
+    "span_index": 27,
+    "text": "SBAS \nbroadcast differential corrections through GEO satellites, \nwhich generally provide critical support for civil aviation \nsafety.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_bb2e914eb3",
+    "span_index": 28,
+    "text": "Typical SBASs include United States’ “Wide Area \nAugmentation System” (WAAS), the European Union’s \n“European Geostationary Navigation Overlay System” \n(EGNOS), Russia’s “System for Differential Corrections \nand Monitoring” (SDCM), Japan’s “Multi-Functional \nTransport Satellite (MTSAT) Satellite-based Augmenta-\ntion System” (MSAS) and India’s “GPS Aided GEO Aug-\nmentation Navigation” (GAGAN) (Shao et al., 2020).",
+    "char_length": 415
+  },
+  {
+    "quote_id": "qb_de800d44cc",
+    "span_index": 29,
+    "text": "According to the coverage of the ground monitor-\ning (tracking) station network and the augmentation \nservice, GNSS augmentation can be divided into wide \narea augmentation system and local augmentation sys-\ntem.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_f9df89de89",
+    "span_index": 30,
+    "text": "The former is generally used for national-scale or \nregional-scale GNSS augmentation, while the latter for \nthe high-dynamic vehicle precision approach or preci-\nsion landing guidance in specific application scenarios, \nsuch as airports.",
+    "char_length": 237
+  },
+  {
+    "quote_id": "qb_ffdfd444d3",
+    "span_index": 31,
+    "text": "RTK positioning still belongs to local \naugmentation even though it can provide ultra-long dis-\ntance RTK service (Li et al., 2017a, b).",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_621be20798",
+    "span_index": 32,
+    "text": "PPP based on the \nIGS center products is generally regarded as wide area \naugmentation.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_fcef33ac85",
+    "span_index": 33,
+    "text": "This paper focuses on the satellite-based augmentation \nand PPP technology and analyzes their basic principles \nand possible development trends.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_a292d1bcb7",
+    "span_index": 34,
+    "text": "The reliability of SBAS is a key issue for life safety.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_94a717ae1a",
+    "span_index": 35,
+    "text": "SBAS generally adopts navigation satellite signals (obser-\nvations) received by continuous ground tracking stations \nand sends them to a ground processing center, where \nvarious corrections are calculated, such as satellite orbit \ncorrections, clock offset corrections and ionospheric \ncorrections.",
+    "char_length": 298
+  },
+  {
+    "quote_id": "qb_c8167ffd59",
+    "span_index": 36,
+    "text": "Then these corrections are broadcast to \nusers via the GEO satellites.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_3ebd47e0fc",
+    "span_index": 37,
+    "text": "Considering the life safety, \nit is necessary to create redundancy and backup for the \nground processing center, uplink station, and satellites \nthat broadcast the corrections.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_9b0dd92ddf",
+    "span_index": 38,
+    "text": "In addition, integrity \ninformation is broadcast by SBAS as well.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_d07cd6ccc9",
+    "span_index": 39,
+    "text": "The PPP is a generalized differential positioning \nmethod in the authors’ viewpoint.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_77fb4c2747",
+    "span_index": 40,
+    "text": "PPP has been widely \nused in many fields since Zumberge et  al.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_d035b58fb8",
+    "span_index": 41,
+    "text": "(1997) pro-\nposed the method.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_78ef7ff850",
+    "span_index": 42,
+    "text": "It generally includes a global refer-\nence station network to collect the observed GNSS data \nand the related service centers to calculate the satellite’s \nprecise orbits, precise clock offset, and ionospheric grid \ncorrections which are usually broadcast to users through \nthe internet.",
+    "char_length": 287
+  },
+  {
+    "quote_id": "qb_2553f6f8a9",
+    "span_index": 43,
+    "text": "Some scholars regard PPP as a non-differ-\nential positioning technology.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_c6da943ee0",
+    "span_index": 44,
+    "text": "It seems that PPP can real-\nize decimeter-, centimeter- and even millimeter-level \npositioning accuracy by only utilizing the precise satel-\nlite orbit, clock offset products, and corresponding pre-\ncise observation models, and no need for the differential \ncalculation from nearby reference stations.",
+    "char_length": 301
+  },
+  {
+    "quote_id": "qb_5110b925df",
+    "span_index": 45,
+    "text": "However, \nthe corrections used in PPP rover-end including satellite \norbit errors and clock offsets are indeed solved from a \nglobal reference network.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_1db6840258",
+    "span_index": 46,
+    "text": "It is in principle also a differen-\ntial positioning but with respect to a network, instead of \na single or few reference stations (Glaner & Weber2021; \nHéroux & Kouba, 1995).",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_d5d0ff064a",
+    "span_index": 47,
+    "text": "The influences of these common \nerrors (satellite orbit error and clock offset error) are \nweakened by the differential positioning model.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_eec48f2cea",
+    "span_index": 48,
+    "text": "In addi-\ntion, PPP employs the carrier phase for positioning, and \ntherefore many researches focus on the fixing of carrier-\nphase ambiguity parameters (Gao & Shen, 2002; Ge et al., \n2008).",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_6b0a0333e4",
+    "span_index": 49,
+    "text": "PPP-B2b service of China’s BDS is a satellite-based ser-\nvice.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_eec0c35243",
+    "span_index": 50,
+    "text": "The observations from the densified ground tracking \nnetwork are collected and sent to the ground operation \ncontrol center, where the precise satellite orbits and clock \noffsets of BDS and GPS constellations are calculated, and \nthen uplinked to the three GEO satellites.",
+    "char_length": 272
+  },
+  {
+    "quote_id": "qb_2081af47db",
+    "span_index": 51,
+    "text": "Then the GEO \nsatellites broadcast them through B2b signals to the users \nin China and surrounding areas (Yang et al., 2020, 2021).",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_1b376351f8",
+    "span_index": 52,
+    "text": "The satellite-based augmentation services of BDS and \nPPP-B2b are similar, but have their own characteristics.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_24524bd60c",
+    "span_index": 53,
+    "text": "We describe the principles and performance of BDSBAS \nand PPP-B2b in the following two sections, respectively.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_af67baa4ad",
+    "span_index": 54,
+    "text": "Then the possible future developments for BDSBAS and \nsatellite-based PPP are discussed.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_3e29d56629",
+    "span_index": 55,
+    "text": "BDSBAS\nThe construction of China’s SBAS, known as BDSBAS, is \ncompleted.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_6dd34fcf18",
+    "span_index": 56,
+    "text": "The corresponding single frequency and dual \nfrequency positioning performances were described and \nanalyzed (Chen et al., 2020; Yang et al., 2021); the dual \nfrequency integrity parameter performance of BDSBAS \n(Shao et al., 2020) and the ephemeris correction perfor-\nmance of BDSBAS in China (Jin et al., 2021) were also \nanalyzed.",
+    "char_length": 333
+  },
+  {
+    "quote_id": "qb_fa92410fd3",
+    "span_index": 57,
+    "text": "Since the ionospheric correction is an impor-\ntant influencing factor, some scholars analyzed the ion-\nospheric anomaly detection method of BDSBAS (Bao \net al., 2019).",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_1d75a900b2",
+    "span_index": 58,
+    "text": "BDSBAS is a service component of BDS and they \nare  constructed simultaneously.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_868272399f",
+    "span_index": 59,
+    "text": "BDSBAS is composed \nof ground monitoring stations, a data processing center, \nthe  differential correction product uplink antenna, and",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_828235437f",
+    "span_index": 60,
+    "text": "Page 3 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_0f55e7cc35",
+    "span_index": 61,
+    "text": "Satellite Navigation             (2022) 3:5 \n\t\nthe  correction broadcasting satellite system.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_e77a56bf8f",
+    "span_index": 62,
+    "text": "It follows \nthe International Civil Aviation Organization (ICAO) \nstandards and is consistent with the principles of other \ninternational SBAS systems.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_7170a4c7ba",
+    "span_index": 63,
+    "text": "BDSBAS employs the three \nGEO satellites of BDS-3 located at 80° E (PRN 144), \n110.5° E (PRN 143) and 140° E (PRN 130), respectively, \nto broadcast corrections (Liu et al., 2021); the uplink sys-\ntem of BDS is used to inject the differential corrections \nof BDS and other GNSSs, calculated by the ground data \nprocessing center, into GEO satellites.",
+    "char_length": 349
+  },
+  {
+    "quote_id": "qb_5bdc2b4501",
+    "span_index": 64,
+    "text": "Specifically, the \nBDSBAS-B1C signal protocol only supports GPS and \nGLObal NAvigation Satellite System (GLONASS), while \nBDSBAS-B2a signal supports BDS, GPS, Galileo Naviga-\ntion Satellite System (Galileo) and GLONASS.",
+    "char_length": 219
+  },
+  {
+    "quote_id": "qb_ce211972db",
+    "span_index": 65,
+    "text": "The time scale and reference coordinate system of \nBDSBAS are consistent with other existing SBAS sys-\ntems, such as WAAS and EGNOS.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_35cbd8a504",
+    "span_index": 66,
+    "text": "The time system of \nBDSBAS is consistent with the BDS Time (BDT) tBDT.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_988d600288",
+    "span_index": 67,
+    "text": "The single frequency Service Network Time (SNT) tSNT \nof BDSBAS can be expressed as tSNT = tBDT + 14, and the \nsynchronization with GPS Time (GPST) tGPST is main-\ntained within 50 ns (CSNO., 2020).",
+    "char_length": 197
+  },
+  {
+    "quote_id": "qb_4520a3873d",
+    "span_index": 68,
+    "text": "The coordinate sys-\ntem adopts World Geodetic System 1984 (WGS84) as \nrequired by ICAO.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_187c8c7329",
+    "span_index": 69,
+    "text": "However, it must be noted that Chi-\nna’s BDS adopts BeiDou Coordinate System (BDCS), \nwhich is aligned with China Geodetic Coordinate System \n2000 (CGCS2000) (Yang, 2009).",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_c7fe470a9f",
+    "span_index": 70,
+    "text": "CGCS2000 is consistent \nwith WGS-84 at centimeter level and the slight difference \nwill not affect the flight safety for civil aviation users.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_ff4ce8b539",
+    "span_index": 71,
+    "text": "BDSBAS provides two augmented signals, namely \nBDSBAS-B1C (central frequency: 1575.42  MHz) and \nBDSBAS-B2a (central frequency: 1176.45  MHz).",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_b7300dc163",
+    "span_index": 72,
+    "text": "BDS-\nBAS-B1C adopts the Binary Phase Shift Keying (BPSK(1)) \nmodulation mode with a symbol rate of 250 bit/s, which \nbroadcasts GPS augmentation corrections (compat-\nible with GLONASS in the future) mainly for civil avia-\ntion single frequency users of GPS L1C/A; BDSBAS-B2a \nadopts the Quadrature Phase Shift Keying (QPSK(10)) \nmodulation mode with a symbol rate of 250 bit/s, which \nbroadcasts BDS-3/GPS augmentation corrections (com-\npatible with Galileo and GLONASS in the future), mainly \nfor civil aviation dual frequency users of BDS-3 B1C/B2a \nand GPS L1C/L1A/L5.",
+    "char_length": 571
+  },
+  {
+    "quote_id": "qb_2aae51379e",
+    "span_index": 73,
+    "text": "The data processing center is responsible for collecting \nthe tracking data from each ground reference station and \ncalculating the corrections of state space domain (satel-\nlite orbit corrections, satellite clock offset corrections \nand ionospheric error corrections) in BDSBAS.",
+    "char_length": 279
+  },
+  {
+    "quote_id": "qb_c3aea20edc",
+    "span_index": 74,
+    "text": "Then \nthe master control station determines the effectiveness \nof the satellite signal through various integrity checks, \nand the modulated ranging signals with differential cor-\nrections and integrity information are broadcast to users \nthrough the three GEO satellites of BDS-3.",
+    "char_length": 280
+  },
+  {
+    "quote_id": "qb_2da72b7ff5",
+    "span_index": 75,
+    "text": "The level of \nthe received BDSBAS-B1C signal at the antenna port is \nwithin the range of − 161 dBW to − 153 dBW, if a user \ncan observe any GEO satellite of BDS with an elevation \nangle greater than or equal to 5 degrees.",
+    "char_length": 221
+  },
+  {
+    "quote_id": "qb_b1195e9703",
+    "span_index": 76,
+    "text": "In addition to broadcasting the differential corrections \nand integrity information of BDSBAS, the GEO satellites \nof BDS-3 also provide normal ranging and time transmis-\nsion services through B1I and B3I signals.",
+    "char_length": 213
+  },
+  {
+    "quote_id": "qb_f851698090",
+    "span_index": 77,
+    "text": "The ground monitoring system of BDSBAS is tempo-\nrarily composed of 27 stations (several other stations \nare to be built), which are basically evenly distributed \nthroughout the territory of China.",
+    "char_length": 197
+  },
+  {
+    "quote_id": "qb_15b5ecb784",
+    "span_index": 78,
+    "text": "The ionospheric model of BDSBAS adopts the iono-\nspheric parameters determined by the ground moni-\ntoring stations, and the 5° × 5° Grid Ionospheric \nVertical Delay (GIVD) is obtained using the Inverse \nDistance Weighting (IDW) method.",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_f566a45817",
+    "span_index": 79,
+    "text": "The user needs to \ncalculate the ionospheric correction of the location by \ninterpolating the values at its surrounding grid points \n(Bao et  al., 2019; Ma et  al., 2021).",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_584397bb17",
+    "span_index": 80,
+    "text": "However, there are \nonly about 80% grid points in China whose ionospheric \ndelay parameters can be reliably calculated, which greatly \nreduce the availability and continuity of the ionospheric \ncorrections in China’s border areas due to the lack of \nionospheric monitoring information in China’s sur-\nrounding areas.",
+    "char_length": 316
+  },
+  {
+    "quote_id": "qb_258b55da57",
+    "span_index": 81,
+    "text": "Therefore, more monitoring stations in \nthe surrounding areas are required for determining the \nionospheric delay of BDSBAS.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_b148ce860e",
+    "span_index": 82,
+    "text": "Like other SBASs in the \nUnited States and Japan, BDSBAS also uses Kriging fit-\nting method to calculate the GIVD of grid points, with \nthe aim of improving the continuity of GIVD parameters.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_bde72afcb0",
+    "span_index": 83,
+    "text": "The availability of BDSBAS GIVD can reach 99.88%, and \nthe ionospheric integrity risk is about 0.12%.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_045834b296",
+    "span_index": 84,
+    "text": "The positioning accuracy of BDSBAS is evaluated \nfor the different stations in the territory of China.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_c37e049bc6",
+    "span_index": 85,
+    "text": "Only \nthe positioning accuracy of stations in Beijing, Sanya, \nLhasa, Qiemo, Shanghai, Xi’an and Kunming are listed in \nTable 1.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_acbc041e23",
+    "span_index": 86,
+    "text": "The data of single-frequency and dual-frequency \nBDSBAS from December 4 to 10, 2021, namely the Day \nof Year (DOY) 338–344 are used to evaluate the position-\ning accuracy in the horizontal and vertical components at \n95% confidence level, with the sampling rate of 1 Hz.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_d6315d57c1",
+    "span_index": 87,
+    "text": "In Table  1, HPE and VPE denote the horizontal and \nvertical positioning errors respectively.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_5f31ace480",
+    "span_index": 88,
+    "text": "It can be seen \nfrom Table  1 that the BDSBAS single-frequency posi-\ntioning accuracies for 7 stations are all better than 2.0 \nand 3.0 m in the horizontal and vertical components at \nthe  95% confidence level, with an average of 1.48 and \n2.78 m, respectively.",
+    "char_length": 261
+  },
+  {
+    "quote_id": "qb_dfaf58e554",
+    "span_index": 89,
+    "text": "It can be seen from Table 2 that the averaged position-\ning accuracies of BDSBAS dual-frequency for 7 stations",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_326906c61f",
+    "span_index": 90,
+    "text": "Page 4 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_deb36111a1",
+    "span_index": 91,
+    "text": "Satellite Navigation             (2022) 3:5 \nare 1.31 and 2.16 m in the horizontal and vertical compo-\nnents (95%), respectively.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_6f94795023",
+    "span_index": 92,
+    "text": "The results show that the GIVD \ncan effectively correct the ionospheric delays in single \nfrequency positioning, but there are residual ionospheric \nerrors; dual-frequency users can eliminate the influence \nof ionosphere, and the positioning accuracy is signifi-\ncantly improved compared with that of single-frequency.",
+    "char_length": 318
+  },
+  {
+    "quote_id": "qb_2da9a592b7",
+    "span_index": 93,
+    "text": "It must be noted that the positioning accuracy of BDS-\nBAS in the border areas is slightly lower than that in \ncentral areas since the ground monitoring stations are \ndistributed in the territory of China.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_182035762e",
+    "span_index": 94,
+    "text": "The single-frequency positioning availability of BDS-\nBAS is greater than 99.99% in general and reaches \n99.97% in some western regions.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_1aeaec5c7a",
+    "span_index": 95,
+    "text": "Considering the limi-\ntation of BDSBAS monitoring station distribution and \nthe continuity and availability of ionospheric grid data, \nit is recommended that BDSBAS users employ the Dual \nFrequency Multi Constellation (DFMC) augmentation \nservice provided by BDSBAS-B2a signal to implement \nprecision positioning and CAT-I precision approach.",
+    "char_length": 342
+  },
+  {
+    "quote_id": "qb_c13305d203",
+    "span_index": 96,
+    "text": "PPP‑B2b\nPPP-B2b embedded in BDS-3 is a featured service pro-\nvided by BDS-3 GEO satellites (Yang et  al., 2021).",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_8662a6a294",
+    "span_index": 97,
+    "text": "The \ncorresponding service coverage is clearly described in the \ninterface document.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_b51c68965e",
+    "span_index": 98,
+    "text": "The signal design and signal format \nof PPP-B2b are also introduced in the relevant papers \n(Liu et al., 2020).",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_1723582d26",
+    "span_index": 99,
+    "text": "Some scholars verified the service per-\nformance and the efficiency of orbit corrections and \nclock offset corrections (Xu et al., 2021).",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_ec3f0ba49d",
+    "span_index": 100,
+    "text": "The BDS-3 PPP-B2b employs dozens of high-precision \ncontinuous tracking stations (with known station coordi-\nnates and even precise time) distributed in the territory \nof China to track BDS satellites and obtain pseudo-code \nand carrier phase observations.",
+    "char_length": 256
+  },
+  {
+    "quote_id": "qb_01659dbbff",
+    "span_index": 101,
+    "text": "The BeiDou operation \ncontrol center calculates the precise orbits, clock off-\nsets, differential code bias and user range accuracy index \n(URAI) to generate rapid ephemeris parameters, which \nare sent through the uplink station to three GEO sat-\nellites and then broadcast to the users in China and its \nsurrounding areas.",
+    "char_length": 323
+  },
+  {
+    "quote_id": "qb_acfd218d67",
+    "span_index": 102,
+    "text": "Users can easily determine their loca-\ntions with high accuracy by using dual-frequency BDS \nterminals.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_2aff3a5789",
+    "span_index": 103,
+    "text": "The \ncentral \nfrequency \nof \nPPP-B2b \nsignal \nis \n1207.14 MHz and the bandwidth is 20.46 MHz.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_fe40f98796",
+    "span_index": 104,
+    "text": "The PPP-\nB2b I-component (PPP-B2b-I) signal adopts BPSK (10) \nmodulation mode with RHCP polarization mode.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_562c8b5759",
+    "span_index": 105,
+    "text": "When \nthe right-hand circularly polarized antenna has 0 dBi of \ngain (or the linear polarized antenna has 3 dBi of gain), \nthe minimum received power level of the PPP-B2b_I on \nground is -160 dBW (CSNC, 2020).",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_9a66e4f164",
+    "span_index": 106,
+    "text": "The frame of PPP-B2b-I navigation message is concat-\nenated together with 16 symbols of the preamble, 6 sym-\nbols of the PRN, and 6 symbols of the reserved flags to \nform 1000 symbols in total, and the broadcast time of \neach frame is 1 s after 64-ary Low-Density Parity Check \n(LDPC) channel coding.",
+    "char_length": 300
+  },
+  {
+    "quote_id": "qb_4133a418ee",
+    "span_index": 107,
+    "text": "The reserved flags are used to \nidentify the status of the PPP service: the \"1\" in the high-\nest bit of the reserved flags means the PPP service of this \nsatellite is unavailable; the \"0\" in the highest bit of the \nreserved flags means the PPP service of this satellite is \navailable.",
+    "char_length": 284
+  },
+  {
+    "quote_id": "qb_120152018d",
+    "span_index": 108,
+    "text": "According to the navigation message of PPP-\nB2b broadcasting strategy, it is better for users to per-\nform PPP in a cold start mode to obtain the corrections \nfor all satellites.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_6172c7edc8",
+    "span_index": 109,
+    "text": "The precise orbit and clock offset corrections broad-\ncast by GEO satellites for PPP users are mainly used to \naccurately correct the satellite orbit and clock offset \ninformation of the broadcast ephemeris.",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_0e48310092",
+    "span_index": 110,
+    "text": "The differential \ncode bias correction mainly provides the service for dual \nfrequency or multi frequency users to improve the con-\nsistency of the code observations at different frequencies.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_d8c5f16102",
+    "span_index": 111,
+    "text": "It should be noted that the code bias broadcast by PPP-\nB2b is calculated by the operation control system.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_8079256161",
+    "span_index": 112,
+    "text": "Some \nscholars found that the code bias parameters of some sat-\nellites are slightly different from the in-orbit calculation \nTable 1  Single-frequency positioning accuracy of BDSBAS\nCoordinate component\nBeijing\nSanya\nLhasa\nQiemo\nShanghai\nXi’an\nKunming\nAverage\nHPE (95%) (m)\n1.54\n1.68\n1.72\n1.34\n1.13\n1.11\n1.88\n1.48\nVPE (95%) (m)\n2.67\n2.89\n2.65\n2.86\n2.85\n2.64\n2.90\n2.78\nTable 2  Dual-frequency positioning accuracy of BDSBAS\nCoordinate \ncomponent\nBeijing\nSanya\nLhasa\nQiemo\nShanghai\nXi’an\nKunming\nAverage\nHPE (95%) (m)\n1.28\n1.67\n1.35\n1.84\n0.84\n1.06\n1.12\n1.31\nVPE (95%) (m)\n2.13\n2.06\n2.23\n2.99\n1.72\n1.96\n2.00\n2.16",
+    "char_length": 610
+  },
+  {
+    "quote_id": "qb_d609922e0b",
+    "span_index": 113,
+    "text": "Page 5 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_4197b4ccfd",
+    "span_index": 114,
+    "text": "Satellite Navigation             (2022) 3:5 \n\t\nresults (Guo et al., 2015; Hu et al., 2019; Li et al., 2013, \n2018).",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_25ce6edc1a",
+    "span_index": 115,
+    "text": "The PPP-B2b user range accuracy index of BDS-3 \nmainly provides users with the priori accuracy of range \nobservation.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_58a9c14ca6",
+    "span_index": 116,
+    "text": "High precision users can use the variance \ncomponent estimation or robust estimation method to \nestimate user range accuracy in real time and make more \nrational use of satellite range observation information \n(Yang et al., 2005).",
+    "char_length": 230
+  },
+  {
+    "quote_id": "qb_679b85ef19",
+    "span_index": 117,
+    "text": "International GNSS Monitoring and Assessment Sys-\ntem (iGMAS) stations in Beijing (BJF1), Shanghai (SHA1) \nand Kunming (KUN) and a Multi-GNSS Experiment \n(MGEX) station in Wuhan (WUH2) are selected for the \nexperiment.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_8d05b77968",
+    "span_index": 118,
+    "text": "The basic information of the stations is pre-\nsented in Table 3.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_2afa9c7b79",
+    "span_index": 119,
+    "text": "The data were collected from September 5 to 9, 2021 \n(DOY 248–252), five days in total, with a sampling inter-\nval of 30 s.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_99efedbf96",
+    "span_index": 120,
+    "text": "The extended Kalman filter is used for param-\neter estimation, and the elevation cut-off angle is set as \n10°.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_6a7f61a2b0",
+    "span_index": 121,
+    "text": "The calculation results are shown in Table 4.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_fcf212566f",
+    "span_index": 122,
+    "text": "Table  4 lists the Root Mean Squares (RMS) errors of \nPPP-B2b kinematic positioning in the horizontal (H) \nand vertical (V) directions after convergence.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_2390e5b4f8",
+    "span_index": 123,
+    "text": "The con-\nvergence condition is that the horizontal and vertical \npositioning accuracies are better than 0.3 and 0.6  m, \nrespectively, and can last for longer than 10 epochs.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_3a516a4c39",
+    "span_index": 124,
+    "text": "It \nshould be mentioned that the accuracy of 0.3 and 0.6 m \nmeans that the horizontal and vertical component errors \nin the test calculation are with respect to the known \ncoordinates of stations.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_08f5d28e89",
+    "span_index": 125,
+    "text": "In practice, however, the standard \ndeviation of PPP positioning with a particular value may \nbe applied for the convergence condition.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_136e903153",
+    "span_index": 126,
+    "text": "It can be seen \nfrom Table 4 that the BDS-3 real-time PPP based on PPP-\nB2b corrections can achieve decimeter-level kinematic \npositioning accuracy.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_793d2977b1",
+    "span_index": 127,
+    "text": "After convergence, the horizontal \nand vertical positioning accuracy is better than 0.15 and \n0.2 m, respectively.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_98bb2242ce",
+    "span_index": 128,
+    "text": "The average convergence time of the \nselected stations is about 18 min.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_579c0bdde5",
+    "span_index": 129,
+    "text": "The main differences between the PPP-B2b of BDS and \nthe PPP provided by IGS are as follows.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_5870fa38b4",
+    "span_index": 130,
+    "text": "(1)\t PPP-B2b provided by BDS-3 is a service embed-\nded into GEO satellites with no need for Internet \naccess, which is very helpful for PPP users in the \nareas without Internet connection or 5G network \ncoverage, such as in ocean, desert and plateau.",
+    "char_length": 250
+  },
+  {
+    "quote_id": "qb_bea10d9ad3",
+    "span_index": 131,
+    "text": "By \ncontrast, IGS-PPP provides services to global users \nthrough the Internet.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_e26b5af451",
+    "span_index": 132,
+    "text": "(2)\t IGS-PPP generates GNSS precise ephemeris and \nultra-fast forecast ephemeris using the selected \ncontinuous tracking stations distributed around \nthe world and provides high-precision services to \nglobal users through the Internet.",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_cc54945b0a",
+    "span_index": 133,
+    "text": "The PPP-B2b \ntracking stations of BDS-3 are deployed only in the \nterritory of China, and thus the effective service of \nPPP-B2b is limited to China and its surrounding \nareas.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_449027c3ce",
+    "span_index": 134,
+    "text": "If more observations can be obtained from \nthe stations around the world and used in GNSS \norbit and satellite clock offset calculation, the ser-\nvice accuracy of BDS-3 PPP-B2b will be improved.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_03c3bc9344",
+    "span_index": 135,
+    "text": "Table 3  Basic information of stations\nStation\nAgency\nReceiver\nAntenna\nWUH2\nMGEX\nJAVAD TRE_3\nJAVRINGANT_G5T NONE\nBJF1\niGMAS\nCETC-54-GMR-4016\nLEIAR25.R4 LEIT\nSHA1\niGMAS\nUnicore UB4B0\nNOV 750.R4\nKUN1\niGMAS\nUnicore UB4B0\nNOV 750.R4\nTable 4  Accuracy (root mean squares) and convergence time of BDS PPP-B2b kinematic positioning\nPositioning performance\nWUH2\nBJF1\nSHA1\nKUN1\nH\nV\nH\nV\nH\nV\nH\nV\nRMS (m)\nDOY 248\n0.077\n0.125\n0.080\n0.124\n0.061\n0.075\n0.087\n0.118\nDOY 249\n0.077\n0.126\n0.112\n0.161\n0.094\n0.132\n0.096\n0.139\nDOY 250\n0.077\n0.136\n0.116\n0.132\n0.093\n0.122\n0.107\n0.111\nDOY 251\n0.077\n0.147\n0.118\n0.120\n0.106\n0.151\n0.093\n0.142\nDOY 252\n0.056\n0.138\n0.079\n0.114\n0.068\n0.116\n0.090\n0.129\nAverage\n0.073\n0.134\n0.101\n0.130\n0.085\n0.119\n0.094\n0.128\nConvergence time (min)\n18.75\n18.43\n21.79\n16.17",
+    "char_length": 775
+  },
+  {
+    "quote_id": "qb_1ae16490d0",
+    "span_index": 136,
+    "text": "Page 6 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_bc379bf1fc",
+    "span_index": 137,
+    "text": "Satellite Navigation             (2022) 3:5 \n(3)\t Both the reference coordinate system and time \ndatum of PPP-B2b are different from those of IGS-\nPPP.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_fac2bfa890",
+    "span_index": 138,
+    "text": "The former adopts BDCS and BDT scale, while \nthe latter adopts the WGS 84 and GPST.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_de3f54ad48",
+    "span_index": 139,
+    "text": "(4)\t The service area of BDS-3 PPP-B2b is also sub-\nject to the beam coverage of the three GEO satel-\nlites of BDS-3.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_83d085f2da",
+    "span_index": 140,
+    "text": "PPP-B2b cannot provide services \nfor the areas where GEO satellite signal is unavail-\nable, no matter whether it is within the coverage of \nthe ground tracking stations or not, because users \ncannot receive the precise differential corrections \nbroadcast by GEO satellites.",
+    "char_length": 273
+  },
+  {
+    "quote_id": "qb_fd06a4ada0",
+    "span_index": 141,
+    "text": "(5)\t If the ionosphere-free combination mode is adopted \nto implement BDS-3 multi signal combined PPP \nservice, the B1C/B2a combination mode is recom-\nmended for dual frequency users, and the B1C/B1I/\nB2a combination mode is recommended for triple \nfrequency users (Li et al., 2020).",
+    "char_length": 283
+  },
+  {
+    "quote_id": "qb_2bf0aa6a5a",
+    "span_index": 142,
+    "text": "Possible future developments for BDSBAS \nand satellite‑based PPP\nSince BDSBAS and PPP-B2b provide similar basic prod-\nucts and follow similar principles, they might be possibly \nconstructed and improved as a whole.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_eef2e65bcd",
+    "span_index": 143,
+    "text": "(1)\t The ground monitoring networks for BDSBAS and \nPPP-B2b can be co-constructed and shared.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_6734cff174",
+    "span_index": 144,
+    "text": "The \nfunction requirements for the two types of moni-\ntoring stations are similar, and their construction \nand maintenance are costly and laborious.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_2f6be2c0d3",
+    "span_index": 145,
+    "text": "There-\nfore, the ground monitoring networks should be co-\nconstructed to realize resource sharing.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_7ba253e5a6",
+    "span_index": 146,
+    "text": "(2)\t BDSBAS and PPP-B2b can share the computing \nresource.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_4e469bc238",
+    "span_index": 147,
+    "text": "Both need to generate precise orbit and \nclock offset corrections with different approaches.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_e6b83cf82e",
+    "span_index": 148,
+    "text": "The former employs the pseudo-range observation \nor phase smoothing pseudo-range measurement to \nobtain orbit correction and clock offset corrections, \nwhile the latter adopts phase observations.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_f3d3434fd4",
+    "span_index": 149,
+    "text": "The cor-\nresponding PPP-B2b products will achieve a slightly \nhigher accuracy.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_6bff890a5b",
+    "span_index": 150,
+    "text": "In the authors’ viewpoint, BDS-\nBAS can directly adopt the products with higher \naccuracy generated by PPP-B2b, sharing its com-\nputing resource.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_086a0d4caf",
+    "span_index": 151,
+    "text": "(3)\t BDSBAS and PPP-B2b navigation message broad-\ncasting modes can be unified on certain condi-\ntions.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_842abb17e3",
+    "span_index": 152,
+    "text": "For PPP-B2b, the update intervals of orbit \ncorrection and clock offset correction are 48 and \n6 s, respectively.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_b4fc731a53",
+    "span_index": 153,
+    "text": "For BDSBAS, the update interval \nis 120 s for satellite orbit correction (dx/dy/dz) and \n300 s for the grid ionosphere parameter.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_a988e4fee9",
+    "span_index": 154,
+    "text": "The update \nperiod for the fast correction parameters (mainly \nthe combined corrections of orbit and clock offset \nafter deducting broadcast ephemeris and long-term \ncorrections, together with corresponding fast cor-\nrections and the integrity parameters) is 6 s.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_3abfc345ae",
+    "span_index": 155,
+    "text": "If the \nupdate time intervals for the orbit corrections are \nunified to 48 s and for satellite clock offset correc-\ntions are set to 6 s, both requirements of PPP-B2b \nand BDSBAS can be met.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_8367c5684d",
+    "span_index": 156,
+    "text": "In this case, the fast cor-\nrection parameter tends to be very small for BDS-\nBAS compared to its accuracy, which can be set to \nzero and omitted.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_03e51eb181",
+    "span_index": 157,
+    "text": "It must be noted that the message data rate of BDS-\nBAS is different from that of PPP-B2b, i.e., 250 bit/s for \nBDSBAS and 500 bit/s for PPP-B2b.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_63061b04d0",
+    "span_index": 158,
+    "text": "PPP-B2b broadcasts \nmore messages with shorter interval, and the rate is to \nbe upgraded to 1000 bit/s or 2000 bit/s in the future.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_df5ed0ecfc",
+    "span_index": 159,
+    "text": "In \norder to share messages broadcast by them, the BDSBAS \nmust be backward compatible, which means that the \nBDSBAS user terminal may need to be changed appro-\npriately to improve the positioning accuracy.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_66e2343196",
+    "span_index": 160,
+    "text": "If the SBAS \nuser does not change the reception mode, the message of \nPPP-B2b and BDSBAS can still be broadcast separately.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_9d82c3ab71",
+    "span_index": 161,
+    "text": "It should be noted that SBAS needs to broadcast the \nintegrity information, which has not yet been consid-\nered in most PPP services.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_0eafb09d6b",
+    "span_index": 162,
+    "text": "However, the integrity infor-\nmation and early warning of abnormal information can \nalso be helpful for regular navigation and positioning \nusers because the robustness of data processing can be \nimproved by selecting observations with reference to the \nearly warning information.",
+    "char_length": 280
+  },
+  {
+    "quote_id": "qb_523cce5f28",
+    "span_index": 163,
+    "text": "(4)\t In addition to functioning as normal navigation, \npositioning and timing satellites, the three BDS-3 \nGEO satellites broadcast the differential correc-\ntions of BDSBAS and PPP-B2b and provide short \nmessage communication service and RDSS.",
+    "char_length": 243
+  },
+  {
+    "quote_id": "qb_c761cf23df",
+    "span_index": 164,
+    "text": "If the \ntwo types of correction products of BDSBAS and \nPPP-B2b are combined and the resulting prod-\nuct is uplinked to GEO satellites as a whole, then \nthe pressure on uplink and broadcast channel can \nbe reduced and the broadcasting platform and the \nuplink and downlink channel can be shared.",
+    "char_length": 295
+  },
+  {
+    "quote_id": "qb_3e084ac146",
+    "span_index": 165,
+    "text": "(5)\t Globally, most SBASs use GEO satellites to broad-\ncast differential corrections, and users in northern \nhemisphere are subject to the \"south wall effect\" \n(Yang et al., 2020), which means that the GEO sig-\nnals can be easily blocked by the obstacles in its \nsouth.",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_14af282a96",
+    "span_index": 166,
+    "text": "In order to improve the availability of satel-\nlite-based augmentation differential corrections, \nIGSO satellites can also be used to jointly broad-\ncast the corrections of BDSBAS and PPP-B2b.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_6db27aada6",
+    "span_index": 167,
+    "text": "The \nexpected service coverage after the participation",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_996f145fdd",
+    "span_index": 168,
+    "text": "Page 7 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_c2033cc963",
+    "span_index": 169,
+    "text": "Satellite Navigation             (2022) 3:5 \n\t\nof the IGSO satellites is shown in Fig.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_7696713406",
+    "span_index": 170,
+    "text": "With the \nincrease of the Number of visible SATellites (NSAT) \nwith a probability of 95%, the service coverage will \nbe obviously expanded, and the \"south wall effect\" \nof BDSBAS and PPP-B2b services for users in the \nAsia-Pacific region will disappear.",
+    "char_length": 253
+  },
+  {
+    "quote_id": "qb_f6f6d55ea4",
+    "span_index": 171,
+    "text": "(6)\t The development of LEO constellation for augmen-\ntation will also improve the service mode and per-\nformance of SBAS and satellite-based PPP.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_8b7bce2c2d",
+    "span_index": 172,
+    "text": "On one \nhand, LEO satellites can broadcast satellite-based \naugmentation corrections; on the other hand, LEO \nsatellites and BDS-3 satellites can form a hybrid \nconstellation to broadcast normal navigation and \npositioning signals, which will significantly improve \nthe geometric strength of the integrated constella-\ntion, and then improve the orbit precision of BDS-3 \nsatellites and the measurement accuracy of satel-\nlite clock offset.",
+    "char_length": 439
+  },
+  {
+    "quote_id": "qb_8c43478427",
+    "span_index": 173,
+    "text": "The participation of LEO constel-\nlation in providing PPP-B2b service can effectively \nimprove the convergence speed of PPP-B2b (Li \net  al., 2022).",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_b0e16f959a",
+    "span_index": 174,
+    "text": "Assuming that 120 LEO satellites at \nan altitude of 975  km with an orbital inclination \nof 55°  are evenly distributed on 12 orbital planes \nand participate in PPP service together with PPP-\nB2b, the required convergence time corresponding \nto the positioning accuracies of 10 and 100 cm are \nshown in Table 5.",
+    "char_length": 311
+  },
+  {
+    "quote_id": "qb_b85c37c843",
+    "span_index": 175,
+    "text": "Obviously, with the support of LEO satellites, the \n\"south wall effect\" can be eliminated and the 1 and 0.1 m \npositioning accuracy can be achieved within 20  s and \naround 1 min, respectively.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_908425c55d",
+    "span_index": 176,
+    "text": "(7)\tWith the wide application of satellite-based augmen-\ntation and PPP, most ground-based augmentation \nservices will gradually lose their significance.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_1b2dd05a0a",
+    "span_index": 177,
+    "text": "Conclusions\nBDSBAS and PPP-B2b are two types of embedded \nsatellite-based augmentation services of BDS-3.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_5bc2ca8f96",
+    "span_index": 178,
+    "text": "They \nare important components and featured services of \nBDS-3.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_4cdc85769b",
+    "span_index": 179,
+    "text": "The single frequency positioning performance \nof BDSBAS can meet the CAT I precision approach \nrequirements of ICAO, with the horizontal and vertical \npositioning accuracies better than 2.1 and 3.5 m, respec-\ntively.",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_7ec2c1fc2c",
+    "span_index": 180,
+    "text": "The positioning accuracy in China’s surrounding \nareas is slightly lower, due to the fact that the ground \nmonitoring stations are only deployed in the territory of \nChina and the continuity of the ionospheric monitoring \nis relatively poor.",
+    "char_length": 241
+  },
+  {
+    "quote_id": "qb_9a338ce34f",
+    "span_index": 181,
+    "text": "The latest service performance of PPP-\nB2b is as follows: the horizontal and vertical positioning \naccuracies are approximately 0.15 and 0.2 m; if the posi-\ntioning accuracies are required to be better than 0.3 and \n0.6 m in the horizontal and vertical components, the con-\nvergence time is within 20 min in general.",
+    "char_length": 316
+  },
+  {
+    "quote_id": "qb_78611ed7bf",
+    "span_index": 182,
+    "text": "Both BDSBAS and PPP-B2b need a ground monitor-\ning station network, computing center and differential \ncorrection broadcasting platform.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_a102b33970",
+    "span_index": 183,
+    "text": "Therefore, we can for-\nmulate an integrated plan to coordinate and optimize \n \n \n \n \n5\n4\n3\n2\n1\n5\n4\n3\n2\n1\n30\n60\n90\na\nb\n75\n60\n45\n30\n15\n0\n−15\n−30\n−45\n−60\n−75\n−90\n90\n120\n150\n180\nLongitude (°)\n30\n60\n90\n120\n150\n180\nLongitude (°)\nNSAT (95%)\nNSAT (95%)\nLatitude (°)\n90\n75\n60\n45\n30\n15\n0\n−15\n−30\n−45\n−60\n−75\n−90\nLatitude (°)\nFig.",
+    "char_length": 319
+  },
+  {
+    "quote_id": "qb_a034ed524e",
+    "span_index": 184,
+    "text": "1  a 3 visible GEO sats with the elevation cut-off angle of 40°.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_d5cd1dfe1a",
+    "span_index": 185,
+    "text": "b 3 GEO + 3 IGSO visible satellites\nTable 5  Convergence time of PPP-B2b + LEO\nStations\nConvergence time of \n10 cm accuracy (s)\nConvergence time of \n100 cm accuracy (s)\nBeijing\n44\n7\nWuhan\n59\n17\nKunming\n49\n19\nShanghai\n68\n7",
+    "char_length": 221
+  },
+  {
+    "quote_id": "qb_2f0d96f8ee",
+    "span_index": 186,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_a9e5f14bb2",
+    "span_index": 187,
+    "text": "Page 8 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_2631102cd9",
+    "span_index": 188,
+    "text": "Satellite Navigation             (2022) 3:5 \nthe construction of them and employ the same ground \nmonitoring station network and computing center.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_422bcd1787",
+    "span_index": 189,
+    "text": "The \nprecise orbit and clock offset of PPP-B2b can be used for \nthe orbit correction and satellite clock offset correction \nof BDSBAS, the broadcasting frequency is also based on \nthat of PPP-B2b, and the integrity information can be \nprovided to both BDSBAS and PPP-B2b users.",
+    "char_length": 277
+  },
+  {
+    "quote_id": "qb_84d41456c6",
+    "span_index": 190,
+    "text": "If IGSO satellite is also added to BDSBAS and PPP-\nB2b augmentation signal broadcast, the \"south wall \neffect\" will be reduced and the service availability will be \nimproved.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_e282f59e9a",
+    "span_index": 191,
+    "text": "If LEO satellite augmentation is adopted, not \nonly the \"south wall effect\" can be eliminated, but also the \npositioning accuracy will be significantly improved, and \nthe convergence time will be shortened.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_6a7f871390",
+    "span_index": 192,
+    "text": "Acknowledgements\nNot applicable.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_d28a7b2c39",
+    "span_index": 193,
+    "text": "Authors’ contributions\nYY proposed the idea and drafted the article; QD provided the results of BDS-\nBAS; WG provided the results of LEO satellites joint with PPP-B2b; JL calculated \nthe coverage contribution of IGSO satellites; YX provided the new calculation \nresults of PPP-B2b in the territory of China; BS assisted in text-proofing and \nmanuscript revision.",
+    "char_length": 362
+  },
+  {
+    "quote_id": "qb_191b7328cb",
+    "span_index": 194,
+    "text": "All the authors read and approved the final manuscript.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_342752f780",
+    "span_index": 195,
+    "text": "Funding\nThis work is supported by the National Natural Science Foundation of China \n(No.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_11cdacde4e",
+    "span_index": 196,
+    "text": "41931076), the National Key Research and Development Program of \nChina (No.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_9fbe700c3c",
+    "span_index": 197,
+    "text": "2020YFB0505802), and the Wenhai Program of Qingdao National \nLaboratory for Marine Science and Technology (QNLM) (No.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_fc70dd63d1",
+    "span_index": 198,
+    "text": "2021WHZZB1005).",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_6bd2dd6081",
+    "span_index": 199,
+    "text": "Availability of data and materials\nThe datasets used and/or analyzed during the current study are available from \nthe corresponding author on reasonable request.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_1eb6017df3",
+    "span_index": 200,
+    "text": "Declarations\nCompeting interests\nThe authors declare that they have no competing interests.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_3721c05aa4",
+    "span_index": 201,
+    "text": "Author details\n1 State Key Laboratory of Geo-Information Engineering, Xi’an 710054, China.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_57add2da23",
+    "span_index": 202,
+    "text": "2 Xi’an Research Institute of Surveying and Mapping, Xi’an 710054, China.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_374401927a",
+    "span_index": 203,
+    "text": "3 The \n20th Research Institute of China Electronics Technology Group Corporation, \nXi’an 710054, China.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_5ea38e55f3",
+    "span_index": 204,
+    "text": "4 Satellite Navigation Laboratory, Beijing Institute of Track-\ning and Telecommunication Technology, Beijing 100094, China.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_20eeeae85c",
+    "span_index": 205,
+    "text": "5 Beijing Satel-\nlite Navigation Center, Beijing 100094, China.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_909218f081",
+    "span_index": 206,
+    "text": "Received: 4 January 2022   Accepted: 6 February 2022\nReferences\nBao, S., Li, R., Liu, Y., & Shao, B.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_07ab4bc8d4",
+    "span_index": 207,
+    "text": "Ionospheric anomaly detection to sup-\nport the BDSBAS.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_aab51bf054",
+    "span_index": 208,
+    "text": "IEEE Access, 99, 1691–1704.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_66c27940e4",
+    "span_index": 209,
+    "text": "https://​doi.​org/​10.​1109/​\nACCESS.​2019.​29622​33\nChen, J., Wang, A., Zhang, Y., et al.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_c4cc4a6482",
+    "span_index": 210,
+    "text": "BDS satellite-based augmentation \nservice correction parameters and performance assessment.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_d7988a24b1",
+    "span_index": 211,
+    "text": "Remote \nSensing, 12(5), 766.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_f1c3d16aca",
+    "span_index": 212,
+    "text": "BeiDou navigation satellite system signal in space interface control \ndocument precise point positioning service signal PPP-B2b (Version 1.0).",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_39738aeca4",
+    "span_index": 213,
+    "text": "http://​\nwww.​beidou.​gov.​cn/​xt/​gfxz/​202008/​P0202​00803​36206​24829​40.​pdf\nGao, Y., & Shen, X.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_a0a440e02b",
+    "span_index": 214,
+    "text": "A new method for carrier-phase-based precise point \npositioning.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_1b49c1a7d0",
+    "span_index": 215,
+    "text": "Navigation, 49(2), 109–116.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_08aac25bf3",
+    "span_index": 216,
+    "text": "Ge, M., Gendt, G., Rothacher, M., Shi, C., & Liu, J.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_4b21ebcbe0",
+    "span_index": 217,
+    "text": "Resolution of GPS \ncarrier-phase ambiguities in Precise Point Positioning (PPP) with daily \nobservations.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_81dc56e11a",
+    "span_index": 218,
+    "text": "Journal of Geodesy, 82(7), 389–399.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_32be3ca724",
+    "span_index": 219,
+    "text": "https://​doi.​org/​10.​1007/​\ns00190-​007-​0187-4\nGlaner, M., & Weber, R.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_2dec4927fd",
+    "span_index": 220,
+    "text": "PPP with integer ambiguity resolution for GPS \nand Galileo using satellite products from different analysis centers.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_693ce246fb",
+    "span_index": 221,
+    "text": "GPS \nSolutions.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_23013d1ba1",
+    "span_index": 222,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​021-​01140-z\nGuo, F., Zhang, X., & Wang, J.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_ab4449bfab",
+    "span_index": 223,
+    "text": "Timing group delay and differential \ncode bias corrections for BeiDou positioning.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_4467f1527a",
+    "span_index": 224,
+    "text": "Journal of Geodesy, 89(5), \n427–445.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_473017495a",
+    "span_index": 225,
+    "text": "https://​doi.​org/​10.​1007/​s00190-​015-​0788-2\nHéroux, P., & Kouba, J.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_efa845e41b",
+    "span_index": 226,
+    "text": "GPS precise point positioning with a difference.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_455a5e4285",
+    "span_index": 227,
+    "text": "Paper presented at geomatics’95.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_23312fac6a",
+    "span_index": 228,
+    "text": "Canada, Ottawa, 13–15.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_591ab98a22",
+    "span_index": 229,
+    "text": "Hu, J., Zhang, X., Li, P., Ma, F., & Pan, L.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_17b22f7eb9",
+    "span_index": 230,
+    "text": "Multi-GNSS fractional cycle bias \nproducts generation for GNSS ambiguity-fixed PPP at Wuhan University.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_2975741232",
+    "span_index": 231,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​019-​0929-9\nJin, B., Chen, S., Li, D., Wang, Y., & Takka, E.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_93bd22a8c5",
+    "span_index": 232,
+    "text": "Performance analysis of SBAS \nephemeris corrections and integrity algorithms in China region.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_d69a3cabfc",
+    "span_index": 233,
+    "text": "Satellite \nNavigation.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_fa3ea36399",
+    "span_index": 234,
+    "text": "https://​doi.​org/​10.​1186/​s43020-​021-​00045-z\nLi, B., Li, Z., Zhang, Z., & Tan, Y.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_a078de806a",
+    "span_index": 235,
+    "text": "ERTK: Extra-wide-lane RTK of triple-fre-\nquency GNSS signals.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_d902bdb07c",
+    "span_index": 236,
+    "text": "Jouurnal of Geodesy, 91(9), 1031–1047.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_1eb7d7b5a4",
+    "span_index": 237,
+    "text": "https://​doi.​\norg/​10.​1007/​s00190-​017-​1006-1\nLi, J., Yang, Y., He, H., & Guo, H.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_1148c59b60",
+    "span_index": 238,
+    "text": "Benefits of BDS-3 B1C/B1I/B2a triple-\nfrequency signals on precise positioning and ambiguity resolution.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_5df783d2f9",
+    "span_index": 239,
+    "text": "GPS \nSolution, 26, 29.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_90179abb19",
+    "span_index": 240,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​020-​01016-8\nLi, M., Xu, T., Guan, M., Gao, F., & Jiang, N.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_3d6cf34e49",
+    "span_index": 241,
+    "text": "LEO-constellation-\naugmented multi-GNSS real-time PPP for rapid re-convergence \nin harsh environments.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_32d8cfbdba",
+    "span_index": 242,
+    "text": "https://​doi.​org/​10.​1007/​\ns10291-​021-​01217-​91-​021-​01217-9\nLi, P., Zhang, X., & Guo, F.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_78e971e296",
+    "span_index": 243,
+    "text": "Ambiguity resolved precise point positioning \nwith GPS and BeiDou.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_7844d45f10",
+    "span_index": 244,
+    "text": "Journal of Geodesy, 91(1), 25–40.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_68ce3413b3",
+    "span_index": 245,
+    "text": "Li, X., Ge, M., Zhang, H., & Wickert, J.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_1950ca4807",
+    "span_index": 246,
+    "text": "A method for improving uncali-\nbrated phase delay estimation and ambiguity-fixing in real-time precise \npoint positioning.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_1f2f07a434",
+    "span_index": 247,
+    "text": "Journal of Geodesy, 87(5), 405–416.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_90c1e31f11",
+    "span_index": 248,
+    "text": "Li, X., Li, X., Yuan, Y., Zhang, K., Zhang, X., & Wickert, J.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_203fdad1a2",
+    "span_index": 249,
+    "text": "Multi-GNSS phase \ndelay estimation and PPP ambiguity resolution: GPS, BDS, GLONASS.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_33e8b6c5f2",
+    "span_index": 250,
+    "text": "Journal of Geodesy, 92(6), 579–608.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_088c29b75a",
+    "span_index": 251,
+    "text": "Liu, C., Gao, W., Liu, T., Wang, D., Yao, Z., Gao, Y., Nie, X., Wang, W., Li, D., Zhang, \nW., Wang, D., & Rao, Y.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_a5c56b3837",
+    "span_index": 252,
+    "text": "Design and implementation of a BDS \nprecise point positioning service.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_9458a53aba",
+    "span_index": 253,
+    "text": "Navigation, 67(4), 875–891.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_474c78e2cb",
+    "span_index": 254,
+    "text": "https://​doi.​\norg/​10.​1002/​navi.​392\nLiu, C., Gao, W., Shao, B., Lu, J., Wang, W., Chen, Y., Su, C., Xiong, S., & Ding, Q.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_5b574c461d",
+    "span_index": 255,
+    "text": "Development of BeiDou satellite-based augmentation system.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_0378f9b80a",
+    "span_index": 256,
+    "text": "https://​doi.​org/​10.​1002/​navi.​422\nMa, Y., Tang, C., Hu, X., Chang, Z., Pu, J., Nan, X., Cao, Y., & Wang, N.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_80e4d777f1",
+    "span_index": 257,
+    "text": "Optimalization of GIVE algorithm for grid-based single shell ionospheric \nmodel over Chinese region based on residual statistics.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_45b2488c92",
+    "span_index": 258,
+    "text": "Acta Geodaetica Et \nCartographica Sinica, 50(3), 304–314.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_8d140a825f",
+    "span_index": 259,
+    "text": "Montenbruck, O., Steigenberger, P., & Hauschild, A.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_9cb8facc01",
+    "span_index": 260,
+    "text": "Comparing the ’Big \n4’ —A user’s view on GNSS performance.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_0533ded2ad",
+    "span_index": 261,
+    "text": "In 2020 IEEE/ION Position, Loca-\ntion and Navigation Symposium (PLANS) (pp.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_74edf2fe30",
+    "span_index": 262,
+    "text": "https://​doi.​\norg/​10.​1109/​PLANS​46316.​2020.​91102​08\nShao, B., Ding, Q., & Wu, X.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_1c8ce375b5",
+    "span_index": 263,
+    "text": "Estimation method of SBAS dual-frequency \nrange error integrity parameter.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_8644c0d877",
+    "span_index": 264,
+    "text": "Satellite Navigation.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_7217469df5",
+    "span_index": 265,
+    "text": "https://​doi.​org/​10.​\n1186/​s43020-​020-​00011-1\nXu, Y., Yang, Y., & Li, J.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_1932b1fec7",
+    "span_index": 266,
+    "text": "Performance evaluation of BDS-3 PPP-B2b precise \npoint positioning service.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_7791d0e28f",
+    "span_index": 267,
+    "text": "GPS Solution., 25(4), 1–14.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_a835bcf68f",
+    "span_index": 268,
+    "text": "Chinese geodetic coordinate system 2000.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_fe3a59c46a",
+    "span_index": 269,
+    "text": "Chinese Science \nBulletin, 54, 2714–2721.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_40cb1658f2",
+    "span_index": 270,
+    "text": "Yang, Y., Gao, W., Guo, S., Mao, Y., & Yang, Y.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_8d5a492053",
+    "span_index": 271,
+    "text": "Introduction to BeiDou-3 \nnavigation satellite system.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_413264cb85",
+    "span_index": 272,
+    "text": "Navigation, 66(1), 7–18.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_fca3f55679",
+    "span_index": 273,
+    "text": "Yang, Y., Liu, L., Li, J., Yang, Y., Zhang, T., Mao, Y., Sun, B., & Ren, X.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_5ee2598958",
+    "span_index": 274,
+    "text": "Featured \nservices and performance of BDS-3.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_c07ec9a5d4",
+    "span_index": 275,
+    "text": "Science Bulletin, 66(20), 2135–2143.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_a4dfaa9928",
+    "span_index": 276,
+    "text": "https://​doi.​org/​10.​1016/j.​scib.​2021.​06.​013\nYang, Y., Mao, Y., & Sun, B.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_82bdbfdbbe",
+    "span_index": 277,
+    "text": "Basic performance and future developments \nof BeiDou global navigation satellite system.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_395f9f2b09",
+    "span_index": 278,
+    "text": "Satellite Navigation, 1(1), 1–8.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_5cd92ebb09",
+    "span_index": 279,
+    "text": "https://​doi.​org/​10.​1186/​s43020-​019-​0006-0\nYang, Y., Xu, T., & Song, L.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_98043bf1d7",
+    "span_index": 280,
+    "text": "Robust estimation of variance components \nwith application in Global Positioning System network adjustment.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_2d2482c97a",
+    "span_index": 281,
+    "text": "Journal of Surveying Engineering, 131(4), 107–112.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_47914b84a4",
+    "span_index": 282,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_adf972def4",
+    "span_index": 283,
+    "text": "Page 9 of 9\nYang et al.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_8f3c26db17",
+    "span_index": 284,
+    "text": "Satellite Navigation             (2022) 3:5 \n\t\nYang, Y., Xu, Y., Li, J., & Yang, C.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_c9c926f0b5",
+    "span_index": 285,
+    "text": "Progress and performance evaluation of \nBeiDou global navigation satellite system: Data analysis based on BDS-3 \ndemonstration system.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_5c44e3602d",
+    "span_index": 286,
+    "text": "Science China Earth Sciences, 61(5), 614–624.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_b398d55be8",
+    "span_index": 287,
+    "text": "B., Jefferson, D.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_ad0b8c916c",
+    "span_index": 288,
+    "text": "C., Watkins, M.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_90f85c1e76",
+    "span_index": 289,
+    "text": "Precise point positioning for the efficient and robust analysis of \nGPS data from large networks.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_8009b66dae",
+    "span_index": 290,
+    "text": "Journal of Geophysical Research, 102(B3), \n5005–5017.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_3d861ac874",
+    "span_index": 291,
+    "text": "Publisher’s Note\nSpringer Nature remains neutral with regard to jurisdictional claims in pub-\nlished maps and institutional affiliations.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_ebe6db3826",
+    "span_index": 292,
+    "text": "View publication stats",
+    "char_length": 22
+  }
+]

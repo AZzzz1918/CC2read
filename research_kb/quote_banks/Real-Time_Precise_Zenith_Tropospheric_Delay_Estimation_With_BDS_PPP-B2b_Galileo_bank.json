@@ -1,0 +1,1814 @@
+[
+  {
+    "quote_id": "qb_4b729f3f4d",
+    "span_index": 0,
+    "text": "IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024 5802011\nReal-Time Precise Zenith Tropospheric Delay\nEstimation With BDS PPP-B2b, Galileo HAS,\nand QZSS MADOCA-PPP Services\nPeiyuan Zhou , Zhongkai Zhang, Zejun Liu, Daqian Lyu , Guorui Xiao , Kai Xiao , and Lan Du\nAbstract—Real-time precise point positioning (PPP) is an I.",
+    "char_length": 330
+  },
+  {
+    "quote_id": "qb_69601fc6a7",
+    "span_index": 1,
+    "text": "INTRODUCTION\ninnovativeandusefulatmosphereremotesensingtooltoestimate\nzenith tropospheric delays (ZTDs) to support various emerging THE estimation of zenith tropospheric delays (ZTDs)\nmeteorologicalapplicationssuchasweatherandclimateresearch.",
+    "char_length": 242
+  },
+  {
+    "quote_id": "qb_702848cf44",
+    "span_index": 2,
+    "text": "is significant to support various emerging applications,\nHowever, additional costs on internet accesses or service sub- such as numerical weather forecasting and global climate\nscriptionlicensesarerequiredtoobtainreal-timeprecisesatellite\nmonitoring [1], [2], [3], space geodesy [4], [5], and precise\norbitandclockproductsfromexternalPPPaugmentationservice\npositioning [6], [7], [8].",
+    "char_length": 383
+  },
+  {
+    "quote_id": "qb_572a7619d8",
+    "span_index": 3,
+    "text": "Thanks to the deployment of GNSS\noperators.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_2b39ce9d56",
+    "span_index": 4,
+    "text": "We present the real-time precise estimation of ZTD\nwith freely and openly accessible GNSS satellite-based PPP real-time precise satellite orbit and clock augmentation cor-\naugmentation services, i.e., BeiDou navigation satellite system rection services, real-time precise point positioning (PPP) is\n(BDS) PPP-B2b service, Galileo high accuracy service (HAS), emerging as an alternative atmosphere remote sensing tool\nand quasi-zenith satellite system(QZSS) Multi-GNSS ADvanced\nto retrieve real-time precise ZTD with high spatiotempo-\nOrbit and Clock Augmentation-PPP (MADOCA-PPP) service.",
+    "char_length": 588
+  },
+  {
+    "quote_id": "qb_b700ab2b3f",
+    "span_index": 5,
+    "text": "ral resolution in all-weather conditions, which is drawing\nGNSSobservationsof49daysfrom15stationsintheAsia–Pacific\nregion are used for performance assessment and comparison.",
+    "char_length": 173
+  },
+  {
+    "quote_id": "qb_a9b8dadcec",
+    "span_index": 6,
+    "text": "increasing interests from both academia and industrial\nIt shows that the real-time PPP estimated ZTDs agree well areas [9], [10], [11].",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_c66630b7db",
+    "span_index": 7,
+    "text": "with International GNSS Service (IGS) final ZTDs, with mean However, previous research on ZTD estimation with\nstandard deviation (STD) values of 20.0, 17.5, and 9.5 mm\nreal-timePPPhasbeenfocusedmainlyonusingreal-timepre-\nfor BDS PPP-B2b, Galileo HAS, and QZSS MADOCA-PPP,\ncise satellite orbit and clock products from external real-time\nrespectively.Thederivedreal-timezenithwetdelays(ZWDs)are\nfurther compared with those derived from Integrated Global PPP augmentation correction service operators [12], which\nRadiosonde Archive (IGRA) and the European Centre for brings several challenges to be addressed in the routine\nMedium-Range Weather Forecasts (ECMWF) Reanalysis v5 application implementation.",
+    "char_length": 701
+  },
+  {
+    "quote_id": "qb_1d02a7109b",
+    "span_index": 8,
+    "text": "On the one hand, reliable and\n(ERA5)datasets,whichconfirmsthatthereal-timePPPestimated\ncontinuous communication links to the server are required to\nZWDs are accurate with mean STDs of smaller than 30 mm.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_cda9ac0935",
+    "span_index": 9,
+    "text": "obtain real-time corrections from the service operators; other-\nIt concludes that real-time PPP with GNSS satellite-based real-\ntimePPPaugmentationcorrectionserviceswillbeaflexibleand wise, the quality of the real-time orbit and clock corrections\ncost-effective tool to derive real-time precise ZTDs/ZWDs with would be degraded during communication link outages [13].",
+    "char_length": 367
+  },
+  {
+    "quote_id": "qb_1b4442e32d",
+    "span_index": 10,
+    "text": "high spatiotemporal resolution in all-weather conditions.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_55e34fcc23",
+    "span_index": 11,
+    "text": "Hence, the performance of the obtained ZTD products will be\nIndex Terms—BeiDou navigation satellite system (BDS) pre- deteriorated.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_363ae9e894",
+    "span_index": 12,
+    "text": "For example, internet access should be guaran-\ncise point positioning (PPP)-B2b, Galileo high accuracy service teed for ZTD estimation with real-time PPP using corrections\n(HAS), Multi-GNSS ADvanced Orbit and Clock Augmentation-\nfrom real-time service (RTS) of International GNSS Service\nPPP (MADOCA-PPP), zenith tropospheric delay (ZTD), zenith\n(IGS) [13], [14].",
+    "char_length": 363
+  },
+  {
+    "quote_id": "qb_36353b8011",
+    "span_index": 13,
+    "text": "On the other hand, users are subjected to\nwet delay (ZWD).",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_f95bd1894e",
+    "span_index": 14,
+    "text": "expensive subscription fees to access augmentation correction\nManuscriptreceived8May2024;revised14July2024;accepted9August services provided by commercial companies [15], [16].",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_42f8676476",
+    "span_index": 15,
+    "text": "These\n2024.Dateofpublication15August2024;dateofcurrentversion9September\nadditional costs and complexity are still to be optimized for\n2024.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_105d5251ec",
+    "span_index": 16,
+    "text": "This work was supported in part by the National Natural Science\nFoundation of China under Grant 42204041 and Grant 42204039; in part the further promotion of ZTD estimation with real-time PPP.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_693c6bd32d",
+    "span_index": 17,
+    "text": "by the State Key Laboratory of Geodesy and Earth’s Dynamics, Innova- Notethatthereal-timePPPbasedZTDestimationcanalsobe\ntion Academy for Precision Measurement Science and Technology, Chinese\nconducted using Galileo broadcast ephemeris with improved\nAcademyofSciences(CAS),Wuhan,ChinaunderGrantSKLGED2023-3-5;\nand in part by the Postdoctoral Fellowship Program of China Postdoctoral quality[17],[18],andtheavailabilityandreliability,however,\nScience Foundation (CPSF) under Grant GZC20233523.",
+    "char_length": 491
+  },
+  {
+    "quote_id": "qb_214a75e52e",
+    "span_index": 18,
+    "text": "(Corresponding are still limited since only Galileo observations can be used.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_7672ffa7fe",
+    "span_index": 19,
+    "text": "author:DaqianLyu.)\nInstead of disseminating real-time precise satellite orbit\nPeiyuan Zhou is with Information Engineering University, Zhengzhou\n450001,China,andalsowiththeNationalUniversityofDefenseTechnology, and clock corrections via internet or dedicated commu-\nHefei230037,China.",
+    "char_length": 284
+  },
+  {
+    "quote_id": "qb_cc8d3c1ee2",
+    "span_index": 20,
+    "text": "nication satellite links, several newly developed GNSSs\nZhongkaiZhang,ZejunLiu,GuoruiXiao,KaiXiao,andLanDuarewith\nprovide freely and openly accessible real-time PPP aug-\nInformationEngineeringUniversity,Zhengzhou450001,China.",
+    "char_length": 225
+  },
+  {
+    "quote_id": "qb_c8c41ab6b6",
+    "span_index": 21,
+    "text": "DaqianLyuiswiththeNationalUniversityofDefenseTechnology,Hefei mentation correction services via navigation satellite signals.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_59cb48024f",
+    "span_index": 22,
+    "text": "230037,China,andalsowiththeLaboratoryofScienceandTechnologyon Specifically, the Chinese BeiDou navigation satellite system\nCommunicationInformationSecurityControl,Jiaxing314033,China(e-mail:\n(BDS) starts to provide PPP-B2b service via B2b signals\ndaqian_lv@nudt.edu.cn).",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_9576acee47",
+    "span_index": 23,
+    "text": "DigitalObjectIdentifier10.1109/TGRS.2024.3443884 in 2020 to users located in China and surrounding areas\n1558-0644©2024IEEE.Personaluseispermitted,butrepublication/redistributionrequiresIEEEpermission.",
+    "char_length": 201
+  },
+  {
+    "quote_id": "qb_2b84c98c10",
+    "span_index": 24,
+    "text": "Seehttps://www.ieee.org/publications/rights/index.htmlformoreinformation.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_4d2139d2d9",
+    "span_index": 25,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_8506867fee",
+    "span_index": 26,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_9b6521cb37",
+    "span_index": 27,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_f59a8923ac",
+    "span_index": 28,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\n(10◦N∼55◦N and 75◦W∼135◦W) [19], and the quasi-zenith (ERA5).",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_2ae50a09e1",
+    "span_index": 29,
+    "text": "Finally, the conclusions are summarized in\nsatellite system (QZSS) Multi-GNSS ADvanced Orbit and Section IV.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_f1fcd152ce",
+    "span_index": 30,
+    "text": "Clock Augmentation-PPP (MADOCA-PPP) service starts to\nprovide trial service in 2022 to users in the Asia–Pacific II.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_0a0a42156d",
+    "span_index": 31,
+    "text": "METHODOLOGY\narea (60◦S∼60◦N and 70◦E∼200◦E) [20], followed by the\nA.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_57101dd6b3",
+    "span_index": 32,
+    "text": "Computation of Real-Time Precise Satellite Orbit and\nEuropean Galileo to declare initial service of its high accu-\nClock\nracy service (HAS) via E6B signals in 2023 to global\nusers (the rectangle area of 60◦S∼60◦N and 125◦W∼180◦W Real-time precise satellite orbit and clock are fundamental\nand the rectangle area of 60◦S∼60◦N and 90◦E∼180◦E are to ZTD estimation with real-time PPP.",
+    "char_length": 381
+  },
+  {
+    "quote_id": "qb_9342bf0c87",
+    "span_index": 33,
+    "text": "The computation of\nnot guaranteed for minimum performance levels) [21].",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_05a90b10ac",
+    "span_index": 34,
+    "text": "Note real-time GPS and BDS satellite orbits from PPP-B2b dis-\nthat PPP-B2b supports BDS/GPS constellations, and HAS seminated satellite orbit corrections δOs B2b can be described\nsupports Galileo/GPS constellations, while MADOCA-PPP as [27]\nsupports GPS/Galileo/GLONASS/QZSS constellations.",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_34130ed4f3",
+    "span_index": 35,
+    "text": "Qual-\nδXs = R δOs (1)\nity assessment of the obtained real-time satellite orbit and B2b B2b B2b\nclock products from BDS PPP-B2b, Galileo HAS, and QZSS where δXs is the obtained satellite orbit corrections in the\nB2b\nMADOCA-PPP has been conducted extensively, which indi- Earth-centered, Earth-fixed (ECEF) frame, and R is the\nB2b\ncates that they can support decimeter- to centimeter-level transformation matrix and can be obtained as\nreal-time PPP at the user [19], [21], [22], [23].",
+    "char_length": 482
+  },
+  {
+    "quote_id": "qb_003673a4af",
+    "span_index": 36,
+    "text": "Since these (cid:20) xs xs ×x˙s xs xs ×x˙s (cid:21)\nreal-time PPP augmentation correction services are dissem- R B2b = |xs| (cid:12) (cid:12)xs ×x˙s (cid:12) (cid:12) × |xs| (cid:12) (cid:12)xs ×x˙s (cid:12) (cid:12) (2)\ninated via navigation satellite signals, no additional costs\non hardware and software are required at the user, which where the satellite position xs and velocity x˙s are computed\nbringsgreatopportunitiesforimplementinglow-costreal-time using the broadcast navigation message as per its correspond-\nprecise ZTD estimation based on real-time precise satel- ing GNSS interface control document (ICD).",
+    "char_length": 619
+  },
+  {
+    "quote_id": "qb_bfe9d8d988",
+    "span_index": 37,
+    "text": "The computed\nlite orbit and clock products from BDS PPP-B2b, Galileo precise satellite orbit xs in the BeiDou coordinate system\nB2b\nHAS, and QZSS MADOCA-PPP.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_7d6f049bb8",
+    "span_index": 38,
+    "text": "Although real-time precise (BDCS) can be derived as\nZTD estimation with BDS PPP-B2b [24], [25] and Galileo\nxs = xs −δXs .",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_a90b544d9d",
+    "span_index": 39,
+    "text": "(3)\nHAS [26] has been investigated in previous research, further B2b B2b\ndevelopments and comprehensive performance assessment of ThePPP-B2bdisseminatedsatelliteclockcorrectionsδCs\nreal-time ZTD estimation with all the three operational GNSS should be applied to the broadcast satellite clock dts co B m 2b -\nsatellite-basedreal-timePPPaugmentationservicesarestillto\nputed from the broadcast navigation message.",
+    "char_length": 411
+  },
+  {
+    "quote_id": "qb_905a25fff6",
+    "span_index": 40,
+    "text": "The computed\nbe conducted.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_76b5df48c6",
+    "span_index": 41,
+    "text": "PPP-B2b satellite clock dts referenced to the BeiDou navi-\nThis article presents the methods and assessment of B2b\ngation satellite system time (BDT) can be derived as [27]\nreal-timepreciseZTDestimationwithallofthethreecurrently\nδCs\noperational GNSS satellite-based real-time PPP augmentation dts =dts − B2b (4)\ncorrection services, including BDS PPP-B2b, Galileo HAS, B2b c\nand QZSS MADOCA-PPP.",
+    "char_length": 395
+  },
+  {
+    "quote_id": "qb_1a7b9a6143",
+    "span_index": 42,
+    "text": "The main contributions of this where c denotes the speed of light.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_7f300a60ac",
+    "span_index": 43,
+    "text": "article are to answer the following research questions.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_39df11c1cd",
+    "span_index": 44,
+    "text": "On the other hand, real-time GPS and Galileo satellite\n1) How to estimate real-time precise ZTDs with GNSS orbits can be computed with HAS disseminated satellite orbit\nsatellite-based real-time PPP augmentation correction corrections δOs , which can be written as [28]\nHAS\nservices?",
+    "char_length": 282
+  },
+  {
+    "quote_id": "qb_e6de2a55ac",
+    "span_index": 45,
+    "text": "δXs = R δOs (5)\n2) Is it possible to estimate highly available and accurate HAS HAS HAS\nreal-time precise ZTDs?",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_435f4d3590",
+    "span_index": 46,
+    "text": "Do they meet the threshold where δXs is the obtained satellite orbit corrections in the\nHAS\n(15 mm) and target (10 mm) accuracy requirement for ECEF frame and R is the transformation matrix and can\nHAS\nnumerical weather prediction (NWP) assimilation [26]?",
+    "char_length": 255
+  },
+  {
+    "quote_id": "qb_aad886ad42",
+    "span_index": 47,
+    "text": "be obtained as\n3) How does the accuracy of the real-time PPP estimated\n(cid:20) x˙s xs ×x˙s x˙s xs ×x˙s (cid:21)\nThe Z r T es D t s of co th m is pa a r r e ti d cl t e o is ex o i r s g ti a n n g iz a e t d m a o s sp fo h l e lo ri w c s p .",
+    "char_length": 244
+  },
+  {
+    "quote_id": "qb_0daffdd286",
+    "span_index": 48,
+    "text": "r T o h d e uc m ts e ?",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_5e2ea493da",
+    "span_index": 49,
+    "text": "thods R HAS = (cid:12) (cid:12)x˙s (cid:12) (cid:12) × (cid:12) (cid:12)xs ×x˙s (cid:12) (cid:12) (cid:12) (cid:12)x˙s (cid:12) (cid:12) (cid:12) (cid:12)xs ×x˙s (cid:12) (cid:12) .",
+    "char_length": 181
+  },
+  {
+    "quote_id": "qb_f04a88c070",
+    "span_index": 50,
+    "text": "(6)\nto estimate real-time ZTD with precise satellite orbit and After that, real-time GPS and Galileo satellite orbit from\nclock products from the three GNSS satellite-based real- HAS in the Galileo terrestrial reference frame (GTRF) can be\ntime PPP augmentation correction services are described in derived as\nSectionII.InSectionIII,extensiveexperimentsandvalidation\nare conducted to examine the performance of the obtained xs HAS = xs +δXs HAS .",
+    "char_length": 446
+  },
+  {
+    "quote_id": "qb_bd2e0ae080",
+    "span_index": 51,
+    "text": "(7)\nreal-time ZTD products using IGS final ZTD products as the\nMeanwhile, real-time GPS and Galileo satellite clock refer-\nreferences.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_419ddf4477",
+    "span_index": 52,
+    "text": "Furthermore, the quality of the obtained real-time\nenced to the Galileo system time (GST) can be derived from\nzenith wet delays (ZWDs) is assessed with respect to ZWDs HAS disseminated satellite clock corrections δCs as [28]\nderived with datasets from Integrated Global Radiosonde HAS\nArchive (IGRA) as well as the European Centre For dts =dts +\nδC\nH\ns\nAS.",
+    "char_length": 356
+  },
+  {
+    "quote_id": "qb_c52dd07fab",
+    "span_index": 53,
+    "text": "(8)\nMedium-Range Weather Forecasts (ECMWF) Reanalysis v5 HAS c\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_c7dcec3b4b",
+    "span_index": 54,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_89acd6a125",
+    "span_index": 55,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_18b1839a63",
+    "span_index": 56,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nSimilarly, real-time GPS, GLONASS, and Galileo satellite\norbits can be computed with MADOCA-PPP disseminated\nsatelliteorbitcorrectionsδOs ,whichcanbewrittenas[20]\nMAD\nδXs = R δOs (9)\nMAD MAD MAD\nwhere δXs is the obtained satellite orbit corrections in the\nMAD\nECEF frame and R is the transformation matrix and can\nMAD\nbe obtained as\n(cid:20) x˙s xs ×x˙s x˙s xs ×x˙s (cid:21)\nR MAD = (cid:12) (cid:12)x˙s (cid:12) (cid:12) × (cid:12) (cid:12)xs ×x˙s (cid:12) (cid:12) (cid:12) (cid:12)x˙s (cid:12) (cid:12) (cid:12) (cid:12)xs ×x˙s (cid:12) (cid:12) .",
+    "char_length": 618
+  },
+  {
+    "quote_id": "qb_d1a97dc45f",
+    "span_index": 57,
+    "text": "(10)\nAfter that, real-time GPS, GLONASS, and Galileo satellite\norbit from MADOCA-PPP in the International Terrestrial\nReference Frame (ITRF2020) can be derived as\nFig.1.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_36f3bbacf2",
+    "span_index": 58,
+    "text": "Geographicaldistributionof15GNSSstations.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_0b042e79b9",
+    "span_index": 59,
+    "text": "(11)\nMAD MAD\nMeanwhile,real-timeGPS,GLONASS,andGalileosatellite ConsideringthedifferentcharacteristicsofZWDandZHD,\nclock referenced to the QZSS time (QZSST) can be derived the ZWD and horizontal gradients G ns and G ew are estimated\nfrom MADOCA-PPP disseminated satellite clock corrections asunknownparameters,whileZHDismodeledwithempirical\nδCs as [20] model such as Saastamoinen model [30].",
+    "char_length": 391
+  },
+  {
+    "quote_id": "qb_84f05211f2",
+    "span_index": 60,
+    "text": "Meanwhile, the\nMAD\nsatellite orbit and clock are obtained from PPP-B2b, HAS,\nδCs\ndts =dts − MAD.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_b234d385e8",
+    "span_index": 61,
+    "text": "(12) and MADOCA-PPP services, and the receiver coordinates are\nMAD c\nfixed to reference solutions.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_272010dd18",
+    "span_index": 62,
+    "text": "The unknown state vectors in\nThe code biases are also disseminated by PPP-B2b, HAS, real-time PPP are {dt r,G dt r,C Zw G ns G sw N I 1 F ··· N I s F }T\nandMADOCA-PPP,whichshouldbeappliedappropriatelyas for PPP-B2b, {dt r,G dt r,E Zw G ns G sw N I 1 F ··· N I s F }T for\nper corresponding ICDs [20], [27], [28].",
+    "char_length": 311
+  },
+  {
+    "quote_id": "qb_9263ea2c9c",
+    "span_index": 63,
+    "text": "It is also noted that HAS, and {dt r,G dt r,R dt r,E Zw G ns G sw N I 1 F ··· N I s F }T\nthe computed real-time satellite orbit and clock from PPP- for MADOCA-PPP, where dt r,G , dt r,C , dt r,R , and dt r,E are\nB2b, HAS, and MADOCA-PPP refer to different reference the receiver clock for GPS, BDS, GLONASS, and Galileo,\nframe and time system.",
+    "char_length": 343
+  },
+  {
+    "quote_id": "qb_0cf862f949",
+    "span_index": 64,
+    "text": "Therefore, real-time PPP are running respectively.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_8f90af4883",
+    "span_index": 65,
+    "text": "It is noted that the ionospheric-free ambiguities\nindependently without integrating these three services in this are estimated as float constants since no carrier phase bias\nstudy.",
+    "char_length": 180
+  },
+  {
+    "quote_id": "qb_d3d167abdb",
+    "span_index": 66,
+    "text": "products are available from these three services.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_da4db112f9",
+    "span_index": 67,
+    "text": "After estimating the state vector, the real-time ZTD is\nB.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_b9de9b6082",
+    "span_index": 68,
+    "text": "ZTD Estimation With Real-Time PPP obtained as\nThe dual-frequency ionospheric-free observation model is ZTD= Zw +Z\nh\n.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_21a2beb5b2",
+    "span_index": 69,
+    "text": "(15)\nused for ZTD estimation with real-time PPP, which can be\ndescribed as [8], [29] III.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_c2a045de6d",
+    "span_index": 70,
+    "text": "EXPERIMENTS,RESULTS,ANDDISCUSSION\nP I s F =ρs +dt r,sys −dts +Ts +ε P I s F A.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_a1d173243a",
+    "span_index": 71,
+    "text": "Data Collection and Processing Strategies\n(cid:56)s IF =ρs +dt r,sys −dts +Ts +N I s F +ε (cid:56)s IF (13) Toassesstheperformanceofreal-timeZTDestimationwith\nPPP-B2b, HAS, and MADOCA-PPP services, GNSS obser-\nwhere the superscript “s” refers to the satellite, and Ps and\nIF vations of 15 stations from the IGS multi-GNSS experiment\n(cid:56)s are the dual-frequency ionospheric-free code and carrier\nIF (MGEX) network in the PPP-B2b, HAS, and MADOCA-PPP\nphase observations after applying necessary corrections in\noverlapped service region [20], [28], [31], from day of year\nr u e n s i p ts ec o ti f ve m ly e .",
+    "char_length": 612
+  },
+  {
+    "quote_id": "qb_f02c654142",
+    "span_index": 72,
+    "text": "te ρ r s s, is w t i h t e h g c e o o r m re e sp tr o ic nd d i i n s g tan n c o e is b e e s tw as ee ε n P I t s F he an s d ate ε l (cid:56) li s I t F e , (DOY) 181 to 229, 2023, are collected.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_665653a704",
+    "span_index": 73,
+    "text": "The geographic\ndistribution of the 15 GNSS stations is shown in Fig.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_9e966fe889",
+    "span_index": 74,
+    "text": "It is\nandreceiver.dts isthesatelliteclock,whiledt r,sys istheGNSS noted that the selected stations are located in the nonnominal\nsystem-specific receiver clock.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_ec14061d72",
+    "span_index": 75,
+    "text": "Ns is the ionospheric-free\nIF HAS service area [28], which may expect quality degradation\nambiguityinunitsofmeters.Ts istheslanttroposphericdelay,\nof the real-time PPP estimated ZTDs/ZWDs [26].",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_f6c8421c98",
+    "span_index": 76,
+    "text": "which can be expressed as [1]\nMeanwhile, a Septentrio Mosaic X5 receiver (SEPT) is\nTs = M\nw\ns(e)Zw +M\nh\ns(e)Z\nh\ndeployed in Zhengzhou, China, to collect PPP-B2b and\nHAS corrections, while the MADOCA-PPP corrections are\n+Ms(e)cote(G ·cosa+G ·sina) (14)\nw ns ew obtained from QZSS official MADOCA-PPP data archive\nwhere e and a are the satellite elevation and azimuth angles, (https://l6msg.go.gnss.go.jp/).",
+    "char_length": 405
+  },
+  {
+    "quote_id": "qb_60b5567dde",
+    "span_index": 77,
+    "text": "It is noted that different GNSS\nrespectively; Zw and Z\nh\nare the zenith wet tropospheric delay observationcombinationsareselectedbasedontheavailability\n(ZWD)andzenithhydrostatictroposphericdelay(ZHD),with of real-time precise satellite orbit and clock products as listed\nelevation-dependent mapping functions Ms(e) and Ms(e), in Table I, while detailed data processing strategies are listed\nw h\nrespectively; and G and G are the horizontal gradients in Table II.",
+    "char_length": 462
+  },
+  {
+    "quote_id": "qb_2529098941",
+    "span_index": 78,
+    "text": "In addition, the postprocessed precise satellite\nns ew\nin the north–south and east–west directions, respectively.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_0260682855",
+    "span_index": 79,
+    "text": "orbit and clock products from Wuhan University, one of\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_d9d31f52fe",
+    "span_index": 80,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_9d5509532e",
+    "span_index": 81,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_4201b722c7",
+    "span_index": 82,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\nTABLEI TABLEII\nREAL-TIMEPPPOBSERVATIONCONFIGURATIONS REAL-TIMEPPPPROCESSINGSTRATEGIES\nthe IGS MGEX Analysis Center (WUM), are also used for\nZTDestimationwithquad-constellationPPP(i.e.,GPSL1/L2,\nGLONASS G1/G2, Galileo E1/E5a, and BDS B1/B3).",
+    "char_length": 305
+  },
+  {
+    "quote_id": "qb_fa9f479595",
+    "span_index": 83,
+    "text": "Note\nthat the ZTD estimation is conducted in a simulated real-time\nmanner based on data availability.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_c333133b40",
+    "span_index": 84,
+    "text": "Furthermore, to minimize\nthe impacts of different reference frames (Table I) on ZTD\nestimation, the receiver coordinates are fixed to respective\nPPP static solutions to ensure self-consistency.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_bff371cc95",
+    "span_index": 85,
+    "text": "As for inter-\ncomparison with other products, the time system differences\nare neglected considering the relatively slow-varying charac-\nteristics of ZTDs, while the reference frame differences will\nlikely contribute to the constant biases.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_1108daefb6",
+    "span_index": 86,
+    "text": "The obtained ZTD\ntime series are referred to as ZTD-B2B (with BDS PPP-\nB2b),ZTD-HAS(withGalileoHAS),ZTD-MAD(withQZSS\nMADOCA-PPP),andZTD-WUM(withIGSWUMproducts),\nrespectively.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_54070e10e8",
+    "span_index": 87,
+    "text": "The obtained ZTD time series at CUSV station are plotted\ninFig.2asanexample.ItisobservedthattheZTDtimeseries\nvary similarly among different solutions, with ZTD values\nranging from 2.4 to 2.8 m.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_1bdbd0072c",
+    "span_index": 88,
+    "text": "The availability of the real-time\nPPP estimated ZTD time series is first assessed considering\nthenominalobservationsamplingintervalsof30s;hence,the\nnominal daily updates of ZTDs should be 2880.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_adf78be795",
+    "span_index": 89,
+    "text": "3 shows\nthe calculated availability percentage of ZTD-B2B, ZTD-\nHAS, ZTD-MAD, and ZTD-WUM.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_4cdff19dbb",
+    "span_index": 90,
+    "text": "Generally, the available\npercentage of all the 15 stations is larger than 99%, with no\nsignificant differences being found among different ZTD time\nseries at the same station.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_70e0094ea5",
+    "span_index": 91,
+    "text": "However, the availability of the\nZTD time series is different among different stations, which\nareattributedtothevariedqualityofGNSSobservations.Nev-\nertheless,itindicatesthatthereal-timecorrectionsprovidedby\nPPP-B2b/HAS/MADOCA-PPP are capable of deriving highly\navailable ZTDs comparable to those of using postprocessed\nIGS WUM products.",
+    "char_length": 337
+  },
+  {
+    "quote_id": "qb_8ef738e500",
+    "span_index": 92,
+    "text": "ZTD time series estimated with PPP-B2b, HAS, MADOCA-PPP,\nB.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_cdb200bc1f",
+    "span_index": 93,
+    "text": "Inter-GNSS ZTD Comparison\nandWUMattheCUSVstation.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_8ed57c3c16",
+    "span_index": 94,
+    "text": "The internal consistency is first verified by comparing\nthe real-time ZTD solutions (i.e., ZTD-B2B/ZTD-HAS/ZTD-\nMAD) with respect to those derived with the postprocessed quality of the estimated ZTDs should therefore be attributed\nIGSWUMproducts(ZTD-WUM).Sincetheprocessingstrate- mainly to the quality of different real-time satellite orbit and\ngies are the same among different ZTD solutions, the varied clock products.",
+    "char_length": 421
+  },
+  {
+    "quote_id": "qb_37085af0a4",
+    "span_index": 95,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_52a5b85f64",
+    "span_index": 96,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_2f47ce1971",
+    "span_index": 97,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_3207b48d7b",
+    "span_index": 98,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nFig.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_5c4e89c8b6",
+    "span_index": 99,
+    "text": "Differences of ZTD-B2B/ZTD-HAS/ZTD-MAD with respect to\nZTD-WUM at CUSV station.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_d2d0681a32",
+    "span_index": 100,
+    "text": "Offsets of 0.15 and −0.15 m are applied to\nZTD-B2BandZTD-MADforbettervisibility.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_f0e2e65ac9",
+    "span_index": 101,
+    "text": "TABLEIII\nSTATISTICSOFREAL-TIMEZTDSOLUTIONSCOMPAREDTO\nZTD-WUMSOLUTIONS(UNITS:mm)\nFig.3.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_486335156e",
+    "span_index": 102,
+    "text": "AvailabilitypercentageoftheestimatedZTDs.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_8a37960cd0",
+    "span_index": 103,
+    "text": "The time series of ZTD differences at CUSV are shown IGSWUMproductsaremoreconcentratedtowardzero,which\nin Fig.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_552c46d38f",
+    "span_index": 104,
+    "text": "4 as an example.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_d176e55a4f",
+    "span_index": 105,
+    "text": "It can be seen that the ZTD- are significantly better than those derived with PPP-B2b and\nB2B solutions has a relatively significant bias of 3.3 mm HAS.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_1d571195f8",
+    "span_index": 106,
+    "text": "The corresponding STDs are 25.2, 19.8, 12.8, and\nwith a standard deviation (STD) of 20.6 mm, indicating that 12.2 mm, which indicates that the quality of ZTDs derived\nthe obtained ZTDs can vary significantly over time.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_98d9cb8062",
+    "span_index": 107,
+    "text": "On the with WUM products is the best, followed by those derived\nother hand, the ZTD-HAS solution shows a smaller bias of with MADOCA-PPP and HAS products, while the quality\n0.5 mm with an STD of 15.3 mm, suggesting that there is of ZTDs derived with PPP-B2b is the poorest, which should\nconsiderable variability.",
+    "char_length": 312
+  },
+  {
+    "quote_id": "qb_c494781183",
+    "span_index": 108,
+    "text": "In contrast, the ZTD-MAD solution be attributed to the satellite availability and varied quality of\nis highly consistent with the ZTD-WUM solution, with a bias different products.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_9c445e948f",
+    "span_index": 109,
+    "text": "of nearly zero and a much lower STD of 5.7 mm.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_2525a5982e",
+    "span_index": 110,
+    "text": "The statistics over all the 15 GNSS stations are plotted\nFurthermore, the statistics of real-time ZTD solutions com- in Fig.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_faa3d261b9",
+    "span_index": 111,
+    "text": "6, and the mean of the statistics is provided in\npared to the ZTD-WUM solution over all the 15 stations Table IV.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_96dba42ecd",
+    "span_index": 112,
+    "text": "On the one hand, when comparing ZTD quality\nare provided in Table III.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_b554fe41ba",
+    "span_index": 113,
+    "text": "The results show that ZTD-MAD among different GNSS stations using the same satellite orbit\nsolution is the most consistent with respect to ZTD-WUM and clock products, it is found that the quality of the obtained\nsolution, with mean root-mean square errors (RMSEs) of ZTDs at GNSS station WUH2 is generally poorer than other\n6.8 mm, followed by ZTD-HAS with an RMSE value of stations,whichindicatesthatthequalityofZTDsisaffectedby\n16.2mm.TheZTD-B2B,however,showsthemostsignificant thequalityGNSSobservations.Ontheotherhand,whencom-\nbiasesandvariationsamongthethreereal-timeZTDsolutions, paring ZTD quality among solutions using different satellite\nwith an RMSE value of 19.2 mm.",
+    "char_length": 677
+  },
+  {
+    "quote_id": "qb_60fde9b1fe",
+    "span_index": 114,
+    "text": "The large biases of ZTD- orbitandclockproducts,itisshownthatthemeanbiasesover\nB2B could be attributed to the PPP-B2b constellation rotation all the selected stations are 5.4, 0.7, 0.3, and 1.1 mm for the\nerrors as revealed in [22].",
+    "char_length": 231
+  },
+  {
+    "quote_id": "qb_8e5ba7fe21",
+    "span_index": 115,
+    "text": "Overall, the results highlight the ZTD-B2B,ZTD-HAS,ZTD-MAD,andZTD-WUMsolutions,\nimpacts of the varied quality of different real-time satellite respectively, while the mean STDs are at the same level of\norbit and clock products on real-time ZTD estimation.",
+    "char_length": 255
+  },
+  {
+    "quote_id": "qb_c6add88c17",
+    "span_index": 116,
+    "text": "20.0and17.5mmforZTD-B2BandZTD-HAS,and10.1and\nThen,thereal-timePPPestimatedZTDsarecomparedwith 9.0 mm for ZTD-MAD and ZTD-WUM, respectively.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_a3dd44705b",
+    "span_index": 117,
+    "text": "The\nthe IGS final ZTD products, and the distribution of ZTD quality of ZTD-WUM, with a mean RMSE of 9.0 mm, is the\ndifferences for station CUSV are shown in Fig.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_cfc7eb73a0",
+    "span_index": 118,
+    "text": "It is shown bestamongallthefoursolutions,followedbyZTD-MADwith\nthat the ZTD differences obtained using MADOCA-PPP and ameanRMSEof10.1mmandZTD-HASwithameanRMSE\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_14f61a6021",
+    "span_index": 119,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_f7ac8154e4",
+    "span_index": 120,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_aa118f1450",
+    "span_index": 121,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\nTABLEIV\nSTATISTICSOFREAL-TIMEZTDSOLUTIONSCOMPARED\nTOIGSFINALPRODUCTS(UNITS:mm)\nFig.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_d46e5e9cf0",
+    "span_index": 122,
+    "text": "Differences of real-time ZTDs estimated with (top left) PPP-B2b,\n(top right) HAS, (bottom left) MADOCA-PPP, and (bottom right) WUM at\nCUSVusingIGSfinalZTDproductsasthereferences.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_be3d229424",
+    "span_index": 123,
+    "text": "The quality of ZTD-B2B, with a mean RMSE of\n21.5mm,isthepoorest,whichcouldbeattributedtothelarge\nbiases and variations.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_e5eb49ac62",
+    "span_index": 124,
+    "text": "The results indicates that the quality of\nZTDs obtained with real-time MADOCA-PPP corrections is\ncomparable to those derived with postprocessed IGS WUM\nproducts, while the quality of ZTDs obtained with PPP-B2b\nand HAS are significantly worse.",
+    "char_length": 242
+  },
+  {
+    "quote_id": "qb_73dada25e2",
+    "span_index": 125,
+    "text": "It is found that the quality\nof ZTD-B2B is comparable to previous research such as [24]\nand [25], while the quality of ZTD-HAS is slightly poorer\ncompared to [26], which might be restricted mainly by HAS\nquality degradation in the nonnominal service area.",
+    "char_length": 255
+  },
+  {
+    "quote_id": "qb_bc694c3a08",
+    "span_index": 126,
+    "text": "Based on\nthe above results, we concluded that the ZTD-MAD solution\nmay be safely used for NWP assimilation, while the quality\nof ZTD-B2B and ZTD-HAS (in the Asia–Pacific region) are\nstill to be improved.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_7757c1a1af",
+    "span_index": 127,
+    "text": "ZWD Comparison With IGRA Radiosonde Dataset\nTo further assess the quality of real-time ZTDs, data from\nFig.6.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_09e52f4112",
+    "span_index": 128,
+    "text": "Mean(circle)andstandarddeviation(bar)ofZTDsestimatedwith\nradiosonde stations with horizontal distances of smaller than differentsatelliteorbitandclockproducts.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_8d96b77a92",
+    "span_index": 129,
+    "text": "50 km and height differences of smaller than 200 m are\ncollected for ZWD calculation according to [5] and [36].",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_bfdeab3da3",
+    "span_index": 130,
+    "text": "stations based on the availability of radiosonde data.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_aef18a3d2c",
+    "span_index": 131,
+    "text": "Note\nThe comparison is then conducted at eight of the GNSS that the radiosonde-derived ZWDs are available twice per\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_2e10e1185d",
+    "span_index": 132,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_bf19018cb6",
+    "span_index": 133,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_f30ebb3bcf",
+    "span_index": 134,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nFig.7.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_d522756c7b",
+    "span_index": 135,
+    "text": "Timeseriesofreal-timePPPestimatedZWDsatJFNGaswellasZWDsderivedfromnearbyradiosondedata.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_943ae00eba",
+    "span_index": 136,
+    "text": "day, while the PPP derived ZWDs are computed with much TABLEV\nhighertemporalresolution,specificallyevery30sinthisstudy.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_074c8a239c",
+    "span_index": 137,
+    "text": "STATISTICSOFREAL-TIMEZWDSOLUTIONS\nTherefore, the comparison is only conducted when both PPP\nCOMPAREDTORADIOSONDE(UNITS:mm)\nderived ZWDs and radiosonde-derived ZWDs are available,\nandthestatisticsoftheobtaineddifferencesarethencalculated\naccordingly.",
+    "char_length": 249
+  },
+  {
+    "quote_id": "qb_caea34e5cf",
+    "span_index": 138,
+    "text": "The time series of the PPP estimated ZWDs at JFNG and\nradiosonde-derived ZWDs are plotted in Fig.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_b6a80849d2",
+    "span_index": 139,
+    "text": "The results\nshowthattheZWDsvaryfrom0.1to0.6mduringtheselected\nperiod.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_c0c9b05bac",
+    "span_index": 140,
+    "text": "The real-time ZWDs and the radiosonde-derived\nZWDs at JFNG are generally consistent over time, and the\nmeanandSTDare−0.1and30.2mmforZTD-B2Bsolution,\n−2.5and35.8mmforZTD-HASsolution,−7.4and24.7mm\nfor ZTD-MAD solution, and −5.7 and 24.4 mm for ZTD-\nWUM solution, respectively.",
+    "char_length": 274
+  },
+  {
+    "quote_id": "qb_cdd7edd331",
+    "span_index": 141,
+    "text": "The corresponding correlation\ncoefficients are 0.913, 0.890, 0.943, and 0.944.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_b735e3001b",
+    "span_index": 142,
+    "text": "The results\nindicate that there are large biases and variations over time\nbetween the PPP estimated ZWDs and the radiosonde-derived\nZWDs,whichareexpectedasthespatialcorrelationofZWDs,\nare significantlydegraded with horizontaldistance of43.3 km\nbetween JFNG (GNSS) and 57494 (radiosonde).",
+    "char_length": 287
+  },
+  {
+    "quote_id": "qb_02093b3518",
+    "span_index": 143,
+    "text": "The statistics of the differences of real-time PPP estimated\nZWDsandtheradiosonde-derivedZWDsareplottedinFig.8,\nand the mean of the statistics is provided in Table V.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_931ffc0a56",
+    "span_index": 144,
+    "text": "It can\nbe seen that the consistency are the best at ULAB and\nURUM.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_e56897b93d",
+    "span_index": 145,
+    "text": "The results reveal that there are no significant biases\nbetween the estimated ZWDs and the radiosonde-derived\nZWDs.Meanwhile,therearelargevariationsinthedifferences\nof the real-time PPP estimated ZWDs and radiosonde-derived Fig.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_b5bbab6077",
+    "span_index": 146,
+    "text": "STDs of ZWDs estimated with different satellite orbit and clock\nproductscomparedtoradiosonde-derivedZWDs.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_28b0af7015",
+    "span_index": 147,
+    "text": "ZWDs, which could be attributed to many factors, such as\nthe spatial correlation degradation of ZWDs between the\nGNSS and radiosonde stations due to the large horizontal\nD.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_8f3fff3f72",
+    "span_index": 148,
+    "text": "ZWD Comparison With ERA5 Dataset\ndistances.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_a30aa5b9a7",
+    "span_index": 149,
+    "text": "The quality variation of real-time ZWDs as already\nbeen revealed in Section III-B also contribute significantly Tofurtherverifythequalityofreal-timePPPderivedZWDs,\nto the large STDs.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_db394a370f",
+    "span_index": 150,
+    "text": "Overall, the quality of the real-time PPP the ECMWF ERA5 hourly variables of geopotential, relative\nestimated ZWDs using MADOCA-PPP and WUM satellite humidity,andtemperatureateachofthe37pressurelevelsare\norbit and clock products is comparable, with mean RMSEs of collected.",
+    "char_length": 273
+  },
+  {
+    "quote_id": "qb_0b8f365e61",
+    "span_index": 151,
+    "text": "Since the ERA5 data are provided with a resolution\n20.8 and 20.2 mm, while those for ZTD-B2B and ZTD-HAS of 0.25◦ latitude by 0.25◦ longitude, the obtained ERA5 data\nare 25.7 and 26.2 mm, respectively.",
+    "char_length": 201
+  },
+  {
+    "quote_id": "qb_365b479e4a",
+    "span_index": 152,
+    "text": "are interpolated to the GNSS station to compute the hourly\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_eada201030",
+    "span_index": 153,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_6ebda8f9a3",
+    "span_index": 154,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_6e080697cb",
+    "span_index": 155,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\nFig.9.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_9ecfd79e09",
+    "span_index": 156,
+    "text": "Real-timePPPestimatedZWDsagainstZWDsderivedfromERA5atJFNG.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_799c7bc690",
+    "span_index": 157,
+    "text": "ZWDs[37].Similarly,thedifferencesofPPPestimatedZWDs TABLEVI\nand ERA5-derived ZWDs are calculated when both datasets STATISTICSOFREAL-TIMEZWDSOLUTIONS\nare available, which are then used for the computation of\nCOMPAREDTOERA5(UNITS:mm)\nvarious statistics, including mean, STD, and RMSE.",
+    "char_length": 283
+  },
+  {
+    "quote_id": "qb_c2756e653f",
+    "span_index": 158,
+    "text": "The real-time PPP estimated ZWDs at JFNG and the cor-\nresponding ERA5-derived ZWDs are plotted in Fig.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_2321bff837",
+    "span_index": 159,
+    "text": "The\nresults show that the real-time PPP estimated ZWDs and the\nERA5-derived ZWDs at JFNG are highly correlated, with\ncorrelation coefficients of 0.911, 0.895, 0.938, and 0.945 for\nZTD-B2B, ZTD-HAS, ZTD-MAD, and ZTD-WUM, respec-\ntively, and the corresponding STDs are 28.4, 32.2, 25.1, and\n24.2 mm, respectively.",
+    "char_length": 311
+  },
+  {
+    "quote_id": "qb_fba56566ab",
+    "span_index": 160,
+    "text": "The results further confirms that the\nqualityoftheZTD-MADisthebestamongthethreereal-time\nPPP derived ZWD solutions, which is comparable to the\nqualityofZTD-WUMderivedusingpostprocessedIGSWUM STDsaregenerallysmallerthan30mmatmostofthestations,\nproducts.",
+    "char_length": 252
+  },
+  {
+    "quote_id": "qb_fb096ee9a2",
+    "span_index": 161,
+    "text": "which indicates high consistency between the real-time PPP\nThe STDs of the differences of real-time PPP estimated estimated ZWDs and the ERA5-derived ZWDs.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_ea3b6dc19f",
+    "span_index": 162,
+    "text": "Overall, it is\nZWDs and the ERA5-derived ZWDs are plotted in Fig.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_78764ad651",
+    "span_index": 163,
+    "text": "10, observedthatthequalityofZTD-MADiscomparabletothose\nand the mean of the statistics is provided in Table VI.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_fb09bb2332",
+    "span_index": 164,
+    "text": "It can of ZTD-WUM, but it is significantly better than those of\nbe seen that the consistency is the best at ULAB, with STDs ZTD-B2B and ZTD-HAS, with mean RMSEs of 28.2, 24.6,\nof 14.9 mm for ZTD-B2B, 19.7 mm for ZTD-HAS, 14.0 mm 19.8,and19.6mmforZTD-B2B,ZTD-HAS,ZTD-MAD,and\nfor ZTD-MAD, and 13.8 mm for ZTD-WUM solutions.",
+    "char_length": 321
+  },
+  {
+    "quote_id": "qb_1b444361fa",
+    "span_index": 165,
+    "text": "The ZTD-WUM, respectively.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_eb55c2004f",
+    "span_index": 166,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_a32e7a5a67",
+    "span_index": 167,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_ed042e6be9",
+    "span_index": 168,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_be76b10fb9",
+    "span_index": 169,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nFig.10.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_640c332c28",
+    "span_index": 170,
+    "text": "STDsofreal-timePPPestimatedZWDscomparedtoERA5derivedZWDs.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_9db8ec545b",
+    "span_index": 171,
+    "text": "CONCLUSION The real-time PPP estimated ZWDs are compared with\nZWDs derived from IGRA radiosonde and ECMWF\nThe freely and openly accessible GNSS satellite-based PPP\nERA5 datasets.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_199d92f5ee",
+    "span_index": 172,
+    "text": "It is found that the mean STDs are\naugmentationserviceshavebeenconsideredasacost-effective\nsmaller than 30 mm for all the three real-time ZTD\nalternative to obtain real-time precise ZTD estimates at\nsolutions, which highlights its consistency with com-\nreducedcoststosupportvariousemergingatmosphericremote\nmonlyusedatmosphericproducts.SincePPP-B2b,HAS,\nsensing applications.",
+    "char_length": 375
+  },
+  {
+    "quote_id": "qb_cfa67af605",
+    "span_index": 173,
+    "text": "This article presents the methodologies\nand MADOCA-PPP are all disseminated by navigation\nand comprehensive performance assessment of real-time ZTD\nsatellite signals, no external communication links or\nestimation with all the three operational GNSS satellite-based\nservice subscription fees are required at the user to\nreal-timePPPaugmentationservices,andthemainconclusions\nobtain real-time precise ZTDs.",
+    "char_length": 404
+  },
+  {
+    "quote_id": "qb_be3c094011",
+    "span_index": 174,
+    "text": "Considering that dense\ncan be summarized as follows.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_03df997404",
+    "span_index": 175,
+    "text": "GNSS networks are available globally thanks to the\n1) How to Estimate Real-Time Precise ZTDs With GNSS\ndevelopment of continuously operating reference sta-\nSatellite-Based Real-Time PPP Augmentation Correc-\ntions (CORSs), the proposed real-time ZTD estimation\ntionServices?Real-timepreciseZTDscanbeestimated\nprocedures are therefore expected to provide real-time\nwith dual-frequency ionospheric-free PPP observation\npreciseZWDs/ZTDswithhighspatiotemporalresolution\nmodel following data processing strategies provided in\nin all-weather conditions to support time-critical atmo-\nTable II.",
+    "char_length": 586
+  },
+  {
+    "quote_id": "qb_9eff2f84d6",
+    "span_index": 176,
+    "text": "Furthermore, the scope of this work could\nspheric remote sensing applications on a routine basis.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_9df97d3a49",
+    "span_index": 177,
+    "text": "be significantly expanded by incorporating alternative\nThe GNSS satellite-based PPP augmentation services are\nreal-time PPP observation models (e.g., uncombined\ncontinuously being evolved in many aspects, such as the\nPPP/triple-frequency PPP/quad-frequency PPP models).",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_5513aecdfe",
+    "span_index": 178,
+    "text": "improvementofproductquality,theexpansionofservicearea,\n2) IsItPossibletoEstimateHighlyAvailableandAccurate\nas well as the incorporation of carrier phase bias corrections\nReal-Time Precise ZTDs?",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_04c443657f",
+    "span_index": 179,
+    "text": "Do They Meet the Threshold\nto support real-time PPP ambiguity resolution [28] and so\n(15 mm) and Target (10 mm) Accuracy Requirement for\non.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_9ce6efb4d9",
+    "span_index": 180,
+    "text": "It is expected that the quality of the obtained real-time\nNWP Assimilation?",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_a822800357",
+    "span_index": 181,
+    "text": "On the one hand, highly available\n(>99%) real-time precise ZTDs can be obtained for ZWDs/ZTDs with GNSS satellite-based PPP augmentation\nservices will be improved over time, which will play an\nall the three services.",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_55bbd6a888",
+    "span_index": 182,
+    "text": "On the other hand, when using\nincreasingly important role in atmospheric remote sensing\nIGS final ZTD products as the references, the STDs of\napplications.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_2b17d1b3d6",
+    "span_index": 183,
+    "text": "real-time ZTDs are 20.0, 17.5, and 9.5 mm for PPP-\nB2b, HAS, and MADOCA-PPP, respectively.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_bf1975ddde",
+    "span_index": 184,
+    "text": "Overall,\nthe quality of the real-time ZWDs/ZTDs derived with ACKNOWLEDGMENT\nMADOCA-PPP is comparable to those derived with The authors would like to thank the International GNSS\npostprocessed IGS WUM products and is significantly Service (IGS) for providing the GNSS data and products,\nbetterthanthosederivedwithPPP-B2bandHAS.There- the National Climatic Data Center (NCDC) for providing the\nfore, the real-time ZTDs obtained with MADOCA-PPP Integrated Global Radiosonde Archive (IGRA) dataset, and\nmay be safely used for NWP assimilation, while that the European Centre for Medium-Range Weather Forecasts\nobtainedwithPPP-B2bandHASsuffersfromsignificant (ECMWF) for providing the Reanalysis v5 (ERA5) dataset.",
+    "char_length": 709
+  },
+  {
+    "quote_id": "qb_39df226afa",
+    "span_index": 185,
+    "text": "variations and should be further improved.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_a0d1007c36",
+    "span_index": 186,
+    "text": "It is noted\nthat however, Galileo HAS may suffer from quality\nREFERENCES\ndegradationconsideringthattheselecteddatasetsareall\nlocated in the nonnominal service area.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_55a0af85a2",
+    "span_index": 187,
+    "text": "Anthes, and\nR.H.Ware,“GPSmeteorology:Remotesensingofatmosphericwater\n3) HowDoestheAccuracyoftheReal-TimePPPEstimated\nvapor using the global positioning system,” J.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_b423be8715",
+    "span_index": 188,
+    "text": "Res., Atmos.,\nZTDs Compared to Existing Atmospheric Products?",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_921e62e1fc",
+    "span_index": 189,
+    "text": "vol.97,no.D14,pp.15787–15801,Oct.1992,doi:10.1029/92jd01517.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_7e6a5e756e",
+    "span_index": 190,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_f4c9a7256e",
+    "span_index": 191,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_54380b9939",
+    "span_index": 192,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_26076f8be5",
+    "span_index": 193,
+    "text": "5802011 IEEETRANSACTIONSONGEOSCIENCEANDREMOTESENSING,VOL.62,2024\n[2] Q.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_be36867b41",
+    "span_index": 194,
+    "text": "Li, “A novel regional [22] H.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_61f2e38f5a",
+    "span_index": 195,
+    "text": "Zhao, “Performance\ndrought monitoring method using GNSS-derived ZTD and precipita- comparison of orbit and clock augmentation corrections from PPP-\ntion,”RemoteSens.Environ.,vol.297,Nov.2023,Art.no.113778,doi: b2b, HAS and CLAS,” Adv.",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_8bf5c4ec58",
+    "span_index": 196,
+    "text": "Space Res., vol.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_169b113260",
+    "span_index": 197,
+    "text": "2, pp.668–681,\n10.1016/j.rse.2023.113778.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_38272b0003",
+    "span_index": 198,
+    "text": "Jul.2024,doi:10.1016/j.asr.2024.04.029.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_a09ec2df4d",
+    "span_index": 199,
+    "text": "Wu et al., “Real-time GNSS tropospheric delay estimation with a [23] J.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_978245841c",
+    "span_index": 200,
+    "text": "Zhang, “Comprehensive\nnovelglobalrandomwalkprocessingnoisemodel(GRM),”J.Geodesy, analysis of PPP-B2b service and its impact on BDS-3/GPS real-time\nvol.97,no.12,p.112,Dec.2023,doi:10.1007/s00190-023-01780-8.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_10b98290f9",
+    "span_index": 201,
+    "text": "PPP time transfer,” Remote Sens., vol.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_9d7c01b39c",
+    "span_index": 202,
+    "text": "21, p.5366, Oct.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_2c8e688ff4",
+    "span_index": 203,
+    "text": "Schott-Guilmault, and F.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_cc75c94431",
+    "span_index": 204,
+    "text": "Perosanz, doi:10.3390/rs14215366.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_15463cb879",
+    "span_index": 205,
+    "text": "“Towards the tropospheric ties in the GPS, DORIS, and VLBI com- [24] Y.Xu,P.Zhao,J.Wang,andX.Meng,“PerformanceassessofBDS-3\nbinationanalysisduringCONT14,”J.Geodesy,vol.97,no.12,p.111, PPP-B2b signal service and its application in precipitable water vapor\nDec.2023,doi:10.1007/s00190-023-01803-4.",
+    "char_length": 295
+  },
+  {
+    "quote_id": "qb_6a7fc54241",
+    "span_index": 206,
+    "text": "retrieval,” in Proc.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_aef2a69914",
+    "span_index": 207,
+    "text": "(CSNC), in Lecture\n[5] A.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_030cc58ee2",
+    "span_index": 208,
+    "text": "Niell et al., “Comparison of measurements of atmospheric Notes in Electrical Engineering, vol.",
+    "char_length": 94
+  },
+  {
+    "quote_id": "qb_6878cdf5cf",
+    "span_index": 209,
+    "text": "Xie, Eds.,\nwet delay by radiosonde, water vapor radiometer, GPS, and VLBI,” Singapore:Springer,2024,pp.118–131,doi:10.1007/978-981-99-6928-\nJ.Atmos.Ocean.Technol.,vol.18,no.6,pp.830–850,Jun.2001,doi: 9_11.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_a27a32a30b",
+    "span_index": 210,
+    "text": "10.1175/1520-0426(2001)018<0830:COMOAW>2.0.CO;2.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_6008f620aa",
+    "span_index": 211,
+    "text": "[25] H.Yang,X.He,V.Ferreira,S.Ji,Y.Xu,andS.Song,“Assessmentof\nprecipitable water vapor retrieved from precise point positioning with\n[6] Q.Zhaoetal.,“Ahigh-precisionZTDinterpolationmethodconsidering\nPPP-B2b service,” Earth Sci.",
+    "char_length": 227
+  },
+  {
+    "quote_id": "qb_d4ec174951",
+    "span_index": 212,
+    "text": "Informat., vol.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_7c4d1f8462",
+    "span_index": 213,
+    "text": "1, pp.315–328,\nlarge area and height differences,” GPS Solutions, vol.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_0f9ff498ca",
+    "span_index": 214,
+    "text": "1, p.4,\nMar.2023,doi:10.1007/s12145-023-00939-3.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_9cfa111114",
+    "span_index": 215,
+    "text": "Jan.2024,doi:10.1007/s10291-023-01547-w.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_6cec1a1488",
+    "span_index": 216,
+    "text": "Madraszek,\n[7] P.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_69d34a06e9",
+    "span_index": 217,
+    "text": "Gao, “Estimation and representation\n“Galileohighaccuracyserviceinreal-timePNT,geoscienceandmoni-\nof regional atmospheric corrections for augmenting real-time single-\ntoringapplications,”IEEEGeosci.RemoteSens.Lett.,vol.21,pp.1–5,\nfrequency PPP,” GPS Solutions, vol.",
+    "char_length": 264
+  },
+  {
+    "quote_id": "qb_b0a73735f8",
+    "span_index": 218,
+    "text": "2020, doi:\n2024,doi:10.1109/LGRS.2024.3354293.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_78c4603933",
+    "span_index": 219,
+    "text": "10.1007/s10291-019-0920-5.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_35e6396988",
+    "span_index": 220,
+    "text": "[27] BeiDou Navigation Satellite System Signal in Space Interface Control\n[8] F.Zhou,X.Cao,Y.Ge,andW.Li,“Assessmentofthepositioningper-\nDocument Precise Point Positioning Service Signal PPP-B2b (Version\nformanceandtroposphericdelayretrievalwithprecisepointpositioning\n1.0),CSNO,Beijing,China,2020.",
+    "char_length": 297
+  },
+  {
+    "quote_id": "qb_30f62072be",
+    "span_index": 221,
+    "text": "usingproductsfromdifferentanalysiscenters,”GPSSolutions,vol.24,\n[28] GalileoHighAccuracyServiceSignal-in-SpaceInterfaceControlDoc-\nno.1,p.12,Jan.2020,doi:10.1007/s10291-019-0925-0.",
+    "char_length": 180
+  },
+  {
+    "quote_id": "qb_6dae1e9af5",
+    "span_index": 222,
+    "text": "ument(HASSISICD),EU,Brussels,Belgium,2022.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_969b3ce4c3",
+    "span_index": 223,
+    "text": "Lu et al., “Real-time retrieval of precipitable water vapor from\n[29] P.TeunissenandO.Montenbruck,SpringerHandbookofGlobalNavi-\nGalileo observations by using the MGEX network,” IEEE Trans.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_d5fb6cfae3",
+    "span_index": 224,
+    "text": "gationSatelliteSystems.Berlin,Germany:Springer,2017.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_4bba317b0e",
+    "span_index": 225,
+    "text": "Remote Sens., vol.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_e286672bf8",
+    "span_index": 226,
+    "text": "7, pp.4743–4753, Jul.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_c926acd78c",
+    "span_index": 227,
+    "text": "2020, doi:\n[30] J.Saastamoinen,“Atmosphericcorrectionforthetroposphereandstrato-\n10.1109/TGRS.2020.2966774.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_c079c1213d",
+    "span_index": 228,
+    "text": "sphere in radio ranging satellites,” Use Artif.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_dbb33b4a49",
+    "span_index": 229,
+    "text": "Dymarska et al., “An assessment of the quality of near-real time\npp.247–251,Jan.1972.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_b61c95de1e",
+    "span_index": 230,
+    "text": "GNSS observations as a potential data source for meteorology,” Mete-\n[31] Y.Yang,W.Gao,S.Guo,Y.Mao,andY.Yang,“IntroductiontoBeiDou-\norol.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_2b72bcca95",
+    "span_index": 231,
+    "text": "Water Manage., vol.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_ea99e7567f",
+    "span_index": 232,
+    "text": "1, pp.3–13, Jan.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_81fb754940",
+    "span_index": 233,
+    "text": "2017, doi:\n3 navigation satellite system,” Navigation, vol.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_5678533e9f",
+    "span_index": 234,
+    "text": "1, pp.7–18,\n10.26491/mhwm/65146.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_d5217b2e40",
+    "span_index": 235,
+    "text": "Jan.2019,doi:10.1002/navi.291.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_def8112912",
+    "span_index": 236,
+    "text": "[11] Y.Fan,F.Xia,S.Ye,F.Hu,H.Luo,andZ.Sha,“AnalysisofGNSS-ZTD\n[32] R.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_55814cdc69",
+    "span_index": 237,
+    "text": "Steigenberger, G.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_d2b2dbd265",
+    "span_index": 238,
+    "text": "Rothacher,\nretrievalusingdual-frequencyrawobservations,”Measurement,vol.231,\n“Generation of a consistent absolute phase-center correction model\nMay2024,Art.no.114597,doi:10.1016/j.measurement.2024.114597.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_580c1cd0c0",
+    "span_index": 239,
+    "text": "for GPS receiver and satellite antennas,” J.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_e82e92f585",
+    "span_index": 240,
+    "text": "Hobiger, “Benefits of using Galileo for real-time\npp.781–798,Nov.2007,doi:10.1007/s00190-007-0148-y.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_69f224509e",
+    "span_index": 241,
+    "text": "GNSSmeteorology,”IEEEGeosci.RemoteSens.Lett.,vol.18,no.10,\n[33] J.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_1062e25877",
+    "span_index": 242,
+    "text": "Bertiger, and S.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_c3266a267e",
+    "span_index": 243,
+    "text": "Lichten,\npp.1756–1760,Oct.2021,doi:10.1109/LGRS.2020.3007138.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_0e787af165",
+    "span_index": 244,
+    "text": "“Effects of antenna orientation on GPS carrier phase,” Presented at\n[13] P.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_cfcedfffd8",
+    "span_index": 245,
+    "text": "Gao, “Estimation the AAS/AIAA Astrodynamics Conf., Durango, CO, USA, Jan.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_248f2c1921",
+    "span_index": 246,
+    "text": "of GPS LNAV based on IGS products for real-time PPP,” GPS [Online].Available:https://ntrs.nasa.gov/citations/19920060722\nSolutions, vol.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_76fa510306",
+    "span_index": 247,
+    "text": "1, pp.1–14, Jan.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_d8b4dd7723",
+    "span_index": 248,
+    "text": "2019, doi: 10.1007/\n[34] G.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_8ecdaac83b",
+    "span_index": 249,
+    "text": "Luzum, “IERS conventions (2010),” Tech.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_6f69c6c13b",
+    "span_index": 250,
+    "text": "DTIC\ns10291-018-0820-0.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_4079a3e654",
+    "span_index": 251,
+    "text": "Document,vol.36,p.180,Jan.2010.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_4f3bb47080",
+    "span_index": 252,
+    "text": "[14] H.Li,X.Li,andQ.Kang,“HandlingmethodforoutagesofIGSreal-\n[35] J.Böhm,G.Möller,M.Schindelegger,G.Pain,andR.Weber,“Develop-\ntime service (RTS) in GNSS real-time sensing of atmospheric water\nmentofanimprovedempiricalmodelforslantdelaysinthetroposphere\nvapor,”IEEEJ.Sel.TopicsAppl.EarthObserv.RemoteSens.,vol.16,\n(GPT2w),”GPSSolutions,vol.19,no.3,pp.433–441,Jul.2015,doi:\npp.8310–8318,2023,doi:10.1109/jstars.2023.3312514.",
+    "char_length": 422
+  },
+  {
+    "quote_id": "qb_9471fcaecf",
+    "span_index": 253,
+    "text": "10.1007/s10291-014-0403-7.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_99a8397a17",
+    "span_index": 254,
+    "text": "[15] X.Chenetal.,“TrimbleRTX,aninnovativenewapproachfornetwork [36] W.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_875be92562",
+    "span_index": 255,
+    "text": "Zhang et al., “The use of ground-based GPS precipitable water\nRTK,” in Proc.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_6eba9315ae",
+    "span_index": 256,
+    "text": "Meeting Satell.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_1d9b7eb87c",
+    "span_index": 257,
+    "text": "Navigat., measurementsoverChinatoassessradiosondeandERA-interimmois-\n2011,pp.2214–2219.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_d752cfa633",
+    "span_index": 258,
+    "text": "turetrendsanderrorsfrom1999to2015,”J.Climate,vol.30,no.19,\n[16] C.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_3d73469eff",
+    "span_index": 259,
+    "text": "Ozer Yigit et al., “Assessment of real-time PPP with trimble RTX pp.7643–7667,Oct.2017,doi:10.1175/jcli-d-16-0591.1.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_8198987618",
+    "span_index": 260,
+    "text": "correctionserviceforreal-timedynamicdisplacementmonitoringbased [37] W.Yang,Z.Chen,K.Lv,P.Xia,andT.Lu,“TheGNSSPWVretrieval\non high-rate GNSS observations,” Measurement, vol.",
+    "char_length": 173
+  },
+  {
+    "quote_id": "qb_50e1dff745",
+    "span_index": 261,
+    "text": "2022, using non-observation meteorological parameters based on ERA5 and\nArt.no.111704,doi:10.1016/j.measurement.2022.111704.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_0aa162b4d3",
+    "span_index": 262,
+    "text": "its relation with precipitation,” Geodesy Geodynamics, vol.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_1b5a4a330e",
+    "span_index": 263,
+    "text": "Chen, “Real-time GNSS meteorology: A pp.302–313,May2024,doi:10.1016/j.geog.2023.09.002.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_b185e9bb61",
+    "span_index": 264,
+    "text": "promisingalternativeusingreal-timePPPtechniquebasedonbroadcast\nephemeridesandtheopenserviceofGalileo,”GPSSolutions,vol.28,\nno.3,p.113,Jul.2024,doi:10.1007/s10291-024-01659-x.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_cea5e1eff0",
+    "span_index": 265,
+    "text": "[18] O.Montenbruck,F.Kunzi,andA.Hauschild,“Performanceassessment\nofGNSS-basedreal-timenavigationfortheSentinel-6spacecraft,”GPS\nSolutions, vol.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_54a1408058",
+    "span_index": 266,
+    "text": "2021, doi: 10.1007/s10291-021-\n01198-9.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_4dcc159ede",
+    "span_index": 267,
+    "text": "Du, “Initial assessment of BDS\nPPP-B2b service: Precision of orbit and clock corrections, and PPP\nperformance,” Remote Sens., vol.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_9ec68a2558",
+    "span_index": 268,
+    "text": "11, p.2050, May 2021, doi: Peiyuan Zhou received the Ph.D.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_347df3482e",
+    "span_index": 269,
+    "text": "degree from the\n10.3390/rs13112050.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_1d28b12317",
+    "span_index": 270,
+    "text": "UniversityofCalgary,Calgary,AB,Canada.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_d3cba0e07a",
+    "span_index": 271,
+    "text": "He is currently a Lecturer at Information Engi-\n[20] Cabinet Office.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_d62110833f",
+    "span_index": 272,
+    "text": "Quasi-Zenith Satellite System Interface\nneeringUniversity,Zhengzhou,China.Hisresearch\nSpecification Multi-GNSS Advanced Orbit and Clock Augmentation—\ninterests include GNSS precise positioning and\nPrecisePointPositioning.Accessed:May7,2024.[Online].Available:\nremotesensing.",
+    "char_length": 274
+  },
+  {
+    "quote_id": "qb_d09072653e",
+    "span_index": 273,
+    "text": "https://qzss.go.jp/en/technical/download/pdf/ps-is-qzss/is-qzss-mdc-\n002.pdf?t=1715054623305\n[21] P.Zhou,G.Xiao,andL.Du,“InitialperformanceassessmentofGalileo\nhigh accuracy service with software-defined receiver,” GPS Solutions,\nvol.28,no.2,p.2,2024,doi:10.1007/s10291-023-01540-3.",
+    "char_length": 281
+  },
+  {
+    "quote_id": "qb_707ba6b1f8",
+    "span_index": 274,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_48ab455de0",
+    "span_index": 275,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_eb943191a3",
+    "span_index": 276,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_8408ed275c",
+    "span_index": 277,
+    "text": "ZHOUetal.:REAL-TIMEPRECISEZENITHTROPOSPHERICDELAYESTIMATION 5802011\nZhongkai Zhang received the Ph.D.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_0706824eb6",
+    "span_index": 278,
+    "text": "degree in Guorui Xiao received the B.Sc.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_cdc7971937",
+    "span_index": 279,
+    "text": "degree from the\nspace geodesy from the University of Bonn, Bonn, SchoolofGeodesyandGeomatics,WuhanUniver-\nGermany.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_ac59fb3855",
+    "span_index": 280,
+    "text": "sity, Wuhan, China, and the Ph.D.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_fa65879100",
+    "span_index": 281,
+    "text": "degree from the\nHe is currently an Associate Professor at Infor- Geodetic Institute, Karlsruhe Institute of Technol-\nmation Engineering University, Zhengzhou, China.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_b311442012",
+    "span_index": 282,
+    "text": "ogy,Karlsruhe,Germany.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_a3fd522500",
+    "span_index": 283,
+    "text": "Hisresearchinterestsincludesatellitenavigationand HeiscurrentlyanAssociateProfessoratInforma-\nastrodynamics.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_b9bcea8596",
+    "span_index": 284,
+    "text": "tionEngineeringUniversity,Zhengzhou,China.His\nresearchinterestsincludemulti-GNSSandmultisen-\nsorintegratedprecisepositioningandapplications.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_d07631749c",
+    "span_index": 285,
+    "text": "Zejun Liu received the Ph.D.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_a3b15d5e2b",
+    "span_index": 286,
+    "text": "degree in aerospace KaiXiaoreceivedthePh.D.degreeinsurveyingand\nscience and engineering from the National Univer- mapping from Information Engineering University,\nsityofDefenseTechnology,Changsha,China.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_7cdc4a1a89",
+    "span_index": 287,
+    "text": "Zhengzhou,China.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_49f1ae7c7c",
+    "span_index": 288,
+    "text": "He is currently an Associate Professor at Infor- He is currently an Associate Professor at Infor-\nmation Engineering University, Zhengzhou, China.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_29b7e5101d",
+    "span_index": 289,
+    "text": "mation Engineering University.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_0dc3a9b910",
+    "span_index": 290,
+    "text": "His research inter-\nHisresearchinterestsincludesatellitenavigationand estsincludeGNSS/multisourcedataprocessingand\nastrodynamics.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_43683ecdac",
+    "span_index": 291,
+    "text": "GNSSanti-spoofing.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_de26409b06",
+    "span_index": 292,
+    "text": "Daqian Lyu received the Ph.D.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_dccdeef8e7",
+    "span_index": 293,
+    "text": "degree in LanDureceivedthePh.D.degreeingeodesyfrom\ninformation and communication engineering from Information Engineering University, Zhengzhou,\nthe National University of Defense Technology, China.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_87e153b4ff",
+    "span_index": 294,
+    "text": "Changsha,China.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_0cb1877c5b",
+    "span_index": 295,
+    "text": "She is a Professor at Information Engineering\nHeiscurrentlyaLectureratNationalUniversityof University.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_e5495caec3",
+    "span_index": 296,
+    "text": "Her research interests include satellite\nDefense Technology.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_2931107aa0",
+    "span_index": 297,
+    "text": "His research interests include navigation,spacegeodesy,andastrodynamics.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_82b971026c",
+    "span_index": 298,
+    "text": "GNSSprecisepositioningandtimetransfer.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_9de88ef604",
+    "span_index": 299,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_8a24ae44b6",
+    "span_index": 300,
+    "text": "Downloaded on May 22,2026 at 06:35:28 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_ac9b93706f",
+    "span_index": 301,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  }
+]

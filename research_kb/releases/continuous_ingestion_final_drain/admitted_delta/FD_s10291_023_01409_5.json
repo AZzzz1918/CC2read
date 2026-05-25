@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s10291_023_01409_5",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Long-term performance analysis of BDS-3 precise point positioning (PPP-B2b) service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2023) 27:69 https://doi.org/10.1007/s10291-023-01409-5 RESEARCH Long‑term performance analysis of BDS‑3 precise point positioning (PPP‑B2b) service Shuang Sun1 · Min Wang1 · Changjian Liu1 · Xin Meng1 · Rui Ji1 Received: 14 October 2022 / Accepted: 27 January 2023 / Published online: 15 February 2023 © The Author(s), under exclusive licence to Springer-Verlag GmbH ",
+      "After being fully operational for more than one year, this contribution comprehensively analyzes the performance of PPP-B2b in terms of correction availability, clock and orbit quality and positioning accuracy with PPP-B2b messages of nearly 48 weeks from 2021 to 2022."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 3
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 18,
+    "b2b": 77,
+    "has": 0,
+    "dcb": 3,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

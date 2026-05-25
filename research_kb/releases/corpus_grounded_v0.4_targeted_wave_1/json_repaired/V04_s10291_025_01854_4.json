@@ -1,0 +1,56 @@
+{
+  "paper_id": "V04_s10291_025_01854_4",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "bibliographic_info": {
+    "title": "PPP-B2b-RTK: a PPP-B2b augmentation method by using the SSR corrections from a single reference station",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2025) 29:124 https://doi.org/10.1007/s10291-025-01854-4 RESEARCH PPP‑B2b‑RTK: a PPP‑B2b augmentation method by using the SSR corrections from a single reference station Leitong Yuan1 · Bofeng Li1 · Weikai Miao1 · Haibo Ge1 · Zhilu Wu1 Received: 11 July 2024 / Accepted: 31 March 2025 / Published online: 2 June 2025 © The Author(s), under exclusive licence to Springe",
+      "Moreover, integer ambiguity resolution (IAR), a prerequisite for precise positioning, cannot be implemented only with current PPP-B2b prod- ucts."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2021-01-07",
+    "end_date": "DOY 244",
+    "grounding_quotes": [
+      "4 Average amount of PPP-B2b orbit and clock corrections of BDS-3 and GPS satellites during DOY 214–218, 2020 is BDS-3 (top) and GPS (bottom) during DOY 214–244, 2020 depicted in Fig."
+    ]
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 6,
+    "grounding_quotes": [
+      "𝛼 k =𝜆2 k,2 ∕ 𝜆2 k,2 −𝜆2 k,1 Orbit corrections 2,6,7 48 s 96 s ( ) DCB corrections 3 48 s 86,400 s and 𝛽 k =−𝜆2 k,1 ∕ 𝜆2 k,2 −𝜆2 k,1 are the factors for the dual- Clock corrections 4,6,7 6 s 12 s ( ) frequency of different systems that are distinguished by sub- User range index 5 48 s 96 s script k ."
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 10
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b_mentions": 155,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 6
+  },
+  "gate_status": {
+    "wrong_support": false,
+    "epoch_valid": true
+  },
+  "category": "PPP_B2B_RTK_OR_AR",
+  "priority": "P0_ROUTE_CHANGING",
+  "expected_impact": "new_technical_route"
+}

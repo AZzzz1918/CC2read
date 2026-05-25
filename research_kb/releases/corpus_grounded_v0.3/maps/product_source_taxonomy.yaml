@@ -1,0 +1,51 @@
+taxonomy:
+  BDS3_PPP_B2B_BROADCAST:
+    count: 25
+    papers:
+    - Factor_Graph_PPP_B2b_INS
+    - GKit_SSRDecoder_PPP_B2b_HAS
+    - Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+    - Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+    - Nie_2021_initial_assessment_bds_ppp_b2b_service
+    - Oceanic_PWV_PPP_B2b_LowCost
+    - Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf
+    - Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+    - Single_Frequency_PPP_B2b_Time_Transfer
+    - Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+    - Wang_2024_ppp_b2b_coverage_ztd_positioning
+    - Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+    - Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b
+    - Zhao_Lewen_2025_python_toolbox_for_bds_b2b
+    - Zhou_2023_multifrequency_bds3_rt_ppp_b2b
+    - Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo
+    - applsci_15_08033_v2
+    - remotesensing_14_02769
+    - remotesensing_15_00199
+    - remotesensing_16_00833_v2
+    - s10291_023_01455_z
+    - s10291_023_01570_x
+    - s10291_025_01845_5
+    - s10291_025_01882_0
+    - s43020_023_00097_3
+  CNES_OR_OTHER_RTS:
+    count: 3
+    papers:
+    - Borio_2023_ghasp_galileo_has_parser
+    - Liu_Wei_BDS_GPS_RTK_PPP
+    - Zhou_Peiyuan_2024_Galileo_HAS_Initial
+  MIXED_PRODUCTS:
+    count: 7
+    papers:
+    - Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA
+    - Pan_Lin_2025_BDS_B2b_HAS
+    - RT_Kinematic_Orbit_LEO_B2b_HAS
+    - RT_ZTD_PPP_B2b_HAS_MADOCA
+    - Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+    - s10291_024_01730_7
+    - s43020_024_00146_5
+  QZSS_CLAS:
+    count: 2
+    papers:
+    - Euiho_Kim_2022_CLAS_PPP
+    - Taro_Suzuki_2023_qzss_clas_l6_evaluation
+version: v0.3

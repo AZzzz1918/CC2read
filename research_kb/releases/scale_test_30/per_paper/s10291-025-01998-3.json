@@ -1,0 +1,12 @@
+{
+  "product_source": "NOT_MENTIONED",
+  "paper_type": "rtk_positioning",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_gnss_augmentation",
+  "classification_reason": "The paper discusses GNSS network RTK and communication challenges, without any mention of PPP-B2b or BDS-3 precise point positioning augmentation services.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-025-01998-3.pdf",
+  "paper_id": "s10291-025-01998-3",
+  "extraction_mode": "batch_classify_1call"
+}

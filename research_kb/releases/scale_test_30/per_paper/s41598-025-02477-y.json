@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper evaluates real-time static and kinematic PPP positioning accuracy and convergence using BeiDou-3 PPP-B2b messages.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s41598-025-02477-y.pdf",
+  "paper_id": "s41598-025-02477-y",
+  "extraction_mode": "batch_classify_1call"
+}

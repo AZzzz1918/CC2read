@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper evaluates the accuracy of PPP-B2b corrections and real-time PPP performance using BDS-3 B2b signals.",
+  "boundary_risk": false,
+  "needs_full_audit": true,
+  "source_file": "2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C.pdf",
+  "paper_id": "2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance",
+  "extraction_mode": "batch_classify_1call"
+}

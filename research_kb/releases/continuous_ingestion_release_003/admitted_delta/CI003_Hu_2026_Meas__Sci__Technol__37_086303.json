@@ -1,0 +1,40 @@
+{
+  "paper_id": "CI003_Hu_2026_Meas__Sci__Technol__37_086303",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-003",
+  "bibliographic_info": {
+    "title": "Real-time PPP-based monitoring of Galileo–BDS time offset using PPP-B2b and HAS"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement Science and Technology PAPER • OPEN ACCESS You may also like Real-time PPP-based monitoring of Galileo–BDS -A Kalman filter-based framework for real- time UPD estimation and quality control with multi-GNSS PPP-AR validation time offset using PPP-B2b and HAS Sirui Zhang, Bobin Cui, Shi Du et al.",
+      "This content was downloaded from IP address 39.170.111.7 on 22/05/2026 at 07:33  <!-- PAGE: 2 -->  Meas.Sci.Technol.37(2026)086303 https://doi.org/10.1088/1361-6501/ae476c PAPER Real-time PPP-based monitoring of Galileo–BDS time offset using OPENACCESS PPP-B2b and HAS RECEIVED 30October2025 YaoHu1,DaqianLyu2,∗,PeiyuanZhou3,YulongGe1,ZhoujiWang2,JunpengShi2, REVISED WeijinQin4,5,ShibiaoBai1a"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "grounding_quotes": [
+      "This is done using the monthly P1C1 DCB product from CODE for GPS L1, and the multi-GNSS DCB/OSB products to align the raw observations of Galileo and BDS."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 27,
+    "b2b": 109,
+    "has": 7,
+    "dcb": 11
+  },
+  "gate_status": {
+    "wrong_support": false
+  }
+}

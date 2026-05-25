@@ -1,0 +1,80 @@
+[
+  {
+    "quote_id": "qb_7aae734b9d",
+    "span_index": 0,
+    "text": "Available online atwww.sciencedirect.com\nScienceDirect\nAdvancesinSpaceResearch72(2023)4008–4020\nwww.elsevier.com/locate/asr\nPositioning performance analysis of real-time BDS-3\nPPP-B2b/INS tightly coupled integration in urban environments\nPeng Xiaoa, Fuping Suna,⇑ , Kai Wangb, Kai Xiaoa, Xiangyong Shanga,c, Jing Liua\naInstituteofGeospatialInformation,PLAStrategicSupportForceInformationEngineeringUniversity,Zhengzhou450001,China\nbMacauUniversityofScienceandTechnology,999078,Macau\ncKeyLaboratoryofElectro-OpticalCountermeasuresTest&EvaluationTechnology,Luoyang471000,China\nReceived9November2022;rec",
+    "char_length": 3639
+  },
+  {
+    "quote_id": "qb_e80f32b813",
+    "span_index": 1,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nthe Beidou-3 navigation satellite system (BDS-3) has structareal-timePPP-B2b/INStightlycoupledintegration\nbroadcasted the precise orbit, clock offset, intersymbol modelbasedonPPP-B2bservice,conductvehicle-mounted\ndeviation, and other correction parameters of BDS-3 and GNSS tests in Zhengzhou, and conduct a PPP-B2b/INS\nthe Global Positioning System (GPS) in real time through tightly coupled integration positioning performance analy-\nGEO, effectively solving the problem that real-time PPP sis under different urban environments. This study is o",
+    "char_length": 5397
+  },
+  {
+    "quote_id": "qb_c6f9e0cb2f",
+    "span_index": 2,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nInEq.(6),t istheclockoffsetcalculatedfromthe of the pseudo-range and carrier phase are as follows\nbroadcast\nbroadcastephemeris,t isthecorrectedclockoffset,C (Yao et al., 2019):\nsatelite 0\nis the correction parameter broadcast by the PPP-B2b ser- 8\n< P ¼a(cid:5)P þð1(cid:3)aÞ(cid:5)P ¼qþc(cid:5)d (cid:3) t (cid:3)c(cid:5)dt þdTrop (cid:3)Bs þe\nvice, and C is the velocity of light. IF i j r s i;j IF PS IF\n: (cid:3) (cid:3)\nDifferentialcodebias correctionisusedto eliminatethe L ¼a(cid:5)L þð1(cid:3)aÞ(cid:5)L ¼qþc(cid:5)dt (cid:3)c(cid:5)dt þdT",
+    "char_length": 5162
+  },
+  {
+    "quote_id": "qb_4342a29dcd",
+    "span_index": 3,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nFig.1. Real-timepppdataprocessingmodlebasedonPPP-B2bcorrectionparameters.\nspecificprocessofthereal-timePPPdataprocessingmodel epoch, k(cid:3)1th epoch, design coefficient matrix H , and\nk\nbased on the PPP-B2b correction parameters is shown in state transition matrix U k;k(cid:3)1 of dual-frequency\nFig. 1. ionosphere-free combination in the PPP-B2b/INS tightly\ncoupled integration are as follows:\n2.3. PPP-B2b/INS tightly coupled integration based on (cid:6) (cid:7)\nPPP-B2b correction parameters H k ¼ H PIF H LIF H P_ IF T ð19Þ\n2 3\nThe PPP/INS ",
+    "char_length": 4248
+  },
+  {
+    "quote_id": "qb_f0779a955a",
+    "span_index": 4,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nFig.2. PPP-B2b/INStightlycoupledintegrationmodel.\n3.PositioningperformanceanalysisofPPP-B2b/INStightly Table2\ncoupled integration NominalparametersofInertialnavigationsystem(XWYD7960).\nSensor Gyroscope Accelerometer\n3.1. Test equipment and data processing method Bias 1(cid:9)=h 0:5mg\nScalefactor 1500ppm 4000pppffiffiffimffiffiffiffi\nTwo sections of sports car tests were conducted on 2 Randomwalk 0:005(cid:9)=h 2ug= Hz\nJuly2022inZhengzhouCity.Experiment1wasconducted\nin an open-sky environment with low levels of building\npositioning performanc",
+    "char_length": 2911
+  },
+  {
+    "quote_id": "qb_b34ecfbfeb",
+    "span_index": 5,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nFig.3. On-boardtestequipment.\nTable3\nDataprocessingstrategyofPPP-B2b/INStightlycoupledintegrationpositioningmodel.\nProcessingContent ProcessingMethod\nPPPmodel Freeionosphericpseudorange/carrierphasecombination\nGNSSsamplinginterval 1s\nObservationcut-offaltitudeangle 5(cid:3)\nParameterestimation KalmanFilter\nSatelliteorbitcorrection B1-CNAV1broadcastephemeris+PPP-B2borbitcorrection\nSatelliteclockoffsetcorrection B1-CNAV1broadcastephemeris+PPP-B2bclockoffsetcorrection\nIonosphericdelay Eliminationofionosphericfirst-orderterminfreeionosphericcomb",
+    "char_length": 1892
+  },
+  {
+    "quote_id": "qb_3ac660a05e",
+    "span_index": 6,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nFig.5. ThenumberofvisibleBDSsatellitesandPDOPinexperiment1.\nwiththereferenceresults.Thepositioningresultswerecon-\nsistent and could achieve complete convergence. It can be\nseenthatthereal-timekinematicPPP-B2bcanquicklycon-\nvergetodecimeter-levelpositioningaccuracyforbothBDS\nonly and GPS only. And almost all positioning errors in\nthe East, North and Up components are within 40 cm\nwhenthepositioningerrorstendtobestable,itmeansthat\nthereal-timekinematic PPP-B2b canachieve a positioning\naccuracy of several decimeters in open-sky environment.\nFig",
+    "char_length": 2194
+  },
+  {
+    "quote_id": "qb_a0b3cc242f",
+    "span_index": 7,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nTable4\nPositioningerrorandconvergencetimeOfPPP-B2bandPPP-B2b/INStightlycoupledintegrationinopen-skyenvironment.\nSolutionmode RMSE(cm) Convergencetime(s)\nEast North Up\nPPP-Broadcast(BDSonly) 57.6 48.8 78.9 1068\nPPP-B2b(BDSonly) 31.7 21.3 39.6 843\nPPP-B2b(GPSonly) 34.1 27.6 41.0 856\nPPP-Precise(BDSonly) 38.9 31.0 42.3 852\nPPP-B2b/INS(BDSonly) 17.2 10.3 19.4 773\nPPP/INS(BDSonly) 21.6 17.3 23.7 787\nthe real-time PPP using precise ephmeris (abbreviated as PPP-B2b/INS, it means BDS-3 PPP-B2b service is\nPPP-Precise) for comparison. Table 4 lists th",
+    "char_length": 4764
+  },
+  {
+    "quote_id": "qb_6751f772c7",
+    "span_index": 8,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nFig.7. PositioningerrorofPPP-B2b/INStightlycoupledintegrationduringsimulatedGNSSsignaloutages.\nTable5 the requirements of satellite positioning. Therefore, after\nStatisticspositioningerrorsforPPP-B2b/INStightlycoupledintegration the GNSS signal is recovered, PPP-B2b converges.\nduringgnssoutages(Unit:cm).\nFig.11showsthepositioningerrorofPPP-B2b(BDSonly\nDirection 5s 10s 15s 20s 25s 30s and GPS only), and the RMSE of it in the east, north and\nEast 0.7 4.4 9.8 18.4 25.1 33.7 up directions were 141.3/95.2/156.6 and\nNorth 0.8 2.3 5.1 8.5 13.9 18.3",
+    "char_length": 1349
+  },
+  {
+    "quote_id": "qb_52fe556907",
+    "span_index": 9,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nFig.9. ThenumberofvisiblesatellitesandPDOPinexperiment2.\nFig.10. Threebridgesinexperiment2.\nlites can stillcontinue toposition,higherpositioning accu-\nracycanstillbeobtainedaftersatellitesignalrecovery.Ina\ndense urban environment, when the GNSS signal is inter-\nrupted, PPP-B2b plays a small role, but tightly coupled\nintegration with INS can effectively converge the error\nand greatly improve the positioning accuracy.\nAs Table 6 shows, on the one hand, it can be seen that\nreal-time kinamatic PPP using broadcast ephmeris cannot\nachieve deceimet",
+    "char_length": 860
+  },
+  {
+    "quote_id": "qb_0bdc0f17c1",
+    "span_index": 10,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nTable6 precision correction provided by PPP-B2b services with\nPositioning error and convergence time of PPP-B2b and PPP-B2b/INS PPP/INS in different scenarios and draws the following\ntightlycoupledintegrationindenseurbanenvironment.\nconclusions:\nSolutionmode RMS(cm) In the open-sky environment, we conduct researches on\nEast North Up real-time kinematic PPP in four forms. Dual-frequency\nPPP-Broadcast(BDSonly) 183.4 146.5 201.3 real-time kinematic PPP based on PPP-B2b service can\nPPP-B2b(BDSonly) 141.3 95.2 156.6 achieve decimeters level. The ",
+    "char_length": 5732
+  },
+  {
+    "quote_id": "qb_2b04c87730",
+    "span_index": 11,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nthe following conclusions can be drawn that the tightly Gao, Y., Shen, X., 2002. A new method for carrier-phase-based precise\ncoupled integration can obtain high precision positioning pointpositioning.Navigation49(2),109–116.https://doi.org/10.1002/\nj.2161-4296.2002.tb00260.x.\nresult even if the number of satellites is less than 4, INS\nGao,Z.,Zhang,H.,Ge,M.,etal.,2015.Tightlycoupledintegrationof\ncan efficiently locate independently when GNSS signal\nionosphere-constrained precise point positioning and inertial naviga-\noutages,so thetightly co",
+    "char_length": 6594
+  },
+  {
+    "quote_id": "qb_2f31deda0d",
+    "span_index": 12,
+    "text": "P.Xiaoetal. AdvancesinSpaceResearch72(2023)4008–4020\nZhang,Z.,Wang,Y.,Teng,H.,etal.,2018.BDS/GPSintegratedprecise KaiXiaoreceivedhisB.S.,M.S.,andPh.D.from\npointpositioningalgorithmbasedonhigh-degreeDMCKF.Modern the Information Engineering University in 2012,\nDefence Technol. 46 (3), 48–53. https://doi.org/10.3969/j.jssn.1009- 2015 and 2018, respectively. He is currently\n086x. workingattheInformationEngineeringUniver-\nZhang,X.,Zhu,F.,Zhang,Y.,etal.,2019.Theimprovementininteger sity. His current research interests include the\nambiguity resolution with INS aiding for kinematic precise point satel",
+    "char_length": 2174
+  }
+]

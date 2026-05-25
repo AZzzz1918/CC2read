@@ -1,0 +1,110 @@
+[
+  {
+    "quote_id": "qb_3cab8d74d2",
+    "span_index": 0,
+    "text": "GPS Solutions (2023) 27:69\nhttps://doi.org/10.1007/s10291-023-01409-5\nRESEARCH\nLong‑term performance analysis of BDS‑3 precise point positioning\n(PPP‑B2b) service\nShuang Sun1 · Min Wang1 · Changjian Liu1 · Xin Meng1 · Rui Ji1\nReceived: 14 October 2022 / Accepted: 27 January 2023 / Published online: 15 February 2023\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nSince 2020, the BeiDou Navigation Satellite System (BDS) has launched new precise point positioning service which\nprovides precise correction of GPS and BDS-3 satellites t",
+    "char_length": 3662
+  },
+  {
+    "quote_id": "qb_b4174bd7dc",
+    "span_index": 1,
+    "text": "69 Page 2 of 18 GPS Solutions (2023) 27:69\n2014). With the development of the Global Navigation Satel- (Tang et al. 2022), leading to the difference of positioning\nlite System (GNSS), IGS Analysis Centers (ACs), such as capability (Ren et al. 2021; Zhang et al. 2022). The study\nD’Etudes Spatiales (CNES), German Research Centre of by Tao et al. (2021) found that there was a satellite-related\nGeosciences (GFZ), WuHan Unversity (WHU), and Center constant bias in the PPP-B2b clock offset, and the bias of\nfor Orbit Determination in Europe (CODE), have succes- GPS was larger than that of BDS-3, resu",
+    "char_length": 5624
+  },
+  {
+    "quote_id": "qb_39cf96ce15",
+    "span_index": 2,
+    "text": "GPS Solutions (2023) 27:69 Page 3 of 18 69\n[𝛿R 𝛿A 𝛿C]T =R .(X −(X +R .V )) constant influence on the radial direction of the orbit. We\n2 GFZ B2b 1 PCO (1)\nsys\nuse the antenna phase model published by IGS correction\nfile to correct GPS, and the PCO model published by China\nf2 f2\nV = 1 V − 2 V Satellite Navigation Office (CSNO) is used to correct BDS\nPCO G f2−f2 L 1 f2−f2 L𝟐 (2) (Tang et al. 2022).\n1 2 1 2\nIt should be noted that it is not always proper to update\nV =V the GPS PCO values according to the satellite switch\nPCO C B 3 (3) logged in IGS Antex file. For example, according to the\nX X an",
+    "char_length": 3299
+  },
+  {
+    "quote_id": "qb_086971d925",
+    "span_index": 3,
+    "text": "69 Page 4 of 18 GPS Solutions (2023) 27:69\nTable 1 PCO correction values\nPRN Strategy 1 Strategy 2\nfor three satellites under two\nstrategies N (mm) E (mm) U (mm) N (mm) E (mm) U (mm)\nG14 4.9 − 21.0 1991.9 − 2.5 − 1.7 1304.5\nG22 − 2.5 − 1.7 1304.5 − 2.2 2.2 850.6\nG23 4.9 − 21.0 1991.9 15.4 6.8 766.1\nClock offset assessment method where M is the number of common satellites in the adjacent\nepoch, and the above equation is used to constrain the DD\nIn order to set an absolute time reference in clock estima- series on an epoch-by-epoch basis so that all epochs are uni-\ntion, it is necessary to fix a",
+    "char_length": 4430
+  },
+  {
+    "quote_id": "qb_af5a87a1e8",
+    "span_index": 4,
+    "text": "GPS Solutions (2023) 27:69 Page 5 of 18 69\nFig. 2 Time distribution of\navailable satellites for PPP-B2b\nservice in the experimental\nperiod\nFig. 3 Satellite availability dur-\ning the experimental period\nthree BDS-3 IGSO satellites which are above 65%. However, and 0.12 m for satellites manufactured by China Aerospace\nit is still possible to guarantee the availability of more than Science and Technology Corporation (CAST) (except C45\n7 GPS satellites and more than 8 BDS-3 satellites at any and C46) and Shanghai Engineering Center for Microsatel-\none time. lites (SECM), respectively. This may be ",
+    "char_length": 1589
+  },
+  {
+    "quote_id": "qb_03f769e79a",
+    "span_index": 5,
+    "text": "69 Page 6 of 18 GPS Solutions (2023) 27:69\nFig. 4 BDS-3 MEO satellites\norbit differences CDF of radial,\nalong-track and cross-track\ndirections. The solid lines repre-\nsent the CAST satellites and the\ndotted lines represent the SECM\nsatellites\nFig. 5 GPS satellites orbit dif-\nferences CDF of radial, along-\ntrack and cross-track directions\nresiduals of C20 (beidou3m2, C202), C21 (beidou3m3, the two types of satellites are opposite, which confirms\nC206), C29 (beidou3m9, C207) and C30 (beidou3m10, the differences between different manufacturers (Sośnica\nC208), in which the mean, STD, RMS, number o",
+    "char_length": 954
+  },
+  {
+    "quote_id": "qb_53fbb355bd",
+    "span_index": 6,
+    "text": "GPS Solutions (2023) 27:69 Page 7 of 18 69\nFig. 6 BDS-3 IGSO satellites\norbit differences CDF of radial,\nalong-track and cross-track\ndirections\nFig. 7 SLR residuals of C20,\nC21, C29 and C30 from DOY\n121 in 2021 to DOY 121 in\n2022\ndifferences of different satellites with the same type are respectively, and within 0.086 m, 0.459 m and 0.362 m for\nsimilar. The root mean square (RMS) of orbit differences GPS satellites. The cross-track error is smaller than the\nfor BDS-3 MEO satellites are within 0.078 m, 0.325 m and along-track error for the GPS satellites, while the opposite\n0.356 m in radial, a",
+    "char_length": 699
+  },
+  {
+    "quote_id": "qb_abcd78037b",
+    "span_index": 7,
+    "text": "69 Page 8 of 18 GPS Solutions (2023) 27:69\nFig. 8 RMS of the average orbit\ndifference in radial, along-\ntrack and cross-track directions\nof each satellite in PPP-B2b\nservice, and the upper and lower\nparts represent GPS and BDS-3,\nrespectively\nClock accuracy assessment\nTo evaluate the accuracy of clock offset, the standard devia-\ntion (STD) of the DD series was calculated day-by-day and\nanalyzed. Figure 9 shows a partial DD series of DOY 360\nin 2021, for which two consecutive arcs exist for each of\nthe four satellites. Although the DD series can be aligned\nwith the above method, there are still",
+    "char_length": 1987
+  },
+  {
+    "quote_id": "qb_59ebaf7204",
+    "span_index": 8,
+    "text": "GPS Solutions (2023) 27:69 Page 9 of 18 69\nthe positioning result of PPP. Therefore, it is reasonable to all satellites except G05 and G28, with an average STD\ncalculate the STD of each satellite arc separately and weight of 0.20 ns, and the STD of BDS-3 MEO clock offset is\nthe average to reflect the accuracy of the clock offset. within 0.2 ns, with an average STD of 0.16 ns. Although\nFigures 10 and 11 show the CDF of the daily clock offset the RMS is the result of averaging across satellite arcs, it\nSTD for GPS and BDS-3 satellites. It can be seen that the can be seen that the large constant ",
+    "char_length": 2000
+  },
+  {
+    "quote_id": "qb_171f8f97d0",
+    "span_index": 9,
+    "text": "69 Page 10 of 18 GPS Solutions (2023) 27:69\nFig. 12 RMS and STD of each\nsatellite in PPP-B2b, and the\nupper and lower parts represent\nSTD and RMS, respectively.\nDifferent types of clocks are\nrepresented with different colors\nthe daily SISRE STD statistics for the GPS and BDS-3 sat- Table 3 shows the average STD and RMS of SISRE for\nellites during the experimental period. The STD of SISRE different types of satellites. It can be seen that the average\nfor BDS-3 IGSO satellites is significantly larger than that of SISRE STD for the BDS-3 IGSO satellites exceeds 0.1 m,\nMEO satellites, with the med",
+    "char_length": 1288
+  },
+  {
+    "quote_id": "qb_a110b81da2",
+    "span_index": 10,
+    "text": "GPS Solutions (2023) 27:69 Page 11 of 18 69\nTable 3 Average RMS and STD of three types of satellites SISRE Table 4 PPP solution strategy\nand SISRE-orbit\nItem Strategy\nSystem SISRE-orbit SISRE\nOrbit/clock offset CNAV1 + PPP-B2b (BDS-3)\nSTD (m) RMS (m) STD (m) RMS (m) LNAV + PPP-B2b (GPS)\nObservation BDS-3: B1/B3 IF combination\nGPS 0.048 0.106 0.092 1.025\nGPS: L1/L2 IF combination\nBDS-3 MEO 0.038 0.088 0.059 0.652\nObservation weight Code: phase = 1:10,000\nBDS-3 IGSO 0.100 0.191 0.174 1.041\nElevation cutoff angle 7°\nIonospheric delay The first-order ionospheric delay is elimi-\nnated by IF combina",
+    "char_length": 4228
+  },
+  {
+    "quote_id": "qb_c21ae6f3e2",
+    "span_index": 11,
+    "text": "69 Page 12 of 18 GPS Solutions (2023) 27:69\nFig. 15 108-day time series of\nGPS and BDS-3 single system\nstatic PPP results of JFNG. The\nupper, middle and lower parts\nof the figure are the results of\nBDS-3-only, GPS-only and\nBDS-3 + GPS, respectively\nFig. 16 108-day time series of\nGPS and BDS-3 single system\nstatic PPP results of ULAB.\nThe upper, middle and lower\nparts of the figure are the results\nof BDS-3-only, GPS-only and\nBDS-3 + GPS, respectively\nseries is significantly larger than that of BDS-3-only and Effect of constant satellite‑specific clock bias on PPP\nBDS-3 + GPS, especially from 6:",
+    "char_length": 1250
+  },
+  {
+    "quote_id": "qb_da51f9a6ba",
+    "span_index": 12,
+    "text": "GPS Solutions (2023) 27:69 Page 13 of 18 69\nPs =𝜌s+dt −dts+Cs+𝛿 +𝛿\nr,IF r r r TROP P IF (9)\nwhere\nCs\nis the parameter associated with the station and the\nr\n𝜌s\nsatellite. is the geometric distance between receiver and\nr\nsatellite. dt r and dts are the receiver and satellite clock offset.\n𝛿\nTROP is tropospheric delay which can be corrected by model.\nIn addition, the following equation is used to separate the\nhighly correlated dt r and C r s ,\n∑m\nC r s i =0 (10)\ni=1\nIn order to obtain the constant bias in clock offset, the effect\nof receiver pseudorange bias needs to be eliminated. IGS\npost-proce",
+    "char_length": 3458
+  },
+  {
+    "quote_id": "qb_947adae2ce",
+    "span_index": 13,
+    "text": "69 Page 14 of 18 GPS Solutions (2023) 27:69\nFig. 18 GPS (red), BDS-3\n(blue) and GPS + BDS-3 (green)\nkinematic PPP sequence, and\nthe average RMS in each direc-\ntion are shown in the figure\nFig. 19 Constant bias in clock\noffset of BDS-3\nTable 6 Positioning accuracy and convergence time for two strategies\nWithout correction With correction\nN (m) E (m) U (m) Convergence N (m) E (m) U (m) Conver-\ntime (min) gence time\n(min)\nBDS-3 0.136 0.140 0.344 44.3 0.078 0.073 0.194 15.1\nGPS 0.297 0.336 0.856 49.9 0.102 0.094 0.248 25.6\n1 3",
+    "char_length": 528
+  },
+  {
+    "quote_id": "qb_02c17c788b",
+    "span_index": 14,
+    "text": "GPS Solutions (2023) 27:69 Page 15 of 18 69\nFig. 20 Positioning results for\nthe two systems with (blue)\nand without (red) correction\nstrategies. The left and right\nsides represent GPS and BDS-3,\nrespectively\nFig. 21 Pseudorange poste-\nrior residual sequence for two\nstrategies, the upper and lower\nparts represent GPS and BDS-3,\nrespectively\nas an analysis manner, it is concluded that the constant bias Conclusion\nin the PPP-B2b clock affects the positioning convergence\nspeed. This paper analyzes the long-term performance of PPP-B2b\nover nearly 48 weeks. After a series of analyses, PPP-B2b\nhas be",
+    "char_length": 658
+  },
+  {
+    "quote_id": "qb_7577d942b3",
+    "span_index": 15,
+    "text": "69 Page 16 of 18 GPS Solutions (2023) 27:69\nreliable positioning services, and its positioning accuracy and C.L wrote the main manuscript text; All authors reviewed the\nmeets the positioning performance indicators specified in manuscript.\nBeiDou Navigation Satellite System Open Service Perfor- Data availability The BDS-3 CNAV1 broadcast ephemeris files are\nmance Standard (CSNO 2021a, b), and the following conclu- downloaded from the website of Test and Assessment Research Center\nsions can be drawn: of China Satellite Navigation Office (ftp://f tp2.c sno-t arc.c n/c nav). And\nthe LNAV ephemeris",
+    "char_length": 5661
+  },
+  {
+    "quote_id": "qb_63572b405d",
+    "span_index": 16,
+    "text": "GPS Solutions (2023) 27:69 Page 17 of 18 69\nLiu Y, Yang C, Zhang M (2022) Comprehensive analyses of PPP- Zhang Y, Kubo N, Chen J, Wang A (2021) Calibration and analy-\nB2b performance in China and surrounding areas. Remote Sens. sis of BDS receiver-dependent code biases. J Geod 95(4):43.\nhttps://d oi.o rg/1 0.3 390/r s1403 0643 https://d oi.o rg/1 0.1 007/s 00190-0 21-0 1497-6\nLu X, Chen L, Shen N, Wang L, Jiao Z, Chen R (2021) Decod- Zumberge JF, Heflin MB, Jefferson DC, Watkins MM, Webb FH\ning PPP corrections from BDS B2b signals using a software- (1997) Precise point positioning for the effi",
+    "char_length": 5339
+  },
+  {
+    "quote_id": "qb_893288c793",
+    "span_index": 17,
+    "text": "69 Page 18 of 18 GPS Solutions (2023) 27:69\nXin Meng is currently a Master's Rui Ji obtained his B.Sc degree\ndegree candidate at PLA Strate- from PLA Strategic Support\ngic Support Force Information Force Information Engineering\nEngineering University. He has University, China, in 2016,\ncompleted his B.Sc. at the where he is now a Master's\nDepartment of Mining Engineer- degree candidate. His current\ning at Lyuliang University in research focused on Precise\n2020. His area of research cur- Point Positioning.\nrently focuses on GNSS real-\ntime precise positioning and\ntiming.\n1 3",
+    "char_length": 580
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+  "expected_product_source": "BDS3_PPP_B2B_BROADCAST",
+  "expected_epoch_status": "NOT_MENTIONED",
+  "expected_dcb_status": "EXPLICITLY_DESCRIBED",
+  "expected_gate_status": "PASS",
+  "must_not_have_wrong_support": true,
+  "must_have_reproduction_blockers": true,
+  "correction_status": "none",
+  "admission_status": "PASS"
+}

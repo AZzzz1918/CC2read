@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nPerformance Assessment of BDS-3 PPP-B2b/INS Loosely\nCoupled Integration\nXiaofeiXu1 ,ZhixiNie1,* ,ZhenjieWang1 ,BoyangWang1andQinghuaiDu2\n1 CollegeofOceanographyandSpaceInformatics,ChinaUniversityofPetroleum,Qingdao266580,China;\nb19010058@s.upc.edu.cn(X.X.);sdwzj@upc.edu.cn(Z.W.);b19010077@s.upc.edu.cn(B.W.)\n2 ShengliBranch,SinopecGeophysicalCorporation,Dongying257100,China;dqh062@163.com\n* Correspondence:niezhixi@upc.edu.cn\nAbstract:TheBeiDouglobalnavigationsatellitesystem(BDS-3)hasbeenofficiallyprovidingareal-\ntimeprecisepointpositioning(PPP)augmentationservice,knownast",
+    "char_length": 4089
+  },
+  {
+    "quote_id": "qb_0e0ec81c45",
+    "span_index": 1,
+    "text": "RemoteSens.2022,14,2957 2of16\nthesecorrections,theuserscancomputeprecisesatelliteorbitsandclocks,andthencarry\noutreal-timePPP.However,RTSmaybeinterruptedwhentheInternetisunavailable[9].\nThe commissioning of the BeiDou global navigation satellite system (BDS-3) was\nannounced on 31 July 2020 [10,11]. Several featured services are provided by BDS-3,\nincludingshortmessagecommunication, internationalsearchandrescue, andthePPP-\nB2b service, in addition to global positioning, navigation and time (PNT) services [12].\nThe BDS-3 PPP-B2b service can support real-time PPP based on PPP-B2b corrections\nbroa",
+    "char_length": 3977
+  },
+  {
+    "quote_id": "qb_5bd053e700",
+    "span_index": 2,
+    "text": "RemoteSens.2022,14,2957 3of16\n(cid:2) (cid:3)T\nHence, the orbit correction vector δO B2b = δO radial δO along δO cross should first be\ntransformedtotheEarth-CenterEarth-Fixed(ECEF)frame. Thisisbecausethesatellite\npositionsderivedfromCNAV1/LNAVbroadcastephemerisarebasedontheECEFframe.\nThistransformationcanbedescribedasfollows:\nδXsat = (cid:2) e radial e along e cross (cid:3) ·δO B2b (1)\nwith\n\n\ne\ne\ncr\nr\no\na\ns\nd\ns\nia\n=\nl =\n| r r × ×\n|r r |\nr r . .| (2)\ne\n=e ×e\nalong cross radial\nwhere δXsat = (cid:2) δO δO δO (cid:3)T representsthePPP-B2borbitcorrectionvectorinthe\nx y z\n.\nECEFframe. randra",
+    "char_length": 2921
+  },
+  {
+    "quote_id": "qb_51cf6cbd91",
+    "span_index": 3,
+    "text": "RemoteSens.2022,14,2957 4of16\nionospheric-freecodeandphasecombinations. Itisnotedthattheionospheric-freecode\nbiasatthesatelliteendshouldbecorrectedbyapplyingPPP-B2bdifferentialcodebias\ncorrections[15].\nWhen the recovered PPP-B2b precise satellite orbits and clock offsets have been\napplied,thesatelliteorbitandclockerrorsareconsideredeliminated. Thetropospheric\ndelay can be divided into the dry and wet parts. The Saastamoinen model is usually\nusedtocorrectthedrypart,andthewetpartmustbeestimatedasunknown. Thenthe\nionospheric-freecodeandphasecombinationscanbelinearizedas\n(cid:26)\np = −e·x+c·dt +M ",
+    "char_length": 3232
+  },
+  {
+    "quote_id": "qb_a3a3a33203",
+    "span_index": 4,
+    "text": "RemoteSens.2022,14,2957 5of16\nwhereδB andδB representtheerrorvectorofgyrobiasesandaccelerometerbiases,respec-\ng a\ntively;τisthecorrectiontime;andw ,w representsthedrivingnoiseforaccelerometer\na g\nandgyro,respectively.\n2.3. PPP-B2b/INSLooselyCoupledIntegrationModel\nAtypicalstatevectorof15statesisusedinPPP-B2b/INSlooselycoupledintegration,\nwhichcanbeexpressedas\nX = (cid:2) δpn δvn φ δB δB (cid:3)T (11)\nk INS INS a g\nThesystemmodelofPPP-B2b/INSlooselycoupledintegrationinthediscreteform\ncanbesimplifiedas\nX k = (I+F·∆t)X k−1 +Γ k−1 w k−1 ,w k−1 ∼ N(0,Q k−1 ) (12)\nwhere X k−1 and X k are the vector ",
+    "char_length": 2423
+  },
+  {
+    "quote_id": "qb_031a23a509",
+    "span_index": 5,
+    "text": "RemoteSens.2022,14,2957 6of16\nwhereH = (cid:104)(cid:0) ωn +ωn (cid:1) ×Cn (cid:16) lb× (cid:17) +Cn (cid:16) lb×ωb (cid:17) × (cid:105) ;pn ,vn denotethevector\nφ ie en b b ib GNSS GNSS\n(cid:2) (cid:3)T\nofpositionandvelocityobtainedfromPPP-B2bpositioning; ε ε denotesthevector\nRemote Sens. 2022, 14, x FOR PEER REVIEW p v 6 of 17\nof measurement noise of position and velocity and R represents its related covariance\nk\nmatrix;lbrepresentsthevectoroflever-armoffsets;H isthedesignmatrix;Z isdefinedas\nk k\ntheinnovationvector,whichconsistsofthedifferenceofpositionsandvelocitiesbetween\nof measurement no",
+    "char_length": 3777
+  },
+  {
+    "quote_id": "qb_f08c0593b0",
+    "span_index": 6,
+    "text": "RemoteSens.2022,14,2957 7of16\nTable1.ParametersoftheIMUsensorsusedintheexperiments.\nBias RandomWalk\nIMU Sampling\nGrade\nSensor Rate Gyro. Acc. Ang√ular Veloc√ity\n(◦/h) (mGal) (◦/ h) (m/s/ h)\nIAS100C Tactical 200Hz 0.75 1000 0.03 0.1\nADIS-\nMEMS 100Hz 10 1500 0.34 0.18\n16505\nDuringthesetwoexperiments,aGNSSbasestationwasestablishedontheroofof\nEngineering-CbuildingintheChinaUniversityofPetroleum(EastChina). Itshouldbe\nnoted that the distance between the base and rover stations was less than 5 km. Using\nGNSS observations collected by PwrPak7, and IMU data from ISA100C, together with\nGNSSmeasurements",
+    "char_length": 2845
+  },
+  {
+    "quote_id": "qb_b25441d927",
+    "span_index": 7,
+    "text": "RemoteSens.2022,14,2957 8of16\nin the east, north and up directions were 6.7/23.7/26.5 cm for PPP-B2b only, and the\ncorrespondingvaluesforPPP-B2b/tactical-IMUandPPP-B2b/MEMS-IMUlooselycoupled\nRemote Sens. 2022, 14, x FOR PEER REVIEW 8 of 17\nintegrationschemeswere6.6/23.3/26.0cmand6.2/23.5/25.8cm,respectively. Intermsof\ntherootmeansquare(RMS)valueofpositioningerrors,theimprovementofPPP-B2b/INS\nlooselycoupledintegrationwasnotsignificantcomparedtoPPP-B2bonly. Thisisbecause\nRemote Sens. 2022, 14, x FOR PEER REVIEW 8 of 17\nExperimentAwascarriedoutwithinanopen-skyenvironmentandthusPPP-B2bonits\nownwas",
+    "char_length": 3600
+  },
+  {
+    "quote_id": "qb_5afdf8e8e9",
+    "span_index": 8,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 9 of 17\nRemoteSens.2022,14,2957 9of16\nFigure4. PositioningerrorsofPPP-B2bonly(toppanel),PPP-B2b/MEMS-IMUlooselycoupled\nFigure 4. Positioning errors of PPP-B2b only (top panel), PPP-B2b/MEMS-IMU loosely coupled in-\nintegration(middlepanel),andPPP-B2b/tactical−IMUlooselycoupledintegration(bottompanel),\ntegration (middle panel), and PPP-B2b/tactical−IMU loosely coupled integration (bottom panel), for\nforExperimentA.\nExperiment A.\nTable3.Statisticsofthepositioningerrors(unit:cm).\nTable 3. Statistics of the positioning errors (unit: cm).\nBias RMS\nSchemes\nEas",
+    "char_length": 2351
+  },
+  {
+    "quote_id": "qb_d270826384",
+    "span_index": 9,
+    "text": "RemoteSens.2022,14,2957 10of16\nweresimulatedfromthe600th/900th/1200th/1500thepoch,andeachperiodlasted30s.\nThecorrespondingpositioningerrorsofPPP-B2b/MEMS-IMUandPPP-B2b/tactical-IMU\nRemote Sens. 2022, 14, x FOR PEER REVIEW 10 of 17\nR emote Sens. 2022, 14, x FOR PEER RElVooIEseWly coupledintegrationareplottedinFigures5and6,respectively. Clearly,theposi- 10 of 17\ntioningaccuracybecomeprogressivelyworsewithincreasedtimeofGNSSoutagesinboth\nPPP-B2b/MEMS-IMU and PPP-B2b/tactical-IMU loosely coupled integration schemes.\nWhen the GNSS signal outage time increased to 30 s, the positioning errors in the ",
+    "char_length": 3789
+  },
+  {
+    "quote_id": "qb_3c459482d8",
+    "span_index": 10,
+    "text": "RemoteSens.2022,14,2957 11of16\nTable4.StatisticsofpositioningerrorsforPPP-B2b/INSlooselycoupledintegrationduringGNSS\noutages(unit:cm).\nSchemes Direction 5s 10s 15s 20s 25s 30s\nEast 0.5 1.8 3.9 7.7 12.7 18.6\nPPP-B2b/tactical-IMU North 0.8 2.5 5.3 9.3 14.6 21.8\nUp 0.4 1.3 2.5 3.7 5.0 6.1\nEast 3.8 17.4 45.7 97.4 180.5 300.6\nPPP-B2b/MEMS-IMU North 8.0 35.2 87.3 174.6 308.9 498.0\nUp 1.8 7.2 15.7 24.7 33.4 41.0\n4.2. ExperimentB\nTofullydemonstratetheperformanceofBDS-3PPP-B2b/INSlooselycoupledintegra-\ntioninanurbanscenario,weconductedExperimentBinacomplexurbanenvironment.\nRemote Sens. 2022, 14, x FOR ",
+    "char_length": 3065
+  },
+  {
+    "quote_id": "qb_f5983bde4d",
+    "span_index": 11,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 11 of 17\nFigure 7. The trajectory of the land vehicle in Experiment B.\nRemoteSens.2022,14,2957 12of16\nFigure 8 presents the number of visible BDS-3/GPS satellites and the values of PDOP.\nThe number of available BDS-3/GPS satellites dropped frequently, and at the same time\nthe PDOP value significantly increased as several typical city features such as tall build-\ncomputedthepositioningaccuracy. Clearly,theequippedIMUsensorscouldnotimprove\nings, trees, and over-bridges appeared along the vehicle route.\ntheperformanceofthePPP-B2bservicewhentherewasnoGNSSsi",
+    "char_length": 3755
+  },
+  {
+    "quote_id": "qb_47404e272a",
+    "span_index": 12,
+    "text": "RemoteSens.2022,14,2957 13of16\nFrom09:35:00totheendofExperimentB,thelandvehiclecrossedtwoover-bridges,\nasshowninFigure10. TwoGNSSsignaloutagesappearedwhenthelandvehiclecrossed\nthe bridges, lasting 15 s and 5 s, respectively. During these two GNSS signal outages,\nPPP-B2bpositioningcouldbeimplemented,becausethenumberofvisiblesatelliteswas\nless than four. Therefore, the PPP-B2b positioning was re-converged after crossing the\nbridges. Figure11showsthepositioningerrorsofPPP-B2bonly,PPP-B2b/MEMS-IMU\nlooselycoupledintegration,andPPP-B2b/tactical-IMUlooselycoupledintegration. Itcan\nbeseenthatthepositi",
+    "char_length": 1885
+  },
+  {
+    "quote_id": "qb_bf98c9309e",
+    "span_index": 13,
+    "text": "Remote Sens. 2022, 14, x FOR PEER REVIEW 13 of 17\nRemoteSens.2022,14,2957 14of16\nFigure 10. Two bridge scenarios during the period from 09:35:00 to 09:49:59.\nFigure11. PositioningerrorsofPPP-B2bonly(toppanel),PPP-B2b/MEMS-IMUlooselycoupled\nintegration(middlepanel),andPPP-B2b/tactical−IMUlooselycoupledintegration(bottompanel)\nduringtheperiodfrom09:35:00to09:49:59.\n5. Conclusions\nSinceJuly2020,PPP-B2bhasservedasafeaturedserviceofBDS-3tosupportreal-time\nPPP.ComparedtotheIGSRTSservice,PPP-B2bisasatellite-basedservice,whichisnot\nlimitedbyInternetcommunication.Itshigh-precisionpositioningperformance",
+    "char_length": 1552
+  },
+  {
+    "quote_id": "qb_ba1465206d",
+    "span_index": 14,
+    "text": "RemoteSens.2022,14,2957 15of16\npositioningerrorsintheeast,north,andupdirectionswere300.0cm,498.0cm,and41.0cm,\nrespectively,forPPP-B2b/MEMS-IMUlooselycoupledintegration,and18.6cm,21.8cm,\nand6.1cm,respectively,forPPP-B2b/tactical-IMUlooselycoupledintegration. Inaddition,\nwealsoevaluatedtheperformanceofPPP-B2b/INSlooselycoupledintegrationinareal\ncomplexurbanenvironment. Whenthelandvehiclecrossedbridges, twoGNSSsignal\ninterruptionsappearedthatlasted15sand5s,respectively. ComparedtoPPP-B2bonly,\ntherespectiveimprovementofpositioningaccuracyintheeast,north,andupcomponents\nwas64.1%,77.8%,and73.8%forPP",
+    "char_length": 4235
+  },
+  {
+    "quote_id": "qb_d1b7be0f33",
+    "span_index": 15,
+    "text": "RemoteSens.2022,14,2957 16of16\n15. Nie,Z.;Xu,X.;Wang,Z.;Du,J.InitialAssessmentofBDSPPP-B2bService:PrecisionofOrbitandClockCorrections,andPPP\nPerformance.RemoteSens.2021,13,2050.[CrossRef]\n16. Zhang,W.;Lou,Y.;Song,W.;Sun,W.;Zou,X.;Gong,X.InitialassessmentofBDS-3precisepointpositioningserviceonGEOB2b\nsignal.Adv.SpaceRes.2021,69,690–700.[CrossRef]\n17. Ren,Z.;Gong,H.;Peng,J.;Tang,C.;Huang,X.;Sun,G.Performanceassessmentofreal-timeprecisepointpositioningusingBDS\nPPP-B2bservicesignal.Adv.SpaceRes.2021,68,3242–3254.[CrossRef]\n18. Tao,J.;Liu,J.;Hu,Z.;Zhao,Q.;Chen,G.;Ju,B.InitialAssessmentoftheBDS-3PPP-",
+    "char_length": 4507
+  }
+]

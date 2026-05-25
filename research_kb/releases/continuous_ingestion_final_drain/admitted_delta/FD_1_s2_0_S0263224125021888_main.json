@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S0263224125021888_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Real-time PPP with the fusion of Galileo HAS and BDS-3 PPP-B2b"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement 257 (2026) 118829 Contents lists available at ScienceDirect Measurement journal homepage: www.elsevier.com/locate/measurement Real-time PPP with the fusion of Galileo HAS and BDS-3 PPP-B2b Kai Zhenga , Zikang Yea, Jianhe Zhaoa, Qiang Maa, Wenju Fua,*, Jiahuan Hub , Kezhong Liua, Long Tangc, Xiaohong Zhangd aSchool of Navigation, Wuhan University of Technology, Wuhan 4",
+      "Variance component estimation However, these services operate independently, each supporting different GNSS constellations, thus limiting PPP-B2b users from fully exploiting multi-GNSS systems."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 7
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 139,
+    "has": 4,
+    "dcb": 7,
+    "clas": 3
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

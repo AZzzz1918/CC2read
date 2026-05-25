@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_05439ba515",
+    "span_index": 0,
+    "text": "Measurement 257 (2026) 118829\nContents lists available at ScienceDirect\nMeasurement\njournal homepage: www.elsevier.com/locate/measurement\nReal-time PPP with the fusion of Galileo HAS and BDS-3 PPP-B2b\nKai Zhenga , Zikang Yea, Jianhe Zhaoa, Qiang Maa, Wenju Fua,*, Jiahuan Hub ,\nKezhong Liua, Long Tangc, Xiaohong Zhangd\naSchool of Navigation, Wuhan University of Technology, Wuhan 430063, China\nbDepartment of Land Surveying and Geo-Informatics, The Hong Kong Polytechnic University, Hong Kong 999077, China\ncSchool of Civil and Transportation Engineering, GuangDong University of Technology, Guangzh",
+    "char_length": 5051
+  },
+  {
+    "quote_id": "qb_3b7cb206a4",
+    "span_index": 1,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nwaterways and open seas. Currently, the Chinese BeiDou Satellite however, discrepancies arising from different coordinate reference\nNavigation System (BDS-3) and Galileo both provide free and publicly frames (BDCS vs GTRF) and time systems (BDT vs GST) must be carefully\navailable real-time PPP augmentation services via navigation satellite addressed. To overcome these challenges, Wei et al. [26] applied the\nsignals [9,10]. These satellite-based services transmit real-time products Helmert coordinate transformation to integrate PPP-B2b and",
+    "char_length": 8631
+  },
+  {
+    "quote_id": "qb_813b551b6d",
+    "span_index": 2,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nkinematic data from pedestrian and inland waterway vessels. Finally, where ΔXcor can be obtained according to the following formula:\nSection 7summarizes the key research findings and provides concluding\nremarks. eA = | r r ˙ ˙|\n2. Methodology r×r˙\neC = |r×r˙| (7)\n2.1. Satellite orbit and clock offset recovery with PPP-B2b eR =eA ×eC\nThe PPP-B2b service provides real-time corrections for satellite orbit,\nΔXcor =[eR eA eC ]⋅ΔOHAS\nclock offset, and differential code bias (DCB), with update intervals of\n48, 6, and 48 s, respectively, and corr",
+    "char_length": 5258
+  },
+  {
+    "quote_id": "qb_2ad73ece9b",
+    "span_index": 3,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\ncoordinate transformation; Rs denotes the distance between the coor- vary across different GNSS constellations, observation types, and PPP\npri\ndinate system origin and the satellite s; ΔClks represents the clock augmentation products. Therefore, the HVCE method is adopted to\npri\nproduct compensation term at time t. Eq. (12)is employed to align the optimize the stochastic model. Previous studies have identified satellite-\nclock offset products with the transformed orbit products. related biases in the PPP-b2b clock offsets that differ amon",
+    "char_length": 6729
+  },
+  {
+    "quote_id": "qb_b5e01b2229",
+    "span_index": 4,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nFig. 2. Availability of PPP-B2b products.\nFig. 1. Number of available satellites derived from HAS and PPP-B2b products.\noffset are considered valid. The results indicate that PPP-B2b provides\navailable satellites across almost the entire Asian region, with the\noptimal availability observed in eastern China, where users can observe\nan average of 16 satellites (GPS and BDS). Although in parts of Europe,\nthe PPP-B2b service is accessible, the fewer available satellites in Europe\ncould result in suboptimal PPP performance. Compared to B2b cor",
+    "char_length": 3758
+  },
+  {
+    "quote_id": "qb_e479dd7e88",
+    "span_index": 5,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nFig. 4. RMS orbit errors of PPP-B2b in R, A, and C directions (DOY 96, 2024).\nFig. 6. DD series of PPP-B2b clock offset products (DOY 96, 2024).\nFig. 5. RMS orbit errors of HAS in R, A, and C directions (DOY 96, 2024).\naddress the systematic biases [38]. In addition, the epoch-to-epoch\nconstraints were applied to DD series to avoid jumps. Fig. 6and Fig. 7\npresent the DD series of PPP-B2b and HAS clock offset errors for DOY 96,\n2024. Analysis of the DD series reveals a satellite-specific bias present in\nthe PPP-B2b clock offsets, while no ",
+    "char_length": 1783
+  },
+  {
+    "quote_id": "qb_fe885ec6b8",
+    "span_index": 6,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\ncoordinate transformation. The weights of GPS, Galileo, and BDS ob- Table 2\nservations are determined using the HVCE method. And the HVCE PPP processing strategies.\nmethod relies solely on phase observations. Item Strategy\nThe satellite-specific constant biases have been identified in the PPP-\nObservation GPS: L1/L2, Galileo: E1/E5b, BDS: B1I/B3I\nB2b satellite clock offsets, which will deteriorate the pseudorange ob-\nOrbit/clock PPP-B2b/HAS products\nservations and can be absorbed into the ambiguity parameters. There- Cut-off angle 10◦\nfor",
+    "char_length": 6054
+  },
+  {
+    "quote_id": "qb_5c24315c31",
+    "span_index": 7,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nFig. 9. The time series of static B-G and H-G positioning errors for PTGG station (DOY 95, 2024).\nTable 3\nPositioning performance of H-G and B-G at the selected stations.\nStrategy Station Horizontal Vertical 3D convergence time\n[cm] [cm] [cm] [min]\nH-G PTAG 19.0 14.5 23.9 47\nPTGG 10.7 5.1 11.6 8\nULAB 7.0 13.3 15.0 22\nUSUD 11.0 19.3 22.2 10\nB-G PTAG 21.2 16.6 31.8 50\nPTGG 26.6 17.4 24.5 79\nULAB 8.1 14.1 16.3 92\nUSUD 13.1 21.5 25.2 10\nFig. 11. Statistical results of static H-GE positioning errors with different ses-\nsion lengths.\nwith respe",
+    "char_length": 1484
+  },
+  {
+    "quote_id": "qb_7e7837e110",
+    "span_index": 8,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nFig. 12. The time series of static B-GC positioning errors for PTGG station (DOY\nFig. 15. Statistical results of static HB-GEC positioning errors with different\n96, 2024).\nsession lengths.\n(3) Single-day constant (S_C) scheme: the transformation parameters\nare estimated as constants throughout a single day.\nWe processed all stations’ data on DOY 97, 2024. Fig. 16shows the\nstatic HB-GEC positioning errors for MAC1 station in the E, N, and U\ndirections, respectively. There are minor differences among the three\ntransformation schemes. The av",
+    "char_length": 1718
+  },
+  {
+    "quote_id": "qb_0ae9cfb25c",
+    "span_index": 9,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nTable 4\nThree transformation schemes static PPP positioning accuracy.\nScheme Horizontal [cm] Vertical [cm] Improvement compared to N_T\nHorizontal [%] Vertical [%]\nN_T 6.1 8.3 \\ \\\nS_E 6.1 6.7 0.0 19.3\nS_C 6.0 8.0 1.6 3.6\nWe first analyzed the positioning performance of HB-GEC and B-GC\nbased on the blue-marked and black-marked stations shown in Fig. 8.\nThe pseudo-kinematic positioning errors of B-GC and HB-GEC for IISC\nstation on DOY 97, 2024, are presented in Fig. 17. HB-GEC demonstrates\nsignificantly superior positioning performance compa",
+    "char_length": 3062
+  },
+  {
+    "quote_id": "qb_cee2138dec",
+    "span_index": 10,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\n6. Experiments with real kinematic data\n6.1. Pedestrian kinematic experiment\nTo verify the performance of kinematic PPP, a pedestrian kinematic\nexperiment was carried out in Wuhan, China, on DOY 95, 2024. The\nSino M300 Plus receiver and the Wisdom Beidou P100 GNSS antenna\nwere used for data collection, which can simultaneously track L1/L2,\nE1/E5b, and B1I/B3I signals. The experiment spans from 02:29:10 to\n03:47:19 UTC, lasting a total of 4690 s with a sampling interval of 1 s.\nThe reference trajectory was calculated by using RTK, with the",
+    "char_length": 5898
+  },
+  {
+    "quote_id": "qb_fb4360ba3f",
+    "span_index": 11,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nFig. 23. The environment of the base station and rover station.\nFig. 24. RTK solution trajectories and pedestrian kinematic PPP trajectories of seven positioning strategies.\n12",
+    "char_length": 232
+  },
+  {
+    "quote_id": "qb_1be171b2d1",
+    "span_index": 12,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nFig. 25. PDOP and the number of available satellites in pedestrian kinematic experiment.\nFig. 26. Horizontal and vertical positioning errors of pedestrian kinematic PPP using the seven strategies.\nhours along the route from Wushan to Badong. Fig. 27 illustrates the still falls short of that of GEC PPP (8.2 cm, 6.4 cm), HB-GEC is never-\nexperimental setup. The experimental area is surrounded by mountains, theless capable of achieving decimeter-level kinematic positioning ac-\nas shown in Fig. 28. The reference trajectory is obtained by usin",
+    "char_length": 1755
+  },
+  {
+    "quote_id": "qb_6080bfaa77",
+    "span_index": 13,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nTable 5 positioning accuracy. The results underscore the potential of integrating\nPositioning accuracies of seven positioning strategies in the pedestrian kine- PPP-B2b and HAS for high-precision positioning applications in inland\nmatic experiment. waterway navigation.\nStrategy Horizontal Vertical 3D Compare H-E 3D error\n[cm] [cm] [cm] improvement [%] 7. Conclusion\nB-G 75.1 47.2 88.7 22.9\nB-C 22.2 75.0 78.2 32.1 This paper presents a novel approach for integrating PPP-B2b and\nB-GC 35.8 27.1 44.9 61.0 HAS services to achieve enhanced globa",
+    "char_length": 1154
+  },
+  {
+    "quote_id": "qb_e6605baac3",
+    "span_index": 14,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nWhereas, for PPP-B2b and the integrated service, the HVCE approach\nis advised to optimize the stochastic model.\n4. The HB-GEC strategy improves horizontal and vertical positioning\naccuracies by 8.4 % and 42.5 %, respectively, compared to B-GC. For\nstations located within the HAS excluded areas, the HB-GEC strategy\nenhances horizontal and vertical accuracies by 1.3 % and 44.9 %,\nrespectively, relative to H-GE. These results demonstrate that the\nintegration of PPP-B2b and HAS can leverage the complementary\nstrengths of both services, signif",
+    "char_length": 4548
+  },
+  {
+    "quote_id": "qb_5c91002d16",
+    "span_index": 15,
+    "text": "K. Zheng et al. M e a s u r e m e n t 257 (2026) 118829\nReferences [19] P. Wu, et al., Evaluation of real-time kinematic positioning performance of the\nBDS‑3 PPP service on B2b signal, GPS Solut. 27 (4) (Oct. 2023) 192, https://doi.\norg/10.1007/s10291-023-01532-3.\n[1] J. Geng, H. Zhang, G. Li, Y. Aoki, Multipath mitigation for GPS/Galileo/BDS-3\n[20] T. Geng, Z. Li, X. Xie, W. Liu, Y. Li, Q. Zhao, Real-time ocean precise point\nprecise point positioning with overlap-frequency signals, Satell. Navig. 5 (1) (Dec.\npositioning with BDS-3 service signal PPP-B2b, Measurement 203 (Nov. 2022)\n2024) 22, ",
+    "char_length": 7968
+  }
+]

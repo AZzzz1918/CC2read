@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s12145_023_00939_3",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Assessment of precipitable water vapor retrieved from precise point positioning with PPP-B2b service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Earth Science Informatics (2023) 16:315–328 https://doi.org/10.1007/s12145-023-00939-3 RESEARCH Assessment of precipitable water vapor retrieved from precise point positioning with PPP‑B2b service Hao Yang1,2 · Xiufeng He1 · Vagner Ferreira1 · Shengyue Ji2 · Ying Xu3 · Susu Song4 Received: 14 November 2022 / Accepted: 11 January 2023 / Published online: 19 January 2023 © The Auth",
+      "The PPP-B2b service of the BeiDou satellite navigation system (BDS) provides RTS via satellite, which is suitable for PWV retrieving without the influence of network issues."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 14,
+    "b2b": 94,
+    "has": 0,
+    "dcb": 0,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

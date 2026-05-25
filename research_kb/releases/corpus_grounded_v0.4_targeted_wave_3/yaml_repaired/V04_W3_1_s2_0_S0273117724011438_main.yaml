@@ -1,0 +1,37 @@
+bibliographic_info:
+  title: Evaluation of the Galileo high-accuracy service SSR product quality and PPP
+    performance
+category: LEO
+component_stack: BDS3_PPP_B2B+GALILEO_HAS+LEO+INS+SMARTPHONE
+confirms_singleton: false
+dcb_handling:
+  dcb_mentions: 0
+  grounding_quotes: []
+  status: NOT_MENTIONED
+experiment_epoch:
+  start_date: NOT_MENTIONED
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+is_new_route: false
+paper_id: V04_W3_1_s2_0_S0273117724011438_main
+pdf_metadata:
+  b2b: 40
+  dcb: 0
+  has: 18
+  pages: 14
+priority: P1_NEW_ROUTE_CONFIRMATION
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  grounding_quotes:
+  - In addition, Galileo HAS as a satellite-based augmentation service, this study
+    chooses BDS PPP B2b, which is also a satellite-based augmentation service,asacomparisontoanalyzetheperformanceoftheHASaugmentationservice.
+  - Incomparison withBeiDou navigationsatellite system (BDS)PPP-B2b,theaverageconvergencetimeofHASunderstaticmodeis16min,whilethatofB2brequires19min.Meanwhile,the
+    positioningaccuracyofB2bproductsinthethreedirectionsisimprovedbymorethan1cmcomparedwiththatofHAS.Theconver-
+    gence timeof HASin kinematic mode is12min shorter thanthatof B2b.
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not provided
+  - B2b archive not distributed
+wave: 3

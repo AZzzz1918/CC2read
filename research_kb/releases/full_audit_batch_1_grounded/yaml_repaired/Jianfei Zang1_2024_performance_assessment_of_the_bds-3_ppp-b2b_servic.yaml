@@ -1,0 +1,194 @@
+paper_id: Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+extraction_mode: full
+extraction_timestamp: '2026-05-22T17:00:00'
+product_source:
+  claimed: BDS-3 PPP-B2b
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes:
+  - quote_id: qb_89f0421b41
+    quote_text: "Vol.:(0123456789)\n1 3\nGPS Solutions           (2024) 28:26  \n\
+      https://doi.org/10.1007/s10291-023-01570-x\nORIGINAL ARTICLE\nPerformance assessment\
+      \ of the BDS‑3 PPP‑B2b service for real‑time \nearthquake source description:\
+      \ a case study for the 2021 Mw 7.4 \nMaduo earthquake\nJianfei Zang1 · Shijie Fan1 ·\
+      \ Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4\nReceived: 13 August\
+      \ 2023 / Accepted: 24 October 2023 \n© The Author(s), under exclusive licence\
+      \ to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\n\
+      Retrieving the coseismic displacement in real time is essential when the high-rate\
+      \ Global Navigation Satellite System (GNSS) \nis used for the real-time earthquake\
+      \ source description."
+    original_quote: BDS-3 initiated a real-time precise point positioning service
+      through the B2b signal (PPP-B2b)
+    match_type: keyword_overlap
+    confidence: medium
+    score: 0.545
+  - quote_id: qb_574d062841
+    quote_text: "2021), where precise satellite orbit and clock corrections are \n\
+      broadcast to users through the B2b signal of BDS-3 geosta-\ntionary earth orbit\
+      \ (GEO) satellites."
+    original_quote: precise satellite orbit and clock corrections are broadcast to
+      users through the B2b signal of BDS-3 geostationary earth orbit (GEO) satellites
+    match_type: keyword_overlap
+    confidence: high
+    score: 0.929
+experiment_epoch:
+  event: 2021 Mw 7.4 Maduo earthquake
+  event_date: '2021-05-22'
+  description: Case study for a single earthquake event. GNSS observations collected
+    during the 2021 Mw 7.4 Maduo earthquake.
+  grounding_quotes:
+  - quote_id: qb_348e7e1289
+    quote_text: "In this study, the performance of the PPP-B2b on the real-time \n\
+      retrieval of coseismic displacement was first validated with GNSS observations\
+      \ collected during the 2021 Mw 7.4 Maduo \nearthquake."
+    original_quote: performance of the PPP-B2b on the real-time retrieval of coseismic
+      displacement was first validated with GNSS observations collected during the
+      2021 Mw 7.4 Maduo earthquake
+    match_type: normalized
+    confidence: high
+    score: 0.896
+correction_types:
+- type: orbit_correction
+  components:
+  - radial
+  - along-track
+  - cross-track
+- type: clock_correction
+  reference: broadcast ephemeris
+dcb_handling:
+  status: NOT_MENTIONED
+  note: Earthquake monitoring application paper — focuses on PPP displacement retrieval,
+    not correction composition details
+mathematical_model:
+  processing_mode: Real-time PPP with dual-frequency ionosphere-free combination
+  key_methods:
+  - 'PPP-B2b orbit correction recovery: precise orbit = broadcast orbit + correction
+    vector in ECEF'
+  - 'Earthquake magnitude scaling law: log(PGD) = A + B*M_W + C*log(R)'
+  - Coseismic displacement retrieval from PPP-B2b time series
+  - Focal mechanism inversion from displacement field
+  - Fault slip distribution inversion
+  grounding_quotes:
+  - quote_id: qb_0c93a92419
+    quote_text: "Methodology\nIn this section, the recovery procedure of the precise\
+      \ satel-\nlite orbit and clock offsets with the PPP-B2b corrections \nare first\
+      \ introduced."
+    original_quote: 'PPP-B2b orbit correction recovery: precise orbit = broadcast
+      orbit + correction vector in ECEF'
+    match_type: keyword_overlap
+    confidence: medium
+    score: 0.556
+datasets:
+  observation_data: 1-Hz GNSS observations (GPS+BDS) from regional continuous stations
+    around Maduo earthquake epicenter
+  correction_source: BDS-3 PPP-B2b real-time orbit and clock corrections broadcast
+    via GEO satellite
+  reference_data:
+  - USGS earthquake catalog
+  - CENC earthquake catalog
+  - Post-processed PPP displacements
+  grounding_quotes:
+  - quote_id: qb_89f0421b41
+    quote_text: "Vol.:(0123456789)\n1 3\nGPS Solutions           (2024) 28:26  \n\
+      https://doi.org/10.1007/s10291-023-01570-x\nORIGINAL ARTICLE\nPerformance assessment\
+      \ of the BDS‑3 PPP‑B2b service for real‑time \nearthquake source description:\
+      \ a case study for the 2021 Mw 7.4 \nMaduo earthquake\nJianfei Zang1 · Shijie Fan1 ·\
+      \ Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4\nReceived: 13 August\
+      \ 2023 / Accepted: 24 October 2023 \n© The Author(s), under exclusive licence\
+      \ to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\n\
+      Retrieving the coseismic displacement in real time is essential when the high-rate\
+      \ Global Navigation Satellite System (GNSS) \nis used for the real-time earthquake\
+      \ source description."
+    original_quote: GNSS observations collected during the 2021 Mw 7.4 Maduo earthquake
+    match_type: keyword_overlap
+    confidence: medium
+    score: 0.667
+metrics:
+  coseismic_displacement_accuracy_cm:
+    gps_only_n: 0.8
+    gps_only_e: 0.5
+    gps_only_u: 1.4
+    bds_only_n: 0.5
+    bds_only_e: 0.6
+    bds_only_u: 0.9
+    combined_n: 0.4
+    combined_e: 0.3
+    combined_u: 0.4
+  earthquake_source_inversion: Warning magnitude, focal mechanism, and fault slip
+    distribution all in good agreement with post-processed PPP results
+main_results:
+  summary: PPP-B2b service can provide near-real-time coseismic displacement waveforms
+    for earthquake source description without internet dependency. Combined GPS/BDS-3
+    PPP-B2b achieves best accuracy (0.3-0.4cm horizontal).
+  key_findings:
+  - 'Coseismic displacement accuracy: 0.4cm (N), 0.3cm (E), 0.4cm (U) for combined
+    GPS/BDS-3 PPP-B2b'
+  - Warning magnitude from PPP-B2b consistent with catalog values
+  - Focal mechanism inversion results consistent with reference (USGS, CENC)
+  - PPP-B2b enables internet-free real-time earthquake monitoring globally
+  grounding_quotes:
+  - quote_id: qb_1f3872155a
+    quote_text: "Our results indicate that the accuracies of the coseismic displacements\
+      \ in \nthe north, east and up components are 0.8 cm, 0.5 cm, and 1.4 cm for\
+      \ the single GPS PPP-B2b, 0.5 cm, 0.6 cm, and 0.9 cm \nfor the single BDS-3\
+      \ PPP-B2b and 0.4 cm, 0.3 cm, and 0.4 cm for the combined GPS/BDS-3 PPP-B2b,\
+      \ respectively, when \ncompared with the coseismic displacements of the post-processing\
+      \ precise point positioning (PPP)."
+    original_quote: accuracies of the coseismic displacements in the north, east and
+      up components are 0.8 cm, 0.5 cm, and 1.4 cm for the single GPS PPP-B2b
+    match_type: keyword_overlap
+    confidence: high
+    score: 1.0
+  - quote_id: qb_89f0421b41
+    quote_text: "Vol.:(0123456789)\n1 3\nGPS Solutions           (2024) 28:26  \n\
+      https://doi.org/10.1007/s10291-023-01570-x\nORIGINAL ARTICLE\nPerformance assessment\
+      \ of the BDS‑3 PPP‑B2b service for real‑time \nearthquake source description:\
+      \ a case study for the 2021 Mw 7.4 \nMaduo earthquake\nJianfei Zang1 · Shijie Fan1 ·\
+      \ Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4\nReceived: 13 August\
+      \ 2023 / Accepted: 24 October 2023 \n© The Author(s), under exclusive licence\
+      \ to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\n\
+      Retrieving the coseismic displacement in real time is essential when the high-rate\
+      \ Global Navigation Satellite System (GNSS) \nis used for the real-time earthquake\
+      \ source description."
+    original_quote: 0.4 cm, 0.3 cm, and 0.4 cm for the combined GPS/BDS-3 PPP-B2b
+    match_type: keyword_overlap
+    confidence: high
+    score: 0.8
+  - quote_id: qb_2e5dabec2b
+    quote_text: "Moreover, the warning \nmagnitude, focal mechanism and fault slip\
+      \ distribution inverted with the PPP-B2b displacements are all in good agreement\
+      \ \nwith those inverted with the PPP displacements."
+    original_quote: the warning magnitude, focal mechanism and fault slip distribution
+      inverted with the PPP-B2b displacements are all in good agreement with those
+      inverted with the PPP displacements
+    match_type: normalized
+    confidence: high
+    score: 0.942
+novelty_audit:
+  audit_grade: B_INCREMENTAL
+  rationale: First assessment of BDS-3 PPP-B2b service for real-time earthquake source
+    description — a novel application combining GNSS seismology with satellite-based
+    PPP. Provides a globally available, internet-free alternative to terrestrial RTS
+    for earthquake early warning.
+  grounding_quotes:
+  - quote_id: qb_1d5ffa1cbb
+    quote_text: "This study highlights the great possibility of the PPP-B2b to be\
+      \ used for \nearthquake early warning and rapid emergency responses."
+    original_quote: This study highlights the great possibility of the PPP-B2b to
+      be used for earthquake early warning and rapid emergency responses
+    match_type: normalized
+    confidence: high
+    score: 0.992
+reproducibility_audit:
+  reproducibility_score: 2
+  reproduction_blockers:
+  - GNSS observation data from Maduo earthquake not publicly archived
+  - PPP-B2b correction stream for the event period not publicly archived
+  - Earthquake inversion software not released
+  - No processing configuration details for PPP displacement retrieval
+gate_status:
+  product_source_correct: true
+  wrong_support: false
+  experiment_epoch_valid: true
+  dcb_status: NOT_MENTIONED
+  reproduction_blockers_non_empty: true

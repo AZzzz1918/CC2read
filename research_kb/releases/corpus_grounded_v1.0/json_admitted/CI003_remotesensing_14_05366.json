@@ -1,0 +1,41 @@
+{
+  "paper_id": "CI003_remotesensing_14_05366",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-003",
+  "bibliographic_info": {
+    "title": "Comprehensive Analysis of PPP-B2b Service and Its Impact on BDS-3/GPS Real-Time PPP Time Transfer"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Comprehensive Analysis of PPP-B2b Service and Its Impact on BDS-3/GPS Real-Time PPP Time Transfer JianTang1 ,DaqianLyu1,*,FanglingZeng1,YulongGe2andRunzhiZhang3 1 CollegeofElectronicEngineering,NationalUniversityofDefenseTechnology,Hefei230037,China 2 SchoolofMarineScienceandEngineering,NanjingNormalUniversity,Nanjing210023,China 3 NationalTimeServiceCenter",
+      "In thiswork,thequalityofPPP-B2bproductsisfirstevaluatedandcomparedwithreal-timeproducts fromtheCNESandthedifferentialcodebias(DCB)fromtheChineseAcademyofScience(CAS)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "grounding_quotes": [
+      "In thiswork,thequalityofPPP-B2bproductsisfirstevaluatedandcomparedwithreal-timeproducts fromtheCNESandthedifferentialcodebias(DCB)fromtheChineseAcademyofScience(CAS)."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 22,
+    "b2b": 285,
+    "has": 0,
+    "dcb": 139
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "corpus_version": "v1.0"
+}

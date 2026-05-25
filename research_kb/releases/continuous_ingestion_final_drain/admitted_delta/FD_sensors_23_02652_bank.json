@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_2bf853fe47",
+    "span_index": 0,
+    "text": "sensors\nArticle\n− −\nPPP/INS Tight Integration with BDS 3 PPP B2b Service in\nthe Urban Environment\nLuguangLai1 ,XinMeng1 ,DongqingZhao1 ,XinLi2 ,WenzhuoGuo1andLinyangLi1,3,*\n1 InstituteofSurveyingandMapping,InformationEngineeringUniversity,Zhengzhou450001,China\n2 CollegeofComputerandInformation,HohaiUniversity,Nanjing211100,China\n3 SchoolofGeodesyandGeomatics,WuhanUniversity,Wuhan430079,China\n* Correspondence:linyangli@whu.edu.cn;Tel.:+86‑156‑3976‑5992\nAbstract: Toprovidecontinuousandreliablereal−timeprecisepositioningservicesinchallenging\nenvironmentsandpoorinternetconditions,thereal−timepreci",
+    "char_length": 4099
+  },
+  {
+    "quote_id": "qb_4100252c38",
+    "span_index": 1,
+    "text": "Sensors2023,23,2652 2of17\n−\ndownload the RT state space representation (SSR) corrections via the internet and the\nbroadcastephemerisiscorrectedthereafter[6]. Evaluationresultsshowthattheaccuracy\nof the RT orbit and clock offsets from the IGS RTS are better than 5 cm and 0.15 ns, re‑\nspectively[7]. AlthoughtheIGSRTSproductcanbefreelyobtainedthroughtheinternet,\nits dependence on network communication limits its service coverage, especially for ar‑\neaswithoutnetworkcommunicationcoveragesuchastheoceananddesert. Inaddition,\nuserscannotobtainRTSproductsinthecaseofnetworkcongestionandapoornetwork\n−\ns",
+    "char_length": 4327
+  },
+  {
+    "quote_id": "qb_77f453c7a7",
+    "span_index": 2,
+    "text": "Sensors2023,23,2652 3of17\n− −\nafter GNSS outages [29–31]. Therefore, the existing research into BDS 3 PPP B2b/INS\n−\nis rather insufficient, especially in terms of the PPP B2b/INS tight integration. In this\n− −\npaper,weproposedatightlyintegratedBDS 3PPP B2b/INSmodel,itsperformanceof\n−\non boardexperimentsintheurbanenvironmentwasanalyzed,andtheresultsusingthe\nRTandpostproductsfromDeutscheGeoForschungsZentrum(GFZ)werecompared. In\naddition,theperformanceofthemicroelectromechanicalsystem(MEMS)inertialmeasure‑\nmentunit(IMU),whichispreferredinmassapplicationsduetoitslowprice,lightweight,\n−\ncompactvolu",
+    "char_length": 2991
+  },
+  {
+    "quote_id": "qb_53d187c521",
+    "span_index": 3,
+    "text": "Sensors2023,23,2652 4of17\n− −\n2.2. Real TimeIonosphere FreePPPModel\nTheGNSScode, Ps ,andcarrierphase, Ls ,measurementequationsbetweenstation\nr,i r,i\nrandsatellitesatfrequencyicanbedescribedinthefollowingform[33]:\nP r s ,i = ρ r s+t r − ts+T r s+γ i · I r s ,1 +d r,(cid:16)i − d i s+εs r,i (cid:17)\n(5)\nLs = ρs+t − ts+Ts−γ · Is +λ Ns +b − bs +ξs\nr,i r r r i r,1 i r,i r,i i r,i\nwhereρs denotesthegeometrydistancebetweenthesatelliteandreceiver;ts andt repre‑\nr r\nsentthesatelliteandreceiverclockoffsets, respectively; Ts isthetroposphericdelay; Is\nr r,1\nistheionosphericpropagationdelayatthefirstfrequ",
+    "char_length": 3263
+  },
+  {
+    "quote_id": "qb_b83f1bf076",
+    "span_index": 4,
+    "text": "Sensors2023,23,2652 5of17\n−\nWhentheprecisesatelliteorbitsandclockoffsetsrecoveredbyPPP B2bareadopted,\ntheerrorsofthesatelliteorbitsandclocksarenolongerconsideredandthelinearizedIF\nobservationequationcanbeexpressedas:\nS ensors 2023, 22, x FOR PEER REVIEW l p r s r s , ,s I , , s I y F y F s s = = n n r s r s ,s ,s y y s s · · δ δ x x + + tˆ tˆ r r ,I ,I F F + + m m r s r s , , s w , , s w y y s s · · Z Z r r ,w ,w + + λ I s I S y F B s N G ˆ r − s , , I s C 6F y s + of + 1 ε 7 s r I , , s S I y F B s G−C +ξ r s , ,s I y F s (10)\ns,sys s,sys − − where p and l represent observed minus computed (O",
+    "char_length": 22395
+  },
+  {
+    "quote_id": "qb_57367d22c4",
+    "span_index": 5,
+    "text": "Sensors2023,23,2652 6of17\n−\nThestateequationofthetightlyintegratedPPP B2b/INScanbedescribedas:\n\" # (cid:20) (cid:21)(cid:20) (cid:21) (cid:20) (cid:21)\n.\nX F 0 X w\n. INS = INS INS + INS (14)\nX GNSS 0 F GNSS X GNSS w GNSS\nSensors 2023, 22, x FOR PEER REVIEW 7 of 17\n−\nThe observation equations of the tightly integrated PPP B2b/INS are built on the\n−\nbasis of IF PPP Equation (10), while the INS predicted observations obtained from the\n−\nINS mechanized results are utilized as computed values. In addition, the spatial lever\narmTheer rfolorwmcuhsatrbte ocfo tnigsihdtelyre idnitnegardavtaendc PePwPh−",
+    "char_length": 4575
+  },
+  {
+    "quote_id": "qb_6d248e4239",
+    "span_index": 6,
+    "text": "Sensors2023,23,2652 7of17\n3.1. ExperimentDataandProcessingStrategy\n−\nTo assess the performance of the tightly integrated PPP B2b/INS, we conducted a\nvehicleexperimentinanurbanenvironmentinZhengzhou,China. Theexperimentalplat‑\nformispresentedinFigure2. Theexperimentwascarriedouton18October2022,witha\ntotaldurationofabout1.5h. Astationaryperiodatthebeginningoftheexperimentwas\nusedfortheinitialalignmentoftheintegratednavigationsystem. Duringtheexperiment,\nSensors 2023, 22, x FOR PEER REVIEW 8 of 17\nthe vehicle performed many maneuvers, such as remaining stationary, accelerating and\nSensors 2023, 2",
+    "char_length": 3949
+  },
+  {
+    "quote_id": "qb_4c0315a3d2",
+    "span_index": 7,
+    "text": "SenSseonrsso r2s022032,3 2,223, ,x2 F65O2R PEER REVIEW 8of17 9 of 17\nFigure 4. The trajectory of the experiment.\nFigure 5. The position error of PPP in the experiment.\nTable 1. Precision specifications of the above IMUs utilized in the experiment.\nSampling Accelerometer Bias deg/h IMU Gyro Bias ( ) Angular Random Walk (\nRates (mGal)\nd e g / h\nSensors 2023, 22, x FOR PEER REVIEW 9 of 17\nFigure 4. The trajectory of the experiment. Figure4.Thetrajectoryoftheexperiment.\nFigure 5. The position error of PPP in the experiment.\nTable 1. Precision specifications of the above IMUs utilized in the experi",
+    "char_length": 3405
+  },
+  {
+    "quote_id": "qb_d5bc3d89fb",
+    "span_index": 8,
+    "text": "Sensors2023,23,2652 9of17\nIntheexperiment,areferencestationwassetupnearbyinanopenenvironment,and\n−\na smooth solution of the tightly coupled multi GNSS RTK/INS conducted by the com‑\nmercialsoftwareInertialExplorer(IE)8.9wasutilizedforreference. Thetimealignment\nof integration navigation was maintained with GPST, and the offset between the GNSS\nantennaandtheIMUcenterwasmeasuredearlytoimplementthespatialalignment. The\nprocessingstrategiesareshowninTable2.\nTable2.ProcessingstrategyofPPP−B2b/INS.\nParameter ProcessingStrategy\nSatellitesystems BDS−3;GPS\nFrequency BDS−3(C):B1I+B3I;GPS(G):L1+L2\nSamplin",
+    "char_length": 2575
+  },
+  {
+    "quote_id": "qb_3ae92adc05",
+    "span_index": 9,
+    "text": "Sensors 2023, 22, x FOR PEER REVIEW 10 of 17\nSatellite and receiver antenna phase center offset igs14.atx\nWeight for observations Elevation−dependent weight [36]\nInter−system bias Modeled as a random walk process\nBiases of accelerometer and gyro Modeled as a random walk process\nQuality control strategy Detection, identification, and adaptation (DIA) [37]\n3.2. Performance of Tightly Integrated PPP−B2b/INS\nIn this section, the performance of the tightly integrated BDS−3 PPP−B2b/INS in the\nurban environment is investigated using the tactical IMU. To analyze the accuracy of the\npositioning, veloci",
+    "char_length": 5698
+  },
+  {
+    "quote_id": "qb_185c168c68",
+    "span_index": 10,
+    "text": "Sensors2023,23,2652 11of17\nTable4.RMSstatisticsofpositioningerrorforthethreepreciseproductsusingtacticalIMU(unit:m).\nScheme E N U H 3D\nB2b 0.292 0.115 0.155 0.314 0.350\nGFZ−SSR 0.183 0.098 0.122 0.208 0.241\nGBM 0.115 0.055 0.056 0.127 0.139\nRegarding velocimetry, the velocity error using different products is shown in\nFigure8. It can be seen from Figure 8 that the accuracy of the velocimetry is very sta‑\nble, and there is no significant difference in the velocimetry error using different precise\nproducts. Table 5 depicts the RMS statistics in the E, N, and U components using differ‑\nent produc",
+    "char_length": 3644
+  },
+  {
+    "quote_id": "qb_f1dd455e93",
+    "span_index": 11,
+    "text": "Sensors2023,23,2652 12of17\nSensors 2023, 22, x FOR PEER REVIEW 13 of 17\n−\nandPPP B2b/INScanalsoobtainanequallyaccuratevelocityandattitudeasthescheme\n−\nusingpost preciseproducts.\nFFiigguurree 99.. AAttttiittuuddee eerrrroorr ooff tthhee tthhrreeee pprreecciissee pprroodduuccttss uussiinngg ttaaccttiiccaall IIMMUU..\nTable6.RMSstatisticsofattitudeerrorforthethreepreciseproductsusingtacticalIMU(unit:deg).\n3.3. Tightly Integrated PPP−B2b/INS with Low−Cost MEMS IMU\nTheS ccahpemabeilities of the BDS−P3it cPhPP−B2b/INS with aR toalcltical IMU were evaYluawated in the\nprevious section. To perform a fur",
+    "char_length": 3169
+  },
+  {
+    "quote_id": "qb_c498780403",
+    "span_index": 12,
+    "text": "Sensors 2023, 22, x FOR PEER REVIEW 13 of 17\nFigure 9. Attitude error of the three precise products using tactical IMU.\n3.3. Tightly Integrated PPP−B2b/INS with Low−Cost MEMS IMU\nThe capabilities of the BDS−3 PPP−B2b/INS with a tactical IMU were evaluated in the\nprevious section. To perform a further analysis of the MEMS IMU for wide applications,\nthis section compared the performance of the tactical IMU and the MEMS IMU using the\nBDS−3 PPP−B2b service and GFZ post products.\nFirst, Figure 10 shows the positioning error of different IMUs using the PPP−B2b RT\ncorrections and GFZ post−precise pro",
+    "char_length": 4063
+  },
+  {
+    "quote_id": "qb_3901204182",
+    "span_index": 13,
+    "text": "Sensors 2023, 22, x FOR PEER REVIEW 14 of 17\nFigure 10. PPP/INS tight integration positioning error of tactical IMU and MEMS IMU: (a) BDS−3\nPPP−B2b RT corrections; (b) GFZ post−precise products.\nThen, regarding the velocimetry, Figure 11 shows the velocity error of the two precise\nproducts using different IMUs. Compared with the MEMS IMU, the velocimetry accuracy\nof the tactical IMU was significantly improved. The velocimetry accuracy of the MEMS\nIMU is better than 1 cm/s in all the E, N, and U components.\n(a) (b)\nFigure 11. PPP/INS tight integration velocimetry error of tactical IMU and MEMS ",
+    "char_length": 6063
+  },
+  {
+    "quote_id": "qb_75419077be",
+    "span_index": 14,
+    "text": "Sensors2023,23,2652 15of17\n−\n0.115, and 0.155 m, respectively. Hence, PPP B2b/INS tight integration can achieve a\n−\ndecimeter levelpositioningaccuracyintheurbanenvironmentandmeetthepositioning\nrequirementsofcertainscenarios. ComparedwiththeperformanceusingGFZRTprod‑\n−\nucts, the 3D positioning accuracy of the PPP B2b/INS still has a gap of about 1 dm and\n−\n2dmcomparedtowhenGFZpost preciseproductsareutilized. Additionally,theaccu‑\nracyofthevelocimetryandattitudedeterminationmainlydependsontheprecisionofthe\nIMUinthePPP/INStightintegration,sincenosignificantdifferenceisfoundbetweenRT\nandpostproduc",
+    "char_length": 3621
+  },
+  {
+    "quote_id": "qb_63e9a01e76",
+    "span_index": 15,
+    "text": "Sensors2023,23,2652 16of17\n8. Leandro, R.; Landau, H.; Nitschke, M.; Glocker, M.; Seeger, S.; Chen, X.M.; Deking, A.; BenTahar, M.; Zhang, F.P.; Fergu‑\nson,K.;etal. RTXPositioning: TheNextGenerationofcm−accurateReal−TimeGNSSPositioning. InProceedingsofthe24th\nInternationalTechnicalMeetingoftheSatelliteDivisionoftheInstituteofNavigation,Nashville,TN,USA,19–23September\n2010;pp.1460–1475.\n9. Booth, J.S.; Snow, R.N. An evaluation of OmniStar XP and PPP as a replacement for DGPS in airborne applications. In Pro‑\nceedingsofthe22ndInternationalTechnicalMeetingoftheSatelliteDivisionoftheInstituteofNav",
+    "char_length": 4858
+  },
+  {
+    "quote_id": "qb_2bb81a6780",
+    "span_index": 16,
+    "text": "Sensors2023,23,2652 17of17\n35. Saastamoinen, J. Atmospheric correction for the troposphere and stratosphere in radio ranging satellites. J. Geophys. Res.\nAt−Mosph.1972,15,247–251.\n36. Ge,M.;Gendt,G.;Rothacher,M.;Shi,C.;Liu,J.ResolutionofGPScarrier−phaseambiguitiesinprecisepointpositioning(PPP)\nwithdailyobservations.J.Geod.2008,82,389–399.[CrossRef]\n37. Teunissen,P.J.G.Qualitycontrolinnavigationsystems.IEEEAero.Elect.Syst.Magaz.1990,5,35–41.[CrossRef]\n38. Hong,S.;Lee,M.H.;Chun,H.‑H.;Kwon,S.‑H.;Speyer,J.L.ObservabilityoferrorstatesinGPS/INSintegration.IEEETrans.Veh.\nTechnol.2005,54,731–743.[Cros",
+    "char_length": 928
+  }
+]

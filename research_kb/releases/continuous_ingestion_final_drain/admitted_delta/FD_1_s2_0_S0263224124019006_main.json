@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S0263224124019006_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Enhancing BDS-3 PPP-B2b real-time positioning performance by tightly integrating MEMS IMU and LiDAR in GNSS-Degraded environment"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement 242 (2025) 116015 ContentslistsavailableatScienceDirect Measurement journalhomepage:www.elsevier.com/locate/measurement Enhancing BDS-3 PPP-B2b real-time positioning performance by tightly integrating MEMS IMU and LiDAR in GNSS-Degraded environment Wenzhuo Guoa,b, Linyang Lia,c,d,*, Dongqing Zhaoa, Fengbo Zhua, Luguang Laia aInstituteofSurveyingandMapping,InformationE",
+      "However, in a complex Global Navigation Satellite System (GNSS)-degraded environment, the BDS-3 MEMSIMUandLiDARtightintegration PPP-B2b positioning performance is severely influenced."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 2
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 11,
+    "b2b": 50,
+    "has": 0,
+    "dcb": 2,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

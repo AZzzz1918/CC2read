@@ -1,0 +1,74 @@
+[
+  {
+    "quote_id": "qb_01f10bc2f0",
+    "span_index": 0,
+    "text": "Available online at www.sciencedirect.com\nScienceDirect\nAdvances in Space Research 75(2025)4490–4501\nwww.elsevier.com/locate/asr\nReal-time BDS-3 satellite clock estimation and precise point\npositioning using broadcast orbits\nXin Xiea , Zhiyi Zhanga,b , Tao Genga,⇑ , Jun Taoa , Lingyue Chengb, Qile Zhaoa\na GNSS Research Center, Wuhan University, 129 Luoyu Road, Wuhan 430079, China\nb School of Geodesy and Geomatics, Wuhan University, Wuhan 430079, China\nReceived 1 August 2024; received in revised form 18 December2024;accepted20December2024\nAvailable online 26 December 2024\nAbstract\nReal-time pre",
+    "char_length": 3785
+  },
+  {
+    "quote_id": "qb_c23b55eea8",
+    "span_index": 1,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nand officially initiated Real-time Service (RTS) in 2013, et al. (2022) validated the effects of the further integration\nproviding access to state space representation (SSR) prod- of BDS-3 into GPS/Galileo PPP with broadcast ephemer-\nucts of real-time precise corrections through the Internet ides. However, BDS-3 contributed to a very limited\n(Elsobeiey and Al-Harbi, 2016). The GPS products pro- improvement in the 3D positioning accuracy than the Gali-\nvided by IGS RTS exhibit the best performance among leo/GPS and achieved only decimeter-leve",
+    "char_length": 6189
+  },
+  {
+    "quote_id": "qb_fc53d23e0e",
+    "span_index": 2,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nFig. 1. Distribution of stations selected for real-time satellite clock estimation and positioning validation. Stations marked in red circles are used for the\nclock estimation. 14 stations markedinyellowareusedforpositioningtests,amongwhich5stations(PTGG,JFNG,LHA1,SHA1,andMIZU)are\nperformedadditionalPPPwithBDS-3PPP-B2bproducts.\nerrors such as the phase wind-up errors, relativistic delays, 3. Assessment of BDS-3 satellite clock offsets and SISREs\ndry tropospheric delay, earth tides, and ocean tide loading\nwere corrected based on the existing m",
+    "char_length": 4150
+  },
+  {
+    "quote_id": "qb_33896ffc3e",
+    "span_index": 3,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nTable 1\nStrategy for BDS-3 satellite clock estimationbasedonbroadcastorbits.\nItems Strategies\nObservations Undifferenced phase and code ionosphere-free combination\nobservation sofBDS-3:B1IandB3I\nPosition modes Static and kinematic modes\nIonospheric delay Eliminated with the first order byionosphere-freecombination\nTropospheric delay GPT2w model (Boehm et al.,2015) for meteorological parameters, Saastamoine n\nmodel(Saastamoinen, 1972) for a priori delays with theGlobalMappingFunction\n(Boehm et al.,2006); residual tropospheric wet delay estimat",
+    "char_length": 2089
+  },
+  {
+    "quote_id": "qb_1d3a2d3494",
+    "span_index": 4,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nFig. 3. RMS and STD errors for BDS-3 broadcast clock,estimatedclock,CNESclock,andPPP-B2bclockoffsets.\nFig. 4. SISRE time series for BDS-3 broadcast ephemerides (BRE, top) andimprovedbroadcastephemerides(IBRE,bottom)onDOY285in2023.\nworse precision than CNES and PPP-B2b clock offsets, mance of satellite orbit and clock errors. We computed\nwith the average STD values of 0.31 ns and 0.23 ns, 31 days of SISREs from DOY 274 to 304, 2023 for BDS-\nrespectively. 3 broadcast ephemerides (BRE) and improved broadcast\nephemerides (broadcast orbit a nd est",
+    "char_length": 985
+  },
+  {
+    "quote_id": "qb_ffe7761ba2",
+    "span_index": 5,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nFig. 5. RMS and STD values of SISREs for BDS-3 satellites for BRE,IBRE,CNES,andPPP-B2breal-timeorbitandclockproducts.\nclock products during the same period are also shown.\nTable 2\nFor the RMS values of SISREs, the BRE generally reaches\nRMS and STD statistics of BDS-3 SISREs for BRE,IBRE,PPP-B2b,and\nCNESreal-timeproducts(unit:cm). up to 0.6 m which is comparable to IBRE. The RMS values\nof CNES products are smallest mostly below 0.3 m. The\nSystem BRE IBRE CNES PPP-B2b\nPPP-B2b products exhibit the largest RMSs, which i s con-\nBDS-3 RMS 49.0 44.2",
+    "char_length": 1638
+  },
+  {
+    "quote_id": "qb_2d3ef02427",
+    "span_index": 6,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nthe IBRE yields comparable SISRE STDs to the PPP-B2b\nandCNESpreciseproducts(Laurichesse and Privat,2015),\nwhile the results for the BRE are significantly worse. The\nSISRE RMS and STD values of all BDS-3 satellites for\nBRE, IBRE, PPP-B2b, and CNES real-time products are\naveraged, as presented in Table 2. Thanks to the substan-\ntial improvement of clock offsets, the SISRE STD precision\nfor the IBRE achieves 6.5 cm, with a 70 % improvement\nover that of the BRE. For PPP-B2b products, the STD\nvalue of SISREs is 6.3 cm and CNES shows the best per-\n",
+    "char_length": 2202
+  },
+  {
+    "quote_id": "qb_f9017d06d0",
+    "span_index": 7,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nBRE, IBRE, PPP-B2b, and CNES real-time orbit and is smaller than that of the IBRE (6.5 cm), the PPP with\nclock products in the static and kinematic modes, respec- PPP-B2b products show slightly worse accuracy than\ntively. The RMS values of position errors were calculated IBRE. This may be due to the relatively smaller number\nin east (E), north (N), and up (U) components to obtain of used satellites for PPP with PPP-B2b products. As\ndaily positioning accuracy. In order to completely exclude shown in Fig. 8, the average number of used BDS-3 sat",
+    "char_length": 2502
+  },
+  {
+    "quote_id": "qb_56573fd059",
+    "span_index": 8,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nFig. 10. Accuracy of E, N, and U components of kinematic BDS-3-only PPP using three typesoforbitandclockoffsetproductsinkinematicmodefor14\nselectedstations.\nThe RMS positioning errors in E/N/U components are static and kinematic PPP solutions across three different\ncalculated for the BDS-3-only PPP solutions provided by products. In the case of static PPP, the interquartile ranges\nIBRE, CNES, and PPP-B2b real-time products across 14 (IQR) for solutions using BDS-3 IBRE, CNES, and PPP-\nstations in 14 days from DOY 274 to 287, 2023. The PPP B2b",
+    "char_length": 2458
+  },
+  {
+    "quote_id": "qb_ff2defb184",
+    "span_index": 9,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\n6.3/4.3/10.4 cm in E/N/U components. It is noteworthy\nthat the BDS-3 PPP performance with PPP-B2b and CNES\nproducts showed good consistency with the other studies\n(Xu et al. 2021; Li et al., 2022; Yang et al., 2024).\n4.2. Convergence analysis\nThe convergence characteristics are analyzed using posi-\ntioning circular error probable (CEPs) (van Bree and\nTiberius, 2012). Daily observations of 14 stations from\nDOY 274 to 287 in 2023 were divided into 43 groups of\n3-hour subsets sliding forward in steps of 30 min from\n00:00:00 to 21:00:00. Then, CE",
+    "char_length": 3566
+  },
+  {
+    "quote_id": "qb_08cfbac34f",
+    "span_index": 10,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nTable 4\nStatistics of BDS-3-only PPP CEPs at different time nodes inhorizontal(H)andvertical(V)components(unit:cm).\nConvergence Static Kinematic\ntime (minutes)\nIBRE CNES PPP-B2b IBRE CNES PPP-B2b\nH/V H/V H/V H/V H/V H/V\n10 25.5/20.1 32.4/22.0 33.6/28.6 37.8/32.0 50.6/39.2 57.4/48.4\n20 14.4/13.9 15.3/12.8 18.0/20.7 25.8/22.9 33.5/26.1 49.3/39.3\n30 11.5/12.0 10.5/9.7 13.5/16.4 21.4/20.0 25.4/20.4 41.6/33.7\n40 10.6/11.5 8.4/8.3 11.1/14.3 19.0/18.8 20.2/16.8 33.6/28.3\n50 10.3/11.1 7.4/7.4 10.3/13.2 17.6/17.4 14.5/17.1 27.1/24.8\n60 9.5/10.2 6.8/6.",
+    "char_length": 5555
+  },
+  {
+    "quote_id": "qb_5149720619",
+    "span_index": 11,
+    "text": "X.Xieetal. AdvancesinSpaceResearch75(2025)4490–4501\nEuropean Commission, 2018. Commission Implementing Decision (EU) Saastamoinen, J., 1972. Atmospheric correction for the troposphere and\n2018/321 of 2 March 2018 (amending Implementing Decision (EU) stratosphere in radio ranging satellites. In: Henriksen, S.W., Mancini,\n2017/224). https://eur-lex.europa.eu/legal-content/EN/TXT/?uri= A., Chovitz, B.H. (Eds.) The use of artificial satellites for Geodesy,\nCELEX%3A32018D0321. Geophys.Monogr.Ser.,vol.15.AGU,Washington,DC,pp.247–251.\nGeng, T., Li, Z., Xie, X., Liu, W., Li, Y., Zhao, Q., 2022. Real-t",
+    "char_length": 7485
+  }
+]

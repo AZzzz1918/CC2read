@@ -1,0 +1,9 @@
+{
+  "paper_id": "Wei_Haopeng_2024_combining_has_ppp_b2b_helmert",
+  "expected_product_source": "MIXED_PRODUCTS",
+  "expected_epoch_status": "NOT_MENTIONED",
+  "expected_dcb_status": "NOT_MENTIONED",
+  "expected_gate_status": "PASS",
+  "must_not_have_wrong_support": true,
+  "must_have_reproduction_blockers": true
+}

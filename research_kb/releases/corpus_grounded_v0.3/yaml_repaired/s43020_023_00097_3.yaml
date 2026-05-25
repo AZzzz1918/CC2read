@@ -1,0 +1,93 @@
+paper_id: s43020_023_00097_3
+extraction_mode: full_strict_quotes
+batch: Batch 3 Phase A
+selection_role: core_ppp_b2b
+bibliographic_info:
+  title: BDS-3 PPP-B2b related (s43020-023-00097-3)
+  authors: NOT_MENTIONED
+  year: 2023
+  journal_or_venue: NOT_MENTIONED
+product_source:
+  claimed: NOT_MENTIONED
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes:
+  - Satellite Navigation (2023) 4:8 Satellite Navigation https://doi.org/10.1186/s43020-023-00097-3
+    https://satellite-navigation.springeropen.com/ ORIGINAL ARTICLE Open Access A
+    new receiver clock model to enhance BDS-3 real-time PPP time transfer with the
+    PPP-B2b service Yulong Ge1,7, Qing Wang2*, Yong Wang3,8, Daqian Lyu4, Xinyun Cao5,
+    Fei Shen5 and Xiaolin Meng6 Abstract A new Precise Point Positio
+  - However, the solution using the traditional PPP method with the PPP-B2b correction
+    still absorbs some unknown errors and needs reconverging when there exist abnormal
+    data.
+  - We developed a new receiver clock model to improve PPP time transfer using the
+    PPP-B2b correction.
+experiment_epoch:
+  start_date: 2022-3-6
+  end_date: 2022-3-6
+  dates_found:
+  - 2022-3-6
+  months_found:
+  - July 2020
+  - February 2023
+  - October 2022
+  doys_found:
+  - DOY 72
+  - DOY 68
+  grounding_quotes:
+  - Third, To quantify our previous conclusion and verify the per- the results of
+    GPS PPP have an obvious interruption formance of time transfer with the PPP-B2b
+    correction, 45 105 105 BDS-3/GPS results 30 CUSV 90 90 15 75 75 0 60 60 -15 45
+    45 -30 30 30 -45 15 15 109.0 TLM2 109.0 112 108.5 108.5 110 108.0 108.0 108 107.5
+    107.5 107.0 107.0 106 106.5 106.5 104 106.0 106.0 2765 2764 2762 2762 2760 2760
+    2
+  - Besides, the long-term frequency stability also shows a similar char- acteristic
+    with (8.53 10–13, 7.68 10–13, 7.61 10–13) × × × )sn( ecnereffid kcolC Results
+    of CUSV-USUD Results of TLM2-USUD Day of year 2022 Day of year 2022 Fig.
+correction_types:
+- type: orbit_correction
+- type: clock_correction
+dcb_handling:
+  status: NOT_MENTIONED
+  dcb_mentions: 0
+  grounding_quotes: []
+ionospheric_handling:
+  status: MENTIONED
+  iono_mentions: 1
+  grounding_quotes:
+  - A receiver clock model A dual-frequency Ionosphere-Free (IF) PPP is used for was
+    applied to PPP time transfer with International GNSS time transfer (Petit and
+    Jiang 2008b).
+mathematical_model:
+  processing_mode: NOT_MENTIONED
+  grounding_quotes: []
+datasets:
+  grounding_quotes: []
+metrics:
+  grounding_quotes: []
+main_results:
+  grounding_quotes: []
+novelty_audit:
+  audit_grade: NOT_AUDITED
+  grounding_quotes: []
+reproducibility_audit:
+  reproducibility_score: 1
+  reproduction_blockers:
+  - No source code or software release
+  - Raw GNSS observation data not publicly provided
+  - PPP-B2b correction archive not distributed
+  - Specific processing parameters not fully detailed
+pdf_metadata:
+  pages: 12
+  b2b_mentions: 70
+  has_mentions: 0
+  clas_mentions: 0
+  dcb_mentions: 0
+  iono_mentions: 1
+gate_status:
+  product_source_correct: true
+  expected_product_source: BDS3_PPP_B2B_BROADCAST
+  wrong_support: false
+  epoch_valid: true
+  dcb_valid: true
+  blockers_non_empty: true

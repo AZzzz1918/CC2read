@@ -1,0 +1,140 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nA Comparative Study of Factor Graph Optimization-Based and\nExtended Kalman Filter-Based PPP-B2b/INS Integrated Navigation\nShijiXin1,2,XiaomingWang1,3,* ,JingleiZhang1,KaiZhou1andYufeiChen1\n1 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China;\nxinshiji21@mails.ucas.ac.cn(S.X.);zhangjinglei@aircas.ac.cn(J.Z.);zhoukai@aircas.ac.cn(K.Z.);\nchenyufei20@mails.ucas.ac.cn(Y.C.)\n2 SchoolofElectronic,ElectricalandCommunicatingEngineering,UniversityofChineseAcademyofSciences,\nBeijing100049,China\n3 CollegeofResourcesandEnvironment,UniversityofChineseAc",
+    "char_length": 4028
+  },
+  {
+    "quote_id": "qb_1cc8d0b114",
+    "span_index": 1,
+    "text": "RemoteSens.2023,15,5144 2of23\npositioningresultstousers[5–7]. Comparedwiththereal−timeservice(RTS)provided\nviatheinternet,thePPP-B2bservicebroadcastscorrectioninformationthroughBDSGEO\nsatellites,whichallowstheuserstoperformthePPPwithoutanyinternetcommunication\nandgreatlyexpandstheapplicationscenariosofPPP.\nHowever,GNSSpositioningperformancecandegradeincomplicatedurbanenviron-\nmentsduetofactorssuchassignalblockageandmultipathinterference. Tomitigatethese\nproblemsandimprovepositioningperformanceinurbanenvironments,onesolutionisto\nintegrateGNSSwithothersensors,suchasinertialnavigationsystem(INS),",
+    "char_length": 4184
+  },
+  {
+    "quote_id": "qb_6e7e427289",
+    "span_index": 2,
+    "text": "RemoteSens.2023,15,5144 3of23\nhaveproposedafactorgraphoptimization-basedmulti-GNSSreal-timekinematicframe-\nwork,inwhichcontinuouslytrackeddoubledifferenceambiguitiesareutilizedtoestablish\nambiguityconstraintsforpositionstatesthatsharecommon-viewsatelliteswithinthewin-\ndow. Additionally,amarginalization-basedcarrierphaseambiguitypropagationmethod\nisintroducedtoachievemorereliableandcontinuousambiguityresolution. Theresults\ndemonstratethat,inopenurbanenvironments,thismethodperformscomparablytothe\ntraditionalEKF-basedRTK,achievingcentimeter-levelpositioningaccuracy. However,in\ncomplexurbanenviron",
+    "char_length": 3175
+  },
+  {
+    "quote_id": "qb_3a97a02afe",
+    "span_index": 3,
+    "text": "RemoteSens.2023,15,5144 4of23\nThecorrectionofsatelliteclockoffsetisalsoprovidedbythePPP-B2bservice. The\npreciseclockoffsetcanbecalculatedusingthePPP-B2bclockcorrectionparameterC by\n0\napplyingEquation(3).\ndt s = dts − C 0 (3)\nB2b brd C\ns s\nwheredt representsthesatelliteclockoffsetderivedfromthebroadcastephemeris,dt\nB2b B2b\nisthepreciseorbitclockoffset,andCdenotesthespeedoflight.\nItshouldbenotedthattheclockoffsetsofBDS-3providedbyPPP-B2bproductsare\nbasedontheB3Isignal,whichdifferfromtheRTSclockcorrections,andallarebasedonthe\nionosphere-freelinearcombination(IFLC).Therefore,theclockestimationsofG",
+    "char_length": 3209
+  },
+  {
+    "quote_id": "qb_07fa2d06c1",
+    "span_index": 4,
+    "text": "RemoteSens.2023,15,5144 5of23\nwhereδrn = [δr δr δr ]andδvn = [δv δv δv ]denotethepositionerror\nIMU N U D IMU N U D\nvectorandvelocityerrorvectorinthen-frame,respectively,andφ = [φ φ φ ]isthe\nN E D\nthree-dimensionalattitudeerrorvector; b ,b representtheerrorsofthegyroscopeand\ng a\naccelerometerbiases,respectively. Aftertheerrordisturbanceanalysis,theerrordifferential\nofattitude,velocityandpositioncanbededucedandcanbewrittenasfollows:\n.\nφ = −ωn ×φ+δωn −Cnδωb (7)\nin in b ib\nδv .n =Cnδfb+Cnfb×φ−(2ωn +ωn )×δvn+vn×(2δωn +δωn )+δgn (8)\nb b ie en ie en l\nδr .n = −ωn ×δrn+δθ×vn+δvn (9)\nen\nwhereωn denotes",
+    "char_length": 3035
+  },
+  {
+    "quote_id": "qb_9971d4c148",
+    "span_index": 5,
+    "text": "RemoteSens.2023,15,5144 6of23\nHowever,PPP-B2bpositioningsolutionisreferredtoaGNSSantennaphasecenter,\nwhilethepositioningsolutionpredictedwithINSmechanizationisbasedonthecenter\nofIMU,whichisnotgeometricallyaligned. Therefore,itisnecessarytocorrectthecorre-\nspondingleverarmoffsetsduringthedatafusion. Thedesignmatrix H thatconsiders\nLCI,k\ntheleverarmoffsetcanbeexpressedasfollows:\n (cid:16) (cid:17) \nR emote Sens. 2023, 15, x FOR PEER REVIEW H LCI,k =  I 3×3 0 3×3 C b nlb× 0 3×3 0 3 (cid:16) ×3 (cid:17) 7 ( o 1 f 4 2 ) 5\n0 3×3 I 3×3 H φ 0 3×3 −C b n lb×\n( ) ( ) ( )\nw w h h e e re re H φ H =φ =",
+    "char_length": 4706
+  },
+  {
+    "quote_id": "qb_c02907cfdd",
+    "span_index": 6,
+    "text": "RemoteSens.2023,15,5144 7of23\nwhere x includestheposition,velocity,andattitudeoftheworldcoordinatesystemat\nk\ntimek,aswellasthebiasesofthegyroscopeandtheaccelerometer. nrepresentsthesizeof\ntheslidingwindow. WithineachGNSSsecond,weintroduceanIMUpreintegrationfactor\nintotheslidingwindow,regardlessofthepotentialabsenceofGNSSpositioningfactors\nduetointerruptions. Putdifferently,thepreintegrationfactorsarespacedat1sintervals.\nAdditionally, the IMU preintegration factors are consecutive, indicating their temporal\ncontinuity. ThisaidsintheestimationofIMUbiases,asthebiasesarealsoincludedinthe\nIMUpreint",
+    "char_length": 3347
+  },
+  {
+    "quote_id": "qb_4c281f21d3",
+    "span_index": 7,
+    "text": "RemoteSens.2023,15,5144 8of23\n(cid:16) (cid:17)\nr zˆPre ,X\nPre k−1,k\n(cid:16) Rw (cid:17)T(cid:16) pw −pw −vw ∆t − 1gw∆t2 +∆pw (cid:17) −∆pˆ btk \n   bk (cid:16) Rw w (cid:17) b T k+ (cid:18) 1 vw wbk −v w w bk − k, g k+ w 1 ∆t 2 (cid:19) + k,k ∆ + v 1 w g/co (cid:21) r,k − ,k+ ∆ 1 vˆ btk btk+1  \n=       bk 2 w (cid:20) b (cid:16) tk q + w b 1 tk (cid:17)− w 1 b ⊗ tk qw w i(k) (t k+ k, 1 k+ ) 1 ⊗qw btk ⊗ g qˆ / b b c t t o k k + r, 1 k, (cid:21) k+ xy 1 z btk+1       (19)\n b −b \n gtk+1 gtk \nb −b\natk+1 atk\nwhereRw representsthetransformationfromtheworldcoordinatesystemtot",
+    "char_length": 3309
+  },
+  {
+    "quote_id": "qb_c0b6873311",
+    "span_index": 8,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 10 of 25\nRemote Sens. 2023, 15, x FOR PEER REVIEW 10 of 25\nto calculate the time delay of the pre-processed GNSS observations. The PPP-B2b correc-\ntion data needteod c afolcru GlaNte StSh ep triem-pe rdoecleasys oinf gth ies prerec-epivroecde sasnedd GpNroScSe sosbesde rbvya ttiohnes r. eTcheeiv PePr Pi-nB 2b correc-\nreal-time to getnioerna tdea ptar enceiesde eedp hfoerm GeNrisS.S F porlelo-pwrioncges esaincgh iosp rteimceiizvaetdi oann,d t hper oecsetismseadt ebdy ItMheU r eceiver in\nbiases and re-craelaibl-rtiamteed t og rgaevnietyra itne fporremcias",
+    "char_length": 4530
+  },
+  {
+    "quote_id": "qb_95a3be02b0",
+    "span_index": 9,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 11 of 25\nFigure 3. Trajectories of two vehicle experiments. (A,B) Experiment A conduct from 371514 to\n374911 s of 2269 week in GPS time; Experiment B conduct from 375476 to 377401 s of 2269 week in\nGPS time.\nAs shown in Figure 4, the road vehicles were equipped with two types of receivers,\nthe NovAtel PwrPak7 GNSS receiver and a receiver equipped with the ComNav W803\nboard, capable of real-time receiving and processing of PPP-B2b information. The raw\nobservations of the GNSS were collected at a frequency of 1 Hz. At the same time, the road\nvehicles were",
+    "char_length": 2574
+  },
+  {
+    "quote_id": "qb_d4274f6bee",
+    "span_index": 10,
+    "text": "RemoteSens.2023,15,5144 11of23\nencetrajectoryfortheexperiments. Thiscomputationwasperformedusingthecommercial\nsoftwarepackageIE8.9.\nInPPP-B2bpositioning,thisexperimentusedtheB1CandB2afrequencybandsofthe\nBeiDousystem,aswellastheL1andL2signalsfromGPSsatellites,forionosphere-free(IF)\ncombination. ThePPP-B2bpositioningresultswereobtainedbyprocessingthereal-time\nreceived PPP-B2b signals. In the event of a PPP-B2b signal interruption, the orbit and\nclockcorrectionswereperformedbyextendingthePPP-B2bcorrectionvalues[24]. Ifthe\ninterruptionlastedformorethan10min,thePPP-B2bcorrectionvalueswerediscontinu",
+    "char_length": 2984
+  },
+  {
+    "quote_id": "qb_6d5055f996",
+    "span_index": 11,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 13 of 25\nurban operating environment with trees, high-rise buildings, and overpasses, signal track-\ning became intermittent, and NSAT frequently decreased. Due to frequent signal inter-\nruptions, the PPP float ambiguities converged multiple times, typically taking about\ntwenty minutes to converge to a 4 decimeter-level accuracy. However, some outliers ap-\npeared in the PPP-B2b positioning sequence, attributed to ambiguity resolution failures.\nFrom Figure 5, it can be observed that the occurrence of outliers was accompanied by a\nRemoteSens.2023,15,5144 1",
+    "char_length": 4006
+  },
+  {
+    "quote_id": "qb_49356d9a78",
+    "span_index": 12,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 14 of 25\ndata gap in GNSS, the EKF-based PPP-B2b/INS integration can provide continuous posi-\ntion estimates. However, the performance of the filter-based approach is closely related to\nthe quality of the GNSS positioning results at the current epoch. Therefore, when the qual-\nity of PPP-B2b positioning is degraded, the system’s performance will be significantly af-\nfected. In contrast, the FGO-based PPP-B2b/INS integration utilizes both the PPP-B2b po-\nsitioning results at current and past epochs as well as the pre-integration information from\nIMU to o",
+    "char_length": 3558
+  },
+  {
+    "quote_id": "qb_84d72fd34c",
+    "span_index": 13,
+    "text": "RemoteSens.2023,15,5144 14of23\n3. InthescenarioIIIwithlongersignalinterruptionsunderthepedestrianbridge,the\naccuracy of positioning results with these two methods shows a similar variation.\nRemote Sens. 2023, 15, x FOR PEER REVIEW 15 of 25\nHowever,theFGOalgorithmconsistentlyoutperformstheEKFmethod,especiallyin\ntheverticaldirection.\nOverall,theeFrGroOr aolfg tohrei thEmKFd aelmgoornitshtrma,t ewshsuilpe etrhieo rgpreoesnit iloinnein rgeppreersfeonrmts atnhece pcoosmitipoanriendg error of the\ntotheEKFalgoritFhGmOi naltghoeristehlmec.t Ferdoumr bthane gernavpihro, nwme ecnatns ,oebsspeervciea tll",
+    "char_length": 3027
+  },
+  {
+    "quote_id": "qb_cfa4332ab5",
+    "span_index": 14,
+    "text": "RemoteSens.2023,15,5144 15of23\ntheFGOalgorithmoutperformstheEKF-basedapproach,particularlyinscenarioswith\nfrequentsignalinterruptions,withamorepronouncedadvantageintheverticaldirection.\nTable3.PositionerrorsofPPP-B2b/INSofEKFandFGOandtheimprovementobservedinExperimentA.\nScene Direction EKF FGO Impro\nVert 0.317 0.206 34.98%\nScenarioI 2D 0.255 0.193 24.53%\n3D 0.423 0.3 29.01%\nVert 1.207 0.743 38.42%\nScenarioII 2D 0.951 0.727 23.54%\n3D 1.598 1.08 32.43%\nVert 0.988 0.594 39.84%\nScenarioIII 2D 1.314 0.932 29.064%\n3D 1.708 1.181 30.84%\nVert 0.732 0.586 19.92%\nTotal 2D 0.916 0.734 19.85%\n3D 1.253 0.9",
+    "char_length": 3319
+  },
+  {
+    "quote_id": "qb_c6bf7496c1",
+    "span_index": 15,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 17 of 25\nfor about 3 min. During this period, it can be seen that the position error of PPP-\nRemoteSens.2023,15,5144 B2b/MEMS increases at a faster rate than the position drift of PPP-B2b/INS. This is because1 6of23\nMEMS sensors typically exhibit a relatively poorer performance and stability compared\nto high-end inertial sensors due to their higher noise levels and significant bias instability.\nRemote Sens. 2023, 15, x FOR PEER REFViIgEuWre 8. Another two typical car driving scenarios of Experiment B (Number IV and V represen18ts of 25\nFigure8.Anothertw",
+    "char_length": 4071
+  },
+  {
+    "quote_id": "qb_1a01caa335",
+    "span_index": 16,
+    "text": "RemoteSens.2023,15,5144 17of23\n1. InScenarioIV,duetotheobstructioncausedbytrees,theperformanceofcombina-\ntionnavigationsignificantlydeteriorates. Theintegrationsystembecomeshighlyrelianton\nIMUpredictions,causingtheEKF-basedPPP-B2b/MEMStodegradeintoamereinertial\nnavigationsystemintheabsenceofsatelliteobservations. Becauseofthehighnoiselevel\nofMEMSIMU,theerrorsquicklydiverge. Incontrast,theFGOalgorithmcaneffectively\nsuppress error divergence in this scenario. The navigation system using tactical-grade\nIMUperformsbetterthanMEMSIMU,withaslowererrordivergence,andtheFGO-based\nintegrationnavigationre",
+    "char_length": 3229
+  },
+  {
+    "quote_id": "qb_574c021178",
+    "span_index": 17,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 20 of 25\nFGO algorithm achieved improvements of 19.084% and 20.079% in the vertical and hori-\nzontal directions, respectively. These findings also suggest that, in the FGO-based PPP-\nB2b/INS integration navigation, the IMU performance has a more pronounced impact on\nRemoteSens.2023,15,5144 the system’s horizontal performance in scenarios where there is a prolonged obstruc1t8ioofn2 3\ndue to trees.\nFiFgiugruer e111.1 P.oPsoistiiotinoinnign gererrorro sresreireise sofo PfPPPP-PB-B2b2/bT/-TIN-INS aSnadn dPPPPP-PB-2Bb2/bM/EMMESM iSn itnwtow toyptyicpailc asc",
+    "char_length": 3466
+  },
+  {
+    "quote_id": "qb_6a1dd8a9a8",
+    "span_index": 18,
+    "text": "RemoteSens.2023,15,5144 19of23\ncostof0.053sand0.031 s, respectively. Ontheotherhand, fortheFGOalgorithm, the\naveragecomputationtimeinExperimentAandExperimentBis0.098sand0.089s,witha\nmaximumcomputationalcostof0.522sand0.265s,respectively. Thecomputationalcostof\nFGOismorethanthreetimesthatofEKF,andatspecificmoments,FGO’scomputational\ncostexceedshalfasecond.\nTable4.PositionerrorsofPPP-B2b/T-INSEKFandFGOandtheimprovementinExperimentB.\nScene Direction EKF FGO Impro\nVert 1.707 1.003 41.264%\nScenarioIV 2D 1.626 0.88 45.917%\n3D 2.474 1.45 41.379%\nVert 0.514 0.295 42.725%\nScenarioV 2D 1.695 1.096 35.35",
+    "char_length": 2189
+  },
+  {
+    "quote_id": "qb_ed6c18f2ad",
+    "span_index": 19,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 21 of 25\n2D 1.141 0.912 20.079%\n3D 1.444 1.166 19.241%\nIn addition, we have conducted statistics on the computational time cost of solving a\nfloating-point PPP-B2b/INS solution for EKF and FGO in different experiments, as shown\nin Table 6. The average time required for the EKF algorithm to compute one epoch in\nExperiment A and Experiment B is 0.027 s and 0.029 s, with a maximum computational\ncost of 0.053 s and 0.031 s, respectively. On the other hand, for the FGO algorithm, the\naverage computation time in Experiment A and Experiment B is 0.098 s and 0.",
+    "char_length": 3703
+  },
+  {
+    "quote_id": "qb_1125440609",
+    "span_index": 20,
+    "text": "RemoteSens.2023,15,5144 21of23\naccuracyofFGOwithawindowsizeof10isbetterthanthatofFGOwithawindowsizeof\n1. Thisisbecausetheuseofaslidingwindowenablestheexplorationandutilizationof\nthetimecorrelationbetweenhistoricalepochs,effectivelyresistingoutliersandenhancing\nrobustnesstowardsoutliersinGNSSmeasurements.\nFor PPP-B2b/MEMS integrated navigation, the FGO algorithm similarly exhibits\nconsistentimprovementsinbothhorizontalandverticalaccuraciescomparedtotheEKFal-\ngorithm.AcomparisonrevealsthatFGOwithtactical-gradeIMUresultsinmoresignificant\nimprovementsinhorizontalpositioningperformancecomparedtowit",
+    "char_length": 3989
+  },
+  {
+    "quote_id": "qb_107d85ae7a",
+    "span_index": 21,
+    "text": "RemoteSens.2023,15,5144 22of23\nutilizestherawGNSSobservations, allowingforthedetectionandrejectionofoutliers\nattherawmeasurementlevel[19,28]. Therefore,futureresearchwillfocusonstudying\nPPP-B2bincombinationwithIMUusingtightlycoupledmethodsbasedonboththeEKF\nandFGOalgorithms.\nAuthorContributions:Conceptualization,X.W.andS.X.;methodology,S.X.;software,S.X.,J.Z.and\nK.Z.;investigation,S.X.,J.Z.andY.C.;datacuration,S.X.andJ.Z.;writing—originaldraftpreparation,\nS.X.;writing—reviewandediting,S.X.andX.W.;supervision,X.W.Allauthorshavereadandagreed\ntothepublishedversionofthemanuscript.\nFunding: Thisrese",
+    "char_length": 4336
+  },
+  {
+    "quote_id": "qb_096442bbe1",
+    "span_index": 22,
+    "text": "RemoteSens.2023,15,5144 23of23\n19. Wen,W.;Pfeifer,T.;Bai,X.;Hsu,L.-T.FactorGraphOptimizationforGNSS/INSIntegration:AComparisonwiththeExtended\nKalmanFilter.Navigation2021,68,315–331.[CrossRef]\n20. Wen,W.;Hsu,L.-T.TowardsRobustGNSSPositioningandReal-TimeKinematicUsingFactorGraphOptimization.InProceedings\nofthe2021IEEEInternationalConferenceonRoboticsandAutomation(ICRA),Xi’an,China,30May–5June2021.[CrossRef]\n21. Zhang,H.;Xia,X.;Nitsch,M.;Abel,D.Continuous-TimeFactorGraphOptimizationforTrajectorySmoothnessofGNSS/INS\nNavigationinTemporarilyGNSS-DeniedEnvironments.IEEERobot.Autom.Lett.2022,7,9115–91",
+    "char_length": 1990
+  }
+]

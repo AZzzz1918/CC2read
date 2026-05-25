@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_1_s2_0_S0273117724012961_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Real-time BDS-3 satellite clock estimation and precise point positioning using broadcast orbits"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "The SISRE standard deviation (STD) accuracy computed from BDS-3broadcastorbitsandtheestimatedclockoffsetsis6.5cm,representinganabout70%improvementoverbroadcastephemerides and reaching a similar level to BDS-3 real-time precise orbits and clock offsetsfrom BDS-3PPP-B2b service and the Centre National d’EtudesSpatiales(CNES)analysiscenter.Weutilizedbroadcastorbitsandtheestimatedclockoffsetstoconduct",
+      "PPP tests with permanent reference High-Accuracy Services (HAS, European Commis sion, stationsarefinallyperformedbasedonthebroadcastorbits 2018), Centimeter-Level Augmentation Service (CLAS) andtheestimatedclockoffsetscomparedwiththatofPPP- providedbyQZSS(CAO, 2022), and PPP-B2b service pro- B2b (Yang et al., 2024) and CNES products (Kazmierski vided by BDS-3 GEO satellites (Tao et al., 2021)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 12,
+    "b2b": 62,
+    "has": 0,
+    "dcb": 4,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

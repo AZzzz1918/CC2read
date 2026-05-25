@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "downstream_b2b_application",
+  "classification_reason": "The paper focuses on integrating PPP-B2b corrections with INS for robust positioning, comparing FGO and EKF algorithms.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "remotesensing-15-05144.pdf",
+  "paper_id": "remotesensing-15-05144",
+  "extraction_mode": "batch_classify_1call"
+}

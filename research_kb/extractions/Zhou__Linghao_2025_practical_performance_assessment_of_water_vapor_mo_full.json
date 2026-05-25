@@ -1,0 +1,102 @@
+{
+  "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T17:00:00",
+  "product_source": {
+    "claimed": "BDS PPP-B2b",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "water vapor monitoring using the BDS PPP-B2b service",
+      "using ephemeris from the PPP-B2b service"
+    ]
+  },
+  "experiment_epoch": {
+    "duration_days": 25,
+    "year": 2025,
+    "location": "Wuhan, China",
+    "description": "25-day continuously operated water vapor monitoring experiment in 2025, Wuhan",
+    "grounding_quotes": [
+      "a 25-day experiment in 2025",
+      "a continuously operated water vapor monitoring system in Wuhan, China"
+    ]
+  },
+  "correction_types": [
+    {"type": "satellite_orbit_correction"},
+    {"type": "clock_correction"},
+    {"type": "code_bias_correction"}
+  ],
+  "dcb_handling": {
+    "status": "MENTIONED_AS_CODE_BIAS",
+    "description": "Code bias corrections from BDS PPP-B2b service are used in the processing. Referred to as 'code bias corrections' rather than DCB explicitly.",
+    "grounding_quotes": [
+      "satellite orbit, clock, and code bias corrections from the BDS PPP-B2b service"
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "Dual-frequency ionospheric-free PPP using code and phase observations from GPS and BDS",
+    "frequency_combinations": {
+      "gps": "L1/L2 ionosphere-free",
+      "bds": "B1I/B3I ionosphere-free"
+    },
+    "ztd_to_pwv": "Standard ZTD to PWV conversion using weighted mean temperature",
+    "grounding_quotes": [
+      "Dual-frequency ionospheric-free PPP using code and phase observations from GPS and BDS"
+    ]
+  },
+  "datasets": {
+    "observation_data": "GPS and BDS dual-frequency code and phase observations from Leica AR20 antenna and receiver",
+    "location": "Wuhan, China",
+    "correction_source": "BDS PPP-B2b real-time satellite orbit and clock corrections",
+    "reference_data": ["Radiosonde observations", "ERA5 reanalysis", "CAS real-time ephemeris"],
+    "grounding_quotes": [
+      "Original observations from the Global Positioning System (GPS) and BDS are collected",
+      "PWV monitored with B2b ephemeris are evaluated with radiosonde and ERA5 reanalysis"
+    ]
+  },
+  "metrics": {
+    "pwv_accuracy": {
+      "vs_radiosonde_rms_mm": "3.71-4.66",
+      "vs_era5_rms_mm": "3.95-4.55",
+      "reference_note": "Similar to CAS real-time ephemeris results"
+    }
+  },
+  "main_results": {
+    "summary": "BDS PPP-B2b service can support operational water vapor monitoring with PWV accuracy of 3.7-4.7mm RMS vs radiosonde. First demonstration that PPP-B2b-based water vapor monitoring meets operational meteorology requirements.",
+    "key_findings": [
+      "PWV RMS: 3.71-4.66mm vs radiosonde",
+      "PWV RMS: 3.95-4.55mm vs ERA5 reanalysis",
+      "Accuracy comparable to CAS real-time ephemeris results",
+      "PPP-B2b enables standalone water vapor monitoring in areas without internet",
+      "Meets basic demand for operational meteorology"
+    ],
+    "grounding_quotes": [
+      "RMS of PWV based on B2b ephemeris varies from 3.71 to 4.66 mm for different satellite combinations",
+      "this study demonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-B2b service can meet the basic demand for operational meteorology for the first time"
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "rationale": "First practical demonstration of BDS PPP-B2b for operational water vapor monitoring. Applies established PPP+PWV methodology to the new PPP-B2b correction source. Engineering transfer rather than algorithmic novelty.",
+    "grounding_quotes": [
+      "this study demonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-B2b service can meet the basic demand for operational meteorology for the first time"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 2,
+    "reproduction_blockers": [
+      "25-day GNSS observation dataset not publicly available",
+      "PPP-B2b correction stream for the experiment period not archived",
+      "PPP processing software configuration not disclosed in detail",
+      "Radiosonde data access not specified",
+      "No source code or processing workflow released"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "MENTIONED_AS_CODE_BIAS",
+    "reproduction_blockers_non_empty": true
+  }
+}

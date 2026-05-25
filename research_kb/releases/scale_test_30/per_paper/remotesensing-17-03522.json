@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper proposes regional atmospheric augmentation to enhance PPP-B2b convergence and accuracy, directly evaluating and improving the BDS3 PPP-B2b service performance.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "remotesensing-17-03522.pdf",
+  "paper_id": "remotesensing-17-03522",
+  "extraction_mode": "batch_classify_1call"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_c95d02e8c1",
+    "span_index": 0,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Earth, Planets and Space\nhttps://doi.org/10.1186/s40623-024-02031-6\nFULL PAPER Open Access\nDual-frequency to five-frequency real-time\nprecise point positioning using new BDS-3\nPPP-B2b service\nHaochen Yang1, Xiaodong Ren1,2* , Mingxiu Liu1 and Xiaohong Zhang1,2,3\nAbstract\nBeiDou global navigation satellite system (BDS-3), a developed GNSS by China, has the ability to support five different\nsignals, including B1I, B3I, B1C, B2a, and B2b. Meanwhile, BDS-3 has officially provided the satellite-based precise point\npositioning (PPP) service through t",
+    "char_length": 2765
+  },
+  {
+    "quote_id": "qb_40d801ada8",
+    "span_index": 1,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Page 2 of 15\nGraphical Abstract\nIntroduction 2021; Naciri et al. 2023). The HAS aims to achieve\nPrecise point positioning (PPP) technology is considered 20 cm in the horizontal direction, and 40 cm in the\nan important method to obtain centimeter-level posi- vertical direction within 300 s in the European region\ntioning accuracy using a single receiver in any location (Fernandez-Hernandez et al. 2022). The QZSS L6D\nworldwide (Zumberge et al. 1997, Kouba and Héroux signal provides Centimeter Level Augmentation Ser-\n2001). In order to meet the inc",
+    "char_length": 3412
+  },
+  {
+    "quote_id": "qb_6618be0dca",
+    "span_index": 2,
+    "text": "Y ang et al. Earth, Planets and Space (2024) 76:82 Page 3 of 15\nin clock offset causes much longer convergence time. GPS satellites in China and the surrounding area (Tao\nYang et al. (2022) sorted out the differences between et al. 2021). Issues of Data (IOD) are defined to iden-\nPPP-B2b and BDS satellite-based augmentation ser- tify the corrections. If the IOD of navigation (IODN) of\nvice. The research by Zhou et al. (2023) showed that by the orbit correction matches with the IOD of the clock\napplying the PPP-B2b corrections, the accuracy of the (IODC) from the broadcast ephemeris, the precis",
+    "char_length": 5344
+  },
+  {
+    "quote_id": "qb_7f67d1a979",
+    "span_index": 3,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Page 4 of 15\nTable 1 Types of DCB broadcasted by B2b signal windup (Wu et al. 1992), relativistic effect (Ashby 2003),\ntroposphere hydrostatic delay (Saastamoinen 1972) and\nSystem Number Type of DCB\nsolid earth tide (Petit and Luzum 2010) can be corrected\nBDS-3 7 B1I–B3I, B1C(D)–B3I, with the existing models, so they are not mentioned in\nB1C(P)–B3I, B2a(D)–B3I,\nEq. (5). It’s worth noting that the satellite and receiver\nB2a(P)–B3I, B2b(I)–B3I,\nB2b(Q)–B3I antenna phase center offsets (PCOs) are corrected by the\nIGS ANTEX file called igs20.atx (IG",
+    "char_length": 5037
+  },
+  {
+    "quote_id": "qb_795e0d89e4",
+    "span_index": 4,
+    "text": "Y ang et al. Earth, Planets and Space (2024) 76:82 Page 5 of 15\nsimplify the form of the parameters, we also use PPP-B2b\nDCB to correct the satellite pseudo-range hardware delay\nat all frequencies. The multi‐frequency observation equa-\ntion based on PPP-B2b corrections can be expressed as:\nP\nr\ns\n,k =\nρ\nr\ns\n+\nc\n·\ntˆr+ IFBk>2− c\n·\ntˆB s\n2b+\nms\nr,w\nZr,w\n+ γ kIˆr s ,1+ e r s ,k (cid:31) k ϕ r s ,k = ρ r s + c ( tˆr − tˆB s 2b ) (8)\n+\nms\nr,w\nZr,w− γ kIˆr s\n,1+\n(cid:31) kNˆr s\n,k +\nε\nr\ns\n,k\nwith\nβ12\nIFB k>2 = b r,k −b r,1 + β1k b r,1−b r,2 , (9)\n(cid:31) (cid:30) (cid:31) (cid:30)\nwhere IFB k>2 is t",
+    "char_length": 3799
+  },
+  {
+    "quote_id": "qb_ee59b6e5b7",
+    "span_index": 5,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Page 6 of 15\nTable 3 Data processing strategy\nItem Correction model or estimation strategy\nSatellite orbit CNAV1 broadcast ephemeris + PPP-B2b orbit corrections\nSatellite clock offset CNAV1 broadcast ephemeris + PPP-B2b clock offset corrections\nSatellite DCB PPP-B2b DCB corrections\nCutoff elevation 10°\nWeighing strategies Elevation-dependent weighing model; 3 mm and 0.3 m for raw phase and pseudo-range, respectively (Ge et al. 2008)\nIonosphere Estimated as random walk (9 m2/s)\nTroposphere Zenit dry delay is corrected by Saastamoinen model (Saas",
+    "char_length": 2559
+  },
+  {
+    "quote_id": "qb_215f0df6d1",
+    "span_index": 6,
+    "text": "Y ang et al. Earth, Planets and Space (2024) 76:82 Page 7 of 15\nFig. 3 RMS of BDS-3 satellites orbit generated from broadcast ephemeris, PPP-B2b corrections, and IGS real-time products\nTable 4 RMS of BDS-3 satellite orbit accuracy for different will cause systematical biases during evaluation (Mon-\nproducts (unit: cm) tenbruck et al. 2015). In order to eliminate these biases,\nProduct type Radial Along‐track Cross‐track 3D the same reference satellite is chosen to calculate the\nsingle-difference clock offsets for comparison (Yao et al.\nBroadcast 10.7 20.2 29.1 37.1\n2017). In multi-frequency pos",
+    "char_length": 2599
+  },
+  {
+    "quote_id": "qb_c3a04d8c1b",
+    "span_index": 7,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Page 8 of 15\nFig. 4 STD of clock offset difference for broadcast ephemeris, PPP-B2b products and RTS IGS\nFig. 5 Mean difference between PPP-B2b DCB and CAS products\nFig. 6 Time series of estimated IFBs of three stations\nfor multi-frequency model (DOY 67, 2023)\nDual‑frequency to five‑frequency BDS‑3 PPP results\nIn this part, the performance of the static and kinematic and antenna type, the IFB values of ULAB and URUM\nfive-frequency PPP using PPP-B2b corrections is evalu- are close. Figure 7 shows the differences between esti-\nated. We use IFB1, ",
+    "char_length": 1846
+  },
+  {
+    "quote_id": "qb_94741a90e6",
+    "span_index": 8,
+    "text": "Y ang et al. Earth, Planets and Space (2024) 76:82 Page 9 of 15\nthese two days. The positioning results of each model can\nobtain the positioning accuracy of 0.3 m in the horizon-\ntal direction and 0.6 m in the vertical direction within\n20 min. All solutions can achieve centimeter‐level posi-\ntioning results after convergence, with errors of about\n2–4 cm in the E and N components and 4–7 cm in the U\ncomponent.\nThe RMS errors and convergence time of 14-day static\npositioning results for the F2, F3, F4 and F5 models using\nPPP-B2b service are shown in Figs. 10 and 11, respec-\ntively. The line in t",
+    "char_length": 3425
+  },
+  {
+    "quote_id": "qb_61b87bfc77",
+    "span_index": 9,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Page 10 of 15\nFig. 9 Static PPP results using PPP-B2b service from DOY 63 to DOY 78 in 2023",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_2b83e394e3",
+    "span_index": 10,
+    "text": "Y ang et al. Earth, Planets and Space (2024) 76:82 Page 11 of 15\nIn order to further explore the contribution of multi-\nfrequency model, Fig. 15 shows the convergence perfor-\nmance of kinematic PPP with PPP-B2b corrections under\na 68.2% confidence level. From Fig. 15, we can find that\nduring the first 30 min, the F4 and F5 model have the\nbest convergence performance. It takes 12.5 min for the\nF4 and F5 model to reduce the error in the horizontal and\nvertical directions to 0.4 m and 0.6 m, respectively, while\nthat for the F3 and F2 model are 16.5 min and 23.5 min.\nThe F2 model takes about twice",
+    "char_length": 3449
+  },
+  {
+    "quote_id": "qb_cd05e420d6",
+    "span_index": 11,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Page 12 of 15\nFig. 12 Kinematic PPP results using PPP-B2b service from DOY 63 to DOY 78 in 2023\nthe reference IFBs. The static solutions of dual-fre- the F3–F5 models is about 18–20 min, which is sig-\nquency to five-frequency PPP models can reach the nificantly reduced by around 22% compared to the F2\ncentimeter-level accuracy after convergence, with model. The 3D positioning RMS of the F2, F3, F4, and\nerrors of 2–4 cm in the E and N components and F5 models are 16.15 cm, 15.00 cm, 15.18 cm, and 15.11\n4–7 cm in the U component. The median conve",
+    "char_length": 971
+  },
+  {
+    "quote_id": "qb_7e38f9e9f5",
+    "span_index": 12,
+    "text": "Y ang et al. Earth, Planets and Space (2024) 76:82 Page 13 of 15\nFig. 13 Boxplot of the accuracy of kinematic PPP for selected\nstations\nFig. 15 Convergence performance of kinematic PPP with PPP-B2b\ncorrections under 68.2% confidence level\nconvergence. In the future, the combination of more\npublic satellite-based PPP services, such as Galileo\nHAS and QZSS CLAS, will meet the real-time demands\nof more GNSS users for higher precision.\nAcknowledgements\nThe numerical calculations have been done on the supercomputing system\nin the Supercomputing Center of Wuhan University. The IGS WHU Analysis\nCente",
+    "char_length": 2710
+  },
+  {
+    "quote_id": "qb_61c9f4b47f",
+    "span_index": 13,
+    "text": "Yang et al. Earth, Planets and Space (2024) 76:82 Page 14 of 15\nReceived: 1 March 2024 Accepted: 21 May 2024 of the 24th international technical meeting of the satellite division of\nthe Institute of Navigation (ION GNSS 2011). pp. 1460–1475\nLeick A, Rapoport L, Tatarnikov D (2015) GPS satellite surveying. Wiley, USA\nLi X, Li X, Liu G et al (2020) BDS multi-frequency PPP ambiguity resolution\nwith new B2a/B2b/B2a+ b signals and legacy B1I/B3I signals. J Geod-\nReferences esy 94:1–15. https://d oi.o rg/1 0.1 007/s 00190-0 20-0 1439-8\nAshby N (2003) Relativity in the global positioning system. Livi",
+    "char_length": 8783
+  },
+  {
+    "quote_id": "qb_d2fece4c4a",
+    "span_index": 14,
+    "text": "Y ang et al. Earth, Planets and Space (2024) 76:82 Page 15 of 15\nZhang Y, Kubo N, Pullen S (2022) Evaluation of QZSS centimeter level augmen-\ntation system (CLAS): open-sky to urban environments and geodetic to\nlow-cost receivers. In: Proceedings of the 35th International Technical\nMeeting of the Satellite Division of The Institute of Navigation (ION\nGNSS+ 2022). pp. 2729–2750\nZhou H, Wang L, Fu W et al (2022) Real-time single-frequency precise point\npositioning using BDS-3 PPP-B2b corrections. Measurement 205:112178.\nhttps:// doi. org/ 10. 1016/j. measu rement. 2022. 112178\nZhou H, Fu W, Wang",
+    "char_length": 1148
+  }
+]

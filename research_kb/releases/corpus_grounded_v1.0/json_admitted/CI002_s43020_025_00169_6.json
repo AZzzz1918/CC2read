@@ -1,0 +1,41 @@
+{
+  "paper_id": "CI002_s43020_025_00169_6",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-002",
+  "bibliographic_info": {
+    "title": "Performance of PPP and PPP-RTK with new-generation GNSS constellations and signals"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "Additionally, the emergence and refinement of satellite-based augmentation services targeting PPP, such as BDS-3 Precise Point Positioning (PPP-B2b) and High Accuracy Service (HAS), have further expanded the applica- tions of multi-GNSS and multi-frequency PPP.",
+      "For augmentation services such as PPP-B2b and HAS, after correcting for orbit, clock, and code biases, the convergence time can be reduced to under 15 min, with positioning accuracy of approximately 16 cm."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "grounding_quotes": [
+      "In these studies, satellite Differential observed that the addition of BDS-2 or GLONASS satel- Code Bias (DCB) and Uncalibrated Phase Delay (UPD) lites is not sufficient to significantly improve the geomet- products are essential tools for compensating for code ric distribution in the GE solution."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 23,
+    "b2b": 38,
+    "has": 3,
+    "dcb": 12
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "corpus_version": "v1.0"
+}

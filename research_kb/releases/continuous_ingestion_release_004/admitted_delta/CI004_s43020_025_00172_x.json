@@ -1,0 +1,40 @@
+{
+  "paper_id": "CI004_s43020_025_00172_x",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-004",
+  "bibliographic_info": {
+    "title": "Integrated real-time precise point positioning system with B2b/B2a/B1C services"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "Satellite Navigation (2025) 6:18 Satellite Navigation https://doi.org/10.1186/s43020-025-00172-x https://satellite-navigation.springeropen.com/ ORIGINAL ARTICLE Open Access Integrated real-time precise point positioning system with B2b/B2a/B1C services Zhetao Zhang1,2,3* , Hao Wang1,2,3 and Yuanxi Yang2,4 Abstract Real-Time Precise Point Positioning (RTPPP) technology is one of the most important ",
+      "As an alternative, satellite-based RTPPP can be utilized, especially for the PPP-B2b service of the BeiDou Navigation Satellite System (BDS)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2024-01-07"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "grounding_quotes": [
+      "Satellite Navigation (2025) 6:18 Page 2 of 17 and Differential Code Bias (DCB)."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b": 133,
+    "has": 0,
+    "dcb": 8
+  },
+  "gate_status": {
+    "wrong_support": false
+  }
+}

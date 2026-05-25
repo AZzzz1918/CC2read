@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper proposes an improved BDS-3 PPP-B2b positioning approach that estimates signal-in-space range errors using PPP-B2b corrections, directly focusing on PPP-B2b service application.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-023-01455-z.pdf",
+  "paper_id": "s10291-023-01455-z",
+  "extraction_mode": "batch_classify_1call"
+}

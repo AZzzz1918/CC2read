@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_remotesensing_14_06395_v2",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Comprehensive Evaluation of Data-Related Factors on BDS-3 B1I + B2b Real-Time PPP/INS Tightly Coupled Integration"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Comprehensive Evaluation of Data-Related Factors on BDS-3 B1I + B2b Real-Time PPP/INS Tightly Coupled Integration JunyaoKan1,2,ZhouzhengGao1,* ,QiaozhuangXu1,RuohuaLan1,JieLv1andChengYang1 1 SchoolofLandScienceandTechnology,ChinaUniversityofGeosciencesBeijing,29XueyuanRoad, Beijing100083,China 2 AerospaceInformationResearchInstitute,ChineseAcademyofSciences",
+      "However, satellite outages during dynamic application lead to significant degradation oftheaccuracyandcontinuityofPPP.AgenerallyusedmethodisintegratingPPPwithInertial MeasurementUnits(IMUs)toenhancepositioningperformance.Previousworksonthistopicare usuallybasedonIMUdataatahighsamplingrateandaremostlyimplementedinpost-processing mode.Thispaperwillcarryoutacompressiveassessmentoftheimpactsofdifferen"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 11
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 23,
+    "b2b": 10,
+    "has": 0,
+    "dcb": 11,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

@@ -1,0 +1,1763 @@
+scan_time: '2026-05-24'
+total_files: 124
+pdf_count: 124
+already_in_v0.3: 30
+remaining: 94
+scope_distribution:
+  UNKNOWN: 97
+  NON_B2B_AUGMENTATION: 5
+  BDS3_PPP_B2B_RELEVANT: 19
+  GENERAL_PPP_OR_RTK: 3
+entries:
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0020019019300018-main.pdf
+  normalized_filename: 1-s2.0-S0020019019300018-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 295.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S004579062500045X-main.pdf
+  normalized_filename: 1-s2.0-S004579062500045X-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4712.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224122011071-main.pdf
+  normalized_filename: 1-s2.0-S0263224122011071-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5307.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224122013744-main.pdf
+  normalized_filename: 1-s2.0-S0263224122013744-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 9086.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224124014428-main.pdf
+  normalized_filename: 1-s2.0-S0263224124014428-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7109.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224124019006-main.pdf
+  normalized_filename: 1-s2.0-S0263224124019006-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6390.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224125021888-main.pdf
+  normalized_filename: 1-s2.0-S0263224125021888-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 15963.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224126008559-main.pdf
+  normalized_filename: 1-s2.0-S0263224126008559-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6215.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224126009619-main.pdf
+  normalized_filename: 1-s2.0-S0263224126009619-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7855.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S026322412601448X-main (1).pdf
+  normalized_filename: 1-s2.0-S026322412601448X-main (1).pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 9994.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S026322412601448X-main.pdf
+  normalized_filename: 1-s2.0-S026322412601448X-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 9994.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: true
+  near_duplicate_of: 1-s2.0-S026322412601448X-main (1).pdf
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117721004610-main.pdf
+  normalized_filename: 1-s2.0-S0273117721004610-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5110.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117721006980-main.pdf
+  normalized_filename: 1-s2.0-S0273117721006980-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3089.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117723005483-main.pdf
+  normalized_filename: 1-s2.0-S0273117723005483-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3945.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117724008755-main.pdf
+  normalized_filename: 1-s2.0-S0273117724008755-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1405.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117724011438-main.pdf
+  normalized_filename: 1-s2.0-S0273117724011438-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5532.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117724012961-main.pdf
+  normalized_filename: 1-s2.0-S0273117724012961-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4522.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117725002066-main.pdf
+  normalized_filename: 1-s2.0-S0273117725002066-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3838.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117725002881-main.pdf
+  normalized_filename: 1-s2.0-S0273117725002881-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6706.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117725009299-main.pdf
+  normalized_filename: 1-s2.0-S0273117725009299-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7681.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117725010865-main.pdf
+  normalized_filename: 1-s2.0-S0273117725010865-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4051.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117725011020-main.pdf
+  normalized_filename: 1-s2.0-S0273117725011020-main.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4118.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2020--Maosen Hao--PPPPerformanceEvaluationofQZSSCentimeterLevelAugmentationService.pdf
+  normalized_filename: 2020--Maosen Hao--PPPPerformanceEvaluationofQZSSCentimeterLevelAugmentationService.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2732.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2020--Maosen Hao
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: NON_B2B_AUGMENTATION
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CLAS_PPP-.pdf
+  normalized_filename: 2022--Euiho Kim--Fault-Free_Protection_Level_Equation_for_CLAS_PPP-.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4128.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2022--Euiho Kim
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: NON_B2B_AUGMENTATION
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2022--Ruohua Lan--Evaluation_of_BDS-3_B1CB2b_SingleDual-Frequency_PP.pdf
+  normalized_filename: 2022--Ruohua Lan--Evaluation_of_BDS-3_B1CB2b_SingleDual-Frequency_PP.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2328.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2022--Ruohua Lan
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2022--Tang Chenggan--Orbit determination, clock
+    estimation and performance evaluation.pdf
+  normalized_filename: 2022--Tang Chenggan--Orbit determination, clock estimation
+    and performance evaluation.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1573.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2022--Tang Chenggan
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C.pdf
+  normalized_filename: 2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 11702.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2022--Yan Liu
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf
+  normalized_filename: 2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1034.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2022--Yangyuanxi
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf
+  normalized_filename: 2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1962.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: NON_B2B_AUGMENTATION
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2023--Daniele Borio--HASCoordSept2023.pdf
+  normalized_filename: 2023--Daniele Borio--HASCoordSept2023.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1363.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf
+  normalized_filename: 2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1995.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: NON_B2B_AUGMENTATION
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2023--Pedro Pintor--Testing_Galileo_High-Accuracy_Service_HAS_in_Marin.pdf
+  normalized_filename: 2023--Pedro Pintor--Testing_Galileo_High-Accuracy_Service_HAS_in_Marin.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1819.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: NON_B2B_AUGMENTATION
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf
+  normalized_filename: 2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3935.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha.pdf
+  normalized_filename: 2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2830.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2023--Taro Suzuki
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2024--Ge yulong--An investigation of PPP time transfer
+    via BDS‑3 PPP‑B2b service.pdf
+  normalized_filename: 2024--Ge yulong--An investigation of PPP time transfer via BDS‑3
+    PPP‑B2b service.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6586.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2024--Ge yulong
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf
+  normalized_filename: 2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2940.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2024--Wei Haopeng--Combining Galileo HAS and Beidou
+    PPP‑B2b with Helmert coordinate .pdf
+  normalized_filename: 2024--Wei Haopeng--Combining Galileo HAS and Beidou PPP‑B2b
+    with Helmert coordinate .pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7523.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2024--Wei Haopeng
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2024--Zhou Peiyuan--Initial_performance_assessment_of_Galileo_High_Acc.pdf
+  normalized_filename: 2024--Zhou Peiyuan--Initial_performance_assessment_of_Galileo_High_Acc.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4847.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2024--Zhou Peiyuan
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2025--Pan Lin--BDS B2b and HAS.pdf
+  normalized_filename: 2025--Pan Lin--BDS B2b and HAS.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2812.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2025--Pan Lin
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2025--Zhao Lewen--Python toolbox for BDS  B2b.pdf
+  normalized_filename: 2025--Zhao Lewen--Python toolbox for BDS  B2b.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3548.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:2025--Zhao Lewen
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf
+  normalized_filename: 2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4848.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\875.full.pdf
+  normalized_filename: 875.full.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3489.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availability_and_Time_Transfer_Performance_in_PPP-B2b_HAS_and_MADOCA-PPP.pdf
+  normalized_filename: A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availability_and_Time_Transfer_Performance_in_PPP-B2b_HAS_and_MADOCA-PPP.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1350.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\An investigation of PPP-B2b coverage and its performance
+    in ZTD estimation and positioning in different regions.pdf
+  normalized_filename: An investigation of PPP-B2b coverage and its performance in
+    ZTD estimation and positioning in different regions.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3789.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\applsci-15-07169-v2.pdf
+  normalized_filename: applsci-15-07169-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 8067.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\applsci-15-08033-v2.pdf
+  normalized_filename: applsci-15-08033-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4848.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: applsci_15_08033_v2
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\atmosphere-15-01048.pdf
+  normalized_filename: atmosphere-15-01048.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7742.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Decoding_PPP_Corrections_From_BDS_B2b_Signals_Using_a_Software-Defined_Receiver_An_Initial_Performance_Evaluation.pdf
+  normalized_filename: Decoding_PPP_Corrections_From_BDS_B2b_Signals_Using_a_Software-Defined_Receiver_An_Initial_Performance_Evaluation.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3335.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:Decoding_PPP
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Factor_GraphBased_Tightly_Coupled_PPP-B2b_INS_for_Real-Time_Precise_Positioning.pdf
+  normalized_filename: Factor_GraphBased_Tightly_Coupled_PPP-B2b_INS_for_Real-Time_Precise_Positioning.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1200.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:Factor_Graph
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\ggac311.pdf
+  normalized_filename: ggac311.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 9018.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\ggag169.pdf
+  normalized_filename: ggag169.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7013.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\GKit-SSRDecoder_An_Open-Source_C_C-Based_PPP-B2b_and_HAS_Decoding_and_Formatted_Product_Generation_Software.pdf
+  normalized_filename: GKit-SSRDecoder_An_Open-Source_C_C-Based_PPP-B2b_and_HAS_Decoding_and_Formatted_Product_Generation_Software.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3331.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:GKit-SSRDecoder
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Hu_2026_Meas._Sci._Technol._37_086303.pdf
+  normalized_filename: Hu_2026_Meas._Sci._Technol._37_086303.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 8792.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\IET Radar Sonar   Navi - 2025 - Yu - Design and
+    Reception Method of Code Shift Keying Signals With Power‐of‐Two Phase.pdf
+  normalized_filename: IET Radar Sonar   Navi - 2025 - Yu - Design and Reception Method
+    of Code Shift Keying Signals With Power‐of‐Two Phase.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1286.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Mathematical Problems in Engineering - 2022 - Chen
+    - Signal‐in‐Space and Positioning Performance of BDS Open Augmentation.pdf
+  normalized_filename: Mathematical Problems in Engineering - 2022 - Chen - Signal‐in‐Space
+    and Positioning Performance of BDS Open Augmentation.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3104.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: GENERAL_PPP_OR_RTK
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Mathematical Problems in Engineering - 2022 - Tang
+    - Modelling and Assessment of BDS‐3 Real‐time Precise Point Positioning.pdf
+  normalized_filename: Mathematical Problems in Engineering - 2022 - Tang - Modelling
+    and Assessment of BDS‐3 Real‐time Precise Point Positioning.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2542.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: GENERAL_PPP_OR_RTK
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Multi-Frequency_BDS-3_Real-Time_Positioning_Performance_Assessment_Using_New_PPP-B2b_Augmentation_Service.pdf
+  normalized_filename: Multi-Frequency_BDS-3_Real-Time_Positioning_Performance_Assessment_Using_New_PPP-B2b_Augmentation_Service.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1498.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:Multi-Frequency_BDS
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\P020250821587994414729.pdf
+  normalized_filename: P020250821587994414729.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2111.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Qin_2024_Phys._Scr._99_125026.pdf
+  normalized_filename: Qin_2024_Phys._Scr._99_125026.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2085.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b
+    and low-cost GNSS devices.pdf
+  normalized_filename: Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost
+    GNSS devices.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2221.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Real-Time_Kinematic_Orbit_Determination_for_LEO_by_Integrating_Broadcast_Ephemerides_Galileo_HAS_and_BDS-3_PPP-B2b.pdf
+  normalized_filename: Real-Time_Kinematic_Orbit_Determination_for_LEO_by_Integrating_Broadcast_Ephemerides_Galileo_HAS_and_BDS-3_PPP-B2b.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 10757.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Real-Time_Precise_Zenith_Tropospheric_Delay_Estimation_With_BDS_PPP-B2b_Galileo_HAS_and_QZSS_MADOCA-PPP_Services.pdf
+  normalized_filename: Real-Time_Precise_Zenith_Tropospheric_Delay_Estimation_With_BDS_PPP-B2b_Galileo_HAS_and_QZSS_MADOCA-PPP_Services.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 19607.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-13-02050-v2.pdf
+  normalized_filename: remotesensing-13-02050-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7376.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:remotesensing-13-02050
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-13-05011.pdf
+  normalized_filename: remotesensing-13-05011.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 8313.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-14-00643-v2.pdf
+  normalized_filename: remotesensing-14-00643-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 11702.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-14-02769.pdf
+  normalized_filename: remotesensing-14-02769.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7896.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: remotesensing_14_02769
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-14-02957-v2.pdf
+  normalized_filename: remotesensing-14-02957-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5986.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-14-04569-v2.pdf
+  normalized_filename: remotesensing-14-04569-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1905.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-14-05366.pdf
+  normalized_filename: remotesensing-14-05366.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4266.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-14-05835-v2.pdf
+  normalized_filename: remotesensing-14-05835-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7260.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-14-06395-v2.pdf
+  normalized_filename: remotesensing-14-06395-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 35977.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-15-00199.pdf
+  normalized_filename: remotesensing-15-00199.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 14585.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: remotesensing_15_00199
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-15-00784.pdf
+  normalized_filename: remotesensing-15-00784.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 8475.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-15-01358.pdf
+  normalized_filename: remotesensing-15-01358.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5067.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-15-05144.pdf
+  normalized_filename: remotesensing-15-05144.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 8040.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-16-00043.pdf
+  normalized_filename: remotesensing-16-00043.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6270.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-16-00833-v2.pdf
+  normalized_filename: remotesensing-16-00833-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6009.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: remotesensing_16_00833_v2
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-16-01349-v2.pdf
+  normalized_filename: remotesensing-16-01349-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 11940.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-16-02337-v2.pdf
+  normalized_filename: remotesensing-16-02337-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 9431.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-16-02902.pdf
+  normalized_filename: remotesensing-16-02902.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2725.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-17-00011-v2.pdf
+  normalized_filename: remotesensing-17-00011-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 9083.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-17-00618-v2.pdf
+  normalized_filename: remotesensing-17-00618-v2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 10436.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-17-02183.pdf
+  normalized_filename: remotesensing-17-02183.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2567.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-17-02351.pdf
+  normalized_filename: remotesensing-17-02351.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4409.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\remotesensing-17-03522.pdf
+  normalized_filename: remotesensing-17-03522.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2554.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Research_on_Quad-Frequency_PPP-B2b_Time_Transfer.pdf
+  normalized_filename: Research_on_Quad-Frequency_PPP-B2b_Time_Transfer.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 847.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:Research_on_Quad-Frequency
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\Research_on_Single-Frequency_PPP-B2b_Time_Transfer.pdf
+  normalized_filename: Research_on_Single-Frequency_PPP-B2b_Time_Transfer.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 744.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: BDS3_PPP_B2B_RELEVANT
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s00190-022-01642-9.pdf
+  normalized_filename: s00190-022-01642-9.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 1573.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s00190-025-01965-3.pdf
+  normalized_filename: s00190-025-01965-3.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4397.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s00190-026-02039-8.pdf
+  normalized_filename: s00190-026-02039-8.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2341.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-021-01168-1.pdf
+  normalized_filename: s10291-021-01168-1.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6714.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-021-01175-2.pdf
+  normalized_filename: s10291-021-01175-2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4611.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-023-01409-5.pdf
+  normalized_filename: s10291-023-01409-5.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7792.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-023-01455-z.pdf
+  normalized_filename: s10291-023-01455-z.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5479.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: s10291_023_01455_z
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-023-01457-x.pdf
+  normalized_filename: s10291-023-01457-x.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7335.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-023-01532-3.pdf
+  normalized_filename: s10291-023-01532-3.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3997.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-023-01570-x.pdf
+  normalized_filename: s10291-023-01570-x.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3010.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: s10291_023_01570_x
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-024-01730-7.pdf
+  normalized_filename: s10291-024-01730-7.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5008.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: s10291_024_01730_7
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-024-01776-7.pdf
+  normalized_filename: s10291-024-01776-7.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5013.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-024-01789-2.pdf
+  normalized_filename: s10291-024-01789-2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7523.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-025-01835-7.pdf
+  normalized_filename: s10291-025-01835-7.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3465.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-025-01845-5.pdf
+  normalized_filename: s10291-025-01845-5.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 11298.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: s10291_025_01845_5
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-025-01850-8.pdf
+  normalized_filename: s10291-025-01850-8.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4618.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-025-01854-4.pdf
+  normalized_filename: s10291-025-01854-4.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6985.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-025-01882-0.pdf
+  normalized_filename: s10291-025-01882-0.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 6007.1
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: s10291_025_01882_0
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-025-01925-6.pdf
+  normalized_filename: s10291-025-01925-6.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2513.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s10291-025-01998-3.pdf
+  normalized_filename: s10291-025-01998-3.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3647.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s12145-023-00939-3.pdf
+  normalized_filename: s12145-023-00939-3.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2372.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s40623-024-02031-6.pdf
+  normalized_filename: s40623-024-02031-6.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3270.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s41597-026-07032-6.pdf
+  normalized_filename: s41597-026-07032-6.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3009.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s41598-025-02477-y.pdf
+  normalized_filename: s41598-025-02477-y.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7330.2
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s41598-025-08834-1.pdf
+  normalized_filename: s41598-025-08834-1.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 3497.6
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s41598-025-34174-1.pdf
+  normalized_filename: s41598-025-34174-1.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5331.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s43020-022-00066-2.pdf
+  normalized_filename: s43020-022-00066-2.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 988.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s43020-023-00097-3.pdf
+  normalized_filename: s43020-023-00097-3.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4843.4
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: s43020_023_00097_3
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s43020-024-00143-8.pdf
+  normalized_filename: s43020-024-00143-8.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2415.0
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s43020-024-00146-5.pdf
+  normalized_filename: s43020-024-00146-5.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5859.9
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: s43020_024_00146_5
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s43020-025-00169-6.pdf
+  normalized_filename: s43020-025-00169-6.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 10774.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\s43020-025-00172-x.pdf
+  normalized_filename: s43020-025-00172-x.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 5448.7
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\sensors-23-02652.pdf
+  normalized_filename: sensors-23-02652.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 7301.8
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\sensors-25-06700.pdf
+  normalized_filename: sensors-25-06700.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 9565.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\sensors-26-01795.pdf
+  normalized_filename: sensors-26-01795.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 2471.3
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\sustainability-18-02400.pdf
+  normalized_filename: sustainability-18-02400.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: en
+  file_type: .pdf
+  file_size_kb: 4869.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: false
+  matched_v0.3_paper_id: null
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: UNKNOWN
+  reason_for_scope_guess: filename keyword match
+- file_path: E:\PPP\CC2read\paper\基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.pdf
+  normalized_filename: 基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.pdf
+  detected_title: NOT_CHECKED
+  detected_year: null
+  detected_language: zh
+  file_type: .pdf
+  file_size_kb: 3692.5
+  pdf_or_markdown: PDF
+  already_in_v0.3: true
+  matched_v0.3_paper_id: matched_by_filename:基于北斗_GPS的RTK
+  duplicate_candidate: false
+  near_duplicate_of: null
+  initial_scope_guess: GENERAL_PPP_OR_RTK
+  reason_for_scope_guess: filename keyword match

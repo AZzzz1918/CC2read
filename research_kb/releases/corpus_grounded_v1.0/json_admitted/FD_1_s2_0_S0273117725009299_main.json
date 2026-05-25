@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_1_s2_0_S0273117725009299_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "A real-time high accurate positioning method for vehicles in long-mileage transportation"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "For real-time acquisition of precise orbit and clock corrections, the system utilizes the BeiDou Navigation Satellite System-3 (BDS-3) PPP-B2bservice,integratingPPP-B2bcorrectionmessageswithbroadcastephemeristoeliminatethelatencyassociatedwithtraditional preciseproducts.Thesystemwasevaluatedusingdatafromtwolandvehicleexperiments.Thereal-timevelocityandpositioningaccu- raciesachievedusingPPP-B2bsig",
+      "Keywords: Real-timePPP;PPP-B2b;Robustfiltering;Precisepositioning;BDS-3 1."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 41
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 23,
+    "b2b": 101,
+    "has": 0,
+    "dcb": 41,
+    "clas": 10
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

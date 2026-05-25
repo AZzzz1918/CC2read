@@ -1,0 +1,46 @@
+{
+  "paper_id": "V04_W3_1_s2_0_S0273117724008755_main",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 3,
+  "bibliographic_info": {
+    "title": "Real-time uncombined PPP using BDS-3 PPP-B2b products with different multi-frequency integrations and refined stochastic model"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Available online atwww.sciencedirect.com ScienceDirect AdvancesinSpaceResearch74(2024)5569–5579 www.elsevier.com/locate/asr Real-time uncombined PPP using BDS-3 PPP-B2b products with different multi-frequency integrations and refined stochastic model ⇑ Wujiao Dai , Qiang Qi, Lin Pan, Changsheng Cai SchoolofGeosciencesandInfo-Physics,CentralSouthUniversity,SouthLushanRoad,Changsha",
+      "Keywords: BDS-3;Real-time;Precisepointpositioning;PPP-B2b;Multi-frequencyintegration;Stochasticmodel 1."
+    ]
+  },
+  "component_stack": "BDS3_PPP_B2B+LEO+INS",
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 23,
+    "grounding_quotes": [
+      "In addition, the multi-frequency uncombined (UC) sis of satellite orbit, clock, and Differential Code Bias PPPperformance based on PPP-B2b isanalyzed using dif- (DCB) corrections contained in PPP-B2b information."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 11,
+    "b2b": 110,
+    "has": 0,
+    "dcb": 23
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "category": "MULTI_FREQ",
+  "priority": "P2_PRIORITY_GAP",
+  "is_new_route": true,
+  "confirms_singleton": false
+}

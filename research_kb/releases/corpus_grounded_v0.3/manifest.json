@@ -1,0 +1,29 @@
+{
+  "release_name": "corpus_grounded_v0.3",
+  "generation_time": "2026-05-22",
+  "total_papers": 37,
+  "source_releases": [
+    "corpus_grounded_v0.2",
+    "full_audit_batch_3_phase_a",
+    "full_audit_batch_3_phase_b"
+  ],
+  "pass_count": 37,
+  "blocked_count": 0,
+  "wrong_support_count": 0,
+  "product_source_error_count": 0,
+  "epoch_contamination_count": 0,
+  "dcb_error_count": 0,
+  "semantic_corrections_count": 3,
+  "manual_review_item_count": 0,
+  "quote_bank_count": 37,
+  "corpus_map_count": 7,
+  "regression_status": "pending",
+  "cross_batch_consistency_status": "PASS",
+  "phase_c_recommendation": "PAUSE_AND_ANALYZE_37_PAPER_BASELINE",
+  "product_source_distribution": {
+    "CNES_OR_OTHER_RTS": 3,
+    "MIXED_PRODUCTS": 7,
+    "BDS3_PPP_B2B_BROADCAST": 25,
+    "QZSS_CLAS": 2
+  }
+}

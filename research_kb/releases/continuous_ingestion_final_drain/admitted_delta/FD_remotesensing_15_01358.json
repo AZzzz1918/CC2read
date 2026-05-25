@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_remotesensing_15_01358",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Long-Term Performance Evaluation of BeiDou PPP-B2b Products and Its Application in Time Service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Long-Term Performance Evaluation of BeiDou PPP-B2b Products and Its Application in Time Service QianqianHe1,LiangChen2,*,LeiLiu1,DaiyanZhao1,XiaopengGong3 ,YidongLou3 andQiGuan1 1 ChinaElectronicsTechnologyGroupCorporationNo.15thResearchInstitute,No.211BeisihuanMiddleRoad, Beijing100083,China 2 BeijingInstituteofTrackingandTelecommunicationsTechnology(BITTT",
+      "Since thePPP-B2bproductisonlyavailableinandaroundChinaarea,thearcsofPPP-B2bproductsare aboutseveralhours.Weproposetoevaluatethetimedatumstabilitybyusingallavailablesatellites."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 148,
+    "has": 0,
+    "dcb": 4,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

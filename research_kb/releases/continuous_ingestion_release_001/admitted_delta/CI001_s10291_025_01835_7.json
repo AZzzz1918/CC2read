@@ -1,0 +1,41 @@
+{
+  "paper_id": "CI001_s10291_025_01835_7",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-001",
+  "bibliographic_info": {
+    "title": "Clock systematic jump estimation and URA refinement of BDS-3 B2b real-time precise point positioning service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2025) 29:73 https://doi.org/10.1007/s10291-025-01835-7 RESEARCH Clock systematic jump estimation and URA refinement of BDS‑3 B2b real‑time precise point positioning service Junping Chen1,2 · Ziyuan Song1,3 · Yize Zhang1,2 · Junsheng Ding4 · Xin Jiang3 · Sainan Yang3 · Yangfei Hou3 Received: 5 November 2024 / Accepted: 17 February 2025 / Published online: 4 March 20",
+      "During the use of PPP-B2b, we identified two issues adversely affecting positioning performance: systematic jumps in GPS clock bias and inaccuracies of the URA parameter."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 3,
+    "grounding_quotes": [
+      "(2021) assessed BDS-3 PPP-B2b RTS com- user range error index (URAI), clock offset correction and dif- pared to CNES RTS and demonstrated the comparability of the ferential code bias (DCB) correction."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b": 99,
+    "has": 0,
+    "dcb": 3
+  },
+  "gate_status": {
+    "wrong_support": false
+  }
+}

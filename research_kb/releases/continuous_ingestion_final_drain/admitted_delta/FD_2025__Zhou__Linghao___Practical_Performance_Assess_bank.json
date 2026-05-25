@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_f5541d4195",
+    "span_index": 0,
+    "text": "Communication\nPractical Performance Assessment of Water Vapor Monitoring\nUsing BDS PPP-B2b Service\nLinghaoZhou1,2 ,EnhongZhang3,HongLiang1 ,ZuquanHu1,4,MeifangQu1,5,XinxinLi1,6\nandYunchangCao1,*\n1 MeteorologicalObservationCentre,ChinaMeteorologicalAdministration,Beijing100081,China\n2 SchoolofElectronicInformationEngineering,BeihangUniversity,Beijing100191,China\n3 GuangdongMeteorologicalDataCentre,Guangzhou510080,China\n4 LaiBinMeteorologicalAgencyofGuangxiZhuangAutonomousRegion,Laibin546100,China\n5 GuangxiMeteorologicalObservatory,Nanning530022,China\n6 GuangxiMeteorologicalTechnologyEquipmentCe",
+    "char_length": 3277
+  },
+  {
+    "quote_id": "qb_0a4b85c03b",
+    "span_index": 1,
+    "text": "Appl.Sci.2025,15,8033 2of15\nTheoretically, GNSS signals will be affected by the atmosphere in the troposphere\nwhentransmittingfromsatellitestoreceivers,resultinginthezenithtroposphericdelay\n(ZTD) [10]. ZTD usually consists of the zenith hydrostatic delay (ZHD) caused by dry\natmosphere and the zenith wet delay (ZWD) caused by water vapor. The principle of\nGNSS water vapor retrieval is to obtain the wet part and convert it to the precipitable\nwatervapor(PWV)withthehelpofrelatedmeteorologicalobservations. Thistechnique\nhas been developed since 1990s and continuously improved [11,12]. The accuracy",
+    "char_length": 3856
+  },
+  {
+    "quote_id": "qb_d3d4044163",
+    "span_index": 2,
+    "text": "Appl.Sci.2025,15,8033 3of15\nusingthePPP-B2bservice. Theconclusionofthispaperisexpectedtoprovidescientific\nreferencefordevelopingfuturewatervaporobservationplatforms.\n2. DataDescription\nDatautilizedinthisstudyincludesthreeparts, i.e., theGNSSobservations, GNSS\nsatelliteephemeris,andtheERA5reanalysis.\n2.1. GNSSObservations\nTheoriginalcodeandphaseobservationsfromtheGPSandBDSsatellitesarecollected\nbytheantennaandreceiver,whicharepartsofthemonitoringsystem,asshowninFigure1.\nTobespecific, theLeicaAR20multi-GNSSantenna(LeicaGeosystemsAG,Heerbrugg,\nSwitzerland)isplacedontheroofwithoutbeingblockedbythe",
+    "char_length": 2401
+  },
+  {
+    "quote_id": "qb_7ad4219551",
+    "span_index": 3,
+    "text": "Appl.Sci.2025,15,8033 4of15\n3. Methodology\nThis section detailly describes the methods used for the evaluation experiments,\nincludingtheGNSSdataprocessingandthefollowingperformanceevaluationprocess. A\ngeneralflowchartofthisexperimentispresentedinFigure2asfollows.\nFigure2.Flowchartoftheexperimentmethodology.\n3.1. GNSSDataProcessing\nToachievethemonitoringofwatervaporbasedonGNSSobservations,thePPPtech-\nniqueisappliedforprocessingtheoriginalcodeandphaseobservationsfromGPSand\nBDS.Therearetwoprocessingmodesincludedinthisstudy,i.e.,thepost-processingmode\nandNRTprocessingmode. Thepost-processingmodeis",
+    "char_length": 1191
+  },
+  {
+    "quote_id": "qb_12c7b20fa1",
+    "span_index": 4,
+    "text": "Appl.Sci.2025,15,8033 5of15\nTable1.GNSSdataprocessingstrategiesforthepost-processingmodelandNRTprocessingmode.\nTitle1 Post-ProcessingMode NRTProcessingMode\nDatalengthforprocessing 24h 6hwindow\nProcessinginterval 30s 30s\nWUM(forverification)\nSatelliteephemeris WUM\nCASorB2b(forevaluation)\nEstimator Least-squares(LSQ)+backwardsmoothing\nTroposphericpriorimodel Saastamoinen+GPT3\nMappingfunction VMF3\nEstimatedaspiece-wiseconstantevery3600swithrandomwalkprocess\nStochasticmodelforZTD\nbetweenpieces(20mm/sqrt(h))\nHorizontaltropospheric\nEstimatedasconstant\ngradients\nReceivercoordinates Tightlyconstrained",
+    "char_length": 1833
+  },
+  {
+    "quote_id": "qb_19ee95a075",
+    "span_index": 5,
+    "text": "Appl.Sci.2025,15,8033 6of15\nwhereZ representstheZHD, φandharethelatitudeandheightofGNSSantenna,and\nh\nPisthepressuremeasurementinhPaunit. Afterwards,theZWDcanbeobtainedafter\nremovingZHDfromtheestimatedZTD.Finally,PWVcanbeconvertedwithZWD(Z )\nw\nandtheconversionfactorasfollows:\n106\nW = Π×Z = ×Z (2)\ng w ρ R (k3 +k′) w\nw V Tm 2\nwhereW representsPWVconvertedfromZWD(Z )andtheconversionfactor(Π). ρ\ng w w\nand R arethedensityofliquidwateranduniversalgasconstantforwetair. k′ andk\nV 2 3\nrepresentcoefficientsofatmosphericrefractivity. T istheweightedmeantemperature,\nm\nwhichcanbecalculatedthroughtheairtempe",
+    "char_length": 3305
+  },
+  {
+    "quote_id": "qb_74f0b3d9d3",
+    "span_index": 6,
+    "text": "Appl.Sci.2025,15,8033 7of15\nquantification.ItshowsthatthebiasofZTDusingGPS-onlyobservationiscloseto0.01mm,\nandthecorrespondingRMSis6.91mm. Thephenomenonthatalmostnobiasexistsis\npossiblyattributedtothefactthattheZTDreferencefromthepost-processingmodewas\nalsoestimatedusingtheGPS-onlyobservation,thusguaranteeingtheconsistency.Thisalso\npartlyprovestheconsistencybetweentheNRTprocessingmodeandthepost-processing\nmode. Incontrast,theestimationresultofBDS-onlymanifestsarelativelylargebiaswith\nthevalueof−3.39mm,manifestinganevidentbiasbetweentheprocessingresults. This\nmight be because of the poorly cali",
+    "char_length": 1788
+  },
+  {
+    "quote_id": "qb_ad172296c8",
+    "span_index": 7,
+    "text": "Appl.Sci.2025,15,8033 8of15\n4.2. PerformanceEvaluationofNRTZTDEstimationfromPPP-B2bServiceThroughComparison\nwithPost-ProcessingMode\nSubsequently,theaccuracyofZTDestimatedthroughtheNRTprocessingmodefrom\nthe monitoring system is evaluated to analyze the performance of the PPP-B2b service.\nForthesameobservations, thereal-timeephemerisprovidedbyCASthroughIGSRTS\nandthatfromthePPP-B2bservicewere,respectively,adoptedinthemonitoringsystem\nbasedontheNRTprocessingmode. ThreesatellitecombinationsincludingG/C/GCare\nappliedforZTDestimation. Figure5presentsthetimeseriesofNRTZTDestimatedusing\ndifferentRTephe",
+    "char_length": 1683
+  },
+  {
+    "quote_id": "qb_c879160e8f",
+    "span_index": 8,
+    "text": "Appl.Sci.2025,15,8033 9of15\nGPSandBDScombinationsare0.95,6.98,and1.71mm,respectively,andthecorresponding\nRMSare14.18,22.85,and16.16mm,respectively,whilethesevaluesforB2bephemerisare\n1.64,−6.54,1.35mmforbias,and24.32,23.34,21.49mmforRMS.Thesenumericalresults\nare basically similar to previous studies [31], that is, ZTD accuracy based on PPP-B2b\nserviceisapproximately20mm. AlthoughtheperformanceofB2bisslightlyworsethan\nthatofCASproducts,accordingtothetheoryoferrorpropagation[45],thecorresponding\nPWVaccuracycanachievearound4mmwithPPP-B2bservice. Thiscanbasicallymeetthe\nrequirementsofreal-timewater",
+    "char_length": 2603
+  },
+  {
+    "quote_id": "qb_caad536ec7",
+    "span_index": 9,
+    "text": "Appl.Sci.2025,15,8033 10of15\nfromCASephemeris. WhilethegeneraltinyimprovementsfortheBDS-onlycombinations\nrevealsthatthequalitiesforBDSsatellitesfromtwoRTephemerisaregenerallyconsistent.\nDespitethattheperformanceofwatervapormonitoredwithB2bephemerisbeingworse,\ntheaccuracyisabout3to4mmcomparedtoradiosondeobservations,whichcanbereliably\nappliedformeteorologicalresearchandoperations[46].\nFigure7.ScatterplotsofPWVretrievedfromradiosondeobservationsandmonitoredfromNRTpro-\ncessingmodelusingGPS-only(blue),BDS-only(red),andGPSandBDS(green)satellitecombinations\nbasedonCAS(a,c,e)andB2bephemeris(b,d,f)dur",
+    "char_length": 1325
+  },
+  {
+    "quote_id": "qb_531be788cd",
+    "span_index": 10,
+    "text": "Appl.Sci.2025,15,8033 11of15\npotentiallyduetothefactthatthestabilityandaccuracyofthereal-timeproduct(CASand\nB2b)arelowercomparedtothefinalproduct(WUM).Foraccuracystatisticalresults,it\nshowsthatthebiasofPWVmonitoredbasedontheCASephemerisusingthecombination\nofG,C,andGCsatellitecombinationsare−0.34,−1.32,and−0.29mm,respectively,and\nthecorrespondingRMSare2.94,4.36,and3.46mm,respectively,whilethosevaluesforthe\nresultsfromB2bephemerisare−0.23,0.96,−0.29mmforbias,and4.55,4.40,3.95mmfor\nRMS.Thesevaluesaregenerallyabout1/6oftheZTDerror,whichisconsistentwiththe\ntheoryoferrorpropagationmentionedabove. Co",
+    "char_length": 1481
+  },
+  {
+    "quote_id": "qb_5625029f43",
+    "span_index": 11,
+    "text": "Appl.Sci.2025,15,8033 12of15\nTable2.StatisticalresultsofPWVaccuracymonitoredfromNRTprocessingmodeusingCASand\nB2bephemeriswithdifferentsatellitecombinations.\nEphemeris SatelliteCombinations Bias(mm) RMS(mm)\nGPS-only(G) −0.34 2.94\nCAS BDS-only(C) −1.32 4.36\nGPSandBDS(GC) −0.29 3.46\nGPS-only(G) −0.23 4.55\nB2b BDS-only(C) 0.96 4.40\nGPSandBDS(GC) −0.29 3.95\nIt should be noted that among the CAS results, PWV monitored with GPS-only\nobservationperformsthebest,followedbythatfromtheGPSandBDScombination,and\nthe BDS-only performs the worst. In contrast, for the results of B2b, PWV monitored\nwith GPS-only",
+    "char_length": 3193
+  },
+  {
+    "quote_id": "qb_e23da2c54a",
+    "span_index": 12,
+    "text": "Appl.Sci.2025,15,8033 13of15\nstudyonlycontainsresultsof25daysinasingleplace,whileafurtherevaluationwitha\nlongertimespanandmorestationsshouldbeconducted. Thecharacteristicsofaccuracyin\ndifferentseasons(includingrainyandnon-rainyperiods)andareascanbeexplored. This\nwillprovideamorerobustreferenceforitspromotioninthenearfuture.\nAuthorContributions:Conceptualization,Y.C.;methodology,Y.C.andL.Z.;software,L.Z.validation,\nL.Z.andY.C.;formalanalysis,L.Z.;investigation,Y.C.;resources,Y.C.andH.L.;datacuration,L.Z.,\nE.Z.,Z.H.andY.C.;writing—originaldraftpreparation,L.Z.;writing—reviewandediting,Y.C.and\nH.",
+    "char_length": 2254
+  },
+  {
+    "quote_id": "qb_cc5e9ea165",
+    "span_index": 13,
+    "text": "Appl.Sci.2025,15,8033 14of15\n2. Sherwood,S.C.;Roca,R.;Weckwerth,T.M.;Andronova,N.G.Troposphericwatervapor,convection,andclimate.Rev.Geophys.\n2010,48,Rg2001.[CrossRef]\n3. Zhou,L.H.;Cao,Y.C.;Shi,C.;Liang,H.;Fan,L.QuantifyingtheAtmosphericWaterBalanceClosureoverMainlandChinaUsing\nGround-Based,Satellite,andReanalysisDatasets.Atmosphere2024,15,497.[CrossRef]\n4. Neelin,J.D.;Martinez-Villalobos,C.;Stechmann,S.N.;Ahmed,F.;Chen,G.;Norris,J.M.;Kuo,Y.H.;Lenderink,G.Precipitation\nExtremesandWaterVaporRelationshipsinCurrentClimateandImplicationsforClimateChange.Curr.Clim.ChangeRep.2022,\n8,17–33.[CrossRef]\n",
+    "char_length": 5000
+  },
+  {
+    "quote_id": "qb_d7f08fcbdf",
+    "span_index": 14,
+    "text": "Appl.Sci.2025,15,8033 15of15\n28. Cao,Y.C.;Cheng,Z.H.;Liang,J.S.;Zhao,P.P.;Cao,Y.C.;Wang,Y.Z.PerformanceofGround-BasedGlobalNavigationSatellite\nSystemPrecipitableWaterVaporRetrievalinBeijingwiththeBeiDouB2bService.RemoteSens.2024,16,2902.[CrossRef]\n29. Wang,X.M.; Chen,Y.F.; Zhang,J.L.; Qiu,C.; Zhou,K.; Li,H.B.; Huang,Q.Y.AssessmentofBDS-3PPP-B2bServiceandIts\nApplicationsfortheDeterminationofPrecipitableWaterVapour.Atmosphere2024,15,1048.[CrossRef]\n30. Xu,Y.;Zhao,P.P.;Wang,J.PrecipitablewatervaporretrievalforrainfallforecastingusingBDS-3PPP-B2bsignalinthecoastal\nregionofChina.Meas.Sci.Technol.20",
+    "char_length": 3901
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "paper_id": "V04_W2_1_s2_0_S0273117725002881_main",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 2,
+  "bibliographic_info": {
+    "title": "Precise real-time navigation of the LEO satellite enhanced by BDS-3 PPP-B2b service",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Available online at www.sciencedirect.com ScienceDirect Advances in Space Research 75(2025)7003–7019 www.elsevier.com/locate/asr Precise real-time navigation of the LEO satellite enhanced by BDS-3 PPP-B2b service Xuewen Gonga,b,c,⁎ , Wanwei Zhangc , Aili Zhaoa,b,e , Shuaihe Gaoa,b, Fuhong Wangc , Jingkui Zhangd, Song Xied, Guodong Fenga,b , Zaichun Yanga,b,e a National Time Servi",
+      "In this paper, the correction data released by the BDS-3 PPP-B2b service are introduced to correct the broadcast ephemeris of GPS and BDS-3 satellites, aiming to enhance the real-time orbit accuracy of LEO satellites."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4,
+    "grounding_quotes": [
+      "Many detailedissuesregard- casted are five types, including satellite mask (Type 1), orbit ing the stochastic model of the pseudo-ambiguity parame- correction parameters (Type 2), differential code bias correc- teranditsestimationhavebeendiscussedinauthors’some tion (Type3),clockcorrectionparameters(Type4),anduser published articles (Wang et al., 2015; Gong et al., 2019, rangeaccuracyindex(Type5)("
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 1
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b_mentions": 184,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 4
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "category": "LEO_ORBIT",
+  "b2b": 184
+}

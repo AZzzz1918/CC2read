@@ -1,0 +1,50 @@
+[
+  {
+    "quote_id": "qb_3cab8d74d2",
+    "span_index": 0,
+    "text": "GPS Solutions (2023) 27:197\nhttps://doi.org/10.1007/s10291-023-01529-y\nGPS TOOLBOX\nGHASP: a Galileo HAS parser\nD. Borio1 · M. Susi1 · C. Gioia2\nReceived: 2 February 2023 / Accepted: 3 August 2023 / Published online: 5 September 2023\n© The Author(s) 2023\nAbstract\nGalileo High Accuracy Service (HAS) corrections are broadcast through the E6B signal using a high-parity vertical Reed-\nSolomon encoding scheme, which reduces message recovery time and improves transmission reliability. To recover HAS\ncorrections, it is thus necessary to invert the encoding process and interpret the decoded bits. In or",
+    "char_length": 4097
+  },
+  {
+    "quote_id": "qb_20cde183bc",
+    "span_index": 1,
+    "text": "197 Page 2 of 7 GPS Solutions (2023) 27:197\nFig. 1 Overall architecture of GHASP. Grey boxes represent core elements, whereas blue boxes indicate GUI elements\ninto the RTCM 3 or the International GNSS Service (IGS) Differently from HASlib, corrections are saved into four\nState-Space Representation (SSR) formats (Hirokawa et al. Comma-Separated Values (CSV) files containing the four\n2021, IGS 2020), which are directly supported by some different correction types: orbit corrections, clock correc-\nopen-source PPP software. tions, phase and code biases. This choice has been adopted in\nIn parallel,",
+    "char_length": 3244
+  },
+  {
+    "quote_id": "qb_39cf96ce15",
+    "span_index": 2,
+    "text": "GPS Solutions (2023) 27:197 Page 3 of 7 197\ndifferent graphical elements used by the Jupyter notebook the different options can be selected through the GUI. After\nGUI, whose use is briefly described in the next section. setting the input file and format, data parsing and decoding\nThe parse_data() function loads the different input files can start. This action is triggered by the “Parse” button vis-\nusing the functions available in the “data_loading” module ible at the bottom of Fig. 2.\nand instantiates a “has_decoder” object, which is responsible In addition to the Jupyter notebook, it is poss",
+    "char_length": 5416
+  },
+  {
+    "quote_id": "qb_21664b8bcf",
+    "span_index": 3,
+    "text": "197 Page 4 of 7 GPS Solutions (2023) 27:197\nFig. 2 Screenshot of the Jupyter notebook developed to simplify the user interaction with the HAS decoder\nA sample plot showing the overlapping ADEVs for the Routines for plotting code and carrier phase biases are\ndifferent Galileo satellites is provided in Fig. 5. also provided as part of GHASP. Sample plots for the code\n1 3\nContent courtesy of Springer Nature, terms of use apply. Rights reserved.",
+    "char_length": 445
+  },
+  {
+    "quote_id": "qb_af5a87a1e8",
+    "span_index": 4,
+    "text": "GPS Solutions (2023) 27:197 Page 5 of 7 197\nFig. 3 The three components of the orbit corrections broadcast by the HAS service for the different Galileo satellites. Corrections for the whole\nday of October 20th, 2022\nFig. 4 Clock corrections broadcast by the HAS service for the different Galileo satellites. Corrections for the whole day of October 20th, 2022\n1 3\nContent courtesy of Springer Nature, terms of use apply. Rights reserved.",
+    "char_length": 437
+  },
+  {
+    "quote_id": "qb_f112a68e0f",
+    "span_index": 5,
+    "text": "197 Page 6 of 7 GPS Solutions (2023) 27:197\nFig. 5 Overlapping ADEV computed using the clock corrections broadcast by the HAS service for the different Galileo satellites. Corrections\nfor the whole day of October 20th, 2022\nand carrier phase biases can be found in the GHASP user Data availability Data can be found at https://g ithub.c om/b oriod a/\nmanual (Borio et al. 2023). HAS-d ecodi ng\nDeclarations\nConclusions\nCompeting interests The authors declare no competing interests.\nA library for parsing Galileo HAS corrections from differ- Open Access This article is licensed under a Creative Comm",
+    "char_length": 2528
+  },
+  {
+    "quote_id": "qb_53fbb355bd",
+    "span_index": 6,
+    "text": "GPS Solutions (2023) 27:197 Page 7 of 7 197\ninstitute of navigation, San Diego, California, Jan. 2020, pp 509– International GNSS Service (IGS) (2020) IGS state space represen-\n520. https://d oi.o rg/1 0.3 3012/2 020.1 7159 tation (SSR) format version 1.00. https://fi les.i gs.o rg/p ub/d ata/\nBorio D, Gioia C, Susi M (2023) GHASP: a Galileo high accuracy format/i gs_s sr_v 1.p df\nservice parser, user manual. https://g ithub.c om/b oriod a/H AS- Susi M, Borio D, Gioia C, Brunes MT, Dähnn M, Grinde G, Rost C\ndecodi ng (2021) assessment of galileo E6B data demodulation performance\nEuropean Union",
+    "char_length": 4466
+  },
+  {
+    "quote_id": "qb_05370ed04a",
+    "span_index": 7,
+    "text": "Terms and Conditions\nS pringer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH (“Springer Nature”).\nSpringer Nature supports a reasonable amount of sharing of research papers by authors, subscribers and authorised users (“Users”), for small-\nscale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained. By\naccessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use (“Terms”). For these\np urposes, Springer Nature consider",
+    "char_length": 4128
+  }
+]

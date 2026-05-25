@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper introduces BDS-3 real-time corrections (PPP-B2b) as a contrast to RTS-based RTPPP, indicating a core focus on the PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2025--Zhao Lewen--Python toolbox for BDS  B2b.pdf",
+  "paper_id": "2025--Zhao Lewen--Python toolbox for BDS  B2b",
+  "extraction_mode": "batch_classify_1call"
+}

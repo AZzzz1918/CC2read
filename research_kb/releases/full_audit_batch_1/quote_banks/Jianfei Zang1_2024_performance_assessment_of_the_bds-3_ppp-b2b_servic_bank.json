@@ -1,0 +1,2270 @@
+[
+  {
+    "quote_id": "qb_d6d5ba3c34",
+    "span_index": 0,
+    "text": "Vol.:(0123456789)\n1 3\nGPS Solutions           (2024) 28:26  \nhttps://doi.org/10.1007/s10291-023-01570-x\nORIGINAL ARTICLE\nPerformance assessment of the BDS‑3 PPP‑B2b service for real‑time \nearthquake source description: a case study for the 2021 Mw 7.4 \nMaduo earthquake\nJianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4\nReceived: 13 August 2023 / Accepted: 24 October 2023 \n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nRetrieving the coseismic displacement in real time is essential when the high-rate Global Navigation Satellite System (GNSS) \nis used for the real-time earthquake source description.",
+    "char_length": 702
+  },
+  {
+    "quote_id": "qb_e91231d9d6",
+    "span_index": 1,
+    "text": "In 2020, the third generation of the BeiDou Global Navigation Satel-\nlite System (BDS-3) initiated a real-time precise point positioning service through the B2b signal (PPP-B2b), which provides \na new possibility for real-time earthquake source description.",
+    "char_length": 257
+  },
+  {
+    "quote_id": "qb_80f6871c16",
+    "span_index": 2,
+    "text": "In this study, the performance of the PPP-B2b on the real-time \nretrieval of coseismic displacement was first validated with GNSS observations collected during the 2021 Mw 7.4 Maduo \nearthquake.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_403fde0587",
+    "span_index": 3,
+    "text": "Then, the warning magnitude, focal mechanism and fault slip distribution were inverted with the derived PPP-\nB2b displacement in a simulated real-time model.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_f114a8935c",
+    "span_index": 4,
+    "text": "Our results indicate that the accuracies of the coseismic displacements in \nthe north, east and up components are 0.8 cm, 0.5 cm, and 1.4 cm for the single GPS PPP-B2b, 0.5 cm, 0.6 cm, and 0.9 cm \nfor the single BDS-3 PPP-B2b and 0.4 cm, 0.3 cm, and 0.4 cm for the combined GPS/BDS-3 PPP-B2b, respectively, when \ncompared with the coseismic displacements of the post-processing precise point positioning (PPP).",
+    "char_length": 410
+  },
+  {
+    "quote_id": "qb_ccf4c71340",
+    "span_index": 5,
+    "text": "Moreover, the warning \nmagnitude, focal mechanism and fault slip distribution inverted with the PPP-B2b displacements are all in good agreement \nwith those inverted with the PPP displacements.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_78fa36e8f1",
+    "span_index": 6,
+    "text": "This study highlights the great possibility of the PPP-B2b to be used for \nearthquake early warning and rapid emergency responses.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_04f788abdf",
+    "span_index": 7,
+    "text": "Keywords  BDS-3 · PPP-B2b · Coseismic displacement · Earthquake source inversion\nIntroduction\nA high-rate global navigation satellite system (GNSS) is rec-\nognized as an effective complementary means to traditional \nseismic instruments in real-time earthquake monitoring and \nproviding early warnings, as high-rate GNSSs can directly \nmeasure the ground displacement without saturation in the \nnear field.",
+    "char_length": 405
+  },
+  {
+    "quote_id": "qb_8475c1c473",
+    "span_index": 8,
+    "text": "Many studies have demonstrated the great perfor-\nmance of high-rate GNSSs on warning magnitude calcula-\ntions (Crowell et al.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_d96c8ae05c",
+    "span_index": 9,
+    "text": "2013; Melgar et al.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_36dff68e99",
+    "span_index": 10,
+    "text": "2015; Zang et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_04c9ccf61d",
+    "span_index": 11,
+    "text": "2020), focal mechanism inversions (Melgar et al.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_dafe8151c7",
+    "span_index": 12,
+    "text": "2012), fault \nslip distribution inversions (Allen and Alon 2011; Minson \net al.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_6688e5e8d0",
+    "span_index": 13,
+    "text": "2014; Zang et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_19803a8a30",
+    "span_index": 14,
+    "text": "2022) and fault dynamic rupture pro-\ncess inversions (Miyazaki et al.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_df3b594423",
+    "span_index": 15,
+    "text": "2004; Goldberg et al.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_67f14f7b7e",
+    "span_index": 16,
+    "text": "2020; \nWen et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_308a7d5c17",
+    "span_index": 17,
+    "text": "It has been confirmed that both relative \npositioning and precise point positioning (PPP) can be used \nto retrieve high-accuracy coseismic displacements (Larson \net al.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_a05cfdd783",
+    "span_index": 18,
+    "text": "2003; Xu et al.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_8a5e433e8d",
+    "span_index": 19,
+    "text": "2013; Geng et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_81caf93c0f",
+    "span_index": 20,
+    "text": "2017; Li et al.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_b513cbedf2",
+    "span_index": 21,
+    "text": "Compared with relative positioning, PPP can be utilized to \nmeasure ground motions from a single station alone without \nrelying on reference stations and therefore is more suitable \nfor earthquake monitoring.",
+    "char_length": 208
+  },
+  {
+    "quote_id": "qb_7212bc4597",
+    "span_index": 22,
+    "text": "The accuracies of the PPP dis-\nplacements within a short period are at the 2–4 mm and sub-\ncentimetre levels in the horizontal and upper components, \nrespectively, when the final precise orbit and clock products \nare used (Xu et al.",
+    "char_length": 232
+  },
+  {
+    "quote_id": "qb_f65277495e",
+    "span_index": 23,
+    "text": "However, when determining the \nfinal precise orbit and clock products, it has a long-time \n *\t Shijie Fan \n\t\nfshijie@upc.edu.cn\n1\t\nCollege of Oceanography and Space Informatics, China \nUniversity of Petroleum (East China), Qingdao 266580, \nChina\n2\t\nSchool of Geodesy and Geomatics, Wuhan University, \nWuhan 430079, China\n3\t\nSchool of Geoscience and Surveying Engineering, \nChina University of Mining and Technology-Beijing, \nBeijing 100083, China\n4\t\nGNSS Research Center, Wuhan University, Wuhan 430079, \nChina\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 567
+  },
+  {
+    "quote_id": "qb_e2f2ec9bbc",
+    "span_index": 24,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_f8553c58c2",
+    "span_index": 25,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_29dbc91b89",
+    "span_index": 26,
+    "text": "GPS Solutions           (2024) 28:26 \n1 3\n   26  \nPage 2 of 13\ndelay and is thus unsuitable for real-time earthquake moni-\ntoring and providing early warnings.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_c7f757070c",
+    "span_index": 27,
+    "text": "Since 2013, the inter-\nnational GNSS service (IGS) has provided real-time service \n(RTS) and has broadcasted precise orbit and clock correc-\ntions to users through the internet in real time (Hadas and \nBosy 2015), making it possible to perform real-time GNSS-\nbased earthquake monitoring and provide early warnings.",
+    "char_length": 315
+  },
+  {
+    "quote_id": "qb_b67ed087d7",
+    "span_index": 28,
+    "text": "On July 31, 2020, the third generation of the BeiDou \nGlobal Navigation Satellite System (BDS-3) began pro-\nviding global service.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_a4852846ed",
+    "span_index": 29,
+    "text": "In addition to normal positioning, \nnavigation and timing services, BDS-3 features a satellite-\nbased real-time precise point positioning service (Yang et al.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_b1187c1e8f",
+    "span_index": 30,
+    "text": "2021), where precise satellite orbit and clock corrections are \nbroadcast to users through the B2b signal of BDS-3 geosta-\ntionary earth orbit (GEO) satellites.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_6d45d7ba75",
+    "span_index": 31,
+    "text": "Compared with RTS \nproducts, the PPP-B2b does not suffer from the influence \nof internet interruption, and users can obtain real-time PPP \n(RT-PPP) easily by decoding the received B2b corrections.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_51de8f4dd9",
+    "span_index": 32,
+    "text": "The performance of the PPP-B2b in real-time positioning \nhas been validated by a series of tests, and the results show \nthat the positioning accuracies of the static PPP-B2b and \nthe simulated dynamic PPP-B2b can reach centimetre and \ndecimetre levels (Nie et al.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_d558929f3f",
+    "span_index": 33,
+    "text": "2021; Ren et al.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_929e1093a2",
+    "span_index": 34,
+    "text": "2021; Tao et al.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_6eaa50f1ff",
+    "span_index": 35,
+    "text": "2021; Xu et al.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_11b1b21c8c",
+    "span_index": 36,
+    "text": "2021, 2023; Zhang et al.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_ea573314da",
+    "span_index": 37,
+    "text": "2022; Tang et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_2a1a3fc434",
+    "span_index": 38,
+    "text": "2022; Yang et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_384720039c",
+    "span_index": 39,
+    "text": "2022; Sun et al.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_f8a79c0124",
+    "span_index": 40,
+    "text": "In addition to the \nsimulated dynamic tests, Zhang et al.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_470f80b9f2",
+    "span_index": 41,
+    "text": "(2022) performed two \nvehicle-based kinematic PPP-B2b tests and determined that \nthe average position errors of the combined global position-\ning system (GPS) and the BDS-3 are 18.6 cm and 37.1 cm \nin the horizontal and vertical components, respectively.",
+    "char_length": 254
+  },
+  {
+    "quote_id": "qb_eea5529f9c",
+    "span_index": 42,
+    "text": "(2022) validated the performance of the PPP-\nB2b in an open ocean environment and obtained results that \nindicate that the positioning accuracies of the combined \nGPS + BDS-3 in the north, east and up components are \n0.047 m, 0.036 m and 0.172 m, respectively.",
+    "char_length": 260
+  },
+  {
+    "quote_id": "qb_20415d6b51",
+    "span_index": 43,
+    "text": "In addition \nto positioning, Ge et al.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_d305dbb933",
+    "span_index": 44,
+    "text": "(2023) investigated the method of \nreal-time time transfer with PPP-B2b corrections.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_cc0338b12a",
+    "span_index": 45,
+    "text": "(2023) evaluated the performance of the PPP-B2b in real-\ntime precipitable water vapour retrieval.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_868d0ae6da",
+    "span_index": 46,
+    "text": "In particular, Fang \net al.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_589610ce63",
+    "span_index": 47,
+    "text": "(2022) validated the feasibility of real-time coseismic \ndisplacement retrieval with PPP-B2b by a shake table test \nand 2021 Mw 7.4 Maduo earthquake data.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_1bff48e099",
+    "span_index": 48,
+    "text": "Their results indi-\ncate that the accuracies of the coseismic displacements of \nthe PPP-B2b are 2–3 cm within a short period of time when \ntaking the post-processed PPP displacements as a reference.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_1a3db39335",
+    "span_index": 49,
+    "text": "Although the performance of the PPP-B2b in real-time \npositioning has been validated by a series of studies, most \nresearchers have focused on the evaluation of the PPP-B2b \nfor a long time.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_a1816020cb",
+    "span_index": 50,
+    "text": "In earthquake monitoring and providing \nearly warnings, the short-term performance of the PPP-\nB2b matters because the energy release of an earthquake \nusually lasts for seconds or minutes.",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_96112309b6",
+    "span_index": 51,
+    "text": "However, few studies, \nin which the performance of the PPP-B2b was assessed \nfor short time periods and the PPP-B2b displacement was \napplied for real-time earthquake source inversions, were \nconducted.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_ec6826ec3d",
+    "span_index": 52,
+    "text": "In the study of Fang et al.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_ec9336aad9",
+    "span_index": 53,
+    "text": "(2022), only one \nstation recorded the BDS-3 observations during the 2021 \nMw 7.4 Maduo earthquake.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_94b180f8b2",
+    "span_index": 54,
+    "text": "In this study, we collected \ndata from 13 GNSS stations that recorded both the GPS \nand BDS-3 observations during the 2021 Mw 7.4 Maduo \nearthquake.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_e91213521d",
+    "span_index": 55,
+    "text": "The performances of the single GPS PPP-B2b, \nsingle BDS-3 PPP-B2b and combined GPS/BDS-3 PPP-\nB2b for real-time coseismic displacement retrieval are all \nevaluated.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_89d2df8957",
+    "span_index": 56,
+    "text": "In addition, we performed a warning magni-\ntude calculation, focal mechanism inversion and fault slip \ndistribution inversion with the derived PPP-B2b displace-\nments to validate the possibility of real-time earthquake \nsource inversion with the PPP-B2b displacements.",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_745433fe4d",
+    "span_index": 57,
+    "text": "The rest \nof this paper is organized as follows: First, we introduced \nthe RT-PPP method with PPP-B2b corrections and the \nreal-time earthquake source inversion method with PPP-\nB2b displacements.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_6bed4b8f17",
+    "span_index": 58,
+    "text": "Then, the accuracies of the derived \ncoseismic displacements and the inverted earthquake \nsource parameters of the Maduo earthquake are analysed.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_f8b0b3c8a4",
+    "span_index": 59,
+    "text": "Finally, we provided the conclusions of this study.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_d23f267fd1",
+    "span_index": 60,
+    "text": "Methodology\nIn this section, the recovery procedure of the precise satel-\nlite orbit and clock offsets with the PPP-B2b corrections \nare first introduced.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_19e24753d6",
+    "span_index": 61,
+    "text": "Then, the PPP-B2b positioning model \nand the earthquake source inversion methods are presented \nin detail.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_eed2de22f2",
+    "span_index": 62,
+    "text": "Recovery of the precise satellite orbit and clock \noffsets with PPP‑B2b corrections\nAt present, the PPP-B2b service mainly provides differential \ncode bias (DCB) and satellite orbit and clock corrections \nto users.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_b1490f3261",
+    "span_index": 63,
+    "text": "Although the B2b signal was designed to transmit \nGPS, BDS, GLONASS and Galileo corrections, only GPS \nand BDS-3 corrections are currently available.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_e50f12d153",
+    "span_index": 64,
+    "text": "For GPS, \nPPP-B2b corrections are added to the satellite orbit and \nclock offsets that are calculated with the GPS LNAV broad-\ncast ephemeris.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_140cb2cdd0",
+    "span_index": 65,
+    "text": "For BDS-3, the BDS-3 CNAV1 broadcast \nephemeris is adopted to calculate the initial satellite orbit \nand clock offsets.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_2dd70a31d7",
+    "span_index": 66,
+    "text": "Then, the initial values are corrected with \nthe PPP-B2b products.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_6ff993fab6",
+    "span_index": 67,
+    "text": "However, the satellite orbit offsets \nderived from the broadcast ephemeris are of the Earth-Cen-\ntre-Earth-Fixed (ECEF) frame, and thus, the PPP-B2b orbit \ncorrections, including the radial, along-track, and cross-\ntrack components, must be converted into corrections of \nthe ECEF, which can be achieved as follows (CSNO 2020):\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 384
+  },
+  {
+    "quote_id": "qb_aaedccf006",
+    "span_index": 68,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_d440c40675",
+    "span_index": 69,
+    "text": "GPS Solutions           (2024) 28:26 \t\n1 3\nPage 3 of 13 \n   26 \nwhere 훿X represents the PPP-B2b orbit correction vector \nin the ECEF; 훿퐎radial , 훿퐎along and 훿퐎cross are the PPP-B2b \norbit corrections in the radial, along-track and cross-track \ndirections; and 퐫 and ̇퐫 indicate the satellite position and \nvelocity vectors calculated with the broadcast ephemeris in \nthe ECEF.",
+    "char_length": 376
+  },
+  {
+    "quote_id": "qb_91dd496b97",
+    "span_index": 70,
+    "text": "With the correction vector of 훿X , the precise sat-\nellite orbit offset can be recovered by:\nwhere 퐗orbit denotes the precise satellite orbit offset and \n퐗broadcast represents the satellite orbit offset calculated with \nthe broadcast ephemeris.",
+    "char_length": 244
+  },
+  {
+    "quote_id": "qb_26e565b187",
+    "span_index": 71,
+    "text": "The precise satellite clock offset can be calculated as \nfollows:\nwhere tclock represents the precise satellite clock offset; \ntbroadcast indicates the satellite clock offset derived from the \nbroadcast ephemeris; C0 is the satellite clock correction \ndecoded from the B2b signal; and c is the speed of the light \nin the vacuum.",
+    "char_length": 328
+  },
+  {
+    "quote_id": "qb_5a03f6b310",
+    "span_index": 72,
+    "text": "PPP‑B2b positioning model\nThe PPP-B2b positioning model is consistent with the PPP \nmodel.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_8666491099",
+    "span_index": 73,
+    "text": "Here, traditional dual-frequency ionospheric-free (IF) \ncombinations are used to remove the influence of the first-\norder ionospheric delay.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_d4bfc37d9c",
+    "span_index": 74,
+    "text": "The code and phase observation equa-\ntions of the PPP-B2b positioning model can be expressed as \nfollows (Leick et al.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_aaa78aa30a",
+    "span_index": 75,
+    "text": "2015):\nwhere Ps\nr,IF and Ls\nr,IF denote the code and phase IF combina-\ntions of the L1/L2 for GPS and B1/B3 for BDS-3, respec-\ntively; 휌s\nr represents the geometric distance from the satellite \n(1)\n훿X = \u001f 퐞radial 퐞along 퐞cross\n\u001e ⋅\n⎡\n⎢\n⎢⎣\n훿퐎radial\n훿퐎along\n훿퐎cross\n⎤\n⎥\n⎥⎦\n(2)\n퐞radial = 퐫\n|퐫|\n(3)\n퐞cross = 퐫× ̇퐫\n|퐫× ̇퐫|\n(4)\n퐞along = 퐞cross × 퐞radial\n(5)\n퐗orbit = 퐗broadcast −훿X\n(6)\ntclock = tbroadcast −C0\nc\n(7)\nPs\nr,IF = 휌s\nr + tr −ts + dr,IF −ds\nIF + ms\nrT + es\nr,PIF\n(8)\nLs\nr,IF = 휌s\nr + tr −ts + br,IF −bs\nIF + 휆IFNs\nr,IF + ms\nrT + 휀s\nr,LIF\nto the receiver; tr and ts are the clock offsets of the receiver \nand satellite, respectively; dr,IF and ds\nIF represent the code \nbiases of the receiver and satellite, respectively; br,IF and bs\nIF \nare the phase biases of the receiver and satellite, respec-\ntively; ms\nr indicates the mapping function of the tropospheric \ndelay; T is the zenith tropospheric delay; 휆IF and Ns\nr,IF are the \nwavelength and ambiguity of the IF combination, respec-\ntively; and es\nr,PIF and 휀s\nr,LIF represent the noises in the code and \nphase observations, respectively.",
+    "char_length": 1096
+  },
+  {
+    "quote_id": "qb_006613f552",
+    "span_index": 76,
+    "text": "Other errors, such as the \nphase centre deviation, phase wind-up, relativistic effect, \nsolid earth tide, ocean tide and pole tide, can be corrected \nwith the existing models.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_c4acf3a017",
+    "span_index": 77,
+    "text": "Notably, the PPP-B2b clock corrections refer to the L1/\nL2 IF combination for GPS and the B3 signal for BDS-3 \n(Tang et al.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_67b9d3524d",
+    "span_index": 78,
+    "text": "It is necessary to convert the BDS-3 \nclock correction from the B3 signal to the B1/B3 IF com-\nbination, which can be achieved as follows (Fang et al.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_d5fc4a368d",
+    "span_index": 79,
+    "text": "2022):\nwhere ts\nB1B3 and ts\nB3 denote the recovered precise satellite \nclock offsets referring to the B1/B3 IF combination and the \nB3 signal, respectively; fB1 and fB3 are the frequencies of \nthe B1 and B3 signals, respectively; and DCBs\nB1B3 represents \nthe DCB correction between the B1 and B3 signals decoded \nfrom the B2b signal.",
+    "char_length": 334
+  },
+  {
+    "quote_id": "qb_660ff14f03",
+    "span_index": 80,
+    "text": "As dr,IF in Eq.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_f1bb722477",
+    "span_index": 81,
+    "text": "(7) can be absorbed by the receiver clock \noffset and br,IF and bs\nIF in Eq.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_776a1681af",
+    "span_index": 82,
+    "text": "(8) can be absorbed by the \nphase ambiguity, the observation Eqs.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_7ff52be461",
+    "span_index": 83,
+    "text": "(7) and (8) can be \nrewritten as\nwhere ̃Ps\nr,IF and ̃Ls\nr,IF are the observations minus the com-\nputed code and phase, respectively; 퐮s\nr denotes the unit direc-\ntion vector from the satellite to the receiver; 퐱 is the vector \nof the receiver position increment; and dZWD represents the \nzenith wet delay.",
+    "char_length": 305
+  },
+  {
+    "quote_id": "qb_56ff3ecfda",
+    "span_index": 84,
+    "text": "The unknown parameters, including the \nreceiver position, clock offset, phase ambiguity and zenith \nwet delay, can be estimated with a Kalman filter.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_64931b455f",
+    "span_index": 85,
+    "text": "Real‑time earthquake source inversion \nwith PPP‑B2b displacements\nStudies have confirmed that the earthquake magnitude \ninverted with the GNSS peak ground displacement (PGD) \ndoes not undergo magnitude saturation.",
+    "char_length": 213
+  },
+  {
+    "quote_id": "qb_0b5d9b5f7e",
+    "span_index": 86,
+    "text": "The empirical \n(9)\nts\nB1B3 = ts\nB3 −\nf 2\nB1\nf 2\nB1 −f 2\nB3\nDCBs\nB1B3\n(10)\ñPs\nr,IF = −퐮s\nr ⋅퐱+ ̃tr + ms\nr,ZWD ⋅dZWD + es\nr,PIF\n(11)\ñLs\nr,IF = −퐮s\nr ⋅퐱+ ̃tr + 𝜆IF ̃Ns\nr,IF + ms\nr,ZWD ⋅dZWD + 𝜀s\nr,LIF\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 256
+  },
+  {
+    "quote_id": "qb_bb1ac17cdc",
+    "span_index": 87,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_292a137bb6",
+    "span_index": 88,
+    "text": "GPS Solutions           (2024) 28:26 \n1 3\n   26  \nPage 4 of 13\nrelationship between the PGD and the earthquake mag-\nnitude can be expressed as follows (Crowell et al.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_efa84aba19",
+    "span_index": 89,
+    "text": "2013; \nZang et al.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_16d575eac1",
+    "span_index": 90,
+    "text": "2020):\nwhere MW denotes the earthquake magnitude; R represents \nthe epicentre distance; A , B and C are the regression coef-\nficients with values of − 4.434, 1.047 and − 0.138, respec-\ntively, provided by Melgar et al.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_677641b744",
+    "span_index": 91,
+    "text": "(2015); and Nt , Et and Ut \nindicate the real-time series of the PPP-B2b displacements \nin the north, east and up components, respectively.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_4f5d5bb9d2",
+    "span_index": 92,
+    "text": "For the focal mechanism inversion, we applied the \nfastCMT method (Melgar et al.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_ecb1741abb",
+    "span_index": 93,
+    "text": "2012), where the centroid \nmoment tensor (CMT) is inverted with the real-time static \ncoseismic offsets derived from the GNSS displacements.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_c45863c80c",
+    "span_index": 94,
+    "text": "In this study, we extracted the real-time static coseismic \noffsets by averaging the real-time PPP-B2b displacements \nwith a 30-s sliding window.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_c7f56a321d",
+    "span_index": 95,
+    "text": "The real-time static coseismic \noffset d and the CMT m are related through (Melgar et al.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_cc78269996",
+    "span_index": 96,
+    "text": "2012)\nwhere dk\ni (t) refers to the i th component of the static coseis-\nmic offsets at Station k ; t represents the time epoch; mj \ndenotes the j th component of the CMT; Gk\ni,j is the Green’s \nfunction that relates the j th component of the moment tensor \nto the i th component of the static coseismic offsets, which \ncan be determined by the EDGRN program (Wang et al.",
+    "char_length": 370
+  },
+  {
+    "quote_id": "qb_d3922e62be",
+    "span_index": 97,
+    "text": "2003); and n is the number of GNSS stations.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_7943f7b168",
+    "span_index": 98,
+    "text": "After the inversion of the CMT at each epoch, the fault \nslip distribution inversion will follow shortly with the \nextracted real-time static coseismic offsets on the fault plane \nderived based on the inverted CMT results.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_578942e3fd",
+    "span_index": 99,
+    "text": "The fault length \nand width are set to three times and one time the output \nvalues of the scaling laws developed by Wells and Copper-\nsmith (1994).",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_a75e750973",
+    "span_index": 100,
+    "text": "The entire fault plane is discretized into 8-km \nalong-strike by 6-km down-dip independent small patches, \nand the slips of all patches are linearly inverted with the non-\nnegative least-squares method.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_8e32a8c336",
+    "span_index": 101,
+    "text": "The inverse problem can be \nwritten as follows:\nwhere d denotes the extracted real-time static coseismic \noffsets at epoch t; u represents slips on each patch; and G is \nthe matrix of the Green’s function determined by the Okada \nmode (1985) that relates the unit slip in each patch to the \npermanent ground coseismic offset.",
+    "char_length": 325
+  },
+  {
+    "quote_id": "qb_440ae70b7a",
+    "span_index": 102,
+    "text": "To solve the ill-posed \nproblem in the inversion, Laplacian spatial regularization is \n(12)\nlog10 (PGD) = A + B ⋅MW + C ⋅MW ⋅log10 (R)\n(13)\nPGD = max\n√\nN2\nt + E2\nt + U2\nt\n(14)\ndk\ni (t) = Gk\ni,jmj(t);(i = x, y, z;j = 1, 2, 3, 4, 5;k = 1, 2, 3 … , n)\n(15)\nd(t) = G(t) ⋅u(t)\nused, and the optimal regularization parameter is determined \nby the L-curve method (Zang et al.",
+    "char_length": 368
+  },
+  {
+    "quote_id": "qb_2603c11517",
+    "span_index": 103,
+    "text": "Experiment and results analysis\nThe 2021 Mw 7.4 Maduo earthquake occurred in the east-\nern portion of the Tibetan Plateau at 18:04 UTC on May \n21 and was in the centre of the Baya Har block, one of the \nmost active blocks in China.",
+    "char_length": 231
+  },
+  {
+    "quote_id": "qb_0a75a4cee0",
+    "span_index": 104,
+    "text": "This earthquake caused obvi-\nous surface rupture and the west part of the surface rupture \nzone occurred along the pre-existing Kunlun Pass-Jiangcuo \nfault (Wang et al.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_854cfae69b",
+    "span_index": 105,
+    "text": "2021; Pan et al.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_8743037822",
+    "span_index": 106,
+    "text": "2021; Chen et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_3fe498628b",
+    "span_index": 107,
+    "text": "2022; \nRen et al.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_56e1e00a9f",
+    "span_index": 108,
+    "text": "In this study, we utilized the data from \n13 GNSS stations (Fig.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_5bed9f0e41",
+    "span_index": 109,
+    "text": "1) with epicenter distance less than \n200 km to evaluate the performance of the PPP-B2b in real-\ntime earthquake source inversion.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_b13a49dff6",
+    "span_index": 110,
+    "text": "These stations can record \nboth GPS and BDS-3 observations and are of the Crustal \nMovement Observation Network of China (CMONOC), the \nContinuously Operating Reference Stations of Qinghai Prov-\nince in China (CORS) and the China Mobile Communica-\ntions Group Co., Ltd.",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_b21e000a66",
+    "span_index": 111,
+    "text": "The PPP-B2b corrections are collected \nby an FRII-Plus receiver manufactured by Femtomes Tech \n(Beijing) Inc.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_4210935093",
+    "span_index": 112,
+    "text": "We first processed the collected GNSS obser-\nvations with the PPP-B2b positioning model in a simulated \nreal-time model.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_aea68d73ab",
+    "span_index": 113,
+    "text": "For comparison, the GNSS observations \nare also processed with the traditional PPP method, where \nthe final precise orbit and clock products provided by the \nInternational GNSS Service (IGS) Data Centre of Wuhan \nUniversity are used.",
+    "char_length": 233
+  },
+  {
+    "quote_id": "qb_adb6d8d4ea",
+    "span_index": 114,
+    "text": "Then, we inverted the warning magni-\ntude, focal mechanism, and fault slip distribution with the \nderived PPP-B2b displacements.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_2d014a43b3",
+    "span_index": 115,
+    "text": "To analyse the inverted \nresults, the abovementioned earthquake source parameters \nare also inverted with the PPP displacements.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_921b2683ab",
+    "span_index": 116,
+    "text": "Accuracy assessment of the PPP‑B2b displacements \nover a relatively long time\nTo evaluate the performance of the PPP-B2b, we processed \nthe collected GNSS observations with the single BDS-3 \nPPP-B2b positioning model (PPP-B2bC) and the combined \nGPS/BDS-3 PPP-B2b positioning model (PPP-B2bGC).",
+    "char_length": 294
+  },
+  {
+    "quote_id": "qb_06f953f276",
+    "span_index": 117,
+    "text": "For \ncomparison, we also processed the GPS/BDS-3 observations \nwith the traditional PPP method.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_5755d4d476",
+    "span_index": 118,
+    "text": "Four-hour displacements \nfrom 14:00 to 18:00 before the earthquake at Station QHAG \nare presented in Fig.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_4773d4eca2",
+    "span_index": 119,
+    "text": "The displacements of the PPP are \nthe most stable during this period.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_cc2f270aea",
+    "span_index": 120,
+    "text": "Compared with the dis-\nplacements of the PPP-B2bC, the displacements of the PPP-\nB2bGC agree well with those of the PPP.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_c9caac2579",
+    "span_index": 121,
+    "text": "Table 1 shows the \nstatistical standard deviation (STD) values of the displace-\nments of all stations.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_8aa90b2001",
+    "span_index": 122,
+    "text": "It can be found that the STD values of \nthe PPP-B2bGC for the north, east and up components are \n2.0 cm, 2.8 cm and 4.9 cm, respectively, which are larger \nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_51b5c55b4c",
+    "span_index": 123,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_79679590be",
+    "span_index": 124,
+    "text": "GPS Solutions           (2024) 28:26 \t\n1 3\nPage 5 of 13 \n   26 \nthan those of the PPP with the values of the 0.7 cm, 1.3 cm \nand 1.5 cm.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_f469649a40",
+    "span_index": 125,
+    "text": "For the PPP-B2bC, the STD values in the three \ncomponents are 3.6 cm, 4.5 cm and 10.9 cm.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_5b1d6082bc",
+    "span_index": 126,
+    "text": "It is clear that \nthe fusion of the GPS/BDS-3 PPP-B2b can reduce the STD \nvalues when compared with the single BDS-3 PPP-B2b.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_75728b48e8",
+    "span_index": 127,
+    "text": "It \nshould be noted that we do not present the statistical results \nof the single GPS PPP-B2b here, as the GPS PPP-B2b dis-\nplacement causes significant errors due to the shortage of the \nPPP-B2b corrections for some GPS satellites.",
+    "char_length": 232
+  },
+  {
+    "quote_id": "qb_5f16096ccb",
+    "span_index": 128,
+    "text": "Accuracy assessment of the PPP‑B2b displacements \nduring a relatively short time\nIn contrast to the long time period allowed for crustal defor-\nmation monitoring with GNSSs (Meng et al.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_69b7417c48",
+    "span_index": 129,
+    "text": "2019), earth-\nquake ruptures usually last for seconds or minutes; thus, the \nshort-term performance of the PPP-B2b is more important \nwhen the PPP-B2b is used for real-time earthquake source \ndescription.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_d7b738cc35",
+    "span_index": 130,
+    "text": "Here, we divided the four-hour displacements \ninto short periods with a length of 5 min to evaluate the \nshort-term performance of the PPP-B2b.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_926c158172",
+    "span_index": 131,
+    "text": "The statistical STD \nvalues of all short-period displacements for the different \nsolutions are shown in Table 2.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_12c6139c96",
+    "span_index": 132,
+    "text": "Compared with the STD val-\nues of the four-hour displacements in Table 1, the STD val-\nues of the short-period displacements of all solutions show \nan obvious reduction, particularly for the PPP-B2bGC and \nthe PPP-B2bC in the upper component.",
+    "char_length": 242
+  },
+  {
+    "quote_id": "qb_fd5125d7a5",
+    "span_index": 133,
+    "text": "When comparing \nFig.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_16e6823fc0",
+    "span_index": 134,
+    "text": "1   Distribution of the \ncollected GNSS stations (blue \ntriangle).",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_1ac2abbd8d",
+    "span_index": 135,
+    "text": "The red star repre-\nsents the epicentre of the 2021 \nMw 7.4 Maduo earthquake.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_8a6d962327",
+    "span_index": 136,
+    "text": "The black line is the Kunlun \nPass-Jiangcuo fault.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_3f761d3214",
+    "span_index": 137,
+    "text": "The black \nrectangle in the upper-left inset \nmap indicates the location of \nthe Tibetan Plateau, where the \nwhite lines represent secondary \nblock boundaries in and around \nthe Tibetan Plateau and the blue \nrectangle is the location of the \nstudy area\nFig.",
+    "char_length": 257
+  },
+  {
+    "quote_id": "qb_017c80fa19",
+    "span_index": 138,
+    "text": "2   Four-hour displacements derived from the PPP, combined \nGPS/BDS-3 PPP-B2b (PPP-B2bGC) and single BDS-3 PPP-B2b \n(PPP-B2bC) at Station QHAG before the 2021 Mw 7.4 Maduo earth-\nquake\nTable 1   Statistical standard deviation (STD) values of the four-hour \ndisplacements for the different solutions at all GNSS stations (unit: \ncm)\nSolutions\nNorth\nEast\nUp\nPPP\n0.7\n1.3\n1.5\nPPP-B2bGC\n2.0\n2.8\n4.9\nPPP-B2bC\n3.6\n4.5\n10.9\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 472
+  },
+  {
+    "quote_id": "qb_2707e1d54f",
+    "span_index": 139,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_4bbb3864ec",
+    "span_index": 140,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_e90345adca",
+    "span_index": 141,
+    "text": "GPS Solutions           (2024) 28:26 \n1 3\n   26  \nPage 6 of 13\nthe STD values between the different solutions, we found \nthat the STD values of the PPP-B2bGC are much closer \nto those of the PPP in Table 2, and the STD differences \nbetween them are 0.1 cm, 0.1 cm and 0.3 cm for the north, \neast and up components, respectively.",
+    "char_length": 328
+  },
+  {
+    "quote_id": "qb_d3e2a3e070",
+    "span_index": 142,
+    "text": "These results are sig-\nnificantly better than the STD differences between them as \nshown in Table 1, where the corresponding difference values \nare 1.3 cm, 1.5 cm and 3.4 cm, respectively.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_5c19d86461",
+    "span_index": 143,
+    "text": "When com-\nparing the PPP-B2bGC with the PPP-B2bC, it is clear that \nthe STD differences between them as shown in Table 2 are \nsuperior to those in Table 1, and the difference values are \n0.1 cm, 0.2 cm, and 0.3 cm and 1.6 cm, 1.7 cm, and 6.0 cm \nfor Tables 1 and 2, respectively.",
+    "char_length": 279
+  },
+  {
+    "quote_id": "qb_34cf4cb889",
+    "span_index": 144,
+    "text": "All these statistical results \nindicate that the PPP-B2b has better performance during the \nshort term for both the single BDS-3 and the combined GPS/\nBDS-3.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_8344077b02",
+    "span_index": 145,
+    "text": "Compared with the single BDS-3 PPP-B2bC, the \ncombined GPS/BDS-3 PPP-B2bGC reduces the displace-\nment noise at frequencies less than approximately 0.01 Hz \nand greater than approximately 0.03 Hz (Fig.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_25a9f09f8a",
+    "span_index": 146,
+    "text": "Coseismic displacements derived from the PPP‑B2b \nduring the 2021 Mw 7.4 Maduo earthquake\nFigure 3 shows the coseismic displacements derived from \nthe different PPP-B2b solutions at Station QHAG.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_c617dee345",
+    "span_index": 147,
+    "text": "Here, we \nalso presented the coseismic displacements derived from \nthe single GPS PPP-B2b (PPP-B2bG).",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_a532eed238",
+    "span_index": 148,
+    "text": "In the PPP-B2bG \nprocessing, the GPS observations were first processed with \nthe static mode before 18:02.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_79b4a485a6",
+    "span_index": 149,
+    "text": "Then, dynamic processing was \ncarried out to prevent the reconvergence of the displacement \ncaused by the shortage of PPP-B2b corrections.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_1ac4e73a42",
+    "span_index": 150,
+    "text": "As shown in \nFig.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_f531e622a3",
+    "span_index": 151,
+    "text": "3, there are good agreements in the coseismic displace-\nments between the PPP-B2bGC and the PPP for all three \ncomponents.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_8ea36a88ff",
+    "span_index": 152,
+    "text": "Compared with the PPP-B2bC, the PPP-B2bG \nshows more fluctuations, particularly in the upper compo-\nnent, which might be related to the GPS satellite geometry.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_deee6199a6",
+    "span_index": 153,
+    "text": "S3, we can find that the position dilution of the \nprecision (PDOP) of the PPP-B2bG is larger than that of the \nPPP-B2bC and the PPP-B2bGC.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_f8ead03a37",
+    "span_index": 154,
+    "text": "Taking the coseismic displacements from the PPP as a \nreference, we calculated the coseismic displacement errors \nof the other three PPP-B2b solutions by subtracting the \ncoseismic displacements of the PPP from those of the other \nthree PPP-B2b solutions.",
+    "char_length": 255
+  },
+  {
+    "quote_id": "qb_a67eea42b1",
+    "span_index": 155,
+    "text": "The derived error series of the \ndifferent solutions are presented in Fig.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_31cbbd3d80",
+    "span_index": 156,
+    "text": "Moreover, the \nPPP-B2bGC has the smallest errors in all three components \nwhen compared with the other two PPP-B2b solutions.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_7bb462d1a6",
+    "span_index": 157,
+    "text": "The \nerrors of the PPP-B2bG and the PPP-B2bC are compara-\nble in the east component while the PPP-B2bG shows the \nrelatively larger errors in the north and up components.",
+    "char_length": 170
+  },
+  {
+    "quote_id": "qb_44f25b2ef7",
+    "span_index": 158,
+    "text": "When comparing the errors between the different stations, \nit seems that almost all stations show similar variations for \nthe PPP-B2bG and the PPP-B2bC, which might be caused \nby the common mode error related to the satellite geometry.",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_19b0f3cada",
+    "span_index": 159,
+    "text": "Table 3 lists the statistical root mean square errors (RMSEs) \nof the different PPP-B2b solutions, where we can find that \nthe PPP-B2bGC achieves the highest accuracies, with RMSE \nvalues of 0.4 cm, 0.3 cm and 0.4 cm for the north, east and \nup components, respectively.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_2ace51179b",
+    "span_index": 160,
+    "text": "These values are superior to \nthe RMSE values of the PPP-B2bG and the PPP-B2bC.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_242636954b",
+    "span_index": 161,
+    "text": "The \nRMSE values of the PPP-B2bGC are 50%, 40%, and 71% \nand 20%, 50%, and 56% smaller in the north, east and up \ncomponents than those of the PPP-B2bG and PPP-B2bC, \nrespectively.",
+    "char_length": 180
+  },
+  {
+    "quote_id": "qb_f3579c354f",
+    "span_index": 162,
+    "text": "Magnitude inversion with the PPP‑B2b PGD\nFor the earthquake early warning and the rapid emergency \nresponses, the warning magnitude can be determined with \nthe GNSS PGD in real time, which is defined as the maxi-\nmum value of the coseismic displacements from the origin \ntime of the earthquake to the current epoch.",
+    "char_length": 315
+  },
+  {
+    "quote_id": "qb_5d06970468",
+    "span_index": 163,
+    "text": "At each station, \nwe extracted the PGD at every epoch after the seismic wave \nTable 2   Statistical standard \ndeviation (STD) values of \nthe short-period (5 min) \ndisplacements for the different \nsolutions at all GNSS stations \n(unit: cm)\nSolutions\nNorth\nEast\nUp\nPPP\n0.4\n0.3\n0.8\nPPP-B2bGC\n0.5\n0.4\n1.1\nPPP-B2bC\n0.6\n0.6\n1.4\nFig.",
+    "char_length": 326
+  },
+  {
+    "quote_id": "qb_9bda53b59d",
+    "span_index": 164,
+    "text": "3   Coseismic displacements derived from the PPP, PPP-B2bGC, \nPPP-B2bG and the PPP-B2bC at Station QHAG during the 2021 Mw \n7.4 Maduo earthquake\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 201
+  },
+  {
+    "quote_id": "qb_601937cfe9",
+    "span_index": 165,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_7598d049eb",
+    "span_index": 166,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_280d7ed151",
+    "span_index": 167,
+    "text": "GPS Solutions           (2024) 28:26 \t\n1 3\nPage 7 of 13 \n   26 \narrives at the station with an imaginary velocity of 6 km/s.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_baf5109008",
+    "span_index": 168,
+    "text": "This velocity was used because it approximately corresponds \nto the velocity of the P wave.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_a8cba4590d",
+    "span_index": 169,
+    "text": "The derived PGD series at each \nstation are presented in Fig.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_0fe3a457cc",
+    "span_index": 170,
+    "text": "5, where we can find that the \nPGDs of the PPP, PPP-B2bG, PPP-B2bC and PPP-B2bGC \nare comparable at almost all times.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_7e89a81a9a",
+    "span_index": 171,
+    "text": "Taking the PPP PGDs \nas a reference, the maximum PDG differences for the PPP-\nB2bGC, PPP-B2bG and PPP-B2bC are 0.7 cm, 4.5 cm and \n3.9 cm, respectively.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_e04acfbd87",
+    "span_index": 172,
+    "text": "It is clear that the PPP-B2bGC has bet-\nter performance than the PPP-B2bG and the PPP-B2bC.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_616bda49d1",
+    "span_index": 173,
+    "text": "With the derived PGDs, we calculated the warning \nmagnitude at each epoch, which is the average value of \nthe magnitudes determined with the PGDs at each station \nwith the empirical relationship of (12).",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_3b4f71cf74",
+    "span_index": 174,
+    "text": "Figure 6 presents \nthe time series of the derived magnitudes of the different \nFig.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_4c058ea0b1",
+    "span_index": 175,
+    "text": "4   Coseismic displacement \nerrors of the PPP-B2bG, PPP-\nB2bC and the PPP-B2bGC.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_010a765c8e",
+    "span_index": 176,
+    "text": "For clarity, the errors of the \nPPP-B2bC and the PPP-B2bGC \nare offset in the vertical axis, \nand the different stations are \ndistinguished by the different \ncolours\nTable 3   Statistical coseismic \ndisplacement RMSE values of \nthe PPP-B2bG, PPP-B2bC and \nPPP-B2bGC (unit: cm)\nSolutions\nNorth\nEast\nUp\nPPP-B2bG\n0.8\n0.5\n1.4\nPPP-B2bC\n0.5\n0.6\n0.9\nPPP-B2bGC\n0.4\n0.3\n0.4\nFig.",
+    "char_length": 369
+  },
+  {
+    "quote_id": "qb_cc19f393d6",
+    "span_index": 177,
+    "text": "5   PGDs extracted in real time from the coseismic displacements \nof the PPP, PPP-B2bG, PPP-B2bC and PPP-B2bGC for all GNSS sta-\ntions\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_27bb040d30",
+    "span_index": 178,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_d39c88801e",
+    "span_index": 179,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_a25392dd8e",
+    "span_index": 180,
+    "text": "GPS Solutions           (2024) 28:26 \n1 3\n   26  \nPage 8 of 13\nGNSS solutions.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_014a497cd0",
+    "span_index": 181,
+    "text": "Moreover, we determined that there is good \nagreement between the magnitudes of the PPP and the PPP-\nB2bGC during the entire duration of the earthquake.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_75d464359b",
+    "span_index": 182,
+    "text": "For \nthe PPP-B2bG and the PPP-B2bC, the derived magnitudes \nare slightly larger than that of the PPP before approximately \n40 s, and these relatively larger differences decrease over \ntime.",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_4770bb9bd3",
+    "span_index": 183,
+    "text": "All magnitudes tend to be stable after approximately \n60 s, and the stable magnitudes of the PPP, PPP-B2bG, PPP-\nB2bC and PPP-B2bGC are Mw 7.37, Mw 7.38, Mw 7.38 \nand Mw 7.38, respectively, which are all close to the final \nmagnitude of Mw 7.4.",
+    "char_length": 244
+  },
+  {
+    "quote_id": "qb_5685a154a3",
+    "span_index": 184,
+    "text": "Centroid moment tensor inversion \nwith the real‑time static coseismic offsets derived \nfrom the coseismic displacements of the PPP‑B2b\nReal-time and robust estimation of the centroid moment \ntensor (CMT) is important for assessing the characteristics \nof an earthquake.",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_c23de2219f",
+    "span_index": 185,
+    "text": "Here, we inverted the CMT in a simu-\nlated real-time mode with the fastCMT method.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_55d67e9263",
+    "span_index": 186,
+    "text": "The real-\ntime static coseismic offsets are retrieved by averaging the \ncoseismic displacements with a 30-s sliding window, and \nthe derived real-time static coseismic offsets of the differ-\nent GNSS solutions are presented in Fig.",
+    "char_length": 231
+  },
+  {
+    "quote_id": "qb_b49f32b1e9",
+    "span_index": 187,
+    "text": "Considering \nthe relatively high accuracy of the GNSS displacement in \nthe horizontal component, the relative weight between the \nhorizontal coseismic offsets and the up coseismic offsets is \nset to 3:1.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_01b9803c47",
+    "span_index": 188,
+    "text": "In addition, the stations with epicentre distances \nless than 50 km are extra weighted with a value of two, given \nthe better constraint of the near-field stations on the centroid \ndepth (Zang et al.",
+    "char_length": 199
+  },
+  {
+    "quote_id": "qb_35b1a6c61d",
+    "span_index": 189,
+    "text": "To determine the characteristics of \nthe earthquake source, the inverted CMTs are further decom-\nposed into a better double couple (DC) component and a \ncompensated linear vector dipole component.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_d79de019d0",
+    "span_index": 190,
+    "text": "The percentage of the DC component and the vari-\nance reduction (VR) that illustrates the misfit between \nthe observation and the model prediction are presented \nin Fig.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_abc797bed5",
+    "span_index": 191,
+    "text": "7, where we can find that the percentages of the \nFig.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_d4e3163fbb",
+    "span_index": 192,
+    "text": "6   Time series of the warning magnitudes determined with differ-\nent GNSS PGDs\nFig.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_2b84b7a160",
+    "span_index": 193,
+    "text": "7   Percentages of the better \ndouble couple (DC) component \ndecomposed from the different \nCMT results and the variance \nreductions (VR) of the different \nCMT solutions\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 226
+  },
+  {
+    "quote_id": "qb_26481e22ca",
+    "span_index": 194,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_e95a3e2855",
+    "span_index": 195,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_ca33c1e35a",
+    "span_index": 196,
+    "text": "GPS Solutions           (2024) 28:26 \t\n1 3\nPage 9 of 13 \n   26 \nDC components of all solutions show similar variations \nafter approximately 40 s, and all solutions tend to be sta-\nble after approximately 80 s.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_3f894419cf",
+    "span_index": 197,
+    "text": "The average percentages of \nthe DC components after 80 s for the PPP, PPP-B2bGC, \nPPP-B2bG, and PPP-B2bC are 92%, 95%, 86% and 88%, \nrespectively.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_31f51628bf",
+    "span_index": 198,
+    "text": "These high DC percentages are indicative of \na good solution for a tectonic earthquake.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_f885636cbc",
+    "span_index": 199,
+    "text": "For the vari-\nance reduction, as shown in Fig.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_4ac6edf875",
+    "span_index": 200,
+    "text": "7, the PPP, PPP-B2bGC \nand PPP-B2bC show good consistency during the whole \nearthquake.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_787aa6c669",
+    "span_index": 201,
+    "text": "For the PPP-B2bG, there are relatively larger \ndifferences in the VR between it and the other solutions \nbefore approximately 40 s, and these differences fade away \ngradually after approximately 60 s.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_b4c3e99d9b",
+    "span_index": 202,
+    "text": "The average VRs after \n80 s for the PPP, PPP-B2bGC, PPP-B2bG, and PPP-B2bC \nare 92%, 93%, 91% and 92%, respectively.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_8885e7f75f",
+    "span_index": 203,
+    "text": "Both sets of \nresults show good fits to the data.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_3f6c95d037",
+    "span_index": 204,
+    "text": "Figure 8 illustrates the focal mechanisms derived from \nthe different CMT results.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_759dc4fdeb",
+    "span_index": 205,
+    "text": "We found that the focal mecha-\nnisms derived from the different CMT results are similar \nafter approximately 40 s, and it can be basically deter-\nmined that this earthquake was a strike-slip event after \napproximately 40 s based on the derived results.",
+    "char_length": 252
+  },
+  {
+    "quote_id": "qb_d158f51b78",
+    "span_index": 206,
+    "text": "Table 4 \ncompares the nodal planes derived from the focal mecha-\nnisms of the different agencies, where the results of the \nPPP-B2bGC, PPP-B2bG and the PPP-B2bC are the aver-\nage values of the nodal planes determined after the 80 s.",
+    "char_length": 232
+  },
+  {
+    "quote_id": "qb_42cf6beef2",
+    "span_index": 207,
+    "text": "It \nis seen that the two nodal planes of the PPP-B2bGC, PPP-\nB2bG and the PPP-B2bC are essentially in good agree-\nments with that of the PPP, and they are all close to the \nresult of Zhang and Xu (2021) except the rake in Nodal \nPlane 1 and the dip in Nodal Plane 2.",
+    "char_length": 266
+  },
+  {
+    "quote_id": "qb_202217a41d",
+    "span_index": 208,
+    "text": "Fault slip distribution inversion with the real‑time \nstatic coseismic offsets derived from the coseismic \ndisplacements of the PPP‑B2b\nThe fault slip distribution inversions are carried out at each \nepoch when the focal mechanisms are available.",
+    "char_length": 246
+  },
+  {
+    "quote_id": "qb_acf5ac47d0",
+    "span_index": 209,
+    "text": "We inverted \nthe fault slips on both nodal planes, and the plane with the \nlargest variance reduction was selected as the fault plane of \nthis epoch.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_a5e76823cc",
+    "span_index": 210,
+    "text": "In the inversion, the relative weight between the \nhorizontal coseismic offsets and the up coseismic offsets \nwas also set to 3:1.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_ee10419d2c",
+    "span_index": 211,
+    "text": "The fault slip distributions inverted at \nevery epoch with the static coseismic offsets of the PPP, \nPPP-B2bGC, PPP-B2bG and PPP-B2bC are presented in \nMove.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_7743c3c48b",
+    "span_index": 212,
+    "text": "S4, respectively.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_15bdfe6315",
+    "span_index": 213,
+    "text": "Furthermore, we determined that the fault planes deter-\nmined with the different GNSS solutions change slightly \nFig.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_d0d77bef74",
+    "span_index": 214,
+    "text": "8   Focal mechanisms \nderived from the CMT results \ninverted with the different static \ncoseismic offsets.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_1130d99691",
+    "span_index": 215,
+    "text": "For clarity, \nthe focal mechanisms are dis-\nplayed with an interval of 10 s\nTable 4   Nodal planes derived from the focal mechanisms of the \nglobal centroid moment tensor project (GCMT), U.S.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_a46db05566",
+    "span_index": 216,
+    "text": "geological sur-\nvey (USGS) and this study\nSolutions\nNodal Plane 1 Strike°/\nDip°/Rake°\nNodal Plane 2 \nStrike°/Dip°/\nRake°\nGCMT\n282/83/− 9\n13/81/− 173\nUSGS\n99/79/− 38\n197/53/− 166\nZhang and Xu (2021)\n281/88/1\n191/89/178\nPPP\n278/80/28\n183/63/169\nPPP-B2bGC\n279/80/34\n182/56/168\nPPP-B2bG\n279/82/24\n185/66/171\nPPP-B2bC\n277/83/33\n183/58/172\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 390
+  },
+  {
+    "quote_id": "qb_bdd4b05095",
+    "span_index": 217,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_6cde9c53cb",
+    "span_index": 218,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_45197b4fb5",
+    "span_index": 219,
+    "text": "GPS Solutions           (2024) 28:26 \n1 3\n   26  \nPage 10 of 13\nFig.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_c380813cec",
+    "span_index": 220,
+    "text": "9   Fault slip distribu-\ntions inverted with the static \ncoseismic offsets of the PPP, \nPPP-B2bGC, PPP-B2bG, and \nPPP-B2bC at 100 s after the \nearthquake\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 210
+  },
+  {
+    "quote_id": "qb_f8596cec34",
+    "span_index": 221,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_42a6ab5364",
+    "span_index": 222,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_e1152aca27",
+    "span_index": 223,
+    "text": "GPS Solutions           (2024) 28:26 \t\n1 3\nPage 11 of 13 \n   26 \nafter approximately 40 s, and the fault slip distributions \ninverted with the different static coseismic offsets are also \ncomparable.",
+    "char_length": 199
+  },
+  {
+    "quote_id": "qb_9f90143617",
+    "span_index": 224,
+    "text": "Taking the fault slips inverted with the different \nstatic coseismic offsets at 100 s as an example, we found that \nthe fault slip distributions of the PPP-B2bGC, PPP-B2bG \nand PPP-B2bC are all in good agreement with that of the \nPPP (Fig.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_cbea57344a",
+    "span_index": 225,
+    "text": "All inverted results show that this earthquake \nruptures the ground surface.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_11e1724619",
+    "span_index": 226,
+    "text": "There are mainly two rupture \nareas in the fault, and most ruptures clustered in the east \nsegment of the fault with maximum slips of 3.9 m, 4.0 m, \n3.9 m and 3.8 m for the PPP, PPP-B2bGC, PPP-B2bG and \nPPP-B2bC, respectively.",
+    "char_length": 226
+  },
+  {
+    "quote_id": "qb_950d2e9e28",
+    "span_index": 227,
+    "text": "The variance reductions of the four \nfault slip models are 90%, 91%, 89% and 89%, respectively, \nwith both sets of results showing good fits to the data.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_b5f053097e",
+    "span_index": 228,
+    "text": "The \nfinal magnitudes derived from the fault slip models of the \nPPP, PPP-B2bGC and PPP-B2bC are Mw 7.42, Mw 7.43 \nand Mw 7.42, respectively.",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_6ce1c092ec",
+    "span_index": 229,
+    "text": "For the PPP-B2bG, the derived \nmagnitude is Mw 7.46, which is slightly higher than that of \nthe other three models.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_023995da31",
+    "span_index": 230,
+    "text": "This is because the static coseismic \noffset accuracy of the PPP-B2bG is slightly worse than those \nof the other solutions and leads to more small slips (Fig.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_f7ff76b714",
+    "span_index": 231,
+    "text": "9c) \nin the western boundary of the fault plane that may not exist.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_24204c53fd",
+    "span_index": 232,
+    "text": "Conclusions\nIn this study, we evaluated the performance of the PPP-B2b \nfor real-time earthquake source description with GNSS \nobservations measured during the 2021 Mw 7.4 Maduo \nearthquake.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_260f4739be",
+    "span_index": 233,
+    "text": "The results indicate that the PPP-B2b performs \nbetter during the short term.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_320033f9a2",
+    "span_index": 234,
+    "text": "The STD values of the PPP-\nB2bGC displacements during the 5 min are 0.5 cm, 0.4 cm \nand 1.1 cm for the north, east and up components, respec-\ntively, which are slightly larger than the STD values of the \nPPP displacements.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_79e53fe384",
+    "span_index": 235,
+    "text": "Taking the coseismic displacements \nof the PPP as a reference, the PPP-B2bGC can be used to \nretrieve real-time coseismic displacements with accuracies \nof 0.4 cm, 0.3 cm and 0.4 cm for the three components, \nrespectively, which are superior to those of the PPP-B2bC \nand PPP-B2bG.",
+    "char_length": 281
+  },
+  {
+    "quote_id": "qb_1dffae7d8e",
+    "span_index": 236,
+    "text": "For the PPP-B2bG, although the accu-\nracy of the horizontal coseismic displacement is less than \n1.0 cm, it should be noted that the GPS observations were \nprocessed with the static mode before the earthquake.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_14297385c5",
+    "span_index": 237,
+    "text": "In the \nrealistic dynamic environment, the PPP-B2bG might show \npoor performance due to the influence of the shortage of the \nPPP-B2b corrections, which might be improved with the \nimprovement of the generation strategy of the PPP-B2b cor-\nrections in the future.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_764b858b35",
+    "span_index": 238,
+    "text": "For the earthquake source description, \nwe determined that the inverted real-time warning magni-\ntudes, focal mechanisms and fault slip distributions of the \nPPP-B2bGC, PPP-B2bC and PPP-B2bG are all very close to \nthose of PPP.",
+    "char_length": 227
+  },
+  {
+    "quote_id": "qb_a0b5c19ad3",
+    "span_index": 239,
+    "text": "Thus, we conclude that the PPP-B2b has great \npotential to be used for providing earthquake early warning \nand real-time earthquake source descriptions.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_2b99a285ef",
+    "span_index": 240,
+    "text": "However, we \nneed to note that we only validated the possibility of the \nPPP-B2b being used for large earthquake source descriptions \nin this study.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_9acf42d671",
+    "span_index": 241,
+    "text": "Whether the PPP-B2b has good performance \non real-time earthquake source descriptions for middle or \neven small earthquakes needs to be validated further.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_e85378b062",
+    "span_index": 242,
+    "text": "In \naddition, the PPP-B2b corrections for GPS are incomplete \nand are currently unavailable for Galileo and GLONASS.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_622afb2a95",
+    "span_index": 243,
+    "text": "With increasing PPP-B2b corrections, the accuracy and reli-\nability of the inverted real-time earthquake source might be \nfurther improved.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_1c6c96bb84",
+    "span_index": 244,
+    "text": "Supplementary Information  The online version contains supplemen-\ntary material available at https://​doi.​org/​10.​1007/​s10291-​023-​01570-x.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_859899ec2c",
+    "span_index": 245,
+    "text": "Acknowledgements  This work is co-supported by the Qingdao Natu-\nral Science Foundation (23-2-1-70-zyyd-jch), the Shandong Provin-\ncial Natural Science Foundation (ZR202211210055), the Fundamen-\ntal Research Funds for the Central Universities (22CX06034A) and \nthe key project of the National Natural Science Foundation of China \n(42130101).",
+    "char_length": 341
+  },
+  {
+    "quote_id": "qb_64493e3721",
+    "span_index": 246,
+    "text": "The authors acknowledge the Crustal Movement Obser-\nvation Network Of China (CMONOC), the Continuously Operating \nReference Stations of Qinghai Province in China (CORS) and the \nChina Mobile Communications Group Co., Ltd.",
+    "char_length": 221
+  },
+  {
+    "quote_id": "qb_b26df90b4f",
+    "span_index": 247,
+    "text": "for providing GNSS \nobservations.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_54d55726d1",
+    "span_index": 248,
+    "text": "Author contributions  JZ performed the data processing and wrote the \nmanuscript.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_cd32ea7327",
+    "span_index": 249,
+    "text": "SF contributed to the experimental design, analysis and \nproof-read the manuscript.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_89bbd8c1fb",
+    "span_index": 250,
+    "text": "CX provided the advice and guidance for \nthe results analysis.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_72a14b3368",
+    "span_index": 251,
+    "text": "ZL contributed to the GNSS data collection and \nprocessing.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_252b498f2c",
+    "span_index": 252,
+    "text": "RF and YL contributed to the recovery of the precise satel-\nlite orbit and clock offsets with the PPP-B2b corrections.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_6695568865",
+    "span_index": 253,
+    "text": "Data availability  The final precise orbit and clock products from the \nWuhan University can be obtained at ftp://​igs.​gnssw​hu.​cn/​pub/.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_fa6becd1b8",
+    "span_index": 254,
+    "text": "The \nGNSS observations from the CMONOC, the CORS and the China \nMobile Communications Group Co., Ltd.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_40c5fac6e7",
+    "span_index": 255,
+    "text": "can be obtained under \npermission.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_3ff073f600",
+    "span_index": 256,
+    "text": "Declarations \nConflict of interest  The authors declare no conflicts of interest.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_96d5c9a7b4",
+    "span_index": 257,
+    "text": "References\nAllen R, Alon Z (2011) Application of real-time GPS to earthquake \nearly warning.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_d8f61e2a0b",
+    "span_index": 258,
+    "text": "Geophys Res Lett 38(16):L16310.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_eb1e63259a",
+    "span_index": 259,
+    "text": "https://​doi.​org/​\n10.​1029/​2011G​L0479​47\nChen K, Avouac J, Geng J, Liang C, Zhang Z, Li Z, Zhang S (2022) \nThe 2021 Mw 7.4 Madoi earthquake: an archetype bilateral \nslip-pulse rupture arrested at a splay fault.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_f692b1a624",
+    "span_index": 260,
+    "text": "Geophys Res Lett \n49(2):e2021GL095243.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_568c8a91e9",
+    "span_index": 261,
+    "text": "https://​doi.​org/​10.​1029/​2021G​L0952​43\nCrowell BW, Melgar D, Bock Y, Haase JS, Geng J (2013) Earthquake \nmagnitude scaling using seismogeodetic data.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_dd5e54ce0f",
+    "span_index": 262,
+    "text": "Geophys Res Lett \n40(23):6089–6094.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_3c42d24e4a",
+    "span_index": 263,
+    "text": "https://​doi.​org/​10.​1002/​2013G​L0583​91\nCSNO (2020) BeiDou Navigation Satellite System Signal In: Space \nInterface Control Document Precise Point Positioning Service \nSignal PPP-B2b (Version 1.0)\nFang R, Lv H, Hu Z, Wang G, Zheng J, Zhou R, Xiao K, Li M, Liu J \n(2022) GPS/BDS precise point positioning with B2b products for \nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 386
+  },
+  {
+    "quote_id": "qb_43c7fc8005",
+    "span_index": 264,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_8a94e90806",
+    "span_index": 265,
+    "text": "GPS Solutions           (2024) 28:26 \n1 3\n   26  \nPage 12 of 13\nhigh-rate seismogeodesy: application to the 2021 Mw 7.4 Maduo \nearthquake.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_9036886aa0",
+    "span_index": 266,
+    "text": "Geophys J Int 231(3):2079–2090.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_ae6bd1ef25",
+    "span_index": 267,
+    "text": "https://​doi.​org/​10.​\n1093/​gji/​ggac3​11\nGe Y, Cao X, Lyu D, He Z, Ye F, Xiao G, Shen F (2023) An investiga-\ntion of PPP time transfer via BDS-3 PPP-B2b service.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_1bd2c8a3b0",
+    "span_index": 268,
+    "text": "GPS Solut \n27:61.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_f4462f0a26",
+    "span_index": 269,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​023-​01402-y\nGeng J, Jiang P, Liu J (2017) Integrating GPS with GLONASS for \nhigh-rate seismogeodesy.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_0e005480ad",
+    "span_index": 270,
+    "text": "Geophys Res Lett 44(7):3139–3146.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_c31b82130b",
+    "span_index": 271,
+    "text": "https://​doi.​org/​10.​1002/​2017G​L0728​08\nGeng T, Li Z, Xie X, Liu W, Li Y, Zhao Q (2022) Real-time ocean \nprecise point positioning with BDS-3 service signal PPP-B2b.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_05d84516c7",
+    "span_index": 272,
+    "text": "Measurement 203:111911.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_7a8abe1512",
+    "span_index": 273,
+    "text": "https://​doi.​org/​10.​1016/j.​measu​rement.​\n2022.​111911\nGoldberg D, Melgar D, Sahakian V, Thomas A, Xu X, Crowell B, Geng \nJ (2020) Complex rupture of an immature fault zone: a simulta-\nneous kinematic model of the 2019 Ridgecrest CA earthquakes.",
+    "char_length": 249
+  },
+  {
+    "quote_id": "qb_a07bdb5c7e",
+    "span_index": 274,
+    "text": "Geophys Res Lett 47:e2019GL086382.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_762ea5a917",
+    "span_index": 275,
+    "text": "https://​doi.​org/​10.​1029/​\n2019G​L0863​82\nHadas T, Bosy J (2015) IGS RTS precise orbits and clocks verifica-\ntion and quality degradation over time.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_47dfe39aec",
+    "span_index": 276,
+    "text": "GPS Solut 19(1):93–105.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_57ddbd0e33",
+    "span_index": 277,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​014-​0369-5\nLarson K, Bodin P, Gomberg J (2003) Using 1 Hz GPS data to meas-\nure deformations caused by the Denali fault earthquake.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_a88cd688ad",
+    "span_index": 278,
+    "text": "Science \n300(5624):1421–1424.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_69f0ef327d",
+    "span_index": 279,
+    "text": "https://​doi.​org/​10.​1126/​scien​ce.​10845​31\nLeick A, Rapoport L, Tatarnikov D (2015) GPS satellite surveying.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_98aa823720",
+    "span_index": 280,
+    "text": "Wiley, Hoboken\nLi X, Zheng K, Li X, Liu G, Ge M, Wickert J, Schuh H (2019) Real-\ntime capturing of seismic waveforms using high-rate BDS, GPS \nand GLONASS observations: the 2017 Mw 6.5 Jiuzhaigou earth-\nquake in China.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_688e82f93e",
+    "span_index": 281,
+    "text": "GPS Solut 23(1):17.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_b61686fe6b",
+    "span_index": 282,
+    "text": "https://​doi.​org/​10.​1007/​\ns10291-​018-​0808-9\nMelgar D, Bock Y, Crowell BW (2012) Real-time centroid moment \ntensor determination for large earthquakes from local and regional \ndisplacement records.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_123606ffcf",
+    "span_index": 283,
+    "text": "Geophys J Int 188(2):703–718.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_60268966c3",
+    "span_index": 284,
+    "text": "https://​doi.​\norg/​10.​1111/j.​1365-​246X.​2011.​05297.x\nMelgar D, Crowell BW, Geng J, Allen RM, Bock Y, Riquelme S, Hill \nEM, Protti M, Ganas A (2015) Earthquake magnitude calculation \nwithout saturation from the scaling of peak ground displacement.",
+    "char_length": 251
+  },
+  {
+    "quote_id": "qb_0cc7d7f8aa",
+    "span_index": 285,
+    "text": "Geophys Res Lett 42(13):5197–5205.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_8999c6412a",
+    "span_index": 286,
+    "text": "https://​doi.​org/​10.​1002/​\n2015G​L0642​78\nMeng G, Su X, Wu W, Nikolay S, Takahashi H, Ohzono M, Gerasi-\nmenko M (2019) Crustal deformation of the Northeastern China \nafter the 2011 Tohoku, Japan Mw 9.0 earthquake estimated from \nGPS observations: strain heterogeneity and seismicity.",
+    "char_length": 286
+  },
+  {
+    "quote_id": "qb_5d1ef38c8b",
+    "span_index": 287,
+    "text": "Remote \nSens 11(24):3029.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_8bf93fa6c4",
+    "span_index": 288,
+    "text": "https://​doi.​org/​10.​3390/​rs112​43029\nMinson S, Murray JR, Langbein JO, Gomberg JS (2014) Real-time \ninversions for finite fault slip models and rupture geometry based \non high-rate GPS data.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_1208c9942f",
+    "span_index": 289,
+    "text": "J Geophys Res Solid Earth 119(4):3201–\n3231.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_b90d3c4b41",
+    "span_index": 290,
+    "text": "https://​doi.​org/​10.​1002/​2013J​B0106​22\nMiyazaki S, Larson K, Choi K, Hikima K, Koketsu K, Bodin P, Haase \nJ, Emore G, Yamagiwa A (2004) Modeling the rupture process of \nthe 2003 September 25 Tokachi-Oki (Hokkaido) earthquake using \n1-Hz GPS data.",
+    "char_length": 251
+  },
+  {
+    "quote_id": "qb_b5eebb415b",
+    "span_index": 291,
+    "text": "Geophys Res Lett 31:L21603.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_ca8292b428",
+    "span_index": 292,
+    "text": "https://​doi.​org/​10.​\n1029/​2004G​L0214​57\nNie Z, Xu X, Wang Z, Du J (2021) Initial assessment of BDS PPP-B2b ser-\nvice: precision of orbit and clock corrections, and PPP performance.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_95898e42a1",
+    "span_index": 293,
+    "text": "Remote Sens 13(11):2050.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_1d3f7b80f7",
+    "span_index": 294,
+    "text": "https://​doi.​org/​10.​3390/​rs131​12050\nOkada Y (1985) Surface deformation due to shear and tensile faults in \na half-space.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_2e00f500b6",
+    "span_index": 295,
+    "text": "Bull Seismol Soc Am 75(4):1135–1154.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_15539e134d",
+    "span_index": 296,
+    "text": "https://​doi.​\norg/​10.​1785/​BSSA0​75004​1135\nPan J, Bai M, Li C, Liu F, Li H, Liu D, Chevalier ML, Wu K, Wang \nP, Lu H, Chen P, Li C (2021) Coseismic surface rupture and \nseismogenic structure of the 2021–05–22 Maduo (Qinghai) Ms \n7.4 earthquake.",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_6645889952",
+    "span_index": 297,
+    "text": "Acta Geol Sin 95(6):1655–1670.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_da510217c0",
+    "span_index": 298,
+    "text": "https://​doi.​org/​\n10.​19762/j.​cnki.​dizhi​xuebao.​20211​66\nRen Z, Gong H, Peng J, Tang C, Huang X, Sun G (2021) Perfor-\nmance assessment of real-time precise point positioning using \nBDS PPP-B2b service signal.",
+    "char_length": 213
+  },
+  {
+    "quote_id": "qb_f8946f6425",
+    "span_index": 299,
+    "text": "Adv Space Res 68(8):3242–3254.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_ebdf486640",
+    "span_index": 300,
+    "text": "https://​doi.​org/​10.​1016/j.​asr.​2021.​06.​006\nRen J, Xu X, Zhang G, Wang Q, Zhang Z, Gai H, Kang W (2022) \nCoseismic surface ruptures, slip distribution, and 3D seismo-\ngenic fault for the 2021 Mw 7.3 Maduo earthquake, central \nTibetan Plateau, and its tectonic implications.",
+    "char_length": 279
+  },
+  {
+    "quote_id": "qb_9ad7fa04e2",
+    "span_index": 301,
+    "text": "Tectonophysics \n827:229275.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_0b77692a26",
+    "span_index": 302,
+    "text": "https://​doi.​org/​10.​1016/j.​tecto.​2022.​229275\nSun S, Wang M, Liu C, Meng X, Ji R (2023) Long-term performance \nanalysis of BDS-3 precise point positioning (PPP-B2b) service.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_fc090e910b",
+    "span_index": 303,
+    "text": "GPS Solut 27:69.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_e6d7552bd8",
+    "span_index": 304,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​023-​01409-5\nTang C, Hu X, Chen J, Liu L, Zhou S, Guo R, Li X, He F, Liu J, Yang \nJ (2022) Orbit determination, clock estimation and performance \nevaluation of BDS-3 PPP-B2b service.",
+    "char_length": 219
+  },
+  {
+    "quote_id": "qb_db059d630a",
+    "span_index": 305,
+    "text": "https://​\ndoi.​org/​10.​1007/​s00190-​022-​01642-9\nTao J, Liu J, Hu Z, Zhao Q, Chen G, Ju B (2021) Initial assessment of \nthe BDS-3 PPP-B2b RTS compared with the CNES RTS.",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_725d403f62",
+    "span_index": 306,
+    "text": "GPS \nSolut 25(4):131.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_c0030e293e",
+    "span_index": 307,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​021-​01168-1\nWang R, Martin F, Roth F (2003) Computation of deformation \ninduced by earthquakes in a multi-layered elastic crust: FOR-\nTRAN programs EDGRN/EDCMP.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_cdd97abfcb",
+    "span_index": 308,
+    "text": "Comput Geosci 29(2):195–\n207.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_92d882ecf7",
+    "span_index": 309,
+    "text": "https://​doi.​org/​10.​1016/​S0098-​3004(02)​00111-5\nWang W, Fang L, Wu J, Tu H, Chen L, Lai G, Zhang L (2021) \nAftershock sequence relocation of the 2021 Ms7.4 Maduo \nEarthquake.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_1c361559e8",
+    "span_index": 310,
+    "text": "Qinghai China Sci China Earth Sci 64:1371–1380.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_d133339c91",
+    "span_index": 311,
+    "text": "https://​doi.​org/​10.​1007/​s11430-​021-​9803-3\nWells B, Coppersmith K (1994) New empirical relationships among \nmagnitude, rupture length, rupture width, rupture area, and \nsurface displacement.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_0a210ad578",
+    "span_index": 312,
+    "text": "Bull Seismol Soc Am 84(4):974–1002\nWen Y, Xiao Z, He P, Zang J, Liu Y, Xu C (2021) Source characteris-\ntics of the 2020 Mw 7.4 Oaxaca, Mexico, earthquake estimated \nfrom GPS, InSAR, and teleseismic waveforms.",
+    "char_length": 208
+  },
+  {
+    "quote_id": "qb_b2e077643d",
+    "span_index": 313,
+    "text": "Seismol Res Lett \n92(3):1900–1912.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_018158f6a5",
+    "span_index": 314,
+    "text": "https://​doi.​org/​10.​1785/​02202​00313\nXu P, Shi C, Fang R, Liu J, Niu X, Zhang Q, Yanagidani T (2013) \nHigh-rate precise point positioning (PPP) to measure seismic \nwave motions: an experimental comparison of GPS PPP with \ninertial measurement units.",
+    "char_length": 253
+  },
+  {
+    "quote_id": "qb_51ca125246",
+    "span_index": 315,
+    "text": "J Geod 87(4):361–372.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_d7ff008c64",
+    "span_index": 316,
+    "text": "https://​doi.​\norg/​10.​1007/​s00190-​012-​0606-z\nXu Y, Yang Y, Li J (2021) Performance evaluation of BDS-3 PPP-\nB2b precise point positioning service.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_4bbb327321",
+    "span_index": 317,
+    "text": "GPS Solut 25(4):142.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_82e6fc5efa",
+    "span_index": 318,
+    "text": "https://​doi.​org/​10.​1007/​s10291-​021-​01175-2\nXu X, Nie Z, Wang Z, Zhang Y, Dong L (2023) An improved \nBDS-3 PPP-B2b positioning approach by estimating signal in \nspace range errors.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_41f112d165",
+    "span_index": 319,
+    "text": "GPS Solut 27:110.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_e32f6176d3",
+    "span_index": 320,
+    "text": "https://​doi.​org/​10.​1007/​\ns10291-​023-​01455-z\nYang Y, Liu L, Li J, Yang Y, Zhang T, Mao Y, Sun B, Ren X \n(2021) Featured services and performance of BDS-3.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_b81cd1bf42",
+    "span_index": 321,
+    "text": "Sci Bull \n66(20):2135–2143.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_bfbf899d16",
+    "span_index": 322,
+    "text": "https://​doi.​org/​10.​1016/j.​scib.​2021.​06.​013\nYang Y, Ding Q, Gao W, Li J, Xu Y, Sun B (2022) Principle and \nperformance of BDSBAS and PPP-B2b of BDS-3.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_be19b52240",
+    "span_index": 323,
+    "text": "Satell Navig \n3:5.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_07bb68262c",
+    "span_index": 324,
+    "text": "https://​doi.​org/​10.​1186/​s43020-​022-​00066-2\nYang H, He X, Ferreira V, Ji S, Xu Y, Song S (2023) Assessment \nof precipitable water vapor retrieved from precise point posi-\ntioning with PPP-B2b service.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_3bc7ee3848",
+    "span_index": 325,
+    "text": "Earth Sci Inform 16:315–328.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_fed902fd1c",
+    "span_index": 326,
+    "text": "https://​doi.​org/​10.​1007/​s12145-​023-​00939-3\nZang J, Xu C, Li X (2020) Scaling earthquake magnitude in real \ntime with high-rate GNSS peak ground displacement from vari-\nometric approach.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_b25b88fd77",
+    "span_index": 327,
+    "text": "GPS Solut 24:101.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_1fd70122be",
+    "span_index": 328,
+    "text": "https://​doi.​org/​10.​1007/​\ns10291-​020-​01013-x\nZang J, Wen Y, Li Z, Xu C, He K, Zhang P, Wen G, Fan S (2022) \nRapid source models of the 2021 Mw 7.4 Maduo, China, \nearthquake inferred from high-rate BDS3/2, GPS, Galileo and \nGLONASS observations.",
+    "char_length": 250
+  },
+  {
+    "quote_id": "qb_90e8ef90a5",
+    "span_index": 329,
+    "text": "https://​doi.​org/​10.​1007/​\ns00190-​022-​01641-w\nContent courtesy of Springer Nature, terms of use apply.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_16f0da473f",
+    "span_index": 330,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_d97dc98e8c",
+    "span_index": 331,
+    "text": "GPS Solutions           (2024) 28:26 \t\n1 3\nPage 13 of 13 \n   26 \nZhang Z, Xu L (2021) The centroid moment tensor solution of the \n2021 Mw7.5 Maduo, Qinghai, earthquake.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_43fe3150b8",
+    "span_index": 332,
+    "text": "Acta Seismol Sin \n43(3):387–391.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_3f6e1582ea",
+    "span_index": 333,
+    "text": "https://​doi.​org/​10.​11939/​jass.​20210​079\nZhang W, Lou Y, Song W, Sun W, Zou X, Gong X (2022) Initial assess-\nment of BDS-3 precise point positioning service on GEO B2b \nsignal.",
+    "char_length": 181
+  },
+  {
+    "quote_id": "qb_cae727dd4a",
+    "span_index": 334,
+    "text": "Adv Space Res 69(1):690–700.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_24dcea3096",
+    "span_index": 335,
+    "text": "https://​doi.​org/​10.​1016/j.​\nasr.​2021.​09.​006\nPublisher's Note  Springer Nature remains neutral with regard to \njurisdictional claims in published maps and institutional affiliations.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_7bd3e97753",
+    "span_index": 336,
+    "text": "Springer Nature or its licensor (e.g.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_389640574f",
+    "span_index": 337,
+    "text": "a society or other partner) holds \nexclusive rights to this article under a publishing agreement with the \nauthor(s) or other rightsholder(s); author self-archiving of the accepted \nmanuscript version of this article is solely governed by the terms of \nsuch publishing agreement and applicable law.",
+    "char_length": 298
+  },
+  {
+    "quote_id": "qb_384142dbc0",
+    "span_index": 338,
+    "text": "Jianfei Zang   received his Ph.D.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_5860a18923",
+    "span_index": 339,
+    "text": "in Geodesy at Wuhan University.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_d349a77be5",
+    "span_index": 340,
+    "text": "The focus of his current research \nlies in the real-time GNSS posi-\ntioning and seismology.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_ba87d1a1a8",
+    "span_index": 341,
+    "text": "Shijie Fan   received his Ph.D.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_805236ab94",
+    "span_index": 342,
+    "text": "in \nGeodesy at Wuhan University \nand is an associate professor at \nthe China University of Petro-\nleum (East China).",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_cf7d09c526",
+    "span_index": 343,
+    "text": "His research \ninterests are in the GNSS data \nprocessing and application.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_79d9701c2c",
+    "span_index": 344,
+    "text": "Caijun Xu   received his Ph.D.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_e1dfe04df4",
+    "span_index": 345,
+    "text": "in \nGeodesy at Wuhan University \nand is currently a professor at \nSchool of Geodesy and Geomat-\nics, Wuhan University.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_6ac720c057",
+    "span_index": 346,
+    "text": "His \nresearch interests are in the \nGeodesy and Seismology.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_3b4a765ba7",
+    "span_index": 347,
+    "text": "Zhicai Li   received his Ph.D.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_6a31155561",
+    "span_index": 348,
+    "text": "in \nGeodesy at Wuhan University \nand is currently a professor at \nChina University of Mining and \nTechnology-Beijing.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_251ff9e9d6",
+    "span_index": 349,
+    "text": "His \nresearch interests are in the \nGeodesy and Seismology.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_f9222e70df",
+    "span_index": 350,
+    "text": "Rongxin Fang   received his Ph.D.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_c5235ae3d6",
+    "span_index": 351,
+    "text": "in Geodesy from Wuhan Univer-\nsity in 2010 and is currently a \nprofessor at GNSS Research \nCenter, Wuhan University.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_273ac3a6c4",
+    "span_index": 352,
+    "text": "His \ncurrent research interests are in \nthe GNSS high-precision posi-\ntioning and multi-sensor fusion.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_753588d1c4",
+    "span_index": 353,
+    "text": "Yidong Lou   received his Ph.D.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_b980181006",
+    "span_index": 354,
+    "text": "in Geodesy and Surveying Engi-\nneering from Wuhan University \nin 2008 and is currently a profes-\nsor at GNSS Research Center, \nWuhan University.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_a274d45c9f",
+    "span_index": 355,
+    "text": "His current \nresearch interests are in the real-\ntime precise GNSS orbit deter-\nmination and real-time GNSS \nPPP.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_b3a9a42d15",
+    "span_index": 356,
+    "text": "Content courtesy of Springer Nature, terms of use apply.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_3f3eee7609",
+    "span_index": 357,
+    "text": "Rights reserved.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_0e0f9af213",
+    "span_index": 358,
+    "text": "> [6 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_17383eb67d",
+    "span_index": 359,
+    "text": "Terms and Conditions\n \nSpringer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH (“Springer Nature”).",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_f2bcf2c5b4",
+    "span_index": 360,
+    "text": "Springer Nature supports a reasonable amount of sharing of  research papers by authors, subscribers and authorised users (“Users”), for small-\nscale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained.",
+    "char_length": 276
+  },
+  {
+    "quote_id": "qb_b7d38b8996",
+    "span_index": 361,
+    "text": "By\naccessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use (“Terms”).",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_03717e5c40",
+    "span_index": 362,
+    "text": "For these\npurposes, Springer Nature considers academic use (by researchers and students) to be non-commercial.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_c5985ae7df",
+    "span_index": 363,
+    "text": "These Terms are supplementary and will apply in addition to any applicable website terms and conditions, a relevant site licence or a personal\nsubscription.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_c73244e50b",
+    "span_index": 364,
+    "text": "These Terms will prevail over any conflict or ambiguity with regards to the relevant terms, a site licence or a personal subscription\n(to the extent of the conflict or ambiguity only).",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_131d9835c2",
+    "span_index": 365,
+    "text": "For Creative Commons-licensed articles, the terms of the Creative Commons license used will\napply.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_6d32b72477",
+    "span_index": 366,
+    "text": "We collect and use personal data to provide access to the Springer Nature journal content.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_e4ad8d8a83",
+    "span_index": 367,
+    "text": "We may also use these personal data internally within\nResearchGate and Springer Nature and as agreed share it, in an anonymised way, for purposes of tracking, analysis and reporting.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_127318e542",
+    "span_index": 368,
+    "text": "We will not\notherwise disclose your personal data outside the ResearchGate or the Springer Nature group of companies unless we have your permission as\ndetailed in the Privacy Policy.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_cf19a4cbcb",
+    "span_index": 369,
+    "text": "While Users may use the Springer Nature journal content for small scale, personal non-commercial use, it is important to note that Users may\nnot:\n  \nuse such content for the purpose of providing other users with access on a regular or large scale basis or as a means to circumvent access\ncontrol;\nuse such content where to do so would be considered a criminal or statutory offence in any jurisdiction, or gives rise to civil liability, or is\notherwise unlawful;\nfalsely or misleadingly imply or suggest endorsement, approval , sponsorship, or association unless explicitly agreed to by Springer Nature in\nwriting;\nuse bots or other automated methods to access the content or redirect messages\noverride any security feature or exclusionary protocol; or\nshare the content in order to create substitute for Springer Nature products or services or a systematic database of Springer Nature journal\ncontent.",
+    "char_length": 901
+  },
+  {
+    "quote_id": "qb_dcfd2b0c8f",
+    "span_index": 370,
+    "text": "In line with the restriction against commercial use, Springer Nature does not permit the creation of a product or service that creates revenue,\nroyalties, rent or income from our content or its inclusion as part of a paid for service or for other commercial gain.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_7b6e82dc13",
+    "span_index": 371,
+    "text": "Springer Nature journal\ncontent cannot be used for inter-library loans and librarians may not upload Springer Nature journal content on a large scale into their, or any\nother, institutional repository.",
+    "char_length": 201
+  },
+  {
+    "quote_id": "qb_bb973363df",
+    "span_index": 372,
+    "text": "These terms of use are reviewed regularly and may be amended at any time.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_7e5ce3d1cd",
+    "span_index": 373,
+    "text": "Springer Nature is not obligated to publish any information or\ncontent on this website and may remove it or features or functionality at our sole discretion, at any time with or without notice.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_731fc1c388",
+    "span_index": 374,
+    "text": "Springer Nature\nmay revoke this licence to you at any time and remove access to any copies of the Springer Nature journal content which have been saved.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_45f00c985f",
+    "span_index": 375,
+    "text": "To the fullest extent permitted by law, Springer Nature makes no warranties, representations or guarantees to Users, either express or implied\nwith respect to the Springer nature journal content and all parties disclaim and waive any implied warranties or warranties imposed by law,\nincluding merchantability or fitness for any particular purpose.",
+    "char_length": 347
+  },
+  {
+    "quote_id": "qb_ca94432453",
+    "span_index": 376,
+    "text": "Please note that these rights do not automatically extend to content, data or other material published by Springer Nature that may be licensed\nfrom third parties.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_bba0dd049e",
+    "span_index": 377,
+    "text": "If you would like to use or distribute our Springer Nature journal content to a wider audience or on a regular basis or in any other manner not\nexpressly permitted by these Terms, please contact Springer Nature at\n  \nonlineservice@springernature.com",
+    "char_length": 249
+  }
+]

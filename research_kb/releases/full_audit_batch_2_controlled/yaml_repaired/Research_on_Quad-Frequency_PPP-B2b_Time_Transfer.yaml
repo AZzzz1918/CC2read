@@ -1,0 +1,90 @@
+paper_id: Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+extraction_mode: full
+batch: Batch 2
+selection_role: core_ppp_b2b
+extraction_timestamp: '2026-05-22T19:14:35.458860'
+bibliographic_info:
+  title: Research on Quad-Frequency PPP-B2b Time Transfer
+  authors: Runzhi Zhang, Lan Li, Xueqing Li, Hongjiao Ma, Gongwei Xiao, Jihai Zhang
+  year: 2024
+  journal_or_venue: IEEE Instrumentation & Measurement Magazine
+  doi: NOT_MENTIONED
+product_source:
+  claimed: NOT_MENTIONED
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes: []
+experiment_epoch:
+  start_date: 2022-3-3
+  end_date: 2022-3-3
+  description: 'Dates extracted from text: 2022-3-3'
+  dates_found:
+  - 2022-3-3
+  months_found:
+  - August 2020
+  - February 2024
+  doys_found:
+  - DoY 163
+  grounding_quotes: []
+correction_types:
+- type: orbit_correction
+- type: clock_correction
+- type: differential_code_bias
+dcb_handling:
+  status: BRIEFLY_MENTIONED
+  dcb_mentions: 2
+  grounding_quotes: []
+ionospheric_handling:
+  status: MENTIONED
+  iono_mentions: 3
+  grounding_quotes: []
+mathematical_model:
+  processing_mode: NOT_MENTIONED
+  grounding_quotes: []
+datasets:
+  stations_found:
+  - NTSC
+  - USUD
+  grounding_quotes: []
+metrics: {}
+main_results:
+  summary: NOT_MENTIONED
+  grounding_quotes: []
+novelty_audit:
+  audit_grade: NOT_AUDITED
+  grounding_quotes: []
+reproducibility_audit:
+  reproducibility_score: 1
+  reproduction_blockers:
+  - No source code or software release
+  - Raw GNSS observation data not publicly provided
+  - PPP-B2b correction archive not distributed
+  - Specific processing parameters not fully detailed
+is_ppp_b2b_core_paper: true
+pdf_metadata:
+  pages: 6
+  b2b_mentions: 85
+  has_mentions: 0
+  clas_mentions: 0
+  dcb_mentions: 2
+  iono_mentions: 3
+  dates_found:
+  - 2022-3-3
+  months_found:
+  - August 2020
+  - February 2024
+  doys_found:
+  - DoY 163
+  periods: []
+  stations_found:
+  - NTSC
+  - USUD
+  sampling_rates: []
+  elevation_cutoff: []
+gate_status:
+  product_source_correct: true
+  expected_product_source: BDS3_PPP_B2B_BROADCAST
+  wrong_support: false
+  experiment_epoch_valid: true
+  dcb_status: BRIEFLY_MENTIONED
+  reproduction_blockers_non_empty: true

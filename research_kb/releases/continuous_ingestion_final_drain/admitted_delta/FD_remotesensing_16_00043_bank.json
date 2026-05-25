@@ -1,0 +1,134 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nSub-Nanosecond UTC Dissemination Based on BDS-3\nPPP-B2b Service\nZheZhang1,2,3 ,BaoqiSun1,2,3,* ,KanWang1,2,3 ,XiaohongHan1,2,3,HaiyanYang1,2,3,GeWang1,2,3,\nMeifangWu1,2,3,YuanxinWang1,2,3,ChangjiangGeng4andXuhaiYang1,2,3\n1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China;zhangzhe@ntsc.ac.cn(Z.Z.);\nwangkan@ntsc.ac.cn(K.W.);hanxh26@126.com(X.H.);yanghy@ntsc.ac.cn(H.Y.);wangge@ntsc.ac.cn(G.W.);\nwumeifang@ntsc.ac.cn(M.W.);wangyuanxin@ntsc.ac.cn(Y.W.);yyang@ntsc.ac.cn(X.Y.)\n2 KeyLaboratoryofTimeReferenceandApplications,ChineseAcademyofSciences,Xi’an710600,",
+    "char_length": 3980
+  },
+  {
+    "quote_id": "qb_ac10e331a2",
+    "span_index": 1,
+    "text": "RemoteSens.2024,16,43 2of22\nnanoseconds [4]. Because of its lagging, UTC is not available for direct dissemination.\nTheUTCdisseminationservicereferstodeliveringthelocalUTC(k)timescalestousers\nthroughvariousmethods. UTCdisseminationaccuracyisbecomingincreasinglyimportant\nwiththedevelopmentofnewtechnologiesinfieldssuchascommunication,transportation,\ndeep-spaceexploration,scientificresearch,andtheInternetofThings. Inthesefields,the\ndemandforUTCdisseminationcanreachsub-nanoseconds.\nThesystemtimeofGlobalNavigationSatelliteSystems(GNSSs)achievestraceability\ntoUTCviaUTC(k)byprecisetimetransferlinksbe",
+    "char_length": 4142
+  },
+  {
+    "quote_id": "qb_2998244b19",
+    "span_index": 2,
+    "text": "RemoteSens.2024,16,43 3of22\nsignal(E6-Bdatacomponent)andthroughtheGalileoHASinternetdatadistribution. The\nHASsolutionhasanaccuracybelow3.6cmRMSinthehorizontaldimensionandbelow\n7.6cmintheverticaldimensions;thisismuchbetterthanSPP,whichhasanaccuracybelow\n72cminthehorizontaldimensionand155.3cmintheverticaldimensions[17].\nHere,wemainlyfocusontheBDS-3PPP-B2b. Thenominalhorizontalandvertical\npositioningaccuracyofthePPP-B2bserviceisbetterthan0.3mand0.6m,respectively,\nandtheconvergencetimeislessthan30min[17–20]. ComparedwiththetraditionalPPP,\nthePPP-B2bserviceprovidedwiththenavigationsatelliteshassome",
+    "char_length": 3747
+  },
+  {
+    "quote_id": "qb_910dfaefa1",
+    "span_index": 3,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 4 of 22\nRemoteSens.2024,16,43 4of22\n2. PPP Time Transfer Principle and PPP-B2b Product Recovery\n2.1. PPP Time Transfer Principle\n2. PPPTimeTransferPrincipleandPPP-B2bProductRecovery\nFor PPP time transfer, typically, the ionosphere-free (IF) combinations of dual-fre-\n2.1. PPPTimeTransferPrinciple\nquency pseudo-range and carrier phase are used, as in the following observation equation:\nForPPPtimetransfer,typically,theionosphere-free(IF)combinationsofdual-frequency\npseudo-rangeandcarr\n(cid:4682)\nierph𝑝a\n(cid:3045)\n(cid:3046)se(cid:3404)a𝜌re\n(cid:3045)\n(cid",
+    "char_length": 5065
+  },
+  {
+    "quote_id": "qb_cf560d0d5f",
+    "span_index": 4,
+    "text": "RemoteSens.2024,16,43 5of22\nTable1.PPP-B2bmessagetypes,updateinterval,andnominalvalidity.\nInformationContent MessageType UpdateInterval(s) ValidityPeriod(s)\nSatellitemask 1 48 -\nOrbitcorrection 2,6,7 48 96\nDifferentialcodebias 3 48 86,400\nClockcorrection 4,6,7 6 12\nUserrangeaccuracyindex 2,5,6,7 48 96\nThe orbitalcorrectionvector δO is givenin theradial, along-track, and cross-track\ndirections,whichareusedtocalculatethesatellitepositioncorrectionvectorδX. Users\nmustmatchtheIssueofDataNavigation(IODN)parametersinthecorrectionswiththe\nIssueofData(IOD)inthebroadcastmessages(CNAV1fortheBDS,LNAVfort",
+    "char_length": 2696
+  },
+  {
+    "quote_id": "qb_ebac236854",
+    "span_index": 5,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 6 of 22\nBDS clock corrections are computed based on the B3I signal, and the GPS clock corrections\nare calculated based on the L1/L2 IF signals. If the user needs to use another frequency, a\nDCB correction must be applied [26].\n3. Precise UTC Dissemination Based on PPP-B2b\nWe propose a high-precision UTC dissemination method based on the PPP-B2b ser-\nvice. Figure 2 shows the composition of a prototype system for PPP-B2b UTC dissemina-\nRemoteSens.2024,16,43 6of22\ntion, composed of three segments: the server, user, and communication links. The server\nside ",
+    "char_length": 5798
+  },
+  {
+    "quote_id": "qb_bc4cc389dc",
+    "span_index": 6,
+    "text": "RemoteSens.2024,16,43 7of22\nTheexperimentdataperiodis516days,from1January2021(MJD59215)to31May2022\n(MJD59730), exceptforSE22, JLJI,andKSJI;thedataperiodisshowninTable2. XIA6\nand SE22 connected to the UTC (NTSC) master clock and shared the same antenna in\nLintong,theheadquartersoftheNationalTimeServiceCenter(NTSC),ChineseAcademy\nofSciences. TheSEPTstationisintheXi’ancampusofNTSC.Itisexternallysteeredto\nUTC(NTSC)inrealtimeviaatwo-wayopticalfibertimeandfrequencytransferlink. XIA6\nandSE22havenotbeencalibratedtodeductthereceiverhardwareandcabledelays. The\nXIA6-SE22formedacommonclockzerobaseline,XIA",
+    "char_length": 2593
+  },
+  {
+    "quote_id": "qb_41720b9863",
+    "span_index": 7,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 8 of 22\nRRememootete SSeennss.. 22002234,, 1156,, 4x3 FOR PEER REVIEW\n8of2\n8\n2\nof 22\nFigure 3. Distribution of the tracking stations.\nThe real-time static PPP processing is performed using the modified RTKLIB soft-\nware [32]. The modified RTKLIB 2.4.2 software can process the PPP-B2b products and the\nBDS 3-related observations and navigation messages. The PPP-B2b corrections are ob-\ntained from the Septentrio and Femtomes GNSS receivers in real time through the net-\nwork, as shown in Figure 4. Because of some factors, such as network conditions and re-\n",
+    "char_length": 1919
+  },
+  {
+    "quote_id": "qb_55c53d71c2",
+    "span_index": 8,
+    "text": "RemoteSens.2024,16,43 9of22\nTable3.Cont.\nItems Setting\nEarthtide IERS2010\nOceanload FES2004\nGPS:igs14.atx;\nPCO,PCV BDS:TestandAssessmentResearchCenterof\nChinaSatelliteNavigationOffice(CSNO/TARC)(2019)\nParameterestimation ExtendedKalmanfilter\nCutoffelevationangle 10◦\nSamplinginterval 30s\nInourexperiment,threecasesareconsidered,includingPPP-B2bsingle-stationone-\nway timing, PPP-B2b zero-baseline UTC dissemination, and PPP-B2b short and long\nbaselineUTCdissemination.\n(1). ForthePPP-B2bsingle-stationone-waytimingtest,threestationsconnectedtothe\nUTC(NTSC)andtwostationsconnectedtothehydrogenclockwer",
+    "char_length": 3096
+  },
+  {
+    "quote_id": "qb_7ed5096d7b",
+    "span_index": 9,
+    "text": "RemoteR Seemnost.e 2S0e2n3s., 21052,4 x, 1F6O,4R3 PEER REVIEW 10of2120 of 22\nwasachievedbycomparisonwiththepost-eventpreciseproduct-basedPPPtimetransfer\nresults. Theequipmentdelayimpactsinthesetwomethodsareidenticalandcanbeoffset.\n(cid:3015)\nThismethodofprecisionevaluat1iondoesnotrequiretimedelaycalibration.\n(cid:2870)\n𝜎 (cid:3404) (cid:3497) (cid:3533)(cid:3435)𝑡 (cid:3398)𝑡 (cid:3439) (6)\n𝑁 (cid:3008)(cid:3003)(cid:3014)/(cid:3010)(cid:3008)(cid:3019)_(cid:3017)(cid:3017)(cid:3017)(cid:4666)(cid:3036)(cid:4667) (cid:3003)(cid:2870)(cid:3029)_(cid:3017)(cid:3017)(cid:3017)(cid:4666)(cid:3036)",
+    "char_length": 3771
+  },
+  {
+    "quote_id": "qb_db169433fb",
+    "span_index": 10,
+    "text": "RemoRteem SoetnesS.e 2n0s.2\n2\n3\n0\n,\n2\n1\n4\n5\n,\n,1 x6\n,\nF\n4\nO\n3\nR PEER REVIEW\n11of22\n11 of 22\n(c)\n(d)\n(e)\nFFigiguurree 55.. SSiinnggllee-s-statatitoinoncl occlokcokf fosefftssebtass ebdasoendP oPnP -PBP2bPo-Bn2e-bw oanyet-imwianyg .ti(ma)iXnIgA. 6(are) cXeiIvAer6 crleoccekiovfefrse ctl.ock off-\ns(ebt.) (SbE)2 S2Er2ec2e riveceericvleorc kcloofcfske ot.ff(sce)tS. E(cP)T SrEePceTiv reercceliovcekr ocflfoscekt. o(dff)seJLt.J I(dre) cJeLivJIe rreccleoicvkeorf cfsloetc.k( eo)ffKsSeJtI. (e) KSJI\nrerecceeiivveerr cclloocckk ooffffsseet.t.\nDuring the period of 34 days, the XIA6, JLJI, and KSJI receiver c",
+    "char_length": 2132
+  },
+  {
+    "quote_id": "qb_6d5055f996",
+    "span_index": 11,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 12 of 22\noffset results. The clock offset is relatively stable after removing the linear trend. For com-\nparison, the results of the XIA6 station of the same period were subtracted by the mean\nvalue, as shown in Figure 6.\nRemote Sens. 2023, 15, x FOR PEER REVIEW 12 of 22\noffset results. The clock offset is relatively stable after removing the linear trend. For com-\nRemoteSens.2024,16,43 parison, the results of the XIA6 station of the same period were subtracted b1y2 otfh2e2 mean\nvalue, as shown in Figure 6.\nFigure 6. Single-station clock offsets based o",
+    "char_length": 4799
+  },
+  {
+    "quote_id": "qb_e2264f7388",
+    "span_index": 12,
+    "text": "RemoteSens.2024,16,43 13of22\nRemote Sens. 2023, 15, x FOR PEER REVIEW 13 of 22\nwhereUTCO_B representstheUTCoffsetbroadcastvalue,UTCO_R representsthe\n(i) (i)\nUTCoffsetmonitoredvalue,andNrepresentsthenumberofsamples.\n(a)\nFigure8.TheBDFSigUuTrCe 8o.f fTshete( Ba)D,BSD USTUCT oCffosfefts e(at)e,r BroDrS(bU),TaCn doffUsTeCt -eUrrToCr ((bN)T, SaCnd)d UifTfeCre-UncTeC(c ()N. TSC) difference (c).\nFigure8bshowFsigthuartet h8e sohvoewrasl lthtraetn dthoef ptheeakU-tToC-poefafsketBeDrrSo rUiTsCco nosffissteetn itsw aibthouthta8t ns, and the mean\nof Figure 7. ABsDcaSn UbTeCse oeffnsferto merrFoirguisr eas",
+    "char_length": 4591
+  },
+  {
+    "quote_id": "qb_fd74500658",
+    "span_index": 13,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 14 of 22\nthe figure. The experiment data period is from 10 April 2021 (MJD 59314) to 16 December\n2021 (MJD 59564), i.e., about 251 days. It can be seen that the timing series are stable. After\nRemoteSens.2024,16,43 removing convergence, the STDs of the results using the B2b, GBM, and IGR 1p4roofd22ucts are\nall smaller than 0.2 ns. Table 4 shows the STD statistics of the timing results.\n(a)\n(b)\nFFigiguurree 99. .TimTiimngin rgesrueslutsl tosf oXfIAXI6A-S6E-S2E22 2cocmommmono ncloclcokc kzezreor-ob-absaesleilninee lilninkkss uusisningg pprorodduuccttss oo",
+    "char_length": 2906
+  },
+  {
+    "quote_id": "qb_a36022b777",
+    "span_index": 14,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 15 of 22\nRemoteSens.2024,16,43 15of22\nUSUD, XIA6-URUM, XIA6-SHA1, XIA6-GAMG, XIA6-JLJI, and XIA6-KSJI. The PPP time\ntransfer of the seven links was conducted to obtain the time differences between the latter\nstations of each baseline and UTC (NTSC) (from XIA6) using the PPP-B2b, GBM, and IGR\nstations of each baseline and UTC (NTSC) (from XIA6) using the PPP-B2b, GBM, and\nproducts, respectively. The differences between the results obtained by the PPP-B2b prod-\nIGRproducts,respectively. ThedifferencesbetweentheresultsobtainedbythePPP-B2b\nupcrtos dauncdts ",
+    "char_length": 1504
+  },
+  {
+    "quote_id": "qb_0e6b58c4dd",
+    "span_index": 15,
+    "text": "RemRoetme oSteenSse.n 2s0.22032, 41,51, 6x, F43OR PEER REVIEW\n16\n1\no\n6\nf 2\no\n2\nf 22\n(d)\n(e)\n(f)\n(g)\nFFigiguurere 1100. .TiTmiminingg ddiffifefererenncceess bbeetwtweeeenn BB22bb aanndd GGBBMM pprroodduuccttss.. ((aa)) XXIIAA66--SSEEPPTT.. ((bb)) XXIIAA66--UUSSUUDD.. (c)\nX(IcA)X6-IUAR6-UUMRU. (Md). (XdI)AX6I-AS6H-SAH1A. (1e.)( Xe)IAXI6A-G6-AGMAMG.G (.f)(f X)XIAIA6-6J-LJLJIJ.I .(g(g) )XXIIAA66--KKSSJJII..",
+    "char_length": 406
+  },
+  {
+    "quote_id": "qb_1b23d185d8",
+    "span_index": 16,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 17 of 22\nRemoteSens.2024,16,43 17of22\n(a)\n(b)\n(c)\n(d)\nFigure11.Cont.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_1a2fb8f793",
+    "span_index": 17,
+    "text": "RemRoemteo SteenSse.n 2s.022032, 41,51, 6x, 4F3OR PEER REVIEW\n18o\n18\nf 2\no\n2\nf 22\n(e)\n(f)\n(g)\nFFigiguurree 1111. .TTiimmiinngg ddiiffffeerreenncceess bbeettwweeeennt htheeB B22bba nanddIG IGRRp rpordoudcutsc.ts(a. )(aX)I XAI6A-S6E-SPETP.(Tb.) (XbI)A X6I-AU6S-UUDSU. D.\n(c(c) )XXIIAA66--UURRUUMM.. ((dd)) XXIIAA66--SSHHAA11..( (ee))X XIAIA6-6G-GAAMMGG.(.f )(fX) IXAI6A-J6L-JJIL.J(Ig. )(gX)I AX6IA-K6S-JKI.SJI.\nTable 5. Statistics of link comparison results (B2b and GBM).\nTable5.Statisticsoflinkcomparisonresults(B2bandGBM).\nLinks Com-\nLinksCompared Link%sC oofm Rpear-eLdinks Compared % of Re-\nGBM(BD",
+    "char_length": 1593
+  },
+  {
+    "quote_id": "qb_773211f2b9",
+    "span_index": 18,
+    "text": "Remote Sens. 2023, 15, x FOR PEER REVIEW 19 of 22\nTable 6. Statistics of link comparison results (B2b and IGR).\nLinks Com- Links Com-\n% of Re- % of Re-\npared STD MEAN pared STD MEAN\njected jected\nIGR(GPS)- (ns) (ns) IGR(GPS)- (ns) (ns)\nResults Results\nB2b(BDS-3) B2b(GPS)\nXIA6-SEPT 0.745 5.518 2.4% XIA6-SEPT 0.070 0.014 7.5%\nXIA6-USUD 0.845 7.320 1.2% XIA6-USUD 0.533 0.018 4.0%\nXIA6-URUM 1.317 −46.853 1.7% XIA6-URUM 0.534 0.106 3.7%\nRemoteSens.2024,16,43 XIA6-SHA1 1.338 −30.582 1.1% XIA6-SHA1 0.334 −0.065 61.29%of 22\nXIA6-GAMG 0.608 3.946 2.3% XIA6-GAMG 0.347 −0.089 4.6%\nXIA6-JLJI 0.417 −111.06",
+    "char_length": 4967
+  },
+  {
+    "quote_id": "qb_11eda9f2d5",
+    "span_index": 19,
+    "text": "RemoteSens.2024,16,43 20of22\nB2b GPS result is compared with IGR product, where the STD can reach 0.070 ns. The\nformerSTDislargerthanthelatter,whichisdifferentfromthelongbaselineresults. This\nresult is because there is an obvious abnormality in the GBM(BDS3)-B2b(BDS3) results\nfromMJD59450toMJD59575. Afterremovingthisabnormaldata,theSTDis0.067ns.\nTheresultsindicatethatthePPP-B2bshortbaselinetiminguncertaintycanbebetterthan\n100psundernormalcircumstances.\nFrom the results of the long baseline comparison, the continuity of the results of\nIGR products is slightly better than that of GBM products, a",
+    "char_length": 3803
+  },
+  {
+    "quote_id": "qb_e0cb16a43b",
+    "span_index": 20,
+    "text": "RemoteSens.2024,16,43 21of22\nAcknowledgments:TheauthorsacknowledgetheIGS,iGMAS,andGFZforsupportingobservation\ndataandproducts.TheauthorsacknowledgeNTSCiGMASAnalysisCenter,Datacenter,Tracking\nnetwork,and“NationalSpaceScienceDataCenter,NationalScience&TechnologyInfrastructureof\nChina.(https://www.nssdc.ac.cn(accessedon1October2022))“.Meanwhile,wethanktheTestand\nAssessmentResearchCenterofChinaSatelliteNavigationOfficeforprovidingtheproducts.\nConflictsofInterest:Theauthorsdeclarenoconflictofinterest.\nReferences\n1. Wu,H.;Li,B.;Wu,J.BeiDouTimingTechnologyandItsApplication;PublishingHouseofElectronic",
+    "char_length": 4557
+  },
+  {
+    "quote_id": "qb_e8610b545b",
+    "span_index": 21,
+    "text": "RemoteSens.2024,16,43 22of22\n28. Zhang,R.;He,Z.;Ma,L.;Xiao,G.;Guang,W.;Ge,Y.;Zhang,X.;Zhang,J.;Tang,J.;Li,X.AnalysisofBDS-3PPP-B2bPositioning\nandTimeTransferService.RemoteSens.2022,14,2769.[CrossRef]\n29. Tang,J.;Lyu,D.;Zeng,F.;Ge,Y.;Zhang,R.ComprehensiveAnalysisofPPP-B2bServiceandItsImpactonBDS-3/GPSReal-Time\nPPPTimeTransfer.RemoteSens.2022,14,5366.[CrossRef]\n30. Ge,Y.;Cao,X.;Lyu,D.;He,Z.;Ye,F.;Xiao,G.;Shen,F.AninvestigationofPPPtimetransferviaBDS-3PPP-B2bservice.GPS\nSolut.2023,27,61.[CrossRef]\n31. He,Q.;Chen,L.;Liu,L.;Zhao,D.;Gong,X.;Lou,Y.;Guan,Q.Long-TermPerformanceEvaluationofBeiDouPPP-B2b",
+    "char_length": 1446
+  }
+]

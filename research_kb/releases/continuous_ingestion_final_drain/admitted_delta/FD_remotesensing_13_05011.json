@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_remotesensing_13_05011",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Assessment of the Feasibility of PPP-B2b Service for Real-Time Coseismic Displacement Retrieval"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Assessment of the Feasibility of PPP-B2b Service for Real-Time Coseismic Displacement Retrieval HaoYang1,ShengyueJi1,*,DuojieWeng2,ZhenjieWang1 ,KaifeiHe1 andWuChen3 1 CollegeofOceanographyandSpaceInformatics,ChinaUniversityofPetroleum(EastChina), Qingdao266580,China;upcyanghao@163.com(H.Y.);sdwzj@upc.edu.cn(Z.W.);kfhe@upc.edu.cn(K.H.) 2 ShenzhenResearchIns",
+      "ItsservicerangemainlycoversChinaandthesurroundingareas.Inthisresearch,thePPPmethod withPPP-B2bservicebasedonconstrainedcoordinatesisproposedandovercomesthelimitationof thenetworklinkandlongconvergencetime.First,theaccuracyoforbitsandclockoffsetsforthePPP- B2bserviceisevaluatedandcomparedwithreal-timeservice(RTS).Then,thesimulatedexperiments arecarriedoutusingthePPPmethodwithPPP-B2bservicebasedonco"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 3
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b": 112,
+    "has": 0,
+    "dcb": 3,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

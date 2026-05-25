@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_55ee40e0b8",
+    "span_index": 0,
+    "text": "Article\nLEO-Enhanced BDS-3 PPP Performance Based on B2b Signal\nJuHong1,RuiTu1,*,YangyangLiu1,YulongGe2andFangxinLi1\n1 CollegeofGeodesyandGeomatics,ShandongUniversityofScienceandTechnology,Qingdao266590,China;\nhongju@sdust.edu.cn(J.H.);202481020003@sdust.edu.cn(Y.L.);lifangxin@sdust.edu.cn(F.L.)\n2 CollegeofMarineScienceandEngineering,NanjingNormalUniversity,Nanjing210023,China;\ngeyulong@njnu.edu.cn\n* Correspondence:turui@sdust.edu.cn\nAbstract\nSince2020,theBDS-3hasbeenprovidingreal-timecorrectionsviatheB2bsignal,enabling\nusersinChinaanditsneighboringregionstoachievekinematicpositioningaccuracyat",
+    "char_length": 3411
+  },
+  {
+    "quote_id": "qb_311201b1da",
+    "span_index": 1,
+    "text": "RemoteSens.2025,17,2183 2of16\nenablestheservicetoextenditscoveragetoregionswithweakorabsentcommunication\ninfrastructure,suchasoceans,deserts,andplateaus. Itisnoteworthythatsimilarsatellite-\nbasedregionalPPPserviceshavebeendevelopedbyGalileoandtheQuasi-ZenithSatellite\nSystem(QZSS)[6].Inthecommercialsector,real-timePPPservicesystemssuchasTerraStar-\nD[7]andNavCom’sStarFireSystem[8]havealsoreachedarelativelymaturestage,yet\ntheycomewithrelativelyhighcosts. IntegratedintotheBDS-3asastandardoffering,the\nPPPserviceeliminatestheneedforinternetconnectivitywhileremainingfreelyaccessible.\nCurrently,itisca",
+    "char_length": 3984
+  },
+  {
+    "quote_id": "qb_cfe57b60cd",
+    "span_index": 2,
+    "text": "RemoteSens.2025,17,2183 3of16\nB1I,andB2apsignals,confirmingtheservice’stechnicalrobustness[12]. Nevertheless,the\nstudyidentifiedthatsatellite-dependentsystematicbiasesareinherentinthesatelliteclock\nbiasproductsofPPP-B2b,resultinginasubstantialincreaseintheRMSofclockbiaserrors\nandconsequentlyamplifyingtheSignal-in-SpaceRangeError(SISRE)[12,16–18]. InPPP,\nsatellite-dependentsystematicbiasesembeddedwithinphaseobservationequationscanbe\nabsorbedbytheambiguityparameters,leavingthepositioningaccuracypostconvergence\nunaffected[18]. However,forthecodeobservationequations,thesebiasesareassimilated\nintot",
+    "char_length": 3652
+  },
+  {
+    "quote_id": "qb_6945ec6ec2",
+    "span_index": 3,
+    "text": "RemoteSens.2025,17,2183 4of16\nwith\n cdt sys =cdt sys+d sys\n\nc\nλ\nd\nsy\nt\nr\ns\ns\n,\nN\nsy\ns\ns\n,s\n=\nys\nc\n=\nd\nr\nt\nα\ns,\ns\ns\ny\ny\ns\ns\nλ\n+\ns\nr\ny\n,I\nd\ns\nF\n(cid:16)\ns\nIF\n,\nN\nsy\ns\ns\n,sys+b sys−b s,sys (cid:17) + (2)\n IF r,IF\nβ sys λ s\ni\ny\nj\ns\n(cid:16)\nN\ni\ns,sys+\nr,i\nb sys−\nr\nb\n,i\ns,sys\n(cid:17)\ni\n−d sys +d s,sys\nij j r,j r,j j r,IF IF\nHere,thesubscriptsiand jindicatedifferentfrequencybands,whilerreferstothe\nreceiver. Thesuperscriptssandsysidentifythespecificsatelliteandthesatellitesystem\ns,sys\n(whereCandLspecificallydenotetheBDSandLEOsystems,respectively). ρ refers\nr\nto the geometric distance betw",
+    "char_length": 3709
+  },
+  {
+    "quote_id": "qb_64997333da",
+    "span_index": 4,
+    "text": "RemoteSens.2025,17,2183 5of16\nandphasewind-ups,wereincorporated. Consequently,thePPP-B2bobservationequation\nfortheLEO-enhancedBDS-3wasformulatedasfollows:\n\n P\nL\nr s\ns\n, , I C\n,\nF\nC\n=\n=\nρ\nρ\nr s,\ns\nC\n,C\n+\n+\ncd\ncd\nt r C\nt C\n−\n−\ncd\ncd\nt s\nt\n,\ns\nC\n,C\n+\n+\nM\nM\nw s,\ns\nC ,r\n,C\nd\nd\nw,r +\n+\nOˆ\nλ\nr s\nC\n,C\nN\n+\nˆs\nε\n,C\ns P ,C ,r\n+\n,IF\nεs,C\nr,IF r r w,r w,r IF r,IF L,r,IF (4)\n P\nL\nr\ns\ns ,\n,\n, I\nL\nL F =\n=\nρ\nρ\nr s\ns\n,\n,\nL\nL\n+\n+\nc\nc\nd\nd\nt\nt\nr L\nL\n−\n−\nc\nc\nd\nd\nt\nt\ns\ns\n,\n,\nL\nL\n+\n+\nO\nλ\nˆ r s\nL\n,L\nN\n+\ns,\nε\nL\ns P ,L ,\n+\nr,IF\nεs,L\nr,IF r r IF r,IF L,r,IF\nThesymbolsinthisequationareidenticaltothoseintheprece",
+    "char_length": 3102
+  },
+  {
+    "quote_id": "qb_7a4eb85d56",
+    "span_index": 5,
+    "text": "RemoteSens.2025,17,2183 6of16\nbations,multi-bodygravitationalinteractions,andtheEarth’snon-sphericalgravitational\neffects. Satelliteclockbiasissimulatedusingzero-meanGaussianwhitenoise. Forthe\nmodelingoftroposphericdelay,theSaastamoinenmodelandtheGlobalMappingFunc-\ntion(GMF)modelareutilized. Giventhattheionospheric-freecombinedPPPmodelis\nadopted,theimpactofhigh-orderionosphericdelaycanbedisregarded. Consequently,\nionosphericdelayerrorsarenotincorporatedintothesimulation.ForLEOsatellites,precise\nephemeridesareemployed,andthepreciseclockbiasproductsofLEOcontainnoconstant\nclockbias. However,theco",
+    "char_length": 2342
+  },
+  {
+    "quote_id": "qb_5ce43bfbe4",
+    "span_index": 6,
+    "text": "RemoteSens.2025,17,2183 7of16\nthedouble-differencedclockbiaseswerecomputedtoanalyzethecharacteristicsofclock\nbias products for common satellites of WUM and PPP-B2b. First, a single-difference\noperation was performed between the PPP-B2b and WUM clock biases for the same\nsatellites,expressedas\n∆dts,sys = dt s,sys−dt s,sys (5)\nB2b WUM\nThereexistdatumbiasesamongthepreciseclockproductsfromdifferentanalysis\ncenters, which are common to all satellites within the same epoch. The datum bias in\naccuracyassessmentsistypicallymitigatedbydifferencingeitheraspecificsatellite’sclock\nbiasesorthemeanclockbiase",
+    "char_length": 2307
+  },
+  {
+    "quote_id": "qb_033ef13dd9",
+    "span_index": 7,
+    "text": "RemoteSens.2025,17,2183 8of16\nTo accurately assess clock bias precision, this study employs an epoch-count-weighted\nstatisticalmethodtomitigatetheimpactofsystematicbiases. AsillustratedinFigures3and4,\nthe STD values of all satellites during DOY 211–217 are below 0.31 ns, with satellite\nC37achievingtheminimumSTDvalueoflessthan0.1nsandanaverageSTDvalueof\napproximately0.15nsacrossallsatellites. However,theRMSvalues,whicharenotably\nmoresensitivetosystematicbiases,demonstrateabroaderdistributionrange. Specifically,\nthe RMS values for the majority of satellites are within 2 ns, with the maximum RMS\n",
+    "char_length": 1669
+  },
+  {
+    "quote_id": "qb_93c878eb3d",
+    "span_index": 8,
+    "text": "RemoteSens.2025,17,2183 9of16\nconductedusingthreeconsecutivedays(DOY213–215,2023). Observationaldataspanning\nthisperiodaresegmentedinto12independent2hintervalsperday, yieldingatotalof\n288validsolutionsamplesforalgorithmevaluation. Theconvergencecriteriaaredefined\nas horizontal and vertical positioning errors remaining below 0.3 m and 0.6 m for five\nconsecutiveminutes,respectively. ThepositioningaccuracyisquantifiedusingtheRMS\nvaluesofpost-convergencepositioningerrors.\nTheexperimentalresultsdemonstratethat98.6%oftrialsusingthe“PPP_new”model\nachievedconvergencewithin2h,whileonly1.4%failedtomeett",
+    "char_length": 2114
+  },
+  {
+    "quote_id": "qb_23110e08cf",
+    "span_index": 9,
+    "text": "RemoteSens.2025,17,2183 10of16\nsuccessfullyattainedconvergence,labeledas“PPP_old2”and“PPP_new2”,tofacilitate\nobjective performance evaluation. As shown in Table 4, for experiments meeting the\nconvergencecriteriaunderidenticalconditions, thetraditionalPPPmethodyieldedan\naverageconvergencetimeof39.0min,whereasthenewmodelreducedthisto25.1min,\nrepresentinga35.6%improvementinconvergencespeedwhilemaintainingequivalent\npost-convergencepositioningaccuracy. Forallexperimentsachievingconvergence,the\ntraditionalPPPmethodresultedinanaverageconvergencetimeof37.8min,compared\nto26.6minwiththenewPPPmodel. How",
+    "char_length": 2531
+  },
+  {
+    "quote_id": "qb_0f8d1862cb",
+    "span_index": 10,
+    "text": "RemoteSens.2025,17,2183 11of16\nsatellitescouldprovidecoverageuptolatitudesof80◦ northandsouth,predominantly\noperatingwithinthelatitudebandsof30–60◦ northandsouth. Incontrast,thepolar-orbit\nsatellites primarily served areas above 60◦ north and south latitude, ensuring service\navailability in high-latitude and polar regions. Similarly, positioning performance was\nanalyzedusingathree-daydataset(DOY213–215,2023).Thesingle-daydatawasprocessed\nattwo-hourintervals,resultinginatotalof288solutionsets. Theconvergencetimeand\npositioningaccuracyweresubjectedtostatisticalanalysis.\nThe PPP-B2b service is pr",
+    "char_length": 2554
+  },
+  {
+    "quote_id": "qb_cee8abbe0a",
+    "span_index": 11,
+    "text": "RemoteSens.2025,17,2183 12of16\nthe number of visible LEO satellites reaches three or more, the PPP convergence time\nremainsconsistentlybelowfiveminutes,exhibitinganegativecorrelationwiththenumber\nofLEOsatellitesinview. Remarkably,whenthecountofvisibleLEOsatellitesexceedssix,\nthemarginalgainsintheconvergencetimediminishsignificantlyasthesatellitenumber\nincreases. Table5furtherpresentstheaverageconvergencetimesacrossdifferentranges\nofLEOsatellitenumbers. InthisparticularLEOconstellationdesign, atleasttwoLEO\nsatellitesremainvisibleduring91.7%oftheperiods. Moreover,undertheaugmentationof\ntheLEOsat",
+    "char_length": 1627
+  },
+  {
+    "quote_id": "qb_e746bdf2b7",
+    "span_index": 12,
+    "text": "RemoteSens.2025,17,2183 13of16\nintheconvergencespeed. ThisclearlydemonstratesthesignificantenhancingeffectofLEO\nsatellitequantityonreducingtheconvergencetime.\nTable5.AverageconvergencetimeforPPPusingtheBDS-3/LEOdualsystem.\nLEOSatelliteNumber ≥2 ≥3 ≥4 ≥5 ≥6 ≥8 ALL\nProportion 91.7% 73.6% 60.4% 53.8% 43.4% 29.9% 100%\nConvergenceTime 1.34min 0.95min 0.72min 0.66min 0.61min 0.55min 1.92min\nFigure 10 illustrates the positioning accuracy of the BDS-3/LEO dual-system PPP.\nThroughoutallobservationperiods,thepositioningaccuracyintheEandNdirectionsis\nconcentratedwithin6cm,whileintheUdirection,itisconcent",
+    "char_length": 1745
+  },
+  {
+    "quote_id": "qb_64cf20d8f1",
+    "span_index": 13,
+    "text": "RemoteSens.2025,17,2183 14of16\n5. Discussion\nThisstudyinvestigatesthecharacteristicsofPPP-B2bclockbiasproductsandproposes\na method to accelerate the convergence speed of BDS-3 PPP by introducing additional\nparametersintothecodeobservationequation. Furthermore,theenhancementeffectof\nLEO constellations on BDS-3 PPP-B2b performance is evaluated using simulated LEO\ndata. On the one hand, this research provides a new approach to expediting the PPP\nconvergenceofthePPP-B2bservice;ontheotherhand,itcomprehensivelyassessesthePPP\nperformanceoftheBDS-3withPPP-B2bserviceenhancedbyLEOconstellations,offering",
+    "char_length": 3616
+  },
+  {
+    "quote_id": "qb_fb04f2f4f6",
+    "span_index": 14,
+    "text": "RemoteSens.2025,17,2183 15of16\nreducedby40.9%to1.3,markedlyimprovingobservationalconditionsforthestan-\ndaloneBDS-3. Regardingconvergenceperformance,theoverallaverageconvergence\ntimeisreducedto1.92min, andconvergencecanbeachievedwithin1minwhen\natleastthreeLEOsatellitesareavailable. Forpositioningaccuracy,whentracking\nat least two LEO satellites, the RMS values in the horizontal and vertical compo-\nnentsare3.2cmand3.9cm,respectively,withathree-dimensionalpositionalRMS\nof 5.1 cm. When four or more LEO satellites are tracked, these values improve to\n2.8cm(horizontal)and3.5cm(vertical),withathree-d",
+    "char_length": 3703
+  },
+  {
+    "quote_id": "qb_9728e79a5d",
+    "span_index": 15,
+    "text": "RemoteSens.2025,17,2183 16of16\n10. CSNO.BeiDouNavigationSatelliteSystemSignalinSpaceInterfaceControlDocumentPrecisePointPositioningServiceSignalPPP-B2b\n(Version1.0);ChinaSatelliteNavigationOffice:Beijing,China,2020.\n11. Xu,Y.;Yang,Y.;Li,J.PerformanceEvaluationofBDS-3PPP-B2bPrecisePointPositioningService. GPSSolut. 2021,25,142.\n[CrossRef]\n12. Liu,Y.;Yang,C.;Zhang,M.ComprehensiveAnalysesofPPP-B2bPerformanceinChinaandSurroundingAreas.RemoteSens.\n2022,14,643.[CrossRef]\n13. Zhou,H.;Wang,L.;Fu,W.;Han,Y.;Li,T.;Li,W.;Chen,R.Real-TimeSingle-FrequencyPrecisePointPositioningUsingBDS-3\nPPP-B2bCorrections.",
+    "char_length": 3402
+  }
+]

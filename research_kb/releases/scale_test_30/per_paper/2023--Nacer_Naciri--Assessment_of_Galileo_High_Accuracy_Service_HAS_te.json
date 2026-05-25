@@ -1,0 +1,12 @@
+{
+  "product_source": "GALILEO_HAS",
+  "paper_type": "has_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "classification_reason": "The paper evaluates the Galileo High Accuracy Service (HAS) test signals, a free real-time PPP correction service delivered via Galileo E6 and internet, analyzing orbit/clock/bias quality and float PPP positioning performance.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf",
+  "paper_id": "2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te",
+  "extraction_mode": "batch_classify_1call"
+}

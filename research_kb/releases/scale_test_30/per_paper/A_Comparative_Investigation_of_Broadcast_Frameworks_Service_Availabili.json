@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper presents a comparative investigation of PPP-B2b, Galileo HAS, and QZSS MADOCA-PPP broadcast frameworks, service availability, and time transfer performance, making it a core PPP-B2b service performance study.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availability_and_Time_Transfer_Performance_in_PPP-B2b_HAS_and_MADOCA-PPP.pdf",
+  "paper_id": "A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availabili",
+  "extraction_mode": "batch_classify_1call"
+}

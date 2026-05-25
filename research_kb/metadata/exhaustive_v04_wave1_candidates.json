@@ -1,0 +1,39 @@
+{
+  "wave": 1,
+  "total_remaining": 92,
+  "clear_candidates": 10,
+  "unk_count": 81,
+  "by_category": {
+    "CORE_B2B": 6,
+    "MIXED": 0,
+    "HAS": 2,
+    "CLAS_QZSS": 0,
+    "GENERAL": 2,
+    "OTHER": 1,
+    "UNK": 81
+  },
+  "candidates": [
+    "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+    "A_Comparative_Investigation_of_Broadcast_Frameworks_Service_Availability_and_Time_Transfer_Performance_in_PPP-B2b_HAS_and_MADOCA-PPP.pdf",
+    "Real-Time_Kinematic_Orbit_Determination_for_LEO_by_Integrating_Broadcast_Ephemerides_Galileo_HAS_and_BDS-3_PPP-B2b.pdf",
+    "Real-Time_Precise_Zenith_Tropospheric_Delay_Estimation_With_BDS_PPP-B2b_Galileo_HAS_and_QZSS_MADOCA-PPP_Services.pdf",
+    "Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS devices.pdf",
+    "Research_on_Single-Frequency_PPP-B2b_Time_Transfer.pdf",
+    "2023--D. Borio--GHASP_a_Galileo_HAS_parser.pdf",
+    "2023--Nacer Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te.pdf",
+    "Mathematical Problems in Engineering - 2022 - Tang - Modelling and Assessment of BDS‐3 Real‐time Precise Point Positioning.pdf",
+    "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威.pdf"
+  ],
+  "unk_papers": [
+    "1-s2.0-S0020019019300018-main.pdf",
+    "1-s2.0-S004579062500045X-main.pdf",
+    "1-s2.0-S0263224122011071-main.pdf",
+    "1-s2.0-S0263224122013744-main.pdf",
+    "1-s2.0-S0263224124014428-main.pdf",
+    "1-s2.0-S0263224124019006-main.pdf",
+    "1-s2.0-S0263224125021888-main.pdf",
+    "1-s2.0-S0263224126008559-main.pdf",
+    "1-s2.0-S0263224126009619-main.pdf",
+    "1-s2.0-S026322412601448X-main (1).pdf"
+  ]
+}

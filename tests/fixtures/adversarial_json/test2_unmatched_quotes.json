@@ -1,0 +1,67 @@
+{
+  "paper_id": "test2_unmatched_quotes",
+  "source_file": "paper/test2.pdf",
+  "file_hash": "def456",
+  "bibliographic_info": {
+    "title": "Test Paper for Quote Validation",
+    "authors": [{"name": "Test Author"}],
+    "year": 2023,
+    "journal_or_venue": "Test Journal"
+  },
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": ["PPP-B2b orbit radial accuracy is 9.42 cm"],
+    "conflict_flag": false
+  },
+  "mathematical_model": {
+    "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+    "grounding_quotes": ["standard EKF dual-frequency PPP model was implemented"]
+  },
+  "ionospheric_handling": {
+    "strategy": "IF combination",
+    "dcb_source": "NOT_MENTIONED",
+    "dcb_missing_flag": true,
+    "grounding_quotes": []
+  },
+  "correction_types": {
+    "orbit_correction": "PPP-B2b",
+    "clock_correction": "PPP-B2b",
+    "grounding_quotes": ["B2b correction update interval is 48 seconds"]
+  },
+  "research_problem": {"problem_statement": "Test"},
+  "technical_route": {"overall_flow": "", "grounding_quotes": []},
+  "method": {"method_name": "Standard PPP"},
+  "formulas": [],
+  "experiments": [],
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {"grounding_quotes": []},
+  "metrics": {"grounding_quotes": []},
+  "main_results": {
+    "summary": "Good results achieved",
+    "grounding_quotes": ["positioning accuracy reached 5 cm in static tests"]
+  },
+  "novelty_audit": {
+    "audit_grade": "B_INCREMENTAL",
+    "grounding_quotes": ["novel stochastic model improves convergence by 20%"]
+  },
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED",
+    "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED",
+    "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED",
+    "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED",
+    "config_files": "NOT_MENTIONED",
+    "metric_definitions": "RMS and STD defined in section 3.2",
+    "baseline_details": "Compared with IGS final products",
+    "reproduction_blockers": ["No code repository", "No observation data provided"],
+    "reproducibility_score": 1,
+    "grounding_quotes": []
+  }
+}

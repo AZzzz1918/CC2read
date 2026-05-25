@@ -1,0 +1,29 @@
+{
+  "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+  "expected_category": "related_sbas",
+  "extraction_mode": "batch_c_lite_4calls",
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "reason": "The text is a high-level introduction, not detailing the user algorithm, models, or data access necessary for reproducing PPP-B2b results.",
+  "mathematical_model": "differential augmentation",
+  "experiment_epoch": "NOT_MENTIONED",
+  "correction_types": [
+    "orbit corrections",
+    "satellite clock offset corrections",
+    "ionospheric corrections",
+    "integrity information"
+  ],
+  "ionospheric_handling": "NOT_MENTIONED",
+  "novelty_audit": "Introduces the technical framework and performance of BDS-3 BDSBAS and PPP-B2b, describing system design and initial results.",
+  "metrics": "Orbit and clock offset accuracy, ionosphere integrity, positioning accuracy, convergence time.",
+  "main_results": "BDSBAS provides integrity-assured corrections for aviation; PPP-B2b enables real-time PPP with high accuracy (cm-level) after convergence.",
+  "datasets": "NOT_MENTIONED",
+  "Reproduction_blockers": 8,
+  "_meta": {
+    "calls_ok": 4,
+    "calls_total": 4,
+    "elapsed_s": 250.3
+  }
+}

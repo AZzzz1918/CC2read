@@ -1,0 +1,140 @@
+[
+  {
+    "quote_id": "qb_01f10bc2f0",
+    "span_index": 0,
+    "text": "Available online at www.sciencedirect.com\nScienceDirect\nAdvances in Space Research 76(2025)6435–6457\nwww.elsevier.com/locate/asr\nA real-time high accurate positioning method for vehicles in\nlong-mileage transportation\nChenxi Denga, Wei Jianga,⁎ , Baigen Caia , Jian Wanga , Chris Rizosb ,\nXiaohui Baa , Jiang Liua\na State Key Laboratory of Advanced Rail Autonomous Operation and the Beijing Engineering Research Center of EMC and GNSS Technology for\nRailTransportation,SchoolofAutomationandIntelligence,BeijingJiaotongUniversity,Beijing100044,China\nb School of Civil and Environmental Engineering, Un",
+    "char_length": 3818
+  },
+  {
+    "quote_id": "qb_ac8a3bbb68",
+    "span_index": 1,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nPrecise point positioning (PPP) is a new option for lane- degraded KF performance, which negatively impacts the\nlevel vehicle positioning since it can deliver decimeter-level float solution of carrier phase ambiguities and ultimately\naccuracy using a single GNSS user receiver, withoutrequir- leads to reduced positioning performance (Zhang et al.,\ning base stations, which are typically used for Real-time 2018). Traditional PPP approaches using precise orbit\nkinematic positioning (RTK) (Chan et al., 2017; Wang and clock products cannot fully a",
+    "char_length": 6498
+  },
+  {
+    "quote_id": "qb_c3b683fb5b",
+    "span_index": 2,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nis proposed. This method integrates: a) an online ambiguity modeled and compensated. Subsequently, the moving plat-\nresolution strategy that treats ambiguities as state parame- form’s motion states and other unknown parameters, such\nters and models vehicle acceleration as a first-order Gauss– as carrier phase ambiguities,areestimatedusingaKalman\nMarkov process to address the challenge of carrier phase filter framework based on the corrected observations.\nambiguity resolution in kinematic positioning scenarios To achieve decimeter-level accur",
+    "char_length": 3865
+  },
+  {
+    "quote_id": "qb_7064e5c64a",
+    "span_index": 3,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nrelativistic effects, Earth rotation Error\neffects, solid Earth tides Precise Correction\nSatellite Orbit\nEphemeris Error Correction\nand Clock\nFirst Epoch\nIonospheric Delay Correction\nCorrected\nTropospheric Delay Correction\nMeasurement\nReceiver Clock Offset Correction\nAmbiguities Resolved on an Epoch-by-Epoch basis\nKalman filter\nPPP solutions Initialization\nestimation\nMeasurement Model Dynamic Model\nSingle-Differenced The first-order Parameter\nIF carrier phase Gauss Markov Estimation\nFig. 2. The flowchart ofPPPdataprocessing.\nDCBs, orbit corr",
+    "char_length": 2590
+  },
+  {
+    "quote_id": "qb_d21284608d",
+    "span_index": 4,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nsignals, c is the speed of lightinvacuum,anddt is the 2.1.4. Receiver clock offset elimination\nprec b2b\nPPP-B2b correct ed clock. To mitigate receiver-related errors, the reference satellite\nis chosen as the one with the highest elevation, and single-\n• DCB correc tion differenced (SD) observables are calculated by subtracting\nthe IF combination measurements of other satellites from\nAs the frequency reference is the B3I signal in BDS-3,\nthat of the reference satellite:\nthe calculated clock in the above step (clock correction)\nincludes the co",
+    "char_length": 4610
+  },
+  {
+    "quote_id": "qb_60f89526c5",
+    "span_index": 5,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nwhere, x Ni\nI\nm\nF\nand x Ddwet are the SD IF ambiguity and tropo- where Z k , H k and V k (V N 0 R ) are the measurement\nspheric zenith wet delay in estimat ion, respectively, which vector, measurement matrix and measurementnoisevector\nareconsideredaswhitenoise,a, N im and Dd are the cor- at epoch k, as follows :\nIF wet\nresponding values at the next epoch, respectively, Dt is the Z U1m U2m Unm T 21\ntime interval, s is the correlation time, and x IF IF IF\n(x a N 0 q a )is the acceleration noise vector wi thcovari a - e 1 e m 1 3 0 1 6 I 1 n M1",
+    "char_length": 4042
+  },
+  {
+    "quote_id": "qb_67e649224a",
+    "span_index": 6,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nwith small biases by adaptively inflating their observation The test threshold can be expressed as:\nnoise covariance, while only removing measurements with\nlarge outliers. Thi s strategy helps preserve satellite avail- T f v2 P n 34\nd FA\nability and maintain solution stability.\nwhere n is the number of av ailable measurements.\nThe measurement residual is ca lculated as follows,\nDue to different accuracies and noise characteristics, the\nr Z Z 28 test threshold is generally normalized:\nk k k\nwhere r is the measurementresidual,Z is the actual m",
+    "char_length": 4440
+  },
+  {
+    "quote_id": "qb_3d3bd27720",
+    "span_index": 7,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nFig. 4. The chi-square distributionoftheteststatistic.\nTherefore, the range of n i is: The updated state vector X , its covariance matrix P\nk k k\na b 2 a b 2 and the new filter gain K k are computed as:\nmin min n i max max 40\na2 k a2 K P HT H P HT R 1 44\nmin max k k k 1 k k k k 1 k k\nLet c and c be classification factors. The fault classifi- 1\n1 2 X X K Z H X 45\ncatio n discriminant is: k k k 1 k k k k k 1\nc amin bmin 2 P k I K k H k P k k 1 46\n1 a2\nmin 41\nc amax bmax 2 where P k is the covariance matrix of the state vector X k ,\n2 a2\nmax\nwh",
+    "char_length": 2724
+  },
+  {
+    "quote_id": "qb_4033dac5da",
+    "span_index": 8,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nFig. 5. Real-time robust precise point positioningsystemarchitecture.\nB2b clock offset and orbit corrections. The corresponding 4.1. Experiment descripti on\ncorrection algorithm is described in detail in Section 2 -\nEphemeris Error Correction. At the same time, the SD Case Study 1 was conducted in April 2022 using a land\nIF observable is used and other measurement errors vehicle traveling along Huanghoudian East Road in Bei-\nare eliminated or reduced using appropriate correction jing. The experi ment involved a repeated back-and-forth\nmodels",
+    "char_length": 3544
+  },
+  {
+    "quote_id": "qb_d3420dff00",
+    "span_index": 9,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nGNSS antenna\n4G antenna\nThe land vehicle for experiment\nPC\nFor connecting to\nQianxun platform\nPortable\nPower Source\nFRII-PLUS\nPPP-B2b\nreceiver\nTwo antennas (GNSS and 4G)\n(a) Experimental equipment and test vehicle\nGNSS antenna 4G antenna\nvehicle driving direction\nPC For connecting to\nQianxun platform\nFRII-Plus\nPPP-B2b\nreceiver\nPortable\nPower Source\n(b) Connection diagram of experimental equipment\nFig. 6. Experimental equipment mounted onthelandvehicle.\nvehicle, respectively. As shown in Fig. 6, the GNSS measurements, PPP-B2b correction messa",
+    "char_length": 2294
+  },
+  {
+    "quote_id": "qb_5cd13765b3",
+    "span_index": 10,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nFor connecting to\nQianxun platform\n4G antenna\nGNSS antenna\nPC\nTwo antennas (GNSS and 4G)\nFRII-PLUS\nPPP-B2b\nreceiver\nPortable\nPower Source\nReceiver and Power Source\n(a) Experimental equipment and test trolley\n4G antenna ntenna\ntrolley driving direction PC\nFor connecting to\nQianxun platform\nFRII-Plus\nPortable\nPPP-B2b\nPower Source\nreceiver\n(b) Connection diagram of experimental equipment\nFig. 7. Experimental equipment mountedonthetesttrolley.\nDocumentation, 2024). After obtaining the velocity com- 0.793 m/s. Due to significant building obstruct",
+    "char_length": 2294
+  },
+  {
+    "quote_id": "qb_5406fde1ff",
+    "span_index": 11,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nStart Point\nEnd Point\n(a) Trajectory of the experimental vehicle\n(b) Velocity of the experimental vehicle (north & east components)\nFig. 8. Velocity and trajectory of the experimentalvehicle(CaseStudy1).\nFig. 9. DOP values and available measurementnumber(CaseStudy1).\nconsistency was assessed by comparing time group delay navigation messages refer to the antenna phase center\n(TGD) parameters from broadcast ephemeris and PPP- (APC), the antenna offset correction should be applied to\nB2b DCB values agains t the DCBs provided by the Chi- WUM.FIN",
+    "char_length": 1400
+  },
+  {
+    "quote_id": "qb_578dcd7875",
+    "span_index": 12,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nTrajectory\nStart Point\nEnd Point\n(a) Trajectory of the test trolley\n(b) Velocity of the test trolley (north & east components)\nFig. 10. Velocity and trajectory of the testtrolley(CaseStudy2).\n(a) Number of available BDS-3 measurements during the experiment\n(b) Satellite DOP values during the experiment (GDOP, PDOP, HDOP)\nFig. 11. DOP values and available measurementnumber(CaseStudy2).\nECEF to RAC components, and their root mean square broadcast ephemeris and PPP-B2b service, respectively. The\n(RMS) values are computed. The orbit accuracies o",
+    "char_length": 1185
+  },
+  {
+    "quote_id": "qb_ebb3d28fa9",
+    "span_index": 13,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\n(a) RMS of radial orbit errors\nFig. 12. RMS of the orbiterrors(CaseStudy1).\n(b) RMSofalong-trackorbiterrors\n(c) RMSofcross-trackorbiterrors\nFig12.(continued)\nTable 1\nMean RMS of theorbiterrors.\nRMS mean value(m) Case Study1 Case Study 2\nBRDC PPP-B2b WUM.ULA BRDC PPP-B2b WUM.ULA\nRadial 0.115 0.110 0.165 0.129 0.139 0.277\nAlong-Track 0.545 0.149 0.154 0.295 0.347 0.246\nCross-Track 0.603 0.174 0.129 0.370 0.470 0.213\npredicted part, and broadcast ephemeris, respectively. limitations of ultra-rapid orbit products such as WUM.\nSatellite C39 exhib",
+    "char_length": 2109
+  },
+  {
+    "quote_id": "qb_98f924431c",
+    "span_index": 14,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\n(a) RMS of radial orbit errors\n(b) RMS of along-track orbit errors\n(c) RMS of cross-track orbit errors\nFig. 13. RMS of the orbiterrors(CaseStudy2).\nconducting any assessment, as shown in Eq. (6). For the similar way, and their corresponding STD and RMS values\nclock correction of the broadcast ephemeris, TG D param- are used as assessment indica torsforclockquality.Forthe\neters are used as follows: clock accuracy comparison in Fig. 14 and Fig. 15, the\nc TGD TGD sequence lengths of clock errors from WUM.ULA, broad-\ndt brdc dt brdc j B c 3 I 1 ",
+    "char_length": 2639
+  },
+  {
+    "quote_id": "qb_1bf61d60fc",
+    "span_index": 15,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\n(a) RMS of DD clock offsets\n(b) STD of DD clock offsets\nFig. 14. RMS and STD of theDDclockoffsets(CaseStudy1).\n(a) RMS of DD clock offsets\n(b) STD of DD clock offsets\nFig. 15. RMS and STD of the DDclockoffsets(CaseStudy2).\nTable 2\nMean RMS and STD oftheDDclockoffsets.\nClock Case Study1 Case Study 2\nBRDC PPP-B2b WUM.ULA BRDC PPP-B2b WUM.ULA\nRMS mean value(ns) 7.104 6.763 0.848 2.866 1.191 2.268\nSTD mean value(ns) 0.117 0.031 0.018 0.041 0.025 0.024\nULA, the PPP-B2b corrected clocks demonstrate the high- are more accurate than those from broad",
+    "char_length": 1041
+  },
+  {
+    "quote_id": "qb_d0cab5c9b1",
+    "span_index": 16,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\n4.2.3. DCB consistency evaluation service, post-processed PPP with WUM.FIN, and real-time\nCurrently, CAS DCB data products can only provide PPP based on the predicted part of WUM.ULA, to evalu-\nDCB corrections for BDS-3 satellites C19 to C46, with a ate the performance of the proposed real-time PPP\nstability of about 0.17ns over a month. method. As the system is designe d for vehicle positioning\napplications,forwhichhorizontalaccuracyismorecritical,\n• Case Study 1 theevaluationinthisstudyfocusesonhorizontalposition-\ning performance.\nIn Fig. ",
+    "char_length": 3599
+  },
+  {
+    "quote_id": "qb_2e3d5af7fa",
+    "span_index": 17,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nFig. 17. Comparison of CAS DCBs, PPP-B2bDCBs,andTGDs(CaseStudy2).\n(a) North component of positioning offset in PPP\n(b) East component of positioning offset in PPP\nFig. 18. Positioning offset of PPP using PPP-B2b signals, WUM.FIN, andWUM.ULA(north&eastcomponents)(CaseStudy1).\nthe PPP-B2b service are better than those from the other blockage, particularly in dynamic environments. As a\ntwo methods, with a 2DRMS of 1.775m. result, the positioning performance of PPP using WUM.\nFIN products is comparable to that of the PPP-B2b correc-\n• Case Study",
+    "char_length": 1821
+  },
+  {
+    "quote_id": "qb_239f4f3071",
+    "span_index": 18,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\n1, a and a are therefore set to 0.03 m and 0.05 m\nbased on carrier phase accuracy. In Case Study 2, GNSS\nmeasurement quality deteriorates due to interference\nfrom surrounding tall buildings; thus, a remains at\n0.03m while a increases to 0.08 m. Meanwhile,\nand in both experiments are set to 0.3 m and\n0.8 m respectivel y, equivalent to ten times the maximum\nvalues of a and a\n• Case Study 1\nTo assess robust PPP performance using PPP-B2b sig-\nnals, we apply robust filtering after positioning offsets sta-\nbilize. Fig. 20(a) and (b) compare positi",
+    "char_length": 3384
+  },
+  {
+    "quote_id": "qb_fb900c4ea8",
+    "span_index": 19,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\n(a) North component of positioning offset in PPP\n(b) East component of positioning offset in PPP\nFig. 19. Positioning offset of PPP using PPP-B2b signals, WUM.FIN, andWUM.ULA(north&eastcomponents)(CaseStudy2).\n(a) North component of positioning offset: PPP vs. robust PPP vs. PPP-RTK\n(b) East component of positioning offset: PPP vs. robust PPP vs. PPP-RTK\nFig. 20. Positioning offset of PPP, robustPPP,andPPP-RTK(CaseStudy1).\nThe sixth and ninth columnsofTable 3 summarize hori- the commercial PPP-RTK values of 0.123 m/s in Case\nzontal velocity ",
+    "char_length": 1785
+  },
+  {
+    "quote_id": "qb_6c3caf5fb5",
+    "span_index": 20,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\n(a) North component of positioning offset: PPP vs. robust PPP vs. PPP-RTK\n(b) East component of positioning offset: PPP vs. robust PPP vs. PPP-RTK\nFig. 21. Positioning offset of PPP, robustPPP,andPPP-RTK(CaseStudy2).\nautonomous driving applications. The broadcast ephemeris Program of China. Jiang Liu reports financial support was\nis combined with PPP-B2b corrections to generate precise provided by National Natural Science Foundation of\nsatellite orbits and clocks in real time. To improve the China. If there are other authors, they declare th",
+    "char_length": 3840
+  },
+  {
+    "quote_id": "qb_360dd8a90c",
+    "span_index": 21,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\ntransfer with the PPP-B2b service. Satell.Navig.4(1),8.https://doi. Wang, J., Shi, C., Zheng, F., Yang, C., Liu, X., Liu, S., Xia, M., Jing, G.,\norg/10.1186/s43020-023-00097-3. Li, T., Chen, W., Li, Q., Hu, Y., Tian, Y., Shan, Y., 2024. Multi-\nGillieron, P.-Y., Ruotsalainen, L., Peyret, F., Feng, S., Engdahl, J., 2016. frequency smartphone positioning performance evaluation: insights\nThe SaPPART COST action: towards positioning integrity for road intoA-GNSSPPP-B2bservicesandbeyond.Satell.Navig.5(1),25.\ntransport.In:2016EuropeanNavigationConf",
+    "char_length": 6350
+  },
+  {
+    "quote_id": "qb_c8d3ec8b8e",
+    "span_index": 22,
+    "text": "C.Dengetal. AdvancesinSpaceResearch76(2025)6435–6457\nJian Wang received the B.S, M.S., and Ph.D. XiaohuiBa is Professor at the School of\ndegreesfromBeijingJiaotongUniversity,Beijing, Automation and Intelligence, Beijing Jiaotong\nChina, in 2000, 2003, and 2007, respectively. University.HereceivedhisPhDdegreefromthe\nFrom 2007 to 2010, he was a Lecturer in the Institute of Microelectronics, Chinese Academy\nSchool of Electronic and Information Engineer- of Sciences, Beijing, China. His current research\ning, Beijing Jiaotong University, where he is interestissatellitenavigation,receiverdesignand\ncu",
+    "char_length": 1764
+  }
+]

@@ -1,0 +1,22 @@
+# Papers excluded from Full Audit Batch 1 because they handle MIXED_PRODUCTS
+# Rule: MIXED_PRODUCTS papers must NOT be merged into core PPP-B2b corpus
+
+excluded_papers:
+  - paper_id: Pan_Lin_2025_bds_b2b_and_has
+    source_file: "2025--Pan Lin--BDS B2b and HAS.pdf"
+    product_source: MIXED_PRODUCTS
+    reason: |
+      Paper covers both BDS PPP-B2b AND Galileo HAS.
+      Batch A classification: boundary_mixed.
+      Cannot be classified as pure BDS3_PPP_B2B_BROADCAST.
+
+  - paper_id: Wei_Haopeng_2024_combining_galileo_hasandbeidou_pppb2b_withhelmert_coordinate
+    source_file: "2024--Wei Haopeng--Combining Galileo HAS and Beidou PPP-B2b with Helmert coordinate .pdf"
+    product_source: MIXED_PRODUCTS
+    reason: |
+      Paper explicitly combines Galileo HAS + BDS PPP-B2b.
+      Multi-constellation augmentation paper.
+
+note: |
+  MIXED_PRODUCTS papers may be audited separately in a future batch.
+  They must not be included in the pure BDS3_PPP_B2B core corpus.

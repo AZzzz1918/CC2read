@@ -1,0 +1,12 @@
+{
+  "product_source": "QZSS_CLAS",
+  "paper_type": "clas_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_gnss_augmentation",
+  "classification_reason": "The paper evaluates L6 signal reception characteristics and kinematic positioning accuracy using QZSS CLAS, which is a GNSS augmentation service, not related to BDS-3 PPP-B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha.pdf",
+  "paper_id": "2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha",
+  "extraction_mode": "batch_classify_1call"
+}

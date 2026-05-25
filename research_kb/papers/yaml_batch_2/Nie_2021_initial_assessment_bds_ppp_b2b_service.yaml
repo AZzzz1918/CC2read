@@ -1,0 +1,101 @@
+paper_id: Nie_2021_initial_assessment_bds_ppp_b2b_service
+extraction_mode: full
+batch: Batch 2
+selection_role: core_ppp_b2b
+extraction_timestamp: '2026-05-22T19:14:35.239599'
+bibliographic_info:
+  title: 'Initial Assessment of BDS PPP-B2b Service: Precision of Orbit and Clock
+    Corrections, and PPP Performance'
+  authors: Zhixi Nie, Xiaofei Xu, Zhenjie Wang, Jun Du
+  year: 2021
+  journal_or_venue: Remote Sensing
+  doi: 10.3390/rs13102050
+product_source:
+  claimed: NOT_MENTIONED
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes: []
+experiment_epoch:
+  start_date: NOT_MENTIONED
+  end_date: NOT_MENTIONED
+  description: 'Months mentioned: November
+
+    2017, October
+
+    2020, May 2016, July 2020'
+  dates_found: []
+  months_found:
+  - 'November
+
+    2017'
+  - 'October
+
+    2020'
+  - May 2016
+  doys_found: []
+  grounding_quotes: []
+correction_types:
+- type: orbit_correction
+- type: clock_correction
+- type: differential_code_bias
+dcb_handling:
+  status: MENTIONED
+  dcb_mentions: 5
+  grounding_quotes: []
+ionospheric_handling:
+  status: MENTIONED
+  iono_mentions: 2
+  grounding_quotes: []
+mathematical_model:
+  processing_mode: NOT_MENTIONED
+  grounding_quotes: []
+datasets:
+  stations_found: &id001 []
+  grounding_quotes: []
+metrics: {}
+main_results:
+  summary: NOT_MENTIONED
+  grounding_quotes: []
+novelty_audit:
+  audit_grade: NOT_AUDITED
+  grounding_quotes: []
+reproducibility_audit:
+  reproducibility_score: 1
+  reproduction_blockers:
+  - No source code or software release
+  - Raw GNSS observation data not publicly provided
+  - PPP-B2b correction archive not distributed
+  - Specific processing parameters not fully detailed
+is_ppp_b2b_core_paper: true
+pdf_metadata:
+  pages: 19
+  b2b_mentions: 100
+  has_mentions: 0
+  clas_mentions: 3
+  dcb_mentions: 5
+  iono_mentions: 2
+  dates_found: []
+  months_found:
+  - 'November
+
+    2017'
+  - 'October
+
+    2020'
+  - May 2016
+  - July 2020
+  doys_found: []
+  periods:
+  - periodwerecollectedfrom5October2020to7October2020
+  - duringtheperiodfrom5October2020to7October2020
+  - from5October2020to7October2020
+  stations_found: *id001
+  sampling_rates: []
+  elevation_cutoff: []
+gate_status:
+  product_source_correct: true
+  expected_product_source: BDS3_PPP_B2B_BROADCAST
+  wrong_support: false
+  experiment_epoch_valid: true
+  dcb_status: MENTIONED
+  reproduction_blockers_non_empty: true

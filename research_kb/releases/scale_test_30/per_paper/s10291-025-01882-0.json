@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper investigates LEO autonomous orbit determination using BDS-3 PPP-B2b corrections combined with inter-satellite ranging, making it a direct downstream application of PPP-B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-025-01882-0.pdf",
+  "paper_id": "s10291-025-01882-0",
+  "extraction_mode": "batch_classify_1call"
+}

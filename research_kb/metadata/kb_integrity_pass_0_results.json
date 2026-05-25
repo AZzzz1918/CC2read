@@ -1,0 +1,35 @@
+{
+  "inventory": {
+    "entries": 7,
+    "admitted_in_registry": 7,
+    "blocking": 0,
+    "warnings": 0
+  },
+  "admitted_papers": {
+    "count": 66,
+    "missing_title": 16,
+    "missing_ps": 0,
+    "wrong_support": 0,
+    "blocking": false
+  },
+  "evidence": {
+    "papers_with_bank": 66,
+    "total_spans": 6237,
+    "papers_without_bank": 9,
+    "quote_id_conflicts": 49,
+    "unresolved_quotes": 0
+  },
+  "entities": {
+    "entity_files": 7,
+    "singleton_routes": 5,
+    "confirmed_routes": 12,
+    "blocking": 0
+  },
+  "indexes": {
+    "blocking": 0,
+    "warnings": 1
+  },
+  "result": "PASS",
+  "total_blocking": 0,
+  "total_warnings": 35
+}

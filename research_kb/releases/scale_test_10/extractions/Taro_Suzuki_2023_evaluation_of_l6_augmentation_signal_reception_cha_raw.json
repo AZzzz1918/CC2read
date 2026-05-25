@@ -1,0 +1,27 @@
+{
+  "paper_id": "Taro_Suzuki_2023_evaluation_of_l6_augmentation_signal_reception_cha",
+  "expected_category": "non_b2b_qzss",
+  "extraction_mode": "batch_c_lite_4calls",
+  "product_source": "QZSS_CLAS",
+  "paper_type": "qzss_clas_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "reason": "The paper evaluates compact GNSS antennas for receiving QZSS L6D CLAS corrections and achieving PPP-RTK positioning.",
+  "mathematical_model": "PPP-RTK using CLAS",
+  "experiment_epoch": "NOT_MENTIONED",
+  "correction_types": "Orbit, Clock, Ionospheric (SSR) from CLAS",
+  "ionospheric_handling": "uses ionospheric corrections from CLAS",
+  "novelty_audit": "The paper evaluates compact and lightweight GNSS antennas for receiving QZSS CLAS L6D signals and performing PPP-RTK, comparing them to survey-grade antennas. While antenna evaluation itself is not highly novel, the specific focus on L6-compatible small antennas for free PPP-RTK services like CLAS offers practical novelty for emerging applications such as drones and delivery robots.",
+  "metrics": [
+    "Positioning accuracy (likely 3D RMS or similar)",
+    "Fixed rate of PPP-RTK solutions",
+    "Signal reception characteristics (e.g., C/N0, gain, elevation dependence)"
+  ],
+  "main_results": "The study compares survey-grade and small/lightweight antennas in real-world conditions, assessing differences in positioning accuracy and fixed rate when using QZSS L6D CLAS PPP-RTK. The full results are not detailed in the provided excerpt.",
+  "datasets": "Field-collected data using multiple L6-compatible GNSS antennas (survey and compact types) under real-world open-sky conditions, receiving QZSS L6D signals. No public dataset is mentioned.",
+  "_meta": {
+    "calls_ok": 4,
+    "calls_total": 4,
+    "elapsed_s": 144.4
+  }
+}

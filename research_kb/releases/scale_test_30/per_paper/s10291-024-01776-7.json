@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "orbit_clock_product_gen",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper extracts phase observable-specific bias (OSB) products from BDS3 PPP-B2b corrections and GNSS observations, enabling real-time PPP-AR for the service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-024-01776-7.pdf",
+  "paper_id": "s10291-024-01776-7",
+  "extraction_mode": "batch_classify_1call"
+}

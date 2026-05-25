@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper directly utilizes BDS-3 PPP-B2b broadcast corrections for sub-nanosecond UTC dissemination, making it a core downstream application of the PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "remotesensing-16-00043.pdf",
+  "paper_id": "remotesensing-16-00043",
+  "extraction_mode": "batch_classify_1call"
+}

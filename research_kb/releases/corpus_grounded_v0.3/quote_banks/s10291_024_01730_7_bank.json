@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_46f20e8897",
+    "span_index": 0,
+    "text": "GPS Solutions (2024) 28:185\nhttps://doi.org/10.1007/s10291-024-01730-7\nORIGINAL ARTICLE\nLightweight seamless lane‑level positioning with the integration\nof BDS‑3 PPP‑B2b and VINS: a case study using smartphone\nRui Shang1 · Chengfa Gao1 · Xiaolin Meng2 · Zhenhao Xu1 · Qi Liu1 · Qianqian Chen3 · Xiangdong An4\nReceived: 11 April 2024 / Accepted: 16 August 2024 / Published online: 23 August 2024\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024\nAbstract\nGround-based Global Navigation Satellite Systems (GNSS) augmentation services such as real-ti",
+    "char_length": 4129
+  },
+  {
+    "quote_id": "qb_a8a7fbbff9",
+    "span_index": 1,
+    "text": "185 Page 2 of 17 GPS Solutions (2024) 28:185\nrevealed several challenges faced by smartphones, includ- investigate the performance of satellite-based augmentation\ning low signal-to-noise ratio (SNR), high code noise, gaps services on smartphones.\nin carrier phase observations and frequent cycle slips, etc., Moreover, in real-time positioning scenarios such as\n(Zhang et al. 2018 and Paziewski et al. 2019). Typically, passing expressway toll stations or beneath bridges, GNSS\nthere are two methods to achieve high-precision GNSS signals are susceptible to interference, resulting in inter-\nposition",
+    "char_length": 5638
+  },
+  {
+    "quote_id": "qb_196d9d6507",
+    "span_index": 2,
+    "text": "GPS Solutions (2024) 28:185 Page 3 of 17 185\nFig. 1 Proposed integration\nscheme of lightweight seamless\nlane-level positioning with PPP-\nB2b/VINS\nGnssMeasurement class in the Android development docu- where TimeNanos is the GNSS receiver’s internal hardware\nmentation (European GNSS Agency. 2018b). The carrier clock value in nanoseconds, TimeOffsetNanos is the time\nphase observations of smartphones can be directly obtained offset at which the measurement was taken in nanoseconds,\nthrough the accumulated delta range in meters, while the FullBiasNanos is the difference between TimeNanos inside\nco",
+    "char_length": 2500
+  },
+  {
+    "quote_id": "qb_99d83aa48d",
+    "span_index": 3,
+    "text": "185 Page 4 of 17 GPS Solutions (2024) 28:185\nGnssClock class changes, to then use the FullBiasNanos delay, d r and ds are the code hardware delay on receiver r\nand BiasNanos from the first epoch after the change (Euro- and satellite s , respectively, b r and bs are the carrier phase\npean GNSS Agency, GSA. 2018b). The alternative method hardware delay for receiver r and satellite s , respectively,\nis to directly use the FullBiasNanos and BiasNanos from 𝜆 is the wavelength of first frequency and Ns is the carrier-\n𝜀 𝜉\nthe current epoch. However, this approach can lead to incon- phase ambiguity. ",
+    "char_length": 5366
+  },
+  {
+    "quote_id": "qb_64b873cfc9",
+    "span_index": 4,
+    "text": "GPS Solutions (2024) 28:185 Page 5 of 17 185\nthe inter-signal correction (ISC) products ISC L1C∕A from the consumption. Leveraging the real-time and accurate capabil-\nGPS BRDC were further used to calibrate the code bias in ities of YOLOv5 (Wu et al. 2021), we use YOLOv5 for traf-\nL1P signal to that in L1C signal (Wang et al. 2019). fic sign detection (Song et al. 2023). To recognize express-\nIn position estimation and residual error processing, the way scenes effectively, we select common and representative\nreceiver clock will absorb the receiver code hardware delays, traffic signs like heigh",
+    "char_length": 5184
+  },
+  {
+    "quote_id": "qb_9472f55cde",
+    "span_index": 5,
+    "text": "185 Page 6 of 17 GPS Solutions (2024) 28:185\nFig. 2 The proposed global\npose graph structure of PPP-\nB2b /VINS\n𝐳PPP−B2b−hPPP−B2b(X)=𝐳PPP−B2b−hPPP−B2b(𝐱)=𝐩PPP−B2b−𝐩w The RMS statistical data presented in Fig. 3 illustrate the\nt t t t t t t\n𝐳l−hl(X)=𝐳l−hl(𝐱 ,𝐱) real-time orbit accuracies of the R, A, and C components\nt t t t t−1 t\n𝐪l −1(𝐩l−𝐩l ) 𝐪w −1(𝐩w−𝐩w ) of BDS-3 satellites. A notable observation is that due to\n= t−1 t t−1 ⊖ t−1 t t−1\n𝐪l −1𝐪l 𝐪w −1𝐪w additional observations from inter-satellite links (ISL) ter-\n[ t−1 t ] [ t−1 t ]\nminals of BDS-3 satellites, the orbit accuracies of PPP-B2b\n(",
+    "char_length": 4108
+  },
+  {
+    "quote_id": "qb_3c8df1d490",
+    "span_index": 6,
+    "text": "GPS Solutions (2024) 28:185 Page 7 of 17 185\nFig. 3 BDS-3 orbit RMS for the BRDC, PPP-B2b and WHU RTS and WHU Ultra-rapid products in R, A and C directions with respect to the\nWHU final orbit products\nFig. 4 GPS orbit RMS for the BRDC, PPP-B2b and WHU RTS and WHU Ultra-rapid products in R, A and C directions with respect to the\nWHU final orbit products\nGPS BRDC can exceed 0.8 ns and 0.6 ns, respectively. Fol- RTS products, Table 1 presents the RMS statistics for orbits\nlowing correction with PPP-B2b clock products, the clock and the STD for clocks of each product, along with the\nprecision of b",
+    "char_length": 1954
+  },
+  {
+    "quote_id": "qb_7052f26c75",
+    "span_index": 7,
+    "text": "185 Page 8 of 17 GPS Solutions (2024) 28:185\nFig. 5 STD values of the BDS-3 and GPS satellites clock offset for the BRDC, PPP-B2b and WHU RTS and WHU Ultra-rapid products\nTable 1 RMS of orbit in R/A/C\nReal-time product Satellite type RMS of orbit (cm) SISRE of orbit STD of\ndirections, orbit SISRE, and\n(cm) clock\nclock STD for different products R A C\n(ns)\nBRDC GPS 38.7 107.1 60.0 41.78 0.52\nBDS-3 MEO 6.8 24.8 18.3 7.90 0.75\nBDS-3 IGSO 13.1 37.4 25.3 13.45 0.80\nPPP-B2b GPS 11.7 54.5 34.2 14.70 0.24\nBDS-3 MEO 6.6 24.4 18.1 7.68 0.18\nBDS-3 IGSO 11.1 33.8 22.1 11.45 0.29\nWHU RTS GPS 1.9 5.0 3.6 2.",
+    "char_length": 2148
+  },
+  {
+    "quote_id": "qb_134e5472de",
+    "span_index": 8,
+    "text": "GPS Solutions (2024) 28:185 Page 9 of 17 185\nData collection and processing strategies the RTK base station (ZHD0) on the roof of the School of\nTransportation at Southeast University provided the RTK\nAs depicted in the Fig. 6a, a HP40 smartphone, equipped reference (Fig. 6c). The CGI-430 GNSS/INS integrated nav-\nwith the Kirin-990 chipset and Android 10 operating sys- igation device by CHCNAV (Fig. 6d) served as the dynamic\ntem, was mounted on a holder affixed to the car dashboard, positioning reference, with its configuration summarized in\nplaying a central role in the comprehensive GNSS/IMU/",
+    "char_length": 3992
+  },
+  {
+    "quote_id": "qb_9177d7a0a8",
+    "span_index": 9,
+    "text": "185 Page 10 of 17 GPS Solutions (2024) 28:185\nto environmental influences. Overall, the PPP-B2b exhibits\na relatively lower count of matched satellites, attributed to\nmissing corrections data in the PPP-B2b product. Figure 9's\nsky plot shows the C/N0 of available satellite, it shows that\ndue to the poor multipath suppression capability, the signal\nis easily susceptible to interference, resulting in significant\nvariations in the C/N0 of each satellite in the HP40. Addi-\ntionally, unlike ZHD0 whose C/N0 strongly depends on\nelevation, the HP40 does not exhibit a strong dependency on\nelevation. Fu",
+    "char_length": 3756
+  },
+  {
+    "quote_id": "qb_68bb815c22",
+    "span_index": 10,
+    "text": "GPS Solutions (2024) 28:185 Page 11 of 17 185\nTable 3 Processing strategies of PPP-B2b and VINS\nSensors Item Processing strategies\nGNSS Signals GPS L1, BDS-3 B1I code and carrier phase observations\nOutput rate 1HZ\n10◦\nElevation cutoff\nC/N0 mask 20 dB-Hz\nWeighting model C/N0 dependent model:𝜎 i = a+b⋅10−(C∕N0)i∕10 ,𝜎 i is the code noise, parameters a and b are deter-\nmined according to the constellations (Liu et al. 2023b), the weight ratio of code and carrier phase\nto\n(1∶300)2\n(Tao et al. 202\n√\n3)\nSatellite orbit, clock and DCB 1. WHU RTS, MGEX DCB products (Chinese Academy of Sciences, CAS)\n2",
+    "char_length": 2106
+  },
+  {
+    "quote_id": "qb_d4e3cdfb24",
+    "span_index": 11,
+    "text": "185 Page 12 of 17 GPS Solutions (2024) 28:185\nFig. 9 Sky plot with respect to\nC/N0 for ZHD0 (left) and HP40\n(right)\nFig. 10 Static positioning errors of PPP-B2b, WHU RTS and WHU Ultra-rapid based PPP after the 40-min convergence time for ZHD0 (left)\nand HP40 (right)\ntypically obstruct GNSS signals, resulting in increased posi-\ntioning errors just before and after passing each bridge and\ntoll station. Therefore, the positioning performance after\nbridges and toll station passages will be evaluated in the\nsubsequent section.\nLightweight seamless PPP‑B2b/VINS positioning\nperformance\nIn Fig. 12, th",
+    "char_length": 1184
+  },
+  {
+    "quote_id": "qb_b9adfe9ed6",
+    "span_index": 12,
+    "text": "GPS Solutions (2024) 28:185 Page 13 of 17 185\nTable 4 Statistical analysis\nPPP-B2b WHU RTS WHU Ultra-rapid\nof horizontal and vertical\npositioning accuracy for three Horizontal Vertical Horizontal Vertical Horizontal Vertical\ntypes of PPP with respect to\nCGI-430 solutions in dynamic STD 1.42 2.13 1.23 1.70 1.23 1.67\nscenarios (m) RMS 1.48 2.15 1.33 1.73 1.37 1.77\nright panel. Additionally, we have presented the RMS values\nin the longitudinal, lateral and vertical directions.\nIt can be observed that in the PPP-B2b solution, the RMS\nof positioning errors are 1.06 m, 1.03 m, and 2.15 m in the\nlong",
+    "char_length": 2645
+  },
+  {
+    "quote_id": "qb_e5d0c7e2f9",
+    "span_index": 13,
+    "text": "185 Page 14 of 17 GPS Solutions (2024) 28:185\nexperiment was conducted on January 5, 2024, we manually and vertical directions as time increases. Among these, due\ninterrupted the PPP-B2b positioning solution. Based on the to the road's planar constraints, the drift in the vertical direc-\nstart time, the data was divided into six groups, each lasting tion is the smallest. Table 5 indicates that at the 20 s, the\n100 s, and VINS positioning experiments were conducted. VINS horizontal positioning error is less than 1 m. How-\nFigure 14 shows the positioning trajectory of the first test ever, at the",
+    "char_length": 3009
+  },
+  {
+    "quote_id": "qb_1c423c68c8",
+    "span_index": 14,
+    "text": "GPS Solutions (2024) 28:185 Page 15 of 17 185\naugmentation data loss due to ground-based network inter- Basnayake C, Williams T, Alves P, and Lachapelle G (2010). Can\nruptions and high energy consumption during smartphone GNSS drive V2X? GPS World. 21. http://g pswor ld.c om/t rans\nportat ionro adcan-g nss-d rive-v 2x-1 0611/\nmulti-sensor fusion processes. Initially, we assessed the orbit\nBöhm J, Niell A, Tregoning P, Schuh H (2006) Global mapping func-\nand clock quality of PPP-B2b, confirming its capability to tion (GMF): a new empirical mapping function based on numeri-\nprovide precise orbit",
+    "char_length": 6851
+  },
+  {
+    "quote_id": "qb_1ae0a44aa8",
+    "span_index": 15,
+    "text": "185 Page 16 of 17 GPS Solutions (2024) 28:185\n23(12):13280–13291. https://d oi.o rg/1 0.1 109/J SEN.2 023.3 2715 IEEE Trans Veh Technol 66(6):4579–4591. https://d oi.o rg/1 0.\n28 1109/T VT.2 017.2 66131 6\nKouba J (2009) A Guide to using international GNSS service (IGS) Stephenson S (2016). Automotive applications of high precision GNSS.\nproducts. http://i gscb.j pl.n asa.g ov/c ompon ents/u sage.h tml Ph.D. dissertation, University of Nottingham, Nottingham, The\nLi B, Miao W, Chen GE, Li Z (2022a) Ambiguity resolution for smart- United Kingdom. http://e print s.n ottin gham.a c.u k/3 8716/\npho",
+    "char_length": 7543
+  },
+  {
+    "quote_id": "qb_6e65553542",
+    "span_index": 16,
+    "text": "GPS Solutions (2024) 28:185 Page 17 of 17 185\nMicrowave Conference Proceedings (APMC), Seoul, Korea Zhenhao Xu is a master degree\n(South), 651–653 https://d oi.o rg/1 0.1 109/A PMC.2 013.6 69489 4 candidate at School of Transpor-\ntation, Southeast University,\nPublisher's Note Springer Nature remains neutral with regard to Nanjing, China. He received the\njurisdictional claims in published maps and institutional affiliations. B.S. degree from Southeast Uni-\nversity in 2022. His current\nSpringer Nature or its licensor (e.g. a society or other partner) holds research mainly focuses on high-\nexclus",
+    "char_length": 3169
+  }
+]

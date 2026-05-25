@@ -1,0 +1,102 @@
+{
+  "paper_id": "s43020_024_00146_5",
+  "extraction_mode": "full_strict_quotes",
+  "phase": "batch_3_phase_b",
+  "selection_role": "boundary_mixed",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "authors": "NOT_MENTIONED",
+    "year": 2024,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "MIXED_PRODUCTS",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "Satellite Navigation (2024) 5:25 Satellite Navigation https://doi.org/10.1186/s43020-024-00146-5 https://satellite-navigation.springeropen.com/ ORIGINAL ARTICLE Open Access Multi-frequency smartphone positioning performance evaluation: insights into A-GNSS PPP-B2b services and beyond Jiale Wang1,3, Chuang Shi1,2,3, Fu Zheng2,3*, Cheng Yang4, Xu Liu3,5, Shuo Liu3,5, Ming Xia1,3, Guifei Jing2,3, Tua",
+      "The positioning results show that the A-GNSS PPP-B2b service can achieve positioning performance with RMS errors of less than 1.5 m, 2.5 m, and 4 m in open-sky, realistic, and challenging urban environments.",
+      "Keywords Multi-frequency smartphone, 3GPP LPP, OMA SUPL, Observation noise, TTFF, A-GNSS PPP-B2b, OTDOA, 3DMA GNSS, NLOS *Correspondence: Fu Zheng fzheng@buaa.edu.cn Full list of author information is available at the end of the article © The Author(s) 2024."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "dates_found": [],
+    "doys_found": [],
+    "months_found": [
+      "May 2024",
+      "August 2023",
+      "December 2023"
+    ],
+    "grounding_quotes": [
+      "the experimental setup, positioning performance, and the (2021) analyzed the accuracy, availability, and real-time results analysis for six experiments."
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 6,
+    "grounding_quotes": [
+      "(GPS) satellites broadcasted by PPP-B2b message reached These releases have further propelled the development 97.5% and 91.5%, respectively, with the DCB product of high-precision positioning technology in smartphones accuracy on B1I, B1C, and B2a being generally better and played a significant role in advancing the applica- than 0.5 ns.",
+      "Users can perform real-time corrections of the the broadcast ephemeris to calculate the satellite position X satellite’s code biases by utilizing the differential code vector b , and then converts the orbit correction into the bias (DCB) correction provided in the PPP-B2b mes- ECEF frame (Tang et al., 2022; Zhang et al., 2022a, 2022b)."
+    ]
+  },
+  "ionospheric_handling": {
+    "status": "IONOSPHERE_FREE_COMBINATION",
+    "iono_mentions": 16,
+    "grounding_quotes": []
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 26,
+    "b2b_mentions": 52,
+    "has_mentions": 1,
+    "clas_mentions": 6,
+    "dcb_mentions": 6,
+    "iono_mentions": 16
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "MIXED_PRODUCTS",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "quote_id": "qb_67ee187380",
+    "span_index": 0,
+    "text": "remote sensing\nCommunication\nPerformance of Ground-Based Global Navigation Satellite\nSystem Precipitable Water Vapor Retrieval in Beijing with\nthe BeiDou B2b Service\nYunchangCao1,ZhenhuaCheng1,2,JingshuLiang1,*,PanpanZhao1,YucanCao3 andYizhuWang1,2\n1 MeteorologicalObservationCenter,ChinaMeteorologicalAdministration,Beijing100081,China;\ncaoyc@cma.gov.cn(Y.C.);chengzh2854@163.com(Z.C.);zhaopp@cma.gov.cn(P.Z.);\nwkwyz999@163.com(Y.W.)\n2 GuangxiMeteorologicalTechnologyandEquipmentCenter,Nanning530022,China\n3 CollegeofElectronicandInformationEngineering,TongjiUniversity,Shanghai201804,China;\n2150996",
+    "char_length": 3692
+  },
+  {
+    "quote_id": "qb_14eb189962",
+    "span_index": 1,
+    "text": "RemoteSens.2024,16,2902 2of10\nscanradiometer)on-boardFY-2(theFengyunsatelliteseries2)canalsoprovidehighspatio-\ntemporalresolutionatmosphericPWVproducts. Butitonlyworksonclearskiesandthe\nrootmeansquareerror(RMSE)ishigh,reachingover4mmcomparedwithradiosonde[11].\nDouble-difference (DD) network solution and precise point positioning (PPP) are\ntwowidelyusedapproachestoprocessground-basedGNSSmeasurements. TheDDso-\nlution is a basic method used to calculate precise positions or satellite orbits and other\nparameters from the global or regional GNSS network [12]. On the contrary, the PPP\nsolutionusesfi",
+    "char_length": 3739
+  },
+  {
+    "quote_id": "qb_ede504884d",
+    "span_index": 2,
+    "text": "RemoteSens.2024,16,2902 3of10\nwhere δρ is the position correction, and the subscripts r, t, and a denote the radial, the\ntangential,andtheaxialdirections,respectively. ThesuperscriptTisthetransposeofthe\nvector. TheprecisesatellitepositionXS canbecorrectedthroughthebroadcastephemeris\nC\nXS withthefollowingequation:\nbrdc\nXs= Xs −[e e e ]δρ (2)\nc brdc r t a\n→ (cid:12)→(cid:12) → → (cid:12)→ →(cid:12) →\nRemote Sens. 2024, 16, x FOR PEER REwVhIEeWre e = r /(cid:12)r (cid:12), e = r ·v /(cid:12)r ×v (cid:12), e = e ×e , r is the vector of the sate3l loitfe 1’s1\nr s (cid:12) s(cid:12) t s s (cid:12) s",
+    "char_length": 4431
+  },
+  {
+    "quote_id": "qb_7becc94a7d",
+    "span_index": 3,
+    "text": "RemoteSens.2024,16,2902 4of10\nhardware delays experienced by the receiver. ds and bs are the pseudorange and\n,IFjk ,IFjk\ncarrierhardwaredelaysexperiencedbythesatellite. Ns andλ aretheambiguityand\nr,IFjk IFjk\nthewavelength. ε andε arethenoisesinpseudorangeandcarrierobservations.\nP L\nSinceBDSbroadcasttheirephemerisbasedonB3Ifrequency,thecorrectedreal-time\nsatelliteclockoffsetshouldincludethehardwaredelayofB3Isignal. Letδˆt s =dts+ds ,\n,B3I\nandδt =dt +d ;then,\nr r r,IFjk\n(cid:16) (cid:17)\nPs = ρs+δtˆ −δtˆs+Ts− ds −ds +ε\nr,IFjk r r r ,IFij ,B3I P (5)\nLs = ρs+δtˆ −δtˆs+Ts+λ B +ε\nr,IFjk r r r IFjk r",
+    "char_length": 2405
+  },
+  {
+    "quote_id": "qb_4ee9d21dab",
+    "span_index": 4,
+    "text": "RemoteSens.2024,16,2902 5of10\nP\nZHD =10 −3k R s (8)\n1 d 9.784[1000−2.66cos(2λ)−0.28H]\nThen,ZWDcanbeobtainedbysubtractingZHDfromtheZTD.Ithasbeenproved\nthattheZWDisrelatedtoPWVasfollows[4],\n∏\nPWV = ·ZWD (9)\nΠisamappingfunctionthatcanbecalculatedusingthefollowingequation[4]:\n∏\n106\n= (cid:16) (cid:17) (10)\n[R k3 +k ′ ]\nv Tm 2\n(cid:82) (Pw)dz\nwhere T m is the weighted mean temperature, T m = (cid:82)(cid:16)\nP\nT\nw\n(cid:17)\ndz\n, P w is the pressure of the\nT2\nwatervapor,andTistheKelvintemperature;T isoftencalculatedempiricallywiththe\nm\nsurfacetemperatureTs. T =a+b·T [4].\nm s\n2.5. RadiosondeandERA5Rea",
+    "char_length": 2413
+  },
+  {
+    "quote_id": "qb_9318391fe2",
+    "span_index": 5,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 6 of 11\n2.6. The PWV Accuracy Evaluation\nWhen it comes to assessing the accuracy of PWV, three metrics, the average deviation\n(bias), the root mean square error (RMSE), and the correlation coefficient (r), are often\nused for the validation. Their formulas are written as follows:\n𝑏𝑖𝑎𝑠=∑𝑛 (𝑌𝑖−𝑌 𝑖 ′) (11)\n𝑖=1 𝑛\n1\n𝑅𝑀𝑆𝐸 =[∑n\ni=1\n(Y\ni\n−Y\ni\n′)2⁄n]2 (12)\nwhere 𝑌,𝑌̅ are the values and the mean values of PWV, respectively, and n represents\n𝑖 𝑖\nthe sample number.\n3. Results\n3.1. Validation Data for the GNSS PWV\nRadiosondes are often used for the comparison and val",
+    "char_length": 4678
+  },
+  {
+    "quote_id": "qb_d4669e851a",
+    "span_index": 6,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 7 of 11\nwater vapor content are estimated hourly after a latency of 50 min with the sliding win-\ndow (12 h) method [38].\nFigure 3 shows the contrast of the PWV values measured using the traditional net-\nwork solution (black dot) and the PPP solution with BDS (black line) on 15 January 2023.\nThe temporal resolution of the traditional network solution is 1 hour. On the contrary,\nwith the PPP solution based on BeiDou’s B2b service, PWV can be obtained every 2 min,\nwhich is near real time. A very good agreement is shown for PWV values obtained using\nthe two",
+    "char_length": 5322
+  },
+  {
+    "quote_id": "qb_e9f705dd41",
+    "span_index": 7,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 8 of 11\nand the RMSE is 10.82 mm. For the GPS processing (ZTD_G), the bias is 11.63 mm and the\nRMSE is 12.68 mm.\nFigure 5. ZTDs from the BeiDou, the GPS processing and calculation of ERA5.\n3.4. PWV from the BeiDou-GPS Combined Solution\nIn the PPP processing, we treated the BeiDou MEO Satellites as GPSs and obtained\nthe BeiDou-GPS combined solution. As can be seen, the trend in Figure 6 is very similar\nRemoteSens.2024,16,2902 to that in Figure 4. Referenced with the ERA5 calculation, the bias is 0.74 mm and8 tohfe10\nRMSE is 1.97 mm for the BeiDou-GPS com",
+    "char_length": 3535
+  },
+  {
+    "quote_id": "qb_b32679e5ef",
+    "span_index": 8,
+    "text": "RemoteSens.2024,16,2902 9of10\nThistestingexperimentwasconductedinBeijinginJanuary. Thiswasduringvery\nsunnyandwindlessweather,andthewatervaporcontentisrelativelylowinthisseason,\nwhichresultsinaverygoodagreementbetweentheERA5andtheradiosonde. So,thisisa\npreliminaryresult,anditwasashortexperimentintendedonlyforPWVvalidation.Longer\nexperimentswillbeneededindifferentseasonsanddifferentplacesforacomprehensive\nassessmentinthefuture.\nAuthorContributions:Conceptualization,J.L.andY.C.(YunchangCao);methodology,Y.C.(YunchangCao);\nsoftware,Y.C.(YucanCao);validation,Y.W.andZ.C.;formalanalysis,Y.C.(YucanCao)",
+    "char_length": 4498
+  },
+  {
+    "quote_id": "qb_c7ee043ed2",
+    "span_index": 9,
+    "text": "RemoteSens.2024,16,2902 10of10\n19. Yang,Y.;Ding,Q.;Gao,W.;Li,J.;Xu,Y.;Sun,B.PrincipleandperformanceofBDSBASandPPP-B2bofBDS-3.SatellNavig.2022,\n3,5.[CrossRef]\n20. Zeng,T.;Sui,L.;Ruan,R.;Jia,X.;Feng,L.UncombinedpreciseorbitandclockdeterminationofGPSandBDS-3.SatellNavig.\n2020,1,19.[CrossRef]\n21. Ge,Y.;Chen,S.;Wu,T.;Fan,C.;Qin,W.;Zhou,F.;Yang,X.AnanalysisofBDS-3real-timePPP:Timetransfer,positioning,and\ntroposphericdelayretrieval.Measurement2021,172,108871.[CrossRef]\n22. Jiao,G.;Song,S.;Liu,Y.;Su,K.;Cheng,N.;Wang,S.AnalysisandassessmentofBDS-2andBDS-3broadcastephemeris:Accuracy,\nthedatumofbroadcast",
+    "char_length": 3742
+  }
+]

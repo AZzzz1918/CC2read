@@ -1,0 +1,12 @@
+{
+  "product_source": "GALILEO_HAS",
+  "paper_type": "has_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "classification_reason": "The paper evaluates the Galileo High Accuracy Service (HAS) performance, a real-time PPP service distinct from BDS PPP-B2B, making it related to PPP SSR but not core B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2024--Zhou Peiyuan--Initial_performance_assessment_of_Galileo_High_Acc.pdf",
+  "paper_id": "2024--Zhou Peiyuan--Initial_performance_assessment_of_Galileo_High_Acc",
+  "extraction_mode": "batch_classify_1call"
+}

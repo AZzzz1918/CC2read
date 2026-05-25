@@ -1,0 +1,42 @@
+{
+  "paper_id": "CI001_s43020_024_00143_8",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-001",
+  "bibliographic_info": {
+    "title": "High-precision services of BeiDou navigation satellite system (BDS): current state, achievements, and future directions"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "The operational PPP-B2b of BDS-3 achieves positioning accuracy at decimeter-level within 14 min and has the drawbacks in regional coverage and long convergence time compared with the international counterparts, such as CLAS of QZSS and HAS of Galileo.",
+      "Keywords BeiDou navigation satellite system, Precise point positioning, PPP-B2b, Low-earth-orbit, PPP-RTK, PPP-AR, Orbit, Clock Introduction As a Chinese fundamental facility in space and timing information transfer, the development of Beidou Satel- *Correspondence: lite Navigation System (BDS) follows three steps."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 10,
+    "grounding_quotes": [
+      "To provide more accurate correc- lite orbit, clock, DCB, and UPD parameters of GPS L1/ tions over broader areas (Hu et al., 2003), CORSnet-NSW L5/L2C signals and Galileo E1/E5b/E5a/E6/E5 signals began providing Continuously Operating Reference worldwide through E6 signal of MEO satellites (EUSpace, Stations (CORS) services in Sydney, New South Wales 2023)."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 20,
+    "b2b": 64,
+    "has": 5,
+    "dcb": 10
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "corpus_version": "v1.0"
+}

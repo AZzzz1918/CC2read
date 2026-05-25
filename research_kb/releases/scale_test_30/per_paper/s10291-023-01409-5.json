@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper evaluates the long-term performance of BDS-3 PPP-B2b service, including correction availability, orbit and clock quality, and positioning accuracy using PPP-B2b messages.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-023-01409-5.pdf",
+  "paper_id": "s10291-023-01409-5",
+  "extraction_mode": "batch_classify_1call"
+}

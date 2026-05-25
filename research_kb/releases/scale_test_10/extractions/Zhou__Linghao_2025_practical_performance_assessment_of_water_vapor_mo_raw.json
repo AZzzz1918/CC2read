@@ -1,0 +1,24 @@
+{
+  "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+  "expected_category": "ppp_b2b_application",
+  "extraction_mode": "batch_c_lite_4calls",
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "mathematical_model": "Dual-frequency ionospheric-free PPP using code and phase observations from GPS and BDS",
+  "experiment_epoch": "NOT_MENTIONED",
+  "correction_types": "satellite orbit, clock, and code bias corrections from the BDS PPP-B2b service",
+  "ionospheric_handling": "Ionospheric-free linear combination",
+  "novelty_audit": "The paper evaluates water vapor retrieval using BDS PPP-B2b service with standard PPP and PWV conversion methods. The novel aspect is limited to a practical performance assessment rather than introducing new algorithms.",
+  "metrics": "NOT_MENTIONED",
+  "main_results": "NOT_MENTIONED",
+  "datasets": "GPS and BDS dual-frequency code and phase observations from Leica AR20 antenna and receiver; BDS PPP-B2b real-time satellite orbit and clock corrections; ERA5 reanalysis for reference precipitable water vapor.",
+  "reason": "The paper directly utilizes BDS PPP-B2b corrections for real-time GNSS water vapor monitoring, a key downstream application of the service.",
+  "Reproduction_blockers": 8,
+  "_meta": {
+    "calls_ok": 4,
+    "calls_total": 4,
+    "elapsed_s": 228.5
+  }
+}

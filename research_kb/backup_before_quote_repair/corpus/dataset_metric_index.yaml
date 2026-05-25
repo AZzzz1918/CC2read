@@ -1,0 +1,63 @@
+Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service:
+  stations:
+  - NOT_MENTIONED
+  - USUD
+  - CUSV
+  satellite_systems:
+  - BDS-3
+  - GPS
+  experiment_epoch:
+    start: '2022-05-02'
+    end: '2022-06-11'
+  convergence_time: 'GPS PPP-B2b: 65.5 min; BDS-3 PPP-B2b: 39.5 min; BDS-3/GPS 较单
+    BDS-3 缩短 16.4%'
+  rms_3d: NOT_MENTIONED
+  percentile_95: NOT_MENTIONED
+Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser:
+  stations:
+  - AIRA
+  - STK2
+  - TSK2
+  - USUD
+  - NOT_MENTIONED
+  satellite_systems:
+  - NOT_MENTIONED
+  - QZSS
+  - GPS
+  - Galileo
+  - GLONASS
+  - BeiDou
+  experiment_epoch:
+    start: '2019-09-15'
+    end: '2019-09-17'
+  convergence_time: about 420 epochs (30s each) to converge to 20cm E, 20cm N, 40cm
+    U
+  rms_3d: NOT_MENTIONED
+  percentile_95: NOT_MENTIONED
+Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp:
+  stations:
+  - Beijing (single station)
+  - URUM
+  - ULAB
+  - WHU2
+  - JFNG
+  - WUH2
+  - NOT_MENTIONED
+  - URAM
+  - NOT_MENTIONED (four MGEX stations, specific names not provided)
+  - NOT_MENTIONED (four MGEX stations)
+  - four MEGX stations
+  satellite_systems:
+  - BDS-3
+  - GPS
+  - NOT_MENTIONED
+  - BDS
+  experiment_epoch:
+    start: '2021-12-20'
+    end: '2021-12-23'
+  convergence_time: Defined as position accuracies in horizontal <10 cm and vertical
+    <20 cm for at least 10 min. BDS-3 PPP-B2b convergence within 15 min; GPS PPP-B2b
+    average 52 min (longest 109 min).
+  rms_3d: 'Static: centimeter-level (exact value not given); Dynamic horizontal ~50
+    cm, vertical ~120 cm'
+  percentile_95: NOT_MENTIONED

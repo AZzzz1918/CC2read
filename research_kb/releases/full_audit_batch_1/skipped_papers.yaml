@@ -1,0 +1,25 @@
+# Papers that were planned for Batch 1 but skipped during audit
+
+skipped_papers:
+  - paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+    source_file: "2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C.pdf"
+    reason: markdown_path_mismatch
+    detail: |
+      Markdown file exists at:
+        releases/scale_test_10/markdown/Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c.md
+      But was NOT found in:
+        research_kb/markdown/
+      The audit script expected the markdown in the main markdown directory.
+    fix: Copy markdown from scale_test_10 to main markdown dir, then re-run audit.
+    status: pending_fix
+    target_batch: Batch 1 addendum (preferred) or Batch 2
+
+  - paper_id: Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+    source_file: unknown (likely in paper/ directory)
+    reason: markdown_path_mismatch
+    detail: |
+      Markdown not found in research_kb/markdown/.
+      PDF may not have been processed through danielmiessler-pdf skill yet.
+    fix: Process PDF through danielmiessler-pdf skill, generate markdown, then audit.
+    status: pending_fix
+    target_batch: Batch 2

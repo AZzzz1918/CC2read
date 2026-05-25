@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_3cab8d74d2",
+    "span_index": 0,
+    "text": "GPS Solutions (2023) 27:73\nhttps://doi.org/10.1007/s10291-023-01410-y\nRESEARCH\nAssessment of Galileo High Accuracy Service (HAS) test signals\nand preliminary positioning performance\nNacer Naciri1 · Ding Yi1 · Sunil Bisnath1 · F. Javier de Blas2 · Roberto Capua3\nReceived: 14 October 2022 / Accepted: 27 January 2023 / Published online: 15 February 2023\n© The Author(s) 2023\nAbstract\nThe Galileo High Accuracy Service (HAS) is a GNSS augmentation that provides precise satellite corrections to users\nworldwide for free directly through Galileo’s E6 signal. The HAS service provides free PPP correction",
+    "char_length": 4092
+  },
+  {
+    "quote_id": "qb_f0779b1a3c",
+    "span_index": 1,
+    "text": "73 Page 2 of 14 GPS Solutions (2023) 27:73\nIn addition to the broadcasting of SSR corrections over main goals of this paper are to comprehensively analyze\nthe Internet and commercial satellites, a recent trend has the broadcasted test HAS corrections’ quality by assessing\nseen the emergence of the broadcasting of SSR corrections (1) correction availability, (2) satellite orbit and clock cor-\nthrough GNSS constellations directly. The Centimeter-Level rections and SISRE, (3) satellite code bias corrections, and\nAugmentation Service (CLAS) in the Japanese Quasi-Zenith (4) float PPP solutions usin",
+    "char_length": 5987
+  },
+  {
+    "quote_id": "qb_39cf96ce15",
+    "span_index": 2,
+    "text": "GPS Solutions (2023) 27:73 Page 3 of 14 73\nDocument (ICD) was published in May 2022, confirming the in uncombined mode (without forming linear combinations\nstructure and contents of the HAS Signal (European Union of measurements), it is necessary to ensure that the satellite\n2022). SL2 is expected to include atmospheric (troposphere orbits on each frequency refer to that frequency’s antenna\nand ionosphere) corrections over the European Coverage phase center using satellite antenna corrections.\nArea (ECA), which is expected to improve the targeted con- A similar strategy is to be used for the s",
+    "char_length": 5664
+  },
+  {
+    "quote_id": "qb_1461154925",
+    "span_index": 3,
+    "text": "73 Page 4 of 14 GPS Solutions (2023) 27:73\nTable 1 Range and specific\nCorrection type Range (m) Indicators Validity Update\nindicators of the HAS satellite\ninterval (s) interval\norbit, clock, and code bias\n(s)\ncorrections\nOrbits—radial ± 10.2375 − 10.24: data not available 300 50\nOrbits—along-track ± 16.376 − 16.384: data not available 300 50\nOrbits—cross-track ± 16.376 − 16.384: data not available 300 50\nDelta clocks ± 40.95 − 40.96: data not available 60 10\n40.95: satellite should not be used\nCode biases ± 20.46 − 20.48: data not available 3600 50\nValidity and update interval values are speci",
+    "char_length": 3351
+  },
+  {
+    "quote_id": "qb_af5a87a1e8",
+    "span_index": 4,
+    "text": "GPS Solutions (2023) 27:73 Page 5 of 14 73\nFig. 2 Percentage of time with\navailable HAS orbit and clock\ncorrections per Galileo (top)\nand GPS (bottom) satellite\nbetween days 242 and 248 of\nyear 2022\nAssessment of satellite orbit and clock 2019). Consequently, alignment between these different\ncorrections conventions is performed using satellite biases to refer both\nsets of clocks to the same combinations of signals. When it\nThe HAS orbit and clock corrections are compared to final comes to orbit comparison, the ECEF coordinates from both\norbit and clock products from the Center for Orbit Deter",
+    "char_length": 3771
+  },
+  {
+    "quote_id": "qb_9952b833ed",
+    "span_index": 5,
+    "text": "73 Page 6 of 14 GPS Solutions (2023) 27:73\nFig. 3 Along-track (top left),\ncross-track (top right), radial\n(center left), and 3D (center\nright) orbital errors and clock\n(bottom) errors of Galileo and\nGPS HAS corrections relative\nto final CODE orbits and clocks\non day 247 of year 2022\nTable 2 rms of the radial,\nRadial Along-track Cross-track 3D Clock Clock exclud-\nalong-track, cross-track, 3D\ning G19 and\norbit, and clock errors of HAS\nE12\nrelative to CODE final products\non day 247 of year 2022 Galileo 3.2 6.6 5.3 9.0 15.5 8.8\nGPS 2.4 6.4 5.3 8.6 14.5 11.6\nThe rms is computed taking into account ",
+    "char_length": 2327
+  },
+  {
+    "quote_id": "qb_53fbb355bd",
+    "span_index": 6,
+    "text": "GPS Solutions (2023) 27:73 Page 7 of 14 73\nbetween Galileo and GPS. Comparable values were obtained\nby Hauschild et al. (2022) for the Galileo constellation for\nthe September 2021 test broadcast, though GPS SISRE was\nhigher for that campaign compared to this study of the sum-\nmer 2022 test broadcast. Similar conclusions are made when\ncomparing to results by Fernandez-Hernandez et al. (2022),\nwhich focused on the September 2020 test broadcast. Addi-\ntionally, for general comparison, these GPS SISRE values\nappear to be lower than the PPP-B2b corrections by Tao\net al. (2021), which showed larger ",
+    "char_length": 2981
+  },
+  {
+    "quote_id": "qb_234b15869a",
+    "span_index": 7,
+    "text": "73 Page 8 of 14 GPS Solutions (2023) 27:73\ncomparing the HAS test signal code biases with final Dif-\nferential Code Biases (DCBs) from the German Aerospace\nCenter DLR (Montenbruck et al. 2014). Given that the DLR\nDCBs are final products and that they are comparable to the\nsub-nanosecond level to other DCB products from analysis\ncenters such as CODE and the Chinese Academy of Sci-\nences (CAS), they can be taken as the reference to compare\nagainst.\nThe code bias corrections in the HAS test signal were not\ncomputed by the Galileo infrastructure. Instead, they were\nintroduced by configuration base",
+    "char_length": 4828
+  },
+  {
+    "quote_id": "qb_59ebaf7204",
+    "span_index": 8,
+    "text": "GPS Solutions (2023) 27:73 Page 9 of 14 73\nFig. 7 Mean difference and\nstandard deviation per Galileo\nand GPS satellite of HAS code\nbiases relative to final DCB\nproducts from DLR. The statis-\ntics are based on one week of\ndata, between days 242 and 248\nof year 2022\nused for the PPP processing, as well as a description of the\ndata being processed. The section continues with PPP results\nfrom the summer 2022 test broadcast, before ending with a\npreliminary analysis of the effect of HAS correction latency\non PPP performance.\nProcessing strategies and data\nThe PPP processing is performed with the we",
+    "char_length": 3044
+  },
+  {
+    "quote_id": "qb_53b7511ee9",
+    "span_index": 9,
+    "text": "73 Page 10 of 14 GPS Solutions (2023) 27:73\nTable 3 PPP processing strategy\nParameter Processing strategy\nReceiver coordinates calculation modes Kinematic mode: estimated with process noise equivalent to 100 km/h\nStatic mode: estimated as constants\nReceiver reference coordinates sources IGS SINEX positions\nReceiver clocks One clock per constellation, estimated as white noise\nTropospheric delay Dry component: GMF model and mapping function (Kouba 2009)\nWet component: Estimated as a random walk process\nIonospheric delays Estimated as white noise\nAmbiguities Estimated as constant over each contin",
+    "char_length": 3138
+  },
+  {
+    "quote_id": "qb_a110b81da2",
+    "span_index": 10,
+    "text": "GPS Solutions (2023) 27:73 Page 11 of 14 73\nFig. 10 Convergence time statistics for Galileo-only, GPS-only, and Fig. 11 rms statistics for Galileo-only, GPS-only, and Galileo + GPS\nGalileo + GPS HAS solutions in both static and kinematic modes. HAS solutions in both static and kinematic modes. The rms is com-\nThe statistics correspond to the results in Fig. 9 puted over the whole three hours of processing. Green and red bars\nrepresent kinematic and static mode results, respectively. The 95th\npercentile vertical rms is 30.4 cm and 52.9 cm in static and kinematic\nmodes, respectively\nand are expe",
+    "char_length": 4201
+  },
+  {
+    "quote_id": "qb_91f5caba1b",
+    "span_index": 11,
+    "text": "73 Page 12 of 14 GPS Solutions (2023) 27:73\nFig. 12 Effect of simulated\nGalileo HAS correction latency\non PPP performance at the 95th\npercentile based on processing\nall datasets described in the\nprevious section. The data are\nprocessed in kinematic mode\nusing Galileo and GPS satellite\norbits, clocks and code biases.\nThe horizontal lines represent\nthe target accuracy performance\ncorrections have been transmitted and analyzed in an effort are well below the targets. The convergence time target of\nto complete an end-to-end experimentation (involving end 5 min was not met, due to the current test ",
+    "char_length": 4155
+  },
+  {
+    "quote_id": "qb_da51f9a6ba",
+    "span_index": 12,
+    "text": "GPS Solutions (2023) 27:73 Page 13 of 14 73\npaper writing, and reviewed and edited the manuscript. J.d.B. reviewed Hadas T, Bosy J (2015) IGS RTS precise orbits and clocks verifica-\nthe manuscript and provided advice and guidance for the analysis and tion and quality degradation over time. GPS Solut 19(1):93–105.\nresults. R.C. led the collaborative effort to develop the paper and pro- https://d oi.o rg/1 0.1 007/s 10291-0 14-0 369-5\nvided advice and guidance for the analysis and results. All authors Hao M, Jiao W, Jia X, Tao Q (2020) Precise point positioning per-\nreviewed the paper and agreed",
+    "char_length": 7201
+  },
+  {
+    "quote_id": "qb_7ca515bde9",
+    "span_index": 13,
+    "text": "73 Page 14 of 14 GPS Solutions (2023) 27:73\nTownsend B, Lachapelle G, Fortes LP, Melgård TE, Nørbech T, Raquet Sunil Bisnath is a Full Professor\nJ (1999) New concepts for a carrier phase based GPS positioning in the Department of Earth and\nusing a national reference station network. In: Proceedings of the Space Science and Engineering\nION NTM 1999. Institute of Navigation, San Diego, California, at York University, Toronto,\nUSA, January 25–27, pp 319–326 Canada. He received his Ph.D. in\nVilliger A, Schaer S, Dach R, Prange L, Sušnik A, Jäggi A (2019) Geodesy and Geomatics Engi-\nDetermination o",
+    "char_length": 3495
+  },
+  {
+    "quote_id": "qb_ce8a989ca1",
+    "span_index": 14,
+    "text": "Terms and Conditions\nS pringer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH (“Springer Nature”).\nSpringer Nature supports a reasonable amount of sharing of research papers by authors, subscribers and authorised users (“Users”), for small-\nscale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained. By\naccessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use (“Terms”). For these\np urposes, Springer Nature consider",
+    "char_length": 4128
+  }
+]

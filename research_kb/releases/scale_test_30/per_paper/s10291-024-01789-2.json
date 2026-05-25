@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper combines Galileo HAS and BeiDou PPP-B2b services using a Helmert transformation method for improved multi-GNSS positioning, directly applying PPP-B2b products.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-024-01789-2.pdf",
+  "paper_id": "s10291-024-01789-2",
+  "extraction_mode": "batch_classify_1call"
+}

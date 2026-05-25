@@ -1,0 +1,2288 @@
+[
+  {
+    "quote_id": "qb_f28b884de4",
+    "span_index": 0,
+    "text": "IEEESENSORSJOURNAL,VOL.21,NO.6,MARCH15,2021 7871\nDecoding PPP Corrections From BDS B2b\nSignals Using a Software-Defined Receiver:\nAn Initial Performance Evaluation\nXiangchenLu ,StudentMember,IEEE, Liang Chen ,SeniorMember,IEEE,\nNan Shen ,StudentMember,IEEE, LeiWang ,Member,IEEE,\nZhenhangJiao,StudentMember,IEEE, and RuizhiChen ,SeniorMember,IEEE\nAbstract—With the rapid development of China’s BeiDou\nNavigationSatelliteSystem(BDS),theapplicationofreal-time\nprecisepointpositioning(RTPPP)basedonBDShasbecome\nan active research area in the field of Global Navigation\nSatellite Systems (GNSS).",
+    "char_length": 591
+  },
+  {
+    "quote_id": "qb_d88181e1b5",
+    "span_index": 1,
+    "text": "BDS has provided the service of\nbroadcasting RTPPP information.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_93c3853f66",
+    "span_index": 2,
+    "text": "It indicates that BDS has\nbecome the second satellite system that provides RTPPP\nservices,followingGalileoamongtheGNSS,butworkbased\nonthisdirectionhasyettobeexplored.Therefore,thispaper\nevaluatestheperformanceofprecisepointpositioning(PPP)\nservice using a software-defined receiver (SDR).",
+    "char_length": 288
+  },
+  {
+    "quote_id": "qb_605b5622be",
+    "span_index": 3,
+    "text": "An exper-\niment was carried out to verify the feasibility of the SDR.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_2bb3c3d3ff",
+    "span_index": 4,
+    "text": "The PPP-B2b signal was processed to obtain PPP service\ninformation, including orbit corrections, clock corrections, and differential code bias corrections.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_05d8c665fd",
+    "span_index": 5,
+    "text": "The time-varying\nattributes of these corrections of BDS and GPS are evaluated,and the integrity and stability of the PPP service were\nanalyzed.TheresultsshowthePPP-B2bsignalcanstablyprovidePPPservicesforsatellitesintheAsia-Pacificregion,\nincludingcentimetertodecimeter-levelorbitcorrectionsandmeter-levelclockcorrectionsforBDSsatellites.Atthesame\ntime,PPPservicesprovidedecimetertometer-levelorbitcorrectionandmeter-levelclockcorrectionforGPSsatellites.",
+    "char_length": 453
+  },
+  {
+    "quote_id": "qb_1e88170c45",
+    "span_index": 6,
+    "text": "Finally, detection tip for bitstream availability in SDR is proposed.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_cb32610b52",
+    "span_index": 7,
+    "text": "Some content which is not defined in the official\ndocument,suchasthePPP-B2bframearrangement,variouscorrectionupdatecyclesandtheprogressofPPPservice\narediscussed.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_222100dfcf",
+    "span_index": 8,
+    "text": "IndexTerms—Real-timeprecisepointpositioning(RTPPP),BeiDouNavigationSatelliteSystem(BDS),signalprocess-\ning,software-definedreceiver(SDR).",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_e29803741a",
+    "span_index": 9,
+    "text": "INTRODUCTION with positioning, timing, wide-area differential and short\nTHE development of Chinese BeiDou navigation satellite message communication services.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_9346889e2a",
+    "span_index": 10,
+    "text": "Since 2003, the third\nsystem (BDS) can be divided into three steps.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_ed86ec0033",
+    "span_index": 11,
+    "text": "The BeiDou navigation experiment satellite was launched, further\nfirst step was to construct the BeiDou Satellite Navigation enhancing the performance of the BeiDou Navigation\nDemonstration System (BDS-1) [1].",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_8fd0a4f378",
+    "span_index": 12,
+    "text": "Using an active Satellite Demonstration System [2].",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_f40cdf13c7",
+    "span_index": 13,
+    "text": "The second step was\npositioning scheme, the system provided users in China the construction of the BeiDou Satellite Navigation Regional\nSystem(BDS-2).Inadditiontoatechnicalschemecompatible\nwith that of BDS-1, BDS-2 further included a passive\nManuscript received November 17, 2020; accepted\npositioning scheme, and provided users in the Asia-Pacific\nNovember 25, 2020.",
+    "char_length": 367
+  },
+  {
+    "quote_id": "qb_b39dd3984b",
+    "span_index": 14,
+    "text": "Date of publication December 2, 2020; date\nof current version February 17, 2021.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_186d75068c",
+    "span_index": 15,
+    "text": "This work was supported in region with positioning, velocity measurement, timing, and\npart by the National Key Research and Development Program under short message communication services [1].",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_7313d69158",
+    "span_index": 16,
+    "text": "By the end\nGrant 2018YFB0505400, and in part by the Natural Science Fund\nof 2012, a total of 14 satellites, including five Geostationary\nof Hubei Province under Grant 2018CFA007.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_cabf40be10",
+    "span_index": 17,
+    "text": "The associate editor\ncoordinating the review of this article and approving it for publication Earth Orbit (GEO) satellites, five Inclined GeoSynchronous\nwasDr.YouLi.(Correspondingauthor:LiangChen.) Orbit (IGSO) satellites, and four Medium Earth Orbit\nThe authors are with the State Key Laboratory of Information\n(MEO) satellites, had been launched to complete the space\nEngineeringinSurveying,MappingandRemoteSensing,WuhanUni-\nversity, Wuhan 430072, China (e-mail: 2018286190164@whu.edu.cn; constellation deployment [3].",
+    "char_length": 520
+  },
+  {
+    "quote_id": "qb_32f6c9ef61",
+    "span_index": 18,
+    "text": "The third step was to construct\nl.chen@whu.edu.cn; nanshen@whu.edu.cn; lei.wang@whu.edu.cn; the BeiDou Satellite Navigation System (BDS-3) [1].",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_282afe46d6",
+    "span_index": 19,
+    "text": "A total\n2016286190128@whu.edu.cn;ruizhi.chen@whu.edu.cn).",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_d05e367c4e",
+    "span_index": 20,
+    "text": "of 19 satellites have been launched to complete a preliminary\nDigitalObjectIdentifier10.1109/JSEN.2020.3041486\n1558-1748©2020IEEE.Personaluseispermitted,butrepublication/redistributionrequiresIEEEpermission.",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_ea387a5cc3",
+    "span_index": 21,
+    "text": "Seehttps://www.ieee.org/publications/rights/index.htmlformoreinformation.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_0bd5bc28a8",
+    "span_index": 22,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_4a843ebc0c",
+    "span_index": 23,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_45f9df1c00",
+    "span_index": 24,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_1a64f4f3b5",
+    "span_index": 25,
+    "text": "7872 IEEESENSORSJOURNAL,VOL.21,NO.6,MARCH15,2021\nsystem for globalservice [4].",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_ea27ae66a9",
+    "span_index": 26,
+    "text": "There are plans to complete the TABLEI\ndeployment of BDS-3 comprehensively with the launching STRUCTUREOFB2BSIGNAL\nof30satellites by2020[3].OnJune29,2020,inorbittesting\nandnetworkaccessevaluationofthe55thsatelliteofBDSwas\ncompleted, which marks the formal establishment of BDS-3.",
+    "char_length": 279
+  },
+  {
+    "quote_id": "qb_b891c87f0e",
+    "span_index": 27,
+    "text": "BDS-3 by inheriting the technical schemes of both active and\npassive services, can provide global users with positioning,\nnavigation and timing, global short message communication,\nandinternationalsearchandrescueservices.Atthesametime,\nBDS-3addsregionalservicesforusersinChinaandsurround-\ning areas, including satellite-based augmentation, ground\naugmentation and precise point positioning (PPP) services,\nThe main contributions of this paper are listed below:\netc [4], [5].",
+    "char_length": 474
+  },
+  {
+    "quote_id": "qb_e69b193dbe",
+    "span_index": 28,
+    "text": "1) A complete SDR solution on decoding PPP service\nSince the concept of Precise Point Positioning (PPP) was\ninformation is proposed, and all the steps of SDR,\nfirst proposed,it has been a hot research direction in the field\nincludingmodulesofacquisition,tracking,bitstreamand\nof GNSS.",
+    "char_length": 284
+  },
+  {
+    "quote_id": "qb_873f71a5de",
+    "span_index": 29,
+    "text": "However, the precise products that the PPP relies\nPPP information extraction, are described in detail;\non often have a time delay.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_b0b7d23b72",
+    "span_index": 30,
+    "text": "In order to meet the demand\n2) A frame arrangementof completePPP service informa-\nfor real-time precise point positioning (RTPPP), the Interna-\ntion is provided, through which the update interval of\ntional GNSS Service (IGS) since 2013officially has provided\nvarious PPP corrections can be obtained;\nreal-time precision products (RTS), which are estimated by\n3) The clock and orbit corrections for BDS and GPS are\nthe analysis centers (ACs) [6]–[8].",
+    "char_length": 449
+  },
+  {
+    "quote_id": "qb_43f73a8d2d",
+    "span_index": 31,
+    "text": "The RTS are transmitted\ncompared and evaluated, and the integrity and stability\naround the world using the network transmission of the Mar-\nof the PPP service are analyzed.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_8ceedd5b9d",
+    "span_index": 32,
+    "text": "itime Radio Technical Committee (RTCM) under the Internet\nThe paper is organized as follows: information about the\nProtocol (Ntrip) [9].",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_61200109b9",
+    "span_index": 33,
+    "text": "In addition, several ACs, for exam-\nPPP-B2b signal, including signal characteristics, encoding\nple, the German Aerospace Center (DLR), German Research\nmodulation, and navigation message structure, is introduced\nCentre for Geosciences (GFZ), Federal Agency for Cartog-\nin Section II.",
+    "char_length": 282
+  },
+  {
+    "quote_id": "qb_4c93ed934e",
+    "span_index": 34,
+    "text": "The design scheme and decodingprocessof the\nraphy and Geodesy (BKG), and Centre National d’Etudes\nSDR based on the B2b signal are presented in Section III.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_378a8c8991",
+    "span_index": 35,
+    "text": "Spatiales (CNES) also provide such corrections, which can\nThe experiments and results are presented next, followed\nbe accessed and processed via BKG NTRIP client (BNC) or\nby a discussion of the optimization scheme in the decoding\nreal-time kinematic library (RTKLIB) software on the user\nprocess and the characteristics of the PPP service, and the\nside.",
+    "char_length": 353
+  },
+  {
+    "quote_id": "qb_b738ce6cc9",
+    "span_index": 36,
+    "text": "With the rapiddevelopmentof BDS, BDS-based RTPPP\nconclusions.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_59f5ca86ed",
+    "span_index": 37,
+    "text": "has been receiving more attention.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_263b3c1d0c",
+    "span_index": 38,
+    "text": "Since the CNES became\nthe first organization to provide RTS for BDS satellites in\nII.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_1432d8555a",
+    "span_index": 39,
+    "text": "THE STRUCTURE OF PPP-B2B SIGNALS\nNovember 2015, organizations such as GFZ and DLR have\nAND PPP MESSAGE\nalso begun to release RTS for BDS satellites [10]–[13].",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_d4de510477",
+    "span_index": 40,
+    "text": "A.SignalStructure\nIn addition to the RTS provided by IGS, Galileo has been\nThe format of the PPP-B2b signal is given in the official\nproviding High Accuracy Services (HAS) for professional\nBDS documents.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_26ff4aac3d",
+    "span_index": 41,
+    "text": "As one of the BDS3 signals, the B2b signal\nusers at a positioning accuracy of 20 cm.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_d56c5676f3",
+    "span_index": 42,
+    "text": "HAS corrections\nis broadcastby all BDS-3 satellites (MEO/IGSO/ GEO) with\nwill be disseminated through the Galileo E6-B signal on the\na center frequency of 1207.14 MHz and bandwidth of 20.46\n1278.75MHz frequencybyMEO satellite.",
+    "char_length": 226
+  },
+  {
+    "quote_id": "qb_20f5a067b3",
+    "span_index": 43,
+    "text": "ThereceivedHAS\nMHz.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_681cf3ac5c",
+    "span_index": 44,
+    "text": "Table I shows the B2b signal structure and broadcast\ncorrections can be decoded with a success rate of 90% in an\ncontent based on different satellite types [21].",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_ffac3e63b2",
+    "span_index": 45,
+    "text": "occludedenvironment[14]–[17].",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_6626f60cf3",
+    "span_index": 46,
+    "text": "Japanese QZSS-L6D signals\nAs shown in Table I, the center frequency of 1207.14MHz\nprovide a Centimeter Level Augmentation Service (CLAS)\nsignal can be divided into B2b and PPP-B2b signals for\nfor Japanese mainland regions, covering GPS, QZSS, and\nBDS-3.Bothsignalsonlybroadcastthein-phasecomponentI,\nGalileo systems[18].",
+    "char_length": 320
+  },
+  {
+    "quote_id": "qb_e25bc49eb9",
+    "span_index": 47,
+    "text": "InAugust2020,BDS releasedthe PPP-\nandtheirmodulationandsymbolratesarethesame.ButMEO\nB2b document to provide RTPPP service.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_3855756466",
+    "span_index": 48,
+    "text": "The joining of this\nand IGSO satellites of the BDS-3 broadcasts the navigation\nservice announced that ordinary users of BDS can obtain\nmessage for position service.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_de25a29db5",
+    "span_index": 49,
+    "text": "The PPP service is provided\nRTPPP service by receiving PPP-B2b signals only, without\nby the first three GEO satellites on the BDS-3 system.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_04e9dadd68",
+    "span_index": 50,
+    "text": "The\nRTCM or BNC.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_f768593626",
+    "span_index": 51,
+    "text": "influence of BPSK on the Gold code, PPP service data and\nAt present, the receiver for PPP-B2b signal processing\ncarrier of the PPP-B2b signal is shown in Fig.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_4c15656556",
+    "span_index": 52,
+    "text": "is not widely used, and the progress and performance of\nAs shown in Fig.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_565e2d7c7b",
+    "span_index": 53,
+    "text": "1, the PPP-B2b signal s (t) is gen-\nPPP service provided by the PPP-B2b signal has not been B2b_I\nerated by modulating the PPP service data D (t) and\nevaluated.Tofillthisgap,wecarriedoutapreliminarystudyto B2b_I\nthe ranging code C (t).",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_86a056625e",
+    "span_index": 54,
+    "text": "The mathematical expression of\nexploreandanalyzethePPPservicebroadcastinthePPP-B2b B2b_I\ns (t) is as follows [21]:\nsignal.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_4105d689ec",
+    "span_index": 55,
+    "text": "The implementation of this work depends on the high B2b_I\nflexibility and easy operation of a software-defined receiver 1\ns (t)= √ D (t)·C (t) (1)\n(SDR) [19], [20].",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_b5761c7f5c",
+    "span_index": 56,
+    "text": "B2b_I 2 B2b_I B2b_I\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_8f4a5094ba",
+    "span_index": 57,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_77ad159c46",
+    "span_index": 58,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_3960ab1325",
+    "span_index": 59,
+    "text": "LUetal.:DECODINGPPPCORRECTIONSFROMBDSB2BSIGNALSUSINGASOFTWARE-DEFINEDRECEIVER 7873\nFig.1.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_ef99b7f577",
+    "span_index": 60,
+    "text": "InfluenceofBPSKmodulationonGoldcode,PPPservicedata,andB2bcarrier.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_0d7ecbc698",
+    "span_index": 61,
+    "text": "where t denoted that the signal is continuous in time.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_e6e7d53255",
+    "span_index": 62,
+    "text": "D (t) is as follows [21]:\nB2b_I\n(cid:2)∞ (cid:3) (cid:4)\nD (t)= d [k]p t −kT (2)\nB2b_I B2b_I TB2b_I B2b_I\nk=−∞\nwhere k is the chip number of the corresponding data code;\nd is the PPP service data code; T is the chip width\nB2b_I B2b_I\nof the correspondingdata code; p (t) is a rectangle pulse\nTB2b_I\nwith width of T .",
+    "char_length": 316
+  },
+  {
+    "quote_id": "qb_d9d8143f04",
+    "span_index": 63,
+    "text": "B2b_I\nThe mathematical expression of range code C (t) is as\nB2b_I\nfollows [21]: Fig.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_a927e0c1da",
+    "span_index": 64,
+    "text": "Frame structure and channel coding of PPP-B2b navigation\ninformation.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_63da1cf3b5",
+    "span_index": 65,
+    "text": "(cid:2)∞ NB(cid:2)2b_I −1\nC (t)= c [k]p TABLEII\nB2b_I B2b_I Tc_B2b_I\nDEFINEDMESSAGETYPES\nn=−∞ k=0 (cid:3) (cid:3) (cid:4) (cid:4)\n× t − N n+k T (3)\nB2b_I c_B2b_I\nwhere n is the number of the broadcasted ranging code;\nN is the ranging code length with a value of 10230;\nB2b_I\nT = 1/R is the PPP-B2b chip period of the\nc_B2b_I c_B2b_I\nranging code, and R = 10.23Mbps is the PPP-B2b_I\nc_B2b_I\nchipping rate; and p (t) is a rectangle pulse with a\nTc_B2b_I\nduration of T [21].",
+    "char_length": 471
+  },
+  {
+    "quote_id": "qb_8403267559",
+    "span_index": 66,
+    "text": "Among them, 10 ranging codes are\nc_B2b_I\ndefined for PPP-B2b.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_f771751480",
+    "span_index": 67,
+    "text": "Each ranging code c [k] is obtained\nB2b_I\nby expandingthe Gold code that is generated by the modulo-\n2 addition of the shifted output of the two 13-stage linear\nfeedback shift registers [21].",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_350806438f",
+    "span_index": 68,
+    "text": "The introduction of this part is\ntounderstandthesignalstructure.Thenextpartisthemessage\nstructure of PPP information,which is essential for extracting\nPPP information.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_0d5801969f",
+    "span_index": 69,
+    "text": "24 bits of CRC.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_8c63f32906",
+    "span_index": 70,
+    "text": "The specific contents of message data may\ndepend on the different type of Mestype, which is listed in\nTable II.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_d15a2da63f",
+    "span_index": 71,
+    "text": "Currently,seven categories(Mestype 1-7) have been\nB.PPPMessage\nput into use and the remaining messages (Mestype 8-62) are\nEach PPP message has a length of 486 bits, wherein the\nreserved.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_f4701aafe9",
+    "span_index": 72,
+    "text": "The Null message (Mestype 63) are filled in the\nhighest6bitsindicatethemessagetype,thelowest24bitsare\nblank time [21].",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_931f9555cf",
+    "span_index": 73,
+    "text": "cycleredundancycheck(CRC),andtheremaining456bitsare\nmessage data, as shown in Fig.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_f3e542ae6b",
+    "span_index": 74,
+    "text": "As represented in Fig.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_5c561e1d6b",
+    "span_index": 75,
+    "text": "2, each PPP message has a length III.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_182a5ffff6",
+    "span_index": 76,
+    "text": "BDS SOFTWARE-DEFINED RECEIVER\nof 486 bits and is encoded into 972 symbols through 64-ary SDR has a flexible open-architecture, which can be easily\nLow Density Parity Check (64-ary LDPC).",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_55a894393c",
+    "span_index": 77,
+    "text": "These symbols used to configure parameters to explore new system sig-\nare concatenated together with 16 symbols of the preamble, nals[22].Inthissection,SDRisusedtodemodulatethePPP-\n6 symbols for the PRN and 6 symbols for the reserved B2b signal.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_57bd33d10d",
+    "span_index": 78,
+    "text": "3 shows the block diagram of the receiver,\nflags to form one PPP-B2b navigation frame with the total which includes the acquisition module, tracking module, bit-\nlength of 1000 symbols.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_5726c72a24",
+    "span_index": 79,
+    "text": "Each PPP message includes 6 bits streamdemodulationmoduleandB2b-PPPinformationextrac-\nof message type (Mestype), 456 bits of message data and tion module.",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_8016c0947e",
+    "span_index": 80,
+    "text": "The whole method is described as follows.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_7c8b89c84b",
+    "span_index": 81,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_1944635fc7",
+    "span_index": 82,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_d8b08a48b0",
+    "span_index": 83,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_d8c546fb02",
+    "span_index": 84,
+    "text": "7874 IEEESENSORSJOURNAL,VOL.21,NO.6,MARCH15,2021\nFig.3.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_478b17fafa",
+    "span_index": 85,
+    "text": "BlockdiagramoftheSDRofthePPP-B2bsignal.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_7b64e7517c",
+    "span_index": 86,
+    "text": "A.AcquisitionandTrackingModule\nAfter the raw data is successfully collected by SDR,\nthe acquisition is carried out.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_982ae03b49",
+    "span_index": 87,
+    "text": "The purpose of acquisition\nin this work is to determine visible satellites of GEO and\ncalculatethecoarsevaluesofcarrierfrequencyandcodephase\nof the PPP-B2b signals [23].",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_d8a5a63a67",
+    "span_index": 88,
+    "text": "To this end, the collected raw\ndata are correlated with the local generated ranging code.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_aadc6f954a",
+    "span_index": 89,
+    "text": "In principle, there are two methods on the correlation, i.e.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_7756773305",
+    "span_index": 90,
+    "text": "serial search acquisition in the time domain and the parallel\nsearch acquisition in the frequency domain.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_43bdb73673",
+    "span_index": 91,
+    "text": "By considering\nthe computing complexity, in this work, the parallel space\nsearchacquisitioninthefrequencydomainisapplied,inwhich\nFouriertransformisutilized to performa transformationfrom\nthe time domain into the frequency domain and the Doppler\nfrequency shift and code phase are searched in the frequency Fig.4.",
+    "char_length": 312
+  },
+  {
+    "quote_id": "qb_f76aee6dc9",
+    "span_index": 92,
+    "text": "64-aryLDPC(81,162)encodeprocess.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_922a9cf524",
+    "span_index": 93,
+    "text": "domain in parallel [20], [22], [23].",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_73dbc18641",
+    "span_index": 94,
+    "text": "ItisworthmentioningthatPPP-B2bsignalsaretransmitted binary,i.e.,inthevalueof0001010001101111,whichisdue\nby the BDS-3 GEO satellites, which are about 35786 km to the 180 ◦ phase shift in the code tracking loop.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_708a021cec",
+    "span_index": 95,
+    "text": "Naturally,\n◦ ◦\naway from the earth’s surface, and located at 80 E, 110.5 E, these two patterns can occur anywhere in the received data.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_5475f4b3ad",
+    "span_index": 96,
+    "text": "◦\nand 140 E respectively [21].",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_09c8ced785",
+    "span_index": 97,
+    "text": "Thus, the Doppler frequency So an additional check to authenticate the preamble must be\nshift caused by GEO satellite movement is kept in a small carried out.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_89d93cdd08",
+    "span_index": 98,
+    "text": "Based on the design of every frame in the PPP-\nrange, and the maximum Doppler frequency shift can be B2b signal, the repeatedcheckon the occurrenceof preamble\nabout 1.46 Hz every 1 Km/h even if the receiver is in the in the bitstream from the tracking results is 1s (1000ms).",
+    "char_length": 275
+  },
+  {
+    "quote_id": "qb_3b138c4e97",
+    "span_index": 99,
+    "text": "movingstate [24].",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_8725c41966",
+    "span_index": 100,
+    "text": "Therefore,the search range of the Doppler 2)LDPCEncodingandDecoding:When the beginning of\nfrequency shift in the acquisition module of PPP-B2b is set each frame is correctly detected with the assistance of the\nwithin ± 1000 Hz, which accelerates the whole acquisition preamble information, the last 972 symbols of each frame is\ntime.",
+    "char_length": 333
+  },
+  {
+    "quote_id": "qb_1e3341bf12",
+    "span_index": 101,
+    "text": "the message sequence of PPP-B2b.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_0180eb10bd",
+    "span_index": 102,
+    "text": "After decoded by LDPC\nThe coarse value of the frequency Doppler shift and code (162,81),thePPPserviceinformationwithalengthof486bits\nphaseisthenbytheacquisitionmoduleisputintothetracking can be extracted.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_25fa5ca63a",
+    "span_index": 103,
+    "text": "The LDPC (162,81)encoding and decoding\nmodule.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_6ecfa797f2",
+    "span_index": 104,
+    "text": "The classic delay locked loop and phase locked loop processes are introduced as follows.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_71c6893f3b",
+    "span_index": 105,
+    "text": "isfurtherusedtopreciselytrackthephaseofcarrierfrequency EachframeofthePPP-B2bnavigationmessagebeforeerror\nand the ranging code.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_ea424b9525",
+    "span_index": 106,
+    "text": "After the convergence of the tracking correctionencodinghasa lengthof 486bits andthe encoding\nloops,thephaseerrorsandcodeerrorsarekeptwithinasmall schemeadopts64-aryLDPC(162,81).Each(cid:3)cod(cid:4)ewordsymbol\nrange [20], [22], [25].",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_69f1caf9c4",
+    "span_index": 107,
+    "text": "The data demodulation is then carried is composed of 6 bits and defined in GF 26 domain with\nout.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_5a8a9c03db",
+    "span_index": 108,
+    "text": "a primitive polynomial of p(x) = 1 + x + x6.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_d3e649c6b1",
+    "span_index": 109,
+    "text": "A vector\nrepresentation (MSB first) is used to describe the mapping\nB.BitstreamDemodulationModule relationshipbetweennon-binarysymbolsandbinarybits[19].",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_d2aef13891",
+    "span_index": 110,
+    "text": "In order to decode PPP service information correctly, three Thus486bitswillbeconvertedinto81codewords.Thecheck\nsteps are carried out, i.e., preamble searching 64-ary LDPC matrixis aspar(cid:3)se m(cid:4)atrixH 81,162 of81rowsand162columns\ndecoding and CRC.",
+    "char_length": 256
+  },
+  {
+    "quote_id": "qb_13ec3cab69",
+    "span_index": 111,
+    "text": "The methods are presented as follows: defined in GF 26 domain with a primitive polynomial of\n1)PreambleSearching:The purposeof preamblesearching p(x) = 1 + x + x6.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_41bfb0e04a",
+    "span_index": 112,
+    "text": "It can be generated by the index\nis to find the start of the PPP-B2b message.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_521c9aa86b",
+    "span_index": 113,
+    "text": "In PPP-B2b, matrix H 81,162,index and element matrix H 81,162,element .",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_1258485247",
+    "span_index": 114,
+    "text": "The\npreamble is the synchronization head designed as a fixed subsequent encoding steps are shown in Fig.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_7be83f0282",
+    "span_index": 115,
+    "text": "16bitsuniquewordwiththevalueof0xEB90inhexadecimal As shown in Fig.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_af28cb02da",
+    "span_index": 116,
+    "text": "4, the generator matrix G can be calcu-\n(i.e.,1110101110010000inbinary).Thepreamble.Itshould lated by the sparse matrix H 81,162 .",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_daa1c86a4c",
+    "span_index": 117,
+    "text": "By using generator matrix\nbe noted that, the preamble may occur in an inverse code in G,theinputsequencemwithalengthof81canbeencodedto\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_28a37fa775",
+    "span_index": 118,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_40a3b4ec00",
+    "span_index": 119,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_e30ec4ef7d",
+    "span_index": 120,
+    "text": "LUetal.:DECODINGPPPCORRECTIONSFROMBDSB2BSIGNALSUSINGASOFTWARE-DEFINEDRECEIVER 7875\nobtain the codeword sequence with a length of 162.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_c6dfc739ae",
+    "span_index": 121,
+    "text": "Finally, Algorithm 1 Decoding Algorithm: The Extended Min-Sum\neach codeword can be reconstructed back to 6 bits and the Decoding Algorithm\nresult will be converted into the navigation symbol sequence Input: 972 symbols PPP data sequence, the parity-check\nwith a total length of 972 bits [21].",
+    "char_length": 292
+  },
+  {
+    "quote_id": "qb_0e98a37c20",
+    "span_index": 122,
+    "text": "matrix H\nThe codeword sequence encoded by LDPC (162,81) are Output: 486 bits PPP data sequence\ndenoted as: Initialize: set the maximum number of iterations as itr ,\nmax\nc =(c 0 ,c 1 ,...,c n−1 ), 0≤n<162 (4) itr = 0.",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_348d381fc8",
+    "span_index": 123,
+    "text": "1: do\nAfter the modulated codeword sequence is transmitted\n2: calculatereliabilityvectorL by972symbolsPPP data\nj\nthrough the signal channel, the receiver can get the corre-\nsequence\nsponding sequence y as follow:\n3: repeateach variable node VN then\nj\ny=(y 0 ,y 1 ,...,y n−1 ) (5) 4: calculate the decision symbols cˆ j and the reliability\nvector V2C\nwhere y j = (y j,0 ,y j,1 ,...,y j,r−1 ) is the received 5: untilmeeting the variable node updating rules\ninf(cid:3)ormation corresponding to(cid:4) the jth codeword 6: calculate the check sum s=cˆHT\nc j c j ∈ GF(2r),r =6,0≤j<n .",
+    "char_length": 579
+  },
+  {
+    "quote_id": "qb_da07a5bb3f",
+    "span_index": 124,
+    "text": "The parity-check matrix 7: end do\nH of the 64-ary LDPC (162,81) code can be used to check 8: if s=0 then\nthe correctness of the received sequence y.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_bed4951678",
+    "span_index": 125,
+    "text": "the specific 9: return the decision symbols cˆ as output\nj\nmeth(cid:3)od is described(cid:4)as follows: A hard decision codeword 10: end if\ncˆ = cˆ 0 ,cˆ 1 ,...,cˆ n−1 is obtained by making a hard decision 11: itr = itr+1\non the received sequence y bit by bit.",
+    "char_length": 260
+  },
+  {
+    "quote_id": "qb_d81400e219",
+    "span_index": 126,
+    "text": "The check sum is 12: repeat\ncalculated as s = cˆHT.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_e0df398513",
+    "span_index": 127,
+    "text": "If s = 0, cˆ is outputs as the correct 13: if itr =itr then\nmax\ndecoding result, otherwise cˆ is erroneous [21].",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_fc67b66af0",
+    "span_index": 128,
+    "text": "14: declare decoding failed\nThe parity-checkmatrix H denotesthe connectionrelation- 15: end if\nshipbetweenthechecknode(CN)andthevariablenode(VN),\n16: repeateach check node CN then\ni\ni.e., the reliability informationcan be transmitted between the 17: calculate the reliability vector C2V\nconnected CN and VN.",
+    "char_length": 307
+  },
+  {
+    "quote_id": "qb_86fb2ad532",
+    "span_index": 129,
+    "text": "The implementation of the reliabil- 18: untilmeeting the check node updating rule\nity transmitting decoding algorithm can correct the received 19: repeateach variable node VN then\nj\nsequence y to estimated the transmitted codeword cˆ.",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_25992f80ed",
+    "span_index": 130,
+    "text": "BeiDou 20: calculate the decision symbols cˆ and the reliability\nj\nofficialdocumentsprovidetwoiterativereliabilitytransmitting vector V2C\ndecoding algorithms: (1) Extended Min-Sum Method; (2) 21: until meeting the variable node updating rules\nFixed Path Decoding Method.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_beae661124",
+    "span_index": 131,
+    "text": "In this module, the Extended 22: calculate the check sum s=cˆHT\nMin-Sum Method is used to estimate the transmission code- 23: itr = itr+1\nword cˆ.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_5aedb90d4e",
+    "span_index": 132,
+    "text": "The extended minimum sum decoding algorithm is 24: until s=0 return the decision symbols cˆ as output\nj\ndescribed as follows [21]:\nThe updating rule of variable nodes and check nodes, and By dividing decoded sequences with the generator\nthe specific calculation method involved in the above algo- polynomial g(x), the residue should be all “0”.",
+    "char_length": 344
+  },
+  {
+    "quote_id": "qb_44ded9a9a1",
+    "span_index": 133,
+    "text": "However,\nrithmscanrefertothePPP-B2bsignalofficialdocument[21].",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_d155e27434",
+    "span_index": 134,
+    "text": "due to the channel effect on signal transmission, there might\n3)CRC: After the 64-ary LDPC (162,81) decoding, be errors in the decoded sequence.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_47caf89681",
+    "span_index": 135,
+    "text": "Therefore, the results of\nthe CRC will be processed.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_1ef9085e35",
+    "span_index": 136,
+    "text": "The CRC check is performed by CRC can be used to determine whether the decode sequence\nbit for the 6 bits message type and the 456bits message data.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_1519f954a2",
+    "span_index": 137,
+    "text": "is correct or not.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_e5a3c1f65e",
+    "span_index": 138,
+    "text": "Thelowest24bitsareCRC code,asshowninthe upperlayer\nof Fig.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_1995e19f6e",
+    "span_index": 139,
+    "text": "C.PPPInformationExtractionModule\nThe implementationof CRC is CRC-24Q and its generator\nAfter LDPC decoding and CRC, the PPP service informa-\npolynomial is [26]:\ntion can be extracted.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_2181c8585e",
+    "span_index": 140,
+    "text": "The PPP service information mainly\n(cid:2)24\nincludesinformationcontentsuchassatelliteorbitcorrections,\ng(x)= g xi (6)\ni differentialcodebias,andsatelliteclockcorrections.Asstated\ni=0 in Section II-B, different information content is indicated by\nwhere, different message types.",
+    "char_length": 278
+  },
+  {
+    "quote_id": "qb_0f9fa42f29",
+    "span_index": 141,
+    "text": "Before the PPP service information\n(cid:5)\ncanbeeffectivelyappliedtothereceiver,differentinformation\n1, i =0,1,3,4,5,6,7,10,11,14,17,18,23,24\ng = content has to be matched first based on the information of a\ni 0, else\ngroup of Issue of Data (IOD).",
+    "char_length": 247
+  },
+  {
+    "quote_id": "qb_2171ce3499",
+    "span_index": 142,
+    "text": "For details of the IODs, please\nFurthermore, g(x) can be expressed as follows [26]: refer to BeiDou official documents [21].",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_777a8deae2",
+    "span_index": 143,
+    "text": "g(x)=(1+x)p(x) (7)\nIV.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_66f8affccd",
+    "span_index": 144,
+    "text": "EXPERIMENT AND RESULTS\nwhere, p(x)=x23+x17+x13+x12+x11+x9+x8+x7+ To verify the feasibility of the PPP-B2b SDR designed in\nx5+x3+1.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_deaa79a60d",
+    "span_index": 145,
+    "text": "Section III, and to explore the characteristics of the PPP-B2b\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_dd770dae2b",
+    "span_index": 146,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_5e2c76f9cb",
+    "span_index": 147,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_4b4f3020d8",
+    "span_index": 148,
+    "text": "7876 IEEESENSORSJOURNAL,VOL.21,NO.6,MARCH15,2021\nTABLEIII\nTHEPARAMETERSOFCONFIGURATIONDURINGTHEDATACOLLECTION\nTABLEIV\nTHECODEPHASEANDDOPPLERFREQUENCYSHIFTOFTHEACQUIREDSATELLITE\nFig.5.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_f08addcf50",
+    "span_index": 149,
+    "text": "Thetestingscenarioandtestbenchoftheexperiment.(a)TheGNSSantennaandcollectionworkbenchwerearrangedontheroofofthe\nbuildingofWuhanUniversity.(b)Thedetailofthecollectionworkbench.Theworkbenchismainlycomposedoftwoparts:Labsat3widebandand\nlaptop.ThelaptopisusedtoconfiguretheparametersofLabsat3wideband.",
+    "char_length": 297
+  },
+  {
+    "quote_id": "qb_6420e50717",
+    "span_index": 150,
+    "text": "signal,thefieldtestswerecarriedoutontheroofofabuilding of PPP-B2b, which is from the GEO, is much smaller than\non the campus of Wuhan University on September 8, 2020.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_b9aedeb318",
+    "span_index": 151,
+    "text": "thatfromthe BeiDouB1C andGPSL1 C/A, whichare either\nfrom MEO or IGSO.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_9c1a89fd89",
+    "span_index": 152,
+    "text": "A.FieldExperiment Fig.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_f7890c3f82",
+    "span_index": 153,
+    "text": "6 shows the tracking results of PPP-B2b signals from\nPRN59.From Fig.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_234a97723c",
+    "span_index": 154,
+    "text": "6(a), it is observed that, the signal power\nThe testing scenario and test bench are shown in Fig.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_3e2d2eae1d",
+    "span_index": 155,
+    "text": "is mainly concentratedin the I phase, while the Q phase only\nAsshowninFig.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_d02b749631",
+    "span_index": 156,
+    "text": "5(a),anopenenvironmentisselectedforthe\ncontains the noise, which is consistent with the theoretical\nsignal collection to avoid the multipath impact.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_818114d7ec",
+    "span_index": 157,
+    "text": "5(b),\ndesign [20].",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_cbb9c29413",
+    "span_index": 158,
+    "text": "6(b) shows the bitstream from I phase and\nthe raw data is recorded by LabSat 3 wideband, which is a\nthe data transmission rate of the bitstream is 1000 sps.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_6f1baece14",
+    "span_index": 159,
+    "text": "radio frequency (RF) signal recording and playback system.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_15736f9a0e",
+    "span_index": 160,
+    "text": "In LabSat 3 wideband, the supported frequency varies from\n1.2 GHz to 1.6 GHz, the sampling rate from 10 MHz to C.BitstreamDemodulationResults\n58 MHz and the quantization precision ranges from 1, 2 to\nFig.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_fa3abb8653",
+    "span_index": 161,
+    "text": "7 shows the correlation results of the preamble\n3-bitinIandQdigitalsignal.Inthisfieldtest, theparameters\nsearch.Wecanfindthatthereare4synchronousheadswiththe\nof receiver are configured in Table III.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_5f633e7d56",
+    "span_index": 162,
+    "text": "correlationpeakvalueof16,andbycalculation,theirintervals\nareall1000ms,whichsuggeststhesuccessfuldetectionofthe\nB.ResultsofAcquisitionandTracking start of the frame.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_84af8c0f50",
+    "span_index": 163,
+    "text": "Inthetest,thesatelliteswithPRNsof19,21,22,34,35,39, Fig.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_d9acc13139",
+    "span_index": 164,
+    "text": "8 shows the results of the LDPC decoding and CRC\n40, and 44 were acquired using the B1C signal, the satellites from 100 frame sequence, in which, the number of the frame\nwith PRNs of 59, 60, and 61 are acquired by B2b signal and sequence vs.",
+    "char_length": 241
+  },
+  {
+    "quote_id": "qb_955df0819e",
+    "span_index": 165,
+    "text": "the iteration times of the LDPC decoding is\nthe satellites with PRNs of 2, 5, 6, 12, 13, 15, and 29 by the plotted.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_cc34876ac7",
+    "span_index": 166,
+    "text": "The code phase and Doppler frequency shift As shown in Fig.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_5df3410868",
+    "span_index": 167,
+    "text": "8, in the 100 frames of data, most of the\nof the acquired satellites of BDS3 and GPS are presented in framespassedtheCRC aftertheLDPCdecodingwith1itera-\nTable IV.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_8678e1416c",
+    "span_index": 168,
+    "text": "As is clear, in general, the Doppler frequency shift tion.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_452bc06662",
+    "span_index": 169,
+    "text": "In only three cases, the number of iterations reaches the\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_a6b871f7d2",
+    "span_index": 170,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_5711ff8c29",
+    "span_index": 171,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_4045339c8c",
+    "span_index": 172,
+    "text": "LUetal.:DECODINGPPPCORRECTIONSFROMBDSB2BSIGNALSUSINGASOFTWARE-DEFINEDRECEIVER 7877\nFig.6.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_15c8a6c777",
+    "span_index": 173,
+    "text": "TrackingresultsofPRN59(PPP-B2b).(a)ThepowerdistributionofIandQphaseoftrackingresults.(b)ThebitstreamfromIphase.The\ntransmissionrateofthebitstreamis1000sps.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_cc731f7f1b",
+    "span_index": 174,
+    "text": "D.ArrangementofFrameType\nThe length of each frame message is 486 bits, of which\nthe first 6 bits are the message type of the frame.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_5c18526e12",
+    "span_index": 175,
+    "text": "However,\nthe BeiDou official documentdoes not mention the repetition\nperiod of each frame and the frame arrangement of a set of\nPPP service messages, so we output the highest 6-bit frame\nmessage type, and the results are shown in Fig.",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_a0f0a084e7",
+    "span_index": 176,
+    "text": "9 shows the frame arrange of the epoch moment from\n17998 to 18046.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_714117cd59",
+    "span_index": 177,
+    "text": "After message type 1 has been broadcast,\nmessage type 4 and message type 3 are broadcast alternately,\nand informationtype 4 is broadcastcontinuously.When mes-\nsage type 3 has been broadcast for one round, message type\n2 is added.",
+    "char_length": 229
+  },
+  {
+    "quote_id": "qb_1b496ef880",
+    "span_index": 178,
+    "text": "When the message type 2 has been broadcast for\none round, the message type 63 is broadcast in the remaining\nFig.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_60324f0c74",
+    "span_index": 179,
+    "text": "Correlation between 4000ms message sequence and 16-bit time.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_133cb9d717",
+    "span_index": 180,
+    "text": "By summarizing the results of many times, we have\npreamble(thepeakvalueindicatesthestartpositionoftheframe).",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_f02fcb9744",
+    "span_index": 181,
+    "text": "defined a set of PPP-B2b frame format as follows:\n1) Taking the time of message type 1 as the starting posi-\ntion of a complete PPP service information, the broad-\ncast period is 48 s;\n2) Theremaining47sbroadcastmessagetypesare2,3,4,\n63 (and the defined message types 5, 6 and 7 have not\nyet appeared in the measured data);\n3) The duration of the remaining 47 s broadcast message\ntype can be regarded as 3 s as an output unit, there are\n15 times, and the 16th time is 2 s;\n4) Message type 4 is regarded as one output type, and\nanother output type is composed of message types 2,\n3and63.Thetwooutputtypesarealternatelybroadcast\nin one output unit;\n5) Messagetype4iscontinuouslybroadcast,andtheepoch\nis constantly updated;\nFig.",
+    "char_length": 725
+  },
+  {
+    "quote_id": "qb_a90708f5c1",
+    "span_index": 182,
+    "text": "The results of 64-ary LDPC(162,81) decoding and CRC\nof100framedata.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_2c0a3a30c6",
+    "span_index": 183,
+    "text": "6) Message types 2 and 3 are only broadcast once in a set\nof PPP information, and the corresponding output unit\nmaximum number of iterations, two of which fail to pass the broadcastmessage type 63at the remainingtime fills in\nCRCduetotheerroneousdecodeddata.Thecorrectlydecoded theblankposition,andthemessagetype63isbroadcast\nframedatasequencesarethenprocessedtoextractPPPservice in the last 2 s.",
+    "char_length": 396
+  },
+  {
+    "quote_id": "qb_30875e91af",
+    "span_index": 184,
+    "text": "information.However,itisunfortunatethat,thecurrentversion In addition, when extracting PPP information, we found that\nof the PPP-B2b space interface document has not described the update time and corresponding epoch of corrections of\nthe design of a complete set of PPP information frame struc- PPP-B2b signals are different.",
+    "char_length": 325
+  },
+  {
+    "quote_id": "qb_867e4add3f",
+    "span_index": 185,
+    "text": "Their first epoch moment is\ntures.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_9d032d9311",
+    "span_index": 186,
+    "text": "In this work, we summarize the frame layout format the same as the epoch moment of message type 1, and the\nfrom measurement data in the field tests in the following update rate of the epoch moment of corresponding message\nsections.",
+    "char_length": 231
+  },
+  {
+    "quote_id": "qb_8e3f1751e4",
+    "span_index": 187,
+    "text": "type 4 is also 6 s.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_c2d2a21c83",
+    "span_index": 188,
+    "text": "Message types 2 and 3 use the same epoch\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_47ab7aea13",
+    "span_index": 189,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_ef5e973ff1",
+    "span_index": 190,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_c991b6fab0",
+    "span_index": 191,
+    "text": "7878 IEEESENSORSJOURNAL,VOL.21,NO.6,MARCH15,2021\nFig.9.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_a41065a765",
+    "span_index": 192,
+    "text": "Framearrangementstructure.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_fdb48d8863",
+    "span_index": 193,
+    "text": "ThePRNanddurationofBDS3satelliteswithvalidcorrections.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_f10c61091f",
+    "span_index": 194,
+    "text": "momentbutare7sslowerthantheepochmomentofmessage effectivecorrectionsare analyzed.Fig.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_a87f3ae166",
+    "span_index": 195,
+    "text": "12 shows the effective\ntype 1, and their update rate is 48 s.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_0f439d65ec",
+    "span_index": 196,
+    "text": "The decoding results of orbit corrections of BDS-B1C satellites, with a time range of\nPPP service information will be shown in the next.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_48750335b8",
+    "span_index": 197,
+    "text": "As shown in Fig.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_e17352e492",
+    "span_index": 198,
+    "text": "12, we found that the orbit corrections\nE.DecodingResultsofPPPServiceInformation of BDS satellites are in the range of centimeter to decimeter.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_287af8e830",
+    "span_index": 199,
+    "text": "To obtain the PPP service information, the digital signal From the epoch moment of view, when the BDS3-B1C\ndata were processedaccordingto the proposedmethodin this navigation message is updated, that is, epoch moment\nexperiment.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_6761986af1",
+    "span_index": 200,
+    "text": "It was found that the satellites mask provided equal to 18000, the PPP-B2b service information will be\nby the message type 1 in the PPP-B2b service information updated immediately.",
+    "char_length": 180
+  },
+  {
+    "quote_id": "qb_bbaad8a0f7",
+    "span_index": 201,
+    "text": "At that moment, most of the satellite\nincludes all satellites of BDS3 and GPS, that is, the satellites orbit corrections (radial, along and cross) have different\nof BDS3 and GPS corresponding masks are all set to “1”.",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_ab5b8842aa",
+    "span_index": 202,
+    "text": "degrees of step-change rather than continuity.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_ed2db5655a",
+    "span_index": 203,
+    "text": "In a complete\nHowever, due to the corrections of some satellites are larger epoch moment range, that is, the epoch moment is from\nthan the effectivevalue set by the document,their corrections 18000to21549,thechangesoforbitcorrectionsarerelatively\nare unavailable.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_5632cbf5fb",
+    "span_index": 204,
+    "text": "The duration of PPP service information continuous.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_5ce289491a",
+    "span_index": 205,
+    "text": "From the satellite type, there is no significant\nproviding effective correction for BeiDou satellites (BDS3) difference between the corrections of MEO and IGSO.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_577dbc7f36",
+    "span_index": 206,
+    "text": "But\nis shown in Fig.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_23baa780cd",
+    "span_index": 207,
+    "text": "The PPP service information is provided we found that the standard deviation of the radial direction\nby the GEO satellites (PRN-59 and PRN-60).",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_4f9b9669bb",
+    "span_index": 208,
+    "text": "of MEO satellites are far less than that of the along and cross\nFromFig.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_b69fb0626d",
+    "span_index": 209,
+    "text": "10wefoundthatthePRNofsatelliteswitheffec- direction, and the standard deviation of IGSO satellites are\ntivecorrectionsareconsistentwiththePRNofsatellitesinthe similar, but the differences are not as significant as that of\nAsia-Pacific region at the moment, that is, they are similar to MEO satellites.",
+    "char_length": 301
+  },
+  {
+    "quote_id": "qb_da1e97c4ca",
+    "span_index": 210,
+    "text": "13 shows the effective orbit corrections\nthe PRN of satellites in the results of the acquisition module.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_f36502cfaf",
+    "span_index": 211,
+    "text": "of GPS satellites, with a time range of about 65 mins.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_d20ec5921b",
+    "span_index": 212,
+    "text": "11 shows the duration of the PPP service information From the comparison of Fig.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_7d1e7a6214",
+    "span_index": 213,
+    "text": "12, it can be\nserved for the satellites of GPS.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_eb56cd15c9",
+    "span_index": 214,
+    "text": "found that the change of orbit correctionsof GPS satellites is\nAs shown in Fig.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_cf57bad409",
+    "span_index": 215,
+    "text": "11, the PPP service provided for GPS different from that of BDS, and the changes are smooth and\nis similar to the PPP service provided for BDS.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_52f62ef7eb",
+    "span_index": 216,
+    "text": "In addition, continuouswithoutstepchangeswhenthenavigationmessage\nthe PPP service information provided by PRN-59 satellite is is updated.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_e34cd6cef9",
+    "span_index": 217,
+    "text": "The orbit corrections of GPS satellites are much\nthe same as that provided by PRN-60 satellite.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_42346d801d",
+    "span_index": 218,
+    "text": "Next, these greaterthantheBDScorrection.TheorbitcorrectionsofGPS\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_4e2fa74080",
+    "span_index": 219,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_72f74a38f3",
+    "span_index": 220,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_fbfb396932",
+    "span_index": 221,
+    "text": "LUetal.:DECODINGPPPCORRECTIONSFROMBDSB2BSIGNALSUSINGASOFTWARE-DEFINEDRECEIVER 7879\nFig.11.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_097985bba5",
+    "span_index": 222,
+    "text": "ThePRNanddurationofGPSsatelliteswithvalidcorrections.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_052f17eb86",
+    "span_index": 223,
+    "text": "Changesinorbitcorrections(radial,along,cross)ofBDS3BIC.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_d67aa2c556",
+    "span_index": 224,
+    "text": "Changesinorbitcorrections(radial,along,cross)ofGPSL1.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_ed167fbda0",
+    "span_index": 225,
+    "text": "Thereareseven BDS3 satelliteswithorbitcorrections,and theepoch There are five GPS satellites with orbit corrections, and the epoch is\nisfrom17710to 21549.Top:crossorbitcorrection, middle:alongorbit from 17710 to 21549.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_947aa0c09b",
+    "span_index": 226,
+    "text": "Top: cross orbit correction, middle: along orbit\ncorrection,bottom:radialorbitcorrection.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_20f31c9a58",
+    "span_index": 227,
+    "text": "correction,bottom:radialorbitcorrection.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_e33f6047e8",
+    "span_index": 228,
+    "text": "15 shows the clock correction of GPS satellites over\nsatellitesareintherangeofdecimetertometer,whichismuch the entire epoch.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_b808ba7bdd",
+    "span_index": 229,
+    "text": "The clock corrections are in the range\nlarger than that of BDS satellites.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_c1759927c3",
+    "span_index": 230,
+    "text": "of decimeter to meter level.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_7a08a04bef",
+    "span_index": 231,
+    "text": "For the changes in the clock\nInFig.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_5cd9800190",
+    "span_index": 232,
+    "text": "14,theclockcorrectionsandtheirstandarddeviation correction of satellites, three obvious situations are different\nofeachBDSsatellite overacompleteepochrangeareshown.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_10c92f1216",
+    "span_index": 233,
+    "text": "from those of BDS satellites in Fig.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_055ae16153",
+    "span_index": 234,
+    "text": "It can be seen that\nFromFig.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_21c13d4565",
+    "span_index": 235,
+    "text": "14,wecanknowthattheclockcorrectionofalmost whenthenavigationmessagechanges,thereisnostep-change\nallBDSsatellites iswithinthe meterrange.Forthechangeof in clock correction.",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_424e99d815",
+    "span_index": 236,
+    "text": "The changes in the clock corrections of\nclock corrections, when the BDS3-B1C navigation message the satellites are consistent during the entire period, which is\nis updated, the clock correction of most satellites also has reflected from their standard deviation.",
+    "char_length": 262
+  },
+  {
+    "quote_id": "qb_7557a6a785",
+    "span_index": 237,
+    "text": "In addition, we found\na step change to varying degrees.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_0b0302585c",
+    "span_index": 238,
+    "text": "But in a complete epoch, that the corrections of PRN-5 are all “0” in some periods.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_8c63e424d3",
+    "span_index": 239,
+    "text": "the clock correction changes of each satellite are very small The reason for this situation may be that the clock correction\nreflected from their standard deviation, and their changes are istoocloseto“0”,resultinginaninsufficientnumberofbitsto\ninconsistent.",
+    "char_length": 257
+  },
+  {
+    "quote_id": "qb_6c8965392e",
+    "span_index": 240,
+    "text": "The differential code bias provided by PPP-B2b is\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_ac24d9de50",
+    "span_index": 241,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_d1582a6b55",
+    "span_index": 242,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_8ef433fffb",
+    "span_index": 243,
+    "text": "7880 IEEESENSORSJOURNAL,VOL.21,NO.6,MARCH15,2021\nFig.14.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_e5b0cb9ad1",
+    "span_index": 244,
+    "text": "ChangesinclockcorrectionsofBDS3satellites.TherearesevenBDS3 satelliteswithclockoffsetcorrections,andthe epochisfrom\n17710to21549.ThePRNofsatelliteinFig.14.correspondtothoseintheFig.12.",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_3694af5109",
+    "span_index": 245,
+    "text": "ChangesinclockcorrectionsofGPSsatellites.TherearefiveGPSsatelliteswithclockoffsetcorrections,andtheepochisfrom17710to\n21549.ThePRNofsatelliteinFig.15.correspondtothoseintheFig.13.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_e3c30cf1e2",
+    "span_index": 246,
+    "text": "the pseudo-range code biases between the ranging signal and than 99%.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_9dbe64b11b",
+    "span_index": 247,
+    "text": "Only PRN-29 and 40 of BDS3 have slightly worse\nthe clock offset reference signal adopted by the correspond- completeness of clock correction and orbit correction than\ning system.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_2ab1cd1fcf",
+    "span_index": 248,
+    "text": "Users need to correct the differential code bias other satellites.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_fb7b86044c",
+    "span_index": 249,
+    "text": "The main reason for this situation is that the\naccordingly when they are using the signals other than the PPP service information of the two satellites is discontinuous\nreference signal, otherwise, the convergence time of precise in time, and the orbit correction exceeds the effective range.",
+    "char_length": 292
+  },
+  {
+    "quote_id": "qb_96c77bed84",
+    "span_index": 250,
+    "text": "point positioning may be affected [21].",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_f37bcd7596",
+    "span_index": 251,
+    "text": "Refer to the PPP-B2b We treat it as a service exception.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_7c56527c88",
+    "span_index": 252,
+    "text": "The PPP services of\nsignal interface document to check the specific content of the two satellites stopped broadcasting when the epoch time\nthe signal component corresponding to the differential code was 18525 and 21357, respectively.",
+    "char_length": 233
+  },
+  {
+    "quote_id": "qb_87ddea7be7",
+    "span_index": 253,
+    "text": "Therefore, we believe\nbias and the signal-receiving mode of that component [21].",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_46f1244cee",
+    "span_index": 254,
+    "text": "that when PPP-B2b stops serving a satellite, its PPP service\nAmong them, PPP-B2b service only provides the differential information will be unstable.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_65a8fac69c",
+    "span_index": 255,
+    "text": "Users who using RTPPP may\ncode bias of BDS3-B1C, the corresponding model including need to prepare to stop the positioning results of the satellite\n0,1,2,4,5,7,8,12.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_da13ebd976",
+    "span_index": 256,
+    "text": "During this epoch, the signal and tracking as soon as possible to prevent the impact on the RTPPP\nmode and corresponding corrections have no change.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_bc317a13ed",
+    "span_index": 257,
+    "text": "In addition, the clock correctionsof all satellites have\nanomalies of different durations.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_c50ae5c7f9",
+    "span_index": 258,
+    "text": "There are two abnormal\nF.IntegrityofPPPServiceInformation situations.Inmostsituations,thecorrectioninformationisnot\nFinally, we found that the remaining satellites, which have updated, that is, the epoch of the frame is still the epoch of\nnot matched the complete PPP service, often have some the previous frame.",
+    "char_length": 312
+  },
+  {
+    "quote_id": "qb_291c14fe5b",
+    "span_index": 259,
+    "text": "cases of unavailable correctionsor data duplication, as shown Thecontentofthenextframeisbroadcastasusual,andthe\nin Fig.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_53cf0e0694",
+    "span_index": 260,
+    "text": "The situation that the epoch time interval between the two epochs is 12 s.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_4a5aa58ffc",
+    "span_index": 261,
+    "text": "Another situation is\nbroadcasted by the GEO satellite has not been updated due thattheclockcorrectionexceedstheeffectiverange.However,\nto its own clock problem.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_9c1b6ab8de",
+    "span_index": 262,
+    "text": "We classified the above-mentioned clock correction has the characteristics of fast update speed\nproblems as abnormal problems of the GEO satellite PPP and small changes.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_18e138c036",
+    "span_index": 263,
+    "text": "The user can choose to continue using\nservice.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_0513cd9d93",
+    "span_index": 264,
+    "text": "We analyzed the PPP service performance of two the clock correction of the previous frame until a new clock\nsatellites GEO (PRN-59) during the collection period.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_b3db345182",
+    "span_index": 265,
+    "text": "The correction is extracted.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_a096134174",
+    "span_index": 266,
+    "text": "detailed results are shown in Table V.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_8b5f76b881",
+    "span_index": 267,
+    "text": "In general, the PPP information service provided by the\nFrom the results in Table V, we find that the completeness PPP-B2b signal is very stable.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_77db3356a0",
+    "span_index": 268,
+    "text": "At the same time, it has\nof the orbitcorrectionofalmostall satellites can reach100%, established PPP services for BDS3 and GPS, with the char-\nand the completeness of the clock correction can reach more acteristics of the short broadcast cycle and fast update rate.",
+    "char_length": 265
+  },
+  {
+    "quote_id": "qb_1c3440f2b8",
+    "span_index": 269,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_e813f94732",
+    "span_index": 270,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_830d21f8b3",
+    "span_index": 271,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_92adae7cd9",
+    "span_index": 272,
+    "text": "LUetal.:DECODINGPPPCORRECTIONSFROMBDSB2BSIGNALSUSINGASOFTWARE-DEFINEDRECEIVER 7881\nTABLEV\nTHEPARAMETERSOFCONFIGURATIONDURINGTHEDATACOLLECTION\nIt is also possible to use the PPP information of three GEO accordingly, that is, the sum of it and the satellite num-\nsatellites to check each other without excessively relying on ber (PRN) obtained by the acquisition module should be 63.",
+    "char_length": 381
+  },
+  {
+    "quote_id": "qb_8e7e6f8eb7",
+    "span_index": 273,
+    "text": "In addition, we found that when the synchronization head\ndetectionis correctforthe realsignal data, the decodedresult\nV.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_508058737e",
+    "span_index": 274,
+    "text": "DISCUSSIONS isstillunusable.Accordingtotheabovesituation,bydetecting\nInthissection,thetipthatcanbeoptimizedinthedecoding the 6-bit satellite number (PRN), whether it matches the\nprocess are discussed.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_82def5df93",
+    "span_index": 275,
+    "text": "To accelerate decoding progress, this satellite number (PRN) obtained by the acquisition module,\ntip can predictthe sequenceswith decodingerror.Inaddition, or matching after flipping.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_55a425844d",
+    "span_index": 276,
+    "text": "If both conditions do not match,\nsome rules on broadcasting the PPP service information are itmeansthatthecorrectionsextractedbythissequencecannot\nanalyzed and summarized through experiments.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_d22b69aaf3",
+    "span_index": 277,
+    "text": "One part has be used.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_63c3ba5750",
+    "span_index": 278,
+    "text": "The problemmay be caused by the trackingmodule.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_ebad91da79",
+    "span_index": 279,
+    "text": "been explained in Section IV, and the other parts will be Inordertoreducetheoccupationofcomputingresources,this\ndiscussed in this section.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_7430e73aaa",
+    "span_index": 280,
+    "text": "sequence can be deleted.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_b6fe1c934e",
+    "span_index": 281,
+    "text": "A.OptimizationofTheDecodingProcess B.ProgressofPPP-B2b\nAs mentioned in Section III, after finding the starting posi- We have summarized some contents that were not clearly\ntion corresponding to the synchronization head, their interval definedinthePPP-B2bofficialdocumentbytheBDS,includ-\nis used as the other evidence for judging the synchronization ingtheprogressofPPP-B2bservicefortheGNSSsystemand\nhead.",
+    "char_length": 404
+  },
+  {
+    "quote_id": "qb_4b1fcc85a0",
+    "span_index": 282,
+    "text": "From the perspective of bit information arrangement, some other characteristic (as of September 8, 2020).",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_dd63c3867d",
+    "span_index": 283,
+    "text": "the last 6 after the preamble can be converted into satellite 1) ThePPP-B2bsignalhasprovidedreal-timePPPservices\nnumber (PRN), as shown in Fig.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_945f1466ea",
+    "span_index": 284,
+    "text": "It corresponds to the for the two GNSS systems, BDS3 and GPS.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_61f68e16e0",
+    "span_index": 285,
+    "text": "acquired ranging code number.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_add587ffc7",
+    "span_index": 286,
+    "text": "It can be used as a secondary 2) Sincethe messagetype1 providessatellitesmask infor-\ncheck to find the correctness of the synchronization head.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_0531b53e10",
+    "span_index": 287,
+    "text": "mation, the message type 1 appears as a complete set\nTherefore, the method of finding the starting position of of PPP service information broadcast time unit, with a\nthe frame includes a preliminary determination determining total duration of 48 s, that is, the broadcast duration of\nthat the interval between two consecutive maximum corre- a complete set of PPP service information is 48 s.",
+    "char_length": 391
+  },
+  {
+    "quote_id": "qb_fefdc46168",
+    "span_index": 288,
+    "text": "lation values is 1s as a preliminary determination.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_35cb35ee0f",
+    "span_index": 289,
+    "text": "And a 3) The PPP-B2b signal currently only provides PPP ser-\nseconddeterminationthatwhetherthe satellite number(PRN) vices to satellites acquired by BDS3-B1C and GPS\nextracted by the symbol sequence should be consistent with signals covering the Asia-Pacific region.",
+    "char_length": 266
+  },
+  {
+    "quote_id": "qb_06518eb1ca",
+    "span_index": 290,
+    "text": "That is, which\nthesatellitenumber(PRN)obtainedbytheacquisitionmodule.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_58c8688854",
+    "span_index": 291,
+    "text": "satellites (BDS3 and GPS) the user can acquire in the\nIf the synchronization head is the inverse code, the satellite Asia-Pacific regioncan receive their correspondingPPP\nnumber extracted by the symbol sequence is also inverted service.",
+    "char_length": 236
+  },
+  {
+    "quote_id": "qb_ee08f4a665",
+    "span_index": 292,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_00d736faee",
+    "span_index": 293,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_f6e89a1797",
+    "span_index": 294,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_6363cbeda2",
+    "span_index": 295,
+    "text": "7882 IEEESENSORSJOURNAL,VOL.21,NO.6,MARCH15,2021\n4) The PPP service informationis broadcastby the BDS3- [9] H.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_31d7073a5a",
+    "span_index": 296,
+    "text": "Weber, “NTRIP: Networked transport of RTCM\nGEO satellites, PRN is 59, 60, and 61 respectively.The via Internet protocol—Internet radio technology for real-time GNSS\npurposes,” in Proc.",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_d20aa1e520",
+    "span_index": 297,
+    "text": "AGU Fall Meeting, Washington, DC, USA,\nthree satellites jointly broadcast the same PPP service\nDec.2003,pp.1–2.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_9c950046bf",
+    "span_index": 298,
+    "text": "Song,\n5) When the collection conditions are limited, users can “Performance assessment of BDS real-time precise point positioning\nbased on SSR corrections,” J.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_3d89afb7c4",
+    "span_index": 299,
+    "text": "4, 2019,\ncheck and splice the PPP service information obtained\nArt.no.05019003.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_dfe73977e5",
+    "span_index": 300,
+    "text": "by the three GEO satellites to restore the complete PPP [11] W.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_5e1c7b2084",
+    "span_index": 301,
+    "text": "Yuan,\nservice information.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_bfcc8fcdf0",
+    "span_index": 302,
+    "text": "“Investigation of the performance of real-time BDS-only precise point\npositioning using the IGS real-time service,” GPS Solutions, vol.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_a07d718e72",
+    "span_index": 303,
+    "text": "23,\n6) The currently designed useful message types are 1-7.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_e39a167123",
+    "span_index": 304,
+    "text": "no.3,p.66,May2019.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_7f4625beab",
+    "span_index": 305,
+    "text": "In actual situations, users can only receive message [12] R.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_142df461b4",
+    "span_index": 306,
+    "text": "Liu, “Determination of\ntype 1-4.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_086d7888f5",
+    "span_index": 307,
+    "text": "earthquake magnitude using GPS displacement waveforms from real-\ntime precise point positioning,” Geophys.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_c9e81b42a6",
+    "span_index": 308,
+    "text": "1,\n7) Currently, the differential code bias corrections from\npp.461–472,Jan.2014,doi:10.1093/gji/ggt378.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_fb5c850da5",
+    "span_index": 309,
+    "text": "message type 4 only provide services for BDS3 satel- [13] Z.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_5ac3b284aa",
+    "span_index": 310,
+    "text": "Wu, “Analysis of static and\nlites.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_3955d72def",
+    "span_index": 311,
+    "text": "dynamicreal-timeprecisepointpositioningandprecisionbasedonSSR\ncorrection,” in Proc.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_f6ab0d39ab",
+    "span_index": 312,
+    "text": "2016,\n8) The epochs of various PPP service corrections are\npp.2022–2027,doi:10.1109/ICInfA.2016.7832151.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_0ccd2aa35a",
+    "span_index": 313,
+    "text": "10-20 s slower than that of B1C navigation message.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_338d7ebb0f",
+    "span_index": 314,
+    "text": "Chen et al., “Robustness, security and privacy in location-based\nservicesforfutureIoT:Asurvey,”IEEEAccess,vol.5,pp.8956–8977,\nVI.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_b3c5fa0888",
+    "span_index": 315,
+    "text": "CONCLUSIONS AND FUTURE WORKS 2017.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_4c7178e34d",
+    "span_index": 316,
+    "text": "ThispaperaimsatacquiringPPPservicesinformationfrom [15] E.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_7c7fba3219",
+    "span_index": 317,
+    "text": "Seco-Granados,\nandI.Fernandez-Hernandez, “A galileo E6-B/Creceiver: Signals, pro-\nPPP-B2b signal.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_11adbbf0d6",
+    "span_index": 318,
+    "text": "A PPP-B2b SDR is implemented, which\ntotype, tests andperformance,” in Proc.29thInt.Tech.Meeting Satell.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_bde853e34b",
+    "span_index": 319,
+    "text": "includes the acquisition and tracking module, the bitstream DivisionInst.Navigat.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_95e445d780",
+    "span_index": 320,
+    "text": "(IONGNSS+),Nov.2016,pp.486–496.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_beb42726f7",
+    "span_index": 321,
+    "text": "decoding module, and the PPP service information extraction [16] D.Borio,T.Senni,andI.Fernandez-Hernandez,“Experimentalanalysis\nof a candidate galileo E6-B data dissemination scheme,” in Proc.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_4069383911",
+    "span_index": 322,
+    "text": "To verify the feasibility of SDR, field experiments\nTech.Meeting Inst.Navigat., Feb.2020,pp.509–520.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_d2b30f4315",
+    "span_index": 323,
+    "text": "are carried out, in which, the time-varying attributes of the [17] I.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_a9203768d5",
+    "span_index": 324,
+    "text": "Fernandez-Hernandez et al., “Testing GNSS high accuracy and\ncorrections of BDS and GPS are evaluated, and the integrity authentication–Galileo’s commercial service,” in Proc.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_0a718c552f",
+    "span_index": 325,
+    "text": "Inside GNSS,\nJan./Feb.2015,pp.38–48.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_48bf7d0f29",
+    "span_index": 326,
+    "text": "and stability of the PPP information service were analyzed.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_6c0ac5b25e",
+    "span_index": 327,
+    "text": "Japan, Quasi-Zenith Satellite System Interface\nThe results also showed that the PPP-B2b signal can sta- Specification Centimeter Level Augmentation Service, document (IS-\nbly provide PPP services for satellites in the Asia-Pacific QZSS-L6-002)[DB/OL],Dec.2019.",
+    "char_length": 260
+  },
+  {
+    "quote_id": "qb_a77641b8fc",
+    "span_index": 328,
+    "text": "[19] L.Chen,P.Thevenon,G.Seco-Granados,O.Julien,andH.Kuusniemi,\nregion,includingcentimeter-leveltodecimeter-levelorbitcor-\n“Analysis on the TOA tracking with DVB-T signals for positioning,”\nrections and meter-level clock corrections for BDS satellites.",
+    "char_length": 252
+  },
+  {
+    "quote_id": "qb_d2f8f02335",
+    "span_index": 329,
+    "text": "IEEETrans.Broadcast.,vol.62,no.4,pp.957–961,Dec.2016.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_1b0209c61d",
+    "span_index": 330,
+    "text": "In the meanwhile, PPP services provide decimeter-level to [20] J.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_0429fafe13",
+    "span_index": 331,
+    "text": "Tsui, Fundamentals of Global Positioning System Receivers:\nASoftwareApproach,vol.1,1sted.Hoboken, NJ,USA:Wiley,2000.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_4ac8bac769",
+    "span_index": 332,
+    "text": "meter-level orbit correction and meter-level clock correction\n[21] BeiDouNavigation Satellite System:Signal inSpace Interface Control\nfor GPS satellites.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_1286f0afde",
+    "span_index": 333,
+    "text": "Finally, detection tips for bitstream avail- Document Precise Point Positioning Service Signal PPP-B2b Version\nability in SDR are proposed, and some content which is not 1.0,ChinaSatell.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_1f4f180036",
+    "span_index": 334,
+    "text": "Navigat.Office, Beijing, China,Jul.2020.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_d326c55be7",
+    "span_index": 335,
+    "text": "Jensen,\ndefined in the official document, such as the PPP-B2b frame\nA Software-Defined GPS and Galileo Receiver: A Single-Frequency\narrangement scheme, various correction update cycles and Approach,vol.1,1sted.Boston,MA,USA:Springer,2007,pp.99–100.",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_fee01b616c",
+    "span_index": 336,
+    "text": "PPP-B2b’s progress in providing PPP service are discussed.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_5c711d8ccb",
+    "span_index": 337,
+    "text": "Chen, L.-L.Yang, J.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_01cff5ce66",
+    "span_index": 338,
+    "text": "Chen, “Joint wireless positioning\nand emitter identification in DVB-T single frequency networks,” IEEE\nRelatedtothefutureworks,theimplementationofthedecoded\nTrans.Broadcast.,vol.63,no.3,pp.577–582,Sep.2017.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_65f89bc449",
+    "span_index": 339,
+    "text": "PPP-B2bserviceinformationdirectlyontheSDRreceiverwill [24] F.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_b2337a0a34",
+    "span_index": 340,
+    "text": "Diggelen and C.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_13fdac9c09",
+    "span_index": 341,
+    "text": "Abraham, “Indoor GPS technology,” CTIA\nbe considered and the positioning accuracy and integrity will Wireless-Agenda, Dallas, TX, USA, Tech.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_4122022bf1",
+    "span_index": 342,
+    "text": "Rep., May 2001, vol.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_1e3b6cd843",
+    "span_index": 343,
+    "text": "89,\nno.1,pp.1–10.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_feeca7cfe7",
+    "span_index": 344,
+    "text": "be further compared in detail.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_4d305ff957",
+    "span_index": 345,
+    "text": "Pena, and\nH.Kuusniemi, “TOA estimation for positioning with DVB-T signals\nREFERENCES\nin outdoor static tests,” IEEE Trans.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_0365274ee8",
+    "span_index": 346,
+    "text": "Broadcast., vol.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_83c2c033d0",
+    "span_index": 347,
+    "text": "4,\n[1] TheStateCouncilInformationOfficeofthePeople’sRepublicofChina, pp.624–638,Dec.2015.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_8790b9f679",
+    "span_index": 348,
+    "text": "China’s BeiDou Navigation Satellite System.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_4f4a953aac",
+    "span_index": 349,
+    "text": "Beijing, China: Foreign [26] BeiDouNavigation Satellite System:Signal inSpace Interface Control\nLanguages Press,2016.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_c0b77957ac",
+    "span_index": 350,
+    "text": "DocumentOpenServiceSignalB1CVersion1.0,ChinaSatell.Navigat.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_33d63d8d2c",
+    "span_index": 351,
+    "text": "[2] Report on the Development of BeiDou Navigation Satellite System Office,Beijing, China,Dec.2017.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_c5b9332283",
+    "span_index": 352,
+    "text": "Version2.1,ChinaSatell.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_78aa154cc2",
+    "span_index": 353,
+    "text": "Navigat.Office, Beijing, China, Dec.2012.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_348da35dc7",
+    "span_index": 354,
+    "text": "[3] Development of the BeiDou Navigation Satellite System Version 3.0,\nChinaSatell.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_97031bd1bb",
+    "span_index": 355,
+    "text": "Office,Beijing, China, Dec.2018.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_458c751b41",
+    "span_index": 356,
+    "text": "[4] Development of the BeiDou Navigation Satellite System Version 4.0,\nChinaSatell.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_e7d1c87318",
+    "span_index": 357,
+    "text": "Office,Beijing, China, Dec.2019.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_b67bf612d2",
+    "span_index": 358,
+    "text": "[5] Press Conference for the Completion of Beidou-3 Global Satellite\nNavigation System, China Satell.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_d6dc580b58",
+    "span_index": 359,
+    "text": "Office, Beijing, China, XiangchenLu(StudentMember,IEEE) iscur-\nAug.2020.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_a97d6bd68e",
+    "span_index": 360,
+    "text": "rently pursuing the master’s degree with the\n[6] M.ElsobeieyandS.Al-Harbi, “Performance ofreal-time precise point StateKeyLaboratoryofInformationEngineering\npositioningusingIGSreal-timeservice,”GPSSolutions,vol.20,no.3, in Surveying, Mapping and Remote Sensing,\npp.565–571,Jun.2015.",
+    "char_length": 282
+  },
+  {
+    "quote_id": "qb_90880847d2",
+    "span_index": 361,
+    "text": "WuhanUniversity.Hismainresearchdirectionis\n[7] X.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_b2504dfe24",
+    "span_index": 362,
+    "text": "Li, “Review of GNSS PPP and its software-definedreceiver.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_ad0c556591",
+    "span_index": 363,
+    "text": "application,” ActaGeodaetica etCartographicaSinica,vol.46,no.10,\npp.1399–1407,Oct.2017.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_5da846714f",
+    "span_index": 364,
+    "text": "Wickert, “Real-time precise point\npositioning regional augmentation for large GPS reference networks,”\nGPSSolutions, vol.18,no.1,pp.61–71,Jan.2013.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_17aba019f4",
+    "span_index": 365,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_02be49dead",
+    "span_index": 366,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_d106d14c67",
+    "span_index": 367,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_1ffa1e668a",
+    "span_index": 368,
+    "text": "LUetal.:DECODINGPPPCORRECTIONSFROMBDSB2BSIGNALSUSINGASOFTWARE-DEFINEDRECEIVER 7883\nLiangChen(SeniorMember,IEEE)isaProfes- Zhenhang Jiao (Student Member, IEEE) is\nsorwiththeStateKeyLaboratoryofSurveying, currently pursuing the Ph.D.",
+    "char_length": 231
+  },
+  {
+    "quote_id": "qb_602b3a318c",
+    "span_index": 369,
+    "text": "degree with the\nMapping and Remote Sensing Information StateKeyLaboratoryofInformationEngineering\nEngineering, Wuhan University.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_a6e232249b",
+    "span_index": 370,
+    "text": "His research in Surveying, Mapping and Remote Sensing,\ninterests include navigation new signal theory Wuhan University.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_e315d22754",
+    "span_index": 371,
+    "text": "His research interests focus\nandmethod,ubiquitoussmartphonepositioning, onsignals-of-opportunity-basedpositioningand\nand indoor and outdoor seamless positioning datafusion.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_1e737c5f0d",
+    "span_index": 372,
+    "text": "NanShen(StudentMember,IEEE)iscurrently\npursuing the Ph.D.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_d16d39b295",
+    "span_index": 373,
+    "text": "degree with the State Key\nLaboratoryofInformationEngineeringinSurvey-\ning,MappingandRemoteSensing,WuhanUni-\nversity.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_15333a3231",
+    "span_index": 374,
+    "text": "His research interests focus on precise\nGNSS data processing and software-defined\nreceiver.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_25607f3417",
+    "span_index": 375,
+    "text": "LeiWang(Member,IEEE)iscurrentlyanAsso- RuizhiChen(SeniorMember,IEEE)isaProfes-\nciate Research Fellow at the State Key Labo- sorwiththeStateKeyLaboratoryofSurveying,\nratory of Information Engineering in Surveying, MappingandRemoteSensingInformationEngi-\nMapping and Remote Sensing, Wuhan Univer- neering,WuhanUniversity,andalsotheDirector\nsity.HisresearchinterestsincludeGNSSprecise of the laboratory.",
+    "char_length": 400
+  },
+  {
+    "quote_id": "qb_1228e8eb67",
+    "span_index": 376,
+    "text": "His main research interests\npositioning and LEO navigation augmentation include smartphone ubiquitous positioning and\nsystem.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_cc0f5976ab",
+    "span_index": 377,
+    "text": "satellitenavigationandpositioning.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_fe3f4e4c8f",
+    "span_index": 378,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_3844f723ba",
+    "span_index": 379,
+    "text": "Downloaded on May 22,2026 at 07:40:02 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_25f685e136",
+    "span_index": 380,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  }
+]

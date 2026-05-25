@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s43020_024_00143_8",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "High-precision services of BeiDou navigation satellite system (BDS): current state, achievements, and future directions"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "The operational PPP-B2b of BDS-3 achieves positioning accuracy at decimeter-level within 14 min and has the drawbacks in regional coverage and long convergence time compared with the international counterparts, such as CLAS of QZSS and HAS of Galileo.",
+      "Keywords BeiDou navigation satellite system, Precise point positioning, PPP-B2b, Low-earth-orbit, PPP-RTK, PPP-AR, Orbit, Clock Introduction As a Chinese fundamental facility in space and timing information transfer, the development of Beidou Satel- *Correspondence: lite Navigation System (BDS) follows three steps."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 10
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 20,
+    "b2b": 64,
+    "has": 5,
+    "dcb": 10,
+    "clas": 5
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

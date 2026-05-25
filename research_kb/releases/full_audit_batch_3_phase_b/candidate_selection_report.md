@@ -1,0 +1,1 @@
+Phase B candidate selection: 10 papers from remaining pool. 2 pre-assigned non_b2b papers reclassified to core based on B2b evidence. 1 Chinese canary (Liu Wei) passed PDF quality but reclassified to general PPP (0 B2b mentions).

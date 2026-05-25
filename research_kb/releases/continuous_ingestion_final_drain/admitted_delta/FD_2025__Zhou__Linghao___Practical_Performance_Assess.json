@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_2025__Zhou__Linghao___Practical_Performance_Assess",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Practical Performance Assessment of Water Vapor Monitoring Using BDS PPP-B2b Service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Communication Practical Performance Assessment of Water Vapor Monitoring Using BDS PPP-B2b Service LinghaoZhou1,2 ,EnhongZhang3,HongLiang1 ,ZuquanHu1,4,MeifangQu1,5,XinxinLi1,6 andYunchangCao1,* 1 MeteorologicalObservationCentre,ChinaMeteorologicalAdministration,Beijing100081,China 2 SchoolofElectronicInformationEngineering,BeihangUniversity,Beijing100191,China 3 GuangdongMeteoro",
+      "OriginalobservationsfromtheGlobalPositioningSystem(GPS)andBDSarecol- lectedandprocessedinthenearreal-time(NRT)modeusingephemerisfromthePPP-B2b service."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b": 77,
+    "has": 0,
+    "dcb": 0,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

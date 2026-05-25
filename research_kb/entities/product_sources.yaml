@@ -1,0 +1,49 @@
+# Product Source Taxonomy — Continuously Extensible Research KB
+# Version: 1.0 (derived from corpus_grounded_v0.3 + v0.4 waves)
+# Status: ACTIVE — may be extended as new correction services are discovered
+
+taxonomy:
+  BDS3_PPP_B2B_BROADCAST:
+    definition: "Papers using or evaluating BDS-3 PPP-B2b broadcast corrections as primary correction source"
+    paper_count: 54
+    status: STABLE
+    refinement_note: "Dominant category. Includes papers where B2b is primary even if other sources are compared."
+
+  MIXED_PRODUCTS:
+    definition: "Papers combining or comparing B2b with Galileo HAS / MADOCA / CNES / IGS RTS as co-equal sources"
+    paper_count: 7
+    status: STABLE
+    rule: "MUST NOT be merged into BDS3_PPP_B2B_BROADCAST core route"
+
+  CNES_OR_OTHER_RTS:
+    definition: "Papers about Galileo HAS or general PPP not specific to BDS-3 B2b"
+    paper_count: 5
+    status: NEEDS_REFINEMENT
+    refinement_note: "Mixes Galileo HAS (3 papers), general PPP thesis (1), and CNES RTS comparison (1). Consider splitting in v1.0."
+
+  QZSS_CLAS:
+    definition: "Papers about QZSS CLAS / MADOCA augmentation"
+    paper_count: 2
+    status: STABLE
+
+  PROPOSED_GALILEO_HAS:
+    definition: "Papers about Galileo High Accuracy Service — proposed split from CNES_OR_OTHER_RTS"
+    paper_count: 3
+    status: PROPOSED
+
+component_stack_taxonomy:
+  BDS3_PPP_B2B_ONLY: "Pure B2b correction, no major external augmentation"
+  BDS3_PPP_B2B_PLUS_HAS: "B2b + Galileo HAS fusion or comparison"
+  BDS3_PPP_B2B_PLUS_RTS: "B2b + CNES/IGS RTS comparison"
+  BDS3_PPP_B2B_PLUS_INS: "B2b + inertial navigation integration"
+  BDS3_PPP_B2B_PLUS_LEO: "B2b + LEO satellite orbit determination"
+  BDS3_PPP_B2B_PLUS_SMARTPHONE: "B2b + smartphone-grade receiver"
+  NON_B2B_HAS: "Galileo HAS only, no B2b"
+  NON_B2B_CLAS: "QZSS CLAS only, no B2b"
+
+# Version history
+version_history:
+  - version: "1.0"
+    date: "2026-05-24"
+    based_on: "corpus_grounded_v0.3 (37 papers) + v0.4 waves 1-3 (29 papers)"
+    total_papers: 66

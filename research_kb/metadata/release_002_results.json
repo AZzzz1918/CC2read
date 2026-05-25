@@ -1,0 +1,64 @@
+{
+  "admitted": 7,
+  "quarantined": 0,
+  "admitted_after": 80,
+  "results": [
+    {
+      "pid": "CI002_s43020_025_00172_x",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 133,
+      "pages": 17,
+      "dcb": "MENTIONED",
+      "title": "Integrated real-time precise point positioning system with B2b/B2a/B1C services"
+    },
+    {
+      "pid": "CI002_remotesensing_14_02957_v2",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 225,
+      "pages": 16,
+      "dcb": "NOT_MENTIONED",
+      "title": "Performance Assessment of BDS-3 PPP-B2b/INS Loosely Coupled Integration"
+    },
+    {
+      "pid": "CI002_s10291_023_01457_x",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 89,
+      "pages": 16,
+      "dcb": "EXPLICITLY_DESCRIBED",
+      "title": "Exploring characteristics of BDS-3 PPP-B2b augmentation messages by a three-step"
+    },
+    {
+      "pid": "CI002_Hu_2026_Meas__Sci__Technol__37_086303",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 109,
+      "pages": 27,
+      "dcb": "EXPLICITLY_DESCRIBED",
+      "title": "Real-time PPP-based monitoring of Galileo–BDS time offset using PPP-B2b and HAS"
+    },
+    {
+      "pid": "CI002_s43020_025_00169_6",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 38,
+      "pages": 23,
+      "dcb": "EXPLICITLY_DESCRIBED",
+      "title": "Performance of PPP and PPP-RTK with new-generation GNSS constellations and signa"
+    },
+    {
+      "pid": "CI002_s10291_025_01998_3",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 132,
+      "pages": 18,
+      "dcb": "MENTIONED",
+      "title": "Hong Huang1,2 · Wang Gao1,2 · Shuguo Pan1,2 · Longlei Qiao1,2 · Qing Zhao1,2"
+    },
+    {
+      "pid": "CI002_s41598_025_02477_y",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 78,
+      "pages": 15,
+      "dcb": "BRIEFLY_MENTIONED",
+      "title": "BeiDou-3 PPP-B2b real time pre-"
+    }
+  ],
+  "quarantined_list": []
+}

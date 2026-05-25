@@ -1,0 +1,94 @@
+{
+  "totals": {
+    "total": 0,
+    "exact": 0,
+    "normalized": 0,
+    "keyword_overlap": 0,
+    "fuzzy": 0,
+    "unresolved": 0
+  },
+  "per_paper": {
+    "Borio_2023_ghasp_galileo_has_parser": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Lu_2021_decoding_ppp_corrections_bds_b2b_sdr": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Nie_2021_initial_assessment_bds_ppp_b2b_service": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "RT_ZTD_PPP_B2b_HAS_MADOCA": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Research_on_Quad-Frequency_PPP-B2b_Time_Transfer": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Taro_Suzuki_2023_qzss_clas_l6_evaluation": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Wang_2024_ppp_b2b_coverage_ztd_positioning": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Wei_Haopeng_2024_combining_has_ppp_b2b_helmert": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    },
+    "Zhou_2023_multifrequency_bds3_rt_ppp_b2b": {
+      "total": 0,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 0,
+      "fuzzy": 0,
+      "unresolved": 0
+    }
+  },
+  "invalid_rate_pct": 0,
+  "kw_ratio_pct": 0
+}

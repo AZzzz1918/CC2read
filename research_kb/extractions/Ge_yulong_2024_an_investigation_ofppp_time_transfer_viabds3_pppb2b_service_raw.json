@@ -1,0 +1,3545 @@
+[
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "An investigation of PPP time transfer via BDS-3 PPP-B2b service",
+      "authors": [
+        {
+          "name": "Yulong Ge",
+          "affiliation": "School of Marine Science and Engineering, Nanjing Normal University, Nanjing 210023, China",
+          "is_corresponding": false
+        },
+        {
+          "name": "Xinyun Cao",
+          "affiliation": "School of Geography, Nanjing Normal University, Nanjing 210023, China",
+          "is_corresponding": true
+        },
+        {
+          "name": "Daqian Lyu",
+          "affiliation": "College of Electronic Engineering, National University of Defense Technology, Hefei 230037, China",
+          "is_corresponding": false
+        },
+        {
+          "name": "Zaimin He",
+          "affiliation": "School of Communication and Information Engineering, Xi’an University of Posts and Telecommunications, Xi’an 710121, China",
+          "is_corresponding": false
+        },
+        {
+          "name": "Fei Ye",
+          "affiliation": "State Key Laboratory of Geodesy and Earth’s Dynamics, Innovation Academy for Precision Measurement Science and Technology, CAS, Wuhan 430077, China",
+          "is_corresponding": false
+        },
+        {
+          "name": "Gongwei Xiao",
+          "affiliation": "School of Communication and Information Engineering, Xi’an University of Posts and Telecommunications, Xi’an 710121, China",
+          "is_corresponding": false
+        },
+        {
+          "name": "Fei Shen",
+          "affiliation": "School of Geography, Nanjing Normal University, Nanjing 210023, China",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "10.1007/s10291-023-01402-y",
+      "volume": "27",
+      "issue": "61",
+      "pages": "27:61",
+      "publication_date": "2023-01-26"
+    },
+    "product_source": {
+      "claimed": "BDS-3 PPP-B2b service and CNES real-time products",
+      "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+      "correction_stream": "BDS-3 PPP-B2b (GEO B2b signal) and CNES real-time stream",
+      "provider": "BDS-3 and CNES",
+      "grounding_quotes": [
+        "We collected 29 days of experimental data and compared it with the Centre National d’Etudes Spatiales (CNES) real-time products.",
+        "time transfer based on BDS-3, GPS, and BDS-3/GPS PPP was investigated."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "No conflict; both B2b and CNES products are used, with B2b as the main service."
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper focuses on evaluating BDS-3 PPP-B2b service for time transfer.",
+      "grounding_quotes": [
+        "An investigation of PPP time transfer via BDS-3 PPP-B2b service"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No mention of DCB handling or correction sources.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "Quality analyzed; details not given.",
+      "clock_correction": "Quality analyzed; details not given.",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The quality of the satellite's orbit and clock was analyzed first."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Investigation of real-time PPP time transfer using BDS-3 PPP-B2b service and comparison with CNES real-time products.",
+      "research_questions": [
+        "Feasibility and precision of time transfer via BDS-3 PPP-B2b with BDS-3, GPS, and BDS-3/GPS",
+        "Comparison of reliability between PPP-B2b and CNES real-time products"
+      ],
+      "knowledge_gap": "The opportunity to use the new BDS-3 PPP-B2b service for real-time time transfer has not been explored."
+    },
+    "technical_route": {
+      "overall_flow": "Collect 29 days of data; analyze orbit and clock quality of PPP-B2b; perform PPP time transfer with B2b and CNES products for BDS-3, GPS, and BDS-3/GPS; compare results.",
+      "key_steps": [
+        "Data collection (29 days)",
+        "Satellite orbit and clock quality analysis (PPP-B2b)",
+        "PPP time transfer using PPP-B2b (BDS-3, GPS, combined)",
+        "Comparison with CNES real-time products"
+      ],
+      "tools_software": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "We collected 29 days of experimental data and compared it with the Centre National d’Etudes Spatiales (CNES) real-time products. The quality of the satellite's orbit and clock was analyzed first. Then, time transfer based on BDS-3, GPS, and BDS-3/GPS PPP was investigated."
+      ]
+    },
+    "method": {
+      "method_name": "PPP time transfer using PPP-B2b and CNES real-time products",
+      "description": "Standard PPP for time transfer with real-time corrections; comparison between BDS-3, GPS, and combined solutions.",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "CNES real-time product PPP"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp1",
+        "description": "Time transfer experiment comparing PPP-B2b and CNES real-time products over 29 days.",
+        "setup": "NOT_MENTIONED",
+        "conditions": "NOT_MENTIONED",
+        "grounding_quotes": [
+          "We collected 29 days of experimental data and compared it with the Centre National d’Etudes Spatiales (CNES) real-time products."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 29,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "We collected 29 days of experimental data"
+      ]
+    },
+    "datasets": {
+      "stations": "NOT_MENTIONED",
+      "satellite_systems": [
+        "BDS-3",
+        "GPS"
+      ],
+      "observation_types": "NOT_MENTIONED",
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "time transfer based on BDS-3, GPS, and BDS-3/GPS PPP was investigated."
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "Reliability compared (PPP-B2b better than CNES)",
+      "other_metrics": {
+        "time_transfer_precision": "0.30 ns level for BDS-3 PPP using PPP-B2a"
+      },
+      "grounding_quotes": [
+        "The time transfer based on BDS-3 PPP using the PPP-B2a is feasible and achieves a 0.30 ns level.",
+        "the reliability of time transfer using the PPP-B2b outperforms that of PPP using CNES products due to the problem of unstable internet communication."
+      ]
+    },
+    "main_results": {
+      "summary": "BDS-3 PPP time transfer with PPP-B2b is feasible (0.30 ns level) and more reliable than CNES real-time products, but GPS-only PPP-B2b is not recommended and BDS-3/GPS combination brings no significant improvement.",
+      "key_findings": [
+        "GPS PPP with PPP-B2b is not recommended.",
+        "BDS-3 PPP using PPP-B2b (referred to as PPP-B2a) achieves 0.30 ns time transfer precision.",
+        "Reliability of PPP-B2b time transfer is better than that using CNES products.",
+        "BDS-3/GPS combined PPP time transfer precision is not significantly improved over BDS-3-only."
+      ],
+      "limitations": [
+        "NOT_MENTIONED"
+      ],
+      "grounding_quotes": [
+        "the GPS PPP with the PPP-B2b is not recommended.",
+        "The time transfer based on BDS-3 PPP using the PPP-B2a is feasible and achieves a 0.30 ns level.",
+        "the reliability of time transfer using the PPP-B2b outperforms that of PPP using CNES products due to the problem of unstable internet communication.",
+        "compared to BDS-3-only, the precision of time transfer based on BDS-3/GPS PPP was not improved significantly."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "Application of BDS-3 PPP-B2b service to time transfer and comparison with CNES products.",
+      "audit_grade": "C_ENGINEERING_TRANSFER",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "CNES real-time products",
+      "failure_cases": "GPS PPP with PPP-B2b is not recommended.",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "An investigation of PPP time transfer via BDS-3 PPP-B2b service"
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "Comparison with CNES real-time products (version not specified).",
+      "reproduction_blockers": [
+        "No observation data source or station list",
+        "No B2b correction archive or replay method",
+        "No PPP software details",
+        "No stochastic or KF parameters",
+        "No precise definition of 0.30 ns metric",
+        "No experiment epoch dates"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [
+      {
+        "field": "product_name",
+        "claim_1": "The time transfer based on BDS-3 PPP using the PPP-B2a is feasible",
+        "claim_2": "the reliability of time transfer using the PPP-B2b outperforms",
+        "resolution": "Typographical error; PPP-B2a likely intended as PPP-B2b."
+      }
+    ],
+    "_meta": {
+      "chunk_id": "053f450346a7",
+      "chunk_index": 0,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": null,
+      "journal_or_venue": "GPS Solutions (2023) 27:61",
+      "doi": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publication_date": null
+    },
+    "product_source": {
+      "claimed": "BDS-3 PPP-B2b service",
+      "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+      "correction_stream": "PPP-B2b corrections via B2b signals",
+      "provider": "BDS-3 GEO satellites",
+      "grounding_quotes": [
+        "BDS-3 can now provide PPP-B2b service via B2b signals to Asia by three BDS-3 GEO satellites (CSNO 2020a, b).",
+        "PPP time transfer with the PPP-B2b correction."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": ""
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper focuses on time transfer performance using BDS-3 PPP-B2b corrections.",
+      "grounding_quotes": [
+        "the performance of BDS-3, GPS, and BDS-3/GPS PPP time transfer with the PPP-B2b service will be investigated in this contribution."
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+      "observation_model": "Dual-frequency ionosphere-free pseudorange and carrier phase combination",
+      "state_vector": [
+        "coordinate increments Δx",
+        "receiver clock offset cdtr,IFij",
+        "wet zenith delay Zw",
+        "carrier phase ambiguity Ns_r,IFij"
+      ],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "DF IF combination is usually employed for PPP (Tu et al. 2019). The DF IF combination is usually written as:",
+        "ps_r,IFij = μs_r · Δx + cdtr,IFij + ms_r,w · Zw + ξs_r,IFij",
+        "ls_r,IFij = μs_r · Δx + cdtr,IFij + ms_r,w · Zw + Ns_r,IFij + ψs_r,IFij"
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "Eliminated by dual-frequency ionosphere-free combination",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No explicit DCB/code bias correction source or handling described in the current chunk.",
+      "grounding_quotes": [
+        "OSB corrections from the PPP-B2b service need to be modified to the corresponding pseudorange observations."
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "Orbit corrections in RAC direction (δCr, δCa, δCc) from PPP-B2b",
+      "clock_correction": "Clock offset correction Δt from PPP-B2b",
+      "code_bias": "OSB corrections mentioned for pseudorange observations; details not specified in this chunk",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Precise orbit can consist of broadcast ephemeris and PPP-B2b correction (Xu et al. 2021), which is expressed as:",
+        "ΔC = [δCr, δCa, δCc]",
+        "t = tbrd - Δt / c",
+        "OSB corrections from the PPP-B2b service need to be modified to the corresponding pseudorange observations."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the performance of PPP time transfer using BDS-3 PPP-B2b corrections for single-system and combined GPS/BDS-3 solutions.",
+      "research_questions": [
+        "How does PPP time transfer with PPP-B2b perform for BDS-3, GPS, and BDS-3/GPS?"
+      ],
+      "knowledge_gap": "Little has been published on time transfer with the PPP-B2b.",
+      "grounding_quotes": [
+        "Little has been published on time transfer with the PPP-B2b; hence, the performance of BDS-3, GPS, and BDS-3/GPS PPP time transfer with the PPP-B2b service will be investigated in this contribution."
+      ]
+    },
+    "technical_route": {
+      "overall_flow": "1. Recover precise orbit and clocks from broadcast ephemeris and PPP-B2b corrections. 2. Present PPP time transfer method. 3. Assess quality of real-time products. 4. Describe experimental dataset and processing strategies. 5. Validate PPP time transfer with PPP-B2b.",
+      "key_steps": [
+        "Combine broadcast ephemeris with PPP-B2b orbit/clock corrections",
+        "Apply OSB corrections to pseudorange observations",
+        "Formulate dual-frequency IF observation equations",
+        "Estimate receiver clock offset for time transfer"
+      ],
+      "tools_software": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The method of recovery of precise clock offset and orbit will be presented first, followed by PPP time transfer with the PPP-B2b.",
+        "The quality of real-time products will then be assessed and analyzed. Next, the experimental dataset and the processing strategies are described in detail. Following that is the investigation and validation of PPP time transfer with the PPP-B2b correction."
+      ]
+    },
+    "method": {
+      "method_name": "Dual-frequency ionosphere-free PPP with PPP-B2b corrections for time transfer",
+      "description": "Standard dual-frequency ionosphere-free combination is used to estimate receiver clock offsets, which are then employed for time transfer. Precise orbits and clocks are recovered using PPP-B2b orbital (RAC) and clock corrections applied to broadcast ephemeris.",
+      "algorithm_details": "Equations (3)-(5) define the observation model; equations (1)-(2) define orbit and clock recovery from PPP-B2b.",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [
+      {
+        "formula_id": "eq1",
+        "description": "Recovery of precise orbit using broadcast ephemeris and PPP-B2b orbital corrections in RAC frame.",
+        "variables": [
+          "X (precise orbit vector)",
+          "Xbrd (broadcast orbit)",
+          "er, ea, ec (RAC unit vectors)",
+          "ΔC = [δCr, δCa, δCc] (PPP-B2b corrections)"
+        ],
+        "context_quote": "Precise orbit can consist of broadcast ephemeris and PPP-B2b correction (Xu et al. 2021), which is expressed as:"
+      },
+      {
+        "formula_id": "eq2",
+        "description": "Recovery of precise satellite clock offset from broadcast clock and PPP-B2b correction.",
+        "variables": [
+          "t (precise clock)",
+          "tbrd (broadcast clock)",
+          "Δt (correction)",
+          "c (speed of light)"
+        ],
+        "context_quote": "The precise satellite clock is recovered by the broadcast ephemeris clock and the corrections from the PPP-B2b service as:"
+      },
+      {
+        "formula_id": "eq3_4",
+        "description": "Dual-frequency ionosphere-free pseudorange and carrier phase observation equations for PPP.",
+        "variables": [
+          "ps_r,IFij (OMC pseudorange)",
+          "ls_r,IFij (OMC carrier phase)",
+          "Δx (coordinate increments)",
+          "μs_r (line-of-sight vector)",
+          "cdtr,IFij (receiver clock offset with IF hardware delay)",
+          "Zw (wet zenith delay)",
+          "Ns_r,IFij (ambiguity)"
+        ],
+        "context_quote": "The DF IF combination is usually written as:"
+      }
+    ],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [
+        "BDS-3",
+        "GPS"
+      ],
+      "observation_types": [
+        "B1I/B3I (BDS-3)",
+        "L1/L2 (GPS)"
+      ],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "For BDS-3 and GPS satellites, B1I/B3I and L1/L2 combinations are selected to realized PPP time transfer"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "First investigation of PPP time transfer with BDS-3 PPP-B2b service (claimed in introduction).",
+      "audit_grade": "C_ENGINEERING_TRANSFER",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "Little has been published on time transfer with the PPP-B2b; hence, the performance of BDS-3, GPS, and BDS-3/GPS PPP time transfer with the PPP-B2b service will be investigated in this contribution."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No observation data access mentioned",
+        "No correction archive availability",
+        "No estimator or stochastic model details",
+        "No processing software or configuration provided"
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "c5fd55e601b0",
+      "chunk_index": 1,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "paper/Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service.pdf",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "61",
+      "pages": "1-17",
+      "publication_date": "2023"
+    },
+    "product_source": {
+      "claimed": "PPP-B2b service",
+      "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+      "correction_stream": "BDS-3 GEO satellite signals for decoding PPP-B2b corrections",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "receiving the BDS-3 or GPS pseudorange and phase observation and 3 GEO satellite signals for decoding PPP-B2b corrections."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper evaluates PPP time transfer using BDS-3 PPP-B2b corrections, making PPP-B2b the core subject.",
+      "grounding_quotes": [
+        "Assessment of precise products recovered from the PPP‑B2b",
+        "precise products recovered from the PPP-B2b are compared and evaluated with WUM final products"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+      "observation_model": "ionosphere-free (IF) combination of dual-frequency GPS and BDS-3 observations",
+      "state_vector": [
+        "NOT_MENTIONED"
+      ],
+      "stochastic_model": "elevation-dependent weighting with system error factor and URA from PPP-B2b",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "j frequency IF combination",
+        "the weight W can be expressed as\n{\nW= diag(σ−2, σ−2, σ−2, ⋯, σ−2)\nσ2 = FRr(aσ2+ bσ2/sin E2) + σ2eph\n}\nwhere F is the satellite system error factor; ... σeph is the URA from the PPP-B2b service"
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "ionosphere-free combination eliminates first-order ionospheric delay",
+      "dcb_source": "OSB correction decoded from PPP-B2b applied directly to pseudorange",
+      "dcb_missing_flag": false,
+      "dcb_missing_warning": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Note that the OSB correction will be corrected directly for pseudorange at each frequency."
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "recovered from PPP-B2b broadcast corrections",
+      "clock_correction": "recovered from PPP-B2b broadcast corrections",
+      "code_bias": "OSB correction from PPP-B2b applied to pseudorange",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "σeph is the URA from the PPP-B2b service (used in stochastic model)",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "precise orbit and clock offset are then recovered",
+        "σeph is the URA from the PPP-B2b service"
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Investigation of PPP time transfer performance using BDS-3 PPP-B2b service, comparing with other real-time products.",
+      "research_questions": [
+        "What is the quality of precise orbit and clock products recovered from PPP-B2b?",
+        "How well does PPP-B2b-based time transfer perform?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "1) Receive BDS-3/GPS observations and decode PPP-B2b corrections from GEO satellites. 2) Recover precise orbit and clock. 3) Apply OSB and IF PPP model to estimate receiver clock offset (BDT-local time). 4) Compute time transfer between stations via clock differences.",
+      "key_steps": [
+        "Decode PPP-B2b corrections from 3 GEO satellite signals",
+        "Recover precise orbit and clock using broadcast ephemeris and PPP-B2b corrections",
+        "Apply OSB correction to pseudorange",
+        "Perform ionosphere-free PPP to estimate receiver clock offset",
+        "Calculate time difference between BDT and local time, then between stations"
+      ],
+      "tools_software": [
+        "NOT_MENTIONED"
+      ],
+      "grounding_quotes": [
+        "For each station, receiving the BDS-3 or GPS pseudorange and phase observation and 3 GEO satellite signals for decoding PPP-B2b corrections.",
+        "Based on BDS-3 CNAV1 and GPS LNAV broadcast ephemeris and decoded the PPP-B2b correction, precise orbit and clock offset are then recovered.",
+        "Note that the OSB correction will be corrected directly for pseudorange at each frequency.",
+        "the time difference between BDT and the local time will be estimated directly by using the corresponding PPP model.",
+        "Finally, the time transfer solutions can be obtained directly using Eq. (8)."
+      ]
+    },
+    "method": {
+      "method_name": "PPP-based time transfer with BDS-3 PPP-B2b corrections",
+      "description": "Standard ionosphere-free PPP model is used to estimate receiver clock offset relative to BDT. Time transfer is achieved by differencing clock offsets between two stations.",
+      "algorithm_details": "Ionosphere-free combination of dual-frequency pseudorange and phase, with elevation-dependent weighting incorporating satellite system error factor and URA from PPP-B2b. OSB corrections applied. No explicit Kalman filter details given.",
+      "baseline_method": "Comparison with CNES real-time products and WUM final products."
+    },
+    "formulas": [
+      {
+        "formula_id": "Eq6",
+        "description": "Stochastic model: elevation-dependent weighting with URA from PPP-B2b",
+        "variables": [
+          "F (satellite system error factor)",
+          "Rr (code/carrier phase error ratio)",
+          "a_σ, b_σ (carrier-phase error factors)",
+          "E (elevation angle)",
+          "σ_eph (URA from PPP-B2b)",
+          "m (number of satellites)"
+        ],
+        "context_quote": "the weight W can be expressed as\n{\nW= diag(σ−2, σ−2, σ−2, ⋯, σ−2)\nσ2 = FRr(aσ2+ bσ2/sin E2) + σ2eph\n}\nwhere F is the satellite system error factor; Rr indicates code/carrier phase error ratio; aσ and b2σ are carrier-phase error factors a and b (m); E illustrates elevation angle; σeph is the URA from the PPP-B2b service; m is the number of satellites."
+      },
+      {
+        "formula_id": "Eq7",
+        "description": "Receiver clock offset expressed as difference between local time and BDT",
+        "variables": [
+          "D_u (user clock difference)",
+          "T_local",
+          "BDT"
+        ],
+        "context_quote": "Du = Tlocal − BDT"
+      },
+      {
+        "formula_id": "Eq8",
+        "description": "Time transfer between two stations as difference of local times",
+        "variables": [
+          "ΔT",
+          "T1, T2"
+        ],
+        "context_quote": "ΔT = D1−D2 = T1 −BDT −(T2 −BDT) = T1 −T2"
+      }
+    ],
+    "experiments": [
+      {
+        "experiment_id": "product_quality_eval",
+        "description": "Evaluation of orbit and clock precision from PPP-B2b vs. WUM final and CNES real-time products over 29 days in 2022.",
+        "setup": "Compare PPP-B2b recovered products with WUM final products; also CNES real-time products included. RMS of orbit errors in RAC direction computed.",
+        "conditions": "29 days, DOY 122–131 and DOY 144–162, 2022. Data from BDS-3 and GPS satellites.",
+        "grounding_quotes": [
+          "29 days, from DOY 122 to 131, 2022 and from DOY 144 to 162, 2022, precise products recovered from the PPP-B2b are compared and evaluated with WUM final products released from Wuhan University, China.",
+          "The RMSs of BDS-3 and GPS orbit errors for the CNES real-time products and PPP-B2b are presented in Figs. 1 and 2 and listed in Table 1"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "2022-05-02",
+      "end_date": "2022-06-11",
+      "duration_days": 29,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "29 days, from DOY 122 to 131, 2022 and from DOY 144 to 162, 2022"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "NOT_MENTIONED"
+      ],
+      "satellite_systems": [
+        "GPS",
+        "BDS-3"
+      ],
+      "observation_types": [
+        "pseudorange",
+        "carrier phase"
+      ],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "receiving the BDS-3 or GPS pseudorange and phase observation",
+        "3 GEO satellite signals for decoding PPP-B2b corrections"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "orbit_rms_rac": "presented in Figs. 1 and 2 and Table 1, but values not quoted in this chunk"
+      },
+      "grounding_quotes": [
+        "The RMSs of BDS-3 and GPS orbit errors for the CNES real-time products and PPP-B2b are presented in Figs. 1 and 2 and listed in Table 1"
+      ]
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "Comparison with CNES real-time and WUM final, but results not shown.",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": "INSUFFICIENT_EVIDENCE",
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "Partially given (F, Rr, aσ, bσ, URA from PPP-B2b), but specific numeric values not listed.",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "RMS of orbit errors in RAC, otherwise not defined.",
+      "baseline_details": "CNES real-time products, WUM final products, but version/access details not given.",
+      "reproduction_blockers": [
+        "No station list provided",
+        "No raw observation data source",
+        "No PPP-B2b correction archive",
+        "No full stochastic model parameters",
+        "No Kalman filter settings",
+        "No code or configuration files"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "d8da526c61d0",
+      "chunk_index": 2,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "real-time PPP time transfer with the PPP-B2b service",
+      "actual_product_source": "MIXED_PRODUCTS",
+      "correction_stream": "BDS-3 PPP-B2b broadcast corrections and CNES real-time products",
+      "provider": "BDS-3 PPP-B2b and CNES",
+      "grounding_quotes": [
+        "To test and investigate the performance of real-time PPP time transfer with the PPP-B2b service",
+        "For CNES real-time GPS products, the orbit errors agree with each other at the RAC direction",
+        "The precision of GPS orbit in PPP-B2b is obviously worse than that of CNES"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "No conflict; the paper explicitly uses PPP-B2b and compares with CNES."
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper investigates real-time PPP time transfer using BDS-3 PPP-B2b service, making PPP-B2b the core focus.",
+      "grounding_quotes": [
+        "To test and investigate the performance of real-time PPP time transfer with the PPP-B2b service"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No DCB or code bias correction source specified in the provided text.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "Assessed: PPP-B2b orbit corrections in RAC with respect to WUM final products; mean RMS (0.10, 0.43, 0.23) m for GPS",
+      "clock_correction": "Assessed: PPP-B2b clock corrections using DD method with WUM final clocks as reference; average STD 0.13 ns for GPS",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The mean RMS values in the RAC vector are about (0.10, 0.43, 0.23) m.",
+        "The average STD values of GPS satellite clocks are about 0.13 ns and 0.06 ns for PPP-B2b and CNES real-time products."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "To test and investigate the performance of real-time PPP time transfer with the PPP-B2b service.",
+      "research_questions": [
+        "What is the precision of PPP-B2b orbit and clock corrections for GPS and BDS-3?",
+        "Can PPP-B2b enable real-time PPP time transfer with acceptable accuracy?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp1",
+        "description": "Real-time PPP time transfer experiment using BDS-3 PPP-B2b service",
+        "setup": "Two MGEX stations USUD and CUSV in Asia-Pacific; USUD equipped with an H-maser atomic clock.",
+        "conditions": "PPP-B2b real-time corrections compared with CNES real-time products; dual-constellation GPS and BDS-3.",
+        "grounding_quotes": [
+          "Since there are not many GNSS stations connected to an atomic clock in the Asia–Pacific region for time transfer, we only chose 2 GNSS stations, namely USUD and CUSV (Fig. 5). USUD is equipped with an H-master clock."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "USUD",
+        "CUSV"
+      ],
+      "satellite_systems": [
+        "GPS",
+        "BDS-3"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "MGEX stations (no specific download link provided)",
+      "grounding_quotes": [
+        "we only chose 2 GNSS stations, namely USUD and CUSV"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "orbit_rms_rac": {
+          "gps_pppb2b": "(0.10, 0.43, 0.23) m",
+          "gps_cnes": "(0.02, 0.03, 0.02) m",
+          "bds3_pppb2b": "(0.07, 0.27, 0.23) m",
+          "bds3_cnes": "(0.07, 0.18, 0.12) m"
+        },
+        "clock_std": {
+          "gps_pppb2b": "0.13 ns",
+          "gps_cnes": "0.06 ns",
+          "bds3_pppb2b": "0.12 ns",
+          "bds3_cnes": "0.23 ns"
+        }
+      },
+      "grounding_quotes": [
+        "The mean RMS values in the RAC vector are about (0.10, 0.43, 0.23) m.",
+        "The average STD values of GPS satellite clocks are about 0.13 ns and 0.06 ns for PPP-B2b and CNES real-time products.",
+        "The average accuracies of the BDS-3 clock from PPP-B2b and CNES are 0.12 ns and 0.23 ns, respectively."
+      ]
+    },
+    "main_results": {
+      "summary": "PPP-B2b orbit precision for GPS is worse than CNES (especially cross and along), while BDS-3 clocks from PPP-B2b outperform CNES ones, likely due to ISL. The experiment uses two MGEX stations for time transfer.",
+      "key_findings": [
+        "GPS PPP-B2b orbit RMS: (0.10, 0.43, 0.23) m vs CNES (0.02, 0.03, 0.02) m.",
+        "BDS-3 PPP-B2b clock STD: 0.12 ns vs CNES 0.23 ns."
+      ],
+      "limitations": [
+        "Regional network for GPS in PPP-B2b limits GPS orbit accuracy compared to global CNES network."
+      ],
+      "grounding_quotes": [
+        "The precision of GPS orbit in PPP-B2b is obviously worse than that of CNES, especially in the cross and along components.",
+        "More interestingly, the precision of the BDS-3 satellite's clock from PPP-B2b outperforms that of BDS-3 satellites from CNES",
+        "The reason is that a global network is employed by CNES, while only a regional network is applied for GPS in the PPP-B2b"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No public observation data link",
+        "No PPP-B2b correction archive or replay method",
+        "No stochastic model parameters or Kalman filter configuration",
+        "No code or configuration files",
+        "Convergence time and positioning metrics definitions missing"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "ca23769564c5",
+      "chunk_index": 3,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "61",
+      "pages": "1-17",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "PPP time transfer using BDS-3 PPP-B2b corrections compared with CNES real-time, WUU ultra-rapid, and WUM final products",
+      "actual_product_source": "MIXED_PRODUCTS",
+      "correction_stream": "BDS-3 PPP-B2b, CNES real-time, WUU, WUM",
+      "provider": "China BDS-3 PPP-B2b service, CNES, Wuhan University",
+      "grounding_quotes": [
+        "The precise products will be recovered with LANV and CNAV1 broadcast ephemeris and the PPP-B2b correction.",
+        "The CNES real-time products were received and recovered by BNC software",
+        "Final products and ultra-rapid products released from Wuhan university were downloaded from ftp://igs.gnsswhu.cn/."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": ""
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper directly evaluates PPP time transfer using BDS-3 PPP-B2b corrections.",
+      "grounding_quotes": [
+        "BDS-3, GPS, and BDS-3/GPS PPP time transfer with the PPP-B2b were designed and compared with PPP with CNES, WUU, and WUM products."
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "receiver clock offset as white noise",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The receiver clock offset was regarded as white noise to estimate."
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No mention of DCB (differential code bias) handling strategy or source.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the performance of PPP time transfer using the BDS-3 PPP-B2b correction service in comparison with other precise products.",
+      "research_questions": [
+        "How does BDS-3 PPP-B2b perform for GNSS time transfer?",
+        "How does PPP-B2b compare to CNES real-time, WUU ultra-rapid, and WUM final products?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "Acquiring MGEX observations for stations CUSV and USUD; recovering precise products by applying PPP-B2b corrections to broadcast ephemeris; receiving CNES real-time products via BNC software; downloading WUU and WUM products; performing BDS-3, GPS, and BDS-3+GPS PPP time transfer; comparing solutions to IGS final clock standard.",
+      "key_steps": [
+        "Recover precise products using PPP-B2b corrections and broadcast ephemeris (LANV, CNAV1)",
+        "Receive CNES real-time products with BNC software",
+        "Download WUU and WUM products from Wuhan University FTP",
+        "Perform PPP time transfer for BDS-3, GPS, and combined BDS-3/GPS systems",
+        "Compare results to IGS final clock products"
+      ],
+      "tools_software": [
+        "BNC software"
+      ],
+      "grounding_quotes": [
+        "The precise products will be recovered with LANV and CNAV1 broadcast ephemeris and the PPP-B2b correction.",
+        "The CNES real-time products were received and recovered by BNC software"
+      ]
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "Standard PPP time transfer using various precise correction sources (PPP-B2b, CNES, WUU, WUM",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "IGS final clock products as time reference"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "time_transfer_comparison",
+        "description": "PPP time transfer evaluation using BDS-3, GPS, and BDS-3/GPS with PPP-B2b, CNES, WUU, and WUM products on two MGEX stations.",
+        "setup": "MGEX stations CUSV and USUD; data from DOY 122–131 and 144–162, 2022; first day excluded for convergence.",
+        "conditions": "Internet interruption caused missing data DOY 132–143; time reference = IGS final clock products.",
+        "grounding_quotes": [
+          "The observations cover 29 days from DOY 122 to 131, 2022, and from DOY 144 to 162, 2022.",
+          "BDS-3, GPS, and BDS-3/GPS PPP time transfer with the PPP-B2b were designed and compared with PPP with CNES, WUU, and WUM products.",
+          "the time transfer solutions from the IGS final clock products were set as the time standard."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "2022-05-02",
+      "end_date": "2022-06-11",
+      "duration_days": 29,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "The observations cover 29 days from DOY 122 to 131, 2022, and from DOY 144 to 162, 2022."
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "CUSV",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "BDS-3",
+        "GPS"
+      ],
+      "observation_types": "NOT_MENTIONED",
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "MGEX data (publicly available from IGS)",
+      "grounding_quotes": [
+        "Selected stations for time transfer from MGEX."
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "std_double_difference_clock": "Mentioned in Figures 3 and 4 but numerical values not provided in this chunk"
+      },
+      "grounding_quotes": [
+        "Fig. 3  The STD values of double-difference of GPS satellites clock in the CNES’s real-time products and PPP-B2b",
+        "Fig. 4  The STD of double-difference of satellites clock for the CNES’s real-time products and PPP-B2b"
+      ]
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "Performance evaluation of BDS-3 PPP-B2b for time transfer.",
+      "audit_grade": "C_ENGINEERING_TRANSFER",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "Comparison with CNES, WUU, WUM products and IGS final clocks.",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "BDS-3, GPS, and BDS-3/GPS PPP time transfer with the PPP-B2b were designed and compared with PPP with CNES, WUU, and WUM products."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "MGEX data (publicly available from IGS)",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "Receiver clock offset as white noise; no further details.",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "Time transfer solutions from IGS final clock products used as reference.",
+      "reproduction_blockers": [
+        "No code repository or run scripts provided",
+        "Kalman filter initial values and tuning not specified",
+        "Complete stochastic model missing (only receiver clock stated)",
+        "PPP-B2b correction archive not shared",
+        "Exact metric computation (window, outlier removal) not detailed"
+      ],
+      "reproducibility_score": 3,
+      "grounding_quotes": [
+        "the time transfer solutions from the IGS final clock products were set as the time standard.",
+        "The receiver clock offset was regarded as white noise to estimate."
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "a1d8b9af03a2",
+      "chunk_index": 4,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "2023"
+    },
+    "product_source": {
+      "claimed": "PPP-B2b service",
+      "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+      "correction_stream": "Real-time products recovered from PPP-B2b correction",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The time transfer based on PPP using the PPP-B2b service was investigated and compared with PPP using WUM, WUU, and CNES products.",
+        "Below B2b indicates the real-time products recovered from the PPP-B2b correction."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": ""
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper directly investigates PPP time transfer using BDS-3 PPP-B2b service, which is the core topic.",
+      "grounding_quotes": [
+        "The time transfer based on PPP using the PPP-B2b service was investigated and compared with PPP using WUM, WUU, and CNES products."
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [
+        "receiver clock offset (white noise model, 10^4 m^2)",
+        "tropospheric ZWD (random walk noise, 3×10^-8 m^2/s)",
+        "phase ambiguities (constant per arc, white noise reinitialization on cycle-slip, 10^4 m^2)",
+        "receiver coordinates (constant)",
+        "inter-system bias (ISB) for BDS-3/GPS model"
+      ],
+      "stochastic_model": "White noise for receiver clock; random walk for ZWD; constant for ambiguities/coordinates; reinitialized as white noise after cycle slip.",
+      "estimator": "Kalman filter",
+      "grounding_quotes": [
+        "Estimator Kalman filter",
+        "Signals BDS-3: B1I/B3I GPS: L1/L2",
+        "Precise products Broadcast ephemeris (CNAV1 or LNAV) + PPP-B2b correction",
+        "Receiver clock offset Estimated with a white noise model (10^4 m^2)",
+        "Tropospheric delay ZHD: corrected (Saastamoinen 1972) ZWD: estimated with a random walk noise model (3×10^–8 m^2/s)",
+        "Phase ambiguities Estimate as constant at each arc; When cycle-slip happened, estimated as white noise model (10^4 m^2)",
+        "Receiver coordinates Estimate as constant",
+        "for the BDS-3/GPS PPP model, an inter-system bias (ISB) parameter will be added."
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No DCB handling mentioned; IF combination typically eliminates ionospheric delay but satellite/receiver DCBs may need correction if not accounted for.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "Investigate time transfer based on BDS-3 PPP-B2b service and compare with other products.",
+      "research_questions": [
+        "What is the noise level (STD) of PPP-B2b time transfer?",
+        "How does PPP-B2b time transfer perform in the frequency domain (MDEV)?",
+        "How many satellites are available for GPS-only, BDS-3-only, and combined PPP with B2b products?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "Recover real-time products from PPP-B2b corrections; perform Kalman filter PPP with broadcast ephemeris and B2b corrections; estimate receiver clock offset; compare with time transfer solutions from WUM, WUU, and CNES products.",
+      "key_steps": [
+        "PPP-B2b correction recovery",
+        "Kalman filter PPP processing using BDS-3/GPS observations",
+        "Time transfer using estimated receiver clock offsets",
+        "Comparison with reference products (WUM, WUU, CNES)",
+        "Evaluation with STD and MDEV metrics"
+      ],
+      "tools_software": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The time transfer based on PPP using the PPP-B2b service was investigated and compared with PPP using WUM, WUU, and CNES products.",
+        "Estimator Kalman filter",
+        "Receiver clock offset Estimated with a white noise model"
+      ]
+    },
+    "method": {
+      "method_name": "PPP time transfer using BDS-3 PPP-B2b corrections",
+      "description": "Real-time PPP processing with BDS-3 PPP-B2b orbit/clock corrections, dual-frequency observations, Kalman filter, and receiver clock offset estimation for time transfer.",
+      "algorithm_details": "Kalman filter with white noise clock model, random walk ZWD, constant ambiguities (reinitialized as white noise after cycle slip), constant coordinates, and ISB parameter for combined BDS-3/GPS.",
+      "baseline_method": "PPP time transfer using WUM final, WUU rapid, and CNES real-time products"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp_satellite_availability",
+        "description": "Display number of satellites used in PPP with B2b products at two stations (USUD, CUSV) for GPS-only, BDS-3-only, and combined.",
+        "setup": "PPP processing with BDS-3/GPS signals; MEO/GEO weighting ratio 10:1 for BDS-3.",
+        "conditions": "Epochs where GPS satellites under 3 also occurred; some satellites missing due to B2b service not providing corrections for all satellites.",
+        "grounding_quotes": [
+          "we give the number of satellites involved in PPP with B2b products at two stations and display it in Fig. 6.",
+          "The average numbers of satellites involved in PPP are (5.2, 6.9, 11.2) at station USUD and (5.3, 7.5, 12.2) at station CUSV for GPS-only, BDS-3-only, and BDS-3/GPS.",
+          "MEO and GEO weighting ratio is 10:1 for BDS-3 PPP processing."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "USUD",
+        "CUSV"
+      ],
+      "satellite_systems": [
+        "BDS-3",
+        "GPS"
+      ],
+      "observation_types": [
+        "BDS-3: B1I/B3I",
+        "GPS: L1/L2"
+      ],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "average numbers of satellites … at station USUD and … CUSV",
+        "Signals BDS-3: B1I/B3I GPS: L1/L2"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "STD_of_time_transfer_difference": "used to reflect noise level",
+        "MDEV": "used to assess frequency domain stability"
+      },
+      "grounding_quotes": [
+        "The STD values of the difference between time transfer solutions and the reference were employed to reflect the noise level.",
+        "the MDEV was also utilized to assess real-time PPP in the frequency domain."
+      ]
+    },
+    "main_results": {
+      "summary": "Satellite availability for B2b PPP at two test stations is reported; average satellite numbers: GPS-only ~5.2-5.3, BDS-3-only ~6.9-7.5, combined ~11.2-12.2. Some epochs have fewer than 3 GPS or BDS-3 satellites.",
+      "key_findings": [
+        "Average BDS-3 satellite count is significantly higher than GPS in PPP-B2b processing.",
+        "Epochs with fewer than 3 GPS satellites occur because B2b service does not provide corrections for all satellites at every moment."
+      ],
+      "limitations": [
+        "Limited to two stations (USUD, CUSV) in this chunk; main time transfer results not yet presented."
+      ],
+      "grounding_quotes": [
+        "The average numbers of satellites involved in PPP are (5.2, 6.9, 11.2) at station USUD and (5.3, 7.5, 12.2) at station CUSV for GPS-only, BDS-3-only, and BDS-3/GPS.",
+        "there are some epochs where the number of used GPS satellites is under 3 … which is similar to BDS-3 satellites.",
+        "That can be explained by two facts. The one fact is that, unlike final precise products, the PPP-B2b service does not provide all GPS or BDS-3 satellite orbit and clock corrections at any given moment."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "C_ENGINEERING_TRANSFER",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "Comparison with WUM, WUU, and CNES real-time products",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "The time transfer based on PPP using the PPP-B2b service was investigated and compared with PPP using WUM, WUU, and CNES products."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "Provided in Table 2 (e.g., clock white noise 10^4 m^2, ZWD random walk 3e-8 m^2/s)",
+      "kalman_filter_config": "Some parameters given (noise values, but not initial variances or full tuning)",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "STD of time transfer difference to reference, MDEV for frequency stability",
+      "baseline_details": "WUM, WUU, CNES real-time products used as comparison",
+      "reproduction_blockers": [
+        "No public observation data link",
+        "No B2b correction archive",
+        "No code or configuration files",
+        "Incomplete Kalman filter initial variances and process noise details",
+        "Unknown sampling rate, precise epoch span, and station location constraints"
+      ],
+      "reproducibility_score": 2,
+      "grounding_quotes": [
+        "Receiver clock offset Estimated with a white noise model (10^4 m^2)",
+        "ZWD: estimated with a random walk noise model (3×10^–8 m^2/s)",
+        "The STD values … were employed to reflect the noise level.",
+        "the MDEV was also utilized to assess real-time PPP in the frequency domain."
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "a16ae351275a",
+      "chunk_index": 5,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "2023"
+    },
+    "product_source": {
+      "claimed": "B2b product",
+      "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "the receiver clock offset based on the four products does not coincide very well, which can be further proved in Fig. 8. Especially in Fig. 8, we find that the time series of receiver offset using B2b is disorderly and discontinuous, which is because the reference of GPS in B2b is not the same clock.",
+        "the receiver clock offset based on the four products does not coincide very well"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "Uses BDS-3 PPP-B2b corrections for GPS PPP time transfer.",
+      "grounding_quotes": [
+        "B2b"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "After the filter update, we check the observation residuals for each satellite."
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No mention of DCB correction source for GPS PPP.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "99.4-99.9%",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Availability percentages for PPP solutions with each precise product (%)",
+        "B2b",
+        "B2b\n99.9\n99.4\n99.6"
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [
+        "After the filter update, check observation residuals for each satellite.",
+        "If residual exceeds threshold, reduce the weight of the abnormal observation and restart the filter.",
+        "If still not qualified, eliminate the satellite with too large residuals."
+      ],
+      "tools_software": [],
+      "grounding_quotes": [
+        "After the filter update, we check the observation residuals for each satellite. If the residual of the certain satellite exceeds, the weight of this abnormal observation is reduced, and re-start the filter. If the result is still not qualified, we will further eliminate the satellite with too large residuals."
+      ]
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "GPS-only PPP with residual-based quality control using four precise products (WUM, CNES, WUU, B2b).",
+      "algorithm_details": "Filter update followed by outlier detection and de-weighting or satellite removal.",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "clock_offset_comparison",
+        "description": "Comparison of receiver clock offsets estimated from GPS PPP using four different products (WUM, CNES, WUU, B2b) at stations CUSV and USUD over 29 days.",
+        "setup": "GPS-only PPP with filter update and residual checking. Data from DOYs 122-131, 144-153, 153-162.",
+        "conditions": "Four precise products compared; residual-based QC applied.",
+        "grounding_quotes": [
+          "receiver clock offset for 29 days at CUSV and USUD stations",
+          "the receiver clock offset based on the four products does not coincide very well",
+          "After the filter update, we check the observation residuals",
+          "Table 3   Availability percentages for PPP solutions with each precise product (%)",
+          "DOY\n122–131\n144–153\n153–162"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 29,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "29 days at CUSV and USUD stations"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "CUSV",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "GPS"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "CUSV and USUD stations",
+        "GPS-only"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "B2b: 99.9%, 99.4%, 99.6% for three periods",
+      "other_metrics": {},
+      "grounding_quotes": [
+        "Availability percentages for PPP solutions with each precise product (%)",
+        "B2b\n99.9\n99.4\n99.6"
+      ]
+    },
+    "main_results": {
+      "summary": "B2b-based GPS receiver clock offset time series is disorderly and discontinuous due to inconsistent GPS clock reference, but time transfer performance is unaffected. WUU product has larger noise because of 5-min sampling. B2b availability slightly lower than WUM/WUU but still >99%.",
+      "key_findings": [
+        "Time series of receiver offset using B2b is disorderly and discontinuous because the reference of GPS in B2b is not consistent.",
+        "Performance of time transfer is not affected by the reference of a precise clock product (Eq. 8).",
+        "Noise of time series from WUU products is larger due to 5 min sampling interval.",
+        "B2b availability exceeded 99% but was slightly lower than WUM and WUU (which were 100%)."
+      ],
+      "limitations": [
+        "B2b GPS clock reference inconsistency causes discontinuous receiver clock estimates."
+      ],
+      "grounding_quotes": [
+        "the time series of receiver offset using B2b is disorderly and discontinuous, which is because the reference of GPS in B2b is not the same clock.",
+        "the performance of time transfer is not affected by the reference of a precise clock product (see Eq. 8).",
+        "the noise of the time series obtained from PPP using WUU products is larger because the sampling interval of the WUU products is 5 min.",
+        "B2b\n99.9\n99.4\n99.6"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": null,
+      "novel_state_design": null,
+      "novel_stochastic_model": null,
+      "novel_qc_mechanism": true,
+      "novel_b2b_usage": null,
+      "is_mere_migration": null,
+      "grounding_quotes": [
+        "After the filter update, we check the observation residuals for each satellite. If the residual of the certain satellite exceeds, the weight of this abnormal observation is reduced, and re-start the filter. If the result is still not qualified, we will further eliminate the satellite with too large residuals."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No public observation data link provided",
+        "No B2b replay or correction archive described",
+        "No stochastic model parameters given",
+        "No code or software availability",
+        "No metric definitions (convergence, RMS) in this page",
+        "Incomplete experimental epoch details (year missing)"
+      ],
+      "reproducibility_score": null,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "7a9c72940fac",
+      "chunk_index": 6,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "BDS-3 PPP-B2b service",
+      "actual_product_source": "MIXED_PRODUCTS",
+      "correction_stream": "BDS-3 PPP-B2b broadcast, CNES real-time stream, WUM and WUU post-processed products",
+      "provider": "BDS-3 PPP-B2b, CNES, WUM, WUU",
+      "grounding_quotes": [
+        "PPP time transfer using B2b is significantly better than the current that of PPP based on IGS RTS products in terms of reliability.",
+        "PPP using the CNES real-time products",
+        "PPP with WUM, CNES, and WUU products",
+        "GPS PPP with the PPP-B2b is significantly worse than GPS PPP with CNES, WUU, and WUM products."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper investigates PPP time transfer via BDS-3 PPP-B2b service, directly using and comparing B2b corrections.",
+      "grounding_quotes": [
+        "an investigation ofppp time transfer viabds3 pppb2b service",
+        "PPP time transfer using B2b is significantly better than the current that of PPP based on IGS RTS products in terms of reliability."
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "DCB handling is not described in the provided text.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "Mentioned (poor precision for GPS orbit via B2b)",
+      "clock_correction": "Mentioned (poor precision for GPS clock via B2b)",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "Availability percentages for B2b PPP better than CNES (Table 3)",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "That may be because GPS orbit and clock precision are poor,",
+        "the availability percentages for PPP solutions with B2b are better than that of PPP with CNES."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluating the performance of PPP time transfer using BDS-3 PPP-B2b service, focusing on reliability and accuracy compared with other precise products.",
+      "research_questions": [
+        "How does PPP time transfer using B2b compare with IGS RTS (CNES) and post-processed products in reliability?",
+        "What is the precision of B2b-based GPS PPP time transfer relative to other products?"
+      ],
+      "knowledge_gap": "Lack of investigation on PPP time transfer using the BDS-3 PPP-B2b real-time correction service."
+    },
+    "technical_route": {
+      "overall_flow": "Perform GPS PPP with B2b, CNES real-time, WUM, and WUU products; compute station clock differences via common-clock time transfer (Formula 8); compare availability and STD against IGS final clock reference.",
+      "key_steps": [
+        "PPP processing using B2b, CNES, WUM, WUU corrections",
+        "Time transfer via common clock difference method (Formula 8)",
+        "Compare availability percentages (Table 3)",
+        "Compute STD and mean of the difference between time transfer solutions and reference"
+      ],
+      "tools_software": [],
+      "grounding_quotes": [
+        "the difference in the reference was removed by using (8) for the time transfer",
+        "Table 3, which exhibits the availability percentages for PPP solutions with each precise product",
+        "the STD and mean values of the difference between time transfer solutions and the reference are calculated and listed in Table 4"
+      ]
+    },
+    "method": {
+      "method_name": "Common clock difference PPP time transfer",
+      "description": "PPP with various precise products to extract station clock offsets, then double-difference between stations to obtain time transfer solutions.",
+      "algorithm_details": "Uses equation (8) to remove reference clock effects; applies standard PPP processing without detailed filter description in this page.",
+      "baseline_method": "PPP time transfer with IGS RTS (CNES) and post-processed WUM/WUU products."
+    },
+    "formulas": [
+      {
+        "formula_id": "Eq_8",
+        "description": "Removes the difference in the reference for time transfer.",
+        "variables": [],
+        "context_quote": "the difference in the reference was removed by using (8) for the time transfer"
+      }
+    ],
+    "experiments": [
+      {
+        "experiment_id": "exp_time_transfer_comparison",
+        "description": "Comparison of GPS PPP time transfer across three arcs using B2b, CNES real-time, WUM, and WUU products.",
+        "setup": "Stations CUSV and USUD; GPS observations; time transfer solutions compared to IGS final clock products as reference.",
+        "conditions": "Internet-based CNES product availability ~95-97% when network is good; B2b availability higher.",
+        "grounding_quotes": [
+          "Fig. 9   CUSV-USUD clock difference obtained from GPS PPP using WUM, CNES, WUU, and B2b products",
+          "the availability percentages for PPP solutions with B2b are better than that of PPP with CNES",
+          "the mean STD values of the difference for three arcs obtained from PPP with WUM, CNES, and WUU products"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 0,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "CUSV",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "GPS"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "CUSV-USUD clock difference obtained from GPS PPP"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "availability percentages for PPP solutions with B2b are better than that of PPP with CNES (Table 3); CNES ~95-97% when network good",
+      "other_metrics": {
+        "STD_of_time_transfer_difference": {
+          "B2b": "about 0.89 ns",
+          "WUM": "approximately 0.12 ns",
+          "CNES": "approximately 0.23 ns",
+          "WUU": "approximately 0.50 ns"
+        },
+        "mean_system_bias_B2b": "about 0.5 ns"
+      },
+      "grounding_quotes": [
+        "the mean STD values of the difference for three arcs obtained from PPP with WUM, CNES, and WUU products are approximately 0.12 ns, 0.23 ns, and 0.50 ns, while that of PPP with B2b products is about 0.89 ns.",
+        "the mean values of time transfer with WUM, WUU, and CNES are close to zero, while that of time transfer with B2b is about 0.5 ns, an obvious system bias."
+      ]
+    },
+    "main_results": {
+      "summary": "B2b PPP time transfer achieves superior reliability (availability) over internet-dependent CNES, but GPS orbit/clock precision from B2b is poor, leading to larger STD (0.89 ns) and a 0.5 ns system bias compared to post-processed products.",
+      "key_findings": [
+        "B2b PPP availability is better than CNES real-time products.",
+        "GPS PPP with B2b has worse STD (0.89 ns) than with WUM (0.12 ns), CNES (0.23 ns), WUU (0.50 ns).",
+        "A systematic bias of ~0.5 ns exists in B2b time transfer, likely due to nonzero mean satellite bias."
+      ],
+      "limitations": [
+        "Only GPS PPP results shown; BDS not evaluated in this page.",
+        "Poor GPS orbit and clock precision from B2b limits time transfer accuracy.",
+        "No discussion on B2b correction latency or update interval."
+      ],
+      "grounding_quotes": [
+        "the availability percentages for PPP solutions with B2b are better than that of PPP with CNES",
+        "The performance of GPS PPP with the PPP-B2b is significantly worse than GPS PPP with CNES, WUU, and WUM products.",
+        "the mean STD values … 0.89 ns.",
+        "the mean values of time transfer … B2b is about 0.5 ns, an obvious system bias.",
+        "That may be because GPS orbit and clock precision are poor"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "No explicit novelty claim, method appears to be standard PPP time transfer applied to B2b."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "STD and mean of difference between time transfer solutions and reference defined, but not formally detailed.",
+      "baseline_details": "IGS final clock products used as reference; CNES real-time, WUM and WUU post-processed products compared.",
+      "reproduction_blockers": [
+        "No observation data access provided.",
+        "No B2b correction stream archive.",
+        "Kalman filter parameters (process noise, initial variances) not specified.",
+        "DCB handling not described.",
+        "No source code or executable provided.",
+        "Sampling rate not stated in this page.",
+        "Exact data time span not mentioned."
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": [
+        "the mean STD values … listed in Table 4",
+        "solutions from IGS final clock products"
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "3bb9bb5908a4",
+      "chunk_index": 7,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "BDS-3 PPP-B2b correction",
+      "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "the PPP-B2b correction",
+        "B2b products",
+        "PPP-B2b correction",
+        "B2b correction"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper investigates PPP time transfer performance directly using BDS-3 PPP-B2b service, comparing it with other products.",
+      "grounding_quotes": [
+        "the precision of PPP time transfer with CNES products is almost as accurate as that of PPP with WUM products, while that of PPP with the PPP-B2b correction is poor",
+        "GPS-only PPP with B2b products is not recommended for time transfer",
+        "BDS‑3 only... estimated from BDS-3 PPP by applying WUM, WUU, CNES, and B2b products"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No DCB or code bias correction source mentioned in the provided text.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp_time_transfer_comparison",
+        "description": "Comparison of GPS PPP time transfer using B2b, WUM, CNES, WUU products against IGS final time standard.",
+        "setup": "Three DOY periods: 122-131, 144-153, 153-162; stations for GPS: not listed in fragment; BDS-3 only: CUSV and USUD.",
+        "conditions": "GPS PPP, BDS-3 PPP solutions; reference is IGS final products time transfer.",
+        "grounding_quotes": [
+          "DOY\nB2b\nWUM\nCNES\nWUU",
+          "122–131",
+          "144–153",
+          "153–162",
+          "CUSV and USUD stations estimated from BDS-3 PPP",
+          "the time transfer solutions calculated from GPS PPP using IGS final products were set as the time standard"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 30,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "122–131",
+        "144–153",
+        "153–162"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "CUSV",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "GPS",
+        "BDS-3"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "CUSV and USUD stations",
+        "GPS PPP",
+        "BDS-3 PPP"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "time_transfer_mean_std_ns": "Mean and STD of the difference between GPS PPP time transfer using different products and the reference (unit: ns)",
+        "frequency_stability_MDEV": "MDEV of the solution based on different products"
+      },
+      "grounding_quotes": [
+        "Mean and STD of the difference between GPS PPP time transfer using different products and the reference (unit: ns)",
+        "MDEV of the solution based on different products"
+      ]
+    },
+    "main_results": {
+      "summary": "GPS PPP time transfer with PPP-B2b correction performs worse than with WUM or CNES; GPS-only PPP with B2b not recommended for time transfer. BDS-3 only results show interesting findings but details truncated.",
+      "key_findings": [
+        "PPP time transfer with B2b correction presents a worse performance in the four schemes.",
+        "The precision of PPP time transfer with CNES products is almost as accurate as that of PPP with WUM products, while that of PPP with PPP-B2b correction is poor.",
+        "GPS-only PPP with B2b products is not recommended for time transfer.",
+        "BDS-3 PPP with WUM, WUU, CNES, and B2b products shows four interesting findings (first: jump between days behavior differs from GPS WUM)."
+      ],
+      "limitations": [],
+      "grounding_quotes": [
+        "the precision of PPP time transfer with CNES products is almost as accurate as that of PPP with WUM products, while that of PPP with the PPP-B2b correction is poor, GPS-only PPP with B2b products is not recommended for time transfer.",
+        "Four interesting findings can be presented. First, unlike GPS PPP with WUM, the jump between days based on…"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "Mean, STD, MDEV defined in text but no precise formulas given.",
+      "baseline_details": "IGS final products used as time standard.",
+      "reproduction_blockers": [
+        "Observation data access not mentioned",
+        "B2b correction stream archive not provided",
+        "No stochastic model or Kalman filter parameters",
+        "No software or code mentioned",
+        "Station list incomplete (only CUSV, USUD mentioned for BDS-3; GPS stations unknown)",
+        "Year of DOY experiments not specified"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "44796ab8945c",
+      "chunk_index": 8,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "B2b",
+      "actual_product_source": "MIXED_PRODUCTS",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "BDS-3 PPP with B2b presents a very smooth and continuous time series",
+        "PPP based on BDS-3 with B2b, WUM, CNES, and WUU products"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The chunk directly evaluates BDS-3 PPP using B2b products for time transfer.",
+      "grounding_quotes": [
+        "which indicates the viability of time transfer based on BDS-3 PPP using B2b products"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [
+        "NOT_MENTIONED"
+      ],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No DCB handling mentioned in this chunk.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "Investigation of BDS-3 PPP time transfer using B2b service and comparison with other products.",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp_time_transfer_comparison",
+        "description": "Comparison of time transfer solutions based on BDS-3 PPP using B2b, WUM, CNES, and WUU products for station pair CUSV-USUD.",
+        "setup": "Receiver clock offsets computed and time transfer differences evaluated.",
+        "conditions": "NOT_MENTIONED",
+        "grounding_quotes": [
+          "The time transfer solutions of CUSV-USUD based on BDS-3 PPP are illustrated in Fig. 14.",
+          "USUD receiver clock offset from PPP BDS-3 in WUM, CNES, WUU, and B2b products",
+          "CUSV-USUD time transfer with BDS-3 PPP using different products"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "CUSV",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "BDS-3"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "USUD receiver clock offset from PPP BDS-3",
+        "CUSV-USUD time transfer with BDS-3 PPP"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "time_transfer_std_per_product_ns": {
+          "B2b": 0.3,
+          "WUM": 0.14,
+          "CNES": 0.35,
+          "WUU": 0.54
+        },
+        "note": "Mean STD values of difference between BDS-3 PPP time transfer and reference."
+      },
+      "grounding_quotes": [
+        "The mean STD values of time transfer are 0.30, 0.14, 0.35, and 0.54 ns for PPP based on BDS-3 with B2b, WUM, CNES, and WUU products."
+      ]
+    },
+    "main_results": {
+      "summary": "B2b-based time transfer shows smooth and continuous performance; agrees well with other products, with STD of 0.30 ns, comparable to CNES and better than WUU but slightly worse than WUM final product.",
+      "key_findings": [
+        "BDS-3 PPP with B2b presents very smooth and continuous clock series.",
+        "Time transfer solutions using B2b agree well with those using other products.",
+        "STD of time transfer difference: B2b 0.30 ns, WUM 0.14 ns, CNES 0.35 ns, WUU 0.54 ns."
+      ],
+      "limitations": [],
+      "grounding_quotes": [
+        "the BDS-3 PPP with B2b presents a very smooth and continuous time series",
+        "The time transfer solutions of CUSV-USUD based on BDS-3 PPP ... agree well with each other, which indicates the viability of time transfer based on BDS-3 PPP using B2b products.",
+        "The mean STD values of time transfer are 0.30, 0.14, 0.35, and 0.54 ns for PPP based on BDS-3 with B2b, WUM, CNES, and WUU products."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No data access information provided.",
+        "No B2b correction archive or replay method provided.",
+        "No processing details or software mentioned."
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "29e978800a8f",
+      "chunk_index": 9,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "An Investigation of PPP Time Transfer via BDS-3 PPP-B2b Service",
+      "authors": [
+        {
+          "name": "NOT_MENTIONED",
+          "affiliation": "NOT_MENTIONED",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "61",
+      "pages": "1-17",
+      "publication_date": "2023"
+    },
+    "product_source": {
+      "claimed": "BDS-3 PPP-B2b service",
+      "actual_product_source": "MIXED_PRODUCTS",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "B2b, CNES, WUM, WUU",
+      "grounding_quotes": [
+        "BDS-3 PPP using B2b, CNES, WUM, and WUU products",
+        "Time transfer based on BDS-3 PPP using B2b, WUM, and CNES products and the reference"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": ""
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper investigates PPP time transfer using BDS-3 PPP-B2b service and compares it with other products.",
+      "grounding_quotes": [
+        "The performance of BDS-3 PPP time transfer with WUU products",
+        "BDS-3 PPP time transfer using B2b product",
+        "The characteristic of GPS, BDS-3, and BDS-3/GPS PPP with B2b products is investigated"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No mention of DCB or code bias handling; hardware delay at receiver end mentioned but not linked to DCB correction source.",
+      "grounding_quotes": [
+        "That may be due to the hardware delay at the receiver end."
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "After all, the precision of the orbit and clock offset of GPS is lower than that of BDS-3."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Investigation of BDS-3 PPP time transfer performance using PPP-B2b service and comparison with other products (CNES, WUM, WUU) and GPS.",
+      "research_questions": [
+        "What is the precision of BDS-3 PPP time transfer using B2b products compared to other products?",
+        "How does BDS-3/GPS combination perform in PPP time transfer with B2b?",
+        "What is the frequency stability of BDS-3 PPP time transfer using different products?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp1",
+        "description": "Comparison of BDS-3 PPP time transfer using B2b, CNES, WUM, WUU products and GPS/BDS-3/GPS combinations.",
+        "setup": "Four schemes: B2b, CNES, WUM, WUU; additional analysis on BDS-3, GPS, and BDS-3/GPS PPP with B2b products. Reference time transfer from IGS final products. Stations USUD and CUSV.",
+        "conditions": "DOY 122–162 (multiple segments), comparison of receiver clock offsets, time transfer solutions, MDEV, systematic bias, hardware delay.",
+        "grounding_quotes": [
+          "Table 5   Mean and STD values of the time transfer based on BDS-3 PPP using B2b, WUM, and CNES products and the reference (unit: ns)",
+          "The characteristic of GPS, BDS-3, and BDS-3/GPS PPP with B2b products is investigated and compared.",
+          "Figures 17 and 18 display the receiver clock offset for USUD and CUSV stations by using BDS-3, GPS, and BDS-3/GPS PPP."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "DOY 122",
+      "end_date": "DOY 162",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "DOY 122–131",
+        "144–153",
+        "153–162"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "USUD",
+        "CUSV"
+      ],
+      "satellite_systems": [
+        "BDS-3",
+        "GPS"
+      ],
+      "observation_types": "NOT_MENTIONED",
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "USUD and CUSV stations",
+        "BDS-3, GPS, and BDS-3/GPS PPP"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "std_of_time_transfer": "B2b: 0.30 ns, GPS: 0.89 ns",
+        "mdev_at_960s": "B2b: 1.68E-12, CNES: 2.00E-12, WUM: 1.67E-12, WUU: 2.13E-12; BDS-3: 2.11E-12, GPS: 1.72E-12, BDS-3/GPS: 1.67E-12",
+        "mdev_at_15360s": "B2b: 6.99E-13, CNES: 7.39E-13, WUM: 6.96E-13, WUU: 7.55E-13"
+      },
+      "grounding_quotes": [
+        "BDS-3 PPP time transfer precision using B2b product (0.30 ns) is significantly better than GPS PPP (0.89 ns).",
+        "The mean frequency stabilities are about (1.68E-12, 2.00E-12, 1.67E-12, 2.13E-12) at 960 s",
+        "about (6.99E-13, 7.39E-13, 6.96E-13, 7.55E-13) at 15,360 s for BDS-3 PPP using B2b, CNES, WUM, and WUU products",
+        "The frequency stability of BDS-3, GPS, and BDS-3/GPS PPP is about (2.11E-12, 1.72E-12, 1.67E-12) at 960 s"
+      ]
+    },
+    "main_results": {
+      "summary": "BDS-3 PPP time transfer with B2b product shows precision of 0.30 ns, outperforming GPS PPP (0.89 ns). WUM provides slightly better frequency stability than B2b. BDS-3/GPS combination brings limited improvement. Systematic bias found between GPS and BDS-3 time transfer.",
+      "key_findings": [
+        "B2b PPP time transfer STD is 0.30 ns vs GPS 0.89 ns.",
+        "WUM frequency stability outperforms B2b; WUU is the worst.",
+        "GPS PPP time transfer has large fluctuation due to clock reference discontinuity in PPP-B2b service.",
+        "Systematic bias exists between GPS PPP and BDS-3 PPP time transfer, likely due to receiver hardware delay.",
+        "BDS-3/GPS PPP improved precision only marginally (0.28 ns)."
+      ],
+      "limitations": [
+        "GPS clock reference discontinuity in PP-B2b service limits GPS-only PPP time transfer.",
+        "Systematic bias between GPS and BDS-3 time transfer not fully resolved."
+      ],
+      "grounding_quotes": [
+        "BDS-3 PPP time transfer precision using B2b product (0.30 ns) is significantly better than GPS PPP (0.89 ns).",
+        "the frequency stability of PPP using WUM outperforms that of PPP using B2b, and PPP using WUU performs worse.",
+        "GPS PPP presents a large fluctuation, due to the discontinuity of clock reference for GPS in the PP-B2b service.",
+        "A systematic bias is found between GPS PPP and BDS-3 PPP or BDS-3/GPS PPP",
+        "the improvement of precision for BDS-3/GPS PPP is limited by adding GPS observations with 0.28 ns for time transfer."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No public observation data",
+        "No B2b replay method",
+        "No correction archive",
+        "No stochastic model params",
+        "No Kalman filter config",
+        "No code repository",
+        "No run entry point",
+        "No config files",
+        "No metric definitions",
+        "No baseline details"
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "1e0616d92fd6",
+      "chunk_index": 10,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "paper/Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service.pdf",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "An investigation of PPP time transfer via BDS-3 PPP-B2b service",
+      "authors": [
+        {
+          "name": "NOT_MENTIONED",
+          "affiliation": "NOT_MENTIONED",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "2023"
+    },
+    "product_source": {
+      "claimed": "BDS3_PPP_B2B_BROADCAST",
+      "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+      "correction_stream": "PPP-B2b correction from BDS-3 GEO satellites, collected over 29 days and recovered to precise orbit and clock products",
+      "provider": "BDS-3",
+      "grounding_quotes": [
+        "29-day PPP-B2b corrections were collected and recovered to the precise product.",
+        "the PPP-B2b service is provided by BDS-3 for users in China."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "Paper directly uses and evaluates BDS-3 PPP-B2b corrections for PPP time transfer.",
+      "grounding_quotes": [
+        "To meet the requirement of real-time PPP, the PPP-B2b service is provided by BDS-3 for users in China. 29-day PPP-B2b corrections were collected and recovered to the precise product."
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No mention of DCB or code bias correction source in the provided page.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "Orbit correction provided in PPP-B2b and CNES products, assessed against WUM final products.",
+      "clock_correction": "Clock correction provided in PPP-B2b and CNES products, assessed against WUM final products.",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "the BDS-3 and GPS orbit and clock released by CNES and PPP-B2b products were assessed by using WHU final products (WUM) as the reference.",
+        "The mean RMS of GPS orbit errors is about (0.10, 0.43, 0.23) m and (0.02, 0.03, 0.02) m at RAC direction in PPP-B2b and CNES, respectively.",
+        "The average RMS values of BDS-3 orbit errors are about (0.07, 0.27, 0.23) m and (0.07, 0.18, …"
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "To meet the requirement of real-time PPP, the PPP-B2b service is provided by BDS-3; the paper investigates the performance of PPP time transfer using this service.",
+      "research_questions": [
+        "What is the quality of PPP-B2b orbit and clock corrections compared to CNES and WUM products?",
+        "What is the convergence time of PPP using BDS-3 PPP-B2b corrections for GPS-only, BDS-3-only, and combined BDS-3/GPS?",
+        "How does the frequency stability of time transfer compare among different products?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "Collect 29 days of PPP-B2b corrections, recover precise orbit/clock products, assess against WHU final products (WUM) and CNES products, perform PPP positioning and time transfer, evaluate convergence time and frequency stability.",
+      "key_steps": [
+        "Collection of BDS-3 PPP-B2b corrections over 29 days",
+        "Recovery of precise orbit and clock products from B2b corrections",
+        "Quality assessment of GPS and BDS-3 orbit/clock errors using WUM as reference",
+        "PPP processing with B2b, CNES, WUU, and WUM products for GPS-only, BDS-3-only, and combined constellations",
+        "Convergence time evaluation (horizontal < 0.1 m, vertical < 0.2 m)",
+        "Time transfer analysis using modified Allan deviation (MDEV) and receiver clock offset series"
+      ],
+      "tools_software": [],
+      "grounding_quotes": [
+        "29-day PPP-B2b corrections were collected and recovered to the precise product.",
+        "Then, the BDS-3 and GPS orbit and clock released by CNES and PPP-B2b products were assessed by using WHU final products (WUM) as the reference.",
+        "Here, the mean convergence times for PPP with the PPP-B2b, CNES, WUU, and WUM products at different schemes are calculated and listed in Table 7.",
+        "We use the positioning error ... to calculate the convergence time, which is defined as the time when the horizontal and the vertical positioning error fall within 0.1 m and 0.2 m, respectively.",
+        "Fig. 16   MDEV of time transfer BDS-3 PPP using different products",
+        "Fig. 17   USUD receiver clock offset from BDS-3, GPS, and BDS-3/ GPS PPP using B2b products"
+      ]
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "Standard PPP time transfer processing using orbit/clock products from BDS-3 PPP-B2b and other sources.",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "ConvergenceTimeComparison",
+        "description": "Comparison of convergence times for PPP with PPP-B2b, CNES, WUU, and WUM products for different GNSS schemes.",
+        "setup": "GPS-only, BDS-3-only, BDS-3/GPS PPP processing using four product sets; convergence defined as positioning error falling within 0.1 m horizontal and 0.2 m vertical.",
+        "conditions": "29 days of data; convergence time evaluated after removing the initial filter convergence period.",
+        "grounding_quotes": [
+          "Here, the mean convergence times for PPP with the PPP-B2b, CNES, WUU, and WUM products at different schemes are calculated and listed in Table 7.",
+          "We use the positioning error rather than the receiver clock offset time series to calculate the convergence time, which is defined as the time when the horizontal and the vertical positioning error fall within 0.1 m and 0.2 m, respectively."
+        ]
+      },
+      {
+        "experiment_id": "TimeTransferPerformance",
+        "description": "Evaluation of time transfer frequency stability using MDEV and analysis of receiver clock offsets at station USUD.",
+        "setup": "BDS-3, GPS, and combined PPP with B2b, CNES, WUU, WUM products; MDEV computed from clock offset series.",
+        "conditions": "Same 29-day period; clock offsets from PPP solutions.",
+        "grounding_quotes": [
+          "Fig. 16   MDEV of time transfer BDS-3 PPP using different products",
+          "Fig. 17   USUD receiver clock offset from BDS-3, GPS, and BDS-3/ GPS PPP using B2b products"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 29,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "29-day PPP-B2b corrections were collected"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "USUD"
+      ],
+      "satellite_systems": [
+        "GPS",
+        "BDS-3"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "USUD receiver clock offset from BDS-3, GPS, and BDS-3/ GPS PPP using B2b products"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "GPS PPP-B2b: 65.5 min; BDS-3 PPP-B2b: 39.5 min; BDS-3/GPS PPP-B2b shortens by 16.4% vs BDS-3 only; CNES GPS: 27.5 min, BDS-3: 42 min; WUM GPS: 23.5 min, BDS: 26.5 min.",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "frequency_stability": "at 15,360 s: about (8.70E-13, 7.02E-13, 6.99E-13) [MDEV values for different products]"
+      },
+      "grounding_quotes": [
+        "GPS PPP using the PPP-B2b needs 65.5 min to converge, while the average time for BDS-3 PPP is about 39.5 min.",
+        "Compared with BDS-3 only, the time of BDS-3/GPS PPP with the PPP-B2b correction can shorten by 16.4%.",
+        "For PPP with the CNES products, the convergence times for GPS-only and BDS-3-only PPP are 27.5 min and 42 min, respectively.",
+        "PPP using the WUM products achieved the best results among the three products, with 23.5 min and 26.5 min for GPS-only and BDS-only PPP.",
+        "about (8.70E-13, 7.02E-13, 6.99E-13) at 15,360 s."
+      ]
+    },
+    "main_results": {
+      "summary": "GPS and BDS-3 orbit/clock quality from PPP-B2b was assessed against WUM final products. PPP-B2b GPS orbit errors were larger than CNES, but BDS-3 orbit errors were comparable. Convergence times: BDS-3 PPP with B2b ~39.5 min, GPS PPP with B2b ~65.5 min; combined BDS-3/GPS reduced convergence by 16.4% over BDS-3 only. CNES and WUM products achieved shorter convergence. Frequency stability of time transfer at 15,360 s was on the order of 10⁻¹³.",
+      "key_findings": [
+        "PPP-B2b GPS orbit RMS (0.10, 0.43, 0.23) m, while CNES GPS orbit RMS (0.02, 0.03, 0.02) m in RAC.",
+        "BDS-3 PPP-B2b orbit RMS (0.07, 0.27, 0.23) m; CNES BDS-3 orbit RMS (0.07, 0.18, …).",
+        "PPP-B2b convergence for BDS-3 only is 39.5 min, for GPS only 65.5 min; dual-system shortens by 16.4%.",
+        "CNES convergence times were 27.5 min (GPS) and 42 min (BDS-3); WUM times were 23.5 min (GPS) and 26.5 min (BDS).",
+        "Frequency stability (MDEV) at 15,360 s reached ~8.70e-13 for one of the products."
+      ],
+      "limitations": [
+        "Limited to one station (USUD) in the shown results.",
+        "Only 29 days of data analyzed."
+      ],
+      "grounding_quotes": [
+        "The mean RMS of GPS orbit errors is about (0.10, 0.43, 0.23) m and (0.02, 0.03, 0.02) m at RAC direction in PPP-B2b and CNES, respectively.",
+        "The average RMS values of BDS-3 orbit errors are about (0.07, 0.27, 0.23) m and (0.07, 0.18, …",
+        "GPS PPP using the PPP-B2b needs 65.5 min to converge, while the average time for BDS-3 PPP is about 39.5 min. Compared with BDS-3 only, the time of BDS-3/GPS PPP with the PPP-B2b correction can shorten by 16.4%.",
+        "CNES ... convergence times for GPS-only and BDS-3-only PPP are 27.5 min and 42 min",
+        "PPP using the WUM products achieved the best results ... with 23.5 min and 26.5 min for GPS-only and BDS-only PPP.",
+        "about (8.70E-13, 7.02E-13, 6.99E-13) at 15,360 s."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "Comparison with CNES and WUM products (strong benchmarks).",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "Convergence time explicitly defined: when horizontal error <0.1 m and vertical <0.2 m.",
+      "baseline_details": "CNES RTS, WHU WUM, WUU products used for comparison; exact versions not provided.",
+      "reproduction_blockers": [
+        "No access to raw observation data or station list beyond USUD.",
+        "No PPP-B2b correction archive provided.",
+        "No description of stochastic model or Kalman filter tuning.",
+        "No software or processing configuration disclosed.",
+        "Exact product versions (CNES, WUU, WUM) and processing settings not specified."
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": [
+        "We use the positioning error ... to calculate the convergence time, which is defined as the time when the horizontal and the vertical positioning error fall within 0.1 m and 0.2 m, respectively.",
+        "PPP with the PPP-B2b, CNES, WUU, and WUM products"
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "adb9f8a0fc1a",
+      "chunk_index": 11,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "61",
+      "pages": "1-17",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "BDS-3 PPP-B2b service and other precise products (CNES, WUM, WUU)",
+      "actual_product_source": "MIXED_PRODUCTS",
+      "correction_stream": "BDS-3 PPP-B2b broadcast corrections",
+      "provider": "BDS-3 PPP-B2b service",
+      "grounding_quotes": [
+        "BDS-3 PPP using the PPP-B2b, WUM, CENS, and WUU products",
+        "time transfer from BDS-3 PPP using the PPP-B2b, WUM, CENS, and WUU products are 0.30, 0.14, 0.35, and 0.54 ns, respectively",
+        "BDS-3 PPP using the PPP-B2b products have better reliability because it sometimes does not re-converge due to Internet instability",
+        "time transfer obtained from GPS PPP using the PPP-B2b products (0.89 ns)"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The chunk evaluates time transfer performance using BDS-3 PPP-B2b service, comparing it with other products. PPP-B2b is a central subject.",
+      "grounding_quotes": [
+        "time transfer from BDS-3 PPP using the PPP-B2b ...",
+        "the time transfer calculated from BDS-3 PPP with the PPP-B2b is feasible and achieves a good performance"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": "NOT_MENTIONED",
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No mention of DCB/code bias correction source in this chunk.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "Mentioned (satellite clock precision compared: 0.12 ns for BDS-3 PPP-B2b, 0.23 ns for CNES)",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "the STD values of GPS satellites in PPP-B2b are larger than that of CNES. The precision of the BDS-3 satellite clock (0.12 ns) in PPP-B2b outperforms that of BDS-3 satellites in CNES (0.23 ns), due to the additional ISL observations."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the performance of time transfer using BDS-3 PPP-B2b service, comparing with GPS PPP-B2b, CNES, WUM, and WUU products.",
+      "research_questions": [
+        "Is time transfer based on GPS PPP with PPP-B2b service feasible?",
+        "How does BDS-3 PPP time transfer using PPP-B2b compare with other precise products?",
+        "Does multi-GNSS (BDS-3/GPS) improve time transfer?"
+      ],
+      "knowledge_gap": "Not explicitly stated in this chunk, but GPS PPP-B2b time transfer is not recommended, while BDS-3 PPP-B2b shows good performance."
+    },
+    "technical_route": {
+      "overall_flow": "Compare time transfer solutions derived from PPP using BDS-3 PPP-B2b, CNES, WUM, WUU products and assess receiver clock offsets and frequency stability.",
+      "key_steps": [
+        "Recover satellite clock/orbit corrections from PPP-B2b and other products",
+        "Perform BDS-3, GPS, and BDS-3/GPS PPP processing",
+        "Compute receiver clock offsets for stations (e.g., CUSV)",
+        "Perform time transfer between stations (CUSV-USUD)",
+        "Evaluate precision (STD) and frequency stability"
+      ],
+      "tools_software": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "CUSV receiver clock offset from BDS-3, GPS, and BDS-3/GPS PPP using B2b products",
+        "CUSV-USUD time transfer from BDS-3, GPS, and BDS-3/GPS BDS-3 PPP using B2b products",
+        "The precision of time transfer obtained from GPS PPP using the PPP-B2b products (0.89 ns) ...",
+        "The frequency stability of time transfer presents similar conclusions."
+      ]
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "Exp_time_transfer",
+        "description": "Time transfer comparison using BDS-3, GPS, and BDS-3/GPS PPP with PPP-B2b and other precise products. Station pairs CUSV and USUD used.",
+        "setup": "CUSV and USUD stations, PPP-B2b corrections, CNES, WUM, WUU products. Figures 18 and 19 illustrate receiver clock offset and time transfer.",
+        "conditions": "NOT_MENTIONED",
+        "grounding_quotes": [
+          "Fig. 18 CUSV receiver clock offset from BDS-3, GPS, and BDS-3/GPS PPP using B2b products",
+          "Fig. 19 CUSV-USUD time transfer from BDS-3, GPS, and BDS-3/GPS BDS-3 PPP using B2b products",
+          "the precision of BDS-3/GPS PPP time transfer was slightly improved"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "CUSV",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "BDS-3",
+        "GPS"
+      ],
+      "observation_types": "NOT_MENTIONED",
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "CUSV receiver clock offset from BDS-3, GPS, and BDS-3/GPS PPP",
+        "CUSV-USUD time transfer"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "time_transfer_STD": "0.30 ns (BDS-3 PPP-B2b), 0.14 ns (WUM), 0.35 ns (CNES), 0.54 ns (WUU), 0.89 ns (GPS PPP-B2b), 0.23 ns (GPS CNES)",
+        "frequency_stability": "about 2.11E-12 (at some averaging time, for BDS-3, GPS, BDS-3/GPS PPP)",
+        "satellite_clock_STD": "BDS-3 PPP-B2b 0.12 ns, CNES 0.23 ns"
+      },
+      "grounding_quotes": [
+        "The precision of time transfer obtained from GPS PPP using the PPP-B2b products (0.89 ns) is less than that of PPP using the CENS products (0.23 ns).",
+        "The precision of time transfer obtained from BDS-3 PPP using the PPP-B2b, WUM, CENS, and WUU products are 0.30, 0.14, 0.35, and 0.54 ns, respectively.",
+        "The frequency stability of BDS-3, GPS and BDS-3/GPS PPP are about (2.11E-12,",
+        "The precision of the BDS-3 satellite clock (0.12 ns) in PPP-B2b outperforms that of BDS-3 satellites in CNES (0.23 ns)"
+      ]
+    },
+    "main_results": {
+      "summary": "GPS PPP time transfer using PPP-B2b is not recommended due to lower precision (0.89 ns) and systematic bias. BDS-3 PPP time transfer using PPP-B2b achieves 0.30 ns precision, better than CNES (0.35 ns) but worse than WUM (0.14 ns). BDS-3/GPS PPP slightly improves precision. BDS-3 PPP-B2b provides better reliability without internet-induced reconvergence.",
+      "key_findings": [
+        "GPS PPP-B2b time transfer precision (0.89 ns) is significantly worse than CNES (0.23 ns); not recommended.",
+        "BDS-3 PPP-B2b time transfer precision (0.30 ns) outperforms CNES (0.35 ns) and WUU (0.54 ns).",
+        "BDS-3 PPP-B2b satellite clock precision (0.12 ns) better than CNES (0.23 ns) due to ISL observations.",
+        "BDS-3/GPS combined PPP slightly improves time transfer precision over BDS-3 alone.",
+        "Frequency stability of BDS-3, GPS, and BDS-3/GPS PPP around 2.11E-12.",
+        "BDS-3 PPP-B2b has better reliability: sometimes does not re-converge due to Internet instability (referring to real-time without internet dependency)."
+      ],
+      "limitations": [
+        "GPS PPP-B2b time transfer not recommended due to lower precision and systematic bias.",
+        "No mention of noise floor or long-term stability details in this chunk."
+      ],
+      "grounding_quotes": [
+        "The precision of time transfer obtained from GPS PPP using the PPP-B2b products (0.89 ns) is less than that of PPP using the CENS products (0.23 ns).",
+        "Overall, we do not recommend time transfer based on GPS PPP with the PPP-B2b service.",
+        "The performance of BDS-3 PPP time transfer using the PPP-B2b products is slightly better than PPP using CNES due to the quality of precise products.",
+        "the time transfer calculated from BDS-3 PPP with the PPP-B2b is feasible and achieves a good performance.",
+        "real-time BDS-3 PPP using the PPP-B2b products have better reliability because it sometimes does not re-converge due to Internet instability.",
+        "The frequency stability of BDS-3, GPS and BDS-3/GPS PPP are about (2.11E-12,"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "C_ENGINEERING_TRANSFER",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "Yes, compared against CNES, WUM, WUU products.",
+      "failure_cases": "GPS PPP-B2b time transfer is a failure case; it is not recommended.",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "Overall, we do not recommend time transfer based on GPS PPP with the PPP-B2b service.",
+        "the time transfer calculated from BDS-3 PPP with the PPP-B2b is feasible and achieves a good performance."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "Time transfer STD defined as precision of receiver clock difference? Not explicitly defined in chunk.",
+      "baseline_details": "Compared with CNES, WUM, WUU products, but version/epoch not given.",
+      "reproduction_blockers": [
+        "No station observation data access information",
+        "No PPP-B2b correction archive or replay method",
+        "No source code or configuration files",
+        "No Kalman filter/stochastic model parameters",
+        "No exact dates of experiment",
+        "No sampling rate or observation types"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "ac701cacb86a",
+      "chunk_index": 12,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [
+        {
+          "name": "NOT_MENTIONED",
+          "affiliation": "NOT_MENTIONED",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "61",
+      "pages": "14 of 17",
+      "publication_date": "2023"
+    },
+    "product_source": {
+      "claimed": "BDS-3 PPP using B2b products",
+      "actual_product_source": "MIXED_PRODUCTS",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "BDS-3 PPP using B2b products (Fig. 20)",
+        "the PPP-B2b, CNES, WUU, and WUM products (Table 7)"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "core_ppp_b2b",
+      "reasoning": "The paper evaluates PPP time transfer based on BDS-3 PPP-B2b service, as evidenced by comparisons using B2b products alongside CNES, WUU, WUM.",
+      "grounding_quotes": [
+        "BDS-3 PPP using B2b products",
+        "PPP-B2b, CNES, WUU, and WUM products"
+      ]
+    },
+    "is_ppp_b2b_core_paper": true,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "DCB/code bias handling not mentioned in the provided page.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "time_transfer_comparison",
+        "description": "Comparison of PPP time transfer using B2b products against CNES, WUU, WUM products and IGS final clocks, and assessment of convergence time for static PPP.",
+        "setup": "Static PPP with two stations CUSV and USUD, using GPS, BDS-3, and combined BDS-3/GPS constellations.",
+        "conditions": "Time transfer evaluated for DOY ranges 122-131, 144-153, 153-162.",
+        "grounding_quotes": [
+          "CUSV-USUD clock difference between time transfer from BDS-3, GPS, and BDS-3/GPS BDS-3 PPP using B2b products and time transfer from IGS final clock products.",
+          "The mean convergence time for the two stations with the PPP-B2b, CNES, WUU, and WUM products in static PPP"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "DOY 122 (year unspecified)",
+      "end_date": "DOY 162 (year unspecified)",
+      "duration_days": "NOT_MENTIONED",
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "DOY 122–131",
+        "DOY 144–153",
+        "DOY 153–162"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "CUSV",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "GPS",
+        "BDS-3"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "CUSV-USUD clock difference"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "Static PPP mean convergence times: B2b GPS 65.5 min, BDS-3 39.5 min, BDS-3/GPS 33.0 min; CNES GPS 27.5 min, BDS-3 42.0 min, BDS-3/GPS 26.0 min; WUM GPS 23.5 min, BDS-3 26.5 min, BDS-3/GPS 18.5 min; WUU GPS 56.5 min, BDS-3 60.0 min, BDS-3/GPS 45.5 min (Table 7).",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "time_transfer_std_ns": "GPS 0.97, BDS-3 0.28, BDS-3/GPS 0.26 (DOY 122-131); similar values for other periods (Table 6).",
+        "time_transfer_mean_ns": "GPS 0.55, BDS-3 -55.45, BDS-3/GPS -55.41 (DOY 122-131); similar values for other periods (Table 6)."
+      },
+      "grounding_quotes": [
+        "Table 6  STD and mean of BDS-3, GPS, BDS-3/GPS PPP time transfer using B2b products",
+        "Table 7  The mean convergence time for the two stations with the PPP-B2b, CNES, WUU, and WUM products in static PPP"
+      ]
+    },
+    "main_results": {
+      "summary": "BDS-3 PPP-B2b time transfer achieves sub-nanosecond STD for BDS-3 and BDS-3/GPS combinations (e.g., 0.28 ns for BDS-3 alone), with convergence times ranging from 33 to 65.5 minutes depending on constellation and product.",
+      "key_findings": [
+        "BDS-3/GPS PPP using B2b products provided the best STD (0.26–0.30 ns) compared to single-system solutions.",
+        "BDS-3-only B2b convergence (39.5 min) was faster than GPS-only (65.5 min) but slower than WUM and CNES in BDS-3/GPS mode."
+      ],
+      "limitations": [],
+      "grounding_quotes": [
+        "BDS-3/GPS 0.26 (DOY 122-131)",
+        "B2b GPS 65.5, BDS-3 39.5, BDS-3/GPS 33.0"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "Convergence time and STD of time transfer are defined but exact threshold/definition not given in this page.",
+      "baseline_details": "Comparisons include IGS final clock products, CNES real-time, WUM and WUU post-processed products (all from a single page).",
+      "reproduction_blockers": [
+        "No raw observation access information",
+        "No B2b correction archive or replay method",
+        "No software or processing details",
+        "No stochastic or filter configuration",
+        "Incomplete metric definitions"
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": [
+        "IGS final clock products",
+        "PPP-B2b, CNES, WUU, and WUM products"
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "1ad2c082fd12",
+      "chunk_index": 13,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "NOT_MENTIONED",
+      "actual_product_source": "NOT_MENTIONED",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "out_of_scope",
+      "reasoning": "Only the reference list page is provided; no paper content to determine relevance to PPP-B2b.",
+      "grounding_quotes": []
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No information on DCB handling is present in this chunk.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 0,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "ftp://igs.gnsswhu.cn",
+      "grounding_quotes": [
+        "The GNSS data of MGEX are provided by the IGS and can be downloaded through ftp://​igs.​gnssw​hu.​cn."
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "MGEX data available via IGS FTP",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No methodological details available in this chunk."
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": [
+        "The GNSS data of MGEX are provided by the IGS and can be downloaded through ftp://​igs.​gnssw​hu.​cn."
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "e3262cdb5ef4",
+      "chunk_index": 14,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [
+        {
+          "name": "Yulong Ge",
+          "affiliation": "Nanjing Normal University",
+          "is_corresponding": false
+        },
+        {
+          "name": "Xinyun Cao",
+          "affiliation": "Nanjing Normal University",
+          "is_corresponding": false
+        },
+        {
+          "name": "Daqian Lyu",
+          "affiliation": "National University of Defense Technology",
+          "is_corresponding": false
+        },
+        {
+          "name": "Zaimin He",
+          "affiliation": "Xi'an University of Posts & Telecommunications",
+          "is_corresponding": false
+        },
+        {
+          "name": "Fei Ye",
+          "affiliation": "Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "NOT_MENTIONED",
+      "actual_product_source": "NOT_MENTIONED",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "out_of_scope",
+      "reasoning": "No paper body available; only references and author bios provided.",
+      "grounding_quotes": []
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": false,
+      "dcb_missing_warning": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 0,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "Paper body not provided; no details available."
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "7966e264568e",
+      "chunk_index": 15,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [
+        {
+          "name": "Gongwei Xiao",
+          "affiliation": "Xi’an University of Posts and Telecommunications",
+          "is_corresponding": false
+        },
+        {
+          "name": "Fei Shen",
+          "affiliation": "Nanjing Normal University, Nanjing, China",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2023,
+      "journal_or_venue": "GPS Solutions",
+      "doi": "NOT_MENTIONED",
+      "volume": "27",
+      "issue": "NOT_MENTIONED",
+      "pages": "61",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "NOT_MENTIONED",
+      "actual_product_source": "NOT_MENTIONED",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [],
+      "conflict_flag": false,
+      "conflict_detail": ""
+    },
+    "domain_relevance": {
+      "value": "general_gnss",
+      "reasoning": "Author research interests include multi-GNSS PPP, as stated in biography.",
+      "grounding_quotes": [
+        "His cur- rent research mainly focuses on multi-GNSS PPP, real-time pre- cise orbit determination for LEO satellites and tropospheric delay."
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": false,
+      "dcb_missing_warning": "",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [
+        "MG-APP"
+      ],
+      "grounding_quotes": [
+        "he open-sourced a GNSS data processing software named MG-APP (https://​geode​sy.​noaa.​gov/​gps-​toolb​ox/; https://​github.​com/​xiaog​ongwei/​MG_​APP)."
+      ]
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "https://github.com/xiaogongwei/MG_APP",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No observation data provided",
+        "No correction archive",
+        "No experimental details given in this chunk"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": [
+        "he open-sourced a GNSS data processing software named MG-APP (https://​geode​sy.​noaa.​gov/​gps-​toolb​ox/; https://​github.​com/​xiaog​ongwei/​MG_​APP)."
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "923387fd07bb",
+      "chunk_index": 16,
+      "chunk_type": "mixed"
+    }
+  }
+]

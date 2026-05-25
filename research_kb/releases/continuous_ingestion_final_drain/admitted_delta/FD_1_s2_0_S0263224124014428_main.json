@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S0263224124014428_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "A new PPP one-way timing approach via BDS-3 PPP-B2b and short-message communication service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement 240 (2025) 115557 Contents lists available at ScienceDirect Measurement journal homepage: www.elsevier.com/locate/measurement A new PPP one-way timing approach via BDS-3 PPP-B2b and short-message communication service Yong Wanga,b,c,d, Yulong Ged, Weiping Jianga,b,*, Tianjun Liua,b,c aGNSS Research Center, Wuhan University, 129 Luoyu Road, Wuhan 430079, China bHubei L",
+      "Based on the BDS-3 PPP service (PPP-B2b) and the global short PPP-B2b message communication (GSMC) service, this study proposes a novel PPP one-way timing method that is not Global short-message communication subject to distance limitations or the requirements of network communication."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 1
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 13,
+    "b2b": 34,
+    "has": 2,
+    "dcb": 1,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

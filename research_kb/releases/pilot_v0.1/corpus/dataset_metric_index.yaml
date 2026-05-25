@@ -1,0 +1,59 @@
+Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service:
+  stations:
+  - NOT_MENTIONED
+  - USUD
+  - CUSV
+  satellite_systems:
+  - BDS-3
+  - GPS
+  experiment_epoch:
+    start: '2022-05-02'
+    end: '2022-06-11'
+  convergence_time: 'GPS PPP-B2b: 65.5 min; BDS-3 PPP-B2b: 39.5 min; BDS-3/GPS PPP-B2b
+    shortens by 16.4% vs BDS-3 only; CNES GPS: 27.5 min, BDS-3: 42 min; WUM GPS: 23.5
+    min, BDS: 26.5 min.'
+  rms_3d: NOT_MENTIONED
+  percentile_95: NOT_MENTIONED
+Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser:
+  stations:
+  - AIRA
+  - STK2
+  - TSK2
+  - USUD
+  - NOT_MENTIONED
+  satellite_systems:
+  - QZSS
+  - GPS
+  - Galileo
+  - GLONASS
+  - BDS
+  experiment_epoch:
+    start: '2019-09-15'
+    end: '2019-09-17'
+  convergence_time: Convergence to 20 cm (E, N) and 40 cm (U) at about 420 epochs
+    (30s each?)
+  rms_3d: NOT_MENTIONED
+  percentile_95: NOT_MENTIONED
+Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp:
+  stations:
+  - NOT_MENTIONED
+  - regional tracking stations in China
+  - URUM
+  - ULAB
+  - WHU2
+  - JFNG
+  - WUH2
+  - URAM
+  - four MGEX stations
+  - four MEGX stations
+  satellite_systems:
+  - BDS-3
+  - GPS
+  - BDS
+  experiment_epoch:
+    start: DOY 354, 2021
+    end: DOY 357, 2021
+  convergence_time: BDS-3 PPP-B2b dual-frequency convergence within 15 min; GPS PPP-B2b
+    average 52 min, longest 109 min.
+  rms_3d: 5.4 cm (BDS-3 PPP-B2b), 5.9 cm (GPS), 1.9 cm (CAS), 3.9 cm (DLR)
+  percentile_95: NOT_MENTIONED

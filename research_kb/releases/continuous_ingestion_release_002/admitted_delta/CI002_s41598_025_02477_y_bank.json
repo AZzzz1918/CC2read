@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_9d1a17e9cb",
+    "span_index": 0,
+    "text": "www.nature.com/scientificreports\nOPEN Performance assessment of\nBeiDou-3 PPP-B2b real time pre-\ncise point positioning\nYu Lin, Laiyong Song, Jiaqi Shen & Zelin Mu\nTo assess the performance of the PPP-B2b service, most existing studies typically store real-time PPP-\nB2b messages and leverage them to acquire precise satellite orbits and clock offsets. However, they\noften overlook potential interferences, such as occlusions and receiving delays, that may occur in real-\ntime scenarios. Consequently, these studies fail to fully capture the real-time positioning capabilities of\nPPP-B2b. This study ",
+    "char_length": 4576
+  },
+  {
+    "quote_id": "qb_6378ba8cea",
+    "span_index": 1,
+    "text": "www.nature.com/scientificreports/\nadvancement in satellite-based augmentation systems. However, comprehensively assessing the performance\nand reliability of PPP-B2b in practical scenarios requires in-depth research and evaluation17.\nPPP-B2b positioning represents a cutting-edge advancement in high-precision GNSS technology, uniquely\nprovided by the BeiDou navigation satellite system (BDS-3). Unlike traditional satellite-based augmentation\nsystems that operate primarily through geostationary satellites, the PPP-B2b service transmits correction data\nvia the B2b signal frequency across the entire",
+    "char_length": 6272
+  },
+  {
+    "quote_id": "qb_8b7938d2a5",
+    "span_index": 2,
+    "text": "www.nature.com/scientificreports/\nunit vectors in their respective directions, facilitating the coordinate transformation from the orbital reference\nframe to the ECEF system.\nEquations 2 and 3 demonstrate the application of these corrections. In Eq. 2, X orbit represents the computed\nreal-time precise satellite position, obtained by applying the correction vector δX to the broadcast ephemeris\nposition X broadcast. Similarly, Eq. 3 expresses t satellite, the precise clock offset, as the broadcast ephemeris clock\noffset t broadcast adjusted by the term C c 0, where C 0 is the clock correction pa",
+    "char_length": 5917
+  },
+  {
+    "quote_id": "qb_1291000f6d",
+    "span_index": 3,
+    "text": "www.nature.com/scientificreports/\nFig. 1. Static PPP experiment environment.\nFig. 2. Kinematic PPP experiment environment with antenna location highlighted in red circle.\nRTKLIB software, we integrated the GFZ final products with our observation data to generate the reference\npost-processing PPP solution.\nReal-time static PPP accuracy analysis based on PPP-B2b\nReal-time static PPP accuracy analysis of BDS-3\nFigure 3 illustrates the operational trajectories of BDS-3 satellites observed on DOY 113. Notably, satellites C38,\nC39, and C40—which belong to the inclined geosynchronous orbit (IGSO) con",
+    "char_length": 2048
+  },
+  {
+    "quote_id": "qb_e42112971c",
+    "span_index": 4,
+    "text": "www.nature.com/scientificreports/\nFig. 3. Skyplot of BDS-3 on DOY 113.\nFig. 4. Number of visible satellites and DOP on DOY 113.\nThe performance of real-time static PPP using BDS-3 is presented in (Fig. 6). The results demonstrate that\nPPP based on PPP-B2b corrections achieves convergence within approximately 26 min. Post-convergence\nperformance exhibits horizontal accuracy better than 0.2 m and vertical accuracy better than 0.4 m. The\nroot mean square (RMS) errors in the east-north-up (ENU) coordinate system are 0.10, 0.03, and 0.26 m,\nrespectively. Importantly, the positioning solution mainta",
+    "char_length": 1482
+  },
+  {
+    "quote_id": "qb_bb517b56c9",
+    "span_index": 5,
+    "text": "www.nature.com/scientificreports/\nFig. 5. Valid satellites of BDS-3 positioning.\nFig. 6. Real-time static PPP solution using BDS-3.\nof satellite geometry on positioning accuracy, serves as a valuable indicator of solution quality, with lower values\ngenerally associated with better precision.\nFigure 9 illustrates the number of satellites participating in BDS-3/GPS dual-system positioning. The\ndata confirms a strong correlation between the BDS-3/GPS dual-system and PPP-B2b signals, which directly\ncontributes to shorter convergence times.\nFigure 10 displays the real-time static PPP solution using",
+    "char_length": 1548
+  },
+  {
+    "quote_id": "qb_236dd69fa6",
+    "span_index": 6,
+    "text": "www.nature.com/scientificreports/\nFig. 7. Skyplot of BDS-3/GPS on DOY 114.\nFig. 8. Number of visible satellites and DOP on DOY 114.\ndirections. As shown in Figs. 3, 7, the symmetric satellite distribution in the north–south direction facilitates\nthe reduction of systematic errors, resulting in enhanced positioning accuracy along this axis. This directional\nadvantage may be partially attributed to the experimental location in Guangzhou, situated at a lower latitude\nwhere the satellite geometry is particularly favorable for north–south measurements.\nReal-time kinematic PPP accuracy analysis base",
+    "char_length": 1549
+  },
+  {
+    "quote_id": "qb_d881d0b128",
+    "span_index": 7,
+    "text": "www.nature.com/scientificreports/\nFig. 9. Valid satellites of BDS-3/GPS dual-system positioning.\nFig. 10. Real-time static PPP solution using BDS-3/GPS.\nThe underlying cause is the systematic difference between clock references: GPS broadcast clocks are derived\nfrom a global monitoring network, while PPP-B2b broadcast clocks originate from regional networks, resulting\nin systematic clock offsets25. The root mean square (RMS) errors in the east-north-up (ENU) coordinate system\nare 0.31, 0.12, and 0.51 m, respectively.\nDuring the observation interval from 5:48 to 6:47, we identified seven epochs",
+    "char_length": 1648
+  },
+  {
+    "quote_id": "qb_5a4b7fa3a3",
+    "span_index": 8,
+    "text": "www.nature.com/scientificreports/\nFig. 11. Positioning accuracy of real-time kinematic PPP using BDS-3/GPS dual systems with post-processing\nPPP reference.\nFig. 12. Impact of vessel motion speed in real-time kinematic PPP.\nfor most of the observation period. Our comparative analysis of positioning accuracy time series revealed no\nsignificant correlation between vessel speed and positioning precision. This finding suggests that movement\nvelocity has negligible impact on PPP-B2b-based kinematic positioning quality. The observed divergence\npatterns likely relate more closely to the vessel’s attit",
+    "char_length": 1723
+  },
+  {
+    "quote_id": "qb_e151940f00",
+    "span_index": 9,
+    "text": "www.nature.com/scientificreports/\nFig. 13. Number of visible satellites and DOP during kinematic experiment.\nFig. 14. Skyplot of BDS-3/GPS during kinematic experiment.\nconstellation exhibits a predominantly southeast-oriented distribution—a unique geometric pattern absent in\nstatic experiments—potentially explaining the relatively higher PDOP values observed during dynamic testing.\nFigures 15, 16 present two distinct time intervals of stable real-time kinematic PPP solutions post-\nconvergence (without divergence): from 03:00 to 05:00 and from 08:00 to 10:00, respectively. During the 03:00–\n05:",
+    "char_length": 1757
+  },
+  {
+    "quote_id": "qb_843c4df3c6",
+    "span_index": 10,
+    "text": "www.nature.com/scientificreports/\nFig. 15. Real-time kinematic PPP solution after convergence (3 a.m.–5 a.m.).\nFig. 16. Real-time kinematic PPP solution after convergence (8 a.m.–10 a.m.).\ntime applications involving dynamic movement, such as precise maritime navigation and autonomous vehicle\nguidance.\nDiscussion\nTable 1 presents a comparative analysis of positioning accuracy and convergence time across different precise\npoint positioning (PPP) solutions. Our investigation into BeiDou navigation satellite system (BDS-3) and\ncombined BDS-3/GPS performance in real-time static PPP contexts reveal",
+    "char_length": 1306
+  },
+  {
+    "quote_id": "qb_379a060b0b",
+    "span_index": 11,
+    "text": "www.nature.com/scientificreports/\nSystem Convergence time Horizontal accuracy Vertical accuracy RMS errors (ENU)\n0.10 m,\nReal-time static PPP solution using BDS-3 26 min < 0.2 m < 0.4 m 0.03 m,\n0.26 m\n0.07 m,\nReal-time static PPP solution using BDS-3/GPS 18 min < 0.2 m < 0.4 m 0.03 m,\n0.18 m\n0.31 m,\nReal-time kinematic PPP solution using BDS-3/GPS 1 h 28 min Decimeter-level Decimeter-level 0.12 m,\n0.51 m\nTable 1. Comparison of positioning accuracy and convergence time for different PPP solutions.\napplications demanding sustained reliability, as it ensures continuous high-precision performance ",
+    "char_length": 5477
+  },
+  {
+    "quote_id": "qb_c8bde32292",
+    "span_index": 12,
+    "text": "www.nature.com/scientificreports/\n5. Environmental resilience enhancements: For practical deployments, improving the system’s performance\nunder challenging conditions through advanced multipath mitigation and signal processing techniques\nwould expand its applicability across diverse operational scenarios.\nIn conclusion, BDS-3 and integrated BDS-3/GPS solutions demonstrate superior accuracy and reliability across\ndiverse operational scenarios. The dual-system approach represents a significant technological advancement,\nsubstantially reducing convergence time without compromising accuracy. These",
+    "char_length": 6564
+  },
+  {
+    "quote_id": "qb_51e90118b9",
+    "span_index": 13,
+    "text": "www.nature.com/scientificreports/\nReceived: 13 April 2024; Accepted: 13 May 2025\nReferences\n1. Hofmann-Wellenhof, B., Lichtenegger, H. & Wasle, E. GNSS–Global Navigation Satellite Systems: GPS, GLONASS, Galileo, and\nMore (Springer Science & Business Media, 2007).\n2. Kong, S. H. et al. Ieee access special section editorial: Gnss, localization, and navigation technologies. IEEE Access 7, 131649–\n131652 (2019).\n3. Teunissen, P. J. & Montenbruck, O. Montenbruck, Springer Handbook of Global Navigation Satellite Systems (Springer, 2017).\n4. Steigenberger, P. & Montenbruck, O. Montenbruck, Galileo st",
+    "char_length": 6122
+  },
+  {
+    "quote_id": "qb_3d18b168cc",
+    "span_index": 14,
+    "text": "www.nature.com/scientificreports/\nAdditional information\nCorrespondence and requests for materials should be addressed to L.S.\nReprints and permissions information is available at www.nature.com/reprints.\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and\ninstitutional affiliations.\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in\nany medium or format, as long as you give appropri",
+    "char_length": 1515
+  }
+]

@@ -1,0 +1,52 @@
+bibliographic_info:
+  title: NOT_MENTIONED
+  year: 0
+dcb_handling:
+  dcb_mentions: 25
+  grounding_quotes:
+  - '<!-- PAGE: 8 -->  73 Page 8 of 14 GPS Solutions (2023) 27:73 comparing the HAS
+    test signal code biases with final Dif- ferential Code Biases (DCBs) from the
+    German Aerospace Center DLR (Montenbruck et al.'
+  status: EXPLICITLY_DESCRIBED
+experiment_epoch:
+  end_date: DOY 243
+  grounding_quotes:
+  - https://d oi.o rg/1 0.1 007/s 10291-0 21-0 1139-6 Montenbruck O, Hauschild A,
+    Steigenberger P (2014) Differential European Union (2022) Galileo High Accuracy
+    Service signal-in-space code bias estimation using multi-GNSS observations and
+    global interface control document (HAS SIS ICD), Issue 1.0.
+  start_date: DOY 231
+extraction_mode: full_strict_quotes
+gate_status:
+  expected_ps: CNES_OR_OTHER_RTS
+  product_source_correct: true
+  wrong_support: false
+ionospheric_handling:
+  iono_mentions: 8
+paper_id: 2023--Nacer_Naciri--Assessment_of_Galileo_High_Accuracy_Service_HAS_te
+pdf_metadata:
+  b2b_mentions: 11
+  clas_mentions: 3
+  dcb_mentions: 25
+  has_mentions: 16
+  pages: 15
+product_source:
+  actual_product_source: CNES_OR_OTHER_RTS
+  evidence_strength: WEAK
+  grounding_quotes:
+  - The Chinese BeiDou has a similar regional PPP ser- First, details about HAS and
+    its application method on the vice called PPP-B2b, where multi-GNSS (only BeiDou
+    and user side are provided, followed by an analysis of the cor- GPS at the moment)
+    PPP corrections are broadcast to users rections availability.
+  - The satellite products are analyzed by in China and its surrounding areas through
+    BeiDou’s GEO comparing the satellite orbits and clocks to reference values satellites
+    over the B2b signal (Liu et al.
+reproducibility_audit:
+  reproduction_blockers:
+  - No code/software release
+  - Data not publicly provided
+  - B2b correction archive not distributed
+  - Processing parameters not fully detailed
+scope_relevance: BOUNDARY_RELEVANT
+selection_role: non_b2b_galileo
+wave: 1

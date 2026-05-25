@@ -1,0 +1,42 @@
+{
+  "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "authors": [],
+    "year": 2022
+  },
+  "product_source": {
+    "claimed": "PPP-B2b",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quote_ids": [
+      "qb_3a6025e58"
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "Real-time PPP using B2b corrections",
+    "grounding_quote_ids": [
+      "qb_754d670cd",
+      "qb_a9805c821"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quote_ids": []
+  },
+  "novelty_audit": {
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "grounding_quote_ids": [
+      "qb_3a6025e58",
+      "qb_a9805c821"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "Data not provided",
+      "Specific processing parameters not detailed"
+    ],
+    "reproducibility_score": 2,
+    "grounding_quote_ids": []
+  }
+}

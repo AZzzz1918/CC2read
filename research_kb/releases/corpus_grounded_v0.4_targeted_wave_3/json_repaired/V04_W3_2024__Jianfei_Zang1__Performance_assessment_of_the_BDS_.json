@@ -1,0 +1,46 @@
+{
+  "paper_id": "V04_W3_2024__Jianfei_Zang1__Performance_assessment_of_the_BDS_",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 3,
+  "bibliographic_info": {
+    "title": "Jianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2024) 28:26 https://doi.org/10.1007/s10291-023-01570-x ORIGINAL ARTICLE Performance assessment of the BDS‑3 PPP‑B2b service for real‑time earthquake source description: a case study for the 2021 Mw 7.4 Maduo earthquake Jianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4 Received: 13 August 2023 / Accepted: 24 October 2023 © The Autho",
+      "In 2020, the third generation of the BeiDou Global Navigation Satel- lite System (BDS-3) initiated a real-time precise point positioning service through the B2b signal (PPP-B2b), which provides a new possibility for real-time earthquake source description."
+    ]
+  },
+  "component_stack": "BDS3_PPP_B2B+LEO+INS",
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4,
+    "grounding_quotes": [
+      "In particular, Fang code bias (DCB) and satellite orbit and clock corrections et al."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 14,
+    "b2b": 223,
+    "has": 0,
+    "dcb": 4
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "category": "SEISMOGEO",
+  "priority": "P1_NEW_ROUTE_CONFIRMATION",
+  "is_new_route": false,
+  "confirms_singleton": false
+}

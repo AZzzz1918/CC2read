@@ -1,0 +1,74 @@
+[
+  {
+    "quote_id": "qb_596a06149a",
+    "span_index": 0,
+    "text": "Measurement 274 (2026) 121252\nContents lists available at ScienceDirect\nMeasurement\njournal homepage: www.elsevier.com/locate/measurement\nPrecise LEO orbit determination using regional PPP-B2b\naugmentation services\nHaitao Zhoua,c , Lei Wangb,* , Ruizhi Chenc, Jiansheng Lia,d, Mingjian Chena,d, Linyang Lia,\nWenju Fue, Kai Xiaoa\naInstitute of Geospatial Information, Information Engineering University, Zhengzhou, China\nbState Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Wuhan, China\ncThe Chinese University of Hong Kong, ShenZhen, China\ndCol",
+    "char_length": 4485
+  },
+  {
+    "quote_id": "qb_62f7c3ee8b",
+    "span_index": 1,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nL1 (for GPS L1/L5 signals) and L5 (for GPS L1/L5 and Galileo E1/E5a capable of receiving GPS data only. We investigated the matched GPS\nsignals) via signals of the GEO satellite Inmarsat-4F1 [15]. High- satellites number using PPP-B2b corrections along the satellite footprint,\nAccuracy Services (HAS) of Galileo provides GPS, Galileo correction which is shown in Fig. 1. The figure shows that PPP-B2b corrections\ndata via E6B signal [16,17]. The LEO POD accuracy of (sub-) centimeter availability is geolocation specified. PPP-B2b service is av",
+    "char_length": 5270
+  },
+  {
+    "quote_id": "qb_5f583d8d16",
+    "span_index": 2,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nFig. 2. The time series of the satellites number matched PPP-B2b correction for GRACE FO 1.\n(ECEF) coordinate framework; δO is the PPP-B2b orbit correction vector\nin radial, along-track and cross-track (RAC) directions. eradial ,ealong ,\necross are the unit vectors in RAC directions; Xprecise and Xbroadcast are the\nprecise satellite orbit and corresponding broadcast satellite orbit;\n̂\nTbroadcast and Tbroadcast are the precise clock offset and corresponding\nbroadcast ephemeris clock offset; C0 and c are the PPP-B2b clock\ncorrection and the ",
+    "char_length": 2617
+  },
+  {
+    "quote_id": "qb_ee4dd5fe89",
+    "span_index": 3,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nFig. 5. Example of mixed ephemeris clock time series for different GPS satellites.\nPPP-B2b satellites. In the PPP-B2b/LNAV hybrid ephemeris, the time\nTable 1\nseries of PPP-B2b clock and LNAV clock have different clock datum, thus\nDifferent type of clock jump for GNSS satellite clock time series.\nthere is a constant bias between the two types of clocks time series. A\nTypes Description newly matched satellites clocks means introducing a constant bias into\nType 1 PPP-B2b clock jump due to PPP-B2b clock datum change positioning systems, thus d",
+    "char_length": 4382
+  },
+  {
+    "quote_id": "qb_da32647594",
+    "span_index": 4,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\n|Δδdt(i)|>η⋅σ (7) 4. Experimental analysis\nwhere η is the threshold coefficient for clock standard deviation (STD), In order to evaluate the benefit of the LNAV/PPP-B2b hybrid\nand usually set as 3 (99.7% confidence level) or 4 (99.9% confidence ephemeris on the LEO POD accuracy, we designed different POD\nlevel). σ is the STD of the clock estimation error for the GNSS satellite. strategies.\nAccording to our analysis, the STD of the clock difference between PPP-\nB2b and LNAV is about 0.1 ns, with a mean value of 0.074 ns (see Fig. 7).\n4.1. E",
+    "char_length": 5212
+  },
+  {
+    "quote_id": "qb_4bbac04922",
+    "span_index": 5,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nFig. 8. Flowchart of the hybrid clock datum transformation method.\nTable 2 Table 3\nThe POD strategy for reduced-dynamic orbit determination. LEO POD schemes using different orbit and clock offset.\nItem Description Schemes Descriptions\nGravity field GOCO06s (120 ×120) [38] Scheme A Hybrid LNAV/PPP-B2b orbit and clock offset without CDT\nSolid Earth/ocean tide FES2014 [39] Scheme B LNAV orbit and clock offset\nSun, Moon, and other planet ephemerides DE432 [40] Scheme C Hybrid LNAV/PPP-B2b orbit and clock offset with CDT\nRelativistic effect IER",
+    "char_length": 1405
+  },
+  {
+    "quote_id": "qb_0e5fedd819",
+    "span_index": 6,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nTable 4\nThe accuracy of orbit and clock offset matched PPP-B2b corrections.\nSystem RMS of orbit errors (m) STD of\nclock offset (ns)\nR T N 3D\nGPS LNAV 0.1849 0.8323 0.5208 0.9991 0.2255\nPPP-B2b 0.0620 0.2961 0.2080 0.3671 0.1749\nImprovement 66.47% 64.42% 60.06% 63.26% 22.44%\nTable 5shows a further improvement in the LNAV orbit accuracy due to\nTable 5\nthe use of all data instead of only part of the LNAV data matched PPP-\nThe accuracy of orbit for hybrid LNAV/PPP-B2b products.\nB2b corrections. There are several satellites with large errors (G",
+    "char_length": 6041
+  },
+  {
+    "quote_id": "qb_2aa0a13b29",
+    "span_index": 7,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nFig. 10. Clock difference between the LNAV and hybrid LNAV/PPP-B2b products for different GPS satellites.\nThe analysis in the previous section shows that 3D RMS orbit accu-\nracy of the hybrid LNAV/PPP-B2b ephemeris improves by 9.05%\ncompared to the broadcast ephemeris, and the hybrid clock offset with\nCDT achieves a 40.7% improvement relative to that without CDT. This\nsection verifies the improvement effect of the hybrid LNAV/PPP-B2b\norbits and clock offset on LEO reduced-dynamic orbit. Notably, the\nhybrid clock offset with CDT exhibits be",
+    "char_length": 2584
+  },
+  {
+    "quote_id": "qb_2373ecd77e",
+    "span_index": 8,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nFig. 13. Orbit errors of reduced-dynamic orbits in the RTN directions or Scheme A and Scheme C applying GRACE FO 1 (left) and FO 2 (right). The data span is from\nDOY 152 to DOY 181, 2022.\naccuracy in Scheme A and Scheme C, which can ensure a better gravity transmitted via the network. The higher accuracy hybrid ephemeris for\nrecovery mission [8]. The orbit errors of GRACE FO 1 and GRACE FO 2 LEO POD still has room for improvement in theory. Table 8shows that\nare larger in the N direction than in the R and T directions, which may be Scheme ",
+    "char_length": 5134
+  },
+  {
+    "quote_id": "qb_0d420daaa4",
+    "span_index": 9,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nranges from 0.22 ~ 0.33 mm/s in the RTN directions, and is less than with an improvement of 39.06%, 44.35% and 23.29% compared with\n0.5 mm/s in the 3D direction. The radio occultation mission requires a Scheme A. With the further improvement of the orbit and clock offset\nvelocity accuracy of 0.2 mm/s [14], and the velocity accuracy of hybrid accuracy, Scheme D does not have much improvement over Scheme B\nephemeris does not meet the condition at present. The velocity error in and Scheme C. Especially, the frequency stability of Scheme C and",
+    "char_length": 6436
+  },
+  {
+    "quote_id": "qb_ba417ddd60",
+    "span_index": 10,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\nTable 10\nAverage Hadamard DEV of LEO clock frequency stability for different schemes applying GRACE FO 1 with different averaging times.\nPOD model Schemes Hadamard DEV with different averaging time (×10(cid:0)12)\n10 20 30 60 120 180 300 600\nKinematic Scheme A 29.69 19.81 16.64 11.23 7.57 6.35 5.15 3.25\nPOD Scheme B 17.74 11.50 9.66 6.88 4.57 3.71 2.97 2.19\nScheme C 18.32 12.54 9.66 6.49 4.43 3.64 2.92 2.12\nScheme D 18.27 12.47 9.60 6.50 4.36 3.53 2.82 2.03\nImprovement(%) 38.30 36.7 41.95 42.21 41.48 42.68 43.30 34.77\nReduced- Scheme A 4.25",
+    "char_length": 7071
+  },
+  {
+    "quote_id": "qb_f2c2664952",
+    "span_index": 11,
+    "text": "H. Zhou et al. M e a s u r e m e n t 274 (2026) 121252\n[21] Y. Wang, et al., MTCAT: a Modern Temporal Convolution and Enhanced attention Haitao Zhou received an Ph.D. degree in Geodesy and surveying engineering from Wuhan\nTransformer Model for remaining Useful Life Prediction of Aerospace Self- University, Wuhan, China in 2023. He is currently a lecturer in Information Engineering\nLubricating Bearings, IEEE Sens. J. 25 (2025) 36513–36525. University, Zhengzhou, China. His research interests include LEO orbit determination and\n[22] H. Yang, et al., Assessment of the feasibility of PPP-B2b servi",
+    "char_length": 5887
+  }
+]

@@ -1,0 +1,42 @@
+bibliographic_info:
+  title: Real-time ocean precise point positioning with BDS-3 service signal PPP-B2b
+category: CORE_POSITIONING
+component_stack: BDS3_PPP_B2B+LEO+INS
+confirms_singleton: false
+dcb_handling:
+  dcb_mentions: 15
+  grounding_quotes:
+  - These systems generate precise corrections based on satellites, which include
+    satellite mask, orbit correction and user range their global GNSS tracking network
+    and broadcast the corrections accuracy index (URAI), DCB and clock offset correction.
+  status: EXPLICITLY_DESCRIBED
+experiment_epoch:
+  start_date: NOT_MENTIONED
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+is_new_route: false
+paper_id: V04_W3_1_s2_0_S0263224122011071_main
+pdf_metadata:
+  b2b: 91
+  dcb: 15
+  has: 0
+  pages: 9
+priority: P3_GENERAL
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Measurement203(2022)111911 Contents lists available at ScienceDirect
+    Measurement journal homepage: www.elsevier.com/locate/measurement Real-time ocean
+    precise point positioning with BDS-3 service signal PPP-B2b Tao Genga,*, Zhiqiang
+    Lia, Xin Xiea,*, Wenjian Liub, Yixuan Lia, Qile Zhaoa aGNSS Research Center, Wuhan
+    University, Wuhan 430079, China bSurveying and Mapping Institute, '
+  - The real-time Precise Point Positioning (PPP) Ocean positioning based on Real-Time
+    Service (RTS) may be difficult to operate on ocean since the internet-based communication
+    is PPP‑B2b service unavailable.
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not provided
+  - B2b archive not distributed
+wave: 3

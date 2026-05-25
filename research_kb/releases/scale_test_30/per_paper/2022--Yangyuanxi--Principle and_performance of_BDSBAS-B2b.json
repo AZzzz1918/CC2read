@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper directly addresses the principle and performance of BDS-3's PPP-B2b service alongside BDSBAS, making it a core study of PPP-B2b service performance.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf",
+  "paper_id": "2022--Yangyuanxi--Principle and performance of BDSBAS-B2b",
+  "extraction_mode": "batch_classify_1call"
+}

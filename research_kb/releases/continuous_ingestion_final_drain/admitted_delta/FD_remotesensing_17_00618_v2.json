@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_remotesensing_17_00618_v2",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "A Continuous B2b-PPP Model Considering Interruptions in BDS-3 B2b Orbits and Clock Corrections as Well as Signal-in-Space Range Error Residuals"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Article A Continuous B2b-PPP Model Considering Interruptions in BDS-3 B2b Orbits and Clock Corrections as Well as Signal-in-Space Range Error Residuals RuiShang1,†,ZhenhaoXu1,†,ChengfaGao1,*,XiaolinMeng2 ,WangGao2andQiLiu1 1 SchoolofTransportation,SoutheastUniversity,Nanjing211189,China;shangr@seu.edu.cn(R.S.); 220223035@seu.edu.cn(Z.X.);lq_0328@seu.edu.cn(Q.L.) 2 SchoolofInstrum",
+      "Abstract:In2020,BDS-3beganbroadcastinghigh-precisionpositioningcorrectionproducts throughB2bsignals,effectivelyaddressingthelimitationsofground-basedaugmentation."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 15
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 21,
+    "b2b": 353,
+    "has": 1,
+    "dcb": 15,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

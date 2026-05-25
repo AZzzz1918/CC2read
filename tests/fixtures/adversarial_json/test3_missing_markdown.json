@@ -1,0 +1,39 @@
+{
+  "paper_id": "test3_nonexistent_paper_id_not_in_markdown_dir",
+  "source_file": "paper/test3.pdf",
+  "file_hash": "ghi789",
+  "bibliographic_info": {
+    "title": "Ghost Paper - No Corresponding Markdown",
+    "authors": [{"name": "Ghost Author"}],
+    "year": 2024,
+    "journal_or_venue": "Ghost Journal"
+  },
+  "product_source": {
+    "actual": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": ["We used real-time PPP-B2b corrections from BDS-3 GEO satellites"],
+    "conflict_flag": false
+  },
+  "mathematical_model": {"processing_mode": "DUAL_FREQUENCY_IF_COMBINATION", "grounding_quotes": []},
+  "ionospheric_handling": {"strategy": "IF", "dcb_source": "NOT_MENTIONED", "dcb_missing_flag": true},
+  "correction_types": {"grounding_quotes": []},
+  "research_problem": {},
+  "technical_route": {"grounding_quotes": []},
+  "method": {},
+  "formulas": [],
+  "experiments": [],
+  "experiment_epoch": {"start_date": "NOT_MENTIONED", "end_date": "NOT_MENTIONED", "grounding_quotes": []},
+  "datasets": {"grounding_quotes": []},
+  "metrics": {"grounding_quotes": []},
+  "main_results": {"grounding_quotes": []},
+  "novelty_audit": {"audit_grade": "U_INSUFFICIENT_EVIDENCE", "grounding_quotes": []},
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED", "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED", "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED", "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED", "config_files": "NOT_MENTIONED",
+    "metric_definitions": "NOT_MENTIONED", "baseline_details": "NOT_MENTIONED",
+    "reproduction_blockers": [],
+    "reproducibility_score": 0,
+    "grounding_quotes": []
+  }
+}

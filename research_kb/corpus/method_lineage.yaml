@@ -1,0 +1,21 @@
+Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service:
+  processing_mode: DUAL_FREQUENCY_IF_COMBINATION
+  method_name: PPP time transfer using PPP-B2b and CNES real-time products
+  novelty_grade: C_ENGINEERING_TRANSFER
+  is_mere_migration: true
+  is_ppp_b2b_core_paper: true
+  domain_relevance: core_ppp_b2b
+Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser:
+  processing_mode: RT_PPP
+  method_name: CLAS real-time precise orbit and clock recovery
+  novelty_grade: U_INSUFFICIENT_EVIDENCE
+  is_mere_migration: false
+  is_ppp_b2b_core_paper: false
+  domain_relevance: related_ppp_ssr
+Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp:
+  processing_mode: RT_PPP
+  method_name: Real-time kinematic dual- and single-frequency PPP using PPP-B2b corrections
+  novelty_grade: U_INSUFFICIENT_EVIDENCE
+  is_mere_migration: true
+  is_ppp_b2b_core_paper: true
+  domain_relevance: core_ppp_b2b

@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_dd6ac17fce",
+    "span_index": 0,
+    "text": "GPS Solutions (2021) 25:131\nhttps://doi.org/10.1007/s10291-021-01168-1\nORIGINAL ARTICLE\nInitial Assessment of the BDS‑3 PPP‑B2b RTS compared with the CNES\nRTS\nJun Tao1 · Jingnan Liu2,3 · Zhigang Hu2,3 · Qile Zhao2,3 · Guo Chen2 · Boxiao Ju2\nReceived: 8 January 2021 / Accepted: 20 July 2021 / Published online: 29 July 2021\nThis is a U.S. government work and not under copyright protection in the U.S.; foreign copyright protection may apply 2021\nAbstract\nIn 2020, the BeiDou navigation satellite system (BDS) initiated a real-time service (RTS) for precise point positioning (PPP)\nusing the B2b sign",
+    "char_length": 4236
+  },
+  {
+    "quote_id": "qb_4d72fefa30",
+    "span_index": 1,
+    "text": "131 Page 2 of 16 GPS Solutions (2021) 25:131\nonboard atomic clocks than BDS-2 (Wu et al. 2018; Xie inclusion of only GPS satellites, probably due to the worse\net al. 2017; Lv et al. 2018). In addition, pairing an inter- quality of the correction products (Pan et al. 2020).\nsatellite link (ISL) terminal with a BDS-3 satellite creates To meet the demands of RTPPP, BDS-3 also provides a\na ‘bridge’ for communication and measurements between RTPPP service on the B2b signal utilizing a regional net-\nsatellites, which improves the orbit-only signal-in-space work of tens of stations. Three BDS-3 GEO s",
+    "char_length": 5637
+  },
+  {
+    "quote_id": "qb_f8620a3bc9",
+    "span_index": 2,
+    "text": "GPS Solutions (2021) 25:131 Page 3 of 16 131\nHence, the PPP-B2b corrections are modulated and broad- Dataset\ncast through these three GEO satellites. Table 1 lists several\nmessage types defined in the PPP-B2b signal ICD. The clock PPP-B2b corrections were collected for a time span of one\ncorrections are broadcast every 6 s, while the other messages week from day of year (DOY) 238 to DOY 244 in 2020, a\nare updated every 48 s. The orbit and clock corrections refer month after the BDS-3 PPP-B2b service announcement. Fig-\nto the CNAV1 navigation messages of the BDS-3 B1C sig- ure 1 illustrates the",
+    "char_length": 3716
+  },
+  {
+    "quote_id": "qb_43aa0a7a1c",
+    "span_index": 3,
+    "text": "131 Page 4 of 16 GPS Solutions (2021) 25:131\nAs depicted in Fig. 3, the average PPP-B2b availabilities\nfor BDS-3 and GPS are 97.5% and 91.5%, respectively. The\nreason for the lower GPS availability is that GPS correc-\ntions are frequently lost during 22:00–24:00 each day, while\nBDS-3 corrections are received normally during this period.\nThe average PPP-B2b product completeness for BDS-3 is\n92%, while that for GPS is only 72%, which can also be\ninferred from the average numbers of satellites in Fig. 2.\nThe reason may be the bandwidth limitations of the B2b\nsignal, which requires PPP-B2b to prov",
+    "char_length": 3630
+  },
+  {
+    "quote_id": "qb_9a317a6fa5",
+    "span_index": 4,
+    "text": "GPS Solutions (2021) 25:131 Page 5 of 16 131\nSISRE computation platform center offset (PCO) should be employed in the PPP-\nB2b products utilizing the PCO information provided in the\nThe instantaneous SISRE refers to the SISRE in the user’s ICD. The formula can be expressed as:\nline of sight caused by the satellite orbit error and the\nrj =rj +AT⋅aj\nsatellite clock error, usually related to the user’s location APC CoM pco (3)\non earth. The global average SISRE is computed for a\nwhere\nrj\nand\nrj\nrepresent the satellite APC position and\ns\no\nt\nf\na\ne\nti\na\ns\nr\nt\nt\ni\nh\nca\na\nl\nn\na\nd\nn a\na\nl\nl\ny\nl\ns\ne\ni\n",
+    "char_length": 5075
+  },
+  {
+    "quote_id": "qb_899f78c510",
+    "span_index": 5,
+    "text": "131 Page 6 of 16 GPS Solutions (2021) 25:131\nbe used to evaluate the accuracy of clock products, where PPP validation\nthe STD reflects the PPP positioning accuracy after conver-\ngence and the RMS generally affects the convergence time To study the positioning performance of PPP-B2b prod-\nof PPP positioning. However, for PPP-B2b products, only ucts, six multi-GNSS tracking stations distributed across\nregional satellites can be received in each epoch. Hence, China are selected, as depicted in Fig. 4. These stations are\nthe navigation satellites generally ascend or descend relative equipped with ",
+    "char_length": 3411
+  },
+  {
+    "quote_id": "qb_47696181f1",
+    "span_index": 6,
+    "text": "GPS Solutions (2021) 25:131 Page 7 of 16 131\nof the B1C(P)- and B2a(P)-B3I DCB differences for the difference for the PPP-B2b products, with all satellites\nBDS-3 constellation are 0.29 ns and 0.24 ns, respectively, exhibiting errors within 0.1 m. In contrast, the errors on the\napproximately 1–2 times the mean square error of the sta- along- and cross-track components are relatively large for all\nbility for the CAS BDS DCB products (0.17 ns), while the satellites, three to four times that in the radial direction, as\nB1I-B3I DCB difference exhibits larger errors with an STD summarized in Table 3",
+    "char_length": 1755
+  },
+  {
+    "quote_id": "qb_c8fd6aae47",
+    "span_index": 7,
+    "text": "131 Page 8 of 16 GPS Solutions (2021) 25:131\nFig. 7 BDS-3 orbit errors\nfor the PPP-B2b and CNES\nproducts in radial, along-track\nand cross-track directions with\nrespect to the WUM post-pro-\ncessing products\nTable 3 Average RMS PPP-B2b\nSystem PPP-B2b CNES\nand CNES orbit errors in radial,\nalong-track and cross-track Radial Along-track Cross-track Radial Along-track Cross-track\ndirections with respect to the\nWUM post-processing products GPS 0.062 0.345 0.213 0.024 0.030 0.024\n(unit: m) BDS-3 0.065 0.240 0.210 0.065 0.125 0.121\ncross-track components are comparable to those of the GPS for the loss ",
+    "char_length": 3327
+  },
+  {
+    "quote_id": "qb_b94393a1ea",
+    "span_index": 8,
+    "text": "GPS Solutions (2021) 25:131 Page 9 of 16 131\nFig. 8 DD series of PPP-B2b\nproducts with (top) and without\n(bottom) jumps removed for\nGPS. DD series are truncated\ndue to the different reference\nsatellite, jumps should be\nremoved before evaluating STD\nstatistics\nFig. 9 DD series of PPP-B2b\nproducts with (top) and without\n(bottom) jumps removed for\nBDS-3. DD series are truncated\ndue to the different reference\nsatellite, jumps should be\nremoved before evaluating STD\nstatistics\nFig. 10 RMS and STD values\nof the satellite clock offset\nerrors for the CNES and PPP-\nB2b products\n1 3",
+    "char_length": 579
+  },
+  {
+    "quote_id": "qb_f175118764",
+    "span_index": 9,
+    "text": "131 Page 10 of 16 GPS Solutions (2021) 25:131\nSISRE assessment real-time applications. Therefore, the satellite-specific bias\nin PPP-B2b clock products must be improved and corrected\nThe SISREs and their STDs for the PPP-B2b and CNES in future.\nRTS products are computed during the analysis period. In The STD of the SISRE series for every satellite is also\nthe case of PPP-B2b, as summarized in Table 4, the GPS analyzed in this study. When phase observations are used,\nconstellation exhibits a large SISRE of 0.92 m±0.033 , which the offset in the SISRE can be absorbed into the ambiguity\nis even w",
+    "char_length": 2970
+  },
+  {
+    "quote_id": "qb_3fe3041f11",
+    "span_index": 10,
+    "text": "GPS Solutions (2021) 25:131 Page 11 of 16 131\nFig. 12 SISRE statistics for\nGPS and BDS-3 satellites for\nthe CNES products. The x-axis\nis labeled every two satellites\nthe PPP accuracy of BDS-3-only is 0.029/0.019/0.081 m in accuracy of 0.021/0.014/0.065 m, which is improved by\nthe east/north/up (E/N/U) directions, which is much better 27%/26%/20% compared with the accuracy of the BDS-3-\nthan that of GPS-only with 0.105/0.091/0.160 m. The aver- only solution. For the CNES products, in contrast, the GPS-\nage number of SSR-matched satellites on this day for GPS only solution is much better than th",
+    "char_length": 1896
+  },
+  {
+    "quote_id": "qb_5de4adfcda",
+    "span_index": 11,
+    "text": "131 Page 12 of 16 GPS Solutions (2021) 25:131\nFig. 14 PPP series of ZJ01 for\ndifferent positioning modes\napplying CNES products. Green\nor ’G’ stands for the GPS-only\nresults, blue or ’C’ stands\nfor the BDS-3-only results,\nred or ’GC’ stands for the\nGPS + BDS-3 combined results\nFig. 15 Number of satellites\nand PDOP series for different\npositioning modes applying\nPPP-B2b products. Green or ’G’\nstands for the GPS-only mode,\nblue or ’C’ stands for the BDS-\n3-only mode, red or ’GC’ stands\nfor the GPS + BDS-3 mode\nonly C19–C37 for the BDS-3 constellation. The PPP-B2b demonstrated by ZJ01. For static",
+    "char_length": 1812
+  },
+  {
+    "quote_id": "qb_c2f9a7fc65",
+    "span_index": 12,
+    "text": "GPS Solutions (2021) 25:131 Page 13 of 16 131\nFig. 16 Number of satellites\nand PDOP series for different\npositioning modes applying\nCNES products. Green or ’G’\nstands for the GPS-only mode,\nblue or ’C’ stands for the BDS-\n3-only mode, red or ’GC’ stands\nfor the GPS + BDS-3 mode\nFig. 17 Seven-day mean RMS\nvalues of the kinematic PPP\nsolutions and the mean matched\nsatellite numbers for different\npositioning modes applying\nPPP-B2b and CNES products\naverage convergence time is calculated. The results obtained Conclusions\nby applying the PPP-B2b products are plotted in the top\npanel of Fig. 19. The",
+    "char_length": 1669
+  },
+  {
+    "quote_id": "qb_93e9d27380",
+    "span_index": 13,
+    "text": "131 Page 14 of 16 GPS Solutions (2021) 25:131\nFig. 18 Seven-day mean RMS\nvalues of the static PPP solu-\ntions and the mean matched\nsatellite numbers for different\npositioning modes applying\nPPP-B2b and CNES products\nbetween BDS-3 and GPS. In terms of the clock error, a large\naverage RMS error of 3.5 ns for GPS satellites is observed\nfor the PPP-B2b products, which is much larger than that\nobserved for the CNES products with a corresponding RMS\nof 0.3 ns. This is likely because the initial clock offset could\nnot be accurately separated from the ambiguities by utiliz-\ning a regional network. Con",
+    "char_length": 2953
+  },
+  {
+    "quote_id": "qb_9142795a17",
+    "span_index": 14,
+    "text": "GPS Solutions (2021) 25:131 Page 15 of 16 131\nRTPPP performances are expected with decreasing GPS Lu X, Chen L, Shen N, Wang L, Jiao Z, Chen R (2020) Decod-\nSISRE in future. ing PPP Corrections from BDS B2b signals using a software-\ndefined receiver: an initial performance evaluation. IEEE Sens.\nhttps://d oi.o rg/1 0.1 109/J SEN.2 020.3 02262 2\nAcknowledgment This work was sponsored by the funds of the\nLv Y, Geng T, Zhao Q, Liu J (2018) Characteristics of BeiDou-3\nNational Natural Science Foundation of China (Grant Nos. 42030109,\nexperimental satellite clocks. Remote Sens 10(11):1847. https://",
+    "char_length": 7026
+  },
+  {
+    "quote_id": "qb_b8f65d1b37",
+    "span_index": 15,
+    "text": "131 Page 16 of 16 GPS Solutions (2021) 25:131\nZhang Z, Li B, Nie L, Wei C, Jia S, Jiang S (2019) Initial assess- Qile Zhao is a professor at the\nment of BeiDou-3 global navigation satellite system: signal qual- GNSS Research Center of\nity RTK and PPP. GPS Solut 23(4):111. https://d oi.o rg/1 0.1 007/ Wuhan University. He received\ns10291-0 19-0 905-4 his Ph.D. degree at Wuhan Uni-\nversity in 2004. In 2006–2007,\nPublisher’s Note Springer Nature remains neutral with regard to as a postdoctoral fellow, he did\njurisdictional claims in published maps and institutional affiliations. his postdoctoral ",
+    "char_length": 2494
+  }
+]

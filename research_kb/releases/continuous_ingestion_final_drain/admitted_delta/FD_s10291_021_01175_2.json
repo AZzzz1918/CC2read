@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s10291_021_01175_2",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Performance evaluation of BDS-3 PPP-B2b precise point positioning service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2021) 25:142 https://doi.org/10.1007/s10291-021-01175-2 ORIGINAL ARTICLE Performance evaluation of BDS‑3 PPP‑B2b precise point positioning service Yangyin Xu1,2 · Yuanxi Yang2 · Jinlong Li3 Received: 12 November 2020 / Accepted: 20 August 2021 / Published online: 12 September 2021 © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Spr",
+      "The correction parameters, including precision orbit correction, clock offset correction and differential code bias, are transmit- ted by PPP-B2b signal from BDS-3 geosynchronous orbit satellites."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 16
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 14,
+    "b2b": 109,
+    "has": 0,
+    "dcb": 16,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

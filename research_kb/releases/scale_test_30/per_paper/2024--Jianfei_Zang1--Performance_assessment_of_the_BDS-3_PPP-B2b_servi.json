@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper evaluates the performance of PPP-B2b for retrieving coseismic displacements for earthquake source inversion, a downstream application of the PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+  "paper_id": "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servi",
+  "extraction_mode": "batch_classify_1call"
+}

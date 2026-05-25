@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S0263224126009619_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Precise LEO orbit determination using regional PPP-B2b augmentation services"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement 274 (2026) 121252 Contents lists available at ScienceDirect Measurement journal homepage: www.elsevier.com/locate/measurement Precise LEO orbit determination using regional PPP-B2b augmentation services Haitao Zhoua,c , Lei Wangb,* , Ruizhi Chenc, Jiansheng Lia,d, Mingjian Chena,d, Linyang Lia, Wenju Fue, Kai Xiaoa aInstitute of Geospatial Information, Information Eng",
+      "As a free satellite based-augmentation GPS system, the BDS PPP-B2b service also holds potential for improving the orbit determination accuracy of the LEO POD low earth orbit (LEO) satellites."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 12,
+    "b2b": 175,
+    "has": 2,
+    "dcb": 0,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

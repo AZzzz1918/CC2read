@@ -1,0 +1,359 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GNSS PPP-B2b Research Paper Knowledge Schema",
+  "description": "科研审计知识库 schema — 面向 GNSS / 实时 PPP-B2b 文献",
+  "type": "object",
+  "required": [
+    "paper_id",
+    "source_file",
+    "file_hash",
+    "bibliographic_info",
+    "product_source",
+    "domain_relevance",
+    "is_ppp_b2b_core_paper",
+    "mathematical_model",
+    "ionospheric_handling",
+    "correction_types",
+    "research_problem",
+    "technical_route",
+    "method",
+    "formulas",
+    "experiments",
+    "experiment_epoch",
+    "datasets",
+    "metrics",
+    "main_results",
+    "novelty_audit",
+    "reproducibility_audit"
+  ],
+  "properties": {
+    "paper_id": {
+      "type": "string",
+      "description": "稳定论文 ID，格式 first_author_year_shorttitle 或文件 hash"
+    },
+    "source_file": {
+      "type": "string",
+      "description": "paper/ 下的相对路径"
+    },
+    "file_hash": {
+      "type": "string",
+      "description": "PDF 文件的 SHA256 hash"
+    },
+    "bibliographic_info": {
+      "type": "object",
+      "required": ["title", "authors", "year", "journal_or_venue"],
+      "properties": {
+        "title": { "type": "string" },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "affiliation": { "type": "string" },
+              "is_corresponding": { "type": "boolean" }
+            }
+          }
+        },
+        "year": { "type": "integer" },
+        "journal_or_venue": { "type": "string" },
+        "doi": { "type": "string" },
+        "volume": { "type": "string" },
+        "issue": { "type": "string" },
+        "pages": { "type": "string" },
+        "publication_date": { "type": "string" }
+      }
+    },
+    "product_source": {
+      "type": "object",
+      "description": "改正数产品源审计",
+      "properties": {
+        "claimed": {
+          "type": "string",
+          "description": "论文声称使用的产品源"
+        },
+        "actual_product_source": {
+          "type": "string",
+          "enum": [
+            "BDS3_PPP_B2B_BROADCAST",
+            "IGS_RTS_OR_CLK93",
+            "CNES_OR_OTHER_RTS",
+            "POST_PROCESSED_FINAL_PRODUCTS",
+            "QZSS_CLAS",
+            "QZSS_MADOCA",
+            "SBAS",
+            "RTK_NTRIP",
+            "OTHER_NON_B2B_GNSS_SERVICE",
+            "MIXED_PRODUCTS",
+            "NOT_MENTIONED"
+          ],
+          "description": "论文实验实际使用的改正产品源"
+        },
+        "correction_stream": { "type": "string" },
+        "provider": { "type": "string" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } },
+        "conflict_flag": {
+          "type": "boolean",
+          "description": "标题/摘要声称 PPP-B2b 但实际使用非 BDS-3 PPP-B2b 产品时为 true"
+        },
+        "conflict_detail": { "type": "string" }
+      }
+    },
+    "domain_relevance": {
+      "type": "object",
+      "description": "论文与 PPP-B2b 知识库的域相关性分类",
+      "properties": {
+        "value": {
+          "type": "string",
+          "enum": [
+            "core_ppp_b2b",
+            "related_rt_ppp",
+            "related_ssr",
+            "negative_control",
+            "out_of_scope",
+            "unknown"
+          ],
+          "description": "core_ppp_b2b=直接研究BDS-3 PPP-B2b; related_rt_ppp=实时PPP相关; related_ssr=SSR改正相关; negative_control=非B2B但可作对照; out_of_scope=不相关; unknown=未判定"
+        },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "is_ppp_b2b_core_paper": {
+      "type": "boolean",
+      "description": "该论文是否属于 PPP-B2b 核心论文（实验明确使用 BDS-3 PPP-B2b broadcast corrections）"
+    },
+    "mathematical_model": {
+      "type": "object",
+      "description": "数学模型审计",
+      "properties": {
+        "processing_mode": {
+          "type": "string",
+          "enum": [
+            "SINGLE_FREQUENCY_PPP",
+            "DUAL_FREQUENCY_IF_COMBINATION",
+            "UNCOMBINED_PPP",
+            "PPP_AR",
+            "RT_PPP",
+            "PPP_B2B_ASSISTED_PPP",
+            "MULTI_GNSS_PPP",
+            "EKF_BASED_PPP",
+            "FACTOR_GRAPH_SMOOTHING",
+            "NOT_MENTIONED"
+          ]
+        },
+        "observation_model": { "type": "string" },
+        "state_vector": { "type": "array", "items": { "type": "string" } },
+        "stochastic_model": { "type": "string" },
+        "estimator": { "type": "string" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "ionospheric_handling": {
+      "type": "object",
+      "description": "电离层与 DCB 处理审计",
+      "properties": {
+        "strategy": { "type": "string" },
+        "dcb_source": { "type": "string" },
+        "dcb_missing_flag": { "type": "boolean" },
+        "dcb_missing_warning": { "type": "string" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "correction_types": {
+      "type": "object",
+      "description": "改正数类型逐项审计",
+      "properties": {
+        "orbit_correction": { "type": "string" },
+        "clock_correction": { "type": "string" },
+        "code_bias": { "type": "string" },
+        "phase_bias": { "type": "string" },
+        "ura": { "type": "string" },
+        "latency": { "type": "string" },
+        "update_interval": { "type": "string" },
+        "availability": { "type": "string" },
+        "continuity": { "type": "string" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "research_problem": {
+      "type": "object",
+      "properties": {
+        "problem_statement": { "type": "string" },
+        "research_questions": { "type": "array", "items": { "type": "string" } },
+        "knowledge_gap": { "type": "string" }
+      }
+    },
+    "technical_route": {
+      "type": "object",
+      "properties": {
+        "overall_flow": { "type": "string" },
+        "key_steps": { "type": "array", "items": { "type": "string" } },
+        "tools_software": { "type": "array", "items": { "type": "string" } },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "method": {
+      "type": "object",
+      "properties": {
+        "method_name": { "type": "string" },
+        "description": { "type": "string" },
+        "algorithm_details": { "type": "string" },
+        "baseline_method": { "type": "string" }
+      }
+    },
+    "formulas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "formula_id": { "type": "string" },
+          "description": { "type": "string" },
+          "variables": { "type": "array", "items": { "type": "string" } },
+          "context_quote": { "type": "string" }
+        }
+      }
+    },
+    "experiments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "experiment_id": { "type": "string" },
+          "description": { "type": "string" },
+          "setup": { "type": "string" },
+          "conditions": { "type": "string" },
+          "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "experiment_epoch": {
+      "type": "object",
+      "description": "实验数据真实时间段（非发表年份）",
+      "properties": {
+        "start_date": { "type": "string" },
+        "end_date": { "type": "string" },
+        "duration_days": { "type": "number" },
+        "is_publication_year_mistake": { "type": "boolean" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "datasets": {
+      "type": "object",
+      "properties": {
+        "stations": { "type": "array", "items": { "type": "string" } },
+        "satellite_systems": { "type": "array", "items": { "type": "string" } },
+        "observation_types": { "type": "array", "items": { "type": "string" } },
+        "sampling_rate": { "type": "string" },
+        "access_info": { "type": "string" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "convergence_time": { "type": "string" },
+        "rms_3d": { "type": "string" },
+        "std_enu": { "type": "string" },
+        "percentile_95": { "type": "string" },
+        "availability": { "type": "string" },
+        "other_metrics": { "type": "object" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "main_results": {
+      "type": "object",
+      "properties": {
+        "summary": { "type": "string" },
+        "key_findings": { "type": "array", "items": { "type": "string" } },
+        "limitations": { "type": "array", "items": { "type": "string" } },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "novelty_audit": {
+      "type": "object",
+      "properties": {
+        "claimed_novelty": { "type": "string" },
+        "audit_grade": {
+          "type": "string",
+          "enum": [
+            "A_SUBSTANTIVE",
+            "B_INCREMENTAL",
+            "C_ENGINEERING_TRANSFER",
+            "D_WEAK_OR_OVERCLAIMED",
+            "U_INSUFFICIENT_EVIDENCE"
+          ]
+        },
+        "ablation_study": { "type": "string" },
+        "strong_baseline": { "type": "string" },
+        "failure_cases": { "type": "string" },
+        "novel_formula": { "type": "boolean" },
+        "novel_state_design": { "type": "boolean" },
+        "novel_stochastic_model": { "type": "boolean" },
+        "novel_qc_mechanism": { "type": "boolean" },
+        "novel_b2b_usage": { "type": "boolean" },
+        "is_mere_migration": { "type": "boolean" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "reproducibility_audit": {
+      "type": "object",
+      "properties": {
+        "public_observation_data": { "type": "string" },
+        "b2b_replay_capability": { "type": "string" },
+        "correction_archive": { "type": "string" },
+        "stochastic_model_params": { "type": "string" },
+        "kalman_filter_config": { "type": "string" },
+        "code_repository": { "type": "string" },
+        "run_entry_point": { "type": "string" },
+        "config_files": { "type": "string" },
+        "metric_definitions": { "type": "string" },
+        "baseline_details": { "type": "string" },
+        "reproduction_blockers": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "reproducibility_score": {
+          "type": "integer",
+          "description": "0-10 复现可行性评分",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "conflicting_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": { "type": "string" },
+          "claim_1": { "type": "string" },
+          "claim_2": { "type": "string" },
+          "resolution": { "type": "string" }
+        }
+      }
+    },
+    "is_ppp_b2b_core_paper": {
+      "type": "boolean",
+      "description": "是否为 PPP-B2b 核心论文（BDS-3 PPP-B2b broadcast correction 为主要研究对象）"
+    },
+    "domain_relevance": {
+      "type": "object",
+      "description": "论文与 PPP-B2b 领域的相关性评估",
+      "properties": {
+        "value": {
+          "type": "string",
+          "enum": [
+            "core_ppp_b2b",
+            "related_ppp_ssr",
+            "related_gnss_augmentation",
+            "general_gnss",
+            "out_of_scope"
+          ]
+        },
+        "reasoning": { "type": "string" },
+        "grounding_quotes": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

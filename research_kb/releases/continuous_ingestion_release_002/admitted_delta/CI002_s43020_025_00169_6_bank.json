@@ -1,0 +1,140 @@
+[
+  {
+    "quote_id": "qb_1acc15111d",
+    "span_index": 0,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Satellite Navigation\nhttps://doi.org/10.1186/s43020-025-00169-6\nhttps://satellite-navigation.springeropen.com/\nORIGINAL ARTICLE Open Access\nPerformance of PPP and PPP-RTK\nwith new-generation GNSS constellations\nand signals\nXiaohong Zhang1,2, Yuhang Yang1, Haochen Yang1, Xiaodong Ren1* , Xiaojing Lin3, Xuan Le1 and Xin Li1\nAbstract\nThe expansion of Global Navigation Satellite Systems (GNSS) and Regional Navigation Satellite Systems (RNSS),\nalong with broadcasting of additional signals, offers more options for Precise Point Positioning (PPP). Utilizi",
+    "char_length": 4319
+  },
+  {
+    "quote_id": "qb_fdf95ebe6e",
+    "span_index": 1,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 2 of 23\nincreased observation redundancy, and enhanced the However, even in the aforementioned conditions, PPP/\naccuracy of solutions (Geng & Bock, 2013a; Li et al., PPP-AR still requires 10–15 min to converge within\n2020; Liu et al., 2017). The study by Abd Rabbou and 10 cm. To further improve the correlation between\nEl-Rabbany (2016) indicates that incorporating Bei- parameters and expedite ambiguity resolution for instan-\nDou-2 Navigation Satellite System (BDS-2) observa- taneous convergence, PPP-RTK, a single-receiver solu-\ntions improved ",
+    "char_length": 5763
+  },
+  {
+    "quote_id": "qb_7613b4e8a4",
+    "span_index": 2,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 3 of 23\npositioning accuracy on a global scale, utilizing signals (https:// www. euspa. europa. eu/, https:// www. gsc- europa.\nbroadcast over the E6 frequency bands. Both services eu/). In 2020, the BeiDou-3 system was completed. One\nenhance positioning accuracy and reliability through GEO satellite and two MEO satellites were launched on\nmulti-frequency support, accurate error correction, and 17 May 2023 and 26 December 2023, respectively. Com-\nextensive coverage, addressing the increasing demand for pared with the earlier networking satell",
+    "char_length": 5560
+  },
+  {
+    "quote_id": "qb_9e0eb3ca1d",
+    "span_index": 3,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 4 of 23\nFig. 1 Development history of the four GNSS and the two RNSS\ntransmit B1C and B2a for SBAS and B2b for PPP. Nota- satellites to enhance L1/L5 (Witte & Wilson, 2005). The\nbly, the BDS-3 system provides Short Message Commu- European Geostationary Navigation Overlay Service\nnication Services (SMCS) in China and its surrounding (EGNOS) is Europe’s regional SBAS, broadcasting GPS\nas for the first time. The uplink messages are broadcast L1 augmentation messages by tow GEO satellites. Com-\nvia the L-band of 14 MEO satellites, while the downli",
+    "char_length": 3092
+  },
+  {
+    "quote_id": "qb_73129e1fd5",
+    "span_index": 4,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 5 of 23\nFig. 2 Frequency bands for broadcasting the signals of the four global satellite navigation systems\nFig. 3 Construction timelines and distribution of global SBAS. The blue areas represent systems that are currently operational, while the yellow\nareas indicate those that are under construction. Additionally, the satellites and frequency broadcasting augmentation information for each system\nare marked within the boxes",
+    "char_length": 479
+  },
+  {
+    "quote_id": "qb_356b534cc7",
+    "span_index": 5,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 6 of 23\ns,sys\nAs one of the services offered by Galileo, HAS is a free where sys denotes GPS/Galileo/GLONASS/BDS, P r,n\ns,sys s,sys\nand open-access service that delivers precise corrections. and L r,n the code and phase observable, ρ r the\nThese corrections are transmitted via the Galileo E6 sig- receiver-satellite range, t r and ts,sys the receiver and sat-\ns,sys\nnal (E6-B, data component) allowing users to improve ellite clock error, I r,1 the first-order slant ionospheric\npositioning performance (Galileo-HAS-SDD_v1.0.pdf delays on the first",
+    "char_length": 4213
+  },
+  {
+    "quote_id": "qb_6b4131ecb3",
+    "span_index": 6,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 7 of 23\np s,sys =µ s,sys ·xˆ +tˆ −t s,sys +γ ·Iˆs,sys +m s,sys ·Zˆ +ˆi sys−bsys +ˆi s,sys +e s,sys\nr,n r r ij n r,1 r,w r,w ISB,r IFB,r,n r,n\n (2)\nl s,sys =µ s,sys ·xˆ +tˆ −t s,sys −γ ·Iˆs,sys +m s,sys ·Zˆ +ˆi sys−bsys +(cid:31) Nˆs,sys +ε s,sys\nr,n r r ij n r,1 r,w r,w ISB,r n r,n r,n\n\nwhere n includes i,j,k and i,j are the reference frequen- utilize the Extra-Wide-Lane (EWL), Wide-Lane (WL), and\ncies consistent with IGS precise satellite clocks, bsys Narrow-Lane (NL) UPDs to sequentially achieve ambiguity\nresolution (Geng & Bock, 2013).\n",
+    "char_length": 4636
+  },
+  {
+    "quote_id": "qb_5e3dd3c4ac",
+    "span_index": 7,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 8 of 23\nTable 3 Estimable parameters of the DCBs/UPDs PPP-AR model. formulated as follows (Teunissen & Khodabandeh, 2013;\nOnly the parameters that have changed are given Teunissen, 2007b):\nParameter Notation and analytical expression −1\nxˆ = ATQ−1A ATQ−1I\nI S n D te a r m -fr b e i q g u u e it n y c ∇ y N b ˆ i r s a , , n s s y s ˆi I s F ,s B y ,r s ,n N β 1 in r s , , n s (cid:31) ys b r s + , y G s F B ij r s , y − n s+ b r s , y (cid:31) G s F γ in n s (cid:30) ysb r s , y G s Fij −b r s , y IF s ij(cid:30)(cid:29) (cid:31) n    Iˆ 0 ",
+    "char_length": 4540
+  },
+  {
+    "quote_id": "qb_19fa156bd1",
+    "span_index": 8,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 9 of 23\nTable 5 Estimable parameters of the PPP-RTK model Figure 4 illustrates the complete process of PPP-RTK.\nFor the server side, the process begins with network float\nParameter Notation and\nanalytical expression solution based on the provided ephemerides (either pre-\ncise or real-time products) to obtain float ambiguities\nIonospheric delay ˆI r s , , 1 sys Is,sys−� ⌢ I ss0,sys +bsys and combined ambiguities. These ambiguities are then\nr,1 rnet,n r,GFij\nutilized to estimate UPDs and DCBs using GF combina-\nTropospheric delay Zˆ r,w Z˜ wd +Z",
+    "char_length": 2392
+  },
+  {
+    "quote_id": "qb_e36d71ecea",
+    "span_index": 9,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 10 of 23\nadopted for both the network and user components. Sub-\nsequently, we evaluate the accuracy of the products and\nanalyze the positioning performance.\nPPP‑AR solution\nTo carry out our PPP-AR study, we used GNSS data on 1\nApril 2024 (92nd day of the year) at 100 stations for UPD/\nOSB estimation and 120 stations for PPP-AR verification.\nTheir geographic distribution is shown in Fig. 5. To gen-\nerate phase OSB, muti-frequency and muti-GNSS pseu-\ndorange and carrier phase are jointly processed in UDUC\nPPP for the base stations. After groupin",
+    "char_length": 3148
+  },
+  {
+    "quote_id": "qb_81a7ba6716",
+    "span_index": 10,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 11 of 23\nFig. 6 GPS/Galileo/BDS-2/BDS-3 estimation residuals of EWL\\WL\\NL UPD. In each subplot, the proportions of EWL, WL, and NL residuals within 0.15\ncycles are indicated in green, red, and blue, respectively\nFig. 7 GPS L1/L2/L5, Galileo E1/E5a/E5b, BDS-2 B1I/B3I/B2I and BDS-3 B1I/B3I/B2a satellite phase OSBs during day 92, 2024. Different colors\nrepresent different satellites\nresiduals for EWL are the smallest, followed by WL and Using the OSBs estimated above, we directly applied\nthen NL, indicating a high level of internal accuracy in c",
+    "char_length": 1717
+  },
+  {
+    "quote_id": "qb_51bb015ab5",
+    "span_index": 11,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 12 of 23\npositioning, respectively, with float and fixed solu-\ntions of different systems. The results indicate that the\npositioning accuracy of the static solution is consider-\nably higher than kinematic solution. Additionally, after\nambiguity resolution, the improvement in the horizon-\ntal direction, especially in the east direction, is more\npronounced. Figure 11 gives the east/north/up posi-\ntioning series for the first 40 min across six arcs. To bet-\nter reflect the situation across all samples, we selected\nthe 68th percentile of the posit",
+    "char_length": 2661
+  },
+  {
+    "quote_id": "qb_ca43d77422",
+    "span_index": 12,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 13 of 23\nFig. 10 The RMS values of the float and fixed solutions in the horizontal and vertical directions. Each circle represents the statistical result\nof a four-hour solution for one station\nFig. 11 The positioning sequences at the 68th percentile for all stations with different solution types, show the results for the first 40 min of each\narc. Blue, red, yellow, and purple represent GPS, Galileo, BDS, and GPS/Galileo/BDS solution, respectively\nhelp mitigate the limitations caused by missing frequen- kinematic solution are 57%/34%/18%. The",
+    "char_length": 1516
+  },
+  {
+    "quote_id": "qb_5c45366c3b",
+    "span_index": 13,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 14 of 23\n98 km and a maximum of 910 km. As explained in the\nMulti-frequency and multi-GNSS PPP-RTK method, we\ndeveloped a grid points model with a 0.5-degree interval\nusing Kriging Interpolation Methods (KGR), as indicated\nby the gray points in the figure. To obtain a clean and\naccurate ionosphere, we utilized only the fixed satellite\nsolution. Additionally, the satellite with the highest eleva-\ntion angle was chosen as the reference for inter-satellite\nsingle differencing, effectively eliminating the impact of\nreceiver hardware delays. Blue t",
+    "char_length": 3358
+  },
+  {
+    "quote_id": "qb_235f756fb8",
+    "span_index": 14,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 15 of 23\nFig. 13 Global map of daily average PODP for different constellations\nFrom Fig. 16 and Table 8, both in terms of RMS values\nand convergence time, whether in single-system or multi-\nsystem scenarios, atmospheric constraints significantly\nenhance positioning performance, largely compensating\nfor slow convergence speeds in the situations with insuffi-\ncient satellite numbers or poor geometric configurations.\nIn such cases, the convergence time for single-system\nsolutions is around 7 min, while multi-system solutions\ncan achieve nearly i",
+    "char_length": 1789
+  },
+  {
+    "quote_id": "qb_43dab876f2",
+    "span_index": 15,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 16 of 23\n)mc(rorrenoitcerid\ntsaE\n)mc(rorrenoitceridhtroN\n)mc(rorrenoitceridpU\nGPS-only PPP-RTK Galileo-only PPP-RTK BDS-only PPP-RTK GPS/Galileo/BDS PPP-RTK\n5.0\n2.5\n0\n−2.5\n−5.0\n5.0\n2.5\n0\n−2.5\n−5.0\n10.0\n5.0\n0\n−5.0\n−10.0\n04:00 06:00 08:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00\nTime (hh: mm) Apr 01, 2024\nFig. 15 Kinematic positioning error sequences for the station WTZR with different solution methods\nFig. 16 RMS values in the three directions obtained using various systems for the six stations",
+    "char_length": 556
+  },
+  {
+    "quote_id": "qb_57c4447a75",
+    "span_index": 16,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 17 of 23\nFigure 19 displays the positioning errors. It shows that\nthe float solution exhibits significant fluctuations. Due\nto the lower accuracy of the float solution, PPP-AR has\nfewer fixed satellites leading to low fix rate. However,\nwith the implementation of atmospheric constraints,\nPPP-RTK demonstrates a substantial reduction in posi-\ntioning errors and is capable of maintaining high accu-\nracy even with a limited number of satellites. Table 10\npresents the relevant metrics used in the PPP calcula-\ntions. Compared to float and fixed sol",
+    "char_length": 3148
+  },
+  {
+    "quote_id": "qb_a4b4b63ce7",
+    "span_index": 17,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 18 of 23\nTable 9 Details of the data processing of driving PPP-RTK\nItems Strategy\nGNSS receiver type Trimble Alloy\nObservations Code and phase observations of GPS L1/L2/L5, Galileo\nE1/E5a/E5b, BDS-2 B1I/B3I/B2I, and BDS-3 B1I/B3I/B2a\nSample rate 1 s\nCode and Phase OSBs Fixed with BIAS products released by Wuhan University\nSatellite orbits and clocks Fixed with WHU final products\nDrive ground truth RTK/IMU Tight Integration\nOthers Consistent with the Table 6\nFig. 18 The number of visible satellites for each system, as well as the total number o",
+    "char_length": 673
+  },
+  {
+    "quote_id": "qb_630f86ba80",
+    "span_index": 18,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 19 of 23\nTable 10 Convergence time, fix rate, TTFF, and position errors with RMS of PPP float, PPP-AR, and PPP-RTK. The convergence time\nrefers to the entire calculation\nSolution type Converge time TTFF (min) of Fix rate (%) of RMS (cm) of unfixed period in RMS (cm) of fixed period in\n(min) different ambiguity different ambiguity different directions different directions\nWL NL WL NL East North Up East North Up\nPPP-Float 34.9 – – – – 18.5 20.2 42.9 – – –\nPPP-AR 17.3 0.00 10.1 98.4 66.1 19.4 26.8 27.9 12.9 14.2 17.4\nPPP-RTK 0.00 0.00 0.00 98.5 ",
+    "char_length": 1838
+  },
+  {
+    "quote_id": "qb_582af06261",
+    "span_index": 19,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 20 of 23\nFig. 22 The positioning error sequences for various frequency combinations at the stations CUSV and GAMG for PPP-B2b solution. RMS values\nin each direction are indicated\nby 7%, 4%, and 4%, respectively, with five frequencies. PPP with HAS, compared to the Galileo-only system,\nFurthermore, the Three-Dimensional (3D) accuracy is the dual-system solution enhanced positioning accuracy\nincreased by 5%, and the convergence time is reduced by in the ENU directions by 37%, 36%, and 32%, respec-\n29%. The incorporation of multiple frequencies r",
+    "char_length": 918
+  },
+  {
+    "quote_id": "qb_06b1df704c",
+    "span_index": 20,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 21 of 23\nTable 11 The RMS of errors and convergence time of kinematic PPP for PPP-B2b and HAS\nSolution RMS in different directions (cm) Convergence\ntime (min)\nEast North Up 3D\nPPP-B2b F2 8.43 6.07 14.27 17.65 18.2\nF5 7.85 5.83 13.73 16.86 12.9\nHAS Galileo-only 11.93 10.40 19.77 25.33 28.7\nGPS + Galileo 7.40 6.57 13.52 16.75 10.3\nMulti-system solutions improve satellite constellation respectively. The results indicate that for only BDS-3 five-\ngeometry and provide additional observations, signifi- frequency PPP solutions, the average convergen",
+    "char_length": 4886
+  },
+  {
+    "quote_id": "qb_1b24223dee",
+    "span_index": 21,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:17 Page 22 of 23\nAcknowledgements J., & Mozo, A. (2022). Galileo high accuracy service: initial definition and\nWe gratefully acknowledge the support of the Supercomputing Center of performance. GPS Solutions. https:// doi. org/ 10. 1007/ s10291- 022- 01247-x\nWuhan University for providing the computational resources used in this Ge, M., Gendt, G., Rothacher, M., Shi, C., & Liu, J. (2008). Resolution of GPS\nwork. We also extend our gratitude to the IGS WHU and CODE Analysis Center, carrier-phase ambiguities in precise point positioning (PPP) with daily",
+    "char_length": 8425
+  },
+  {
+    "quote_id": "qb_61a89e0619",
+    "span_index": 22,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:17 Page 23 of 23\nLi, X., Zhang, X., & Ge, M. (2011). Regional reference network augmented precise Teunissen, P. J. G., & Khodabandeh, A. (2015). Review and principles of PPP-RTK\npoint positioning for instantaneous ambiguity resolution. Journal of Geod- methods. Journal of Geodesy, 89(3), 217–240. https:// doi. org/ 10. 1007/\nesy, 85(3), 151–158. https:// doi. org/ 10. 1007/ s00190- 010- 0424-0 s00190- 014- 0771-3\nLiu, Y., Song, W., Lou, Y., Ye, S., & Zhang, R. (2017). GLONASS phase bias estimation Teunissen, P. J., Odijk, D., & Zhang, B. (2010). PPP-",
+    "char_length": 9342
+  }
+]

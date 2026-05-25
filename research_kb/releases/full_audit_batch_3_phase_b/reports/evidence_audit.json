@@ -1,0 +1,141 @@
+{
+  "total": 10,
+  "misclassifications": 2,
+  "reclassified": [
+    {
+      "paper_id": "s10291_025_01845_5",
+      "old_role": "non_b2b",
+      "new_role": "core_ppp_b2b (reclassified from non_b2b based on 76 B2b mentions)",
+      "b2b_evidence": 76
+    },
+    {
+      "paper_id": "s10291_025_01882_0",
+      "old_role": "non_b2b",
+      "new_role": "core_ppp_b2b (reclassified from non_b2b based on 105 B2b mentions)",
+      "b2b_evidence": 105
+    }
+  ],
+  "passed": false,
+  "per_paper": {
+    "Liu_Wei_BDS_GPS_RTK_PPP": {
+      "paper_id": "Liu_Wei_BDS_GPS_RTK_PPP",
+      "role": "chinese_canary",
+      "actual_ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 0,
+      "has": 0,
+      "clas": 0,
+      "epoch": "2012-12-17",
+      "dcb": "MENTIONED",
+      "quotes": 2,
+      "blockers": 4
+    },
+    "applsci_15_08033_v2": {
+      "paper_id": "applsci_15_08033_v2",
+      "role": "core_ppp_b2b",
+      "actual_ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 77,
+      "has": 0,
+      "clas": 0,
+      "epoch": "DOY 076",
+      "dcb": "NOT_MENTIONED",
+      "quotes": 3,
+      "blockers": 4
+    },
+    "remotesensing_14_02769": {
+      "paper_id": "remotesensing_14_02769",
+      "role": "core_ppp_b2b",
+      "actual_ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 199,
+      "has": 0,
+      "clas": 2,
+      "epoch": "2022-3-3",
+      "dcb": "EXPLICITLY_DESCRIBED",
+      "quotes": 8,
+      "blockers": 4
+    },
+    "remotesensing_15_00199": {
+      "paper_id": "remotesensing_15_00199",
+      "role": "core_ppp_b2b",
+      "actual_ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 55,
+      "has": 0,
+      "clas": 0,
+      "epoch": "NOT_MENTIONED",
+      "dcb": "BRIEFLY_MENTIONED",
+      "quotes": 8,
+      "blockers": 4
+    },
+    "remotesensing_16_00833_v2": {
+      "paper_id": "remotesensing_16_00833_v2",
+      "role": "core_ppp_b2b",
+      "actual_ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 275,
+      "has": 0,
+      "clas": 0,
+      "epoch": "NOT_MENTIONED",
+      "dcb": "EXPLICITLY_DESCRIBED",
+      "quotes": 8,
+      "blockers": 4
+    },
+    "s10291_023_01455_z": {
+      "paper_id": "s10291_023_01455_z",
+      "role": "core_ppp_b2b",
+      "actual_ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 183,
+      "has": 0,
+      "clas": 0,
+      "epoch": "NOT_MENTIONED",
+      "dcb": "MENTIONED",
+      "quotes": 6,
+      "blockers": 4
+    },
+    "s10291_024_01730_7": {
+      "paper_id": "s10291_024_01730_7",
+      "role": "boundary_mixed",
+      "actual_ps": "MIXED_PRODUCTS",
+      "b2b": 125,
+      "has": 0,
+      "clas": 8,
+      "epoch": "NOT_MENTIONED",
+      "dcb": "MENTIONED",
+      "quotes": 6,
+      "blockers": 4
+    },
+    "s10291_025_01845_5": {
+      "paper_id": "s10291_025_01845_5",
+      "role": "non_b2b",
+      "actual_ps": "CNES_OR_OTHER_RTS",
+      "b2b": 76,
+      "has": 0,
+      "clas": 2,
+      "epoch": "NOT_MENTIONED",
+      "dcb": "NOT_MENTIONED",
+      "quotes": 5,
+      "blockers": 4
+    },
+    "s10291_025_01882_0": {
+      "paper_id": "s10291_025_01882_0",
+      "role": "non_b2b",
+      "actual_ps": "CNES_OR_OTHER_RTS",
+      "b2b": 105,
+      "has": 0,
+      "clas": 0,
+      "epoch": "NOT_MENTIONED",
+      "dcb": "MENTIONED",
+      "quotes": 7,
+      "blockers": 4
+    },
+    "s43020_024_00146_5": {
+      "paper_id": "s43020_024_00146_5",
+      "role": "boundary_mixed",
+      "actual_ps": "MIXED_PRODUCTS",
+      "b2b": 52,
+      "has": 1,
+      "clas": 6,
+      "epoch": "NOT_MENTIONED",
+      "dcb": "MENTIONED",
+      "quotes": 6,
+      "blockers": 4
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_ggac311",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "millimetre-level(Bocketal.2011;Wangetal.2012).Therelative"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Geophys.J.Int.(2022)231,2079–2090 https://doi.org/10.1093/gji/ggac311 AdvanceAccesspublication2022August13 GJISeismology GPS/BDS precise point positioning with B2b products for high-rate seismogeodesy: application to the 2021 M 7.4 Maduo earthquake w Rongxin Fang,1 Huanghui Lv,1 Zhigang Hu,1 Guangxing Wang,2 Jiawei Zheng,1 Renyu Zhou,1 Kun Xiao,3 Min Li1 and Jingnan Liu1 1GNSSRes",
+      "Along with the broadcast ephemeris, theorbitandclockcorrectionstransmittedbytheB2bsignalsofBeiDouNavigationSatellite System (BDS) can be used to recover the precise products of GPS and BDS."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 5
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 12,
+    "b2b": 99,
+    "has": 0,
+    "dcb": 5,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

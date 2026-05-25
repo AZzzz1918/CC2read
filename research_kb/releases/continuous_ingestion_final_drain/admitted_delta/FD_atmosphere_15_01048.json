@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_atmosphere_15_01048",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Assessment of BDS-3 PPP-B2b Service and Its Applications for the Determination of Precipitable Water Vapour"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  atmosphere Article Assessment of BDS-3 PPP-B2b Service and Its Applications for the Determination of Precipitable Water Vapour XiaomingWang1,2,* ,YufeiChen1,2,JingleiZhang1,CongQiu1,2,KaiZhou1,HaoboLi3 andQiuyingHuang1,2 1 AerospaceInformationResearchInstitute,ChineseAcademyofSciences,Beijing100094,China; chenyufei20@mails.ucas.ac.cn(Y.C.);zhangjinglei@aircas.ac.cn(J.Z.);qiucong@",
+      "Forstationsbetween 30◦ Nand48◦ N,themeanrootmeansquareerror(RMSE)ofZTDforthePPP-B2bsolutionwas approximately 15 mm compared to ZTD from the International GNSS Service (IGS)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 44
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 31,
+    "b2b": 193,
+    "has": 0,
+    "dcb": 44,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

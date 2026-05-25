@@ -1,0 +1,116 @@
+[
+  {
+    "quote_id": "qb_f5b2e5261e",
+    "span_index": 0,
+    "text": "Article\nThe Investigation of Global Real-Time ZTD Estimation from\nGPS/Galileo PPP Based on Galileo High Accuracy Service\nXinChen1,2,3 ,XuhaiYang1,2,3 ,YulongGe4,*,YanlongLiu5andHuiLei1,2,3\n1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China;\nchenxin1998@ntsc.ac.cn(X.C.);yyang@ntsc.ac.cn(X.Y.);leihui@ntsc.ac.cn(H.L.)\n2 UniversityofChineseAcademyofSciences,Beijing100049,China\n3 KeyLaboratoryofTimeReferenceandApplications,ChineseAcademyofSciences,Xi’an710600,China\n4 SchoolofMarineScienceandEngineering,NanjingNormalUniversity,Nanjing210023,China\n5 SchoolofGeography,NanjingNormal",
+    "char_length": 3553
+  },
+  {
+    "quote_id": "qb_092dc52274",
+    "span_index": 1,
+    "text": "RemoteSens.2025,17,11 2of19\nmethodintheglobalregion[5]. Withtheenhancementofproductssuchaspreciseorbits\nandpreciseephemeris,PPPtechnologycanprovidepositioningaccuracyatthecentimeter\nlevel[6]. Inrecentyears,theuseofPPPtechnologyfornavigation,positioning,timing,and\norbitdeterminationhasbecomeakeyresearchfocusintheGNSSfield.\nHowever,thereal-timeacquisitionofpreciseorbitandclockproductsoncelimited\nthe high-precision real-time application of PPP technology. To support high-precision\nreal-timeapplications,theInternationalGNSSService(IGS)formedtheReal-TimeWorking\nGroup (RTWG) in 2001. In August 2011,",
+    "char_length": 3887
+  },
+  {
+    "quote_id": "qb_2af2097e27",
+    "span_index": 2,
+    "text": "RemoteSens.2025,17,11 3of19\nsignificantlyreducepositioningerrorsindifferentenvironments[17]. Chamorroproved\nthatbyusingGalileoHAScorrections,PPPuserscanachievedecimeter-levelpositioning\naccuracyinbothhorizontalandverticalcomponents[18]. Zhangexaminedtheaccuracy\nof PPP time transfer using Galileo HAS products. The findings revealed that the HAS\ntimetransferisfreefromdayboundarydiscontinuities,withstandarddeviationvalues\nfor the short-long baseline of HAS GPS/Galileo PPP time ratios ranging from 0.03 ns\nto 0.16 ns and 0.19 ns to 0.29 ns [19]. Hauschild utilized Galileo HAS test signals to\nprecis",
+    "char_length": 2675
+  },
+  {
+    "quote_id": "qb_0c01a6a1a9",
+    "span_index": 3,
+    "text": "Remote Sens. 2025, 17, x FOR PEER REVIEW 4 of 21\nRemoteSens.2025,17,11 4of19\nFigure1.DistributionofselectedIGSstations.\nFigure 1. Distribution of selected IGS stations.\n2.2. RecoveryofPrecisionOrbitandClockProductsBasedonGalileoHASServices\n2.2. Recovery Tohf ePrGecailsiiloeno OHrAbiSt saenrdv iCcleocbkr oPardodcauscttss GBaPsSeda nond GGaalliilleeoo HsAatSe lSlietervoicrebsi tcorrections,includ-\nThein Ggarlaidleioa lH,aAloSn sge,ravnicde cbrorosasdpcaarsatms GetPerSs ,atnhdr oGuaglhileCo/ sNatAeVllitnea ovrigbaitt icoonrrmecetsiosangs,e sino-ftheE6\ncludings riagdniaall., Tahloenrge,f aenredn c",
+    "char_length": 3673
+  },
+  {
+    "quote_id": "qb_f79c4dccd0",
+    "span_index": 4,
+    "text": "RemoteSens.2025,17,11 5of19\nL = ρ+dt −dt +T+λ ·N +ξ (5)\nIF r,IF s,HAS IF IF L,IF\nρ = ρ +u ·∆x (6)\n0 rs\nHere,P andL representthepseudo-rangeobservationsandcarrierphaseobserva-\nIF IF\ntionsoftheDFIFcombination,respectively,dt isthereceiverclockoffsettobeestimated,\nr,IF\ndt istheHASsatelliteclockoffset,Trepresentsthetroposphericdelay,ξrepresentsthe\ns,HAS\npseudo-rangeandcarrierobservationnoise,respectively,N representsthefloating-point\nIF\nambiguity,ρ isthedistancefromthesatellitetothereceiver,u representstheunitvector\n0 rs\nfromthesatellitetothereceiver,and∆xrepresentsthereceiverpositionincrementvect",
+    "char_length": 2659
+  },
+  {
+    "quote_id": "qb_5a60ee8382",
+    "span_index": 5,
+    "text": "RemoteSens.2025,17,11 6of19\n3.1. AccuracyEvaluationofGalileoHASProducts\nUsing Formulas (1) and (3), the Galileo HAS corrections and broadcast ephemeris\nwereusedtorestorethesatellite’spreciseephemerisandclockproducts. TheGalileoHAS\nserviceprovidescorrectionsforGPSandGalileonavigationsatellitesystems,respectively.\nFigures2and3areboxplotsoftheRMSEvaluesoftheorbitandclockoftheGPSsatellite\nsystemandtheGalileosatellitesystem,respectively,duringthetestperiod. Thesubgraphs\nrepresenttheRMSEvaluesofthesatelliteorbitintheradial,along,andcrossdirections,\nandtheRMSEvaluesoftheclock,respectively. Theredboxi",
+    "char_length": 3032
+  },
+  {
+    "quote_id": "qb_baf594d102",
+    "span_index": 6,
+    "text": "Remote Sens. 2025, 17, x FOR PEER REVIEW 7 of 21\nFigure 2. RMSE values of orbit and clock products of the HAS GPS satellite system with IGS final\nproducts as references (The red box indicates that the RMSE value is larger than that of other satel-\nRemoteSens.2025,17,11 7of19\nlites, and the green box indicates that it is smaller).\nFigure3. RMSEvaluesoforbitandclockproductsoftheHASGalileosatellitesystemwithIGS\nFigufirnea 3l.p RrModSuEc tvsaaluserse foefr oenrbciets a.n(Tdh celorcekd pbrooxduincdtsic oaft ethset hHaAttSh GeaRlMileSoE svataellulietei ssylasrtgeemr wthiatnh ItGhaSt fionfaolt her\npr",
+    "char_length": 3214
+  },
+  {
+    "quote_id": "qb_3589b40d15",
+    "span_index": 7,
+    "text": "RemoteSens.2025,17,11 8of19\nRemote Sens. 2025, 17, x FOR PEER REVIEW 9 of 21\nFigures4–6showthereal-timePPPpositioningerrorsofHASGPS,HASGalileo,and\nRemote Sens. 2025, 17, x FOR PEER REVIEW 9 of 21\nHAS GPS/Galileo, respectively. Table 1 shows the real-time PPP positioning accuracy\nstatisticsforeachsystem.\nFigure 4. HAS GPS real-time PPP positioning accuracy (Doy: 244).\nFigure4.HASGPSreal-timePPPpositioningaccuracy(Doy:244).\nFigure 4. HAS GPS real-time PPP positioning accuracy (Doy: 244).\nFigure5.HASGalileoreal-timePPPpositioningaccuracy(Doy:244).\nFigure 5. HAS Galileo real-time PPP positioning a",
+    "char_length": 1625
+  },
+  {
+    "quote_id": "qb_328df9f1a4",
+    "span_index": 8,
+    "text": "RemoteSens.2025,17,11 9of19\nallthreedirections. Thereasonforthisisthatthenumberofvisiblesatellitesinthesingle-\nsystemPPPsolutionissmallcomparedtothedual-system,sothereal-timePPPsolution\nfailsatsomeepochs,resultingininterruptederrorcurvesinthefigure. Finally,itcanbe\nseenfromthesethreefiguresthattheoverallfluctuationrangeofthepositionerrorcurveof\nthedualsystemineachdirectionisthesmallest,followedbythesingleGPS,andthesingle\nGalileo system is the largest. The fluctuation ranges of the station position error curve\nlocatedintheHASserviceareaandoutsidetheserviceareaaresimilar. Inthesolutionof\nreal-ti",
+    "char_length": 4828
+  },
+  {
+    "quote_id": "qb_ebae926a49",
+    "span_index": 9,
+    "text": "Remote Sens. 2025, 17, x FOR PEER REVIEW 11 of 21\nerror or the shorter the convergence time. Figure 7 shows that the three-dimensional error\nvalue of the real-time PPP positioning results of the dual-system GPS/Galileo is smaller,\nand the accuracy is better, than that of the single-system GPS/Galileo. In the HAS service\narea, the single-system Galileo real-time PPP of ALGO station and ZECK station has a\nshorter convergence time and faster convergence speed than the single-system GPS and\nRemoteSens.2025,17,11 10of19\ndual-system GPS/Galileo. Except for the BAMF station, the convergence times of ",
+    "char_length": 5577
+  },
+  {
+    "quote_id": "qb_5787ff4662",
+    "span_index": 10,
+    "text": "RemoteSens.2025,17,11 11of19\nRemote Sens. 2025, 17, x FOR PEER REVIEW 12 of 21\nRemote Sens. 2025, 17, x FOR PEER REVIEW 12 of 21\nRemote Sens. 2025, 17, x FOR PEER REHVAIESW ZTDhasahighcorrelationcoefficientwithIGSZTD,whetheritisbasedo1n2 HofA 2S1\nproductsforsingle-systemreal-timePPPcalculationZTDordual-systemreal-timePPP\ncalculationZTD.\nFigure 8. The correlation map of IGS ZTD and HAS ZTD (HAS GPS) at the selected stations.\nFigure 8. The correlation map of IGS ZTD and HAS ZTD (HAS GPS) at the selected stations.\nFFiigguurree 88.. TThhee ccoorrrreellaattiioonn mmaapp ooff IIGGSS ZZTTDD aanndd HH",
+    "char_length": 5429
+  },
+  {
+    "quote_id": "qb_43ec52981f",
+    "span_index": 11,
+    "text": "RemoteSens.2025,17,11 12of19\nlessfluctuationandbetterZTDcontinuity. Duringthetestperiod,theHASZTDresidual\nRemote Sens. 2025, 17, x FOR PEER REVIEW 13 of 21\ncurvescalculatedbythesingleGPSandthesingleGalileosystemhaddatainterruptions,\nandtheZTDsequencecalculatedbythesingleGalileosystemhadalargerinterruption\nWUH2 30ra.5n3g e. The1r1e4a.3s5o nistha2t5P.8P0P reconver0g.9e3n celedtoana0b.9n5o rmalZTDcalcula0te.9d4 during\nOUS2 −4t5h.8is6 period1,7w0.5h1i ch is eli2m6.i1n0a ted when0.c9a0l culating the0H.9A1 S ZTD residual. A0.t93th e four\nBAMF 48.83 −125.1 11.10 0.90 0.89 0.90\nstationsofPICL,MGUE,CCJ",
+    "char_length": 4482
+  },
+  {
+    "quote_id": "qb_5c72b5b2f9",
+    "span_index": 12,
+    "text": "RemoteSens.2025,17,11 13of19\nsingleGPS,singleGalileo,anddualsystemGPS/Galileoreal-timePPPbasedonGalileo\nHAS products. It can be seen from the diagram that the bias values of each subgraph\nrangefrom−10mmto10mm. Theaveragebiasvalueswere−0.31mm,2.30mm,and\n−0.25mm,respectively.TheHASZTDbiasesofasingleGPSanddualsystemGPS/Galileo\nare smaller than that of a single Galileo system. This is because when only the Galileo\nsystemisused,thenumberofvisiblesatellitesislessthanthatoftheGPSandGPS/Galileo\nsystem,whichleadstothelargerHASZTDbiasvalueatsomesites. Therefore,theaverage\nglobalbiasvalueofasingleGalileo",
+    "char_length": 2755
+  },
+  {
+    "quote_id": "qb_e0d03471d9",
+    "span_index": 13,
+    "text": "RemoteSens.2025,17,11 14of19\nTheaverageRMSEvaluesofthesingle-systemanddual-systemHASZTDsof104IGS\nstationsinthetestperiodareshowninFigure13. Theupper,middle,andlowersubfigures\nshowtheRMSEdistributionsofZTDscomputedbyreal-timePPPforsingleGPS,single\nGalileo,anddualGPS/GalileosystemsbasedonGalileoHASproducts,respectively. And\ntheRMSE valuesfor eachsubplot are between10 mmand 20mm. The globalaverage\nRMSEvaluesofeachsystemare16.78mm,15.89mm,and16.11mm,respectively. There\nare no major differences between their RMSE values, and the HAS ZTD accuracies are\nclosetoeachother. Comparedwithotherregions,theR",
+    "char_length": 1704
+  },
+  {
+    "quote_id": "qb_f84e3b9e8e",
+    "span_index": 14,
+    "text": "RemoteSens.2025,17,11 15of19\nFigure 14 shows the distribution of the average bias value and RMSE value of\neachsysteminsideandoutsidetheHASservicearea. Amongthem,subgraph(A)and\nsubgraph(B)showtheaveragebiasvalueandRMSEvaluedistributionmap,respectively.\nTheaveragebiasvaluesoftheHASGPS,HASGalileo,andHASGPS/GalileointheHAS\nserviceareaare0.73mm,2.27mm,and1.04mm,respectively. Outsidetheservicearea,\ntheaveragebiasvaluesare−1.34mm,2.32mm,and−1.54mm,respectively. Forasingle\nGalileo system and dual system GPS/Galileo, the average ZTD bias value in the HAS\nserviceareaispositiveandnegativeoutsidetheservic",
+    "char_length": 5535
+  },
+  {
+    "quote_id": "qb_8aa8bd37d5",
+    "span_index": 15,
+    "text": "RemoteSens.2025,17,11 16of19\nreferencevalue. TheresearchshowedthatunderthestaticPPPmodebasedonPPP–B2b\nservice,theRMSEvaluesofthestationsinChinaaremostlybetween10mmand20mm,\nand the bias values are between −15 mm and 15 mm [24]. Wang used the corrections\nprovidedbytheBDSPPP–B2bserviceandreal-timePPPtechnologytocalculatetheZTD\nandcompareditwiththeIGSZTD.TheresultsshowedthattheRMSEvalueofthePPP–B2b\nZTDisabout15mmatGNSSstationsbetween30◦ and48◦ northlatitude[33]. Thispaper\nutilizes the ZTD data from the IGS as a reference to evaluate the performance of HAS\nZTD in the global region. Figures 8–13 sho",
+    "char_length": 3552
+  },
+  {
+    "quote_id": "qb_adada741d5",
+    "span_index": 16,
+    "text": "RemoteSens.2025,17,11 17of19\nthattheZTDsofreal-timePPPcalculationsbasedontheGalileoHAShavehighaccuracy\nintheglobalregion. TheaveragebiasandRMSEvaluesofZTDcalculatedbysingle-system\nand dual-system real-time PPP in the HAS service area are slightly smaller than those\noutside the service area; that is, the ZTD accuracy in the service area is slightly higher\nthanthatoutsidetheservicearea. ForthesingleGalileosystem,theaveragebiasvalueof\nthecalculatedZTDvalueispositiveintheserviceareaandoutsidetheservicearea. The\nZTDvalueofthereal-timePPPcalculationinasingleGalileosystemisgreaterthanthat\noftheIGSZTD",
+    "char_length": 3534
+  },
+  {
+    "quote_id": "qb_9bcfd63b3a",
+    "span_index": 17,
+    "text": "RemoteSens.2025,17,11 18of19\n8. Miya,M.;Fujita,S.;Sato,Y.;Ota,K.;Hirokawa,R.;Takiguchi,J.CentimeterLevelAugmentationService(CLAS)inJapanese\nQuasi-ZenithSatelliteSystem,ItsUserInterface,DetailedDesign,andPlan.InProceedingsofthe29thInternationalTechnical\nMeetingofTheSatelliteDivisionoftheInstituteofNavigation(IONGNSS+2016),Portland,OR,USA,12–16September2016;\npp.2864–2869.\n9. Zhang, Y.; Kubo, N.; Pullen, S. Evaluation of QZSS Centimeter Level Augmentation System (CLAS): Open-Sky to Urban\nEnvironmentsandGeodetictoLow-CostReceivers.InProceedingsofthe35thInternationalTechnicalMeetingoftheSatellite\nD",
+    "char_length": 4623
+  },
+  {
+    "quote_id": "qb_3b08544e9a",
+    "span_index": 18,
+    "text": "RemoteSens.2025,17,11 19of19\n32. Lagler,K.;Schindelegger,M.;Böhm,J.;Krásná,H.;Nilsson,T.GPT2: EmpiricalSlantDelayModelforRadioSpaceGeodetic\nTechniques.Geophys.Res.Lett.2013,40,1069–1073.[CrossRef]\n33. Wang,X.;Chen,Y.;Zhang,J.;Qiu,C.;Zhou,K.;Li,H.;Huang,Q.AssessmentofBDS-3PPP-B2bServiceandItsApplicationsfor\ntheDeterminationofPrecipitableWaterVapour.Atmosphere2024,15,1048.[CrossRef]\nDisclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual\nauthor(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityf",
+    "char_length": 705
+  }
+]

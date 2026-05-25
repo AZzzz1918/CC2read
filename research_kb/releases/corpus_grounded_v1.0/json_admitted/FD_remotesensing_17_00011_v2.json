@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_remotesensing_17_00011_v2",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "The Investigation of Global Real-Time ZTD Estimation from GPS/Galileo PPP Based on Galileo High Accuracy Service"
+  },
+  "product_source": {
+    "actual_product_source": "MIXED_PRODUCTS",
+    "grounding_quotes": [
+      "The PPP–B2b augmentation service provides SSR corrections through the B2bsignalofChina’sBeiDouglobalnavigationsatellitesystem(BDS)GEOsatellitesin theAsia-Pacificregion[10].",
+      "TheresearchshowedthatQZSSCLASandBDSPPP–B2bcan providedecimeter-levelpositioningaccuracy[10,11]."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 1
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 19,
+    "b2b": 18,
+    "has": 13,
+    "dcb": 1,
+    "clas": 7
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "BOUNDARY_RELEVANT",
+  "corpus_version": "v1.0"
+}

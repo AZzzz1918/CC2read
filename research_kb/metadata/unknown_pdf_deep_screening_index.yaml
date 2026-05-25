@@ -1,0 +1,191 @@
+entries:
+- abstract_detected: false
+  abstract_snippet: ''
+  best_title_candidate: Combinatorial problems
+  extraction_quality: PASS
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0020019019300018-main.pdf
+  filename: 1-s2.0-S0020019019300018-main.pdf
+  garbled_text_ratio: 0.0
+  invalid_first_line_reason: valid_title_candidate
+  keyword_scores:
+    bds_ppp: 7
+    boundary: 0
+    core_b2b: 0
+    general: 0
+  matched_keywords:
+    bds_ppp:
+    - \bPPP\b
+    boundary: []
+    core_b2b: []
+    general: []
+  page_count: 5
+  parsed_doi: null
+  recommended_next_step: inventory_only
+  references_detected: false
+  relevance_class: LOW_GENERAL_GNSS_RELEVANCE
+  text_extractable: true
+  title_confidence: MEDIUM
+  title_source: before_introduction
+- abstract_detected: false
+  abstract_snippet: ''
+  best_title_candidate: Real-time ocean precise point positioning with BDS-3 service
+    signal PPP-B2b
+  extraction_quality: PASS
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224122011071-main.pdf
+  filename: 1-s2.0-S0263224122011071-main.pdf
+  garbled_text_ratio: 0.0
+  invalid_first_line_reason: valid_title_candidate
+  keyword_scores:
+    bds_ppp: 39
+    boundary: 2
+    core_b2b: 27
+    general: 8
+  matched_keywords:
+    bds_ppp:
+    - \bBDS-3\b
+    - BeiDou
+    - \bPPP\b
+    - precise point positioning
+    - real-time PPP
+    - real-time precise
+    - real.time precise
+    boundary:
+    - \bRTS\b
+    - real-time service
+    core_b2b:
+    - \bB2b\b
+    - \bPPP-B2b\b
+    - \bPPP-B2B\b
+    - PPP-B2b service
+    - B2b correction
+    - PPP-B2b corrections
+    general:
+    - \bGNSS\b
+    - \bGPS\b
+    - \bRTK\b
+  page_count: 9
+  parsed_doi: null
+  recommended_next_step: full_extraction
+  references_detected: false
+  relevance_class: HIGH_B2B_RELEVANCE
+  text_extractable: true
+  title_confidence: HIGH
+  title_source: pdf_metadata
+- abstract_detected: false
+  abstract_snippet: ''
+  best_title_candidate: Real-time single-frequency precise point positioning using
+    BDS-3 PPP-B2b corrections
+  extraction_quality: PASS
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224122013744-main.pdf
+  filename: 1-s2.0-S0263224122013744-main.pdf
+  garbled_text_ratio: 0.0
+  invalid_first_line_reason: valid_title_candidate
+  keyword_scores:
+    bds_ppp: 45
+    boundary: 4
+    core_b2b: 58
+    general: 6
+  matched_keywords:
+    bds_ppp:
+    - \bBDS-3\b
+    - BeiDou
+    - \bPPP\b
+    - precise point positioning
+    - real-time PPP
+    boundary:
+    - \bHAS\b
+    core_b2b:
+    - \bB2b\b
+    - \bPPP-B2b\b
+    - \bPPP-B2B\b
+    - \bBDS-3 PPP-B2b\b
+    - PPP-B2b service
+    - B2b correction
+    - PPP-B2b corrections
+    general:
+    - \bGNSS\b
+    - \bGPS\b
+  page_count: 9
+  parsed_doi: null
+  recommended_next_step: full_extraction
+  references_detected: false
+  relevance_class: HIGH_B2B_RELEVANCE
+  text_extractable: true
+  title_confidence: HIGH
+  title_source: pdf_metadata
+- abstract_detected: false
+  abstract_snippet: ''
+  best_title_candidate: A new PPP one-way timing approach via BDS-3 PPP-B2b and short-message
+    communication service
+  extraction_quality: PASS
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224124014428-main.pdf
+  filename: 1-s2.0-S0263224124014428-main.pdf
+  garbled_text_ratio: 0.0
+  invalid_first_line_reason: valid_title_candidate
+  keyword_scores:
+    bds_ppp: 31
+    boundary: 3
+    core_b2b: 14
+    general: 9
+  matched_keywords:
+    bds_ppp:
+    - \bBDS-3\b
+    - \bPPP\b
+    - precise point positioning
+    boundary:
+    - \bHAS\b
+    core_b2b:
+    - \bB2b\b
+    - \bPPP-B2b\b
+    - \bPPP-B2B\b
+    - \bBDS-3 PPP-B2b\b
+    general:
+    - \bGNSS\b
+    - time transfer
+    - Galileo(?!\s+HAS)
+  page_count: 13
+  parsed_doi: null
+  recommended_next_step: full_extraction
+  references_detected: false
+  relevance_class: HIGH_B2B_RELEVANCE
+  text_extractable: true
+  title_confidence: HIGH
+  title_source: pdf_metadata
+- abstract_detected: false
+  abstract_snippet: ''
+  best_title_candidate: Enhancing BDS-3 PPP-B2b real-time positioning performance
+    by tightly integrating MEMS IMU and LiDAR in GNSS-Degraded environment
+  extraction_quality: PASS
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224124019006-main.pdf
+  filename: 1-s2.0-S0263224124019006-main.pdf
+  garbled_text_ratio: 0.0
+  invalid_first_line_reason: valid_title_candidate
+  keyword_scores:
+    bds_ppp: 8
+    boundary: 1
+    core_b2b: 16
+    general: 6
+  matched_keywords:
+    bds_ppp:
+    - \bBDS-3\b
+    - \bPPP\b
+    boundary:
+    - \bHAS\b
+    core_b2b:
+    - \bB2b\b
+    - \bPPP-B2b\b
+    - \bPPP-B2B\b
+    - \bBDS-3 PPP-B2b\b
+    - B2b signal
+    general:
+    - \bGNSS\b
+    - Galileo(?!\s+HAS)
+  page_count: 11
+  parsed_doi: null
+  recommended_next_step: full_extraction
+  references_detected: false
+  relevance_class: HIGH_B2B_RELEVANCE
+  text_extractable: true
+  title_confidence: HIGH
+  title_source: pdf_metadata
+total_processed: 90

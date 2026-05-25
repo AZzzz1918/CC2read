@@ -1,0 +1,86 @@
+[
+  {
+    "quote_id": "qb_dd6ac17fce",
+    "span_index": 0,
+    "text": "GPS Solutions (2021) 25:142\nhttps://doi.org/10.1007/s10291-021-01175-2\nORIGINAL ARTICLE\nPerformance evaluation of BDS‑3 PPP‑B2b precise point positioning\nservice\nYangyin Xu1,2 · Yuanxi Yang2 · Jinlong Li3\nReceived: 12 November 2020 / Accepted: 20 August 2021 / Published online: 12 September 2021\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2021\nAbstract\nA new precise point positioning (PPP) service has been provided by BeiDou global navigation satellite system (BDS-3). The\ncorrection parameters, including precision orbit correction, clock of",
+    "char_length": 4202
+  },
+  {
+    "quote_id": "qb_33cb8a83eb",
+    "span_index": 1,
+    "text": "142 Page 2 of 14 GPS Solutions (2021) 25:142\nto the standard of Radio Technical Commission for Maritime The full constellation of BDS-3 was officially put into\nService (RTCM-SSR) (RTCM-SC 2016). The corrections service on July 31, 2020. BDS-3 provides more services\nare sent to users via the Internet using Networked Trans- compared with other GNSS (Lu et al. 2020a; Li et al.\nport of RTCM via Internet Protocol (NTRIP) (Weber et al. 2020b). As one of the standard services to be provided,\n2007). The IGS-RTS started its service in 2013. GPS/GLO- the real-time PPP service is newly supplied by BDS-3.",
+    "char_length": 5490
+  },
+  {
+    "quote_id": "qb_f8620a3bc9",
+    "span_index": 2,
+    "text": "GPS Solutions (2021) 25:142 Page 3 of 14 142\n𝐱\np\ns\nrec\n=𝐱\nb\ns\nrdc\n− 𝐞\nradial\n𝐞\nalong\n𝐞\ncross\n𝛿𝐎 combination, and 𝜀 ps\nr,IFjk\nand 𝜀 𝜑s\nr,IFjk\ndenote the measurement\n⇀ 𝐞 = ⃗r s , [⇀ 𝐞 = ⃗r s ×v⃗ s , ] 𝐞⃗ = ⇀ 𝐞 × ⇀ 𝐞 noises of code and phase IF combinations. The other effect,\nradial ⃗r cross ⃗r ×v⃗ along cross radial such as the tide displacement, relativistic effect and the\ns s s\nphase windup, etc., have been corrected in advance with the\n(1)\nassociated empirical model.\nwhere 𝐱 b s r | | dc d | |enotes the br | |oadcas | |t satellite position. ⃗r s and v⃗ s Since the BDS-3 broadcast clock offset",
+    "char_length": 4561
+  },
+  {
+    "quote_id": "qb_560d1157df",
+    "span_index": 3,
+    "text": "142 Page 4 of 14 GPS Solutions (2021) 25:142\nvariance of noise and multipath, which is calculated by the mainly restricted by the clock accuracy (Yang et al. 2020;\nelevation angle weighted model (Takasu 2013). Lv et al. 2020; Liu et al. 2020). It is found that the orbit\ncorrections of IGSO satellites are obviously larger than\nthat of MEO satellites. This indicates that the broadcast\nAccuracy evaluation of PPP‑B2b corrections\norbit of BDS3 IGSO satellite has poor accuracy compared\nwith MEO satellite, resulting in larger orbit errors to be\nThis section mainly focuses on the accuracy evaluation o",
+    "char_length": 2672
+  },
+  {
+    "quote_id": "qb_9a317a6fa5",
+    "span_index": 4,
+    "text": "GPS Solutions (2021) 25:142 Page 5 of 14 142\nFig. 2 Error series of the broad- C19 C20 C21 C22 C23 C24\ncast orbit (left) and PPP-B2b C25 C26 C27 C28 C29 C30\nreal-time orbit (right) for BDS-3\nC32 C33 C34 C35 C36 C37\nMEO satellites\n0.2\n0\n-0.2\n0.8\n0.4\n0\n-0.4\n-0.8\nare within 0.2 m in the radial component and 0.5 m in the discontinuous variations still exist. This indicates that the\nalong-track and cross-track components for both the PPP- quality of PPP-B2b orbit corrections for IGSO satellites is\nB2b real-time orbit and broadcast orbit. relatively poor due to its more frequent piecewise variation.",
+    "char_length": 1406
+  },
+  {
+    "quote_id": "qb_960ebf4e59",
+    "span_index": 5,
+    "text": "142 Page 6 of 14 GPS Solutions (2021) 25:142\nFig. 4 RMS errors of BDS-3\nsatellite orbits in radial (top), 0.2 Broadcast PPP B2b CNES RT\nalong-track (middle) and cross-\ntrack (bottom) directions. The\n0.1\ntimespan is from October 1 to\n31, 2020\n0\n0.4\n0.2\n0\nTo further evaluate the BDS-3 PPP-B2b real-time orbit accuracy. As for the CNES RT orbit, its RMS errors of\nquality, the root mean square (RMS) error of the PPP- MEO satellites are 3.9 cm, 8.7 cm and 6.5 cm in the radial,\nB2b real-time orbit was calculated based on a one-month along-track and cross-track components, respectively. The\ndataset in",
+    "char_length": 2742
+  },
+  {
+    "quote_id": "qb_47696181f1",
+    "span_index": 6,
+    "text": "GPS Solutions (2021) 25:142 Page 7 of 14 142\n(Yao et al. 2017) was adopted to eliminate the influence of\n4 the timescale bias by selecting a reference satellite.\n3 We select C38 as the reference satellite considering its\n2 long observation arc. The error series of the broadcast\nclock offsets and the PPP-B2b real-time clock offsets for\n1\nBDS-3 satellites are shown in Figs. 5 and 6. The gap in 0\nthe time series is caused by the fact that the reference\n-1\nsatellite (C38) is not available from 15 to 21 h. Hourly\n-2 discontinuous variation caused by the broadcast ephem-\n-3 eris updating can also be",
+    "char_length": 2779
+  },
+  {
+    "quote_id": "qb_53351336dc",
+    "span_index": 7,
+    "text": "142 Page 8 of 14 GPS Solutions (2021) 25:142\nThe average STD of the PPP-B2b real-time clock offset is 9\n6.0 cm (about 0.2 ns), which is improved by about 85.1% 55N\n8.5\ncompared with that of the broadcast clock offset. Still, the\n45N 8\nCNES RT clock offset accuracy is the best, with an aver- 7\n8.5 .5 7 7.5\nage STD of 2.2 cm. 35N\n6\n8 7\n25N 6. 5 7 7. 5 8 6.5\nAvailability and matching characteristics\n15N 6\nof PPP‑B2b corrections\n6 5.5\n5N\nThe performance of PPP-B2b corrections in terms of avail- 5\n55E 75E 95E 115E 135E 155E\nability and matching characteristics is also evaluated and\ndiscussed. Lacki",
+    "char_length": 4023
+  },
+  {
+    "quote_id": "qb_b94393a1ea",
+    "span_index": 8,
+    "text": "GPS Solutions (2021) 25:142 Page 9 of 14 142\n(1) BDS-3: IODC in CNAV1 message; (2) GPS: IODC this period. Users should be noticed about the temporary\nin LNAV message; (3) Galileo: IOD Nav in I/NAV mes- mismatching situation. One solution is to use the previous\nsage; (4) GLONASS: Tb in L1OCd message. The IOD of clock offset corrections that match with the orbit corrections,\nbroadcast ephemeris changes with the update of broadcast which have little impact on positioning accuracy since the\nephemeris. Since there are time delays for PPP-B2b correc- orbit corrections will be updated soon.\ntions, us",
+    "char_length": 4194
+  },
+  {
+    "quote_id": "qb_1123a4e648",
+    "span_index": 9,
+    "text": "142 Page 10 of 14 GPS Solutions (2021) 25:142\nTable 2 Processing strategies for the real-time PPP based on PPP-B2b corrections\nItem Correction model or estimation strategy\nSatellite orbit B1C CNAV1 broadcast ephemeris + PPP-B2b orbit corrections (CSNO 2020)\nSatellite clock offset B1C CNAV1 broadcast ephemeris + PPP-B2b clock offset corrections (CSNO 2020)\nSatellite DCB PPP-B2b DCB corrections (CSNO 2020)\nPhase windup Model corrected (Wu et al. 1993)\nTide Model corrected for solid tide and pole tide (Petit and Luzum 2010)\nRelativistic effect Model corrected (Ashby 2003)\nStation positions Kinema",
+    "char_length": 2604
+  },
+  {
+    "quote_id": "qb_3fe3041f11",
+    "span_index": 10,
+    "text": "GPS Solutions (2021) 25:142 Page 11 of 14 142\nTable 4 RMS of horizontal\nStation PPP-Broad PPP-B2b PPP-CNES-RT\n(H) and vertical (V) positioning\nerrors for real-time static PPP B1C/B2a H/V B1I/B3I H/V B1C/B2a H/V B1I/B3I H/V B1I/B3I H/V\n(unit: cm)\nBJYF 14.5/30.9 20.9/23.5 1.8/3.8 3.0/6.8 8.7/19.5\nCDTF 11.7/41.1 14.1/47.5 2.7/8.3 3.5/8.9 10.7/10.5\nHKCB 17.1/11.9 20.2/20.5 2.8/8.3 4.0/8.5 8.4/8.0\nNJXW 15.8/16.4 18.0/37.9 2.1/5.2 5.2/9.8 4.7/9.6\nMean 14.8/25.1 18.3/32.3 2.4/6.4 3.9/8.5 8.1/11.9\nBDS-3 satellites. The corresponding statistical results for\nkinematic and static PPP are shown in Tables ",
+    "char_length": 2645
+  },
+  {
+    "quote_id": "qb_86486d2854",
+    "span_index": 11,
+    "text": "142 Page 12 of 14 GPS Solutions (2021) 25:142\nTable 5 Statistics of horizontal (H) and vertical (V) CEPs at different Conclusions\nconvergence time nodes (unit: cm)\nConver- Kinematic PPP Static PPP The BDS-3 PPP-B2b precise point positioning service\ngence time brings promising opportunities and new challenges for the\nB1C/B2a B1I/B3I B1C/B2a B1I/B3I H/V\n(min)\nH/V H/V H/V real-time PPP. In this study, we have made a comprehensive\ninvestigation of the BDS-3 PPP-B2b service performance,\n10 47.1/66.8 64.3/77.0 37.5/54.2 50.1/62.4\nincluding the accuracy, availability, matching characteristics\n20 36.5",
+    "char_length": 5063
+  },
+  {
+    "quote_id": "qb_c2f9a7fc65",
+    "span_index": 12,
+    "text": "GPS Solutions (2021) 25:142 Page 13 of 14 142\nand 36 cm in vertical in 30 min, while the B1I/B3I IF satellite navigation augmentation technologies. Satell Navig\ncombination achieves 42.8 cm and 53 cm in the two 1:12. https://d oi.o rg/1 0.1 186/s 43020-0 20-0 0010-2\nLi X, Yuan Y, Zhu Y, Huang J, Wu J, Xiong Y, Zhang X, Li X (2019)\ncomponents at the same positioning time.\nPrecise orbit determination for BDS3 experimental satellites\nusing iGMAS and MGEX tracking networks. J Geod 93:103–\n117. https://d oi.o rg/1 0.1 007/s 00190-0 18-1 144-0\nAcknowledgements This work was supported by the National",
+    "char_length": 6881
+  },
+  {
+    "quote_id": "qb_326422bbfa",
+    "span_index": 13,
+    "text": "142 Page 14 of 14 GPS Solutions (2021) 25:142\nYang Y, Mao Y, Sun B (2020) Basic performance and future develop- geodetic data processing, geodetic coordinate system, crustal deforma-\nments of BeiDou global navigation satellite system. Satell Navig tion analysis and comprehensive PNT.\n1(1):1–8. https://d oi.o rg/1 0.1 186/s 43020-0 19-0 006-0\nYang Y, Xu Y, Li J, Yang C (2018) Progress and performance evalu- Jinlong Li obtained his Ph.D.\nation of BeiDou global navigation satellite system: data analysis degree from Information Engi-\nbased on BDS-3 demonstration system. Sci China Earth Sci neering",
+    "char_length": 2107
+  }
+]

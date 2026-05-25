@@ -1,0 +1,26 @@
+generated_from: "entities/technical_routes.yaml + entities/innovations.yaml"
+generated_at: "2026-05-24"
+input_registry_hash: "v0.3+v0.4_w1_w2_w3"
+admitted_count: 66
+
+routes_by_status:
+  established_route:
+    - PPP-B2b Positioning Performance (25 papers)
+    - PPP-B2b Time Transfer (6 papers)
+    - PPP-B2b ZTD/PWV Retrieval (6 papers)
+    - Galileo HAS non-B2b (4 papers)
+    - QZSS CLAS non-B2b (2 papers)
+  growing:
+    - PPP-B2b + HAS Fusion (8 papers)
+    - PPP-B2b + INS Integration (5 papers)
+    - PPP-B2b LEO Orbit Determination (3 papers)
+  emerging_singleton:
+    - PPP-B2b-RTK (1 paper)
+    - BDSet Public Dataset (1 paper)
+    - Smartphone PPP-B2b (1 paper)
+    - B2b+HAS+MADOCA Triple Combination (1 paper)
+    - B2b Orbit/Clock Outlier Detection (1 paper)
+  niche:
+    - PPP-B2b Short-Message Enhancement (2 papers)
+    - PPP-B2b Seismogeodesy (2 papers)
+    - PPP-B2b Anomaly Detection (2 papers)

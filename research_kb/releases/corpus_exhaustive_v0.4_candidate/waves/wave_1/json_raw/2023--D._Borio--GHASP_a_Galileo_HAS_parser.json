@@ -1,0 +1,51 @@
+{
+  "paper_id": "2023--D._Borio--GHASP_a_Galileo_HAS_parser",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "selection_role": "non_b2b_galileo",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "CNES_OR_OTHER_RTS",
+    "evidence_strength": "WEAK",
+    "grounding_quotes": []
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quotes": [
+      "Daniele Borio wrote the main manuscript, which was Borio D, Senni T, Fernández-Hernández I (2020) Experimental analy- complemented and reviewed by the other authors."
+    ]
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0,
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 2
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code/software release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 8,
+    "b2b_mentions": 0,
+    "has_mentions": 5,
+    "clas_mentions": 5,
+    "dcb_mentions": 0
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "expected_ps": "CNES_OR_OTHER_RTS"
+  },
+  "scope_relevance": "BACKGROUND_ONLY"
+}

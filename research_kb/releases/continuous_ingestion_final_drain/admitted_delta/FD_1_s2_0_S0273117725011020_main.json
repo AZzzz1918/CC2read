@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S0273117725011020_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Retrieval of precipitable water vapor by using BeiDou PPP-B2b signal with an ocean-based experiment"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Available online at www.sciencedirect.com ScienceDirect Advances in Space Research 77(2026)297–309 www.elsevier.com/locate/asr Retrieval of precipitable water vapor by using BeiDou PPP-B2b signal with an ocean-based experiment Haibo Gea,⁎ , Xiaoxue Kea , Zhilu Wua, Peijun Qiaob, Qunhui Yangb,c , Miaomiao Wangd, Bofeng Lia a College of Surveying and Geo-Informatics, TongjiUniversi",
+      "The PPP-B2b service provided by the BeiDou navigation satellite system (BDS) becomes a promising way for real-time PWV retrieval."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 5
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 13,
+    "b2b": 111,
+    "has": 0,
+    "dcb": 5,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

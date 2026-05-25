@@ -1,0 +1,86 @@
+[
+  {
+    "quote_id": "qb_01f10bc2f0",
+    "span_index": 0,
+    "text": "Available online at www.sciencedirect.com\nScienceDirect\nAdvances in Space Research 75(2025)2669–2682\nwww.elsevier.com/locate/asr\nEvaluation of the Galileo high-accuracy service SSR product\nquality and PPP performance\nMeng Gaoa,b, Ziheng Menga,⇑ , Huizhong Zhua , Tianjun Liuc , Aigong Xua ,\nChunbo Tana , Zhihua Caoa\na School of Geomatics, Liaoning Technical University (LNTU), Fuxin 123000, China\nb Xi’an Research Institute of Surveying and Mapping, Xi’an 710054, China\nc GNSS Research Center, Wuhan University, 129 Luoyu Road, Wuhan 430079, China\nReceived 4 July 2024; received in revised form 6Nov",
+    "char_length": 3571
+  },
+  {
+    "quote_id": "qb_b8d9d933c7",
+    "span_index": 1,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nTime Pilot Project in 2007, and officially released Real - and Phase 2 (Full Service) (EUSPA., 2023a). During the\nTime Service (RTS) in 2013 (Elsobeiey and Al-Har bi testing phase, Hauschild et al. (2022) assessed the perfor-\n(2016); Kazmierski et al. 2020). There are many factors mance of HAS. The results indicate that the SISRE values\nthat affect the accuracy of Real-Time Precise Point Posi- for Global Positioning System (GPS) and Galileowere12–\ntioning (RT PPP), and successfully fixing the ambig uities 16 cm and 7–9 cm, respectively. Using",
+    "char_length": 6235
+  },
+  {
+    "quote_id": "qb_932c76a5c5",
+    "span_index": 2,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nquality are lacking. Therefore, this study utilizes BKG O r O r O r\nNtrip Client (BNC) software to receive HAS corrections O a O a O a t t 0 3\nbroadcast by the Galileo Service Centre (GSC). To evalu-\nO O O\nate the performance of HAS SSR products, we simultane- c t c t 0 c\nously collected SSR products from three well-established where t 0 represents the time of datapublication;O r, O a and\nanalysis centers (WHU, CAS, and CNE) for comparison O c represent the corrections in the RAC for the satellite;\n(Su et al., 2024). This paper first examines",
+    "char_length": 4750
+  },
+  {
+    "quote_id": "qb_991ca0b5e0",
+    "span_index": 3,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\npare the accuracy with post-processed products, code bias B2b has been a research focus, particularly with the\ncorrections still need to be applied (Naciri et al., 2023). enhanced dual-system for GPS and BDS. Consequently,\nThe SISRE serves as a comprehensive metric for evalu- several stations surrounding China are chosen to compare\nating the overall accuracy of ephemerides, reflecting the theenhancementsofPPP-B2bandHASfortheirrespective\nimpact of precise orbital and clock corrections on user dual systems.\npositioning performance. SISRE comes ",
+    "char_length": 3300
+  },
+  {
+    "quote_id": "qb_3cdefcfffb",
+    "span_index": 4,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nFig. 2 shows the satellite integrity rate of SSR products HAS are disseminated by the EUH, subsequent references\nreceiving HAS service, and it can be seen from the figure to EUH-broadcasted products are referred to as the HAS.\nthat the receiving quality of Galileo satellites is significantly Additional ly, in the statistical tables, ‘‘HAS” is used to\nbetter than that of GPS. The low reception integrity rate of replace ‘‘EUH”.\nthe GPS system may be related to the quality of the broad- Fig. 4 presents the STD values of the real clock for the\nca",
+    "char_length": 5403
+  },
+  {
+    "quote_id": "qb_9f18797da1",
+    "span_index": 5,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nTable 2\nPPP processingstrategy.\nItem Setting\nFrequency GPS: L1/L2; Galileo: E1/E5a; BDS:B1I/B3I\nFilter type Forward Kalman filter\nElevation cutoff 7°󠇣\nStation coordinate Estimated as static parameters\nWeighting scheme Elevation dependent weight\n3 mm/30 cm for GPSandGalileophase/pseudorange;\nInter-system bias Estimated as a randomwalk\nCycle slipmethod GF + MW（Detect cycle slipsandoutliers）(Blewitt., 1990)\nParameter estimationmethod Kalman filtering\nA priori tropospheredelay Saastamoinen\nEarth tides IERS2010\nSampling interval 30 s\nIonosphere Io",
+    "char_length": 2779
+  },
+  {
+    "quote_id": "qb_25fad63a55",
+    "span_index": 6,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nFig. 3. Average number of visible satellites at MGEX station(NumberofsatelliteswithHAScorrections).\nFig. 4. Real-time clock corrections for Galileo obtainedbythefouranalysiscenters.\non Day 336 of 2023, the filter is set to restart every 3 h, combination are selected for comparison in terms of posi-\ndividing the day into 8 time intervals to assess the conver- tioning performance.\ngence performance. Furthermore, to analyze the position- Figs. 8 and9show the boxplots of the convergence time\ning performance of the HAS, selec ted stations in the A",
+    "char_length": 995
+  },
+  {
+    "quote_id": "qb_4d18e7c224",
+    "span_index": 7,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nFig. 5. Real-time clock corrections for GPS obtainedbythefouranalysiscenters.\ngence time for HAS is 21.6 min, which is better than the lites across all datasets is 5.4, compared to 7.3 for Galileo\nproducts broadcasted by CNE. However, when using the (Naciri et al. 2023). For other analysis center products,\nGPS system and dual-system combination, the average although Table 3 demonstrates that the SISRE values of\nconvergence times for the HAS are longer. This could be Galileo are smaller, theoretically, Galileo’s positioning\nattributed to the s",
+    "char_length": 2854
+  },
+  {
+    "quote_id": "qb_6614f9ce65",
+    "span_index": 8,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nFig. 6. RMS values of the real-time Galileo orbits in theRACcomponentsobtainedbythefouranalysiscenters.\nvergence time and positioning accuracy are inferior to the CNE. In the E and U directions, occasional fluctuations\nresults obtained from the other three analysis centers. This occur after convergence, such as during the period from\ndiscrepancy can be attributed, in part, to the service cover- 06:00 to 09:00. This may be related to the quality of the\nage area of Galileo HAS. While Galileo HAS provides glo- received products and network condi",
+    "char_length": 3049
+  },
+  {
+    "quote_id": "qb_64add55317",
+    "span_index": 9,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nFig. 7. RMS values of the real-time GPS orbits in theRACcomponentsobtainedbythefouranalysiscenters.\nTable 3\nAccuracies of the various systemproductsandSISREs.\nProducts GPS Galileo\nOrbit/cm Clock/ns SISRE /cm SISRE/cm Orbit/cm Clock/ns SISRE /cm SISRE/cm\norb orb\nR A C R A C\nCAS 1.75 3.27 2.59 0.09 1.81 3.64 2.21 3.51 2.71 0.08 2.23 3.38\nCNE 2.15 3.31 3.14 0.09 2.21 4.5 1.93 3.53 2.67 0.07 1.97 3.57\nHAS 2.56 6.14 5.23 0.19 3.16 7.26 2.71 6.04 5.09 0.16 3.42 6.19\nWHU 1.51 3.15 2.09 0.07 1.57 3.51 1.69 3.85 3.31 0.06 1.78 2.85\nFig. 8. Boxplots of",
+    "char_length": 691
+  },
+  {
+    "quote_id": "qb_f54800e077",
+    "span_index": 10,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nFig. 9. Boxplots of the convergence time for different systems atvariousanalysiscentersinthestaticmode.\nFig. 10. RMS positioning error of the products from various analysis centers(Left:thekinematicmode,Right:thestaticmode).\nFig. 11. Time series of the HOLB station (located in Canada) for various analysis centers onDay336of2023(Left:thekinematicmode,Right:thestatic\nmode).\n1 cm after epoch 1500. Moreover, the error of Galileo HAS and HAS services, respective ly. Tables 4 and 5 show that\nexceeds 1 cm in all directions excepttheNdirection,which ",
+    "char_length": 986
+  },
+  {
+    "quote_id": "qb_1165f0ebba",
+    "span_index": 11,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\ntioning accuracy, which is closely related to the service\nareas of the two enhancement services.\n6. Conclusions\nBased on the comprehensive evaluation conducted using\nGalileo HAS correction data collected from Days 333 to\n339 of 2023across56globalstations,thefollowingconclu-\nsions were drawn:\nIn the initial service stage, the precision of the HAS\norbit and clock correction data is slightly lower than that\nof the RT products from the commonly used WHU,\nCAS, and CNE analysis centers. For SSR products\nreceived with HAS service, GPS has a lower sa",
+    "char_length": 1488
+  },
+  {
+    "quote_id": "qb_1f0f084fe8",
+    "span_index": 12,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nTable 4\nConvergence time and positioning accuracy of PPP B2bandtheHASinthestaticmode.\nStations PPP-B2b HAS\nConvergence Time/min E/cm N/cm U/cm Convergence Time/min E/cm N/cm U/cm\nIITK 16 1.64 0.88 2.74 18 2.68 2.42 3.94\nJDPR 37 2.08 0.90 3.39 10 2.55 2.51 2.8\nKITG 19 1.37 1.15 1.23 13 3.19 2.33 4.17\nLCK3 24 1.75 0.99 2.25 14 3.14 2.19 3.22\nULAB 9 1.57 0.97 1.43 17 3.44 2.43 4.69\nURUM 9 1.32 1.65 2.24 23 2.91 2.61 3.65\nAverage 19 1.62 1.09 2.21 16 2.98 2.41 3.74\nTable 5\nConvergence time and positioning accuracy of PPP B2bandtheHASinthekinemati",
+    "char_length": 4040
+  },
+  {
+    "quote_id": "qb_6633cf46f7",
+    "span_index": 13,
+    "text": "M.Gaoetal. AdvancesinSpaceResearch75(2025)2669–2682\nEUSPA, Galileo High Accuracy Service Service Definition Document Montenbruck, O., Steigenberger, P., Hauschild, A., 2015. Broadcast\n(HAS SDD), 2023b. https://www.gsc-europa.eu/sites/default/files/ versus precise ephemeride s:amulti-GNSSperspective.GPSSolut19,\nsites/all/files/Galileo-HAS-SDD_v1.0.pdf. 321–333.https://doi.org/10.1007/s10291-014-0390-8.\nFernandez-Hernandez, I., Chamorro-Moreno, A., Cancela-Diaz, S., Montenbruck, O., Steigenberger, P., Prange, L., Deng, Z., Zhao, Q.,\nCalle-Calle, J.D., Zoccarato, P., Blonski, D., 2022. Galileo hi",
+    "char_length": 6701
+  }
+]

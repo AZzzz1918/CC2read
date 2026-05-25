@@ -1,0 +1,37 @@
+{
+  "release_name": "corpus_grounded_v0.2",
+  "release_date": "2026-05-22",
+  "source_releases": [
+    "full_audit_batch_1_grounded",
+    "full_audit_batch_2_controlled"
+  ],
+  "paper_count": 17,
+  "pass_count": 17,
+  "blocked_count": 0,
+  "pass_with_correction_count": 0,
+  "pass_with_weak_evidence_count": 13,
+  "wrong_support_count": 0,
+  "semantic_corrections_count": 0,
+  "manual_review_item_count": 0,
+  "quote_bank_files": 17,
+  "total_quote_spans": 5439,
+  "evidence_support_audit": true,
+  "cross_batch_consistency_check": true,
+  "cross_batch_consistency_issues": 0,
+  "admission_policy_version": "v0.2",
+  "extraction_mode_mix": "manual_full (Batch 1) + programmatic_full (Batch 2)",
+  "product_source_distribution": {
+    "BDS3_PPP_B2B_BROADCAST": 12,
+    "MIXED_PRODUCTS": 3,
+    "CNES_OR_OTHER_RTS": 1,
+    "QZSS_CLAS": 1
+  },
+  "known_limitations": [
+    "Batch 1 papers use manual extraction format; Batch 2 uses programmatic extraction format",
+    "Batch 1 has 72 grounding_quotes with quote_id references; Batch 2 has 0 grounding_quotes",
+    "b2b_mentions field location differs between batches",
+    "DCB mentions field only present in Batch 2 papers",
+    "corpus maps are auto-generated from v0.2 baseline",
+    "regression tests cover 17 papers with golden verdicts"
+  ]
+}

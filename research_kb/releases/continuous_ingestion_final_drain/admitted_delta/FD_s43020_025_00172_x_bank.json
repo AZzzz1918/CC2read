@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_1acc15111d",
+    "span_index": 0,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Satellite Navigation\nhttps://doi.org/10.1186/s43020-025-00172-x\nhttps://satellite-navigation.springeropen.com/\nORIGINAL ARTICLE Open Access\nIntegrated real-time precise point\npositioning system with B2b/B2a/B1C services\nZhetao Zhang1,2,3* , Hao Wang1,2,3 and Yuanxi Yang2,4\nAbstract\nReal-Time Precise Point Positioning (RTPPP) technology is one of the most important means of positioning and navi-\ngation, whereas this type of service requires Internet access. As an alternative, satellite-based RTPPP can be utilized,\nespecially for the PPP-B2b service ",
+    "char_length": 4720
+  },
+  {
+    "quote_id": "qb_fdf95ebe6e",
+    "span_index": 1,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 2 of 17\nand Differential Code Bias (DCB). These corrections are found that SBAS corrections can be applied to PPP mode\ntransmitted through Geostationary Equatorial Orbit (Heßelbarth et al., 2013; Li et al., 2016; Zhao et al., 2016),\n(GEO) satellites to the users in the Chinese mainland and while the integration of BDSBAS and PPP modes needs\nadjacent regions to provide centimeter-level real-time further study (Yang et al., 2022; Zhang et al., 2025).\npositioning accuracy (CSNO, 2020a; Yang et al., 2019, To ensure the continuity and availability ",
+    "char_length": 5246
+  },
+  {
+    "quote_id": "qb_7613b4e8a4",
+    "span_index": 2,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 3 of 17\nnoting that the variable means that the timeout interval\nis not fixed and depends on other messages. If B2a mes-\nsages are within the timeout interval, we can obtain B2a\nsatellite orbit and clock corrections by using Type 32 and\nCNAV1 broadcast ephemeris (CNSO, 2022; EUROCAE,\n2019).\nDifferent from the B2a service, the B1C service can\nonly be used to augment the GPS L1C/A signal, broad-\ncasting the corrections of orbit error, clock offset, and\nionospheric delay. Table 3 shows the information on B1C\nmessages. Fast corrections (Type 2–5)",
+    "char_length": 3500
+  },
+  {
+    "quote_id": "qb_9e0eb3ca1d",
+    "span_index": 3,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 4 of 17\nTable 3 Main information on B1C messages\nContents Associated types En route terminal, approach (LNAV) Approach (LNAV/\ntimeout (s) VNAV, LP, LPV)\ntimeout (s)\nPRN mask 1 600 600\nFast corrections 2–5, 24 Variable Variable\nGEO navigation data 9 360 240\nTiming data 12 86,400 86,400\nAlmanac data 17 – –\nLong-term corrections 24, 25 360 240\nIonospheric masks 18 1200 1200\nIonospheric corrections 26 600 600\nService level 27 86,400 86,400\nClock-ephemeris covariance matrix 28 360 240\ndP r ( , s I ) F =l( r s)x+t r −t(s)+ξ r,IF −ξ I ( F s)+Γ r (s)T",
+    "char_length": 4306
+  },
+  {
+    "quote_id": "qb_73129e1fd5",
+    "span_index": 4,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 5 of 17\nσ σ\nthere are other satellite systems or signals, new correspond- where Pi and φi denote the Standard Deviations (STDs)\nσ\ning clock offsets need to be estimated separately since there of SF code and phase observations, respectively; PIF and\nσ\nexist inter-system biases, DCBs, and even inter-frequency φIF the STDs of DF IF code and phase observations,\nσ σ\nclock biases. respectively; P and φ the STDs of observations mainly\nAs to stochastic model, we employ realistic weighting considering the noise which is the function of elevation,\nfunc",
+    "char_length": 1761
+  },
+  {
+    "quote_id": "qb_356b534cc7",
+    "span_index": 5,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 6 of 17\nused to better correct satellite orbit, clock, and iono- modes for evaluation. To mitigate the influence of ini-\nspheric errors. Previous research has demonstrated tial convergence on positioning accuracy, only the post-\nthat B2b orbit and clock corrections offer the highest convergence data (e.g., after four hours of observations\naccuracy, followed by B2a corrections, while broadcast in this study) is used for accuracy assessment.\nephemeris and B1C corrections are equally accurate Figure 3 shows the positioning accuracy for modes A,\n(",
+    "char_length": 4609
+  },
+  {
+    "quote_id": "qb_6b4131ecb3",
+    "span_index": 6,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 7 of 17\nFig. 3 Positioning accuracy of modes A, B, and C on DOY 251 (a), 252 (b), 253 (c), and average (d)\nFig. 4 Positioning accuracy of modes D, E, and F on DOY 251 (a), 252 (b), 253 (c), and average (d)",
+    "char_length": 257
+  },
+  {
+    "quote_id": "qb_5e3dd3c4ac",
+    "span_index": 7,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 8 of 17\nFig. 5 Scenes of the static experiment. The left and right panels\ndenote the west and south sides of the station\nFig. 7 Visibility of GPS satellites with frequency information\nin the static experiment. The green and red colors denote the satellite\nwith SF and DF observations, respectively\nFig. 6 Sky plot with C/N 0 information in the static experiment\nMeasurement campaigns\nTo evaluate the property of the InRPPP system, both\nstatic and kinematic experiments are conducted under\ncomplex conditions. The details of these experiments\nare giv",
+    "char_length": 1646
+  },
+  {
+    "quote_id": "qb_19fa156bd1",
+    "span_index": 8,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 9 of 17\nTable 5 Processing strategies of PPP\nItem Strategy\nSampling rate 1 s\nEstimator Extended Kalman filter\nCut-off elevation 10°\nTropospheric delay Estimated as random walk process\nReceiver position Estimated as constants at each epoch\nReceiver clock offset Estimated as white noise at each epoch\nAmbiguity Estimated as a constant float value each arc\nTable 6 Different solution modes\nMode Explanation\nPPP-B1C Use B1C messages and SF observations\nPPP-B2a Use B2a messages and IF combination observations\nPPP-B2b Use B2b messages and IF combinati",
+    "char_length": 2917
+  },
+  {
+    "quote_id": "qb_e36d71ecea",
+    "span_index": 9,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 10 of 17\nsky plot with\nC/N\n0 information. Different from the static coordinates which are obtained using the PPP mode with\nexperiment, short observation periods and vehicle envi- precise products. To assess convergence time, we defined\nronments often result in reduced visibility windows for different convergence criteria for the static experiment\neach satellite and lower\nC/N\n0 values, indicating degraded based on the positioning biases in the East (E), North\nsatellite signal quality in vehicle environments. Moreover, (N), and Up (U) directions",
+    "char_length": 3646
+  },
+  {
+    "quote_id": "qb_81a7ba6716",
+    "span_index": 10,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 11 of 17\nsatellites. Around GPS time 19:30:00, the PDOP values modes. This indicates that the InRPPP mode performs\nof PPP-B2a and PPP-B2b modes are very large because the best.\nsome satellites are blocked and then the geometry dete- To better demonstrate the superiority of the InRPPP\nriorates. In contrast, the InRPPP mode can effectively system, Figs. 14 and 15 present the message utilization of\nsuppress these fluctuations and reduce PDOP values GPS and BDS satellites, respectively. It is observed that\nby combining B2b, B2a, B1C, and broadcas",
+    "char_length": 3450
+  },
+  {
+    "quote_id": "qb_51bb015ab5",
+    "span_index": 11,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 12 of 17\nFig. 14 Message utilization of GPS satellites in the static experiment\nFig. 15 Message utilization of BDS satellites in the static experiment\npositioning accuracy. In conclusion, the InRPPP mode Then, the convergence time using the InRPPP mode in\nnot only has the largest number of visible satellite but the static experiment is analyzed. It is worth noting that\nalso has the smallest PDOP values, thereby achieving the PPP-B1C mode fails to meet the convergence crite-\nsuperior positioning accuracy and improving the conti- ria due to the ",
+    "char_length": 733
+  },
+  {
+    "quote_id": "qb_ca43d77422",
+    "span_index": 12,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 13 of 17\nTable 7 Static positioning performance with different modes\nMode RMS in different directions (m) Mean\nconvergence\nResults in E direction Results in N direction Results in U direction Results in three-direction time (min)\nPPP-B1C 0.93 0.31 1.76 2.01 –\nPPP-B2a 0.52 0.18 1.00 1.14 200.97\nPPP-B2b 0.51 0.17 0.74 0.91 116.27\nInRPPP 0.24 0.09 0.42 0.49 50.25\nFig. 16 Convergence time of different modes and conditions\nin the static experiment Fig. 17 Satellite numbers and PDOP values in the kinematic\nexperiment\nthe convergence time for differ",
+    "char_length": 2850
+  },
+  {
+    "quote_id": "qb_5c45366c3b",
+    "span_index": 13,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 14 of 17\nFig. 18 Kinematic positioning results. The panels arranged from top to bottom denote the results of PPP-B1C, PPP-B2a, PPP-B2b, and InRPPP\nmodes, respectively. The results filled with blue, green, and red colors denote those in the E, N, and U directions, respectively\nenvironment that may disrupt GNSS signal propagation mode, the overall performance for PPP-B2b and InRPPP\nand lead to frequent signal interruptions. modes remains superior. Consistent with the previous\nMoreover, the kinematic positioning results are shown paragraph, the f",
+    "char_length": 3341
+  },
+  {
+    "quote_id": "qb_235f756fb8",
+    "span_index": 14,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 15 of 17\nFig. 19 Message utilization of GPS and BDS satellites in the kinematic experiment\nTable 8 Kinematic positioning accuracy with different modes terms of visible satellite numbers, PDOP values, and\npositioning accuracy in the kinematic experiment.\nMode RMS in different directions (m)\nIn conclusion, the InRPPP system with B2b/B2a/B1C\nResults in E Results in N Results in U Results\nservices presents superior performance in both static\ndirection direction direction in three-\ndirection and kinematic experiments. First, due to the resilient u",
+    "char_length": 2874
+  },
+  {
+    "quote_id": "qb_43dab876f2",
+    "span_index": 15,
+    "text": "Zhang et al. Satellite Navigation (2025) 6:18 Page 16 of 17\nin the high-occlusion environments and one kinematic Declarations\nexperiment in the vehicle environments are carried out.\nCompeting interests\nThe primary conclusions are as follows. First, in the Yuanxi Yang is an editorial board member for Satellite Navigation and was not\nstatic experiment, compared to the PPP-B1C, PPP-B2a, involved in the editorial review or decision to publish this article. All authors\ndeclare that they have no competing interests.\nand PPP-B2b modes, the InRPPP system performs the\nbest in terms of visible satellite",
+    "char_length": 6570
+  },
+  {
+    "quote_id": "qb_57c4447a75",
+    "span_index": 16,
+    "text": "Z hang et al. Satellite Navigation (2025) 6:18 Page 17 of 17\nLiu, J., Tang, C., Zhou, S., Hu, X., Yang, Y., Yang, J., & Liu, Y. (2022a). The bias in Yang, Y., Liu, L., Li, J., Yang, Y., Zhang, T., Mao, Y., Sun, B., & Ren, X. (2021b).\nPPP-B2b real-time clock offset and the strategy to reduce it. Remote Sens- Featured services and performance of BDS-3. Science Bulletin, 66(20),\ning 14(18), 4569. 2135–2143.\nLiu, Y., Yang, C., & Zhang, M. (2022b). Comprehensive analyses of PPP-B2b Yuan, H., Zhang, Z., He, X., & Wang, H. (2025). Single-station-augmented\nperformance in china and surrounding areas. R",
+    "char_length": 7555
+  }
+]

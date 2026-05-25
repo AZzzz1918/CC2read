@@ -1,0 +1,403 @@
+queue:
+- abstract_snippet: 'The PPP-B2b service provided by the BeiDou global navigation
+    satellite system (BDS-3) is regarded as a convenient approach
+
+    for real-time precise point positioning (PPP). However, float PPP solutions w'
+  already_in_v0.3: false
+  best_title_candidate: 'PPP-B2b-RTK: a PPP-B2b augmentation method by using the SSR
+    corrections from a single reference station'
+  candidate_id: V04-065
+  category: PPP_B2B_RTK_OR_AR
+  expected_impact: new_technical_route
+  file_path: E:\PPP\CC2read\paper\s10291-025-01854-4.pdf
+  filename: s10291-025-01854-4.pdf
+  keyword_scores:
+    bds_ppp: 47
+    boundary: 2
+    core_b2b: 60
+    general: 8
+  priority: P0_ROUTE_CHANGING
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_RTK_OR_AR (core_b2b=60)
+- abstract_snippet: 'BeiDouGlobalNavigationSatelliteSystem(BDS-3)PPP-B2bservicegreatlypromotesthereal-timeprecisepointpositioning
+
+    applications.However,previousresearchworkshaverevealedthatanonnegligiblesatellite-specificc'
+  already_in_v0.3: false
+  best_title_candidate: Single-station-augmented PPP-B2b considering the satellite-specific
+    clock bias via short-message communication
+  candidate_id: V04-057
+  category: PPP_B2B_SHORT_MESSAGE
+  expected_impact: new_technical_route
+  file_path: E:\PPP\CC2read\paper\s00190-025-01965-3.pdf
+  filename: s00190-025-01965-3.pdf
+  keyword_scores:
+    bds_ppp: 23
+    boundary: 4
+    core_b2b: 33
+    general: 3
+  priority: P0_ROUTE_CHANGING
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_SHORT_MESSAGE (core_b2b=33)
+- abstract_snippet: ''
+  already_in_v0.3: false
+  best_title_candidate: 'BDSet: A First-ever BDS Satellite-based PPP Augmentation
+    Dataset Since 2023'
+  candidate_id: V04-070
+  category: PPP_B2B_DATASET
+  expected_impact: new_technical_route
+  file_path: E:\PPP\CC2read\paper\s41597-026-07032-6.pdf
+  filename: s41597-026-07032-6.pdf
+  keyword_scores:
+    bds_ppp: 27
+    boundary: 4
+    core_b2b: 28
+    general: 3
+  priority: P0_ROUTE_CHANGING
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_DATASET (core_b2b=28)
+- abstract_snippet: 'High-precision positioning of unmanned aerial vehicles (UAVs)
+    is generally achieved through real-time kinematic (RTK) technology,
+
+    which rely on ground base stations. This poses challenges for real-tim'
+  already_in_v0.3: false
+  best_title_candidate: Analysis of real-time kinematic positioning of UAV based on
+    BDS-3 PPP-B2b service
+  candidate_id: V04-019
+  category: PPP_B2B_RTK_OR_AR
+  expected_impact: new_technical_route
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117725010865-main.pdf
+  filename: 1-s2.0-S0273117725010865-main.pdf
+  keyword_scores:
+    bds_ppp: 20
+    boundary: 1
+    core_b2b: 19
+    general: 5
+  priority: P0_ROUTE_CHANGING
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_RTK_OR_AR (core_b2b=19)
+- abstract_snippet: ''
+  already_in_v0.3: false
+  best_title_candidate: A new PPP one-way timing approach via BDS-3 PPP-B2b and short-message
+    communication service
+  candidate_id: V04-003
+  category: PPP_B2B_SHORT_MESSAGE
+  expected_impact: new_technical_route
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224124014428-main.pdf
+  filename: 1-s2.0-S0263224124014428-main.pdf
+  keyword_scores:
+    bds_ppp: 31
+    boundary: 3
+    core_b2b: 14
+    general: 9
+  priority: P0_ROUTE_CHANGING
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_SHORT_MESSAGE (core_b2b=14)
+- abstract_snippet: 'The BeiDou global navigation satellite system (BDS-3) provides
+    precise point positioning (PPP) service through the PPP-B2b
+
+    signal. Users in China and its surrounding areas can perform real-time PPP to'
+  already_in_v0.3: false
+  best_title_candidate: Real-time detection and identification of BDS-3 PPP-B2b signal-in-space
+    anomalies in the user-side
+  candidate_id: V04-064
+  category: PPP_B2B_ANOMALY_DETECTION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\s10291-025-01850-8.pdf
+  filename: s10291-025-01850-8.pdf
+  keyword_scores:
+    bds_ppp: 45
+    boundary: 0
+    core_b2b: 72
+    general: 2
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_ANOMALY_DETECTION (core_b2b=72)
+- abstract_snippet: 'A new precise point positioning (PPP) service has been provided
+    by BeiDou global navigation satellite system (BDS-3). The
+
+    correction parameters, including precision orbit correction, clock offset corr'
+  already_in_v0.3: false
+  best_title_candidate: Performance evaluation of BDS-3 PPP-B2b precise point positioning
+    service
+  candidate_id: V04-059
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\s10291-021-01175-2.pdf
+  filename: s10291-021-01175-2.pdf
+  keyword_scores:
+    bds_ppp: 46
+    boundary: 3
+    core_b2b: 52
+    general: 1
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=52)
+- abstract_snippet: 'BeiDou global navigation satellite system (BDS-3), a developed
+    GNSS by China, has the ability to support five different
+
+    signals, including B1I, B3I, B1C, B2a, and B2b. Meanwhile, BDS-3 has officially '
+  already_in_v0.3: false
+  best_title_candidate: Dual-frequency to five-frequency real-time precise point positioning
+    using new BDS-3 PPP-B2b service
+  candidate_id: V04-069
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\s40623-024-02031-6.pdf
+  filename: s40623-024-02031-6.pdf
+  keyword_scores:
+    bds_ppp: 37
+    boundary: 5
+    core_b2b: 43
+    general: 3
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=43)
+- abstract_snippet: 'Since 2020, the BeiDou Navigation Satellite System (BDS) has
+    launched new precise point positioning service which
+
+    provides precise correction of GPS and BDS-3 satellites to help users realize
+    real-tim'
+  already_in_v0.3: false
+  best_title_candidate: Long-term performance analysis of BDS-3 precise point positioning
+    (PPP-B2b) service
+  candidate_id: V04-060
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\s10291-023-01409-5.pdf
+  filename: s10291-023-01409-5.pdf
+  keyword_scores:
+    bds_ppp: 43
+    boundary: 2
+    core_b2b: 41
+    general: 8
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=41)
+- abstract_snippet: 'The BeiDou global navigation satellite system (GNSS) of China
+    (BDS-3) had full operation capacity on July 31, 2020, and
+
+    started providing free precise point positioning (PPP) service on B2b signals.
+    A'
+  already_in_v0.3: false
+  best_title_candidate: Zhenyi Zhang1 · Xu Zou1
+  candidate_id: V04-022
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf
+  filename: 2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf
+  keyword_scores:
+    bds_ppp: 39
+    boundary: 6
+    core_b2b: 36
+    general: 8
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: MEDIUM
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=36)
+- abstract_snippet: ''
+  already_in_v0.3: false
+  best_title_candidate: 'Real-time high-rate seismogeodesy using Galileo HAS and BDS
+    PPP-B2b products: a shake table experiment and application to the 2024 Mw 7.0
+    Wushi earthquake'
+  candidate_id: V04-030
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\ggag169.pdf
+  filename: ggag169.pdf
+  keyword_scores:
+    bds_ppp: 14
+    boundary: 12
+    core_b2b: 35
+    general: 11
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=35)
+- abstract_snippet: 'Since 2020, the PPP-B2b service provided by BeiDou navigation
+    satellite system (BDS) has achieved dynamic decimeter-
+
+    level and static centimeter-level positioning accuracy in China and nearby regions,'
+  already_in_v0.3: false
+  best_title_candidate: Real-time estimation of multi-frequency phase observable-specific
+    bias for the BDS3 PPP-B2b service
+  candidate_id: V04-062
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\s10291-024-01776-7.pdf
+  filename: s10291-024-01776-7.pdf
+  keyword_scores:
+    bds_ppp: 22
+    boundary: 2
+    core_b2b: 32
+    general: 7
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=32)
+- abstract_snippet: 'Real-time precise point positioning (RT-PPP) is an effective
+    method to retrieve precipitable water vapor (PWV), which has
+
+    better timeliness compared with the European Center for Medium-Range Weather F'
+  already_in_v0.3: false
+  best_title_candidate: Assessment of precipitable water vapor retrieved from precise
+    point positioning with PPP-B2b service
+  candidate_id: V04-068
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\s12145-023-00939-3.pdf
+  filename: s12145-023-00939-3.pdf
+  keyword_scores:
+    bds_ppp: 28
+    boundary: 11
+    core_b2b: 32
+    general: 22
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=32)
+- abstract_snippet: ''
+  already_in_v0.3: false
+  best_title_candidate: 'Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP
+    at the user end: with emphasis on the improvement of global real-time precise
+    point positioning'
+  candidate_id: V04-008
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S026322412601448X-main (1).pdf
+  filename: 1-s2.0-S026322412601448X-main (1).pdf
+  keyword_scores:
+    bds_ppp: 31
+    boundary: 16
+    core_b2b: 29
+    general: 19
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=29)
+- abstract_snippet: ''
+  already_in_v0.3: false
+  best_title_candidate: 'Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP
+    at the user end: with emphasis on the improvement of global real-time precise
+    point positioning'
+  candidate_id: V04-009
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S026322412601448X-main.pdf
+  filename: 1-s2.0-S026322412601448X-main.pdf
+  keyword_scores:
+    bds_ppp: 31
+    boundary: 16
+    core_b2b: 29
+    general: 19
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=29)
+- abstract_snippet: 'The real-time precise point positioning (RT-PPP) service of BDS-3
+    (PPP-B2b) was launched in July 2021 to deliver a
+
+    decimeter-level positioning service for users in China and its surrounding areas.
+    Dur'
+  already_in_v0.3: false
+  best_title_candidate: Clock systematic jump estimation and URA refinement of BDS-3
+    B2b real-time precise point positioning service
+  candidate_id: V04-063
+  category: PPP_B2B_ANOMALY_DETECTION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\s10291-025-01835-7.pdf
+  filename: s10291-025-01835-7.pdf
+  keyword_scores:
+    bds_ppp: 33
+    boundary: 5
+    core_b2b: 25
+    general: 7
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_ANOMALY_DETECTION (core_b2b=25)
+- abstract_snippet: 'BDS-3geostationaryorbit(GEO)satellitesbroadcastPPP-B2breal-timepreciseproductstosupportreal-timeprecisepointposition-
+
+    ing(RT-PPP)withoutdependenceonthegroundnetworkcommunication.SinceallBDS-3satellite'
+  already_in_v0.3: false
+  best_title_candidate: Real-time uncombined PPP using BDS-3 PPP-B2b products with
+    different multi-frequency integrations and refined stochastic model
+  candidate_id: V04-013
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0273117724008755-main.pdf
+  filename: 1-s2.0-S0273117724008755-main.pdf
+  keyword_scores:
+    bds_ppp: 18
+    boundary: 1
+    core_b2b: 24
+    general: 1
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=24)
+- abstract_snippet: ''
+  already_in_v0.3: false
+  best_title_candidate: Real-time PPP with the fusion of Galileo HAS and BDS-3 PPP-B2b
+  candidate_id: V04-005
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224125021888-main.pdf
+  filename: 1-s2.0-S0263224125021888-main.pdf
+  keyword_scores:
+    bds_ppp: 17
+    boundary: 11
+    core_b2b: 23
+    general: 6
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=23)
+- abstract_snippet: ''
+  already_in_v0.3: false
+  best_title_candidate: Integration of GNSS Galileo High accuracy service, BDS-3 PPP-B2b
+    and INS for precise positioning in challenging environments
+  candidate_id: V04-006
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\1-s2.0-S0263224126008559-main.pdf
+  filename: 1-s2.0-S0263224126008559-main.pdf
+  keyword_scores:
+    bds_ppp: 24
+    boundary: 8
+    core_b2b: 22
+    general: 9
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=22)
+- abstract_snippet: 'Received:21September2025 Currently, thePPP-B2bservicefaceschallengessuchaslongconvergencetimesandre-
+
+    Revised:16October2025
+
+    convergenceissuesaftersignalinterruptionsduetothelackofhigh-precisionatmosphe'
+  already_in_v0.3: false
+  best_title_candidate: Enhancing PPP-B2b Performance with Regional Atmospheric Augmentation
+  candidate_id: V04-055
+  category: PPP_B2B_HAS_FUSION
+  expected_impact: taxonomy_change_or_new_route
+  file_path: E:\PPP\CC2read\paper\remotesensing-17-03522.pdf
+  filename: remotesensing-17-03522.pdf
+  keyword_scores:
+    bds_ppp: 10
+    boundary: 0
+    core_b2b: 20
+    general: 0
+  priority: P1_CORE
+  recommended_wave: 1
+  title_confidence: HIGH
+  why_candidate: PPP_B2B_HAS_FUSION (core_b2b=20)
+total: 80

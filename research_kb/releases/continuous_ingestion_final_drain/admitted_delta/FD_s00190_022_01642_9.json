@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s00190_022_01642_9",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Orbit determination, clock estimation and performance evaluation of BDS-3 PPP-B2b service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  JournalofGeodesy(2022)96:60 https://doi.org/10.1007/s00190-022-01642-9 ORIGINAL ARTICLE Orbit determination, clock estimation and performance evaluation of BDS-3 PPP-B2b service Chengpan Tang1·Xiaogong Hu1,3·Jinping Chen2·Li Liu2·Shanshi Zhou1·Rui Guo2·Xiaojie Li1,2·Feng He5· Jinhuo Liu1,4·Jianhua Yang1,4 Received:29November2020/Accepted:14July2022/Publishedonline:29August2022 ©S",
+      "Finally, the PPP-B2b performance is validated by both the static PPP process and simulated kinematic PPP process."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 35
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b": 85,
+    "has": 0,
+    "dcb": 35,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

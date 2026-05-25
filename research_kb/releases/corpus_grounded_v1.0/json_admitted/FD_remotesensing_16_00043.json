@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_remotesensing_16_00043",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Sub-Nanosecond UTC Dissemination Based on BDS-3 PPP-B2b Service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  remote sensing Article Sub-Nanosecond UTC Dissemination Based on BDS-3 PPP-B2b Service ZheZhang1,2,3 ,BaoqiSun1,2,3,* ,KanWang1,2,3 ,XiaohongHan1,2,3,HaiyanYang1,2,3,GeWang1,2,3, MeifangWu1,2,3,YuanxinWang1,2,3,ChangjiangGeng4andXuhaiYang1,2,3 1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China;zhangzhe@ntsc.ac.cn(Z.Z.); wangkan@ntsc.ac.cn(K.W.);hanxh26@126.com",
+      "ComparedwiththetraditionalPPPtechnique,thePPP-B2bservicebroadcastscorrectionsthrough satellitelinks, coversawidearea, andisindependentoftheinternet."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 22,
+    "b2b": 196,
+    "has": 0,
+    "dcb": 4,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

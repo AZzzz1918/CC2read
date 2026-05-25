@@ -1,0 +1,85 @@
+paper_id: RT_Kinematic_Orbit_LEO_B2b_HAS
+extraction_mode: full_strict_quotes
+batch: Batch 3 Phase A
+selection_role: boundary_mixed
+bibliographic_info:
+  title: Real-Time Kinematic Orbit Determination for LEO by Integrating Broadcast
+    Ephemerides, Galileo HAS, and BDS-3 PPP-B2b
+  authors: NOT_MENTIONED
+  year: 2024
+  journal_or_venue: NOT_MENTIONED
+product_source:
+  claimed: NOT_MENTIONED
+  actual_product_source: MIXED_PRODUCTS
+  evidence_strength: STRONG
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Real-timekinematicorbitdetermination(KOD)basedonbroad- castephemerides(BRD)enablesonboardhigh-rateorbitupdatesfor
+    Real-Time Kinematic Orbit lowEarthorbit(LEO)missionsbutwithlimitedaccuracy.Withthe
+    operationalavailabilityoftheGalileoHighAccuracyService(HAS) and the BDS-3 Precise
+    Point Positioning-B2b (PPP-B2b), real-time Determination for LEO by high-accuracycorrectionshavebecomea'
+  - Nevertheless, Integrating Broadcast eachproductexhibitsdistinctstrengthsandlimitations:BRDprovides
+    globalcoverageatrelativelylowaccuracy,HASdeliversglobalcor- rectionsbutexhibitsdegradedperformanceintheAsia–Pacific,and
+    Ephemerides, Galileo HAS, PPP-B2bachieveshighaccuracybutisconfinedtoaregionalservice
+    centered on China.
+  - These complementary characteristics motivate and BDS-3 PPP-B2b their integration
+    to achieve both high precision and robust global performance.UsingtheLuTan-1Amissionasacasestudy,weassess
+    thequalityandavailabilityofHASandPPP-B2bproductsandpropose a real-time KOD method
+    that integrates BRD, HAS and PPP-B2b.
+experiment_epoch:
+  start_date: DOY111
+  end_date: DOY 103
+  dates_found: []
+  months_found: []
+  doys_found:
+  - DOY111
+  - DOY104
+  - DOY 105
+  grounding_quotes:
+  - Received5October2025;revised7January2026;accepted16February Reichert et al.
+  - '[10] provided one of the earliest onboard 2026.Dateofpublication23February2026;dateofcurrentversion20
+    demonstrationsontheSatélitedeAplicacionesCientíficas- April2026.'
+correction_types:
+- type: orbit_correction
+- type: clock_correction
+dcb_handling:
+  status: NOT_MENTIONED
+  dcb_mentions: 0
+  grounding_quotes: []
+ionospheric_handling:
+  status: NOT_MENTIONED
+  iono_mentions: 0
+  grounding_quotes:
+  - Here, we adopt the ionosphere- China and its surrounding areas.
+mathematical_model:
+  processing_mode: NOT_MENTIONED
+  grounding_quotes: []
+datasets:
+  grounding_quotes: []
+metrics:
+  grounding_quotes: []
+main_results:
+  grounding_quotes: []
+novelty_audit:
+  audit_grade: NOT_AUDITED
+  grounding_quotes: []
+reproducibility_audit:
+  reproducibility_score: 1
+  reproduction_blockers:
+  - No source code or software release
+  - Raw GNSS observation data not publicly provided
+  - PPP-B2b correction archive not distributed
+  - Specific processing parameters not fully detailed
+pdf_metadata:
+  pages: 16
+  b2b_mentions: 172
+  has_mentions: 2
+  clas_mentions: 2
+  dcb_mentions: 0
+  iono_mentions: 0
+gate_status:
+  product_source_correct: true
+  expected_product_source: MIXED_PRODUCTS
+  wrong_support: false
+  epoch_valid: true
+  dcb_valid: true
+  blockers_non_empty: true

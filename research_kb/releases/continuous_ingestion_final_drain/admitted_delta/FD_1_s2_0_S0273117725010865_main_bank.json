@@ -1,0 +1,86 @@
+[
+  {
+    "quote_id": "qb_01f10bc2f0",
+    "span_index": 0,
+    "text": "Available online at www.sciencedirect.com\nScienceDirect\nAdvances in Space Research 77(2026)232–245\nwww.elsevier.com/locate/asr\nAnalysis of real-time kinematic positioning of UAV based on\nBDS-3 PPP-B2b service\nZihao Liua , Yifei Lva,b,c,⁎ , Guo Chend, Lewen Zhaoa,b,c , Feixiang Weie , Yuanjin Pana,b,c\na School of Remote Sensing and Geomatics Engineering, Nanjing University of Information ScienceandTechnology,No.219NingLiuRoad,Nanjing\n210044,China\nb Technology Innovation Center for Integrated Applications in Remote Sensing and Navigation,MinistryofNaturalResources,Nanjing210044,China\nc Jiangsu E",
+    "char_length": 3606
+  },
+  {
+    "quote_id": "qb_c779c6cc7f",
+    "span_index": 1,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\npositioning. The two dominant real-time high-precision 2 m ( Xu et al.,2024). The root mean square (RMS) error of\npositioning technologies are real-time kinematic (RTK) the radial recovered orbits is about 0.05 m, resulting in a\nand precise point positioning (PPP), both of which have three-dimensional (3D) orbit error of about 0.2 m. The\nbeen widely used in the fields of land, sea and air clockoffseterroris0.26ns,andthesignal-in-spaceranging\n(Zumberge et al., 1997; Rizos, 2009; Zhang et al., 2017; error (SISRE) reaches 0.8 m (Tang et al., 2022)",
+    "char_length": 6437
+  },
+  {
+    "quote_id": "qb_5c04350c9c",
+    "span_index": 2,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nstep-changes were found in the orbit corrections (Chen types at the same epoch. IOD navigation (IODN) is only\net al., 2 023), which is consistent with the discontinuity of broadcast with orbit corrections to match the IOD of clock\nbroadcast ephemeris updates (Liu et al., 2022a). This (IODC) from the navigation message. To recover the orbits\nmay potentially increase the recovery errors. Thus, a suit- and clock offsets, users should first collect the civil naviga-\nable method for orbit correction matching need stobepro- tion (CNAV1) message of th",
+    "char_length": 5032
+  },
+  {
+    "quote_id": "qb_c9ed98b0bc",
+    "span_index": 3,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nD dTs dTs dTs\nPPP B2b WUM PPP B2b WUM\n1\nN\ndTi dTi 4\nN PPP B2b WUM\ni 1\nwhere D dTs represents the systematic biases between the\nPPP-B2b and WUM clock offset for s atellite S;\n1 N dT i dTi means the systematic biases at epoch i;\nN i 1 a b\nN is the number of satellites at this epoch. It is important\ntonote that the PPP-B2b service provides correctionsonly\nfor satellites located in areas with GEO satellite signals\n(Yang et al., 2022), This means that the set of corrected\nsatellites varies over time, wi th a period of approximately\nseveral hours (He",
+    "char_length": 4393
+  },
+  {
+    "quote_id": "qb_58c417ce4a",
+    "span_index": 4,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nown receiving equipment, with an average flight time of\nabout half an hour. We collected three groups of observa-\ntions on 22 to 23 May 2024 at 1 s intervals for three flight\nstates, and the detailed information is shown in Table 2.\nThe forward flight (FF) maintained a regular flight state\nfrom 7:25 to 7:55 on DOY 144, 2024. The hovering flight\n(HF) occurred in a hovering state from 7:40 to 8:10 on\nDOY 143, 2024. The flight duration of the mixed flight\n(MF) span ned from 8:55 to 9:25 on DOY 143, 2024. The\nperiod between 8:55 and 9:04 involved h",
+    "char_length": 2628
+  },
+  {
+    "quote_id": "qb_c6ebd9d7f6",
+    "span_index": 5,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\n3.1. Comparison of orbit recovery methods PPP-B2b products can averagely enhance 8 to 12 BDS-3\nsatellites per epoch. The orbit corrections for BDS-3\nThe time series of the number of corrected satellites, MEO satellites are less than 0.1 m, 0.2 m, and 0.2 m in\nclock corrections, and orbit co rrections provided by the the radial, along-track, and cross-track directions, respec-\nPPP-B2b service on DOY 144 is shown in Fig. 5. C35 tively, as the broadcast orbits have been improved by\nwas excluded from evaluation and PPP testing due to the inter-sate",
+    "char_length": 2157
+  },
+  {
+    "quote_id": "qb_70549c1494",
+    "span_index": 6,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nFig. 6. Time series of orbit corrections of PPP-B2b products (left) andrecoveredorbiterrorsusingFECandNECmethods(right).\naround the epochs of step-changeasshowninFig. 6. It can of the NEC method. Fig. 7 compares the recovered orbit\nbe seen that the discontinuity of orbit corrections is more errors computed by two recovery methods at these epochs.\npronounced in the along-track direction compared to the The average errors of the FEC method are 3.2 cm, 11.1 cm,\nother directions. The orbit error obtained using the FEC and 9.8 cm in the radial, alon",
+    "char_length": 2099
+  },
+  {
+    "quote_id": "qb_62498231f8",
+    "span_index": 7,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nTable 4\nRecovered orbit errors for the BDS-3 MEO satellites using theFEC,NEC,andthecombinedFECandNECmethods.\nMethod Radial (cm) Along (cm) Cross (cm) 3D (cm) Number of recovered epochs\nFEC 4.1 14.8 13.8 20.7 970\nNEC 4.4 15.6 14.2 21.5 991\nCombined FEC andNEC 4.2 14.9 13.9 20.8 991\nFig. 8. Errors of the broadcast orbits (a) and PPP-B2b orbits (b) for BDS-3 MEOsatelliteswithrespecttotheWUMproductsonDOY144,2024.\nthe broadcast and PPP-B2b orbits are smaller than those in\nthe along-track and cross-track directions, with most radial\nerrors within 0.1",
+    "char_length": 1944
+  },
+  {
+    "quote_id": "qb_a9662b0795",
+    "span_index": 8,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nsignificantly better than the 0.81 ns of the broadcast clock broadcast products, with an average RMS of 0.050 m com-\noffset. pared to 0.069 m for the broadcast products. However, the\nThe RMS of SISRE and SISRE-orb of broadcast and average RMS of the SISRE for PPP-B2b is 0.572 m, which\nPPP-B2b products are depicted in Fig. 10. In terms of ishigherthanthe0.468mofthebroadcastephemeris.This\nSISRE-orb, the radial component error is the main source is due to the systematic biases in clock offsets of PPP-B2b\noferror(Ren et al.,2021). Thus, the RMS for",
+    "char_length": 1877
+  },
+  {
+    "quote_id": "qb_c8ee4f4235",
+    "span_index": 9,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nTable 5\nStatistical results of accuracy and convergence time for the static PPP performance tests conducted every3husingWUMandPPP-B2bproductsfrom\nDOY142to148in2024.\nStations Precise products E (cm) N (cm) U (cm) 3D (cm) Convergence time (min)\nULAB WUM 3.6 2.1 5.8 7.1 23\nPPP-B2b 4.1 3.0 7.6 9.1 26\nURUM WUM 3.5 2.5 6.1 7.5 24\nPPP-B2b 4.7 3.1 7.5 9.4 28\nWUH2 WUM 4.3 2.0 5.5 7.3 25\nPPP-B2b 5.3 2.5 7.5 9.5 26\nGAMG WUM 3.0 1.3 5.2 6.1 24\nPPP-B2b 5.1 2.5 7.6 9.5 27\nMean WUM 3.6 2.0 5.7 7.0 24\nPPP-B2b 4.8 2.8 7.6 9.4 27\nslower than that of WUM products",
+    "char_length": 4736
+  },
+  {
+    "quote_id": "qb_dc11502866",
+    "span_index": 10,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nFig. 12. Kinematic PPP errors and flight speed of FF (left), HF (middle) and MF(right)experimentsfortheUAVusingPPP-B2b,CNESandWUM\nproducts.\nTable 6\nThree sets for kinematic PPP results of accuracy and convergence timeusingWUMandPPP-B2bproductsat30sintervals.\nPlan Precise products E (cm) N (cm) U (cm) 3D (cm) Convergence time (min)\nFF CNES 7.0 5.6 10.8 14.0 20\nPPP-B2b 6.8 5.2 12.3 15.0 20\nWUM 5.1 3.8 10.1 11.9 18\nHF CNES 5.9 3.8 11.8 13.7 14\nPPP-B2b 6.2 4.1 12.5 14.5 17\nWUM 6.0 3.3 11.2 13.1 15\nMF CNES 5.9 4.6 11.5 13.7 12\nPPP-B2b 6.3 4.9 12.1 1",
+    "char_length": 1687
+  },
+  {
+    "quote_id": "qb_c97e0fa2c7",
+    "span_index": 11,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\n4. Conclusi ons\nThis study investigated the real-time kinematic position-\ning performance of the UAV based on the PPP-B2b ser-\nvice, with a thorough analysis and assessment of its\npositioning accuracy. The PPP-B2b correction messages\nfrom DOY 142 to 148, 2024 were collected to correct the\nbroadcast orbits and clock offsets. A forecast epoch correc-\ntions (FEC) method was proposed to reduce the orbit\nerrors at the step-change epochs, with an improvement of\n8.6 %, 10.5 %, and 9.3 % in the radial, along-track, and\ncross-track directions, respectiv",
+    "char_length": 3289
+  },
+  {
+    "quote_id": "qb_2a0c572100",
+    "span_index": 12,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nDeclaration of competing interest Kan, H., Hu, Z., Chen, G., Liu, X., Liu, C., Zhao, Q., 2024. Performance\ncomparison of orbit and clock augmentation corrections from PPP-\nB2b, HAS and CLAS. Adv. Space Res. 74 (2), 668–681. https://doi.\nThe authors declare that they have no known competing\norg/10.1016/j.asr.2024.04.029.\nfinancial interests or personal relationships that couldhave\nLi, B., Ge, H., Bu, Y., Zheng, Y., Yuan, L., 2022b. Comprehensive\nappeared to influence the work reported in this paper. assessment of real-time precise products from ",
+    "char_length": 7026
+  },
+  {
+    "quote_id": "qb_729751455a",
+    "span_index": 13,
+    "text": "Z.Liuetal. AdvancesinSpaceResearch77(2026)232–245\nWang, G., Cui, Y., Hu, Z., Su, X., Wu, B., 2023. Performance assessment Yang, Y., Mao, Y., Sun, B., 2020. Basic performance and future\nof the signal-in-space ranging errors of BDS-3: statistical character- developments of BeiDou global navigation satellite system. Satell.\nizationandintegritystandard.GPSSolut.27(4),189.https://doi.org/ Navig.1(1),1.https://doi.org/10.1186/s43020-019-0006-0.\n10.1007/s10291-023-01525-2. Yang, Y., Yang, Y., Hu, X., Tang, C., Guo, R., Zhou, Z., et al., 2021.\nWei, H., Xiao, G., Zhou, P., Li, P., Xiao, Z., Zhang, B., ",
+    "char_length": 3493
+  }
+]

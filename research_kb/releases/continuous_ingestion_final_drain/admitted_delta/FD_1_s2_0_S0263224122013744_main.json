@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S0263224122013744_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Real-time single-frequency precise point positioning using BDS-3 PPP-B2b corrections"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement205(2022)112178 Contents lists available at ScienceDirect Measurement journal homepage: www.elsevier.com/locate/measurement Real-time single-frequency precise point positioning using BDS-3 PPP-B2b corrections Haitao Zhoua,b, Lei Wanga,b,c,*, Wenju Fua, Yi Hana, Tao Lia, Wei Lia, Ruizhi Chena,c aState Key Laboratory of Information Engineering in Surveying, Mapping and R",
+      "The performance of the BDS-3 PPP-B2b services for dual- Single-frequency frequency precise point positioning (PPP) has been investigated, while how the PPP-B2b service benefits the Precise point positioning single-frequency (SF) users has not been investigated yet."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 9,
+    "b2b": 117,
+    "has": 0,
+    "dcb": 4,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

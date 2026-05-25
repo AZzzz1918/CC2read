@@ -1,0 +1,74 @@
+[
+  {
+    "quote_id": "qb_908a835e3d",
+    "span_index": 0,
+    "text": "Geophys.J.Int.(2022)231,2079–2090 https://doi.org/10.1093/gji/ggac311\nAdvanceAccesspublication2022August13\nGJISeismology\nGPS/BDS precise point positioning with B2b products for high-rate\nseismogeodesy: application to the 2021 M 7.4 Maduo earthquake\nw\nRongxin Fang,1 Huanghui Lv,1 Zhigang Hu,1 Guangxing Wang,2 Jiawei Zheng,1\nRenyu Zhou,1 Kun Xiao,3 Min Li1 and Jingnan Liu1\n1GNSSResearchCenter,WuhanUniversity,129LuoyuRoad,Wuhan430079,Hubei,China.E-mail:zhigang.hu@whu.edu.cn\n2SchoolofGeographyandInformationEngineering,ChinaUniversityofGeosciences,68JinchengStreet,Wuhan430078,China\n3WuhanGeomaticsI",
+    "char_length": 4415
+  },
+  {
+    "quote_id": "qb_461d8bd1dc",
+    "span_index": 1,
+    "text": "2080 R.Fangetal.\nvelocities,theintegrationprocessissubjecttoaccumulationerrors\nwithincreasedintegrationtimespan.Tocircumventthisproblem,\ntheintegrationtimespanneedtobeconstrainedwithinafewmin-\nutes,butitwillnotbesuitablefortheretrievalofdisplacementsin\nrealtime(Branzantietal.2012).\nThe third generation of BeiDou Navigation Satellite System\n(BDS-3) is fully completed on 31 July 2020 (Yang et al. 2020).\nThe BDS-3 Geostationary Earth Orbit (GEO) satellites broadcast\nSSR (State Space Representation) corrections of precise satellite\norbits,clockoffsetsandcodebiasthroughB2bsignal.Userscan\nrecover pr",
+    "char_length": 5154
+  },
+  {
+    "quote_id": "qb_8f0ddab8c8",
+    "span_index": 2,
+    "text": "PPP-B2bproductsforseismogeodesy 2081\nTable 1. Detailed information of the 2010 El Mayor-Cucapah earthquake and the 2008 Iwate-Miyagi Nairiku\nearthquakeprovidedbyPEERgroundmotiondatabaseandpreviousstudies(Graves&Aagaard2011;Hobigeretal.\n2012;Yuetal.2019).\nItems Information\nEarthquakename The2010ElMayor-Cucapah The2008Iwate-MiyagiNairiku\nTime 22:40:42UTCon4April2010 11:43pmUTCon13June2008\nLocation BajaCalifornia NortheasternHonshu¯inJapan\nMagnitude Mw7.2 Mw6.9\nStation Chihuahua MYG004\nRupturedistance 19.47km 20.18km\nDepthofthehypocentre 10km 5km\nTheprecisesatelliteclockoffsetscanberecoveredas\nC\n",
+    "char_length": 4867
+  },
+  {
+    "quote_id": "qb_0d962b9137",
+    "span_index": 3,
+    "text": "2082 R.Fangetal.\nFigure3. GPSbroadcast(left-handcolumn)andB2b(right-handcolumn)real-timeorbiterrorseries.\nTable2. TheRMSofbroadcastandB2borbiterrorswithrespecttotheWUMproducts(unit:cm).\nProduct GPS BDS\nRadial Along-track Cross-track Radial Along-track Cross-track\nBroadcast 59.3 80.0 50.2 7.4 44.5 63.5\nB2b 7.6 45.0 31.4 7.3 44.0 61.7\nThus,eq.(5)canbelinearizedas cross-trackdirections.Manydiscontinuitiescanbeseeninthetime-\n(cid:5) seriesofbroadcastorbiterrors,sincetheGPSbroadcastephemeris\nρ\nr\ns\n,IF\n−ρ\n0\ns\n,r\n=−edx+dt˜\nr\n+m\nr\nsz\nr\n+ε\nρ,IF (7) are updated every 2 hr. The time-series of orbit error",
+    "char_length": 2536
+  },
+  {
+    "quote_id": "qb_dbd6ff76eb",
+    "span_index": 4,
+    "text": "PPP-B2bproductsforseismogeodesy 2083\nFigure4. Time-seriesofBDSbroadcast(left-handcolumn)andB2b(right-handcolumn)real-timeorbiterrors.\nFigure5. Time-seriesofGPSbroadcast(toppanel)andB2b(bottompanel)real-timeclockoffseterrors.\nDownloaded\nfrom\nhttps://academic.oup.com/gji/article/231/3/2079/6665929\nby\nguest\non\n22\nMay\n2026",
+    "char_length": 320
+  },
+  {
+    "quote_id": "qb_1b3f663f4a",
+    "span_index": 5,
+    "text": "2084 R.Fangetal.\nFigure6. Time-seriesofBDSbroadcast(toppanel)andB2b(bottompanel)real-timeclockoffsetserrors.\nFigure7. Satellitenumbers(upperleft-handpanel),PDOPvalues(lowerleft-handpanel)andskymapofvisiblesatellites(right-handpanel)inWUMand\nB2bproductsduringtheshaketableexperiment.\nSystematicbiasesexistintheB2bclockoffsetsofallsatellitesand ShowninFigs5and6arethebroadcastandB2bclockoffsets\ntheyarecausedbythedifferencesintheunderlyingrealizationof errors for GPS and BDS, respectively. Compared with broadcast\ntheGNSS-specificsystemtimescales(Montenbrucketal.2014). clock offsets errors, B2b clock",
+    "char_length": 1020
+  },
+  {
+    "quote_id": "qb_e61b3d6732",
+    "span_index": 6,
+    "text": "PPP-B2bproductsforseismogeodesy 2085\nFigure8. Real-timePPPresultsofstaticexperimentineast,northandverticalcomponentswith1min(left-handpanels)and3min(right-handpanels)data.\nThePPPresultsareshiftedverticallyby5,10and15cmforclarity.\nTable3. Accuraciesofreal-timePPPwithB2bproducts(unit:mm).\nSystem STD(1mindata) STD(3mindata)\nEast North Vertical East North Vertical\nBDS 4.9 3.7 8.9 5.3 4.3 12.0\nGPS 6.3 6.4 24.1 9.9 7.8 21.1\nGPS/BDS 4.3 3.2 10.2 5.4 3.6 10.2\nclockoffsetserrorsis0.81ns(24.3cm)and0.22ns(6.7cm),re- collectedbyaTrimbleAlloyreceiver.TheGNSSdataareprocessed\nspectively.Theseaccuraciesarecal",
+    "char_length": 2314
+  },
+  {
+    "quote_id": "qb_af86941886",
+    "span_index": 7,
+    "text": "2086 R.Fangetal.\nFigure9. NorthdisplacementsofBDS-only,GPS-onlyandGPS/BDSPPPwithWUMfinalproducts(blue)andB2bproducts(red)inthesinusoidalexperiment\n(0.5Hz/3cm).Themeasurementsoftheembeddedencoderareshowninblacklines.ThecorrespondingRMSvaluesofPPPerrorsarelisted.\nFigure 10. North displacements of BDS-only, GPS-only and GPS/BDS PPP with the products of WUM (blue) and B2b products (red) of the 2010 El\nMayor-Cucapahearthquake.Themeasurementsoftheembeddedencoderaredisplayedasblacklines.ThecorrespondingRMSvaluesofPPPerrorsarealso\nlisted.\nDownloaded\nfrom\nhttps://academic.oup.com/gji/article/231/3/2079",
+    "char_length": 632
+  },
+  {
+    "quote_id": "qb_9323e6c381",
+    "span_index": 8,
+    "text": "PPP-B2bproductsforseismogeodesy 2087\nFigure11. NorthdisplacementsofBDS-only,GPS-onlyandGPS/BDSPPPwiththeproductsofWUM(blue)andB2bproducts(red)ofthe2008Iwate-Miyagi\nNairikuearthquake.Themeasurementsoftheembeddedencoderaredisplayedasblacklines.ThecorrespondingRMSvaluesofPPPerrorsarealsolisted.\nInaddition,weconducttwosimulatedearthquakeexperiments.\nThe acceleration data of the 2010 El Mayor-Cucapah earthquake\nandthe2008Iwate-MiyagiNairikuearthquakearepreloadedand\nthe shake table vibrates accordingly. Considering that the shake\ntablecanonlyprovidesingle-axisvibration,weonlyusethedata\nof north comp",
+    "char_length": 1870
+  },
+  {
+    "quote_id": "qb_7c18b26bae",
+    "span_index": 9,
+    "text": "2088 R.Fangetal.\nFigure13. ThedisplacementsderivedfromPPPwithB2bproducts(red)andWUMfinalproducts(blue)fortheMw7.4Maduoearthquake.ForstationBUJZ,\nLAJA,GANDandHSHX,thedataareprocessedinGPS-only,whileforstationQHMD,theresultsofGPS/BDS-3combinationaredisplayedingreen.\nofseismicwavesforthefirsttime.Amongthefivestationsinour Earthquake magnitude is one of the key parameters for EEW\nexperiment,onlythestationQHMDcanprovideBDS-3observa- and rapid hazard response (Allen & Ziv 2011). We also inves-\ntions.TheskymapofGPSandBDS-3satellitesinB2bproducts tigate the contribution of the displacements derived fr",
+    "char_length": 2320
+  },
+  {
+    "quote_id": "qb_b7145430bb",
+    "span_index": 10,
+    "text": "PPP-B2bproductsforseismogeodesy 2089\nTable4. TheRMSvaluesofdifferencesbetweenPPPwithB2bproductsand\nPPPwithWUMfinalproducts.\nStation System RMS(cm)\nEast North Vertical\nBUJZ GPS 1.3 1.8 1.5\nLAJA GPS 1.4 2.0 1.3\nGAND GPS 2.3 3.3 2.0\nHSHX GPS 1.8 2.6 1.2\nQHMD GPS 1.8 2.3 2.3\nAverage 1.7 2.4 1.7\nFigure14. PGDvalues(toppanel)andmagnitudes(bottompanel)derivedfromPPPwithWUMfinalproductsandB2bproducts.ForstationBUJZ,LAJA,\nGANDandHSHX,thedataareprocessedinGPS-only,whileforstationQHMD,theresultsofGPS/BDScombinationaredisplayingreen.\nFig.14illustratestheextractedPGDvaluesandcorresponding arealearthquakeof",
+    "char_length": 2934
+  },
+  {
+    "quote_id": "qb_d685f471e5",
+    "span_index": 11,
+    "text": "2090 R.Fangetal.\nCONFLICT OF INTEREST Ren, Z., Gong, H., Peng, J., Tang, C., Huang, X. & Sun, G., 2021. Per-\nformanceassessmentofreal-timeprecisepointpositioningusingBDS\nTheauthorsdeclarethattheyhavenoknowncompetingfinancial\nPPP-B2bservicesignal,Adv.SpaceRes.,68,3242–3254.\ninterestsorpersonalrelationshipsthatcouldhaveappearedtoinflu-\nRuhl,C.J.etal.,2018.Aglobaldatabaseofstrong-motiondisplacement\nencetheworkreportedinthispaper.\nGNSSrecordingsandanexampleapplicationtoPGDscaling,Seismol.\nRes.Lett.,90,271–279.\nRuhl,C.J.etal.,2019.Aglobaldatabaseofstrongmotiondisplacement\nGNSSrecordingsandanexample",
+    "char_length": 6886
+  }
+]

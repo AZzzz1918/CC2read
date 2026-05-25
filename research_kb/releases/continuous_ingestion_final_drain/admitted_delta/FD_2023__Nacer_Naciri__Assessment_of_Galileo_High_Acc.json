@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_2023__Nacer_Naciri__Assessment_of_Galileo_High_Acc",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Nacer Naciri1 · Ding Yi1 · Sunil Bisnath1 · F. Javier de Blas2 · Roberto Capua3"
+  },
+  "product_source": {
+    "actual_product_source": "MIXED_PRODUCTS",
+    "grounding_quotes": [
+      "The Chinese BeiDou has a similar regional PPP ser- First, details about HAS and its application method on the vice called PPP-B2b, where multi-GNSS (only BeiDou and user side are provided, followed by an analysis of the cor- GPS at the moment) PPP corrections are broadcast to users rections availability.",
+      "The satellite products are analyzed by in China and its surrounding areas through BeiDou’s GEO comparing the satellite orbits and clocks to reference values satellites over the B2b signal (Liu et al."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 25
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b": 11,
+    "has": 16,
+    "dcb": 25,
+    "clas": 3
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "BOUNDARY_RELEVANT"
+}

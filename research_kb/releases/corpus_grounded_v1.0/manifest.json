@@ -1,0 +1,37 @@
+{
+  "release_name": "corpus_grounded_v1.0",
+  "release_type": "consolidated_corpus",
+  "release_date": "2026-05-25",
+  "total_papers": 107,
+  "source_releases": [
+    "corpus_grounded_v0.3",
+    "v0.4_waves_1-3",
+    "CI-001",
+    "CI-002",
+    "CI-003",
+    "CI-004",
+    "FINAL_DRAIN",
+    "v1.0-patch-1 (restored s10291_024_01730_7, s43020_024_00146_5)",
+    "v1.0-patch-2 (fixed 6 NOT_MENTIONED titles, removed 1 duplicate)"
+  ],
+  "product_source_distribution": {
+    "BDS3_PPP_B2B_BROADCAST": 93,
+    "CNES_OR_OTHER_RTS": 2,
+    "MIXED_PRODUCTS": 10,
+    "QZSS_CLAS": 2
+  },
+  "dcb_distribution": {
+    "NOT_MENTIONED": 29,
+    "BRIEFLY_MENTIONED": 17,
+    "EXPLICITLY_DESCRIBED": 30,
+    "MENTIONED": 30,
+    "INSUFFICIENT_EVIDENCE": 1
+  },
+  "wrong_support": 0,
+  "consistency_issues": 1,
+  "consistency_pass": false,
+  "writing_views_generated": true,
+  "query_views_generated": true,
+  "corpus_index_generated": true,
+  "regression_status": "pending"
+}

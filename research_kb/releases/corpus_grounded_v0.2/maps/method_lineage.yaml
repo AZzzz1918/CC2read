@@ -1,0 +1,16 @@
+version: v0.2
+methods:
+- method: Ionosphere-free PPP
+  papers: 15
+- method: Kalman filter estimation
+  papers: 6
+- method: ISL-enhanced orbit determination
+  papers: 1
+- method: Software-defined receiver (SDR)
+  papers: 1
+- method: Multi-frequency PPP (QF)
+  papers: 2
+- method: Coseismic displacement retrieval
+  papers: 1
+- method: PWV/ZTD estimation from PPP
+  papers: 2

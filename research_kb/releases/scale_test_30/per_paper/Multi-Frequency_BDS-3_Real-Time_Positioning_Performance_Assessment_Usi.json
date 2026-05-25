@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper directly assesses the quality of real-time PPP-B2b orbit, clock, and DCB products and evaluates multi-frequency BDS-3 PPP positioning performance using these corrections.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "Multi-Frequency_BDS-3_Real-Time_Positioning_Performance_Assessment_Using_New_PPP-B2b_Augmentation_Service.pdf",
+  "paper_id": "Multi-Frequency_BDS-3_Real-Time_Positioning_Performance_Assessment_Usi",
+  "extraction_mode": "batch_classify_1call"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_46f20e8897",
+    "span_index": 0,
+    "text": "GPS Solutions (2024) 28:2\nhttps://doi.org/10.1007/s10291-023-01540-3\nORIGINAL ARTICLE\nInitial performance assessment of Galileo High Accuracy Service\nwith software‑defined receiver\nPeiyuan Zhou1 · Guorui Xiao1 · Lan Du1\nReceived: 7 May 2023 / Accepted: 26 August 2023\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nThe European Galileo High Accuracy Service (HAS) was officially declared as initial service status on January 24, 2023,\nwhich can provide freely and openly accessible real-time precise satellite orbit, clock and code bia",
+    "char_length": 4183
+  },
+  {
+    "quote_id": "qb_e440049c4a",
+    "span_index": 1,
+    "text": "2 Page 2 of 14 GPS Solutions (2024) 28:2\nOn January 24, 2023, the Galileo High Accuracy Service (Montenbruck et al. 2017). Finally, conclusions and future\n(HAS) was declared operational as initial service, which dis- works are summarized.\nseminates real-time precise satellite orbit, clock and code bias\nproducts via the Galileo E6B signals (European Union 2022,\nMethodologies\n2023). As the latest GNSS system to provide real-time PPP\naugmentation service via navigation satellite signals, Galileo\nHAS is aimed to support decimeter-level real-time PPP solu- In this section, we first present the coll",
+    "char_length": 5309
+  },
+  {
+    "quote_id": "qb_196d9d6507",
+    "span_index": 2,
+    "text": "GPS Solutions (2024) 28:2 Page 3 of 14 2\nFig. 1 HAS correction data col- GNSS Antenna\nlection with a software-defined\nHAS Orbit\nreceiver (SDR)\nCorrec(cid:31)ons\nHAS Clock\nBias-Tee USRP B210\nCorrec(cid:31)ons\nGNSS-SDR\nHAS Code Bias\nwhere RE R C A E C F is the transformation matrix and can be Geosciences (GFZ) as the references for quality assessment\nobtained as: (Männel et al. 2020). Since the recovered HAS and GFZ sat-\nellite orbit products refer to the antenna phase center (APC)\nRE R C A E C F = [ x x ̇ ̇ s s × x x s s × × x x ̇ ̇ s s x x ̇ ̇ s s x xs s × × x x ̇ ̇ s s ] (3) and center of mas",
+    "char_length": 4169
+  },
+  {
+    "quote_id": "qb_51a2a85290",
+    "span_index": 3,
+    "text": "2 Page 4 of 14 GPS Solutions (2024) 28:2\nGalileo HAS product quality assessment cross-track components, respectively, while the valid val-\nues of the HAS clock corrections range from − 10.2375 to\nTo assess the performance of the Galileo HAS products, we 10.2350 m (European Union 2022). After excluding invalid\ncollected HAS correction data of 10 days from March 11 to HAS orbit and clock corrections, the daily availability of\n20 (DOY 70–79), 2023, in Zhengzhou, China. The sampling HAS orbit and clock corrections are calculated and plot-\nfrequency of the USRP B210 is set to 4 million samples per ",
+    "char_length": 2900
+  },
+  {
+    "quote_id": "qb_64b873cfc9",
+    "span_index": 4,
+    "text": "GPS Solutions (2024) 28:2 Page 5 of 14 2\nFig. 3 Availability of the\nrecovered HAS satellite orbit\nand clock products from DOY\n70–79, 2023\nGPS G22), while that of the recovered HAS Galileo satel- along-track direction, which should be further investigated\nlite orbit and clock products is 91.7% (excluding Galileo in future work. Meanwhile, the HAS orbit errors for most\nE14 and E18 in highly eccentric orbits). The availability of of the Galileo satellites are within 0.5 m, except for the\nHAS Galileo satellite orbit and clock products is higher than Galileo E01 in the along-track direction. Nevert",
+    "char_length": 2394
+  },
+  {
+    "quote_id": "qb_dbc55d43fd",
+    "span_index": 5,
+    "text": "2 Page 6 of 14 GPS Solutions (2024) 28:2\nFig. 4 HAS GPS satellite orbit errors at DOY 70, 2023. Each color Fig. 5 HAS Galileo satellite orbit errors at DOY 70, 2023. Each color\nrepresents different GPS satellites represents different Galileo satellites\nof HAS satellite orbit products are stable during the test The quality of the HAS satellite clock products is also\nperiod, and the average RMSs for HAS GPS satellite orbit assessed using GFZ precise clock products as the reference.\nproducts during the whole test period are 0.037, 0.106 and As examples, the double-difference HAS satellite clock\n0",
+    "char_length": 2791
+  },
+  {
+    "quote_id": "qb_3c8df1d490",
+    "span_index": 6,
+    "text": "GPS Solutions (2024) 28:2 Page 7 of 14 2\nFig. 6 RMS of HAS satellite\norbit products at DOY 70, 2023\nTable 1 Daily RMS of HAS\nDOY GPS Galileo\nsatellite orbit products during\nDOY 70–79, 2023 (unit m) Radial Along-track Cross-track Radial Along-track Cross-track\n70 0.033 0.091 0.050 0.032 0.082 0.059\n71 0.029 0.086 0.056 0.037 0.088 0.065\n72 0.032 0.080 0.050 0.029 0.084 0.052\n73 0.031 0.087 0.056 0.032 0.092 0.064\n74 0.031 0.090 0.070 0.033 0.095 0.074\n75 0.034 0.087 0.059 0.028 0.095 0.072\n76 0.047 0.123 0.066 0.031 0.109 0.076\n77 0.047 0.157 0.056 0.029 0.089 0.061\n78 0.043 0.151 0.053 0.041 0",
+    "char_length": 771
+  },
+  {
+    "quote_id": "qb_1530bdba75",
+    "span_index": 7,
+    "text": "2 Page 8 of 14 GPS Solutions (2024) 28:2\nTable 2 Daily RMS of\nDOY GPS Galileo\nbroadcast satellite orbit products\nduring DOY 70–79, 2023 (unit Radial Along-track Cross-track Radial Along-track Cross-track\nm)\n70 0.312 1.010 0.417 0.112 0.241 0.145\n71 0.311 0.992 0.421 0.116 0.245 0.140\n72 0.316 0.850 0.459 0.124 0.260 0.162\n73 0.295 0.866 0.433 0.112 0.262 0.149\n74 0.340 0.956 0.458 0.111 0.267 0.152\n75 0.343 0.902 0.433 0.115 0.248 0.141\n76 0.448 1.117 0.410 0.120 0.277 0.169\n77 0.372 1.066 0.379 0.111 0.260 0.159\n78 0.395 1.001 0.426 0.118 0.301 0.169\n79 0.317 0.918 0.426 0.112 0.301 0.171\nAve",
+    "char_length": 2934
+  },
+  {
+    "quote_id": "qb_134e5472de",
+    "span_index": 8,
+    "text": "GPS Solutions (2024) 28:2 Page 9 of 14 2\nFig. 8 STD of HAS satellite\nclock differences for each satel-\nlite at DOY 70, 2023\nTable 3 Daily precision of HAS and broadcast satellite clock prod- In the PPP processing, E1/E5a (C1C/C5Q) are used for\nucts during DOY 70–79, 2023 (unit ns) Galileo, while L1/L2 (C1W/C2W) are used for GPS. These\nDOY HAS Broadcast signals were chosen according to high availability and in\naccordance with the principle of orbit and clock generation\nGPS Galileo GPS Galileo\n(Uhlemann et al. 2020). Throughout the processing, MGEX\n70 0.22 0.15 0.64 0.42 precise products, includ",
+    "char_length": 1857
+  },
+  {
+    "quote_id": "qb_ec19040fc7",
+    "span_index": 9,
+    "text": "2 Page 10 of 14 GPS Solutions (2024) 28:2\nFig. 10 Convergence performance of GPS PPP with GFZ and HAS\nproducts based on 360 stations under 50% confidence levels\naccuracy of GPS PPP with GFZ products is 0.32, 0.15 and\n0.51 cm for the east, north and up components, respectively,\nwhile that for HAS products is 2.8, 1.53 and 2.18 cm, respec-\ntively. The results indicate that the quality of HAS prod-\nucts can support centimeter-level positioning, although it is\nslightly worse than GFZ products. As for the convergence,\nit takes 3, 6 and 15 min for GPS PPP with GFZ products\nto converge to three-dimen",
+    "char_length": 3628
+  },
+  {
+    "quote_id": "qb_68bb815c22",
+    "span_index": 10,
+    "text": "GPS Solutions (2024) 28:2 Page 11 of 14 2\nTable 4 Daily accuracy of\nDOY GFZ HAS\nGPS PPP with GFZ and HAS\nproducts during DOY 70–79, East North Up East North Up\n2023 (unit cm)\n70 0.33 0.12 0.48 3.12 1.70 2.15\n71 0.34 0.17 0.63 3.79 1.06 2.71\n72 0.40 0.14 0.65 3.02 2.09 2.85\n73 0.26 0.12 0.54 2.40 1.46 2.17\n74 0.33 0.23 0.56 4.28 1.52 1.97\n75 0.42 0.13 0.55 3.19 1.45 1.86\n76 0.27 0.13 0.45 2.99 1.79 1.92\n77 0.17 0.14 0.41 1.41 1.37 2.49\n78 0.45 0.15 0.56 2.13 1.10 1.41\n79 0.21 0.14 0.29 1.64 1.75 2.24\nAverage 0.32 0.15 0.51 2.80 1.53 2.18\nFig. 11 Convergence performance of Galileo PPP with GFZ a",
+    "char_length": 1377
+  },
+  {
+    "quote_id": "qb_23679e54a5",
+    "span_index": 11,
+    "text": "2 Page 12 of 14 GPS Solutions (2024) 28:2\nwhile that of HAS products is 16, 25 and 148 min, respec- 2.54 cm for the east, north and up components, respectively,\ntively. The overall convergence time is slightly longer than while that for HAS products is 7.94, 5.55 and 13.39 cm,\nthat of GPS PPP due to the fewer observable satellites of respectively. Although the worse quality of HAS products\nGalileo. may result in low accuracy, we also found that the missing\nvalues in HAS products significantly influence kinematic\nKinematic PPP processing\nPPP performance. Since the extend Kalman filtering is use",
+    "char_length": 3215
+  },
+  {
+    "quote_id": "qb_b9adfe9ed6",
+    "span_index": 12,
+    "text": "GPS Solutions (2024) 28:2 Page 13 of 14 2\nTable 7 Daily accuracy of\nDOY GFZ HAS\nGalileo kinematic PPP with\nGFZ and HAS products during East North Up East North Up\nDOY 70–79, 2023 (unit cm)\n70 1.71 1.29 3.67 7.55 5.39 11.75\n71 2.67 1.67 4.40 7.16 5.12 12.09\n72 2.46 1.49 4.18 9.14 5.54 13.13\n73 1.73 1.34 3.48 7.21 5.57 11.88\n74 2.16 1.41 3.81 11.03 6.13 15.37\n75 2.62 1.36 4.29 6.76 4.48 12.48\n76 1.81 1.44 3.31 9.28 6.00 13.71\n77 2.12 1.54 3.60 7.97 5.09 12.81\n78 2.39 1.58 3.83 6.94 4.81 9.60\n79 2.04 1.39 4.06 7.79 4.67 11.45\nAverage 2.17 1.45 3.86 8.08 5.28 12.43\nis 86.9% (excluding GPS G22), wh",
+    "char_length": 4411
+  },
+  {
+    "quote_id": "qb_edc8f8bbce",
+    "span_index": 13,
+    "text": "2 Page 14 of 14 GPS Solutions (2024) 28:2\nIn: EGU General Assembly, Geophysics Research Abstracts 13, Naciri N, Yi D, Bisnath S, de Blas FJ, Capua R (2023) Assessment of\nEGU2011-7472 Galileo High Accuracy Service (HAS) test signals and prelimi-\nChen X et al (2011) Trimble RTX, an innovative new approach for nary positioning performance. GPS Solut 27:73\nnetwork RTK. In: Proceedings of the ION GNSS 2011, Insti- Nie Z, Xu X, Wang Z, Du J (2021) Initial assessment of BDS PPP-B2b\ntute of Navigation, Portland, Oregon, USA, September 20–23, service: precision of orbit and clock corrections, and PPP p",
+    "char_length": 6264
+  },
+  {
+    "quote_id": "qb_ce8a989ca1",
+    "span_index": 14,
+    "text": "Terms and Conditions\nS pringer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH (“Springer Nature”).\nSpringer Nature supports a reasonable amount of sharing of research papers by authors, subscribers and authorised users (“Users”), for small-\nscale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained. By\naccessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use (“Terms”). For these\np urposes, Springer Nature consider",
+    "char_length": 4128
+  }
+]

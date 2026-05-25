@@ -1,0 +1,55 @@
+{
+  "paper_id": "V04_s41597_026_07032_6",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "bibliographic_info": {
+    "title": "BDSet: A First-ever BDS Satellite-based PPP Augmentation Dataset Since 2023",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  www.nature.com/scientificdata OPEN BDSet: a First-ever BDS Satellite- based PPP augmentation Dataset DATA DeSCRIPToR Since 2023 Chenhao Ouyang 1,2, Junbo Shi1 ✉, Cheng Hou1, Wenjie Peng1, Jiming Guo1 & Yibin Yao1 the BDS precise point positioning (PPP) service broadcasts state space representation (SSR) corrections via PPP-B2b augmentation signals.",
+      "To maximize research potentials of the service, this study develops a first-ever BDS PPP-B2b augmentation dataset since January 2023, named BDSet."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 35,
+    "grounding_quotes": [
+      "Specifically, the BDS PPP service generates BDS/GPS satellite orbit, clock offset, and differential code bias (DCB) corrections at intervals of 48/6/48 s, respectively, based on 12 continuous tracking stations located within China5."
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 1
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b_mentions": 204,
+    "has_mentions": 1,
+    "clas_mentions": 6,
+    "dcb_mentions": 35
+  },
+  "gate_status": {
+    "wrong_support": false,
+    "epoch_valid": true
+  },
+  "category": "PPP_B2B_DATASET",
+  "priority": "P0_ROUTE_CHANGING",
+  "expected_impact": "new_technical_route",
+  "corpus_version": "v1.0"
+}

@@ -1,0 +1,1598 @@
+[
+  {
+    "quote_id": "qb_3513bd33ba",
+    "span_index": 0,
+    "text": "A Comparative Investigation of\nBroadcast Frameworks, Service\nAvailability, and Time Transfer\nPerformance in PPP-B2b, HAS,\nand MADOCA-PPP\nRunzhi Zhang, Rui Tu, Jihai Zhang, and Xiaochun Lu\nThe precise point positioning (PPP) technique has approximately 99% for both GPS and Galileo users.",
+    "char_length": 287
+  },
+  {
+    "quote_id": "qb_81f7bd8c1b",
+    "span_index": 1,
+    "text": "Further-\nbeen used in the calculations of international atomic more, the MADOCA-PPP service achieves an impressive PPP\ntime (TAI) links for decades.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_7a1c2abd31",
+    "span_index": 2,
+    "text": "PPP depends on ex- availability of 99.99% for GPS users.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_463c8a1c54",
+    "span_index": 3,
+    "text": "In the time transfer re-\nternal precise satellite orbit, clock offset, and bias products sults, where the National Time Service Center (NTSC) serves\nto correct satellite-specific errors.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_1cac288835",
+    "span_index": 4,
+    "text": "In recent years, the emer- as the central node linking international GNSS service (IGS)\ngence of real-time precise satellite products broadcast via stations, time comparison errors for all three services fluctu-\nsatellites has facilitated research and applications of PPP in ate within ±0.5 ns, even with a baseline length extending up\npositioning and time transfer.",
+    "char_length": 366
+  },
+  {
+    "quote_id": "qb_d9ac587f68",
+    "span_index": 5,
+    "text": "These precise satellite prod- to 2631 km.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_dc33e8fecf",
+    "span_index": 6,
+    "text": "Notably, the newly released MADOCA-PPP dem-\nucts are provided through the PPP services of navigation onstrates the highest time transfer accuracy, attributed to its\nsatellite systems, including the BeiDou global navigation high-precision satellite clock offset products.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_c506cb8bc9",
+    "span_index": 7,
+    "text": "As a result, time\nsatellite system (BDS) PPP-B2b, the European Galileo high ac- users can select appropriate services to support continuous,\ncuracy service (HAS), and the Quasi-Zenith Satellite System stable, and reliable real-time time transfer at the sub-nano-\n(QZSS) Multi-GNSS advanced orbit and clock augmentation- second level, based on the local continuity performance of\nPPP (MADOCA-PPP).",
+    "char_length": 396
+  },
+  {
+    "quote_id": "qb_38c76f6eb8",
+    "span_index": 8,
+    "text": "In contrast to real-time precise satellite the three services and with consideration of their broadcast\nproducts provided over the Internet, the bandwidth limita- frameworks, decoding complexity, and respective advan-\ntions of satellite broadcasts necessitate the segmentation of tages and limitations.",
+    "char_length": 302
+  },
+  {
+    "quote_id": "qb_5e403a2d40",
+    "span_index": 9,
+    "text": "complete precise products into various message types for\nsequential transmission.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_37b314619a",
+    "span_index": 10,
+    "text": "Users must accurately match and Development and Broadcast of High-\nreconstruct these message segments to reliably restore the Precision GNSS Satellite Products\ncomplete product, thereby ensuring the continuity of PPP The global navigation satellite system (GNSS) is essential\ntime transfer.",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_70e2a9fe18",
+    "span_index": 11,
+    "text": "Moreover, the coverage and availability of PPP for positioning, navigation, and timing (PNT) applications.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_ba3942e530",
+    "span_index": 12,
+    "text": "supported by these satellite products directly influence the GNSS carrier phase time transfer using precise point posi-\neffectiveness of time transfer.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_1da7ae0970",
+    "span_index": 13,
+    "text": "Consequently, a comparative tioning (PPP) [1] has been incorporated into the calculations\ninvestigation of broadcast frameworks, service availability, of international atomic time (TAI) links by the International\nand time transfer performance was conducted to assist time Bureau of Weights and Measures (BIPM), owing to the excep-\nusers in selecting the suitable services and addressing the tionally low measurement noise associated with carrier phase\nchallenges associated with precise product recovery.",
+    "char_length": 504
+  },
+  {
+    "quote_id": "qb_e4ac678165",
+    "span_index": 14,
+    "text": "The in- observations [2].",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_e0b91b5bd8",
+    "span_index": 15,
+    "text": "The PPP technique, in addition to employ-\nvestigation evaluated the accuracy of the recently released ing observations from a GNSS receiver, depends on externally\nMADOCA-PPP for time transfer.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_72c956857b",
+    "span_index": 16,
+    "text": "The analysis indicates that provided high-precision satellite products.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_c183325ddf",
+    "span_index": 17,
+    "text": "Initially, real-time\nthe PPP-B2b service employs shorter message lengths and satellite products were generated by the international GNSS\nincorporates error correction mechanisms to ensure the accu- service (IGS) analysis centers and made accessible via the\nracy of product transmission.",
+    "char_length": 286
+  },
+  {
+    "quote_id": "qb_1dce2f7ff3",
+    "span_index": 18,
+    "text": "In contrast, the MADOCA-PPP Internet [3].",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_434b799cf8",
+    "span_index": 19,
+    "text": "The emergence of real-time precise satellite prod-\nservice provides a more straightforward message matching ucts has advanced both research and applications in real-time\nprocess, while the HAS service accomplishes global cover- PPP time transfer, achieving accuracy at the sub-nanosecond\nage through a complex encoding and transmission scheme.",
+    "char_length": 343
+  },
+  {
+    "quote_id": "qb_e7d382f1fb",
+    "span_index": 20,
+    "text": "However, this complexity increases the challenges associated In recent years, navigation systems have begun broad-\nwith product recovery for users.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_d9c68c31b7",
+    "span_index": 21,
+    "text": "Moreover, the PPP avail- casting precise satellite products directly via their satellites\nability of the PPP-B2b service for BDS users in China and its to address the challenges posed by limited network avail-\nsurrounding areas is recorded at 99.93%.",
+    "char_length": 250
+  },
+  {
+    "quote_id": "qb_657f77c2bd",
+    "span_index": 22,
+    "text": "In comparison, the ability in PPP services.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_d691c08940",
+    "span_index": 23,
+    "text": "These include the Quasi-Zenith\nHAS service demonstrates a comparable PPP availability of Satellite System (QZSS) centimeter level augmentation\nNovember 2025 IEEE Instrumentation & Measurement Magazine 61\n1094-6969/25/$25.00©2025IEEE\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 296
+  },
+  {
+    "quote_id": "qb_3a4f6a7516",
+    "span_index": 24,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_5b7ead2be9",
+    "span_index": 25,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_6d37cafcf7",
+    "span_index": 26,
+    "text": "service (CLAS) [7], the BeiDou global navigation satel- PPP Model\nlite system (BDS) PPP-B2b [8], the European Galileo high The PPP technique enables high-precision absolute position-\naccuracy service (HAS) [9], and the QZSS Multi-GNSS ing by utilizing a single GNSS receiver to receive satellite\nadvanced orbit and clock augmentation-PPP (MAD- signals, while employing models, empirical formulas, and\nOCA-PPP) [10].",
+    "char_length": 415
+  },
+  {
+    "quote_id": "qb_803e0ba142",
+    "span_index": 27,
+    "text": "In particular, the Galileo HAS launched parameter estimation methods to handle delay errors in the\nits initial global services in January 2023, while the QZSS propagation paths between the GNSS receiver and the satel-\nMADOCA-PPP began its operational phase in April 2024.",
+    "char_length": 271
+  },
+  {
+    "quote_id": "qb_5dc96c35be",
+    "span_index": 28,
+    "text": "Assuming that the satellite s is observed by the GNSS\nThe accuracy of the satellite-based precise products has receiver r, the raw pseudorange P and carrier phase L observa-\nbeen thoroughly analyzed and is sufficient to meet the re- tion equations can be expressed as follows [14],[15]:\nquirements for real-time PPP [11],[12], and these products\nhave already been applied in precise positioning.",
+    "char_length": 395
+  },
+  {
+    "quote_id": "qb_f664e7f16c",
+    "span_index": 29,
+    "text": "Con- Ps (cid:31)(cid:27)s(cid:30)dt (cid:29)dts(cid:30)Ts(cid:30)(cid:26) (cid:28)Is (cid:30)d (cid:29)ds(cid:30)(cid:25)s (1)\nr,j r r r j r,i r,j j r,j\ncurrently, research on real-time PPP time transfer using\nsatellite-based products, such as PPP-B2b and HAS prod- Ls (cid:31)(cid:27)s(cid:30)dt (cid:29)dts(cid:30)Ts(cid:29)(cid:26) (cid:28)Is (cid:30)(cid:25)s(Ns (cid:30)b (cid:29)bs)(cid:30)(cid:24)s (2)\nr,j r r r j r,i j r,j r,j j r,j\nucts, is steadily advancing [11],[13].",
+    "char_length": 480
+  },
+  {
+    "quote_id": "qb_7e42ca1136",
+    "span_index": 30,
+    "text": "However, real-time\nf2\nPPP time transfer imposes stringent requirements not only (cid:31) (cid:30) i (3)\nj f2\non the accuracy of satellite products but also on their con- j\ntinuous and complete reception.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_4634d03df7",
+    "span_index": 31,
+    "text": "where: f represents the carrier signal frequency, with sub-\nIn contrast to real-time precise satellite products provided scripts i and j denoting the frequency indices; ρs refers to the\nr\nvia the Internet, satellite broadcasts are limited by bandwidth, receiver-satellite geometric distance; dt r and dts represent the\nnecessitating the segmentation of the complete precise prod- receiver and satellite clock offsets, respectively, in meters; Ts\nr\nucts into various message types for sequential transmission.",
+    "char_length": 508
+  },
+  {
+    "quote_id": "qb_83cc67d415",
+    "span_index": 32,
+    "text": "refers to the slant tropospheric delay; the ionospheric delay\nUsers must match and reconstruct these message segments to Is can be decomposed into a frequency-dependent scaling\nr,j\nrestore the complete product.",
+    "char_length": 210
+  },
+  {
+    "quote_id": "qb_cc1ca46fc3",
+    "span_index": 33,
+    "text": "The encoding and dissemina- factor γ j and an ionospheric delay I r s ,i at the frequency i; ε and\ntion schemes of precise products in these three services differ, ξ represent the measurement noise; d and b represent the un-\neach presenting distinct advantages and limitations.",
+    "char_length": 277
+  },
+  {
+    "quote_id": "qb_a3a274a25f",
+    "span_index": 34,
+    "text": "More- calibrated code delay (UCD) and uncalibrated phase delay\nover, the PPP coverage and availability of these products play (UPD), respectively, which are corrected using code bias and\na critical role in ensuring the stability and reliability of PPP phase bias products; and λ and N represent the wavelength of\ntime transfer [11].",
+    "char_length": 332
+  },
+  {
+    "quote_id": "qb_44812933af",
+    "span_index": 35,
+    "text": "Notably, with the MADOCA-PPP service the carrier phase observation and its integer ambiguity, respec-\nentering its operational phase in April 2024, there is a lack of tively.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_c88eb333c3",
+    "span_index": 36,
+    "text": "The relativistic effect, Sagnac effect, antenna windup\nliterature regarding its application in PPP time transfer.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_3461010f02",
+    "span_index": 37,
+    "text": "Conse- effect, and antenna phase center offset can be corrected using\nquently, a comprehensive comparative analysis can assist time models and empirical formulas [14].",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_11508e0e77",
+    "span_index": 38,
+    "text": "users in selecting the suitable service for their specific require-\nments while addressing any challenges that may arise during Dual-Frequency Satellite-based PPP Model\nimplementation.",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_56c99deead",
+    "span_index": 39,
+    "text": "These satellite-based PPP services provide precise satellite\nIn our contribution, we conduct an in-depth comparison products, including orbit, clock offset, code bias, and phase\nof the encoding and broadcasting processes of BDS PPP-B2b, bias products.",
+    "char_length": 251
+  },
+  {
+    "quote_id": "qb_725c4d624d",
+    "span_index": 40,
+    "text": "The broadcast framework of these services is\nGalileo HAS, and QZSS MADOCA-PPP, focusing on the ad- illustrated in Fig.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_1da720aefc",
+    "span_index": 41,
+    "text": "Satellites transmit ephemeris data and\nvantages of each service and the critical factors to consider corresponding corrections to deliver precise satellite orbit\nduring product recovery on the user side.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_61fe687161",
+    "span_index": 42,
+    "text": "Subsequently, we and clock offset products.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_62394f35e6",
+    "span_index": 43,
+    "text": "The code bias and phase bias prod-\nanalyze PPP continuity from the users’ perspective, as con- ucts are used to correct the UCD and UPD, respectively [16].",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_466f2fb6a4",
+    "span_index": 44,
+    "text": "tinuity is a key determinant of the stability and reliability of\nPPP time transfer.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_3458ea088d",
+    "span_index": 45,
+    "text": "Lastly, we present the results of PPP time\ntransfer for all three services, with particular emphasis on\nQZSS MADOCA-PPP, for which specific time transfer re-\nGNSS\ns A i a n u d g b lt e r s s t i t e a r h f i a a l t i e v e n d e g t r i c n o e o s d o m t u f o p b c r t e a i P e o ri P n n s P o d t n o t o i m c t o h u f e e m t t h m r e e a n o n b t d s e r e f d o e l a i r i n d n i g s c t a p m h s r e t e o t f v e h r x i a o d i m s d e t d s i e n , w a g f n o o d l l r i l k t o p e s w r r o o a e c t f d u e t s r b h s e y e - .",
+    "char_length": 558
+  },
+  {
+    "quote_id": "qb_0bce67e429",
+    "span_index": 46,
+    "text": "Satellites Obs B e i r a v s a P t E io r p o n h d m s e u , e m c r t i e s s r C is o , rrections E D ph a e ta m D P e e r r e c is p o C r d o i o n c r g e re s c s t i i n o g ns\nt\nt\nh\nh\nr\ne\ne\nr\ne\ne\ns\ns\ne\nu\nr\nl\nv\nts\nic\no\ne\nf\ns .",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_56fb69fc24",
+    "span_index": 47,
+    "text": "P\nW\nP\ne\nP\na\nt\nn\nim\nal\ne\ny z\ntr\ne\na\nc\nn\no\ns\nv\nfe\ner\nr,\na\na\ng\nn\ne\nd\na n\nc\nd\no n\na\nc\nv\nl\na\nu\ni\nd\nla\ne\nb i\nw\nli\ni\nt\nt\ny\nh\n, p\na\nr e\ns\ns\nu\ne\nm\nn\n-\nt\nAntenna\nEphe\nr\nS\ne\na\nla\nte\nt\nl\ne\nli\nd\nte\n,\n-\na\nre\nn\nla\nd\nt e\nA\nd\ntm\n, R\no\ne\ns\nc\np\ne\nh\niv\ne\ne\nri\nr\nc\n-\nError Correction\nmary of our findings.",
+    "char_length": 284
+  },
+  {
+    "quote_id": "qb_d9b971e6c4",
+    "span_index": 48,
+    "text": "Parameter Estimation\nGNSSReceiver\nMethod ReceiverClock Offset\nThe basic observation equations of PPP and its primary errors\nPPPProcedure\nare initially presented, followed by an introduction to the PPP\ntime transfer model.",
+    "char_length": 221
+  },
+  {
+    "quote_id": "qb_c9987f21ac",
+    "span_index": 49,
+    "text": "Principle of satellite-based PPP.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_0d2d7fbf2a",
+    "span_index": 50,
+    "text": "62 IEEE Instrumentation & Measurement Magazine November 2025\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_6f4189d5bb",
+    "span_index": 51,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_7db0250f26",
+    "span_index": 52,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_7a8c31bdc1",
+    "span_index": 53,
+    "text": "Currently, while code bias products are available across all delay was estimated as a random walk process.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_ee4eceeb2f",
+    "span_index": 54,
+    "text": "The receiver\nthree services, the PPP-B2b and HAS services do not provide clock offset dt was estimated as white noise.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_c19438eb6e",
+    "span_index": 55,
+    "text": "r,ij\naccessible phase bias products.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_fc458ba2fa",
+    "span_index": 56,
+    "text": "The resulting differences in\nmodeling will be highlighted in this section.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_43cc3768a8",
+    "span_index": 57,
+    "text": "Users primarily PPP Time Transfer\nfocus on recovering precise products, correcting various er- The receiver clock offset dt estimated by PPP is the devia-\nr,ij\nrors, and estimating unknown parameters.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_d2a30b8c45",
+    "span_index": 58,
+    "text": "tion of the local time t from the product reference time t .",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_d645ab7f58",
+    "span_index": 59,
+    "text": "loc ref\nConsidering the frequency-dependent nature of iono- By differencing the estimated receiver clock offsets between\nspheric delay, the dual-frequency (DF) ionospheric-free (IF) two stations within the time link, the reference time can be\nPPP model, which eliminates the ionospheric delay effects, af- eliminated, enabling a direct differentiation of local time, ex-\nter applying the satellite product corrections, can be written pressed as:\nas follows:\n(cid:31)t(cid:30)dt (cid:29)dt (cid:30)(t (cid:29)t )(cid:29)(t (cid:29)t )(cid:30)t (cid:29)t\nPs (cid:31)(cid:28) (cid:30)Ps (cid:29)(cid:27) (cid:30)Ps A,ij B,ij loc,A ref loc,B ref loc,A loc,B\nr,ij ij r,i ij r,j (8)\n(cid:31)(cid:26)s(cid:29)dt (cid:29)Ts(cid:29)(cid:25)s (4)\nr r,ij r r,ij\nwhere ∆t represents the time comparison results for the time\nLs (cid:31)(cid:28) (cid:30)Ls (cid:29)(cid:27) (cid:30)Ls link.",
+    "char_length": 878
+  },
+  {
+    "quote_id": "qb_e6e218994d",
+    "span_index": 60,
+    "text": "r,ij ij r,i ij r,j\nTaking the post-processed PPP time link as the reference,\n(cid:31)(cid:26)s(cid:29)dt (cid:29)Ts(cid:29)(cid:25)sNs (cid:29)(cid:24)ss (5)\nr r,ij r ij r,ij r,ij the error sequence of real-time PPP time comparisons is ob-\n(cid:21) (cid:19) (cid:19) (cid:31) ij (cid:29) f2 f (cid:28) i 2 f2 ,(cid:30) ij (cid:29)(cid:28) f2 f (cid:28) j 2 f2 t t a o i n q e u d a .",
+    "char_length": 383
+  },
+  {
+    "quote_id": "qb_6295225d10",
+    "span_index": 61,
+    "text": "n T ti h fy e t s h ta e n p d r a e r c d is d io e n v i o a f t i t o h n e ( t S im TD e ) c o o f m th p e a s r e is o er n r , o a r n s d is i u s s e e x d -\n(cid:19) i j i j pressed as:\n(cid:19) dt (cid:29)dt (cid:27)((cid:31) (cid:26)d (cid:27)(cid:30) (cid:26)d ) (6)\n(cid:19) r,ij r ij r,i ij r,jj\n(cid:20) (cid:19) (cid:19) (cid:25) i s j N r s ,ij (cid:29)(cid:31) ij (cid:26)(cid:25) i s(N r s ,i (cid:27)b r,i (cid:28)b i s)(cid:27)(cid:30) ij (cid:26)(cid:25) j s(N r s ,j (cid:27)b r,j (cid:28)bs jj ) s(cid:31) n 1 (cid:30)1 (cid:29) i n (cid:31)1 (x i (cid:30)x)2 (9)\n(cid:19) (cid:25)sNs (cid:29)(cid:25)sNs (cid:28)((cid:31) (cid:26)d (cid:27)(cid:30) (cid:26)d )\nij r,ij ij r,ij ij r,i ij r,j where x represents the sequence of time comparison errors; n\n(cid:19) i\n(cid:18) (cid:19) (cid:24) r s=(cid:24) r s+(cid:23)(cid:23) r s(cid:26)(cid:22)(cid:22) x represents the number of epochs in the error sequence; and x is\nthe mean value of the sequence.",
+    "char_length": 976
+  },
+  {
+    "quote_id": "qb_5cfe2599be",
+    "span_index": 62,
+    "text": "where: Ps and Ls represent the IF pseudorange and carrier\nr,ij r,ij\nphase observations, respectively; P represents the pseudor- Comparison of Broadcast Frameworks\nange observation corrected by code bias products; α and β Currently, all three services provide precise satellite orbits,\nare the IF coefficients; dt represents IF receiver clock off- clock offset, and code bias products, while the MADOCA-PPP\nr,ij\nset to be estimated in the PPP solution; ρs can be expressed service additionally provides phase bias and ionospheric cor-\nr\nas a linear combination of the calculated geometric distance rections.",
+    "char_length": 607
+  },
+  {
+    "quote_id": "qb_539c2e8a3d",
+    "span_index": 63,
+    "text": "All products are provided in the form of state space\nρs, the receiver coordinates vector increments ∆x, and the representation (SSR) [20] correction.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_3bd725de27",
+    "span_index": 64,
+    "text": "Orbit and clock offset cor-\nr\nunit satellite-receiver vector µµs; λsNs represents the am- rections refine the ephemeris to recover precise satellite orbit\nr ij r,ij\nbiguity resulting from the DF IF combination; and λsNs and clock offset, while code bias and phase bias are employed\nij r,ij\nrepresents the float ambiguity to be estimated.",
+    "char_length": 337
+  },
+  {
+    "quote_id": "qb_09ac2e6d33",
+    "span_index": 65,
+    "text": "λ i s j N r s ,ij en- to correct hardware delays in pseudorange and carrier phase\ncompasses both the combined ambiguity term λsNs and observations.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_7e0999b6c7",
+    "span_index": 66,
+    "text": "ij r,ij\nthe receiver-related hardware delay ((cid:31) (cid:29)d (cid:28)(cid:30) (cid:29)d ) which However, notable differences exist in the encoding of sat-\nij r,i ij r,j\nis associated with the estimated receiver clock offset dt .",
+    "char_length": 231
+  },
+  {
+    "quote_id": "qb_f1f31f35ca",
+    "span_index": 67,
+    "text": "ellite products into real-time binary data streams and their\nr,ij\nWhen phase bias products are available, the estimated am- broadcasting frameworks.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_34275d3204",
+    "span_index": 68,
+    "text": "The encoding and broadcasting of\nbiguity can be resolved as an integer ambiguity [17].",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_6839b340cc",
+    "span_index": 69,
+    "text": "In the PPP-B2b, HAS, and MADOCA-PPP are illustrated in Fig.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_a34ca811e8",
+    "span_index": 70,
+    "text": "2,\nabsence of phase bias products, it remains estimated as a Fig.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_c6483a8b55",
+    "span_index": 71,
+    "text": "4, respectively.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_b18d0188f4",
+    "span_index": 72,
+    "text": "The PPP-B2b products are\nfloat ambiguity.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_adf0b5900a",
+    "span_index": 73,
+    "text": "Thus, the estimated parameter vector X can\nbe written as:\nX(cid:31)(cid:30)(cid:26)x dt Ts (cid:25)N(cid:28) (7) PPP-B2b Message\n(cid:29) r,ij r (cid:27)\nOrbit Clock Code Bias\nwhere λN represents the estimated ambiguity vector, com-\nEphemeris (IODE)\nposed of λsNs , whose dimension is determined by the IOD SSR Decode and transmit\nij r,ij IODP Message type 1 (Satellite mask) IOD SSR Clock\nnumber of observed satellites.",
+    "char_length": 420
+  },
+  {
+    "quote_id": "qb_f3102f8089",
+    "span_index": 74,
+    "text": "Consequently, a minimum of\nMessage type 2 (Orbit correction) Refined satellite position\nfive satellites with precise products is required to obtain a PPP\nMessage type 3 (Code bias) Corrected pseudorange\nsolution [11].",
+    "char_length": 217
+  },
+  {
+    "quote_id": "qb_8b887dbf0d",
+    "span_index": 75,
+    "text": "In this study, ambiguities were estimated as float\nvalues.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_1ac48511ba",
+    "span_index": 76,
+    "text": "The station coordinates were estimated as constants.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_81a334f2bd",
+    "span_index": 77,
+    "text": "Message type 4 (Clock correction) Refined satellite clock\nIOD Corr\nThe tropospheric dry delay was corrected using the Saas-\ntamoinen model [18] and the GMF model [19].",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_c46b8bc02c",
+    "span_index": 78,
+    "text": "The zenith wet Fig.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_be21540c3d",
+    "span_index": 79,
+    "text": "PPP-B2b message structure.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_a54e4ef02c",
+    "span_index": 80,
+    "text": "November 2025 IEEE Instrumentation & Measurement Magazine 63\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_0798a961a5",
+    "span_index": 81,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_cee4c4264c",
+    "span_index": 82,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_febf14b1a0",
+    "span_index": 83,
+    "text": "decoded into four message types, with compatibility main-\nHAS Message tained through the issue of data (IOD).",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_db2acf147c",
+    "span_index": 84,
+    "text": "In contrast, the HAS\nproducts encode message types (MT) 1 to 3 as MT1-slow,\nClock Orbit Code Bias\nwhile clock offset corrections are encoded separately as MT1-\nEncoded page C (cid:258) Encoded page C fast in Section 7.6 of its interface control document (ICD) [9].",
+    "char_length": 264
+  },
+  {
+    "quote_id": "qb_8a1a9194fa",
+    "span_index": 85,
+    "text": "1 k\nMT1 Header Mask Orbit block Bias block The MADOCA-PPP service encodes orbit, clock offset, and\nbias products into six message types for broadcasting via L6E,\nMT1 Header Clock block while ionospheric corrections are transmitted through L6D.",
+    "char_length": 243
+  },
+  {
+    "quote_id": "qb_d1f821077f",
+    "span_index": 86,
+    "text": "Encoded page C 1 (cid:258) Encoded page C i In contrast to the PPP-B2b service, which encodes message\ntypes categorically, the MADOCA-PPP service transmits these\nencoded message types at fixed pattern, delivering a complete\nset of products every 30 sec-\nonds in Section 4.1 of its ICD\n[10].",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_b22b5ad9d1",
+    "span_index": 87,
+    "text": "This fixed transmission\npattern simplifies message\nmatching for users, as it\nonly requires confirming\nwhether the continuously\ndecoded products belong\nto the same data set.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_3873c3cb08",
+    "span_index": 88,
+    "text": "Thus,\nthe MADOCA-PPP service\nreduces the complexity of\nmessage matching for users.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_89551fbb96",
+    "span_index": 89,
+    "text": "While the PPP-B2b service\nminimizes message length,\nit enhances transmission\nefficiency, facilitating the in-\nclusion of error correction\ncoding.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_68dc55438c",
+    "span_index": 90,
+    "text": "In terms of service\nbroadcasting, the PPP-B2b\nservice transmits correc-\ntions via three geostationary\nearth orbit (GEO) satellites,\noperating as a regional PPP\n64 IEEE Instrumentation & Measurement Magazine November 2025\ntimsnart\ndna\nedoceD\nEphemeris (IODE) Clock\nDecode and transmit\nRefined satellite position\nCorrected pseudorange\nCorrected carrier phas e\nRefined satellite clock\nFig.",
+    "char_length": 386
+  },
+  {
+    "quote_id": "qb_862cbd524a",
+    "span_index": 91,
+    "text": "HAS message structure.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_5673c72481",
+    "span_index": 92,
+    "text": "MADOCA-PPP L6E Message\nClock Orbit Code Bias Phase Bias\nDecode\nClock ST1 ST2 ...",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_b53078cf56",
+    "span_index": 93,
+    "text": "ST2 ST3\nSub type 1 (ST1) - Mask\nEphemeris (IODE)\nST7 ST3 ...",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_0b46ac3d8c",
+    "span_index": 94,
+    "text": "ST3\nSub type 2 (ST2) - Orbit\nRefined satellite position Layout\nSub type 3 (ST3) - Clock ST4 ...",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_0103aa3820",
+    "span_index": 95,
+    "text": "ST3\nTransmit\nRefined satellite clock\nSub type 4 (ST4) - Code bias\nST3 ...",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_4c8d782c0e",
+    "span_index": 96,
+    "text": "ST3\nCorrected pseudorange\nSub type 5 (ST5) - Phase bias\nCorrected carrier phase ST5 ...",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_bf3e3aba6a",
+    "span_index": 97,
+    "text": "ST3\nSub type 7 (ST7) - URA\nCorrection for ionosphere ST3 ...",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_f639b22ea5",
+    "span_index": 98,
+    "text": "ST3\nMADOCA-PPP L6D Message type 1 (MT1) - Coverage Message (Ionospheric Layout\nMT1 MT2 ...",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_7c89f89535",
+    "span_index": 99,
+    "text": "MT2 Message type 2 (MT2) - Correction correction) Transmit\nFig.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_dbb899b8cb",
+    "span_index": 100,
+    "text": "MADOCA-PPP message structure.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_8a7406f57f",
+    "span_index": 101,
+    "text": "Table 1 – Detailed differences in the PPP-B2b, HAS, and MADOCA-PPP services\nItem BDS PPP-B2b Galileo HAS QZSS MADOCA-PPP\nCurrently supported GPS, GLONASS, Galileo,\nGPS, BDS GPS, Galileo\nsystems QZSS\nSatellite orbit, clock, code\nCurrently supported Satellite orbit, clock, code Satellite orbit, clock, code\nbias, phase bias, ionospheric\ncorrections bias bias\ncorrection\nSatellites and Internet Satellites and Internet\nBroadcast channel Satellites\n(RTCM) (Compact SSR)\nBDS GEO satellites (C59, All operational Galileo All operational QZSS\nCarrier satellites\nC60, C61) satellites satellites\nQZSS L6E and L6D (1278.75\nCarrier signal BDS B2b (1207.14 MHz) Galileo E6-B (1278.75 MHz)\nMHz)\nGPS LNAV, GLONASS\nCorrected ephemeris BDS CNAV1, GPS LNAV Galileo I/NAV, GPS LNAV GLONASS-K(M), Galileo I/\nNAV, QZSS LNAV\nBeiDou Navigation Satellite\nTime system Galileo System Time (GST) QZSS Time (QZSST)\nSystem Time (BDT)\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 970
+  },
+  {
+    "quote_id": "qb_d9b5b508ef",
+    "span_index": 102,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_f00daee2f0",
+    "span_index": 103,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_57f186eb3e",
+    "span_index": 104,
+    "text": "service since product estimates primarily rely on China’s was set to support PPP solutions.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_9b80a87b4c",
+    "span_index": 105,
+    "text": "The proportion of epochs\ntracking stations.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_4a147de7d8",
+    "span_index": 106,
+    "text": "Moreover, the binary data stream for the with sufficient corrections relative to the total number of ep-\nPPP-B2b service broadcasted by the GEO satellites remains ochs was considered as an indicator of service availability.",
+    "char_length": 223
+  },
+  {
+    "quote_id": "qb_b3c9186f6c",
+    "span_index": 107,
+    "text": "The MADOCA-PPP estimates its products using a The interpolation results for the average number of satellites\nglobal observation network [12] and broadcasts them through with corrections and PPP availability for the PPP-B2b, HAS,\nQZSS satellites.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_8e121b6e0c",
+    "span_index": 108,
+    "text": "Additionally, its products are also dissemi- and MADOCA-PPP services are presented in Fig.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_ea0ab9d221",
+    "span_index": 109,
+    "text": "7 and\nnated via the Internet.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_a202ffe8dc",
+    "span_index": 110,
+    "text": "In contrast to the PPP-B2b service, the Fig.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_3dab1071fe",
+    "span_index": 111,
+    "text": "8, respectively.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_5bcfdd7588",
+    "span_index": 112,
+    "text": "The statistical results for the PPP-B2b ser-\nMADOCA-PPP service features a longer message length and vice (20° N~55° N, 75° E ~ 150° E), HAS, and MADOCA-PPP\ndoes not permit switching between QZSS satellites within the service (60° S~60° N, 70° E ~ 160° W) are summarized in Table\n30-second reception period for a set of satellite products.",
+    "char_length": 339
+  },
+  {
+    "quote_id": "qb_4171a67c59",
+    "span_index": 113,
+    "text": "Due to the limitations of the observation network generating\nversely, the HAS service provides global coverage due to its the products, PPP-B2b availability is primarily concentrated in\ndistinct broadcasting scheme.",
+    "char_length": 215
+  },
+  {
+    "quote_id": "qb_b6b6f21af4",
+    "span_index": 114,
+    "text": "China and its surrounding regions, with BDS service availabil-\nTo enhance reception efficiency, the Galileo HAS employs ity reaching up to 99.93%.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_86e81e399a",
+    "span_index": 115,
+    "text": "In contrast, the Galileo HAS offers\nthe high-parity vertical reed-solomon (HPVRS) encoding global coverage, providing an average of 8.55 GPS satellites\nscheme, fragmenting a set of products through an encoding\nmatrix and distributing the fragments across different Gali-\nleo satellites [21].",
+    "char_length": 291
+  },
+  {
+    "quote_id": "qb_ef1df155a5",
+    "span_index": 116,
+    "text": "Users need to receive a sufficient number\nof the fragments, which can come from the same or different\nGalileo satellites, and these are restored into HAS products\nvia HPVRS decoding to optimize user reception.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_39f10ddb9c",
+    "span_index": 117,
+    "text": "Addi-\ntionally, the complex decoding process for HAS products\nis supported by C/C++ programming packages [22].",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_9a2f009b17",
+    "span_index": 118,
+    "text": "Ta-\nble 1 summarizes the detailed differences in broadcasting\namong the three services.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_8ba2fa123d",
+    "span_index": 119,
+    "text": "Users may preselect a suitable ser-\nvice by considering the specific features of each broadcast\nframework, the complexity of decoding, and the associated\nadvantages and drawbacks.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_4cb0c5d69c",
+    "span_index": 120,
+    "text": "Service Coverage and Availability\nObservations from 180 globally distributed stations, sampled\nFig.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_afef18acdd",
+    "span_index": 121,
+    "text": "Geographical distribution of stations.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_c5b0135f6e",
+    "span_index": 122,
+    "text": "Blue dots represent stations\nat 30-second intervals from day of year (DoY) 278 to 282 in\nevaluated for the HAS and MADOCA services, green dots for stations assessed\n2024, were used to analyze the PPP coverage and availability across all three services, and red dots for stations evaluated for the PPP-B2b\nsupported by the three services.",
+    "char_length": 337
+  },
+  {
+    "quote_id": "qb_ed1ff84a26",
+    "span_index": 123,
+    "text": "The distribution of these sta- service.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_82fbe65f0d",
+    "span_index": 124,
+    "text": "tions is illustrated in Fig.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_615ffd21e4",
+    "span_index": 125,
+    "text": "5,\nwhere 45 stations are specif-\nically selected for analyzing\nthe regional PPP-B2b ser-\nvice, represented by red and\ngreen dots.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_72e7b0e078",
+    "span_index": 126,
+    "text": "The PPP-B2b\nand HAS products were\ncashed using Septentrio\nMosaic-X5 and SINO K803\nreceivers, each equipped\nwith their respective re-\nceiving modules, while the\nMADOCA-PPP data were\nobtained from the official\nonline archive (https://\nsys.qzss.go.jp/dod/en/ar-\nchives.html).",
+    "char_length": 272
+  },
+  {
+    "quote_id": "qb_2ae9dac263",
+    "span_index": 127,
+    "text": "The analysis\nof PPP service coverage was\nconducted by evaluating\nthe average number of sat-\nellites with corrections.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_632fb1125d",
+    "span_index": 128,
+    "text": "A\nminimum threshold of five\nsatellites with corrections\nNovember 2025 IEEE Instrumentation & Measurement Magazine 65\nsetilletaS\nfo\nrebmuN\n50°N\n25°N\n0°\nBDS 25°S BDS\n50°S\n50°N\n25°N\n0°\n25°S\nGPS GPS\n50°S\n2 3 4 5 6 7 8 9 0.7 0.8 0.9 1\nytilibaliavA\n50°N\n25°N\n0°\n25°S\n50°S\n50°N\n25°N\n0°\n25°S\n50°S\n50°E 100°E 150°E 50°E 100°E 150°E\nFig.",
+    "char_length": 327
+  },
+  {
+    "quote_id": "qb_247eaf4a4c",
+    "span_index": 129,
+    "text": "Average number of satellites with corrections and PPP availability of the PPP-B2b service.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_a50d9a0343",
+    "span_index": 130,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_895249c060",
+    "span_index": 131,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_cdc94b1400",
+    "span_index": 132,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_cebffd7a6c",
+    "span_index": 133,
+    "text": "and 8.44 Galileo satellites with corrections contributing to MADOCA-PPP provides services for the Asia-Pacific region\nPPP calculations at each epoch on the user side.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_5289aeed60",
+    "span_index": 134,
+    "text": "This results in through QZSS satellites, with an average of 10.06 corrected GPS\nPPP availability rates of 98.84% and 99.17%, respectively.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_ee8dafe217",
+    "span_index": 135,
+    "text": "The satellites and an availability rate of 99.99%.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_d9b942e67c",
+    "span_index": 136,
+    "text": "However, the num-\nber of corrected GLONASS\nsatellites is relatively low,\nwhile the corrected Galileo\nsatellites and their avail-\nability are comparable to\nthose of HAS.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_d074b2def5",
+    "span_index": 137,
+    "text": "In summary,\nthe real-time products of all\nthree services exhibit good\ncontinuity and provide\nprecise products for a suf-\nficient number of satellites,\nmeeting the requirements\nof real-time PPP.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_15019c293f",
+    "span_index": 138,
+    "text": "Relative\nto Fig.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_bf7417d54e",
+    "span_index": 139,
+    "text": "8,\nhigh-availability services\ncould be selected at both\nuser stations to enable con-\ntinuous, stable, and reliable\nreal-time PPP time transfer.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_78f0b7215d",
+    "span_index": 140,
+    "text": "Time Transfer\nResults\nThe results sequences of ap-\nplying the three services to\nPPP time comparison are\npresented and analyzed.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_8261c17d3c",
+    "span_index": 141,
+    "text": "To\nvalidate the accuracy of PPP\ntime transfer across the three\nservices, it is essential to ac-\ncount for potential satellite\nshortages that may cause\nanomalies in estimated re-\nceiver clock offset.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_364a005821",
+    "span_index": 142,
+    "text": "Due to\nthe varying PPP availability\nof the three services, en-\nsuring enough satellites is\ncritical for accurately assess-\ning time transfer accuracy.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_f8fec0745b",
+    "span_index": 143,
+    "text": "In this experiment, PPP-B2b\ntime transfer utilizes both\nthe GPS and BDS systems,\nwhile HAS and MADOCA-\nPPP time transfers are based\n66 IEEE Instrumentation & Measurement Magazine November 2025\nsetilletaS\nfo\nrebmuN\nBDS\n5 6 7 8 9 10 11 0.92 0.94 0.96 0.98 1\nytilibaliavA\n80°N 80°N\n40°N 40°N\n0° 0°\n40°S Galileo 40°S Galileo\n80°S 80°S\n80°N 80°N BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDDDDDSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n40°N 40°N\n0° 0°\n40°S GPS 40°S GPS\n80°S 80°S\n120°W 0° 120°E 120°W 0° 120°E\nFig.",
+    "char_length": 522
+  },
+  {
+    "quote_id": "qb_64bf967e37",
+    "span_index": 144,
+    "text": "Average number of satellites with corrections and PPP availability of the HAS service.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_294e0bbffc",
+    "span_index": 145,
+    "text": "setilletaS\nfo\nrebmuN\n5 6 7 8 9 10 11 0.84 0.88 0.92 0.96 1\nytilibaliavA\n80°N 80°N\n40°N 40°N\n0° 0°\n40°S Galileo 40°S Galileo\n80°S 80°S\n80°N 80°N\n40°N 40°N\n0° 0°\n40°S GPS 40°S GPS\n80°S 80°S\n80°N 80°N\n40°N 40°N\n0° 0°\n40°S GLONASS 40°S GLONASS\n80°S 80°S\n120°W 0° 120°E 120°W 0° 120°E\nFig.",
+    "char_length": 284
+  },
+  {
+    "quote_id": "qb_bf54a76372",
+    "span_index": 146,
+    "text": "Average number of satellites with corrections and PPP availability of the MADOCA-PPP service.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_1c5f9ed09a",
+    "span_index": 147,
+    "text": "Table 2 – Average number of satellites with corrections and service availability\nBDS PPP-B2b Galileo HAS QZSS MADOCA-PPP\nItem\nGPS BDS GPS Galileo GPS Galileo GLONASS\nAverage number\n6.79 8.53 8.55 8.44 10.06 7.79 5.77\nof satellites\nService\n96.47% 99.93% 98.84% 99.17% 99.99% 98.90% 81.16%\navailability\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 364
+  },
+  {
+    "quote_id": "qb_9fd2ded01d",
+    "span_index": 148,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_b5194fd8ca",
+    "span_index": 149,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_8e1bcbebd1",
+    "span_index": 150,
+    "text": "on the GPS and Galileo systems.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_d9dd9a041d",
+    "span_index": 151,
+    "text": "To compare the time transfer\naccuracy of the three services, three user stations were selected\nwithin the overlapping coverage area of the high-availability\nservices provided by all three.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_6435b1b8cc",
+    "span_index": 152,
+    "text": "The National Time Service Cen-\nter (NTSC), a TAI time-keeping laboratory, serves as the central\nnode, linking IGS stations (ULAB and USUD) to form time\nlinks for time comparison accuracy analysis.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_39b33fcef6",
+    "span_index": 153,
+    "text": "The geographic\ndistribution of the stations and the baseline lengths of the two\ntime links are shown in Fig.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_e4a869118c",
+    "span_index": 154,
+    "text": "With reference to GeoForschungZentrum (GFZ) post-pro-\ncessed precise products GBM, the time comparison errors\nfor the NTSC-ULAB and NTSC-USUD time links, based on\nreal-time products, are presented in Fig.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_da0d8f8995",
+    "span_index": 155,
+    "text": "11, with\nbaseline lengths of 1506 km and 2631 km, respectively.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_087ad6a192",
+    "span_index": 156,
+    "text": "Even\nwith the longer baseline of 2631 km, the time comparison er-\nrors across all three services fluctuated within a narrow range\nof ±0.5 ns.",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_d075d9a8c4",
+    "span_index": 157,
+    "text": "The STD values of the time comparison errors are Fig.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_f1c4cd29da",
+    "span_index": 158,
+    "text": "Geographical distribution of stations.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_3cda0f0140",
+    "span_index": 159,
+    "text": "The NTSC (red) at the center\nsummarized in Table 3.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_b42d5aacb4",
+    "span_index": 160,
+    "text": "When stable and continuous PPP time connects other stations (blue) to form time comparison link.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_d6d8b3a89e",
+    "span_index": 161,
+    "text": "transfer is performed, the comparison accuracy is affected by\nthe baseline length.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_fe69be2d3f",
+    "span_index": 162,
+    "text": "The MADOCA-PPP time transfer results\nexhibit smaller error fluctuations, while the time comparison\naccuracy using the PPP-B2b and HAS products is compara-\nble.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_90a0e6f792",
+    "span_index": 163,
+    "text": "This can be attributed to the more precise satellite clock\noffset products provided by the MADOCA-PPP service [12].",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_9ff121b8b3",
+    "span_index": 164,
+    "text": "For the NTSC-ULAB time link, the STD value of the time com-\nparison error for MADOCA-PPP was 78 ps, compared to 121\nps for PPP-B2b and 148 ps for HAS.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_98544c1de6",
+    "span_index": 165,
+    "text": "Therefore, provided that\nhigh availability is guaranteed for all three services, they can\nsupport real-time continuous, stable, and reliable PPP time\ncomparisons at the sub-nanosecond level, with time com-\nparison errors remaining within ±0.5 ns, even over a baseline\nlength of up to 2631 km.",
+    "char_length": 292
+  },
+  {
+    "quote_id": "qb_41d86c785c",
+    "span_index": 166,
+    "text": "It should be emphasized that the selection of the three\ntime stations was exclusively for the purpose of compar-\ning the time comparison accuracy of the three real-time PPP\nservices.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_06c6f1fc54",
+    "span_index": 167,
+    "text": "The user stations involved in time transfer may be lo-\ncated anywhere.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_473e0bf1bd",
+    "span_index": 168,
+    "text": "Furthermore, the feasibility of Galileo HAS\nfor global stable time transfer has been demonstrated, with\nbaseline lengths extending up to 12295 km and time transfer\nerrors fluctuating within ±1 ns.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_e3742ce2d4",
+    "span_index": 169,
+    "text": "Considering that both MAD-\nOCA-PPP and PPP-B2b are regional services, the status and\ncharacteristics of the real-time PPP services supported in dif-\nferent regions are different.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_73789d06b7",
+    "span_index": 170,
+    "text": "To facilitate continuous and stable\nPPP time transfer at the sub-nanosecond level, time users\nare advised to select suitable high-continuity real-time ser-\nvices with reference to Fig.",
+    "char_length": 184
+  },
+  {
+    "quote_id": "qb_d2393313c5",
+    "span_index": 171,
+    "text": "8, taking into\ncareful consideration the broadcast framework architecture,\ndecoding complexity, as well as the respective advantages and\nlimitations of each service.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_9980eff9ae",
+    "span_index": 172,
+    "text": "Conclusions\nThe PPP technique has been used in TAI time link calculations\nfor decades.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_4ac38c21b0",
+    "span_index": 173,
+    "text": "Recently, the dissemination of real-time precise\norbit and clock offset products via satellites has greatly en-\nhanced both research and implementation of real-time PPP,\nreducing dependence on network connectivity.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_9ed5f93590",
+    "span_index": 174,
+    "text": "However,\nNovember 2025 IEEE Instrumentation & Measurement Magazine 67\n)sn(\nrorre\nnosirapmoc\nemiT\n1.5\nMADOCA-PPP 1.0\nHAS\n0.5 PPP-B2b\n0.0\n–0.5\n–1.0\n–1.5\n278 279 280 281 282 283\nDay of Year (2024)\nFig.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_c0a62affac",
+    "span_index": 175,
+    "text": "Time comparison error series for time link NTSC-ULAB from DoY 278\nto 282 in 2024.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_5fe03652b4",
+    "span_index": 176,
+    "text": ")sn(\nrorre\nnosirapmoc\nemiT\n1.5\nMADOCA-PPP\n1.0 HAS\n0.5 PPP-B2b\n0.0\n–0.5\n–1.0\n–1.5\n278 279 280 281 282 283\nDay of Year (2024)\nFig.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_ddb4485bd6",
+    "span_index": 177,
+    "text": "Time comparison error series for time link NTSC-USUD from DoY 278\nto 282 in 2024.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_77da22a439",
+    "span_index": 178,
+    "text": "Table 3 – STD values of time comparison\nerror (unit: ps)\nModel\nPPP-B2b HAS MADOCA-PPP\nTime link\nNTSC-ULAB 121 148 78\nNTSC-USUD 133 159 111\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_9cf70944c1",
+    "span_index": 179,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_a24e4dd597",
+    "span_index": 180,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_cd3ffceb69",
+    "span_index": 181,
+    "text": "due to bandwidth limitations, satellite broadcasting requires via NTRIP,” in Proc.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_fbf05854a4",
+    "span_index": 182,
+    "text": "ION GNSS 20th Int.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_a4630566bc",
+    "span_index": 183,
+    "text": "Satellite\nprecise products to be segmented and encoded for transmis- Division, 2007, pp.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_8760570178",
+    "span_index": 184,
+    "text": "sion, necessitating users to recover the complete product on [4] Y.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_47239ec0be",
+    "span_index": 185,
+    "text": "Qin et al., “An\ntheir end.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_b07ed048af",
+    "span_index": 186,
+    "text": "This study conducts a comprehensive comparison analysis of BDS-3 real-time PPP: Time transfer, positioning, and\nof the broadcast encoding, service coverage, availability, and tropospheric delay retrieval,” Measurement, vol.",
+    "char_length": 223
+  },
+  {
+    "quote_id": "qb_f399f3f18a",
+    "span_index": 187,
+    "text": "172, 108871,\ntime transfer results for BDS PPP-B2b, Galileo HAS, and QZSS Feb.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_2a935e23a5",
+    "span_index": 188,
+    "text": "Zhang et al.,\nBDS provides regional PPP services to China and its sur- “Study on PPP time comparison based on BeiDou-3 new signal,”\nrounding areas via three GEO satellites, while Galileo offers IEEE Instrum.",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_296f004a6f",
+    "span_index": 189,
+    "text": "global PPP services via its operational satellites through [6] D.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_b9830c7162",
+    "span_index": 190,
+    "text": "Zhang, “Real-time clock\nthe HPVRS scheme.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_846e47d2f3",
+    "span_index": 191,
+    "text": "Additionally, QZSS supports regional comparison and monitoring with multi-GNSS precise point\nPPP services across the Asia-Pacific region through its sat- positioning GPS, GLONASS and Galileo,” Advances in Space\nellite constellation.",
+    "char_length": 232
+  },
+  {
+    "quote_id": "qb_df46d1e54c",
+    "span_index": 192,
+    "text": "Both PPP-B2b and MADOCA-PPP Research, vol.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_00020b0205",
+    "span_index": 193,
+    "text": "segment their products by message types; MADOCA-PPP [7] “Quasi-Zenith Satellite System Interface Specification Centimeter\nemploys a fixed transmission pattern, simplifying message Level Augmentation Service (IS-QZSS-L6-005),” Cabinet Office,\nmatching process for users.",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_c6d7e98a01",
+    "span_index": 194,
+    "text": "PPP-B2b, on the other hand, Government of Japan, Sep.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_a4a08ea87d",
+    "span_index": 195,
+    "text": "Available: https://\nshortens message length and incorporates error correction qzss.go.jp/en/technical/download/pdf/ps-is-qzss/is-\nto ensure transmission accuracy.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_91112eda3d",
+    "span_index": 196,
+    "text": "To improve user recep- qzss-l6-005.pdf?t=1728961376804.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_5949989843",
+    "span_index": 197,
+    "text": "tion efficiency, HAS adopts the HPVRS encoding scheme, [8] “BeiDou Navigation Satellite System Signal in Space Interface\nwhich adds complexity to product reception and recovery Control Document Precise Point Positioning Service Signal\nfor users.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_b82ac6cdc8",
+    "span_index": 198,
+    "text": "PPP-B2b (Version 1.0),” China Satellite Navigation Office, Jul.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_71ea8698a6",
+    "span_index": 199,
+    "text": "Regarding PPP service coverage and availability, PPP- 2020.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_bd6232f126",
+    "span_index": 200,
+    "text": "Available: beidou.gov.cn/xt/gfxz/202008/\nB2b achieves a PPP availability of 99.93% for BDS users P020200803362062482940.pdf.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_393069c0de",
+    "span_index": 201,
+    "text": "within the region (20° N to 55° N, 75° E to 150° E).",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_c2e848da81",
+    "span_index": 202,
+    "text": "Con- [9] “Galileo High Accuracy Service Signal-In-Space Interface\nversely, HAS demonstrates comparable global coverage Control Document (HAS SIS ICD),” EUSPA, May 2022.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_6d6f42035b",
+    "span_index": 203,
+    "text": "and service availability for GPS and Galileo users, with an Available: https://www.gsc-europa.eu/sites/default/files/\naverage of approximately 8.5 satellites and nearly 99% avail- sites/all/files/Galileo_HAS_SIS_ICD_v1.0.pdf.",
+    "char_length": 225
+  },
+  {
+    "quote_id": "qb_5cfa52ad33",
+    "span_index": 204,
+    "text": "MADOCA-PPP, covering the region between 60° S [10] “Quasi-Zenith Satellite System Interface Specification Multi-\nand 60° N and 70° E to 160° W, reports an average of 10.06 GNSS Advanced Orbit and Clock Augmentation - Precise Point\ncorrected GPS satellites and 99.99% availability.",
+    "char_length": 280
+  },
+  {
+    "quote_id": "qb_077ba8b58e",
+    "span_index": 205,
+    "text": "The real- Positioning (IS-QZSS-MDC-003),” Cabinet Office, Government\ntime products of all three services demonstrate adequate of Japan, Aug.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_a66c606865",
+    "span_index": 206,
+    "text": "Available: https://qzss.go.jp/\ncontinuity and offer precise products for a sufficient number en/technical/download/pdf/ps-is-qzss/is-qzss-mdc-003.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_7319e1098d",
+    "span_index": 207,
+    "text": "of satellites, thereby satisfying the requirements of real-time pdf?t=1728962149329.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_696dd0b9bf",
+    "span_index": 208,
+    "text": "In the future, a software solution will be developed to [11] R.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_8a2c170115",
+    "span_index": 209,
+    "text": "Guang et al., “Initial and\nenable simultaneous decoding of HAS, PPP-B2b, and MAD- comprehensive analysis of PPP time transfer based on Galileo\nOCA-PPP products for real-time PPP time transfer.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_c6daa71e89",
+    "span_index": 210,
+    "text": "As these high accuracy service,” GPS Solutions, vol.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_daa75c0b21",
+    "span_index": 211,
+    "text": "products continue to evolve, the application of PPP with am- [12] K.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_477b20b56d",
+    "span_index": 212,
+    "text": "Okeya et al.,\nbiguity resolution technique to real-time time transfer will “MADOCA: Japanese precise orbit and clock determination\nalso be explored and integrated.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_1291b0c23b",
+    "span_index": 213,
+    "text": "tool for GNSS,” Advances in Space Research, vol.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_9d02fd5b5d",
+    "span_index": 214,
+    "text": "3927–3950, May 2023.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_1f60cd1329",
+    "span_index": 215,
+    "text": "Acknowledgment\n[13] R.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_0b5ab6aa09",
+    "span_index": 216,
+    "text": "Xiao et al., “Research\nThe authors acknowledge the IGS and IGMAS for providing on quad-frequency PPP-B2b time transfer,” IEEE Instrum.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_2ede971657",
+    "span_index": 217,
+    "text": "observations and extend their gratitude to the GFZ for sup- Mag., vol.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_658b95e289",
+    "span_index": 218,
+    "text": "porting precise satellite products.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_9d8e35af19",
+    "span_index": 219,
+    "text": "This study was supported [14] J.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_4d92a82fdb",
+    "span_index": 220,
+    "text": "Héroux, “Precise point positioning using IGS orbit\nby the National Natural Science Foundation of China (Grant and clock products,” GPS Solutions, vol.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_12ec1b464f",
+    "span_index": 221,
+    "text": "41974032; 42274019).",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_c6a8d38935",
+    "span_index": 222,
+    "text": "Wickert et al.,\n“Simultaneous estimation of GLONASS pseudorange\nReferences\ninter-frequency biases in precise point positioning using\n[1] J.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_5ab03656ba",
+    "span_index": 223,
+    "text": "Zumberge et al., “Precise point positioning for the efficient and undifferenced and uncombined observations,” GPS Solutions,\nrobust analysis of GPS data from large networks,” J.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_563c5bf758",
+    "span_index": 224,
+    "text": "Geophysical vol.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_ee671c1365",
+    "span_index": 225,
+    "text": "Research–Solid Earth, vol.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_84fbd6838e",
+    "span_index": 226,
+    "text": "5005–5017, Mar.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_8fe2b9a233",
+    "span_index": 227,
+    "text": "Zhang, “Multi-\n[2] G.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_a2298ef497",
+    "span_index": 228,
+    "text": "Petit, “The TAIPPP pilot experiment,” in Proc.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_50df78784e",
+    "span_index": 229,
+    "text": "GNSS phase delay estimation and PPP ambiguity resolution:\nFrequency Control Symp., Joint 22nd European Frequency and Time GPS, BDS, GLONASS, Galileo,” J.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_6daef21c1a",
+    "span_index": 230,
+    "text": "6,\nForum, 2009, pp.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_ba9edf2066",
+    "span_index": 231,
+    "text": "Dousa, “Real- [17] M.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_8982d223a6",
+    "span_index": 232,
+    "text": "Liu, “Resolution\ntime clock and orbit corrections for improved point positioning of GPS carrier-phase ambiguities in Precise Point Positioning\n68 IEEE Instrumentation & Measurement Magazine November 2025\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 267
+  },
+  {
+    "quote_id": "qb_f76c15f68b",
+    "span_index": 233,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_c1389d6ca4",
+    "span_index": 234,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_0e4ed6c49b",
+    "span_index": 235,
+    "text": "(PPP) with daily observations,” J.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_8ef54a711a",
+    "span_index": 236,
+    "text": "His primary research focuses on real-time GNSS time\nJul.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_cfaa042023",
+    "span_index": 237,
+    "text": "transfer and high-precision positioning.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_c936fd0f12",
+    "span_index": 238,
+    "text": "Saastamoinen, “Atmospheric correction for the troposphere and\nthe stratosphere in radio ranging Satellites,” The Use of Artificial Rui Tu (turui-2004@126.com) is a Professor at the College of\nSatellites for Geodesy, vol.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_ee203cb42f",
+    "span_index": 239,
+    "text": "Geodesy and Geomatics, Shandong University of Science and\n[19] J.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_67f32b52f1",
+    "span_index": 240,
+    "text": "Tregoning, and H.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_9f8d69a76d",
+    "span_index": 241,
+    "text": "Schuh, “Global mapping Technology, Qingdao, Shandong, China.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_2dba35296c",
+    "span_index": 242,
+    "text": "He received a Ph.D.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_6b6d366e11",
+    "span_index": 243,
+    "text": "function (GMF): A new empirical mapping function based on degree from the the German Research Centre for Geosciences\nnumerical weather model data,” Geophysical Research Letters, vol.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_40c7fb5cbc",
+    "span_index": 244,
+    "text": "(GeoForschungsZentrum, GFZ) and worked as a Professor at\n33, pp.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_4e5703a30e",
+    "span_index": 245,
+    "text": "the National Time Service Center of the Chinese Academy of\n[20] G.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_a6b13b39a5",
+    "span_index": 246,
+    "text": "Schmitz, “RTK networks based on Sciences until 2024.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_4060748c88",
+    "span_index": 247,
+    "text": "His main research interests include GNSS\nGeo++® GNSMART- Concepts, implementation, results,” in Proc.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_b89448205e",
+    "span_index": 248,
+    "text": "precise point positioning, RTK positioning, and application in\n14th Int.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_a61911d627",
+    "span_index": 249,
+    "text": "Satellite Division, 2001, pp.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_387a23456e",
+    "span_index": 250,
+    "text": "Fernandez-Hernandez, T.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_296f5f6315",
+    "span_index": 251,
+    "text": "Vecchione,\n“High-parity vertical Reed-Solomon codes for long GNSS high- Jihai Zhang (zhangntsc@126.com) is a Research Associate at\naccuracy messages,” Navigation, vol.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_493a515d87",
+    "span_index": 252,
+    "text": "the National Time Service Center of Chinese Academy of Sci-\n2020.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_d07f3fc14f",
+    "span_index": 253,
+    "text": "ences in Xi’an, Shaanxi, China.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_a49111e28f",
+    "span_index": 254,
+    "text": "He holds a Ph.D.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_0937be54c0",
+    "span_index": 255,
+    "text": "degree from\n[22] R.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_692db10fd4",
+    "span_index": 256,
+    "text": "Lu, “HASPPP: an open-source University of Chinese Academy of Sciences (2020).",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_b54a368d99",
+    "span_index": 257,
+    "text": "His main\nGalileo HAS embeddable RTKLIB decoding package,” GPS research fields are high-precision time transfer and GNSS time\nSolutions, vol.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_c03e3d8011",
+    "span_index": 258,
+    "text": "difference monitoring.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_dfb837b8bb",
+    "span_index": 259,
+    "text": "Runzhi Zhang (zhangrunzhi@ntsc.ac.cn) is pursuing a Ph.D.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_fb2c43c352",
+    "span_index": 260,
+    "text": "Xiaochun Lu (luxc@ntsc.ac.cn) is a Professor at the National\ndegree at the University of Chinese Academy of Sciences and Time Service Center of Chinese Academy of Sciences in Xi’an,\nconducting his research at the Key Laboratory of Precision Shaanxi, China, and a Ph.D.",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_cde5417461",
+    "span_index": 261,
+    "text": "Supervisor at the University of\nNavigation and Timing Technology, National Time Service Chinese Academy of Sciences.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_02ac9b031f",
+    "span_index": 262,
+    "text": "Her research primarily focuses\nCenter (NTSC), Chinese Academy of Sciences, Xi’an, Shaanxi, on the application of GNSS time transfer.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_bd38fd0d4f",
+    "span_index": 263,
+    "text": "November 2025 IEEE Instrumentation & Measurement Magazine 69\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_7a7aefcbc9",
+    "span_index": 264,
+    "text": "Downloaded on May 22,2026 at 06:29:46 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_2b7b03d33e",
+    "span_index": 265,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+  "expected_category": "related_orbit",
+  "extraction_mode": "batch_b_lite_4calls",
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "orbit_clock_product_gen",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": true,
+  "mathematical_model": "NOT_MENTIONED",
+  "experiment_epoch": "NOT_MENTIONED",
+  "correction_types": [
+    "orbit correction",
+    "clock correction",
+    "differential code bias"
+  ],
+  "ionospheric_handling": "NOT_MENTIONED",
+  "flag_missing_dcb": false,
+  "reason": "The paper describes the generation and evaluation of orbit and clock corrections for the BDS-3 PPP-B2b service.",
+  "metrics": {
+    "orbit_correction_accuracy": "Not provided in excerpt",
+    "clock_correction_accuracy": "Not provided in excerpt",
+    "user_range_accuracy_index": "Mentioned but no values",
+    "positioning_performance": "Not provided"
+  },
+  "main_results": "The paper describes the orbit and clock correction generation for PPP-B2b and evaluates the accuracy of these corrections for GPS and BDS-3 satellites. Specific quantitative results are not in the provided text snippet.",
+  "datasets": "PPP-B2b broadcast corrections (Type 1-4 messages) and possibly IGS products for comparison. The text does not list specific datasets in the snippet.",
+  "reproduction_blockers": [
+    "No code or software release mentioned",
+    "Raw GNSS observation data and broadcast ephemeris not provided",
+    "No configuration details for orbit determination software",
+    "Kalman filter settings not disclosed",
+    "Correction archive not available",
+    "Model parameters (e.g., solar radiation pressure, antenna phase center offsets) not specified",
+    "No benchmark or precise orbit/clock products used for comparison identified"
+  ],
+  "score": 1,
+  "_meta": {
+    "calls_ok": 4,
+    "calls_total": 4,
+    "elapsed_s": 218.6
+  }
+}

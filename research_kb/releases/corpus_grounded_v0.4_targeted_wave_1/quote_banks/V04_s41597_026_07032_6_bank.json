@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_9d1a17e9cb",
+    "span_index": 0,
+    "text": "www.nature.com/scientificdata\nOPEN BDSet: a First-ever BDS Satellite-\nbased PPP augmentation Dataset\nDATA DeSCRIPToR\nSince 2023\nChenhao Ouyang 1,2, Junbo Shi1 ✉, Cheng Hou1, Wenjie Peng1, Jiming Guo1 & Yibin Yao1\nthe BDS precise point positioning (PPP) service broadcasts state space representation (SSR) corrections\nvia PPP-B2b augmentation signals. To maximize research potentials of the service, this study develops\na first-ever BDS PPP-B2b augmentation dataset since January 2023, named BDSet. This dataset\noriginates from PPP-B2b augmentation signals collected in Wuhan, China, and covers the pr",
+    "char_length": 4146
+  },
+  {
+    "quote_id": "qb_6378ba8cea",
+    "span_index": 1,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\ncorrections, which are then combined with the broadcast ephemeris to recover precise orbits, clock offsets and\nDCBs15. The detailed recovery procedure is provided in the official BDS PPP-B2b ICD on pages 33 and 344.\nBased on the recovered PPP-B2b precise products, numerous studies have been conducted, focusing on\nproduct accuracy evaluation, positioning algorithm development, as well as zenith tropospheric delay (ZTD)\nand precipitable water vapor (PWV) estimation. Regarding the product accuracy evaluation, existing stud-\nies have use",
+    "char_length": 7410
+  },
+  {
+    "quote_id": "qb_8b7938d2a5",
+    "span_index": 2,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nFig. 1 Configuration for the PPP-B2b augmentation data acquisition.\ndeveloped platform for PPP-B2b augmentation data acquisition is first introduced. Next, the dataset design is\nexplained, detailing the data processing workflow and data classification scheme. Then, a three-year dataset from\nJan. 2023 to Dec. 2025 is developed with implementation details including naming conventions, storage paths,\nand formats of various files. Finally, the developed dataset is validated from several aspects, such as data size,\nmessage amount, spatiot",
+    "char_length": 2620
+  },
+  {
+    "quote_id": "qb_1291000f6d",
+    "span_index": 3,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nPPP-B2b augmentation messages BDS/GPS broadcast\nLevel 0\nin receiving chip-defined format ephemerides\nStandardize\nPPP-B2b augmentation messages\nLevel 1 in ICD-defined format\nType1 Type2 Type3 Type4 Type63\nDecode\nLevel 2 Satellite orbit DCB clock\nmask Corrections\nRecover\nLevel 3 PPP-B2b orbits PPP-B2b clock offsets PPP-B2b DCBs\nFig. 2 Classification of PPP-B2b augmentation dataset.\n32 bits\nLevel 0\n256 bits 984 bits\nLevel 1\n16 bits 984 bits\n(0xeb90)\nFig. 3 Structure of PPP-B2b augmentation messages in Level 0 and Level 1. The green part",
+    "char_length": 2730
+  },
+  {
+    "quote_id": "qb_e42112971c",
+    "span_index": 4,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nField Length Content\nPPP-B2b 7 Denotes data from PPP-B2b augmentation signals\n‘YYYY’: year\nYYYYDOY (Date) 7\n‘DOY’: day of year\n‘MIX’: mixed messages from receiving chip\n‘B2B’: PPP-B2b augmentation messages\n‘SSR’: PPP-B2b SSR corrections\nCCC (Content) 3\n‘ORB’: PPP-B2b orbit\n‘CLK’: PPP-B2b clock offset\n‘DCB’: PPP-B2b DCB\n‘RAW’: binary format defined by receiving chip\n‘B2B’: binary format defined by PPP-B2b signal ICD32\n‘SSR’: ASCII PPP-B2b SSR correction format defined by this study\nFFF (Format) 3 ‘SP3’: SP3-d format defined by IGS34\n‘",
+    "char_length": 3963
+  },
+  {
+    "quote_id": "qb_bb517b56c9",
+    "span_index": 5,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nSub-folder File name File content File format\nBinary format defined by\nLevel_0 PPP-B2b_YYYYDOY_MIX.RAW Raw messages from receiving chip\nreceiving chip\nStandardized PPP-B2b Binary format defined by\nLevel_1 PPP-B2b_YYYYDOY_B2B.B2B\naugmentation messages PPP-B2b signal ICD\nASCII PPP-B2b SSR\nLevel_2 PPP-B2b_YYYYDOY_SSR.SSR Decoded PPP-B2b SSR corrections correction format defined by\nthis study\nPPP-B2b_YYYYDOY_ORB.SP3/PPP-B2b_YYYYDOY_CLK.CLK/PPP- Recovered PPP-B2b orbit/clock ASCII SP3/CLK/BSX format\nLevel_3\nB2b_YYYYDOY_DCB.BSX offset/DCB ",
+    "char_length": 4462
+  },
+  {
+    "quote_id": "qb_236dd69fa6",
+    "span_index": 6,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nType1697 1272 bits = 159 bytes 8\n#1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11\n#12\nType72 1984 bits = 248 bytes 8\n#1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11\n#12\nType71 2048 bits = 256 bytes 8\n#1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11\n#12\nFig. 6 Example of Level_0 file content in hexadecimal format with 12 fields separated by orange lines. Field #3\ndenotes message type, i.e. 0xa106, 0 × 4800 and 0 × 4700 denote Type 1697, 72 and 71, respectively.\nField # Content Length (bit)\n1 Preamble, fixed to ‘0xeb90’ in hexadecimal format 16\n2 GEO satellite PRN 6\n3 PPP ser",
+    "char_length": 2488
+  },
+  {
+    "quote_id": "qb_d881d0b128",
+    "span_index": 7,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\n#2 #3 #4 #2 #3 #4\n(A) (B)\n#1 #1\n#2 #3 #4 #2 #3 #4\n(C) (D)\n#1 #1\n#2 #3 #4\n(E) (A): Type1 (satellitemask,1000bits)\n#1\n(B):Type2 (orbit correction, 1000bits)\n(C):Type3 (DCBcorrection,1000 bits)\n(D):Type4 (clockcorrection,1000bits)\n(E):Type 63 (nullmessage,1000 bits)\nFig. 7 Example of Level_1 file content in hexadecimal format with four fields separated by orange lines. The\nfirst six bits in Field #4 denote message type, i.e. binary ‘000001’, ‘000010’, ‘000011’, ‘000100’ and ‘111111’ denote\nType 1, 2, 3, 4 and 63, respectively.\nType Cont",
+    "char_length": 1887
+  },
+  {
+    "quote_id": "qb_5a4b7fa3a3",
+    "span_index": 8,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nHeader Body\nType1(satellitemask)\nType2(orbitcorrection)\nType3(DCBcorrection)\nType4(clockcorrection)\nFig. 8 Example of Level_2 file content. The blue and red region represent Header and Body of PPP-B2b SSR\ncorrections, respectively.\nSP3file(PPP-B2borbit)\n#dP2023 01 01 0 0 0.00000000 BDCS BDS\n/* BDS: CNAV1 + SSR, B3I APC\n/* GPS: LNAV + SSR, L1/L2 IF APC\n* 2023 1 1 0 0 5.00000000\nPC21 -16143.095871 11938.362649 19400.853433 999999.999999\nPC22 -27439.096917 1116.461362 5013.317273 999999.999999\n……\nPG08 20843.671227 1752.353003 16540.4743",
+    "char_length": 1779
+  },
+  {
+    "quote_id": "qb_e151940f00",
+    "span_index": 9,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nSub-folder File amount File size (GB)\nLevel_0 365 11.62\nLevel_1 365 9.11\nLevel_2 365 16.64\nLevel_3 1095 6.24\nTotal 2190 43.61\nTable 6. File Amount and Size for BDSet During 2023.\nType 1697 Type 72 Type 71\nFile size. Table 6 lists the amount of files and the corresponding storage memory of the dataset in 2023. The\nnumber of files in the sub-folder Level_0-3 are 365, 365, 365, and 1095, with memory sizes of 11.62 GB, 9.11\nGB, 16.64 GB, and 6.24 GB, respectively, totaling 43.61 GB. Taking files on January 1, 2023 as examples, the file\n‘",
+    "char_length": 2043
+  },
+  {
+    "quote_id": "qb_843c4df3c6",
+    "span_index": 10,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nFig. 12 Ground tracks for BDS (left) and GPS (right) satellites with valid PPP-B2b SSR corrections during Jan\n1-7, 2023.\nSatellite mask Orbit correction DCB correction Clock correction\n(Type 1) (Type 2) (Type 3) (Type 4)\n(1) For Type 1697, the number of messages from January to May ranges between 123,135 and 172,800, and\nthen increases since June, ranging between 224,719 and 259,117. The increase in June is due to the launch\nof the 4th BDS-3 GEO satellite C62 on May 17, 2023, which started broadcasting PPP-B2b augmentation\nmessages s",
+    "char_length": 1416
+  },
+  {
+    "quote_id": "qb_379a060b0b",
+    "span_index": 11,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nevaluation of Level 1. Decoding of PPP-B2b augmentation messages in the sub-folder Level_1 shows that a\ntotal of 78,246,531 PPP-B2b augmentation messages were collected in 2023, of which 78,238,323 passed the CRC\ncheck. The message amounts from C59, C60, C61, and C62 are 30,098,337, 30,088,786, 95,477, and 17,955,723,\nrespectively. It should be noted that messages from C61 were only collected on January 19 and March 3, and no\nmessage was collected from C61 during other periods. Therefore, subsequent discussions in this study exclude\n",
+    "char_length": 4520
+  },
+  {
+    "quote_id": "qb_c8bde32292",
+    "span_index": 12,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\n(2) For C62, the median latency of DCB corrections is 56.12 s, which is obviously higher than that of C59 and\nC60 (17.12 s). This latency difference is attributed to the fact that C62 was in on-orbit testing phase, and\nwas not providing the same FOC PPP service as C59/C60 in 2023. Although the maximum clock offset\ncorrection latencies occasionally exceed 20 s, the median value is 7.12 s, consistent with that of C59 and\nC60. Median latencies for satellite mask and orbit corrections are 5.12 s and 24.12 s, which are also consist-\nent w",
+    "char_length": 5810
+  },
+  {
+    "quote_id": "qb_51e90118b9",
+    "span_index": 13,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\n12. Tao, J., Zhang, G., Chen, G., Jiang, Y. & Zhao, Q. Real-time estimation of multi-frequency phase observable-specific bias for the\nBDS3 PPP-B2b service. GPS Solutions 29, 19, https://doi.org/10.1007/s10291-024-01776-7 (2025).\n13. Zhou, P. et al. Real-Time Precise Zenith Tropospheric Delay Estimation with BDS PPP-B2b, Galileo HAS, and QZSS MADOCA-\nPPP Services. IEEE Transactions on Geoscience and Remote Sensing 62, 5802011, https://doi.org/10.1109/tgrs.2024.3443884 (2024).\n14. Wang, J. et al. Multi-frequency smartphone positioning ",
+    "char_length": 6915
+  },
+  {
+    "quote_id": "qb_3d18b168cc",
+    "span_index": 14,
+    "text": "www.nature.com/scientificdata/ www.nature.com/scientificdata\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and\ninstitutional affiliations.\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-\nNoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribu-\ntion and reproduction in any medium or format, as long as you give appropriate credit to the original author(s)\nand the source, provide a link to the Creative Commons licence, and indicate if you modified the license",
+    "char_length": 1325
+  }
+]

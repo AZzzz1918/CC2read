@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper examines the completeness, continuity, and jumps of PPP-B2b orbit and clock corrections and develops outlier detection and prediction methods, directly addressing PPP-B2b service performance.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "remotesensing-16-02337-v2.pdf",
+  "paper_id": "remotesensing-16-02337-v2",
+  "extraction_mode": "batch_classify_1call"
+}

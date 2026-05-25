@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_26569d6865",
+    "span_index": 0,
+    "text": "Received:21February2020 Revised:17June2020 Accepted:14July2020\nDOI:10.1002/navi.392\nORIGINAL ARTICLE\nDesign and implementation of a BDS precise point\npositioning service\nChengLiu1 WeiguangGao1 TianxiongLiu2 DunWang3 ZhengYao4\nYangGao5 XinNie2 WeiWang1 DongjunLi3 WeixingZhang6\nDongxiaWang5 YongnanRao7\n1BeijingInstituteofTrackingandTelecommunicationTechnology,Beijing,China\n2BeijingInstituteofSpacecraftSystemEngineering,Beijing,China\n3SpaceStarTechnologyCo.,Ltd,Beijing,China\n4DepartmentofElectronicEngineering,TsinghuaUniversity,Beijing,China\n5BeijingNavigationCenter,Beijing,China\n6GNSSResearchCen",
+    "char_length": 2715
+  },
+  {
+    "quote_id": "qb_77f446395e",
+    "span_index": 1,
+    "text": "876 LIUetal.\nHayes & Hahn, 2019). QZSS provides its centimeter-level format of the service is formulated, which can augment\naugmentationservice(CLAS),whichcoversJapan,based all visible satellites of the four core constellations (GPS,\non real-time kinematic precise point positioning (PPP- GLONASS, BDS, and Galileo) in mainland China. The\nRTK) technology via its L6D signal. As stated in the same high-gain, 64-ary, low-density parity check (LDPC)\nQZSS performance standard (PS) and interface specifica- coding (Huang et al., 2017, 2019) for navigation messages\ntion document (IS-QZSS-L6-001) release",
+    "char_length": 5130
+  },
+  {
+    "quote_id": "qb_62f76089cf",
+    "span_index": 2,
+    "text": "LIUetal. 877\nFIGURE 1 SignalcoverageofBDS-3GEOs[Colorfigurecanbeviewedintheonlineissue,whichisavailableatwileyonlinelibrary.com\nandwww.ion.org]\nfor backup will be launched to provide the second-phase\nservice.\nThegroundsegmentconsistsofthemastercontrolsta-\ntion (MCS), uplink stations (ULS), and monitoring sta-\ntions(MS),whicharewelldistributedinmainlandChina\nandhavebettergeometrythanthatoftheBeiDouregional\nnavigationsatellitesystem(BDS-2)(Yangetal.,2019).The\nMCS,ULS,andMSaresharedwithotherBDS-3openser-\nvices.\nThe user segment includes various receivers with\nPPP-B2b signal reception, augmentatio",
+    "char_length": 1833
+  },
+  {
+    "quote_id": "qb_0b8cfc0b17",
+    "span_index": 3,
+    "text": "878 LIUetal.\n(DCB) are attached to the augmentation navigation mes- perature of the receivers. By averaging the G/T values of\nsagesandthentransferredtotheULS. the different categories of receivers of the above manu-\nThe ULS transmits the augmentation navigation mes- factures, typical G/T values were obtained, as shown in\nsages to the GEO satellites for broadcasting via PPP-B2b Table1.\nsignals.Meanwhile,theMSandMCSretrievethemessages Considering actual application in multiple environ-\nforclosed-loopchecking. ments, a certain demodulation margin is necessary for\n◦\nreliable use. Taking the typica",
+    "char_length": 4574
+  },
+  {
+    "quote_id": "qb_e2a118ae83",
+    "span_index": 4,
+    "text": "LIUetal. 879\nTABLE 1 TypicalG/Tofreceivers∗\nReceiverType\nPerformance Vehicle Geodetic Hand-held Portable ElevationAngle(◦)\nTypicalG/T(dB/K) ≤−30.7 ≤−32.7 ≤−32.7 ≤−33.9 5\n−26.2∼−28.6 −26.7∼−30.0 −28.6∼−34.0 ≤−30.0 20\n−22.7∼−25.1 −22.7∼−24.1 −24.7∼−25.1 −26.1∼−26.4 50\n−20.7∼−21.1 −19.6∼−20.7 −21.0∼−25.0 −23.4∼−25.6 90\n∗TheG/Tvaluesofthereceiversaretestedandprovidedbythemanufacturers.Becauseofthelimitednumberofmanufacturerssurveyedandtheperformance\nandtestconditionsofthereceiversarealsodifferent,thetypicalG/Tvaluesinthetableareonlypresentedasreference.\nTABLE 2 DownlinkcalculationofPPP-B2b\nItems V",
+    "char_length": 3085
+  },
+  {
+    "quote_id": "qb_3edde7ae74",
+    "span_index": 5,
+    "text": "880 LIUetal.\nFIGURE 3 PhaserotationofPPP-B2b_I[Colorfigurecanbeviewedintheonlineissue,whichisavailableatwileyonlinelibrary.comand\nwww.ion.org]\nTABLE 4 PowerandmultiplexingefficiencycorrespondingtotheoptimizedType-IIIACE-BOC\nPowerratioof Phaserelationship\nB2a-I:B2a-Q:\nActualpower∗\nMultiplexing betweenB2b-Iand\nB2b-I:B2b-Q Signalcomponents B2a-I B2a-Q B2b-I B2b-Q efficiency B2a-I\n1:1:1:0 Unlimitedbandwidth 0.2374 0.2374 0.2374 0 71.22% 45◦\nWorkingbandwidth 0.3118 0.3118 0.3118 93.54%\na∗Thetotaltransmissionpowerisassumedtobe1.\nsignal, and it can be seen from Table 4 and Figure 5 that (seeFigure5).",
+    "char_length": 1339
+  },
+  {
+    "quote_id": "qb_bbfa55ef57",
+    "span_index": 6,
+    "text": "LIUetal. 881\n1\n0.5\n0\n-0.5\n-1\n-1 -0.5 0 0.5 1\nReal Part\ntraP\nyranigamI\nConstellation\nFIGURE 4 ConstellationcorrespondingtooptimizedType-III\nACE-BOC[Colorfigurecanbeviewedintheonlineissue,whichis\navailableatwileyonlinelibrary.comandwww.ion.org]\n-70\n-75\n-80\n-85\n-90\n-95\n-100\n-105\n-110\n-60 -40 -20 0 20 40 60\nFrequency(MHz)\n)zH-Bd(DSP\n4 MESSAGEFORMATDESIGN\nAs the construction and development of PPP systems or\nservicesintheworldwereinitiallycommercialactivities,\nand the satellite link resources used were different, they\ndid not formulate a unified and standard augmentation\nmessageformatlikeSBAS.Gener",
+    "char_length": 3056
+  },
+  {
+    "quote_id": "qb_14b17c2289",
+    "span_index": 7,
+    "text": "882 LIUetal.\nTABLE 5 MaximumnumberofvisiblesatellitesinmainlandChinaunderdifferentGNSScombinations\nGNSScombination BDS BDS+GPS BDS+GPS+GLO BDS+GPS+GLO+GAL\nMaximumnumberofvisiblesatellites 20 36 49 68\nTABLE 6 CorrectionbitLengthoftheBDSPPPservice\nStandardSSR BDSBASPPPservice\nLength Length\nCorrection (bit) Scalefactor Range (bit) Scalefactor Range\nOrbitcorrection(R) 22 0.1mm ±209.7151m 15 1.6mm ±26.2128m\nOrbitcorrection(A) 20 0.4mm ±209.7148m 13 6.4mm ±26.208m\nOrbitcorrection(C) 20 0.4mm ±209.7148m 13 6.4mm ±26.208m\nClockcorrection(𝐶 0) 22 0.1mm ±209.7151m 15 1.6mm ±26.2128m\nClockcorrection(𝐶 1)",
+    "char_length": 3695
+  },
+  {
+    "quote_id": "qb_2ea2471e3f",
+    "span_index": 8,
+    "text": "LIUetal. 883\nTABLE 7 Probabilitiesofcorrectionsfallingwithintherangesofdifferentmessageformats\nOrbitcorrection(%) Clockcorrection Differential\nGNSS Messageformat Radial Cross Along (%) codebias(%)\nBDS StandardSSR 100.00 99.99 100.00 100.00 100.00\nBDSPPPService 99.94 99.98 99.94 99.93 100.00\nGPS StandardSSR 100.00 99.99 99.99 100.00 100.00\nBDSPPPService 100.00 99.99 99.99 100.00 100.00\nGLO StandardSSR 99.99 99.99 99.99 100.00 100.00\nBDSPPPService 99.99 99.99 99.99 100.00 100.00\nGAL StandardSSR 100.00 100.00 100.00 100.00 100.00\nBDSPPPService 100.00 99.94 99.99 99.99 100.00\nTABLE 8 Accuracylosso",
+    "char_length": 3006
+  },
+  {
+    "quote_id": "qb_a34995de73",
+    "span_index": 9,
+    "text": "884 LIUetal.\n(a) Positioning accuracy loss caused by the different update (b) Positioning accuracy loss caused by the different update\nintervals of the satellite orbit corrections intervals of the satellite clock corrections\nFIGURE 6 Positioningaccuracylosscausedbythedifferentupdateintervalsofthesatellitecorrections[Colorfigurecanbeviewedin\ntheonlineissue,whichisavailableatwileyonlinelibrary.comandwww.ion.org]\nFIGURE 7 PPP-B2b_Inavigationmessageframestructure\n4.2.1 Messagestructure After encoding (see Section 5), the frame length is 972\nsymbols. These symbols are concatenated together with\nThe",
+    "char_length": 1273
+  },
+  {
+    "quote_id": "qb_83e5797df1",
+    "span_index": 10,
+    "text": "LIUetal. 885\nThereservedflagsareusedtoidentifythestatusofthe TABLE 9 Definedmessagetypesandtheirnominalvalidity\nservice: “1” in the highestbit of the reservedflags means times\nthe PPP service of this satellite is unavailable, and “0” Nominal\nmeansthatitisavailable. Othersymbolsarereservedfor Messagetype validity\nfuture purposes. The status of the reserved flags rarely (indecimal) Informationcontent time(s)\nchanges so that users can minimize the demodulation 1 Satellitemask –\nerrorbysuperimposingmultipleframesofinformation. 2 Satelliteorbitcorrectionand 96\nURA\n3 DCB 86400\n4.2.2 Messagetypesandc",
+    "char_length": 2711
+  },
+  {
+    "quote_id": "qb_593d8efaad",
+    "span_index": 11,
+    "text": "886 LIUetal.\nTABLE 10 Valuesof𝑃 𝑒,𝐶∕𝑁 0and𝐸 𝑏 ∕𝑁 0(𝑇 𝑏 =500bps)\nItems Values∗\n𝐶∕𝑁 0(dB) 36.4 36.6 36.8 37.0 37.2 37.4 37.6 37.8\n𝐸 𝑏 ∕𝑁 0(dB) 9.41 9.61 9.81 10.01 10.21 10.41 10.61 10.81\n𝑃\n𝑒\n1.47−5 9.55−6 6.10−6 3.78−6 2.32−6 1.38−6 8.05−7 4.58−7\n∗𝑎𝑏means𝑎×10𝑏.\nTABLE 11 Codinggainrequirements\nItems Values\nDatarate(bps) 500\nGroundreceivedsignalpower(dBW) −159.5\n𝐶∕𝑁 0thresholdwithBERlessthan10−6(dB) 37.6\nBoltzmannconstk(dBJ/K) −228.6\nA/Dconversionandbasebandprocessingloss(dB) 2\nSymbolrate(bps) 500\nVehicle Geodetic Hand-held Portable\nTypicalG/Tofrevivers(dB/K) ≤−30.7 ≤−32.7 ≤−32.7 ≤−33.9\nEffective",
+    "char_length": 3145
+  },
+  {
+    "quote_id": "qb_6c01de387f",
+    "span_index": 12,
+    "text": "LIUetal. 887\n65\n60\n55\n50\n45\n-30 -20 -10 0 10 20 30\nFrequency (MHz)\n)Bd(\nrewop\ndezilamroN\n62\nActual power spectrum\nTheoretical power spectrum\n60\n58\n56\n54\n52\n50\n-5 0 5\nFrequency (MHz)\n(a) B2 signal (b) PPP-B2b signal\n)Bd(\nrewop\ndezilamroN\nActual power spectrum\nTheoretical power spectrum\nFIGURE 9 PowerspectrumofGEO-1[Colorfigurecanbeviewedintheonlineissue,whichisavailableatwileyonlinelibrary.comand\nwww.ion.org]\nresultsofPPP-B2bbroadcastbytheBDS-3GEO-1satellite\ninorbitandanactualusergroundreceptioncase.Thepre-\nliminary results and performance analysis of the service\nbasedontheBDSconstellation,whic",
+    "char_length": 2506
+  },
+  {
+    "quote_id": "qb_59497f3764",
+    "span_index": 13,
+    "text": "888 LIUetal.\n0.1\n0.08\n0.06\n0.04\n0.02\n0\n0 0.2 0.4 0.6 0.8 1\nInterval of the discriminator (Chips)\n)sn(\nBCS\nFIGURE 11 SCBofDLLdiscriminatorofPPP-B2b[Colorfigure\ncanbeviewedintheonlineissue,whichisavailableatwileyonlineli-\nbrary.comandwww.ion.org]\n0.8\n0.6\n0.4\n0.2\n0\n-0.2\n-0.4\n-0.6\n-0.8\n0 20 40 60 80 100\nChips\nedutilpma\nlangis\ndnabesaB\nFIGURE 12 BasebandsignalwaveformofPPP-B2b[Colorfig-\nurecanbeviewedintheonlineissue,whichisavailableatwileyon-\nlinelibrary.comandwww.ion.org]\n3\n2\n1\n0\n-1\n-2\n0 200 400 600 800 1000\nTime (ms)\negnaroduesp\nedoc\nneewteb\necnereffiD\n)°(\negnaroduesp\nreirrac\ndna\nTABLE 12 Antenn",
+    "char_length": 2549
+  },
+  {
+    "quote_id": "qb_44f5815ab7",
+    "span_index": 14,
+    "text": "LIUetal. 889\n(a) C/N value sequence (b) Probability statistics\n0\nFIGURE 14 𝐶∕𝑁 0 of PPP-B2b [Color figure can be viewed in the online issue, which is available at wileyonlinelibrary.com and\nwww.ion.org]\nTABLE 13 Thestatisticalresultsofthe7-daystaticpositioning\nexperiment\nAccuracy(RMS,m)\nConvergence\nStations Horizontal Vertical time(s)\nBeijing 0.081 0.121 470\n(a) Average positioning accuracy in the horizontal direction\nSanya 0.092 0.145 501\nShantou 0.083 0.139 504\nHarbin 0.115 0.151 614\nstatisticalresultsofthecompleteseven-daystaticposition-\ningexperimentareshowninTable13.\n(b) Average positioni",
+    "char_length": 2054
+  },
+  {
+    "quote_id": "qb_b74368f003",
+    "span_index": 15,
+    "text": "890 LIUetal.\nhigh-precision PPP service to users in China and its sur-\nroundingareas.Itisbelievedthat,withthefutureaugmen-\ntationofotherGNSSconstellations,theperformanceofthe\nBDSPPPservicewillbefurtherimproved.\nACKNOWLEDGMENTS\n(a) Beijing station\nWe extend our sincere gratitude to Ms. Jiang Nan and\nDr.LiFangfortheirhelpinproofreadinganddrawing.\nFINANCIAL DISCLOSURE\nThisstudywassupportedbytheNationalNaturalScience\nFoundationofChina(GrantNos.41974041,61601009,and\n61771272) and the Young Talent Supporting Program of\n(b) Sanya station\ntheChinaAssociationforScienceandTechnology(Grant\nNo.2019QNRC001",
+    "char_length": 3577
+  },
+  {
+    "quote_id": "qb_fec02631fc",
+    "span_index": 16,
+    "text": "LIUetal. 891\nIWG SBAS. (2016a). Satellite-based augmentation system dual- RTCMSpecialCommittee.(2013).DifferentialGNSS(globalnaviga-\nfrequencymulti-constellationdefinitiondocument.31thSBASIWG, tionsatellitesystems)services:Version3(RTCMStandard10403.2).\nDakar,Senegal. https://global.ihs.com/doc_detail.cfm?document_name=\nIWG SBAS. (2016b). Satellite-based augmentation system dual- RTCM%2010403%2E2&item_s_key=00619725#product-details-\nfrequency multi-constellation interface control. 31th SBAS IWG, list\nDakar,Senegal. Yang,Y.,Gao,W.,Guo,S.,Mao,Y.,&Yang,Y.(2019).Introduction\nKazmierski,K.,Sośnica,",
+    "char_length": 2373
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s10291_025_01854_4",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "PPP-B2b-RTK: a PPP-B2b augmentation method by using the SSR corrections from a single reference station"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2025) 29:124 https://doi.org/10.1007/s10291-025-01854-4 RESEARCH PPP‑B2b‑RTK: a PPP‑B2b augmentation method by using the SSR corrections from a single reference station Leitong Yuan1 · Bofeng Li1 · Weikai Miao1 · Haibo Ge1 · Zhilu Wu1 Received: 11 July 2024 / Accepted: 31 March 2025 / Published online: 2 June 2025 © The Author(s), under exclusive licence to Springe",
+      "Moreover, integer ambiguity resolution (IAR), a prerequisite for precise positioning, cannot be implemented only with current PPP-B2b prod- ucts."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2021-01-07"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 6
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 155,
+    "has": 0,
+    "dcb": 6,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

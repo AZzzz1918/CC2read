@@ -1,0 +1,89 @@
+# Technical Routes — Continuously Extensible Research KB
+# Version: 1.0
+# Each route records: name, maturity, paper_count, first_seen, key_papers
+
+routes:
+  - name: PPP-B2b Positioning Performance
+    maturity: MATURE
+    paper_count: 25
+    first_seen: 2021
+    key_papers: [Yan_Liu_2022, Tang_Chenggan_2022, Nie_2021]
+
+  - name: PPP-B2b Time Transfer
+    maturity: ESTABLISHED
+    paper_count: 6
+    first_seen: 2022
+    key_papers: [Quad-Frequency_2024, Single-Frequency_2024]
+
+  - name: PPP-B2b ZTD/PWV Retrieval
+    maturity: ESTABLISHED
+    paper_count: 6
+    first_seen: 2023
+    key_papers: [Zhou_Linghao_2025, Wang_2024]
+
+  - name: PPP-B2b + INS Integration
+    maturity: GROWING
+    paper_count: 5
+    first_seen: 2023
+
+  - name: PPP-B2b + HAS Fusion
+    maturity: GROWING
+    paper_count: 8
+    first_seen: 2024
+
+  - name: PPP-B2b LEO Orbit Determination
+    maturity: GROWING
+    paper_count: 3
+    first_seen: 2024
+
+  - name: PPP-B2b-RTK
+    maturity: EMERGING
+    paper_count: 1
+    first_seen: 2025
+    status: UNCONFIRMED_SINGLETON
+
+  - name: PPP-B2b Public Dataset
+    maturity: EMERGING
+    paper_count: 1
+    first_seen: 2025
+    key_papers: [BDSet_s41597-026-07032-6]
+    status: UNCONFIRMED_SINGLETON
+
+  - name: PPP-B2b Smartphone Positioning
+    maturity: EMERGING
+    paper_count: 1
+    first_seen: 2024
+    status: UNCONFIRMED_SINGLETON
+
+  - name: PPP-B2b Short-Message Enhancement
+    maturity: NICHE
+    paper_count: 2
+    first_seen: 2024
+
+  - name: PPP-B2b Seismogeodesy
+    maturity: EMERGING
+    paper_count: 2
+    first_seen: 2024
+
+  - name: PPP-B2b Anomaly Detection
+    maturity: EMERGING
+    paper_count: 2
+    first_seen: 2024
+
+  - name: Galileo HAS (non-B2b)
+    maturity: ESTABLISHED
+    paper_count: 4
+    first_seen: 2023
+
+  - name: QZSS CLAS (non-B2b)
+    maturity: ESTABLISHED
+    paper_count: 2
+    first_seen: 2022
+
+maturity_definitions:
+  MATURE: "10+ papers, multiple independent groups, consistent findings"
+  ESTABLISHED: "4-9 papers, converging evidence"
+  GROWING: "2-3 papers, active research area"
+  EMERGING: "1-2 papers, novel direction"
+  NICHE: "1-3 papers, specialized application"
+  UNCONFIRMED_SINGLETON: "1 paper only, needs independent confirmation"

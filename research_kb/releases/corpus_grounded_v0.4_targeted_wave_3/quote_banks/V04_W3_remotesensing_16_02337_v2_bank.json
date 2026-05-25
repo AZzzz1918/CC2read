@@ -1,0 +1,116 @@
+[
+  {
+    "quote_id": "qb_2422672170",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nTemporal Characteristics Based Outlier Detection and Prediction\nMethods for PPP-B2b Orbit and Clock Corrections\nZhenhaoXu1,†,RuiShang1,†,ChengfaGao1,*,WangGao2,QiLiu1 ,FengyangLong1 andDaweiXu1\n1 SchoolofTransportation,SoutheastUniversity,Nanjing211189,China;xuzhenhao@seu.edu.cn(Z.X.);\nshangr@seu.edu.cn(R.S.);lq_0328@seu.edu.cn(Q.L.);fylong1990@seu.edu.cn(F.L.);\n220233478@seu.edu.cn(D.X.)\n2 SchoolofInstrumentScienceandEngineering,SoutheastUniversity,Nanjing210096,China;\ngaow@seu.edu.cn\n* Correspondence:gaochfa@seu.edu.cn\n† Theseauthorscontributedequallytothiswork.\nAbstra",
+    "char_length": 3832
+  },
+  {
+    "quote_id": "qb_14eb189962",
+    "span_index": 1,
+    "text": "RemoteSens.2024,16,2337 2of19\nAlthoughPPP-B2beliminatestheneedforground-basednetworks,itdoesrequire\nvisibilityofatleastoneGEOsatellite. Presently,threeGEOsatellitesaredesignatedfor\nPPP-B2bservices,orbitingatanaltitudeof35,786kmandpositionedat80degreeseast\nlongitude,110.5degreeseastlongitude,and140degreeseastlongitude,respectively. Given\nthe relatively fixed positions of GEO satellites, the elevation angle of GEO satellites is\ntypicallybelow60degreesandpredominantlyonthesouthernsideofusers,leadingto\nthe “south wall effect” [14,15]. During real-time dynamic positioning, this effect often\ntrigger",
+    "char_length": 4080
+  },
+  {
+    "quote_id": "qb_ede504884d",
+    "span_index": 2,
+    "text": "RemoteSens.2024,16,2337 3of19\n2. TemporalCharacteristicsofOrbitandClockCorrectionsforPPP-B2b\nRemote Sens. 2024, 16, x FOR PEER REVIEW 3 of 19\nPPP-B2b currently broadcasts parameters such as satellite mask, orbit corrections,\nclockcorrectionsforBDS-3andGPS,andDCBforBDS-3. Toensuretheaccuratealignment\nbetweenthePPP-B2bcorrectionsandthebroadcastephemeris,fourtypesofIssueofData\n2. Temporal Characteristics of Orbit and Clock Corrections for PPP-B2b\n(IOD)aredefined: IODSSR(IssueofDataforStateSpaceRepresentation),IODP(Issue\nofDaPtPaPf-oBr2Pbs ceuurdroen-Rtlayn bdroomadcNaostiss epMaraamske)t,eIrOs Ds",
+    "char_length": 4972
+  },
+  {
+    "quote_id": "qb_72a8944708",
+    "span_index": 3,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 4 of 19\nRemoteSens.2024,16,2337 4of19\nFigure2.TimeseriesofPPP-B2binformationtype.\nFigure 2. Time series of PPP-B2b information type.\nFor a more detailed analysis of this data interruption phenomenon, we zoom in\non thFeosre qau menocereb edtweteaenile2d:2 2aannadly2s:2i7s, oasf sthhoiws ndaintath ienbteotrtroumpptiaonnel pofhFeingourme e2.noItn, we zoom in on\nbecomesapparentthataround2:23:30,thereisananomalyintheintervalsbetweenclock\nthe sequence between 2:22 and 2:27, as shown in the bottom panel of Figure 2. It becomes\ncorrections,wheretheintervalisapp",
+    "char_length": 5121
+  },
+  {
+    "quote_id": "qb_7ca9e3a05d",
+    "span_index": 4,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 5 of 19\nRemote Sens. 2024, 16, x FOR PEER REVIEW 5 of 19\nRemoteSens.2024,16,2337 5of19\nFigure 3. The IOD SSR of message type 2 and message type 4 during the period of IOD SSR matching\nFigure 3. The IOD SSFfaRiigl uoufrr eem. 3e.ssTahgee ItOyDpeS 2S Ranodf mmeessssaaggee ttyyppee 24 adnudrimnge stshaeg epetyripoed4 odf IuOriDng StShRe mpearticohdinofg IOD SSR\nfailure. matchingfailure.\n2.3. Jumps in Orbit and Clock Corrections\n2.3. JumpsinOrbitandClockCorrections\n2.3. Jumps in Orbit and TCol opcrko vCiodrer aec mtioonres intuitive display of the temporal ",
+    "char_length": 6831
+  },
+  {
+    "quote_id": "qb_83e1f65518",
+    "span_index": 5,
+    "text": "RemoteSens.2024,16,2337 6of19\nRemote Sens. 2024, 16, x FOR PEER REVIEW 6 of 19\nRemote Sens. 2024, 16, x FOR PEER REVIEW 6 of 19\ntimestandards,specificallythetransitionofsatelliteswithclockcorrectionsof0[32]. It\nisnoteworthythatBDS-3lackssatelliteswithclockcorrectionsof0,indicatingdisparate\nIt is noteworthy that BDS-3 lacks satellites with clock corrections of 0, indicating disparate\ncorrectiongenerationstrategiesbetweenBDS-3andGPS.Whilethesecommonjumpsdo\ncorrection generation strategies between BDS-3 and GPS. While these common jumps do\nIt is noteworthy that BDS-3 lacks satellites with clock c",
+    "char_length": 4861
+  },
+  {
+    "quote_id": "qb_016eb85a25",
+    "span_index": 6,
+    "text": "RemoteSens.2024,16,2337 7of19\n3.1. CalculationofPPP-B2bOrbitandClockProducts\nTheparametersfororbitcorrectioninformationaretheradial,alongandcrosscompo-\n→\nnentsoftheorbitcorrectionvectorδO,whicharereferencedintheorbitcoordinatesystem.\nHowever,thesatellitecoordinatesprovidedbythebroadcastephemerisandthesatellite\ncoordinatesusedforpositioningcalculationsarebothintheEarth-CenteredEarth-Fixed\n(ECEF)coordinatesystem. Consequently,itisimperativetoconverttheorbitcorrections\nfromtheorbitcoordinatesystemtotheECEFcoordinatesystem. Thecalculationmethod\nforsatellitepositionsisasfollows:\n → →\n\n",
+    "char_length": 2757
+  },
+  {
+    "quote_id": "qb_cc1f738f1b",
+    "span_index": 7,
+    "text": "RemoteSens.2024,16,2337 8of19\nOnthisbasis,thethresholdmethodisfirstusedforpreliminaryoutlierdetection. If\nthedeviationbetweenthecurrentepochandtheprecedingonefallswithinthepredefined\nthreshold range, it is deemed as normal data. If the deviation exceeds the established\nthreshold,additionaldetectionproceduresareinitiated. Thespecificthresholdvaluesare\ndeterminedbasedonlong-termdatastatistics,asdetailedinSection4.1.\n3.2.2. MedianAbsoluteDeviationOutlierDetection\nDuetovaryingratesofcorrectionchangeoverdifferenttimeperiods,outlierdetection\nmustconsiderthedistributionofdatafromadjacentepochs. Durin",
+    "char_length": 3215
+  },
+  {
+    "quote_id": "qb_b32679e5ef",
+    "span_index": 8,
+    "text": "RemoteSens.2024,16,2337 9of19\nThepolynomialcoefficientsareobtainedthroughtheleastsquaresmethod. Taking\nthequadraticpolynomialasanexample,selectingthelatestnnormalepochsofcorrections\nassamplesresultsinthefollowingobservationequations:\nl = Bx+ε (10)\nwhere\n \n1 t −t (t −t )2\n1 0 1 0\n 1 t −t (t −t )2 \n 2 0 2 0 \nB =  . . . \n . . . \n . . .  (11)\n1 t −t (t −t )2\nn 0 n 0\nx = [ a a a ]\n0 1 2\nl = [ dX dX ... dX ]\n1 2 n\nwhereεdenotesthemeasurementerror,dX representsthecorrectionsusedforestimating\n1\nthe polynomial coefficients, t denotes the correction sampling time, t represents the\ni 0\nrefere",
+    "char_length": 3022
+  },
+  {
+    "quote_id": "qb_908ccb507d",
+    "span_index": 9,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 10 of 19\n4.1. Threshold for Outlier Detection\nWe conducted a quantitative analysis of the temporal characteristics of PPP-B2b cor-\nrections based on long-term observation data to establish outlier detection thresholds.\nRemoteSens.2024,16,2337 Based on the PPP-B2b corrections collected from DOY 340 to 354 in 2023 as described in 10of19\nSection 2.1, we calculated single differences between epochs using the length of the orbit\ncorrection vector as a reference. Subsequently, we conducted a statistical analysis of the\ndifferences in corrections between adjac",
+    "char_length": 7046
+  },
+  {
+    "quote_id": "qb_81e37de3b2",
+    "span_index": 10,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 11 of 19\nperiod. Each day’s data were processed independently within the statistical time intervals,\ndemonstrating high stability and consistency for each satellite daily. Therefore, for clock\ncorrection value outlier detection, the threshold was set to 10 mm for BDS-3 satellites and\n20 mm for GPS satellites.\nRemoteSens.2024,16,2337 Figure 8. Distribution of clock corrections between adjacent epochs for different satell1it1eosf. 19\nAfter identifying an outlier, if it persists for 2 epochs or less, it can be deemed acceptable\nAfteridentifyinganoutlier,if",
+    "char_length": 5696
+  },
+  {
+    "quote_id": "qb_fb15f33ced",
+    "span_index": 11,
+    "text": "RemoteSens.2024,16,2337 12of19\nTable2.ProcessingstrategiesofPPPmodels.\nItem ProcessingStrategies\nObservations Undifferencedcodeandphasemeasurements\nGNSSsignals GPS(L1,L2),BDS-3(B1I,B3I)\n⃝1 NormalPPP-B2borbitandclockcorrections\n⃝2 PredictedPPP-B2borbitandclock\nSatelliteorbit/clock corrections\n⃝3 ExtendedPPP-B2borbitandclock\ncorrections\nCutoffelevation 7◦\nElevationangledependent: a2+b2sin2(el)\nWeightingstrategy a=b=3mmanda=b=3mforrawphase\nandcode,respectively\nSamplingrate 1Hz\nAmbiguities float\nEstimatethesamezenithtroposphericdelays\nAtmosphericdelays intheantennaarrayusingtheSaas+GPT2\nmodel[38]\n",
+    "char_length": 2381
+  },
+  {
+    "quote_id": "qb_b41d506fdd",
+    "span_index": 12,
+    "text": "RemoteSens.2024,16,2337 13of19\ncompared to extended corrections. Following a 30-minute interruption, East and Up\ndirection positioning deviations ceased to rise further, showing some rebound due to\nRemote Sens. 2024n, 1o6,n x- mFOoRn PoEtEoRn RiEcVcIoEWrr ections. However,thisdoesnotimplyaccurateresults,asdeviations 13 of 19\nfromorbitandclockcorrectionsareabsorbedbyparameterslikeionosphericdelayand\nambiguity,disruptingfilteringestimation. Uponsignalreacquisition,positioningoutcomes\nusing extended corrections did not immediately normalize. North and Up directions\nFigure 11 illustrates the posit",
+    "char_length": 3139
+  },
+  {
+    "quote_id": "qb_81dc111005",
+    "span_index": 13,
+    "text": "RemoteSens.2024,16,2337 14of19\n14.7 cm. Similarly, the North direction displayed an initial deviation of approximately\n4.5cm,whichnormalizedafterabout10min. Moreover,duringthe20~30mindisruption\ninterval,therewasadecliningtrendintheNorthdirectiondeviation,akintotheoccur-\nrenceonDOY13,attributedtoirregularalterationsincorrections. Notably,therollback\nphenomenononDOY13manifestedintheEastdirection,whileonDOY14,itemerged\nintheNorthdirection,underscoringtheunpredictabilityofsolelyextendingtheeffective\nperiodofcorrections. Thedisparateinitialdeviationsandreacquisitiontimesforidentical\ndisruptiondurat",
+    "char_length": 3358
+  },
+  {
+    "quote_id": "qb_37772d1484",
+    "span_index": 14,
+    "text": "Remote Sens. 2024, 16, x FOR PEER REVIEW 15 of 19\n4.2.3. Real-time Dynamic Experiments\nThe real-time dynamic localization experiments conducted on the campus of Southeast\nUniversity in Nanjing, China, are illustrated in the left panel of Figure 12. The right panel of\nFigure 12 depicts our testing environment, which included open spaces, tree-shaded areas,\nand areas obstructed by buildings. The campaign lasted 120 min, from GPS time 4:30 to 6:30.\nTo establish reference positions for the trajectory, we established a baseline between the re-\nceiver and the base station ZHD0. The maximum distance ",
+    "char_length": 4871
+  },
+  {
+    "quote_id": "qb_9e731c36ee",
+    "span_index": 15,
+    "text": "ReRmemotoeteS eSnens.s.2 2002244,,1 166,,2 x3 F3O7R PEER REVIEW 16 of 191 6of19\nFFiigguurree 1133. .PPoosistiitoinoinnign gererrorrosr isni na adydnyanmamic isccesnceanriaor,i ow,hwerhee trheet hgeragyr ashyasdhoawd oinwdiincadtiecsa itnetseirnruteprtriuopnt ionof\noPf PPPP-PB-2Bb2bs isgingnalasl.s.T Thheer rmmss__nnoorr,, rrmmss__pprree aanndd rrmmss__eexxt trreepprerseesnent tthteh epopsoitsiiotnioinngin egrreorrrso urssiunsgi nngorn-ormal,\nmal, predicted, and extended corrections from 5:00 to 6:30, respectively.\npredicted,andextendedcorrectionsfrom5:00to6:30,respectively.\nTTaabbllee 5. 5R.MS",
+    "char_length": 4994
+  },
+  {
+    "quote_id": "qb_b34557932f",
+    "span_index": 16,
+    "text": "RemoteSens.2024,16,2337 17of19\nthereliabilityofPPP-B2bpositioning. Additionally, toaddresstheissueofinterrupted\nPPP-B2bsignalsleadingtodiscontinuouspositioning,weestablisheddifferentiatedpre-\ndictionmodels. Experimentalresultsdemonstratethatwiththeoutlierdetectionmethod\nandpredictionmodelproposedinthispaper,thepositioningaccuracybasedonPPP-B2b\ncanbemaintainedatthecentimeterlevelwithin30min. Thisisofgreatsignificancefor\nachievingcontinuouspositioningbasedonPPP-B2b.\n6. Conclusions\nThispapermeticulouslyexaminestheintegrity,continuity,andjumpcharacteristics\nof PPP-B2b orbit and clock corrections b",
+    "char_length": 3343
+  },
+  {
+    "quote_id": "qb_c7845f1a58",
+    "span_index": 17,
+    "text": "RemoteSens.2024,16,2337 18of19\nReferences\n1. Zumberge,J.F.;Heflin,M.B.;Jefferson,D.C.;Watkins,M.M.;Webb,F.H.PrecisePointPositioningfortheEfficientandRobust\nAnalysisofGPSDatafromLargeNetworks.J.Geophys.Res.SolidEarth1997,102,5005–5017.[CrossRef]\n2. An,X.;Bellés,A.;Rizzi,F.G.;Hösch,L.;Lass,C.;Medina,D.ArrayPPP-RTK:AHighPrecisionPoseEstimationMethodfor\nOutdoorScenarios.InIEEETransactionsonIntelligentTransportationSystems;IEEE:Piscataway,NJ,USA,2023.[CrossRef]\n3. Zhang,X.;Li,X.;Pan,L.ReviewofGNSSPPPandItsApplication.ActaGeod.Cartogr.Sin.2017,46,1399.[CrossRef]\n4. Zhang,B.;Zhao,C.;Odolinski,R.;Liu,",
+    "char_length": 4739
+  },
+  {
+    "quote_id": "qb_5adf128ce9",
+    "span_index": 18,
+    "text": "RemoteSens.2024,16,2337 19of19\n27. Lv,D.;Liu,G.;Ou,J.;Wang,S.;Gao,M.PredictionofGPSsatelliteclockoffsetbasedonanimprovedparticleswarmalgo-rithm\noptimizedBPneuralnetwork.RemoteSens.2022,14,2407.[CrossRef]\n28. Kim,B.;Kim,J.PredictionofIGSRTSOrbitCorrectionUsingLSTMNetworkattheTimeofIODChange.Sensors2022,22,9421.\n[CrossRef][PubMed]\n29. Zhang,W.;Lou,Y.;Song,W.;Sun,W.;Zou,X.;Gong,X.InitialassessmentofBDS-3precisepointpositioningserviceonGEOB2b\nsignal.Adv.SpaceRes.2022,69,690–700.[CrossRef]\n30. Lu,X.;Chen,L.;Shen,N.;Wang,L.;Jiao,Z.;Chen,R.DecodingPPPcorrectionsfromBDSB2bsignalsusingasoftware-defined",
+    "char_length": 2835
+  }
+]

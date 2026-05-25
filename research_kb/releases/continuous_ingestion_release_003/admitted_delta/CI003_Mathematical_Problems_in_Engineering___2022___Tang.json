@@ -1,0 +1,40 @@
+{
+  "paper_id": "CI003_Mathematical_Problems_in_Engineering___2022___Tang",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-003",
+  "bibliographic_info": {
+    "title": "Modelling and Assessment of BDS‐3 Real‐time Precise Point Positioning Time Transfer Based on PPP‐B2b Service"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Hindawi Mathematical Problems in Engineering Volume 2022, Article ID 4054179, 16 pages https://doi.org/10.1155/2022/4054179 Research Article Modelling and Assessment of BDS-3 Real-time Precise Point Positioning Time Transfer Based on PPP-B2b Service Jian Tang ,1 Daqian Lyu,1 Fangling Zeng,1 Yulong Ge,2 and Runzhi Zhang 3 1CollegeofElectronicEngineering, NationalUniversityofDefens",
+      "In2020,usersinandaroundChinahadaccesstoanewreal-timeprecisepointpositioning(RTPPP)servicewiththeBeiDou globalnavigationsatellitesystem(BDS-3)B2b(PPP-B2b)signal.Inthisstudy,thequalityofPPP-B2bproductsisfirstassessedand compared with the CNAV1 broadcast ephemeris."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "grounding_quotes": [
+      "Then a mode of BDS-3 PPP time transfer with PPP-B2b (B2b-RTPPP) is developedandevaluatedinstaticandkinematicmodes.Theresultsdemonstratethatthediscontinuityoforbitisimprovedby applyingthePPP-B2b,anditsrootmeansquareerrors(RMSEs)are0.081m,0.165m,and0.107mintheradial,along-track,and cross-trackcomponents,respectively.Thestandarddeviation(STD)ofthePPP-B2bclockoffsetis0.08ns,greatlybetterthanthat ofthe"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 163,
+    "has": 0,
+    "dcb": 53
+  },
+  "gate_status": {
+    "wrong_support": false
+  }
+}

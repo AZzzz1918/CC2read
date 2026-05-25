@@ -1,0 +1,98 @@
+[
+  {
+    "quote_id": "qb_991ff82e08",
+    "span_index": 0,
+    "text": "Geophysical Journal International\nRoyal\nAstronomical\nSociety\nGeophys. J. Int. (2026) 246, 1–16 https://doi.org/10.1093/gji/ggag169\nAdvance Access publication 2026 May 6\nResearch Paper\nReal-time high-rate seismogeodesy using Galileo HAS and BDS\nPPP-B2b products: a shake table experiment and application to the\n2024 M 7.0 Wushi earthquake\nw\nRongxin Fang,1 , 2 Yao Ding,1 , 3 Guo Chen ,1 Jiawei Zheng,1 , 3 Zilong Chen,1 , 3\nBingyan Hu,3 Qile Zhao,1 , 2 Chuang Shi4 and Jingnan Liu1\n1 GNSS Research Center, Wuhan University, 129 Luoyu Road, Wuhan 430079 Hubei, China. E-mail: guo_chen@whu.edu.cn\n2 Hube",
+    "char_length": 5134
+  },
+  {
+    "quote_id": "qb_5ea4a07360",
+    "span_index": 1,
+    "text": "2 R.Fangetal.\ncommunication networks and providing broader applicability in regions with limited connectivity (Y. Xu et al. 2021b ; H. Yuan et al.\n2025 ).\nAmong satellite-based PPP services, the BeiDou Navigation Satellite System (BDS-3) began providing the PPP-B2b augmentation\nservice on 2020 July 31, broadcasting State Space Representation (SSR) corrections for BDS-3 and GPS via GEO satellites, covering\nChina and surrounding regions (Y. Yang et al . 2022 ). On 2023 January 24, Galileo launched the High Accuracy Service (HAS), broad-\ncasting corrections for GPS and Galileo through the E6B sig",
+    "char_length": 6504
+  },
+  {
+    "quote_id": "qb_0f57b36e0b",
+    "span_index": 2,
+    "text": "Real-timehigh-rateseismogeodesyusingGalileoHAS 3\nFigure 1 The experimental equipment with the Quanser Shake Table II and Trimble Zephyr geodetic model 2 antenna.\nFigure 2 The distribution of monitoring stations (circles), earthquake epicentres (star) and the Maidan–Shayilamu Fault (lines).\n2.1 Shake table experiment data\nThe Quanser Shake Table II (Fig. 1 ) was used to simulate real seismic waveforms. It is a medium-sized single-axis shake table capable\nof generating actual earthquake signals with a sampling frequency of 2000 Hz and a positioning resolution of 3.10 μm. A Trimble\nZephyr geodeti",
+    "char_length": 2909
+  },
+  {
+    "quote_id": "qb_5b3e83b18f",
+    "span_index": 3,
+    "text": "4 R.Fangetal.\n3 METHODOLOGY\nThis section first describes the procedures for recovering precise satellite orbit and clock products from the PPP-B2b and HAS correc-\ntions, then outlines the integration method for combining PPP-B2b and HAS products. Finally, the PPP processing strategies based on\nthe augmentation products are presented.\n3.1 Precise orbit and clock recovery method\nBoth PPP-B2b and HAS products adopt the SSR model and provide orbit and clock corrections relative to broadcast ephemerides.\nTherefore, it is necessary to apply these corrections to broadcast ephemerides before the produ",
+    "char_length": 5231
+  },
+  {
+    "quote_id": "qb_6ea1e4a667",
+    "span_index": 4,
+    "text": "Real-timehigh-rateseismogeodesyusingGalileoHAS 5\nV = B ·X −L , (3)\n⎧ ⎡ ⎤\n⎪⎪⎪⎪⎪⎪⎪⎪⎨\nB =\n⎢\n⎣\n⎡\nX\nY\nZ\nH\nH\nH\nA\nA\nA\n⎤\nS\nS\nS\n−\nY\nZ\nH\n0\nH\nA\nA\nS ⎡\nS\n−\nZ\nX\nH\n0\nH\nA\nA⎤\nS\nS\n−\nX\nZ\n⎡\nH\n0\nH\nA\nA\nS\nS\n1\n0\n0 0\n0\n1\n0\n0\n1⎤\n⎥\n⎦\n, (4)\n⎪⎪⎪⎪⎪⎪⎪⎪⎩\nV =\n⎢\n⎣\nV\nV\nx\ny\n⎥\n⎦ , L =\n⎢\n⎣\nX\nY H\nH\nA\nA\nS\nS ⎥\n⎦ −\n⎢\n⎣\nX\nY P\nP\nP\nP\nP\nP\n−\n−\nB\nB\n2\n2\nb\nb ⎥\n⎦\nV z Z HAS Z PPP −B2b\nwhere V\nx\n, V\ny\n, V\nz\nrepresent the residuals; X\nHAS\n, Y\nHAS\n, Z\nHAS\nrepresent the coordinates in the GTRF reference frame;\nX PPP −B2b , Y PPP −B2b , Z PPP− B2b represent the coordinates in the BDCS reference frame. X =[M R x R y R z T x T y T z ] T , M is the sca",
+    "char_length": 4766
+  },
+  {
+    "quote_id": "qb_1ab3722422",
+    "span_index": 5,
+    "text": "6 R.Fangetal.\nTable 1. Multi-GNSS kinematic PPP processing strategies.\nItems Setting\nGNSS observation data Ionospheric-free (IF) pseudorange and carrier-phase\nSignal frequency GPS(L1/L2); BDS(B1/B3); GALILEO(E1/E5a)\nCut-offangle 7◦\nObservation weighting strategy W = 1for θ ≥30◦;W = 2sin θ for θ < 30◦, where W is the scaling factor and θis the evaluation\nPhase centre offsets and variations igs20.atx (P. Rebischung et al. 2024 )\nPhase wind-up effect Corrected (J.T. Wu et al . 1993 )\nRelativistic effect Corrected (N. Ashby 2003 )\nTide model Solid tide, ocean loading and pole tide are corrected ac",
+    "char_length": 3782
+  },
+  {
+    "quote_id": "qb_8a78d54a4b",
+    "span_index": 6,
+    "text": "Real-timehigh-rateseismogeodesyusingGalileoHAS 7\nFigure 4 The RMS of orbit errors and the STD values of clock errors for PPP-B2b and HAS products.\nTable 2. The accuracies of orbit and clock offsets of the PPP-B2b and HAS products over one week.\nDOY BDS-3 (PPP-B2b) or Galileo (HAS) GPS\nR(m) A(m) C(m) Clock(ns) R(m) A(m) C(m) Clock(ns)\nPPP-B2b 267 0.059 0.310 0.158 0.206 0.069 0.240 0.227 0.307\n268 0.061 0.194 0.142 0.196 0.071 0.209 0.205 0.301\n269 0.062 0.149 0.135 0.162 0.066 0.214 0.172 0.361\n270 0.060 0.165 0.114 0.190 0.063 0.226 0.170 0.359\n271 0.061 0.161 0.187 0.165 0.072 0.236 0.169 0.",
+    "char_length": 3188
+  },
+  {
+    "quote_id": "qb_361433f51c",
+    "span_index": 7,
+    "text": "8 R.Fangetal.\nFigure 5 The average number of available satellites for PPP-B2b, HAS and the integrated products on 2023 September 25.\nFigure 6 The left subfigure shows the number of available satellites, while the right subfigure shows the satellite sky plot during the experimental\nperiod.\n2023 ). It should be noted that users in these excluded regions may still receive and use Galileo HAS signals; however, the Minimum\nPerformance Levels (MPLs) specified in the HAS SDD are only guaranteed within the defined service area. To visually represent the\nglobal satellite availability for both individua",
+    "char_length": 3539
+  },
+  {
+    "quote_id": "qb_f74973ddbc",
+    "span_index": 8,
+    "text": "Real-timehigh-rateseismogeodesyusingGalileoHAS 9\nFigure 7 Kinematic positioning results of B2b, B2b + HAS-E, HAS, HAS + B2b-C and the WUM products under static conditions of the shake table.\nThe left subfigure shows a 30-min segment of the results, while the right subfigure presents a 5-min segment.\nTable 3. The RMS of the kinematic positioning results obtained using PPP-B2b, HAS and their integrated products. Values in parentheses denote the\npercentage accuracy improvement of combined solutions relative to the single service (B2b + HAS-E versus PPP-B2b; HAS + B2b-C versus HAS).\nDurations Comp",
+    "char_length": 4677
+  },
+  {
+    "quote_id": "qb_45d7193e10",
+    "span_index": 9,
+    "text": "10 R.Fangetal.\nFigure 8 Displacements and spectrums of simulated Northridge and El Mayor-Cucapah (El_Mayor) earthquake signals.\ndynamic monitoring. In contrast, the HAS solution demonstrates the largest dispersion among all the products evaluated. This higher\nlevel of noise can likely be attributed to the relatively limited number of available Galileo satellites in the Wuhan region compared to\nthe BDS-3 and GPS constellations, as illustrated in Fig. 6 .\n4.4 The 2024 M\nw\n7.0 Wushi earthquake\nFig. 10 illustrates the number of satellites utilized for positioning across six stations using differen",
+    "char_length": 2761
+  },
+  {
+    "quote_id": "qb_e3549388ba",
+    "span_index": 10,
+    "text": "Real-timehigh-rateseismogeodesyusingGalileoHAS 11\nFigure 9 Histograms of differences between the simulated seismic waveforms and PPP results for the Northridge and El Mayor-Cucapah (El_Mayor)\nearthquakes. Each histogram is overlaid with a fitted normal distribution curve, and the corresponding mean ( μ) and standard deviation ( σ) are indi-\ncated in the upper-right corner of each subplot.\nFigure 10 Number of available satellites for positioning at the six stations.\nIn contrast, the integrated products achieve more stable positioning performance for all stations. Overall, integrating PPP-B2b an",
+    "char_length": 2207
+  },
+  {
+    "quote_id": "qb_a39b6e78f2",
+    "span_index": 11,
+    "text": "12 R.Fangetal.\nFigure 11 Comparison of earthquake waveform positioning results acquired using the B2b, B2b + HAS-E and WUM products. For clarity, the errors\nare offset in the vertical axis.\nFigure 12 Comparison of earthquake waveform positioning results acquired using the HAS, HAS + B2b-C and WUM products. For clarity, the errors\nare offset in the vertical axis.\ndetermination using the PPP-B2b, HAS and their integrated products, and assess the improvement achieved by the integrated solutions,\nwith the WUM product serving as a reference. Earthquake magnitudes are estimated using peak ground dis",
+    "char_length": 1788
+  },
+  {
+    "quote_id": "qb_e19463a3c2",
+    "span_index": 12,
+    "text": "Real-timehigh-rateseismogeodesyusingGalileoHAS 13\nTable 4. RMS of kinematic positioning results for each station during the earthquake (5 min) obtained using the B2b, B2b + HAS-E, HAS and HAS\n+ B2b-C products. Values in parentheses indicate the percentage improvement of the integrated solutions relative to the corresponding standalone\nservices (B2b + HAS-E versus PPP-B2b; HAS + B2b-C versus HAS).\nB2b(cm) B2b + HAS-E(cm) HAS(cm) HAS + B2b-C(cm)\nKZAH E 0.36 0.25(31 per cent) 0.59 0.29(51 per cent)\nN 0.92 0.75(18 per cent) 0.45 0.33(27 per cent)\nU 0.94 0.67(29 per cent) 0.87 0.62(29 per cent)\nAKY",
+    "char_length": 2867
+  },
+  {
+    "quote_id": "qb_244eefb3d3",
+    "span_index": 13,
+    "text": "14 R.Fangetal.\nFigure 15 The PGD values and PGD magnitudes derived from PPP using the PPP-B2b, HAS and their integrated products, with the WUM product\nserving as a reference.\nFig. 15 illustrates the extracted PGD values and the corresponding PGD magnitudes derived from different products. The PGD\nvalues vary among stations due to differences in hypocentral distance. However, for individual stations, the differences among the\nvarious products are relatively small, although the HAS product exhibits slightly poorer performance. To provide an overall comparison,\nthe mean PGD magnitude across the s",
+    "char_length": 3851
+  },
+  {
+    "quote_id": "qb_3f22e87af4",
+    "span_index": 14,
+    "text": "Real-timehigh-rateseismogeodesyusingGalileoHAS 15\nproduct. Overall, these results demonstrate that PPP-B2b and HAS, especially when integrated, can provide high-precision real-time\npositioning, offering strong potential for seismogeodetic applications in regions with limited communication infrastructure.\nACKNOWLEDGMENTS\nThis work is funded by the National Natural Science Foundation of China (Grant No: 42274025, 42030109, 42204019) and the Key\nResearch and Development Program of Shanxi Province (No. 202402010101001).\nAuthor Contributions: Conceptualization: RF, YD and GC; Methodology: RF, YD an",
+    "char_length": 5226
+  },
+  {
+    "quote_id": "qb_09256e6903",
+    "span_index": 15,
+    "text": "16 R.Fangetal.\nMansur , G. , Sakic, P., Brack, A., Männel, B. & Schuh, H., 2022. Combination of GNSS orbits using least-squares variance component estimation, J.\nGeod., 96, 92.\nMartini , I. , Susi, M., Cucchi, L. & Fernandez-Hernandez, I., 2024. Galileo high accuracy service performance and anomaly mitigation capabilities, GPS\nSolut., 28, 25.\nMelgar , D. , Geng, J., Crowell, B.W., Haase, J.S., Bock, Y., Hammond, W.C. & Allen, R.M., 2015. Seismogeodesy of the 2014 Mw 6.1 Napa earthquake,\nCalifornia: rapid response and modeling of fast rupture on a dipping strike-slip fault, J. geophys. Res. Sol",
+    "char_length": 5867
+  }
+]

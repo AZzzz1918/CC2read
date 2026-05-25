@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper comprehensively evaluates the accuracy of BDS-3 PPP-B2b real-time precise orbit and clock products and their impact on single/dual-frequency PPP, comparing them with IGS RTS products.",
+  "boundary_risk": false,
+  "needs_full_audit": true,
+  "source_file": "2022--Ruohua Lan--Evaluation_of_BDS-3_B1CB2b_SingleDual-Frequency_PP.pdf",
+  "paper_id": "2022--Ruohua Lan--Evaluation_of_BDS-3_B1CB2b_SingleDual-Freq",
+  "extraction_mode": "batch_classify_1call"
+}

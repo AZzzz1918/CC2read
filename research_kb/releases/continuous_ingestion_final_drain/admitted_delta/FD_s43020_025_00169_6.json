@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s43020_025_00169_6",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Performance of PPP and PPP-RTK with new-generation GNSS constellations and signals"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "Additionally, the emergence and refinement of satellite-based augmentation services targeting PPP, such as BDS-3 Precise Point Positioning (PPP-B2b) and High Accuracy Service (HAS), have further expanded the applica- tions of multi-GNSS and multi-frequency PPP.",
+      "For augmentation services such as PPP-B2b and HAS, after correcting for orbit, clock, and code biases, the convergence time can be reduced to under 15 min, with positioning accuracy of approximately 16 cm."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 12
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 23,
+    "b2b": 38,
+    "has": 3,
+    "dcb": 12,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

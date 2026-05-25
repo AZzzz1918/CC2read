@@ -1,0 +1,56 @@
+{
+  "paper_id": "2024--Jianfei_Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servi",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "selection_role": "core_ppp_b2b",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2024) 28:26 https://doi.org/10.1007/s10291-023-01570-x ORIGINAL ARTICLE Performance assessment of the BDS‑3 PPP‑B2b service for real‑time earthquake source description: a case study for the 2021 Mw 7.4 Maduo earthquake Jianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4 Received: 13 August 2023 / Accepted: 24 October 2023 © The Autho",
+      "In 2020, the third generation of the BeiDou Global Navigation Satel- lite System (BDS-3) initiated a real-time precise point positioning service through the B2b signal (PPP-B2b), which provides a new possibility for real-time earthquake source description."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quotes": [
+      "https://d oi.o rg/1 0.1 785/0 22020 0313 org/1 0.1 111/j.1 365-2 46X.2 011.0 5297.x Xu P, Shi C, Fang R, Liu J, Niu X, Zhang Q, Yanagidani T (2013) Melgar D, Crowell BW, Geng J, Allen RM, Bock Y, Riquelme S, Hill High-rate precise point positioning (PPP) to measure seismic EM, Protti M, Ganas A (2015) Earthquake magnitude calculation wave motions: an experimental comparison of GPS PPP with without"
+    ]
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 4,
+    "grounding_quotes": [
+      "In particular, Fang code bias (DCB) and satellite orbit and clock corrections et al."
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 2
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code/software release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 14,
+    "b2b_mentions": 223,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 4
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "expected_ps": "BDS3_PPP_B2B_BROADCAST"
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

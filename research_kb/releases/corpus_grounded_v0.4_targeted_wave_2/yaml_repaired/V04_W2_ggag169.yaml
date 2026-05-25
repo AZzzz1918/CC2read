@@ -1,0 +1,48 @@
+b2b: 180
+bibliographic_info:
+  title: 'Real-time high-rate seismogeodesy using Galileo HAS and BDS PPP-B2b products:
+    a shake table experiment and application to the 2024 Mw 7.0 Wushi earthquake'
+  year: 0
+category: LEO_ORBIT
+dcb_handling:
+  dcb_mentions: 0
+  grounding_quotes: []
+  status: NOT_MENTIONED
+experiment_epoch:
+  grounding_quotes:
+  - Taking the orbit and clock products from PPP-B2b and HAS on 2023 September 23
+    (DOY 267) as an example, Fig.
+  start_date: DOY 267
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+ionospheric_handling:
+  iono_mentions: 2
+paper_id: V04_W2_ggag169
+pdf_metadata:
+  b2b_mentions: 180
+  clas_mentions: 1
+  dcb_mentions: 0
+  has_mentions: 7
+  pages: 16
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes:
+  - '(2026) 246, 1–16 https://doi.org/10.1093/gji/ggag169 Advance Access publication
+    2026 May 6 Research Paper Real-time high-rate seismogeodesy using Galileo HAS
+    and BDS PPP-B2b products: a shake table experiment and application to the 2024
+    M 7.0 Wushi earthquake w Rongxin Fang,1 , 2 Yao Ding,1 , 3 Guo Chen ,1 Jiawei
+    Zheng,1 , 3 Zilong Chen,1 , 3 Bingyan Hu,3 Qile Zhao,1 , 2 Chuang Shi4 and Jingnan
+    Li'
+  - The BeiDou PPP-B2b service provides precise point positioning (PPP) augmentation
+    corrections via the B2b signal for BDS-3 and GPS satellites, while the Galileo
+    High Accuracy Service (HAS) delivers such corrections for GPS and Galileo satellites
+    via the E6B signal.
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not publicly provided
+  - B2b correction archive not distributed
+  - Processing parameters not detailed
+wave: 2

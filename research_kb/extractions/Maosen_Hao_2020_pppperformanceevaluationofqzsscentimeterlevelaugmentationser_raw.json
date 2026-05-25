@@ -1,0 +1,2461 @@
+[
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "Precise Point Positioning Performance Evaluation of QZSS Centimeter Level Augmentation Service",
+      "authors": [
+        {
+          "name": "Maosen Hao",
+          "affiliation": "Chang'an University",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2020,
+      "journal_or_venue": "Chapter, DOI: 10.1007/978-981-15-3715-8_8",
+      "doi": "10.1007/978-981-15-3715-8_8",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "June 2020"
+    },
+    "product_source": {
+      "claimed": "QZSS Centimeter Level Augmentation Service (CLAS)",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Precise Point Positioning Performance Evaluation of QZSS Centimeter Level Augmentation Service"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_ppp_ssr",
+      "reasoning": "The paper evaluates PPP performance using QZSS CLAS, which provides SSR corrections similar to PPP-B2b but from QZSS.",
+      "grounding_quotes": [
+        "Precise Point Positioning Performance Evaluation of QZSS Centimeter Level Augmentation Service"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": "NOT_MENTIONED",
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "DCB handling not mentioned in available text.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": null,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No paper content beyond title and author metadata"
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "76139e861a08",
+      "chunk_index": 0,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "paper/Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser.pdf",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "Precise Point Positioning Performance Evaluation of QZSS Centimeter Level Augmentation Service",
+      "authors": [
+        {
+          "name": "Maosen Hao",
+          "affiliation": "Chang’an University, Xi’an 710054, Shanxi, China",
+          "is_corresponding": false
+        },
+        {
+          "name": "Wenhai Jiao",
+          "affiliation": "Beijing Institute of Tracking and Telecommunications Technology, Beijing, China",
+          "is_corresponding": false
+        },
+        {
+          "name": "Xiaolin Jia",
+          "affiliation": "Xi’an Research Institute of Surveying and Mapping, Shaanxi, China",
+          "is_corresponding": true
+        },
+        {
+          "name": "Qingrui Tao",
+          "affiliation": "Chang’an University, Xi’an 710054, Shanxi, China",
+          "is_corresponding": false
+        }
+      ],
+      "year": "NOT_MENTIONED",
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "QZSS Centimeter Level Augmentation Service (CLAS) L6 signal",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "L6 augmentation messages",
+      "provider": "QZSS",
+      "grounding_quotes": [
+        "The Japanese Quasi-Zenith Satellite System(QZSS) provides Centimeter-Level Augmentation Service(CLAS) through L6 signal.",
+        "Based on the measured data of AIRA, STK2, TSK2 and USUD of four MGEX stations in Japan, this paper analyzes the PPP augmentation performance of L6 augmentation signal by post static PPP, and compares it with the calculation results of QZSS final orbit and clock products."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "The paper evaluates PPP performance using QZSS CLAS L6 augmentation, not BDS-3 PPP-B2b. It is related to GNSS augmentation services.",
+      "grounding_quotes": [
+        "Precise Point Positioning Performance Evaluation of QZSS Centimeter Level Augmentation Service",
+        "The L6 augmentation messages ... are used for a PPP-RTK service."
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "this paper analyzes the PPP augmentation performance of L6 augmentation signal by post static PPP"
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "Code bias included in CLAS messages but no DCB handling source specified.",
+      "grounding_quotes": [
+        "The L6 augmentation messages includes satellite orbit correction, clock correction, phase bias, code bias, troposphere correction, ionosphere correction and other augmentation messages."
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "Present (L6 message)",
+      "clock_correction": "Present (L6 message)",
+      "code_bias": "Present (L6 message)",
+      "phase_bias": "Present (L6 message)",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The L6 augmentation messages includes satellite orbit correction, clock correction, phase bias, code bias, troposphere correction, ionosphere correction and other augmentation messages."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the PPP augmentation performance of QZSS CLAS L6 signal and compare it with QZSS final orbit and clock products.",
+      "research_questions": [
+        "What is the accuracy of orbit and clock augmented by L6 signal compared to final products?",
+        "Can static PPP based on L6 signal achieve centimeter-decimeter level positioning?",
+        "Why does a gap exist between CLAS augmented products and final products?"
+      ],
+      "knowledge_gap": "CLAS is designed for PPP-RTK service, and its PPP augmented service is out of scope of its pre-service, potentially limiting positioning accuracy for standard PPP."
+    },
+    "technical_route": {
+      "overall_flow": "Collect MGEX station observation data, apply QZSS L6 augmentation messages for static PPP post-processing, and compare against QZSS final orbit and clock products.",
+      "key_steps": [
+        "Acquire observation data from AIRA, STK2, TSK2, USUD MGEX stations",
+        "Obtain L6 augmentation messages from QZSS CLAS",
+        "Perform post-static PPP using L6 corrections",
+        "Compute positioning results and compare with QZSS final products"
+      ],
+      "tools_software": [],
+      "grounding_quotes": [
+        "Based on the measured data of AIRA, STK2, TSK2 and USUD of four MGEX stations in Japan, this paper analyzes the PPP augmentation performance of L6 augmentation signal by post static PPP, and compares it with the calculation results of QZSS final orbit and clock products."
+      ]
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "Post-static PPP using QZSS CLAS L6 augmentation messages, with benchmark provided by QZSS final orbit and clock products.",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "QZSS final orbit and clock products"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp1",
+        "description": "Static PPP performance evaluation using QZSS CLAS L6 signal and comparison with QZSS final products.",
+        "setup": "Four MGEX stations in Japan: AIRA, STK2, TSK2, USUD; post-static PPP processing.",
+        "conditions": "L6 augmentation messages applied; comparison with QZSS final orbit and clock products.",
+        "grounding_quotes": [
+          "Based on the measured data of AIRA, STK2, TSK2 and USUD of four MGEX stations in Japan, this paper analyzes the PPP augmentation performance of L6 augmentation signal by post static PPP, and compares it with the calculation results of QZSS final orbit and clock products."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "AIRA",
+        "STK2",
+        "TSK2",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "QZSS"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Based on the measured data of AIRA, STK2, TSK2 and USUD of four MGEX stations in Japan"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": [
+        "The static PPP based on L6 signal can realize centimeter-decimeter level positioning"
+      ]
+    },
+    "main_results": {
+      "summary": "Static PPP using L6 signal achieves centimeter-decimeter level positioning but with lower accuracy than QZSS final products. The degradation is attributed to the fact that CLAS orbit/clock corrections are not real-time precise corrections for standard PPP (they are optimized for PPP-RTK).",
+      "key_findings": [
+        "The accuracy of orbit and clock augmented by L6 signal is still lower than QZSS final products.",
+        "Static PPP using L6 signal can reach centimeter-decimeter level positioning.",
+        "The gap arises because CLAS PPP augmented service is out of scope of its pre-service; the published orbit/clock corrections are not real-time precise corrections."
+      ],
+      "limitations": [
+        "CLAS corrections are not designed for standard PPP, leading to lower accuracy compared to final products.",
+        "Only static PPP mode was tested."
+      ],
+      "grounding_quotes": [
+        "There is still a certain gap between the accuracy of orbit and clock augmented by L6 signal and the final products of QZSS.",
+        "The static PPP based on L6 signal can realize centimeter-decimeter level positioning, and the positioning accuracy is lower than that of the final products of QZSS.",
+        "Analysis reason: as CLAS are used to augment PPP-RTK services, PPP augmented service is out of scope of its pre-service. Therefore, the published orbit and clock correction are not a real-time precise orbit and clock correction,which leads to a gap between the corrected orbit and clock and the final products."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "C_ENGINEERING_TRANSFER",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "QZSS final orbit and clock products (not a competing method, but a reference truth)",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "The paper does not claim any new algorithm or model; it is a performance evaluation of an existing service."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED (MGEX stations may be publicly available, but no access details provided)",
+      "b2b_replay_capability": "NOT_MENTIONED (L6 augmentation messages archive/access not described)",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "QZSS final orbit and clock products mentioned, but version/source not specified.",
+      "reproduction_blockers": [
+        "No description of how L6 augmentation messages were recorded or can be replayed.",
+        "No stochastic model parameters or processing settings provided.",
+        "No precise definition of accuracy metrics (RMS, convergence criteria) given.",
+        "No code or preprocessing pipeline shared."
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": [
+        "Based on the measured data of AIRA, STK2, TSK2 and USUD of four MGEX stations in Japan",
+        "compares it with the calculation results of QZSS final orbit and clock products"
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "7ee5560b9e8c",
+      "chunk_index": 1,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2020,
+      "journal_or_venue": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "QZSS CLAS",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "L6D signal via QZSS",
+      "provider": "QZSS (Japan government)",
+      "grounding_quotes": [
+        "QZSS mainly releases augmented information in the form of RTCM-SSR, including correction information of satellite orbit and clock error, phase bias, code bias, ionosphere, etc.",
+        "Centimeter-Level Augmentation Service (CLAS)",
+        "The L6 signal herein refers to the L6D signal for CLAS service."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": ""
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "论文研究 QZSS CLAS 的实时 PPP 性能评估，属于星基增强服务，非 BDS-3 PPP-B2b 但涉及 PPP 与 SSR 改正数。",
+      "grounding_quotes": [
+        "QZSS mainly releases augmented information in the form of RTCM-SSR...",
+        "Centimeter-Level Augmentation Service (CLAS)"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "RT_PPP",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Users can receive augmented information and broadcast ephemeris in real-time, extract and correct augmented information. Corrected to the broadcast orbit to generate a more accurate real-time satellite orbit and clock offset to achieve high-precision PPP."
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "论文提到 CLAS 提供 code bias 及电离层改正信息，但未说明用户端如何处理 DCB 或采用何种电离层策略。",
+      "grounding_quotes": [
+        "including correction information of satellite orbit and clock error, phase bias, code bias, ionosphere, etc."
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "YES",
+      "clock_correction": "YES",
+      "code_bias": "YES",
+      "phase_bias": "YES",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "including correction information of satellite orbit and clock error, phase bias, code bias, ionosphere, etc."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": 0,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "2067644f68c0",
+      "chunk_index": 2,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "2db2d7ecd9ae",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [
+        {
+          "name": "NOT_MENTIONED",
+          "affiliation": "NOT_MENTIONED",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2020,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "CLAS augmented service based on QZSS L6D signals",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "L6D signal, RTCM 10403.2 SSR format",
+      "provider": "QZSS official website (https://sys.qzss.go.jp/dod/en/archives/agree.html)",
+      "grounding_quotes": [
+        "This paper mainly introduces the CLAS augmented service based on QZSS L6D signals",
+        "CLAS augments the service by broadcasting L6D augmentation information on L6 frequency band",
+        "L6 signals are stored in SSR format using RTCM 10403.2 standard. L6 files are published hourly and can be downloaded from the official QZSS website (https://sys.qzss.go.jp/dod/en/archives/agree.html)."
+      ],
+      "conflict_flag": false,
+      "conflict_detail": ""
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "论文评估QZSS CLAS增强服务的性能，与PPP-B2b同属星基增强/PPP领域，但不是BDS-3 PPP-B2b。",
+      "grounding_quotes": [
+        "This paper mainly introduces the CLAS augmented service based on QZSS L6D signals, and uses the measured data to evaluate the SIS User Range Error of the augmented orbit and clock offset. At the same time, the dual-frequency PPP performance of the augmented service is evaluated."
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "At the same time, the dual-frequency PPP performance of the augmented service is evaluated."
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "论文未提及DCB处理方式或来源。",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "provided via L6D (Compact SSR GNSS Orbit Correction)",
+      "clock_correction": "provided via L6D (Compact SSR GNSS Clock Correction)",
+      "code_bias": "provided via L6D (Compact SSR GNSS Satellite Code Bias)",
+      "phase_bias": "provided via L6D (Compact SSR GNSS Satellite Phase Bias)",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "Orbit: 30s, Clock: 5s, Code Bias: 30s, Phase Bias: 30s",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Message Sub Type ID 1 Compact SSR Mask 30",
+        "2 Compact SSR GNSS Orbit Correction 30",
+        "3 Compact SSR GNSS Clock Correction 5",
+        "4 Compact SSR GNSS Satellite Code Bias 30",
+        "5 Compact SSR GNSS Satellite Phase Bias 30"
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "评估基于QZSS L6D信号的CLAS增强服务的SIS用户测距误差和双频PPP性能。",
+      "research_questions": [
+        "评估增强轨道和钟差的SIS用户测距误差",
+        "评估双频PPP定位性能"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "利用QZSS官方发布的L6文件，评估改正数精度，并进行双频PPP实验。",
+      "key_steps": [
+        "下载L6增强文件",
+        "评估SIS用户测距误差",
+        "进行双频PPP定位解算",
+        "分析ENU方向精度"
+      ],
+      "tools_software": [],
+      "grounding_quotes": [
+        "uses the measured data to evaluate the SIS User Range Error of the augmented orbit and clock offset",
+        "At the same time, the dual-frequency PPP performance of the augmented service is evaluated."
+      ]
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "使用QZSS CLAS改正数进行双频PPP。",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "Exp1",
+        "description": "评估CLAS改正数的SIS用户测距误差和双频PPP性能",
+        "setup": "使用QZSS官方L6文件和实测数据",
+        "conditions": "NOT_MENTIONED",
+        "grounding_quotes": [
+          "uses the measured data to evaluate the SIS User Range Error of the augmented orbit and clock offset. At the same time, the dual-frequency PPP performance of the augmented service is evaluated."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": "NOT_MENTIONED",
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [
+        "QZSS",
+        "GPS"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "L6 files from https://sys.qzss.go.jp/dod/en/archives/agree.html",
+      "grounding_quotes": [
+        "L6 files are published hourly and can be downloaded from the official QZSS website (https://sys.qzss.go.jp/dod/en/archives/agree.html)."
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "SIS_URE": "mentioned"
+      },
+      "grounding_quotes": [
+        "evaluate the SIS User Range Error"
+      ]
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "L6 files available from QZSS website (hourly files)",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "未提供实测原始观测数据来源或站点信息",
+        "未提供PPP处理算法详细配置（滤波器参数、随机模型、DCB处理）",
+        "未给出实验时间段",
+        "未给出具体定位性能指标定义"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": [
+        "L6 files are published hourly and can be downloaded from the official QZSS website"
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "2db2d7ecd9ae",
+      "chunk_index": 3,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": null,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "NOT_MENTIONED",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "L6D",
+      "provider": "QZSS",
+      "grounding_quotes": [
+        "Fig. 1. CLAS service area and Network distribution",
+        "The orbit and clock offset correction information in the L6D augmentation information"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "Paper evaluates QZSS Centimeter Level Augmentation Service (CLAS), a satellite-based augmentation system distinct from BDS-3 PPP-B2b.",
+      "grounding_quotes": [
+        "Fig. 1. CLAS service area and Network distribution",
+        "Table 1 shows the correction information contained in the L6 file."
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "Ionospheric correction from CLAS Type 8 STEC correction and Type 9 gridded correction, valid only in Japan.",
+      "dcb_source": "CLAS Type 6 Compact SSR GNSS Satellite Code Bias and Phase Bias",
+      "dcb_missing_flag": false,
+      "dcb_missing_warning": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Type 6 is the correction information of satellite code bias and phase bias.",
+        "The ionospheric correction information and tropospheric correction information in types 8 and 9 are limited to use in Japan."
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "Yes, from Type 11 combined correction",
+      "clock_correction": "Yes, from Type 11 combined correction",
+      "code_bias": "Yes, from Type 6",
+      "phase_bias": "Yes, from Type 6",
+      "ura": "Yes, from Type 7",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "Type 6–10: 30 s; Type 11: 5 or 30 s",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "6 Compact SSR GNSS Satellite Code and Phase Bias 30",
+        "7 Compact SSR GNSS URA 30",
+        "8 Compact SSR STEC Correction 30",
+        "9 Compact SSR Gridded Correction 30",
+        "11 Compact SSR GNSS Combined Correction 5 or 30",
+        "Type 11 combined correction information contains orbit correction information and clock correction information."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "30568a930f20",
+      "chunk_index": 4,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "paper/Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser.pdf",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": null,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publication_date": null
+    },
+    "product_source": {
+      "claimed": "QZSS CLAS",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "QZSS Centimeter Level Augmentation Service (CLAS)",
+      "provider": "QZSS",
+      "grounding_quotes": [
+        "CLAS augmentation algorithm stipulates",
+        "the correction parameter C1 and C2 in QZSS are zero"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": null
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "The paper focuses on QZSS CLAS augmentation service, which is a non-BDS-3 PPP-B2b satellite-based augmentation system. It is related to PPP and SSR but not directly to BDS-3 PPP-B2b.",
+      "grounding_quotes": [
+        "CLAS augmentation algorithm stipulates",
+        "the correction parameter C1 and C2 in QZSS are zero"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "DCB handling or code bias correction source not mentioned in the provided excerpt.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "Correction in radial, along-track and cross-track directions relative to satellite APC; recovered via coordinate transformation from broadcast ephemeris.",
+      "clock_correction": "Clock difference correction using parameters C0, C1, C2. C1 and C2 are zero in QZSS. Corrected clock = broadcast clock - C0/c.",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "orbit correction data in Table 1 are the correction information in the orbit coordinate system, which indicate the satellite position correction data in three directions: radial, along-track and cross-track.",
+        "clock error correction data is based on the correction information of clock error parameters in broadcast ephemeris: 0 C , 1 C , 2 C , where 1 C and 2 C is zero.",
+        "the correction parameter C1 and C2 in QZSS are zero",
+        "c C t t g s 0 − ="
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "Based on the excerpt, the flow includes: obtain broadcast ephemeris; receive CLAS orbit and clock corrections; transform orbit corrections from orbital coordinate system to ECEF; apply corrections to compute precise orbit and clock offset.",
+      "key_steps": [
+        "Receive CLAS correction messages (type 11, type 2, type 3)",
+        "Determine applicable correction based on network ID",
+        "Recover precise orbit by transforming radial/along/cross corrections to ECEF and subtracting from broadcast position",
+        "Recover precise clock offset by applying C0 correction (C1, C2 = 0) to broadcast clock"
+      ],
+      "tools_software": [],
+      "grounding_quotes": [
+        "CLAS augmentation algorithm stipulates: if the Network ID of type 11 correction information in Table 1 is the same as the Network ID of the user's location, then the correction information of orbit and clock in type 11 correction information shall be adopted for correction.",
+        "First, the modified value is transformed from orbital coordinate system to ECEF coordinate system",
+        "Then the satellite position corrected at time t is:",
+        "the corrected satellite clock difference is st :"
+      ]
+    },
+    "method": {
+      "method_name": "CLAS real-time precise orbit and clock recovery",
+      "description": "Standard method to convert QZSS CLAS orbit corrections from satellite body-fixed system to ECEF and apply to broadcast ephemeris; clock correction using simplified single parameter model.",
+      "algorithm_details": "Uses cross product of satellite position and velocity vectors to define radial (r), along-track (a), cross-track (c) unit vectors; transforms corrections to ECEF and subtracts from broadcast orbit. Clock correction applies C0 term only.",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [
+      {
+        "formula_id": "2.1",
+        "description": "Transformation of orbit corrections from orbital coordinate system to ECEF.",
+        "variables": [
+          "R_r, R_a, R_c: corrections in radial, along, cross",
+          "e_r, e_a, e_c: unit vectors in radial, along, cross",
+          "V: satellite velocity",
+          "R: broadcast satellite position",
+          "ΔX, ΔY, ΔZ: ECEF corrections"
+        ],
+        "context_quote": "R R R e e e Z Y X c a r c a r , ,"
+      },
+      {
+        "formula_id": "2.2",
+        "description": "Precise satellite position after applying corrections.",
+        "variables": [
+          "X0, Y0, Z0: broadcast ECEF position",
+          "ΔX, ΔY, ΔZ: ECEF corrections",
+          "X, Y, Z: corrected position"
+        ],
+        "context_quote": "Z Y X Z Y X Z Y X Δ Δ Δ − = 0 0 0"
+      },
+      {
+        "formula_id": "2.3",
+        "description": "Real-time precise clock error recovery.",
+        "variables": [
+          "C0: clock correction parameter",
+          "t_g: broadcast satellite clock difference",
+          "c: speed of light",
+          "t_s: corrected satellite clock difference"
+        ],
+        "context_quote": "c C t t g s 0 − ="
+      }
+    ],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": null,
+      "end_date": null,
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [
+        "QZSS"
+      ],
+      "observation_types": [],
+      "sampling_rate": null,
+      "access_info": null,
+      "grounding_quotes": [
+        "the correction parameter C1 and C2 in QZSS are zero"
+      ]
+    },
+    "metrics": {
+      "convergence_time": null,
+      "rms_3d": null,
+      "std_enu": null,
+      "percentile_95": null,
+      "availability": null,
+      "other_metrics": null,
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No observation data source or access specified",
+        "No CLAS correction archive or stream access described",
+        "No processing software or implementation details provided",
+        "Missing stochastic model and estimation parameters",
+        "No metric definitions for performance evaluation"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "6060558277e7",
+      "chunk_index": 5,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "paper/Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser.pdf",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 2020,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "QZSS L6 augmentation service",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "L6 augmented information",
+      "provider": "QZSS",
+      "grounding_quotes": [
+        "GPS real-time orbit and clock offset data generated by the L6 augmented information",
+        "QZSS were selected as references"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "The paper evaluates real-time orbit and clock error of QZSS L6 augmentation, not BDS-3 PPP-B2b.",
+      "grounding_quotes": [
+        "In order to evaluate the GPS real-time orbit and clock offset data generated by the L6 augmented information"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "Dual-frequency ionospheric combination used for antenna phase center correction in orbit comparison",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No DCB correction mentioned in this chunk. The ionospheric combination is applied only to antenna phase center correction for satellite orbits.",
+      "grounding_quotes": [
+        "the IGS14 antenna file was used to correct the orbit coordinates from the antenna phase center to the satellite mass by using the dual-frequency ionospheric combination."
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "Yes, evaluated via comparison with QZSS precise orbits",
+      "clock_correction": "Yes, evaluated via comparison with QZSS clock offsets",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "GPS real-time orbit and clock offset data generated by the L6 augmented information",
+        "then calculate the RMS values in each direction.",
+        "Finally, the RMS value of the satellite clock offset error is calculated."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the accuracy of real-time orbit and clock error from QZSS L6 augmentation.",
+      "research_questions": [
+        "What is the accuracy of real-time orbit and clock corrections from QZSS L6 augmentation?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "Unify space-time datum (GPST, ITRF2008), apply antenna phase center correction using IGS14 and dual-frequency ionospheric combination, compare augmented orbit (R, A, C) and clock with QZSS precise products, compute RMS and SISURE.",
+      "key_steps": [
+        "Unify time and coordinate systems to GPST and ITRF2008",
+        "Antenna phase center correction using IGS14 antenna file and dual-frequency ionospheric combination",
+        "Compute orbit errors in radial, along-track, cross-track directions and their RMS",
+        "Compute satellite clock errors using a secondary difference method and RMS",
+        "Calculate SISURE from orbit and clock errors using Equation (2.4)"
+      ],
+      "tools_software": [],
+      "grounding_quotes": [
+        "The space-time datum is unified, and the time system is unified to GPST, and the coordinate datum is unified to ITRF2008 coordinate system.",
+        "the IGS14 antenna file was used to correct the orbit coordinates from the antenna phase center to the satellite mass by using the dual-frequency ionospheric combination.",
+        "Then compare the orbit R, A, and C to get the errors of the augmented orbit and QZSS precise orbit in the R, A, and C direction, and then calculate the RMS values in each direction.",
+        "Finally, the RMS value of the satellite clock offset error is calculated.",
+        "after the accuracy analysis of the orbit and clock offset, the following formula was used to calculate the SISURE of different satellites"
+      ]
+    },
+    "method": {
+      "method_name": "Orbit and clock error assessment using QZSS precise ephemeris as reference",
+      "description": "Comparison of real-time L6 augmented GPS orbit/clock against QZSS final precise orbit (15 min) and clock (5 min), with RMS in R/A/C directions, secondary difference clock error, and SISURE calculation.",
+      "algorithm_details": "Unify datum, antenna phase center correction, orbit/clock differencing, RMS and SISURE.",
+      "baseline_method": "QZSS precise orbit (15 min interval) and clock (5 min interval) as reference"
+    },
+    "formulas": [
+      {
+        "formula_id": "eq2.4",
+        "description": "SISURE formula",
+        "variables": [
+          "ω_R",
+          "ω_A,C",
+          "ΔR",
+          "ΔA",
+          "ΔC",
+          "c",
+          "dt"
+        ],
+        "context_quote": "In Equation (2.4), ω_R and ω_A,C are the contribution factors of radial direction R and along-track direction A and cross-track direction C, c are the speed of light, dt are the error of satellite clock, and ΔR, ΔA, ΔC are the errors in the radial direction, along-track direction and cross-track direction of orbit, respectively."
+      }
+    ],
+    "experiments": [
+      {
+        "experiment_id": "exp1",
+        "description": "Accuracy analysis of QZSS L6 augmented real-time orbit and clock error for GPS satellites",
+        "setup": "Real-time L6 orbit/clock vs. QZSS precise orbit (15 min) and clock (5 min) as reference; coordinate system ITRF2008, time GPST, IGS14 antenna file for phase center correction.",
+        "conditions": "DOY 258-260, 2019",
+        "grounding_quotes": [
+          "Relevant data of DOY 258-260 days in 2019 were selected for experiments to analyze the augmented orbit and clock difference accuracy.",
+          "GPS precise orbits with an epoch interval of 15 min and precise clock offset with an epoch interval of 5 min provided by QZSS were selected as references (https://sys.qzss.go.jp/dod/en/archives/pnt.html)."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "2019-09-15",
+      "end_date": "2019-09-17",
+      "duration_days": 3,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "Relevant data of DOY 258-260 days in 2019 were selected for experiments"
+      ]
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [
+        "GPS"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "QZSS precise ephemeris archive: https://sys.qzss.go.jp/dod/en/archives/pnt.html",
+      "grounding_quotes": [
+        "https://sys.qzss.go.jp/dod/en/archives/pnt.html"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "orbit_rms": "RMS in radial, along-track, cross-track directions",
+        "clock_rms": "RMS of clock error after secondary difference method",
+        "SISURE_rms": "RMS of SISURE per satellite"
+      },
+      "grounding_quotes": [
+        "then calculate the RMS values in each direction.",
+        "Finally, the RMS value of the satellite clock offset error is calculated.",
+        "finally the RMS value of SISURE of each satellite was calculated."
+      ]
+    },
+    "main_results": {
+      "summary": "Numerical results for clock comparison and orbit/clock/SISURE errors are displayed in Fig. 2–4 but not provided in the extracted text.",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": [
+        "The results of comparing the satellite clock after L6 augmentation with the QZSS final clock are shown in Fig. 2 and Fig. 3, and the errors of the orbit, clock and SISURE are shown in Fig. 4."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "QZSS precise ephemeris available online; real-time L6 augmentation data not provided",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "RMS and SISURE defined in text, but exact implementation scripts not provided",
+      "baseline_details": "QZSS precise orbits (15 min) and clocks (5 min) from official archive",
+      "reproduction_blockers": [
+        "No access to real-time L6 augmentation data",
+        "No code or processing scripts",
+        "No raw GNSS observation data or station information",
+        "No numerical results in text (only figures)"
+      ],
+      "reproducibility_score": 1,
+      "grounding_quotes": [
+        "Relevant data of DOY 258-260 days in 2019 were selected for experiments",
+        "https://sys.qzss.go.jp/dod/en/archives/pnt.html"
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "150d77d8cc66",
+      "chunk_index": 6,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": 0,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "NOT_MENTIONED",
+      "actual_product_source": "NOT_MENTIONED",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "general_gnss",
+      "reasoning": "The provided fragment shows a comparison of GPS satellite clock differences, indicating general GNSS analysis, but does not mention PPP, B2b, or any specific augmentation service.",
+      "grounding_quotes": [
+        "GPS 1-16 star clock difference comparison",
+        "GPS 17-32 star clock difference comparison"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": false,
+      "dcb_missing_warning": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "NOT_MENTIONED",
+        "description": "Clock difference comparison for GPS satellites (1-16 and 17-32), with G04, G13, G18 missing due to unpublished precise orbit information.",
+        "setup": "NOT_MENTIONED",
+        "conditions": "NOT_MENTIONED",
+        "grounding_quotes": [
+          "GPS 1-16 star clock difference comparison",
+          "GPS 17-32 star clock difference comparison",
+          "G04, G13 and G18 satellites are missing because the orbit information of these three satellites is not published in the precise ephemeris"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [
+        "GPS"
+      ],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "GPS 1-16 star clock difference comparison"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "INSUFFICIENT_EVIDENCE"
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "185804522751",
+      "chunk_index": 7,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [
+        "NOT_MENTIONED"
+      ],
+      "year": "NOT_MENTIONED",
+      "journal_or_venue": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "QZSS CLAS",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "QZSS",
+      "grounding_quotes": [
+        "the CLAS service of QZSS is oriented to PPP-RTK service"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_ppp_ssr",
+      "reasoning": "The paper evaluates the QZSS Centimeter Level Augmentation Service (CLAS) which provides SSR-like corrections for PPP-RTK, related to SSR-based PPP.",
+      "grounding_quotes": [
+        "the CLAS service of QZSS is oriented to PPP-RTK service"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "RT_PPP",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": "NOT_MENTIONED",
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "the CLAS service of QZSS is oriented to PPP-RTK service"
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "No mention of DCB/code bias correction source in the provided text.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "MENTIONED",
+      "clock_correction": "MENTIONED",
+      "code_bias": "MENTIONED",
+      "phase_bias": "MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "the augmented GPS orbit and clock offset",
+        "orbit correction, clock difference correction, satellite code and phase bias correction"
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluating the performance of QZSS CLAS orbit and clock corrections for GPS satellites.",
+      "research_questions": [
+        "What is the accuracy of CLAS augmented GPS orbit and clock offset?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "NOT_MENTIONED"
+      ],
+      "satellite_systems": [
+        "GPS"
+      ],
+      "observation_types": [
+        "NOT_MENTIONED"
+      ],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "GPS 1-32 star R, A, C, CLK, SISURE error"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "clock_error_RMS_range": "0.15m - 0.65m",
+        "SISURE_range": "within 0.9m",
+        "radial_average_accuracy": "about 0.26m",
+        "along_track_accuracy": "about 1.05m",
+        "cross_track_accuracy": "about 0.94m",
+        "three_dimensional_accuracy": "about 1.44m",
+        "augmented_clock_offset_accuracy": "about 0.46m",
+        "SISURE_accuracy": "about 0.62m"
+      },
+      "grounding_quotes": [
+        "the clock error RMS is between 0.15m and 0.65m",
+        "SISURE as a whole was within 0.9m",
+        "the augmented clock offset accuracy is about 0.46m",
+        "radial average accuracy is about 0.26m",
+        "along-track accuracy is about 1.05m",
+        "cross-track accuracy is about 0.94m",
+        "three-dimensional accuracy is about 1.44m",
+        "SISURE accuracy is about 0.62m"
+      ]
+    },
+    "main_results": {
+      "summary": "The QZSS CLAS orbit and clock corrections for GPS show a certain gap compared to QZSS final products; RMS clock error 0.15-0.65m, radial orbit error ~0.26m, SISURE ~0.62m. Large errors for some satellites (G10, G21).",
+      "key_findings": [
+        "CLAS clock error RMS: 0.15-0.65m",
+        "Radial orbit error average: 0.26m",
+        "SISURE average: 0.62m, but up to 1.7m for G10",
+        "Orbit and clock corrections are not precise individually, but combined along line-of-sight may be optimized for PPP-RTK"
+      ],
+      "limitations": [
+        "Orbit and clock corrections have relatively large errors compared to IGS-RTS",
+        "Some satellites (G10, G21) show significant fluctuations"
+      ],
+      "grounding_quotes": [
+        "there is still a certain gap between the augmented GPS orbit and clock offset and the QZSS final orbit and clock offset",
+        "the clock error RMS is between 0.15m and 0.65m",
+        "radial average accuracy is about 0.26m",
+        "SISURE accuracy is about 0.62m",
+        "the G10 satellite has a large error, which exceeds 1m",
+        "the CLAS augmented service emphasizes the sum of the corrections in the direction of the receiver-to-satellite line of sight ... is always the best"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No observation data source",
+        "No correction archive",
+        "No processing model details",
+        "No software/code provided"
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "46f4a4313fd5",
+      "chunk_index": 8,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "paper/Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser.pdf",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "PPP Performance Evaluation of QZSS Centimeter Level Augmentation Service",
+      "authors": [],
+      "year": 2020,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "QZSS L6D CLAS products",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "L6",
+      "provider": "QZSS",
+      "grounding_quotes": [
+        "L6 products published by QZSS were used to perform a post static PPP processing of DOY 258-260",
+        "Table 2. PPP treatment plan\nProject category\nCLAS plan\nQZSS plan\nOrbit product\nBrdc+CLAS correction\nQZSS final product",
+        "Ionospheric error\nDual-frequency Iono-free\nDual-frequency Iono-free",
+        "Code bias\nCLAS correction\nCode DCB correction"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "Paper evaluates QZSS CLAS (L6D) augmentation service, which is a regional GNSS augmentation system, not BDS-3 PPP-B2b.",
+      "grounding_quotes": [
+        "Precise Point Positioning analysis of L6D products based on QZSS system",
+        "L6 products published by QZSS were used to perform a post static PPP processing"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Ionospheric error\nDual-frequency Iono-free\nDual-frequency Iono-free"
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "Dual-frequency ionosphere-free combination",
+      "dcb_source": "CLAS correction for code bias (CLAS plan); Code DCB correction (QZSS plan)",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "The QZSS plan uses an unspecified 'Code DCB correction' without detailing the source (e.g., broadcast DCB, external DCB product). CLAS plan relies on CLAS corrections for code bias, origin not fully documented.",
+      "grounding_quotes": [
+        "Code bias\nCLAS correction\nCode DCB correction"
+      ]
+    },
+    "correction_types": {
+      "orbit_correction": "BRDC + CLAS correction",
+      "clock_correction": "BRDC + CLAS correction",
+      "code_bias": "CLAS correction",
+      "phase_bias": "CLAS correction",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "Table 2. PPP treatment plan\nProject category\nCLAS plan\nQZSS plan\nOrbit product\nBrdc+CLAS correction\nQZSS final product\nClock product\nBrdc+CLAS correction\nQZSS final product\nIonospheric error\nDual-frequency Iono-free\nDual-frequency Iono-free\nTropospheric error\nCLAS correction\nSaastamoinen model\nCode bias\nCLAS correction\nCode DCB correction\nPhase bias\nCLAS correction\nnull"
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the PPP augmentation performance of QZSS L6D augmentation information.",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "Use MGEX observation data and QZSS L6 products for post-static dual-frequency ionosphere-free PPP; compare with the same processing using QZSS final precise orbit and clock products; validate coordinates against IGS SINEX truth.",
+      "key_steps": [
+        "Collect MGEX observation data from four Japanese stations",
+        "Apply L6D CLAS corrections (orbit, clock, code bias, phase bias, troposphere) within PPP",
+        "Perform parallel processing with QZSS final products as reference",
+        "Compute coordinate deviations in E, N, U against IGS SINEX"
+      ],
+      "tools_software": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "this paper selected the MGEX (Multi-GNSS Experiment) observation data of the four stations in Japan: AIRA, STK2, TSK2, and USUD. L6 products published by QZSS were used to perform a post static PPP processing of DOY 258-260 on the four stations. At the same time, the precise orbit and precise clock products published by QZSS were used for the same processing of the above data, and the processing results were taken as reference. Finally, the coordinates in the SINEX file of IGS on that day were used as the real value to calculate deviation statistics of PPP results in the directions of E, N and U."
+      ]
+    },
+    "method": {
+      "method_name": "Post-static dual-frequency ionosphere-free PPP with QZSS CLAS L6D corrections",
+      "description": "A post-static PPP processing using L6D products from QZSS CLAS and MGEX observation data, compared with a reference PPP using QZSS final precise orbit and clock products.",
+      "algorithm_details": "Dual-frequency ionosphere-free combination; unknown estimator (likely Kalman filter, not specified)",
+      "baseline_method": "QZSS final precise orbit and clock products"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "exp1",
+        "description": "PPP evaluation of QZSS CLAS L6D corrections over DOY 258-260 on four Japanese stations",
+        "setup": "Two PPP plans: CLAS plan using broadcast + CLAS corrections, QZSS plan using QZSS final products; both dual-frequency IF, 15° cut-off, no ambiguity fixing",
+        "conditions": "Static PPP, 15° elevation cut-off, troposphere: CLAS correction (CLAS) vs Saastamoinen model (QZSS), ambiguity not fixed, tidal and antenna phase centre corrections applied via models",
+        "grounding_quotes": [
+          "Table 2. PPP treatment plan",
+          "Table 3. Introduction of using station information"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "DOY 258",
+      "end_date": "DOY 260",
+      "duration_days": 3,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "perform a post static PPP processing of DOY 258-260 on the four stations"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "AIRA",
+        "STK2",
+        "TSK2",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "GPS",
+        "Galileo",
+        "GLONASS",
+        "QZSS",
+        "BDS"
+      ],
+      "observation_types": "NOT_MENTIONED",
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "MGEX observation data (publicly available)",
+      "grounding_quotes": [
+        "this paper selected the MGEX (Multi-GNSS Experiment) observation data of the four stations in Japan: AIRA, STK2, TSK2, and USUD.",
+        "Table 3. Introduction of using station information",
+        "USUD\n7\nSEPT POLARX5\nAOAD/M_T\nG+E+R+C+J"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "Results not presented in the provided chunk; the paper likely reports coordinate deviations in E, N, U components.",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "QZSS final precise orbit and clock products",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": true,
+      "grounding_quotes": [
+        "the precise orbit and precise clock products published by QZSS were used for the same processing of the above data, and the processing results were taken as reference."
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "MGEX data is publicly available",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "L6 products published by QZSS are not publicly archived or the paper does not provide access",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "QZSS final precise orbit and clock products (exact version not specified)",
+      "reproduction_blockers": [
+        "No publicly archived L6 CLAS correction data for the experiment period",
+        "No code or detailed processing configuration provided",
+        "Estimator type and stochastic model not disclosed",
+        "Ambiguity resolution strategy and filter tuning missing"
+      ],
+      "reproducibility_score": 2,
+      "grounding_quotes": [
+        "L6 products published by QZSS were used to perform a post static PPP processing",
+        "the precise orbit and precise clock products published by QZSS were used"
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "901e9aa44a78",
+      "chunk_index": 9,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser.pdf",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "Performance Evaluation of QZSS Centimeter Level Augmentation Service for PPP",
+      "authors": [
+        {
+          "name": "Maosen Hao",
+          "affiliation": "NOT_MENTIONED",
+          "is_corresponding": false
+        }
+      ],
+      "year": 2020,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "QZSS CLAS augmentation",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "CLAS augmentation",
+      "provider": "QZSS",
+      "grounding_quotes": [
+        "PPP positioning accuracy after CLAS augmentation",
+        "using QZSS final precise ephemeris and clock products"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "The paper evaluates QZSS CLAS augmentation performance, which is a related GNSS augmentation system but not BDS-3 PPP-B2b.",
+      "grounding_quotes": [
+        "PPP positioning accuracy after CLAS augmentation",
+        "QZSS final precise ephemeris and clock products"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [
+        "NOT_MENTIONED"
+      ],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "Paper does not mention DCB/code bias handling.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the performance of QZSS CLAS augmentation for PPP positioning.",
+      "research_questions": [
+        "What is the PPP accuracy after CLAS augmentation?",
+        "How does CLAS augmentation compare to using QZSS final precise ephemeris and clock products?"
+      ],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "PPP processing using CLAS augmented corrections and using QZSS final precise ephemeris and clock products, compared over 3 days at 4 stations.",
+      "key_steps": [
+        "Data collection from 4 stations for DOY 258-260",
+        "PPP positioning with CLAS augmentation",
+        "PPP positioning with QZSS final precise products",
+        "Comparison of accuracy and convergence time"
+      ],
+      "tools_software": [
+        "NOT_MENTIONED"
+      ],
+      "grounding_quotes": [
+        "was performed on the four stations for three days",
+        "deviation of the positioning results of the two plans",
+        "PPP positioning accuracy after CLAS augmentation and PPP positioning accuracy using QZSS final precise ephemeris and clock products"
+      ]
+    },
+    "method": {
+      "method_name": "PPP",
+      "description": "Standard PPP processing, but details not provided.",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "PPP using QZSS final precise ephemeris and clock products"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "DOY_258_260",
+        "description": "Performance evaluation of CLAS augmented PPP vs QZSS final precise products PPP at four stations over three days.",
+        "setup": "Four stations, DOY 258-260",
+        "conditions": "DOY 258-260",
+        "grounding_quotes": [
+          "was performed on the four stations for three days",
+          "DOY 258-260 positioning process was performed for three days"
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "DOY 258",
+      "end_date": "DOY 260",
+      "duration_days": 3,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": [
+        "DOY 258-260 positioning process was performed for three days"
+      ]
+    },
+    "datasets": {
+      "stations": [
+        "NOT_MENTIONED"
+      ],
+      "satellite_systems": [
+        "QZSS"
+      ],
+      "observation_types": [
+        "NOT_MENTIONED"
+      ],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "four stations"
+      ]
+    },
+    "metrics": {
+      "convergence_time": "Convergence to 20 cm (E, N) and 40 cm (U) at about 420 epochs (30s each?)",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "horizontal_accuracy": "about 13cm"
+      },
+      "grounding_quotes": [
+        "The positioning direction of ENU in CLAS plan converges to 20cm, 20cm and 40cm at about 420 (30s) of the period",
+        "horizontal accuracy is about 13cm"
+      ]
+    },
+    "main_results": {
+      "summary": "CLAS augmented PPP achieves centimeter-decimeter level horizontal accuracy of about 13 cm, but convergence is slower and accuracy is worse compared to PPP using QZSS final precise ephemeris and clock products.",
+      "key_findings": [
+        "CLAS augmented positioning error in E direction is at cm level, but fluctuates greatly in N direction (centimeter-decimeter).",
+        "Horizontal accuracy of four stations fluctuates between centimeters and decimeters.",
+        "Convergence rate using QZSS final precise ephemeris and clock product is significantly faster than that of CLAS augmented positioning.",
+        "PPP positioning results of final precise products are better than CLAS augmented results.",
+        "CLAS plan converges to 20cm (E,N) and 40cm (U) at about 420 epochs (30s).",
+        "RMS statistics are shown in Table 4 (not provided in this chunk)."
+      ],
+      "limitations": [
+        "Only four stations over three days",
+        "CLAS augmentation has lower accuracy and slower convergence than final products"
+      ],
+      "grounding_quotes": [
+        "the positioning error after the augmentation is smaller in the direction of E, at the level of cm; However, it fluctuates greatly in the direction of N and in the level of centimeter-decimeter.",
+        "The horizontal accuracy of the four stations fluctuates between centimeters and decimeters.",
+        "the convergence rate of positioning using QZSS final precise ephemeris and clock product is significantly faster than that of CLAS augmented positioning.",
+        "The positioning results of the final precise ephemeris and clock products using QZSS are better than the augmented results.",
+        "The PPP positioning accuracy after CLAS augmentation can achieve centimeter-decimeter level positioning, horizontal accuracy is about 13cm"
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No station names, no data access, no algorithm details, no correction archive, no software mentioned."
+      ],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "6cd57c9a8c34",
+      "chunk_index": 10,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [
+        {
+          "name": "NOT_MENTIONED",
+          "affiliation": "NOT_MENTIONED",
+          "is_corresponding": false
+        }
+      ],
+      "year": null,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "QZSS L6D augmentation information",
+      "actual_product_source": "QZSS_CLAS",
+      "correction_stream": "L6D",
+      "provider": "QZSS officials",
+      "grounding_quotes": [
+        "In this paper, the performance of QZSS L6D augmentation information is evaluated",
+        "Thanks to the precise products and L6 products provided by QZSS officials"
+      ],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "related_gnss_augmentation",
+      "reasoning": "The paper evaluates the performance of QZSS L6D augmentation information for static PPP, which is an augmentation service but not BDS-3 PPP-B2b.",
+      "grounding_quotes": [
+        "In this paper, the performance of QZSS L6D augmentation information is evaluated"
+      ]
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [
+        "NOT_MENTIONED"
+      ],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "The static PPP positioning horizontal accuracy based on QZSS L6D augmentation information is about 13cm and the vertical accuracy is about 16cm"
+      ]
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": true,
+      "dcb_missing_warning": "The paper does not describe how ionospheric delays or DCB are handled in the PPP processing.",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "mentioned: radial precision 0.26m, along-track 1.05m, cross-track 0.94m, 3D 1.44m after augmentation",
+      "clock_correction": "mentioned: clock offset precision 0.46m after augmentation",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": [
+        "After the augmentation, the clock offset precision is about 0.46m, the radial average precision is about 0.26m, the along-track precision is about 1.05m, the cross-track precision is about 0.94m, the 3D precision is about 1.44m, and the SISURE precision is about 0.62m."
+      ]
+    },
+    "research_problem": {
+      "problem_statement": "Evaluate the performance of QZSS L6D augmentation information for static PPP positioning and compare with QZSS final precise products.",
+      "research_questions": [
+        "What is the accuracy of static PPP using QZSS L6D augmentation?",
+        "How does it compare to using QZSS final orbits and clocks?"
+      ],
+      "knowledge_gap": "L6D is oriented to PPP-RTK, but its PPP performance needs to be assessed."
+    },
+    "technical_route": {
+      "overall_flow": "Acquire QZSS L6D augmentation information, apply to static PPP processing for four MGEX stations, compare with results using QZSS final precise orbit and clock.",
+      "key_steps": [
+        "Collect L6D augmentation information from QZSS",
+        "Perform static PPP using L6D corrections",
+        "Compute positioning errors against known coordinates",
+        "Repeat PPP using QZSS final precise orbit and clock products as reference"
+      ],
+      "tools_software": [
+        "NOT_MENTIONED"
+      ],
+      "grounding_quotes": [
+        "In this paper, the performance of QZSS L6D augmentation information is evaluated, and uses the QZSS final orbit and clock products as references to evaluate the augmentation effect of L6D signals."
+      ]
+    },
+    "method": {
+      "method_name": "Standard PPP with QZSS CLAS L6D corrections",
+      "description": "Static PPP using QZSS L6D augmentation information as corrections.",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "PPP using QZSS final precise ephemeris and clock products (QZF plan)"
+    },
+    "formulas": [],
+    "experiments": [
+      {
+        "experiment_id": "static_ppp_evaluation",
+        "description": "Static PPP positioning experiment on four MGEX stations (AIRA, TSK2, STK2, USUD) using QZSS L6D augmentation (CLAS plan) and QZSS final precise products (QZF plan).",
+        "setup": "Uses observation data from MGEX, broadcast ephemeris from IGS, L6D and precise products from QZSS.",
+        "conditions": "Static PPP mode.",
+        "grounding_quotes": [
+          "Table 4. RMS statistics of PPP positioning errors for two plans of four stations",
+          "Thanks to the precise products and L6 products provided by QZSS officials, the broadcast ephemeris data provided by IGS, and the station observation data provided by MGEX."
+        ]
+      }
+    ],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [
+        "AIRA",
+        "TSK2",
+        "STK2",
+        "USUD"
+      ],
+      "satellite_systems": [
+        "QZSS"
+      ],
+      "observation_types": [
+        "NOT_MENTIONED"
+      ],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "MGEX station observation data, IGS broadcast ephemeris, QZSS L6 products and precise products provided by QZSS officials.",
+      "grounding_quotes": [
+        "Thanks to the precise products and L6 products provided by QZSS officials, the broadcast ephemeris data provided by IGS, and the station observation data provided by MGEX."
+      ]
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {
+        "CLAS_plan_positioning_RMS_E_cm": 6.09,
+        "CLAS_plan_positioning_RMS_N_cm": 11.12,
+        "CLAS_plan_positioning_RMS_U_cm": 16.15,
+        "CLAS_plan_positioning_RMS_H_cm": 12.68,
+        "CLAS_horizontal_accuracy_cm": 13,
+        "CLAS_vertical_accuracy_cm": 16,
+        "clock_offset_precision_m": 0.46,
+        "orbit_radial_precision_m": 0.26,
+        "orbit_along-track_precision_m": 1.05,
+        "orbit_cross-track_precision_m": 0.94,
+        "orbit_3D_precision_m": 1.44,
+        "SISURE_precision_m": 0.62
+      },
+      "grounding_quotes": [
+        "Table 4. RMS statistics of PPP positioning errors for two plans of four stations",
+        "The static PPP positioning horizontal accuracy based on QZSS L6D augmentation information is about 13cm and the vertical accuracy is about 16cm",
+        "After the augmentation, the clock offset precision is about 0.46m, the radial average precision is about 0.26m, the along-track precision is about 1.05m, the cross-track precision is about 0.94m, the 3D precision is about 1.44m, and the SISURE precision is about 0.62m."
+      ]
+    },
+    "main_results": {
+      "summary": "QZSS L6D augmentation provides orbit and clock corrections improving SISURE to 0.62m; static PPP horizontal accuracy 13cm, vertical 16cm, but still significantly worse than results with final precise products.",
+      "key_findings": [
+        "Clock offset precision after augmentation: 0.46m",
+        "Orbit 3D precision after augmentation: 1.44m",
+        "Static PPP horizontal accuracy ~13cm, vertical ~16cm",
+        "Still large error compared to QZSS final precise products",
+        "Need further research on PPP-RTK performance of L6D and PPP performance of L6E"
+      ],
+      "limitations": [
+        "PPP results with L6D still have large errors compared to final products",
+        "PPP-RTK potential not fully assessed",
+        "Limited to static PPP evaluation"
+      ],
+      "grounding_quotes": [
+        "The static PPP positioning horizontal accuracy based on QZSS L6D augmentation information is about 13cm and the vertical accuracy is about 16cm, which still has a large error with the final precise ephemeris and precise clock PPP positioning results of QZSS.",
+        "Further research is needed on the PPP-RTK performance of QZSS L6D augmentation information and the PPP performance of L6E augmentation information."
+      ]
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": [
+        "In this paper, the performance of QZSS L6D augmentation information is evaluated"
+      ]
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "Station observation data from MGEX (publicly available); not linked directly.",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [
+        "No public observation data link provided",
+        "No correction archive or replay capability mentioned",
+        "No stochastic model or Kalman filter parameters given",
+        "No code or software identified",
+        "No exact experiment dates specified",
+        "No ionospheric or DCB handling described"
+      ],
+      "reproducibility_score": 2,
+      "grounding_quotes": [
+        "Thanks to the precise products and L6 products provided by QZSS officials, the broadcast ephemeris data provided by IGS, and the station observation data provided by MGEX."
+      ]
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "d504738a9c8a",
+      "chunk_index": 11,
+      "chunk_type": "mixed"
+    }
+  },
+  {
+    "paper_id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+    "source_file": "NOT_MENTIONED",
+    "file_hash": "NOT_MENTIONED",
+    "bibliographic_info": {
+      "title": "NOT_MENTIONED",
+      "authors": [],
+      "year": null,
+      "journal_or_venue": "NOT_MENTIONED",
+      "doi": "NOT_MENTIONED",
+      "volume": "NOT_MENTIONED",
+      "issue": "NOT_MENTIONED",
+      "pages": "NOT_MENTIONED",
+      "publication_date": "NOT_MENTIONED"
+    },
+    "product_source": {
+      "claimed": "NOT_MENTIONED",
+      "actual_product_source": "NOT_MENTIONED",
+      "correction_stream": "NOT_MENTIONED",
+      "provider": "NOT_MENTIONED",
+      "grounding_quotes": [],
+      "conflict_flag": false,
+      "conflict_detail": "NOT_MENTIONED"
+    },
+    "domain_relevance": {
+      "value": "NOT_MENTIONED",
+      "reasoning": "Insufficient evidence from provided chunk (only reference list).",
+      "grounding_quotes": []
+    },
+    "is_ppp_b2b_core_paper": false,
+    "mathematical_model": {
+      "processing_mode": "NOT_MENTIONED",
+      "observation_model": "NOT_MENTIONED",
+      "state_vector": [],
+      "stochastic_model": "NOT_MENTIONED",
+      "estimator": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "ionospheric_handling": {
+      "strategy": "NOT_MENTIONED",
+      "dcb_source": "NOT_MENTIONED",
+      "dcb_missing_flag": false,
+      "dcb_missing_warning": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "correction_types": {
+      "orbit_correction": "NOT_MENTIONED",
+      "clock_correction": "NOT_MENTIONED",
+      "code_bias": "NOT_MENTIONED",
+      "phase_bias": "NOT_MENTIONED",
+      "ura": "NOT_MENTIONED",
+      "latency": "NOT_MENTIONED",
+      "update_interval": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "continuity": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "research_problem": {
+      "problem_statement": "NOT_MENTIONED",
+      "research_questions": [],
+      "knowledge_gap": "NOT_MENTIONED"
+    },
+    "technical_route": {
+      "overall_flow": "NOT_MENTIONED",
+      "key_steps": [],
+      "tools_software": [],
+      "grounding_quotes": []
+    },
+    "method": {
+      "method_name": "NOT_MENTIONED",
+      "description": "NOT_MENTIONED",
+      "algorithm_details": "NOT_MENTIONED",
+      "baseline_method": "NOT_MENTIONED"
+    },
+    "formulas": [],
+    "experiments": [],
+    "experiment_epoch": {
+      "start_date": "NOT_MENTIONED",
+      "end_date": "NOT_MENTIONED",
+      "duration_days": null,
+      "is_publication_year_mistake": false,
+      "grounding_quotes": []
+    },
+    "datasets": {
+      "stations": [],
+      "satellite_systems": [],
+      "observation_types": [],
+      "sampling_rate": "NOT_MENTIONED",
+      "access_info": "NOT_MENTIONED",
+      "grounding_quotes": []
+    },
+    "metrics": {
+      "convergence_time": "NOT_MENTIONED",
+      "rms_3d": "NOT_MENTIONED",
+      "std_enu": "NOT_MENTIONED",
+      "percentile_95": "NOT_MENTIONED",
+      "availability": "NOT_MENTIONED",
+      "other_metrics": {},
+      "grounding_quotes": []
+    },
+    "main_results": {
+      "summary": "NOT_MENTIONED",
+      "key_findings": [],
+      "limitations": [],
+      "grounding_quotes": []
+    },
+    "novelty_audit": {
+      "claimed_novelty": "NOT_MENTIONED",
+      "audit_grade": "U_INSUFFICIENT_EVIDENCE",
+      "ablation_study": "NOT_MENTIONED",
+      "strong_baseline": "NOT_MENTIONED",
+      "failure_cases": "NOT_MENTIONED",
+      "novel_formula": false,
+      "novel_state_design": false,
+      "novel_stochastic_model": false,
+      "novel_qc_mechanism": false,
+      "novel_b2b_usage": false,
+      "is_mere_migration": false,
+      "grounding_quotes": []
+    },
+    "reproducibility_audit": {
+      "public_observation_data": "NOT_MENTIONED",
+      "b2b_replay_capability": "NOT_MENTIONED",
+      "correction_archive": "NOT_MENTIONED",
+      "stochastic_model_params": "NOT_MENTIONED",
+      "kalman_filter_config": "NOT_MENTIONED",
+      "code_repository": "NOT_MENTIONED",
+      "run_entry_point": "NOT_MENTIONED",
+      "config_files": "NOT_MENTIONED",
+      "metric_definitions": "NOT_MENTIONED",
+      "baseline_details": "NOT_MENTIONED",
+      "reproduction_blockers": [],
+      "reproducibility_score": 0,
+      "grounding_quotes": []
+    },
+    "conflicting_evidence": [],
+    "_meta": {
+      "chunk_id": "d09a5deed846",
+      "chunk_index": 12,
+      "chunk_type": "mixed"
+    }
+  }
+]

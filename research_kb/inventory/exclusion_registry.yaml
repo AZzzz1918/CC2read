@@ -1,0 +1,32 @@
+# Exclusion Registry — Papers excluded from ingestion with reasons
+
+exclusions:
+  - filename: "*.caj"
+    reason: "CAJ format not supported by pdfplumber pipeline"
+    type: FORMAT_UNSUPPORTED
+    count: 4
+
+  - filename: "IET Radar Sonar Navi - 2025 - Yu - Design and Reception Method of Code Shift Keying Signals With Power-of-Two Phase.pdf"
+    reason: "Signal design paper, not PPP-B2b related. Core keyword matching found incidental PPP mentions but title/abstract indicate non-GNSS signal processing."
+    type: OUT_OF_SCOPE
+    confidence: HIGH
+
+  - filename: "sustainability-18-02400.pdf"
+    reason: "Communication/navigation security platform design, not PPP-B2b focused. Weak B2b keyword match (2 core_b2b)."
+    type: OUT_OF_SCOPE
+    confidence: MEDIUM
+
+  - filename: "1-s2.0-S0020019019300018-main.pdf"
+    reason: "Information Processing Letters — not GNSS related"
+    type: OUT_OF_SCOPE
+    confidence: HIGH
+
+exclusion_policy:
+  auto_exclude:
+    - "Files with .caj extension"
+    - "Files with garbled_text_ratio > 0.3"
+    - "Files where core_b2b + bds_ppp < 3 AND no title/abstract indication of GNSS"
+  manual_review_required:
+    - "Files with core_b2b > 0 but garbled_text_ratio > 0.1"
+    - "Files with conflicting keyword signals (high boundary but zero core_b2b)"
+    - "Chinese-language PDFs with extraction failures"

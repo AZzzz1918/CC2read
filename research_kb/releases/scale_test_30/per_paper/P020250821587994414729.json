@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "Evaluates real-time static PPP performance using BDS-3 PPP-B2b corrections with multiple frequency combinations and compares with broadcast ephemeris and WUM products.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "P020250821587994414729.pdf",
+  "paper_id": "P020250821587994414729",
+  "extraction_mode": "batch_classify_1call"
+}

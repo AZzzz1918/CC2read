@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_A_Comparative_Investigation_of_Broadcast_Framework",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Availability, and Time Transfer"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  A Comparative Investigation of Broadcast Frameworks, Service Availability, and Time Transfer Performance in PPP-B2b, HAS, and MADOCA-PPP Runzhi Zhang, Rui Tu, Jihai Zhang, and Xiaochun Lu The precise point positioning (PPP) technique has approximately 99% for both GPS and Galileo users.",
+      "As a result, time satellite system (BDS) PPP-B2b, the European Galileo high ac- users can select appropriate services to support continuous, curacy service (HAS), and the Quasi-Zenith Satellite System stable, and reliable real-time time transfer at the sub-nano- (QZSS) Multi-GNSS advanced orbit and clock augmentation- second level, based on the local continuity performance of PPP (MADOCA-PPP)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 9,
+    "b2b": 42,
+    "has": 9,
+    "dcb": 0,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

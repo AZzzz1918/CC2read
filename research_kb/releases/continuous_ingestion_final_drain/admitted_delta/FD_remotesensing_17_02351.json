@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_remotesensing_17_02351",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Differences in Time Comparison and Positioning of BDS-3 PPP-B2b Signal Broadcast Through GEO"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Article Differences in Time Comparison and Positioning of BDS-3 PPP-B2b Signal Broadcast Through GEO HongjiaoMa1,2,JinmingYang1,3,XiaolongGuan1,3,JianfengWu1,2andHuabingWu1,2,* 1 NationalTimeServiceCenter,ChineseAcademyofSciences,Xi’an710600,China;mahj@ntsc.ac.cn(H.M.); yangjinming@ntsc.ac.cn(J.Y.);guanxl@ntsc.ac.cn(X.G.);wujianf@ntsc.ac.cn(J.W.) 2 KeyLaboratoryofTimeReferenceand",
+      "This paper investigates the disparities in time comparison and positioning capabilities associatedwiththePPP-B2bsignalstransmittedbytheBDS-3GeostationaryEarthOrbit (GEO) satellites (C59 and C61)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 3
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 21,
+    "b2b": 244,
+    "has": 0,
+    "dcb": 3,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

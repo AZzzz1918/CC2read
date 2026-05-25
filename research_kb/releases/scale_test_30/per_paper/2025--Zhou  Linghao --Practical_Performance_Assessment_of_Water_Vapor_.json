@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper assesses water vapor monitoring using BDS PPP-B2b corrections, a direct application of the PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf",
+  "paper_id": "2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_",
+  "extraction_mode": "batch_classify_1call"
+}

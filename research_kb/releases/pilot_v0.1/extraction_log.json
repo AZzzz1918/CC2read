@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-05-21T18:08:23.169219",
+  "checks": {
+    "paper_count": 3,
+    "paper_field_issues": {
+      "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service": [
+        "missing_file_hash",
+        "quote_id_valid_rate:99.6%,invalid_id_rate:0.4%",
+        "unresolved_quote_id:correction_types:ΔC = [δCr, δCa, δCc]",
+        "repro:score_inconsistent(reported=1,expected≈6)",
+        "conflicting_evidence:3_unresolved"
+      ],
+      "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser": [
+        "quote_id_valid_rate:99.3%,invalid_id_rate:0.7%",
+        "unresolved_quote_id:correction_types:c C t t g s 0 − =",
+        "domain_relevance:missing_for_non_b2b_paper(actual=QZSS_CLAS,domain=related_ppp_ssr)",
+        "experiment_epoch:duration_missing",
+        "repro:missing_not_blocked:run_entry_point(运行入口)",
+        "repro:score_inconsistent(reported=0,expected≈5)",
+        "conflicting_evidence:1_unresolved"
+      ],
+      "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp": [
+        "missing_file_hash",
+        "quote_id_valid_rate:97.8%,invalid_id_rate:2.2%",
+        "unresolved_quote_id:ionospheric_handling:s s s j j t t b = −",
+        "unresolved_quote_id:datasets:L1+L2",
+        "unresolved_quote_id:metrics:65.7",
+        "unresolved_quote_id:metrics:74.5",
+        "unresolved_quote_id:metrics:93.1",
+        "unresolved_quote_id:metrics:63.9",
+        "repro:score_inconsistent(reported=0,expected≈4)",
+        "conflicting_evidence:10_unresolved"
+      ]
+    },
+    "paper_quote_stats": {
+      "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service": {
+        "total": 230,
+        "invalid": 1,
+        "invalid_rate": 0.0043,
+        "valid_quote_id_rate": 0.9957,
+        "match_levels": {
+          "valid_quote_id": 229,
+          "unresolved": 1
+        },
+        "field_invalid": {
+          "correction_types": 1
+        }
+      },
+      "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser": {
+        "total": 137,
+        "invalid": 1,
+        "invalid_rate": 0.0073,
+        "valid_quote_id_rate": 0.9927,
+        "match_levels": {
+          "valid_quote_id": 136,
+          "unresolved": 1
+        },
+        "field_invalid": {
+          "correction_types": 1
+        }
+      },
+      "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp": {
+        "total": 275,
+        "invalid": 6,
+        "invalid_rate": 0.0218,
+        "valid_quote_id_rate": 0.9782,
+        "match_levels": {
+          "valid_quote_id": 269,
+          "unresolved": 6
+        },
+        "field_invalid": {
+          "ionospheric_handling": 1,
+          "datasets": 1,
+          "metrics": 4
+        }
+      }
+    },
+    "paper_status": {
+      "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service": "PASS",
+      "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser": "PASS",
+      "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp": "PASS"
+    },
+    "unresolved_items_count": 22,
+    "error_categories": {
+      "grounding_quotes": 0,
+      "product_source": 0,
+      "domain_relevance": 1,
+      "experiment_epoch": 1,
+      "dcb": 0,
+      "reproduction": 4,
+      "conflicting_evidence": 3,
+      "other": 13
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "total_pdf": 22,
+    "total_papers_in_json": 3,
+    "total_issues": 22,
+    "papers_with_issues": 3,
+    "papers_passed": 3,
+    "papers_warn": 0,
+    "papers_failed": 0,
+    "papers_blocked": 0,
+    "errors": 0,
+    "warnings": 0,
+    "error_categories": {
+      "grounding_quotes": 0,
+      "product_source": 0,
+      "domain_relevance": 1,
+      "experiment_epoch": 1,
+      "dcb": 0,
+      "reproduction": 4,
+      "conflicting_evidence": 3,
+      "other": 13
+    },
+    "status": "WARN",
+    "blocked_from_corpus": [],
+    "failed_validation": [],
+    "blocked_from_search_index": []
+  }
+}

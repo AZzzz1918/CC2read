@@ -1,0 +1,96 @@
+{
+  "wave": 3,
+  "count": 10,
+  "candidates": [
+    {
+      "fn": "1-s2.0-S0273117724011438-main.pdf",
+      "title": "Evaluation of the Galileo high-accuracy service SSR product quality and PPP performance",
+      "cat": "LEO",
+      "prio": "P1_NEW_ROUTE_CONFIRMATION",
+      "b2b": 5,
+      "has": 15,
+      "abstract": "The Galileo navigation satellite system (Galileo) High-Accuracy Service (HAS) is"
+    },
+    {
+      "fn": "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+      "title": "Jianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong Lou4",
+      "cat": "SEISMOGEO",
+      "prio": "P1_NEW_ROUTE_CONFIRMATION",
+      "b2b": 39,
+      "has": 1,
+      "abstract": "Retrieving the coseismic displacement in real time is essential when the high-ra"
+    },
+    {
+      "fn": "remotesensing-16-02337-v2.pdf",
+      "title": "Temporal Characteristics Based Outlier Detection and Prediction Methods for PPP-B2b Orbit and Clock Corrections",
+      "cat": "ANOMALY_CLOCK",
+      "prio": "P2_PRIORITY_GAP",
+      "b2b": 9,
+      "has": 2,
+      "abstract": ""
+    },
+    {
+      "fn": "1-s2.0-S0263224124019006-main.pdf",
+      "title": "Enhancing BDS-3 PPP-B2b real-time positioning performance by tightly integrating MEMS IMU and LiDAR in GNSS-Degraded environment",
+      "cat": "INS",
+      "prio": "P2_PRIORITY_GAP",
+      "b2b": 16,
+      "has": 1,
+      "abstract": ""
+    },
+    {
+      "fn": "1-s2.0-S0273117724008755-main.pdf",
+      "title": "Real-time uncombined PPP using BDS-3 PPP-B2b products with different multi-frequency integrations and refined stochastic model",
+      "cat": "MULTI_FREQ",
+      "prio": "P2_PRIORITY_GAP",
+      "b2b": 24,
+      "has": 1,
+      "abstract": "BDS-3geostationaryorbit(GEO)satellitesbroadcastPPP-B2breal-timepreciseproductsto"
+    },
+    {
+      "fn": "1-s2.0-S026322412601448X-main (1).pdf",
+      "title": "Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning",
+      "cat": "B2B_HAS_FUSION",
+      "prio": "P2_PRIORITY_GAP",
+      "b2b": 29,
+      "has": 16,
+      "abstract": ""
+    },
+    {
+      "fn": "1-s2.0-S0263224122011071-main.pdf",
+      "title": "Real-time ocean precise point positioning with BDS-3 service signal PPP-B2b",
+      "cat": "CORE_POSITIONING",
+      "prio": "P3_GENERAL",
+      "b2b": 27,
+      "has": 2,
+      "abstract": ""
+    },
+    {
+      "fn": "1-s2.0-S0263224122013744-main.pdf",
+      "title": "Real-time single-frequency precise point positioning using BDS-3 PPP-B2b corrections",
+      "cat": "CORE_POSITIONING",
+      "prio": "P3_GENERAL",
+      "b2b": 58,
+      "has": 4,
+      "abstract": ""
+    },
+    {
+      "fn": "1-s2.0-S026322412601448X-main.pdf",
+      "title": "Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning",
+      "cat": "B2B_HAS_FUSION",
+      "prio": "P2_PRIORITY_GAP",
+      "b2b": 29,
+      "has": 16,
+      "abstract": ""
+    },
+    {
+      "fn": "1-s2.0-S0273117721004610-main.pdf",
+      "title": "bShanghaiAstronomicalObservatory,ChineseAcademyofScience,No.80NandanRoad,Shanghai200030,China",
+      "cat": "INS",
+      "prio": "P2_PRIORITY_GAP",
+      "b2b": 7,
+      "has": 3,
+      "abstract": "China’sBeiDouNavigationSatelliteSystem(BDS)canprovidereal-timeprecisepointpositi"
+    }
+  ]
+}

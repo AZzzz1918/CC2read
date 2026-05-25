@@ -1,0 +1,51 @@
+# Open Problems — Continuously Extensible Research KB
+# Updated as new papers are admitted and new gaps are discovered
+
+open_problems:
+  - problem: PPP-AR with B2b
+    description: "Ambiguity resolution using BDS-3 PPP-B2b corrections"
+    papers_in_corpus: 0
+    severity: HIGH
+    status: UNEXPLORED
+
+  - problem: PPP-B2b-RTK validation
+    description: "Independent validation of PPP-B2b-RTK method beyond the single paper"
+    papers_in_corpus: 1
+    severity: MEDIUM
+    status: NEEDS_CONFIRMATION
+
+  - problem: B2b correction long-term stability
+    description: "Multi-year assessment of B2b orbit/clock correction quality trends"
+    papers_in_corpus: 2
+    severity: MEDIUM
+    status: PARTIALLY_ADDRESSED
+
+  - problem: B2b + LEO constellation augmentation
+    description: "Using LEO satellites to augment BDS-3 PPP-B2b service"
+    papers_in_corpus: 3
+    severity: MEDIUM
+    status: GROWING
+
+  - problem: B2b correction archive/public dataset
+    description: "Publicly accessible B2b correction archive for reproducible research"
+    papers_in_corpus: 1
+    severity: HIGH
+    status: NEEDS_MORE_DATA
+
+  - problem: Multi-constellation B2b interoperability
+    description: "B2b combined with Galileo HAS, QZSS CLAS, GPS, GLONASS"
+    papers_in_corpus: 8
+    severity: LOW
+    status: ACTIVE_AREA
+
+  - problem: Low-cost receiver + B2b operational deployment
+    description: "Field deployment of PPP-B2b with low-cost GNSS hardware"
+    papers_in_corpus: 2
+    severity: MEDIUM
+    status: EMERGING
+
+  - problem: B2b service integrity and anomaly detection
+    description: "Real-time SIS anomaly detection and URA refinement for B2b users"
+    papers_in_corpus: 3
+    severity: MEDIUM
+    status: EMERGING

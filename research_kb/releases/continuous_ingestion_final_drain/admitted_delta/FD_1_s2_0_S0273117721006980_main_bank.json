@@ -1,0 +1,68 @@
+[
+  {
+    "quote_id": "qb_7aae734b9d",
+    "span_index": 0,
+    "text": "Available online atwww.sciencedirect.com\nScienceDirect\nAdvancesinSpaceResearch69(2022)690–700\nwww.elsevier.com/locate/asr\nInitial assessment of BDS-3 precise point positioning service on\nGEO B2b signal\n⇑ ⇑\nWeixing Zhang, Yidong Lou , Weiwei Song , Weibin Sun, Xu Zou, Xiaopeng Gong\nGNSSResearchCenter,WuhanUniversity,Wuhan430079,China\nReceived25May2021;receivedinrevisedform3September2021;accepted7September2021\nAvailableonline24September2021\nAbstract\nTheChinaBeiDouglobalnavigationsatellitesystem(BDS-3)hasstartedtoprovidefreeandopenprecisepositioningservicestousers\ninChinaandsurroundingareassinceJ",
+    "char_length": 3452
+  },
+  {
+    "quote_id": "qb_88b4685a3b",
+    "span_index": 1,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\n1990s(Johnstonetal.,2017),which,however,cannotmeet in both accuracy and convergence time are found by com-\nthe requirements in real-time applications, motivating the bining BDS-3 with BDS-2 in PPP (Shi et al., 2020; Shi\nlaunchoftheIGSreal-timeservice(IGS-RTS)pilotproject et al., 2021; Cao et al., 2021), but the inter-system bias\nin 2007 (IGS, 2011). IGS-RTS ACs generate the real-time between BDS-2 and BDS-3 needs careful consideration\nprecise satellite products and disseminate them following (Jiao et al., 2019). However, there are few publica",
+    "char_length": 5674
+  },
+  {
+    "quote_id": "qb_bb64469189",
+    "span_index": 2,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nTable1 2.1. Product availability\nBDS-3PPP-B2bdefinedmessagetype.\nMessageTypes InformationContent During our test period, only messages with type 1 to\n1 Satellitemask type4werereceived.Thenominalupdatecycleoftheorbit\n2 Satelliteorbitcorrectionanduserrangeaccuracyindex correction, clock correction and DCB for each satellite is\n3 Differentialcodebias(DCB) 48,6,and48 s,respectively. It takes 48 storeceive acom-\n4 Satelliteclockcorrection\npleted record for all satellites. The messages cover BDS-3\n5 Userrangeaccuracyindex\nsatellites with Pseudo-Ran",
+    "char_length": 3550
+  },
+  {
+    "quote_id": "qb_b74e78b7fa",
+    "span_index": 3,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nFig.2. TheavailabilityofPPP-B2bdecodedsatelliteorbitcorrections,clockcorrectionsandDCBoverthetestperiod.\n2.2. Product accuracy where R, A, and C denote the orbit difference in radial,\nalongandcrosscomponentsinmeter,respectively.Clkrep-\nTakingtherapidmulti-GNSSproducts(GBM)released resents the clock difference in meter.\nby GFZ (GeoForschungsZentrum) as reference (Deng The daily orbit, clock and SISRE evaluation results are\net al. 2017), the recovered B2b orbit and clock products illustrated from Figs. 3–5, and statistic results are summa-\nduri",
+    "char_length": 3188
+  },
+  {
+    "quote_id": "qb_ae06c34410",
+    "span_index": 4,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nFig.3. B2borbitproducterrorRMS.\nFig.4. B2bclockproducterrorRMSandSTD.\nFig.5. B2bproductSISRERMSandSTD.\n1.168 and 0.189 ns for CNC. The SISRE STD of B2b is, resulted from the use of ISL observations in the B2b pro-\nhowever, only 3.9 cm, smaller than both WUC (5.1 cm) duct determination.\nandCNC(4.2cm),buttheSISRERMSareobviouslylar- ForGPSsatellite,B2borbitqualityexperiencesanobvi-\nger, reaching 82.3 cm. The smaller SISRE STD is mainly ousdegradationinthealongcomponentafterOct16,2020\n694",
+    "char_length": 541
+  },
+  {
+    "quote_id": "qb_ef0f2b8474",
+    "span_index": 5,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nTable2\nStatisticsofB2b,WUCandCNCproductaccuracy.\nOrbit(m) Clock(ns) SISRE(m)\nRadial Along Cross RMS STD RMS STD\nGPS B2b 0.072 1.047 0.438 5.089 0.285 1.358 0.075\nWUC 0.017 0.055 0.027 0.498 0.113 0.114 0.025\nCNC 0.026 0.036 0.025 0.494 0.105 0.111 0.016\nBDS-3 B2b 0.102 0.318 0.276 2.936 0.243 0.823 0.039\nWUC 0.094 0.321 0.094 1.615 0.263 0.443 0.051\nCNC 0.041 0.122 0.054 1.168 0.189 0.345 0.042\n(DOY290), and this abnormality lasts for nearly two tion of B1C and B2a observations. The data processing\nmonths when GPS orbits returned to normal on",
+    "char_length": 4138
+  },
+  {
+    "quote_id": "qb_5f7d90799f",
+    "span_index": 6,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nTable3\nGNSSDataprocessingstrategy.\nObservations Observations Ionosphere-freecombinationofL1/L2forGPSandB1I/B3IforBDS-3\nSamplinginterval 30s\nElevationcutoff 7(cid:3)\n(cid:5)\nWeightingstrategy Elevation-dependent:1forelevation(E)>30,otherwise2sin(E)\na-priorisigma:3mmand0.3mforthephaseandcodeobservation,respectively\nWeightratiois1:1forGPSandBDS-3satellite\nModels SatellitePCO/PCV igs14.atx(Schmidetal.,2016)\nReceiverPCO/PCV igs14.atxforGPSobservations\nuseGPSvaluesforBDS-3observations\nPhasewind-upeffect Corrected\nTidemodel Solidtide;Polartide;Ocean",
+    "char_length": 1799
+  },
+  {
+    "quote_id": "qb_c093d0e261",
+    "span_index": 7,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nTable4 and vertical components, with 82.3% and 96.9% smaller\nStaticPPPpositionerroratpermanentstations. than 0.3 and 0.6 m. By combining GPS and BDS-3 obser-\nStations BDS-only GPS+BDS vations, the average kinematic PPP error decreases to 15.2\nHor.(m) Ver.(m) Hor.(m) Ver.(m) and 30.4 cm. The abnormality in the B2b GPS products\nafter DOY290 has obvious impacts on the BDS + GPS\nBJF1 0.011 0.024 0.011 0.022\nLHA1 0.025 0.023 0.022 0.020 PPP solutions which can be visually seen from Fig. 8.\nKUN1 0.025 0.031 0.027 0.027 The percentage of position er",
+    "char_length": 2969
+  },
+  {
+    "quote_id": "qb_fd1da7d1d5",
+    "span_index": 8,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nTable5\nKinematicPPPpositionerrorandconvergencetimeatpermanentstations.\nStations BDS-only(95%) GPS+BDS(95%) Convergencetime(min)\nHor.(m) Ver.(m) Hor.(m) Ver.(m) BDS BDS+GPS\nBJF1 0.274 0.342 0.176 0.302 12.2 13.2\nLHA1 0.277 0.419 0.203 0.378 16.9 13.9\nKUN1 0.170 0.290 0.139 0.286 14.5 15.9\nWHU2 0.185 0.315 0.135 0.327 21.8 18.0\nSHA1 0.198 0.356 0.142 0.272 19.3 18.3\nXIA1 0.188 0.280 0.117 0.255 19.9 18.2\nMean 0.215 0.334 0.152 0.303 17.4 16.3\nFig.9. KinematicPPPconvergencetimeforBDS-onlyandBDS+GPSatsixpermanentstations.Thehorizontalredlinesdeno",
+    "char_length": 1924
+  },
+  {
+    "quote_id": "qb_8dde5d58d7",
+    "span_index": 9,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nFig.11. BDS-only(left)andBDS+GPS(right)kinematicPPPresultsfortest#1.\nFig.12. BDS-only(left)andBDS+GPS(right)kinematicPPPresultsfortest#2.\n5. Conclusions 5.089 and 0.285 ns for GPS. The SISRE, which combines\nthe impact of both orbit and clock errors, is about\nTheChinaBDS-3systemhasstartedtoprovidethefree 82.3 cm (RMS) and 3.9 cm (STD) for BDS-3, and about\nand open PPP service to users in China and surrounding 135.8 cm (RMS) and 7.5 cm (STD) for GPS.\nareas since July 2020, by transmitting corrections for both ThestaticPPPbasedonB2bproductswasco",
+    "char_length": 2441
+  },
+  {
+    "quote_id": "qb_b3713affb6",
+    "span_index": 10,
+    "text": "W.Zhangetal. AdvancesinSpaceResearch69(2022)690–700\nin the kinematic mode for BDS-3 PPP service. The BDS-3 Guo, S., Cai, H., Meng, Y., et al., 2019. BDS-3 RNSS technical\nPPPserviceisunderextensionwithlargerbandwidthtopur- characteristics and service performance. Acta Geodaetical et Carto-\ngraphicaSinica48(7),810–821.\nsuebetterperformance.TogetherwithfreePPPsignalsfrom\nIERS Conventions, 2010. Ge´rard Petit and Brian Luzum (eds.). (IERS\nother GNSS systems, such as the Galileo and QZSS, more\nTechnicalNote;36)FrankfurtamMain:VerlagdesBundesamtsfu¨r\nrobustandaccuratePPPcanbeexpectedinthenearfuture,",
+    "char_length": 6293
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "paper_id": "test4_fake_b2b_product",
+  "source_file": "paper/test4.pdf",
+  "file_hash": "jkl012",
+  "bibliographic_info": {
+    "title": "Evaluation of BDS-3 Real-Time Positioning Performance",
+    "authors": [{"name": "Test Author 4"}],
+    "year": 2023,
+    "journal_or_venue": "Remote Sensing"
+  },
+  "product_source": {
+    "claimed": "Real-time PPP service",
+    "actual": "BDS3_PPP_B2B_BROADCAST",
+    "provider": "NOT_MENTIONED",
+    "grounding_quotes": [],
+    "conflict_flag": false,
+    "conflict_detail": ""
+  },
+  "mathematical_model": {"processing_mode": "DUAL_FREQUENCY_IF_COMBINATION", "grounding_quotes": []},
+  "ionospheric_handling": {"strategy": "IF combination", "dcb_source": "NOT_MENTIONED", "dcb_missing_flag": true},
+  "correction_types": {"orbit_correction": "PPP-B2b", "clock_correction": "PPP-B2b", "grounding_quotes": []},
+  "research_problem": {"problem_statement": "Evaluate BDS-3 PPP-B2b performance"},
+  "technical_route": {"overall_flow": "Standard PPP processing", "grounding_quotes": []},
+  "method": {"method_name": "Standard IF PPP"},
+  "formulas": [],
+  "experiments": [],
+  "experiment_epoch": {"start_date": "NOT_MENTIONED", "end_date": "NOT_MENTIONED", "grounding_quotes": []},
+  "datasets": {"stations": ["JFNG", "WUH2"], "grounding_quotes": []},
+  "metrics": {"grounding_quotes": []},
+  "main_results": {"grounding_quotes": []},
+  "novelty_audit": {"audit_grade": "C_ENGINEERING_TRANSFER", "grounding_quotes": []},
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED", "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED", "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED", "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED", "config_files": "NOT_MENTIONED",
+    "metric_definitions": "NOT_MENTIONED", "baseline_details": "NOT_MENTIONED",
+    "reproduction_blockers": [],
+    "reproducibility_score": 0,
+    "grounding_quotes": []
+  }
+}

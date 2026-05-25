@@ -1,0 +1,42 @@
+# Methods Registry — Continuously Extensible Research KB
+
+methods:
+  - name: Ionosphere-Free PPP (Dual-Frequency)
+    maturity: MATURE
+    paper_count: 40
+
+  - name: Kalman Filter (Forward/Backward)
+    maturity: MATURE
+    paper_count: 20
+
+  - name: SISRE Computation
+    maturity: MATURE
+    paper_count: 15
+
+  - name: Multi-Frequency PPP (Triple/Quad/Five)
+    maturity: GROWING
+    paper_count: 5
+
+  - name: Uncombined PPP Model
+    maturity: GROWING
+    paper_count: 3
+
+  - name: Factor Graph Optimization
+    maturity: EMERGING
+    paper_count: 2
+
+  - name: PPP-B2b-RTK (Single-Station SSR)
+    maturity: EMERGING
+    paper_count: 1
+
+  - name: ISL-Enhanced Orbit Determination
+    maturity: NICHE
+    paper_count: 1
+
+  - name: Software-Defined Receiver (SDR) Decoding
+    maturity: NICHE
+    paper_count: 2
+
+  - name: Short-Message Communication Enhancement
+    maturity: NICHE
+    paper_count: 2

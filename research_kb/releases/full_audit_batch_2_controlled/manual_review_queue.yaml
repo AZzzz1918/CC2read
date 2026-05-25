@@ -1,0 +1,10 @@
+# Manual Review Queue — Full Audit Batch 2
+
+# No manual review items flagged.
+
+manual_review_items: []
+
+notes:
+  - "0 grounding_quotes across all 10 papers (programmatic extraction mode)"
+  - "Classification validated through keyword analysis, not quote_id chains"
+  - "Recommended: enrich with grounding_quotes before merging into final knowledge base"

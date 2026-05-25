@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s10291_023_01457_x",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Exploring characteristics of BDS-3 PPP-B2b augmentation messages by a three-step analysis procedure"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2023) 27:119 https://doi.org/10.1007/s10291-023-01457-x ORIGINAL ARTICLE Exploring characteristics of BDS‑3 PPP‑B2b augmentation messages by a three‑step analysis procedure Chenhao Ouyang1 · Junbo Shi1 · Wenjie Peng1 · Xinying Dong1 · Jiming Guo1 · Yibin Yao1 Received: 5 August 2022 / Accepted: 10 April 2023 / Published online: 28 April 2023 © The Author(s), under ",
+      "Three new message characteristics are obtained by analyzing 863,895 PPP-B2b augmentation messages collected in June 2022 following a three-step analysis procedure."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 23
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 89,
+    "has": 0,
+    "dcb": 23,
+    "clas": 3
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

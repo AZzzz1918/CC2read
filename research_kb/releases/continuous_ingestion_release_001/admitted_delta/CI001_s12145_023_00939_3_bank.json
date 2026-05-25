@@ -1,0 +1,86 @@
+[
+  {
+    "quote_id": "qb_b888c080cb",
+    "span_index": 0,
+    "text": "Earth Science Informatics (2023) 16:315–328\nhttps://doi.org/10.1007/s12145-023-00939-3\nRESEARCH\nAssessment of precipitable water vapor retrieved from precise point\npositioning with PPP‑B2b service\nHao Yang1,2 · Xiufeng He1 · Vagner Ferreira1 · Shengyue Ji2 · Ying Xu3 · Susu Song4\nReceived: 14 November 2022 / Accepted: 11 January 2023 / Published online: 19 January 2023\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nReal-time precise point positioning (RT-PPP) is an effective method to retrieve precipitable water vapor (PWV), whic",
+    "char_length": 3449
+  },
+  {
+    "quote_id": "qb_3a1e6ca83d",
+    "span_index": 1,
+    "text": "3 16 Earth Science Informatics (2023) 16:315–328\natmospheric wet delay and atmospheric precipitable water. and GPS (Yang et al. 2021; Zhang et al. 2021), a new way to\nFurthermore, their studies provided the fundamental prin- overcome the issues with the RTS-based network links has\nciples for calculating precipitable water vapor (PWV) from emerged. Due to its solid anti-interference capability, the\nGPS observations. Rocken et al. (1993) investigated PWV PPP-B2b service will become a popular standard for PWV\nretrieval using GPS and achieved millimeter-level results retrieval in China and surroun",
+    "char_length": 5528
+  },
+  {
+    "quote_id": "qb_50dc2d6679",
+    "span_index": 2,
+    "text": "Earth Science Informatics (2023) 16:315–328 317\ne e r = r p\nr\nr × p p r v ZHD=\n0.00\nf\n2\n(𝜙\n27\n,h\n7\n)\n⋅P\ns (7)\n⎡ ⎢ ⎢ e a c ⎤ ⎥ ⎥ ⎡ ⎢ ⎢ e � c r�p × ×r�v e � r ⎤ ⎥ ⎥ (2) f(𝜙,h)=1−0.0026⋅cos(2𝜙)−0.00028⋅h (8)\n⎣ ⎦ ⎢ ⎥\nwhere 𝛿⎣X b is the⎦ orbit correction vector in Earth-center where P s is the atmospheric pressure on the station, which is\nEarth-fixed (ECEF) coordinate system,\n𝛿O\ndenotes the orbit\nderived from the Global Pressure and Temperature 3 (GPT3)\ncorrection message from the PPP-B2b service, and r p and model, f(𝜙,h) is the variations of gravity value above the\nr v are the satellite unit and ",
+    "char_length": 4271
+  },
+  {
+    "quote_id": "qb_82705273de",
+    "span_index": 3,
+    "text": "3 18 Earth Science Informatics (2023) 16:315–328\nZTD=10−6 n N ΔH +10−6 n N ΔH =ZHD+ZWD where H m is the height of the grid point closest to the sta-\n∑ i=1 dryi i ∑ i=1 weti i (13) tion in the vertical direction, and H s is the station height.\nThe station PWV is obtained by bilinear interpolating the\nwhere ΔH i represents the height difference between adja-\nPWV of the grid points around the station to eliminate the\ncent meteorological levels. N dryi and ΔN weti are the average\nhorizontal bias.\nrefractivity of dry gas and wet gas between adjacent levels,\nrespectively. The PWV can be computed usi",
+    "char_length": 1851
+  },
+  {
+    "quote_id": "qb_e249417971",
+    "span_index": 4,
+    "text": "Earth Science Informatics (2023) 16:315–328 319\ncollection period is from the day of the year (DOY) 195 to resolution of ERA5 pressure level data for the correspond-\nDOY 200 in 2021. Furthermore, we used a special receiver ing period is 0.25° × 0.25°, and the vertical resolution is 37\nto collect PPP-B2b data for the same six days. The IGS data levels. Table 1 shows the detailed PPP processing strategy.\nfor each day is backed up on the official website and can be The processing flow of ZTD/PWV is summarized in\ndownloaded by users for free. However, PPP-B2b data cur- Fig. 2. For the ZTD, the ZPD",
+    "char_length": 3099
+  },
+  {
+    "quote_id": "qb_2b2233f3cc",
+    "span_index": 5,
+    "text": "3 20 Earth Science Informatics (2023) 16:315–328\nFig. 3 The dots show the com-\nparison of ZTD based on GPS\nand EAR5\ndata were not processed continuously because the RTS of The three stations, JFNG, URUM, and WUH2, are\nPPP-B2b GPS is available until 10:00 p.m. for each day. equipped with receivers able to receive both GPS and BDS-3\nThis leads to a short convergence process of the ZTD cal- signals (see Fig. 1 for the respective locations). Figure 4\nculated by PPP, which is shown as multiple vertical points shows the ZTD of GPS and GPS/BDS-3. It can be seen that\nwith a wide range of fluctuations ",
+    "char_length": 852
+  },
+  {
+    "quote_id": "qb_5ad68502be",
+    "span_index": 6,
+    "text": "Earth Science Informatics (2023) 16:315–328 321\nFig. 5 Correlation analysis\nbetween the ZTD of PPP-B2b\nand CNES\nto the better clock accuracy of BDS-3 than GPS in PPP-B2b\n(Tao et al. 2021).\nFigure 5 compares ZTD calculated by the GPS-BDS-3\ncombination of PPP-B2b at JFNG, URUM, and WUH2 sites\nregarding their scatter plots and relationship (correlations).\nOverall, the ZTD calculated by the GPS-BDS-3 combina-\ntion of PPP-B2b correlates with CNES for the three stations\n(Fig. 5). The correlation coefficients (R) of all three stations\nexceed 0.90, indicating a strong correlation between PPP-\nB2b and ",
+    "char_length": 3148
+  },
+  {
+    "quote_id": "qb_f7eed02e96",
+    "span_index": 7,
+    "text": "3 22 Earth Science Informatics (2023) 16:315–328\nFig. 7 Differences of T m\nbetween GPT3 and ERA5\nexceeds 70 mm at DOY 200. The rise of PWV at the Hong\nKong Observatory meteorological station may be associated\nwith heavy rainfall. Ignoring the distance bias, the PWV of\nHKSL and HKWS from PPP-B2b also reflects this rising\ntrend. This shows the potential of the PPP-B2b service for\nPWV retrieval, rainfall forecasting, and other meteorologi-\ncal monitoring.\nFigure 11 shows the retrieval PWV of GPS/BDS-3 by\nIGS stations. CNES has slightly better accuracy and con-\nvergence time than PPP-B2b. For the ",
+    "char_length": 2183
+  },
+  {
+    "quote_id": "qb_95387c6c88",
+    "span_index": 8,
+    "text": "Earth Science Informatics (2023) 16:315–328 323\nFig. 9 Comparison of ZTD\nretrieved from GPS and EAR5\nfrom static to dynamic, the signal reflected from the seawater\nsurface increases the multipath effect. The multipath errors\nof GPS data are shown in Fig. 15b, and the multipath RMS\nof the L1 signal is 0.376 m, while L2 reaches 0.379 m.\nDue to the lack of meteorological sensors to provide true\nPWV values over the ship, the PWV of the coordinates esti-\nmated by real-time PPP was calculated by ERA5 as a refer-\nence. The positioning accuracy of real-time PPP is usually in\nthe centimeter to decimete",
+    "char_length": 2306
+  },
+  {
+    "quote_id": "qb_6a5b460592",
+    "span_index": 9,
+    "text": "3 24 Earth Science Informatics (2023) 16:315–328\nFig. 11 Comparison of PWV\nbased on GPS/BDS-3 and\nEAR5\nFig. 12 Distribution of PWV\ndifferences\nFig. 13 Correlation analysis\nbetween the PWV of PPP-B2b\nand CNES\n1 3",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_2b81cb0389",
+    "span_index": 10,
+    "text": "Earth Science Informatics (2023) 16:315–328 325\nFig. 16 PWV retrieval of GPS in a dynamic environment\nFig. 14 PWV accuracy of each station\nTable 3 Average RMSE of all stations static experiment. The ZTD accuracy of PPP-B2b GPS\nis 26.4 mm, underperforming ERA and CNES-GPS by\nPWV CNES GPS PPP-B2b CNES GPS/ PPP-B2b\naccuracy GPS BDS-3 GPS/BDS-3 approximately 38% and 59%, respectively. For the ship-\nboard experiments, the PWV of the PPP-B2b GPS/BDS-3\nMean 2.7 4.9 2.3 3.4\nis consistent with the CNES results, and the difference\nRMSE\nbetween them is mostly within 1.5 mm after convergence.\n(mm)\nFurther",
+    "char_length": 2190
+  },
+  {
+    "quote_id": "qb_9cfc18c24f",
+    "span_index": 11,
+    "text": "3 26 Earth Science Informatics (2023) 16:315–328\nFig. 17 Shipboard receiver and\nGPS multipath in Tangdao Bay\n(a) Shipboard receiver (b) GPS multipath\nservice provides a new way of real-time water vapor Conclusion\nmonitoring for remote areas without network links by\nbroadcasting RTS via satellite. Since the BDS provides PPP-B2b service with strong anti-\nRegarding the real-time PWV retrieval in the marine interference capability, users can receive RTS via GEO sat-\nenvironments (\"Retrieval experiments of dynamic ship- ellites, which expands the application range of real-time PPP\nboard data\" secti",
+    "char_length": 3375
+  },
+  {
+    "quote_id": "qb_34903d4bfe",
+    "span_index": 12,
+    "text": "Earth Science Informatics (2023) 16:315–328 327\nFunding This research was substantially supported by the National Hadas T, Bosy J (2015) IGS RTS precise orbits and clocks verifica-\nNatural Science Foundation of China (Grant Nos. 42074028) and the tion and quality degradation over time. GPS Solut 19(1):93–105\nNatural Science Foundation of Shandong Province, China (Grant Nos. Jiang P, Ye S, Chen D, Liu Y, Xia P (2016) Retrieving precipitable\nZR2020MD042). water vapor data using GPS zenith delays and global reanalysis\ndata in China. Remote Sens 8(5):389\nData availability The RINEX data of IGS sta",
+    "char_length": 6775
+  },
+  {
+    "quote_id": "qb_5328a01d19",
+    "span_index": 13,
+    "text": "3 28 Earth Science Informatics (2023) 16:315–328\nZhang W, Zhang H, Liang H, Lou Y, Cai Y, Cao Y, Zhou Y, Liu W analysis of GPS data from large networks. J Geophys Res Solid\n(2019) On the suitability of ERA5 in hourly GPS precipitable Earth 102(B3):5005–5017\nwater vapor retrieval over China. J Geod 93(10):1897–1909\nZhang B, Hou P, Liu T, Yuan Y (2020) A single-receiver geometry- Publisher's note Springer Nature remains neutral with regard to\nfree approach to stochastic modeling of multi-frequency GNSS jurisdictional claims in published maps and institutional affiliations.\nobservables. J Geod 94",
+    "char_length": 1227
+  }
+]

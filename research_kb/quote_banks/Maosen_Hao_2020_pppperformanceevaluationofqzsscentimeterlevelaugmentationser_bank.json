@@ -1,0 +1,1016 @@
+[
+  {
+    "quote_id": "qb_d59800496e",
+    "span_index": 0,
+    "text": "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/341982748\nPrecise Point Positioning Performance Evaluation of QZSS Centimeter Level\nAugmentation Service\nChapter · June 2020\nDOI: 10.1007/978-981-15-3715-8_8\nCITATIONS\n2\nREADS\n679\n4 authors, including:\nMaosen Hao\nChang'an University\n2 PUBLICATIONS   2 CITATIONS   \nSEE PROFILE\nAll content following this page was uploaded by Maosen Hao on 16 September 2020.",
+    "char_length": 467
+  },
+  {
+    "quote_id": "qb_7b3ded30b1",
+    "span_index": 1,
+    "text": "The user has requested enhancement of the downloaded file.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_bc64654490",
+    "span_index": 2,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_e2aa69d1dd",
+    "span_index": 3,
+    "text": "Precise Point Positioning Performance\nEvaluation of QZSS Centimeter Level\nAugmentation Service\nMaosen Hao1, Wenhai Jiao2, Xiaolin Jia3, and Qingrui Tao1\nAbstract.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_20e84cbd40",
+    "span_index": 4,
+    "text": "The\nJapanese\nQuasi-Zenith\nSatellite\nSystem(QZSS)\nprovides\nCentimeter-Level Augmentation Service(CLAS) through L6 signal.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_f23628566d",
+    "span_index": 5,
+    "text": "The L6\naugmentation messages includes satellite orbit correction, clock correction, phase\nbias,\ncode\nbias,\ntroposphere\ncorrection,\nionosphere\ncorrection\nand\nother\naugmentation messages.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_ede6ed4c6a",
+    "span_index": 6,
+    "text": "These augmentation messages are used for a PPP-RTK\nservice.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_d24ab75be7",
+    "span_index": 7,
+    "text": "Using PPP-RTK service, users in Japan can get high-precision real-time\npositioning results.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_e464544b35",
+    "span_index": 8,
+    "text": "Based on the measured data of AIRA, STK2, TSK2 and\nUSUD of four MGEX stations in Japan, this paper analyzes the PPP augmentation\nperformance of L6 augmentation signal by post static PPP, and compares it with\nthe calculation results of QZSS final orbit and clock products.",
+    "char_length": 271
+  },
+  {
+    "quote_id": "qb_345ee1b913",
+    "span_index": 9,
+    "text": "The results show\nthat there is still a certain gap between the accuracy of orbit and clock augmented\nby L6 signal and the final products of QZSS.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_208e600e35",
+    "span_index": 10,
+    "text": "The static PPP based on L6 signal\ncan realize centimeter-decimeter level positioning, and the positioning accuracy is\nlower than that of the final products of QZSS.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_1f62b149d2",
+    "span_index": 11,
+    "text": "Analysis reason: as CLAS are used\nto augment PPP-RTK services, PPP augmented service is out of scope of its pre-\nservice.",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_0409ea3d7d",
+    "span_index": 12,
+    "text": "Therefore, the published orbit and clock correction are not a real-time\nprecise orbit and clock correction,which leads to a gap between the corrected orbit\nand clock and the final products.Similarly, due to different application services,\nthere are differences in positioning results.",
+    "char_length": 284
+  },
+  {
+    "quote_id": "qb_a7735a4aa9",
+    "span_index": 13,
+    "text": "Keywords: Centimeter-Level Augmentation Service·PPP·L6 signal·Signal-\nin-Space Accuracy·SSR\n1 Maosen Hao\nChang’an University, Xi’an 710054, Shanxi, China\n2 Wenhai Jiao\nBeijing Institute of Tracking and Telecommunications Technology, Beijing,\nChina\n3 Xiaolin Jia()\nXi’an Research Institute of Surveying and Mapping, Shaanxi, China\nEmail: 13891907401@139.com\n1 Qingrui Tao\nChang’an University, Xi’an 710054, Shanxi, China",
+    "char_length": 420
+  },
+  {
+    "quote_id": "qb_3cb449a42d",
+    "span_index": 14,
+    "text": "2\n1 Introduction\nQuasi-Zenith Satellite System (QZSS) is a new generation of regional satellite\nnavigation system jointly established by the Japanese government and enterprises.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_173de47ae3",
+    "span_index": 15,
+    "text": "On November 1, 2018, the Japanese government announced the official operation\nof the QZSS system.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_fe46851b88",
+    "span_index": 16,
+    "text": "The QZSS system consists of four satellites, three are\nInclined Geo-Synchronous Orbit (IGSO) satellites, and one is a Geo-Synchronous\nOrbit (GEO) satellite.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_3740747be8",
+    "span_index": 17,
+    "text": "There are two types of augmentation services officially\nprovided by QZSS:\nSub-meter Level Augmentation Service\n(SLAS) and\nCentimeter-Level Augmentation Service (CLAS), the augmented services are\nrealized by broadcasting L1-SAIF augmented information and L6 augmented\ninformation respectively [1].",
+    "char_length": 296
+  },
+  {
+    "quote_id": "qb_09a69831d3",
+    "span_index": 18,
+    "text": "The CLAS is mainly applied in Japan to achieve\nhigh-precision positioning services.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_63074adb75",
+    "span_index": 19,
+    "text": "The L6 signal is divided into L61 and L62\nsignals.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_1584ef53e7",
+    "span_index": 20,
+    "text": "The L61 signal is transformed from the LEX signal of the former QZSS-1\nstar (MICHIBIK-I), and the L62 is mainly used for the QZS 2-4 star.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_b7197338f1",
+    "span_index": 21,
+    "text": "At present,\nL62 information is divided into two types: L6D and L6E.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_8dcd7c8e36",
+    "span_index": 22,
+    "text": "L6D is mainly used for\nthe CLAS service, and L6E is mainly used for CLAS-E (Centimeter-Level\nAugmentation Message for Experiments) service.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_8a211bde3b",
+    "span_index": 23,
+    "text": "It is released by Japan JAXA\n(Aerospace Exploration Agency) Multi-GNSS Advanced Demonstration tool for\nOrbit and Clock Analysis (MADOCA) products based on L6E signals.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_07e21b519c",
+    "span_index": 24,
+    "text": "The L6\nsignal herein refers to the L6D signal for CLAS service.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_fcf59e3d8e",
+    "span_index": 25,
+    "text": "QZSS mainly releases augmented information in the form of RTCM-SSR,\nincluding correction information of satellite orbit and clock error, phase bias, code\nbias, ionosphere, etc.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_61a1843916",
+    "span_index": 26,
+    "text": "Users can receive augmented information and broadcast\nephemeris in real-time, extract and correct augmented information.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_90399e67d7",
+    "span_index": 27,
+    "text": "Corrected to\nthe broadcast orbit to generate a more accurate real-time satellite orbit and clock\noffset to achieve high-precision PPP.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_d292e700b0",
+    "span_index": 28,
+    "text": "During the development of the QZSS\nsystem, many experts and scholars studied the QZSS system from different\naspects.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_1b15fa2be7",
+    "span_index": 29,
+    "text": "Wang Guohui analyzed that the orbit error of the MICHIBIK-I satellite is\nbetter than 11cm, the clock error is better than 16.8cm [2]; Suelynn Choy et al.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_849b3e61e2",
+    "span_index": 30,
+    "text": "[3] proved that the performance of PPP based on LEX can reach decimeter level in\nJapan and Australia; Lou Yidong and others proved the feasibility of using the\nLEX signal to achieve sub-meter PPP positioning in the eastern coastal areas of\nChina [4]; Zhang Wenfeng and Jiang Yongsheng found that kinematic and static\nPPP solutions based on LEX can achieve decimeter and centimeter accuracy,\nrespectively [5-6]; Bu Weijin found a combination of BDS and QZSS positioning\ncan improve the positioning accuracy, reliability, and stability of BDS single\nsystems in the Asia-Pacific region [7]; Robert Odolinski et al.",
+    "char_length": 611
+  },
+  {
+    "quote_id": "qb_3e454d5836",
+    "span_index": 31,
+    "text": "[8] found that at\nhigher cut-off altitude angles,the four-system (BDS, Galileo, GPS, QZSS) RTK\nmodel\nallows\nfor\nimproved\ninteger\nambiguity\nresolution\nand\npositioning\nperformance over the single-, dual- or triple systems; Hiromune Namie, etc.",
+    "char_length": 241
+  },
+  {
+    "quote_id": "qb_65f077c2e5",
+    "span_index": 32,
+    "text": "found\nthat the Network RKT post-positioning accuracy based on LEX signals can reach\nRMS and STD within 1cm [9]; Zhang Shaocheng et al.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_26e0ba4fa8",
+    "span_index": 33,
+    "text": "[10] proved that real-time",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_4e5568bd27",
+    "span_index": 34,
+    "text": "3\nL6E products can provide orbit and clock accuracy of centimeter level, and\nkinematic PPP positioning can reach 4.9cm, 4.2cm, 11.7cm in three directions of\nENU, respectively; Po Chunchiu et al.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_c651954202",
+    "span_index": 35,
+    "text": "[11] found that L6D-based single-\nfrequency PPP can improve the convergence time.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_20164c271a",
+    "span_index": 36,
+    "text": "Within a day, 83% of epoch\npositioning accuracy can reach 1m, and 50% of epoch positioning accuracy can\nreach 0.3m.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_372e73facf",
+    "span_index": 37,
+    "text": "This paper mainly introduces the CLAS augmented service based on\nQZSS L6D signals, and uses the measured data to evaluate the SIS User Range\nError of the augmented orbit and clock offset.",
+    "char_length": 187
+  },
+  {
+    "quote_id": "qb_eee5e8ba03",
+    "span_index": 38,
+    "text": "At the same time, the dual-\nfrequency PPP performance of the augmented service is evaluated.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_aa08673412",
+    "span_index": 39,
+    "text": "2 L6 augmentation information content and application\n2.1 L6 augmentation information introduction\nQZSS system transmits a total of 5 frequencies and 8 signals, including GPS-com\npatible PNT service signals: L1C/A, L1C, L2C and L5; L1S signal for the fully fu\nnctional sub-meter level augmentation service (SLAS) and disaster and crisis man\nagement information dissemination service (DC Report); Provide L5S signal of sat\nellite positioning new technology experiment service (PTV); L6 signal for centime\nter-level augmentation service (CLAS).",
+    "char_length": 542
+  },
+  {
+    "quote_id": "qb_d344b07dc5",
+    "span_index": 40,
+    "text": "CLAS augments the service by broadcasti\nng L6D augmentation information on L6 frequency band.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_59399824a5",
+    "span_index": 41,
+    "text": "The service area of CL\nAS is in Japan, which is divided into 19 networks.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_8a99ea8ec3",
+    "span_index": 42,
+    "text": "The service scope and Network\ndistribution are shown in Fig.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_187c5c4593",
+    "span_index": 43,
+    "text": "1, different colors represent different Network areas\n[11].",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_b6a04889f2",
+    "span_index": 44,
+    "text": "The center frequency of the L6 signal is 1278.75 MHz and the frequency ba\nndwidth is 39.0 MHz.",
+    "char_length": 94
+  },
+  {
+    "quote_id": "qb_fe8e010a6c",
+    "span_index": 45,
+    "text": "The four QZSS satellites (J01, J02, J03, and J07) all provide\ncentimeter-level augmentation service.L6 signals are stored in SSR format using\nRTCM 10403.2 standard.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_93245dcabe",
+    "span_index": 46,
+    "text": "L6 files are published hourly and can be downloaded fro\nm the official QZSS website (https://sys.qzss.go.jp/dod/en/archives/agree.html).",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_ac2f04a9d8",
+    "span_index": 47,
+    "text": "Correction information in L6 document\nMessage\nSub\nType ID\nMessage Name\nNominal\nUpdate\nInterval(s)\n1\nCompact SSR Mask\n30\n2\nCompact SSR GNSS Orbit Correction\n30\n3\nCompact SSR GNSS Clock Correction\n5\n4\nCompact SSR GNSS Satellite Code Bias\n30\n5\nCompact SSR GNSS Satellite Phase Bias\n30",
+    "char_length": 281
+  },
+  {
+    "quote_id": "qb_44caccb70e",
+    "span_index": 48,
+    "text": "4\n6\nCompact SSR GNSS Satellite Code and Phase Bias\n30\n7\nCompact SSR GNSS URA\n30\n8\nCompact SSR STEC Correction\n30\n9\nCompact SSR Gridded Correction\n30\n10\nCompact SSR Service Information\n(N/A)\n11\nCompact SSR GNSS Combined Correction\n5 or 30\nTable 1 shows the correction information contained in the L6 file.",
+    "char_length": 304
+  },
+  {
+    "quote_id": "qb_f209ddb7e4",
+    "span_index": 49,
+    "text": "At present,\ncorrection information of GNSS satellites only includes correction information of\nGPS satellites, Galileo satellites and QZSS satellites.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_1f38327291",
+    "span_index": 50,
+    "text": "GLONASS system and BDS\nsystem are under construction.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_d4a515cddb",
+    "span_index": 51,
+    "text": "Type 6 is the correction information of satellite\ncode bias and phase bias.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_c104f78345",
+    "span_index": 52,
+    "text": "The user selects the applicable correction information\naccording to the Network ID of the area in which they are located.",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_ff1419bdbd",
+    "span_index": 53,
+    "text": "The\nionospheric correction information and tropospheric correction information in\ntypes 8 and 9 are limited to use in Japan.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_17d6373d1c",
+    "span_index": 54,
+    "text": "The ionospheric grid information and\ntropospheric correction information suitable for this region should be matched\nwith the Network ID in Japan.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_1f8dd14fba",
+    "span_index": 55,
+    "text": "Type 11 combined correction information contains\norbit correction information and clock correction information.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_1418b86ff4",
+    "span_index": 56,
+    "text": "CLAS service area and Network distribution\n2.2 Real-time precise orbit and clock error recovery\nThe orbit and clock offset correction information in the L6D augmentation\ninformation is added to the orbit and clock offset calculated by the broadcast",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_2c1afb665e",
+    "span_index": 57,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_9704811dab",
+    "span_index": 58,
+    "text": "5\nephemeris to obtain the recovered real-time precise orbit and clock offset.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_c3fabbcca5",
+    "span_index": 59,
+    "text": "The\norbit correction data in Table 1 are the correction information in the orbit\ncoordinate system, which indicate the satellite position correction data in three\ndirections: radial, along-track and cross-track.",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_94f0ac4adf",
+    "span_index": 60,
+    "text": "The correction information are\nbased on the satellite antenna phase center (APC, Antenna Phase Center) ; clock\nerror correction data is based on the correction information of clock error\nparameters in broadcast ephemeris:\n0\nC ,\n1\nC ,\n2\nC , where\n1\nC and\n2\nC is zero.",
+    "char_length": 266
+  },
+  {
+    "quote_id": "qb_cd9102f738",
+    "span_index": 61,
+    "text": "The time\nreference of each correction information is GPS time system.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_a22da3ebbf",
+    "span_index": 62,
+    "text": "CLAS augmentation algorithm stipulates: if the Network ID of type 11\ncorrection information in Table 1 is the same as the Network ID of the user's\nlocation, then the correction information of orbit and clock in type 11 correction\ninformation shall be adopted for correction.",
+    "char_length": 274
+  },
+  {
+    "quote_id": "qb_a85065b841",
+    "span_index": 63,
+    "text": "Otherwise, the correction information\nof orbit and clock in the correction information of type 2 and type 3 are used to\ncorrect .",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_ce554e1cd3",
+    "span_index": 64,
+    "text": "Real-time precise orbit recovery:\nSuppose the orbit correction information at time t is \n\nc\na\nr\nR\nR\nR\n,\n,\n, the satellite\nposition in the ECEF coordinate system calculated by the broadcast ephemeris at\nthe moment is\n\n\n0\n0\n0\n,\n,\nZ\nY\nX\nR \n, and the satellite velocity is\n\n\nz\ny\nx\nV\nV\nV\nV\n,\n,\n\n, and the\ncorrection information in the ECEF coordinate system is \n\nZ\nY\nX\n\n\n\n,\n,\n.",
+    "char_length": 385
+  },
+  {
+    "quote_id": "qb_61be1ee489",
+    "span_index": 65,
+    "text": "Firstly,\nthe modified value is transformed from orbital coordinate system to ECEF\ncoordinate system:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nc\na\nr\nc\na\nr\nR\nR\nR\ne\ne\ne\nZ\nY\nX\n,\n,\n(2.1)\nWhere:\n)\n(\n)\n(\nt\nV\nt\nV\nea \n,\n)\n(\n)\n(\n)\n(\n)\n(\nt\nV\nt\nR\nt\nV\nt\nR\nec\n\n\n\n,\nc\na\nr\ne\ne\ne\n\n\n.",
+    "char_length": 283
+  },
+  {
+    "quote_id": "qb_cad3900801",
+    "span_index": 66,
+    "text": "Then the satellite position corrected at time t is:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZ\nY\nX\nZ\nY\nX\nZ\nY\nX\n0\n0\n0\n(2.2)\nReal-time precise clock error recovery:\nSuppose the clock difference correction parameter at time t is \n\n2\n1\n0\n,\n,\nC\nC\nC\n, and\nthe correction parameter\n1\nC and\n2\nC in QZSS are zero, the satellite clock difference\ncalculated by broadcast ephemeris at this time is\ngt , and the speed of light is c ,\nthen the corrected satellite clock difference is\nst :\nc\nC\nt\nt\ng\ns\n0\n\n\n(2.3)",
+    "char_length": 529
+  },
+  {
+    "quote_id": "qb_309869f501",
+    "span_index": 67,
+    "text": "6\n3 Accuracy analysis of real-time orbit and clock error\nIn order to evaluate the GPS real-time orbit and clock offset data generated by the\nL6 augmented information, GPS precise orbits with an epoch interval of 15 min\nand precise clock offset with an epoch interval of 5 min provided by QZSS were\nselected as references (https://sys.qzss.go.jp/dod/en/archives/pnt.html).",
+    "char_length": 371
+  },
+  {
+    "quote_id": "qb_586555e145",
+    "span_index": 68,
+    "text": "Relevant\ndata of DOY 258-260 days in 2019 were selected for experiments to analyze the\naugmented orbit and clock difference accuracy.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_54ac8193be",
+    "span_index": 69,
+    "text": "Assessment methods:\nThe space-time datum is unified, and the time system is unified to GPST, and\nthe coordinate datum is unified to ITRF2008 coordinate system.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_9a674c933f",
+    "span_index": 70,
+    "text": "Antenna phase center conversion: since the reference point of precise orbit\nsatellite position is the satellite center of mass, the reference point of broadcast\nephemeris and L6 correction information is the satellite antenna phase center.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_99476f5704",
+    "span_index": 71,
+    "text": "Therefore, when comparing the accuracy of the orbit, the IGS14 antenna file was\nused to correct the orbit coordinates from the antenna phase center to the satellite\nmass by using the dual-frequency ionospheric combination.Then compare the\norbit R, A, and C to get the errors of the augmented orbit and QZSS precise orbit\nin the R, A, and C direction, and then calculate the RMS values in each direction.",
+    "char_length": 403
+  },
+  {
+    "quote_id": "qb_bfc63f799c",
+    "span_index": 72,
+    "text": "Clock offset accuracy analysis: In order to eliminate the influence of different\nclock offset benchmarks on the accuracy analysis, this paper adopts the quadratic\nerror method to analyze the corrected satellite clock offset.",
+    "char_length": 224
+  },
+  {
+    "quote_id": "qb_d481c327bb",
+    "span_index": 73,
+    "text": "The specific methods\nare as follows: first, make a difference between the satellite clocks with the same\nepoch to obtain a difference.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_d168c50cf0",
+    "span_index": 74,
+    "text": "Then sum up the difference between the epochs of\nthe same satellite and calculate the average value.Then subtract the average value\nof the satellite from the primary difference of the satellites, make the secondary\ndifference to obtain the error of the augmented satellite offset.",
+    "char_length": 280
+  },
+  {
+    "quote_id": "qb_7ec6a420c4",
+    "span_index": 75,
+    "text": "Finally, the RMS\nvalue of the satellite clock offset error is calculated.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_b27402fe4f",
+    "span_index": 76,
+    "text": "Accuracy analysis of SIS User Range Error (SISURE) : after the accuracy\nanalysis of the orbit and clock offset, the following formula was used to calculate\nthe SISURE of different satellites, and finally the RMS value of SISURE of each\nsatellite was calculated.",
+    "char_length": 261
+  },
+  {
+    "quote_id": "qb_aec6127249",
+    "span_index": 77,
+    "text": ")\n(\n)\n(\n2\n2\n,\n2\nC\nA\ncdt\nR\nSISURE\nC\nA\nR\n\n\n\n\n\n\n\n\n\n(2.4)\nIn Equation (2.4),\nR\nand\nC\nA,\n\nare the contribution factors of radial direction R\nand along-track direction A and cross-track direction C, c are the speed of\nlight, dt are the error of satellite clock, and\nC\nA\nR\n\n\n\n,\n,\nare the errors in the radial\ndirection, along-track direction and cross-track direction of orbit, respectively.",
+    "char_length": 398
+  },
+  {
+    "quote_id": "qb_bbaafd8de8",
+    "span_index": 78,
+    "text": "The final orbit and clock offset of QZSS were selected as a reference.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_f90c9f39fb",
+    "span_index": 79,
+    "text": "The\nresults of comparing the satellite clock after L6 augmentation with the QZSS final\nclock are shown in Fig.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_a35cc0aeb4",
+    "span_index": 80,
+    "text": "3, and the errors of the orbit, clock and SISURE\nare shown in Fig.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_3b14f2a6c1",
+    "span_index": 81,
+    "text": "GPS 1-16 star clock difference comparison\nFig.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_cd784805ed",
+    "span_index": 82,
+    "text": "GPS 17-32 star clock difference comparison\nIn the Fig.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_0b381e2c4d",
+    "span_index": 83,
+    "text": "3, G04, G13 and G18 satellites are missing because the\norbit information of these three satellites is not published in the precise ephemeris",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_ded30392d6",
+    "span_index": 84,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_e4e8a8a6d9",
+    "span_index": 85,
+    "text": "The clock difference comparison sequence diagram is discontinuous\nbecause L6 products only release satellite correction information that is observable\nand available in Japan.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_1ae3b2392a",
+    "span_index": 86,
+    "text": "It can be seen from Fig.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_0333ed5956",
+    "span_index": 87,
+    "text": "4, the clock error RMS is between\n0.15m and 0.65m.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_bb73e81842",
+    "span_index": 88,
+    "text": "The orbit error fluctuates greatly, and the radial direction is\ngenerally below 0.65m.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_aa516b6d35",
+    "span_index": 89,
+    "text": "The G10 satellite has a large error, which exceeds 1m.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_1be214d5e9",
+    "span_index": 90,
+    "text": "Along-track direction and cross-track direction fluctuate greatly, leading to a\nmaximum of 2.2m.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_30bc69fc40",
+    "span_index": 91,
+    "text": "SISURE as a whole was within 0.9m, while G10 and G21\nsatellites reached 1.7m and 1.2m, respectively.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_11b83e1090",
+    "span_index": 92,
+    "text": "The G10 and G21 satellites\nfluctuated significantly compared to other satellites, and the correction errors were\nrelatively large.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_c663771864",
+    "span_index": 93,
+    "text": "The corrections of other satellites were relatively stable.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_a893fbe60f",
+    "span_index": 94,
+    "text": "On\naverage, the augmented clock offset accuracy is about 0.46m, radial average\naccuracy is about 0.26m, along-track accuracy is about 1.05m, cross-track\naccuracy is about 0.94m, three-dimensional accuracy is about 1.44m, and SISURE\naccuracy is about 0.62m.",
+    "char_length": 256
+  },
+  {
+    "quote_id": "qb_39ddc72b54",
+    "span_index": 95,
+    "text": "In general, there is still a certain gap between the\naugmented GPS orbit and clock offset and the QZSS final orbit and clock offset.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_d7bfd3ee44",
+    "span_index": 96,
+    "text": "Analyzing the reasons, the CLAS service of QZSS is oriented to PPP-RTK\nservice, and the clock offset and orbit correction information published at each\nmoment are not precise orbit and clock offset correction information.",
+    "char_length": 221
+  },
+  {
+    "quote_id": "qb_bbb2ba1c51",
+    "span_index": 97,
+    "text": "Compared\nwith the correction information issued by the IGS Real-Time Service (IGS-RTS)\nat the same time, there are certain errors in the corrections and even the opposite\ncorrections ,but this in CLAS service is normal, because the CLAS augmented\nservice emphasizes the sum of the corrections in the direction of the receiver-to-\nsatellite line of sight (including orbit correction, clock difference correction,\nsatellite code and phase bias correction, etc.) is always the best .",
+    "char_length": 480
+  },
+  {
+    "quote_id": "qb_20920d49bc",
+    "span_index": 98,
+    "text": "Therefore, the\naccuracy of the orbit and clock offset may not be ideal after correction.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_ec393155f8",
+    "span_index": 99,
+    "text": "GPS 1-32 star R, A, C, CLK, SISURE error",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_07759f58e6",
+    "span_index": 100,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_b9ed3773da",
+    "span_index": 101,
+    "text": "9\n4 Precise Point Positioning analysis of L6D products based on\nQZSS system\nIn order to evaluate the PPP augmentation performance of L6D augmentation\ninformation, this paper selected the MGEX (Multi-GNSS Experiment) observation\ndata of the four stations in Japan: AIRA, STK2, TSK2, and USUD.",
+    "char_length": 291
+  },
+  {
+    "quote_id": "qb_b492ec696a",
+    "span_index": 102,
+    "text": "L6 products\npublished by QZSS were used to perform a post static PPP processing of DOY\n258-260 on the four stations.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_801b54bf7a",
+    "span_index": 103,
+    "text": "At the same time, the precise orbit and precise clock\nproducts published by QZSS were used for the same processing of the above data,\nand the processing results were taken as reference.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_fc12fc47e3",
+    "span_index": 104,
+    "text": "Finally, the coordinates in the\nSINEX file of IGS on that day were used as the real value to calculate deviation\nstatistics of PPP results in the directions of E, N and U.",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_21d4883d57",
+    "span_index": 105,
+    "text": "PPP treatment plan\nProject category\nCLAS plan\nQZSS plan\nOrbit product\nBrdc+CLAS correction\nQZSS final product\nClock product\nBrdc+CLAS correction\nQZSS final product\nIonospheric error\nDual-frequency Iono-free\nDual-frequency Iono-free\nTropospheric error\nCLAS correction\nSaastamoinen model\nCode bias\nCLAS correction\nCode DCB correction\nPhase bias\nCLAS correction\nnull\nCut-off height Angle/(°)\n15\n15\nTidal correction\nModel correction\nModel correction\nSatellite antenna phase center correction\nModel correction\nModel correction\nReceiver antenna phase center correction\nModel correction\nModel correction\nReceiver position\nSPP calculation\nSPP calculation\nAmbiguity\nNot fixed\nNot fixed\nTable 3.",
+    "char_length": 685
+  },
+  {
+    "quote_id": "qb_2517ed0a8b",
+    "span_index": 106,
+    "text": "Introduction of using station information\nstation name\nNetwork ID\nReceiver type\nReceiver antenna type\nReceived data type\nAIRA\n3\nTrimble NetR9\nTRM59800.00\nG+E+R+J\nSTK2\n10\nTrimble NetR9\nTRM59800.00\nG+E+R+J\nTSK2\n7\nTrimble NetR9\nTRM59800.00\nG+E+R+J\nUSUD\n7\nSEPT POLARX5\nAOAD/M_T\nG+E+R+C+J\nTable 2 shows the two PPP treatment plans, and Table 3 shows the relevant\ninformation of test stations used in the experiment.",
+    "char_length": 410
+  },
+  {
+    "quote_id": "qb_eaaa30bbd4",
+    "span_index": 107,
+    "text": "The post static PPP processing",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_41d11df2d1",
+    "span_index": 108,
+    "text": "10\nwas performed on the four stations for three days.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_b2a54a2530",
+    "span_index": 109,
+    "text": "5 shows the deviation of\nthe positioning results of the two plans of the four stations in the directions of E, N\nand U.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_d737eca49c",
+    "span_index": 110,
+    "text": "Positioning accuracy of four stations in DOY 260\nTable 4 shows the statistical results of PPP positioning accuracy after CLAS\naugmentation and PPP positioning accuracy using QZSS final precise ephemeris\nand clock products.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_59e034388d",
+    "span_index": 111,
+    "text": "It can be seen that the positioning error after the augmentation\nis smaller in the direction of E, at the level of cm; However, it fluctuates greatly in\nthe direction of N and in the level of centimeter-decimeter.",
+    "char_length": 213
+  },
+  {
+    "quote_id": "qb_da9fcbe857",
+    "span_index": 112,
+    "text": "The horizontal\naccuracy of the four stations fluctuates between centimeters and decimeters.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_9e66ebfe07",
+    "span_index": 113,
+    "text": "5, it can be clearly found that the convergence rate of positioning using QZSS\nfinal precise ephemeris and clock product is significantly faster than that of CLAS\naugmented positioning.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_a2bfe6ae18",
+    "span_index": 114,
+    "text": "As can be seen from Fig.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_6193863082",
+    "span_index": 115,
+    "text": "5, the positioning result after\nCLAS augmentation is about 6cm in the direction of E, 11cm in the direction of\nN, and 18cm in the direction of U.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_71f9e5b956",
+    "span_index": 116,
+    "text": "The positioning results of the final precise\nephemeris and clock products using QZSS are better than the augmented results.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_61b79987c0",
+    "span_index": 117,
+    "text": "The DOY 258-260 positioning process was performed for three days, and values\nwith deviations less than 20cm in the direction of E and N and less than 40cm in\nthe direction of U were selected for statistics.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_9ab4eddeaa",
+    "span_index": 118,
+    "text": "The positioning direction of ENU in\nCLAS plan converges to 20cm, 20cm and 40cm at about 420 (30s) of the period,\nand the RMS for calculating the deviation values of the three directions are shown\nin Table 4.",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_bf78419f20",
+    "span_index": 119,
+    "text": "The PPP positioning accuracy after CLAS augmentation can achieve\ncentimeter-decimeter level positioning, horizontal accuracy is about 13cm, vertical",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_7e716224e7",
+    "span_index": 120,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_2c2ed304bc",
+    "span_index": 121,
+    "text": "11\naccuracy is about 16cm, and L6 file can be used for augmented positioning\nservice.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_ec460cbd3c",
+    "span_index": 122,
+    "text": "However, the results of PPP positioning with QZSS final precise\nephemeris and clock product still have large errors.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_4641c0e5c7",
+    "span_index": 123,
+    "text": "This is because CLAS is\noriented to the PPP-RTK service, and there is a difference between the algorithms\nof PPP and PPP.",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_87c041e03e",
+    "span_index": 124,
+    "text": "Therefore, when performing PPP positioning, there may be large\nerrors in the positioning results.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_694c2348bf",
+    "span_index": 125,
+    "text": "When CLAS is applied to the PPP-RTK service, it\ncan achieve higher positioning accuracy and achieve centimeter-level positioning\naccuracy.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_a24d23809e",
+    "span_index": 126,
+    "text": "RMS statistics of PPP positioning errors for two plans of four stations\nStation\nCLAS-\nE(cm)\nCLAS-\nN(cm)\nCLAS-\nU(cm)\nCLAS-\nH(cm)\nQZF-\nE(cm)\nQZF-\nN(cm)\nQZF-\nU(cm)\nQZF-\nH(cm)\nAIRA\n7.85\n8.17\n16.87\n11.33\n0.74\n1.11\n4.99\n1.33\nTSK2\n5.13\n12.44\n17.94\n13.46\n0.41\n0.90\n1.70\n0.99\nSTK2\n3.48\n8.89\n12.22\n9.54\n0.58\n0.82\n3.60\n1.00\nUSUD\n7.92\n14.96\n17.57\n16.93\n0.48\n0.42\n1.78\n0.64\nmean\n6.09\n11.12\n16.15\n12.68\n0.55\n0.81\n3.02\n0.99\n5 Conclusion\nIn this paper, the performance of QZSS L6D augmentation information is\nevaluated, and uses the QZSS final orbit and clock products as references to\nevaluate the augmentation effect of L6D signals.",
+    "char_length": 618
+  },
+  {
+    "quote_id": "qb_1b070137b2",
+    "span_index": 127,
+    "text": "The results show that the L6D\naugmentation information of QZSS can provide the augmentation service.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_b7d4fede57",
+    "span_index": 128,
+    "text": "After\nthe augmentation, the clock offset precision is about 0.46m, the radial average\nprecision is about 0.26m, the along-track precision is about 1.05m, the cross-track\nprecision is about 0.94m, the 3D precision is about 1.44m, and the SISURE\nprecision is about 0.62m.",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_4aea59f7b3",
+    "span_index": 129,
+    "text": "The static PPP positioning horizontal accuracy based on\nQZSS L6D augmentation information is about 13cm and the vertical accuracy is\nabout 16cm, which still has a large error with the final precise ephemeris and\nprecise clock PPP positioning results of QZSS.",
+    "char_length": 258
+  },
+  {
+    "quote_id": "qb_08b6432773",
+    "span_index": 130,
+    "text": "Further research is needed on the\nPPP-RTK performance of QZSS L6D augmentation information and the PPP\nperformance of L6E augmentation information.",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_fb6d109a94",
+    "span_index": 131,
+    "text": "Acknowledgments Thanks to the precise products and L6 products provided by QZSS officials,\nthe broadcast ephemeris data provided by IGS, and the station observation data provided by\nMGEX.",
+    "char_length": 187
+  },
+  {
+    "quote_id": "qb_ce1e0d7eb8",
+    "span_index": 132,
+    "text": "The author thanks International GNSS Monitoring and Assessment System (iGMAS) for\nits support.This work is also supported by the National Science Foundation of China (41874041).",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_710d0d5125",
+    "span_index": 133,
+    "text": "12\nReferences\n1.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_48944cb10f",
+    "span_index": 134,
+    "text": "Quasi-Zenith Satellite System Performance Standard (PS-QZSS-001).Available from the\nFollowing Site [OL].https://qzss.go.jp/en/technical/ps-is-qzss/ps_qzss_001_agree.html.",
+    "char_length": 170
+  },
+  {
+    "quote_id": "qb_76141520e2",
+    "span_index": 135,
+    "text": "Wang Guohui, Kuang Cuilin.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_fb1f386d48",
+    "span_index": 136,
+    "text": "Accuracy evaluation of real-time orbit and clock difference\ndata of QZSS michibiki satellite [J].",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_7a061b8ee2",
+    "span_index": 137,
+    "text": "Journal of Surveying and Mapping Science and\ntechnology, 2016,33 (04): 379-382.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_5149b9d70a",
+    "span_index": 138,
+    "text": "Choy, Suelynn & Harima, Ken & Li, Y.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_5b8d883bd1",
+    "span_index": 139,
+    "text": "& Choudhury, Mazher & Rizos, Chris &\nWakabayashi, Y.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_736771960c",
+    "span_index": 140,
+    "text": "& Kogure, Satoshi.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_c216253bb4",
+    "span_index": 141,
+    "text": "High accuracy real-time precise point\npositioning using the Japanese Quasi-Zenith satellite system LEX signal.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_816314ce95",
+    "span_index": 142,
+    "text": "CEUR\nWorkshop Proceedings.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_7b483c9c43",
+    "span_index": 143,
+    "text": "Lou, Yidong & Zheng, Fu & Gong, Xiaopeng & Shengfeng, Gu.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_e66444cb20",
+    "span_index": 144,
+    "text": "Evaluation of\nQZSS\nsystem\naugmentation\nservice performance in\nChina\nregion.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_4c7418c5c9",
+    "span_index": 145,
+    "text": "10.13203/j.whugis20140273.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_f82e956f85",
+    "span_index": 146,
+    "text": "GPS real-time precise single point positioning algorithm for satellite\nbased augmented signal [J].",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_9ea84f3e76",
+    "span_index": 147,
+    "text": "Surveying and Mapping Science, 2018,43 (08): 62-67.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_39659c7d3a",
+    "span_index": 148,
+    "text": "Jiang Yongsheng.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_4ab7feb712",
+    "span_index": 149,
+    "text": "Analysis of the augmented effect of QZSS on GPS positioning [J].",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_7fe31188d6",
+    "span_index": 150,
+    "text": "Beijing surveying and mapping, 2019,33 (08): 969-973.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_c1eb42376a",
+    "span_index": 151,
+    "text": "Bu, Jinwei & Zuo, Xiaoqing & Li, Xiangxin & Chang, Jun & Zhang, Xionghao.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_f3ee8d6219",
+    "span_index": 152,
+    "text": "Evaluation and Analysis on Positioning Performance of BDS/QZSS Satellite Navigation\nSystems\nin\nAsian-Pacific\nRegion.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_664f7018a2",
+    "span_index": 153,
+    "text": "Advances\nin\nSpace\nResearch.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_fc512cc297",
+    "span_index": 154,
+    "text": "10.1016/j.asr.2018.12.026.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_403898ad18",
+    "span_index": 155,
+    "text": "Odolinski, Robert & Teunissen, P.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_79715f45cc",
+    "span_index": 156,
+    "text": "& Odijk, Dennis.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_1bcccd3264",
+    "span_index": 157,
+    "text": "Combined BDS, Galileo,\nQZSS and GPS single-frequency RTK.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_8541dc1101",
+    "span_index": 158,
+    "text": "10.1007/s10291-014-0376-6.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_d541e2ec25",
+    "span_index": 159,
+    "text": "Hiromune N , Osamu O , Nobuaki K , et al.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_942bbf1faf",
+    "span_index": 160,
+    "text": "Initial performance evaluation of centimeter-\nclass augmentation system using Quasi-Zenith Satellite System[J].",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_af5e494401",
+    "span_index": 161,
+    "text": "Electronics and\nCommunications in Japan, 2018.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_955fbf6e21",
+    "span_index": 162,
+    "text": "Zhang Shaocheng,Du Shikang,Li Wei,Wang Guangxing.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_fd88f186a1",
+    "span_index": 163,
+    "text": "Evaluation of the GPS Precise\nOrbit and Clock Corrections from MADOCA Real-Time Products.[J].",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_ec50c5cab5",
+    "span_index": 164,
+    "text": "Sensors (Basel,\nSwitzerland),2019,19(11).",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_3de6438398",
+    "span_index": 165,
+    "text": "Po-Chun Chiu, Shuo-Ju Yeh , Shau-Shiun Jan.Performance Analysis of QZSS Centimeter\nLevel Augmentation Services (CLAS).",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_e91e651ac8",
+    "span_index": 166,
+    "text": "Stanford PNT\n2019, Stanford, California.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_46db3e672c",
+    "span_index": 167,
+    "text": "http://\nweb.stanford.edu/group/scpnt/pnt/PNT19/presentation_files/S03-Po-Chun-QZSS-Augmen\ntation.pdf.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_f4e9793c41",
+    "span_index": 168,
+    "text": "View publication stats",
+    "char_length": 22
+  }
+]

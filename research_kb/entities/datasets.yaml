@@ -1,0 +1,48 @@
+# Datasets Registry — Continuously Extensible Research KB
+
+datasets:
+  - name: IGS MGEX
+    type: public_observation
+    usage_count: 25
+    notes: "Primary GNSS observation source"
+
+  - name: iGMAS
+    type: public_observation
+    usage_count: 8
+    notes: "Chinese international GNSS monitoring network"
+
+  - name: GFZ Final Products
+    type: public_reference_product
+    usage_count: 20
+    notes: "Post-processed orbit/clock reference"
+
+  - name: CAS DCB Products
+    type: public_reference_product
+    usage_count: 8
+    notes: "DCB reference from Chinese Academy of Sciences"
+
+  - name: WHU Real-Time Products
+    type: public_reference_product
+    usage_count: 8
+    notes: "Wuhan University real-time comparison baseline"
+
+  - name: ERA5 Reanalysis
+    type: public_reference
+    usage_count: 4
+    notes: "PWV/ZTD validation reference"
+
+  - name: Radiosonde Observations
+    type: public_reference
+    usage_count: 3
+    notes: "PWV ground truth"
+
+  - name: BDSet (2023+ B2b Dataset)
+    type: public_correction_archive
+    usage_count: 1
+    notes: "First BDS PPP-B2b public dataset. EMERGING."
+    status: NEEDS_CONFIRMATION
+
+  - name: PPP-B2b Broadcast Stream
+    type: proprietary_correction_stream
+    usage_count: 54
+    notes: "BDS-3 GEO B2b signal — not publicly archived. CRITICAL REPRODUCIBILITY GAP."

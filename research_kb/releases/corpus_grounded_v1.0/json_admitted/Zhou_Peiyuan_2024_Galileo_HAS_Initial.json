@@ -1,0 +1,107 @@
+{
+  "paper_id": "Zhou_Peiyuan_2024_Galileo_HAS_Initial",
+  "extraction_mode": "full_strict_quotes",
+  "batch": "Batch 3 Phase A",
+  "selection_role": "non_b2b_galileo",
+  "bibliographic_info": {
+    "title": "Initial performance assessment of Galileo High Accuracy Service",
+    "authors": "NOT_MENTIONED",
+    "year": 2024,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "CNES_OR_OTHER_RTS",
+    "evidence_strength": "WEAK",
+    "grounding_quotes": [
+      "2022) as well as the PPP-B2b augmentation Trimble (Chen et al.",
+      "2011), real-time Precise Point Position- service of the Beidou Navigation Satellite System (BDS) via ing (PPP) is drawing increasing interests among the GNSS Geostationary Orbit (GEO) satellites’ B2b signals (CSNO community as an innovative and useful technology to derive 2020; Nie et al.",
+      "In: Proceedings of the ION GNSS 2011, Insti- Nie Z, Xu X, Wang Z, Du J (2021) Initial assessment of BDS PPP-B2b tute of Navigation, Portland, Oregon, USA, September 20–23, service: precision of orbit and clock corrections, and PPP perfor- 2214–2219 mance."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "DOY\n70",
+    "end_date": "DOY 70",
+    "dates_found": [],
+    "months_found": [
+      "August 2023",
+      "September 2021",
+      "May 2023"
+    ],
+    "doys_found": [
+      "DOY\n70",
+      "DOY 070",
+      "DOY 70"
+    ],
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2024) 28:2 https://doi.org/10.1007/s10291-023-01540-3 ORIGINAL ARTICLE Initial performance assessment of Galileo High Accuracy Service with software‑defined receiver Peiyuan Zhou1 · Guorui Xiao1 · Lan Du1 Received: 7 May 2023 / Accepted: 26 August 2023 © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023 Abstract Th",
+      "<!-- PAGE: 14 -->  2 Page 14 of 14 GPS Solutions (2024) 28:2 In: EGU General Assembly, Geophysics Research Abstracts 13, Naciri N, Yi D, Bisnath S, de Blas FJ, Capua R (2023) Assessment of EGU2011-7472 Galileo High Accuracy Service (HAS) test signals and prelimi- Chen X et al (2011) Trimble RTX, an innovative new approach for nary positioning performance."
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 1,
+    "grounding_quotes": [
+      "2xs×ẋs Δts =− Therefore, we use the P1C1.DCB products from the Center r c2 (6) for Orbit Determination in Europe (CODE) to transform It is noted that the recovered precise satellite clock dt H s AS is the HAS GPS satellite clock to C1P/C2P, while the code biases between different codes in the same frequency, i.e., referred to as Galileo System Time (GST) for Galileo satel- C1P and C1W as well as "
+    ]
+  },
+  "ionospheric_handling": {
+    "status": "IONOSPHERE_FREE_COMBINATION",
+    "iono_mentions": 7,
+    "grounding_quotes": []
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 15,
+    "b2b_mentions": 4,
+    "has_mentions": 19,
+    "clas_mentions": 2,
+    "dcb_mentions": 1,
+    "iono_mentions": 7
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "CNES_OR_OTHER_RTS",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true
+  },
+  "corpus_version": "v1.0"
+}

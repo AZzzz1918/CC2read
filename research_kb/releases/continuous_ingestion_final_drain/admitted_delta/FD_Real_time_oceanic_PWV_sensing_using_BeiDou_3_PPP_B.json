@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_Real_time_oceanic_PWV_sensing_using_BeiDou_3_PPP_B",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Hongxing Zhang1,2 ·Yunbin Yuan1·Luohong Li1,2·Wei Li1·Wenjian Huang1,2·Yanju Chai1·Dong Ren3"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  JournalofGeodesy (2026) 100:19 https://doi.org/10.1007/s00190-026-02039-8 ORIGINAL ARTICLE Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS devices Hongxing Zhang1,2 ·Yunbin Yuan1·Luohong Li1,2·Wei Li1·Wenjian Huang1,2·Yanju Chai1·Dong Ren3 Received:19December2024/Accepted:22January2026 ©Springer-VerlagGmbHGermany,partofSpringerNature2026 Abstract Real-times",
+      "Unlike conventional PPP that treats ambiguities as constants, this methodmodelsthemastime-varyingrandom-walkprocesseswithinanoptimizedrangeofprocess-noisevalues.Thisallows foradaptiveabsorptionofPPP-B2bcorrectionerrors,therebyimprovingtheaccuracyoftroposphericestimates.Validation throughland-basedstaticandkinematicexperimentsdemonstratesaccuracyimprovementsof34and24%,respectively,in tropospherices"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b": 66,
+    "has": 1,
+    "dcb": 0,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

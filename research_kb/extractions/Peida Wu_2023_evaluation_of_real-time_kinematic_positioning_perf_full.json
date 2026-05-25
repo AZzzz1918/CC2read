@@ -1,0 +1,93 @@
+{
+  "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T17:00:00",
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "the BDS-3 announced the service supporting a kinematic decimeter-level and a static centimeter-level real-time PPP when using its GEO B2b signal (PPP-B2b)",
+      "evaluation of a real-time PPP performance exploiting the PPP-B2b corrections"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "note": "Multiple experiments across different platforms; specific dates not clearly stated in accessible text"
+  },
+  "correction_types": [
+    {"type": "orbit_correction", "components": ["radial", "along-track", "cross-track"]},
+    {"type": "clock_correction"}
+  ],
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "note": "Performance evaluation paper — uses PPP-B2b corrections as-is without detailed DCB analysis"
+  },
+  "mathematical_model": {
+    "processing_mode": "Dual-frequency ionosphere-free undifferenced PPP model",
+    "frequency_combinations": {
+      "bds": "B1I/B3I ionosphere-free"
+    },
+    "grounding_quotes": [
+      "dual-frequency ionosphere-free undifferenced PPP model"
+    ]
+  },
+  "datasets": {
+    "platforms": ["static stations", "car", "offshore vessel", "aircraft"],
+    "correction_source": "BDS-3 PPP-B2b real-time correction stream from B2b signal",
+    "reference_products": ["GFZ GBM post-processed multi-GNSS products", "IGS-provided satellite PCO models"],
+    "grounding_quotes": [
+      "static stations, a car, an offshore vessel and an aircraft"
+    ]
+  },
+  "metrics": {
+    "convergence_time_min": {
+      "bds_only": 28.5,
+      "bds_gps": 12.9,
+      "airborne_bds_gps": 48.9
+    },
+    "positioning_accuracy_95pct_cm": {
+      "horizontal": "<20",
+      "vertical": "<35"
+    },
+    "correction_quality": "PPP-B2b corrections less stable and higher by factor ~2 for GPS compared to BDS-3 MEO"
+  },
+  "main_results": {
+    "summary": "PPP-B2b service is prospective for real-time kinematic positioning applications. BDS-3+GPS dual-system achieves 12.9 min average convergence for low-speed platforms. 95% positioning errors <20cm (H) and <35cm (V) after convergence.",
+    "key_findings": [
+      "GPS PPP-B2b corrections ~2x less stable than BDS-3 MEO corrections",
+      "Convergence: 28.5 min (BDS only), 12.9 min (BDS+GPS) for low-speed objects",
+      "Airborne convergence much longer: 48.9 min",
+      "95% errors after convergence: <20cm (H), <35cm (V) for all experiments"
+    ],
+    "grounding_quotes": [
+      "An average convergence time of 28.5 and 12.9 min can be achieved with a standalone BDS-3 and BDS-3+GPS solution",
+      "The 95% positioning errors after convergence are less than 20 and 35 cm in horizontal and vertical directions"
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "B_INCREMENTAL",
+    "rationale": "First comprehensive evaluation of PPP-B2b across multiple kinematic platforms (static, car, vessel, aircraft). Extends previous static-only PPP-B2b evaluations to real-time kinematic scenarios.",
+    "grounding_quotes": [
+      "comprehensive evaluations of real-time PPP solutions using the BDS-3 PPP service at kinematic and highly kinematic platforms are still absent"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 2,
+    "reproduction_blockers": [
+      "Raw GNSS observation data from car/vessel/aircraft not publicly available",
+      "PPP-B2b correction stream archive not available",
+      "PPP processing software configuration not disclosed",
+      "Reference station coordinates not provided",
+      "No source code or processing scripts released"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "NOT_MENTIONED",
+    "reproduction_blockers_non_empty": true
+  }
+}

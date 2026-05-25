@@ -1,0 +1,62 @@
+[
+  {
+    "quote_id": "qb_538e40b7df",
+    "span_index": 0,
+    "text": "IET Radar, Sonar & Navigation\n-\nORIGINAL RESEARCH OPEN ACCESS\nDesign and Reception Method of Code Shift Keying Signals\nWith Power‐of‐Two Phase Intervals\nNengjieYu1,2 | DunWang3 | XiaohuiBa4 | MingquanLu1 | ShaoboShen4\n1DepartmentofElectronicEngineering,TsinghuaUniversity,Beijing,China|2DFHSatelliteCo.Ltd.,Beijing,China|3SpaceStarTechnologyCo.Ltd.,\nBeijing,China|4SchoolofAutomationandIntelligence,BeijingJiaotongUniversity,Beijing,China\nCorrespondence:NengjieYu(ynjfish@163.com)\nReceived:30May2025 | Revised:8August2025 | Accepted:24August2025\nHandlingEditor:HughGriffiths\nFunding:Thisstudywasfunde",
+    "char_length": 3763
+  },
+  {
+    "quote_id": "qb_a06c9aef46",
+    "span_index": 1,
+    "text": "necessitates the adoption of novel signal design methodologies continuousphasemappingCSKsignaldemodulatedbypartial‐\n[9]. To enhance data rates without the allocation of additional outputFFT.\nfrequency resources or detriment to ranging capabilities, code\nshift keying (CSK) technology has emerged as a focal point of\ninterestamongGNSSsignaldesigners[9–14]. 2 | Fundamentals of CSK Signals\nInrecentyears,numerousresearchershaveextensivelyexplored 2.1 | Code Shift Keying Modulation\nthe application of CSK technology in GNSS signal design.\nStudies by Garcia Peña et al. [9, 10] and Jin Shuxin et al. [11",
+    "char_length": 5644
+  },
+  {
+    "quote_id": "qb_884165d364",
+    "span_index": 2,
+    "text": "where s (t) denotes the x‐th CSK(K,N) modulation symbol. 2.3 | Demodulation of CSK Signals\nx\nT = N ·T ,T istheperiodofthespreadingsequence.\nPRN PRN c PRN\nIncontrasttoBPSK‐modulatedsignals,CSK‐modulatedsignals\ncaneffectivelyincreasethedatatransmissionrate.However,this\nenhancement is accompanied by a significant increase in the\n2.2 | ModulationInformationMappingMethodof complexity of information demodulation at the receiver. There\nCSK Signals aretypicallytwo methodsfordemodulatingCSK signals:time‐\ndomaindemodulationandfrequency‐domaindemodulation.\nTheoretically,itissufficientfortheK‐bitmessagemo",
+    "char_length": 4025
+  },
+  {
+    "quote_id": "qb_c62348b45a",
+    "span_index": 3,
+    "text": "wherem x denotesthephaseofthecyclicshift,x = 0,⋯,M − 1; where2L denotesthetotalnumber ofFFTpoints,Lrepresents\nM represents the total number of cyclically shifted spreading thenumberofbutterflyoperationstages,andKisthenumberof\nsequences, and N PRN refers to the length of the spreading informationbitsperCSKmodulationsymbol.\nsequence(PRNcode).\nThe proportionof butterflycomputationnodesrequired by the\nThe frequency‐domain demodulation method for CSK signals phase‐continuous partial‐output FFT relative to that of the\ninvolves performing fast Fourier transform (FFT) on the conventionalfull‐outputFFT",
+    "char_length": 4618
+  },
+  {
+    "quote_id": "qb_b0fda7e26d",
+    "span_index": 4,
+    "text": "P=⌊log N ⌋−K (11) unitdecreasesbyafactorof2.Iftheoutputpointsareselected\n2 PRN\nat power‐of‐two phase intervals, the characteristics of the but-\nThe phase interval and spreading code mapping phases are terflyoperation unit canbe fullyutilised, thereby reducing the\nconfiguredasfollows: complexity of demodulation. According to this idea, this paper\nproposesapower‐of‐twophaseintervaloutputFFTmethodfor\n1. Let P = ⌊log N ⌋ −K, and the code phase inter- demodulating CSK signals with power‐of‐two phase intervals.\n2 PRN\nvalZ = 2P. That is, when demodulating CSK signals using a frequency‐\ndomain method,",
+    "char_length": 3551
+  },
+  {
+    "quote_id": "qb_f586b51185",
+    "span_index": 5,
+    "text": "Step 4: Perform an IFFT on Y(k), using power‐of‐two phase 3. K=3,output8pointswithaphaseintervalof2L−3 chips,\ninterval outputs to compute the correlation result y(n). The and compute the 0‐th, 2L−3‐th, 2·2L−3‐th, 3·2L−3‐th,\noutputindicesfor thecorrelationvalues areselected according 4·2L−3‐th, 5·2L−3‐th, 6·2L−3‐th, 7·2L−3‐th points\ntothefollowingscheme: accordingly;\n4. Output M = 2K points with a phase interval of 2L−K\n1. K=1,output2pointswithaphaseintervalof2L−1 chips,\nchips,andcomputethe0‐th,2L−K‐th,2·2L−K‐th,3·2L−K‐\nandcomputethe0‐thand2L−1‐thpointsaccordingly;\nth,…, (2K − 2)·2L−K‐th, (2K −",
+    "char_length": 3233
+  },
+  {
+    "quote_id": "qb_c786131df4",
+    "span_index": 6,
+    "text": "the computation nodes for the power‐of‐two phase interval\noutput FFT is obtained. The output of the last stage, moving\nbackward K stages, corresponds to 2K nodes. From stage K+1\nonwards, the number of nodes doubles with each preceding\nstage.Therefore,thetotalnumberofcomputationnodesforthe\npower‐of‐two phase interval output FFT algorithm is given in\nEquation(14).\nL−K−1\nT =K×2K+2K( ∑ 2i)=(2L−K−1+K)×2K (14)\n2\ni=0\nIntheFFTalgorithmwithpower‐of‐twophaseintervaloutputs,\nthe last K stages consist of full butterfly operations, with 2L−1\nbutterfly operations per stage. Each butterfly involves two\ncompl",
+    "char_length": 3397
+  },
+  {
+    "quote_id": "qb_1f2f263929",
+    "span_index": 7,
+    "text": "5 | Application in BDS PPP‐B2b Signal Design with equal‐phase‐interval mapping can eliminate ISI resulting\nfrom multipath delays ranging from 1 to 154 chips [15].\nThe PPP service of BDS‐3 is broadcast via the PPP‐B2b signal Althoughtheinterferencemitigationrangeofthepower‐of‐two\ntransmittedbyGEOsatellites.ThecarrierfrequencyofthePPP‐ phaseintervalmappingCSKsignalissomewhatnarrowerthan\nB2bsignalis1207.14MHzandcomprisesanI‐componentanda thatoftheequal‐phase‐intervalscheme,itisadequatetosatisfy\nQ‐component. Currently, only the I‐component is being trans- therequirementsofmostpracticalscenarios.\nm",
+    "char_length": 4178
+  },
+  {
+    "quote_id": "qb_9d91f8d317",
+    "span_index": 8,
+    "text": "both the synchronised and carrier‐stripped baseband signal Consideringthephaseintervalof128chips,thenumberofFFT\nsequence s(n) and the basic spreading sequence c (n), zero‐ output points for the power‐of‐two phase interval mapping is\nd\npadding is applied to extend the sequence length from 128 (16,384/128 = 128). From these, the first 64 points are the\n10,230 to 16,384 (L = ⌈log 10230⌉ = 14, N = 2L = 16384). desiredphasecorrelationvalues.Table2providesacomparative\n2\nFIGURE14 | CSKmodulationtimingdiagramofB2b_Qsignal.\nFIGURE15 | Blockdiagramoffrequency‐domaindemodulationforCSK‐modulatedPPP‐B2bsig",
+    "char_length": 1436
+  },
+  {
+    "quote_id": "qb_2d3c47da54",
+    "span_index": 9,
+    "text": "analysis of the computational complexity among the power‐of‐ 4. ChinaSatelliteNavigationOffice,BeiDouNavigationSatelliteSystem\ntwo phase interval output FFT method, the conventional full‐ SignalinSpaceInterfaceControlDocument:PrecisePointPositioning\noutput FFT method and the phase‐continuous partial‐output ServiceSignalPPP‐B2b.Version1.0,2020:(InChinese).\nFFT method. It is clear that the proposed algorithm requires 5. Y.Yang,Q.Ding,W.Gao,J.Li,Y.Xu,andB.Sun,“Principleand\nonly 7.48% of the computation nodes of the conventional FFT PerformanceofBDSBASandPPP‐B2bofBDS‐3,”SatelliteNavigation3,\nand15",
+    "char_length": 6256
+  }
+]

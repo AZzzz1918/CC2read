@@ -1,0 +1,74 @@
+[
+  {
+    "quote_id": "qb_90e2f7ce61",
+    "span_index": 0,
+    "text": "Received2April2026,accepted23April2026,dateofpublication4May2026,dateofcurrentversion7May2026.\nDigitalObjectIdentifier10.1109/ACCESS.2026.3689972\nGKit-SSRDecoder: An Open-Source C/C++-Based\nPPP-B2b and HAS Decoding and Formatted\nProduct Generation Software\nZHIYUANWU1,PANLI 1,JIAHUANHU 2,JINGKAIYUAN 1,MINGBAOWEI1,YANGSUN1,\nBAOSHU1,BOBINCUI 1,ANDGUANWENHUANG 1,(StudentMember,IEEE)\n1CollegeofGeologyEngineeringandGeomatics,Chang’anUniversity,Xi’an710054,China\n2DepartmentofLandSurveyingandGeo-Informatics,TheHongKongPolytechnicUniversity,HongKong,China\nCorrespondingauthor:PanLi(lipan@chd.edu.cn)\nThi",
+    "char_length": 3940
+  },
+  {
+    "quote_id": "qb_04ab869743",
+    "span_index": 1,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nHowever,theseinternet-dependentground-basedservices several open-source decoding tools have emerged as sum-\nare inaccessible in remote areas like deserts or oceans. To marized in Table 1, they face critical technical bottlenecks.\naddressthis,satellite-basedservicessuchastheBDS-3PPP- For instance, HASlib is restricted to specific input formats,\nB2b and the Galileo High Accuracy Service (HAS) service whileGHASPyieldsoutputsthatdeviatefromstandardPPP\nhave emerged, broadcasting precise corrections directly via requirements [22],",
+    "char_length": 5180
+  },
+  {
+    "quote_id": "qb_4429cd9eb0",
+    "span_index": 2,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\ncorrections cannot be applied standalone without broadcast\nephemeris. Initially, the approximate satellite position vec-\ntor (r), satellite velocity vector (v), and clock offset (t) are\ncalculatedusingthebroadcastephemeris,withGPS,Galileo,\nandBDS-3employingLNAV,INAV,andCNAV1navigation\nmessages,respectively.Itisworthmentioningthatthecalcu-\nlationofsatellitepreciseorbitandclockinformationforB2b\nandHASdiffers.Specifically,theformulasareasfollows:\n\n b r B2b =r −[ | r r| |r r × × v v | ×\n=\n|\nt\nr r |\n−\n|r r\n(cid:49)\n× × v ",
+    "char_length": 4557
+  },
+  {
+    "quote_id": "qb_199279b7ea",
+    "span_index": 3,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nandoutputbythesoftwareusingDCBproductspublishedby\nCODE.\nThe software is configured using command parameters\nintheformat:‘‘<YOURDATAPATH><SSRType><Time\nInterval><TimeofStart><TimeofEnd>’’.Here,<YOUR\nDATAPATH> is the directory for input data files. <SSR\nType>canbesetto‘‘B2b’’or‘‘HAS’’toidentifyrawSSR\ndatafiles.<TimeInterval>setstheoutputinterval(inmin-\nutes) for SP3 and CLK files. <Time of Start> and <Time\nofEnd>definethedataprocessingdurationintheformatof\nYYYY-MM-DD-HH-MM-SS.Moreover,thecombinationof\nfrequenciesappendedtothec",
+    "char_length": 3768
+  },
+  {
+    "quote_id": "qb_cdeed14bbd",
+    "span_index": 4,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nTABLE4. TheaveragedifferenceandstandarddeviationofPPP-B2bcode\nbiases(unit:ns).\nPPP-B2bdata[24],[25].ThedecodedBDS-3orbitandclock\nproducts were compared against post-processed products,\nand the results are illustrated in Fig. 5 and 6. It is evident\nthattheclockproductsdecodedbybothmethodsexhibitno\nsignificant difference. However, the three-dimensional orbit\nerrordecodedbythissoftwareisclosertozero,especiallyin\ntheradialdirection.ThestatisticalresultsinTable5indicate\nthat not considering the satellite-end APC correction will\nr",
+    "char_length": 2078
+  },
+  {
+    "quote_id": "qb_df3822b93a",
+    "span_index": 5,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nGalileosatellitesinHASservicearegenerallywithin0.25m,\nexcept that the differences for satellite G25 occasionally\nexhibit relatively large fluctuations. The accuracy of orbit\nradialcomponentevenreachesthecentimeterlevel,indicat-\ning an outstanding orbit accuracy of HAS GPS corrections.\nBesides, the clock offset errors of both GPS and Galileo\nsatellites are mostly below 0.15 m, showing no significant\nfluctuations.However,afewjumpsandspikesinclockerrors\nareobservedparticularlyforGPSsatellites,whileHASclock\ncorrections for Galil",
+    "char_length": 1914
+  },
+  {
+    "quote_id": "qb_4e6ad24560",
+    "span_index": 6,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nFIGURE9. MeandifferenceandstandarddeviationofHAScodebiasesrelativetopost-processedproducts.\nFIGURE10. GlobalsatellitedistributionforPPP-B2b(left)andHAS(right)services.\nTABLE10. The68thand90thpercentilesofconvergencetimeand\npositioningerrorsforHASinstaticsolutionwithallprocessedstations.\nTABLE11. Real-timePPPPositioningPerformanceStatisticsinkinematic\nvehicletests.\nFIGURE11. DistributionofMGEXstationsusedforPPP-B2b(red)andHAS\n(blue)servicespositioning.\nC2PcorrectionsbroadcastedbyHASareusedasasubstitute\nfor C2W signal. The cod",
+    "char_length": 1494
+  },
+  {
+    "quote_id": "qb_c663a86a89",
+    "span_index": 7,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nFIGURE13. ProbabilitydistributionofpseudorangeresidualsforHAS/PPP-B2bservicesatGAMGstation.\n(bluedots)togetherwith20stationsdistributedintheAsia-\nPacific region (red triangles) from the multi-GNSS experi-\nment (MGEX) were selected to be processed for the static\nexperiment, as shown in Fig. 11. The data duration is\nfrom DOY 90 to 100 in 2025 with a sampling rate of\n30 s. Concurrently, one set of kinematic data with a sam-\npling rate of 1 s was collected in Xi’an, China, on 9th\nSeptember, 2025, to assess the performance of kin",
+    "char_length": 3095
+  },
+  {
+    "quote_id": "qb_51fdf1b77e",
+    "span_index": 8,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nFIGURE15. AveragestaticPPPhorizontalandverticalperformanceatthe90thand68thpercentilesofPPP-B2bservicewithall\nprocessedstations.\nFIGURE16. AveragestaticPPPhorizontalandverticalperformanceatthe90thand68thpercentilesofHASservicewithallprocessedstations.\nFIGURE17. Real-timekinematicPPPpositioningerrorsoftwoservicesin\navehicleexperiment. FIGURE18. Satellitenumber(top)andPDOP(bottom)fortwoservicesin\nkinematicexperiment.\nProperpseudorangebiascorrectionisacriticalfactorinflu-\nencing PPP convergence performance [33], Fig. 13 exhibits",
+    "char_length": 1014
+  },
+  {
+    "quote_id": "qb_97a968a5d1",
+    "span_index": 9,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nGKit-SSRDecoder. For PPP-B2b service, the pseudorange due to the HPVRS decoding approach utilized in the HAS\nresiduals of BDS-3 B1C/B2a and B1C/B2b are within 2 m service.\nand are smaller than the GPS L1/L2 and BDS-3 B1I/B3I.\nWith decoded HAS products, the pseudorange residuals of V. CONCLUSION\nGalileosatellitesaresignificantlysmallerthanthoseofGPS ThisstudyintroducestheGKit-SSRDecoder,anopen-source\nsatellites, indicating the code bias corrections for Galileo C/C++ software designed to bridge the gap between raw\nsatellites a",
+    "char_length": 6106
+  },
+  {
+    "quote_id": "qb_d0ad64de97",
+    "span_index": 10,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nDespite its utility, GKit-SSRDecoder has several limita- [15] R.Zhang,R.Tu,J.Zhang,andX.Lu,‘‘Acomparativeinvestigationof\ntions.First,thesoftware’scompatibilitywithdiversepropri- broadcastframeworks,serviceavailability,andtimetransferperformance\nin PPP-b2b, HAS, and MADOCA-PPP,’’ IEEE Instrum. Meas. Mag.,\netary data formats is currently limited. Second, the current\nvol.28,no.8,pp.61–69,Nov.2025.\nimplementation focuses exclusively on PPP-B2b and HAS [16] H. Namie and N. Kubo, ‘‘Performance evaluation of centimeter-level\nservic",
+    "char_length": 7254
+  },
+  {
+    "quote_id": "qb_2b35e383a0",
+    "span_index": 11,
+    "text": "Z.Wuetal.:GKit-SSRDecoder:Open-SourceC/C++-BasedPPP-B2bandHASDecoding\nPANLIreceivedthePh.D.degreefromtheSchool YANG SUN is currently pursuing the master’s\nof Geodesy and Geomatics, Wuhan University, degree with Chang’an University. His research\nChina,in2016.HeisaProfessoratChang’anUni- focusesonGNSS/LEORTK.\nversity,China.Hiscurrentresearchfocusesmainly\non GNSS precise point positioning and precise\nclockestimation.\nJIAHUAN HU received the M.Sc. degree from BAO SHU received the Ph.D. degree from\nWuhanUniversity,China,in2020,andthePh.D. the GNSS Research Center, Wuhan University,\ndegree from York",
+    "char_length": 1819
+  }
+]

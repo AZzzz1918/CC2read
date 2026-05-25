@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_remotesensing_17_03522",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Enhancing PPP-B2b Performance with Regional Atmospheric Augmentation"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Article Enhancing PPP-B2b Performance with Regional Atmospheric Augmentation QingZhao1,2 ,ShuguoPan1,2,*,WangGao1,2,XianluTao1,2 ,HaoLiu1,2,ZeyuZhang1,2andQiangWang3 1 StateKeyLaboratoryofComprehensivePNTNetworkandEquipmentTechnology,SchoolofInstrument ScienceandEngineering,SoutheastUniversity,Nanjing210096,China;zhaoqing@seu.edu.cn(Q.Z.); gaow@seu.edu.cn(W.G.);xltao@seu.edu.cn(X",
+      "• Enables instantaneous PPP-B2b convergence from over 15 min to the first epoch, achievingdecimeter-to-centimeter-levelpositioningimmediatelybyintegratingre- gionalatmosphericconstraints."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 19
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 21,
+    "b2b": 108,
+    "has": 0,
+    "dcb": 19,
+    "clas": 0
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

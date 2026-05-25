@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper evaluates the coverage and performance of the BDS PPP-B2b service for real-time positioning and ZTD estimation, directly focusing on the service's capabilities.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions.pdf",
+  "paper_id": "An investigation of PPP-B2b coverage and its performance in ZTD estima",
+  "extraction_mode": "batch_classify_1call"
+}

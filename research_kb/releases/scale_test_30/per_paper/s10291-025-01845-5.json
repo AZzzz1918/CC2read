@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "orbit_clock_product_gen",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper proposes a novel method to predict BDS PPP-B2b satellite clock offsets, directly addressing the discontinuity issue of the B2b service, making it a core PPP-B2b paper.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "s10291-025-01845-5.pdf",
+  "paper_id": "s10291-025-01845-5",
+  "extraction_mode": "batch_classify_1call"
+}

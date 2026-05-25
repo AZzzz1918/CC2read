@@ -1,0 +1,1130 @@
+[
+  {
+    "quote_id": "qb_c369d5cf08",
+    "span_index": 0,
+    "text": "Research on Quad-Frequency\nPPP-B2b Time Transfer\nRunzhi Zhang, Lan Li, Xueqing Li, Hongjiao Ma, Gongwei Xiao, and Jihai Zhang\nCarrier phase time transfer which is a crucial technique time transfer link.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_1e1a4dcc4b",
+    "span_index": 1,
+    "text": "AV, on the other hand, addresses the dis-\nin universal time coordinated (UTC) calculation tance limitation of CV.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_19e173467d",
+    "span_index": 2,
+    "text": "However, AV relies on low-precision\nis implemented through precise point positioning pseudorange observations, resulting in reduced accuracy in\n(PPP).",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_acaa9a9682",
+    "span_index": 3,
+    "text": "Since August 2020, the Beidou global navigation sat- time transfer.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_7aed3cd804",
+    "span_index": 4,
+    "text": "GNSS carrier phase time transfer through PPP\nellite system (BDS-3) has provided users with the precise [1] has the highest accuracy among the three methods without\nsatellite product which is an essential external input in the distance limitation.",
+    "char_length": 246
+  },
+  {
+    "quote_id": "qb_efa60e96fd",
+    "span_index": 5,
+    "text": "Real-time PPP requires external provi-\nPPP implementation, named the PPP-B2b product, through sion of real-time precise satellite orbit and satellite clock offset.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_68bad35dd6",
+    "span_index": 6,
+    "text": "three geostationary earth orbit (GEO) satellites instead of a The GNSS analysis center provides precise satellite files for\nnetwork in the Asia-Pacific area.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_8d94933836",
+    "span_index": 7,
+    "text": "The PPP-B2b product can be researchers to study and verify PPP algorithms.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_c9a710cc96",
+    "span_index": 8,
+    "text": "The stan-\nconsidered to solve the instability problem caused by network dard deviation (STD) value of post-process carrier phase time\ninterruption in traditional PPP time transfer.",
+    "char_length": 180
+  },
+  {
+    "quote_id": "qb_f86a3d3d1b",
+    "span_index": 9,
+    "text": "Currently, the transfer using the GBM product which is provided by The\nfact that the PPP-B2b time transfer using dual-frequency (DF) GeoForschungZentrum (GFZ) analysis center with a two-day\nionosphere-free combination can achieve sub- nanosecond delay can reach 0.3 ns [2].",
+    "char_length": 273
+  },
+  {
+    "quote_id": "qb_9c4780bd6a",
+    "span_index": 10,
+    "text": "Moreover, since 2013, the inter-\naccuracy has been proven.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_b3d5a47408",
+    "span_index": 11,
+    "text": "Considering the BDS-3 can pro- national GNSS service (IGS) has provided real-time precise\nvide users with a wide range of frequency signals for PPP; satellite products via a network, contributing to the progress\nmeanwhile, the multi-frequency PPP will improve the ac- and development of PPP.",
+    "char_length": 291
+  },
+  {
+    "quote_id": "qb_ada7c6ab8c",
+    "span_index": 12,
+    "text": "PPP time transfer using the real-time\ncuracy of time transfer and accelerate the convergence.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_5fc549f04f",
+    "span_index": 13,
+    "text": "This product can achieve 0.5 ns accuracy [3].",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_fba3694dfe",
+    "span_index": 14,
+    "text": "However, the acqui-\nimprovement can be attributed to an increase in the number sition of precise product over a network not only introduces\nof observation equations due to the utilization of multiple fre- limitations to real-time PPP, but also makes the time trans-\nquencies.",
+    "char_length": 275
+  },
+  {
+    "quote_id": "qb_d17dd7e291",
+    "span_index": 15,
+    "text": "To promote the application of real-time PPP-B2b fer unstable because of network interruptions.",
+    "char_length": 94
+  },
+  {
+    "quote_id": "qb_ec879f7469",
+    "span_index": 16,
+    "text": "To mitigate\ntime comparison in UTC calculation, a quad-frequency (QF) the impact of network interruptions on PPP time transfer, the\nPPP-B2b time transfer model is proposed and investigated.",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_1b6de9f9a3",
+    "span_index": 17,
+    "text": "BDS-3 has provided precise satellite products called the PPP-\nCompared to DF PPP-B2b time transfer, the accuracy of the QF B2b product through three GEO satellites [4].",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_607613b588",
+    "span_index": 18,
+    "text": "Compared with\ntime transfer model was verified from long-baseline time links another service broadcast by GEO satellites, satellite-based\nand zero-baseline common clock difference (CCD).",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_bc707bf2ef",
+    "span_index": 19,
+    "text": "Results augmentation system (SBAS), the PPP-B2b product have\nshowed that the QF PPP-B2b time transfer had smoother CCD higher accuracy and shorter update intervals [5].",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_c0f4e6b6bb",
+    "span_index": 20,
+    "text": "Currently, the\nresults and fluctuated within 0.1 ns, compared to the DF PPP- fact that DF PPP-B2b time transfer can reach sub- nanosecond\nB2b model.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_cf2875ea17",
+    "span_index": 21,
+    "text": "Taking the PPP time comparison using the GBM accuracy has been proven [6],[7].",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_c43f222797",
+    "span_index": 22,
+    "text": "A highly reliable, network-\nproduct as a reference, the results for all long-baseline links independent time transfer will be feasible, which has led to\nshow that the residuals of the QF PPP-B2b time comparison an increasing number of researchers to study the PPP-B2b\ntruly fluctuate within 1 ns.",
+    "char_length": 296
+  },
+  {
+    "quote_id": "qb_7118c280ea",
+    "span_index": 23,
+    "text": "time transfer in terms of precision and stability.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_2cb7072626",
+    "span_index": 24,
+    "text": "Given that the\nBDS-3 can provide users with a wide range of frequency sig-\nBackground nals for PPP and the increased observation information will\nGlobal navigation satellite system (GNSS) can provide real- accelerate PPP convergence and improve the accuracy of time\ntime positioning, navigation and time services for users transfer, QF PPP-B2b time transfer was studied.",
+    "char_length": 370
+  },
+  {
+    "quote_id": "qb_419f05209e",
+    "span_index": 25,
+    "text": "Currently, GNSS time transfer mainly includes In this study, a new QF PPP-B2b time transfer model\ncommon-view (CV), all-in-view (AV), and GNSS carrier phase was investigated.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_c34a316317",
+    "span_index": 26,
+    "text": "To take full advantage of the BDS-3 fre-\ntime transfer.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_6eef2881bd",
+    "span_index": 27,
+    "text": "CV time transfer requires both users to observe quency signals to comprehensively assess the accuracy of QF\nthe same satellites, imposing limitations on the distance of the PPP-B2b time transfer model, the BDS-3 newly broadcasted\nFebruary 2024 IEEE Instrumentation & Measurement Magazine 57\n1094-6969/24/$25.00©2024IEEE\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 383
+  },
+  {
+    "quote_id": "qb_422395c055",
+    "span_index": 28,
+    "text": "Downloaded on May 22,2026 at 06:37:36 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_a68a125167",
+    "span_index": 29,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_3f70703841",
+    "span_index": 30,
+    "text": "signals (B1C and B2a) were used alongside the existing B1I of 299792458 m/s.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_993708bf04",
+    "span_index": 31,
+    "text": "I denote ionospheric delay and T refers\nand B3I signals.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_43790eeb59",
+    "span_index": 32,
+    "text": "To ensure the reliability of the results, taking to tropospheric delay.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_6fe6e94fd3",
+    "span_index": 33,
+    "text": "dt r and dts denote receiver clock off-\nthe GBM product as a reference, the accuracy of QF PPP-B2b set and satellite clock offset, respectively.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_de37cc6f37",
+    "span_index": 34,
+    "text": "d and b refer to UCD\ntime transfer was verified from long-baseline time links and and uncalibrated phase delay (UPD), respectively.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_7d9da03988",
+    "span_index": 35,
+    "text": "N refers to\nzero-baseline CCD.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_b1cd17a374",
+    "span_index": 36,
+    "text": "The QF PPP-B2b time transfer calcula- the integer ambiguity.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_38e3a375d0",
+    "span_index": 37,
+    "text": "ε and ξ denote the noise in observation\ntion involved several stations, including two international measurement.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_51db59c2a7",
+    "span_index": 38,
+    "text": "Table 1 lists the main errors and error process-\natomic time (TAI) keeping laboratories, namely the Telecom- ing strategies of PPP.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_5a8de59da5",
+    "span_index": 39,
+    "text": "munication Laboratories (TL) and the National Time Service\nCenter (NTSC), as well as an external atomic clock IGS sta- Quad-Frequency PPP-B2b Model\ntion (USUD).",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_2db476d08d",
+    "span_index": 40,
+    "text": "For convenience, (3) is defined, and f denotes frequency value\ninvolved in the calculation.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_b19e0d8be0",
+    "span_index": 41,
+    "text": "α and β are DF ionospheric-free\nMethod (IF) combination coefficient:\nReal-time precise satellite position and satellite clock offset f i 2 f j 2\ncan be obtained using ephemeris and the PPP-B2b product [4].",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_fe5b2a8b84",
+    "span_index": 42,
+    "text": "αij = ,βij =− (3)\nMoreover, the PPP-B2b product also provides PPP user with\nf\ni\n2 −f\nj\n2 f\ni\n2 −f\nj\n2\ndifferential code bias product to correct uncalibrated code de- Considering that the navigation signals provided by the\nlay (UCD) in pseudorange observation equation.",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_54b8977fae",
+    "span_index": 43,
+    "text": "BDS-3 include B1I, B3I, B1C, and B2a which are numbered as\n2, 6, 1, and 5, a quad-frequency PPP-B2b time transfer model is\nPPP Model developed.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_cf2a050647",
+    "span_index": 44,
+    "text": "Meanwhile, a B3I hardware delay is introduced by\nPPP is an absolute positioning technology that achieves the BDS-3 PPP-B2b clock product, which can be written as (4)\nhigh-precision positioning through models, empirical for- and corrected using the PPP-B2b differential code bias prod-\nmulas, and parameter estimation methods to process errors, uct.",
+    "char_length": 348
+  },
+  {
+    "quote_id": "qb_3823915482",
+    "span_index": 45,
+    "text": "After correcting the B3I hardware delay, the QF PPP-B2b\nemploying a single receiver to receive GNSS satellite signals model can be expressed as (5) and (6):\nto obtain the raw carrier phase and pseudorange observa-\ntions.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_0f788d2b51",
+    "span_index": 46,
+    "text": "The basic PPP observation equations can be written as c⋅dt B s 2b =c⋅dts +c⋅d 6 s (4)\n(1) and (2):\n(cid:22) Ps (cid:31)(cid:27)(cid:30)c(cid:29)dt (cid:30)Ts(cid:28)c(cid:29)dts (cid:30)(cid:26)s\nLs r,j = P r ρ s ,j + = c ρ (d + t r c − (d d t t r s − ) + dt T s r s ) + − T I r s r s ,j + + I λ r s , j s j ( + N c r s ( , d j r s + ,j b − r s , d j s j − ) b + s j ε ) r s + ,j ξ r s ,j ( ( 1 2 ) ) (cid:21) (cid:20) (cid:20) (cid:20) (cid:20) (cid:20) Ls r, P IF r s 2 , 6 IF r 1 (cid:31) 5 ,I (cid:27) F (cid:31) 26 (cid:30) (cid:27) c (cid:30) (cid:29)d c t (cid:29) r d ,I t F rr 2 , 6 IF r (cid:30) 26 ,I T F (cid:30) r 2 ss 6 (cid:25) (cid:28) is c b (cid:29) (cid:30) r dt T B s r s 2b (cid:28) (cid:30) c (cid:29) B (cid:24) d 2 N t b B s r s 2 , b IF (cid:30) r 2 , 6 (cid:26) IF (cid:30) r 2 s 6 , (cid:23) IF r s 1 , 5 IF 26 (5)\nin which L and P denote raw carrier phase and pseudorange (cid:19) (cid:20)Ls r,IF 15 (cid:31)(cid:27)(cid:30)c(cid:29)dt r,IF 26 (cid:30)T r s(cid:28)c(cid:29)ddt B s 2b (cid:30)(cid:24)N r s ,IF 15 (cid:30)(cid:23) r s ,IF 26\nobservations obtained directly through the receiver, respec-\ntively.",
+    "char_length": 1138
+  },
+  {
+    "quote_id": "qb_07153d9228",
+    "span_index": 47,
+    "text": "j is frequency numbering of observation.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_afcaffe354",
+    "span_index": 48,
+    "text": "ρ refers to the    c⋅dt r,IF 26 =c⋅dt r+α26 d r s ,2+β26 d r s ,6 (6)\ngeometric distance from receiver r to satellite s.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_d3f6f9eebe",
+    "span_index": 49,
+    "text": "c is a constant  θisb=α15 d r s ,1+β15 d r s ,5−α226 d r s ,2−β26 d r s ,6\nρ=ρ0+µr s ⋅∆x (7)\nEr T r a o b rs le 1 – Errors and Processing St S ra tr t a e t g eg ie ie s s of PPP and I n ca ( r 5 r ) i , e P r r s , p IF h ij a a s n e d o L b s r s , e IF r ij v r a e t f i e o r n t s o a th t f e r c e o q m ue b n in ci e e d s i I F a n p d se j u a d ft o e r r a c n o g r e -\nSatellite orbit PPP-B2b orbit products recting UCD using the PPP-B2b product, respectively.",
+    "char_length": 479
+  },
+  {
+    "quote_id": "qb_936c6150a0",
+    "span_index": 50,
+    "text": "λN\nSatellite clock PPP-B2b clock products denotes the floating ambiguity.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_ce5295c9ea",
+    "span_index": 51,
+    "text": "ρ can be linearized.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_c14ca15a7b",
+    "span_index": 52,
+    "text": "ρ0 refers\nUCD PPP-B2b products to the geometric distance using the last estimated receiver co-\nordinates.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_88b7ff097c",
+    "span_index": 53,
+    "text": "µr s denotes the unit vector between receiver r to\nModel [8],[9] and parameter\nTropospheric delay satellite s.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_31abf1ff34",
+    "span_index": 54,
+    "text": "Δx refers to the receiver coordinates vector incre-\nestimation ments.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_afc47d9236",
+    "span_index": 55,
+    "text": "Therefore, after correcting satellite clock offset dt B s 2b\nModel [10] or parameter\nIonospheric delay through the PPP-B2b product, the QF PPP-B2b time transfer\nestimation estimated parameter vector X is:\nPhase wind-up Model [11]\nRelativistic effect Model [12] X=  ∆x dt r,IF 26 T r s θisb λN r s ,IF 26 λN r s ,IF 15   .",
+    "char_length": 327
+  },
+  {
+    "quote_id": "qb_7f1e041275",
+    "span_index": 56,
+    "text": "(8)\nSatellite and receiver\n“atx” file provided by IGS\nantenna phase center\nPPP-B2b Time Transfer\nReceiver coordinates Parameter estimation\nThe principle of time transfer using the PPP-B2b product\nReceiver clock Parameter estimation\nis shown as Fig.",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_d29100f22b",
+    "span_index": 57,
+    "text": "2 illustrates a simplified PPP pro-\nPhase ambiguity Parameter estimation\ncessing workflow.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_640003d0fa",
+    "span_index": 58,
+    "text": "Meanwhile, Table 2 lists QF PPP-B2b\n58 IEEE Instrumentation & Measurement Magazine February 2024\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_7dd71f78bb",
+    "span_index": 59,
+    "text": "Downloaded on May 22,2026 at 06:37:36 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_4bd0e2f455",
+    "span_index": 60,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_917d0fab7d",
+    "span_index": 61,
+    "text": "time transfer processing strategies.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_5b153bfc97",
+    "span_index": 62,
+    "text": "As far as the acquisition\nof precise products is concerned, GEO satellites are used Ephemeris and\nData Preparation Raw observations\nPPP-B2b products\nin PPP-B2b time transfer instead of a network to broad-\ncast real-time data, compared to the traditional PPP time\nData Preprocessing\ntransfer.",
+    "char_length": 291
+  },
+  {
+    "quote_id": "qb_7240e5dac7",
+    "span_index": 63,
+    "text": "The receiver clock offset obtained by PPP is the de-\nviation of the local time t loc compared to the GNSS reference Models and\ntime t ref.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_39ddcf9e93",
+    "span_index": 64,
+    "text": "The time links involved in time transfer eliminate Empirical Formulas\nthe GNSS reference time t ref through receiver clock offset\nParameter\ndifference to achieve high precision time transfer, which is Estimation\nwritten as:\nReceiver Clock\nOffset\n∆t=dt r,A−dt r,B= (t loc,A−t ref ) − (t loc,B−t ref ) =t loc,A−t loc,B (9)\nFig.",
+    "char_length": 325
+  },
+  {
+    "quote_id": "qb_4adaeaff38",
+    "span_index": 65,
+    "text": "Simplified PPP processing flow.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_3b8e4cfae1",
+    "span_index": 66,
+    "text": "Results and Discussion\nTable 2 – QF PPP-B2b time comparison strategies\nThe zero-baseline CCD [13],[14] experiment can reflect the\nItem Strategies\nnoise level of time transfer.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_d1d8983835",
+    "span_index": 67,
+    "text": "The receivers involved in the\nzero-baseline time transfer are linked to a shared GNSS an- Navigation system BDS-3\ntenna, and the baseline length is set to zero.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_8a0ae35400",
+    "span_index": 68,
+    "text": "QF PPP-B2b Raw observations B1C, B2a, B1I, B3I\nmodel was validated by zero-baseline CCD and long- Ephemeris and the PPP-B2b\nSatellite orbit and clock\nbaseline time links.",
+    "char_length": 170
+  },
+  {
+    "quote_id": "qb_d1da6e8940",
+    "span_index": 69,
+    "text": "3 shows geographic location of two product\nlong-baseline time links, and Table 3 lists information of re- Estimator Kalman filter\nceivers involved in zero-baseline CCD and long-baseline Processing interval 300 s\ntime links.",
+    "char_length": 223
+  },
+  {
+    "quote_id": "qb_f4b41bf654",
+    "span_index": 70,
+    "text": "NTSC and TL are TAI timekeeping laboratories,\nCorrected: the PPP-B2b\nwhile IGS station USUD simply uses an external atomic Pseudorange UCD\nproduct\nclock as the clock source for the GNSS receiver.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_51af6bcdbe",
+    "span_index": 71,
+    "text": "GNSS re-\nDry delay: Saastamoinen\nceivers, TLM2, NTTS and NT07, are connected to the\nmodel [8];\nUTC(k).",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_ba983fb0e6",
+    "span_index": 72,
+    "text": "Taking time comparison using the GBM prod-\nWet delay: estimated as a\nuct as a reference, QF and DF PPP-B2b time comparison Tropospheric delay\nrandom walk noise;\nwere implemented to verify the improvement of PPP-B2b\nGMF model [9] is used as the\ntime transfer accuracy by increasing frequency.",
+    "char_length": 291
+  },
+  {
+    "quote_id": "qb_de35b6f748",
+    "span_index": 73,
+    "text": "The ob-\nmapping function.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_be8dfe6f89",
+    "span_index": 74,
+    "text": "servations participating zero-baseline CCD were used for\nReceiver clock Estimated: white noise\n12 d from day of year (DoY) 85 to 96 in 2022, while those\nReceiver coordinates Estimated: constants (static)\nfrom DoY 163 to 171 in 2022 were used for long-baseline\nPhase ambiguity Estimated: floating point\ntime comparison.",
+    "char_length": 318
+  },
+  {
+    "quote_id": "qb_9ca503eb3a",
+    "span_index": 75,
+    "text": "Observations can be obtained through\nGEO Satellite\nBDS-3 Satellites\ndt\nr,A\nStation A\nStation B\ndt\nr,B\nFig.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_5abe83b6d6",
+    "span_index": 76,
+    "text": "Principle of PPP-B2b time transfer.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_60b2be650f",
+    "span_index": 77,
+    "text": "February 2024 IEEE Instrumentation & Measurement Magazine 59\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_9686cd305e",
+    "span_index": 78,
+    "text": "Downloaded on May 22,2026 at 06:37:36 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_c0191cbf4d",
+    "span_index": 79,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_7916e58e2a",
+    "span_index": 80,
+    "text": "https://cddis.nasa.gov/, and the PPP-B2b product can be PPP-B2b CCD\nbuffered by a NovAtel OEM729 receiver equipped with a The result of zero-baseline CCD between NTTS and NT07\nPPP-B2b module.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_ebd38c980d",
+    "span_index": 81,
+    "text": "with a common antenna and external clock using QF and DF\nPPP-B2b model was displayed in Fig.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_d692e9c8fb",
+    "span_index": 82,
+    "text": "The STD value of\nthe CCD result was calculated.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_65be0dc528",
+    "span_index": 83,
+    "text": "The satellite products are the\n60˚N\nsame in PPP solution, and only the processing model is dif-\nferent.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_45836229eb",
+    "span_index": 84,
+    "text": "Ideally the CCD result should be a horizontal line,\nbut the presence of noise makes the result sequence fluctu-\n48˚N\nate.",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_8b4ad5c176",
+    "span_index": 85,
+    "text": "The smoothness of the curve reflects the level of PPP-B2b\nmodel noise.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_e0b20d526e",
+    "span_index": 86,
+    "text": "Results show that QF PPP-B2b time transfer has\nNTSC\n36˚N USUD smoother CCD results and fluctuates within 0.1 ns, compared\nto the DF PPP-B2b model.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_60adeb344d",
+    "span_index": 87,
+    "text": "24˚N TLM2\nLong-baseline PPP-B2b Time Comparison\n12˚N Fig.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_fb996cf25d",
+    "span_index": 88,
+    "text": "5 displays the results of the QF NTSC-TLM2 PPP-B2b\ntime comparison from DoY 163 to 171 in 2022.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_1c7e40abb3",
+    "span_index": 89,
+    "text": "The results of\n0˚ the time comparison reflect the TAI retention of the NTSC\n72˚E 90˚E 108˚E\nLongitude and TL laboratories.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_d506ae3d00",
+    "span_index": 90,
+    "text": "Certainly, the time comparison link er-\nror mainly contains the local receiver clock error and PPP\nsolution error with precise satellite products and models.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_4acdfeffbc",
+    "span_index": 91,
+    "text": "Taking the GBM PPP time comparison as a reference, the\ntime transfer result difference is shown in Fig.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_b6b2bf1520",
+    "span_index": 92,
+    "text": "Meanwhile, Table 4 lists the STD values of the residuals.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_cce243c703",
+    "span_index": 93,
+    "text": "The\nfluctuation of the curve reflects the time comparison error of\ndifferent PPP-B2b models.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_9e37d63c28",
+    "span_index": 94,
+    "text": "Whether NTSC-TLM2 or NTSC-\nUSUD time link, QF has some improvement in accuracy\nand the residuals of time comparison really fluctuate within\n1 ns.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_4188fa9863",
+    "span_index": 95,
+    "text": "Compared with the DF PPP-B2b time transfer, the STD\nvalue of the long-baseline time comparison using QF PPP-\nB2b time transfer model is improved from 0.25 ns to 0.2 ns.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_cd477df770",
+    "span_index": 96,
+    "text": "The truth that the QF PPP-B2b model makes the time error of\nthe stations involved in the time comparison within 1 ns can\nbe demonstrated.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_084ded4ba7",
+    "span_index": 97,
+    "text": "60 IEEE Instrumentation & Measurement Magazine February 2024\nedutitaL\n126˚E 144˚E\nFig.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_c3ce2ad2e6",
+    "span_index": 98,
+    "text": "The geographic distribution of time comparison links stations.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_3ee7c5f8ff",
+    "span_index": 99,
+    "text": "Table 3 – Detailed information of time links receivers\nStation/ GNSS\nOrganization Clock\nID Receiver\nSEPT\nNTTS NTSC EXTERNAL\nPOLARX5\nSEPT\nNT07 NTSC EXTERNAL\nPOLARX5\nSEPT\nTLM2 TL EXTERNAL\nPOLARX5\nSEPT EXTERNAL\nUSUD IGS\nPOLARX5 H-MASER\n–6.6\n–6.8\n–7.0\n–7.2\n086 088 090\nDoY (300 s interval)\n)sn(\necnereffid\nkcolC\nQF PPP-B2b (STD = 0.0191)\nDF PPP-B2b (STD = 0.0239)\n092 094 096\nFig.",
+    "char_length": 376
+  },
+  {
+    "quote_id": "qb_598f1c64d2",
+    "span_index": 100,
+    "text": "QF and DF PPP-B2b zero-baseline CCD.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_7fabe6918a",
+    "span_index": 101,
+    "text": "–122\n–123\n–124\n–125\n–126\n164 166 168\nDoY\n)sn(\necnereffid\nkcolC\nNTSC-TLM2 QF PPP-B2b\n170 172\nFig.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_496e6d1e9f",
+    "span_index": 102,
+    "text": "QF PPP-B2b long-baseline time comparison for 9 d from DoY 163 to 171 in 2022.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_ab7de6ff17",
+    "span_index": 103,
+    "text": "Authorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_b4016070cc",
+    "span_index": 104,
+    "text": "Downloaded on May 22,2026 at 06:37:36 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_9a09fa67b0",
+    "span_index": 105,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_2934397693",
+    "span_index": 106,
+    "text": "2.0 B2a signals of BDS-3 were\n1.5 used alongside existing B1I\n1.0 and B3I signals.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_fe41eabd7f",
+    "span_index": 107,
+    "text": "The results\n0.5 showed that QF PPP-B2b\n0.0\ntime transfer had smoother\n–0.5\nCCD results and fluctuated\n–1.0\nwithin 0.1 ns, compared\n–1.5\n–2.0 to the DF PPP-B2b model.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_263754736c",
+    "span_index": 108,
+    "text": "164 166 168\nIn the NTSC-TLM2 long-\nDoY\nbaseline time comparison\nexperiment, the QF PPP-\nB2b time comparison\nresiduals fluctuate within\n1 ns.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_8e1e1b6762",
+    "span_index": 109,
+    "text": "Meanwhile, taking\nthe GBM PPP time trans-\nfer as a reference, whether\nNTSC-TLM2 or NTSC-\nUSUD long-baseline time\nlink, QF has some improve-\nment in accuracy and the\nresiduals of time compari-\nson really fluctuate within\n1 ns.",
+    "char_length": 225
+  },
+  {
+    "quote_id": "qb_ed72c864b1",
+    "span_index": 110,
+    "text": "According to the STD\nvalues calculated, QF has\na significant improvement\ncompared to DF PPP-B2b\ntime transfer.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_1e629a258f",
+    "span_index": 111,
+    "text": "In conclusion, the truth that the QF PPP-B2b\nmodel makes the time error of the stations involved in time\ncomparison within 1 ns can be demonstrated.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_21976374a1",
+    "span_index": 112,
+    "text": "Acknowledgment\nThe authors acknowledge TL, IGS and GFZ for providing ob-\nservations and precise satellite orbit and clock products.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_0f5f89767c",
+    "span_index": 113,
+    "text": "This\nresearch was funded by the State Key Laboratory of Geodesy\nand Earth Dynamics (Grant No.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_3c48226638",
+    "span_index": 114,
+    "text": "SKLGED2022-3-3).",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_6666c6ef4d",
+    "span_index": 115,
+    "text": "Conclusions\nPPP time transfer accuracy can reach sub-nanosecond without References\nlimitations on distance.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_d44142601d",
+    "span_index": 116,
+    "text": "Conversely, PPP execution requires [1] J .",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_240ccb3d79",
+    "span_index": 117,
+    "text": "Zumberge et al., “Precise point positioning for the efficient\nthe external provision of real-time precise satellite products.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_5a679942d6",
+    "span_index": 118,
+    "text": "and robust analysis of GPS data from large networks,” J.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_a712339b6f",
+    "span_index": 119,
+    "text": "Since August 2020, BDS-3 has provided precise products called Geophysical Research-solid Earth, vol.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_80791746c9",
+    "span_index": 120,
+    "text": "5005–5017, Mar.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_31eea8edaa",
+    "span_index": 121,
+    "text": "the PPP-B2b product through three GEO satellites instead of a 1997.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_39274ea53d",
+    "span_index": 122,
+    "text": "network, which solves the problem of interruption caused by [2] J .",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_c7894ae5d8",
+    "span_index": 123,
+    "text": "Zhang et al.,\nnetwork fluctuation in the field of real-time PPP time compar- “Study on PPP time comparison based on BeiDou-3 new signal,”\nison.",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_0801fb7b0a",
+    "span_index": 124,
+    "text": "The truth that BDS-3 DF PPP-B2b time transfer can reach IEEE Instrum.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_cc17012e47",
+    "span_index": 125,
+    "text": "an accuracy of sub-nanosecond has been proven.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_839677b7ec",
+    "span_index": 126,
+    "text": "Considering [3] Y .",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_560e9fe6f2",
+    "span_index": 127,
+    "text": "Fan,\nthe BDS-3 can provide users with a wide range of frequency W.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_b60b6fcfb9",
+    "span_index": 128,
+    "text": "Yang, “An analysis of BDS-3 real-time\nsignals for PPP and the increasing observation information PPP: time transfer, positioning, and tropospheric delay retrieval,”\nwill accelerate the PPP convergence and improve the accuracy Measurement, vol.",
+    "char_length": 243
+  },
+  {
+    "quote_id": "qb_a8a25ec9f7",
+    "span_index": 129,
+    "text": "172, 108871, Feb.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_01b43cc46d",
+    "span_index": 130,
+    "text": "of time transfer, the QF PPP-B2b time transfer was studied.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_f5d8e72650",
+    "span_index": 131,
+    "text": "[4] “ BeiDou navigation satellite system signal in space interface\nA QF PPP-B2b time transfer model was proposed and val- control document precise point positioning service signal\nidated from zero-baseline CCD and long-baseline time links.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_6bf5cfa4fb",
+    "span_index": 132,
+    "text": "PPP-B2b (version 1.0),” China Satellite Navigation Office,\nTo ensure the accuracy of the results, two TAI keeping labora- Aug.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_fe88a74f5a",
+    "span_index": 133,
+    "text": "Available: http://www.beidou.gov.cn/xt/\ntories (NTSC and TL) and the IGS external atomic clock station gfxz/202008/P020200803362062482940.pdf.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_13a193f1a4",
+    "span_index": 134,
+    "text": "(USUD) in the Asia-Pacific region were selected.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_e7c97e88e4",
+    "span_index": 135,
+    "text": "To make full [5] Y.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_f1c09c06e1",
+    "span_index": 136,
+    "text": "Sun,\nuse of the BDS-3 frequency signals to verify the accuracy of QF “Principle and performance of BDSBAS and PPP-B2b of BDS-3,”\nPPP-B2b time transfer model, the newly broadcasted B1C and Satellite Navigation, vol.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_42e7023437",
+    "span_index": 137,
+    "text": "February 2024 IEEE Instrumentation & Measurement Magazine 61\n)sn(\necnereffid\nkcolC\nQF PPP-B2b\nDF PPP-B2b\n170 172\nFig.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_b473f2ecd8",
+    "span_index": 138,
+    "text": "Difference time sequences of NTSC-TLM2 PPP time comparison results using the GBM product and the PPP-B2b\nproduct.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_6a6e40e119",
+    "span_index": 139,
+    "text": "25\n24\n23\n22\n21\n20\n19\n18\n17\n164 166 168\nDoY\n)sn(\necnereffid\nkcolC\nQF PPP-B2b\nDF PPP-B2b\n170 172\nFig.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_ccc30e50ff",
+    "span_index": 140,
+    "text": "Difference time sequences of NTSC-USUD PPP time comparison results using the GBM product and the PPP-B2b\nproduct.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_5a507a738e",
+    "span_index": 141,
+    "text": "Table 4 – STD values of PPP-B2b time comparison\nresidual\nModel\nTime link\nQF PPP-B2b DF PPP-B2b\nNTSC-TLM2 0.161 0.215\nNTSC-USUD 0.201 0.255\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_824869ab28",
+    "span_index": 142,
+    "text": "Downloaded on May 22,2026 at 06:37:36 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_15744ae978",
+    "span_index": 143,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_20e9829748",
+    "span_index": 144,
+    "text": "Guang et al., School of Artificial Intelligence, Xi’an University of Posts and\n“Analysis of BDS-3 PPP-B2b positioning and time transfer Telecommunications, Xi’an, China.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_d31d12d3e0",
+    "span_index": 145,
+    "text": "Her main research fields\nservice,” Remote Sensing, vol.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_ec7b2649ec",
+    "span_index": 146,
+    "text": "are high precision positioning and time transfer.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_e72b487444",
+    "span_index": 147,
+    "text": "Zhang,\n“Comprehensive analysis of PPP-B2b service and its impact on Xueqing Li (lixueqing@ntsc.ac.cn) is currently working\nBDS-3/GPS real-time PPP time transfer,” Remote Sensing, vol.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_aac7043a6a",
+    "span_index": 148,
+    "text": "14, toward an M.S.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_fd017f6657",
+    "span_index": 149,
+    "text": "degree in communication and information sys-\nno.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_4f47c3054c",
+    "span_index": 150,
+    "text": "tem with the National Time Service Center, Chinese Academy\n[8] J.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_449a8158d6",
+    "span_index": 151,
+    "text": "Saastamoinen, “Atmospheric correction for the of Sciences, Xi’an, China.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_eb31a267d9",
+    "span_index": 152,
+    "text": "Her research interests include satel-\ntroposphere and the stratosphere in radio ranging Satellites,” lite network security and information security.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_510eb7ef12",
+    "span_index": 153,
+    "text": "She received\nThe Use of Artificial Satellites for Geodesy, vol.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_c42287944a",
+    "span_index": 154,
+    "text": "247–251, her B.E.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_58895005cb",
+    "span_index": 155,
+    "text": "degree in computer science and technology from Qufu\nJan.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_92a5d8e0f9",
+    "span_index": 156,
+    "text": "Normal University, Rizhao, China in 2020.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_28b24ca282",
+    "span_index": 157,
+    "text": "Tregoning and H.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_ee93df3f5e",
+    "span_index": 158,
+    "text": "Schuh, “Global mapping\nfunction (GMF): a new empirical mapping function based on Hongjiao Ma (mahj@ntsc.ac.cn) received a Ph.D.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_01e6f3dadb",
+    "span_index": 159,
+    "text": "degree in\nnumerical weather model data,” Geophysical Research Letters, astrometry and celestial mechanics with National Time Ser-\nvol.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_0553282343",
+    "span_index": 160,
+    "text": "vice Center, Chinese Academy of Sciences, Xi’an, China.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_e04faa64a8",
+    "span_index": 161,
+    "text": "El-Mowafy, “Triple-frequency GNSS models for PPP main research fields are time transfer and high precision\nwith float ambiguity estimation: performance comparison using positioning.",
+    "char_length": 181
+  },
+  {
+    "quote_id": "qb_9f3c7be3de",
+    "span_index": 162,
+    "text": "GPS,” Survey Review, vol.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_22c1573370",
+    "span_index": 163,
+    "text": "Lichten, “Effects Gongwei Xiao (xiaogongwei@xupt.edu.cn) is a Lecturer\nof antenna orientation on GPS carrier phase,” Manuscripta with the Xi’an University of Posts and Telecommunications,\nGeodaetica, vol.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_d82b025300",
+    "span_index": 164,
+    "text": "His current research focuses on multi-GNSS\n[12] P.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_a10dcc36b2",
+    "span_index": 165,
+    "text": "Kouba, “GPS precise point positioning using IGS PPP, real-time precise orbit determination for LEO satellites\norbit products,” Physics and Chemistry of the Earth, Part A: Solid and tropospheric delay.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_5f2783a377",
+    "span_index": 166,
+    "text": "To meet the demands of research\nEarth and Geodesy, vol.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_144d8928ac",
+    "span_index": 167,
+    "text": "and precise point positioning (PPP) in a multi-GNSS envi-\n[13] W.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_0e7698eb2d",
+    "span_index": 168,
+    "text": "Dong, ronment, he open-sourced a GNSS data processing software\n“Analysis on the time transfer performance of BDS-3 signals,” named MG-APP (https://geodesy.noaa.gov/gps-toolbox/;\nMetrologia, vol.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_b70d725845",
+    "span_index": 169,
+    "text": "57, 065023, Oct.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_d1f66b403e",
+    "span_index": 170,
+    "text": "https://github.com/xiaogongwei/MG_APP).",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_55d63f3c34",
+    "span_index": 171,
+    "text": "He received\n[14] W.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_4e68fd71de",
+    "span_index": 172,
+    "text": "Yuan et al., the M.S.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_0aa74103cc",
+    "span_index": 173,
+    "text": "degree from the College of Geodesy and Geomatics,\n“Progress of BeiDou time transfer at NTSC,” Metrologia, vol.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_b6caefb2cb",
+    "span_index": 174,
+    "text": "55, Shandong University of Science and Technology in 2018 and\npp.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_0161a96ed5",
+    "span_index": 175,
+    "text": "degree from State Key Laboratory of Geod-\nesy and Earth Dynamics, Innovation Academy for Precision\nRunzhi Zhang (zhangrunzhi@ntsc.ac.cn, corresponding au- Measurement Science and Technology, Chinese Academy of\nthor) is pursuing a Ph.D.",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_b31d6f13ce",
+    "span_index": 176,
+    "text": "degree at Key Laboratory of Precision Sciences in 2021.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_da11f07e01",
+    "span_index": 177,
+    "text": "Navigation and Timing Technology, National Time Service\nCenter (NTSC), Chinese Academy of Sciences, Xi’an, China.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_e660b939fb",
+    "span_index": 178,
+    "text": "Jihai Zhang (zhangntsc@126.com) is a Research Associate\nHis main research fields are time transfer and high precision at the National Time Service Center of Chinese Academy\npositioning.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_29c98f71c9",
+    "span_index": 179,
+    "text": "He received an M.S.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_3ca2cda950",
+    "span_index": 180,
+    "text": "degree in communication of Sciences, Xi’an, China and is working towards is Ph.D.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_ffa1dfcbcc",
+    "span_index": 181,
+    "text": "and information systems from the NTSC in 2023.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_86ca1ff106",
+    "span_index": 182,
+    "text": "His main research fields are high precision time\ntransfer and GNSS time difference monitoring.",
+    "char_length": 94
+  },
+  {
+    "quote_id": "qb_d3a5f26e13",
+    "span_index": 183,
+    "text": "He received\nLan Li (lilan@stu.xupt.edu.cn) is a graduate student at the the M.S.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_2da92bb310",
+    "span_index": 184,
+    "text": "degree in 2014 from University of Chinese Academy\nSchool of Communications and Information Engineering and of Sciences.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_cf3dc91627",
+    "span_index": 185,
+    "text": "62 IEEE Instrumentation & Measurement Magazine February 2024\nAuthorized licensed use limited to: HANGZHOU DIANZI UNIVERSITY.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_e108d3956a",
+    "span_index": 186,
+    "text": "Downloaded on May 22,2026 at 06:37:36 UTC from IEEE Xplore.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_67d07f27ed",
+    "span_index": 187,
+    "text": "Restrictions apply.",
+    "char_length": 19
+  }
+]

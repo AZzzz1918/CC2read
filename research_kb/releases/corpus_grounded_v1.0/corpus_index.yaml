@@ -1,0 +1,815 @@
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 77
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: applsci_15_08033_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Practical Performance Assessment of Water Vapor Monitoring Using BDS PPP-B2b
+    Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Borio_2023_ghasp_galileo_has_parser
+  product_source: CNES_OR_OTHER_RTS
+  title: 'GHASP: a Galileo HAS parser'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 161
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: CI001_1_s2_0_S0273117723005483_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: cKeyLaboratoryofElectro-OpticalCountermeasuresTest&EvaluationTechnology,Luoyang471000,China
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 100
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: CI001_1_s2_0_S0273117725002066_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'BDS-3/GPS uncombined real-time PPP with PPP-B2b precise products: Modeling
+    and its long-term performance evaluation'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 193
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: CI001_atmosphere_15_01048
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Assessment of BDS-3 PPP-B2b Service and Its Applications for the Determination
+    of Precipitable Water Vapour
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 80
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: CI001_s10291_024_01776_7
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time estimation of multi-frequency phase observable-specific bias for
+    the BDS3 PPP-B2b service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 99
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: CI001_s10291_025_01835_7
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Clock systematic jump estimation and URA refinement of BDS-3 B2b real-time
+    precise point positioning service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 94
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: CI001_s12145_023_00939_3
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Assessment of precipitable water vapor retrieved from precise point positioning
+    with PPP-B2b service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 64
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: CI001_s43020_024_00143_8
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'High-precision services of BeiDou navigation satellite system (BDS): current
+    state, achievements, and future directions'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 109
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: CI002_Hu_2026_Meas__Sci__Technol__37_086303
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time PPP-based monitoring of Galileo–BDS time offset using PPP-B2b and
+    HAS
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 225
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: CI002_remotesensing_14_02957_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Performance Assessment of BDS-3 PPP-B2b/INS Loosely Coupled Integration
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 89
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: CI002_s10291_023_01457_x
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Exploring characteristics of BDS-3 PPP-B2b augmentation messages by a three-step
+    analysis procedure
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 132
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: CI002_s10291_025_01998_3
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Hong Huang1,2 · Wang Gao1,2 · Shuguo Pan1,2 · Longlei Qiao1,2 · Qing Zhao1,2
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 78
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: CI002_s41598_025_02477_y
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: BeiDou-3 PPP-B2b real time pre-
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 38
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: CI002_s43020_025_00169_6
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Performance of PPP and PPP-RTK with new-generation GNSS constellations and
+    signals
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 133
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: CI002_s43020_025_00172_x
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Integrated real-time precise point positioning system with B2b/B2a/B1C services
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 163
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: CI003_Mathematical_Problems_in_Engineering___2022___Tang
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Modelling and Assessment of BDS‐3 Real‐time Precise Point Positioning Time
+    Transfer Based on PPP‐B2b Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 285
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: CI003_remotesensing_14_05366
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Comprehensive Analysis of PPP-B2b Service and Its Impact on BDS-3/GPS Real-Time
+    PPP Time Transfer
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 42
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA
+  product_source: MIXED_PRODUCTS
+  title: A Comparative Investigation of Broadcast Frameworks, Service Availability,
+    and Time Transfer Performance in PPP-B2b, HAS
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Euiho_Kim_2022_CLAS_PPP
+  product_source: QZSS_CLAS
+  title: Fault-Free Protection Level Equation for CLAS PPP
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 55
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: Factor_Graph_PPP_B2b_INS
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Factor Graph-Based Tightly Coupled PPP-B2b/INS for Real-Time Precise Positioning
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 57
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_1_s2_0_S0273117721006980_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: GNSSResearchCenter,WuhanUniversity,Wuhan430079,China
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 62
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_1_s2_0_S0273117724012961_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time BDS-3 satellite clock estimation and precise point positioning
+    using broadcast orbits
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 101
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_1_s2_0_S0273117725009299_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: A real-time high accurate positioning method for vehicles in long-mileage
+    transportation
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 11
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_2023__Nacer_Naciri__Assessment_of_Galileo_High_Acc
+  product_source: MIXED_PRODUCTS
+  title: Nacer Naciri1 · Ding Yi1 · Sunil Bisnath1 · F. Javier de Blas2 · Roberto
+    Capua3
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 77
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_2025__Zhou__Linghao___Practical_Performance_Assess
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Practical Performance Assessment of Water Vapor Monitoring Using BDS PPP-B2b
+    Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 81
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_875_full
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Design and implementation of a BDS precise point positioning service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 42
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_A_Comparative_Investigation_of_Broadcast_Framework
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Availability, and Time Transfer
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 99
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_ggac311
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: millimetre-level(Bocketal.2011;Wangetal.2012).Therelative
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 21
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_IET_Radar_Sonar___Navi___2025___Yu___Design_and_Re
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Design and Reception Method of Code Shift Keying Signals With Power‐of‐Two
+    Phase Intervals
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 113
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_Mathematical_Problems_in_Engineering___2022___Chen
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Signal‐in‐Space and Positioning Performance of BDS Open Augmentation Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 66
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_Real_time_oceanic_PWV_sensing_using_BeiDou_3_PPP_B
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Hongxing Zhang1,2 ·Yunbin Yuan1·Luohong Li1,2·Wei Li1·Wenjian Huang1,2·Yanju
+    Chai1·Dong Ren3
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 112
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: FD_remotesensing_13_05011
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Assessment of the Feasibility of PPP-B2b Service for Real-Time Coseismic
+    Displacement Retrieval
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 94
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: FD_remotesensing_14_04569_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: The Bias in PPP-B2b Real-Time Clock Offset and the Strategy to Reduce It
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 180
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_remotesensing_14_05835_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Evaluation of BDS-3 B1C/B2b Single/Dual-Frequency PPP Using PPP-B2b and RTS
+    SSR Products in Both Static and Dynamic Appl
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 10
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_remotesensing_14_06395_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Comprehensive Evaluation of Data-Related Factors on BDS-3 B1I + B2b Real-Time
+    PPP/INS Tightly Coupled Integration
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 168
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: FD_remotesensing_15_00784
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-Time Precise Point Positioning during Outages of the PPP-B2b Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 148
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_remotesensing_15_01358
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Long-Term Performance Evaluation of BeiDou PPP-B2b Products and Its Application
+    in Time Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 150
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_remotesensing_15_05144
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: A Comparative Study of Factor Graph Optimization-Based and Extended Kalman
+    Filter-Based PPP-B2b/INS Integrated Navigatio
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 196
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_remotesensing_16_00043
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Sub-Nanosecond UTC Dissemination Based on BDS-3 PPP-B2b Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 120
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_remotesensing_16_01349_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Performance Evaluation and Application Field Analysis of Precise Point Positioning
+    Based on Different Real-Time Augmenta
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 23
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_remotesensing_16_02902
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Performance of Ground-Based Global Navigation Satellite System Precipitable
+    Water Vapor Retrieval in Beijing with the Be
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 18
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: FD_remotesensing_17_00011_v2
+  product_source: MIXED_PRODUCTS
+  title: The Investigation of Global Real-Time ZTD Estimation from GPS/Galileo PPP
+    Based on Galileo High Accuracy Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 353
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_remotesensing_17_00618_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: A Continuous B2b-PPP Model Considering Interruptions in BDS-3 B2b Orbits
+    and Clock Corrections as Well as Signal-in-Spac
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 85
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: FD_remotesensing_17_02183
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: LEO-Enhanced BDS-3 PPP Performance Based on B2b Signal
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 108
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_remotesensing_17_03522
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Enhancing PPP-B2b Performance with Regional Atmospheric Augmentation
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 85
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_s00190_022_01642_9
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Orbit determination, clock estimation and performance evaluation of BDS-3
+    PPP-B2b service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 157
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_s10291_025_01925_6
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Lin Pan1 · Chen Yang1
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 44
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_s41598_025_08834_1
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: OPEN Single-base station positioning
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 94
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_s41598_025_34174_1
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: OPEN Synergistic augmentation of
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 147
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: FD_sensors_23_02652
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: PPP/INS Tight Integration with BDS-3 PPP-B2b Service in the Urban Environment
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 144
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: FD_sensors_25_06700
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Assessing BeiDou-3 PPP-B2b with Signal-in-Space Ranging Error (SISRE) and
+    Its Performances in Positioning and ZTD Estima
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 23
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_sensors_26_01795
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Evaluation of the Ionospheric Corrections Generated by Smartphones with Different
+    Real-Time Products
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 35
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: FD_sustainability_18_02400
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Design and Preliminary Evaluation of an Integrated Communication and Navigation
+    Security Assurance Platform Based on Bei
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 104
+  blockers: 4
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: GKit_SSRDecoder_PPP_B2b_HAS
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'GKit-SSRDecoder: An Open-Source C/C++-Based PPP-B2b and HAS Decoding Software'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'Performance assessment of the BDS-3 PPP-B2b service for real-time earthquake
+    source description: a case study for the 20'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 101
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'Decoding PPP Corrections From BDS B2b Signals Using a Software-Defined Receiver:
+    An Initial Performance Evaluation'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 100
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: Nie_2021_initial_assessment_bds_ppp_b2b_service
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'Initial Assessment of BDS PPP-B2b Service: Precision of Orbit and Clock
+    Corrections, and PPP Performance'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 66
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Oceanic_PWV_PPP_B2b_LowCost
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost GNSS devices
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 157
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Pan_Lin_2025_BDS_B2b_HAS
+  product_source: MIXED_PRODUCTS
+  title: BDS B2b and HAS
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 5
+  dcb_status: NOT_MENTIONED
+  paper_id: Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Evaluation of real-time kinematic positioning performance of the BDS-3 PPP
+    service on B2b signal
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 85
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Research on Quad-Frequency PPP-B2b Time Transfer
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 172
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: RT_Kinematic_Orbit_LEO_B2b_HAS
+  product_source: MIXED_PRODUCTS
+  title: Real-Time Kinematic Orbit Determination for LEO by Integrating Broadcast
+    Ephemerides, Galileo HAS, and BDS-3 PPP-B2b
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 71
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: RT_ZTD_PPP_B2b_HAS_MADOCA
+  product_source: MIXED_PRODUCTS
+  title: Real-Time Precise Zenith Tropospheric Delay Estimation With BDS PPP-B2b,
+    Galileo HAS, and QZSS MADOCA-PPP Services
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 223
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: s10291_023_01570_x
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: PPP-B2b related (s10291-023-01570-x)
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 125
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: s10291_024_01730_7
+  product_source: MIXED_PRODUCTS
+  title: 'Lightweight seamless lane-level positioning with the integration of BDS-3
+    PPP-B2b and VINS: a case study using smartphon'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 70
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: s43020_023_00097_3
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: BDS-3 PPP-B2b related (s43020-023-00097-3)
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 52
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: s43020_024_00146_5
+  product_source: MIXED_PRODUCTS
+  title: 'Multi-frequency smartphone positioning performance evaluation: insights
+    into A-GNSS PPP-B2b services and beyond'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 82
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: Single_Frequency_PPP_B2b_Time_Transfer
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Research on Single-Frequency PPP-B2b Time Transfer
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 8
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Orbit determination, clock estimation and performance evaluation of BDS-3
+    PPP-B2b service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 3
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Taro_Suzuki_2023_qzss_clas_l6_evaluation
+  product_source: QZSS_CLAS
+  title: Evaluation of L6 augmentation signal reception characteristics and PPP-RTK
+    positioning performance using compact GNSS an
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 34
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: V04_1_s2_0_S0263224124014428_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: A new PPP one-way timing approach via BDS-3 PPP-B2b and short-message communication
+    service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 138
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: V04_1_s2_0_S0273117725010865_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Analysis of real-time kinematic positioning of UAV based on BDS-3 PPP-B2b
+    service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 64
+  blockers: 4
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_2023__Peida_Wu__Evaluation_of_real_time_kinematic_positionin
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Zhenyi Zhang1 · Xu Zou1
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 77
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_s00190_025_01965_3
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Single-station-augmented PPP-B2b considering the satellite-specific clock
+    bias via short-message communication
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 109
+  blockers: 4
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_s10291_021_01175_2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Performance evaluation of BDS-3 PPP-B2b precise point positioning service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 77
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: V04_s10291_023_01409_5
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Long-term performance analysis of BDS-3 precise point positioning (PPP-B2b)
+    service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 260
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: V04_s10291_025_01850_8
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time detection and identification of BDS-3 PPP-B2b signal-in-space anomalies
+    in the user-side
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 155
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_s10291_025_01854_4
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'PPP-B2b-RTK: a PPP-B2b augmentation method by using the SSR corrections
+    from a single reference station'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 128
+  blockers: 4
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_s40623_024_02031_6
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Dual-frequency to five-frequency real-time precise point positioning using
+    new BDS-3 PPP-B2b service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 204
+  blockers: 4
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_s41597_026_07032_6
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'BDSet: A First-ever BDS Satellite-based PPP Augmentation Dataset Since 2023'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 139
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_W2_1_s2_0_S0263224125021888_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time PPP with the fusion of Galileo HAS and BDS-3 PPP-B2b
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 186
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_W2_1_s2_0_S0263224126008559_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Integration of GNSS Galileo High accuracy service, BDS-3 PPP-B2b and INS
+    for precise positioning in challenging environm
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 175
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: V04_W2_1_s2_0_S0263224126009619_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Precise LEO orbit determination using regional PPP-B2b augmentation services
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 184
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_W2_1_s2_0_S0273117725002881_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Precise real-time navigation of the LEO satellite enhanced by BDS-3 PPP-B2b
+    service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 111
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_W2_1_s2_0_S0273117725011020_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Retrieval of precipitable water vapor by using BeiDou PPP-B2b signal with
+    an ocean-based experiment
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 66
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_W2_applsci_15_07169_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: BDS-PPP-B2b-Based Smartphone Precise Positioning Model Enhanced by Mixed-Frequency
+    Data and Hybrid Weight Function
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 180
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: V04_W2_ggag169
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'Real-time high-rate seismogeodesy using Galileo HAS and BDS PPP-B2b products:
+    a shake table experiment and application t'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 107
+  blockers: 4
+  dcb_status: MENTIONED
+  paper_id: V04_W2_Qin_2024_Phys__Scr__99_125026
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Analysis of the performance of the PPP-B2b satellite clock and its effects
+    on time transfer
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 244
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: V04_W2_remotesensing_17_02351
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Differences in Time Comparison and Positioning of BDS-3 PPP-B2b Signal Broadcast
+    Through GEO
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 137
+  blockers: 4
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_W2_s10291_021_01168_1
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Initial Assessment of the BDS-3 PPP-B2b RTS compared with the CNES RTS
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 91
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_W3_1_s2_0_S0263224122011071_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time ocean precise point positioning with BDS-3 service signal PPP-B2b
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 117
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: V04_W3_1_s2_0_S0263224122013744_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time single-frequency precise point positioning using BDS-3 PPP-B2b
+    corrections
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 50
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: V04_W3_1_s2_0_S0263224124019006_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Enhancing BDS-3 PPP-B2b real-time positioning performance by tightly integrating
+    MEMS IMU and LiDAR in GNSS-Degraded env
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 109
+  blockers: 3
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: V04_W3_1_s2_0_S026322412601448X_main__1_
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: 'Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end:
+    with emphasis on the improvement of global r'
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 68
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_W3_1_s2_0_S0273117721004610_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: bShanghaiAstronomicalObservatory,ChineseAcademyofScience,No.80NandanRoad,Shanghai200030,China
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 110
+  blockers: 3
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: V04_W3_1_s2_0_S0273117724008755_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Real-time uncombined PPP using BDS-3 PPP-B2b products with different multi-frequency
+    integrations and refined stochastic
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 40
+  blockers: 3
+  dcb_status: NOT_MENTIONED
+  paper_id: V04_W3_1_s2_0_S0273117724011438_main
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Evaluation of the Galileo high-accuracy service SSR product quality and PPP
+    performance
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 223
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: V04_W3_2024__Jianfei_Zang1__Performance_assessment_of_the_BDS_
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Jianfei Zang1 · Shijie Fan1 · Caijun Xu2 · Zhicai Li3 · Rongxin Fang4 · Yidong
+    Lou4
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 112
+  blockers: 3
+  dcb_status: MENTIONED
+  paper_id: V04_W3_remotesensing_16_02337_v2
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Temporal Characteristics Based Outlier Detection and Prediction Methods for
+    PPP-B2b Orbit and Clock Corrections
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 131
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Wang_2024_ppp_b2b_coverage_ztd_positioning
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: An investigation of PPP-B2b coverage and its performance in ZTD estimation
+    and positioning in different regions
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 133
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+  product_source: MIXED_PRODUCTS
+  title: Combining Galileo HAS and BeiDou PPP-B2b with Helmert coordinate transformation
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 5
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Comprehensive Analyses of PPP-B2b Performance in China and Surrounding Areas
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 4
+  dcb_status: INSUFFICIENT_EVIDENCE
+  paper_id: Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Principle and performance of BDSBAS and PPP-B2b of BDS-3
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 0
+  blockers: 4
+  dcb_status: NOT_MENTIONED
+  paper_id: Zhao_Lewen_2025_python_toolbox_for_bds_b2b
+  product_source: MIXED_PRODUCTS
+  title: Python toolbox for BDS PPP-B2b and Galileo HAS decoding and its products
+    performance validation
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 78
+  blockers: 4
+  dcb_status: EXPLICITLY_DESCRIBED
+  paper_id: Zhou_2023_multifrequency_bds3_rt_ppp_b2b
+  product_source: BDS3_PPP_B2B_BROADCAST
+  title: Multi-Frequency BDS-3 Real-Time Positioning Performance Assessment Using
+    New PPP-B2b Augmentation Service
+- admission_status: GROUNDED_ADMITTED
+  b2b_mentions: 4
+  blockers: 4
+  dcb_status: BRIEFLY_MENTIONED
+  paper_id: Zhou_Peiyuan_2024_Galileo_HAS_Initial
+  product_source: CNES_OR_OTHER_RTS
+  title: Initial performance assessment of Galileo High Accuracy Service

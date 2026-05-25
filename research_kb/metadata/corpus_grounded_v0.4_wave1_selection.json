@@ -1,0 +1,206 @@
+{
+  "wave": 1,
+  "count": 10,
+  "candidates": [
+    {
+      "candidate_id": "V04-065",
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-025-01854-4.pdf",
+      "filename": "s10291-025-01854-4.pdf",
+      "best_title_candidate": "PPP-B2b-RTK: a PPP-B2b augmentation method by using the SSR corrections from a single reference station",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_RTK_OR_AR",
+      "priority": "P0_ROUTE_CHANGING",
+      "expected_impact": "new_technical_route",
+      "keyword_scores": {
+        "bds_ppp": 47,
+        "boundary": 2,
+        "core_b2b": 60,
+        "general": 8
+      },
+      "abstract_snippet": "The PPP-B2b service provided by the BeiDou global navigation satellite system (BDS-3) is regarded as a convenient approach\nfor real-time precise point positioning (PPP). However, float PPP solutions w",
+      "why_candidate": "PPP_B2B_RTK_OR_AR (core_b2b=60)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-057",
+      "file_path": "E:\\PPP\\CC2read\\paper\\s00190-025-01965-3.pdf",
+      "filename": "s00190-025-01965-3.pdf",
+      "best_title_candidate": "Single-station-augmented PPP-B2b considering the satellite-specific clock bias via short-message communication",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_SHORT_MESSAGE",
+      "priority": "P0_ROUTE_CHANGING",
+      "expected_impact": "new_technical_route",
+      "keyword_scores": {
+        "bds_ppp": 23,
+        "boundary": 4,
+        "core_b2b": 33,
+        "general": 3
+      },
+      "abstract_snippet": "BeiDouGlobalNavigationSatelliteSystem(BDS-3)PPP-B2bservicegreatlypromotesthereal-timeprecisepointpositioning\napplications.However,previousresearchworkshaverevealedthatanonnegligiblesatellite-specificc",
+      "why_candidate": "PPP_B2B_SHORT_MESSAGE (core_b2b=33)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-070",
+      "file_path": "E:\\PPP\\CC2read\\paper\\s41597-026-07032-6.pdf",
+      "filename": "s41597-026-07032-6.pdf",
+      "best_title_candidate": "BDSet: A First-ever BDS Satellite-based PPP Augmentation Dataset Since 2023",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_DATASET",
+      "priority": "P0_ROUTE_CHANGING",
+      "expected_impact": "new_technical_route",
+      "keyword_scores": {
+        "bds_ppp": 27,
+        "boundary": 4,
+        "core_b2b": 28,
+        "general": 3
+      },
+      "abstract_snippet": "",
+      "why_candidate": "PPP_B2B_DATASET (core_b2b=28)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-019",
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0273117725010865-main.pdf",
+      "filename": "1-s2.0-S0273117725010865-main.pdf",
+      "best_title_candidate": "Analysis of real-time kinematic positioning of UAV based on BDS-3 PPP-B2b service",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_RTK_OR_AR",
+      "priority": "P0_ROUTE_CHANGING",
+      "expected_impact": "new_technical_route",
+      "keyword_scores": {
+        "bds_ppp": 20,
+        "boundary": 1,
+        "core_b2b": 19,
+        "general": 5
+      },
+      "abstract_snippet": "High-precision positioning of unmanned aerial vehicles (UAVs) is generally achieved through real-time kinematic (RTK) technology,\nwhich rely on ground base stations. This poses challenges for real-tim",
+      "why_candidate": "PPP_B2B_RTK_OR_AR (core_b2b=19)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-003",
+      "file_path": "E:\\PPP\\CC2read\\paper\\1-s2.0-S0263224124014428-main.pdf",
+      "filename": "1-s2.0-S0263224124014428-main.pdf",
+      "best_title_candidate": "A new PPP one-way timing approach via BDS-3 PPP-B2b and short-message communication service",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_SHORT_MESSAGE",
+      "priority": "P0_ROUTE_CHANGING",
+      "expected_impact": "new_technical_route",
+      "keyword_scores": {
+        "bds_ppp": 31,
+        "boundary": 3,
+        "core_b2b": 14,
+        "general": 9
+      },
+      "abstract_snippet": "",
+      "why_candidate": "PPP_B2B_SHORT_MESSAGE (core_b2b=14)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-064",
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-025-01850-8.pdf",
+      "filename": "s10291-025-01850-8.pdf",
+      "best_title_candidate": "Real-time detection and identification of BDS-3 PPP-B2b signal-in-space anomalies in the user-side",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_ANOMALY_DETECTION",
+      "priority": "P1_CORE",
+      "expected_impact": "taxonomy_change_or_new_route",
+      "keyword_scores": {
+        "bds_ppp": 45,
+        "boundary": 0,
+        "core_b2b": 72,
+        "general": 2
+      },
+      "abstract_snippet": "The BeiDou global navigation satellite system (BDS-3) provides precise point positioning (PPP) service through the PPP-B2b\nsignal. Users in China and its surrounding areas can perform real-time PPP to",
+      "why_candidate": "PPP_B2B_ANOMALY_DETECTION (core_b2b=72)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-059",
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-021-01175-2.pdf",
+      "filename": "s10291-021-01175-2.pdf",
+      "best_title_candidate": "Performance evaluation of BDS-3 PPP-B2b precise point positioning service",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "expected_impact": "taxonomy_change_or_new_route",
+      "keyword_scores": {
+        "bds_ppp": 46,
+        "boundary": 3,
+        "core_b2b": 52,
+        "general": 1
+      },
+      "abstract_snippet": "A new precise point positioning (PPP) service has been provided by BeiDou global navigation satellite system (BDS-3). The\ncorrection parameters, including precision orbit correction, clock offset corr",
+      "why_candidate": "PPP_B2B_HAS_FUSION (core_b2b=52)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-069",
+      "file_path": "E:\\PPP\\CC2read\\paper\\s40623-024-02031-6.pdf",
+      "filename": "s40623-024-02031-6.pdf",
+      "best_title_candidate": "Dual-frequency to five-frequency real-time precise point positioning using new BDS-3 PPP-B2b service",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "expected_impact": "taxonomy_change_or_new_route",
+      "keyword_scores": {
+        "bds_ppp": 37,
+        "boundary": 5,
+        "core_b2b": 43,
+        "general": 3
+      },
+      "abstract_snippet": "BeiDou global navigation satellite system (BDS-3), a developed GNSS by China, has the ability to support five different\nsignals, including B1I, B3I, B1C, B2a, and B2b. Meanwhile, BDS-3 has officially ",
+      "why_candidate": "PPP_B2B_HAS_FUSION (core_b2b=43)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-060",
+      "file_path": "E:\\PPP\\CC2read\\paper\\s10291-023-01409-5.pdf",
+      "filename": "s10291-023-01409-5.pdf",
+      "best_title_candidate": "Long-term performance analysis of BDS-3 precise point positioning (PPP-B2b) service",
+      "title_confidence": "HIGH",
+      "category": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "expected_impact": "taxonomy_change_or_new_route",
+      "keyword_scores": {
+        "bds_ppp": 43,
+        "boundary": 2,
+        "core_b2b": 41,
+        "general": 8
+      },
+      "abstract_snippet": "Since 2020, the BeiDou Navigation Satellite System (BDS) has launched new precise point positioning service which\nprovides precise correction of GPS and BDS-3 satellites to help users realize real-tim",
+      "why_candidate": "PPP_B2B_HAS_FUSION (core_b2b=41)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    },
+    {
+      "candidate_id": "V04-022",
+      "file_path": "E:\\PPP\\CC2read\\paper\\2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+      "filename": "2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+      "best_title_candidate": "Zhenyi Zhang1 · Xu Zou1",
+      "title_confidence": "MEDIUM",
+      "category": "PPP_B2B_HAS_FUSION",
+      "priority": "P1_CORE",
+      "expected_impact": "taxonomy_change_or_new_route",
+      "keyword_scores": {
+        "bds_ppp": 39,
+        "boundary": 6,
+        "core_b2b": 36,
+        "general": 8
+      },
+      "abstract_snippet": "The BeiDou global navigation satellite system (GNSS) of China (BDS-3) had full operation capacity on July 31, 2020, and\nstarted providing free precise point positioning (PPP) service on B2b signals. A",
+      "why_candidate": "PPP_B2B_HAS_FUSION (core_b2b=36)",
+      "recommended_wave": 1,
+      "already_in_v0.3": false
+    }
+  ]
+}

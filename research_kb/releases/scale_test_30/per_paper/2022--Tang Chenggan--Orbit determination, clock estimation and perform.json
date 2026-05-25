@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper introduces the orbit and clock estimation strategies for generating PPP-B2b corrections and evaluates the performance of the BDS-3 PPP-B2b service, directly focusing on the B2b precise point positioning service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2022--Tang Chenggan--Orbit determination, clock estimation and performance evaluation.pdf",
+  "paper_id": "2022--Tang Chenggan--Orbit determination, clock estimation and perform",
+  "extraction_mode": "batch_classify_1call"
+}

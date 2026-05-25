@@ -1,0 +1,56 @@
+{
+  "paper_id": "Mathematical_Problems_in_Engineering_-_2022_-_Tang_-_Modelling_and_Ass",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "selection_role": "core_ppp_b2b",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Hindawi Mathematical Problems in Engineering Volume 2022, Article ID 4054179, 16 pages https://doi.org/10.1155/2022/4054179 Research Article Modelling and Assessment of BDS-3 Real-time Precise Point Positioning Time Transfer Based on PPP-B2b Service Jian Tang ,1 Daqian Lyu,1 Fangling Zeng,1 Yulong Ge,2 and Runzhi Zhang 3 1CollegeofElectronicEngineering, NationalUniversityofDefens",
+      "In2020,usersinandaroundChinahadaccesstoanewreal-timeprecisepointpositioning(RTPPP)servicewiththeBeiDou globalnavigationsatellitesystem(BDS-3)B2b(PPP-B2b)signal.Inthisstudy,thequalityofPPP-B2bproductsisfirstassessedand compared with the CNAV1 broadcast ephemeris."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "DOY86",
+    "end_date": "DOY 86",
+    "grounding_quotes": [
+      "Processing Strategies Hence, the parameter vector to be estimated can be expressed as UsingtheSINOK803kit,whichcanreceivebinaryPPP-B2b correctionsandsavethemintodailyfiles,wecollectedPPP- X�􏽨Χ,d􏽢t ,T,N 􏽩, (14) B2b messages over two days from March 27 to March 28, r,IFmn IFmn 2022,i.e.,dayofyear(DOY)86-87,2022,toinvestigatethe where x is the vector of position deltas relative to the re- BDS-3 B2b-R"
+    ]
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 53,
+    "grounding_quotes": [
+      "Then a mode of BDS-3 PPP time transfer with PPP-B2b (B2b-RTPPP) is developedandevaluatedinstaticandkinematicmodes.Theresultsdemonstratethatthediscontinuityoforbitisimprovedby applyingthePPP-B2b,anditsrootmeansquareerrors(RMSEs)are0.081m,0.165m,and0.107mintheradial,along-track,and cross-trackcomponents,respectively.Thestandarddeviation(STD)ofthePPP-B2bclockoffsetis0.08ns,greatlybetterthanthat ofthe"
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 5
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code/software release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b_mentions": 163,
+    "has_mentions": 0,
+    "clas_mentions": 1,
+    "dcb_mentions": 53
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "expected_ps": "BDS3_PPP_B2B_BROADCAST"
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

@@ -1,0 +1,232 @@
+Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service:
+  score: 1
+  blockers:
+  - No observation data source or station list
+  - No B2b correction archive or replay method
+  - No PPP software details
+  - No stochastic or KF parameters
+  - No precise definition of 0.30 ns metric
+  - No experiment epoch dates
+  - No observation data access mentioned
+  - No correction archive availability
+  - No estimator or stochastic model details
+  - No processing software or configuration provided
+  - No station list provided
+  - No raw observation data source
+  - No PPP-B2b correction archive
+  - No full stochastic model parameters
+  - No Kalman filter settings
+  - No code or configuration files
+  - No public observation data link
+  - No PPP-B2b correction archive or replay method
+  - No stochastic model parameters or Kalman filter configuration
+  - Convergence time and positioning metrics definitions missing
+  - No code repository or run scripts provided
+  - Kalman filter initial values and tuning not specified
+  - Complete stochastic model missing (only receiver clock stated)
+  - PPP-B2b correction archive not shared
+  - Exact metric computation (window, outlier removal) not detailed
+  - No B2b correction archive
+  - Incomplete Kalman filter initial variances and process noise details
+  - Unknown sampling rate, precise epoch span, and station location constraints
+  - No public observation data link provided
+  - No B2b replay or correction archive described
+  - No stochastic model parameters given
+  - No code or software availability
+  - No metric definitions (convergence, RMS) in this page
+  - Incomplete experimental epoch details (year missing)
+  - No observation data access provided.
+  - No B2b correction stream archive.
+  - Kalman filter parameters (process noise, initial variances) not specified.
+  - DCB handling not described.
+  - No source code or executable provided.
+  - Sampling rate not stated in this page.
+  - Exact data time span not mentioned.
+  - Observation data access not mentioned
+  - B2b correction stream archive not provided
+  - No stochastic model or Kalman filter parameters
+  - No software or code mentioned
+  - Station list incomplete (only CUSV, USUD mentioned for BDS-3; GPS stations unknown)
+  - Year of DOY experiments not specified
+  - No data access information provided.
+  - No B2b correction archive or replay method provided.
+  - No processing details or software mentioned.
+  - No public observation data
+  - No B2b replay method
+  - No correction archive
+  - No stochastic model params
+  - No Kalman filter config
+  - No code repository
+  - No run entry point
+  - No config files
+  - No metric definitions
+  - No baseline details
+  - No access to raw observation data or station list beyond USUD.
+  - No PPP-B2b correction archive provided.
+  - No description of stochastic model or Kalman filter tuning.
+  - No software or processing configuration disclosed.
+  - Exact product versions (CNES, WUU, WUM) and processing settings not specified.
+  - No station observation data access information
+  - No source code or configuration files
+  - No Kalman filter/stochastic model parameters
+  - No exact dates of experiment
+  - No sampling rate or observation types
+  - No raw observation access information
+  - No software or processing details
+  - No stochastic or filter configuration
+  - Incomplete metric definitions
+  - No methodological details available in this chunk.
+  - Paper body not provided; no details available.
+  - No observation data provided
+  - No experimental details given in this chunk
+  code_available: true
+  data_available: true
+Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser:
+  score: 0
+  blockers:
+  - No paper content beyond title and author metadata
+  - No description of how L6 augmentation messages were recorded or can be replayed.
+  - No stochastic model parameters or processing settings provided.
+  - No precise definition of accuracy metrics (RMS, convergence criteria) given.
+  - No code or preprocessing pipeline shared.
+  - 未提供实测原始观测数据来源或站点信息
+  - 未提供PPP处理算法详细配置（滤波器参数、随机模型、DCB处理）
+  - 未给出实验时间段
+  - 未给出具体定位性能指标定义
+  - No observation data source or access specified
+  - No CLAS correction archive or stream access described
+  - No processing software or implementation details provided
+  - Missing stochastic model and estimation parameters
+  - No metric definitions for performance evaluation
+  - No access to real-time L6 augmentation data
+  - No code or processing scripts
+  - No raw GNSS observation data or station information
+  - No numerical results in text (only figures)
+  - INSUFFICIENT_EVIDENCE
+  - No observation data source
+  - No correction archive
+  - No processing model details
+  - No software/code provided
+  - No publicly archived L6 CLAS correction data for the experiment period
+  - No code or detailed processing configuration provided
+  - Estimator type and stochastic model not disclosed
+  - Ambiguity resolution strategy and filter tuning missing
+  - No station names, no data access, no algorithm details, no correction archive,
+    no software mentioned.
+  - No public observation data link provided
+  - No correction archive or replay capability mentioned
+  - No stochastic model or Kalman filter parameters given
+  - No code or software identified
+  - No exact experiment dates specified
+  - No ionospheric or DCB handling described
+  code_available: false
+  data_available: true
+Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp:
+  score: 0
+  blockers:
+  - No public observation data or station list provided
+  - No PPP-B2b correction stream recording or replay method described
+  - No SSR/B2b correction archive available
+  - Complete stochastic model parameters not revealed
+  - Kalman filter initial variances, process noise, observation noise not specified
+  - No code or software mentioned
+  - Exact metric definitions (e.g., convergence threshold, RMS window) not defined
+  - Baseline product versions not given
+  - Insufficient information in this chunk to assess reproducibility.
+  - No experimental details provided in available chunk.
+  - No public observation data link provided.
+  - No PPP-B2b correction archive or replay method described.
+  - No stochastic model or KF configuration details.
+  - No code or tools mentioned.
+  - No metric definitions for convergence, RMS, etc.
+  - No public observation data link provided
+  - No B2b correction archive provided
+  - No stochastic model or Kalman filter configuration given
+  - No code repository or processing software mentioned
+  - No public observation data provided
+  - No B2b replay capability described
+  - No stochastic model parameters
+  - No Kalman filter initialization
+  - No metric definition
+  - No baseline method details
+  - No code or configuration files
+  - Observation data source not specified
+  - Precise real-time product source/provider not stated
+  - DCB correction source not given
+  - Stochastic model not described
+  - Estimator (e.g., Kalman filter) not confirmed
+  - Experiment setup and dates missing
+  - No correction archive provided for PPP-B2b stream
+  - No stochastic model or filter configuration details
+  - No code or software access
+  - No specification of precise orbit/clock product source and version
+  - No information on DCB product source
+  - No observation data access details or archive
+  - No code or configuration provided
+  - Stochastic model parameters (elevation-dependent weights) not detailed
+  - Kalman filter/least-squares configuration (initial variances, process noise) not
+    provided
+  - No station list provided (only 'four MEGX stations')
+  - No experimental time window given
+  - No correction stream archive or replay method described
+  - No PPP processing model or filter details in this chunk
+  - No DCB/code bias handling specified
+  - Only a single page with a figure caption is available. Full paper content is missing,
+    making any reproducibility assessment impossible.
+  - No public observation data link
+  - No B2b correction archive or replay method
+  - No stochastic model or Kalman filter parameters
+  - No code repository or software description
+  - No station list
+  - No observation data source
+  - No B2b correction archive
+  - No stochastic model details
+  - No software details
+  - No sampling rate
+  - No access to raw observation data or station list beyond 'four MGEX stations'.
+  - No B2b correction stream recording or archive described.
+  - No stochastic model or Kalman filter parameters given.
+  - No software or code provided.
+  - No detailed observation types or sampling rate reported.
+  - No DCB source identified for single-frequency constraints.
+  - No uncertainty quantification beyond RMSE.
+  - No B2b correction archive or replay method described.
+  - No stochastic model parameters given.
+  - No Kalman filter configuration specified.
+  - No code repository or run entry point available.
+  - No metric definitions for convergence time, RMS, etc.
+  - No raw observation data provided (MGEX station names not listed in chunk).
+  - No PPP-B2b correction stream archive or access information.
+  - No details on single-frequency ionospheric correction or DCB usage.
+  - No filter/estimator configuration disclosed.
+  - No code repository or processing software mentioned.
+  - Vehicle reference trajectory (RTK/INS) not publicly available.
+  - No observation data link or date
+  - No real-time SSR stream archive or details
+  - No stochastic model parameters beyond elevation weighting
+  - No Kalman filter/least squares configuration details
+  - No raw observation data provided
+  - No B2b correction stream archive or replay method described
+  - No filter configuration (KFK/EKF) details
+  - No stochastic model parameters given
+  - No software or code availability
+  - Only a single page fragment containing a figure caption was provided. The methods,
+    data sources, experimental setup, and results are missing.
+  - No B2b correction stream archive
+  - No code or software
+  - No stochastic or Kalman filter parameters
+  - No information on DCB handling
+  - No experiment date specified
+  - No data source mentioned
+  - No correction archive or retrieval method described
+  - No algorithm or model parameters detailed
+  - Experiment epoch not provided
+  - Observation data access limited to on-request basis, no public repository
+  - No B2b correction archive or replay mechanism described
+  - No Kalman filter configuration (initial variances, process noise, observation
+    noise) provided in this chunk
+  - No code repository or software tools specified
+  - No metric definitions (convergence threshold, RMSE formulation) in this chunk
+  - Only reference list page available; entire paper content missing.
+  code_available: false
+  data_available: true

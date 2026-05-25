@@ -1,0 +1,22 @@
+{
+  "corpus_version": "v1.0",
+  "total_papers": 106,
+  "product_source_distribution": {
+    "BDS3_PPP_B2B_BROADCAST": 95,
+    "CNES_OR_OTHER_RTS": 2,
+    "MIXED_PRODUCTS": 7,
+    "QZSS_CLAS": 2
+  },
+  "dcb_status_distribution": {
+    "NOT_MENTIONED": 29,
+    "BRIEFLY_MENTIONED": 17,
+    "EXPLICITLY_DESCRIBED": 30,
+    "MENTIONED": 28,
+    "INSUFFICIENT_EVIDENCE": 1,
+    "MENTIONED_AS_CODE_BIAS": 1
+  },
+  "epoch_status": {
+    "HAS_DATE": 25,
+    "NOT_MENTIONED": 81
+  }
+}

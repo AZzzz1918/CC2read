@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s10291_021_01168_1",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Initial Assessment of the BDS-3 PPP-B2b RTS compared with the CNES RTS"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2021) 25:131 https://doi.org/10.1007/s10291-021-01168-1 ORIGINAL ARTICLE Initial Assessment of the BDS‑3 PPP‑B2b RTS compared with the CNES RTS Jun Tao1 · Jingnan Liu2,3 · Zhigang Hu2,3 · Qile Zhao2,3 · Guo Chen2 · Boxiao Ju2 Received: 8 January 2021 / Accepted: 20 July 2021 / Published online: 29 July 2021 This is a U.S.",
+      "government work and not under copyright protection in the U.S.; foreign copyright protection may apply 2021 Abstract In 2020, the BeiDou navigation satellite system (BDS) initiated a real-time service (RTS) for precise point positioning (PPP) using the B2b signal for users in China and its surrounding areas."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 24
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 137,
+    "has": 0,
+    "dcb": 24,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

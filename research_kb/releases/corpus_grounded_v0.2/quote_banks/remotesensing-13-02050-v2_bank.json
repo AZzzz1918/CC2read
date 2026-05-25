@@ -1,0 +1,1682 @@
+[
+  {
+    "quote_id": "qb_4849b36f69",
+    "span_index": 0,
+    "text": "remote sensing\nArticle\nInitial Assessment of BDS PPP-B2b Service: Precision of Orbit\nand Clock Corrections, and PPP Performance\nZhixiNie1 ,XiaofeiXu1,* ,ZhenjieWang1 andJunDu2\n1 CollegeofOceanographyandSpaceInformatics,ChinaUniversityofPetroleum,Qingdao266580,China;\nniezhixi@upc.edu.cn(Z.N.);sdwzj@upc.edu.cn(Z.W.)\n2 QingdaoShihuaCrudeOilTerminal,QingdaoPort,Qingdao266500,China;Duj.sh@qdport.com\n* Correspondence:b19010058@s.upc.edu.cn\nAbstract: On 31 July 2020, the Beidou global navigation satellite system (BDS-3) was officially\nannounced as being commissioned.",
+    "char_length": 566
+  },
+  {
+    "quote_id": "qb_825c735007",
+    "span_index": 1,
+    "text": "In addition to offering global positioning, navigation, and\ntiming(PNT)services,BDS-3alsoprovidesprecisepointpositioning(PPP)augmentationservices.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_2b2d02f157",
+    "span_index": 2,
+    "text": "Thesatelliteorbitcorrection,clockcorrectionandcodebiascorrectionofBDS-3andotherglobal\nnavigationsatellitesystems(GNSS)arebroadcastbytheBDS-3geostationaryearthorbit(GEO)\nsatellitesthroughthePPP-B2bsignal.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_e1ad305457",
+    "span_index": 3,
+    "text": "ThePPP-B2bserviceisavailableforusersinChinaandthe\nsurrounding area.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_75822dc4b3",
+    "span_index": 4,
+    "text": "In this study, an initial assessment of the PPP-B2b service is presented, with\ncollected 3-day PPP-B2b messages.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_2857f12f0f",
+    "span_index": 5,
+    "text": "Based on broadcast ephemeris and PPP-B2b messages, the\nprecisesatelliteorbitsandclockoffsetscanberecovered.Thisprecisionisevaluatedwiththeprecise\nephemeris from the GeoForschungsZentrum Potsdam (GFZ) analysis center as references.",
+    "char_length": 230
+  },
+  {
+    "quote_id": "qb_2a49173292",
+    "span_index": 6,
+    "text": "The\nresultsindicatethattheaccuracyofBDS-3satelliteorbitsinthedirectionofradial,along-track,and\n(cid:1)(cid:2)(cid:3)(cid:1)(cid:4)(cid:5)(cid:6)(cid:7)(cid:8)(cid:1)\n(cid:1)(cid:2)(cid:3)(cid:4)(cid:5)(cid:6)(cid:7) cross-trackis0.138,0.131,and0.145m,respectively,andforGPSacorrespondingaccuracyof0.104,\n0.160,and0.134m,respectively,couldbeobtained.Theprecisionofclockoffsetscanreachalevel\nCitation: Nie,Z.;Xu,X.;Wang,Z.;\nofseveralcentimetersforbothGPSandBDS-3.BoththeperformanceofstaticPPPandkinematic\nDu,J.InitialAssessmentofBDS\nPPPareevaluatedusingtheobservationsfromfourinternationalGNSSmonitoringassessment\nPPP-B2bService:PrecisionofOrbit\nservice(iGMAS)stations.RegardingstaticPPP,theaverageconvergencetimeis17.7mintoachieve\nandClockCorrections,andPPP\nPerformance.RemoteSens.2021,13, ahorizontalpositioningaccuracyofbetterthan0.3m,andaverticalpositioningaccuracyofbetter\n2050.",
+    "char_length": 881
+  },
+  {
+    "quote_id": "qb_e712555cf3",
+    "span_index": 7,
+    "text": "https://doi.org/10.3390/ than0.6m.Theaveragepositioningaccuracyinthedirectionofeast,north,andup-directionsare2.4,\nrs13112050 1.6,and2.3cm.AstokinematicPPP,theaverageRMSvaluesofpositioningerrorsinthedirectionof\neast,north,andupare8.1cm,3.6cm,and8.0cmafterfullconvergence.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_ef7e9ef6bc",
+    "span_index": 8,
+    "text": "AcademicEditors:JoséFernández\nandAliKhenchaf Keywords:GNSS;BDS-3;PPP-B2b;orbitcorrection;clockcorrection\nReceived:13April2021\nAccepted:19May2021\nPublished:22May2021\n1.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_3cfb439784",
+    "span_index": 9,
+    "text": "Introduction\nTheBeidounavigationsatellitesystem(BDS)wasindependentlydevelopedbyChina\nPublisher’sNote:MDPIstaysneutral\ntoprovidepositioning,navigation,andtiming(PNT)services[1,2].",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_a72d2a3c99",
+    "span_index": 10,
+    "text": "Athree-phasestrategy\nwithregardtojurisdictionalclaimsin\nhasbeenadoptedinthebuild-upofBDS,includingtheBeidoudemonstrationnavigation\npublishedmapsandinstitutionalaffil-\nsatellitesystem(BDS-1),Beidouregionalnavigationsatellitesystem(BDS-2),andBeidou\niations.",
+    "char_length": 255
+  },
+  {
+    "quote_id": "qb_37e9d326cc",
+    "span_index": 11,
+    "text": "globalnavigationsatellitesystem(BDS-3).",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_7aebc90149",
+    "span_index": 12,
+    "text": "BDS-1andBDS-2havebeenputintousein2000\nand2012,respectively[3,4],whiletheconstructionofBDS-3wasinitiatedinNovember\n2017[5].",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_d3d4af73c0",
+    "span_index": 13,
+    "text": "BytheendofJune2020,thewholeconstellationofBDS-3wascompleted,consist-\ningof24mediumearthorbit(MEO)satellites,3geostationaryearthorbit(GEO)satellites,\nCopyright: © 2021 by the authors.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_c78d55a7dd",
+    "span_index": 14,
+    "text": "and3inclinedgeosynchronousorbit(IGSO)satellites.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_ae9217f0a3",
+    "span_index": 15,
+    "text": "On31July2020,theBDS-3system\nLicensee MDPI, Basel, Switzerland.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_053437088c",
+    "span_index": 16,
+    "text": "was officially announced as being commissioned.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_011193c180",
+    "span_index": 17,
+    "text": "BDS-3 can offer PNT, short message\nThis article is an open access article\ncommunication(SMC),andinternationalsearchandrescue(SAR)services.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_cde90ce29a",
+    "span_index": 18,
+    "text": "Besidesthe\ndistributed under the terms and\naboveservices,BDS-3alsoprovidesaprecisepointpositioning(PPP)service[6,7].",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_167ee386d5",
+    "span_index": 19,
+    "text": "conditionsoftheCreativeCommons\nPPPisacrucialhigh-precisionglobalnavigationsatellitesystem(GNSS)positioning\nAttribution(CCBY)license(https://\ntechnology[8–10].",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_fd9a1eb146",
+    "span_index": 20,
+    "text": "Itcanprovidedecimeter-levelorevencentimeter-levelpositioningaccu-\ncreativecommons.org/licenses/by/\n4.0/).",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_d67e404050",
+    "span_index": 21,
+    "text": "racywithastandaloneGNSSreceiver,byutilizingpreciseephemerisproducts.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_d48df30291",
+    "span_index": 22,
+    "text": "Inthepast\nRemoteSens.2021,13,2050.https://doi.org/10.3390/rs13112050 https://www.mdpi.com/journal/remotesensing",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_90bfd1dcbd",
+    "span_index": 23,
+    "text": "RemoteSens.2021,13,2050 2of19\ndecades,PPPtechniqueshavebeenwidelyusedforapplicationsinoceanography[11–13],\ngeoscience[14,15]andmeteorology[16–18],andprecisionagriculture[19],etc.",
+    "char_length": 178
+  },
+  {
+    "quote_id": "qb_aa91a54a2f",
+    "span_index": 24,
+    "text": "Theinter-\nnationalGNSSservice(IGS)hasbeenofferingreal-timeservice(RTS)throughtheinternet\nsince 2013 [20,21].",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_f560610525",
+    "span_index": 25,
+    "text": "By adopting RTS products, the users can realize the real-time PPP\napplication.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_118c01b22a",
+    "span_index": 26,
+    "text": "However,thisservicedependsonastandinginternetaccess.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_6ebe207652",
+    "span_index": 27,
+    "text": "Inadditionto\ntheserviceofferedviainternetcommunication,asatellitebroadcastingservicehasalso\nbeenreleasedbysomecommercialcompanieswithahigh-costfee,suchasStarFixfrom\nFurgo [22], StarFire from NavCom [23], and RTX from Trimble [24].",
+    "char_length": 230
+  },
+  {
+    "quote_id": "qb_6669045cc2",
+    "span_index": 28,
+    "text": "Additionally, PPP\naugmentationservicesbasedonthebasicGNSSconstellationhavealsobeendeveloped.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_185bb0806b",
+    "span_index": 29,
+    "text": "TheJapaneseQuasi-ZenithSatelliteSystem(QZSS)providesacentimeter-levelaccuracy\naugmentationservice(CLAS)forusersinJapan[25,26].",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_c8f0e3dbb8",
+    "span_index": 30,
+    "text": "TheEuropeanGalileoconstellation\nis also designed to provide a high-precision PPP service worldwide, with an enabled\npositioningaccuracyatdecimeter-level[27,28].",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_4abb01e767",
+    "span_index": 31,
+    "text": "BDS-3 is designed to provide a PPP augmentation service, which is an important\ninnovation for BDS [29].",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_6c6f57fcb6",
+    "span_index": 32,
+    "text": "The satellite orbit correction, clock correction and code bias\ncorrectionofBDS-3/GPS/GLONASS/GALILEOaresupposedtobebroadcastbyBDS-3\nGEOsatellitesthroughthePPP-B2bsignal.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_7fea13508e",
+    "span_index": 33,
+    "text": "However,thePPP-B2bserviceonlyprovides\ncorrections of BDS-3 and GPS satellites at present, and the service is only available for\nusersinandaroundChina.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_b19a21ef77",
+    "span_index": 34,
+    "text": "AccordingtothestructureofthePPP-B2bmessage,thesize\nis486bitsforeachmessage,including6bitsofmessagetype,456bitsofmessagedata,\nand24bitsofcycleredundancycheck(CRC).Thedurationofeachmessageis1s.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_30a5e2c436",
+    "span_index": 35,
+    "text": "The\nmessagetypeisdefinedtodistinguishthebroadcastcorrectioncontents.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_9ab9eaa4c2",
+    "span_index": 36,
+    "text": "Tomatchwith\nthecorrectioncontentsofdifferentmessagetypes,thecorrectiondataareidentifiedwitha\ngroupofissueofdata(IOD),includingtheissueofdataofspacestaterepresentation(IOD\nSSR),issueofdataofpseudo-randomnoisemask(IODP),issueofdataoforbitandclock\ncorrection(IODCorr),andissueofthenavigationdata(IODN).Themessagetypesandthe\ncorrespondingcontentsaresummarizedinTable1[30].",
+    "char_length": 368
+  },
+  {
+    "quote_id": "qb_a2f451fc34",
+    "span_index": 37,
+    "text": "Table1.Themessagetypesandtheircorrectioncontents.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_6184991b3b",
+    "span_index": 38,
+    "text": "MessageType CorrectionContent\n1 Satellitemask\n2 Satelliteorbitcorrectionanduserrangeaccuracy\n3 Differentialcodebias\n4 Satelliteclockcorrection\n5 Userrangeaccuracyindex\n6 Clockcorrectionandorbitcorrection–combination1\n7 Clockcorrectionandorbitcorrection–combination2\n8–62 Reserved\n63 Null\nInthiscontribution,wecarryoutaninitialassessmentoftheBDSPPP-B2bservice\nbased on the collected 3-day message data.",
+    "char_length": 401
+  },
+  {
+    "quote_id": "qb_c75755ebbf",
+    "span_index": 39,
+    "text": "At first, the availability of PPP-B2b mes-\nsagesisanalyzed.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_a214078c5b",
+    "span_index": 40,
+    "text": "Then,theprecisionofPPP-B2borbitcorrectionandclockcorrections\nareevaluatedwiththefinalprecisemulti-GNSSephemerisproductsobtainedfromthe\nGeoForschungsZentrum Potsdam (GFZ) analysis center as references.",
+    "char_length": 200
+  },
+  {
+    "quote_id": "qb_2cff6846fb",
+    "span_index": 41,
+    "text": "Finally, the PPP\npositioningperformanceinbothstaticandkinematicmodeisassessed,basedontheobser-\nvationsfrom4internationalGNSSmonitoringassessmentservice(iGMAS)stations[31].",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_84fa0e812c",
+    "span_index": 42,
+    "text": "Theremainingcontributionisorganizedasfollows.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_dfccefe8a2",
+    "span_index": 43,
+    "text": "InSection2,themethodtorecover\npreciseorbitsandclockoffsetsfromthePPP-B2bmessagesisdescribed.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_2564c5ad40",
+    "span_index": 44,
+    "text": "Inaddition,the\nstrategytoevaluatetheprecisionofPPP-B2borbits/clockoffsets,andpositioningperfor-\nmancewiththerecoveredPPP-B2borbits/clockoffsets,arealsointroduced.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_c2f295fa6a",
+    "span_index": 45,
+    "text": "InSection3,\ntheprecisionoftherecoveredPPP-B2borbits/clockoffsetsareassessed,withGFZprecise\nephemerisasreference.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_6e0c6f73c6",
+    "span_index": 46,
+    "text": "Atthesametime,thepositioningperformanceisanalyzedbothin\nstaticandkinematicexperiments.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_3ff53155bf",
+    "span_index": 47,
+    "text": "Finally,severalconclusionsaredrawninthelastsection.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_01168d2e09",
+    "span_index": 48,
+    "text": "RemoteSens.2021,13,2050 3of19\n2.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_ef3e7667b2",
+    "span_index": 49,
+    "text": "Methodology\nInthissection,firstly,themethodtocalculatepreciseorbitsandclockoffsetsbyusing\nPPP-B2bcorrectionsispresented.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_a565103b0e",
+    "span_index": 50,
+    "text": "Then,themethodtoevaluatetheprecisionofPPP-B2b\norbits and clock offsets is discussed.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_d7fdd992e4",
+    "span_index": 51,
+    "text": "Finally, the PPP positioning model, based on the\nrecoveredPPP-B2borbitsandclockoffsets,isdescribed.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_2721268e32",
+    "span_index": 52,
+    "text": "RecoveryofPreciseOrbitsandClockOffsetswithPPP-B2bCorrections\nThePPP-B2borbitcorrectionmessagecontainstheorbitcorrectionparameters(δO ,\nradial\nδO , δO )intheradial,along-track,andcross-trackdirections[30],whilethesatellite\nalong cross\npositionscomputedwithbroadcastephemerisaregiveninthe“Earth-centerEarth-fixed”\n(ECEF)frame.",
+    "char_length": 324
+  },
+  {
+    "quote_id": "qb_a316a4b807",
+    "span_index": 53,
+    "text": "Hence,theorbitcorrectionsshouldbetransformedtotheECEFframe.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_bd5ba6569c",
+    "span_index": 54,
+    "text": "This\ntransformationcanbeexpressedas:\n   \nδO δO\nx radial\n(cid:2) (cid:3)\n δO y  = e radial e along e cross · δO along  (1)\nδO\nz\nδO\ncross\n(cid:2) (cid:3)T\nwhere δO δO δO representstheorbitcorrectionvectorintheECEFframe,and:\nx y z\n\n\ne\ne radia\n=\nl =\nr×\n| r r|\nr .",
+    "char_length": 271
+  },
+  {
+    "quote_id": "qb_1eb5d66f4e",
+    "span_index": 55,
+    "text": "cross |r×r .|\n\ne =e ×e\nalong cross radial\n.",
+    "char_length": 46
+  },
+  {
+    "quote_id": "qb_3759fb0961",
+    "span_index": 56,
+    "text": "rdenotesthesatellitepositionvectorandrstandsforthevelocityvector;botharecomputed\nwithbroadcastephemeris.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_c40aa24796",
+    "span_index": 57,
+    "text": "Byapplyingthesatelliteorbitcorrectiontobroadcastsatellite\npositions,theprecisesatellitepositionscanbecalculatedasfollows:\n     \nX X δO\nx\n Y  =  Y  − δO y  (2)\nZ Z δO\nprec,B2b brdc z\n(cid:2) (cid:3)T\nwhere X Y Z denotestheprecisesatellitepositionvectorafterapplyingPPP-\nprec,B2b\n(cid:2) (cid:3)T\nB2borbitcorrectionstothebroadcastorbits;and X Y Z representsthesatellite\nbrdc\npositionvectorcalculatedwiththebroadcastephemeris.",
+    "char_length": 435
+  },
+  {
+    "quote_id": "qb_5b0b770492",
+    "span_index": 58,
+    "text": "ItshouldbenotedthatIODNin\nthePPP-B2bmessagemustmatchwiththecorrespondingfieldofbroadcastephemerisin\nrecoveringapreciseorbit.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_75fddc0371",
+    "span_index": 59,
+    "text": "ThePPP-B2bclockcorrectionmessagecontainsthecorrectionparameterrelativetothe\nclockoffsetofbroadcastephemeris.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_fa1990f313",
+    "span_index": 60,
+    "text": "Thecorrectedprecisesatelliteclockoffsetisgivenby:\nC\ndtsat = dtsat − 0 (3)\nprec,B2b brdc c\nwhere dtsat is the satellite clock offset derived from the broadcast ephemeris; dtsat\nbrdc prec,B2b\ndenotestheprecisePPP-B2bclockoffset;C isthePPP-B2bclockcorrectionparameter;and\n0\ncisthevelocityoflight.",
+    "char_length": 293
+  },
+  {
+    "quote_id": "qb_2b9d0cc1e4",
+    "span_index": 61,
+    "text": "AssessmentoftheRecoveredPPP-B2bOrbitsandClockOffsets\nThepreciseorbitsrecoveredwithPPP-B2bmessagesarereferredtotheantennaphase\ncenter(APC),whiletheIGSpreciseproductsgivethecenter-of-mass(CoM)ofsatellites[32].",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_e9a8bf2fda",
+    "span_index": 62,
+    "text": "Therefore,thesatelliteAPCpositionsneedtobeconvertedtothesatelliteCoMpositions",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_d8b8c24f62",
+    "span_index": 63,
+    "text": "RemoteSens.2021,13,2050 4of19\nbyapplyingphasecenteroffset(PCO)corrections[33].",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_30d3255ddf",
+    "span_index": 64,
+    "text": "Nowtheorbitdifferencescanbe\ncomputedas:\n ∆X   X    X \n ∆Y  =   Y  +A·dr PCO   − Y  (4)\n∆Z Z Z\nprec,B2b prec,GFZ\nwhere (cid:2) ∆X ∆Y ∆Z (cid:3)T standsfortheorbiterrorvectorinECEFCartesiancoordinates;\nAdenotesthesatelliteattitudematrix;anddr representsthePCOcorrectionvectorfor\nPCO\n(cid:2) (cid:3)T\nthesatellite.",
+    "char_length": 329
+  },
+  {
+    "quote_id": "qb_90af0f07d1",
+    "span_index": 65,
+    "text": "X Y Z denotestheprecisepositionvector,calculatedwithGFZ\nprec,GFZ\nfinalproducts.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_9860394955",
+    "span_index": 66,
+    "text": "ThecalculatedorbiterrorscanbetransformedfromECEFCartesiancoordinatesto\nthesatelliteradial,along-trackandcross-trackdirections:\n ∆O   ∆X \nradial\n ∆O along  = (cid:2) e radial e along e cross (cid:3) · ∆Y  (5)\n∆O ∆Z\ncross\nwhere (cid:2) ∆O radial ∆O along ∆O cross (cid:3)T istheorbiterrorvectorinthesatelliteorbitalframe.",
+    "char_length": 327
+  },
+  {
+    "quote_id": "qb_d75f0b49d8",
+    "span_index": 67,
+    "text": "TheBDS-3PPP-B2bserviceadoptstheBeidoucoordinatesystem(BDCS)asareference\nframe[34],whilethepreciseproductsfromIGSarereferredtotheIGS14frame[35].",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_ed35394ccc",
+    "span_index": 68,
+    "text": "In\nordertoeliminatethedifferencebetweenthesetworeferenceframesmentionedabove,a\nHelmerttransformationshouldbeapplied.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_ec7e229111",
+    "span_index": 69,
+    "text": "Incontrasttoorbits,twodifferenttypesofclockoffsetproductscannotbecompared\ndirectly.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_f4f55e7dd2",
+    "span_index": 70,
+    "text": "ThisisduetodifferencesinhardwaredelaysandGNSS-specifictimescales.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_1d1305c043",
+    "span_index": 71,
+    "text": "The\nhardwaredelayiscausedbydifferenttrackingmodes.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_8be091c8f6",
+    "span_index": 72,
+    "text": "Torealizethesynchronousprocess-\ningatdifferenttrackingmodes,acorrespondingdifferentialcodebias(DCB)correction\nneedstobeapplied.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_784c02f0a5",
+    "span_index": 73,
+    "text": "Thecorrectionalgorithmformulaisshownbelow[30]:\n(cid:101)l\nsig\n= l\nsig\n−DCB\nsig\n(6)\nwhere(cid:101)l\nsig\nisthevalueofsigsignal;l\nsig\nrepresentstheobservedclockoffset;and DCB\nsig\ndenotestherelatedDCBvalue.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_8311a1e984",
+    "span_index": 74,
+    "text": "AftertheapplicationofDCBs,thedifferencesbetweentheGNSS-specifictime-scales\nmustalsobeeliminated[36].",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_b82dac3951",
+    "span_index": 75,
+    "text": "Typically,adouble-differencemethodisusedtoremovethis\nbias[37].",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_fe37274e28",
+    "span_index": 76,
+    "text": "Inthedouble-differencemethod,areferencesatelliteclockischosenfromthe\nrecoveredPPP-B2bpreciseclockoffsets,andthesingle-differencebetweenthereference\nclock and other satellite clocks can be formed.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_8b4e96f17e",
+    "span_index": 77,
+    "text": "The same single-differences can also be\nobtainedbyusingIGSpreciseclockoffsets.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_876458fde3",
+    "span_index": 78,
+    "text": "Then,thecorrespondingdouble-difference\nvaluescanbeformedwiththesamesingle-differencepair.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_bcba21bcea",
+    "span_index": 79,
+    "text": "Thedouble-differenceclock\noffsetcanbeexpressedas:\n(cid:16) (cid:17)\n∇∆dtsat = dtsat −dt refsat − dtsat −dt refsat (7)\nB2b,GFZ prec,B2b prec,B2b prec,GFZ prec,GFZ\nwhere∇∆isadouble-difference(DD)operator.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_1a42cf018e",
+    "span_index": 80,
+    "text": "PPPPositioningwiththeRecoveredPPP-B2bOrbitsandClocks\nTheGNSScodeandphaseobservationsattheithfrequencyreadas[38,39]:\n\n P\ni\n= ρ+c·δt\nr\n−c·δts+T+ f\nf\n1\n2\n2 ·I\n1\n+B\nr,i\n−B\ni\ns+ε\nPi\ni (8)\n L\ni\n= ρ+c·δt\nr\n−c·δts+T− f\nf\n1 2\n2\n·I\n1\n+λ\ni\n(cid:0) N\ni\n+b\nr,i\n−b\ni\ns(cid:1) +ε\nLi\ni",
+    "char_length": 274
+  },
+  {
+    "quote_id": "qb_8aaf14d9a3",
+    "span_index": 81,
+    "text": "RemoteSens.2021,13,2050 5of19\nwhere P andL are raw code/phase observation; ρ represents the receiver-to-satellite\ni i\ngeometrydistance;cstandsforthespeedoflight;δt andδtsareclockoffsetsatthereceiver\nr\nandthesatellite,respectively;Tstandsforthetroposphericdelay; f isthefrequencyvalue;\ni\nI denotestheionosphericdelayforL ;λ isthewavelengthandN istheintegerambiguity;\n1 1 i i\nB andb representcode/phasebiasatthereceiver;Bs andbs denotecode/phasebiasat\nr,i r,i i i\nthesatellite;andε andε arecode/phaseunmodellederrors,includingthermalnoiseand\nPi Li\nmultipath.",
+    "char_length": 556
+  },
+  {
+    "quote_id": "qb_4720b39a89",
+    "span_index": 82,
+    "text": "Itisnotedthatexistingmodelsshouldbeappliedtocorrecttherelativisticeffect,\nSagnaceffect,Shapirotimedelay[40],phasewindupeffect[41]andsitedisplacements[42].",
+    "char_length": 154
+  },
+  {
+    "quote_id": "qb_92d340a22c",
+    "span_index": 83,
+    "text": "Usually, theionospheric-freecombinationisadoptedbyPPPtoeliminatethefirst-\norderionosphericdelay.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_d2d82ec82d",
+    "span_index": 84,
+    "text": "Thedual-frequencycode/phaseionospheric-freecombinations\ncanbeexpressedas:\n(cid:26) P = αP +(1−α)P = ρ+c·δt −c·δts+T+ε\nIF 1 2 r PIF (9)\nL = αL +(1−α)L = ρ+c·δt −c·δts+T+λ ·N +ε\nIF 1 2 r IF IF LIF\nwhereα = f2/ (cid:0) f2− f2 (cid:1) ;λ N = αλ (cid:0) N +b −bs(cid:1) +(1−α)λ (N +b −bs);ε =\n1 1 2 IF IF 1 1 r,1 1 2 2 r,2 2 PIF\nαε +(1−α)ε andε = αε +(1−α)ε .",
+    "char_length": 354
+  },
+  {
+    "quote_id": "qb_ab5e558679",
+    "span_index": 85,
+    "text": "Itiswellknownthatthetroposphericdelay\nP1 P2 LIF L1 L2\niscomposedofdryandwetcomponents.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_2253eebed7",
+    "span_index": 86,
+    "text": "TheSaastamoinenmodelcanbeusedtocorrect\nforthedrytroposphericdelay,whilethewettroposphericdelayisexpressedastheproduct\nofamappingfunction M andazenithwetdelayzwd,andthezenithwetdelaymustbe\nW\nestimatedduetoitsvolatility.",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_df74328e31",
+    "span_index": 87,
+    "text": "ByapplyingPPP-B2borbitsandclockoffsets,Equation(9)\ncanbelinearizedas:\n(cid:26)\np = −e·x+c·δt +M ·zwd+ε\nIF r W PIF (10)\nl = −e·x+c·δt +M ·zwd+λ ·N +ε\nIF r W IF IF LIF\nwhereedenotestheunitvectorinthereceiver-to-satellitedirection,andxisthereceiver\nposition increment.",
+    "char_length": 265
+  },
+  {
+    "quote_id": "qb_8e10c2d6e4",
+    "span_index": 88,
+    "text": "As we can see from this equation, the unknown parameters only\nremainthereceiverpositionincrementvectorx,thereceiverclockoffsetδt ,thezenithwet\nr\ndelayzwdandtheionosphere-freeambiguityλ N .",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_6fa7a4983a",
+    "span_index": 89,
+    "text": "ByadoptingaKalmanfilterscheme,\nIF IF\ntheunknownparameterscanbeexactlyestimated.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_adc84e64a4",
+    "span_index": 90,
+    "text": "Experiments,ResultsandDiscussion\nToevaluatetheprecisionoforbitandclockcorrectionsandPPPperformance,PPP-B2b\nmessagesovera3-dayperiodwerecollectedfrom5October2020to7October2020.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_326a77234a",
+    "span_index": 91,
+    "text": "The\ncollected PPP-B2b messages were broadcast from C59 and C60.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_8c608b8e8b",
+    "span_index": 92,
+    "text": "The PPP-B2b message\ntypes, as well as the corresponding sample rates and nominal validity time, over the\nselected3-dayperiodarelistedinTable2.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_cd1b570de7",
+    "span_index": 93,
+    "text": "Thereisonlyonemessagebroadcastpersecond.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_400697e25f",
+    "span_index": 94,
+    "text": "HencethetotalnumberofPPP-b2bmessagesisexpectedtobe86,400inonedayforeach\nGEOsatellite.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_292738277e",
+    "span_index": 95,
+    "text": "Wecountedthenumberofreceivedmessagesforeachmessagetype.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_1de3267b5e",
+    "span_index": 96,
+    "text": "The\npercentageofdifferentmessagetypesispresentedinFigure1.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_d43644f4c2",
+    "span_index": 97,
+    "text": "Therewerejust3epochs\nofPPP-B2bmessagesmissing,andonlyPPP-B2bcorrectionsofGPSandBDS-3satellites\nwerebroadcastduringtheselectedperiod.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_59f0041fab",
+    "span_index": 98,
+    "text": "Table2.ThePPP-B2bmessageinformation.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_1692b5c9b7",
+    "span_index": 99,
+    "text": "MessageType SampleRate(s) NominalValidity(s)\n1 48 –\n2 48 96\n3 48 86,400\n4 6 12\n63 – –",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_c3c63d8c7d",
+    "span_index": 100,
+    "text": "RemoteSens.2021,13,2050 6of19\nFigure1.ThepercentagesofdifferentPPP-b2bmessagetypes(5October2020to7October2020).",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_223d0a3f96",
+    "span_index": 101,
+    "text": "TwosetsofexperimentswerecarriedouttoassesstheBDSPPP-B2bservice.Firstly,the\nprecisionofPPP-B2borbitandclockcorrectionswasevaluatedbyusingpreciseproducts\nfromGFZ(GBM)asreferences.Secondly,thePPPtests,includingstaticmodeandkinematic\nmode,wereconductedtoassesspositioningperformance.",
+    "char_length": 279
+  },
+  {
+    "quote_id": "qb_5d96473433",
+    "span_index": 102,
+    "text": "AssessmentResultsofPPP-B2bOrbit/ClockCorrections\nTheavailabilityofBDS-3/GPSsatellites’PPP-B2borbitandclockoffsetcorrections\naredepictedinFigure2.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_7f4efd275b",
+    "span_index": 103,
+    "text": "BDSPPP-B2bservicecontains29GPSsatellitesand27BDS-3\nsatellitesduringtheperiodfrom5October2020to7October2020.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_21f1279b52",
+    "span_index": 104,
+    "text": "GBMpreciseorbit/clockproductsweredownloadedfromftp://ftp.gfz-potsdam.de/\nGNSS/products/mgex/on15December2020andusedasreferences.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_4247ac7e88",
+    "span_index": 105,
+    "text": "UptoOctober2020,\nGBMpreciseproductsincludeBDS-3satellitesofC19-C30,C32-C46,C60.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_6d41d88036",
+    "span_index": 106,
+    "text": "Theorbitand\nclockaccuracyforBDS-3MEOscouldreachcentimeter-level,andthatforBDS-3GEOs\nandIGSOsisatdecimeter-level[43].",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_ee1f359844",
+    "span_index": 107,
+    "text": "GiventhattheaccuracyofGBMorbits/clocksfor\nBDS-3GEOsandIGSOsisatdecimeter-level,weexcludedBDS-3GEOsandIGSOsfrom\ntheassessment.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_566c84e18c",
+    "span_index": 108,
+    "text": "ForGPSsatellites,theGBMproductsexhibitanorbit/clockaccuracyat\n2–3cm[44].",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_6abd875185",
+    "span_index": 109,
+    "text": "RemoteSens.2021,13,2050 7of19\nFigure2.TheavailabilityofPPP-B2borbit/clockcorrectionsforBDS-3/GPSsatellitesfrom5October\n2020to7October2020.",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_f18c41d38a",
+    "span_index": 110,
+    "text": "Firstly,werecoveredthePPP-B2bpreciseorbitsandclockoffsetsata30-ssampling\nrate by using PPP-B2b messages and broadcast ephemeris data.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_fe0e09f15d",
+    "span_index": 111,
+    "text": "At the same time, the\nGBMpreciseephemeriswereinterpolatedtothesamesampleaccordingtothealgorithm\ndescribedin[45].",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_70ba9606b3",
+    "span_index": 112,
+    "text": "ThesatellitePCOswerecorrectedaccordingtoEquation(4).",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_2a72f30e19",
+    "span_index": 113,
+    "text": "Considering\nthattherewasonlyathree-daydataarc,theHelmerttransformationparameters,obtained\nfromtheChinasatellitenavigationoffice(CSNO)[30],weredirectlyadoptedinsteadof\nestimated.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_9275895742",
+    "span_index": 114,
+    "text": "Theclockdifferencescausedbydifferentsignalswerealsocorrectedaccording\nto Equation (6).",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_e04b5d0e1b",
+    "span_index": 115,
+    "text": "Subsequently, the orbit/clock errors were calculated as described in\nSection2.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_7a7a894133",
+    "span_index": 116,
+    "text": "Theorbiterrorsinthedirectionofalong-track,cross-trackandradial,aswell\nastheclockoffseterrors,areshowninFigures3and4.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_8743018e8e",
+    "span_index": 117,
+    "text": "MostofthePPP-B2borbiterrors\narewithintherangeof±0.5m.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_650181befb",
+    "span_index": 118,
+    "text": "TheGPSsatellitesshowlargererrorsinthealong-track\ncomponentcomparedtothecross-track/radialcomponents.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_66bfabf1b1",
+    "span_index": 119,
+    "text": "ForBDS-3satellites,theerrors\ninthecross-trackcomponentseemtobelargerthanfortheothertwodirections.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_f5ba8905c6",
+    "span_index": 120,
+    "text": "RemoteSens.2021,13,2050 8of19\nFigure3.GPSPPP-B2borbitandclockerrorsfrom5October2020to7October2020.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_dbad11b87d",
+    "span_index": 121,
+    "text": "RemoteSens.2021,13,2050 9of19\nFigure4.BDSPPP-B2borbitandclockerrorsfrom5October2020to7October2020.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_400eee5a72",
+    "span_index": 122,
+    "text": "Therootmeansquare(RMS)ofPPP-B2borbiterrorswascountedtoassessthepreci-\nsionofPPP-B2bpreciseorbitcorrections.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_c93883846a",
+    "span_index": 123,
+    "text": "Consideringthatacommonconstantofclock\noffseterrorscanbeabsorbedintothereceiverclockoffsetparameter,thestandarddevia-\ntion(STD)ofPPP-B2bpreciseclockoffseterrorswasadoptedtoevaluatetheprecisionof\nPPP-B2bclockoffsetcorrections.",
+    "char_length": 224
+  },
+  {
+    "quote_id": "qb_8f7e0d1a85",
+    "span_index": 124,
+    "text": "Figures5and6showtheRMSvaluesofPPP-B2borbit\nerrors,andtheSTDvalueofPPP-B2bclockoffseterrorsoveraperiodof3days.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_5d14be0aac",
+    "span_index": 125,
+    "text": "Table3fur-\ntherpresentstheaverageRMSvaluesoforbiterrorsinthealong-track/cross-track/radial\ncomponents,andtheaverageSTDvaluesofclockoffseterrors.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_f596fabd6d",
+    "span_index": 126,
+    "text": "Ingeneral,theaccuracy",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_507d38a04f",
+    "span_index": 127,
+    "text": "RemoteSens.2021,13,2050 10of19\nofthePPP-B2borbitscanreachdecimeterlevelforGPSsatellitesandBDS-3MEOs.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_e4b0d467c5",
+    "span_index": 128,
+    "text": "The\naccuracyofthePPP-B2bclockoffsetsisbetterthan3.0cm.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_c4012737a7",
+    "span_index": 129,
+    "text": "Figure5.RMSvaluesofGPSPPP-B2borbiterrorsandSTDvaluesofclockerrors.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_99053c32e1",
+    "span_index": 130,
+    "text": "Figure6.RMSvaluesofBDSPPP-B2borbiterrorsandSTDvaluesofclockerrors.",
+    "char_length": 66
+  },
+  {
+    "quote_id": "qb_99e8c20624",
+    "span_index": 131,
+    "text": "Table3.TheaverageSTDandRMSofBDS-3/GPSPPP-B2borbitsandclockerrors(unit:cm).",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_e6c963ac62",
+    "span_index": 132,
+    "text": "RMS-A1 RMS-C2 RMS-R3 STD-CLK4\nGPS 16.0 13.4 10.4 2.7\nBDS 13.1 14.5 13.8 2.2\n1RMS-AdenotestheaverageRMSvalueoforbiterrorsinthedirectionofalong-track.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_8a40cb359d",
+    "span_index": 133,
+    "text": "2RMS-Cdenotesthe\naverageRMSvalueoforbiterrorsinthedirectionofcross-track.3RMS-RdenotestheaverageRMSvalueoforbit\nerrorsinthedirectionofradial.4STD-CLKstandsfortheaverageSTDvalueofclockoffseterrors.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_1ee217d79c",
+    "span_index": 134,
+    "text": "PPPTests\nTo investigate the positioning performance with the PPP-B2b service, PPP tests in\nstatic and kinematic mode were carried out.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_d7d743941b",
+    "span_index": 135,
+    "text": "For comparison, the static and kinematic",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_8e0208f375",
+    "span_index": 136,
+    "text": "RemoteSens.2021,13,2050 11of19\nPPP solutions were also obtained by using GBM products.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_beaf74da26",
+    "span_index": 137,
+    "text": "We collected BDS-3/GPS\nobservations from 4 iGMAS stations.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_854196aa5a",
+    "span_index": 138,
+    "text": "The geographical distribution of the 4 selected\niGMASstations,locatedbetween20◦N–40◦Nand100◦E–130◦E,isshowninFigure7.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_8d6b158cf5",
+    "span_index": 139,
+    "text": "The\ndailyobservationfilesweresplitinto4-hsessions,andthePPPprocessingwasrestarted\nevery4h.Oncethedataoutagewaslargerthan1min,thecorresponding4-hsessionwould\nnotbeprocessed.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_9038e6efa4",
+    "span_index": 140,
+    "text": "Table4summarizedourPPPprocessingstrategies.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_a0d41ecdd8",
+    "span_index": 141,
+    "text": "Noticethatkinematic\nPPPwassimulatedbyestimatingpositionsindependentlyepoch-by-epoch,whichissimilar\ntotheestimationofthepositioninthekinematicPPPmode.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_dfcfa08662",
+    "span_index": 142,
+    "text": "Thecoordinatesobtained\nfromtheiGMASweeklySINEXsolutionfilewereusedasreferences[46].",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_4b1947eab4",
+    "span_index": 143,
+    "text": "Figure7.Locationof4selectediGMASstations.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_7c49d5ca2d",
+    "span_index": 144,
+    "text": "Table4.StrategiesofPPPprocessing.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_fc7df2a678",
+    "span_index": 145,
+    "text": "Item Models/Strategies\nGNSSSystem GPSandBDS-3\nSignalselection GPS:L1/L2andBDS-3:B1C/B2a\nObservables Dual-frequencycode/phaseionosphere-freecombinations\nSamplingrate 30s\nCutoffelevation 10◦\nRawcode:0.5minzenithdirection\nObservablenoise\nRawphase:0.005minzenithdirection\nWeightmethod Elevationdependentweight[38]\nPhasewindup Corrected[41]\nRelativisticeffect Corrected[40]\nSagnaceffect Corrected[40]\nShapirotimedelay Corrected[40]\nSolidtide,oceanloadingandpoletidewerecorrectedaccording\nTidaleffect\ntoIERSConventions2010[42]\nZenithdrydelay:correctedwithSaastamoinenmodel,while\nmeteorologicalparameterswerecalculatedbyapplyingglobal\npressureandtemperature(GPT)model[47]\nTroposphere\nZenithwetdelay:estimatedforeachepochasarandomwalk\nnoisewithaprocessnoiseof2cm/sqrt(h)\nMappingfunction:globalmappingfunction(GMF)[48]\nPhaseAmbiguity Estimatedasafloatconstantforeachambiguityarc\nEstimator Kalmanfilter",
+    "char_length": 892
+  },
+  {
+    "quote_id": "qb_e7cca2f555",
+    "span_index": 146,
+    "text": "RemoteSens.2021,13,2050 12of19\n3.2.1.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_46cf412091",
+    "span_index": 147,
+    "text": "StaticMode\nTheRMSvaluesofpositioningerrorsofthefinal10minwerecountedtoassessthe\npositioningaccuracyinthestaticmode.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_e7554cfb68",
+    "span_index": 148,
+    "text": "Figures8–11showthePPPpositioningaccuracy\natthestationsofBJF1,KUN1,SHA1,andWUH1.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_f140996d7e",
+    "span_index": 149,
+    "text": "Amongthesefigures,severalsessions‘\npositioningaccuracyarenotprovidedbecauseoftheGNSSdataoutage.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_2c2bbad6c5",
+    "span_index": 150,
+    "text": "Ingeneral,the\nstaticPPPperformancewiththePPP-B2bserviceisslightlyworsethanthatwithGBM\nproducts.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_daf27dbbff",
+    "span_index": 151,
+    "text": "ThepositioningaccuracywiththePPP-B2bserviceinthenorthcomponentis\nbetterthanthoseintheeast/upcomponents.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_1e49c1b58b",
+    "span_index": 152,
+    "text": "ThepositioningaccuracywiththePPP-B2b\nserviceinthenorthcomponentisbetterthan3.5cm,whileapositioningaccuracyofbetter\nthan4.5cmcanbeachievedinthenorth/upcomponents.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_ece3e31d9d",
+    "span_index": 153,
+    "text": "Thepositioningaccuracywith\nthe PPP-B2b service of all sessions is at the centimeter level.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_8ebccfdd98",
+    "span_index": 154,
+    "text": "The positioning accuracy\nwithGBMproductsisbetterthan3.5cmintheeast/north/upcomponents.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_e2611003fa",
+    "span_index": 155,
+    "text": "Forallfour\nstations,theaveragepositioningaccuracywithPPP-B2bservicevariesby2.5–3.1cmin\nthehorizontalcomponent,and1.9–2.5cmintheverticalcomponent.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_e1aee17ae6",
+    "span_index": 156,
+    "text": "Whiletheaverage\npositioningaccuracywithGBMproductsvariesby1.5–1.8cminthehorizontal,and1.1–1.6\ncmintheverticaldirection.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_65df718eba",
+    "span_index": 157,
+    "text": "ThedetailedstatisticsarepresentedinTable5.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_7b05bcf2a0",
+    "span_index": 158,
+    "text": "Table5.Theaveragepositioningaccuracyatthefourstations(unit:cm).",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_766b0db32f",
+    "span_index": 159,
+    "text": "PPP-B2bService GBMProducts\nE1 N2 U3 H4 3D5 E1 N2 U3 H4 3D5\nBJF1 2.2 1.8 2.4 2.8 3.7 1.1 1.4 1.3 1.8 2.2\nKUN1 2.1 1.3 2.2 2.5 3.3 1.1 1.0 1.1 1.5 1.9\nSHA1 2.7 1.4 2.5 3.0 3.9 1.2 1.1 1.6 1.6 2.3\nWUH1 2.4 1.8 1.9 3.0 3.6 1.0 1.4 1.5 1.7 2.3\n1E/2N/3UStandsforthedirectionsofeast,northandup;4H/53Ddenotehorizontaland3-dimensional.",
+    "char_length": 326
+  },
+  {
+    "quote_id": "qb_9a006bbc05",
+    "span_index": 160,
+    "text": "Figure8.PositioningaccuracyofstaticPPPwithdifferentdatasessionsatWUH1station.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_4ce732fc69",
+    "span_index": 161,
+    "text": "RemoteSens.2021,13,2050 13of19\nFigure9.PositioningaccuracyofstaticPPPwithdifferentdatasessionsatBJF1station.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_8994bb8b84",
+    "span_index": 162,
+    "text": "Figure10.PositioningaccuracyofstaticPPPwithdifferentdatasessionsatKUN1station.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_19ebe1c5c4",
+    "span_index": 163,
+    "text": "RemoteSens.2021,13,2050 14of19\nFigure11.PositioningaccuracyofstaticPPPwithdifferentdatasessionsatSHA1station.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_17accdef00",
+    "span_index": 164,
+    "text": "Convergencetime(CT)isalsoacrucialfactortoassessthestaticPPPperformance.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_c6c5cecb5a",
+    "span_index": 165,
+    "text": "As\ndescribedintheofficialdocument[7],thepositioningperformancewithPPP-B2bservice\nis better than 30 cm in the horizontal component and better than 60 cm in the vertical\ncomponent with a confidence level of 95%.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_4648149348",
+    "span_index": 166,
+    "text": "Hence, the convergence time was defined\ntoachievethehorizontalpositioningaccuracybetterthan30cm,theverticalpositioning\naccuracybetterthan60cm,andkeepsuchapositioningaccuracyatleast5mininthispaper.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_9a8b53b8e5",
+    "span_index": 167,
+    "text": "TheconvergencetimeofstaticPPPateachiGMASstationisshowninFigure12.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_d5032093b6",
+    "span_index": 168,
+    "text": "Asvisible,\ntheconvergencetimewithPPP-B2bserviceis18.0/17.0/18.8/16.9minat4iGMASstations.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_b9556a29bf",
+    "span_index": 169,
+    "text": "WhenGBMproductsareused,theconvergencetimeis8.2/11.8/10.6/9.8min,respectively.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_426d9e54f4",
+    "span_index": 170,
+    "text": "Figure12.ConvergencetimeofstaticPPPatdifferentdatasessions.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_0c10015219",
+    "span_index": 171,
+    "text": "RemoteSens.2021,13,2050 15of19\n3.2.2.",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_a09908d5ae",
+    "span_index": 172,
+    "text": "KinematicMode\nThekinematicPPPpositioningerrorsatthestationsofBJF1,KUN1,SHA1andWUH1\narepresentedinFigures13–16,respectively.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_556993d40d",
+    "span_index": 173,
+    "text": "Similarly,thereisalsoalackofsomesessions‘\npositioningresults,duetoGNSSdataoutage.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_9c67f0734f",
+    "span_index": 174,
+    "text": "Onecanseethatthepositioningaccuracy\nwiththePPP-B2bserviceintheeast/north/upcomponentsisallwithinonedecimeter\nafterconvergence.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_e9d9a404dc",
+    "span_index": 175,
+    "text": "Figure13.KinematicPPPpositioningerrorsattheBJF1station(toppanelforPPP-B2bandbottom\npanelforGBM).",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_380e350fb1",
+    "span_index": 176,
+    "text": "Figure14.KinematicPPPpositioningerrorsattheKUN1station(toppanelforPPP-B2bandbottom\npanelforGBM).",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_3f0f4d2fd5",
+    "span_index": 177,
+    "text": "RemoteSens.2021,13,2050 16of19\nFigure15.KinematicPPPpositioningerrorsattheSHA1station(toppanelforPPP-B2bandbottom\npanelforGBM).",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_5331ffff5c",
+    "span_index": 178,
+    "text": "Figure16.KinematicPPPpositioningerrorsattheWUH1station(toppanelforPPP-B2bandbottom\npanelforGBM).",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_5e0198b242",
+    "span_index": 179,
+    "text": "TheRMSvaluesofpositioningerrorswerecountedfor4iGMASstations,andthe\nresultsarepresentedinTable6.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_f282275e72",
+    "span_index": 180,
+    "text": "Itshouldbenotedthatthepositioningerrorsofthefirst\n30 min at each session have been removed, in order to exclude the positioning results\nbeforefullconvergence.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_9d1eb37889",
+    "span_index": 181,
+    "text": "Forbothtypesofproducts,thepositioningaccuracyinthenorth\ncomponentisapparentlybetterthanthoseintheothertwocomponents.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_faec729e6f",
+    "span_index": 182,
+    "text": "IntermofPPP\nperformancewiththePPP-B2bservice,thehorizontalpositioningaccuracyrangesfrom8.0\nto9.6cm,withanaveragevalueof8.9cm,andthe3-dimensionalpositioningaccuracyis\nallwithin13cm,withanaveragevalueof11.8cm.",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_53d4a808ba",
+    "span_index": 183,
+    "text": "WhenusingtheGBMproducts,the\naveragehorizontalpositioningaccuracycanreach4.2cm,andtheaverage3-dimensional\npositioningaccuracyis5.7cm.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_6c020cdc9c",
+    "span_index": 184,
+    "text": "RemoteSens.2021,13,2050 17of19\nTable6.ThepositioningaccuracyofkinematicPPPatallfourstations(unit:cm).",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_e61769d11a",
+    "span_index": 185,
+    "text": "PPP-B2bService GBMProducts\nE N U H 3D E N U H 3D\nBJF1 8.0 3.8 8.6 8.8 12.3 3.3 2.5 3.5 4.1 5.4\nKUN1 9.2 3.1 8.3 9.6 12.7 3.9 1.5 4.3 4.2 6.0\nSHA1 7.1 3.6 7.5 8.0 10.9 3.5 2.4 4.5 4.2 6.2\nWUH1 8.1 4.0 7.5 9.0 11.3 3.4 2.2 3.0 4.1 5.0\n4.",
+    "char_length": 235
+  },
+  {
+    "quote_id": "qb_f05892d036",
+    "span_index": 186,
+    "text": "Conclusions\nAtpresent,thePPP-B2bserviceisavailableforusersinandaroundChina.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_4761f1189d",
+    "span_index": 187,
+    "text": "Inthis\nstudy, an initial assessment of the BDS PPP-B2b service was carried out based on the\ncollected3-daydata.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_389a979caf",
+    "span_index": 188,
+    "text": "Firstly,theavailabilityofPPP-B2bmessageswasanalyzed.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_f3bb265ebb",
+    "span_index": 189,
+    "text": "ThePPP-\nB2bserviceonlyprovidedthesatelliteorbitcorrection,clockcorrection,anddifferential\ncode bias of BDS-3/GPS.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_bbed9b35b2",
+    "span_index": 190,
+    "text": "The availability of PPP-B2b messages was near to 100%; the\nmissingnumberofPPP-B2bmessageswasonly3epochsduringthe3-dayperiod.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_89b446d824",
+    "span_index": 191,
+    "text": "With\nGBMpreciseephemerisproductsasreferences,theprecisionofPPP-B2borbitandclock\ncorrections were evaluated.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_cf26dece2d",
+    "span_index": 192,
+    "text": "The accuracy of PPP-B2b orbits in the direction of radial\nalong-trackandcross-trackwere0.104/0.169/0.134mforGPS.Thecorrespondingaccuracy\nobtainedforBDS-3MEOswas0.138/0.131/0.145m.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_0a6cfccf62",
+    "span_index": 193,
+    "text": "Generally,thestandarddeviationof\nB2bclockoffsetswasbetterthan3.0cm.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_f01d5847f8",
+    "span_index": 194,
+    "text": "PPPtests,bothinstaticandkinematicmode,werealsoconductedtofurtherevaluate\nthepositioningperformanceofthePPP-B2bservice.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_eab79347e8",
+    "span_index": 195,
+    "text": "RegardingstaticPPP,theconvergence\ntimewasabout17.7min, andtheaveragepositioningaccuracyinthedirectionofeast,\nnorth and up were 2.4/1.6/2.3 cm, respectively.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_22fdae9a6a",
+    "span_index": 196,
+    "text": "As for simulated kinematic PPP, the\naverage positioning accuracies were 8.1/3.6/8.0 cm in the east/north/up components,\nrespectively.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_4b10bfec88",
+    "span_index": 197,
+    "text": "TheresultsofPPPtestsdemonstratedthatthepositioningaccuracycould\nreach centimeter-level for static applications, and decimeter-level positioning accuracy\ncouldbeachievedforkinematicapplications.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_71b5a3f191",
+    "span_index": 198,
+    "text": "AuthorContributions: Conceptualization,Z.N.andZ.W.;methodology,Z.N.andX.X.;software,\nZ.N.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_2973490b65",
+    "span_index": 199,
+    "text": "and X.X.; validation, X.X.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_17dacc5885",
+    "span_index": 200,
+    "text": "and J.D.; formal analysis, X.X.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_d1a82e6ba2",
+    "span_index": 201,
+    "text": "and J.D.; writing—original draft\npreparation,X.X.;writing—reviewandediting,Z.N.;visualization,X.X.andJ.D.;supervision,Z.W.;\nprojectadministration,Z.W.;fundingacquisition,Z.NandZ.W.Allauthorshavereadandagreedto\nthepublishedversionofthemanuscript.",
+    "char_length": 245
+  },
+  {
+    "quote_id": "qb_51bc705948",
+    "span_index": 202,
+    "text": "Funding: This study was funded by the National Key Research and Development Program of\nChina (Nos.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_831cfc89a3",
+    "span_index": 203,
+    "text": "2019YFC1509205, 2019YFC1509204), China Postdoctoral Science Foundation (No.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_e2c11a9ee9",
+    "span_index": 204,
+    "text": "2020M672168),theFundamentalResearchFundsfortheCentralUniversities(No.20CX06044A)and\nQingdaoPostdoctoralApplicationResearchProject(No.QDYY20190077).",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_0eb8fdbf6a",
+    "span_index": 205,
+    "text": "InstitutionalReviewBoardStatement:Notapplicable.",
+    "char_length": 48
+  },
+  {
+    "quote_id": "qb_9b5e8b0a37",
+    "span_index": 206,
+    "text": "InformedConsentStatement:Notapplicable.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_93cfe74b45",
+    "span_index": 207,
+    "text": "DataAvailabilityStatement: ThedatasetsanalyzedinthisstudyaremanagedbytheCollegeof\nOceanographyandSpaceInformatics,ChinaUniversityofPetroleum,Qingdao,Chinaandcanbe\navailableonrequestfromthecorrespondingauthor.",
+    "char_length": 208
+  },
+  {
+    "quote_id": "qb_fff31d1e3b",
+    "span_index": 208,
+    "text": "Acknowledgments:WegreatlyappreciateiGMASandGFZforprovidingmulti-GNSSobservation\ndataandproducts.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_fc3ddd2386",
+    "span_index": 209,
+    "text": "ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_a6bbc51a32",
+    "span_index": 210,
+    "text": "Yang,Y.;Li,J.;Xu,J.;Tang,J.;Guo,H.;He,H.ContributionoftheCompasssatellitenavigationsystemtoglobalPNTusers.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_b54207945d",
+    "span_index": 211,
+    "text": "Chin.Sci.Bull.2011,56,2813–2819.[CrossRef]\n2.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_e3125fd396",
+    "span_index": 212,
+    "text": "ChinaSatelliteNavigationOffice.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_511a0edab6",
+    "span_index": 213,
+    "text": "DevelopmentoftheBeiDouNavigationSatelliteSystem(Version4.0).",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_074c1d0d7e",
+    "span_index": 214,
+    "text": "Availableonline:\nhttp://www.beidou.gov.cn/xt/gfxz/201912/P020191227430565455478.pdf(accessedon30September2020).",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_11fe9468a6",
+    "span_index": 215,
+    "text": "RemoteSens.2021,13,2050 18of19\n3.",
+    "char_length": 33
+  },
+  {
+    "quote_id": "qb_83346bd1fb",
+    "span_index": 216,
+    "text": "ChinaSatelliteNavigationOffice.China’sBeiDouNavigationSatelliteSystem.Availableonline:http://www.beidou.gov.cn/xt/\ngfxz/201712/P020171221333863515306.pdf(accessedon30September2020).",
+    "char_length": 181
+  },
+  {
+    "quote_id": "qb_f964703b25",
+    "span_index": 217,
+    "text": "Yang,Y.;Li,J.;Wang,A.;Xu,J.;He,H.;Guo,H.;Shen,J.;Dai,X.Preliminaryassessmentofthenavigationandpositioning\nperformanceofBeiDouregionalnavigationsatellitesystem.Sci.ChinaEarthSci.2014,57,144–152.[CrossRef]\n5.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_cdffc8496b",
+    "span_index": 218,
+    "text": "Li,X.; Li,X.; Liu,G.; Yuan,Y.; Freeshah,M.; Zhang,K.; Zhou,F.BDSmulti-frequencyPPPambiguityresolutionwithnew\nB2a/B2b/B2a+bsignalsandlegacyB1I/B3Isignals.J.Geod.2020,94,1–15.[CrossRef]\n6.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_d3200914ae",
+    "span_index": 219,
+    "text": "Yang,Y.;Mao,Y.;Sun,B.BasicperformanceandfuturedevelopmentsofBeiDouglobalnavigationsatellitesystem.Satell.Navig.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_967eb2e10e",
+    "span_index": 220,
+    "text": "2020,1,1–8.[CrossRef]\n7.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_4471c29a43",
+    "span_index": 221,
+    "text": "ChinaSatelliteNavigationOffice.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_e990e2da5b",
+    "span_index": 222,
+    "text": "TheApplicationServiceArchitectureofBeiDouNavigationSatelliteSystem(Version1.0).",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_f7bff460e0",
+    "span_index": 223,
+    "text": "Availableonline:http://www.beidou.gov.cn/xt/gfxz/201912/P020191227333024390305.pdf(accessedon30September2020).",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_07d346300b",
+    "span_index": 224,
+    "text": "Zumberge,J.F.;Heflin,M.B.;Jefferson,D.C.;Watkins,M.M.;Webb,F.H.Precisepointpositioningfortheefficientandrobust\nanalysisofGPSdatafromlargenetworks.J.Geophys.Res.SolidEarth1997,102,5005–5017.[CrossRef]\n9.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_bb35e0a423",
+    "span_index": 225,
+    "text": "Kouba,J.;Héroux,P.PrecisePointPositioningUsingIGSOrbitandClockProducts.GPSSolut.2001,5,12–28.[CrossRef]\n10.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_9902787fa5",
+    "span_index": 226,
+    "text": "Zhang,B.;Chen,Y.;Yuan,Y.PPP-RTKbasedonundifferencedanduncombinedobservations:Theoreticalandpracticalaspects.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_4bdd0bcbaf",
+    "span_index": 227,
+    "text": "J.Geod.2019,93,1011–1024.[CrossRef]\n11.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_e2c8e6a5b0",
+    "span_index": 228,
+    "text": "Geng,J.;Teferle,F.N.;Meng,X.;Dodson,A.H.Kinematicprecisepointpositioningatremotemarineplatforms.GPSSolut.2010,\n14,343–350.[CrossRef]\n12.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_c167ced714",
+    "span_index": 229,
+    "text": "Alkan,R.M.;Saka,M.H.;Ozulu,M.;I˙lçi,V.KinematicprecisepointpositioningusingGPSandGLONASSmeasurementsin\nmarineenvironments.Measurement2017,109,36–43.[CrossRef]\n13.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_04c668e437",
+    "span_index": 230,
+    "text": "Nie,Z.;Wang,B.;Wang,Z.;He,K.Anoffshorereal-timeprecisepointpositioningtechniquebasedonasinglesetofBeiDou\nshort-messagecommunicationdevices.J.Geod.2020,94,1–11.[CrossRef]\n14.",
+    "char_length": 173
+  },
+  {
+    "quote_id": "qb_7a8261a3df",
+    "span_index": 231,
+    "text": "Rocken,C.;Johnson,J.;VanHove,T.;Iwabuchi,T.Atmosphericwatervaporandgeoidmeasurementsintheopenoceanwith\nGPS.Geophys.Res.Lett.2005,32,1–3.[CrossRef]\n15.",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_a99bd17f55",
+    "span_index": 232,
+    "text": "Xu,P.;Shi,C.;Fang,R.;Liu,J.;Niu,X.;Zhang,Q.;Yanagidani,T.High-rateprecisepointpositioning(PPP)tomeasureseismic\nwavemotions:AnexperimentalcomparisonofGPSPPPwithinertialmeasurementunits.J.Geod.2013,87,361–372.[CrossRef]\n16.",
+    "char_length": 221
+  },
+  {
+    "quote_id": "qb_11c8197e9e",
+    "span_index": 233,
+    "text": "Yigit,C.O.;Gurlek,E.Experimentaltestingofhigh-rateGNSSprecisepointpositioning(PPP)methodfordetectingdynamic\nverticaldisplacementresponseofengineeringstructures.Geomat.Nat.HazardsRisk2017,8,893–904.[CrossRef]\n17.",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_9246cd5bc9",
+    "span_index": 234,
+    "text": "Li,X.;Zus,F.;Lu,C.;Ning,T.;Dick,G.;Ge,M.;Wickert,J.;Schuh,H.Retrievinghigh-resolutiontroposphericgradientsfrom\nmulticonstellationGNSSobservations.Geophys.Res.Lett.2015,42,4173–4181.[CrossRef]\n18.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_3dcee63e64",
+    "span_index": 235,
+    "text": "Li,X.; Dick,G.; Ge,M.; Heise,S.; Wickert,J.; Bender,M.Real-timeGPSsensingofatmosphericwatervapor: Precisepoint\npositioningwithorbit,clock,andphasedelaycorrections.Geophys.Res.Lett.2014,41,3615–3621.[CrossRef]\n19.",
+    "char_length": 212
+  },
+  {
+    "quote_id": "qb_1663360b36",
+    "span_index": 236,
+    "text": "Guo,J.;Li,X.;Li,Z.;Hu,L.;Yang,G.;Zhao,C.;Fairbairn,D.;Watson,D.;Ge,M.Multi-GNSSprecisepointpositioningfor\nprecisionagriculture.Precis.Agric.2018,19,895–911.[CrossRef]\n20.",
+    "char_length": 170
+  },
+  {
+    "quote_id": "qb_fe9503d58c",
+    "span_index": 237,
+    "text": "Weber,G.;Mervart,L.;Lukes,Z.;Rocken,C.;Dousa,J.Real-timeclockandorbitcorrectionsforimprovedpointpositioningvia\nNTRIP.InProceedingsoftheIONGNSS2007,FortWorth,TX,USA,23–35September2007;pp.1992–1998.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_a80a8604b1",
+    "span_index": 238,
+    "text": "El-diasty,M.DevelopmentofReal-TimePPP-BasedGPS/INSIntegrationSystemUsingIGSReal-TimeServiceforHydrographic\nSurveys.J.Survey.Eng.2016,142,1–8.[CrossRef]\n22.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_f882af136a",
+    "span_index": 239,
+    "text": "Tegedor, J.; Lapucha, D.; Ørpen, O.; Vigen, E.; Melgard, T.; Strandli, R.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_a7f0d2c3cc",
+    "span_index": 240,
+    "text": "The new G4 service: Multi-constellation precise\npointpositioningincludingGPS,GLONASS,GalileoandBeiDou.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_d0cf2b713e",
+    "span_index": 241,
+    "text": "InProceedingsoftheIONGNSS+2015,Tampa,FL,USA,\n14–18September2015;pp.1089–1095.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_a05804d166",
+    "span_index": 242,
+    "text": "Dai, L.; Chen, Y.; Lie, A.; Zeitzew, M.; Zhang, Y.StarFireSF3: Worldwidecentimeter-accuraterealtimeGNSSpositioning.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_faa58f286b",
+    "span_index": 243,
+    "text": "InProceedingsoftheIONGNSS+2016,Portland,OR,USA,12–16September2016;pp.3295–3320.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_eb2775baa0",
+    "span_index": 244,
+    "text": "Leandro,R.;Landau,H.;Nitschke,M.;Glocker,M.;Seeger,S.;Chen,X.;Deking,A.;BenTahar,M.;Zhang,F.;Ferguson,K.;etal.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_fdc79fba2d",
+    "span_index": 245,
+    "text": "RTXpositioning:Thenextgenerationofcm-accuratereal-timeGNSSpositioning.InProceedingsoftheIONGNSS2011,Portlan,\nOR,USA,20–23September2011;pp.1460–1475.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_f326f7428b",
+    "span_index": 246,
+    "text": "Fujita,S.;Sato,Y.;Miya,M.;Ota,K.;Hirokawa,R.;Takiguchi,J.DesignofIntegrityFunctiononCentimeterLevelAugmentation\nService(CLAS)inJapaneseQuasi-ZenithSatelliteSystem.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_cca0333344",
+    "span_index": 247,
+    "text": "InProceedingsoftheIONGNSS+2016,Portland,OR,USA,12–\n16September2016;pp.3258–3263.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_9f902640fe",
+    "span_index": 248,
+    "text": "Namie,H.;Okamoto,O.;Kubo,N.;Yasuda,A.Initialperformanceevaluationofcentimeter-classaugmentationsystemusing\nQuasi-ZenithSatelliteSystem.Electron.Commun.Jpn.2018,101,3–10.[CrossRef]\n27.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_6546a41ca9",
+    "span_index": 249,
+    "text": "Fernandez-Hernandez,I.;Rodríguez,I.;Tobías,G.;Calle,J.D.;Carbonell,E.;Seco-Granados,G.;Simón,J.;Blasi,R.TestingGNSS\nhighaccuracyandauthentication-galileo’scommercialservice.Insid.GNSS2015,10,37–48.",
+    "char_length": 197
+  },
+  {
+    "quote_id": "qb_b1a38bad78",
+    "span_index": 250,
+    "text": "Susi,M.; Borio,D.KalmanfilteringwithnoncoherentintegrationsforGalileoE6-Btracking.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_0b510c1abf",
+    "span_index": 251,
+    "text": "Liu,C.;Gao,W.;Liu,T.;Wang,D.;Yao,Z.;Gao,Y.;Nie,X.;Wang,W.;Li,D.;Zhang,W.;etal.Designandimplementationofa\nBDSprecisepointpositioningservice.Navig.J.Inst.Navig.2020,67,875–891.[CrossRef]\n30.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_e18f8667e2",
+    "span_index": 252,
+    "text": "ChinaSatelliteNavigationOffice.BeiDouNavigationSatelliteSystemSignalinSpaceInterfaceControlDocumentPrecisePoint\nPositioningServiceSignalPPP-B2b(BetaVersion).Availableonline:http://www.beidou.gov.cn/xt/gfxz/201912/P02019122733\n1847498839.pdf(accessedon30September2020).",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_b2a53be553",
+    "span_index": 253,
+    "text": "RemoteSens.2021,13,2050 19of19\n31.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_84df5c689f",
+    "span_index": 254,
+    "text": "Chen,Q.;Song,S.;Zhou,W.AccuracyAnalysisofGNSSHourlyUltra-RapidOrbitandClockProductsfromSHAOACof\niGMAS.RemoteSens.2021,13,1022.[CrossRef]\n32.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_aa5b26d8e1",
+    "span_index": 255,
+    "text": "Montenbruck,O.;Steigenberger,P.;Hauschild,A.Broadcastversuspreciseephemerides:Amulti-GNSSperspective.GPSSolut.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_60dd44f511",
+    "span_index": 256,
+    "text": "2015,19,321–333.[CrossRef]\n33.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_222dfddf7f",
+    "span_index": 257,
+    "text": "Steigenberger,P.;Montenbruck,O.ConsistencyofMGEXOrbitandClockProducts.Engineering2020,6,898–903.[CrossRef]\n34.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_3230835af4",
+    "span_index": 258,
+    "text": "Zhang,Y.;Kubo,N.;Chen,J.;Chu,F.Y.;Wang,A.;Wang,J.ApparentclockandTGDbiasesbetweenBDS-2andBDS-3.GPSSolut.",
+    "char_length": 104
+  },
+  {
+    "quote_id": "qb_20110c2506",
+    "span_index": 259,
+    "text": "2020,24,1–15.[CrossRef]\n35.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_b0bdf7f73f",
+    "span_index": 260,
+    "text": "Lv,Y.;Geng,T.;Zhao,Q.;Xie,X.;Zhou,R.InitialassessmentofBDS-3preliminarysystemsignal-in-spacerangeerror.GPSSolut.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_1443b5e2c5",
+    "span_index": 261,
+    "text": "2020,24,1–13.[CrossRef]\n36.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_1fad746bac",
+    "span_index": 262,
+    "text": "Steigenberger,P.;Hugentobler,U.;Loyer,S.;Perosanz,F.;Prange,L.;Dach,R.;Uhlemann,M.;Gendt,G.;Montenbruck,O.Galileo\norbitandclockqualityoftheIGSMulti-GNSSExperiment.Adv.SpaceRes.2015,55,269–281.[CrossRef]\n37.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_4fd94abefe",
+    "span_index": 263,
+    "text": "Guo,J.;Xu,X.;Zhao,Q.;Liu,J.Preciseorbitdeterminationforquad-constellationsatellitesatWuhanUniversity:Strategy,result\nvalidation,andcomparison.J.Geod.2016,90,143–159.[CrossRef]\n38.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_e6eb3dfb9b",
+    "span_index": 264,
+    "text": "Leick,A.;Rapoport,L.;Tatarnikov,D.GPSSatelliteSurveying,4thed.;JohnWiley&Sons:Hoboken,NJ,USA,2015.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_12f582974e",
+    "span_index": 265,
+    "text": "Zhang,B.;Hou,P.;Liu,T.;Yuan,Y.Asingle-receivergeometry-freeapproachtostochasticmodelingofmulti-frequencyGNSS\nobservables.J.Geod.2020,94,1–21.[CrossRef]\n40.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_602cc5228f",
+    "span_index": 266,
+    "text": "Ashby,N.RelativityintheGlobalPositioningSystemImprint/TermsofUse.LivingRev.Relativ.2003,6,1–42.[CrossRef]\n41.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_967a58e2e4",
+    "span_index": 267,
+    "text": "Wu,J.-T.;Wu,S.C.;Hajj,G.A.;Bertiger,W.I.;Lichten,S.M.EffectsofantennaorientationonGPScarrierphase.InProceedingsof\ntheAAS/AIAAAstrodynamicsConference,Durango,CO,USA,19–22August1991;pp.1647–1660.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_6d06befa64",
+    "span_index": 268,
+    "text": "Petit, G.; Luzum, B.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_aa9b009f68",
+    "span_index": 269,
+    "text": "IERS Conventions (2010); Bureau International Des Poids et Mesures Sevres: Frankfurt am Main, Ger-\nmany,2010.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_d0be60564f",
+    "span_index": 270,
+    "text": "Sakic,P.;Mansur,G.;Mannel,B.Aprototypeforamulti-GNSSorbitcombination.InProceedingsoftheEuropeanNavigation\nConference,Bonn,Germany,23–24November2020;pp.1–11.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_dab4170ecb",
+    "span_index": 271,
+    "text": "Montenbruck,O.;Steigenberger,P.;Prange,L.;Deng,Z.;Zhao,Q.;Perosanz,F.;Romero,I.;Noll,C.;Stürze,A.;Weber,G.;etal.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_c98c66a1eb",
+    "span_index": 272,
+    "text": "TheMulti-GNSSExperiment(MGEX)oftheInternationalGNSSService(IGS)–Achievements,prospectsandchallenges.Adv.Space\nRes.2017,59,1671–1697.[CrossRef]\n45.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_b0468d79b4",
+    "span_index": 273,
+    "text": "Nie,Z.;Zhou,P.;Liu,F.;Wang,Z.;Gao,Y.Evaluationoforbit,clockandionosphericcorrectionsfromfivecurrentlyavailable\nSBASL1services:Methodologyandanalysis.RemoteSens.2019,11,411.[CrossRef]\n46.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_7ee8fc50df",
+    "span_index": 274,
+    "text": "Cai, H.; Chen, G.; Jiao, W.; Chen, K.; Xu, T.; Wang, H.",
+    "char_length": 55
+  },
+  {
+    "quote_id": "qb_930b437007",
+    "span_index": 275,
+    "text": "An Initial Analysis and Assessment on Final Products of iGMAS.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_53ff1cd0af",
+    "span_index": 276,
+    "text": "In Proceedings of the China Satellite Navigation Conference (CSNC) 2016 Proceeding, Changsha, China, 18–20 May 2016;\npp.515–527.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_1adfee1e8e",
+    "span_index": 277,
+    "text": "Boehm,J.;Heinkelmann,R.;Schuh,H.Shortnote:Aglobalmodelofpressureandtemperatureforgeodeticapplications.J.Geod.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_1a30c223f5",
+    "span_index": 278,
+    "text": "2007,81,679–683.[CrossRef]\n48.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_4ca91efed1",
+    "span_index": 279,
+    "text": "Boehm,J.;Niell,A.;Tregoning,P.;Schuh,H.GlobalMappingFunction(GMF):Anewempiricalmappingfunctionbasedon\nnumericalweathermodeldata.Geophys.Res.Lett.2006,33,3–6.[CrossRef]",
+    "char_length": 167
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "release_name": "full_audit_batch_3_phase_b",
+  "phase": "batch_3_phase_b",
+  "release_date": "2026-05-22",
+  "paper_count": 10,
+  "pass_count": 10,
+  "blocked_count": 0,
+  "wrong_support_count": 0,
+  "product_source_error_count": 0,
+  "epoch_contamination_count": 0,
+  "dcb_error_count": 0,
+  "invalid_quote_id_rate_pct": 0.0,
+  "keyword_overlap_ratio_pct": 0.0,
+  "total_grounding_quotes": 59,
+  "semantic_corrections_count": 3,
+  "correction_details": [
+    "s10291_025_01845_5: non_b2b → core_ppp_b2b (76 B2b mentions)",
+    "s10291_025_01882_0: non_b2b → core_ppp_b2b (105 B2b mentions)",
+    "Liu_Wei_BDS_GPS_RTK_PPP: chinese_canary → CNES_OR_OTHER_RTS (0 B2b mentions, general PPP thesis)"
+  ],
+  "manual_review_item_count": 0,
+  "circuit_breaker_triggers": 0,
+  "regression_status": "PASS (17/17 v0.2)",
+  "eligible_for_corpus_merge": true,
+  "product_source_distribution": {
+    "BDS3_PPP_B2B_BROADCAST": 7,
+    "MIXED_PRODUCTS": 2,
+    "CNES_OR_OTHER_RTS": 1
+  },
+  "papers": [
+    {"paper_id": "applsci_15_08033_v2", "role": "core_ppp_b2b", "ps": "BDS3_PPP_B2B_BROADCAST", "b2b": 77, "gate": "PASS"},
+    {"paper_id": "remotesensing_14_02769", "role": "core_ppp_b2b", "ps": "BDS3_PPP_B2B_BROADCAST", "b2b": 199, "gate": "PASS"},
+    {"paper_id": "remotesensing_15_00199", "role": "core_ppp_b2b", "ps": "BDS3_PPP_B2B_BROADCAST", "b2b": 55, "gate": "PASS"},
+    {"paper_id": "remotesensing_16_00833_v2", "role": "core_ppp_b2b", "ps": "BDS3_PPP_B2B_BROADCAST", "b2b": 275, "gate": "PASS"},
+    {"paper_id": "s10291_023_01455_z", "role": "core_ppp_b2b", "ps": "BDS3_PPP_B2B_BROADCAST", "b2b": 183, "gate": "PASS"},
+    {"paper_id": "s10291_025_01845_5", "role": "core_ppp_b2b (reclassified)", "ps": "BDS3_PPP_B2B_BROADCAST", "b2b": 76, "gate": "PASS", "note": "Reclassified from non_b2b based on 76 B2b mentions"},
+    {"paper_id": "s10291_025_01882_0", "role": "core_ppp_b2b (reclassified)", "ps": "BDS3_PPP_B2B_BROADCAST", "b2b": 105, "gate": "PASS", "note": "Reclassified from non_b2b based on 105 B2b mentions"},
+    {"paper_id": "s10291_024_01730_7", "role": "boundary_mixed", "ps": "MIXED_PRODUCTS", "b2b": 125, "gate": "PASS"},
+    {"paper_id": "s43020_024_00146_5", "role": "boundary_mixed", "ps": "MIXED_PRODUCTS", "b2b": 52, "gate": "PASS"},
+    {"paper_id": "Liu_Wei_BDS_GPS_RTK_PPP", "role": "chinese_thesis_general_ppp", "ps": "CNES_OR_OTHER_RTS", "b2b": 0, "gate": "PASS", "note": "72-page Chinese thesis — BDS/GPS RTK+PPP, not PPP-B2b specific"}
+  ]
+}

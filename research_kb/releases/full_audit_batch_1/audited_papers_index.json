@@ -1,0 +1,93 @@
+{
+  "batch": "full_audit_batch_1",
+  "extraction_mode": "lite",
+  "audited_count": 6,
+  "planned_count": 8,
+  "skipped_count": 2,
+  "papers": [
+    {
+      "paper_id": "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic",
+      "source_file": "2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+      "product_source": "BDS3_PPP_B2B_BROADCAST",
+      "paper_type": "downstream_b2b_application",
+      "is_core": true,
+      "b2b_mentions": 201,
+      "epoch_status": "WEAK_SUPPORT",
+      "support_summary": "1S/0P/2W",
+      "gate_status": "PASS",
+      "full_extraction_required": true
+    },
+    {
+      "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+      "source_file": "2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+      "product_source": "BDS3_PPP_B2B_BROADCAST",
+      "paper_type": "ppp_b2b_service_perf",
+      "is_core": true,
+      "b2b_mentions": 60,
+      "epoch_status": "NOT_MENTIONED",
+      "support_summary": "1S/0P/2W",
+      "gate_status": "PASS",
+      "full_extraction_required": true
+    },
+    {
+      "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+      "source_file": "2022--Tang Chenggan--Orbit determination, clock estimation and performance evaluation.pdf",
+      "product_source": "BDS3_PPP_B2B_BROADCAST",
+      "paper_type": "orbit_clock_product_gen",
+      "is_core": true,
+      "b2b_mentions": 76,
+      "epoch_status": "NOT_MENTIONED",
+      "support_summary": "1S/1P/1W",
+      "gate_status": "PASS",
+      "full_extraction_required": true
+    },
+    {
+      "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+      "source_file": "2022--Yangyuanxi--Principle and_performance of_BDSBAS-B2b.pdf",
+      "product_source": "BDS3_PPP_B2B_BROADCAST",
+      "paper_type": "ppp_b2b_service_perf",
+      "is_core": true,
+      "b2b_mentions": 58,
+      "epoch_status": "STRONG (6 dates)",
+      "support_summary": "2S/1P/0W",
+      "gate_status": "PASS",
+      "full_extraction_required": true
+    },
+    {
+      "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+      "source_file": "2025--Zhao Lewen--Python toolbox for BDS  B2b.pdf",
+      "product_source": "BDS3_PPP_B2B_BROADCAST",
+      "paper_type": "ppp_b2b_service_perf",
+      "is_core": true,
+      "b2b_mentions": 61,
+      "epoch_status": "NOT_MENTIONED",
+      "support_summary": "1S/0P/2W",
+      "gate_status": "PASS",
+      "full_extraction_required": true
+    },
+    {
+      "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+      "source_file": "2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf",
+      "product_source": "BDS3_PPP_B2B_BROADCAST",
+      "paper_type": "downstream_b2b_application",
+      "is_core": true,
+      "b2b_mentions": 35,
+      "epoch_status": "STRONG (2 dates)",
+      "support_summary": "2S/1P/0W",
+      "gate_status": "PASS",
+      "full_extraction_required": true
+    }
+  ],
+  "skipped": [
+    {
+      "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+      "reason": "markdown_path_mismatch",
+      "planned_action": "fix_path_then_audit"
+    },
+    {
+      "paper_id": "Research_on_Quad-Frequency_PPP-B2b_Time_Transfer",
+      "reason": "markdown_path_mismatch",
+      "planned_action": "fix_path_then_audit"
+    }
+  ]
+}

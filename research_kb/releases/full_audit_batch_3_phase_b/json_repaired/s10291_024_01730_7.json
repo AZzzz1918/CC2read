@@ -1,0 +1,101 @@
+{
+  "paper_id": "s10291_024_01730_7",
+  "extraction_mode": "full_strict_quotes",
+  "phase": "batch_3_phase_b",
+  "selection_role": "boundary_mixed",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "authors": "NOT_MENTIONED",
+    "year": 2024,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "MIXED_PRODUCTS",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2024) 28:185 https://doi.org/10.1007/s10291-024-01730-7 ORIGINAL ARTICLE Lightweight seamless lane‑level positioning with the integration of BDS‑3 PPP‑B2b and VINS: a case study using smartphone Rui Shang1 · Chengfa Gao1 · Xiaolin Meng2 · Zhenhao Xu1 · Qi Liu1 · Qianqian Chen3 · Xiangdong An4 Received: 11 April 2024 / Accepted: 16 August 2024 / Published online: 23",
+      "Therefore, this paper proposes a lightweight seamless lane-level positioning method for smartphones with the integration of PPP and VINS based on BeiDou navigation satellite system (BDS-3) PPP-B2b services.",
+      "When structures like bridges or highway toll booths are recognized, the factor graph algorithm combines PPP-B2b/VINS to achieve positioning."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "dates_found": [],
+    "doys_found": [],
+    "months_found": [
+      "August 2024",
+      "April 2024"
+    ],
+    "grounding_quotes": []
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    },
+    {
+      "type": "differential_code_bias"
+    }
+  ],
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 10,
+    "grounding_quotes": [
+      "Ps =𝜌s+dt −dts+MsT +Is+d −ds+𝜀 r r r r r r r Ps r As for Differential Code Bias (DCB), the current PPP- {𝜑s r =𝜌s r +dt r −dts+M r sT r −I r s+𝜆 Ns+b r −bs +𝜉 𝜑s B2b only broadcasts DCB corrections for BDS-3.",
+      "There- 𝜌 fore, we applied the DCB B1I−B3I products from PPP-B2b tively, is the geometric distance between the satellite and receiver, dt r and dts denote the receiver and satellite clock to correct the DCB for the BDS-3 B1I signal (Tao et al."
+    ]
+  },
+  "ionospheric_handling": {
+    "status": "IONOSPHERE_FREE_COMBINATION",
+    "iono_mentions": 12,
+    "grounding_quotes": [
+      "P F (Y o ) r ,L 2 G P( P Y S ) , f r t o h m e t i b m ro in a g d c g a r s o t u p ep d h e e l m ay e s r i ( s T G is D u ) t i p l r i o ze d d u c t t o s zenith tropospheric wet delay and corresponding zenith trop- osphere wet delay, respectively, Is is the slant ionospheric correct the DCB of ionosphere-free combination existed in r precise clock products to the code bias in L1P signal."
+    ]
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b_mentions": 125,
+    "has_mentions": 0,
+    "clas_mentions": 8,
+    "dcb_mentions": 10,
+    "iono_mentions": 12
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "MIXED_PRODUCTS",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true
+  }
+}

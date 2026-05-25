@@ -1,0 +1,12 @@
+{
+  "product_source": "QZSS_CLAS",
+  "paper_type": "clas_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_gnss_augmentation",
+  "classification_reason": "The paper assesses QZSS Centimeter Level Augmentation Service (CLAS) positioning performance, which is an augmentation service distinct from the Chinese PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2020--Maosen Hao--PPPPerformanceEvaluationofQZSSCentimeterLevelAugmentationService.pdf",
+  "paper_id": "2020--Maosen Hao--PPPPerformanceEvaluationofQZSSCentimeterLe",
+  "extraction_mode": "batch_classify_1call"
+}

@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "classification_reason": "The paper evaluates the practical performance of water vapor monitoring using the BDS PPP-B2b service, which is a downstream application of BDS PPP-B2b SSR corrections.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "applsci-15-08033-v2.pdf",
+  "paper_id": "applsci-15-08033-v2",
+  "extraction_mode": "batch_classify_1call"
+}

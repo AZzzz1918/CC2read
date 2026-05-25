@@ -1,0 +1,26 @@
+corrections:
+- paper_id: s10291_025_01845_5
+  field_path: product_source.actual_product_source
+  old_value: CNES_OR_OTHER_RTS
+  new_value: BDS3_PPP_B2B_BROADCAST
+  reason: Pre-assigned non_b2b but 76 B2b mentions, 0 Galileo HAS
+  evidence_summary: b2b_mentions=76
+  source_release: full_audit_batch_3_phase_b
+  correction_type: targeted_reclassification_applied
+- paper_id: s10291_025_01882_0
+  field_path: product_source.actual_product_source
+  old_value: CNES_OR_OTHER_RTS
+  new_value: BDS3_PPP_B2B_BROADCAST
+  reason: Pre-assigned non_b2b but 105 B2b mentions
+  evidence_summary: b2b_mentions=105
+  source_release: full_audit_batch_3_phase_b
+  correction_type: targeted_reclassification_applied
+- paper_id: Liu_Wei_BDS_GPS_RTK_PPP
+  field_path: product_source.actual_product_source
+  old_value: BDS3_PPP_B2B_BROADCAST
+  new_value: CNES_OR_OTHER_RTS
+  reason: 72-page Chinese thesis about general BDS/GPS RTK+PPP, 0 B2b mentions
+  evidence_summary: b2b_mentions=0, title references RTK and general PPP
+  source_release: full_audit_batch_3_phase_b
+  correction_type: targeted_reclassification_applied
+total: 3

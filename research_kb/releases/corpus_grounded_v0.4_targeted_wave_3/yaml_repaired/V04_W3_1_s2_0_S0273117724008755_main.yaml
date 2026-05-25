@@ -1,0 +1,41 @@
+bibliographic_info:
+  title: Real-time uncombined PPP using BDS-3 PPP-B2b products with different multi-frequency
+    integrations and refined stochastic model
+category: MULTI_FREQ
+component_stack: BDS3_PPP_B2B+LEO+INS
+confirms_singleton: false
+dcb_handling:
+  dcb_mentions: 23
+  grounding_quotes:
+  - In addition, the multi-frequency uncombined (UC) sis of satellite orbit, clock,
+    and Differential Code Bias PPPperformance based on PPP-B2b isanalyzed using dif-
+    (DCB) corrections contained in PPP-B2b information.
+  status: EXPLICITLY_DESCRIBED
+experiment_epoch:
+  start_date: NOT_MENTIONED
+extraction_mode: full_strict_quotes
+gate_status:
+  wrong_support: false
+is_new_route: true
+paper_id: V04_W3_1_s2_0_S0273117724008755_main
+pdf_metadata:
+  b2b: 110
+  dcb: 23
+  has: 0
+  pages: 11
+priority: P2_PRIORITY_GAP
+product_source:
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  Available online atwww.sciencedirect.com ScienceDirect AdvancesinSpaceResearch74(2024)5569–5579
+    www.elsevier.com/locate/asr Real-time uncombined PPP using BDS-3 PPP-B2b products
+    with different multi-frequency integrations and refined stochastic model ⇑ Wujiao
+    Dai , Qiang Qi, Lin Pan, Changsheng Cai SchoolofGeosciencesandInfo-Physics,CentralSouthUniversity,SouthLushanRoad,Changsha'
+  - 'Keywords: BDS-3;Real-time;Precisepointpositioning;PPP-B2b;Multi-frequencyintegration;Stochasticmodel
+    1.'
+reproducibility_audit:
+  reproduction_blockers:
+  - No code release
+  - Data not provided
+  - B2b archive not distributed
+wave: 3

@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_01f10bc2f0",
+    "span_index": 0,
+    "text": "Available online at www.sciencedirect.com\nScienceDirect\nAdvances in Space Research 75(2025)7003–7019\nwww.elsevier.com/locate/asr\nPrecise real-time navigation of the LEO satellite enhanced by\nBDS-3 PPP-B2b service\nXuewen Gonga,b,c,⁎ , Wanwei Zhangc , Aili Zhaoa,b,e , Shuaihe Gaoa,b, Fuhong Wangc ,\nJingkui Zhangd, Song Xied, Guodong Fenga,b , Zaichun Yanga,b,e\na National Time Service Center, Chinese Academy ofSciences,710600Xi’an,China\nb Key Laboratory of Time Reference and Applications, Chinese AcademyofSciences,710600Xi’an,China\nc School of Geodesy and Geomatics, WuhanUniversity,430079Wuhan,Ch",
+    "char_length": 4131
+  },
+  {
+    "quote_id": "qb_7b7ab2be55",
+    "span_index": 1,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\n1. Introduction reducing their impact on orbit parameters (Wang et al.,\n2015). Subsequent relevant studies also indicate that by\nThe GNSS-based real-time orbit determination technol- optimizing the stochastic model of the pseudo-ambiguity\nogy has been one of the mainstream methods for achieving parameter, the real-time orbit accuracy of LEO satellites\nreal-time navigation of low Earth orbit (LEO) satellites can reach the level of 0.2 ∼ 0.4 m (Gong et al., 2017,\nover the past several decades. Equipped with portable 2019, 2020). As other GNSS ",
+    "char_length": 6374
+  },
+  {
+    "quote_id": "qb_d929e36312",
+    "span_index": 2,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nmance of PPP-B2b correction data and its application on r r r r r r r r\ngrav tide N rel drag rad emp\nPPP of ground stations (Ren et al., 2021; Xu et al., P q r r cd cd Dqbrdc cDdbrdc e\n2021), real-time navigation based on PPP-B2b correction S R S S P\nL q r r cd cd B Dqbrdc cDdbrdc e\ndata still requires further study and exploration. S R S S L\nTo address the gap, this paper will conduct an in-depth 1\nstudy on the real-time navigation of LEO satellites\nwhere, P and L represent the dual-frequency ionosphere-\nenhanced by PPP-B2b correction data.",
+    "char_length": 5414
+  },
+  {
+    "quote_id": "qb_7063e7e14d",
+    "span_index": 3,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nLos Dqbrdc cDdbrdc 2.2. Usage method of PPP-B2b corrections\nb b tk u xd x\nb B Los k k 1 tk 1 3\nIn practical processing of LEO real-time navigation, the\nQ D tk u xd x r 2 t t r2Dt total LOS error Dqbrdc cDdbrdc from the broadcast ephe-\nk tk 1 k k 1\nmeris of GNSS satellites is unknown but significant. If not\nwhere, b and b represent the pseudo-ambiguity atepoch\nk k 1 specially treated, it is directly assumed to be zero and would\nt k and t k 1 , respectively. t t k k 1 u xd x denotes the process be a primary source of error affecting the final ",
+    "char_length": 5617
+  },
+  {
+    "quote_id": "qb_22babca7c5",
+    "span_index": 4,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nFig. 1. Method for matching PPP-B2b informationtypeswithbroadcastephemeris.\n2.3. Improved measure update strategy satellites is meaningless. The conventional measurement\nupdate strategy (CMUS) is to set different process noise\nPPP-B2b corrections can only be generated when GPS power spectral densities r2 r2 of ambiguity parameters\n1 2\nand BDS-3 satellites are visible by ground tracking stations for these two types of satellites based on their distinct\nwithin China. Therefore, PPP-B2b corrections are gener- LOS error characteristics, thereby ",
+    "char_length": 4627
+  },
+  {
+    "quote_id": "qb_53a225d3c0",
+    "span_index": 5,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nFig. 2. Sub-satellite point trajectory of the LT-1A satellite and the numberoftrackableGPSandBDS-3satelliteswithPPP-B2bcorrections.\nexcluded. In this case, relying solely on the data from a\nsmall number of high -precision satellites using PPP-B2b\ncorrections will not yield good orbit results.\n3. Error analysis of PPP-B2b corrections\nBefore conducting real-time navigation experiments, it is\nnecessary to evaluate the accuracy of GNSS orbits and\nclock offsets after applying PPP-B2b corrections. The\nmulti-GNSS post-processed precise ephemeris pr",
+    "char_length": 1793
+  },
+  {
+    "quote_id": "qb_4af4b7190f",
+    "span_index": 6,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nsatellite. Two periods of data are used for analysis, includ- zero mean clock error (NZMCE) on a daily basis,\ning the day of year (DOY) 109–114 and 196–200 in 2022. ‘‘SISRE0” represents the SISRE after removing the\nThese two periods are referred to as ‘‘T1” and ‘‘T2”, NZMCE, and ‘‘B2b Ratio” represents the proportion of\nrespectively. epochs with PPP-B2b corrections relative to all epochs.\nFirstly, it is worth noting that for GPS satellites during\n3.1. PPP-B2b orbit and clock accuracy the T1 and T2 periods, only 25.4 % and 27.9 % of the\nepoch",
+    "char_length": 2393
+  },
+  {
+    "quote_id": "qb_a63964cd63",
+    "span_index": 7,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nTable 1\nRMS comparison of overall orbit and clock offset error statistics for GPS and BDS-3 satellites before (BRD) and after (B2b) applying PPP-B2b\ncorrectionsduringtheT1andT2periods.\nRMS [m] T1: GPS T2: GPS T1: BDS-3 T2: BDS-3\nBRD B2b BRD B2b BRD B2b BRD B2b\nR 0.367 0.274 0.402 0.163 0.153 0.139 0.144 0.152\nT 1.081 0.413 0.974 0.525 0.356 0.320 0.334 0.347\nN 0.611 0.306 0.525 0.323 0.272 0.289 0.369 0.438\nSISRE(Orb) 0.401 0.278 0.424 0.182 0.161 0.146 0.155 0.164\nClk(RMS) 0.406 1.314 0.480 1.369 0.670 0.781 0.687 0.886\nClk(STD) 0.184 0.217",
+    "char_length": 5236
+  },
+  {
+    "quote_id": "qb_eb48424804",
+    "span_index": 8,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nFig. 5. RMS comparison of daily LOS errors and their change rates of GPS and BDS-3 satellites before (BRD) and after (B2b) applying PPP-B2b\ncorrections.\nTable 2\nRMS comparison of overall LOS errors and change rates statistics for GPS and BDS-3 satellites before (BRD) and after (B2b) applying PPP-B2b\ncorrectionsduringtheT1andT2periods.\nRMS [m] T1: GPS T2: GPS T1: BDS-3 T2: BDS-3\nBRD B2b BRD B2b BRD B2b BRD B2b\nLOS Dq 0.404 0.300 0.421 0.191 0.139 0.146 0.131 0.135\nError cDd 0.408 1.442 0.482 1.882 0.674 0.795 0.667 1.001\n[m] cDd 0.185 0.161 0",
+    "char_length": 1544
+  },
+  {
+    "quote_id": "qb_f81874b881",
+    "span_index": 9,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\ndecreases after correction. More importantly, the change lyzed to verify the enhancement effect of the PPP-B2b\nrate of the clock offset error dDd dt for GPS satellites is corrections on LEO real-time navigation. Finally, an in-\n1\nsignificantly reduced after applying PPP-B2b corrections, depth analysis will be conducted on the benefits introduced\nwhile this for BDS-3 satellites slightly increases after cor- by the PPP-B2b corrections on LEO orbit determination,\nrection. Regarding the overall LOS error, LEO real-time especially when passing th",
+    "char_length": 5989
+  },
+  {
+    "quote_id": "qb_ab8287d9df",
+    "span_index": 10,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nTable 3\nDetailed real-time navigationstrategies.\nMeasurement Model\nGNSS Observations GPS L1/L2 and BDS B1c/B2a dual-frequency ionosphere-free pseudo-range (PC)andcarrier-phase(LC)observations\nElevation cutoffangle 5 degrees\nGNSS orbit andclock Broadcast ephemeris and PPP-B2b corrections\nLEO antennaPCO/PCV PCO is corrected by the nominal value (−417.238, +1840.585 ,−1655.925)mm,PCVisnotconsidered\nLEO satelliteattitude Nominal attitude model\nDynamical Model\nEarth gravityfield EGM 2008 70x70, neglect thetime-varyingpart\nN-body gravitation Moon ",
+    "char_length": 2602
+  },
+  {
+    "quote_id": "qb_316b349cd9",
+    "span_index": 11,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\ntime navigation scheme using only broadcast ephemeris is use of PPP-B2b corrections enhances real-time orbit deter-\nabbreviated as ‘‘BRD”. Fig. 7 shows the daily orbit accu- mination accuracy. Of pa rticular note, as observed from\nracy comparison of three real-time navigation schemes. It the bottom subgraphs in Fig. 8 and Fig. 9, the number of\nis evident that the real-time orbit accuracy of B2b(CMUS) satellites equipped with PPP-B2b corrections exhibits peri-\nis significantly better than that of BRD for all days, indi- odic variations. This ",
+    "char_length": 5135
+  },
+  {
+    "quote_id": "qb_afe44604d0",
+    "span_index": 12,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nFig. 8. Position and velocity errors of GPS-based real-time navigation before and after applying the PPP-B2b correctionandthenumberofGPSsatellites\nwithPPP-B2bcorrectionson2022/112.\nFig. 9. Position and velocity errors of BDS-3-based real-time navigation before and after applying thePPP-B2bcorrectionandthenumberofBDS-3\nsatelliteswithPPP-B2bcorrectionson2022/112.\nin the Asia-Pacific region after applying PPP-B2b correc- tively, after applying PPP-B2b corrections. Clearly, the\ntions are better than those before applying corrections by improveme",
+    "char_length": 1004
+  },
+  {
+    "quote_id": "qb_44e4b71d22",
+    "span_index": 13,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nFig. 10. Distribution of position errors along the sub-satel litetrajectoryfortheLT-1Asatelliteon2022/112.\nFig. 11. Distribution of velocity errors along the sub-satellite trajectoryoftheLT-1Asatelliteon2022/112.\neffect of PPP-B2b corrections on real-time navigation of real-time navigation accuracy of LEO satellites. In this\nLEO satellites. paper, PPP-B2b corrections are introduced to correct the\nbroadcast ephemeris of GPS and BDS-3 satellites, aiming\n5. Summary and conclusion to enhance the real-time orbit determination accuracy of\nLEO sate",
+    "char_length": 880
+  },
+  {
+    "quote_id": "qb_911bc10532",
+    "span_index": 14,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nTable 5\nComparison of orbit accuracies in the Asia-Pacific region for four sets of real-timenavigationexperimentsbeforeandafterapplyingPPP-B2bcorrections.\nAccuracy (RMS) T1: GPS T2: GPS T1: BDS-3 T2: BDS-3\nBRD B2b BRD B2b BRD B2b BRD B2b\nPosition R 8.243 7.176 7.926 7.457 5.319 4.856 4.509 4.130\n[cm] T 23.297 14.468 22.350 15.221 10.916 9.622 12.057 9.018\nN 8.652 9.477 9.946 9.459 9.123 7.932 10.858 11.087\n3D 26.183 18.725 25.715 19.411 15.189 13.382 16.840 14.876\nRatio 28.5 % 24.5 % 11.9 % 11.7 %\nVelocity R 0.244 0.167 0.231 0.173 0.122 0.1",
+    "char_length": 5159
+  },
+  {
+    "quote_id": "qb_6056fba8cc",
+    "span_index": 15,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nreports financial support was provided by the State Key Hart, R., Long, A., Lee, T., 1997. Autonomous Navigation of the SSTI/\nLaboratory of Satellite Navigation System and Equipment Lewis Spacecraft Using the Global Positioning System (GPS),\nProceedings ofthe FlightMechanicsSymposium, GSFC,May1997,\nTechnology. If there are other authors, they declare that\npp.123-133.\nthey have no known competing financial interests or per-\nHauschild, A., Montenbruck, O., 2021. Precise real-time navigation of\nsonal relationships that could have appeared to in",
+    "char_length": 7278
+  },
+  {
+    "quote_id": "qb_1b3aa1f5bc",
+    "span_index": 16,
+    "text": "X.Gongetal. AdvancesinSpaceResearch75(2025)7003–7019\nWang, Z., Li, Z., Wang, L., Wang, N., Yang, Y., Li, R., Zhang, Y., Liu, measurements. GPS Solut. 21(3),1395–1404.https://doi.org/10.1007/\nA., Yuan, H., Hoque, M., 2022. Comparisonofthereal-timeprecise s10291-017-0626.\norbitdeterminationforLEObetweenkinematicandreduced-dynamic Zhang, X., Ma, F., 2019. Review of the development of LEO navigation-\nmodes. Measurement 187. 110224. https://doi.org/10.1016/j. augmented GNSS. Acta Geodaetica et Cartographica Sinica. 48 (9),\nmeasurement.2021.110224. 1073–1087 (In Chinese) https://doi.org/10.11947/j.A",
+    "char_length": 1834
+  }
+]

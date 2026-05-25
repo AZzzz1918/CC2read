@@ -1,0 +1,11 @@
+{
+  "paper_id": "RT_ZTD_PPP_B2b_HAS_MADOCA",
+  "expected_product_source": "MIXED_PRODUCTS",
+  "expected_epoch_status": "HAS_DATE",
+  "expected_dcb_status": "NOT_MENTIONED",
+  "expected_gate_status": "PASS",
+  "must_not_have_wrong_support": true,
+  "must_have_reproduction_blockers": true,
+  "correction_status": "none",
+  "admission_status": "PASS"
+}

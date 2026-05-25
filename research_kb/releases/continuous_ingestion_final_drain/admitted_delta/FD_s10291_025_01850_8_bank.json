@@ -1,0 +1,86 @@
+[
+  {
+    "quote_id": "qb_dca156ee1f",
+    "span_index": 0,
+    "text": "GPS Solutions (2025) 29:97\nhttps://doi.org/10.1007/s10291-025-01850-8\nRESEARCH\nReal‑time detection and identification of BDS‑3 PPP‑B2b\nsignal‑in‑space anomalies in the user‑side\nZhixi Nie1 · Luyan Zhou1 · Yuanfan Zhang1 · Zhenjie Wang1 · Ying Xu2\nReceived: 20 September 2024 / Accepted: 23 March 2025 / Published online: 21 April 2025\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025\nAbstract\nThe BeiDou global navigation satellite system (BDS-3) provides precise point positioning (PPP) service through the PPP-B2b\nsignal. Users in China and its",
+    "char_length": 4234
+  },
+  {
+    "quote_id": "qb_427cb29d62",
+    "span_index": 1,
+    "text": "97 Page 2 of 14 GPS Solutions (2025) 29:97\nwithout stable internet access, such as desert and marine and quality of tracking data, such as undetected cycle\nareas. In recent years, PPP augmentation services based on slips, insufficient continuous observation and bad station-\nthe basic GNSS constellation have also been developed. The satellite geometry due to poorly distributed tracking\nJapanese Quasi-Zenith Satellite System (QZSS) has been stations (Du et al. 2021). This situation had numerical\nproviding multi-GNSS advanced orbit and clock augmenta- statistics in Trimble CenterPoint RTX service",
+    "char_length": 5943
+  },
+  {
+    "quote_id": "qb_0a228cba47",
+    "span_index": 2,
+    "text": "GPS Solutions (2025) 29:97 Page 3 of 14 97\nSIS anomalies, and the final step aims to detect and identify PPP-B2b corrections are broadcast with values exceeding the\nrelatively small PPP-B2b SIS anomalies. valid ranges. Therefore, it is necessary to verify whether all\nThe remainder of this paper is organized as follows. PPP-B2b orbit and clock corrections are within the specified\nSect. ”Methodology” provides a detailed introduction to the valid ranges. If any PPP-B2b orbit or clock correction falls\nmethod of real-time detection and identification of PPP-B2b outside the corresponding valid range",
+    "char_length": 4747
+  },
+  {
+    "quote_id": "qb_5806a88202",
+    "span_index": 3,
+    "text": "97 Page 4 of 14 GPS Solutions (2025) 29:97\nPPP-B2b SIS anomaly is detected and identified by Δ∇dts =Δdts −median Δdtall\nk,k−1 k,k−1 ( k,k−1) (5)\nchecking whether the computed SISRE value is larger than\nthe predefined threshold,\nwhere\nΔdta\nk\nl\n,k\nl\n−1 represents the vector of clock offset\nSISREs >Thres\nBRDC SISRE (3) differences for all satellites in the same GNSS system as\ns\nthe satellite .\nThres\nwhere SISRE is the broadcast ephemeris SISRE According to the literature (Tang et al. 2022), the\nthreshold for SIS anomaly detection and identification, satellite orbit determination process is conduc",
+    "char_length": 4998
+  },
+  {
+    "quote_id": "qb_8c528f906c",
+    "span_index": 4,
+    "text": "GPS Solutions (2025) 29:97 Page 5 of 14 97\ncalculation,\nSISRDs\nk+1,k−1 is approximately computed with experiment was conducted with collected 10 day data to\nSISRDs\nk,k−1 and\nSISRDs\nk+1,k detect and identify invalid PPP-B2b corrections based on the\nSISRDs ≈SISRDs +SISRDs first step of the proposed method. In the second experiment\nk+1,k−1 k+1,k k,k−1 (8) and the third experiment, different datasets were adopted\nto detect and identify significant and relatively small PPP-\nThe following inequality is adopted to further determine\nB2b SIS anomalies according to the second step and the\nwhether it is ",
+    "char_length": 4735
+  },
+  {
+    "quote_id": "qb_1a7b0e350d",
+    "span_index": 5,
+    "text": "97 Page 6 of 14 GPS Solutions (2025) 29:97\nFig. 1 The flowchart of real-\ntime PPP-B2b SIS anomaly\ndetection and identification\nvalue according to recent evaluation studies (Heng et al. C24, as the SISRE values during this period were larger than\n2012; Wang et al. 2023). Thus the threshold of broadcast the predefined threshold.\nephemeris SISRE was set to three times of broadcast The PPP-B2b URA values of C24 were computed based\nephemeris URA referring to the theory of robust estimation on the broadcast URAI parameters, and they are shown in\n(Yang et al. 1999, 2001). Fig. 7. The PPP-B2b URAs of ",
+    "char_length": 1430
+  },
+  {
+    "quote_id": "qb_18a0f4ebe5",
+    "span_index": 6,
+    "text": "GPS Solutions (2025) 29:97 Page 7 of 14 97\nFig. 3 BDS-3 PPP-B2b orbit and clock corrections from 2023/11/28\nFig. 2 GPS PPP-B2b orbit and clock corrections from 2023/11/28 00:00:00 to 2023/12/07 23:59:59\n00:00:00 to 2023/12/07 23:59:59\nSINEX solution as references. The positioning errors from\nerrors of C24 are presented in Fig. 8. It is noted that the 22:11:00 to 22:25:00 in the positioning scheme without\nclock reference biases had been removed from clock errors significant PPP-B2b SIS anomaly detection and exclusion\nat each epoch (Nie et al. 2021). It can be seen that the orbit are presented i",
+    "char_length": 2813
+  },
+  {
+    "quote_id": "qb_81f20430df",
+    "span_index": 7,
+    "text": "97 Page 8 of 14 GPS Solutions (2025) 29:97\nFig. 4 Percentages of valid/\ninvalid PPP-B2b clock correc-\ntions of GPS and BDS-3 satel-\nlites from 2023/11/28 00:00:00\nto 2023/12/07 23:59:59 in BDT\nFig. 5 Ground tracks of G17 and G21 on November 28, 2023\nFig. 6 Broadcast ephemeris SISREs (referred to as BRDC SISREs)\nof C24 from 22:11:00 to 22:25:00 on March 9, 2024\nRMSEs also decreased to 4.23 and 8.37 cm in the horizontal\nand vertical, which represents improvements of 70.06% and\n74.74%, respectively. The experimental results indicated that\nthe PPP-B2b SIS anomaly detection and exclusion based on\nr",
+    "char_length": 1561
+  },
+  {
+    "quote_id": "qb_4c0312286b",
+    "span_index": 8,
+    "text": "GPS Solutions (2025) 29:97 Page 9 of 14 97\nFig. 10 Positioning errors with significant PPP-B2b SIS anomaly\ndetection and exclusion from 22:11:00 to 22:25:00 on March 09,\n2024\nSIS anomalies were detected and identified for C27. At\nSISRDs\nthese epochs, the k+1,k−1 values were further calcu-\nlated and these values are listed in Table 3. Judging from\nSISRDs\nthe calculated k+1,k−1 values, the first small PPP-B2b\nSIS anomalies was discrete anomaly and the remaining\nsmall PPP-B2b SIS anomalies belonged to step anomalies.\nFig. 8 C24 PPP-B2b orbit and clock errors calculated with GBM\nThe PPP-B2b URA se",
+    "char_length": 2676
+  },
+  {
+    "quote_id": "qb_283647ec61",
+    "span_index": 9,
+    "text": "97 Page 10 of 14 GPS Solutions (2025) 29:97\nTable 2 Positioning accuracy\nScheme Bias RMSE\nwith and without significant\nPPP-B2b SIS anomaly detection North East Up North East Up\nand exclusion during the period\nfrom 22:23:00 to 22:25:00 (unit: Without detection and exclusion − 5.59 10.50 26.76 6.43 12.58 33.14\ncm) with detection and exclusion − 2.48 3.40 8.34 2.49 3.42 8.37\nFig. 13 PPP-B2b URAs of C27 from 09:13:00 to 09:25:00 on August\n5, 2021\nFig. 11 SISRDs k,k−1 distributions of GPS and BDS-3 satellites from\n2023/11/28 00:00:00 to 2023/12/07 23:59:59\nFig. 12 The SISRDs k,k−1 series of C27 fro",
+    "char_length": 1025
+  },
+  {
+    "quote_id": "qb_026da32796",
+    "span_index": 10,
+    "text": "GPS Solutions (2025) 29:97 Page 11 of 14 97\nFig. 15 Positioning errors without small PPP-B2b SIS anomaly Fig. 16 Positioning errors with small PPP-B2b SIS anomaly detec-\ndetection and processing from 09:13:00 to 09:25:00 on August 5, tion and processing from 09:13:00 to 09:25:00 on August 5, 2021\n2021\nConclusion\nerrors showed a slow increase in the east, north, and up\ndirections after the occurrence of the step small PPP-B2b\nSIS anomalies of C27. This was because step small PPP- PPP-B2b service demonstrates huge potential in real-time\nB2b SIS anomalies had a continuous effect in the PPP-B2b GN",
+    "char_length": 3308
+  },
+  {
+    "quote_id": "qb_361d1dd06d",
+    "span_index": 11,
+    "text": "97 Page 12 of 14 GPS Solutions (2025) 29:97\nTable 4 Positioning accuracy\nScheme Bias RMSE\nwith and without small PPP-\nB2b SIS anomaly detection and North East Up North East Up\nprocessing during the period\nfrom 09:13:00 to 09:25:00 on Without detection and processing 6.18 − 11.89 21.45 6.57 12.26 22.13\nAugust 5, 2021 (unit: cm) with detection and processing 0.82 − 8.19 7.68 1.08 8.20 7.91\n(2) The SISRE of broadcast ephemeris relative to PPP-B2b References\nephemeris is examined to detect and identify significant\nPPP-B2b SIS anomalies; An X, Meng X, Jiang W (2020) Multi-constellation GNSS precise",
+    "char_length": 5312
+  },
+  {
+    "quote_id": "qb_745cc52e8c",
+    "span_index": 12,
+    "text": "GPS Solutions (2025) 29:97 Page 13 of 14 97\nHadas T, Bosy J (2015) IGS RTS precise orbits and clocks verifica- Pırtı A (2024) Evaluation of the performance of Multi-GNSS\ntion and quality degradation over time. GPS Solut 19(1):93– advanced orbit and clock augmentation–precise point position-\n105. https://d oi.o rg/1 0.1 007/s 10291-0 14-0 369-5 ing (MADOCA-PPP) in Japan region. Geod Cartogr 50(1):1–7.\nHe Q, Chen L, Liu L, Zhao D, Gong X, Lou Y, Guan Q (2023) Long- https://d oi.o rg/1 0.3 846/g ac.2 024.1 7763\nterm performance evaluation of BeiDou PPP-B2b products and Ren Z, Gong H, Peng J, Tang",
+    "char_length": 7396
+  },
+  {
+    "quote_id": "qb_9a200fd956",
+    "span_index": 13,
+    "text": "97 Page 14 of 14 GPS Solutions (2025) 29:97\nZhang W, Wang J (2023) Integrity monitoring scheme for single-epoch (East China). His research focuses on GNSS precise positioning algo-\nGNSS PPP-RTK positioning. Satell Navig 4(1):10. https://d oi.o rg/ rithms and applications.\n10.1 186/s 43020-0 23-0 0099-1\nZhang L, Yang H, Gao Y, Yao Y, Xu C (2018) Evaluation and analysis Luyan Zhou received her B.S. degree in surveying and mapping\nof real-time precise orbits and clocks products from different IGS engineering from China University of Petroleum (East China) in\nanalysis centers. Adv Space Res 61(12)",
+    "char_length": 3268
+  }
+]

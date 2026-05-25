@@ -1,0 +1,41 @@
+{
+  "paper_id": "FD_remotesensing_17_02183",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "LEO-Enhanced BDS-3 PPP Performance Based on B2b Signal"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Article LEO-Enhanced BDS-3 PPP Performance Based on B2b Signal JuHong1,RuiTu1,*,YangyangLiu1,YulongGe2andFangxinLi1 1 CollegeofGeodesyandGeomatics,ShandongUniversityofScienceandTechnology,Qingdao266590,China; hongju@sdust.edu.cn(J.H.);202481020003@sdust.edu.cn(Y.L.);lifangxin@sdust.edu.cn(F.L.) 2 CollegeofMarineScienceandEngineering,NanjingNormalUniversity,Nanjing210023,China; ge",
+      "TherapidgeometricchangesofLow-Earth-Orbit(LEO)satellitesfacili- tatetherapidresolutionofphaseambiguitiesandacceleratetheconvergenceofPrecise PointPositioning(PPP).Therefore,thisstudyproposesanLEO-enhancedBDS-3PPP-B2b positioningmodel."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 2
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 85,
+    "has": 0,
+    "dcb": 2,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT",
+  "corpus_version": "v1.0"
+}

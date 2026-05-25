@@ -1,0 +1,38 @@
+version: v0.2
+taxonomy:
+  BDS3_PPP_B2B_BROADCAST:
+    definition: Papers that use or evaluate BDS-3 PPP-B2b broadcast corrections as
+      primary data source
+    count: 12
+    papers:
+    - Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+    - Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+    - Nie_2021_initial_assessment_bds_ppp_b2b_service
+    - Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf
+    - Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+    - Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+    - Wang_2024_ppp_b2b_coverage_ztd_positioning
+    - Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c
+    - Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b
+    - Zhao_Lewen_2025_python_toolbox_for_bds_b2b
+    - Zhou_2023_multifrequency_bds3_rt_ppp_b2b
+    - Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo
+  MIXED_PRODUCTS:
+    definition: Papers that combine or compare PPP-B2b with other correction sources
+      (Galileo HAS, MADOCA, CNES)
+    count: 3
+    papers:
+    - Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA
+    - RT_ZTD_PPP_B2b_HAS_MADOCA
+    - Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+    note: These papers must NOT be merged into BDS3_PPP_B2B_BROADCAST core corpus
+  CNES_OR_OTHER_RTS:
+    definition: Papers about Galileo HAS or other non-BDS correction services
+    count: 1
+    papers:
+    - Borio_2023_ghasp_galileo_has_parser
+  QZSS_CLAS:
+    definition: Papers about QZSS CLAS augmentation service
+    count: 1
+    papers:
+    - Taro_Suzuki_2023_qzss_clas_l6_evaluation

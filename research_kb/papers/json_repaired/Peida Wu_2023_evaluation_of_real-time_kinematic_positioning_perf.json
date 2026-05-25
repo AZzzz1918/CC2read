@@ -1,0 +1,159 @@
+{
+  "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T17:00:00",
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_0396c930d7",
+        "quote_text": "In \nJuly 2021, the BDS-3 announced the service supporting \na kinematic decimeter-level and a static centimeter-level \nreal-time PPP when using its GEO B2b signal (PPP-B2b) \nin China and surrounding areas.",
+        "original_quote": "the BDS-3 announced the service supporting a kinematic decimeter-level and a static centimeter-level real-time PPP when using its GEO B2b signal (PPP-B2b)",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.77
+      },
+      {
+        "quote_id": "qb_112e6d8601",
+        "quote_text": "Vol.:(0123456789)\n1 3\nGPS Solutions (2023) 27:192 \nhttps://doi.org/10.1007/s10291-023-01532-3\nORIGINAL ARTICLE\nEvaluation of real‑time kinematic positioning performance \nof the BDS‑3 PPP service on B2b signal\nPeida Wu1 · Yidong Lou1 · Weixing Zhang1 · Jan Dousa2 · Huizhong He4,5 · Junbing Chai3 · Yongzhong Ouyang4,5 · \nZhenyi Zhang1 · Xu Zou1\nReceived: 6 March 2023 / Accepted: 10 August 2023 / Published online: 25 August 2023 \n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nThe BeiDou global navigation satellite system (GNSS) of China (BDS-3) had full operation capacity on July 31, 2020, and \nstarted providing free precise point positioning (PPP) service on B2b signals.",
+        "original_quote": "evaluation of a real-time PPP performance exploiting the PPP-B2b corrections",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.75
+      }
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "note": "Multiple experiments across different platforms; specific dates not clearly stated in accessible text"
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction",
+      "components": [
+        "radial",
+        "along-track",
+        "cross-track"
+      ]
+    },
+    {
+      "type": "clock_correction"
+    }
+  ],
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "note": "Performance evaluation paper — uses PPP-B2b corrections as-is without detailed DCB analysis"
+  },
+  "mathematical_model": {
+    "processing_mode": "Dual-frequency ionosphere-free undifferenced PPP model",
+    "frequency_combinations": {
+      "bds": "B1I/B3I ionosphere-free"
+    },
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_c1d0dabf0d",
+        "quote_text": "Real‑time PPP model using PPP‑B2b corrections\nThe dual-frequency IF combinations of GNSS pseudorange \nand phase observations can be expressed as follows,\nwhere Ps\nr,IF and Ls\nr,IF denote pseudorange and phase IF obser-\nvations, respectively, 휌s\nr represents a satellite-to-receiver geo-\nmetric distance with subscripts r for a receiver and s for a \nsatellite, dtr,IF and dts\nIF are receiver and satellite clock offsets, \ndr,IF and ds\nIF are the receiver and satellite hardware delays of \nthe pseudorange IF combination, br,IF and bs\nIF are hardware \ndelays of the phase IF combination, Trs\nr is the tropospheric \ndelay, 휆IF refers to the wavelength of L1 or B1, Ns\nr,IF is the \nIF ambiguity, 휀s\nr,IF,L and 휀s\nr,IF,P is the observation noise for \nPs\nr,IF and Ls\nr,IF , respectively.",
+        "original_quote": "dual-frequency ionosphere-free undifferenced PPP model",
+        "match_type": "keyword_overlap",
+        "confidence": "medium",
+        "score": 0.571
+      }
+    ]
+  },
+  "datasets": {
+    "platforms": [
+      "static stations",
+      "car",
+      "offshore vessel",
+      "aircraft"
+    ],
+    "correction_source": "BDS-3 PPP-B2b real-time correction stream from B2b signal",
+    "reference_products": [
+      "GFZ GBM post-processed multi-GNSS products",
+      "IGS-provided satellite PCO models"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_14d2888548",
+        "quote_text": "We present a general evaluation \nof a real-time PPP performance exploiting the PPP-B2b corrections in various user situations represented with static sta-\ntions, a car, an offshore vessel and an aircraft.",
+        "original_quote": "static stations, a car, an offshore vessel and an aircraft",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 0.833
+      }
+    ]
+  },
+  "metrics": {
+    "convergence_time_min": {
+      "bds_only": 28.5,
+      "bds_gps": 12.9,
+      "airborne_bds_gps": 48.9
+    },
+    "positioning_accuracy_95pct_cm": {
+      "horizontal": "<20",
+      "vertical": "<35"
+    },
+    "correction_quality": "PPP-B2b corrections less stable and higher by factor ~2 for GPS compared to BDS-3 MEO"
+  },
+  "main_results": {
+    "summary": "PPP-B2b service is prospective for real-time kinematic positioning applications. BDS-3+GPS dual-system achieves 12.9 min average convergence for low-speed platforms. 95% positioning errors <20cm (H) and <35cm (V) after convergence.",
+    "key_findings": [
+      "GPS PPP-B2b corrections ~2x less stable than BDS-3 MEO corrections",
+      "Convergence: 28.5 min (BDS only), 12.9 min (BDS+GPS) for low-speed objects",
+      "Airborne convergence much longer: 48.9 min",
+      "95% errors after convergence: <20cm (H), <35cm (V) for all experiments"
+    ],
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_15c839b6e3",
+        "quote_text": "An average convergence \ntime of 28.5 and 12.9 min can be achieved with a standalone BDS-3 and BDS-3 + GPS solution for a low-speed object, such \nas a permanent station, a car, and a ship, in real time when using the PPP-B2b corrections.",
+        "original_quote": "An average convergence time of 28.5 and 12.9 min can be achieved with a standalone BDS-3 and BDS-3+GPS solution",
+        "match_type": "keyword_overlap",
+        "confidence": "high",
+        "score": 1.0
+      },
+      {
+        "quote_id": "qb_8b6c9a099c",
+        "quote_text": "The 95% positioning errors after convergence are less than \n20 and 35 cm in horizontal and vertical directions for all the experiments.",
+        "original_quote": "The 95% positioning errors after convergence are less than 20 and 35 cm in horizontal and vertical directions",
+        "match_type": "normalized",
+        "confidence": "high",
+        "score": 0.813
+      }
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "B_INCREMENTAL",
+    "rationale": "First comprehensive evaluation of PPP-B2b across multiple kinematic platforms (static, car, vessel, aircraft). Extends previous static-only PPP-B2b evaluations to real-time kinematic scenarios.",
+    "grounding_quotes": [
+      {
+        "quote_id": "qb_8384387d1f",
+        "quote_text": "Although GNSS community has conducted \nmany evaluations on the PPP-B2b products and its user performance, comprehensive evaluations of real-time PPP solutions \nusing the BDS-3 PPP service at kinematic and highly kinematic platforms are still absent.",
+        "original_quote": "comprehensive evaluations of real-time PPP solutions using the BDS-3 PPP service at kinematic and highly kinematic platforms are still absent",
+        "match_type": "normalized",
+        "confidence": "medium",
+        "score": 0.571
+      }
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 2,
+    "reproduction_blockers": [
+      "Raw GNSS observation data from car/vessel/aircraft not publicly available",
+      "PPP-B2b correction stream archive not available",
+      "PPP processing software configuration not disclosed",
+      "Reference station coordinates not provided",
+      "No source code or processing scripts released"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "NOT_MENTIONED",
+    "reproduction_blockers_non_empty": true
+  }
+}

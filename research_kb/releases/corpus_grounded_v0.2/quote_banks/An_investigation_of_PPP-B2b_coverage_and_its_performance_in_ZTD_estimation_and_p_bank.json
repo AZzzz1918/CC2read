@@ -1,0 +1,1982 @@
+[
+  {
+    "quote_id": "qb_847741e047",
+    "span_index": 0,
+    "text": "Survey Review\nISSN: 0039-6265 (Print) 1752-2706 (Online) Journal homepage: www.tandfonline.com/journals/ysre20\nAn investigation of PPP-B2b coverage and its\nperformance in ZTD estimation and positioning in\ndifferent regions\nXiaoming Wang, Kai Zhou, Jinglei Zhang, Haobo Li, Hong Liang, Manhong Tu,\nYufei Chen, Cong Qiu & Li Li\nTo cite this article: Xiaoming Wang, Kai Zhou, Jinglei Zhang, Haobo Li, Hong Liang, Manhong\nTu, Yufei Chen, Cong Qiu & Li Li (2025) An investigation of PPP-B2b coverage and its\nperformance in ZTD estimation and positioning in different regions, Survey Review, 57:402,\n258-272, DOI: 10.1080/00396265.2024.2401665\nTo link to this article: https://doi.org/10.1080/00396265.2024.2401665\n© 2024 The Author(s).",
+    "char_length": 730
+  },
+  {
+    "quote_id": "qb_294381d1b1",
+    "span_index": 1,
+    "text": "Published by Informa\nUK Limited, trading as Taylor & Francis\nGroup\nPublished online: 10 Sep 2024.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_899e8a3a24",
+    "span_index": 2,
+    "text": "Submit your article to this journal\nArticle views: 1620\nView related articles\nView Crossmark data\nCiting articles: 7 View citing articles\nFull Terms & Conditions of access and use can be found at\nhttps://www.tandfonline.com/action/journalInformation?journalCode=ysre20",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_ba5753926f",
+    "span_index": 3,
+    "text": "An investigation of PPP-B2b coverage and its\nperformance in ZTD estimation and positioning\nin different regions\nXiaoming Wang ∗a,b, Kai Zhoua, Jinglei Zhanga, Haobo Lic, Hong Liangd,\nManhong Tud, Yufei Chena,b, Cong Qiua,b and Li Lie\nThis study comprehensively evaluates the Beidou navigation satellite system’s PPP-B2b service\nfor real-time positioning and zenith total delay (ZTD) estimation.",
+    "char_length": 394
+  },
+  {
+    "quote_id": "qb_6081a06bc8",
+    "span_index": 4,
+    "text": "Despite its operational status,\nPPP-b2b’s effective coverage is underexplored.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_0e8f92b71f",
+    "span_index": 5,
+    "text": "We define this coverage by analysing satellite\nvisibility and geometry and evaluating ZTD and positioning accuracy at 48 stations.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_5327a51fd1",
+    "span_index": 6,
+    "text": "Results\nshow PPP-B2b achieves ZTD Errors of 10–20 mm in China and 15–30 mm in Europe, with\nkinematic experiments in China and Japan showing consistent accuracy within 20 mm.",
+    "char_length": 173
+  },
+  {
+    "quote_id": "qb_98d2320267",
+    "span_index": 7,
+    "text": "This\nstudy highlights PPP-b2b’s potential for enhancing atmospheric monitoring and precise\npositioning in its effective regions.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_f65612891c",
+    "span_index": 8,
+    "text": "Keywords:BDS-3, PPP-B2b service, GNSS, PDOP, Zenith total delay, Positioning, PPP\nIntroduction correction information in real-time for various appli-\ncations with PPP (Hadas And Bosy, 2015, Kazmierski\nGlobal navigation satellite systems (GNSS), which are\net al., 2020).",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_937e431636",
+    "span_index": 9,
+    "text": "Previous studies have shown that the accu-\ndesigned mainly for positioning, navigation, and timing\nracy of real-time tropospheric estimates using the static\nservices (Leick et al., 2015), have been used to remotely\nPPP method with real-time satellite orbit and clock pro-\nsense the Earth’s atmosphere since the 1990s.",
+    "char_length": 317
+  },
+  {
+    "quote_id": "qb_86cc6e58d9",
+    "span_index": 10,
+    "text": "The precise\nducts can reach 1–2 mm for PWV (Li et al., 2015) and\npoint positioning (PPP) technique is widely used in esti- approximately 5–18 mm for ZTD (Hadas et al., 2020).",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_0d926178d2",
+    "span_index": 11,
+    "text": "mating the zenith total delay (ZTD), which can be con- In addition to estimating tropospheric information with\nverted to precipitable water vapor (PWV) using surface fixed GNSS stations using the static PPP method, various\ntemperature and pressure measurements at the GNSS\nstudies have indicated that tropospheric information can\nsite.",
+    "char_length": 335
+  },
+  {
+    "quote_id": "qb_39372e393f",
+    "span_index": 12,
+    "text": "However, the accuracy of ZTD derived using the\nbe monitored using GNSS observations on moving plat-\nPPP technique is highly dependent on the quality of the\nforms such as ships (Wang et al., 2019), Buoys (Chadwell\nsatellite orbit and clock data, as these errors are intro-\nAnd Bock, 2001), trains (Aichinger-Rosenberger et al.,\nduced into the PPP processing and are neither eliminated\n2021), cars (Gratton et al., 2021), and aeroplanes\nnor accounted for (Zhou et al., 2020) with the PPP ser-\n(Skone et al., 2006), using the kinematic PPP method.",
+    "char_length": 544
+  },
+  {
+    "quote_id": "qb_53fbda9683",
+    "span_index": 13,
+    "text": "vice via the B2b signal (PPP-B2b) of the Beidou Satellite\nHowever, these studies have highlighted that the major\nSystem (BDS) and the high-accuracy service (HAS) of\nissue for real-time GNSS PWV retrieval on moving plat-\nGalileo becoming operational in recent years, high-accu-\nforms is the limitation of Internet communication.",
+    "char_length": 327
+  },
+  {
+    "quote_id": "qb_8e64221d24",
+    "span_index": 14,
+    "text": "There-\nracy orbit and clock corrections are now available\nfore, sensing ZTD/PWV with either static or kinematic\nthrough these basic navigation constellations.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_b03b712bc2",
+    "span_index": 15,
+    "text": "Before\nPPP using the IGS RTS service is constrained by the\nthe availability of PPP-B2b service provided by BDS\nneed for a stable Internet connection to receive clock\nand the HAS from Galileo, we usually needed to use\nand orbit corrections.",
+    "char_length": 239
+  },
+  {
+    "quote_id": "qb_6dcf25b75e",
+    "span_index": 16,
+    "text": "the real-time service (RTS) initiated by the International\nBoth BDS and Galileo, through their basic navigation\nGNSS Service (IGS) to access GNSS orbit and clock\nconstellations, provide accurate satellite orbit and clock\ninformation in real-time, enabling high-accuracy posi-\naAerospace Information Research Institute, Chinese Academy of tioning and ZTD estimation using the PPP Algorithm\nSciences, Beijing, People’s Republic of China without the need for Internet access.",
+    "char_length": 472
+  },
+  {
+    "quote_id": "qb_b56859d298",
+    "span_index": 17,
+    "text": "The Galileo aims to\nbUniversity of Chinese Academy of Sciences, Beijing, People’s Republic of provide global high-accuracy positioning with errors of\nChina\ncRoyal Melbourne Institute of Technology (RMIT) University, Melbourne, less than 20 cm (95%) and 40 m (95%) in the horizontal\nAustralia and vertical domains, respectively, transmitted through\ndMeteorological Observation Center of China Meteorological Adminis-\nan open format in the E6-B signal (Fernandez-Hernandez\ntration, Beijing, People’s Republic of China\neResearch Center of Beidou Navigation and Remote Sensing, Suzhou Uni- et al., 2022, Zhou et al., 2024), the HAS was officially\nversity of Science and Technology, Suzhou, People’s Republic of China declared to have reached initial service status on January\n∗Corresponding author.",
+    "char_length": 794
+  },
+  {
+    "quote_id": "qb_2cb901d2f6",
+    "span_index": 18,
+    "text": "Email: wxmgeo@gmail.com Aerospace Information 24, 2023, and previous studies have shown that HAS pro-\nResearch Institute, Chinese Academy of Sciences, No.9 Dengzhuang ducts can achieve decimeter-level positioning accuracy in\nSouth Road, Haidian District, Beijing 100094, People’s Republic of China\n© 2024 The Author(s).",
+    "char_length": 319
+  },
+  {
+    "quote_id": "qb_9323ea0374",
+    "span_index": 19,
+    "text": "Published by Informa UK Limited, trading as Taylor & Francis Group\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (http://creativecommons.org/\nlicenses/by-nc-nd/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not\naltered, transformed, or built upon in any way.",
+    "char_length": 439
+  },
+  {
+    "quote_id": "qb_e41b9366b4",
+    "span_index": 20,
+    "text": "The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the\nauthor(s) or with their consent.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_ca23818282",
+    "span_index": 21,
+    "text": "Received 2 March 2024; accepted 25 August 2024\n258 DOI 10.1080/00396265.2024.2401665 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_4996e29b51",
+    "span_index": 22,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\nboth static and kinematic modes (Zhou et al., 2024) with commission for maritime services under the Internet pro-\nthe release of the interface control document for PPP ser- tocol (Ntrip) and can be accessed via the Internet by any\nvice signal PPP-B2b in 2020 (CSNO, 2020), BDS-3 began user who would like to investigate the PPP-B2b perform-\nproviding PPP services for china and its surrounding areas ance in any region.",
+    "char_length": 531
+  },
+  {
+    "quote_id": "qb_c368c70aec",
+    "span_index": 23,
+    "text": "via three geostationary Earth orbit (GEO) satellites (Yang\net al., 2021).",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_acd18ad227",
+    "span_index": 24,
+    "text": "Several recent studies have investigated the\nPPP-B2b service availability\nperformance of PPP-B2b services.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_ed638f2b98",
+    "span_index": 25,
+    "text": "(2021) Indi-\ncated that centimetre-level accuracy can be achieved for Availability is the percentage of time the PPP-B2b service\nboth static and kinematic position modes with the PPP- is usable within a specified coverage area.",
+    "char_length": 227
+  },
+  {
+    "quote_id": "qb_90ab820bbc",
+    "span_index": 26,
+    "text": "In this study,\nB2b service at the need for Internet access The high posi- the availability of the PPP-B2b service is defined as\ntioning performance of PPP-B2b has been confirmed in epochs with position DOP (PDOP) ≤ 6, which is com-\nseveral recent studies using GNSS stations located in monly used as a basic service availability threshold with\nChina (Nie et al., 2021, Tao et al., 2021, Wang et al., respect to the GPS (Ward, 1997) and BDS-3 performance\n2021, Zhang et al., 2022).",
+    "char_length": 480
+  },
+  {
+    "quote_id": "qb_e9ffad9fa8",
+    "span_index": 27,
+    "text": "Furthermore, applications of standards (CSNO, 2018).",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_e37eb885dd",
+    "span_index": 28,
+    "text": "Therefore, for a region to uti-\nPPP-B2b have been extensively studied in various lize PPP-B2b service, two criteria must be met: (1) at\ndomains, including water vapor monitoring (Yang et al., least one of the three BDS-3 GEO satellites is visible to\n2023), time transfer (Ge et al., 2023), and earthquake receive the PPP-B2b correction information; (2) at least\nmonitoring (Zang et al., 2024).",
+    "char_length": 393
+  },
+  {
+    "quote_id": "qb_d739302b21",
+    "span_index": 29,
+    "text": "four visible GNSS satellites have the correction infor-\nHowever, because PPP-B2b correction information is mation from the PPP-B2b signal, and the corresponding\nderived only from the BDS-3 tracking stations deployed PDOP does not exceed six.",
+    "char_length": 241
+  },
+  {
+    "quote_id": "qb_94b951ad7d",
+    "span_index": 30,
+    "text": "The availability of four satel-\nin China, its effective service is limited to China and its lites with PDOP values smaller than six is a basic cri-\nsurrounding areas (Yang et al., 2022).",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_8ea650425a",
+    "span_index": 31,
+    "text": "Therefore, the per- terion for standard point positioning, which does not\nformance of PPP-B2b may vary depending on the num- ensure that a high-accuracy positioning result can be\nber of available satellites and the satellite geometry.",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_8a8cc475df",
+    "span_index": 32,
+    "text": "achieved with PPP.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_d552fbb03a",
+    "span_index": 33,
+    "text": "However, we can still provide a\nMost studies have focused on the performance of PPP- preliminary definition of PPP-B2b service coverage\nB2b in China, and little attention has been paid to its using these criteria, and a more comprehensive investi-\neffective service coverage and performance in different gation will be conducted using observations from widely\nregions, especially outside China to address these short- distributed GNSS stations.",
+    "char_length": 444
+  },
+  {
+    "quote_id": "qb_aeb8fdd51d",
+    "span_index": 34,
+    "text": "In this study, the cut-off\ncomings, we comprehensively investigated the visibility elevation of the GNSS and BDS-3 GEO satellites was\nand dilution of precision (DOP) of satellites in terms of set to 7°.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_ae4cd13415",
+    "span_index": 35,
+    "text": "PPP-B2b signals in different regions to identify their We used the saved PPP-B2b orbit information from July\neffective service coverage.",
+    "char_length": 136
+  },
+  {
+    "quote_id": "qb_0ef5740745",
+    "span_index": 36,
+    "text": "The performance of BDS 21, 2022, to investigate the number of visible satellites and\nPPP-B2b in positioning and ZTD estimation was evalu- corresponding DOP values with a spatial resolution of\nated at 48 widely distributed stations using both static 1° × 1° and assumed that the altitudes were zero.",
+    "char_length": 298
+  },
+  {
+    "quote_id": "qb_402099092a",
+    "span_index": 37,
+    "text": "This\nand kinematic PPP modes.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_0b17f096f3",
+    "span_index": 38,
+    "text": "allowed us to investigate the minimum, maximum, and\naverage numbers of visible satellites and the DOP values\nat each grid point, providing us with insights into the avail-\nReal-time PPP-B2b decoding and ability of PPP-B2b services in different regions.",
+    "char_length": 252
+  },
+  {
+    "quote_id": "qb_5ca248a4cd",
+    "span_index": 39,
+    "text": "transfer via the internet\nNumber of satellites\nBecause most GNSS receivers cannot be used to decode\nFigure 2shows the number of satellites the PPP-B2b service\nPPP-B2b signals, we designed a PPP-B2b-Nrtip-Cater\non July 21, 2022 as observed at the BJ01 site in Beijing,\nsystem to investigate the performance of real-time posi-\nChina.",
+    "char_length": 331
+  },
+  {
+    "quote_id": "qb_455a510557",
+    "span_index": 40,
+    "text": "On average, nine BDS-3 satellites and seven GPS\ntioning and ZTD retrieval in different regions.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_816b67b78a",
+    "span_index": 41,
+    "text": "As illus-\nsatellites are available at each epoch of the PPP-B2b service.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_9bfb5ec005",
+    "span_index": 42,
+    "text": "trated in Figure 1, the PPP-B2b correction information\nFor most epochs, the number of BDS-3 satellites was\nwas first received and decoded by a custom-developed\nreceiver located in Beijing, China.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_a829cbffa9",
+    "span_index": 43,
+    "text": "These corrections\nwere then sent to our Ntripcaster Server, which is broad-\ncast using the network transmission of the radio technical\n2 Number of satellites for BDS-3 (blue line), GPS (green\nline), and a combination of BDS-3 and GPS (yellow line)\nfrom 00:00 to 24:00 UTC on July 21, 2022, observed at\n1 Workflow of the PPP-B2b-NRTIP-Cater system.",
+    "char_length": 347
+  },
+  {
+    "quote_id": "qb_329309b6d3",
+    "span_index": 44,
+    "text": "station BJ01 located in Beijing, China.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_d0715358c7",
+    "span_index": 45,
+    "text": "Survey Review 2025 VOL 57 NO 402 259",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_34c3eca6cb",
+    "span_index": 46,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\n3 Distribution of the minimum (top), maximum (middle), and average (bottom) number of satellites for BDS-3 (left), GPS\n(middle), and a combination of BDS-3 and GPS (right) in different regions.",
+    "char_length": 305
+  },
+  {
+    "quote_id": "qb_925218b604",
+    "span_index": 47,
+    "text": "The number of satellites is represented by different\ncolours, as indicated by the colour bar, with values smaller than 4 marked in white and values larger than 10 marked in red.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_64c9330949",
+    "span_index": 48,
+    "text": "greater than that of GPS satellites.",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_0833760718",
+    "span_index": 49,
+    "text": "Given the combination indicate that BDS-3 has slightly better coverage than that\nof BDS-3 and GPS satellites, the total number of satellites of GPS because the number of BDS-3 satellites broadcast\nranged from 13 to 20, with a mean value of 16.",
+    "char_length": 243
+  },
+  {
+    "quote_id": "qb_09e321d237",
+    "span_index": 50,
+    "text": "in PPP-B2b was greater than that of GPS satellites.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_f3816fc2e9",
+    "span_index": 51,
+    "text": "The\nFigure 3 shows the minimum, maximum, and average use of a combination of BDS-3 and GPS satellites ensures\nnumber of GNSS satellites in different regions.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_aa17ec7ee2",
+    "span_index": 52,
+    "text": "The results that at least four satellites are visible in most Asia-Pacific\n4 Distribution of the percentage of epochs with no fewer than four (top) or five (bottom) visible satellites for BDS-3 (left), GPS\n(middle), and the combination of BDS-3 and GPS (right).",
+    "char_length": 261
+  },
+  {
+    "quote_id": "qb_a20b3367ea",
+    "span_index": 53,
+    "text": "The percentages are represented by different colours, as indicated\nby the colour bar.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_d7f8b5a8b4",
+    "span_index": 54,
+    "text": "260 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_27409036dc",
+    "span_index": 55,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\n5 Distribution of the average value (top) and variation (bottom) of HDOP (left), VDOP (middle), and PDOP (right).",
+    "char_length": 225
+  },
+  {
+    "quote_id": "qb_efc8dbb6e3",
+    "span_index": 56,
+    "text": "The DOP\nvalues are represented by different colours, with values larger than 20 marked in red, as indicated by the colour bar.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_8e932b21d4",
+    "span_index": 57,
+    "text": "countries, Russia, Eastern Europe, and Northeast Africa.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_c2a3a51e99",
+    "span_index": 58,
+    "text": "Satellite DOP\nThe PPP-B2b service provides the most visible satellites\nIn addition to the number of satellites, the DOP, which rep-\nfor East China, with relatively even coverage across\nresents the quality of the geometry of the satellite constel-\nAsia.",
+    "char_length": 252
+  },
+  {
+    "quote_id": "qb_92cc9cab8e",
+    "span_index": 59,
+    "text": "The average number of satellites (BDS-3 + GPS)\nlation, is another important indicator of GNSS accuracy.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_a1070cee05",
+    "span_index": 60,
+    "text": "steadily decreased from approximately 15 in East China\nFigure 5shows the spatial distributions of the average hori-\nto four in the regions south of Australia and Northeast\nzontal DOP (HDOP), vertical DOP (VDOP), and PDOP\nAfrica.",
+    "char_length": 228
+  },
+  {
+    "quote_id": "qb_1cc8ef9d2d",
+    "span_index": 61,
+    "text": "Figure 4 shows the percentage of epochs with\nvalues and their temporal variations (the maximum value\nmore than four or five visible GNSS satellites.",
+    "char_length": 148
+  },
+  {
+    "quote_id": "qb_4b01e3a988",
+    "span_index": 62,
+    "text": "With a com-\nminus the minimum value).",
+    "char_length": 37
+  },
+  {
+    "quote_id": "qb_80e77917e4",
+    "span_index": 63,
+    "text": "In line with the spatial distri-\nbination of BDS-3 and GPS satellites, at almost every\nbution of visible GNSS satellites, the average DOP was\nepoch, there are at least four satellites across most Asia-\nthe smallest (<2) in East China and increased to more\nPacific countries, Eastern Europe, Northeast Africa, the\nthan 10 in regions far from China, such as South Australia\nIndian Ocean, and the Pacific Ocean.",
+    "char_length": 408
+  },
+  {
+    "quote_id": "qb_f009701f47",
+    "span_index": 64,
+    "text": "The temporal variation in DOP values in\nChina was less than approximately 5, whereas, for South\nAustralia, the variation was greater than 20.",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_cc9d23f2a7",
+    "span_index": 65,
+    "text": "According to the BDS open service performance stan-\ndard (CSNO, 2018), the global PDOP availability should\nmeet the requirement of PDOP ≤ 6 for 95% of the time.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_c553c0fbf4",
+    "span_index": 66,
+    "text": "Therefore, to identify the PPP-B2b service availability\nbased on this criterion, we calculated the percentage of\nthe time that the PDOP ≤ 6, and the results are shown\nin Figure 6.",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_955d0d074c",
+    "span_index": 67,
+    "text": "The yellow, blue, and red lines in Figure 6\ndepict the regions with a PDOP ≤ 6 for 95%, 85%, and\n60% of the time, respectively.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_a68f34f3eb",
+    "span_index": 68,
+    "text": "Hereafter, we define the\neffective PPP-B2b service region as the area with a\nPDOP ≤ 6, 95% of the time.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_2c921b2f91",
+    "span_index": 69,
+    "text": "Figure 6 shows that, com-\npared to the Northern Hemisphere, only a limited region\nin the Southern Hemisphere was covered by PPP-B2b.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_0ef3e6fd19",
+    "span_index": 70,
+    "text": "This only provides us with a preliminary definition of\nPPP-B2b service coverage because its performance in\npositioning and related applications varies with location\ndue to the differences in the number and geometry of\nusable satellites.",
+    "char_length": 236
+  },
+  {
+    "quote_id": "qb_47ed255809",
+    "span_index": 71,
+    "text": "To further illustrate the distribution of\n6 Distribution of the percentage of time that PDOP ≤ 6.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_1ec67a5878",
+    "span_index": 72,
+    "text": "The usable satellites in the PPP-B2b service for different\ngreen, yellow, blue, and red dashed lines represent the regions, a sky view plot of all visible satellites on July\nlocations with PDOP ≤ 6 for 99%, 95%, 85%, and 60% of 21, 2022, from 00 to 24 h UTC at 12 locations is shown\nthe time, respectively.",
+    "char_length": 306
+  },
+  {
+    "quote_id": "qb_58f4c945cf",
+    "span_index": 73,
+    "text": "The distribution of usable satellites with\nSurvey Review 2025 VOL 57 NO 402 261",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_bd9450022d",
+    "span_index": 74,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\n7 Sky view plot of viewable satellites on July 21, 2022, from 00 to 24 h UTC at 12 locations.",
+    "char_length": 205
+  },
+  {
+    "quote_id": "qb_07bafdf966",
+    "span_index": 75,
+    "text": "Different colours represent differ-\nent GNSS satellites.",
+    "char_length": 56
+  },
+  {
+    "quote_id": "qb_6154cdc199",
+    "span_index": 76,
+    "text": "Table 1 ZTD estimation strategy with PPP-B2b\nObservables IFLC of pseudorange and carrier phase\nFrequencies GPS L1/L2 and BDS-3 B1I/B3I (B1C/B2a)\nElevation cut-off 7°\nangle\nZTD estimation A priori value for the hydrostatic delay, calculated using the Saastamoinen model, and the wet delay was\nestimated as a random walk process noise of 5 mm/√h\nCoordinate Static mode: coordinates are estimated as constant parameters Kinematic mode: coordinates are estimated as\nwhite noise parameters\nMapping function Global mapping function\nGradient North and east components of the tropospheric gradient parameters were estimated\nparameters\nReceiver clock Receiver clock estimated as white noise parameter for GPS and BDS-3 separately\nSolution type Static/kinematic PPP with float ambiguities\nCorrections models Phase wind-up, relativistic delays, the effects of the solid Earth pole tide and the ocean pole tide are modelled\naccording to the IERS Conventions 2010\n262 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 987
+  },
+  {
+    "quote_id": "qb_09dcdb5ac9",
+    "span_index": 77,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\nFurther details regarding the 48 GNSS stations are pro-\nvided in the Appendix.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_c238d1d8e5",
+    "span_index": 78,
+    "text": "With the PPP-B2b information\ntransferred by the system through the Internet, as illus-\ntrated in Section 2, and the real-time observation streams\nat these stations, the ZTD and position were calculated\nusing the PPP technique with 30 s sampling in real-\ntime.",
+    "char_length": 259
+  },
+  {
+    "quote_id": "qb_db85bc588a",
+    "span_index": 79,
+    "text": "The performance of the ZTD and positioning accu-\nracy were then evaluated by comparing them with the\npost-processed results with Geodetic Benchmark\n(GBM) final products provided by the Helmholtz Centre\nPotsdam and German Research Centre for Geosciences.",
+    "char_length": 253
+  },
+  {
+    "quote_id": "qb_bc36851aba",
+    "span_index": 80,
+    "text": "The key processing strategies are listed in Table 1.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_c2fe83fab6",
+    "span_index": 81,
+    "text": "Solution integrity\nThe accuracy and integrity of the solutions are two\nimportant indicators of the PPP-B2b service, which indi-\ncate whether this technique can continuously provide\nusers with a reliable positioning service.",
+    "char_length": 223
+  },
+  {
+    "quote_id": "qb_21ce9905a0",
+    "span_index": 82,
+    "text": "An insufficient\n8 Integrity of the PPP-B2b solution at 48 sites.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_42318e0e25",
+    "span_index": 83,
+    "text": "The yellow number of visible satellites or poor satellite geometry at\nline represents the locations with PDOP ≤6 for 95% of certain epochs may lead to a failure in PPP parameter\nthe time.",
+    "char_length": 187
+  },
+  {
+    "quote_id": "qb_d2857787ff",
+    "span_index": 84,
+    "text": "The PPP-B2b solution integrity is defined as estimation with PPP-B2b corrections, thus affecting the\nthe ratio between the number of PPP-B2b solutions and continuity of the PPP-B2b solutions.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_6c9c421b45",
+    "span_index": 85,
+    "text": "To investigate the\nthe number of GBM solutions.",
+    "char_length": 47
+  },
+  {
+    "quote_id": "qb_9e86e36f07",
+    "span_index": 86,
+    "text": "integrity of the PPP-B2b solution, we compared the num-\nber of PPP solutions obtained with the PPP-B2b and\nGBM products.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_4a8db0eff1",
+    "span_index": 87,
+    "text": "The PPP-B2b solution integrity was\nrespect to azimuth and elevation varies with location.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_f7f43a04e7",
+    "span_index": 88,
+    "text": "For\ndefined as the ratio of the number of PPP solutions\nexample, although the average PDOP values at (60° N,\nobtained with the PPP-B2b and GBM products.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_c88475b9dc",
+    "span_index": 89,
+    "text": "The\n120° E) and (30° N, 120° E) are both less than two, the\nintegrity of the PPP-B2b solution was defined as the\nsatellite tracks can cover almost all azimuths and\nratio of the number of PPP solutions obtained using\nelevations at (30° N and 120° E), whereas at (60° N,\nthe PPP-B2b products to the number obtained using\n120° E), the visible satellites are mostly in the southern\nthe GBM products.",
+    "char_length": 395
+  },
+  {
+    "quote_id": "qb_38df3e1bb7",
+    "span_index": 90,
+    "text": "As revealed in Figure 8, for the\ndirection, which may bias the ZTD estimation results if\nsites located within the PPP-B2b service region (PDOP ≤\nthere is a strong atmospheric horizontal gradient.",
+    "char_length": 195
+  },
+  {
+    "quote_id": "qb_e7682e6471",
+    "span_index": 91,
+    "text": "6 for 95% of the time), the integrity of the solution is\nclose to 100%.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_9a6044f35c",
+    "span_index": 92,
+    "text": "For sites located outside the PPP-B2b ser-\nZTD retrieval and positioning vice region, the solution integrity decreased from above\n90% to approximately 75% at GRAZ (Austria) and\nperformance of PPP-B2b\napproximately 50% in South Australia.",
+    "char_length": 237
+  },
+  {
+    "quote_id": "qb_79a59060ea",
+    "span_index": 93,
+    "text": "For sites in the\nAs depicted in the previous section, the DOP, number of Antarctic, the integrity values were all less than 10%,\nsatellites, and sky view of the viewable satellites have an indicating that PPP-B2b was barely useful in this region.",
+    "char_length": 246
+  },
+  {
+    "quote_id": "qb_2ea04d2234",
+    "span_index": 94,
+    "text": "obvious dependence on location.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_cb3592aff2",
+    "span_index": 95,
+    "text": "Therefore, to investi- Solution integrity is mainly related to the number and\ngate how this affects ZTD retrieval and positioning accu- geometry of usable satellites.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_b496f96cc6",
+    "span_index": 96,
+    "text": "Typically, it is not possible\nracy in different regions, we selected 48 stations for our to obtain a reliable solution using PPP when the number\nreal-time positioning and ZTD retrieval experiments.",
+    "char_length": 197
+  },
+  {
+    "quote_id": "qb_31622607ad",
+    "span_index": 97,
+    "text": "of satellites is very small or the PDOP value is very large.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_9c35bf6891",
+    "span_index": 98,
+    "text": "9 Mean number of visible satellites (cut-off elevation ≥ 7°) for the GBM and PPP-B2b products between DOY 202 and 208 at 48\nsites.",
+    "char_length": 130
+  },
+  {
+    "quote_id": "qb_69e99cb0ef",
+    "span_index": 99,
+    "text": "The different colours represent the number of mean satellites as indicated by the colour bar, with values larger than 20\nmarked in red.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_ad29c01a66",
+    "span_index": 100,
+    "text": "Survey Review 2025 VOL 57 NO 402 263",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_5fd893395b",
+    "span_index": 101,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\n10 Mean (left) and STD value (right) of PDOP for GBM and PPP-B2b products between DOY 202 and 208 at 48 sites.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_2827a5c059",
+    "span_index": 102,
+    "text": "The colour\nbar shows the mean or STD of PDOP values with corresponding colours, where values larger than 10 are marked in red\nAs shown in Figure 9, when the GBM products were used, using the GBM products.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_09475ee9df",
+    "span_index": 103,
+    "text": "Figure 11 shows the RMS\nthe number of usable satellites was greater than 15 at 43 of and bias of the ZTD derived using PPP-B2b.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_94f3c8ee05",
+    "span_index": 104,
+    "text": "For the\nthe 48 stations.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_d20761be32",
+    "span_index": 105,
+    "text": "The lowest number of usable satellites was sites located in China, the RMSs of the ZTD are mostly\nobserved at the FTNA and MSSA stations (approxi- within 10–20 mm, with biases varying from −15 to\nmately 12), which could only observe a few of the BDS-3 15 mm.",
+    "char_length": 258
+  },
+  {
+    "quote_id": "qb_d9bb1ae55f",
+    "span_index": 106,
+    "text": "The lowest RMS was observed at site JNYZ,\nsatellites (PRN number <30) owing to the limitations of with an RMS value of 10.57 mm and a bias of\ntheir receivers.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_0cb4202309",
+    "span_index": 107,
+    "text": "For the PPP-B2b products, the number of −3.95 mm.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_b28f5bf4b0",
+    "span_index": 108,
+    "text": "For the sites located in Europe, the RMSs\nusable satellites was greater than 10 at only 13 stations of the ZTD are mostly within 15–30 mm, with biases\nand showed a strong dependence on location.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_bf13ec34a6",
+    "span_index": 109,
+    "text": "Several varying from −20 to 20 mm.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_b5c1b0eab6",
+    "span_index": 110,
+    "text": "The RMSs of the ZTD for\nsites with receivers cannot track new BDS-3 satellites sites located in the Northern Hemisphere were lower\n(usually PRN > 30), which significantly reduces the num- than those for sites located in the Southern Hemisphere,\nber of usable GNSS satellites.",
+    "char_length": 275
+  },
+  {
+    "quote_id": "qb_716dd3e224",
+    "span_index": 111,
+    "text": "The statistical results show which had RMS values larger than 30 mm at most sites.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_65c38e31cf",
+    "span_index": 112,
+    "text": "that the STDs of the number of usable satellites are less Figure 12shows the comparison between ZTDs derived\nthan two across all stations, indicating that the number using PPP-B2b and GBM orbit/clock products at\nof usable satellites is stable for both GBM and PPP-B2b.",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_74b3a50880",
+    "span_index": 113,
+    "text": "TAKJ station in China (36.2° N, 117.1° E) and MTIS\nFigure 10shows the spatial characteristics of the PDOP station in Australia (20.7° S, 139.5° E).",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_a9444aca41",
+    "span_index": 114,
+    "text": "For the TAKJ\nvalues, which indicate a property similar to the number of station, located in the central region of the PPP-B2b ser-\navailable satellites distributed.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_a48f2ded1c",
+    "span_index": 115,
+    "text": "According to the results vice, the ZTDs derived from PPP-B2b and GBM show a\nshown in Figure 10, the average PDOP value for satellites very good agreement, with differences mainly within\nwith GBM products was mostly within 1–2 with a standard ±20 mm.",
+    "char_length": 249
+  },
+  {
+    "quote_id": "qb_5ee8059ad7",
+    "span_index": 116,
+    "text": "In contrast, for the MTIS station located out-\ndeviation of less than 1.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_7be696bbdf",
+    "span_index": 117,
+    "text": "For satellites with PPP-B2b pro- side of the PPP-B2b service region, a significant discre-\nducts, only the stations located in East China had STD pancy is observed between the two ZTD solutions,\nvalues comparable to those of the GBM products.",
+    "char_length": 242
+  },
+  {
+    "quote_id": "qb_8db632cf52",
+    "span_index": 118,
+    "text": "indicating noticeably degraded accuracy of the PPP-\nB2b solution in the Southern Hemisphere.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_a79a027f68",
+    "span_index": 119,
+    "text": "Figure 13 shows the static position accuracy in the\nReal-time ZTD and coordinates derived with\nnorth, east and up directions.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_4dbbda9aa4",
+    "span_index": 120,
+    "text": "The position accuracy for\nPPP-B2b using static PPP mode\nsites located in the Northern Hemisphere was much bet-\nUsing the PPP-B2b corrections and real-time obser- ter than those in the Southern Hemisphere.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_8df10d8ebc",
+    "span_index": 121,
+    "text": "For the nine\nvations, the ZTD and coordinates were calculated in stations located in China, the mean RMS errors of the\nreal-time.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_6471cd13e0",
+    "span_index": 122,
+    "text": "The results derived with PPP-B2b were evalu- coordinates in the north, east, and up components were\nated by comparing them with the post-processed results 1.1, 1.5, and 2.3 cm, respectively.",
+    "char_length": 190
+  },
+  {
+    "quote_id": "qb_716917a8b5",
+    "span_index": 123,
+    "text": "The biases were mostly\n264 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_4457ea5b91",
+    "span_index": 124,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\nAsia, the mean RMSs of the position errors in the\nnorth, east, and up components were 2.1, 5.0, and\n7.7 cm, respectively.",
+    "char_length": 233
+  },
+  {
+    "quote_id": "qb_2504b7198a",
+    "span_index": 125,
+    "text": "In terms of bias, an obvious negative\nbias can be observed at most sites in all three com-\nponents, especially in the up component.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_cd672fcbfb",
+    "span_index": 126,
+    "text": "The 3D RMS\nerrors range from 4.6 cm to 18.3 cm, with a mean value\nof 9.8 cm.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_0419a26908",
+    "span_index": 127,
+    "text": "For sites located in the Southern Hemisphere,\nthe RMS errors are larger than those in the Northern\nHemisphere and show a strong dependence on location.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_6c120cd676",
+    "span_index": 128,
+    "text": "For the 9 stations located on the continent of Australia,\nthe mean RMSs of the position errors in the north,\neast, and up components are 8.9, 12.6, and 12.4 cm,\nrespectively, which are much larger than those of sites\nlocated in China.",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_2f83640acc",
+    "span_index": 129,
+    "text": "Figure 14 shows the comparison\nbetween the coordinates estimated using PPP-B2b and\nGBM at TAKJ and MTIS stations, indicating a slightly\nbetter performance at TAKJ station, located within the\nPPP-B2b service region, than at MTIS station, which is\nclose to the edge of the PPP-B2b service region.",
+    "char_length": 294
+  },
+  {
+    "quote_id": "qb_9650b55f40",
+    "span_index": 130,
+    "text": "The vari-\nation in the accuracy of the ZTD estimates and coordi-\nnates, which shows much better performance in China\ncompared to Australia or Europe, aligns well with the\nvariation in the number of visible satellites and DOP\nvalues across different regions.",
+    "char_length": 257
+  },
+  {
+    "quote_id": "qb_92329dbac8",
+    "span_index": 131,
+    "text": "This agreement is reason-\nable since the PPP solution is strongly dependent on the\nnumber and geometry of the GNSS satellites.",
+    "char_length": 126
+  },
+  {
+    "quote_id": "qb_7d7d37d4d9",
+    "span_index": 132,
+    "text": "11 RMS (top) and bias (bottom) of the real-time ZTD derived Real-time ZTD and coordinates derived with\nwith PPP-B2b products using static PPP mode between PPP-B2b using the kinematic PPP mode\nDOY 202 and 208 at 48 sites.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_44b9f53b12",
+    "span_index": 133,
+    "text": "The ZTD estimated with\nTo investigate the performance of the kinematic ZTD\nGBM products was used as the reference.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_e84a715e77",
+    "span_index": 134,
+    "text": "The colour\nestimation with PPP-B2b, an experiment was conducted\nbar shows the RMS or bias of PPP-B2b ZTD with corre-\nat 44 global stations between DOY 250 and 256.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_0554461aea",
+    "span_index": 135,
+    "text": "As\nsponding colours, where values larger than 40 mm are\nshown in Figure 15, the RMS values of the kinematic\nmarked in deep red.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_0553731f02",
+    "span_index": 136,
+    "text": "ZTD values estimated at the eight stations in China\nand one station in Japan were all within 20 mm, with a\nmean value of 14.9 mm.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_2ba6e7cee6",
+    "span_index": 137,
+    "text": "The biases are all between −20\nwithin −4 cm to 4 cm.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_483838e8ef",
+    "span_index": 138,
+    "text": "The 3D RMS errors range from and 20 mm.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_5ae8333bd3",
+    "span_index": 139,
+    "text": "For station ADH1, located in the United\n1.2 cm to 8.5 cm, with a mean value of 3.3 cm.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_84f3735637",
+    "span_index": 140,
+    "text": "For the Arab Emirates, the RMS value was 24.4 mm, with a\n11 stations located in Europe and western and central bias value of −18.3 mm.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_0c1ac919fe",
+    "span_index": 141,
+    "text": "At the other stations, the\n12 Comparison of ZTDs estimated using static PPP mode with PPP-B2b and GBM at stations TAKJ (left) and MTIS (right).",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_65739ab79f",
+    "span_index": 142,
+    "text": "The\nX-axis represents time in DOY, and the Y-axis represents ZTD values or their differences.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_01f0650cfe",
+    "span_index": 143,
+    "text": "The top panels show ZTD values\nfor PPP-B2b (red line) and GBM (blue line) solutions, while the bottom panels show their differences\nSurvey Review 2025 VOL 57 NO 402 265",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_94c467cce2",
+    "span_index": 144,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\n13 RMS (left) and bias (right) of the real-time coordinates derived with PPP-B2b products using static PPP mode between DOY\n202 and 208 at 48 sites.",
+    "char_length": 260
+  },
+  {
+    "quote_id": "qb_42d88f6741",
+    "span_index": 145,
+    "text": "The coordinates estimated with GBM products were used as the reference.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_ded76f2636",
+    "span_index": 146,
+    "text": "The colour bar shows\nthe RMS or bias of the PPP-B2b coordinates with corresponding colours, where values larger than 20 cm for the RMS or\n10 cm for the bias are marked in deep red and values smaller than −10 cm for the bias are marked in deep blue.",
+    "char_length": 248
+  },
+  {
+    "quote_id": "qb_32c9fdc1e6",
+    "span_index": 147,
+    "text": "14 Coordinate differences between PPP-B2b and GBM solutions using static PPP mode at stations TAKJ (left) and MTIS\n(right) in north, east, and up directions.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_ea3367b5a6",
+    "span_index": 148,
+    "text": "266 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_bd2a695407",
+    "span_index": 149,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\nthe kinematic PPP mode using PPP-B2b information.",
+    "char_length": 161
+  },
+  {
+    "quote_id": "qb_089e9dfef8",
+    "span_index": 150,
+    "text": "As shown in Figure 16, the comparison of the time series\nof ZTDs derived using PPP-B2b and GBM in kinematic\nmode reveals a strong agreement at the TAKJ station in\nChina, located in the central region of the PPP-B2b ser-\nvice.",
+    "char_length": 225
+  },
+  {
+    "quote_id": "qb_0084b4fa00",
+    "span_index": 151,
+    "text": "In contrast, a significant discrepancy is observed\nat the MTIS station in Australia, located near the edge\nof the PPP-B2b service region.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_3137376a19",
+    "span_index": 152,
+    "text": "As shown in Figure 17, the spatial properties of the\ncoordinate errors agree well with those of the ZTD\nerror.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_60affe6272",
+    "span_index": 153,
+    "text": "For the seven stations located in China, the mean\nRMS errors of coordinates in the north, east and up\ndirections are 2.8, 5.3, and 9.0 cm, respectively, with\nbiases ranging from −4.3 cm to 7.8 cm.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_0bde0106e9",
+    "span_index": 154,
+    "text": "The mean 3D\nRMS error was 10.9 cm across the seven stations.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_5f10abe279",
+    "span_index": 155,
+    "text": "The\n3D RMS errors at stations POHN (Micronesia), MSSA\n(Japan), and ADH1 (Emirates) are 16.8, 20.7, and\n27.0 cm, respectively.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_676c9066d3",
+    "span_index": 156,
+    "text": "At other stations, the 3D RMS\nerrors exceeded 50 cm.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_eb5d34e7d3",
+    "span_index": 157,
+    "text": "The time series shown in Figure\n18 demonstrates that the coordinate estimation error at\nthe MTIS station is significantly greater than at the\nTAKJ station.",
+    "char_length": 155
+  },
+  {
+    "quote_id": "qb_baca471d8c",
+    "span_index": 158,
+    "text": "This increased error at MTIS is primarily\ncaused by a lack of visible satellites or poor satellite geo-\nmetry during certain epochs.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_1d915ca63b",
+    "span_index": 159,
+    "text": "Convergence performance\n15 RMS (top) and bias (bottom) of the real-time ZTD derived\nTo investigate the convergence performance of the PPP-\nwith PPP-B2b products using kinematic PPP mode\nB2b service in different regions, real-time static and kin-\nbetween DOY 250 and 256 at 44 sites.",
+    "char_length": 282
+  },
+  {
+    "quote_id": "qb_7ab6684c74",
+    "span_index": 160,
+    "text": "The ZTD estimated\nematic PPP experiments were conducted on DOY 011\nwith GBM products was used as the reference.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_6a6d514c8f",
+    "span_index": 161,
+    "text": "The colour\nand 015 in 2023 at 45 stations.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_55e6e91e37",
+    "span_index": 162,
+    "text": "The static and simulated\nbar shows the RMS or bias of PPP-B2b ZTD with corre-\nkinematic PPP processes started at 04:00 UTC on DOY\nsponding colours, where values larger than 100 mm for\n011 and restarted every 6 h till 08:00 UTC on DOY 015\nRMS or 90 mm for bias are marked in deep red, and values\nto obtain 17 convergence periods at each station to\nsmaller than −90 mm for bias are marked in deep blue.",
+    "char_length": 400
+  },
+  {
+    "quote_id": "qb_b02554c9f7",
+    "span_index": 163,
+    "text": "study the convergence behaviour in detail.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_39b38c63df",
+    "span_index": 164,
+    "text": "In this study,\nthe PPP convergence time was defined as the time when\nthe position errors were first reached and maintained\nRMS values were greater than 30 mm.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_171ae2ac09",
+    "span_index": 165,
+    "text": "This finding indi- within 20 (10) and 40 (20) cm in the horizontal (H) and\ncates that it is only possible to retrieve a high-accuracy vertical (V) components, respectively, for at least 10 con-\nZTD in China and surrounding areas (e.g.",
+    "char_length": 234
+  },
+  {
+    "quote_id": "qb_baf24fbed7",
+    "span_index": 166,
+    "text": "Japan) for secutive min.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_f0caceac1b",
+    "span_index": 167,
+    "text": "The success rate of convergence and the\n16 Comparison between ZTDs estimated using kinematic PPP mode with PPP-B2b and GBM at stations TAKJ (left) and MTIS\n(right).",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_dcd8e676bd",
+    "span_index": 168,
+    "text": "The X-axis represents time in DOY, and the Y-axis represents ZTD values or their differences.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_c821f6ef0d",
+    "span_index": 169,
+    "text": "The top panels show\nZTD values for PPP-B2b (red line) and GBM (blue line) solutions, while the bottom panels show their differences.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_e13852cf7d",
+    "span_index": 170,
+    "text": "Survey Review 2025 VOL 57 NO 402 267",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_537970304b",
+    "span_index": 171,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\n17 RMS (left) and bias (right) of the real-time coordinates derived with PPP-B2b products using kinematic PPP mode between\nDOY 250 and 256 at 44 sites.",
+    "char_length": 263
+  },
+  {
+    "quote_id": "qb_acbc36ebb1",
+    "span_index": 172,
+    "text": "The coordinates estimated with GBM products were used as the reference.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_c361932472",
+    "span_index": 173,
+    "text": "The colour bar\nshows the RMS or bias of PPP-B2b coordinates with corresponding colours, where values larger than 50 mm for RMS\nor 45 mm for bias are marked in deep red, and values smaller than −45 mm for bias are marked in deep blue.",
+    "char_length": 233
+  },
+  {
+    "quote_id": "qb_403e95c14e",
+    "span_index": 174,
+    "text": "18 Coordinate differences between PPP-B2b and GBM solutions using kinematic PPP mode at stations TAKJ (left) and MTIS\n(right) in north, east, and up directions.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_67b17b59b0",
+    "span_index": 175,
+    "text": "268 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_552c89c263",
+    "span_index": 176,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\naverage convergence time for the 17 convergence periods PPP experimental results.",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_7aba53303a",
+    "span_index": 177,
+    "text": "The average convergence time\nare provided in Figures 19and 20for the static and kin- of kinematic PPP was longer than that of static PPP.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_69e0cdd7f6",
+    "span_index": 178,
+    "text": "ematic modes, respectively.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_8b93f85394",
+    "span_index": 179,
+    "text": "As shown in Figure 19, the Considering eight stations located in China as an\nsuccess rate and average time of convergence of static example, the average convergence time varies from\nPPP with PPP-B2b corrections show an obvious depen- 16.2 min (TAKJ) to 100.4 min (KSKT) with the conver-\ndence on location.",
+    "char_length": 305
+  },
+  {
+    "quote_id": "qb_e37309f7ef",
+    "span_index": 180,
+    "text": "The best convergence performance gence criterion of H < 20 cm and V < 40 cm and varies\nfor the PPP-B2b service was observed in China and its from 35.9 min (TAKJ) to 169.4 min (KSKT) with the\nsurrounding areas.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_1e9a38fe69",
+    "span_index": 181,
+    "text": "For example, for eight stations located convergence criterion of H < 10 cm and V < 20 cm.",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_16689f1d4e",
+    "span_index": 182,
+    "text": "For\nin China, the success rate of convergence was 100% for station KSKT, which is located in the westernmost city\ntwo convergence criteria (H < 20 cm, V < 40 cm, H < of China, only 13 of 17 experiments successfully con-\n10 cm, and V < 20 cm).",
+    "char_length": 242
+  },
+  {
+    "quote_id": "qb_fdf41f39b0",
+    "span_index": 183,
+    "text": "The average convergence time verged with the H < 10 cm and V < 20 cm criteria.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_ae9546d0c3",
+    "span_index": 184,
+    "text": "For\nfor the convergence criterion of H < 20 cm and V < most stations located south of 30° S, the success rate of\n40 cm varies from 11.8 min (TAKJ) to 35.9 min convergence was below 10% with the criteria of H <\n(KSKT), whereas for the convergence criterion of H < 20 cm and V < 40 cm.",
+    "char_length": 283
+  },
+  {
+    "quote_id": "qb_e0c2e09246",
+    "span_index": 185,
+    "text": "10 cm and V < 20 cm, the convergence time varies from\n23.8 min (TAKJ) to 62.6 min (YNTW).",
+    "char_length": 89
+  },
+  {
+    "quote_id": "qb_be2809147b",
+    "span_index": 186,
+    "text": "For stations far\nConclusion\nfrom China, the convergence rate becomes low, which\nleads to low positioning accuracy, as shown in the pre- The investigation revealed that the average number of vis-\nvious subsections.",
+    "char_length": 213
+  },
+  {
+    "quote_id": "qb_5fc74c8791",
+    "span_index": 187,
+    "text": "The convergence time for the same ible satellites varies significantly with location, decreasing\nstation exhibited a large variation with epochs.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_f99cb6945d",
+    "span_index": 188,
+    "text": "Consider- steadily from approximately 15 in East China to 4 in the\ning the TAKJ station as an example, the shortest conver- regions south of Australia and Northeast Africa.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_11aaee8d91",
+    "span_index": 189,
+    "text": "This led\ngence time was only 7.0 min at UTC 04:00 on DOY 013, to an increase in the average PDOP from less than 2 in\nand the longest convergence time was 55.4 min at UTC East China to more than 10 in regions far from China,\n10:00 on DOY 012.",
+    "char_length": 241
+  },
+  {
+    "quote_id": "qb_0ea56e30c2",
+    "span_index": 190,
+    "text": "such as South Australia and Africa.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_1f07825ff4",
+    "span_index": 191,
+    "text": "An insufficient num-\nFor the simulated kinematic PPP experiments, as ber of satellites or poor satellite geometry led to the fail-\nshown in Figure 20, the convergence performance exhib- ure of the PPP solution at approximately 50% and 90% of\nited a spatial characteristic similar to that of the static the epochs in South Australia and Antarctica,\n19 Success rates of convergence and average convergence times at 45 stations with static PPP.",
+    "char_length": 441
+  },
+  {
+    "quote_id": "qb_f652a73968",
+    "span_index": 192,
+    "text": "Left panels: the success rate\nof convergence (left top) and average convergence time (left bottom) with the convergence criterion of a horizontal (H)\nerror smaller than 20 cm and a vertical (V) error smaller than 40 cm.",
+    "char_length": 219
+  },
+  {
+    "quote_id": "qb_eea257731a",
+    "span_index": 193,
+    "text": "Right panels: the success rate of convergence\n(right top) and average convergence time (right bottom) with the convergence criterion of a horizontal error smaller\nthan 10 cm and a vertical error smaller than 20 cm.",
+    "char_length": 214
+  },
+  {
+    "quote_id": "qb_3ee3d9148e",
+    "span_index": 194,
+    "text": "The colour bar shows the success rate of convergence or the conver-\ngence time.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_7b7767af55",
+    "span_index": 195,
+    "text": "Survey Review 2025 VOL 57 NO 402 269",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_c692fb4ae1",
+    "span_index": 196,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\n20 Success rate of convergence and average convergence time at 45 stations with kinematic PPP.",
+    "char_length": 206
+  },
+  {
+    "quote_id": "qb_7e0f1df21a",
+    "span_index": 197,
+    "text": "Left panels: the success\nrate of convergence (left top) and average convergence time (left bottom) with the convergence criterion of horizontal (H)\nerror smaller than 20 cm and vertical (V) error smaller than 40 cm.",
+    "char_length": 215
+  },
+  {
+    "quote_id": "qb_36af5b4f36",
+    "span_index": 198,
+    "text": "Right panels: the success rate of convergence (right top)\nand average convergence time (right bottom) with the convergence criterion of horizontal error smaller than 10 cm and\nvertical error smaller than 20 cm.",
+    "char_length": 210
+  },
+  {
+    "quote_id": "qb_3d9ec51fe5",
+    "span_index": 199,
+    "text": "The colour bar shows the success rate of convergence or convergence time.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_2f113e08a4",
+    "span_index": 200,
+    "text": "The accuracy of the positioning and ZTD coverage for real-time positioning and ZTD estimation\nresults agreed well with the spatial variation in the in PPP mode.",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_d24609e4b0",
+    "span_index": 201,
+    "text": "In this study, the performance of PPP-B2b\nPDOP values of the satellites.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_b22ed4aaed",
+    "span_index": 202,
+    "text": "For the static PPP exper- was evaluated over a one-week period, which is insufficient\niments, the best results were observed at stations located for assessing its long-term stability.",
+    "char_length": 183
+  },
+  {
+    "quote_id": "qb_9492d66b3c",
+    "span_index": 203,
+    "text": "A comprehensive\nin China, with ZTD RMS errors mostly within 10– evaluation requires at least one year of study.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_27e1fdb404",
+    "span_index": 204,
+    "text": "To facilitate\n20 mm and 3D coordinate RMS errors of 3.3 cm.",
+    "char_length": 59
+  },
+  {
+    "quote_id": "qb_ed205a4c80",
+    "span_index": 205,
+    "text": "The long-term analysis of the PPP-B2b service, we have set up\nkinematic results revealed that the RMS errors of the kin- a receiver to receive both PPP-B2b and HAS services, and\nematic ZTDs estimated at the stations located in China the received orbit and clock corrections are saved in the\nwere all within 20 mm, with a mean value of 14.9 mm.",
+    "char_length": 343
+  },
+  {
+    "quote_id": "qb_4fe65e65eb",
+    "span_index": 206,
+    "text": "SP3 format for future studies.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_902b2d9e4e",
+    "span_index": 207,
+    "text": "For the other stations, the RMS values mostly exceeded\n30 mm.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_2a19a02ab9",
+    "span_index": 208,
+    "text": "In terms of the kinematic positioning results,\nthe mean 3D RMS of the coordinates was 10.9 cm across Acknowledgements\nthe seven stations located in China, which is notably bet-\nThe authors would like to thank the GFZ for providing\nter than the performance in other regions.",
+    "char_length": 273
+  },
+  {
+    "quote_id": "qb_db7e85119f",
+    "span_index": 209,
+    "text": "The investi-\nhigh-accuracy orbit and clock products and the IGS for\ngation of convergence performance shows that the\nproviding GNSS observations.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_b3105273fc",
+    "span_index": 210,
+    "text": "This work was funded\nsuccess rate of convergence and the average convergence\nby the Aerospace Information Research Institute.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_8776280955",
+    "span_index": 211,
+    "text": "time are highly dependent on the location and time.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_1cebeaf2fd",
+    "span_index": 212,
+    "text": "As a regional service, the PPP-B2b service performs well\nin China and surrounding areas (e.g.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_4b8075f714",
+    "span_index": 213,
+    "text": "Japan) in terms of\nFunding\npositioning and ZTD estimation but deteriorates signifi-\ncantly in regions far from China (e.g.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_da80ae1276",
+    "span_index": 214,
+    "text": "Although This research was supported by National Natural Science Foundation of\nthe Galileo HAS Initial Service was designed as a global China (42474015).",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_b22e67f3e6",
+    "span_index": 215,
+    "text": "service, areas including Eastern Asia, Southeast Asia,\nAustralia, and New Zealand were currently excluded\nDisclosure statement\nfrom its coverage.",
+    "char_length": 145
+  },
+  {
+    "quote_id": "qb_79bdf6313d",
+    "span_index": 216,
+    "text": "Therefore, a combination of PPP-B2b\nand HAS services has the potential to provide global No potential conflict of interest was reported by the author(s).",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_270f14a52a",
+    "span_index": 217,
+    "text": "270 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_5a87a9e8bf",
+    "span_index": 218,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\nData availability statement interests include GNSS precise positioning and GNSS\nmeteorology.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_c34c711d88",
+    "span_index": 219,
+    "text": "The datasets generated and/or analyzed during the current\nCong Qiu received the PhD degree from University of\nstudy are available from the corresponding author upon\nChinese Academy of Sciences in 2023, with specialization\nreasonable request.",
+    "char_length": 241
+  },
+  {
+    "quote_id": "qb_3eba516d90",
+    "span_index": 220,
+    "text": "in global navigation satellite system.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_e29aacc812",
+    "span_index": 221,
+    "text": "His research inter-\nests include GNSS precise positioning and GNSS\nNotes on contributors meteorology.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_33c7d5dcb5",
+    "span_index": 222,
+    "text": "Xiaoming Wang received the PhD degree from RMIT Uni- Li Li received the PhD degree from Central South Uni-\nversity, Melbourne, VIC, Australia, in 2017, with special- versity, Changsha, Hunan, China, in 2011, with specializ-\nization in GNSS meteorology.",
+    "char_length": 252
+  },
+  {
+    "quote_id": "qb_4298469ae4",
+    "span_index": 223,
+    "text": "He is currently an ation in Global Navigation Satellite System meteorology.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_2a9a9106ab",
+    "span_index": 224,
+    "text": "associate professor with the Aerospace Information He is currently an associate professor at the School of\nResearch Institute, Chinese Academy of Sciences, Beijing, Geographical Sciences and Geomatics Engineering, Suz-\nChina.",
+    "char_length": 225
+  },
+  {
+    "quote_id": "qb_0a3a636054",
+    "span_index": 225,
+    "text": "His research interests include GNSS precise posi- hou University of Science and Technology, Suzhou,\ntioning, GNSS data processing, and GNSS meteorology.",
+    "char_length": 152
+  },
+  {
+    "quote_id": "qb_dedbbe9f1a",
+    "span_index": 226,
+    "text": "His research interests include GNSS meteorology\nand GNSS precise positioning.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_cabd681c64",
+    "span_index": 227,
+    "text": "Kai Zhou received the MS degree from Beihang Univer-\nsity, Beijing, P.R.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_57e8e3002d",
+    "span_index": 228,
+    "text": "He is now an engineer\nin Aerospace Information Research Institute, Chinese ORCID\nAcademy of Sciences.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_1faefeda3a",
+    "span_index": 229,
+    "text": "His current research interests\ninclude precision positioning and embedded software Xiaoming Wang http://orcid.org/0000-0003-1720-6630\ndevelopment.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_036d4881fb",
+    "span_index": 230,
+    "text": "Jinglei Zhang received the MS degree from China Uni- References\nversity of Geosciences (Beijing), in 2021, with specializ-\nAichinger-Rosenberger, M., Weber, R., and Hanna, N.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_1bb1e5c560",
+    "span_index": 231,
+    "text": "Kinematic\nation in global navigation satellite system.",
+    "char_length": 54
+  },
+  {
+    "quote_id": "qb_60e80f44b3",
+    "span_index": 232,
+    "text": "He is\nZTD estimation from train-borne single-frequency GNSS: vali-\ncurrently an Assistant engineer with the Aerospace Infor-\ndation and assimilation.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_834b1a581c",
+    "span_index": 233,
+    "text": "Remote sensing, 13, 3793.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_2536e88e8c",
+    "span_index": 234,
+    "text": "mation Research Institute, Chinese Academy of Sciences, Chadwell, C.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_e6094cd294",
+    "span_index": 235,
+    "text": "D., and Bock, Y.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_4f64264d5c",
+    "span_index": 236,
+    "text": "Direct estimation of absolute preci-\nBeijing, China.",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_b9c3bd6f92",
+    "span_index": 237,
+    "text": "His research interests include GNSS pre- pitable water in oceanic regions by GPS tracking of a coastal buoy.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_a2f9c7a5ef",
+    "span_index": 238,
+    "text": "cise positioning and GNSS meteorology.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_932f219640",
+    "span_index": 239,
+    "text": "Geophysical research letters, 28, 3701–3704.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_1d6207d277",
+    "span_index": 240,
+    "text": "Beidou navigation satellite system open service perform-\nHaobo Li received his first PhD degree in Geodesy and Sur- ance standard (version 2.0).",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_749bd7cc84",
+    "span_index": 241,
+    "text": "Beijing: China Satellite Navigation\nveying Engineering from the China University of Mining Office.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_6ec82f186c",
+    "span_index": 242,
+    "text": "Beidou navigation satellite system signal in space interface\nand Technology (joint supervision with the Chinese Acad-\ncontrol document: precise point positioning service signal PPP-\nemy of Sciences).",
+    "char_length": 199
+  },
+  {
+    "quote_id": "qb_3da80e1663",
+    "span_index": 243,
+    "text": "Then, he completed his second PhD\nB2b (version 1.0).",
+    "char_length": 52
+  },
+  {
+    "quote_id": "qb_89a59c7edf",
+    "span_index": 244,
+    "text": "Beijing: China Satellite Navigation Office.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_4c229efa20",
+    "span_index": 245,
+    "text": "degree in Geospatial Sciences from RMIT University.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_8a61dbfdb6",
+    "span_index": 246,
+    "text": "Fernandez-Hernandez, I., et al., 2022.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_9da9890075",
+    "span_index": 247,
+    "text": "Galileo high accuracy service:\nAfter his postdoc appointment at Tsinghua University, initial definition and performance.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_9b72142055",
+    "span_index": 248,
+    "text": "GPS solution, 26, 65 (1–18).",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_f0d552fdfe",
+    "span_index": 249,
+    "text": "He is currently working as a Postdoctoral Research Assist- Ge, Y., et al., 2023.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_e34ce765a2",
+    "span_index": 250,
+    "text": "An investigation of PPP time transfer via BDS-3\nPPP-B2b service.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_24d8f8c02d",
+    "span_index": 251,
+    "text": "GPS solutions, 27, 61.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_638c56c5fd",
+    "span_index": 252,
+    "text": "ant at RMIT University.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_6787cb1b2d",
+    "span_index": 253,
+    "text": "His research interests include geo-\nGratton, P., Banville, S., Lachapelle, G., and O’keefe, K.",
+    "char_length": 94
+  },
+  {
+    "quote_id": "qb_2637be2159",
+    "span_index": 254,
+    "text": "desy, GNSS atmospheric sounding, GNSS meteorology/ Kinematic zenith tropospheric delay estimation with GNSS PPP\nclimatology, high-accuracy positioning and navigation, in mountainous areas.",
+    "char_length": 188
+  },
+  {
+    "quote_id": "qb_d8e9c9d2ab",
+    "span_index": 255,
+    "text": "Sensors (Basel), 21, 5709.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_f3708bf679",
+    "span_index": 256,
+    "text": "atmospheric science, and disaster risk reduction.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_71ffd7e99a",
+    "span_index": 257,
+    "text": "Hadas, T., and Bosy, J.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_11fb14ad0c",
+    "span_index": 258,
+    "text": "IGS RTS precise orbits and clocks verifica-\ntion and quality degradation over time.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_f1158e49fe",
+    "span_index": 259,
+    "text": "GPS solution, 19, 93–105.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_8d6dc9a86f",
+    "span_index": 260,
+    "text": "Hong Liang received the BS degree in climatology from Hadas, T., Hobiger, T., and Hordyniec, P.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_5bc7655e4f",
+    "span_index": 261,
+    "text": "Considering different\nNanjing Institute of Meteorology in 2002; the M.S.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_2225c18528",
+    "span_index": 262,
+    "text": "recent advancements in GNSS on real-time zenith troposphere\ndegree in meteorology from Chinese Academy of Meteor- estimates.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_a5f823be53",
+    "span_index": 263,
+    "text": "GPS solution, 24, 99.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_a46eab7a77",
+    "span_index": 264,
+    "text": "Kazmierski, K., Zajdel, R., and Sośnica, K.",
+    "char_length": 44
+  },
+  {
+    "quote_id": "qb_4d8f45b5fa",
+    "span_index": 265,
+    "text": "Evolution of orbit and\nological Science in 2005; and the PhD degree in meteor-\nclock quality for real-time multi-GNSS solutions.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_5825bfee8a",
+    "span_index": 266,
+    "text": "GPS solution,\nology from the University of Chinese Academy of 24, 111.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_4cc55a09da",
+    "span_index": 267,
+    "text": "Sciences in 2012.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_a481fc1e2b",
+    "span_index": 268,
+    "text": "From 2017-2018, he was a visiting scho- Leick, A., Rapoport, L., and Tatarnikov, D.",
+    "char_length": 83
+  },
+  {
+    "quote_id": "qb_0b18266bb7",
+    "span_index": 269,
+    "text": "GPS satellite survey-\nlar at the Scripps Institution of Oceanography, University ing.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_cf3f67d76f",
+    "span_index": 270,
+    "text": "Hoboken, New Jersey: John Wiley & Sons.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_99758bc9f7",
+    "span_index": 271,
+    "text": "Li, X., et al., 2015.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_fce701559a",
+    "span_index": 272,
+    "text": "Multi-GNSS meteorology: real-time retrieving of\nof California San Diego, USA.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_9e628ee77e",
+    "span_index": 273,
+    "text": "He is currently a\natmospheric water vapor from BeiDou, galileo, GLONASS, and\nresearcher with the Meteorological Observation Center,\nGPS observations.",
+    "char_length": 149
+  },
+  {
+    "quote_id": "qb_a8e8c05d14",
+    "span_index": 274,
+    "text": "IEEE transactions on geoscience and remote sen-\nChina Meteorological Administration, China.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_dc5aca81ec",
+    "span_index": 275,
+    "text": "His sing, 53, 6385–6393.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_207af90018",
+    "span_index": 276,
+    "text": "research interest is GNSS atmospheric remote sensing.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_47dba9d97a",
+    "span_index": 277,
+    "text": "Nie, Z., et al., 2021.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_07957eb7de",
+    "span_index": 278,
+    "text": "Initial assessment of BDS PPP-B2b service: pre-\ncision of orbit and clock corrections, and PPP performance.",
+    "char_length": 107
+  },
+  {
+    "quote_id": "qb_d6979dd1ce",
+    "span_index": 279,
+    "text": "Manhong Tu is a senior engineer at the Meteorological Remote sensors, 13, 2050.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_f42f6abb74",
+    "span_index": 280,
+    "text": "Observation Center of the China Meteorological Adminis- Ren, Z., et al., 2021.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_96677f932d",
+    "span_index": 281,
+    "text": "Performance assessment of real-time precise point\ntration.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_05d4e41c32",
+    "span_index": 282,
+    "text": "Her work primarily focuses on the innovative positioning using BDS PPP-B2b service signal.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_caa262e4aa",
+    "span_index": 283,
+    "text": "Advances in space\nresearch, 68, 3242–3254.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_ec35b6ee21",
+    "span_index": 284,
+    "text": "application of BeiDou technology in meteorological obser-\nSkone, S., Gao, Y., Al-Fanek, O., Tao, W., Zhang, Y., Héroux, P., and\nvations, equipment development, the establishment of\nCollins, P.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_da6c7152b7",
+    "span_index": 285,
+    "text": "Atmospheric moisture estimation using GPS on a mov-\nbusiness standards, and system development.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_fc4c076af9",
+    "span_index": 286,
+    "text": "She serves ing platform.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_c999edfe82",
+    "span_index": 287,
+    "text": "Proceedings of the 19th international technical meet-\nas the deputy chief of the GNSS/MET observation and ing of the satellite division of the institute of navigation (ION\napplication innovation team, chief engineer of key projects GNSS 2006), 2006 Fort Worth, TX.",
+    "char_length": 264
+  },
+  {
+    "quote_id": "qb_2b52469424",
+    "span_index": 288,
+    "text": "ION, 1891–1901.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_0380e3f315",
+    "span_index": 289,
+    "text": "Tao, J., et al., 2021.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_aed5171897",
+    "span_index": 290,
+    "text": "Initial assessment of the BDS-3 PPP-B2b RTS com-\nat the China Meteorological Administration, and technical\npared with the CNES RTS.",
+    "char_length": 131
+  },
+  {
+    "quote_id": "qb_246bb5ea55",
+    "span_index": 291,
+    "text": "GPS solution, 25, 131.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_844b4bfd7f",
+    "span_index": 292,
+    "text": "lead of several important experimental teams.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_b864c56bb3",
+    "span_index": 293,
+    "text": "Wang, J., et al., 2019.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_0eab4c6a14",
+    "span_index": 294,
+    "text": "Retrieving precipitable water vapor from shipborne\nmulti-GNSS observations.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_ec73ab9e42",
+    "span_index": 295,
+    "text": "Geophysical research letters, 46, 5000–\nYufei Chen received the MS degree from University of\n5008.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_2ab43f2fae",
+    "span_index": 296,
+    "text": "Chinese Academy of Sciences in 2023, with specialization\nWang, E., et al., 2021.",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_12963ed96e",
+    "span_index": 297,
+    "text": "Performance evaluation of precise point positioning\nin global navigation satellite system.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_b00eb726c6",
+    "span_index": 298,
+    "text": "His research for BeiDou-3 B1c/B2a signals in the global range.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_a4c8778e7b",
+    "span_index": 299,
+    "text": "Sensors, 21, 5780.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_2d224b42bc",
+    "span_index": 300,
+    "text": "Survey Review 2025 VOL 57 NO 402 271",
+    "char_length": 36
+  },
+  {
+    "quote_id": "qb_914ba33414",
+    "span_index": 301,
+    "text": "An investigation of PPP-B2b coverage and its performance in ZTD estimation and positioning in different regions\nWard, N.",
+    "char_length": 120
+  },
+  {
+    "quote_id": "qb_70a2bcc5ae",
+    "span_index": 302,
+    "text": "Understanding GPS—principles and applications (Elliott Zang, J., et al., 2024.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_a8a1754e11",
+    "span_index": 303,
+    "text": "Performance assessment of the BDS-3 PPP-B2b ser-\nD.",
+    "char_length": 51
+  },
+  {
+    "quote_id": "qb_e3af9dcd59",
+    "span_index": 304,
+    "text": "Kaplan, Editor).",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_89a9880def",
+    "span_index": 305,
+    "text": "ISBN: 0-89006-793-7.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_1bf1bfeda2",
+    "span_index": 306,
+    "text": "Artech House vice for real-time earthquake source description: a case study for\nPublishers, Boston & London.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_1c353eae59",
+    "span_index": 307,
+    "text": "Journal of navigation, 50, the 2021 Mw 7.4 Maduo earthquake.",
+    "char_length": 60
+  },
+  {
+    "quote_id": "qb_5589169bf7",
+    "span_index": 308,
+    "text": "GPS solution, 28, 26.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_997b2a8ea4",
+    "span_index": 309,
+    "text": "Zhang, W., et al., 2022.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_80052dc053",
+    "span_index": 310,
+    "text": "Initial assessment of BDS-3 precise point positioning\nYang, Y., et al., 2021.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_88ee83049a",
+    "span_index": 311,
+    "text": "Featured services and performance of BDS-3.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_a1dc523051",
+    "span_index": 312,
+    "text": "service on GEO B2b signal.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_18e1f48983",
+    "span_index": 313,
+    "text": "Advances in space research, 69, 690–700.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_0a04da82b2",
+    "span_index": 314,
+    "text": "Science bulletin, 66, 2135–2143.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_9bbb4fa9d0",
+    "span_index": 315,
+    "text": "Zhou, F., et al., 2020.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_3c62cadd92",
+    "span_index": 316,
+    "text": "Assessment of the positioning performance and\nYang, Y., et al., 2022.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_226dcd4605",
+    "span_index": 317,
+    "text": "Principle and performance of BDSBAS and PPP- tropospheric delay retrieval with precise point positioning using\nB2b of BDS-3.",
+    "char_length": 124
+  },
+  {
+    "quote_id": "qb_cb6e40d2b9",
+    "span_index": 318,
+    "text": "Satellite navigation, 3, 5.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_9ab7958ada",
+    "span_index": 319,
+    "text": "products from different analysis centers.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_e1a00bf728",
+    "span_index": 320,
+    "text": "GPS solution, 24, 12.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_1ee9974706",
+    "span_index": 321,
+    "text": "Yang, H., et al., 2023.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_7e20d9196f",
+    "span_index": 322,
+    "text": "Assessment of precipitable water vapor retrieved Zhou, P., Xiao, G., and Du, L.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_30a11ce736",
+    "span_index": 323,
+    "text": "Initial performance assessment of\nfrom precise point positioning with PPP-B2b service.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_c7ccf92fd0",
+    "span_index": 324,
+    "text": "Earth science galileo high accuracy service with software-defined receiver.",
+    "char_length": 75
+  },
+  {
+    "quote_id": "qb_579afe386f",
+    "span_index": 325,
+    "text": "GPS\ninformatics, 16, 315–328.",
+    "char_length": 29
+  },
+  {
+    "quote_id": "qb_1f6ce5137d",
+    "span_index": 326,
+    "text": "solution, 28, 2.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_8a9207f033",
+    "span_index": 327,
+    "text": "Appendix\nTable A1shows the detailed information on the GNSS stations used in this study.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_0117c9c812",
+    "span_index": 328,
+    "text": "GNSS station information.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_2e95701631",
+    "span_index": 329,
+    "text": "Site Lat (°) Lon (°) City Country Tectonic Plate\n1 MAC1 −54.5 158.9 Macquarie Island Australia Australian/Pacific\n2 HOB2 −42.8 147.4 Hobart Australia Pacific\n3 ESPA −33.9 121.9 Esperance Australia Australian\n4 PARK −33.0 148.3 Parkes Australia Australian\n5 CEDU −31.9 133.8 Ceduna Australia Australian\n6 MCHL −26.4 148.1 Mitchell Australia Australian\n7 ALIC −23.7 133.9 Alice Springs Australia Australian\n8 MTDN −22.1 131.5 Mt Doreen Station Australia Australian\n9 MTIS −20.7 139.5 Mount Isa Australia Australian\n10 DARW −12.8 131.1 Darwin Australia Australian\n11 COCO −12.2 96.8 Cocos Island Australia Australian\n12 XMIS −10.5 105.7 Christmas Island Australia Australian\n13 DAV1 −68.6 78.0 Davis Australian Antarctic Territory Antarctic\n14 MAW1 −67.6 62.9 Mawson Australian Antarctic Territory Antarctic\n15 CAS1 −66.3 110.5 Casey Australian Antarctic Territory Antarctic\n16 LAUT −17.6 177.5 Lautoka Fiji Pacific\n17 REUN −21.2 55.6 Le Tampon France African\n18 FTNA −14.3 −178.1 Maopo’opo French Polynesia Pacific\n19 THTG −17.6 −149.6 Papeete French Polynesia Pacific\n20 KRGG −49.4 70.3 Port aux Francais French Southern Territories Antarctic\n21 MAYG −12.8 45.3 Dzaoudzi Mayotte African\n22 OWMG −26.2 −178.2 Owenga New Zealand Pacific\n23 TUVA −8.5 179.2 Funafuti Tuvalu Pacific\n24 GRAZ 47.1 15.5 Graz Austria Eurasian\n25 HKSC 22.3 114.1 Hong Kong China Eurasian\n26 JFNG 30.5 114.5 Wuhan China Eurasian\n27 YNTW 25.0 102.8 KunMing China Eurasian\n28 NCEC 28.7 115.8 NanChang China Eurasian\n29 SKD1 31.3 120.6 SuZhou China Eurasian\n30 TAKJ 36.2 117.1 Taian China Eurasian\n31 KSKT 39.5 75.9 Kashgar China Eurasian\n32 JNYZ 41.0 113.2 Ulanqab China Eurasian\n33 NICO 35.1 33.4 Nicosia Cyprus African\n34 POHN 7.0 158.2 Pohnpei Micronesia Pacific\n35 BJ01 40.1 116.3 Matera Italy Eurasian\n36 MSSA 36.1 138.4 Misasa Japan Eurasian\n37 KIRI 1.4 172.9 Betio Kiribati Pacific\n38 ORID 41.1 20.8 Ohrid North Macedonia Eurasian\n39 BUCU 44.5 26.1 Bucuresti Romania Eurasian\n40 KZN2 55.8 49.1 KAZAN Russian Federation Eurasian\n41 SIN1 1.3 103.7 Singapore Singapore Eurasian\n42 GANP 49.0 20.3 Ganovce-Poprad Slovakia Eurasian\n43 KIR8 67.9 21.1 Kiruna Sweden Eurasian\n44 ADH1 24.4 54.5 Abu Dhabi United Arab Emirates Arabian\n45 HERS 50.9 0.3 Hailsham United Kingdom Eurasian\n46 MAO0 20.7 −156.3 Haleakala, Maui United States of America Pacific\n47 MET3 60.2 24.4 Kirkkonummi Finland Eurasian\n48 SOD3 67.4 26.4 Sodankyla Finland Eurasian\n272 Survey Review 2025 VOL 57 NO 402",
+    "char_length": 2448
+  }
+]

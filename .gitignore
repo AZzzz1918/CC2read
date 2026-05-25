@@ -1,0 +1,24 @@
+# API keys — NEVER commit
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Personal config
+paper/.obsidian/
+paper/.claudian/
+paper/.claude/
+.claude/settings.local.json

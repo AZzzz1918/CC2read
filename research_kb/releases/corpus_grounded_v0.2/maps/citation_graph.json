@@ -1,0 +1,91 @@
+{
+  "version": "v0.2",
+  "nodes": [
+    {
+      "paper_id": "Borio_2023_ghasp_galileo_has_parser",
+      "year": 2023,
+      "product_source": "CNES_OR_OTHER_RTS"
+    },
+    {
+      "paper_id": "Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA",
+      "year": 2024,
+      "product_source": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic",
+      "year": 0,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Lu_2021_decoding_ppp_corrections_bds_b2b_sdr",
+      "year": 2021,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Nie_2021_initial_assessment_bds_ppp_b2b_service",
+      "year": 2021,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+      "year": 0,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "RT_ZTD_PPP_B2b_HAS_MADOCA",
+      "year": 2024,
+      "product_source": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "Research_on_Quad-Frequency_PPP-B2b_Time_Transfer",
+      "year": 2024,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+      "year": 0,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Taro_Suzuki_2023_qzss_clas_l6_evaluation",
+      "year": 2023,
+      "product_source": "QZSS_CLAS"
+    },
+    {
+      "paper_id": "Wang_2024_ppp_b2b_coverage_ztd_positioning",
+      "year": 2024,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Wei_Haopeng_2024_combining_has_ppp_b2b_helmert",
+      "year": 2024,
+      "product_source": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+      "year": 2022,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+      "year": 0,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+      "year": 0,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Zhou_2023_multifrequency_bds3_rt_ppp_b2b",
+      "year": 2023,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+      "year": 0,
+      "product_source": "BDS3_PPP_B2B_BROADCAST"
+    }
+  ],
+  "edges": []
+}

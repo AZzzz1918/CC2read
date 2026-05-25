@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_26c555d674",
+    "span_index": 0,
+    "text": "JournalofGeodesy (2026) 100:19\nhttps://doi.org/10.1007/s00190-026-02039-8\nORIGINAL ARTICLE\nReal-time oceanic PWV sensing using BeiDou-3 PPP-B2b and low-cost\nGNSS devices\nHongxing Zhang1,2 ·Yunbin Yuan1·Luohong Li1,2·Wei Li1·Wenjian Huang1,2·Yanju Chai1·Dong Ren3\nReceived:19December2024/Accepted:22January2026\n©Springer-VerlagGmbHGermany,partofSpringerNature2026\nAbstract\nReal-timesensingofprecipitablewatervapor(PWV)usingGNSSiscriticalforatmosphericmonitoring.Conventionalreal-\ntime precise point positioning (PPP) reliant on the IGS real-time service (RTS) remains limited in oceanic regions due to",
+    "char_length": 3638
+  },
+  {
+    "quote_id": "qb_986512eb80",
+    "span_index": 1,
+    "text": "19 Page 2 of 17 H.Zhangetal.\nland-based GNSS stations. These challenges stem from forimprovingitsefficiencyandperformance.Additionally,\ndynamic positioning conditions, limited telecommunica- the Galileo High Accuracy Service (HAS) offers another\ntions infrastructure, and complex observation environment satellite-basedPPPservice,providingprecisecorrectionsfor\nin oceanic regions (Rocken et al. 2005; Shoji et al. 2016; GPS and Galileo satellites (Naciri et al. 2023). Researches\nWeietal.2023).Nevertheless,previousstudieshavedemon- haveexploredtheintegrationofPPP-B2bandGalileoHASto\nstratedthefeasib",
+    "char_length": 5254
+  },
+  {
+    "quote_id": "qb_c644d096f9",
+    "span_index": 2,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 3 of 17 19\nwithanaprioritroposphericdelaycorrection,theIFpseudo- Oneoptionistoaugmentthestatevectorwithexplicitper-\nrangeandcarrier-phaseobservationequationscanbewritten satelliteEs parametersandestimatethemdirectly(Gunning\nr\nas: et al. 2019; Xu et al. 2023). While effective, this approach\nincreasesthestatedimensionalitybythenumberoftracked\n(cid:2)Ps (cid:2)−es ·dx+c·dt +Ms ·dZ +ν ,\nif r r r p satellitesandcomplicatesthefilter.\n(1)\n(cid:2)(cid:4)s\nif\n(cid:2)−e\nr\ns ·dx+c·dt\nr\n+M\nr\ns ·dZ +λ\nif\n·N\ni\ns\nf\n+ν (cid:4), An alternative, adopted here and moti",
+    "char_length": 4664
+  },
+  {
+    "quote_id": "qb_a7489b776b",
+    "span_index": 3,
+    "text": "19 Page 4 of 17 H.Zhangetal.\n2.3.1 (a)TheoreticalcorrelationcharacteristicsamongE r s tionderivedfromrealGNSSobservations.Afull-daydataset\nandPPPparameters. collected at the DHSP station on 17 November 2025 was\nprocessed using a modified PPP model in which the Es\nr\nFrom the linearized phase observation equation with Es parameters were explicitly estimated. The state covariance\nr\n(Eq.(3)): matrixP atthefinalepoch wasthenextracted foranalysis.\nTheinterpretedstatevectorisgivenby:\n(cid:2)(cid:4) i s f (cid:2)−e r s·dx+c·dtr +M r s·dZ+λ if ·N i s f +E r s+v (cid:4), ⎡\n(6)\n⎢\nX(cid:2)⎣dx,dy,dz,dtrg,d",
+    "char_length": 4346
+  },
+  {
+    "quote_id": "qb_83f4120850",
+    "span_index": 4,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 5 of 17 19\nFig.1 Correlation matrix derived from the final-epoch covariance of coordinates,receiverclocks,ZWD,ambiguityparametersandsatellite-\nthe full-day real-time PPP solution. The matrix includes receiver specificEs terms.AcleardiagonalstructureofstrongNs-Es correla-\nr if r\ntionsispresent,whereascorrelationsofEswithZWDandcoordinates\nr\nareweak\nTable1 Schemedesignation\nScheme S0 S1 S2 S3 S4 S5 S6 S7\n√\nδ Ns (mm/ h) 0.0 3.0 6.0 9.0 12.0 15.0 18.0 21.0\nif\nTable2 Real-timePPP\nprocessingstrategies Item Strategies\nObservations GPS(L1/L2)andBDS-3(B1/B3)c",
+    "char_length": 1137
+  },
+  {
+    "quote_id": "qb_ede2242847",
+    "span_index": 5,
+    "text": "19 Page 6 of 17 H.Zhangetal.\n3 Datadescription 3.1.2 Oceanicscenario\n3.1 GNSSdata Oceanic experiments were conducted during two research\ncruises in the warm season, characterized by high and\nTo assess the efficacy of the refined method, experiments strongly variable PWV conditions, which pose significant\nwereconductedintwodistinctscenarios:aland-basedsce- challengesfortroposphericsensing.\nnario and an oceanic scenario. All experiments relied on\ntrue real-time GNSS data streams, including raw observa-\ntions, real-time orbit and clock corrections, and broadcast\n1. Cruise 1 (September 21–25, 2023",
+    "char_length": 4169
+  },
+  {
+    "quote_id": "qb_ea05edfe80",
+    "span_index": 6,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 7 of 17 19\nFig.2 Locationsofthe\nland-basedGNSSstations\n(DHSPwithlow-costGNSS\ndevice,redtriangle;SEPTwith\nhigh-gradeGNSSdevice,blue\ndot)andtheradiosondestation\n(ID54857,redpentagram),\nalongsidethetrajectoriesofthe\ntwoshipborneexperiments\n(Cruise1andCruise2).The\nDHSPandSEPTstationsare\ncollocated\nTable3 CharacteristicsoftheGNSSdata\nScenario Stations GNSSreceiver Real-timecorrections Timeperiod Nearbyhigh-gradereceiver\n/Cruises\nLand-based SEPT PolaRx5TR PPP-B2b/IGS-RTS June20-July6,2025 None\nDHSP Mosaic-×5(low-cost) PPP-B2b/IGS-RTS March27-April26,2025;",
+    "char_length": 2358
+  },
+  {
+    "quote_id": "qb_d66d54327c",
+    "span_index": 7,
+    "text": "19 Page 8 of 17 H.Zhangetal.\nFig.3 Time-seriescomparisonof\nreal-timeZTDsestimatedatthe\nDHSPstationusingPPP-B2b\n(red)andIGS-RTS(blue)\ncorrectionsbasedonthe\nconventionalPPPmethod.\nPostprocessedCSRSPPP-AR\nZTDsfromthecollocated\nhigh-gradeSEPTstationserveas\nreference.RMSstatistics\nquantifydiscrepanciesrelativeto\nthereference\nThegoalwastoexaminetherefinedPPPmethodacross ofZTDestimation,whereasexcessivenoiseamplifiesambi-\nbothcorrectionsourcesandreceivergrades. guity variability and degrades parameter estimation. This\n2 Experiment 2: A 30-day dataset from the DHSP station highlights the existence of ",
+    "char_length": 3114
+  },
+  {
+    "quote_id": "qb_df5647c008",
+    "span_index": 8,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 9 of 17 19\nFig.4 RMSerrorsofreal-timeZTDestimatesforeightschemes(S0–S7)attheDHSP(low-cost)andSEPT(high-grade)stationsutilizingPPP-B2b\n(red)andIGS-RTS(blue)real-timecorrections.PostprocessedCSRSPPP-ARZTDsserveasreferences\nright-panelboxplots,confirmtheeffectivenessoftherefined fromSchemeS0tosubsequentschemes,reachaminimum,\nmethod. andthenincrease,indicatinganoptimalprocessnoisewithin\ntheS1–S7rangeforeachmode.Notably,theoptimalprocess-\nnoiseleveldiffersbetweenstaticandkinematicmodes,with\n4.2.2 Experiment2:Staticvs.kinematicperformanceusing\nthekinemati",
+    "char_length": 2378
+  },
+  {
+    "quote_id": "qb_f27769d247",
+    "span_index": 9,
+    "text": "19 Page 10 of 17 H.Zhangetal.\nFig.5 ComparisonofPPP-B2bandIGS-RTSZTDtimeseriesusingtheconventionalmethodandtheoptimalrefinedmethod.Left:ZTDtime\nseries,precipitation,anderrorstatistics(RMS,STDV,bias).Right:boxplotsofZTDerrors\nFig.6 RMSerrorsofreal-time\nZTDestimatesforeight\nprocessingschemes(S0–S7)at\nDHSPstation,utilizingPPP-B2b\ninbothstaticandkinematic\nmodes.PostprocessedZTD\nsolutionsfromCSRSPPP-AR\nservedasthereference\n123",
+    "char_length": 425
+  },
+  {
+    "quote_id": "qb_c249e67f2e",
+    "span_index": 10,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 11 of 17 19\nFig.7 Comparisonof30-dayZTDtimeseriesfromstaticandkinematicPPPusingconventionalandoptimalrefinedmethods.Left:ZTDtime\nseriesanderrorstatistics.Right:boxplotsofZTDerrors\ntostaticmode.Nevertheless,therefinedPPPmethodconsis- environments.Second,therefinedschemes(S1–S4)demon-\ntently outperforms the conventional method in both modes strateclearsensitivitytotheambiguityprocess-noisesetting\nby suppressing noise and improving agreement with the andconsistentlyoutperformS0,confirmingthatintroducing\nreferences. In kinematic mode, the optimal refine",
+    "char_length": 2701
+  },
+  {
+    "quote_id": "qb_19af473f14",
+    "span_index": 11,
+    "text": "19 Page 12 of 17 H.Zhangetal.\nFig.8 TimeseriesofZTDestimatedbyfiveschemesduringCruise1 CSRSPPP-ARZTDsolutionsfromnearbyhigh-gradeGNSSdevices\novertwoperiods:21h(a)and60h,(b)startingat03:00onSeptember areshownasreferences(ingray).RMSandbiasstatisticsofZTDerrors\n24,2023and00:00onSeptember21,2023,respectively.Postprocessed areshownin(c,d)\nSeptember 25, 2023, the conventional method exhibits a achievinganRMSof11.9mm,whichrepresentsanimprove-\nPWVerrorofapproximately2.0mmrelativetobothERA5 mentofmorethan61%relativetotheconventionalmethod.\nand radiosonde measurements, whereas the refined method Simila",
+    "char_length": 1205
+  },
+  {
+    "quote_id": "qb_13f49a7631",
+    "span_index": 12,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 13 of 17 19\nFig.9 Comparativetimeseriesofreal-timePWVover21h(a)and60h andradiosondemeasurementsserveasreferences.Statisticalresultsof\n(b)duringCruise1,retrievedusingtheconventionalmethod(S0)and PWVerrorsofS0andS3arepresented.PWVerrorstatisticsforS0and\nthe optimal refined method (S3), starting at 03:00 on September 24, S3relativetoERA5areshownin(c)\n2023and00:00onSeptember21,2023,respectively.PWVfromERA5\n5 Conclusions modes,theoptimalstochasticsettingsdiffer:instaticmode,\na larger process noise assigned to ambiguities yields up to\nThis study presents ",
+    "char_length": 2618
+  },
+  {
+    "quote_id": "qb_0df50875dc",
+    "span_index": 13,
+    "text": "19 Page 14 of 17 H.Zhangetal.\nFig.10 Timeseriesofreal-timeZTD(a)andPWV,(b)obtainedusing PPP-B2b-derivedreal-timeZTDandPWVareshown.Postprocessed\ntheconventionalmethod(S0)andtheoptimalrefinedmethod(S3)dur- CSRSPPP-ARZTDsandERA5-derivedPWVsareusedasreferences\ningCruise2,from00:00to24:00onAugust20,2024.RMSerrorsof\nwithBeiDou’ssatellite-basedshort-messagecommunication Tofurtherenhancethegeneralityoftheevaluation,anew\nservice,enabling directtransmissionofoceanic PWVs and GNSSstation(GZSP)locatedinGuangzhou,approximately\nfurtherenhancingreal-timemonitoringcapabilities. 1000 km from the DHSP station i",
+    "char_length": 2130
+  },
+  {
+    "quote_id": "qb_c432b7b9e0",
+    "span_index": 14,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 15 of 17 19\nFig.11 (a)ComparisonofPPP-B2b-derivedreal-timeZTDtimeseries methodsacrossall13ambiguityprocess-noiseschemes.CSRSPPP-AR\noveraconsecutive144-hperiodestimatedwithconventionalmethod ZTDsolutionsareusedasreferences\n(S0),Es-absorbedmethod(S4)andEs-estimatedmethod(S4).(b)Sta-\nr r\ntisticalcomparisonofZTDerrorsfortheEs-absorbedandEs-estimated\nr r\nisessentiallyequivalent.Theseresultsconfirmthatthe Es- results;allauthorsreviewedthemanuscriptandcontributedindividually\nr\nabsorbedmethoddeliversaccuracycomparabletothemore tothewriting.\ncomplex Es-estim",
+    "char_length": 2060
+  },
+  {
+    "quote_id": "qb_d24dbff836",
+    "span_index": 15,
+    "text": "19 Page 16 of 17 H.Zhangetal.\nReferences MännelB,ZusF,DickG,GlaserS,SemmlingM,BalidakisK,Wickert\nJ,MaturilliM,DahlkeS,SchuhH(2021)GNSS-basedwatervapor\nBanvilleS,HassenE,LamotheP,FarinaccioJ,DonahueB,Mireault estimationandvalidationduringtheMOSAiCexpedition.Atmos\nY,GoudarziMA,CollinsP,Ghoddousi-FardR,KamaliO(2021) MeasTech14:5127–5138\nEnablingambiguityresolutioninCSRS-PPP.NAVIGJInstNavig MarutG,HadasT,KaplonJ,TrzcinaE,RohmW(2022)Monitoring\n68:433–451 thewatervaporcontentathighspatio-temporalresolutionusing\nBevisM,BusingerS,HerringTA,RockenC,AnthesRA,WareRH anetworkoflow-costmulti-GNSSreceivers.",
+    "char_length": 6291
+  },
+  {
+    "quote_id": "qb_477e43717c",
+    "span_index": 16,
+    "text": "Real-timeoceanicPWVsensingusingBeiDou-3 Page 17 of 17 19\nwithPPP-B2bservice.EarthSciInf16:315–328.https://doi.org/\n10.1007/s12145-023-00939-3\nYuanY,ZhangK,RohmW,ChoyS,NormanR,WangCS(2014)Real-\ntimeretrievalofprecipitablewatervaporfromGPSprecisepoint\npositioning.JGeophysResAtmos119:10044–10057\nZheng Y, Lu C, Wu Z, Liao J, Zhang Y, Wang Q (2022) Machine\nlearning-basedmodelforreal-timeGNSSprecipitablewatervapor\nsensing.GeophysResLett49:e2021GL096408\nZhouP,ZhangZ,LiuZ,LyuD,XiaoG,XiaoK,DuL(2024)Real-time\nprecisezenithtroposphericdelayestimationwithBDSPPP-B2b,\nGalileo HAS, and QZSS MADOCA-PPP servic",
+    "char_length": 965
+  }
+]

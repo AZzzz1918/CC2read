@@ -1,0 +1,56 @@
+[
+  {
+    "quote_id": "qb_e6570ca26c",
+    "span_index": 0,
+    "text": "Measurement205(2022)112178\nContents lists available at ScienceDirect\nMeasurement\njournal homepage: www.elsevier.com/locate/measurement\nReal-time single-frequency precise point positioning using BDS-3\nPPP-B2b corrections\nHaitao Zhoua,b, Lei Wanga,b,c,*, Wenju Fua, Yi Hana, Tao Lia, Wei Lia, Ruizhi Chena,c\naState Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, Wuhan, China\nbLaboratory of Science and Technology on Marine Navigation and Control, China State Shipbuilding Corporation, Tianjing, China\ncCollaborative Innovation Center for Geospatia",
+    "char_length": 4856
+  },
+  {
+    "quote_id": "qb_62f7c3ee8b",
+    "span_index": 1,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\n2. PPP-B2b augmented single-frequency PPP model where P and L are N ×1 column vector contains the code and carrier\nphase observation from N visible satellites. e is a N ×3 matrix contains\nBDS-3 PPP-B2b service provides GPS/BDS-3 real-time precise orbit the unit vector from the receiver to each satellite; I is a N ×S matrix with\nand precise clock offset correction, differential code bias (DCB) and user all entries set as 1. S is the satellite system number; Mf is a N ×1 column\nrange accuracy index (URI) and broadcast via 3 GEO satellites at v",
+    "char_length": 5910
+  },
+  {
+    "quote_id": "qb_5f583d8d16",
+    "span_index": 2,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\nintroducing two additional clock datums for GPS/BDS-3 combined sys- Table 1\ntem. Then, only 3*N +6 parameters are left for the dual-epoch system, Mean RMS of GPS/BDS-3 MEO orbit error in BRDC and PPP-B2b corrections.\nwhich is a full-rank system and can be used to determine the initial value System Orbits(m)\nof the ZWD and ambiguity parameters. Due to applying the datum\nR A C\ntransformation, the estimated ionosphere and ambiguities are biased,\nbut it does not affect the positioning accuracy. GPS BRDC 0.157 0.896 0.515\nPPP-B2b 0.064 0.300 0.21",
+    "char_length": 5263
+  },
+  {
+    "quote_id": "qb_ee4dd5fe89",
+    "span_index": 3,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\nFig. 3. RMS (top) and STD (bottom) of GPS (left)/BDS-3 (right) satellite clock offset errors.\ncaused by the different clock datum since GPS broadcast clock is\nTable 2\ncomputed from a global network while PPP-B2b is from a regional\nMean RMS and STD of clock offset for GPS/BDS-3 MEO satellites.\nnetwork [17]. In contrast, PPP-B2b clock datum of BDS-3 is more con-\nsistency with the broadcast ephemeris since both of which uses similar System RMS(ns) STD(ns)\nregional network. The clock biases introduced by the clock datum will BRDC PPP-B2b BRDC PP",
+    "char_length": 3519
+  },
+  {
+    "quote_id": "qb_da32647594",
+    "span_index": 4,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\nFig. 4. RMS (top) and STD (bottom) of SISRE for GPS/BDS-3 satellites.\nTable 3 Table 5\nMean RMS and STD of SISRE and SISRE-orbit for GPS/BDS-3 satellites. Processing strategy for single-frequency PPP.\nSystem SISRE(m) SISRE-orbit(m) Items Description\nBRDC PPP-B2b BRDC PPP-B2b Observables type L1(GPS), B1I(BDS-3)\nObservables weighting Elevation-dependent weighting\nGPS RMS 0.503 1.547 0.254 0.108 Elevation cut-off 7◦\nSTD 0.085 0.069 0.046 0.016\nSampling rate 30 s\nBDS-3 RMS 0.519 0.573 0.087 0.085\nParameters Position, receiver clock, ionospheric ",
+    "char_length": 2944
+  },
+  {
+    "quote_id": "qb_4bbac04922",
+    "span_index": 5,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\nFig. 6. Mean RMS of static SF-PPP using BRDC, PPP-B2b and precise products respectively.\nFig. 7. GPS/BDS-3 SF-PPP error time series using BRDC, PPP-B2b and precise products (MIZU station).\nTable 6\nMean RMS of GPS/BDS-3/GPS +BDS-3 static SF-PPP solution with PPP-B2b corrections.\nStation GPS-only BDS-3-only GPS/BDS-3\nE(m) N(m) U(m) E(m) N(m) U(m) E(m) N(m) U(m)\nJFNG 0.047 0.020 0.061 0.052 0.019 0.039 0.05 0.014 0.023\nGAMG 0.066 0.024 0.026 0.065 0.031 0.062 0.06 0.024 0.039\nKIT3 — — — — — — 0.088 0.027 0.065\nURUM 0.090 0.055 0.028 0.036 0.011",
+    "char_length": 1453
+  },
+  {
+    "quote_id": "qb_0e5fedd819",
+    "span_index": 6,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\nFig. 8. Mean RMS of GPS/BDS-3 kinematic SF-PPP using BRDC, PPP-B2b and precise products respectively.\nThe SF-PPP positioning errors time series of the MIZU station with The BDS-3 achieves slightly better accuracy than the GPS by applying\ndifferent ephemeris schemes are presented in Fig. 7. The figure shows the PPP-B2b corrections.\nthat the positioning errors of the PPP-B2b solution are quite close to the\nprecise ephemeris solution, so the constant biases in GPS clocks do not\n4.3. Kinematic experiment\nsignificantly affect the positioning perf",
+    "char_length": 2744
+  },
+  {
+    "quote_id": "qb_2aa0a13b29",
+    "span_index": 7,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\nTable 7\nMean RMS of GPS/BDS-3/GPS +BDS-3 kinematic SF-PPP with PPP-B2b corrections.\nStation GPS-only(m) BDS-3-only GPS/BDS-3\nE(m) N(m) U(m) E(m) N(m) U(m) E(m) N(m) U(m)\nJFNG 0.292 0.281 0.697 0.206 0.142 0.376 0.144 0.110 0.230\nGAMG 0.217 0.204 0.416 0.452 0.285 0.798 0.163 0.127 0.280\nKIT3 — — — — — — 0.288 0.250 0.555\nURUM 0.514 0.402 0.723 0.284 0.200 0.471 0.130 0.152 0.254\nLCK4 0.344 0.229 0.764 0.384 0.180 0.552 0.206 0.121 0.313\nMIZU 0.274 0.266 0.529 0.179 0.184 0.451 0.101 0.104 0.233\nPTGG 0.306 0.381 0.709 0.230 0.238 0.587 0.172 ",
+    "char_length": 5162
+  },
+  {
+    "quote_id": "qb_2373ecd77e",
+    "span_index": 8,
+    "text": "H. Zhou et al. M e a s u r e m e n t 205(2022)112178\nB2b augmented SF-PPP. By applying the final products, the convergence [4] CSNO, BeiDou Navigation Satellite System Signal in Space Interface Control\ntime for the static and kinematic scenarios is 1–2 h. By applying the PPP- Document Open Service Signal B2b, Beijing, 2020, pp. 57.\n[5] L. Dai, Y. Chen, A. Lie, M. Zeitzew, Y. Zhang, StarFire™ SF3: Worldwide\nB2b corrections, the convergence time is only extended by 20–40 min on Centimeter-Accurate Real Time GNSS Positioning, in: Proceedings of the 29th\naverage, which is obviously better than tha",
+    "char_length": 6652
+  }
+]

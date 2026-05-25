@@ -1,0 +1,26 @@
+generated_from: "entities/innovations.yaml"
+generated_at: "2026-05-24"
+admitted_count: 66
+singleton_policy: "Singletons are ADMITTED as emerging routes. They are NOT excluded from the KB. They may be promoted to confirmed routes when >=2 independent papers support them."
+
+singletons:
+  - name: PPP-B2b-RTK
+    paper_count: 1
+    first_observed: v0.4_wave_1
+    needs_followup_evidence: true
+  - name: BDSet Public B2b Dataset
+    paper_count: 1
+    first_observed: v0.4_wave_1
+    needs_followup_evidence: true
+  - name: Smartphone PPP-B2b
+    paper_count: 1
+    first_observed: v0.4_wave_2
+    needs_followup_evidence: true
+  - name: B2b+HAS+MADOCA Triple Combination
+    paper_count: 1
+    first_observed: v0.4_wave_3
+    needs_followup_evidence: true
+  - name: B2b Orbit/Clock Outlier Detection
+    paper_count: 1
+    first_observed: v0.4_wave_3
+    needs_followup_evidence: true

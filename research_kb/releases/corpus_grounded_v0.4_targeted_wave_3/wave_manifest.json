@@ -1,0 +1,98 @@
+{
+  "wave": 3,
+  "processed": 9,
+  "new_routes": 4,
+  "singleton_confirmations": 0,
+  "results": [
+    {
+      "pid": "V04_W3_1_s2_0_S0273117724011438_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 40,
+      "pages": 14,
+      "cat": "LEO",
+      "stack": "BDS3_PPP_B2B+GALILEO_HAS+LEO+INS+SMARTPHONE",
+      "new": false,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_2024__Jianfei_Zang1__Performance_assessment_of_the_BDS_",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 223,
+      "pages": 14,
+      "cat": "SEISMOGEO",
+      "stack": "BDS3_PPP_B2B+LEO+INS",
+      "new": false,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_remotesensing_16_02337_v2",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 112,
+      "pages": 19,
+      "cat": "ANOMALY_CLOCK",
+      "stack": "BDS3_PPP_B2B+LEO+INS",
+      "new": true,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_1_s2_0_S0263224124019006_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 50,
+      "pages": 11,
+      "cat": "INS",
+      "stack": "BDS3_PPP_B2B+LEO+INS+SMARTPHONE",
+      "new": true,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_1_s2_0_S0273117724008755_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 110,
+      "pages": 11,
+      "cat": "MULTI_FREQ",
+      "stack": "BDS3_PPP_B2B+LEO+INS",
+      "new": true,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_1_s2_0_S026322412601448X_main__1_",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 109,
+      "pages": 13,
+      "cat": "B2B_HAS_FUSION",
+      "stack": "BDS3_PPP_B2B+LEO+INS",
+      "new": false,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_1_s2_0_S0263224122011071_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 91,
+      "pages": 9,
+      "cat": "CORE_POSITIONING",
+      "stack": "BDS3_PPP_B2B+LEO+INS",
+      "new": false,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_1_s2_0_S0263224122013744_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 117,
+      "pages": 9,
+      "cat": "CORE_POSITIONING",
+      "stack": "BDS3_PPP_B2B+LEO+INS",
+      "new": false,
+      "confirms": false
+    },
+    {
+      "pid": "V04_W3_1_s2_0_S0273117721004610_main",
+      "ps": "BDS3_PPP_B2B_BROADCAST",
+      "b2b": 68,
+      "pages": 13,
+      "cat": "INS",
+      "stack": "BDS3_PPP_B2B+LEO+INS",
+      "new": true,
+      "confirms": false
+    }
+  ]
+}

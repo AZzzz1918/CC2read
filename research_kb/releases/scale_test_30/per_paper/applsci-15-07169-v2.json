@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper explicitly introduces BDS PPP-B2b orbit/clock corrections into a smartphone real-time PPP model, using the B2b signal directly as the correction source.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "applsci-15-07169-v2.pdf",
+  "paper_id": "applsci-15-07169-v2",
+  "extraction_mode": "batch_classify_1call"
+}

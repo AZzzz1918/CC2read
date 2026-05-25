@@ -1,0 +1,92 @@
+[
+  {
+    "quote_id": "qb_3cab8d74d2",
+    "span_index": 0,
+    "text": "GPS Solutions (2023) 27:192\nhttps://doi.org/10.1007/s10291-023-01532-3\nORIGINAL ARTICLE\nEvaluation of real‑time kinematic positioning performance\nof the BDS‑3 PPP service on B2b signal\nPeida Wu1 · Yidong Lou1 · Weixing Zhang1 · Jan Dousa2 · Huizhong He4,5 · Junbing Chai3 · Yongzhong Ouyang4,5 ·\nZhenyi Zhang1 · Xu Zou1\nReceived: 6 March 2023 / Accepted: 10 August 2023 / Published online: 25 August 2023\n© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2023\nAbstract\nThe BeiDou global navigation satellite system (GNSS) of China (BDS-3) had full oper",
+    "char_length": 4084
+  },
+  {
+    "quote_id": "qb_53b3285c3c",
+    "span_index": 1,
+    "text": "192 Page 2 of 14 GPS Solutions (2023) 27:192\nsystems, including Galileo, Quasi-Zenith Satellite System GNSS/INS integrated navigation (Xu et al. 2022) and time\n(QZSS) and BeiDou system (BDS-3, hereafter referred transfer (Ge et al. 2023).\nBDS), have embedded the PPP service in the navigation However, most of these contributions are focused on the\nsystem designs. On January 24, 2023, the Galileo authority accuracy of the PPP-B2b product or PPP performance in\nstarted the delivery of an initial service of its free global a single situation, for example, a permanent station, vehi-\nHigh Accuracy Se",
+    "char_length": 5389
+  },
+  {
+    "quote_id": "qb_39cf96ce15",
+    "span_index": 2,
+    "text": "GPS Solutions (2023) 27:192 Page 3 of 14 192\nnavigation (LNAV) message of the L1C/A signal, respec- The datum of BDS broadcast clock offset aligns with the\n𝛿𝐗\ntively (CSNO 2020a). is then a satellite position correc- B3I signal; thus, the satellite clock offset calculated from (2)\n𝛿𝐎\ntion in the Cartesian coordinate system, is a PPP-B2b still contains pseudorange hardware delay of the B3I signal.\n𝐞 𝐞 𝐞\norbit correction vector, R , A and C are direction unit vector The DCB correction is required to implement a full consist-\nfor radial, along-track, and cross-track correction compo- ency of the ",
+    "char_length": 5195
+  },
+  {
+    "quote_id": "qb_9983d4e592",
+    "span_index": 3,
+    "text": "192 Page 4 of 14 GPS Solutions (2023) 27:192\nWe used the post-processing multi-GNSS products et al. 2021; Zhang et al. 2022). The smaller errors in the\n(GBM) provided by GeoForschungsZentrum Potsdam regional network are attributed to inter-satellite links avail-\n(GFZ) (Deng et al. 2017) as a reference for evaluating the able within the BDS system (Yang et al. 2020). In PPP pro-\nBDS PPP-B2b orbit and clock corrections during the test cessing, we thus use a weighting strategy for BDS and GPS\nperiod. The GBM products are in the IGb14 framework, in accordance with the SISRE results.\nwhile BDS empl",
+    "char_length": 3377
+  },
+  {
+    "quote_id": "qb_af5a87a1e8",
+    "span_index": 4,
+    "text": "GPS Solutions (2023) 27:192 Page 5 of 14 192\nTable 1 Processing strategy for real-time PPP\nItem Correction model or estimation strategy\nObservations Ionosphere-free linear combination of L1/L2 for GPS and B1I/B3I for BDS\nElevation cutoff 7°\nObservations weighting strategy Elevation-dependent: 1 for elevation (E) > 30°, otherwise 2*sin(E) A-priori sigma: 3 mm and 0.5 m for\nphase and code observation Weight ratio is 1:2 for GPS and BDS satellites, and 1:2 for IGSO and MEO of\nBDS satellites\nSatellite orbit and clock offsets B1C CNAV1 broadcast ephemeris for BDS and LNAV broadcast ephemeris for GP",
+    "char_length": 4667
+  },
+  {
+    "quote_id": "qb_e591b3764a",
+    "span_index": 5,
+    "text": "192 Page 6 of 14 GPS Solutions (2023) 27:192\n1.2\n0.8\n0.4\n0\n-0.4\n-0.8\n-1.2\nThe car trajectory and the location of the RTK base sta- top of the cockpit of a fishing boat, as shown in Fig. 6,\ntion are shown in Fig. 4 (left panel). The length of the RTK and the BDS and GPS observations were collected with a\nbaseline is less than 6000 m, and the RTK fix rate is 99.9% sampling rate of 1 s by Sino K803 GNSS module with a\nand the unfixed RTK results are removed. The number of VLG GNSS-R44QH antenna.\nsatellites in the car test period is shown in Fig. 4, with the The RTK solution is taken as a reference",
+    "char_length": 3305
+  },
+  {
+    "quote_id": "qb_53fbb355bd",
+    "span_index": 6,
+    "text": "GPS Solutions (2023) 27:192 Page 7 of 14 192\nFig. 3 Error time series of the PPP-B2b real-time orbits, clock offsets and SISRE for the BDS satellites on April 21, 2022 (the subplot in the\nSISRE panel represents the SISRE time series for satellite C25 between 8:30—9:00)\nsimilar improvement in the vertical direction can also be STD as coordinate accuracy indicators. The percentage of\nobserved in Geng et al. (2022). RTK references whose 3D STD was better than 4 cm was\nabout 92%, between 4 and 6 cm, about 7.7%, and above\nUnmanned aircraft experiment and results\n6 cm, about 0.3%. In order to match ",
+    "char_length": 1871
+  },
+  {
+    "quote_id": "qb_e8045386e4",
+    "span_index": 7,
+    "text": "192 Page 8 of 14 GPS Solutions (2023) 27:192\nFig. 4 Car trajectory and loca- 39.54\ntion of RTK base station (left)\nand number of visible satellites\n(right)\n39.48\n116.03 116.08\nLongitude (°)\n(ZTD) to adapt the fast attitude change. First, we extract the\ntime and coordinates of the beginning and end point of the\nascending and descending phases. Second, the ZTD at the\ncorresponding position and moment is calculated by NWMs-\nbased Site module of GMET Online Service (http://g met.\nusers.s gg.w hu.e du.c n/). Then, it is possible to calculate the\nprocess noise of ZTD in these two stages using the ex",
+    "char_length": 2138
+  },
+  {
+    "quote_id": "qb_59ebaf7204",
+    "span_index": 8,
+    "text": "GPS Solutions (2023) 27:192 Page 9 of 14 192\nFig. 7 Ship trajectory and loca- 38.03\ntion of RTK base station (left)\nand number of visible satellites\n(right)\n38.02\n118.96 119.02\nLongitude (°)\nShi et al. (2017) utilized three translation and three drift\nparameters to compensate this strip-dependent coordinate\nerror, and a satisfactory improvement is obtained. How-\never, in post-processing mode, this compensation method is\nmainly purposed to eliminate the effect of systematic errors\ninduced by GNSS positioning on the perspective center of\nthe aerial camera in aerial triangulation. Therefore, we d",
+    "char_length": 2704
+  },
+  {
+    "quote_id": "qb_e393e215b3",
+    "span_index": 9,
+    "text": "192 Page 10 of 14 GPS Solutions (2023) 27:192\nFig. 9 Aircraft trajectory in three-dimensional diagram (left), and in latitude and longitude (right)\nFig. 10 BDS-only (top), the\nBDS + GPS (middle) kinematic\nPPP positioning errors for the\naircraft experiment. The height 1.2\nof the aircraft is shown at the\n0.6\nbottom. The gray backgrounds\nare adopted to identify ten strips 0\n-0.6\n-1.2\n1 3\n)m(\nsrorre\ngninoitisoP\nN E U\nHor.=18.1cm,Ver.=32.8cm\nConvergence time=48.9min\nBDS\nHor.=17.1cm,Ver.=31.3cm\n1.2\nConvergence time=43.0min\n0.6\n0\n-0.6\n-1.2 BDS + GPS\n2000\n1000\n0\n4 4.5 5 5.5 6 6.5 7 7.5\nGPS time (h)\n)m",
+    "char_length": 682
+  },
+  {
+    "quote_id": "qb_a110b81da2",
+    "span_index": 10,
+    "text": "GPS Solutions (2023) 27:192 Page 11 of 14 192\nin the range of 4.6% (vertical component in car and aircraft\n20\nexperiment) and 32.0% (horizontal component in permanent\nstation experiment).\n10\nConclusions\n0\nThe BDS PPP service provides a promising opportunity for\nexploiting real-time PPP for GNSS users in China and sur-\nrounding areas. This featured service will also have great\npotential in environments without a stable Internet network.\nWe present a comprehensive evaluation of the kinematic\nPPP performance of the PPP-B2b service in different situ-\nations. The statistical results of seven days o",
+    "char_length": 4370
+  },
+  {
+    "quote_id": "qb_4a30a90651",
+    "span_index": 11,
+    "text": "192 Page 12 of 14 GPS Solutions (2023) 27:192\nsystems, such as Galileo and QZSS, will be available too, www. gsc- europa. eu/ sites/ defau lt/ files/ sites/ all/ files/ Galil eo-\nwhich will further improve the positioning performance of HAS-S DD_v 1.0.p df\nFang R, Lv H, Hu Z, Wang G, Zheng J, Zhou R, Xiao K, Li M, Liu J\nthe satellite-based real-time PPP and promote the applica-\n(2022) GPS/BDS precise point positioning with B2b products\ntion of real-time PPP in more fields. for high-rate seismogeodesy: application to the 2021 M-w 7.4\nMaduo earthquake. Geophys J Int 231(3):2079–2090. https://\nAc",
+    "char_length": 6774
+  },
+  {
+    "quote_id": "qb_da51f9a6ba",
+    "span_index": 12,
+    "text": "GPS Solutions (2023) 27:192 Page 13 of 14 192\nPetit G, Luzum B, 2010. IERS Conventions (2010). Frankfurt am Main: Peida Wu received his Master’s\nVerlag des Bundesamts für Kartographie und Geodäsie, 2010. 179 degree from Central South Uni-\npp, ISBN 3–89888–989–6 versity in 2018 and is now a doc-\nRen Z, Gong H, Peng J, Tang C, Huang X, Sun G (2021) Performance toral candidate at GNSS\nassessment of real-time precise point positioning using BDS PPP- Research Center, Wuhan Univer-\nB2b service signal. Adv Space Res 68(8):3242–3254. https://d oi. sity. His current research mainly\norg/1 0.1 016/j.a sr",
+    "char_length": 4898
+  },
+  {
+    "quote_id": "qb_d3558f1f77",
+    "span_index": 13,
+    "text": "192 Page 14 of 14 GPS Solutions (2023) 27:192\nHuizhong He is currently a sen- Zhenyi Zhang received the Mas-\nior engineer. He has been long ter’s degree in geodesy and sur-\nengaged in research and applica- vey engineering from Wuhan\ntion of marine surveying and University, Wuhan, China, in\nmarine geophysical 2023, and would join ETH\nengineering. Zurich as a Ph.D. student in\nOctober 2023. His research\ninterests include GNSS data pro-\ncessing algorithms and applica-\ntions, GNSS meteorology,\nnumerical weather modeling,\nand machine learning.\nJunbing Chai received his Mas- Xu Zou received his B.S. ",
+    "char_length": 1184
+  },
+  {
+    "quote_id": "qb_ce8a989ca1",
+    "span_index": 14,
+    "text": "Terms and Conditions\nS pringer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center GmbH (“Springer Nature”).\nSpringer Nature supports a reasonable amount of sharing of research papers by authors, subscribers and authorised users (“Users”), for small-\nscale personal, non-commercial use provided that all copyright, trade and service marks and other proprietary notices are maintained. By\naccessing, sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of use (“Terms”). For these\np urposes, Springer Nature consider",
+    "char_length": 4128
+  }
+]

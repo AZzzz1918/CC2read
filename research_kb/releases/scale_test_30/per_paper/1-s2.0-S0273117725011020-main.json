@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_ppp_ssr",
+  "classification_reason": "The paper uses BDS PPP-B2b real-time corrections to estimate tropospheric parameters and precipitable water vapor over the ocean, demonstrating an application rather than evaluating the service itself.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "1-s2.0-S0273117725011020-main.pdf",
+  "paper_id": "1-s2.0-S0273117725011020-main",
+  "extraction_mode": "batch_classify_1call"
+}

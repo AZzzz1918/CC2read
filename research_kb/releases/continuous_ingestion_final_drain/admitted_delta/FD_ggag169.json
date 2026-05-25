@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_ggag169",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Real-time high-rate seismogeodesy using Galileo HAS and BDS PPP-B2b products: a shake table experiment and application to the 2024 Mw 7.0 Wushi earthquake"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "(2026) 246, 1–16 https://doi.org/10.1093/gji/ggag169 Advance Access publication 2026 May 6 Research Paper Real-time high-rate seismogeodesy using Galileo HAS and BDS PPP-B2b products: a shake table experiment and application to the 2024 M 7.0 Wushi earthquake w Rongxin Fang,1 , 2 Yao Ding,1 , 3 Guo Chen ,1 Jiawei Zheng,1 , 3 Zilong Chen,1 , 3 Bingyan Hu,3 Qile Zhao,1 , 2 Chuang Shi4 and Jingnan Li",
+      "The BeiDou PPP-B2b service provides precise point positioning (PPP) augmentation corrections via the B2b signal for BDS-3 and GPS satellites, while the Galileo High Accuracy Service (HAS) delivers such corrections for GPS and Galileo satellites via the E6B signal."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 16,
+    "b2b": 180,
+    "has": 7,
+    "dcb": 0,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

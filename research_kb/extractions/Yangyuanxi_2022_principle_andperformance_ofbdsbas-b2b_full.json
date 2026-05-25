@@ -1,0 +1,87 @@
+{
+  "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+  "extraction_mode": "full",
+  "extraction_timestamp": "2026-05-22T17:00:00",
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b + BDSBAS",
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "note": "Dual-service paper: covers both BDSBAS (SBAS) and PPP-B2b. Core=True is justified because substantial PPP-B2b technical content included.",
+    "grounding_quotes": [
+      "PPP through B2b signals of Geostationary Orbit (GEO) satellites (PPP-B2b)",
+      "The basic principle of BDS-3 Precise Point Positioning (PPP-B2b) is expounded"
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "note": "This is a system overview/principle paper by BDS chief designer Yuanxi Yang. No specific experiment epoch — describes system design and initial performance."
+  },
+  "correction_types": [
+    {"type": "orbit_correction", "source": "ground monitoring station network"},
+    {"type": "satellite_clock_offset_correction"},
+    {"type": "ionospheric_correction", "note": "via BDSBAS component"},
+    {"type": "integrity_information"}
+  ],
+  "dcb_handling": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "note": "Overview paper describes PPP-B2b at system level. DCB is part of PPP-B2b service but not specifically discussed in the text."
+  },
+  "mathematical_model": {
+    "processing_mode": "Differential augmentation framework",
+    "key_concepts": [
+      "Differential augmentation principle for PPP",
+      "Ionospheric-free combination PPP model",
+      "Co-construction feasibility of BDSBAS and PPP-B2b",
+      "LEO satellite augmentation potential"
+    ],
+    "grounding_quotes": [
+      "Within the framework of differential augmentation, this paper introduces the basic technical framework and performance"
+    ]
+  },
+  "datasets": {
+    "status": "NOT_MENTIONED",
+    "note": "System overview paper — does not describe specific experimental datasets"
+  },
+  "metrics": {
+    "status": "QUALITATIVE_ONLY",
+    "description": "Paper describes performance qualitatively: orbit and clock offset accuracy, ionosphere integrity, positioning accuracy, convergence time. Specific quantitative values limited in the accessible text.",
+    "sources": ["BDS-3 ground monitoring network", "GEO satellite broadcast corrections"]
+  },
+  "main_results": {
+    "summary": "BDSBAS provides integrity-assured corrections for aviation; PPP-B2b enables real-time PPP with high accuracy (cm-level) after convergence. Co-construction of BDSBAS and PPP-B2b is feasible with infrastructure sharing.",
+    "key_findings": [
+      "BDSBAS and PPP-B2b share ground monitoring station network and GEO broadcast satellites",
+      "Co-construction of BDSBAS and PPP-B2b is feasible",
+      "PPP-B2b provides cm-level static and dm-level kinematic positioning",
+      "LEO satellites present augmentation opportunities",
+      "IGSO satellites could also broadcast differential corrections"
+    ],
+    "grounding_quotes": [
+      "the feasibility of the co-construction of BDSBAS and PPP-B2b is analyzed, strategies for the infrastructure sharing and correction broadcasting are presented"
+    ]
+  },
+  "novelty_audit": {
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "rationale": "Authored by BDS chief designer Yuanxi Yang. Authoritative system-level overview of BDSBAS and PPP-B2b design principles. Explains the engineering framework rather than introducing novel algorithms. High reference value for understanding BDS-3 augmentation architecture.",
+    "grounding_quotes": [
+      "the basic principle of BDS-3 Precise Point Positioning (PPP-B2b) is expounded, the similarities and differences between the PPP service provided by BDS-3 and IGS are discussed"
+    ]
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 0,
+    "reproduction_blockers": [
+      "System-level overview paper — no experiment to reproduce",
+      "BDSBAS/PPP-B2b ground infrastructure not publicly accessible",
+      "GEO satellite broadcast correction stream not publicly archived",
+      "No source code or algorithms described in reproducible detail"
+    ]
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "experiment_epoch_valid": true,
+    "dcb_status": "INSUFFICIENT_EVIDENCE",
+    "reproduction_blockers_non_empty": true
+  }
+}

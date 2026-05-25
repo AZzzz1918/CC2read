@@ -1,0 +1,41 @@
+{
+  "paper_id": "CI002_s10291_025_01998_3",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "CI-002",
+  "bibliographic_info": {
+    "title": "Hong Huang1,2 · Wang Gao1,2 · Shuguo Pan1,2 · Longlei Qiao1,2 · Qing Zhao1,2"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2026) 30:30 https://doi.org/10.1007/s10291-025-01998-3 RESEARCH Asynchronous RTK positioning enhanced by satellite-based PPP corrections: a case study with PPP-B2b Hong Huang1,2 · Wang Gao1,2 · Shuguo Pan1,2 · Longlei Qiao1,2 · Qing Zhao1,2 Received: 17 June 2025 / Accepted: 12 November 2025 / Published online: 22 November 2025 © The Author(s), under exclusive lice",
+      "To address this issue, this paper proposes an asynchronous RTK method enhanced by satellite-based PPP corrections, with PPP-B2b selected as a representative case (B2b-ARTK)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "grounding_quotes": [
+      "By introducing backward ephemeris error modeling, service, delivering orbit, clock, and differential code bias the method achieves high-frequency real-time position- (DCB) corrections with wide coverage, communication ing with a delay of several seconds, making it suitable for independence, and high accuracy (Xu et al."
+    ]
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 18,
+    "b2b": 132,
+    "has": 9,
+    "dcb": 8
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "corpus_version": "v1.0"
+}

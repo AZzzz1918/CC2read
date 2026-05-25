@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "generated": "2026-05-24",
+  "total_admitted": 66,
+  "by_source": {
+    "corpus_grounded_v0.3": 37,
+    "v0.4_wave_1": 10,
+    "v0.4_wave_2": 10,
+    "v0.4_wave_3": 9
+  },
+  "by_product_source": {
+    "BDS3_PPP_B2B_BROADCAST": 54,
+    "MIXED_PRODUCTS": 7,
+    "CNES_OR_OTHER_RTS": 3,
+    "QZSS_CLAS": 2
+  },
+  "by_maturity": {
+    "MATURE": 25,
+    "ESTABLISHED": 16,
+    "GROWING": 16,
+    "EMERGING": 6,
+    "NICHE": 3
+  },
+  "index_note": "This is a summary index. Full paper-level index at corpus_index.json in each release."
+}

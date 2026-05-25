@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "id": "Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service",
+      "title": "An investigation of PPP time transfer via BDS-3 PPP-B2b service",
+      "year": 2023,
+      "authors": [
+        "Yulong Ge",
+        "Xinyun Cao",
+        "Daqian Lyu",
+        "Zaimin He",
+        "Fei Ye",
+        "Gongwei Xiao",
+        "Fei Shen",
+        "NOT_MENTIONED",
+        "Yulong Ge",
+        "Xinyun Cao",
+        "Daqian Lyu",
+        "Zaimin He",
+        "Fei Ye",
+        "Gongwei Xiao",
+        "Fei Shen"
+      ]
+    },
+    {
+      "id": "Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser",
+      "title": "Precise Point Positioning Performance Evaluation of QZSS Centimeter Level Augmentation Service",
+      "year": 2020,
+      "authors": [
+        "Maosen Hao",
+        "Maosen Hao",
+        "Wenhai Jiao",
+        "Xiaolin Jia",
+        "Qingrui Tao",
+        "NOT_MENTIONED",
+        "NOT_MENTIONED",
+        "Maosen Hao"
+      ]
+    },
+    {
+      "id": "Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp",
+      "title": "Evaluation of BDS-3 B1C/B2b Single/Dual-Frequency PPP Using PPP-B2b and RTS SSR Products in Both Static and Dynamic Applications",
+      "year": 2022,
+      "authors": [
+        "Ruohua Lan",
+        "Cheng Yang",
+        "Yanli Zheng",
+        "Qiaozhuang Xu",
+        "Jie Lv",
+        "Zhouzheng Gao",
+        "NOT_MENTIONED",
+        "Ruohua Lan",
+        "Chao Yang",
+        "Yixin Zhang",
+        "Zhengang Guo",
+        "Qiang Xi",
+        "Jialong Liu"
+      ]
+    }
+  ],
+  "edges": []
+}

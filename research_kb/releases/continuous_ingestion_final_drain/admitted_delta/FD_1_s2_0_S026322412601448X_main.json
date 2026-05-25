@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_1_s2_0_S026322412601448X_main",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  Measurement 279 (2026) 121739 Contents lists available at ScienceDirect Measurement journal homepage: www.elsevier.com/locate/measurement Orbit and clock combination of PPP-B2b, HAS and MADOCA-PPP at the user end: with emphasis on the improvement of global real-time precise point positioning Guo Chena, Qiang Zhanga,* , Tianfeng Shenb, Zhigang Hua, Qile Zhaoa,c aGNSS Research Cent",
+      "129 Luoyu Road, Wuhan 430079, China A R T I C L E I N F O A B S T R A C T Keywords: The limited geographical coverage of regional PPP-B2b, MADOCA-PPP and Galileo initial High Accuracy Service PPP-B2b (HAS), precludes their use for global real-time high-precision positioning."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED"
+  },
+  "dcb_handling": {
+    "status": "BRIEFLY_MENTIONED",
+    "dcb_mentions": 1
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 13,
+    "b2b": 109,
+    "has": 5,
+    "dcb": 1,
+    "clas": 3
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

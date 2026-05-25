@@ -1,0 +1,51 @@
+{
+  "paper_id": "基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析_刘威",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "selection_role": "general_ppp",
+  "bibliographic_info": {
+    "title": "NOT_MENTIONED",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "CNES_OR_OTHER_RTS",
+    "evidence_strength": "WEAK",
+    "grounding_quotes": []
+  },
+  "experiment_epoch": {
+    "start_date": "2012-12-17",
+    "end_date": "2012-12-17",
+    "grounding_quotes": []
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 10,
+    "grounding_quotes": [
+      "62  <!-- PAGE: 9 -->  1 绪论 1.1 引言 自 1995 年美国的 GPS（Global Positioning System,全球定位系统）正式 投入使用以来，卫星导航定位技术迅速发展，给人们的生产生活带来了极大的方 便，掀起了导航位置服务的科技革命。GPS系统设计的初衷只是利用伪随机码测 量获得实时米级的导航服务，也仅仅是用于军事方面。由于一开始美国就像全世 界提供免费的粗码定位服务，虽然定位精度在几十米，但是研究入门容易，所以 各国学者纷纷投入到 GPS系统的研究中去，逐渐把用于运载测距码的载波相位应 用到厘米甚至毫米级高精度定位测量中。而载波相位测量技术的发展，催生了实 时动态定位技术（RTK 技术）、高精度基线解算、精密单点定位技术、PPP-RTK 等一系列高精度定位测量技术。 近几年，中国在卫星导航定位系统研发和技术探索方面取得了突飞猛进的发 展，201"
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 7
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code/software release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 72,
+    "b2b_mentions": 0,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 10
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "wrong_support": false,
+    "expected_ps": "CNES_OR_OTHER_RTS"
+  },
+  "scope_relevance": "BACKGROUND_ONLY"
+}

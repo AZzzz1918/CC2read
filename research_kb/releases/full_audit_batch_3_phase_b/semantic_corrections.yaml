@@ -1,0 +1,23 @@
+# Semantic Corrections — Batch 3 Phase B
+corrections:
+  - paper_id: s10291_025_01845_5
+    field_path: product_source.actual_product_source
+    old_value: CNES_OR_OTHER_RTS
+    new_value: BDS3_PPP_B2B_BROADCAST
+    reason: Pre-assigned as non_b2b but has 76 B2b mentions with 0 Galileo HAS mentions
+    evidence: b2b_mentions=76
+    correction_type: role_reclassification
+  - paper_id: s10291_025_01882_0
+    field_path: product_source.actual_product_source
+    old_value: CNES_OR_OTHER_RTS
+    new_value: BDS3_PPP_B2B_BROADCAST
+    reason: Pre-assigned as non_b2b but has 105 B2b mentions
+    evidence: b2b_mentions=105
+    correction_type: role_reclassification
+  - paper_id: Liu_Wei_BDS_GPS_RTK_PPP
+    field_path: product_source.actual_product_source
+    old_value: BDS3_PPP_B2B_BROADCAST
+    new_value: CNES_OR_OTHER_RTS
+    reason: 72-page Chinese thesis about general BDS/GPS RTK+PPP methods, not PPP-B2b specific (0 B2b mentions)
+    evidence: b2b_mentions=0, title=基于北斗_GPS的RTK和实时PPP理论方法研究及对比分析
+    correction_type: role_reclassification

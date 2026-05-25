@@ -1,0 +1,68 @@
+[
+  {
+    "quote_id": "qb_7aae734b9d",
+    "span_index": 0,
+    "text": "Available online atwww.sciencedirect.com\nScienceDirect\nAdvancesinSpaceResearch74(2024)5569–5579\nwww.elsevier.com/locate/asr\nReal-time uncombined PPP using BDS-3 PPP-B2b products\nwith different multi-frequency integrations and refined stochastic model\n⇑\nWujiao Dai , Qiang Qi, Lin Pan, Changsheng Cai\nSchoolofGeosciencesandInfo-Physics,CentralSouthUniversity,SouthLushanRoad,Changsha410083,China\nReceived7February2024;receivedinrevisedform15July2024;accepted16August2024\nAvailableonline22August2024\nAbstract\nBDS-3geostationaryorbit(GEO)satellitesbroadcastPPP-B2breal-timepreciseproductstosupportreal-t",
+    "char_length": 3762
+  },
+  {
+    "quote_id": "qb_2cd96f3090",
+    "span_index": 1,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nlink. For the former, the precise products are generally PPP using the PPP-B2b products on kinematic and highly\ntransmitted to users using the Networked Transport of kinematic platforms, and results indicated that a conver-\nRadio Technical Commission for Maritime Services gence time of 28.5 and 12.9 min could be achieved with\n(RTCM) via Internet Protocol (NTRIP), such as the BDS-3 only and BDS-3/GPS dual-system, respectively. In\nReal-Time Service (RTS) of the International GNSS Ser- addition, Xu et al. (2023) estimated the spatial ranging\nvic",
+    "char_length": 6079
+  },
+  {
+    "quote_id": "qb_97b5347658",
+    "span_index": 2,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\ncorrection information primarily encompasses pseudo- where, t is the satellite clock calculated by the B1C\nbroadcast\nrandom number (PRN), satellite orbit, satellite clock, and broadcast ephemeris, t is the satellite clock after\npre sat clk\nDCB correction information. The specific correction correction, and c is the speed of light.\nmethod is provided in the following sections (CSNO, Similarly, the PPP-B2b clock corrections refer to B3I\n2019b). signal (Tao et al., 2021), which can’t directly be used in\nPPP processing. Therefore, we use the DCB ",
+    "char_length": 5107
+  },
+  {
+    "quote_id": "qb_e342ba2d98",
+    "span_index": 3,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nmorediverse,whiletheUConeexhibitsbetterextendibility characteristics, so it can not directly allow integer ambigu-\nand flexibility. To facilitate multi-frequency positioning, ity fixing. If need to fix the ambiguity, the PPP ambiguity\nthis study chooses the UC model for data processing, and resolution (AR) model should be established (Ge et al.,\nits observation equations are as follows (Pan et al., 2019), 2008). The parameters to be estimated in the BDS-3\nmulti-frequency UC PPP model include receiver coordi-\nPs\nr;i\n¼qs\nr\nþcdt\nr\n(cid:2)cdtsþTs",
+    "char_length": 6285
+  },
+  {
+    "quote_id": "qb_48817551ad",
+    "span_index": 4,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nFirst,thenoiseandmultipathcombinations(MP)foreach where, Dl represents the carrier phase after inter-satellite\nfrequencyofBDS-3codeobservationsareacquired.Subse- single difference in meters, u and v represent non-\nquently, the carrier phase quartic difference is made to reference satellite and reference satellite, respectively. DI\nextract the noise for each frequency’s carrier phase obser- and DT are the ionospheric delay and tropospheric delay\nvations. Finally, we use the elevation-dependent stochastic after the inter-satellite single differ",
+    "char_length": 4429
+  },
+  {
+    "quote_id": "qb_7c9bc45ff2",
+    "span_index": 5,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nand b = 3 mm) to determine the variance of the observa- SGOC, ULAB, URUM, and WUH2 stations have the\ntions of B1I. Although these numerical values may not same GNSS equipment, while the remaining three stations\nfully reflect the true noise level of B1I, the marginal differ- correspond to different GNSS equipments.\nences in observation variances caused by them have little TheRT-PPPprocessingstrategiesareshowninTable2.\nimpact on the accuracy of RT-PPP. In contrast, the ratios For the weight determination strategy, the traditional ele-\nof observ",
+    "char_length": 3035
+  },
+  {
+    "quote_id": "qb_ed0bfb9292",
+    "span_index": 6,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nFig.3. Epoch-wiseRMSstatisticsofmulti-frequencykinematicRT-PPP\npositioning errors using the datasets from 7 stations on DOY 303–309,\n2022(theleftpaneldisplaysthepositioningerrorsinthefirstthreehours\nataconvergingstage,andtherightpaneldisplaysthoseafteracomplete\nconvergence).\nTable3\nDual-frequencykinematicRT-PPPperformanceusingB1I/B3IandB1C/\nB2bintegrations.\nDirection Convergencetime(minute) Positioningaccuracy(cm)\nB1I/B3I B1C/B2b B1I/B3I B1C/B2b\nEast 44.8 37.7 11.6 11.5\nNorth 13.4 11.4 7.3 6.8\nUp 26.1 23.0 15.4 15.2\nFig.4. ScatterchartofcodeM",
+    "char_length": 2411
+  },
+  {
+    "quote_id": "qb_4e484f2320",
+    "span_index": 7,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nTable5\nRMSstatisticalresultsofcodeMPforeachfrequencyateachstation.\nFrequency CodeMP(m) Mean(m) RatiotoB1I\nCUSV GUAM POL2 SGOC ULAB URUM WUH2\nB1I 0.18 0.24 0.22 0.25 0.22 0.19 0.21 0.216 1.00\nB3I 0.07 0.14 0.11 0.20 0.15 0.13 0.15 0.136 0.63\nB1C 0.11 0.17 0.12 0.20 0.13 0.10 0.14 0.139 0.64\nB2b 0.06 0.13 0.09 0.21 0.12 0.08 0.11 0.114 0.53\nB2a 0.07 0.13 0.09 0.14 0.11 0.08 0.13 0.107 0.50\nThe RMS errors in three directions along with the con-\nvergence time at all stations during DOY 303–309, 2022,\nwere computed, and their mean values are displ",
+    "char_length": 3144
+  },
+  {
+    "quote_id": "qb_642ebb8900",
+    "span_index": 8,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nTable6\nStatisticalresultsofphasenoisesforeachfrequencyateachstation.\nFrequency Carrierphasenoise(mm) Mean(mm) RatiotoB1I\nCUSV GUAM POL2 SGOC ULAB URUM WUH2\nB1I 7.00 5.20 6.30 7.30 6.50 6.70 7.00 6.538 1.00\nB3I 6.50 4.80 9.30 8.80 8.00 7.60 8.00 7.488 1.15\nB1C 7.60 5.90 6.60 7.60 7.00 7.10 7.60 7.000 1.07\nB2b 5.40 5.70 7.00 5.30 4.70 4.60 4.90 5.588 0.85\nB2a 6.10 5.60 6.40 6.70 5.00 5.10 5.60 6.050 0.93\nFig.6. Epoch-wiseRMSstatisticsofRT-PPPpositioningerrorswithtraditionalelevation-dependentandrefinedstochasticmodelsusingthedatasets\nfrom7stati",
+    "char_length": 2004
+  },
+  {
+    "quote_id": "qb_3f251a0892",
+    "span_index": 9,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nTable7 By analyzing the noise of code and carrier phase obser-\nFive-frequency kinematic RT-PPP performance using traditional eleva- vationsatdifferentfrequencies,itcanbeconcludedthatthe\ntion-dependentandrefinedstochasticmodels.\nMPvaluesofthecodeobservationsatdifferentfrequencies\nDirection Convergencetime(minute) Positioningaccuracy(cm) of BDS-3 have obvious differences. In particular, the new\nTraditional Refined Traditional Refined frequenciesB2bandB2ahavebettercodequality,followed\nEast 35.5 32.1 10.1 9.9 by the B1C and B3I, and the code qual",
+    "char_length": 5788
+  },
+  {
+    "quote_id": "qb_cdfeee6a70",
+    "span_index": 10,
+    "text": "W.Daietal. AdvancesinSpaceResearch74(2024)5569–5579\nand the B1C/B2b/B3I/B1I/B2a five-frequency integration EUSPA,2020.Galileohighaccuracyservice(HAS)infonote.European\nachieves a significant improvement by 6 %, 32 %, and GNSSAgency.\nGardan, G., 1995. A comparison of four methods of weighting double-\n9%inconvergencetimeandby11%,9%,and6%inposi-\ndifferencePseudorangemeasurement.Trans.TasmanSurveyor1,60–\ntioning accuracy in three directions, respectively.\n66.\nThe code MP and carrier phase noise are evaluated. Ge,M.,Gendt,G.,Rothacher,M.,etal.,2008.ResolutionofGPScarrier-\nAnalysis results show that ",
+    "char_length": 6078
+  }
+]

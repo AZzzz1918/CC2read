@@ -1,0 +1,62 @@
+{
+  "paper_id": "test7_empty_blockers",
+  "source_file": "paper/test7.pdf",
+  "file_hash": "stu901",
+  "bibliographic_info": {
+    "title": "Real-Time PPP Performance with BDS-3 B2b Signals",
+    "authors": [{"name": "Mary Johnson"}, {"name": "Peter Lee"}],
+    "year": 2024,
+    "journal_or_venue": "Advances in Space Research"
+  },
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": ["We implemented a real-time PPP engine based on RTKLIB"],
+    "conflict_flag": false
+  },
+  "mathematical_model": {
+    "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+    "observation_model": "Standard IF PPP",
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "strategy": "IF combination",
+    "dcb_source": "NOT_MENTIONED",
+    "dcb_missing_flag": true
+  },
+  "correction_types": {"orbit_correction": "PPP-B2b", "clock_correction": "PPP-B2b", "grounding_quotes": []},
+  "research_problem": {},
+  "technical_route": {"grounding_quotes": []},
+  "method": {"method_name": "RTKLIB-based PPP"},
+  "formulas": [],
+  "experiments": [],
+  "experiment_epoch": {"start_date": "NOT_MENTIONED", "end_date": "NOT_MENTIONED", "grounding_quotes": []},
+  "datasets": {"grounding_quotes": []},
+  "metrics": {
+    "convergence_time": "30 minutes",
+    "rms_3d": "5.2 cm",
+    "std_enu": "E: 2.1, N: 1.8, U: 4.5 cm",
+    "percentile_95": "8.3 cm",
+    "grounding_quotes": ["The 3D RMS is 5.2 cm", "The ENU STD is 2.1, 1.8, 4.5 cm"]
+  },
+  "main_results": {"summary": "cm-level accuracy achieved", "grounding_quotes": []},
+  "novelty_audit": {
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED",
+    "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED",
+    "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED",
+    "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED",
+    "config_files": "NOT_MENTIONED",
+    "metric_definitions": "RMS and STD defined",
+    "baseline_details": "NOT_MENTIONED",
+    "reproduction_blockers": [],
+    "reproducibility_score": 8,
+    "grounding_quotes": []
+  }
+}

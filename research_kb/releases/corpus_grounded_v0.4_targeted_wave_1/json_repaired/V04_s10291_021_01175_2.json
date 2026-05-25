@@ -1,0 +1,54 @@
+{
+  "paper_id": "V04_s10291_021_01175_2",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "bibliographic_info": {
+    "title": "Performance evaluation of BDS-3 PPP-B2b precise point positioning service",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2021) 25:142 https://doi.org/10.1007/s10291-021-01175-2 ORIGINAL ARTICLE Performance evaluation of BDS‑3 PPP‑B2b precise point positioning service Yangyin Xu1,2 · Yuanxi Yang2 · Jinlong Li3 Received: 12 November 2020 / Accepted: 20 August 2021 / Published online: 12 September 2021 © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Spr",
+      "The correction parameters, including precision orbit correction, clock offset correction and differential code bias, are transmit- ted by PPP-B2b signal from BDS-3 geosynchronous orbit satellites."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "dcb_handling": {
+    "status": "EXPLICITLY_DESCRIBED",
+    "dcb_mentions": 16,
+    "grounding_quotes": [
+      "The correction parameters, including precision orbit correction, clock offset correction and differential code bias, are transmit- ted by PPP-B2b signal from BDS-3 geosynchronous orbit satellites."
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 5
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 14,
+    "b2b_mentions": 109,
+    "has_mentions": 0,
+    "clas_mentions": 0,
+    "dcb_mentions": 16
+  },
+  "gate_status": {
+    "wrong_support": false,
+    "epoch_valid": true
+  },
+  "category": "PPP_B2B_HAS_FUSION",
+  "priority": "P1_CORE",
+  "expected_impact": "taxonomy_change_or_new_route"
+}

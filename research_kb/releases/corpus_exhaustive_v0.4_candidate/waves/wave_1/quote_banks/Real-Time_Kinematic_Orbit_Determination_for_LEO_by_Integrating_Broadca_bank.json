@@ -1,0 +1,86 @@
+[
+  {
+    "quote_id": "qb_6aef0f3d4a",
+    "span_index": 0,
+    "text": "Real-timekinematicorbitdetermination(KOD)basedonbroad-\ncastephemerides(BRD)enablesonboardhigh-rateorbitupdatesfor\nReal-Time Kinematic Orbit lowEarthorbit(LEO)missionsbutwithlimitedaccuracy.Withthe\noperationalavailabilityoftheGalileoHighAccuracyService(HAS)\nand the BDS-3 Precise Point Positioning-B2b (PPP-B2b), real-time\nDetermination for LEO by\nhigh-accuracycorrectionshavebecomeaccessibletospacebornere-\nceivers, enhancing orbit determination performance. Nevertheless,\nIntegrating Broadcast eachproductexhibitsdistinctstrengthsandlimitations:BRDprovides\nglobalcoverageatrelativelylowaccuracy,HASd",
+    "char_length": 5258
+  },
+  {
+    "quote_id": "qb_0ea2fe547b",
+    "span_index": 1,
+    "text": "navigationexperimentonthePROBA-2spacecraft,where nanosatellites support only limited multi-GNSS tracking\neachRODintegrationsteprequiredupto21sofexecution duetoconstraintsincost,power,andhardwaredesign.This\ntimeonanARM7-classonboardprocessor,therebymaking furtherunderscorestheneedforanintegratedapproachto\nreal-time operation impractical for platforms with limited maximizesatelliteavailabilityandmaintainreliableperfor-\ncomputational resources [17]. To address this, kinematic manceunderpracticalconditions.\norbit determination (KOD) has emerged as an alternative. Motivated by these opportunities a",
+    "char_length": 6085
+  },
+  {
+    "quote_id": "qb_d408ae5b94",
+    "span_index": 2,
+    "text": "areasfollows[32]: and phase center variation (PCV) [33], [45]. Then, orbit\n(cid:2) (cid:3)\nPs =ρs+c δt −δts +BIF −Bs,IF+εs (1) differences with respect to the reference are computed in\nr,IF r (cid:2) r (cid:3) r,P P r,PIF ECEF (r\nECEF\n) and transformed to RAC (r\nrac\n) components\nL r s ,IF =ρ r s+c δt r −δts +B r I , F L −B L s,IF+N r s ,IF λ IF +ε r s ,LIF using\n(2)\nr =Rr =[e e e ]T r . (8)\nwhere ρs is the geometric distance between the LEO re- rac ECEF r a c ECEF\nr\nceiverantennaphasecenter(APC)andtheGNSSsatellite 2)SatelliteClockOffset: Ingeneral,HASandCODE\nAPC;cisthespeedoflight;δt andδtsare",
+    "char_length": 4996
+  },
+  {
+    "quote_id": "qb_b925c19f0b",
+    "span_index": 3,
+    "text": "Fig.1. Globalsubsatellitegroundtrackscoloredbyorbit-onlySISRE\nonDOY111,2025.(a)HAS-GPS.(b)PPP-B2bBDS.\nFig.2. Global1◦×1◦daily-meannumberofvisiblesatellites(elevation\n≥7◦)onDOY111,2025.(a)HAS-GPS.(b)PPP-B2bBDS-3.\nTodeterminetheoptimalintegrationlogic,wefirstana-\nFig.3. SchematicoftheproposedCCESmethod.\nlyzethecharacteristicsofthecorrectionsforHAS-GPSand\nPPP-B2b BDS-3 satellites. Fig. 1 presents the subsatellite\ngroundtracksforHAS-GPSandPPP-B2bBDS-3onDOY\nThereal-timedataharmonizationmainlyaimstoensure\n111,2025,coloredbytheirorbit-onlySISRE.Attheglobal\nthe alignment of asynchronous navigation mes",
+    "char_length": 3545
+  },
+  {
+    "quote_id": "qb_c71dcc8db4",
+    "span_index": 4,
+    "text": "Fig.5. Global1◦×1◦daily-meanPDOPforHAS-GPSandPPP-B2b\nFig.4. DailyaverageavailabilityofHAS-GPS(blue),PPP-B2bBDS-3 BDS-3onDOY111,2025.(a)HAS-GPS.(b)PPP-B2bBDS-3.\nMEO(red),andPPP-B2bBDS-3IGSO(green)overtheentirestudy\nperiod.\nmean of 78.4%, consistent with ∼80% reported previ-\nThe method then selects the constellation-level ephemeris ously [39], [42]. For PPP-B2b BDS-3, the availability of\nsourcemode(m (k))usingasingle-thresholdrule MEOsatellites(green)andIGSOsatellites(red)isapprox-\nsys\n⎧ imately30%and72.2%,respectively,consistentwithprior\n⎨ Mode-C N (k)≥N studies[39],[46].Thislimitedavailability",
+    "char_length": 4632
+  },
+  {
+    "quote_id": "qb_44d8d2e4a4",
+    "span_index": 5,
+    "text": "TABLEI\nAverageAccuracyofOrbit,ClockOffset,andSISREErrorsforGPSandBDS-3(Ratio=(1−HASorB2b/BRD)×100%)\ntheirspecificservicedesignsandorbitalcharacteristics,in\ntermsofClock(STD),SISRE(Orbit),andSISRE(debiased).\nFirst,regardingclockstability,PPP-B2bMEOachievesthe\nlowest Clock (STD), followed by PPP-B2b IGSO, while\nHAS-GPS performs relatively worse. This performance\ngapismainlyattributabletothecorrectionupdateinterval.\nForexample,PPP-B2bprovideshigh-rateclockcorrections\nevery 6 s [51], which effectively suppresses short-term\nclock jitters. In contrast, the HAS clock update interval is\n10 s [42]. Con",
+    "char_length": 3946
+  },
+  {
+    "quote_id": "qb_3698b8662a",
+    "span_index": 6,
+    "text": "TABLEII\nProcessingConfigurationforReal-TimeStaticPPP\nFig.7. GeographicdistributionoftheselectedIGSstations.\nandtheirpercentagechanges(ratio)incomparisontoBRD.\nFor GPS, the use of HAS reduces the RMS by 66.4%\n(radial),88.5%(along-track),and84.6%(cross-track).For\nBDS-3 MEO, the use of PPP-B2b decreases the RMS by\n9.2% (radial) and 4.5% (along-track), but increases it by\n23.6%(cross-track).ForBDS-3IGSO,althoughtheradial\nRMS decreases by 2.2%, the along-track and cross-track\nRMS increase by 17.4% and 26.9%, respectively. These\nresults also echo findings from prior studies [29], [38],\nTABLEIII\n[47]",
+    "char_length": 2845
+  },
+  {
+    "quote_id": "qb_63eb9330fa",
+    "span_index": 7,
+    "text": "numberofPPP-B2b-correctedsatellitesdropssignificantly,\neven to zero. Hence, Strategy 2 is, therefore, dominated\nby HAS Galileo, resulting in larger 3-D RMS values and\nreducedavailabilityinmostcases(e.g.,atstationCUIB).\nIn terms of positioning accuracy, when the PPP-B2b\nservice is available, the integrated solution delivers high\nprecision. For example, at station WUH2, the 3-D RMS\nfor PPP-B2b-only and HAS-only are 3.12 and 4.92 cm,\nrespectively.Bycomparison,Strategy1achieves2.62cm,\nwhile Strategy 2 improves further to 2.09 cm. This repre-\nsents an improvement of 33.0% over PPP-B2b-only and\n57.5",
+    "char_length": 4180
+  },
+  {
+    "quote_id": "qb_56be3c2da8",
+    "span_index": 8,
+    "text": "TABLEIV\nProcessingConfigurationandParameterSettingsforReal-TimeKOD\nFig.10. DailymeanaccuracyfortheLT-1Apostprocessedpreciseorbit\ndeterminationovertheentirestudyperiod.\nisgeneratedusinganin-housesoftwarepackage,utilizing\ntheCODEmulti-GNSSfinalpreciseephemeridesasinputs.\nThe processing strategy uses a simplified dynamic model\nconsistent with previous studies [55], [56]. To verify the\ninternal consistency and accuracy of the reference orbit,\na standard 6-h orbit overlap test was performed on the\nselected datasets. As shown in Fig. 10, the mean RMS\nerrorsintheradial,along-track,andcross-trackdirec",
+    "char_length": 3806
+  },
+  {
+    "quote_id": "qb_2a97fb9077",
+    "span_index": 9,
+    "text": "TABLEV\nDeterminedOptimalPseudoambiguity\nRandom-WalkNoiseSettings\nTABLEVI\nMeanVisibilityandGeometryMetricsforBRD-Only\nFig.11. Average3-DorbitRMSforGPS-only(blue)andBDS-3-only Real-TimeKODOvertheEntireStudyPeriod\n(red)versusthepseudoambiguityrandom-walknoisesettingsoverthe\nentirestudyperiod.\nTABLEVII\nAveragedOrbitRMSandIntegrityfortheBRDBaselineOverthe\nEntireStudyPeriod\nB. BRD-OnlyResults\nFig.12. Dailymeanreal-timeorbitRMSbefore(left)andafter(right)\napplyingtheoptimalpseudoambiguityrandom-walknoise.\nBRD processing remains the prevailing method for\n√ √ real-time orbit determination; hence, we fir",
+    "char_length": 3252
+  },
+  {
+    "quote_id": "qb_9c5bbe5029",
+    "span_index": 10,
+    "text": "TABLEVIII\nAverageReal-TimeOrbitRMSforBRD-Only,BRD+HAS,andBRD+HAS+B2bOvertheEntireStudyPeriod\nFig.14. OrbitaccuracybeforeandafterapplyingtheHAS-GPSand\nPPP-B2bBDS-3correctionsonDOY111,2025.\nFig.13. Dailymean3-DorbitRMSforBRD-only,BRD+HAS,and\nBRD+HAS+B2bovertheentirestudyperiod.\nOverall, the accuracy improvements and better integrity\nhighlighttherobustnessandeffectivenessofthecombined\nsolutionunderBRD.\nC. Ephemeris-IntegrationResults\nBuilding on the optimal pseudoambiguity random-\nwalk noise settings and the CCES method proposed in\nSection II-D, we then evaluate real-time KOD under the\ncombined G",
+    "char_length": 2294
+  },
+  {
+    "quote_id": "qb_7bc3330d31",
+    "span_index": 11,
+    "text": "Fig.14showsthatapplyingHASandPPP-B2bcorrec-\ntions achieve a clear improvement. Specifically, the time\nseries becomes more stable, the fluctuation amplitude is\nreduced,andlargeexcursions(likethoseover30cm)arefar\nlessfrequent.Bothcorrectedconfigurationsexhibithigher\naccuracyandtightervariabilitythanBRD-only,consistent\nwith the aggregate statistics above. Quantitatively, over\nthose common epochs, the fraction for which BRD+HAS\nachieveslowerRMSerrorthanBRD-onlyis74.7%,rising\nto 84.8% for BRD+HAS+B2b. It is important to note that\nwhile the integration strategy generally outperforms the\nbaselines,tr",
+    "char_length": 5095
+  },
+  {
+    "quote_id": "qb_f5c5062993",
+    "span_index": 12,
+    "text": "TABLEIX\nAverageReal-TimeOrbitRMSintheSelectedAsia–PacificSubsetforBRD-Only,BRD+HAS,andBRD+HAS+B2bOverthe\nEntireStudyPeriod\nOverall, these regional experiments confirm that the dependence of real-time KOD on observation quality and\ncontributionofPPP-B2bisnotmarginal;instead,itprovides constellation geometry, we propose an integrated method\naclearadditionalimprovementoverBRD+HASwithinits that integrates BRD with HAS and PPP-B2b corrections,\nservice domain. This validates the capability of the pro- referredtoasCCES.TheCCESmethodachievesaglobal\nposed strategy to effectively leverage regional corre",
+    "char_length": 5091
+  },
+  {
+    "quote_id": "qb_326b4a77fb",
+    "span_index": 13,
+    "text": "SuelynnChoyreceivedthePh.D.degreeinpre- ZheLireceivedtheB.S.degreeinsurveyingen-\ncisesatellitepositioningfromRMITUniversity, gineeringfromtheChinaUniversityofMining\nMelbourne,VIC,Australia,in2009. andTechnology,Xuzhou,China,in2022.Heis\nShe is currently a Professor of Geospatial currentlyworkingtowardthePh.D.degreewith\nScience and Satellite Navigation with RMIT theUniversityofChineseAcademyofSciences,\nUniversityandtheDirectoroftheRMITSatellite Beijing,China.\nPositioningforAtmosphere,ClimateandEnvi- HisresearchinterestsincludeGlobalNaviga-\nronmentResearchCentre.Herresearchinterests tionSatellite",
+    "char_length": 1469
+  }
+]

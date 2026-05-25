@@ -1,0 +1,116 @@
+[
+  {
+    "quote_id": "qb_3ba393c5cc",
+    "span_index": 0,
+    "text": "Article\nBDS-PPP-B2b-Based Smartphone Precise Positioning Model\nEnhanced by Mixed-Frequency Data and Hybrid\nWeight Function\nZhouzhengGao1,2 ,ZhixiongWu1,ShiyuLiu1andChengYang1,*\n1 SchoolofLandScienceandTechnology,ChinaUniversityofGeosciencesBeijing,Beijing100083,China;\nzz.gao@cugb.edu.cn(Z.G.);wzx0446@163.com(Z.W.);liushiyu@email.cugb.edu.cn(S.L.)\n2 KeyLaboratoryofMonitoringandProtectionofNaturalResourcesinMiningCities,MinistryofNatural\nResources,Jinzhong030600,China\n* Correspondence:c.yang@connect.polyu.hk;Tel.:+86-157-1284-7511\nAbstract\nComparedtohigh-costhardware-basedGlobalNavigationSatelli",
+    "char_length": 3318
+  },
+  {
+    "quote_id": "qb_f0e2643082",
+    "span_index": 1,
+    "text": "Appl.Sci.2025,15,7169 2of19\nand the Internet of Things (IoT), the potential of smartphone-based high-accuracy po-\nsitioning technology is increasing unprecedentedly. Moreover, the performance of the\nGNSSchipsetembeddedinsmartphoneshasgraduallybeenenhancedintermsoftracking\nmulti-frequencymulti-constellationsignals,decreasingmeasurementnoise,andoptimiz-\ningthedutycyclemechanism,whichhasenabledresearcherstoprovidehigher-accuracy\npositioningservicesbyusingcarrier-phase-measurement-basedpositioningmethodssuch\nasprecisepointpositioning(PPP)andreal-timekinematicpositioning(RTK)[3,4].\nHowever, compare",
+    "char_length": 3908
+  },
+  {
+    "quote_id": "qb_876975b4ce",
+    "span_index": 2,
+    "text": "Appl.Sci.2025,15,7169 3of19\nthepositioningmodebasedonthefusionofthepseudo-range,carrierphase,andDoppler\nobservations,ahigherpositioningaccuracycanbeachieved. Specifically,suchanapproach\ncanobtainpositioningaccuraciesof0.6mand1.4minthehorizontaldirectionandvertical\ndirection,respectively[22]. Meanwhile,ithasalsobeenindicatedthattheC/N -dependent\n0\nweight function model is more effective than the satellite elevation-dependent weight\nfunction for a smartphone positioning system [23]. However, smartphones need high-\naccuracy positioning services in real time rather than in post-processing. Theoret",
+    "char_length": 3621
+  },
+  {
+    "quote_id": "qb_077cd0a635",
+    "span_index": 3,
+    "text": "Appl.Sci.2025,15,7169 4of19\nlaterversions[18,29]. Regardingthesemessages,thevariablesshowninTable2represent\nimportantinformation.\nTable1.ImportantvariablesandtheirmeaningsintheGNSSclockinterface.\nFileds Description\nTimesNanos AndroidterminalGNSSreceivertime\nThesub-nanosecond-leveldeviationbetweenthe\nBiasNanos\nAndroidGNSSreceiverclockandrealGPStime\nNanosecond-leveldeviationbetweentheAndroid\nFullBiasNanos\nGNSSreceiverclockandrealGPStime\nDriftNanosPerSecond AndroidGNSSreceiverclockdrift\nLeapSecond Leapsecondassociatedwiththeclock’stime\nTable2.Importantvariablesandmeanings.\nFileds Description\nSvid",
+    "char_length": 1848
+  },
+  {
+    "quote_id": "qb_4b68333f52",
+    "span_index": 4,
+    "text": "Appl.Sci.2025,15,7169 5of19\nt = t −weekNumberNanos−14s [ns] (6)\nRxBDS RxGNSS\nt = t −DayNumberNanos+3h−leapsecond [ns] (7)\nRxGLO RxGNSS\nt = t −weekNumberNanos [ns] (8)\nRxGAL RxGNSS\nFullBiasNanos\nweekNumberNanos = floor(− )·(604800·109) [ns] (9)\n604800·109\nFullBiasNanos\nDayNumberNanos = floor(− )·(86400·109) [ns] (10)\n86400·109\nt = ReceiverSvTimesNanos [ns] (11)\nTx\nwhereweekNumberNanosisthetotalnumberofnanosecondsfromthestartofaGNSStime\ninthecurrentweek. Afterobtainingt andt ,thepseudo-rangevaluecanbeobtained.\nRx Tx\nDayNumberNanosisthetotalnumberofnanosecondsfromthestartofGNSStimeinthe\ncurrentda",
+    "char_length": 2088
+  },
+  {
+    "quote_id": "qb_006483b1b0",
+    "span_index": 5,
+    "text": "Appl.Sci.2025,15,7169 6of19\n2.3. Mixed-FrequencyPPPModel\nTheobservationfunctionsoftheGNSScarrierphaseandpseudo-rangeonasingle\nfrequencycanbedescribedby[32,33]\nP sys = ρ sys+cdt sys−cdt sys−d sys+d sys +ε sys (17)\ni i r s ion trop P,i\nΦsys = ρ sys+cdt sys−cdt sys+d sys+d sys +λ sys N sys+ξ sys (18)\ni i r s ion trop i i Φ,i\nwhereP sys andΦsys (= φ·λ)denotethepseudo-rangeandthecarrier-phaseobservations\ni i\nattheithfrequency(wheniissetto1,thisequationdenotestheobservationsatfrequencies\nL1/B1/G1/E1, and when i is set to 5, it denotes observations at frequencies L5/E5a);\nsys\nsuperscript sys is satel",
+    "char_length": 2600
+  },
+  {
+    "quote_id": "qb_f4ae42aa5d",
+    "span_index": 6,
+    "text": "Appl.Sci.2025,15,7169 7of19\ntroposphericdelay; I and I representcoefficientmatricesforambiguityparameters\namb1 amb5\nofL1,G1,B1,E1,andL5;I andI representcoefficientmatricesforionosphericdelays.\nion1 ion5\nThen, the sequential least square adjustment is used to estimate the parameters\nbyusing\nP = ATP A +P (22)\nXˆ k k k k Xˆ k−1\n(cid:16) (cid:17)−1(cid:16) (cid:17)\nXˆ k = A k TP k A k +P Xˆ k−1 A k TP k L k +P Xˆ k−1 Xˆ k−1 (23)\nwhereP isthepriorweightmatrixoftheobservations.\nk\n2.4. HybridWeightFunction\nThepositioningaccuracyofaPPPmodelisdeterminedbytheobservationmodeland\nweightfunctiontogether. B",
+    "char_length": 2805
+  },
+  {
+    "quote_id": "qb_cc59b2e959",
+    "span_index": 7,
+    "text": "Appl.Sci.2025,15,7169 8of19\nσ L 2 ,i = α·σ L 2·10 max(C/N0,M 1 A 0 X−C/N0,i,0) (29)\nwhere α isasatelliteelevationangle-dependentcoefficientthatcanbecalculatedusing\nEquation(30):\n\n 1, ele i ≥ ele set\nα =\n\n(cid:16)\n2− e e le le se i t − − e e le le m m in in\n(cid:17)2\n, ele min ≤ ele i < ele set\n(30)\nwhereele representstheelevationangleoftheithsatellite;ele istheminimumvalueof\ni min\nthesatelliteelevationangle;ele isavaluealittlehigherthantheminimumsatelliteeleva-\nset\ntionangle;αisafactorrelatedtolowersatelliteelevationangles;andthecorresponding\nvalueisbetween1and4.\nAccordingly, this hybrid we",
+    "char_length": 2168
+  },
+  {
+    "quote_id": "qb_de6de17af7",
+    "span_index": 8,
+    "text": "Appl.Sci.2025,15,7169 9of19\nPOS320 GNSS antenna\nXIAOMI8 PANDA Receiver\n(a) (b)\nFigure2. Equipment(MI8,PANDAGNSSreceiver,POS320,GNSSantenna,andMI8)(a)andthe\nsky-plotsofGPSandBDS(b)inthedynamicexperiment.\nThesecondtestwasadynamicexperiment,arrangedat10:20AMon30October2023,\nandthecorrespondingexperimentalequipmentandtrajectoryareshowninFigures2and3.\nInadditiontotheMI8andthetwoGNSSPANDAreceivers,ahigh-precisioninertialnavi-\ngationdevicenamedPOS320(NAVTIMES,Beijing,China)wasalsousedinthedynamic\nexperiment. Thereferenceresultsofthedynamicexperimentarecalculatedthroughthe\ntightlycoupledintegrationofR",
+    "char_length": 1539
+  },
+  {
+    "quote_id": "qb_a48ee0f315",
+    "span_index": 9,
+    "text": "Appl.Sci.2025,15,7169 10of19\nhigher than those of BDS satellites in the static experiment. Similarly, in the dynamic\nexperiment,theaverageC/N oftheGPSsatelliteisalsohigherthantheaverageC/N of\n0 0\ntheseBDSsatellites,withthecorrespondingvaluesof40.46dB-HzofGPSand34.27dB-Hz\nofBDS.\nFigure4.VariationinMI8’sC/N0forvisibleGPS/BDSsatellitesinthestaticexperiment(left)and\ndynamicexperiment(right).\nTable3.C/N0valuesofthesevisibleGPSL1andBDSB1satellitesintheMI8smartphone.\nStatic(dB-Hz) Dynamic(dB-Hz)\nMIN MAX AVG MIN MAX AVG\nGPS 9.55 47.76 36.50 24.97 47.38 40.46\nBDS 9.02 46.91 32.74 9.20 49.12 34.27\n3.2. ",
+    "char_length": 1740
+  },
+  {
+    "quote_id": "qb_f1708da6fb",
+    "span_index": 10,
+    "text": "Appl.Sci.2025,15,7169 11of19\nAs is known, the multipath error on a pseudo-range is larger than the measuring\nnoise. Therefore, the CMCR can be used to characterize multipath errors. Shown in\nFigures5and6arethestatisticsRMSvaluesofmultipatherrorsfortheseobservedGPS\nandBDSsatellitesinboththestaticanddynamicexperiments. Accordingly,inthestatic\nexperiment, the RMS values of multipath error for these observed satellites are within\n3.95m~10.71m,exceptG30,whichhasahigherRMSvalueof15.95m. Inthedynamic\nexperiment,theRMSvaluesofthemultipatherrorforGPSsatellitesaredistributedbetween\n1.95mand4.30m,whileth",
+    "char_length": 876
+  },
+  {
+    "quote_id": "qb_180ec92d2e",
+    "span_index": 11,
+    "text": "Appl.Sci.2025,15,7169 12of19\nTopresenttherelationshipbetweenthemultipatherror,satelliteelevationangle,and\nC/N ,thecorrespondingresultsofG22(GPS)andC35(BDS)inthestaticexperimentand\n0\nthatofG15(GPS)andC19(BDS)inthedynamicexperimentareshowninFigures7and8,\nrespectively,asexamples. Obviously,thereisananti-correlationbetweenthemultipath\nerrors and C/N values, and similar relations between multipath errors and elevation\n0\nanglescanalsobefound. However,thecorrelationofC/N andmultipatherrorismuch\n0\nstrongerthanthatofelevationangleandmultipatherror. Usually,lowerelevationscould\nleadtosmallerC/N valuesan",
+    "char_length": 1639
+  },
+  {
+    "quote_id": "qb_e242cab87e",
+    "span_index": 12,
+    "text": "Appl.Sci.2025,15,7169 13of19\nis between 1.0 and 1.4 in the static experiment, and that in the dynamic experiment is\nbetween1.2and1.6. AccordingtoFigure9,thePDOPvaluesfluctuatedfrequentlyduring\nthedynamicexperiment,whichisduetothefrequentre-trackingoftheGNSSsatellite.\nFigure9.NumberofvisibleGPS+BDSsatellitesandthecorrespondingPDOPforMI8inthestatic\nexperiment(above)andthedynamicexperiment(below).\n4. ResultsandDiscussion\nInthissection,theimpactsofpreciseorbit/clockproducts,hybridweightfunction,\nandthemixed-frequencymeasurementmodelonasmartphonePPParepresentedindetail.\n4.1. PerformanceofthePresent",
+    "char_length": 1976
+  },
+  {
+    "quote_id": "qb_9c4f6cef2b",
+    "span_index": 13,
+    "text": "Appl.Sci.2025,15,7169 14of19\nnorth,andverticaldirections,respectively. Incontrast,theGB-SF-Eleschemeprovidesthe\nworstpositioningaccuracyamongthesefiveschemes,evenworsethantheresultsofthe\nGPS-MF-Comscheme. ComparedtotheresultsoftheGB-SF-Elescheme,thepositioning\naccuracy of the GB-SF-Com scheme was improved from 1.88 m, 2.48 m, and 3.61 m to\n0.61m,0.69m,and0.83mintheeast,north,andverticalcomponents,respectively,with\nposition improvement percentages of 67.55%, 72.18%, and 77.01%. Such position im-\nprovement percentages are 20.69% and 15.31% in the north and vertical components,\ncomparedwiththeres",
+    "char_length": 1511
+  },
+  {
+    "quote_id": "qb_372e30392f",
+    "span_index": 14,
+    "text": "Appl.Sci.2025,15,7169 15of19\n4.2. PerformanceofthePresentedSmartphoneDynamicPPP\nInthissection,theresultsofthepresentedsmartphonePPPbasedontheBDSPPP-B2b\nproducts and IGS real-time products in the dynamic test are presented. The reference\nresults for this dynamic experiment are calculated by the tight RTK/INS integration.\nThedynamicsmartphone’sGPS+BDSdataareprocessedby(1)GPS-onlyPPPusingthe\nBDS PPP-B2b products based on the hybrid weight function and the mixed-frequency\nmeasurementsforL1andL5(GPS-PPP-b2b-MF-Com);(2)GPS+BDS-3PPPusingtheBDS\nPPP-B2bproductsbasedontheelevation-dependentweightfunctio",
+    "char_length": 2338
+  },
+  {
+    "quote_id": "qb_fd966fa6ea",
+    "span_index": 15,
+    "text": "Appl.Sci.2025,15,7169 16of19\nTable5.PositioningRMSofdynamicPPPaccuracyforMI8basedondifferentweightfunctions.\nPositioningModes East(m) North(m) Up(m)\nGPS-PPP-b2b-MF-Com 0.68 0.65 3.58\nGB-PPP-b2b-SF-Ele 2.76 3.06 5.21\nGB-PPP-b2b-SF-CN 0.78 0.98 3.87\n0\nGB-PPP-b2b-SF-Com 0.70 0.83 3.29\nGB-PPP-b2b-MF-Com 0.61 0.55 3.16\nGB-PPP-ULT-MF-Com 0.65 0.88 1.14\nGB-PPP-FIN-MF-Com 0.60 0.79 0.81\nSpecifically,comparedtotheresultsoftheGPS-PPP-b2b-MF-Comscheme,theposi-\ntioningaccuracyoftheGB-PPP-b2b-MF-Comschemeisimprovedfrom0.68m,0.65m,\nand3.58mto0.61m,0.55m,and3.16m,withthecorrespondingimprovementsof10.29%,\n15.",
+    "char_length": 3114
+  },
+  {
+    "quote_id": "qb_6712ac7be7",
+    "span_index": 16,
+    "text": "Appl.Sci.2025,15,7169 17of19\nproductsintothesmartphonepositioningsystemistoensurethepossibilityofsmartphones’\nreal-timehigh-accuracypositioninginChinaanditssurroundingareas. Thisisbecause\nthere is no communication limitation for the BDS PPP-B2b service, while the IGS real-\ntimeserviceislimitedbytheinternetnetworkconnections. Thehybridweight’sfunction\nis to overcome the impacts of both the C/N and satellite elevation angle-dependent\n0\nweightmodelsontheparameterestimationaccuracy. Accordingtothestaticanddynamic\nexperiments,weknowthatthepositioningaccuracyofasmartphoneinrealtimecanbe\nupgraded vis",
+    "char_length": 3666
+  },
+  {
+    "quote_id": "qb_9593f69765",
+    "span_index": 17,
+    "text": "Appl.Sci.2025,15,7169 18of19\nAcknowledgments:ManythankstotheIGScentersforprovidingpreciseorbit/clockproducts.The\nauthorsalsowouldliketothanktheanonymousreviewerswhogavevaluablesuggestionsthat\nhelpedtoimprovethequalityofthemanuscript.\nConflictsofInterest:Theauthorsdeclarenoconflictsofinterest.\nReferences\n1. Miao,W.;Li,B.;Gao,Y.TheSuperiorityofMulti-GNSSL5/E5a/B2aFrequencySignalsinSmartphones:Weightfunctioning,\nAmbiguityResolution,andRTKPositioning.IEEEInternetThingsJ.2022,10,7315–7326.[CrossRef]\n2. Wang,L.;Li,Z.;Wang,N.;Wang,Z.Real-timeGNSSprecisepointpositioningforlow-costsmartdevices.GPSSolut",
+    "char_length": 4327
+  },
+  {
+    "quote_id": "qb_3b7f6a9dbc",
+    "span_index": 18,
+    "text": "Appl.Sci.2025,15,7169 19of19\n25. Liu,C.;Gao,W.;Liu,T.;Wang,D.;Yao,Z.;Gao,Y.;Nie,X.;Wang,W.;Li,D.;Zhang,W.;etal.Designandimplementationofa\nBDSprecisepointpositioningservice.Navigation2020,67,875–891.[CrossRef]\n26. Nie,Z.;Xu,X.;Wang,Z.;Du,J.InitialassessmentofBDSPPP-B2bservice: Precisionoforbitandclockcorrections,andPPP\nperformance.RemoteSens.2021,13,2050.[CrossRef]\n27. Wu,M.;Wang,L.;Xie,W.;Yue,F.;Cui,B.PerformanceEvaluationandApplicationFieldAnalysisofPrecisePointPositioning\nBasedonDifferentReal-TimeAugmentationInformation.RemoteSens.2024,16,1349.[CrossRef]\n28. Zhao,L.;Zhai,W.AssessmentofPPPUsi",
+    "char_length": 2338
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "paper_id": "FD_s10291_025_01850_8",
+  "admission_status": "GROUNDED_ADMITTED",
+  "release": "FINAL_DRAIN",
+  "bibliographic_info": {
+    "title": "Real-time detection and identification of BDS-3 PPP-B2b signal-in-space anomalies in the user-side"
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2025) 29:97 https://doi.org/10.1007/s10291-025-01850-8 RESEARCH Real‑time detection and identification of BDS‑3 PPP‑B2b signal‑in‑space anomalies in the user‑side Zhixi Nie1 · Luyan Zhou1 · Yuanfan Zhang1 · Zhenjie Wang1 · Ying Xu2 Received: 20 September 2024 / Accepted: 23 March 2025 / Published online: 21 April 2025 © The Author(s), under exclusive licence to Spr",
+      "Obviously, the quality of PPP-B2b corrections plays an important role in the PPP performance."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "2023/11/28"
+  },
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not provided",
+      "B2b archive not distributed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 14,
+    "b2b": 260,
+    "has": 0,
+    "dcb": 0,
+    "clas": 1
+  },
+  "gate_status": {
+    "wrong_support": false
+  },
+  "scope_relevance": "CORE_RELEVANT"
+}

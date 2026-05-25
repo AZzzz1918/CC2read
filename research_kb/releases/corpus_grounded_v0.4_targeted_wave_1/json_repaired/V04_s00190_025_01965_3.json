@@ -1,0 +1,56 @@
+{
+  "paper_id": "V04_s00190_025_01965_3",
+  "extraction_mode": "full_strict_quotes",
+  "wave": 1,
+  "bibliographic_info": {
+    "title": "Single-station-augmented PPP-B2b considering the satellite-specific clock bias via short-message communication",
+    "year": 0
+  },
+  "product_source": {
+    "actual_product_source": "BDS3_PPP_B2B_BROADCAST",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  JournalofGeodesy(2025)99:42 https://doi.org/10.1007/s00190-025-01965-3 ORIGINAL ARTICLE Single-station-augmented PPP-B2b considering the satellite-specific clock bias via short-message communication Haijun Yuan1·Zhetao Zhang1 ·Xiufeng He1·Hao Wang1 Received:11September2024/Accepted:14April2025/Publishedonline:26May2025 ©Springer-VerlagGmbHGermany,partofSpringerNature2025 Abstract",
+      "In this paper, a single-station- augmented PPP-B2b considering the SCB via BDS-3 short-message communication (SMC) is proposed."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "DOY 152",
+    "end_date": "DOY251",
+    "grounding_quotes": [
+      "In this case, this approach etal.2021),aswellasusingBDS-3broadcastephemerides weakenstheobservationmodelstrengthandextremelyrelies consideringtheorientationerrors(Chenetal.2022).How- on the correctness of state model, which usually cannot be ever,intheRT-PPPusingbroadcastephemerides,excessive guaranteedinreal-timeapplications.Insummary,tofurther parameterizations of signal-in-space range error (SI"
+    ]
+  },
+  "dcb_handling": {
+    "status": "MENTIONED",
+    "dcb_mentions": 6,
+    "grounding_quotes": [
+      "SCB augmentation information, a new full-rank estimable Regarding the PPP-B2b service, the real-time satellite SCB-weighted model is proposed to enhance the PPP-B2b orbitandclock,anddifferentialcodebias(DCB)corrections positioning, which handles the SCB and guarantees the arepubliclybroadcastedtoAsia–PacificusersbytheB2bsig- observationmodelstrength."
+    ]
+  },
+  "ionospheric_handling": {
+    "iono_mentions": 5
+  },
+  "reproducibility_audit": {
+    "reproduction_blockers": [
+      "No code release",
+      "Data not publicly provided",
+      "B2b correction archive not distributed",
+      "Processing parameters not detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 17,
+    "b2b_mentions": 77,
+    "has_mentions": 0,
+    "clas_mentions": 1,
+    "dcb_mentions": 6
+  },
+  "gate_status": {
+    "wrong_support": false,
+    "epoch_valid": false
+  },
+  "category": "PPP_B2B_SHORT_MESSAGE",
+  "priority": "P0_ROUTE_CHANGING",
+  "expected_impact": "new_technical_route"
+}

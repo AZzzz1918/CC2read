@@ -1,0 +1,85 @@
+paper_id: s10291_025_01845_5
+extraction_mode: full_strict_quotes
+phase: batch_3_phase_b
+selection_role: core_ppp_b2b_reclassified
+bibliographic_info:
+  title: NOT_MENTIONED
+  authors: NOT_MENTIONED
+  year: 2025
+  journal_or_venue: NOT_MENTIONED
+product_source:
+  claimed: NOT_MENTIONED
+  actual_product_source: BDS3_PPP_B2B_BROADCAST
+  evidence_strength: STRONG
+  grounding_quotes:
+  - '<!-- PAGE: 1 -->  GPS Solutions (2025) 29:98 https://doi.org/10.1007/s10291-025-01845-5
+    RESEARCH A data‑driven PPP‑B2b satellite clock offset prediction method considering
+    the cross‑arc statistical similarity Junbo Shi1 · Chenhao Ouyang1 · Cheng Hou1
+    · Wenjie Peng1 · Jiming Guo1 · Yibin Yao1 Received: 18 June 2024 / Accepted: 16
+    March 2025 / Published online: 22 April 2025 © The Author(s), under e'
+  - However, due to limited distribu- tion of the regional tracking stations, the
+    BDS PPP-B2b satellite clock offsets represented by multiple arc segments are not
+    continuous and cannot meet the requirement of the traditional methods.
+  - To address this issue, this study proposes a novel PPP-B2b satellite clock offset
+    prediction method.
+experiment_epoch:
+  start_date: NOT_MENTIONED
+  end_date: NOT_MENTIONED
+  dates_found: []
+  doys_found: []
+  months_found:
+  - April 2025
+  - June 2024
+  - March 2025
+  grounding_quotes:
+  - 'In addition, PPP-B2b satellite Kiani Shahvandi M, Soja B (2022a) Small Geodetic
+    Datasets and Deep Networks: Attention-Based Residual LSTM Autoencoder clock offset
+    modeling by considering prediction uncertainty Stacking for Geodetic Time Series.'
+  - J Geodesy Shi J, Li X, Li L, Ouyang C, Xu C (2023) An efficient deep learn- 97(5):52
+    ing-based troposphere ZTD dataset generation method for mas- Guo J, Geng J, Zeng
+    J, Song X, Defraigne P (2024) GPS/Galileo/BDS sive GNSS CORS stations.
+correction_types:
+- type: orbit_correction
+- type: clock_correction
+dcb_handling:
+  status: NOT_MENTIONED
+  dcb_mentions: 0
+  grounding_quotes: []
+ionospheric_handling:
+  status: NOT_MENTIONED
+  iono_mentions: 0
+  grounding_quotes: []
+mathematical_model:
+  processing_mode: NOT_MENTIONED
+  grounding_quotes: []
+datasets:
+  grounding_quotes: []
+metrics:
+  grounding_quotes: []
+main_results:
+  grounding_quotes: []
+novelty_audit:
+  audit_grade: NOT_AUDITED
+  grounding_quotes: []
+reproducibility_audit:
+  reproducibility_score: 1
+  reproduction_blockers:
+  - No source code or software release
+  - Raw GNSS observation data not publicly provided
+  - PPP-B2b correction archive not distributed
+  - Specific processing parameters not fully detailed
+pdf_metadata:
+  pages: 19
+  b2b_mentions: 76
+  has_mentions: 0
+  clas_mentions: 2
+  dcb_mentions: 0
+  iono_mentions: 0
+gate_status:
+  product_source_correct: true
+  expected_product_source: BDS3_PPP_B2B_BROADCAST
+  wrong_support: false
+  epoch_valid: true
+  dcb_valid: true
+  blockers_non_empty: true
+  reclassification_note: core_ppp_b2b (reclassified from non_b2b based on 76 B2b mentions)

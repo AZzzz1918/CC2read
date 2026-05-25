@@ -1,0 +1,191 @@
+{
+  "version": "v0.3",
+  "nodes": [
+    {
+      "paper_id": "Borio_2023_ghasp_galileo_has_parser",
+      "year": 2023,
+      "ps": "CNES_OR_OTHER_RTS"
+    },
+    {
+      "paper_id": "Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA",
+      "year": 2024,
+      "ps": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "Euiho_Kim_2022_CLAS_PPP",
+      "year": 2022,
+      "ps": "QZSS_CLAS"
+    },
+    {
+      "paper_id": "Factor_Graph_PPP_B2b_INS",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "GKit_SSRDecoder_PPP_B2b_HAS",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic",
+      "year": 0,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Liu_Wei_BDS_GPS_RTK_PPP",
+      "year": 2020,
+      "ps": "CNES_OR_OTHER_RTS"
+    },
+    {
+      "paper_id": "Lu_2021_decoding_ppp_corrections_bds_b2b_sdr",
+      "year": 2021,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Nie_2021_initial_assessment_bds_ppp_b2b_service",
+      "year": 2021,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Oceanic_PWV_PPP_B2b_LowCost",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Pan_Lin_2025_BDS_B2b_HAS",
+      "year": 2025,
+      "ps": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+      "year": 0,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "RT_Kinematic_Orbit_LEO_B2b_HAS",
+      "year": 2024,
+      "ps": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "RT_ZTD_PPP_B2b_HAS_MADOCA",
+      "year": 2024,
+      "ps": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "Research_on_Quad-Frequency_PPP-B2b_Time_Transfer",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Single_Frequency_PPP_B2b_Time_Transfer",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+      "year": 0,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Taro_Suzuki_2023_qzss_clas_l6_evaluation",
+      "year": 2023,
+      "ps": "QZSS_CLAS"
+    },
+    {
+      "paper_id": "Wang_2024_ppp_b2b_coverage_ztd_positioning",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Wei_Haopeng_2024_combining_has_ppp_b2b_helmert",
+      "year": 2024,
+      "ps": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+      "year": 2022,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+      "year": 0,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+      "year": 0,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Zhou_2023_multifrequency_bds3_rt_ppp_b2b",
+      "year": 2023,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "Zhou_Peiyuan_2024_Galileo_HAS_Initial",
+      "year": 2024,
+      "ps": "CNES_OR_OTHER_RTS"
+    },
+    {
+      "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+      "year": 0,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "applsci_15_08033_v2",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "remotesensing_14_02769",
+      "year": 2022,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "remotesensing_15_00199",
+      "year": 2023,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "remotesensing_16_00833_v2",
+      "year": 2024,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "s10291_023_01455_z",
+      "year": 2023,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "s10291_023_01570_x",
+      "year": 2023,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "s10291_024_01730_7",
+      "year": 2024,
+      "ps": "MIXED_PRODUCTS"
+    },
+    {
+      "paper_id": "s10291_025_01845_5",
+      "year": 2025,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "s10291_025_01882_0",
+      "year": 2025,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "s43020_023_00097_3",
+      "year": 2023,
+      "ps": "BDS3_PPP_B2B_BROADCAST"
+    },
+    {
+      "paper_id": "s43020_024_00146_5",
+      "year": 2024,
+      "ps": "MIXED_PRODUCTS"
+    }
+  ],
+  "edges": []
+}

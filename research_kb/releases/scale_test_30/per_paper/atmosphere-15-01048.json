@@ -1,0 +1,12 @@
+{
+  "product_source": "BDS3_PPP_B2B_BROADCAST",
+  "paper_type": "ppp_b2b_service_perf",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper assesses the quality of BDS-3 PPP-B2b orbit, clock, and DCB products and applies them to precipitable water vapour determination.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "atmosphere-15-01048.pdf",
+  "paper_id": "atmosphere-15-01048",
+  "extraction_mode": "batch_classify_1call"
+}

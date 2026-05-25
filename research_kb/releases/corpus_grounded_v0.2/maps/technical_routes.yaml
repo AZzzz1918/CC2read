@@ -1,0 +1,36 @@
+version: v0.2
+routes:
+- route_name: ppp_b2b_service_performance
+  description: PPP-B2b correction quality and positioning performance evaluation
+  papers:
+  - Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+  - Nie_2021_initial_assessment_bds_ppp_b2b_service
+  - Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+  - Wang_2024_ppp_b2b_coverage_ztd_positioning
+  - Zhou_2023_multifrequency_bds3_rt_ppp_b2b
+- route_name: ppp_b2b_downstream_application
+  description: PPP-B2b applied to earthquake, water vapor, time transfer
+  papers:
+  - Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic
+  - Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo
+  - Research_on_Quad-Frequency_PPP-B2b_Time_Transfer
+- route_name: ppp_b2b_correction_generation
+  description: Orbit/clock/DCB correction generation for PPP-B2b
+  papers:
+  - Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat
+- route_name: ppp_b2b_toolbox_software
+  description: Software tools and receivers for PPP-B2b
+  papers:
+  - Zhao_Lewen_2025_python_toolbox_for_bds_b2b
+  - Lu_2021_decoding_ppp_corrections_bds_b2b_sdr
+- route_name: mixed_products_comparison
+  description: PPP-B2b compared with Galileo HAS, MADOCA-PPP
+  papers:
+  - Comparative_Broadcast_Frameworks_B2b_HAS_MADOCA
+  - RT_ZTD_PPP_B2b_HAS_MADOCA
+  - Wei_Haopeng_2024_combining_has_ppp_b2b_helmert
+- route_name: non_b2b_augmentation
+  description: Galileo HAS and QZSS CLAS — not PPP-B2b
+  papers:
+  - Borio_2023_ghasp_galileo_has_parser
+  - Taro_Suzuki_2023_qzss_clas_l6_evaluation

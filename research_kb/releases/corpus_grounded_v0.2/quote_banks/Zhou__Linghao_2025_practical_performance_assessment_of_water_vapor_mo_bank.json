@@ -1,0 +1,2150 @@
+[
+  {
+    "quote_id": "qb_ece2e215fa",
+    "span_index": 0,
+    "text": "Academic Editor: Nathan J.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_5dcbd98886",
+    "span_index": 1,
+    "text": "Moore\nReceived: 12 June 2025\nRevised: 14 July 2025\nAccepted: 17 July 2025\nPublished: 18 July 2025\nCitation: Zhou, L.; Zhang, E.; Liang,\nH.; Hu, Z.; Qu, M.; Li, X.; Cao, Y.",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_1ab53f1154",
+    "span_index": 2,
+    "text": "Practical Performance Assessment of\nWater Vapor Monitoring Using BDS\nPPP-B2b Service.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_e7f35a2e9b",
+    "span_index": 3,
+    "text": "2025, 15,\n8033.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_93a9f4f5f3",
+    "span_index": 4,
+    "text": "https://doi.org/10.3390/\napp15148033\nCopyright: © 2025 by the authors.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_ea66162294",
+    "span_index": 5,
+    "text": "Licensee MDPI, Basel, Switzerland.",
+    "char_length": 34
+  },
+  {
+    "quote_id": "qb_ab818cbd7c",
+    "span_index": 6,
+    "text": "This article is an open access article\ndistributed under the terms and\nconditions of the Creative Commons\nAttribution (CC BY) license\n(https://creativecommons.org/\nlicenses/by/4.0/).",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_642ea63b86",
+    "span_index": 7,
+    "text": "Communication\nPractical Performance Assessment of Water Vapor Monitoring\nUsing BDS PPP-B2b Service\nLinghao Zhou 1,2\n, Enhong Zhang 3, Hong Liang 1\n, Zuquan Hu 1,4, Meifang Qu 1,5, Xinxin Li 1,6\nand Yunchang Cao 1,*\n1\nMeteorological Observation Centre, China Meteorological Administration, Beijing 100081, China\n2\nSchool of Electronic Information Engineering, Beihang University, Beijing 100191, China\n3\nGuangdong Meteorological Data Centre, Guangzhou 510080, China\n4\nLaiBin Meteorological Agency of Guangxi Zhuang Autonomous Region, Laibin 546100, China\n5\nGuangxi Meteorological Observatory, Nanning 530022, China\n6\nGuangxi Meteorological Technology Equipment Center, Nanning 530022, China\n*\nCorrespondence: caoyc@cma.gov.cn\nAbstract\nBeiDou navigation satellite system (BDS) precise point positioning (PPP)-B2b has signif-\nicant potential for application in meteorological fields, such as standalone water vapor\nmonitoring in depopulated area without Internet.",
+    "char_length": 960
+  },
+  {
+    "quote_id": "qb_5c717a17a2",
+    "span_index": 8,
+    "text": "In this study, the practical ability of water\nvapor monitoring using the BDS PPP-B2b service is illustrated through a continuously\noperated water vapor monitoring system in Wuhan, China, with a 25-day experiment in\n2025.",
+    "char_length": 220
+  },
+  {
+    "quote_id": "qb_93a4921b0e",
+    "span_index": 9,
+    "text": "Original observations from the Global Positioning System (GPS) and BDS are col-\nlected and processed in the near real-time (NRT) mode using ephemeris from the PPP-B2b\nservice.",
+    "char_length": 175
+  },
+  {
+    "quote_id": "qb_50e1de2dd6",
+    "span_index": 10,
+    "text": "Precipitable water vapor PWV monitored with B2b ephemeris are evaluated with\nradiosonde and ERA5 reanalysis, respectively.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_4dba20d38e",
+    "span_index": 11,
+    "text": "Taking PWV from radiosonde observations\nas the reference, RMS of PWV based on B2b ephemeris varies from 3.71 to 4.66 mm for\ndifferent satellite combinations.",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_e73e7f447b",
+    "span_index": 12,
+    "text": "While those values are with a range from 3.95 to 4.55 mm\nwhen compared with ERA5 reanalysis.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_c4c5b49de7",
+    "span_index": 13,
+    "text": "These values are similar to those processed with\nthe real-time ephemeris from the China Academy of Science (CAS).",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_066a90412a",
+    "span_index": 14,
+    "text": "In general, this study\ndemonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-\nB2b service can meet the basic demand for operational meteorology for the first time.",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_2ef6196a6f",
+    "span_index": 15,
+    "text": "This\nwill provide a scientific reference for its wide promotion to meteorological applications in\nthe near future.",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_c336ae071d",
+    "span_index": 16,
+    "text": "Keywords: BeiDou navigation satellite system (BDS); zenith tropospheric delay (ZTD);\nprecipitable water vapor (PWV); precise point positioning (PPP)\n1.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_d0d3da2728",
+    "span_index": 17,
+    "text": "Introduction\nWater vapor is as an important meteorological parameter in the atmosphere and plays\na significant role in weather processes [1–3].",
+    "char_length": 143
+  },
+  {
+    "quote_id": "qb_dae299011d",
+    "span_index": 18,
+    "text": "The transport, convergence, and variation\ncharacteristics of water vapor are directly related to the intensity and distribution of precip-\nitation [4–6].",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_889ad9b247",
+    "span_index": 19,
+    "text": "With the continuous development of meteorological observation techniques,\nmany methods for water vapor retrieval are established, including radiosonde, microwave\nradiometer, spectrometer, and so on.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_920b3e1485",
+    "span_index": 20,
+    "text": "Among them, water vapor derived from the global\nnavigation satellite system (GNSS) has attracted widespread attention due to its good\naccuracy and working ability for all-weather conditions [7–9].",
+    "char_length": 196
+  },
+  {
+    "quote_id": "qb_b1571189a4",
+    "span_index": 21,
+    "text": "2025, 15, 8033\nhttps://doi.org/10.3390/app15148033",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_3f2be13ebb",
+    "span_index": 22,
+    "text": "2025, 15, 8033\n2 of 15\nTheoretically, GNSS signals will be affected by the atmosphere in the troposphere\nwhen transmitting from satellites to receivers, resulting in the zenith tropospheric delay\n(ZTD) [10].",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_e4b1207660",
+    "span_index": 23,
+    "text": "ZTD usually consists of the zenith hydrostatic delay (ZHD) caused by dry\natmosphere and the zenith wet delay (ZWD) caused by water vapor.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_f9db14e6d3",
+    "span_index": 24,
+    "text": "The principle of\nGNSS water vapor retrieval is to obtain the wet part and convert it to the precipitable\nwater vapor (PWV) with the help of related meteorological observations.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_8504f7fac7",
+    "span_index": 25,
+    "text": "This technique\nhas been developed since 1990s and continuously improved [11,12].",
+    "char_length": 80
+  },
+  {
+    "quote_id": "qb_3a0f86e27b",
+    "span_index": 26,
+    "text": "The accuracy of\nGNSS-PWV has been proved to be about 2 mm for post-processing mode compared with\nwater vapor from multiple techniques (e.g., [13–15]).",
+    "char_length": 150
+  },
+  {
+    "quote_id": "qb_5395773d20",
+    "span_index": 27,
+    "text": "At present, water vapor retrieved\nfrom the mainstream navigation systems (including the Global Positioning System (GPS),\nGalileo, BeiDou navigation satellite system (BDS), and GLONASS (Global Navigation\nSatellite System)) has greatly contributed to both meteorological operations and research\n(e.g., [16–20]).",
+    "char_length": 309
+  },
+  {
+    "quote_id": "qb_cfcf2506e1",
+    "span_index": 28,
+    "text": "To better meet the requirements of operational meteorology for the timeliness of water\nvapor monitoring, real-time (RT) or near real-time (NRT) GNSS water vapor retrieval have\nbeen proposed, which utilizes the real-time products from the Real-Time Service (RTS) of\nthe International GNSS Services (IGS).",
+    "char_length": 303
+  },
+  {
+    "quote_id": "qb_d6fb7eb7b0",
+    "span_index": 29,
+    "text": "The accuracy of PWV from RT/NRT data processing\nmode based on the precise point positioning (PPP) technique is slightly worse than that\nfrom post-processing mode.",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_ea9c00df31",
+    "span_index": 30,
+    "text": "In general, the accuracy of RT/NRT PWV estimated using\ndifferent satellite ephemeris is about 3 to 5 mm compared to the reanalysis products among\ndifferent regions around the globe [21–23].",
+    "char_length": 189
+  },
+  {
+    "quote_id": "qb_88d58bb71f",
+    "span_index": 31,
+    "text": "This can meet the general requirement of water\nvapor accuracy for meteorological applications [24,25].",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_7c4d834731",
+    "span_index": 32,
+    "text": "The real-time products from the IGS RTS are generally provided through the real-time\ndata streams via the Internet.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_694b6e84d1",
+    "span_index": 33,
+    "text": "This not only increases the instability and error of water\nvapor monitoring due to the network fluctuations but also raises the requirements of\nequipment for data processing.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_57a51834ef",
+    "span_index": 34,
+    "text": "In contrast, the corrections to orbit and clock offset of BDS\nPPP-B2b service are broadcasted by three BDS-3 Geostationary Earth Orbit (GEO) satellites\n(i.e., C59–C61) and can be received and decoded by receivers [26].",
+    "char_length": 218
+  },
+  {
+    "quote_id": "qb_ddcab9f5c1",
+    "span_index": 35,
+    "text": "This makes it possible\nto real-time GNSS water vapor monitor at a standalone station, which is not dependent\non the Internet, which can better compensate the sparse observation for depopulated\narea.",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_1839bbcfa7",
+    "span_index": 36,
+    "text": "Recently, some researchers have conducted water vapor retrieval using the PPP-\nB2b products (e.g., [27,28]).",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_b304a33793",
+    "span_index": 37,
+    "text": "Results show that the performance of PWV from the PPP-\nB2b service can achieve about 4 mm compared to reanalysis products [29,30], which is\ngenerally consistent with those from traditional IGS RTS products [31].",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_2c1dfcbe48",
+    "span_index": 38,
+    "text": "This manifests\nthe feasibility of further application of water vapor derived from the PPP-B2b service in\nmeteorological fields.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_0ea165014d",
+    "span_index": 39,
+    "text": "However, current studies about water vapor monitoring using the PPP-B2b service\nare generally conducted based on simulated real-time PPP mode (i.e., post-processing\nusing real-time products), while its practical performance remains unclear.",
+    "char_length": 240
+  },
+  {
+    "quote_id": "qb_5460c40a67",
+    "span_index": 40,
+    "text": "In operational\nmeteorology, water vapor monitoring should be conducted continuously and automatically\nwith experiment and testing in practical situation.",
+    "char_length": 153
+  },
+  {
+    "quote_id": "qb_d44d3c7bca",
+    "span_index": 41,
+    "text": "Therefore, current studies based on\nsimulated real-time processing cannot fully provide robust reference for assessing the\nperformance of the PPP-B2b service for water vapor monitoring.",
+    "char_length": 185
+  },
+  {
+    "quote_id": "qb_678d6fc727",
+    "span_index": 42,
+    "text": "In this regard, evaluating\nthe actual performance of water vapor monitoring based on the BDS-PPP B2b service is\nof vital importance before its wide promotion.",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_a3315c56cf",
+    "span_index": 43,
+    "text": "To achieve this purpose, a continuously\noperated water vapor monitoring system (here after called monitoring system), which\nconsist of a GNSS receiver and an Industrial Personal Computer (IPC), was established in\nWuhan, China.",
+    "char_length": 226
+  },
+  {
+    "quote_id": "qb_49f583e883",
+    "span_index": 44,
+    "text": "This monitoring system was operated same as other meteorological stations\nautomatically in practical situation.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_e7e528db9d",
+    "span_index": 45,
+    "text": "Based on observations of 25 days, PWV data retrieved\nin NRT mode were evaluated to veritably illustrate the ability of water vapor monitoring",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_9361906593",
+    "span_index": 46,
+    "text": "2025, 15, 8033\n3 of 15\nusing the PPP-B2b service.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_bfb3a807ce",
+    "span_index": 47,
+    "text": "The conclusion of this paper is expected to provide scientific\nreference for developing future water vapor observation platforms.",
+    "char_length": 129
+  },
+  {
+    "quote_id": "qb_4408409ea0",
+    "span_index": 48,
+    "text": "Data Description\nData utilized in this study includes three parts, i.e., the GNSS observations, GNSS\nsatellite ephemeris, and the ERA5 reanalysis.",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_7e19efe1a4",
+    "span_index": 49,
+    "text": "GNSS Observations\nThe original code and phase observations from the GPS and BDS satellites are collected\nby the antenna and receiver, which are parts of the monitoring system, as shown in Figure 1.",
+    "char_length": 197
+  },
+  {
+    "quote_id": "qb_f19717db40",
+    "span_index": 50,
+    "text": "To be specific, the Leica AR20 multi-GNSS antenna (Leica Geosystems AG, Heerbrugg,\nSwitzerland) is placed on the roof without being blocked by the surroundings, and the\nreceiver is the Hexagon FangZhou receiver (Hexagon Geosystems (Qingdao) Co., Ltd.,\nQingdao, China), which can decode signals from both GPS and BDS satellites.",
+    "char_length": 327
+  },
+  {
+    "quote_id": "qb_ee222ac378",
+    "span_index": 51,
+    "text": "The GNSS\nobservation will be transferred to the IPC, in which the raw data will be stored and\nprocessed through the NRT processing mode for water vapor monitoring.",
+    "char_length": 163
+  },
+  {
+    "quote_id": "qb_90b37e2495",
+    "span_index": 52,
+    "text": "(a) \n(b) \nFigure 1.",
+    "char_length": 19
+  },
+  {
+    "quote_id": "qb_600f05f346",
+    "span_index": 53,
+    "text": "The installation environment of the antenna (a) and Hexagon FangZhou receiver (b), which\nare part of the water vapor monitoring system.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_c9692cf8b6",
+    "span_index": 54,
+    "text": "GNSS Satellite Ephemeris\nSatellite ephemeris in this study include three products.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_e91e842762",
+    "span_index": 55,
+    "text": "First, orbit and clock offset\ncorrections provided by the BDS PPP-B2b service are directly captured and decoded by\nthe Hexagon FangZhou receiver in the State Space Representation (SSR) format.",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_fefb07f330",
+    "span_index": 56,
+    "text": "The B2b\nephemeris can be obtained with the combination of SSR and navigation message.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_80076adf71",
+    "span_index": 57,
+    "text": "Second,\nthe final multi-GNSS ephemeris from Wuhan University (WUM) are collected and applied\nfor the post-processing [32], which will serve as the reference for the following evaluation.",
+    "char_length": 186
+  },
+  {
+    "quote_id": "qb_ba3a323c4a",
+    "span_index": 58,
+    "text": "In addition, the real-time multi-GNSS ephemeris generated by the China Academy of\nScience (CAS) are also collected and applied for processing for comparison [33].",
+    "char_length": 162
+  },
+  {
+    "quote_id": "qb_d1038b1c84",
+    "span_index": 59,
+    "text": "Except for\nthe B2b ephemeris, satellite products from WUM and CAS can both be obtained from the\nIGS (https://igs.org/products/#about, accessed on 12 June 2025).",
+    "char_length": 160
+  },
+  {
+    "quote_id": "qb_31e5523f12",
+    "span_index": 60,
+    "text": "ERA5 Reanalysis\nThe fifth generation ECMWF reanalysis (ERA5) in pressure-level format is employed\nin this study.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_1ac5074145",
+    "span_index": 61,
+    "text": "It can provide meteorological variables for 37 specific pressure levels from\nthe earth’s surface to about 80 km [34].",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_e8af1d0410",
+    "span_index": 62,
+    "text": "The specific humidity of ERA5 reanalysis will\nbe integrated into PWV for water vapor accuracy assessment in this study.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_e9cab7a423",
+    "span_index": 63,
+    "text": "The detailed\nmethod for the integration process can be found in [35].",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_337a98dcc0",
+    "span_index": 64,
+    "text": "The ERA5 reanalysis can be\ndownloaded from the Climate Data Store (CDS) via https://cds.climate.copernicus.eu/\ndatasets/reanalysis-era5-pressure-levels?tab=overview (accessed on 12 June 2025).",
+    "char_length": 192
+  },
+  {
+    "quote_id": "qb_e559e0079b",
+    "span_index": 65,
+    "text": "> [4 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_68922df48a",
+    "span_index": 66,
+    "text": "2025, 15, 8033\n4 of 15\n3.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_36fb5ff2d7",
+    "span_index": 67,
+    "text": "Methodology\nThis section detailly describes the methods used for the evaluation experiments,\nincluding the GNSS data processing and the following performance evaluation process.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_e26d29b156",
+    "span_index": 68,
+    "text": "A\ngeneral flow chart of this experiment is presented in Figure 2 as follows.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_3a33d305cd",
+    "span_index": 69,
+    "text": "Flowchart of the experiment methodology.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_0cdc789c99",
+    "span_index": 70,
+    "text": "GNSS Data Processing\nTo achieve the monitoring of water vapor based on GNSS observations, the PPP tech-\nnique is applied for processing the original code and phase observations from GPS and\nBDS.",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_3874b4a495",
+    "span_index": 71,
+    "text": "There are two processing modes included in this study, i.e., the post-processing mode\nand NRT processing mode.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_d553a9529b",
+    "span_index": 72,
+    "text": "The post-processing mode is to conventionally process GNSS\nobservations with final satellite ephemeris (e.g., WUM) on a daily basis (24 h processing\nlength).",
+    "char_length": 157
+  },
+  {
+    "quote_id": "qb_2d51757a36",
+    "span_index": 73,
+    "text": "It is widely employed for generating ZTD products (e.g., [36]).",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_569945fa4b",
+    "span_index": 74,
+    "text": "The detailed\nstrategies for post-processing mode are given in Table 1.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_33c3e60fa9",
+    "span_index": 75,
+    "text": "The priori values for tropospheric\nparameters are obtained from the Saastamoinen model [37] and the Global Pressure and\nTemperature 3 (GPT3) [38].",
+    "char_length": 146
+  },
+  {
+    "quote_id": "qb_74cbdb9d42",
+    "span_index": 76,
+    "text": "The Vienna Mapping Function 3 (VMF3) is adopted for map-\nping the tropospheric delay from the zenith direction to the slant signal paths [38].",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_0e87e74b88",
+    "span_index": 77,
+    "text": "All\nobservations are processed with the interval of 30 s, and the tropospheric parameters are\nestimated every 3600 s.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_c0b83d5057",
+    "span_index": 78,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_83ee60a311",
+    "span_index": 79,
+    "text": "2025, 15, 8033\n5 of 15\nTable 1.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_394753b807",
+    "span_index": 80,
+    "text": "GNSS data processing strategies for the post-processing model and NRT processing mode.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_a7c9c4935b",
+    "span_index": 81,
+    "text": "Title 1\nPost-Processing Mode\nNRT Processing Mode\nData length for processing\n24 h\n6 h window\nProcessing interval\n30 s\n30 s\nSatellite ephemeris\nWUM\nWUM (for verification)\nCAS or B2b (for evaluation)\nEstimator\nLeast-squares (LSQ) + backward smoothing\nTropospheric priori model\nSaastamoinen + GPT3\nMapping function\nVMF3\nStochastic model for ZTD\nEstimated as piece-wise constant every 3600 s with random walk process\nbetween pieces (20 mm/sqrt(h))\nHorizontal tropospheric\ngradients\nEstimated as constant\nReceiver coordinates\nTightly constrained to double-differenced solutions\nReceiver clock offsets\nEstimated as white noise\nAmbiguity\nEstimated as arc-constant\nDifferent from the post-processing mode, the NRT processing mode only adopts 6 h\ndata for each processing to estimate ZTD for the final epoch.",
+    "char_length": 798
+  },
+  {
+    "quote_id": "qb_e8c5708e4c",
+    "span_index": 82,
+    "text": "The length of 6 h is selected due\nto the consideration for both ZTD and ambiguity convergence [39].",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_8f288e6292",
+    "span_index": 83,
+    "text": "The general schematic\ndiagram for the NRT processing mode is shown as Figure 3.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_e0e1f762eb",
+    "span_index": 84,
+    "text": "Apart from the data length,\nthe key difference between two modes is the satellite ephemeris.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_caa43e130c",
+    "span_index": 85,
+    "text": "The NRT mode applies\ntwo RT ephemeris (i.e., CAS and B2b) for data processing to achieve timeliness for water\nvapor monitoring.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_06e02c6721",
+    "span_index": 86,
+    "text": "The processing software is secondary developed on the basis of the\nGeodetic SpatioTemporal data Analysis and Research (GSTAR) software (v.1.0) developed\nby Beihang University [40].",
+    "char_length": 180
+  },
+  {
+    "quote_id": "qb_4823ada601",
+    "span_index": 87,
+    "text": "It is installed on the IPC of the monitoring system and will be\nlaunched every hour for water vapor monitoring.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_37fe5579e4",
+    "span_index": 88,
+    "text": "The general schematic diagram for the NRT processing mode.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_522377b6a3",
+    "span_index": 89,
+    "text": "PWV Conversion Based on Estimated ZTD\nTo achieve the water vapor monitoring based on GNSS technique, the conversion of\nPWV from the estimated ZTD will be conducted after GNSS data processing.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_016f594ad0",
+    "span_index": 90,
+    "text": "First, the\nZHD is calculated through the Saastamoinen model and the in-situ pressure observations\nfrom the monitoring system, as follows:\nZh =\n2.279 ± 0.0024\n1 −0.00266cos(2φ) −0.00028h × P\n(1)",
+    "char_length": 193
+  },
+  {
+    "quote_id": "qb_5851a9eedd",
+    "span_index": 91,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_02c3e6096f",
+    "span_index": 92,
+    "text": "2025, 15, 8033\n6 of 15\nwhere Zh represents the ZHD, φ and h are the latitude and height of GNSS antenna, and\nP is the pressure measurement in hPa unit.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_572c175b21",
+    "span_index": 93,
+    "text": "Afterwards, the ZWD can be obtained after\nremoving ZHD from the estimated ZTD.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_567f4d6884",
+    "span_index": 94,
+    "text": "Finally, PWV can be converted with ZWD (Zw)\nand the conversion factor as follows:\nWg = Π × Zw =\n106\nρwRV( k3\nTm + k′\n2)\n× Zw\n(2)\nwhere Wg represents PWV converted from ZWD (Zw) and the conversion factor (Π).",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_66b7dd2b56",
+    "span_index": 95,
+    "text": "ρw\nand RV are the density of liquid water and universal gas constant for wet air.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_4659c2dfeb",
+    "span_index": 96,
+    "text": "k′\n2 and k3\nrepresent coefficients of atmospheric refractivity.",
+    "char_length": 63
+  },
+  {
+    "quote_id": "qb_ea30dcf6b9",
+    "span_index": 97,
+    "text": "Tm is the weighted mean temperature,\nwhich can be calculated through the air temperature measurement and linear coefficient\nfrom Yao et al.",
+    "char_length": 139
+  },
+  {
+    "quote_id": "qb_fb20d0427b",
+    "span_index": 98,
+    "text": "Results and Discussion\nTo analyze the practical applicability of the BDS PPP-B2b service in water vapor\nmonitoring, ZTD and PWV retrieved from the monitoring system for a total of 25 days from\nday-of-year (DOY) 076 to 100 in 2025 are analyzed in this section.",
+    "char_length": 259
+  },
+  {
+    "quote_id": "qb_ac23e9bada",
+    "span_index": 99,
+    "text": "Firstly, the consistency of\nNRT processing mode and post-processing mode for ZTD estimation are firstly verified.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_72fb2e7877",
+    "span_index": 100,
+    "text": "Subsequently, to analyze the performance of the PPP-B2b service, ZTD estimated from\ntwo RT ephemeris (i.e., CAS and PPP-B2b) based on NRT processing mode are evaluated\nthrough comparison with post-processed ZTD.",
+    "char_length": 211
+  },
+  {
+    "quote_id": "qb_a895f51c86",
+    "span_index": 101,
+    "text": "Finally, the accuracy of PWV from the\nmonitoring system is assessed with that from ERA5 reanalysis to prove the feasibility of\nPPP-B2b service in water vapor monitoring.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_756d7b4bdb",
+    "span_index": 102,
+    "text": "Verification of Near Real-Time (NRT) Processing Mode Through Comparison with\nPost-Processing Mode\nThis subsection first verifies the effectiveness of the NRT processing mode adopted by\nthe monitoring system.",
+    "char_length": 207
+  },
+  {
+    "quote_id": "qb_8d38643b0c",
+    "span_index": 103,
+    "text": "To achieve the verification requirements, ZTD estimated from the\npost-processing mode using WUM final ephemeris products with GPS-only observations\nis adopted as the reference.",
+    "char_length": 176
+  },
+  {
+    "quote_id": "qb_92eab2ff23",
+    "span_index": 104,
+    "text": "Afterwards, the original GPS and BDS observations for a\ntotal of 25 days from DOY 076 to DOY 100 in 2025 are consistently processed via the\nPPP technique on a daily batch.",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_40a49473d3",
+    "span_index": 105,
+    "text": "The processing strategy are exhibited in Table 1.",
+    "char_length": 49
+  },
+  {
+    "quote_id": "qb_1b176332e0",
+    "span_index": 106,
+    "text": "Based\non the consistent strategies for parameter and input data (including GNSS observations\nand satellite ephemeris), ZTD time series in 1 h temporal resolution can be obtained for\nthe entire research period.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_d9284cf17b",
+    "span_index": 107,
+    "text": "This guarantees that the comparison between ZTD from NRT\nand post-processing mode are generally in accordance, despite the satellite utilization\nand processing mode.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_ebe9b16431",
+    "span_index": 108,
+    "text": "For satellite utilization, three combinations of satellite systems are\nselected, i.e., the GPS-only (G), BDS-only (C), and the combination of GPS and BDS (GC).",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_b2eb34b71c",
+    "span_index": 109,
+    "text": "The time series of ZTD estimated from different satellite combinations during the entire\nresearch period are shown in Figure 4.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_969f859aaa",
+    "span_index": 110,
+    "text": "In all subplots of Figure 4, the black lines represent\nthe referenced ZTD time series estimated using WUM final ephemeris in post-processing\nmode, while ZTD time series in NRT processing mode for G/C/GC combinations are\nillustrated in blue, red, and green, respectively.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_51ea82ef4d",
+    "span_index": 111,
+    "text": "It can be observed from the figures that\nno matter which satellite combination is adopted, ZTD estimated by the NRT processing\nmode can be well consistent with the results from the post-processing mode.",
+    "char_length": 202
+  },
+  {
+    "quote_id": "qb_a00bd4517c",
+    "span_index": 112,
+    "text": "However,\nthree time series of ZTD estimated from NRT processing mode are all less smooth than that\nfrom post-processing mode, exhibiting some distinguished outliers.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_402204e9ba",
+    "span_index": 113,
+    "text": "This may be attributed\nto the fact that the accuracy of RT ephemeris (i.e., CAS and B2b) is generally worse than\nthe final ephemeris for some epochs, which influences the accuracy of data processing [8].",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_55e8905267",
+    "span_index": 114,
+    "text": "Afterwards, two accuracy indicators, i.e., the bias and RMS of ZTD error, are utilized for",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_e08a6b3175",
+    "span_index": 115,
+    "text": "2025, 15, 8033\n7 of 15\nquantification.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_cd387b7b6c",
+    "span_index": 116,
+    "text": "It shows that the bias of ZTD using GPS-only observation is close to 0.01 mm,\nand the corresponding RMS is 6.91 mm.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_b33fe44cf4",
+    "span_index": 117,
+    "text": "The phenomenon that almost no bias exists is\npossibly attributed to the fact that the ZTD reference from the post-processing mode was\nalso estimated using the GPS-only observation, thus guaranteeing the consistency.",
+    "char_length": 215
+  },
+  {
+    "quote_id": "qb_16681d74a5",
+    "span_index": 118,
+    "text": "This also\npartly proves the consistency between the NRT processing mode and the post-processing\nmode.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_ef8354ac3f",
+    "span_index": 119,
+    "text": "In contrast, the estimation result of BDS-only manifests a relatively large bias with\nthe value of −3.39 mm, manifesting an evident bias between the processing results.",
+    "char_length": 168
+  },
+  {
+    "quote_id": "qb_6b72cf24d1",
+    "span_index": 120,
+    "text": "This\nmight be because of the poorly calibrated antenna-related error for the BDS satellites.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_12eb21dc2d",
+    "span_index": 121,
+    "text": "According to previous research (e.g., [42,43]), the authors have also discovered that the\nsignificant systemic biases exist for ZTD derived from BDS and GPS constellations.",
+    "char_length": 172
+  },
+  {
+    "quote_id": "qb_ed200e1040",
+    "span_index": 122,
+    "text": "They\nattributed this to the poorly calibrated PCO/PCV errors for BDS satellites, which in turn\ninfluences the performance of data processing, while for the GPS and BDS combination,\nthe bias of ZTD is closer to 0 than that of BDS-only result with the value of −2.15 mm.",
+    "char_length": 268
+  },
+  {
+    "quote_id": "qb_98083ed409",
+    "span_index": 123,
+    "text": "This\nshould be because the joint processing after introducing GPS observations can improve\nthe robustness and accuracy of parameter estimation [8].",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_2db640588c",
+    "span_index": 124,
+    "text": "ZTD RMS from the combined\nGPS and BDS is the smallest with the value of 6.88 mm, revealing a tiny improvement\nof about 0.03 mm.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_4d43401b53",
+    "span_index": 125,
+    "text": "This accuracy is basically consistent with previous studies [40].",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_8e113a6693",
+    "span_index": 126,
+    "text": "In\ngeneral, the NRT processing mode can obtain comparable ZTD estimation to those from\nthe post-processing mode.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_b9c6ac4f20",
+    "span_index": 127,
+    "text": "Therefore, the NRT mode implanted on the monitoring system\ncan be used for water vapor monitoring.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_b88ce031ce",
+    "span_index": 128,
+    "text": "Time series of ZTD estimated from NRT processing model using GPS-only ((a), blue), BDS-\nonly ((b), red), and GPS and BDS ((c), green) satellite combinations during the entire research period.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_6ee3cd6bc4",
+    "span_index": 129,
+    "text": "The black line in each subfigure represents reference ZTD estimated from post-processing mode.",
+    "char_length": 94
+  },
+  {
+    "quote_id": "qb_5da12b7903",
+    "span_index": 130,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_2d3b929cd3",
+    "span_index": 131,
+    "text": "2025, 15, 8033\n8 of 15\n4.2.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_8dac3c2db5",
+    "span_index": 132,
+    "text": "Performance Evaluation of NRT ZTD Estimation from PPP-B2b Service Through Comparison\nwith Post-Processing Mode\nSubsequently, the accuracy of ZTD estimated through the NRT processing mode from\nthe monitoring system is evaluated to analyze the performance of the PPP-B2b service.",
+    "char_length": 277
+  },
+  {
+    "quote_id": "qb_9a37ccd728",
+    "span_index": 133,
+    "text": "For the same observations, the real-time ephemeris provided by CAS through IGS RTS\nand that from the PPP-B2b service were, respectively, adopted in the monitoring system\nbased on the NRT processing mode.",
+    "char_length": 203
+  },
+  {
+    "quote_id": "qb_3bc8d099a5",
+    "span_index": 134,
+    "text": "Three satellite combinations including G/C/GC are\napplied for ZTD estimation.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_e4c69a03fc",
+    "span_index": 135,
+    "text": "Figure 5 presents the time series of NRT ZTD estimated using\ndifferent RT ephemeris (i.e., CAS and B2b) with different satellite combinations during\nthe research period.",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_08581159e8",
+    "span_index": 136,
+    "text": "Overall, ZTD results estimated from the CAS and B2b product are\nrelatively consistent with the reference values.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_5febc1088c",
+    "span_index": 137,
+    "text": "However, compared with the reference\nobtained by the post-processing mode, ZTD estimated using two RT ephemeris (CAS and\nB2b) has more significant fluctuations and some outlier.",
+    "char_length": 177
+  },
+  {
+    "quote_id": "qb_89d94f48e8",
+    "span_index": 138,
+    "text": "This feature is more obvious\nfor B2b results, which might be due to the relatively lower accuracy of B2b ephemeris\ncompared with CAS products [44].",
+    "char_length": 147
+  },
+  {
+    "quote_id": "qb_33e888f178",
+    "span_index": 139,
+    "text": "Time series of ZTD estimated from NRT processing model using GPS-only (blue), BDS-only\n(red), and GPS and BDS (green) satellite combinations based on CAS (a,c,e) and B2b ephemeris (b,d,f)\nduring the entire research period.",
+    "char_length": 222
+  },
+  {
+    "quote_id": "qb_3704e90d8b",
+    "span_index": 140,
+    "text": "The black line in each subfigure represents reference ZTD estimated\nfrom post-processing mode.",
+    "char_length": 94
+  },
+  {
+    "quote_id": "qb_25175e096d",
+    "span_index": 141,
+    "text": "The corresponding bias and RMS of ZTD error evaluated by ZTD from the post-\nprocessing mode are summarized in Figure 6, including the NRT processing results with\nWUM final ephemeris.",
+    "char_length": 182
+  },
+  {
+    "quote_id": "qb_1d3132aeed",
+    "span_index": 142,
+    "text": "Statistics results of accuracy indicators show that the bias of ZTD\nestimation for the CAS ephemeris with the satellite combination of GPS-only, BDS-only, and",
+    "char_length": 158
+  },
+  {
+    "quote_id": "qb_e12481498a",
+    "span_index": 143,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_b9ab390654",
+    "span_index": 144,
+    "text": "2025, 15, 8033\n9 of 15\nGPS and BDS combinations are 0.95, 6.98, and 1.71 mm, respectively, and the corresponding\nRMS are 14.18, 22.85, and 16.16 mm, respectively, while these values for B2b ephemeris are\n1.64, −6.54, 1.35 mm for bias, and 24.32, 23.34, 21.49 mm for RMS.",
+    "char_length": 270
+  },
+  {
+    "quote_id": "qb_792bd274b6",
+    "span_index": 145,
+    "text": "These numerical results\nare basically similar to previous studies [31], that is, ZTD accuracy based on PPP-B2b\nservice is approximately 20 mm.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_60103d8ba8",
+    "span_index": 146,
+    "text": "Although the performance of B2b is slightly worse than\nthat of CAS products, according to the theory of error propagation [45], the corresponding\nPWV accuracy can achieve around 4 mm with PPP-B2b service.",
+    "char_length": 204
+  },
+  {
+    "quote_id": "qb_458dc8ac2b",
+    "span_index": 147,
+    "text": "This can basically meet the\nrequirements of real-time water vapor monitoring for meteorological applications [24].",
+    "char_length": 114
+  },
+  {
+    "quote_id": "qb_775e4a50a4",
+    "span_index": 148,
+    "text": "The bias (a) and RMS (b) of ZTD estimation from NRT processing mode using different\nephemeris (WUM, CAS, and B2b) with different satellite combinations (G, C, and GC).",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_92678d3308",
+    "span_index": 149,
+    "text": "Performance Evaluation of NRT PWV Monitoring from PPP-B2b Service Through\nComparison with ERA5 Reanalysis\nFinally, the accuracy of PWV monitored through NRT processing mode from the\nmonitoring system are evaluated to verify the practical effectiveness of the PPP-B2b service\nfor water vapor monitoring.",
+    "char_length": 302
+  },
+  {
+    "quote_id": "qb_204f8633aa",
+    "span_index": 150,
+    "text": "PWV is converted using ZTD and in situ meteorological\nobservations from the monitoring system with the method described in Section 3.",
+    "char_length": 133
+  },
+  {
+    "quote_id": "qb_4b13460948",
+    "span_index": 151,
+    "text": "Different\nfrom ZTD, the assessment of PWV was conducted using that from the radiosonde observa-\ntions from the adjacent meteorological stations (with a horizontal distance of about 15 km)\nand ERA5 reanalysis products, which has been proven to be a valid external reference\nfor evaluating water vapor [35,46].",
+    "char_length": 308
+  },
+  {
+    "quote_id": "qb_8df4da2351",
+    "span_index": 152,
+    "text": "The radiosonde-derived PWV data for the research\nperiod can be directly retrieved from the GNSS meteorological ensemble tools (GMET) [35].",
+    "char_length": 138
+  },
+  {
+    "quote_id": "qb_d8ca40eaf2",
+    "span_index": 153,
+    "text": "Figure 7 exhibits the scatter plots of PWV retrieved from radiosonde observations (Radio-\nPWV) and monitored from two RT ephemeris (i.e., CAS and B2b) with different satellite\ncombinations during the research period.",
+    "char_length": 216
+  },
+  {
+    "quote_id": "qb_c99e4d05c7",
+    "span_index": 154,
+    "text": "It can be observed from Figure 7 that PWV from\nall combinations reveals consistency with the radiosonde observations.",
+    "char_length": 117
+  },
+  {
+    "quote_id": "qb_437713eede",
+    "span_index": 155,
+    "text": "The correlation\ncoefficients for all combinations are higher than 0.85.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_4a22974e97",
+    "span_index": 156,
+    "text": "For the accuracy indicators, results\nshow that the bias of PWV monitored based on the B2b ephemeris using the combination\nof G, C, and GC satellite combinations are −0.14, −2.21, and 0.14 mm, respectively, and the\ncorresponding RMS are 3.71, 4.66, and 3.73 mm, respectively, while those values for the\nresults from B2b ephemeris are 0.20, 1.82, and 0.42mm for bias, and 2.05, 4.31, and 2.41 mm\nfor RMS.",
+    "char_length": 402
+  },
+  {
+    "quote_id": "qb_5e4d76631c",
+    "span_index": 157,
+    "text": "Compared to the B2b results, PWV monitored with CAS ephemeris generally ex-\nhibit better accuracy with about 45%, 8%, and 35% for G, C, and GC satellite combinations.",
+    "char_length": 166
+  },
+  {
+    "quote_id": "qb_aed1531749",
+    "span_index": 158,
+    "text": "The obviously better accuracy for the G and GC combinations indicates that the quality\nof orbit and clock offset for GPS satellite from B2b services are generally lower than those",
+    "char_length": 179
+  },
+  {
+    "quote_id": "qb_8013f8b5d7",
+    "span_index": 159,
+    "text": "> [1 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_8934e8addc",
+    "span_index": 160,
+    "text": "2025, 15, 8033\n10 of 15\nfrom CAS ephemeris.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_be9268bc95",
+    "span_index": 161,
+    "text": "While the general tiny improvements for the BDS-only combinations\nreveals that the qualities for BDS satellites from two RT ephemeris are generally consistent.",
+    "char_length": 159
+  },
+  {
+    "quote_id": "qb_387659f6a3",
+    "span_index": 162,
+    "text": "Despite that the performance of water vapor monitored with B2b ephemeris being worse,\nthe accuracy is about 3 to 4 mm compared to radiosonde observations, which can be reliably\napplied for meteorological research and operations [46].",
+    "char_length": 233
+  },
+  {
+    "quote_id": "qb_4a1381203c",
+    "span_index": 163,
+    "text": "Scatter plots of PWV retrieved from radiosonde observations and monitored from NRT pro-\ncessing model using GPS-only (blue), BDS-only (red), and GPS and BDS (green) satellite combinations\nbased on CAS (a,c,e) and B2b ephemeris (b,d,f) during the entire research period.",
+    "char_length": 269
+  },
+  {
+    "quote_id": "qb_838b421e5b",
+    "span_index": 164,
+    "text": "Figure 8 exhibits the time series of PWV monitored through the NRT processing mode\nusing two RT ephemeris (i.e., CAS and B2b) with different satellite combinations during\nthe research period.",
+    "char_length": 191
+  },
+  {
+    "quote_id": "qb_defea0bf3a",
+    "span_index": 165,
+    "text": "For clearer illustration, the bias and RMS for PWV monitored with two\nRT ephemeris are summarized in Table 2.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_350f9b0383",
+    "span_index": 166,
+    "text": "In general, the variation in PWV in the temporal\nscale monitored by CAS and B2b products are generally consistent with the reference values\nfrom the ERA5 reanalysis products.",
+    "char_length": 174
+  },
+  {
+    "quote_id": "qb_8fe3075c5c",
+    "span_index": 167,
+    "text": "Correlating analysis indicates that the correlations\nbetween PWV monitored from different combinations all exhibit high value greater than\n0.95.",
+    "char_length": 144
+  },
+  {
+    "quote_id": "qb_9789086f91",
+    "span_index": 168,
+    "text": "In addition, PWV time series obtained by the NRT processing mode also has relatively\nobvious fluctuations and outliers, which is similar to the results of ZTD above.",
+    "char_length": 165
+  },
+  {
+    "quote_id": "qb_f6023bc0db",
+    "span_index": 169,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_a7f1b53306",
+    "span_index": 170,
+    "text": "2025, 15, 8033\n11 of 15\npotentially due to the fact that the stability and accuracy of the real-time product (CAS and\nB2b) are lower compared to the final product (WUM).",
+    "char_length": 169
+  },
+  {
+    "quote_id": "qb_c11506eea1",
+    "span_index": 171,
+    "text": "For accuracy statistical results, it\nshows that the bias of PWV monitored based on the CAS ephemeris using the combination\nof G, C, and GC satellite combinations are −0.34, −1.32, and −0.29 mm, respectively, and\nthe corresponding RMS are 2.94, 4.36, and 3.46 mm, respectively, while those values for the\nresults from B2b ephemeris are −0.23, 0.96, −0.29 mm for bias, and 4.55, 4.40, 3.95 mm for\nRMS.",
+    "char_length": 399
+  },
+  {
+    "quote_id": "qb_e1aec6404f",
+    "span_index": 172,
+    "text": "These values are generally about 1/6 of the ZTD error, which is consistent with the\ntheory of error propagation mentioned above.",
+    "char_length": 128
+  },
+  {
+    "quote_id": "qb_14356b5d06",
+    "span_index": 173,
+    "text": "Compared with B2b results, PWV monitored\nfrom CAS ephemeris exhibits better accuracy of about 35%, 1%, and 12% for G, C, and GC\nsatellite combinations.",
+    "char_length": 151
+  },
+  {
+    "quote_id": "qb_2755f514ad",
+    "span_index": 174,
+    "text": "Similarly to the results compared with radiosonde observations, the\nG and GC combinations reveals more obviously better accuracy, which might be due to\nthe lower quality of orbit and clock offset for the GPS satellite from B2b services, while\nthe general consistent accuracy for the BDS-only combinations (~1%) manifests the similar\nqualities for BDS satellites from two RT ephemeris.",
+    "char_length": 384
+  },
+  {
+    "quote_id": "qb_6d3d7fef80",
+    "span_index": 175,
+    "text": "Basically, these numerical results are\nconsistent with previous studies [29,30], that is, the accuracy that can be achieved by about\n4 mm using the PPP-B2b service.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_63241beba6",
+    "span_index": 176,
+    "text": "Time series of PWV monitored from NRT processing model using GPS-only (blue), BDS-\nonly (red), and GPS and BDS (green) satellite combinations based on CAS (a,c,e) and B2b ephemeris\n(b,d,f) during the entire research period.",
+    "char_length": 223
+  },
+  {
+    "quote_id": "qb_7c7dddac55",
+    "span_index": 177,
+    "text": "The black line in each subfigure represents reference PWV\nretrieved from the ERA5 reanalysis.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_455b137bd2",
+    "span_index": 178,
+    "text": "> [2 Figure(s)]",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_7f6bc4c501",
+    "span_index": 179,
+    "text": "2025, 15, 8033\n12 of 15\nTable 2.",
+    "char_length": 32
+  },
+  {
+    "quote_id": "qb_0a1ea346be",
+    "span_index": 180,
+    "text": "Statistical results of PWV accuracy monitored from NRT processing mode using CAS and\nB2b ephemeris with different satellite combinations.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_a95058b05a",
+    "span_index": 181,
+    "text": "Ephemeris\nSatellite Combinations\nBias (mm)\nRMS (mm)\nGPS-only (G)\n−0.34\n2.94\nCAS\nBDS-only (C)\n−1.32\n4.36\nGPS and BDS (GC)\n−0.29\n3.46\nGPS-only (G)\n−0.23\n4.55\nB2b\nBDS-only (C)\n0.96\n4.40\nGPS and BDS (GC)\n−0.29\n3.95\nIt should be noted that among the CAS results, PWV monitored with GPS-only\nobservation performs the best, followed by that from the GPS and BDS combination, and\nthe BDS-only performs the worst.",
+    "char_length": 404
+  },
+  {
+    "quote_id": "qb_cbc491a09d",
+    "span_index": 182,
+    "text": "In contrast, for the results of B2b, PWV monitored\nwith GPS-only performed the worst, followed by that of BDS-only, and the GPS and\nBDS combination performed the best.",
+    "char_length": 167
+  },
+  {
+    "quote_id": "qb_de6df1aa2a",
+    "span_index": 183,
+    "text": "This might be because that the production of the\nB2b ephemeris mainly relies on some domestic stations in China and about 30 global\nstations [44], which leads to the relatively low accuracy for GPS satellites.",
+    "char_length": 209
+  },
+  {
+    "quote_id": "qb_6c33b771e4",
+    "span_index": 184,
+    "text": "Therefore, the\naccuracy is relatively lower when using GPS-only observations for PWV monitoring based\non the B2b ephemeris.",
+    "char_length": 123
+  },
+  {
+    "quote_id": "qb_65b4d48fde",
+    "span_index": 185,
+    "text": "However, when the BDS satellites were introduced to form dual-\nsystem observations, the estimation of ZTD and the subsequent PWV monitoring were\nimproved, as is reported in previous research [8,39].",
+    "char_length": 198
+  },
+  {
+    "quote_id": "qb_0c1b1d7b68",
+    "span_index": 186,
+    "text": "Based on the above analysis, the water\nvapor monitoring based on the BDS PPP-B2b service can generally meet the demand for\nNRT monitoring, and it is expected to be promoted and contribute to the extreme weather\nforecasting in the near future.",
+    "char_length": 242
+  },
+  {
+    "quote_id": "qb_f2a1f3022f",
+    "span_index": 187,
+    "text": "Conclusions\nThe PPP-B2b service has significant potential for application in meteorological fields,\nsuch as standalone water vapor monitoring in depopulated areas without Internet.",
+    "char_length": 180
+  },
+  {
+    "quote_id": "qb_a84bc20073",
+    "span_index": 188,
+    "text": "While\nmost current studies are generally based on the simulated real-time PPP mode, analyzing its\npractical performance should be conducted.",
+    "char_length": 140
+  },
+  {
+    "quote_id": "qb_08ed4bfe10",
+    "span_index": 189,
+    "text": "For this purpose, a continuously operated wa-\nter vapor monitoring system using the PPP-B2b service was established in Wuhan, China.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_1960dc46e6",
+    "span_index": 190,
+    "text": "The effectiveness of the NRT processing mode adopted by the monitoring system\nis firstly verified through comparison of ZTD estimated from the post-processing mode.",
+    "char_length": 164
+  },
+  {
+    "quote_id": "qb_322241d83c",
+    "span_index": 191,
+    "text": "Subsequently, the accuracy of ZTD estimated through the NRT processing mode using\ntwo RT ephemeris is evaluated.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_035439bea0",
+    "span_index": 192,
+    "text": "Accuracy results show that the RMS of ZTD error for\nthe B2b ephemeris are 24.32, 23.34, 21.49 mm, respectively.",
+    "char_length": 111
+  },
+  {
+    "quote_id": "qb_a2f422defd",
+    "span_index": 193,
+    "text": "These values were generally\ncomparable with those from CAS ephemeris, which can basically meet the requirements\nfor the following conversion to water vapor.",
+    "char_length": 156
+  },
+  {
+    "quote_id": "qb_f16da25ea6",
+    "span_index": 194,
+    "text": "Finally, the accuracy of PWV monitored through the NRT processing mode are evalu-\nated to verify the practical performance of PPP-B2b service.",
+    "char_length": 142
+  },
+  {
+    "quote_id": "qb_03c68a897b",
+    "span_index": 195,
+    "text": "Taking PWV from radiosonde\nobservations as the reference, RMS of PWV based on B2b ephemeris are 3.71, 4.66, and\n3.73 mm for G, C, and GC combinations, respectively, while those values are 4.55, 4.40,\n3.95 mm for G, C, and GC combinations, respectively.",
+    "char_length": 252
+  },
+  {
+    "quote_id": "qb_ae9a25da24",
+    "span_index": 196,
+    "text": "These accuracies are generally\ncomparable with those from CAS ephemeris and can generally meet the demand for NRT\nwater vapor monitoring.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_cdcdbd0b54",
+    "span_index": 197,
+    "text": "To sum up, water vapor monitoring based on the BDS PPP-B2b\nservice is feasible to be promoted to operational meteorology.",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_edea042b44",
+    "span_index": 198,
+    "text": "Future work lies in two directions.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_8e6401fe08",
+    "span_index": 199,
+    "text": "First, the assessment in the presented study\ngenerally adopts GPS estimation as the reference, while further analysis with more satellite\nsystems (e.g., GLONASS and Galileo) can provide a more comprehensive perspective\non the performance of water vapor monitoring using BDS PPP-B2b service.",
+    "char_length": 290
+  },
+  {
+    "quote_id": "qb_2f954a7e04",
+    "span_index": 200,
+    "text": "2025, 15, 8033\n13 of 15\nstudy only contains results of 25 days in a single place, while a further evaluation with a\nlonger time span and more stations should be conducted.",
+    "char_length": 171
+  },
+  {
+    "quote_id": "qb_8fde8a97c0",
+    "span_index": 201,
+    "text": "The characteristics of accuracy in\ndifferent seasons (including rainy and non-rainy periods) and areas can be explored.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_00da173525",
+    "span_index": 202,
+    "text": "This\nwill provide a more robust reference for its promotion in the near future.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_97b8376367",
+    "span_index": 203,
+    "text": "Author Contributions: Conceptualization, Y.C.; methodology, Y.C.",
+    "char_length": 64
+  },
+  {
+    "quote_id": "qb_d7187d43ac",
+    "span_index": 204,
+    "text": "and L.Z.; software, L.Z.",
+    "char_length": 24
+  },
+  {
+    "quote_id": "qb_edc2134375",
+    "span_index": 205,
+    "text": "validation,\nL.Z.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_6f65e8a9d3",
+    "span_index": 206,
+    "text": "and Y.C.; formal analysis, L.Z.; investigation, Y.C.; resources, Y.C.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_8467a38aeb",
+    "span_index": 207,
+    "text": "and H.L.; data curation, L.Z.,\nE.Z., Z.H.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_63d365010f",
+    "span_index": 208,
+    "text": "and Y.C.; writing—original draft preparation, L.Z.; writing—review and editing, Y.C.",
+    "char_length": 84
+  },
+  {
+    "quote_id": "qb_fd39a2af75",
+    "span_index": 209,
+    "text": "and\nH.L.; visualization, L.Z., X.L.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_3216af23a2",
+    "span_index": 210,
+    "text": "and M.Q.; supervision, Y.C.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_3d9fb65fac",
+    "span_index": 211,
+    "text": "and H.L.; project administration, Y.C.",
+    "char_length": 38
+  },
+  {
+    "quote_id": "qb_6b53aa1141",
+    "span_index": 212,
+    "text": "and\nH.L.; funding acquisition, Y.C.",
+    "char_length": 35
+  },
+  {
+    "quote_id": "qb_5e555d20a9",
+    "span_index": 213,
+    "text": "All authors have read and agreed to the published version of\nthe manuscript.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_0cfbc90094",
+    "span_index": 214,
+    "text": "Funding: This research was funded by the National Natural Science Foundation of China (Grant\nNo.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_5c6522d5e6",
+    "span_index": 215,
+    "text": "U2442214), the Observational Experiment Project of Meteorological Observation Center of China\nMeteorological Administration (Grant No.",
+    "char_length": 134
+  },
+  {
+    "quote_id": "qb_3f9e9ba9ee",
+    "span_index": 216,
+    "text": "GCSYJH24-21, GCSYJH24-02), and the Innovation and\ndevelopment project of China Meteorological Administration (Grant No.",
+    "char_length": 119
+  },
+  {
+    "quote_id": "qb_5847c3af76",
+    "span_index": 217,
+    "text": "Institutional Review Board Statement: Not applicable.",
+    "char_length": 53
+  },
+  {
+    "quote_id": "qb_018514aeb4",
+    "span_index": 218,
+    "text": "Informed Consent Statement: Not applicable.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_d4078f490f",
+    "span_index": 219,
+    "text": "Data Availability Statement: All data that support the findings of this study are included within the\narticle.",
+    "char_length": 110
+  },
+  {
+    "quote_id": "qb_1c5933a33c",
+    "span_index": 220,
+    "text": "Acknowledgments: The authors are grateful to the ECMWF for providing the ERA5 reanalysis\nproducts.",
+    "char_length": 98
+  },
+  {
+    "quote_id": "qb_d39bfd61eb",
+    "span_index": 221,
+    "text": "Conflicts of Interest: The authors declare no conflicts of interest.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_3b4147be3f",
+    "span_index": 222,
+    "text": "Abbreviations\nThe following abbreviations are used in this manuscript:\nBDS\nBeiDou navigation satellite system\nCAS\nChina Academy of Science\nCDS\nClimate Data Store\nDOY\nDay-of-Year\nECMWF\nEuropean Centre for Medium-Range Weather Forecasts\nERA5\nThe Fifth Generation ECMWF Reanalysis\nGEO\nGeostationary Earth Orbit\nGLONASS\nGLObal NAvigation Satellite System\nGNSS\nGlobal Navigation Satellite System\nGPS\nGlobal Positioning System\nIGS\nInternational GNSS Services\nIPC\nIndustrial Personal Computer\nNRT\nNear Real-time\nPPP\nPrecise Point Positioning\nPWV\nPrecipitable Water Vapor\nRT\nReal-time\nRTS\nReal-Time Service\nZHD\nZenith Hydrostatic Delay\nZTD\nZenith Tropospheric Delay\nZWD\nZenith Wet Delay\nReferences\n1.",
+    "char_length": 692
+  },
+  {
+    "quote_id": "qb_64c5bd9089",
+    "span_index": 223,
+    "text": "Trenberth, K.E.; Christy, J.R.; Olson, J.G.",
+    "char_length": 43
+  },
+  {
+    "quote_id": "qb_fb7a9b2112",
+    "span_index": 224,
+    "text": "Global atmospheric mass, surface pressure, and water vapor variations.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_b54316939f",
+    "span_index": 225,
+    "text": "1987, 92, 14815–14826.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_0a3d54cd28",
+    "span_index": 226,
+    "text": "2025, 15, 8033\n14 of 15\n2.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_3e539e0f22",
+    "span_index": 227,
+    "text": "Sherwood, S.C.; Roca, R.; Weckwerth, T.M.; Andronova, N.G.",
+    "char_length": 58
+  },
+  {
+    "quote_id": "qb_7c436e3a98",
+    "span_index": 228,
+    "text": "Tropospheric water vapor, convection, and climate.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_47e2ad66c5",
+    "span_index": 229,
+    "text": "2010, 48, Rg2001.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_27d2ddc254",
+    "span_index": 230,
+    "text": "Zhou, L.H.; Cao, Y.C.; Shi, C.; Liang, H.; Fan, L.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_d0c259deaf",
+    "span_index": 231,
+    "text": "Quantifying the Atmospheric Water Balance Closure over Mainland China Using\nGround-Based, Satellite, and Reanalysis Datasets.",
+    "char_length": 125
+  },
+  {
+    "quote_id": "qb_e3f9aa6e30",
+    "span_index": 232,
+    "text": "Atmosphere 2024, 15, 497.",
+    "char_length": 25
+  },
+  {
+    "quote_id": "qb_40675c9e34",
+    "span_index": 233,
+    "text": "Neelin, J.D.; Martinez-Villalobos, C.; Stechmann, S.N.; Ahmed, F.; Chen, G.; Norris, J.M.; Kuo, Y.H.; Lenderink, G.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_9f148fb6b7",
+    "span_index": 234,
+    "text": "Precipitation\nExtremes and Water Vapor Relationships in Current Climate and Implications for Climate Change.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_11ca2c7074",
+    "span_index": 235,
+    "text": "2022,\n8, 17–33.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_1b66a3708f",
+    "span_index": 236,
+    "text": "Chen, X.L.; Xu, X.D.; Ma, Y.M.; Wang, G.L.; Chen, D.L.; Cao, D.B.; Xu, X.; Zhang, Q.; Li, L.H.; Liu, Y.J.; et al.",
+    "char_length": 113
+  },
+  {
+    "quote_id": "qb_28b1ede397",
+    "span_index": 237,
+    "text": "Investigation of\nPrecipitation Process in the Water Vapor Channel of the Yarlung Zsangbo Grand Canyon.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_ba8c53b9f3",
+    "span_index": 238,
+    "text": "2024, 105,\ne370–e386.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_19d4fdeff6",
+    "span_index": 239,
+    "text": "Liu, Y.; Yan, X.; Yao, Y.B.; Zhang, B.; Zhao, Q.Z.; Wang, X.Q.; E, S.L.; Zhang, L.",
+    "char_length": 82
+  },
+  {
+    "quote_id": "qb_a1ad174c30",
+    "span_index": 240,
+    "text": "Revealing the synergistic contribution of PWV and\nCAPE to extreme precipitation throughout China.",
+    "char_length": 97
+  },
+  {
+    "quote_id": "qb_fca1441c4e",
+    "span_index": 241,
+    "text": "2025, 75, 2739–2752.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_7d95ef57e1",
+    "span_index": 242,
+    "text": "Emardson, T.R.; Johansson, J.M.",
+    "char_length": 31
+  },
+  {
+    "quote_id": "qb_94a1d4f4d5",
+    "span_index": 243,
+    "text": "Spatial interpolation of the atmospheric water vapor content between sites in a ground-based\nGPS network.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_d543555c81",
+    "span_index": 244,
+    "text": "1998, 25, 3347–3350.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_48f6a3c841",
+    "span_index": 245,
+    "text": "Lu, C.X.; Chen, X.H.; Liu, G.; Dick, G.; Wickert, J.; Jiang, X.Y.; Zheng, K.; Schuh, H.",
+    "char_length": 87
+  },
+  {
+    "quote_id": "qb_514579c0ac",
+    "span_index": 246,
+    "text": "Real-Time Tropospheric Delays Retrieved from\nMulti-GNSS Observations and IGS Real-Time Product Streams.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_c78707436d",
+    "span_index": 247,
+    "text": "Zhou, L.H.; Fan, L.; Shi, C.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_a8af24b11f",
+    "span_index": 248,
+    "text": "Evaluation and Analysis of Remotely Sensed Water Vapor from the NASA VIIRS/SNPP Product in\nMainland China Using GPS Data.",
+    "char_length": 121
+  },
+  {
+    "quote_id": "qb_a3696a08bd",
+    "span_index": 249,
+    "text": "2023, 15, 1528.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_66be681daa",
+    "span_index": 250,
+    "text": "Ning, T.; Wang, J.; Elgered, G.; Dick, G.; Wickert, J.; Bradke, M.; Sommer, M.; Querel, R.; Smale, D.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_28a404c45b",
+    "span_index": 251,
+    "text": "The uncertainty of the\natmospheric integrated water vapour estimated from GNSS observations.",
+    "char_length": 92
+  },
+  {
+    "quote_id": "qb_ad2124397f",
+    "span_index": 252,
+    "text": "2016, 9, 79–92.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_7d0136dd9a",
+    "span_index": 253,
+    "text": "Bevis, M.; Businger, S.; Herring, T.A.; Rocken, C.; Anthes, R.A.; Ware, R.H.",
+    "char_length": 76
+  },
+  {
+    "quote_id": "qb_a695bde9a0",
+    "span_index": 254,
+    "text": "GPS meteorology: Remote sensing of atmospheric\nwater vapor using the global positioning system.",
+    "char_length": 95
+  },
+  {
+    "quote_id": "qb_d4d3e4677e",
+    "span_index": 255,
+    "text": "1992, 97, 15787–15801.",
+    "char_length": 22
+  },
+  {
+    "quote_id": "qb_16e99207fb",
+    "span_index": 256,
+    "text": "Maciejewska, A.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_6d1988abb3",
+    "span_index": 257,
+    "text": "Use of Tropospheric Delay in GNSS-Based Climate Monitoring-A Review.",
+    "char_length": 68
+  },
+  {
+    "quote_id": "qb_5b1df0362c",
+    "span_index": 258,
+    "text": "2025, 17, 1501.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_4913947b39",
+    "span_index": 259,
+    "text": "Bevis, M.; Businger, S.; Chiswell, S.; Herring, T.A.; Anthes, R.A.; Rocken, C.; Ware, R.H.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_2a7482323a",
+    "span_index": 260,
+    "text": "GPS meteorology: Mapping zenith wet\ndelays onto precipitable water.",
+    "char_length": 67
+  },
+  {
+    "quote_id": "qb_78e379e4da",
+    "span_index": 261,
+    "text": "1994, 33, 379–386.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_c665af34fb",
+    "span_index": 262,
+    "text": "Zhang, W.X.; Lou, Y.D.; Cao, Y.C.; Liang, H.; Shi, C.; Huang, J.F.; Liu, W.X.; Zhang, Y.; Fan, B.B.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_c3e7d40def",
+    "span_index": 263,
+    "text": "Corrections of Radiosonde-Based\nPrecipitable Water Using Ground-Based GPS and Applications on Historical Radiosonde Data Over China.",
+    "char_length": 132
+  },
+  {
+    "quote_id": "qb_2ee2e74048",
+    "span_index": 264,
+    "text": "2019, 124, 3208–3222.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_b339fb4fbe",
+    "span_index": 265,
+    "text": "Zhou, L.H.; Fan, L.; Shi, C.; Liang, H.; Cao, Y.C.",
+    "char_length": 50
+  },
+  {
+    "quote_id": "qb_9faa4a1c5d",
+    "span_index": 266,
+    "text": "Comprehensive analysis of zenith tropospheric delay and precipitable water\nvapor retrieved from BDS-3 B1C and B2a signals.",
+    "char_length": 122
+  },
+  {
+    "quote_id": "qb_7ff9913802",
+    "span_index": 267,
+    "text": "Measurement 2025, 242, 116079.",
+    "char_length": 30
+  },
+  {
+    "quote_id": "qb_16777d5e67",
+    "span_index": 268,
+    "text": "Wang, M.H.; Wang, J.X.; Bock, Y.; Liang, H.; Dong, D.A.; Fang, P.",
+    "char_length": 65
+  },
+  {
+    "quote_id": "qb_2591173d74",
+    "span_index": 269,
+    "text": "Dynamic Mapping of the Movement of Landfalling Atmospheric\nRivers Over Southern California With GPS Data.",
+    "char_length": 105
+  },
+  {
+    "quote_id": "qb_a00a8b5a22",
+    "span_index": 270,
+    "text": "2019, 46, 3551–3559.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_97a9c8c1d7",
+    "span_index": 271,
+    "text": "Zhou, L.H.; Fan, L.; Zhang, W.X.; Shi, C.",
+    "char_length": 41
+  },
+  {
+    "quote_id": "qb_5ff2c24f0b",
+    "span_index": 272,
+    "text": "Long-term correlation analysis between monthly precipitable water vapor and\nprecipitation using GPS data over China.",
+    "char_length": 116
+  },
+  {
+    "quote_id": "qb_0657fbf3ca",
+    "span_index": 273,
+    "text": "2022, 70, 56–69.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_364583d026",
+    "span_index": 274,
+    "text": "Wu, Z.L.; Lu, C.X.; Liu, Y.; Lin, H.; Zheng, Y.X.; Wei, Q.; Liu, Y.X.",
+    "char_length": 69
+  },
+  {
+    "quote_id": "qb_1a2baf193a",
+    "span_index": 275,
+    "text": "Global statistical assessment of Haiyang-2B scanning microwave\nradiometer precipitable water vapor.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_0411961f26",
+    "span_index": 276,
+    "text": "2023, 11, 1084285.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_423cd38b95",
+    "span_index": 277,
+    "text": "Wang, H.S.; Liu, Y.B.; Liu, Y.W.; Cao, Y.C.; Liang, H.; Hu, H.; Liang, J.S.; Tu, M.H.",
+    "char_length": 85
+  },
+  {
+    "quote_id": "qb_ef37e7551e",
+    "span_index": 278,
+    "text": "Assimilation of GNSS PWV with NCAR-RTFDDA\nto Improve Prediction of a Landfall Typhoon.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_67176f98e8",
+    "span_index": 279,
+    "text": "Liu, Y.; Zhang, B.; Yao, Y.B.; Zhao, Q.Z.; Xu, C.Q.; Yan, X.; Zhang, L.",
+    "char_length": 71
+  },
+  {
+    "quote_id": "qb_00905c6801",
+    "span_index": 280,
+    "text": "Revealing the spatiotemporal patterns of water vapor and its\nlink to North Atlantic Oscillation over Greenland using GPS and ERA5 data.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_abf65df2ae",
+    "span_index": 281,
+    "text": "2024, 918, 170596.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_17170aeb05",
+    "span_index": 282,
+    "text": "[CrossRef]\n[PubMed]\n21.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_6bf684d7b3",
+    "span_index": 283,
+    "text": "Li, L.J.; Wu, S.Q.; Zhang, K.F.; Wang, X.M.; Li, W.; Shen, Z.; Zhu, D.T.; He, Q.M.; Wan, M.F.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_0337e6cee6",
+    "span_index": 284,
+    "text": "A new zenith hydrostatic delay model\nfor real-time retrievals of GNSS-PWV.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_9b3c349a52",
+    "span_index": 285,
+    "text": "2021, 14, 6379–6394.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_ac77435d5a",
+    "span_index": 286,
+    "text": "Li, H.J.; Li, X.M.; Kang, Q.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_3f27a30fba",
+    "span_index": 287,
+    "text": "Handling Method for Outages of IGS Real-Time Service (RTS) in GNSS Real-Time Sensing of\nAtmospheric Water Vapor.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_fb41df5a69",
+    "span_index": 288,
+    "text": "2023, 16, 8310–8318.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_13cb9cd9bb",
+    "span_index": 289,
+    "text": "Paz, J.M.A.; Mendoza, L.P.O.; Fernández, L.I.",
+    "char_length": 45
+  },
+  {
+    "quote_id": "qb_72b8f39dbf",
+    "span_index": 290,
+    "text": "Near-real-time GNSS tropospheric IWV monitoring system for South America.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_6e6ca6bbae",
+    "span_index": 291,
+    "text": "Wang, H.; He, J.X.; Wei, M.; Zhang, Z.D.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_4b0657ebed",
+    "span_index": 292,
+    "text": "Synthesis Analysis of One Severe Convection Precipitation Event in Jiangsu Using\nGround-Based GPS Technology.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_fc23254082",
+    "span_index": 293,
+    "text": "Atmosphere 2015, 6, 908–927.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_f327059ecc",
+    "span_index": 294,
+    "text": "Du, M.B.; Cao, Y.C.; Liang, H.; Hu, H.; Wang, H.S.; Song, S.L.; Jiao, G.Q.",
+    "char_length": 74
+  },
+  {
+    "quote_id": "qb_f1768b796a",
+    "span_index": 295,
+    "text": "Construction of a meteorological application system\nbased on BDS ground-based augmentation network and water vapor products validation.",
+    "char_length": 135
+  },
+  {
+    "quote_id": "qb_fafe4b7436",
+    "span_index": 296,
+    "text": "Yang, Y.X.; Ding, Q.; Gao, W.G.; Li, J.L.; Xu, Y.Y.; Sun, B.J.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_29cd1cc8a6",
+    "span_index": 297,
+    "text": "Principle and performance of BDSBAS and PPP-B2b of BDS-3.",
+    "char_length": 57
+  },
+  {
+    "quote_id": "qb_77c6581459",
+    "span_index": 298,
+    "text": "Yang, H.; He, X.F.; Ferreira, V.; Ji, S.Y.; Xu, Y.; Song, S.S.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_bd2d36c9c9",
+    "span_index": 299,
+    "text": "Assessment of precipitable water vapor retrieved from precise point\npositioning with PPP-B2b service.",
+    "char_length": 101
+  },
+  {
+    "quote_id": "qb_afa1bf13a7",
+    "span_index": 300,
+    "text": "2023, 16, 315–328.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_d6363d4eeb",
+    "span_index": 301,
+    "text": "2025, 15, 8033\n15 of 15\n28.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_a8afe00343",
+    "span_index": 302,
+    "text": "Cao, Y.C.; Cheng, Z.H.; Liang, J.S.; Zhao, P.P.; Cao, Y.C.; Wang, Y.Z.",
+    "char_length": 70
+  },
+  {
+    "quote_id": "qb_7aa3839b9d",
+    "span_index": 303,
+    "text": "Performance of Ground-Based Global Navigation Satellite\nSystem Precipitable Water Vapor Retrieval in Beijing with the BeiDou B2b Service.",
+    "char_length": 137
+  },
+  {
+    "quote_id": "qb_fbd4672a00",
+    "span_index": 304,
+    "text": "2024, 16, 2902.",
+    "char_length": 15
+  },
+  {
+    "quote_id": "qb_a60464ad28",
+    "span_index": 305,
+    "text": "Wang, X.M.; Chen, Y.F.; Zhang, J.L.; Qiu, C.; Zhou, K.; Li, H.B.; Huang, Q.Y.",
+    "char_length": 77
+  },
+  {
+    "quote_id": "qb_59a00f7e18",
+    "span_index": 306,
+    "text": "Assessment of BDS-3 PPP-B2b Service and Its\nApplications for the Determination of Precipitable Water Vapour.",
+    "char_length": 108
+  },
+  {
+    "quote_id": "qb_bda9064ee0",
+    "span_index": 307,
+    "text": "Atmosphere 2024, 15, 1048.",
+    "char_length": 26
+  },
+  {
+    "quote_id": "qb_850a2324bb",
+    "span_index": 308,
+    "text": "Xu, Y.; Zhao, P.P.; Wang, J.",
+    "char_length": 28
+  },
+  {
+    "quote_id": "qb_d9bab74937",
+    "span_index": 309,
+    "text": "Precipitable water vapor retrieval for rainfall forecasting using BDS-3 PPP-B2b signal in the coastal\nregion of China.",
+    "char_length": 118
+  },
+  {
+    "quote_id": "qb_f067ca7773",
+    "span_index": 310,
+    "text": "2024, 35, 116309.",
+    "char_length": 17
+  },
+  {
+    "quote_id": "qb_e19cd8b931",
+    "span_index": 311,
+    "text": "Zhou, P.Y.; Zhang, Z.K.; Liu, Z.J.; Lyu, D.; Xiao, G.R.; Xiao, K.; Du, L.",
+    "char_length": 73
+  },
+  {
+    "quote_id": "qb_5dc5b53e0d",
+    "span_index": 312,
+    "text": "Real-Time Precise Zenith Tropospheric Delay Estimation with\nBDS PPP-B2b, Galileo HAS, and QZSS MADOCA-PPP Services.",
+    "char_length": 115
+  },
+  {
+    "quote_id": "qb_1cf9a7464f",
+    "span_index": 313,
+    "text": "2024, 62, 5802011.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_a574e6b9c4",
+    "span_index": 314,
+    "text": "Guo, J.; Xu, X.L.; Zhao, Q.L.; Liu, J.N.",
+    "char_length": 40
+  },
+  {
+    "quote_id": "qb_c8b9948bc2",
+    "span_index": 315,
+    "text": "Precise orbit determination for quad-constellation satellites at Wuhan University: Strategy,\nresult validation, and comparison.",
+    "char_length": 127
+  },
+  {
+    "quote_id": "qb_0ecfcb2eb3",
+    "span_index": 316,
+    "text": "2016, 90, 143–159.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_de34fdf705",
+    "span_index": 317,
+    "text": "Lee, Z.; Wang, L.; Wang, N.; Li, Y.; Liu, A.; Li, M.; Lee, Z.",
+    "char_length": 61
+  },
+  {
+    "quote_id": "qb_039881f5a1",
+    "span_index": 318,
+    "text": "Performance Assessment and Integrity Support Information Estimation\nof CAS Real-time Orbits and Clocks Products.",
+    "char_length": 112
+  },
+  {
+    "quote_id": "qb_9a85bdbd8b",
+    "span_index": 319,
+    "text": "Hersbach, H.; Bell, B.; Berrisford, P.; Hirahara, S.; Horányi, A.; Muñoz-Sabater, J.; Nicolas, J.; Peubey, C.; Radu, R.; Schepers, D.;\net al.",
+    "char_length": 141
+  },
+  {
+    "quote_id": "qb_1f5677e200",
+    "span_index": 320,
+    "text": "The ERA5 global reanalysis.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_8f69d7c96c",
+    "span_index": 321,
+    "text": "2020, 146, 1999–2049.",
+    "char_length": 21
+  },
+  {
+    "quote_id": "qb_f856c9ecde",
+    "span_index": 322,
+    "text": "Zhang, W.X.; Lou, Y.D.; Zhou, Y.Z.; Liu, M.J.; Zhang, Z.Y.; Ou, S.Y.; Liu, J.N.",
+    "char_length": 79
+  },
+  {
+    "quote_id": "qb_0b897f6053",
+    "span_index": 323,
+    "text": "GNSS meteorological ensemble tools (GMET): A\nfree-access online service for GNSS meteorological applications.",
+    "char_length": 109
+  },
+  {
+    "quote_id": "qb_87582c183c",
+    "span_index": 324,
+    "text": "Byun, S.H.; Bar-Sever, Y.E.",
+    "char_length": 27
+  },
+  {
+    "quote_id": "qb_f6426f965d",
+    "span_index": 325,
+    "text": "A new type of troposphere zenith path delay product of the international GNSS service.",
+    "char_length": 86
+  },
+  {
+    "quote_id": "qb_5563a2da1d",
+    "span_index": 326,
+    "text": "2009,\n83, 367–373.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_5481c8434a",
+    "span_index": 327,
+    "text": "Saastamoinen, J.",
+    "char_length": 16
+  },
+  {
+    "quote_id": "qb_9facb09a8b",
+    "span_index": 328,
+    "text": "Atmospheric correction for the troposphere and stratosphere in radio ranging satellites.",
+    "char_length": 88
+  },
+  {
+    "quote_id": "qb_59c924c079",
+    "span_index": 329,
+    "text": "1972,\n15, 247–251.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_b250e6d3bb",
+    "span_index": 330,
+    "text": "Landskron, D.; Böhm, J.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_b5f5bd1afb",
+    "span_index": 331,
+    "text": "VMF3/GPT3: Refined discrete and empirical troposphere mapping functions.",
+    "char_length": 72
+  },
+  {
+    "quote_id": "qb_8e988a22f6",
+    "span_index": 332,
+    "text": "2018, 92, 349–360.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_e9ef119892",
+    "span_index": 333,
+    "text": "[CrossRef] [PubMed]\n39.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_29c94ba285",
+    "span_index": 334,
+    "text": "Lu, C.X.; Feng, G.L.; Zheng, Y.X.; Zhang, K.K.; Tan, H.; Dick, G.; Wickert, J.",
+    "char_length": 78
+  },
+  {
+    "quote_id": "qb_d4b8285d22",
+    "span_index": 335,
+    "text": "Real-Time Retrieval of Precipitable Water Vapor from\nGalileo Observations by Using the MGEX Network.",
+    "char_length": 100
+  },
+  {
+    "quote_id": "qb_9adc31dc9d",
+    "span_index": 336,
+    "text": "2020, 58, 4743–4753.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_b379380f54",
+    "span_index": 337,
+    "text": "Shi, C.; Guo, S.W.; Fan, L.; Gu, S.F.; Fang, X.Q.; Zhou, L.H.; Zhang, T.; Li, Z.; Li, M.; Li, W.W.; et al.",
+    "char_length": 106
+  },
+  {
+    "quote_id": "qb_13de87bb2c",
+    "span_index": 338,
+    "text": "GSTAR: An innovative\nsoftware platform for processing space geodetic data at the observation level.",
+    "char_length": 99
+  },
+  {
+    "quote_id": "qb_64f3c4137b",
+    "span_index": 339,
+    "text": "Yao, Y.B.; Zhang, B.; Xu, C.Q.; Chen, J.J.",
+    "char_length": 42
+  },
+  {
+    "quote_id": "qb_dbd0d98470",
+    "span_index": 340,
+    "text": "Analysis of the global Tm-Ts correlation and establishment of the latitude-related linear\nmodel.",
+    "char_length": 96
+  },
+  {
+    "quote_id": "qb_95af3d3383",
+    "span_index": 341,
+    "text": "2014, 59, 2340–2347.",
+    "char_length": 20
+  },
+  {
+    "quote_id": "qb_c40f7a0b27",
+    "span_index": 342,
+    "text": "Lu, C.X.; Li, X.X.; Nilsson, T.; Ning, T.; Heinkelmann, R.; Ge, M.R.; Glaser, S.; Schuh, H.",
+    "char_length": 91
+  },
+  {
+    "quote_id": "qb_1436c03d10",
+    "span_index": 343,
+    "text": "Real-time retrieval of precipitable water\nvapor from GPS and BeiDou observations.",
+    "char_length": 81
+  },
+  {
+    "quote_id": "qb_9addcafe75",
+    "span_index": 344,
+    "text": "2015, 89, 843–856.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_608ec2abe5",
+    "span_index": 345,
+    "text": "Zhou, L.H.; Fan, L.; Guo, S.W.; Shi, C.",
+    "char_length": 39
+  },
+  {
+    "quote_id": "qb_1a4191dc58",
+    "span_index": 346,
+    "text": "Assessing the feasibility of atmospheric water vapor monitoring with standalone BDS\nreceiver.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_d28f05ab0e",
+    "span_index": 347,
+    "text": "[CrossRef] [PubMed]\n44.",
+    "char_length": 23
+  },
+  {
+    "quote_id": "qb_57c81f9264",
+    "span_index": 348,
+    "text": "Tang, C.P.; Hu, X.G.; Chen, J.P.; Liu, L.; Zhou, S.S.; Guo, R.; Li, X.J.; He, F.; Liu, J.H.; Yang, J.H.",
+    "char_length": 103
+  },
+  {
+    "quote_id": "qb_51f78c4606",
+    "span_index": 349,
+    "text": "Orbit determination, clock\nestimation and performance evaluation of BDS-3 PPP-B2b service.",
+    "char_length": 90
+  },
+  {
+    "quote_id": "qb_9eb5226858",
+    "span_index": 350,
+    "text": "Wang, J.H.; Zhang, L.Y.; Dai, A.; Van Hove, T.; Van Baelen, J.",
+    "char_length": 62
+  },
+  {
+    "quote_id": "qb_2e733b5c20",
+    "span_index": 351,
+    "text": "A near-global, 2-hourly data set of atmospheric precipitable water\nfrom ground-based GPS measurements.",
+    "char_length": 102
+  },
+  {
+    "quote_id": "qb_718037c138",
+    "span_index": 352,
+    "text": "2007, 112, D11107.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_9dc3796168",
+    "span_index": 353,
+    "text": "Shi, C.; Zhou, L.H.; Fan, L.; Zhang, W.X.; Cao, Y.C.; Wang, C.; Xiao, F.; Lü, G.Q.; Liang, H.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_19ab3186ce",
+    "span_index": 354,
+    "text": "Analysis of “21·7” extreme rainstorm\nprocess in Henan Province using BeiDou/GNSS observation.",
+    "char_length": 93
+  },
+  {
+    "quote_id": "qb_d7dcf458af",
+    "span_index": 355,
+    "text": "2022, 65, 186–196.",
+    "char_length": 18
+  },
+  {
+    "quote_id": "qb_60d3e34e4c",
+    "span_index": 356,
+    "text": "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s).",
+    "char_length": 194
+  },
+  {
+    "quote_id": "qb_061017f947",
+    "span_index": 357,
+    "text": "MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+    "char_length": 174
+  }
+]

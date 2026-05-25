@@ -1,0 +1,86 @@
+{
+  "paper_id": "test8_overclaimed_novelty",
+  "source_file": "paper/test8.pdf",
+  "file_hash": "vwx234",
+  "bibliographic_info": {
+    "title": "A Novel Method for PPP-B2b Positioning",
+    "authors": [{"name": "Tom Brown"}, {"name": "Sarah Green"}],
+    "year": 2023,
+    "journal_or_venue": "IEEE Sensors"
+  },
+  "product_source": {
+    "claimed": "BDS-3 PPP-B2b",
+    "actual": "BDS3_PPP_B2B_BROADCAST",
+    "grounding_quotes": ["standard EKF-based dual-frequency ionosphere-free PPP"],
+    "conflict_flag": false
+  },
+  "mathematical_model": {
+    "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+    "observation_model": "Standard IF combination",
+    "state_vector": ["position", "receiver clock", "tropospheric delay", "float ambiguities"],
+    "stochastic_model": "Standard elevation-dependent",
+    "estimator": "EKF",
+    "grounding_quotes": ["The observation model follows the standard IF combination"]
+  },
+  "ionospheric_handling": {
+    "strategy": "IF combination",
+    "dcb_source": "NOT_MENTIONED",
+    "dcb_missing_flag": true,
+    "grounding_quotes": []
+  },
+  "correction_types": {"orbit_correction": "PPP-B2b", "clock_correction": "PPP-B2b", "grounding_quotes": []},
+  "research_problem": {"problem_statement": "Propose novel method for PPP-B2b positioning"},
+  "technical_route": {"overall_flow": "Standard PPP with B2b corrections", "grounding_quotes": []},
+  "method": {
+    "method_name": "Novel PPP-B2b method",
+    "description": "A novel method for PPP-B2b positioning that achieves better accuracy",
+    "algorithm_details": "EKF-based IF PPP",
+    "baseline_method": "Broadcast-only PPP"
+  },
+  "formulas": [],
+  "experiments": [{
+    "experiment_id": "exp1",
+    "description": "Static test with 5 IGS stations for 7 days",
+    "grounding_quotes": ["7 days of data from 5 IGS stations"]
+  }],
+  "experiment_epoch": {
+    "start_date": "NOT_MENTIONED",
+    "end_date": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {"stations": ["5 IGS stations"], "satellite_systems": ["GPS", "BDS-3"], "grounding_quotes": []},
+  "metrics": {
+    "rms_3d": "Better than broadcast-only",
+    "grounding_quotes": ["our method with PPP-B2b corrections achieves better accuracy than broadcast-only PPP"]
+  },
+  "main_results": {"summary": "Better than broadcast-only", "grounding_quotes": []},
+  "novelty_audit": {
+    "claimed_novelty": "We propose a novel method for PPP-B2b positioning",
+    "audit_grade": "A_SUBSTANTIVE",
+    "ablation_study": "No ablation study performed",
+    "strong_baseline": "Broadcast-only (weak baseline)",
+    "failure_cases": "NOT_MENTIONED",
+    "novel_formula": false,
+    "novel_state_design": false,
+    "novel_stochastic_model": false,
+    "novel_qc_mechanism": false,
+    "novel_b2b_usage": false,
+    "is_mere_migration": false,
+    "grounding_quotes": ["No new observation equations are introduced"]
+  },
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED",
+    "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED",
+    "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED",
+    "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED",
+    "config_files": "NOT_MENTIONED",
+    "metric_definitions": "NOT_MENTIONED",
+    "baseline_details": "broadcast ephemeris only",
+    "reproduction_blockers": [],
+    "reproducibility_score": 0,
+    "grounding_quotes": []
+  }
+}

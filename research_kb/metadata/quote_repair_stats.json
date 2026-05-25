@@ -1,0 +1,78 @@
+{
+  "totals": {
+    "total_quotes": 72,
+    "resolved": 72,
+    "exact": 0,
+    "normalized": 32,
+    "keyword_overlap": 40,
+    "fuzzy": 0,
+    "unresolved": 0,
+    "invalid_rate_pct": 0.0,
+    "keyword_overlap_ratio_pct": 55.6
+  },
+  "per_paper": {
+    "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic": {
+      "total_quotes": 9,
+      "exact": 0,
+      "normalized": 3,
+      "keyword_overlap": 6,
+      "fuzzy": 0,
+      "unresolved": 0,
+      "no_quotes_field": 3
+    },
+    "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf": {
+      "total_quotes": 7,
+      "exact": 0,
+      "normalized": 3,
+      "keyword_overlap": 4,
+      "fuzzy": 0,
+      "unresolved": 0,
+      "no_quotes_field": 4
+    },
+    "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat": {
+      "total_quotes": 18,
+      "exact": 0,
+      "normalized": 11,
+      "keyword_overlap": 7,
+      "fuzzy": 0,
+      "unresolved": 0,
+      "no_quotes_field": 2
+    },
+    "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b": {
+      "total_quotes": 5,
+      "exact": 0,
+      "normalized": 0,
+      "keyword_overlap": 5,
+      "fuzzy": 0,
+      "unresolved": 0,
+      "no_quotes_field": 5
+    },
+    "Zhao_Lewen_2025_python_toolbox_for_bds_b2b": {
+      "total_quotes": 8,
+      "exact": 0,
+      "normalized": 7,
+      "keyword_overlap": 1,
+      "fuzzy": 0,
+      "unresolved": 0,
+      "no_quotes_field": 4
+    },
+    "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo": {
+      "total_quotes": 11,
+      "exact": 0,
+      "normalized": 2,
+      "keyword_overlap": 9,
+      "fuzzy": 0,
+      "unresolved": 0,
+      "no_quotes_field": 2
+    },
+    "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c": {
+      "total_quotes": 14,
+      "exact": 0,
+      "normalized": 6,
+      "keyword_overlap": 8,
+      "fuzzy": 0,
+      "unresolved": 0,
+      "no_quotes_field": 2
+    }
+  }
+}

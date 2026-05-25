@@ -1,0 +1,74 @@
+[
+  {
+    "quote_id": "qb_46d9c1b990",
+    "span_index": 0,
+    "text": "Ge et al. Satellite Navigation (2023) 4:8 Satellite Navigation\nhttps://doi.org/10.1186/s43020-023-00097-3\nhttps://satellite-navigation.springeropen.com/\nORIGINAL ARTICLE Open Access\nA new receiver clock model to enhance\nBDS-3 real-time PPP time transfer\nwith the PPP-B2b service\nYulong Ge1,7, Qing Wang2*, Yong Wang3,8, Daqian Lyu4, Xinyun Cao5, Fei Shen5 and Xiaolin Meng6\nAbstract\nA new Precise Point Positioning (PPP) service, called the PPP-B2b service, has been implemented in the BeiDou-3\nNavigation Satellite System (BDS-3), which brings new opportunities for time transfer. However, the solut",
+    "char_length": 4539
+  },
+  {
+    "quote_id": "qb_1ea1eeb983",
+    "span_index": 1,
+    "text": "Ge et al. Satellite Navigation (2023) 4:8 Page 2 of 12\n2008 (Petit and Jiang 2008b). Petit (2009) presented that all time links. In addition, when the observations and the\nGPS PPP could achieve an accuracy of 0.3 ns using the final PPP-B2b corrections are abnormal, there exists a re-con-\nproducts. Since then, multi-GNSS PPP time transfer has vergence problem. Therefore, a new clock model should be\nbecame a hot research topic. Tu et al. (2018) presented a developed.\nBDS-2 triple-frequency PPP model for time transfer and The paper is structured as follows. After the introduc-\nconcluded that the ",
+    "char_length": 5294
+  },
+  {
+    "quote_id": "qb_fbdc0cc6c5",
+    "span_index": 2,
+    "text": "G e et al. Satellite Navigation (2023) 4:8 Page 3 of 12\n(Zumberge et al., 1997), the code and carrier phase obser- considered. The relationship between Allan variance\nσ2(τ)\nvations read as y and clock noises can be expressed (Galleani &\nps =es ·�(x,y,z)+cdt +Ms ·Z +ξs Tavella, 2003) as\nr,IFij r r,IFij r,w w r,IFij\n(2π)2 1\nls =µs ·�(x,y,z)+cdt +Ms ·Z +Ns +ψs (3) σ y 2(τ)=h−2 6 τ +h−1 2log2 e +h 0 2τ (8)\nr,IFij r r,IFij r,w w r,IFij r,IFij\n(4) where h−2 , h−1 and h 0 are the coefficients of the RWFM,\nwhere p r s ,IFij and l r s ,IFij are the IF pseudorange and carrier FFM, and WFM, respectively;",
+    "char_length": 5040
+  },
+  {
+    "quote_id": "qb_26450e84fb",
+    "span_index": 3,
+    "text": "Ge et al. Satellite Navigation (2023) 4:8 Page 4 of 12\noffset by combining the formulas (3), (4), (7), (9), and Processing strategy\n(10). The dual-frequency PPP method is used in this contribu-\nIn addition, based on the elevation-dependent weight- tion. The detailed processing strategy of real-time PPP for\ning, the precisions of orbit and clock calculated from time transfer is listed in Table 1. The errors that can be\nthe PPP-B2b correction also need to be considered. The corrected directly with the models, such as Sagnac effect,\nweight W can be expressed as relativistic effects et al., are co",
+    "char_length": 4065
+  },
+  {
+    "quote_id": "qb_269b7176a6",
+    "span_index": 4,
+    "text": "G e et al. Satellite Navigation (2023) 4:8 Page 5 of 12\nfluctuations and even many outliers. As we know, the phenomenon for all stations. This is due to less than four\nreceiver clock offsets consist of the difference between satellites used at that station for some time. Luckily, real-\nthe local time and the reference time, hardware delay, time BDS-3 PPP doesn’t have that phenomenon. Fourth,\nand other noise. Hence, the fluctuations in the results the tendency of BDS-3 PPP is almost identical to that of\nare mainly caused by the reference time of GPS in the BDS-3/GPS in terms of the trend and th",
+    "char_length": 3551
+  },
+  {
+    "quote_id": "qb_889883c3d9",
+    "span_index": 5,
+    "text": "Ge et al. Satellite Navigation (2023) 4:8 Page 6 of 12\n-2740 -2645 we calculated the mean values (Mean) and Standard\n-2760 -2650 Deviation (STD) values of clock difference between PPP\n-2780 -2655\n-2800 time transfer with the PPP-B2b correction and that of\n68.0 68.2 68.4 68.6 68.8 69.0 68.0 68.2 68.4 68.6 68.8 69.0\n-2740 -2640 IGS final products and present them in Table 2. We can\n-2645\n-2760 -2650 find some interesting conclusions from the numeri- -2780 -2655\n69.0 69.2 69.4 69.6 69.8 70.0 69.0 69.2 69.4 69.6 69.8 70.0 cal results. The first is that an obvious systematic bias -2640\n-2740\n-2760 ",
+    "char_length": 4992
+  },
+  {
+    "quote_id": "qb_2486237d9b",
+    "span_index": 6,
+    "text": "G e et al. Satellite Navigation (2023) 4:8 Page 7 of 12\nTable 2 Mean and STD values of the difference between the time transfer solutions calculated from BDS-3, GPS, and BDS-3/GPS PPP\nin Scheme 1 and the PPP time transfer with IGS final products (ns)\nTime‑link DOY Results of GPS Results of BDS‑3 Results of BDS‑3/GPS\nMean STD Mean STD Mean STD\nCUSV-USUD 68 4.35 1.12 53.92 0.13 54.04 0.11\n−\n69 3.67 1.03 54.4 0.18 54.38 0.17\n−\n70 3.83 1.24 54.44 0.16 54.4 0.14\n−\n71 4.29 1.56 54.5 0.14 54.46 0.13\n−\n72 4.66 1.02 54.6 0.15 54.51 0.14\n−\nTLM2-USUD 68 2.26 2.05 1.51 0.15 1.66 0.13\n69 4.77 1.28 1.78 0.1",
+    "char_length": 1957
+  },
+  {
+    "quote_id": "qb_9665709793",
+    "span_index": 7,
+    "text": "Ge et al. Satellite Navigation (2023) 4:8 Page 8 of 12\nResults of CUSV station Results of TLM2 station\n80 110 Scheme1\n60 109 Scheme2\n40 20 108\n68.0 68.2 68.4 68.6 68.8 69.0 68.0 68.2 68.4 68.6 68.8 69.0\n80 108\n60 107\n40 106 69.0 69.2 69.4 69.6 69.8 70.0 69.0 69.2 69.4 69.6 69.8 70.0\n80 109\n60 108\n40 107\n70.0 70.2 70.4 70.6 70.8 71.0 70.0 70.2 70.4 70.6 70.8 71.0\n100\n80 108 60 107\n40 106\n71.0 71.2 71.4 71.6 71.8 72.0 71.0 71.2 71.4 71.6 71.8 72.0\n107 80\n60 106\n40\n105 72.0 72.2 72.4 72.6 72.8 73.0 72.0 72.2 72.4 72.6 72.8 73.0\nfilter, such as ambiguity or receiver clock offset, will\nand 9. In ad",
+    "char_length": 3771
+  },
+  {
+    "quote_id": "qb_858bffe8e5",
+    "span_index": 8,
+    "text": "G e et al. Satellite Navigation (2023) 4:8 Page 9 of 12\nfinding is that TLM2-USUD outperforms CUSV-USUD.\n-2680 -2652 The reason is that the atomic clock connected to TLM2\n- -2 2 7 7 2 0 0 0 -2653 has better performance than that of CUSV, because\n-2740 -2654\n68.0 68.2 68.4 68.6 68.8 69.0 68.0 68.2 68.4 68.6 68.8 69.0 the frequency signal of CUSV mainly comes from the\n-2680 -2650\n-2700 -2651 high-performance crystal oscillator. Furthermore, the\n-2720 -2652 improvement of Scheme 2 is obvious as compared to\n69.0 69.2 69.4 69.6 69.8 70.0 69.0 69.2 69.4 69.6 69.8 70.0\n-2648\n-2680 -2649 Scheme 1. For",
+    "char_length": 5224
+  },
+  {
+    "quote_id": "qb_4d95014863",
+    "span_index": 9,
+    "text": "Ge et al. Satellite Navigation (2023) 4:8 Page 10 of 12\nTable 3 Mean and STD of the difference between the time transfer solutions calculated from BDS-3 and BDS-3/GPS PPP in Scheme 1\nand Scheme 2 (ns) and the PPP time transfer with IGS final products. Note that (%) indicates the improvement of Scheme 2 compared\nto Scheme 1 for the STD values\nTime‑links DOY Results of BDS‑3 Improvement Results of BDS‑3/GPS Improvement\n(%) (%)\nScheme 1 Scheme 2 Scheme 1 Scheme 2\nMean STD Mean STD Mean STD Mean STD\nCUSV-USUD 68 53.92 0.13 53.42 0.11 15.38 54.04 0.11 54 0.1 9.09\n69 54.4 0.18 54.82 0.14 22.22 54.38",
+    "char_length": 2523
+  },
+  {
+    "quote_id": "qb_929fd1d64f",
+    "span_index": 10,
+    "text": "G e et al. Satellite Navigation (2023) 4:8 Page 11 of 12\nDOY:68 ResultsofCUSV-USUD\nDOY:70\nDOY:72\nDeclarations\nCompeting interests\nThe author(s) declare(s) that they have no competing interests.\nReceived: 28 October 2022 Accepted: 12 February 2023\nReferences\nChen, X., Lu, C., Guo, B., Guo, F., Ge, M., Li, X., & Schuh, H. (2018). GPS/GLONASS\ncombined precise point positioning with the modeling of highly stable\nreceiver clock in the application of monitoring active seismic deforma-\ntion. Journal of Geophysical Research: Solid Earth, 123(5), 4025–4040.\nhttps:// doi. org/ 10. 1029/ 2017j b0150 60\nC",
+    "char_length": 3230
+  },
+  {
+    "quote_id": "qb_4e9dbff85f",
+    "span_index": 11,
+    "text": "Ge et al. Satellite Navigation (2023) 4:8 Page 12 of 12\nGuo, W., Song, W., Niu, X., Lou, Y., Gu, S., Zhang, S., & Shi, C. (2019). Foundation Yang, Y., Ding, Q., Gao, W., Li, J., Xu, Y., & Sun, B. (2022). Principle and perfor-\nand performance evaluation of real-time GNSS high-precision one-way mance of BDSBAS and PPP-B2b of BDS-3. Satellite Navigation. https:// doi.\ntiming system. GPS Solutions. https:// doi. org/ 10. 1007/ s10291- 018- 0811-1 org/ 10. 1186/ s43020- 022- 00066-2\nLevine, J. (2008). A review of time and frequency transfer methods. Metrologia, Zhang, P., Tu, R., Gao, Y., Zhang, R.",
+    "char_length": 6186
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "Proposes a strategy to integrate BDS-3 PPP-B2b and Galileo HAS corrections for real-time PPP positioning, evaluating orbit/clock accuracy and validating with static and kinematic datasets.",
+  "boundary_risk": false,
+  "needs_full_audit": true,
+  "source_file": "1-s2.0-S0263224125021888-main.pdf",
+  "paper_id": "1-s2.0-S0263224125021888-main",
+  "extraction_mode": "batch_classify_1call"
+}

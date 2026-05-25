@@ -1,0 +1,102 @@
+{
+  "paper_id": "Pan_Lin_2025_BDS_B2b_HAS",
+  "extraction_mode": "full_strict_quotes",
+  "batch": "Batch 3 Phase A",
+  "selection_role": "boundary_mixed",
+  "bibliographic_info": {
+    "title": "BDS B2b and HAS",
+    "authors": "NOT_MENTIONED",
+    "year": 2025,
+    "journal_or_venue": "NOT_MENTIONED"
+  },
+  "product_source": {
+    "claimed": "NOT_MENTIONED",
+    "actual_product_source": "MIXED_PRODUCTS",
+    "evidence_strength": "STRONG",
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2025) 29:162 https://doi.org/10.1007/s10291-025-01925-6 RESEARCH BDS-3 PPP-B2b and Galileo HAS tightly integrated real-time PPP Lin Pan1 · Chen Yang1 Received: 9 October 2024 / Accepted: 28 June 2025 © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025 Abstract The BDS-3 PPP-B2b of China can offer BDS-3/GPS real-tim",
+      "In this study, a tightly integrated real-time PPP model by incorporating observations from complementary constellations of PPP-B2b and HAS (rather than combining their PPP results) based on respective stand-alone service for the Asia-Pacific region is constructed.",
+      "For comparison, we employ the strategy with BDS-3/GPS from PPP-B2b (B2b C/G), the strategy with Galileo/GPS from HAS (HAS E/G), the strategy with BDS-3/GPS from PPP-B2b and Galileo from HAS (B2b C/G + HAS E), and the strategy with Galileo/GPS from HAS and BDS-3 from PPP-B2b (HAS E/G + B2b C)."
+    ]
+  },
+  "experiment_epoch": {
+    "start_date": "DOY 186",
+    "end_date": "DOY 180",
+    "dates_found": [],
+    "months_found": [
+      "January 2023",
+      "June 2025",
+      "May 2022"
+    ],
+    "doys_found": [
+      "DOY 186",
+      "DOY 185",
+      "DOY 180"
+    ],
+    "grounding_quotes": [
+      "<!-- PAGE: 1 -->  GPS Solutions (2025) 29:162 https://doi.org/10.1007/s10291-025-01925-6 RESEARCH BDS-3 PPP-B2b and Galileo HAS tightly integrated real-time PPP Lin Pan1 · Chen Yang1 Received: 9 October 2024 / Accepted: 28 June 2025 © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025 Abstract The BDS-3 PPP-B2b of China can offer BDS-3/GPS real-tim",
+      "By assigning a numerical value of zero to the compensating In this study, the datasets on day of year (DOY) 180–186 of parameter of the selected satellite, the receiver clock offset 2024 from 18 Multi-GNSS Experimental (MGEX) stations estimates actually absorb the initial systematic bias of the located in the Asia-Pacific region are employed to evalu- selected satellite, while the estimated compen"
+    ]
+  },
+  "correction_types": [
+    {
+      "type": "orbit_correction"
+    },
+    {
+      "type": "clock_correction"
+    }
+  ],
+  "dcb_handling": {
+    "status": "NOT_MENTIONED",
+    "dcb_mentions": 0,
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "status": "MENTIONED",
+    "iono_mentions": 5,
+    "grounding_quotes": []
+  },
+  "mathematical_model": {
+    "processing_mode": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "grounding_quotes": []
+  },
+  "main_results": {
+    "grounding_quotes": []
+  },
+  "novelty_audit": {
+    "audit_grade": "NOT_AUDITED",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "reproducibility_score": 1,
+    "reproduction_blockers": [
+      "No source code or software release",
+      "Raw GNSS observation data not publicly provided",
+      "PPP-B2b correction archive not distributed",
+      "Specific processing parameters not fully detailed"
+    ]
+  },
+  "pdf_metadata": {
+    "pages": 11,
+    "b2b_mentions": 157,
+    "has_mentions": 9,
+    "clas_mentions": 1,
+    "dcb_mentions": 0,
+    "iono_mentions": 5
+  },
+  "gate_status": {
+    "product_source_correct": true,
+    "expected_product_source": "MIXED_PRODUCTS",
+    "wrong_support": false,
+    "epoch_valid": true,
+    "dcb_valid": true,
+    "blockers_non_empty": true
+  },
+  "corpus_version": "v1.0"
+}

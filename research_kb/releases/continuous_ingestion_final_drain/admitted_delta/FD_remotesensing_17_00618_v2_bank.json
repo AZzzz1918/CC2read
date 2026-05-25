@@ -1,0 +1,128 @@
+[
+  {
+    "quote_id": "qb_99f405e495",
+    "span_index": 0,
+    "text": "Article\nA Continuous B2b-PPP Model Considering Interruptions in\nBDS-3 B2b Orbits and Clock Corrections as Well as\nSignal-in-Space Range Error Residuals\nRuiShang1,†,ZhenhaoXu1,†,ChengfaGao1,*,XiaolinMeng2 ,WangGao2andQiLiu1\n1 SchoolofTransportation,SoutheastUniversity,Nanjing211189,China;shangr@seu.edu.cn(R.S.);\n220223035@seu.edu.cn(Z.X.);lq_0328@seu.edu.cn(Q.L.)\n2 SchoolofInstrumentScienceandEngineering,SoutheastUniversity,Nanjing210096,China;\nxiaolin_meng@seu.edu.cn(X.M.);gaow@seu.edu.cn(W.G.)\n* Correspondence:gaochfa@seu.edu.cn\n† Theseauthorscontributedequallytothiswork.\nAbstract:In2020,BDS-",
+    "char_length": 3544
+  },
+  {
+    "quote_id": "qb_9dc764584d",
+    "span_index": 1,
+    "text": "RemoteSens.2025,17,618 2of21\nongroundinfrastructure,therebyprovidingvitalsupportforlarge-scale,high-precision\nPPP[5,6].\nWiththedevelopmentofBDS-3(BeidouNavigationSatelliteSystem),Chinaofficially\nreleasedthePPP-B2binterfacedocumentin2020[7]. Thisdocumentspecifiestheuseof\nB2bsignalsfromthreegeostationaryorbit(GEO)satellites(C59toC61)withintheBDS-3\nconstellationasthedatabroadcastchannel. Thesesignalstransmitcorrectionparameters\nforBDS-3andGlobalPositioningSystems(GPSs),includingprecisesatelliteorbitsand\nclockcorrectionsrelativetothebroadcastephemeris(BRDC),precisedifferentialcodebias\n(DCB),andthe",
+    "char_length": 3929
+  },
+  {
+    "quote_id": "qb_af25151a35",
+    "span_index": 2,
+    "text": "RemoteSens.2025,17,618 3of21\nmodelstoaddressthediscontinuityinB2b-PPPcausedbyanomalies. Theexperimental\nresults indicate that the prediction accuracy is significantly affected by the continuous\nobservation arc of B2b. Under typical conditions, the effective prediction duration can\nreach 20–30 min, during which time the positioning accuracy is better than 0.1 m [23].\nHowever,astimeprogresses,thepredictedvaluesgraduallydeviatefromthetruevalues,\nleadingtoadeclineinpositioningaccuracy. Additionally,afterlongsignalinterruptions,\nwhenthesignalisrestored, significantdifferencesbetweenthepredictedandr",
+    "char_length": 3461
+  },
+  {
+    "quote_id": "qb_dc1c95fd44",
+    "span_index": 3,
+    "text": "RemoteSens.2025,17,618 4of21\n (cid:104) (cid:105)\n\ne\nX\nr\ns p\na\nr\nd\ne\ni\nc\nal\n=\n=\nX\n|\ns b\nr r\nr\n|\nd\n,\nc\ne\n+\ncross\ne\n=\nrad\n|\ni\nr r\na\n× ×\nl\nr r\n.\n.| ,\ne a\ne\nl\na\no\nl\nn\no\ng\nng =\ne cr\ne\no\nc\ns\nr\ns\noss ×\n·δ\ne\nO\nradial\n(1)\n\nδ\nd\nO\nts\n=\n=\n(cid:104)\nd\nd\nO\nts\nradi\n−\nal\ndc\nd\nlk\nO\n/\na\nc\nlong\ndO\ncross\n(cid:105)T\nprec brdc\nwhere Xs represents the real-time precise satellite position vector after applying B2b\nprec\norbitcorrectionstotheBRDC,andXs isthesatellitepositionvectorcalculatedfromthe\nbrdc\nBRDC.Theunitvectorse ,e ,ande correspondtotheradial,along-track,and\nradial along cross\ncross-trac",
+    "char_length": 3076
+  },
+  {
+    "quote_id": "qb_0412fb1432",
+    "span_index": 4,
+    "text": "RemoteSens.2025,17,618 5of21\nservices[26,28]. TheSISREforBDSandGPScanbecalculatedbycombiningtheradial,\nalong-track,andcross-trackcomponentsoforbiterrorswithclockerrors,asfollows:\n(cid:114)\n(cid:16) (cid:17)\n(cid:114) (0.98d\nradial\n−cδts)2+\n(cid:16)\nd2\nalong\n+d2\ncross\n(cid:17)\n/54 BDS(MEO)\nSISRE = (0.99d −cδts)2+ d2 +d2 /127 BDS(IGSO) (3)\nradial along cross\n\n(cid:114)\n(0.98d\nradial\n−cδts)2+\n(cid:16)\nd2\nalong\n+d2\ncross\n(cid:17)\n/49 GPS\nwhered ,d ,andd representtheradial,along-track,andcross-trackorbitserror,\nradial along cross\nrespectively,whileδts denotestheclockerror.\nItisim",
+    "char_length": 3302
+  },
+  {
+    "quote_id": "qb_4abf086b6b",
+    "span_index": 5,
+    "text": "RemoteSens.2025,17,618 6of21\nthecorrespondingcarrierfrequency. dt anddtsrepresenttheclockerrorsinthesatelliteand\nr\nreceiver,while Ms andT correspondtothemappingfunctionforzenithtroposphericwet\nr w\ndelayandtheassociatedzenithtroposphericwetdelay. Is representstheionosphericdelay,\nr,j\nand d and ds denote the pseudo-range hardware delays for the receiver and satellite.\nr,j j\nb and bs are the carrier phase hardware delays for the receiver and satellite, with λ\nr,j j j\nrepresentingthecorrespondingcarrierwavelengthandNs representingtheambiguity. es\nr,j r,j\nandεs denotethepseudo-rangeandcarrierphasen",
+    "char_length": 2823
+  },
+  {
+    "quote_id": "qb_b2a0d8edb1",
+    "span_index": 6,
+    "text": "RemoteSens.2025,17,618 7of21\n Ps,C = ρs+cdtC+Ms,CT +es,C\n\nφ\nr\nr\ns\n,\n,\n,\nI\nI\nC\nF\nF\ni\ni\nj\nj\n= ρ\nr\nr\ns+cdt\nr\nr\nC+M\nr\nr\ns,CT\nw\nw\n+λ\nr,\nI\nI\nF\nF\ni\ni\nj\nj\nN\nr\ns,\n,I\nC\nFij\n+εs\nr\n,\n,\nC\nIFij\n(8)\n P\nφ\nr\ns\ns\n,\n,\n,\nI\nG\nG\nFij\n=\n=\nρ\nρ\nr\ns\ns\n+\n+\nc\nc\nd\nd\nt\nt\nr\nG\nG\n+\n+\nM\nM\nr\ns\ns\n,\n,\nG\nG\nT\nT\nw\n+\n+\ne\nλ\nr\ns\n,\n,\nI\nG\nFij\nN s,G +εs,G\nr,IFij r r r w IFij r,IFij r,IFij\nTheparameterstobeestimatedfortheIFcombinationB2b-PPPoftheBDS-3/GPS\ndualsystemcanbewrittenas:\n(cid:104) (cid:105)\nX= dx,dy,dz,dtC,dtG,T ,N s,C ,N s,G (9)\nr r w r,IFij r,IFij\nwheredx,dy,dzdonatesthethree-dimensionalcoordinatevector, dtC a",
+    "char_length": 2671
+  },
+  {
+    "quote_id": "qb_27a02aab23",
+    "span_index": 7,
+    "text": "RemoteSens.2025,17,618 8of21\nupdatedvarianceintheSISREparameteratepochk−1,andthevariancecorresponding\ntoω SISRE r s ,0 (k) isσ ω 2 S 2 ISREr s\n,0\n(k) .\nWhentheB2bsignalisbeingreceivednormally,SISREfluctuationstendtoberela-\ntivelystable. Theprocessnoisefromrandomwalkistypicallyassumedtobeconstant,\n√ √\nsuchas1.2cm/ hforBDS-3and1.8cm/ hforGPS(hrepresentshours). Thismeansthat\ntheprocessnoiseisrelatedtothetimeintervalfromthepreviousepoch[22]. However,\nwhenusingpredictedB2borbitandclockproducts,overtime,thepredictedvaluesmay\nbegintodivergefromtheactualvalues,leadingtoanincreaseinspatialsignalresidua",
+    "char_length": 3764
+  },
+  {
+    "quote_id": "qb_ded251dcbb",
+    "span_index": 8,
+    "text": "RemoteSens.2025,17,618 9of21\nFigures 2 and 3 illustrate the SISRE of some of the BDS-3 and GPSs during each hour,\ncomparingthecontinuousB2barcsundernormalconditionswiththoseunderPredand\nExtscenarios. AsisevidentfromFigure2,forBDS-3,theSISREsaregenerallylessthan\n0.1m. From02:00to03:00,forC32,thePred-B2balignswellwithB2b,whereastheExt-B2b\nexhibitsanoticeabledeviation. ForC20andC39from06:00to08:00,althoughbothPred-\nB2bandExt-B2bshowdeviations,Pred-B2bclearlydemonstratesabetterfit. Turningto\nFigure3,theGPSexhibitssimilarcharacteristics;however,asshowninHour4,theSISRE\nRemote Sens. 2025, 17, 618 10 ",
+    "char_length": 2326
+  },
+  {
+    "quote_id": "qb_ebae926a49",
+    "span_index": 9,
+    "text": "Remote Sens. 2025, 17, 618 10 of 23\nRemoteSens.2025,17,618 10of21\nExt-B2b. Incontrast,asshowninFigure5,GPSshowsinferiorSISREprecisioncomparedto\nBDS-3;underthe10mininterruptionscenario,theSTDofSISREoftheB2bmodelhovers\nataround0.02m. Nonetheless,theoveralltrendremainssimilartothatofBDS-3,where\nB2boffersthehighestprecisionandExt-B2bthelowest. Hence,forsubsequentpositioning\ntasks,theprocessnoiseofrandomwalkassignedtoindividualsatellitesinEquation(12)\ncanbeadjustedbasedontheirrespectiveSISREprecisionvalues. Thisapproachfacilitates\ntheimplementationofapositioningmodelthattakesSISREintoaccountmoreeff",
+    "char_length": 2659
+  },
+  {
+    "quote_id": "qb_14e519bfc6",
+    "span_index": 10,
+    "text": "Remote Sens. 2025, 17, 618 11 of 23\nTo further analyze the SISRE precision of the two prediction methods during signal\ninterruptions, we processed hourly data over three days: the first twenty minutes of each\nhour received the B2b signal normally, followed by a prediction starting from the 20th\nminute. It is important to note that the generation of B2b products relies solely on refer-\nence stations in China and nearby regions, leading to a constant bias in the B2b clock cor-\nrections [30]. Consequently, we performed statistical analyses of the SISRE STD for the\nExt and Pred prediction modes du",
+    "char_length": 3157
+  },
+  {
+    "quote_id": "qb_71b8059eb4",
+    "span_index": 11,
+    "text": "RemoteSens.2025,17,618 12of21\nTable1.Cont.\nItem ProcessingStrategies\nZHDiscorrectedbytheSaastamoinenmodel[35]and\nAtmosphericdelays\nmappingfunctionisfromGMF[36]\nSatellitePCO/PCV igs14.atx[37]\nRelativisticeffect Modelcorrected[38]\nRemote Sens. 2025, 17, 618 13 of 23\nPhasewindup Modelcorrected[38]\nTidemodel SolidtideandOceantidemodelcorrected[38]\nEstimatedaswhitenoise,andtheGPSandBDS-3\nReceiverclock Estimated as white noise, and the GPS and BDS-3 measurements\nReceiver clock measurementsareprocesseddistinctively\nare processed distinctively\nReceiverposition Whitenoise\nReceiver position White noise\n",
+    "char_length": 3652
+  },
+  {
+    "quote_id": "qb_4846481989",
+    "span_index": 12,
+    "text": "Remote Sens. 2025, 17, 618 13 of 23\nEstimated as white noise, and the GPS and BDS-3 measurements\nReceiver clock\nare processed distinctively\nReceiver position White noise\nEstimation Kalman filter\n4.1. Analysis of Positioning Preformance Under a Simulated Kinematic Experiment with\nDifferent Interruption Durations\nThe simulated kinematic data collection setup, as depicted in Figure 6, was imple-\nmented at the RTK (real time kinematic) base station (ZHD0) situated within the\nJiulonghu campus of Southeast University. On DOY 120–121 in 2024, data were gathered\nfrom this station, which is furnished w",
+    "char_length": 4035
+  },
+  {
+    "quote_id": "qb_e126029a48",
+    "span_index": 13,
+    "text": "RemoteSens.2025,17,618 14of21\ninterruptions. Furthermore,ourB2bsignalpredictionmethodshowsanotableimprove-\nmentforthisdataset.ThePB2b-PPPaccuracyiscomparabletothatofEB2bS-PPP,indicating\nthatthepredictedB2bsignalscaneffectivelysubstituteforactualmeasurementsduring\ninterruptions. Furthermore,PB2bS-PPPemergesasthebest-performingmethod,achieving\napositioningaccuracycomparabletoB2b-PPPevenwhentheB2bsignalisinterrupted\nfor40min. ThishighlightsthecombinedbenefitsofB2bcorrectionspredictionandSISRE\nenhancementsinmaintaininghighpositioningaccuracyunderchallengingconditions.\nForDOY121,itcanbeobservedthat",
+    "char_length": 3791
+  },
+  {
+    "quote_id": "qb_c799b53444",
+    "span_index": 14,
+    "text": "RemoteSens.2025,17,618 15of21\n20mininterruption,withbothfailingtoachievesatisfactoryresults. Incontrast,PB2bS-\nPPP consistently demonstrates satisfactory stability before and after signal restoration,\nRemote Sens. 2025, 17, 618 underscoringitsimportanceforpracticaldynamicpositioningapplications.Thisrobustne16ss of 23\nisclearlycrucialforensuringreliableandaccuratepositioningindynamicenvironments.\nFigure8. ThepositioningerrorsintheE/N/UdirectionsfortheB2b-PPP,EB2b-PPP,PB2b-PPP,\nFigure 8. The positioning errors in the E/N/U directions for the B2b-PPP, EB2b-PPP, PB2b-PPP,\nEB2bS-PPP,andPB2bS-PPPund",
+    "char_length": 775
+  },
+  {
+    "quote_id": "qb_940a0d0ee6",
+    "span_index": 15,
+    "text": "Remote Sens. 2025, 17, 618 17 of 23\nR emoteSens.2025,17,618 16of21\nFigure9. ThemaximumpositioningerrorsintheE/N/UdirectionsfortheB2b-PPP,EB2b-PPP,\nFigure 9. The maximum positioning errors in the E/N/U directions for the B2b-PPP, EB2b-PPP,\nPB2b-PPP,EB2bS-PPP,andPB2bS-PPPundersignalinterruptionsof10min,20min,30min,and\nPB2b-PPP, EB2bS-PPP, and PB2bS-PPP under signal interruptions of 10 min, 20 min, 30 min, and 40\n40minonDOY120and121.\nmin on DOY 120 and 121.\n4.2. AnalysisofPositioningPerformanceUnderKinematicExperimentwithDifferent\nInterrFuipgtuiorne 9D ruervaetiaolns sthat, in terms of horizontal",
+    "char_length": 5080
+  },
+  {
+    "quote_id": "qb_31ca33b51b",
+    "span_index": 16,
+    "text": "Remote Sens. 2025, 17, 618 18 of 23\nstation ZHD0 in Figure 6 provided the RTK reference for CGI-430. Concurrently, we em-\nployed the board depicted in Figure 2 to receive B2b corrections in real-time for B2b-PPP.\nAs evidenced by the test trajectory in Figure 10 (right), there were no GNSS interruptions\nrecorded throughout our entire test route, and the maximum linear distance between the\ntest route and the ZHD0 station was 3.7 km. Under such circumstances, the nominal ac-\ncuracy of the CGI-430 can achieve 0.02 m in the horizontal and 0.03 m in the vertical di-\nrection, providing a precise and ",
+    "char_length": 4328
+  },
+  {
+    "quote_id": "qb_e0925e7511",
+    "span_index": 17,
+    "text": "RemoteSens.2025,17,618 18of21\nTable4. ComparisonofpositioningaccuracyamongfourpredictionmodelsandB2b-PPPunder\ndifferentinterruptiondurationsforthedynamicscenario.\nRMSofE/N/UPositionErrors(cm)\nPPPModel 10min 20min 30min 40min\nE N U E N U E N U E N U\nB2b-ppp 2.2 6.3 18.8 3.7 6.4 15.1 3.3 5.9 15.5 3.3 6.1 14.1\nEB2b-ppp 2.7 8.4 26.9 3.0 8.0 29.7 4.2 8.2 38.4 11.8 7.9 51.7\nPB2b-ppp 1.6 7.2 16.8 3.4 6.4 16.0 3.9 6.3 14.0 8.3 6.4 22.6\nEB2bS-ppp 1.8 7.7 19.5 3.1 6.8 17.5 3.8 7.4 22.3 4.9 6.9 27.1\nPB2bS-ppp 2.2 7.4 18.1 2.2 7.0 17.4 5.6 9.8 14.6 4.4 7.1 18.9\nAsisevidentfromTable4,underuninterruptedB2bs",
+    "char_length": 3317
+  },
+  {
+    "quote_id": "qb_370024a84c",
+    "span_index": 18,
+    "text": "RemoteSens.2025,17,618 19of21\n0.02m. Astheinterruptiondurationincreases,theSISREforbothExt-B2bandPred-B2b\ngraduallydeclines,withPredexhibitingsuperiorperformancemetrics.\nSimulateddynamicpositioningexperimentsrevealedthattheEB2b-PPPperformance\nistheweakest,withpositioningerrorsintheUdirectionexceeding0.1mduringa10min\ninterruption. Incontrast,theperformancesofEB2bS-PPPandPB2b-PPParecomparable,\nthough the PB2bS-PPP model demonstrated the best overall positioning performance.\nAftera40mininterruption,thepositioningRMSofPB2bS-PPPintheE/N/Udirections\nremained below 0.05 m, with the maximum positionin",
+    "char_length": 3849
+  },
+  {
+    "quote_id": "qb_761d9ede18",
+    "span_index": 19,
+    "text": "RemoteSens.2025,17,618 20of21\n9. Lu,X.;Chen,L.;Shen,N.;Wang,L.;Jiao,Z.;Chen,R.DecodingPPPcorrectionsfromBDSB2bsignalsusingasoftware-defined\nreceiver:Aninitialperformanceevaluation.IEEESens.J.2020,21,7871–7883.[CrossRef]\n10. Zhang,W.;Lou,Y.;Song,W.;Sun,W.;Zou,X.;Gong,X.InitialassessmentofBDS-3precisepointpositioningserviceonGEOB2b\nsignal.Adv.SpaceRes.2022,69,690–700.[CrossRef]\n11. Zhou,H.;Wang,L.;Fu,W.;Han,Y.;Li,T.;Li,W.;Chen,R.Real-timesingle-frequencyprecisepointpositioningusingBDS-3\nPPP-B2bcorrections.Measurement2022,205,112178.[CrossRef]\n12. Ge,Y.;Cao,X.;Lyu,D.;He,Z.;Xiao,G.;Shen,F.Aninvest",
+    "char_length": 4458
+  },
+  {
+    "quote_id": "qb_bd050e968c",
+    "span_index": 20,
+    "text": "RemoteSens.2025,17,618 21of21\n35. Saastamoinen,J.Atmosphericcorrectionforthetroposphereandstratosphereinradiorangingsatellites. Theuseofartificial\nsatellitesforgeodesy,AmericanGeophysicsUnion.Geophys.Monogr.Ser.1972,15,247–251.[CrossRef]\n36. Böhm,J.;Niell,A.;Tregoning,P.;Schuh,H.GlobalMappingFunction(GMF):Anewempiricalmappingfunctionbasedon\nnumericalweathermodeldata.Geophys.Res.Lett.2006,33,L07304.[CrossRef]\n37. Rebischung,P.;Schmid,R.IGS14/igs14.atx:AnewframeworkfortheIGSproducts.InProceedingsoftheAGUFallMeeting,\nSanFrancisco,CA,USA,12–16December2016.\n38. Kouba, J.AGuidetoUsingInternationalGN",
+    "char_length": 1065
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "product_source": "GALILEO_HAS",
+  "paper_type": "has_service",
+  "is_ppp_b2b_core_paper": false,
+  "domain_relevance": "related_gnss_augmentation",
+  "classification_reason": "The paper evaluates the performance of Galileo High Accuracy Service (HAS), a precise point positioning augmentation service distinct from BDS-3 PPP-B2b.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2023--Daniele Borio--HASCoordSept2023.pdf",
+  "paper_id": "2023--Daniele Borio--HASCoordSept2023",
+  "extraction_mode": "batch_classify_1call"
+}

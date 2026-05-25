@@ -1,0 +1,1020 @@
+{
+  "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c": {
+    "paper_id": "Yan_Liu_2022_comprehensive_analyses_of_ppp-b2b_performance_in_c",
+    "source_file": "paper\\2022--Yan Liu--Comprehensive_Analyses_of_PPP-B2b_Performance_in_C.pdf",
+    "file_hash": "a86ad7a6142eef2ed8bd4745196d7da745e4762a867de062f53f5435973e7c93",
+    "pdf_metadata": {
+      "title": "Comprehensive Analyses of PPP-B2b Performance in China and Surrounding Areas",
+      "author": "Yan Liu, Cheng Yang and Mengni Zhang",
+      "subject": "BeiDou Global Navigation Satellite System (BDS-3) provides a regional Precise Point Positioning (PPP) service, called PPP-B2b, for users in China and surrounding areas through B2b signal transmitted from its three geostationary earth orbit (GEO) satellites. The information broadcasted by the B2b signal include satellite orbit corrections, satellite clock offset corrections, and differential code bias (DCB) corrections of BDS-3 satellites. In this study, the accuracies of PPP-B2b corrections along with real-time PPP performance are comprehensively evaluated referenced to precise orbit and clock products from GFZ and the precise DCB products from CAS. The result indicates that the accuracy of the BDS-3 broadcast orbit is similar to that of the PPP-B2b real-time orbit. The PPP-B2b clock offset correction improved the satellite clock offset precision of the BDS-3 broadcast ephemeris. The Signal-in-Space Range Error (SISRE) of broadcast ephemeris and PPP-B2b are calculated, which are 0.536 and 1.24 m, respectively. The large SISRE value of PPP-B2b is caused by the satellite-specified systematic bias to IGS final products. The positioning performance evaluation of real-time PPP with B2b service is carried out and compared with the real-time product provided by Wuhan University (WHU) based on the eight IGS MGEX stations in China and surrounding countries. The positioning accuracy of static positioning mode with PPP-B2b service achieved centimeter-level accuracy in the selected station, and that of kinematic positioning mode achieved decimeter-level accuracy. The availability rate of PPP-B2b corrections in the surrounding area of China, however, degrades from 88.76% to 60.91% in the selected stations. The accuracy of the PPP solution using PPP-B2b correction is better than that of using WHU real-time product within China. The positioning performance of stations located at the boundary of the PPP-B2b service area, however, is affected by the number of PPP-B2b available satellites. The positioning accuracy in kinematic positioning mode is worse than that of using WHU real-time precise product.",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.21"
+    },
+    "page_count": 28,
+    "pages_extractable": 28,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:45:53.343397",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4539,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 4400,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 1741,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 3442,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 3334,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 2762,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 3705,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 1627,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 156,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 1714,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 2160,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 277,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 808,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 1574,
+        "not_extractable": false
+      },
+      {
+        "page": 15,
+        "chars": 3348,
+        "not_extractable": false
+      },
+      {
+        "page": 16,
+        "chars": 149,
+        "not_extractable": false
+      },
+      {
+        "page": 17,
+        "chars": 1824,
+        "not_extractable": false
+      },
+      {
+        "page": 18,
+        "chars": 1224,
+        "not_extractable": false
+      },
+      {
+        "page": 19,
+        "chars": 1576,
+        "not_extractable": false
+      },
+      {
+        "page": 20,
+        "chars": 186,
+        "not_extractable": false
+      },
+      {
+        "page": 21,
+        "chars": 1917,
+        "not_extractable": false
+      },
+      {
+        "page": 22,
+        "chars": 203,
+        "not_extractable": false
+      },
+      {
+        "page": 23,
+        "chars": 1634,
+        "not_extractable": false
+      },
+      {
+        "page": 24,
+        "chars": 1911,
+        "not_extractable": false
+      },
+      {
+        "page": 25,
+        "chars": 2879,
+        "not_extractable": false
+      },
+      {
+        "page": 26,
+        "chars": 4001,
+        "not_extractable": false
+      },
+      {
+        "page": 27,
+        "chars": 5273,
+        "not_extractable": false
+      },
+      {
+        "page": 28,
+        "chars": 2944,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Pan_Lin_2025_bds_b2b_and_has": {
+    "paper_id": "Pan_Lin_2025_bds_b2b_and_has",
+    "source_file": "paper\\2025--Pan Lin--BDS B2b and HAS.pdf",
+    "file_hash": "8d217cc9822ce4ac33b60d51bb3f88afff2612158b2a173bf114438e9a80e29b",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": "Adobe InDesign 18.3 (Windows)",
+      "producer": "Adobe PDF Library 17.0; modified using iText® 5.5.13.4 ©2000-2024 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 11,
+    "pages_extractable": 11,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:45:55.238054",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4069,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 5579,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 4878,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 5581,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 4765,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 2840,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 3143,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 2376,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 2791,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 5672,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 6316,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Zhao_Lewen_2025_python_toolbox_for_bds_b2b": {
+    "paper_id": "Zhao_Lewen_2025_python_toolbox_for_bds_b2b",
+    "source_file": "paper\\2025--Zhao Lewen--Python toolbox for BDS  B2b.pdf",
+    "file_hash": "02fb7a313b6d4c6510f0de5b969052efffe45b3c16daf7d29746deb268d44147",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": "Adobe InDesign 18.3 (Windows)",
+      "producer": "Adobe PDF Library 17.0; modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 10,
+    "pages_extractable": 10,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:45:59.164484",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4129,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 5623,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 3476,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 276,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 2731,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 1116,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 2145,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 411,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 6085,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 1089,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat": {
+    "paper_id": "Tang_Chenggan_2022_orbit_determination_clock_estimation_and_performance_evaluat",
+    "source_file": "paper\\2022--Tang Chenggan--Orbit determination, clock estimation and performance evaluation.pdf",
+    "file_hash": "86bba41274f88faa14d9e35a1fa7e2df7ee352cf6d3a8d33b5536245edcd573b",
+    "pdf_metadata": {
+      "title": "Orbit determination, clock estimation and performance evaluation of BDS-3 PPP-B2b service",
+      "author": "Chengpan Tang ",
+      "subject": "Journal of Geodesy, https://doi.org/10.1007/s00190-022-01642-9",
+      "creator": "Springer",
+      "producer": "Acrobat Distiller 10.1.8 (Windows)"
+    },
+    "page_count": 17,
+    "pages_extractable": 17,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:46:03.763076",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3255,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 5609,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 4829,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 3544,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 5408,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 4109,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 4314,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 554,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 2545,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 2748,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 2185,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 4563,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 931,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 3509,
+        "not_extractable": false
+      },
+      {
+        "page": 15,
+        "chars": 1775,
+        "not_extractable": false
+      },
+      {
+        "page": 16,
+        "chars": 6772,
+        "not_extractable": false
+      },
+      {
+        "page": 17,
+        "chars": 1802,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Pedro_Pintor_2023_testing_galileo_high-accuracy_service_has_in_marin": {
+    "paper_id": "Pedro_Pintor_2023_testing_galileo_high-accuracy_service_has_in_marin",
+    "source_file": "paper\\2023--Pedro Pintor--Testing_Galileo_High-Accuracy_Service_HAS_in_Marin.pdf",
+    "file_hash": "9026c60a8304bb08812cd0bee51dcde54c4b112e07e141f16449a27ea25a1d0d",
+    "pdf_metadata": {
+      "title": "Testing Galileo High-Accuracy Service (HAS) in Marine Operations",
+      "author": "Pedro Pintor, Manuel Lopez-Martinez, Emilio Gonzalez, Jan Safar and Ronan Boyle",
+      "subject": "Global Navigation Satellite System (GNSS) technology supports all phases of maritime navigation and serves as an integral component of the Automatic Identification System (AIS) and, by extension, Vessel Traffic Service (VTS) systems. However, the accuracy of standalone GNSS is often insufficient for specific operations. To address this limitation, various regional and local-area solutions have been developed, such as Differential GNSS (DGNSS), Satellite Based Augmentation Service (SBAS) and Real Time Kinematic (RTK) techniques. A notable development in this field is the recent introduction of the Galileo High-Accuracy Service (HAS), which saw its initial service declared operational by the European Commission (EC) on 24 January 2023. Galileo HAS provides high-accuracy Precise Point Positioning (PPP) corrections (orbits, clocks and signal biases) for Galileo and GPS, enhancing real-time positioning performance at no additional cost to users. This article presents the results of the first Galileo HAS testing campaign conducted at sea using a buoy-laying vessel temporarily equipped with a Galileo HAS User Terminal. The results presented in this Article include accuracy and position availability performance achieved using the Galileo HAS User Terminal. The article also highlights challenges posed by high-power radio-frequency interference, which likely originated from the Long-Range Identification and Tracking (LRIT) system antenna on board the vessel. Furthermore, the article provides additional assessments for different phases of navigation, demonstrating better performance in slow-motion scenarios, particularly relevant to mooring and pilotage applications. In these scenarios, values for horizontal accuracy reached 0.22 m 95% and 0.13 m 68% after removing interference periods. These results are in line with the expectations outlined in the Galileo HAS Service Definition Document (SDD).",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.25"
+    },
+    "page_count": 13,
+    "pages_extractable": 13,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:46:05.011317",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4406,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 3311,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 2986,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 2004,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 4141,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 1136,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 2733,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 2104,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 3063,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 2139,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 4110,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 5499,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 768,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo": {
+    "paper_id": "Zhou__Linghao_2025_practical_performance_assessment_of_water_vapor_mo",
+    "source_file": "paper\\2025--Zhou  Linghao --Practical_Performance_Assessment_of_Water_Vapor_Mo.pdf",
+    "file_hash": "4dea22b1be6956c1e082dba59fc1557f9a3222e94d100cc80c712535e7bac8bd",
+    "pdf_metadata": {
+      "title": "Practical Performance Assessment of Water Vapor Monitoring Using BDS PPP-B2b Service",
+      "author": "Linghao Zhou, Enhong Zhang, Hong Liang, Zuquan Hu, Meifang Qu, Xinxin Li and Yunchang Cao",
+      "subject": "BeiDou navigation satellite system (BDS) precise point positioning (PPP)-B2b has significant potential for application in meteorological fields, such as standalone water vapor monitoring in depopulated area without Internet. In this study, the practical ability of water vapor monitoring using the BDS PPP-B2b service is illustrated through a continuously operated water vapor monitoring system in Wuhan, China, with a 25-day experiment in 2025. Original observations from the Global Positioning System (GPS) and BDS are collected and processed in the near real-time (NRT) mode using ephemeris from the PPP-B2b service. Precipitable water vapor PWV monitored with B2b ephemeris are evaluated with radiosonde and ERA5 reanalysis, respectively. Taking PWV from radiosonde observations as the reference, RMS of PWV based on B2b ephemeris varies from 3.71 to 4.66 mm for different satellite combinations. While those values are with a range from 3.95 to 4.55 mm when compared with ERA5 reanalysis. These values are similar to those processed with the real-time ephemeris from the China Academy of Science (CAS). In general, this study demonstrates that the practical accuracy of water vapor monitored based on the BDS PPP-B2b service can meet the basic demand for operational meteorology for the first time. This will provide a scientific reference for its wide promotion to meteorological applications in the near future.",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.25; modified using OpenPDF 1.4.2"
+    },
+    "page_count": 15,
+    "pages_extractable": 15,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:46:07.281985",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 3666,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 4214,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 2705,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 1373,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 2099,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 3718,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 2055,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 1894,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 2986,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 1541,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 1756,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 3531,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 2521,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 5730,
+        "not_extractable": false
+      },
+      {
+        "page": 15,
+        "chars": 4495,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Taro_Suzuki_2023_evaluation_of_l6_augmentation_signal_reception_cha": {
+    "paper_id": "Taro_Suzuki_2023_evaluation_of_l6_augmentation_signal_reception_cha",
+    "source_file": "paper\\2023--Taro Suzuki--Evaluation_of_L6_augmentation_signal_reception_cha.pdf",
+    "file_hash": "b2fd4a8bcdea8d3662c87a58f4a97e3c908af1987a92c3d095cc953f0e0880f0",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 14,
+    "pages_extractable": 14,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:46:14.148932",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4104,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 6582,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 4092,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 4846,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 2545,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 1547,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 3270,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 1741,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 1477,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 3992,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 1190,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 5107,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 3489,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 4151,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b": {
+    "paper_id": "Yangyuanxi_2022_principle_andperformance_ofbdsbas-b2b",
+    "source_file": "paper\\2022--Yangyuanxi--Principle and performance of BDSBAS-B2b.pdf",
+    "file_hash": "b2e30e52ae9ab1a0a76ef9ec1f24541ebbdd454b125274f5beca306936b8e896",
+    "pdf_metadata": {
+      "title": "Principle and performance of BDSBAS and PPP-B2b of BDS-3",
+      "author": "Yuanxi Yang ",
+      "subject": "Satellite Navigation, https://doi.org/10.1186/s43020-022-00066-2",
+      "creator": "Springer",
+      "producer": "Acrobat Distiller 10.1.8 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 10,
+    "pages_extractable": 10,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:46:15.754434",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 650,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 4677,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 5676,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 5670,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 4586,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 3858,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 5098,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 3470,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 7737,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 698,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic": {
+    "paper_id": "Jianfei Zang1_2024_performance_assessment_of_the_bds-3_ppp-b2b_servic",
+    "source_file": "paper\\2024--Jianfei Zang1--Performance_assessment_of_the_BDS-3_PPP-B2b_servic.pdf",
+    "file_hash": "1cc4ddb47cd58364190b5e0c5d9c0193f9db72f58bedaff446bf032e18b4506e",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 14,
+    "pages_extractable": 14,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-21T18:47:08.029308",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4161,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 5781,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 4295,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 5371,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 2459,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 4437,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 1608,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 2436,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 3363,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 313,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 6060,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 7685,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 2378,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 4151,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf": {
+    "paper_id": "Peida Wu_2023_evaluation_of_real-time_kinematic_positioning_perf",
+    "source_file": "paper\\2023--Peida Wu--Evaluation_of_real-time_kinematic_positioning_perf.pdf",
+    "file_hash": "32a3063a699d56e5d3214bf45f9f22817a3b0098b9b4d3e31f018ec78d6896df",
+    "pdf_metadata": {
+      "title": null,
+      "author": null,
+      "subject": null,
+      "creator": null,
+      "producer": "iText® 5.5.8 ©2000-2015 iText Group NV (SPRINGER SBM; licensed version)"
+    },
+    "page_count": 15,
+    "pages_extractable": 15,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-22T14:28:15.423415",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4153,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 5452,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 4901,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 3424,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 4713,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 3347,
+        "not_extractable": false
+      },
+      {
+        "page": 7,
+        "chars": 1914,
+        "not_extractable": false
+      },
+      {
+        "page": 8,
+        "chars": 2194,
+        "not_extractable": false
+      },
+      {
+        "page": 9,
+        "chars": 2746,
+        "not_extractable": false
+      },
+      {
+        "page": 10,
+        "chars": 710,
+        "not_extractable": false
+      },
+      {
+        "page": 11,
+        "chars": 4429,
+        "not_extractable": false
+      },
+      {
+        "page": 12,
+        "chars": 6848,
+        "not_extractable": false
+      },
+      {
+        "page": 13,
+        "chars": 4989,
+        "not_extractable": false
+      },
+      {
+        "page": 14,
+        "chars": 1251,
+        "not_extractable": false
+      },
+      {
+        "page": 15,
+        "chars": 4151,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  },
+  "unknown_bf38f037af8e": {
+    "paper_id": "unknown_bf38f037af8e",
+    "source_file": "paper\\Research_on_Quad-Frequency_PPP-B2b_Time_Transfer.pdf",
+    "file_hash": "20740191aaf109bf288285acd9dee7f7c8280a45f251be940dc104f886dba122",
+    "pdf_metadata": {
+      "title": "Research on Quad-Frequency PPP-B2b Time Transfer",
+      "author": null,
+      "subject": "IEEE Instrumentation & Measurement Magazine;2024;27;1; ",
+      "creator": "Adobe InDesign 14.0 (Windows)",
+      "producer": "Adobe PDF Library 15.0; modified using iText® Core 7.2.4 (AGPL version) ©2000-2022 iText Group NV"
+    },
+    "page_count": 6,
+    "pages_extractable": 6,
+    "pages_not_extractable": 0,
+    "not_extractable_page_list": [],
+    "ocr_derived_pages": [],
+    "needs_ocr": false,
+    "extraction_method": "PyMuPDF/fitz + pypdf",
+    "extraction_timestamp": "2026-05-22T16:09:44.910432",
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 4929,
+        "not_extractable": false
+      },
+      {
+        "page": 2,
+        "chars": 5086,
+        "not_extractable": false
+      },
+      {
+        "page": 3,
+        "chars": 2928,
+        "not_extractable": false
+      },
+      {
+        "page": 4,
+        "chars": 2879,
+        "not_extractable": false
+      },
+      {
+        "page": 5,
+        "chars": 4240,
+        "not_extractable": false
+      },
+      {
+        "page": 6,
+        "chars": 4452,
+        "not_extractable": false
+      }
+    ],
+    "warnings": []
+  }
+}

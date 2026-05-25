@@ -1,0 +1,148 @@
+Ge_yulong_2024_an_investigation_ofppp_time_transfer_viabds3_pppb2b_service:
+  title: An investigation of PPP time transfer via BDS-3 PPP-B2b service
+  flow: Collect 29 days of experimental data; analyze satellite orbit and clock quality;
+    perform time transfer using BDS-3 PPP, GPS PPP, and BDS-3/GPS PPP with PPP-B2b
+    corrections; compare results with CNES real-time products.
+  steps:
+  - Data collection (29 days)
+  - Quality analysis of PPP-B2b orbit and clock corrections
+  - Time transfer using BDS-3 PPP with PPP-B2b
+  - Time transfer using GPS PPP with PPP-B2b
+  - Time transfer using BDS-3/GPS PPP with PPP-B2b
+  - Comparison with CNES real-time product-based time transfer
+  - Recover satellite orbit using Eq.(1) combining broadcast ephemeris and PPP-B2b
+    RAC correction
+  - Recover satellite clock using Eq.(2) combining broadcast clock and PPP-B2b clock
+    correction
+  - Apply OSB corrections to pseudorange observations as indicated by PPP-B2b
+  - Formulate ionosphere-free pseudorange (Eq.3) and carrier phase (Eq.4) observations
+  - Estimate coordinates, receiver clock, zenith wet delay, and phase ambiguities
+  - Perform PPP time transfer analysis
+  - Receive dual-frequency GPS/BDS-3 observations and PPP-B2b SSR messages from GEO
+    satellites.
+  - Decode PPP-B2b corrections and recover precise orbit/clock.
+  - Apply OSB corrections to pseudorange measurements.
+  - Form ionosphere-free combined observations with elevation-dependent weighting
+    including URA.
+  - Estimate receiver clock offset (time difference to BDT) using PPP.
+  - Compute time transfer between stations by differencing the clock offsets.
+  - Use two MGEX stations (USUD, CUSV) for PPP time transfer with PPP-B2b service,
+    compare with CNES real-time products.
+  - Recovery of precise products from PPP-B2b + broadcast ephemeris
+  - PPP processing with receiver clock as white noise
+  - Time transfer solution generation
+  - Comparison with CNES, WUU, WUM products
+  - Acquire dual-frequency GNSS observations
+  - Apply PPP-B2b, CNES real-time, or WUM final corrections
+  - Run Kalman filter with specified stochastic models
+  - Handle inter-system bias for combined BDS-3/GPS
+  - Weight MEO:GEO as 10:1
+  - Calculate time transfer solutions and compare with reference
+  - Assess STD and MDEV
+  - Perform PPP with B2b, CNES, WUM, WUU products on GPS observations from CUSV and
+    USUD
+  - Compute clock differences for time transfer
+  - Compare solutions to IGS final clock products as reference
+  - Evaluate availability, STD, and mean bias
+  - 收集 PPP-B2b 改正数
+  - 恢复精密轨道和钟差
+  - 与 CNES、WUU、WUM 产品对比
+  - 计算 GPS/BDS-3 PPP 收敛时间
+  - 评估时间传递的频率稳定度（MDEV）
+  - Process BDS-3/GPS observations at CUSV and USUD stations with different product
+    streams.
+  - Compute clock offsets and time transfer.
+  - Evaluate precision (STD) and frequency stability.
+  tools:
+  - NOT_MENTIONED
+  - BNC software
+  - MG-APP
+Maosen_Hao_2020_pppperformanceevaluationofqzsscentimeterlevelaugmentationser:
+  title: Precise Point Positioning Performance Evaluation of QZSS Centimeter Level
+    Augmentation Service
+  flow: Post static PPP using L6 augmentation corrections from QZSS, performed on
+    data from four MGEX stations in Japan, and compared with results obtained using
+    QZSS final orbit and clock products.
+  steps:
+  - Collect QZSS CLAS L6 augmentation messages
+  - Acquire MGEX station observation data (AIRA, STK2, TSK2, USUD)
+  - Apply orbit, clock, phase bias, code bias, troposphere, ionosphere corrections
+    from CLAS
+  - Perform post static PPP
+  - Compare corrected orbit/clock accuracy against QZSS final products
+  - Compare positioning accuracy against final-product-based PPP
+  - 下载 QZSS L6 文件
+  - 解析 Compact SSR 改正数（轨道、钟差、码偏差、相位偏差）
+  - 计算 SIS User Range Error
+  - 执行双频 PPP 解算
+  - 评估定位性能
+  - Obtain L6D augmentation information
+  - Recover precise orbit and clock error using broadcast ephemeris and CLAS corrections
+  - Apply code and phase bias corrections (Type 6)
+  - Apply ionospheric and tropospheric corrections (Types 8 & 9) for users in Japan
+  - Recovery of real-time precise orbit via radial/along/cross corrections transformed
+    to ECEF.
+  - Recovery of real-time precise clock via correction C0 applied to broadcast clock.
+  - 统一时间系统为GPST，坐标基准为ITRF2008
+  - 使用IGS14天线文件，通过双频电离层组合将卫星天线相位中心改正至质心
+  - 计算轨道在径向、沿迹和法向的误差并统计RMS
+  - 采用二次差分法去除钟差基准影响，计算卫星钟差误差RMS
+  - 利用SISURE公式(2.4)计算每颗卫星的SISURE，并统计RMS
+  - Collect CLAS L6 correction messages
+  - Compare orbit components (radial, along-track, cross-track) and clock offsets
+    with final products
+  - Compute RMS and SISURE statistics
+  - Select MGEX stations AIRA, STK2, TSK2, USUD
+  - Obtain QZSS L6D products and QZSS precise orbit/clock products
+  - Perform dual-frequency ionosphere-free PPP with broadcast ephemeris corrected
+    by L6D (CLAS plan) or precise products (QZSS plan)
+  - Apply CLAS corrections for code bias and phase bias (CLAS plan), use Code DCB
+    correction (QZSS plan)
+  - Compare resulting coordinates with IGS SINEX solution and compute E, N, U deviations
+  - Compute L6D augmentation precision (clock offset, radial, along-track, cross-track,
+    3D, SISURE)
+  - Perform static PPP at four stations using L6D corrections
+  - Perform static PPP using QZSS final precise products as baseline
+  - Compare RMS positioning errors in East, North, Up, and Horizontal components
+  tools:
+  - NOT_MENTIONED
+Ruohua_Lan_2022_evaluation_of_bds-3_b1cb2b_singledual-frequency_pp:
+  title: Evaluation of BDS-3 B1C/B2b Single/Dual-Frequency PPP Using PPP-B2b and RTS
+    SSR Products in Both Static and Dynamic Applications
+  flow: Collect real-time orbit/clock products from PPP-B2b and IGS RTS; process static
+    and kinematic PPP with BDS-3 single/dual-frequency observations; compare positioning
+    accuracy and correction accuracy.
+  steps:
+  - Orbit and clock recovery from PPP-B2b corrections
+  - Accuracy evaluation of orbit and clock products
+  - Kinematic dual-/single-frequency PPP positioning assessment
+  - Collect PPP-B2b and IGS RTS orbit/clock SSR products
+  - Gather static observation data from MGEX stations
+  - Perform single/dual-frequency PPP using sequential least squares with GIM ionospheric
+    constraint
+  - Compare orbit/clock errors and positioning results
+  - Obtain MGEX RINEX observations and weekly SINEX coordinates as reference
+  - Align orbit/clock products to common coordinate and time systems
+  - Apply DCB corrections to B1C observations
+  - Process static PPP with ionosphere-free combination (dual-frequency) and ionosphere
+    estimation (single-frequency)
+  - Compare BDS-3 vs GPS
+  - Analyze satellite availability, PDOP, and (later) accuracy metrics
+  - Collect PPP-B2b real-time SSR corrections
+  - Compute orbit and clock accuracy statistics (RMSE, STD) relative to reference
+    products
+  - Process dual-frequency PPP (B1I+B3I for BDS, unspecified for GPS) at four MGEX
+    stations using PPP-B2b products
+  - Compare PPP solutions with SINEX weekly solutions
+  - Evaluate positioning accuracy (RMSE) in E/N/U components
+  - NOT_MENTIONED
+  - Acquire real-time SSR products (PPP-B2b and IGS RTS from CAS, DLR, GFZ, WHU)
+  - Apply real-time single-/dual-frequency PPP models
+  - Evaluate orbit/clock accuracy
+  - Assess RT-PPP positioning accuracy and convergence in static (MEGX) and dynamic
+    (vehicle) modes
+  - Compare BDS-3 PPP-B2b performance with GPS and dual-frequency combinations
+  tools:
+  - BNC Ver2.12.17
+  - NOT_MENTIONED
+  - Inertial Explorer software

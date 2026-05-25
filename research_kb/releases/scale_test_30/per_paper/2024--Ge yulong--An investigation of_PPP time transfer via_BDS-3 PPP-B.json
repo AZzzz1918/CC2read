@@ -1,0 +1,12 @@
+{
+  "product_source": "MIXED_PRODUCTS",
+  "paper_type": "downstream_b2b_application",
+  "is_ppp_b2b_core_paper": true,
+  "domain_relevance": "core_ppp_b2b",
+  "classification_reason": "The paper investigates real-time PPP time transfer using BDS-3 PPP-B2b service, comparing with CNES real-time products, which is a core application of the PPP-B2b service.",
+  "boundary_risk": false,
+  "needs_full_audit": false,
+  "source_file": "2024--Ge yulong--An investigation of PPP time transfer via BDS‑3 PPP‑B2b service.pdf",
+  "paper_id": "2024--Ge yulong--An investigation of PPP time transfer via BDS‑3 PPP‑B",
+  "extraction_mode": "batch_classify_1call"
+}

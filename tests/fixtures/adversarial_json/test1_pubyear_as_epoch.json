@@ -1,0 +1,82 @@
+{
+  "paper_id": "test1_pubyear_as_epoch",
+  "source_file": "paper/test1.pdf",
+  "file_hash": "abc123",
+  "bibliographic_info": {
+    "title": "Evaluation of Real-Time PPP Using IGS RTS Products",
+    "authors": [{"name": "John Smith", "affiliation": "Example University"}],
+    "year": 2022,
+    "journal_or_venue": "Journal of Geodesy",
+    "doi": "10.1000/test1"
+  },
+  "product_source": {
+    "claimed": "IGS RTS products",
+    "actual": "IGS_RTS_OR_CLK93",
+    "provider": "CDDIS NTRIP",
+    "grounding_quotes": [
+      "The observation data span covers DOY 180 to DOY 210 in 2021"
+    ],
+    "conflict_flag": false
+  },
+  "mathematical_model": {
+    "processing_mode": "DUAL_FREQUENCY_IF_COMBINATION",
+    "observation_model": "Standard IF PPP",
+    "grounding_quotes": []
+  },
+  "ionospheric_handling": {
+    "strategy": "IF combination eliminates first-order ionospheric delay",
+    "dcb_source": "NOT_MENTIONED",
+    "dcb_missing_flag": true
+  },
+  "correction_types": {
+    "orbit_correction": "IGS RTS",
+    "clock_correction": "IGS RTS",
+    "grounding_quotes": []
+  },
+  "research_problem": {"problem_statement": "Evaluate PPP with IGS RTS"},
+  "technical_route": {"overall_flow": "", "key_steps": [], "grounding_quotes": []},
+  "method": {"method_name": "Standard IF PPP"},
+  "formulas": [],
+  "experiments": [{"experiment_id": "exp1", "description": "Static PPP test", "grounding_quotes": []}],
+  "experiment_epoch": {
+    "start_date": "2022-06-01",
+    "end_date": "2022-06-01",
+    "duration_days": 0,
+    "is_publication_year_mistake": false,
+    "grounding_quotes": []
+  },
+  "datasets": {
+    "stations": ["10 MGEX stations in Europe"],
+    "satellite_systems": ["GPS", "GLONASS"],
+    "observation_types": ["L1", "L2"],
+    "sampling_rate": "30s",
+    "grounding_quotes": []
+  },
+  "metrics": {
+    "convergence_time": "NOT_MENTIONED",
+    "rms_3d": "NOT_MENTIONED",
+    "std_enu": "NOT_MENTIONED",
+    "grounding_quotes": []
+  },
+  "main_results": {"summary": "PPP with IGS RTS works", "grounding_quotes": []},
+  "novelty_audit": {
+    "claimed_novelty": "NOT_MENTIONED",
+    "audit_grade": "C_ENGINEERING_TRANSFER",
+    "grounding_quotes": []
+  },
+  "reproducibility_audit": {
+    "public_observation_data": "NOT_MENTIONED",
+    "b2b_replay_capability": "NOT_MENTIONED",
+    "correction_archive": "NOT_MENTIONED",
+    "stochastic_model_params": "NOT_MENTIONED",
+    "kalman_filter_config": "NOT_MENTIONED",
+    "code_repository": "NOT_MENTIONED",
+    "run_entry_point": "NOT_MENTIONED",
+    "config_files": "NOT_MENTIONED",
+    "metric_definitions": "NOT_MENTIONED",
+    "baseline_details": "IGS final products",
+    "reproduction_blockers": ["No code, data, or config provided"],
+    "reproducibility_score": 1,
+    "grounding_quotes": []
+  }
+}

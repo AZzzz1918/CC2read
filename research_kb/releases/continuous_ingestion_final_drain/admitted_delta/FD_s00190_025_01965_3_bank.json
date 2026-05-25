@@ -1,0 +1,104 @@
+[
+  {
+    "quote_id": "qb_a6f32aac54",
+    "span_index": 0,
+    "text": "JournalofGeodesy(2025)99:42\nhttps://doi.org/10.1007/s00190-025-01965-3\nORIGINAL ARTICLE\nSingle-station-augmented PPP-B2b considering the satellite-specific\nclock bias via short-message communication\nHaijun Yuan1·Zhetao Zhang1 ·Xiufeng He1·Hao Wang1\nReceived:11September2024/Accepted:14April2025/Publishedonline:26May2025\n©Springer-VerlagGmbHGermany,partofSpringerNature2025\nAbstract\nBeiDouGlobalNavigationSatelliteSystem(BDS-3)PPP-B2bservicegreatlypromotesthereal-timeprecisepointpositioning\napplications.However,previousresearchworkshaverevealedthatanonnegligiblesatellite-specificclockbias(SCB)exis",
+    "char_length": 3893
+  },
+  {
+    "quote_id": "qb_82f770c230",
+    "span_index": 1,
+    "text": "42 Page 2 of 17 H.Yuanetal.\nsignificantlyaffectedbythelimitedland-basedcommunica- usage and only act as a post-processing analysis manner\ntion and network outage when they use the Internet-based since PPP-B2b is a real-time and Internet-independent ser-\nRT-PPP. In this case, the satellite-based RT-PPP without vice.Besides,Xuetal.(2023)parameterizetheSCBasan\nregardtoInternetishighlighted.Thesatellite-basedRT-PPP unknownparameterandestimateitinrealtime.However,the\nmainly includes three categories. First, the RT-PPP using observationmodelisrank-deficientandhasexcessiveparam-\nGPSandGalileobroadcas",
+    "char_length": 5244
+  },
+  {
+    "quote_id": "qb_9c5008cce1",
+    "span_index": 2,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 3 of 17 42\n2.1 ExtractionofSDSCBwithsinglereference unknownintegerambiguityinphaseobservations,thecode\nstation observationsareusedtoextracttheSDSCB.Togeneratethe\naugmentation corrections for the covered area, one usually\nTheundifferencedanduncombinedGNSSobservationequa- needsaregionalCORSnetwork.However,theestablishment\ntion can be formulated as follows (Leick et al. 2015; andmaintenanceofaCORSnetworkofspatiallydenseref-\nTeunissenandMontenbruck2017) erence stations will involve significant costs. The proposed\nmethodallowsaugmentedPP",
+    "char_length": 5094
+  },
+  {
+    "quote_id": "qb_b17ff821ac",
+    "span_index": 3,
+    "text": "42 Page 4 of 17 H.Yuanetal.\n2.2 AugmentedPPP-B2bwithSCB-weightedmodel delayatsatelliteandreceiverend,andtheIFcodehardware\ndelay at receiver end. At this time, an estimable SCB-float\nTo apply the extracted SCB augmentation information, the modelisformulated,whichmeansthatallunknownparam-\nPPPfunctionalmodelconsideringtheSCBisintroducedfirst. eters are independent in Eq. (9). However, an estimable\nThedual-frequencyIFPPPobservationequationforagiven equationmaynotensurethatitsunknownparameterscanbe\nsystemcanbeformulatedasfollows solvedwiththeobservationsinhands(Lietal.2019).Thatis,\ntheunknownparame",
+    "char_length": 4644
+  },
+  {
+    "quote_id": "qb_540a2eba8f",
+    "span_index": 4,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 5 of 17 42\n⎡ ⎤\n⎡ ⎤ ⎡ ⎤⎢\nxr\n⎥\ninvestigation. The constraints of prior SCB augmentation\n⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎣ wh p l p l p l m e k n m k n , , r , , , , G C G G e C G ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎦ p (cid:2) m ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎣ ,G e e e e m m n n u u ⊗ ⊗ ⊗ ⊗ k k (cid:2) , , u u u u G G m m n n , , , , C C G G [p e e 0 0 1 1 m m 1,G e e 0 0 0 0 n n , M M · M M M M · m m k k n n · , , , , , , , G G C C G G p E m 0 0 0 0 0 m ,G E ] 0 0 0 0 0 T n 0 0 0 0 0 1 a E E n 0 0 0 0 m m d ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎦ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎣ lm S Z , N N",
+    "char_length": 5374
+  },
+  {
+    "quote_id": "qb_99b5235d11",
+    "span_index": 5,
+    "text": "42 Page 6 of 17 H.Yuanetal.\nTable1 Encodingstrategyof\nSCBaugmentationinformation Datafield Range Resolution Size Encodingstrategy\nusingBDS-3SMC\nSimplifiedGPSweek 1~1024 1week 10 d2b[simplifiedGPSweek]\nbits\nGPSsecond 0~604,800 1s 20 d2b[GPSsecond]\nbits\nReferencesatellite 1~32 1 5bits d2b[satellitePRN]\nNumberofroversatellites 1~16 1 4bits d2b[numberofsatellites]\nRoversatellite 1~32 1 5bits d2b[satellitePRN]\nCorrectionτ 0 −8.192~8.191m 1mm 14 d2b[(1000×τ 0+8192)]\nbits\nPrecisionσ τ 0~0.511m 1mm 9bits d2b[(1000×σ τ )]\n0 0\nOtherroversatellites … … … …\nd2b[*]isafunctionforconvertingavariablefromadeci",
+    "char_length": 4122
+  },
+  {
+    "quote_id": "qb_a4207f86fe",
+    "span_index": 6,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 7 of 17 42\nFig.1 EncodedglobalSMCmessagestructureofSCBaugmentationinformationforonebroadcastepoch.Thelengthoftotalmessageis560bits.\nThestartlabelmarksthestartingpointforuserdecoding.TheCRCisusedforinformationcorrectnesscheck\nTable2 ProcessingstrategiesofextractingtheSDSCBforHHD1\nItem Strategy\nObservation GPSL1/L2IFcodeobservations\nSamplinginterval 1s\nSatelliteorbitandclock Broadcastephemeriswiththe\nPPP-B2bcorrections\nQualitycontrol CodeconsistencyandSNRcheck\n(Chengetal.2024)\nReferencesatellite Selectedbythehighestelevation\nTroposphe",
+    "char_length": 2698
+  },
+  {
+    "quote_id": "qb_1693220c8e",
+    "span_index": 7,
+    "text": "42 Page 8 of 17 H.Yuanetal.\nFig.3 ExtractedSDSCBseriesofG04,G05,G06,G09,G11,G12,G14,andG20satelliteswithtakingG19asthereferencesatellite\nsatellite. Hence, it validates the feasibility of encoding and highestelevation,thesatellitesk andk areseenduringthe\n1 2\nbroadcastingtheSCBaugmentationinformationviaBDS-3 twoarcs.AfterthealignmentofSDSCBseries,Fig.5gives\nSMC. theSTDofextractedSDSCBseriesforeachsatellite.The\nTocalculatetheSTDofextracteddaylongSDSCBseries STDofextractedSDSCBseriesisnotsatellite-typedepen-\nforeachsatellite,therealignmentofSDSCBseriesincase dent and varies from 0.11 to 0.28 ns wi",
+    "char_length": 2103
+  },
+  {
+    "quote_id": "qb_c3565f0f86",
+    "span_index": 8,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 9 of 17 42\nFig.4 ExtracteddaylongSD\nSCBseriesofallsatellites.Itis\nnotedthattheSDSCBseriesof\neachsatelliteareshiftedby10ns\ntoseparatetheseries\nFig.5 STDoftheextractedSD\nSCBseriesforeachsatellite\n3.2 ResultandanalysisoftheaugmentedPPP-B2b positioning test, static, and kinematic positioning tests are\nusingtheSCB-weightedmodel conductedtoverifythesuperiorityofSCB-weightedmodel\nintermsofpositioningaccuracy,(re-)convergencetime,and\nIn this section, the data processing strategies of PPP- residualreduction.\nB2b positioning are given. Then, ",
+    "char_length": 627
+  },
+  {
+    "quote_id": "qb_2e04b6dece",
+    "span_index": 9,
+    "text": "42 Page 10 of 17 H.Yuanetal.\nTable3 Processing strategies for the SCB-weighted and traditional\nPPP-B2bmodels\nItem Strategy\nObservation GPSL1/L2IFcodeandphaseobser-\nvations\nBDS-3B1I/B3IIFcodeandphase\nobservations\nSamplinginterval 1s\nEstimator Kalmanfilter\nWeightingforobservation Elevation-dependentweightingwith\naprioriprecisionof0.3and0.003\nmforrawcodeandphase\nobservations,respectively\nFig.6 SDSCBseriesofG01,G02,G07,G08,G14,andG21satellites.\nThepositionofredandgreenlinesdenotesthetimeintervalof10min Satelliteorbitandclock Broadcastephemeriswiththe\nandtheepochswitchingthereferencesatellite,respe",
+    "char_length": 3840
+  },
+  {
+    "quote_id": "qb_113ba399f1",
+    "span_index": 10,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 11 of 17 42\nthe untreated SCB will be absorbed into the code resid-\nuals after each (re-)convergence period for the traditional\nmodel.\nTable 4 lists the positioning accuracy and convergence\ntimestatisticsfortheSCB-weightedandthetraditionalmod-\nels.Theconvergencecriterionisdefinedasthefirsttimefor\nthe 3D positioning errors fall and remain within 20 cm for\n100 epochs in this study. It is noted that the statistics are\nmeanvaluesofRMScalculatedbythepositioningsolutions\nofallepochsinthefourpositioningperiodsinFig.7.From\nTable4,comparedwi",
+    "char_length": 3190
+  },
+  {
+    "quote_id": "qb_d0dfa169ad",
+    "span_index": 11,
+    "text": "42 Page 12 of 17 H.Yuanetal.\nTable4 Positioningaccuracy\nandconvergencetimestatistics Scheme E N U 3D Time\nforthetraditionalmodelandthe\nSCB-weightedmodelforHHD1. Traditional 0.077 0.111 0.298 0.327 29.2\nTheunitofpositioningaccuracy\nSCB-weighted 0.049 0.044 0.178 0.190 23.9\nandconvergencetimeismand\nImprovement 36.4% 60.4% 40.3% 41.9% 18.2%\nmin,respectively\nFig.9 Code(leftpanel)and\nphase(rightpanel)residualseries\nofG05,G06,G19,andG20\nsatellitesofthetraditional(blue\ndots)andSCB-weightedmodels\n(reddots)forHHD1.Fromtopto\nbottompanelaretheresultsof\nG05,G06,G19,andG20\nsatellites,respectively\nHence,the",
+    "char_length": 1921
+  },
+  {
+    "quote_id": "qb_5fa076c9a4",
+    "span_index": 12,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 13 of 17 42\nFig.12 Positioningerrorsofthetraditionalmodel(bluedots)andSCB-\nFig.11 Positioningerrorsofthetraditionalmodel(bluedots)andthe weighted(reddots)modelinE,N,U,and3DdirectionsforHHD2at\nSCB-weightedmodel(reddots)inE,N,U,and3DdirectionsforHHD2, theinitial1000epochsafterGPStime00:40,06:00,12:00,and18:00,\nrespectively respectively\nFigs. 11 and 12, it can be found that the positioning errors reducedfrom86.0to51.9minwitha39.7%improvement.\nattheinitialepochsoftheSCB-weightedmodelaresmaller Therefore,basedontheSCBaugmentationinformat",
+    "char_length": 2657
+  },
+  {
+    "quote_id": "qb_cc93fc94ed",
+    "span_index": 13,
+    "text": "42 Page 14 of 17 H.Yuanetal.\nFig.13 Coderesidualseriesof\neachsatelliteofthetraditional\nmodel(toppanel)andthe\nSCB-weightedmodel(bottom\npanel)forHHD2.Itisnotedthat\neachcoloreddotdenotesthe\nresultofeachsatellite\nthe(re-)convergenceperformanceofPPP-B2bpositioningis unit(IMU),theGNSS/INSdevicecanprovidehigh-precision\ninevitablydestroyedbytheuntreatedSCB.Itcanbefound position coordinates, attitude, and velocity data up to 100\nthattheresidualdistributionrangeofSCB-weightedmodel Hz.Inaddition,theexperimentaldatasetsofHHD1onDOY\nis smaller than that of the traditional model once again. In 251, 2023 are ",
+    "char_length": 3157
+  },
+  {
+    "quote_id": "qb_7c9afefc3e",
+    "span_index": 14,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 15 of 17 42\nFig.14 Redtrajectoryofthe\ndrivingroute(toppanel)andthe\nequipmentsetupscarriedonthe\nvehicle(bottompanel)forthe\nkinematicvehicleexperiment.\nThetopleftpaneldenotesone\ntypicalobservationsceneof\ndrivingbyanoverpassinurban\nenvironments\nFig.15 Positioningerrorsofthemovingbaselinelengthwithrespect\ntothereferencevaluebyusingthetraditionalmodel(bluedots)and\nSCB-weightedmodel(reddots)forHHD3.Thegraypaneldenotesthe\nperiodwherethevehicleisdrivingbyanoverpass Fig.16 Coderesidualseriesofallsatellitesusingthetraditionalmodel\n(top panel)",
+    "char_length": 1185
+  },
+  {
+    "quote_id": "qb_948dfbdda6",
+    "span_index": 15,
+    "text": "42 Page 16 of 17 H.Yuanetal.\n4 Conclusion Acknowledgements ThisworkissupportedbytheNationalNatural\nScienceFoundationofChina(42374014),FundamentalResearchFunds\nfor the Central Universities (B230205018), Postgraduate Research\nToenhancethereal-timepositioningperformanceusingthe\n& Practice Innovation Program of Jiangsu Province (422003240),\nPPP-B2bservice,asingle-station-augmentedPPP-B2bcon-\nNationalNaturalScienceFoundationofChina(42004014).Thanksto\nsideringtheSCBviatheBDS-3SMCfunctionisproposed. thereviewersandeditorsfortheirconstructivecomments.\nFirst, an easy-to-implement real-time extraction m",
+    "char_length": 5504
+  },
+  {
+    "quote_id": "qb_8960e17a35",
+    "span_index": 16,
+    "text": "Single-station-augmentedPPP-B2bconsideringthesatellite-… Page 17 of 17 42\nGuoW,ZuoH,MaoFetal(2022)Onthesatelliteclockdatumstability SunS,WangM,LiuCetal(2023)Long-termperformanceanalysis\nofRT-PPPproductanditsapplicationinone-waytimingandtime ofBDS-3precisepointpositioning(PPP-B2b)service.GPSSolut\nsynchronization.JGeod96:52 27:69\nHadasT,BosyJ(2015)IGSRTSpreciseorbitsandclocksverification Tang C, Hu X, Zhou S et al (2018) Initial results of centralized\nandqualitydegradationovertime.GPSSolut19:93–105 autonomousorbitdeterminationofthenew-generationBDSsatel-\nHauschildA,MontenbruckO,SteigenbergerPeta",
+    "char_length": 5992
+  }
+]

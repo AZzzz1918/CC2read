@@ -1,0 +1,8 @@
+{
+  "release": "CI-002",
+  "admitted": 7,
+  "quarantined": 0,
+  "admitted_before": 73,
+  "admitted_after": 80,
+  "wrong_support": 0
+}
